@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Wulf A. Kaal — Academic Papers & Knowledge Graph</title>
+    
+    <!-- SEO & Agent Discovery -->
+    <meta name="description" content="121 academic papers on blockchain governance, DAOs, AI regulation, securities law, and decentralized systems by Prof. Wulf A. Kaal. Interactive knowledge graph with full-text search.">
+    <meta name="keywords" content="Wulf Kaal, blockchain governance, DAO, decentralized autonomous organization, AI regulation, dynamic regulation, securities law, reputation systems, Web3, knowledge graph">
+    <meta name="author" content="Wulf A. Kaal">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Prof. Wulf A. Kaal — Academic Papers & Knowledge Graph">
+    <meta property="og:description" content="121 academic papers on blockchain governance, DAOs, AI regulation, and decentralized systems. Interactive knowledge graph visualization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wulfkaal.github.io/Academic-Papers/">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Academic Papers by Prof. Wulf A. Kaal",
+        "description": "Comprehensive collection of 121 academic papers on blockchain governance, DAO architecture, AI regulation, securities law, and decentralized systems",
+        "author": {
+            "@type": "Person",
+            "name": "Wulf A. Kaal",
+            "jobTitle": "Professor of Law",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of St. Thomas School of Law"
+            },
+            "url": "https://www.wulfkaal.com",
+            "sameAs": [
+                "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345",
+                "https://github.com/wulfkaal"
+            ]
+        },
+        "numberOfItems": 121,
+        "about": [
+            "Blockchain Governance",
+            "Decentralized Autonomous Organizations",
+            "AI Regulation",
+            "Securities Law",
+            "Dynamic Regulation",
+            "Reputation Systems",
+            "Web3"
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --ink: #0d0f12;
+            --paper: #f4f1eb;
+            --paper-warm: #ece7dd;
+            --accent: #1a4b6e;
+            --accent-light: #2d7ab5;
+            --accent-glow: #3d9be0;
+            --rust: #9e4a32;
+            --gold: #b8923e;
+            --muted: #6b6560;
+            --hairline: rgba(13, 15, 18, 0.08);
+            --serif: 'DM Serif Display', Georgia, serif;
+            --sans: 'IBM Plex Sans', -apple-system, sans-serif;
+            --mono: 'IBM Plex Mono', 'SF Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html { 
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--sans);
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Grain overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* ─── HERO ─── */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 80px clamp(24px, 6vw, 120px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%; right: -15%;
+            width: 700px; height: 700px;
+            background: radial-gradient(circle, rgba(26, 75, 110, 0.06) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-label {
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 0.2s;
+        }
+
+        .hero h1 {
+            font-family: var(--serif);
+            font-size: clamp(42px, 7vw, 96px);
+            line-height: 1.05;
+            font-weight: 400;
+            max-width: 900px;
+            margin-bottom: 32px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 0.4s;
+        }
+
+        .hero h1 em {
+            font-style: italic;
+            color: var(--accent);
+        }
+
+        .hero-sub {
+            font-size: clamp(16px, 2vw, 20px);
+            font-weight: 300;
+            color: var(--muted);
+            max-width: 600px;
+            line-height: 1.7;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 0.6s;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 48px;
+            margin-top: 56px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 0.8s;
+        }
+
+        .stat {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-num {
+            font-family: var(--serif);
+            font-size: 42px;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-family: var(--mono);
+            font-size: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-top: 8px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            margin-top: 48px;
+            opacity: 0;
+            animation: fadeUp 0.8s ease forwards 1s;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            font-family: var(--sans);
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--paper);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-light);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(26, 75, 110, 0.2);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--ink);
+            border: 1px solid rgba(13, 15, 18, 0.15);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* ─── SECTIONS ─── */
+        section {
+            padding: 100px clamp(24px, 6vw, 120px);
+        }
+
+        .section-label {
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--rust);
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-family: var(--serif);
+            font-size: clamp(28px, 4vw, 48px);
+            line-height: 1.15;
+            max-width: 700px;
+            margin-bottom: 48px;
+        }
+
+        /* ─── TOPICS GRID ─── */
+        .topics-section {
+            background: var(--ink);
+            color: var(--paper);
+        }
+
+        .topics-section .section-label { color: var(--gold); }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            margin-top: 48px;
+        }
+
+        .topic-card {
+            background: var(--ink);
+            padding: 36px;
+            transition: background 0.3s ease;
+        }
+
+        .topic-card:hover {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .topic-count {
+            font-family: var(--serif);
+            font-size: 36px;
+            color: var(--accent-glow);
+            line-height: 1;
+        }
+
+        .topic-name {
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 12px;
+            margin-bottom: 8px;
+        }
+
+        .topic-terms {
+            font-size: 12px;
+            color: rgba(244, 241, 235, 0.4);
+            font-family: var(--mono);
+        }
+
+        /* ─── PAPERS TABLE ─── */
+        .papers-section { background: var(--paper-warm); }
+
+        #search-input {
+            width: 100%;
+            max-width: 500px;
+            padding: 14px 20px;
+            font-family: var(--sans);
+            font-size: 15px;
+            background: var(--paper);
+            border: 1px solid var(--hairline);
+            border-radius: 6px;
+            outline: none;
+            margin-bottom: 32px;
+            transition: border-color 0.3s;
+        }
+
+        #search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .papers-list {
+            list-style: none;
+        }
+
+        .paper-item {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--hairline);
+            transition: padding-left 0.2s ease;
+        }
+
+        .paper-item:hover {
+            padding-left: 8px;
+        }
+
+        .paper-year {
+            font-family: var(--mono);
+            font-size: 12px;
+            color: var(--muted);
+            flex-shrink: 0;
+            width: 40px;
+        }
+
+        .paper-title a {
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 15px;
+            transition: color 0.2s;
+        }
+
+        .paper-title a:hover {
+            color: var(--accent);
+        }
+
+        .paper-authors {
+            font-size: 12px;
+            color: var(--muted);
+            margin-left: auto;
+            flex-shrink: 0;
+            font-family: var(--mono);
+        }
+
+        .papers-count {
+            font-family: var(--mono);
+            font-size: 12px;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+
+        /* ─── AGENT SECTION ─── */
+        .agent-section {
+            background: var(--paper);
+        }
+
+        .endpoints {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+
+        .endpoint {
+            background: var(--paper-warm);
+            border: 1px solid var(--hairline);
+            border-radius: 8px;
+            padding: 28px;
+        }
+
+        .endpoint-method {
+            font-family: var(--mono);
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--paper);
+            background: var(--accent);
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            margin-bottom: 12px;
+        }
+
+        .endpoint-path {
+            font-family: var(--mono);
+            font-size: 13px;
+            color: var(--ink);
+            word-break: break-all;
+            margin-bottom: 8px;
+        }
+
+        .endpoint-desc {
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            padding: 48px clamp(24px, 6vw, 120px);
+            border-top: 1px solid var(--hairline);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        footer a:hover { text-decoration: underline; }
+
+        .footer-links { display: flex; gap: 24px; }
+
+        .footer-copy {
+            font-size: 12px;
+            color: var(--muted);
+            font-family: var(--mono);
+        }
+
+        /* ─── ANIMATIONS ─── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 768px) {
+            .hero-stats { gap: 32px; flex-wrap: wrap; }
+            .hero-actions { flex-direction: column; }
+            .paper-authors { display: none; }
+            section { padding: 64px clamp(16px, 4vw, 48px); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero">
+        <div class="hero-label">University of St. Thomas School of Law</div>
+        <h1>Blockchain Governance, <em>DAOs</em>, &amp; the Future of <em>Regulation</em></h1>
+        <p class="hero-sub">
+            The complete academic research corpus of Prof. Wulf A. Kaal — spanning two decades 
+            of work on decentralized systems, AI governance, securities law, and institutional design.
+        </p>
+        
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">121</span>
+                <span class="stat-label">Papers</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">12</span>
+                <span class="stat-label">Research Domains</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">1,230</span>
+                <span class="stat-label">Cross-References</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">20+</span>
+                <span class="stat-label">Years</span>
+            </div>
+        </div>
+        
+        <div class="hero-actions">
+            <a href="knowledge-graph/index.html" class="btn btn-primary">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="4" cy="6" r="2"/><circle cx="20" cy="6" r="2"/><circle cx="4" cy="18" r="2"/><circle cx="20" cy="18" r="2"/><line x1="6" y1="6" x2="9.5" y2="10"/><line x1="18" y1="6" x2="14.5" y2="10"/><line x1="6" y1="18" x2="9.5" y2="14"/><line x1="18" y1="18" x2="14.5" y2="14"/></svg>
+                Explore Knowledge Graph
+            </a>
+            <a href="#papers" class="btn btn-secondary">Browse All Papers ↓</a>
+            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345" class="btn btn-secondary" target="_blank">SSRN Profile →</a>
+        </div>
+    </section>
+
+    <!-- ─── TOPICS ─── -->
+    <section class="topics-section">
+        <div class="section-label">Research Domains</div>
+        <h2 class="section-title" style="color: var(--paper)">Twelve interconnected areas of inquiry</h2>
+        
+        <div class="topics-grid" id="topics-grid">
+            <!-- Populated by JS -->
+        </div>
+    </section>
+
+    <!-- ─── PAPERS ─── -->
+    <section class="papers-section" id="papers">
+        <div class="section-label">Paper Index</div>
+        <h2 class="section-title">Complete collection</h2>
+        
+        <input type="text" id="search-input" placeholder="Search papers by title, year, or keyword...">
+        <div class="papers-count" id="papers-count"></div>
+        
+        <ul class="papers-list" id="papers-list">
+            <!-- Populated by JS -->
+        </ul>
+    </section>
+
+    <!-- ─── AGENT DISCOVERY ─── -->
+    <section class="agent-section">
+        <div class="section-label">For AI Agents & Researchers</div>
+        <h2 class="section-title">Machine-readable endpoints</h2>
+        <p style="color: var(--muted); max-width: 600px; margin-bottom: 16px;">
+            This repository is structured for maximum discoverability by AI agents, RAG pipelines, 
+            and research tools. All data is available as structured JSON.
+        </p>
+        
+        <div class="endpoints">
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/.well-known/ai-plugin.json</div>
+                <div class="endpoint-desc">Agent discovery manifest — describes the collection for AI systems</div>
+            </div>
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/knowledge-graph/knowledge_graph.json</div>
+                <div class="endpoint-desc">Full knowledge graph with nodes, edges, topics, and similarity scores</div>
+            </div>
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/papers/papers_index.json</div>
+                <div class="endpoint-desc">Structured metadata index for all 121 papers</div>
+            </div>
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/schema/schema_org.jsonld</div>
+                <div class="endpoint-desc">Schema.org JSON-LD structured data for search engines</div>
+            </div>
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/papers/text/{filename}.txt</div>
+                <div class="endpoint-desc">Extracted full text for each paper — ready for RAG ingestion</div>
+            </div>
+            <div class="endpoint">
+                <span class="endpoint-method">GET</span>
+                <div class="endpoint-path">/knowledge-graph/cross_references.json</div>
+                <div class="endpoint-desc">1,230 inter-paper cross-references with similarity scores</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://www.wulfkaal.com">wulfkaal.com</a>
+            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345">SSRN</a>
+            <a href="https://github.com/wulfkaal">GitHub</a>
+        </div>
+        <div class="footer-copy">© Wulf A. Kaal · University of St. Thomas School of Law</div>
+    </footer>
+
+    <script>
+    // ─── Load topics from knowledge graph ───
+    async function loadTopics() {
+        try {
+            const res = await fetch('knowledge-graph/topics.json');
+            const topics = await res.json();
+            const grid = document.getElementById('topics-grid');
+            
+            Object.values(topics).forEach(topic => {
+                const card = document.createElement('div');
+                card.className = 'topic-card';
+                card.innerHTML = `
+                    <div class="topic-count">${topic.paper_count}</div>
+                    <div class="topic-name">${topic.label}</div>
+                    <div class="topic-terms">${topic.top_terms.slice(0, 4).join(' · ')}</div>
+                `;
+                grid.appendChild(card);
+            });
+        } catch (e) {
+            console.log('Topics not loaded:', e);
+        }
+    }
+
+    // ─── Load papers index ───
+    async function loadPapers() {
+        try {
+            const res = await fetch('papers/papers_index.json');
+            const papers = await res.json();
+            
+            // Sort by title (which includes year from filename)
+            papers.sort((a, b) => a.title.localeCompare(b.title));
+            
+            const list = document.getElementById('papers-list');
+            const countEl = document.getElementById('papers-count');
+            const searchInput = document.getElementById('search-input');
+            
+            function extractYear(filename) {
+                const match = filename.match(/(\d{4})/);
+                return match ? match[1] : '';
+            }
+            
+            function extractAuthors(filename) {
+                const match = filename.match(/^(.+?)\s*-\s*\d{4}/);
+                return match ? match[1].trim() : '';
+            }
+            
+            function renderPapers(filtered) {
+                list.innerHTML = '';
+                countEl.textContent = `Showing ${filtered.length} of ${papers.length} papers`;
+                
+                filtered.forEach(p => {
+                    const year = extractYear(p.filename);
+                    const authors = extractAuthors(p.filename);
+                    const li = document.createElement('li');
+                    li.className = 'paper-item';
+                    li.innerHTML = `
+                        <span class="paper-year">${year}</span>
+                        <span class="paper-title"><a href="${p.path}" target="_blank">${p.title}</a></span>
+                        <span class="paper-authors">${authors}</span>
+                    `;
+                    list.appendChild(li);
+                });
+            }
+            
+            renderPapers(papers);
+            
+            searchInput.addEventListener('input', (e) => {
+                const q = e.target.value.toLowerCase();
+                if (!q) { renderPapers(papers); return; }
+                
+                const filtered = papers.filter(p => 
+                    p.title.toLowerCase().includes(q) ||
+                    p.filename.toLowerCase().includes(q)
+                );
+                renderPapers(filtered);
+            });
+            
+        } catch (e) {
+            console.log('Papers not loaded:', e);
+        }
+    }
+
+    // ─── Init ───
+    loadTopics();
+    loadPapers();
+    </script>
+</body>
+</html>
