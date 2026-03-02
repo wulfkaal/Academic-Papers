@@ -1,0 +1,960 @@
+A Decentralized Autonomous Organization (DAO) of DAOs
+March 6, 2021
+Wulf A. Kaal1
+Abstract
+A well-governed DAO of DAOs can provide technological and community solutions for
+the evolution of the DAO ecosystem. Through its technological infrastructure designs, a
+DAO of DAOs can create, improve and expand well-functioning and well-governed
+networks of DAOs. That DAO infrastructure, in turn, improves most of the applications
+and uses of digital assets and decentralized commerce for the greater good of society.
+This article examines the core features of a possible DAO of DAOs design, its ability to
+expand the DAO ecosystem, and the design’s uses in business and society.
+Key Words: DAO of DAOs, Decentralized Autonomous Organization, Decentralized
+Governance, Legal Design, Digital Assets, Decentralized Finance, Blockchain, Start-up,
+Decentralized Commerce, Emerging Technology, Token Models, Incentive Design,
+Tokens, Distributed Ledger Technology, Decentralized Infrastructure, Reputation Staking
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1 Professor, University of St. Thomas School of law. The author is grateful for ongoing discussions about
+DAO solutions with Craig Calcaterra. Many features of the DAO of DAO concept discussed herein are
+based on co-authored articles with Craig Calcaterra. The author is also very grateful for the many comments
+and suggestions he received from the decentralized community. It would not be feasible to name all who
+helped with comments or suggestions on community calls since the year 2020 but the author is particularly
+grateful for support received in the context of this draft manuscript from Timothy Messer, Hayley Howe,
+Timothy Lewis, Marco Aniballi, and Matt Coolidge.
+1
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Table of Contents
+Introduction 2
+DAO Limitations 5
+Path Dependencies 5
+Regulatory Uncertainty 6
+Suboptimal Incentive Design 10
+Governance & Legal Design Experimentation 12
+DAO of DAOs 15
+Concept 16
+Legal Structure 16
+Governance 17
+Reputation-Based Internal Governance 19
+Game-theoretical Design 22
+Policing and Compliance 22
+Equal Distribution of Power 23
+Attack Resistance 23
+Weighted Keys Accounting 23
+Sockpuppet Attacks 24
+DoS Attacks 24
+Level of Decentralization 25
+Conclusion 26
+Introduction
+2
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+DAOs have the potential to upgrade business and society on multiple levels. The
+business applications of DAOs are near limitless. DAOs help upgrade digital assets
+across the spectrum of applications and uses. DAOs instantiate the need for truly global
+borderless entities that coordinate agency relationships, enforce expectations, and limit
+liabilities via smart contracts. This includes digital assets that can be used as mediums of
+exchange, speculation,2 payment rail for non-expensive cross-borders money transfer,
+and non-monlegal wrapperry uses such as time stamping.3 Additional use cases of DAOs
+include financial transactions, secure voting, autonomous organizations, company
+management, freedom of speech networks, online games, crowdfunding, and
+speculation, among many other possible applications that cannot be foreseen.4
+In the 2020s, Ethereum was still the leading smart contracting platform for DAO creation.
+Ethereum’s programming language, Solidity, enables the development of smart
+contracts5 in conjunction with Ethereum’s Virtual Machine (EVM), upon which every
+Ethereum node runs to maintain consensus. EVM is Turing-complete, meaning that it can
+perform calculations that any other programmable computer is capable of, enabling
+execution of code exactly as intended.6 This is a feature of the Ethereum network and
+other 3rd generation blockchains that enables smart contracts and a high level of flexibility
+in digital innovation, which makes the platform attractive to developers. Other networks
+are developing upgrades to blockchains that enhance smart contracting and associated
+DAO features.
+The limitations of the Ethereum platform, such as transaction throughput and gas fees,
+are creating a need for next generation blockchain technology and smart contracts. DAOs
+help facilitate this evolution.
+The concept of a DAO fails if it becomes centralized. Centralization is omnipresent in
+computing systems, economics, and society at large. Yet centralization in governance is
+perhaps the largest threat to a DAO. With increasing centralization comes increasing
+risk of an organization's unifying principles changing or being ignored over time.
+Decentralization forces the shared understanding and shared social contract to be of
+primary importance for the life of the organization. Access to a DAO and participation
+2 Angela Rogojanu and Liana Badea, “The Issue of Competing Currencies: Case Study – Bitcoin,”
+Theoretical and Applied Economics 21, no. 1 (2014): 103-114; Paola Ceruleo, “Bitcoin: A Rival to Fiat
+Foney or a Speculative Financial Asset?” (Master's Degree Thesis, LUISS Guido Carli University, 2015).
+3 Robleh Ali, John Barrdear, Roger Clews and James Southgate., “The Economics of Digital Currencies,”
+Bank of England Quarterly Bulletin 2014 Q3 (2014): 276.
+4 Zvezdin Besarabov and Todor Kolev, “Predicting Digital Asset Market Based on Blockchain Activity
+Data,” arXiv (Oct. 15, 2018).
+5 “Crypto Glossary,” CoinMarketCap, accessed June 22, 2020, https://coinmarketcap.com/glossary.
+6 CoinMarketCap, “Crypto Glossary.”
+3
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+in governance needs to include information from the edges of the system. Decentralized
+governance has to be dynamic and evolutionary in order to avoid for the system to
+become, over time, centralized and brittle. Most DAOs fail to accomplish this.
+Legal centralization is another core threat to the DAO evolution. Tying the legal existence
+of a DAO to any forms of existing legal and jurisdictional frameworks typically results in
+the need for a representative in the chosen legal framework and jurisdiction, which, in
+turn, centralizes the DAO and results in the failure of the DAO concept. From the
+perspective of regulatory competition, one jurisdiction may one day offer a DAO legal
+framework that removes the need for a representative in that jurisdiction. However, even
+if this should exist one day, a significant risk remains that such a DAO entity could be
+labeled a partnership with joint and several liability for its members in a given jurisdiction.
+Only a jurisdiction that gives the DAO limited liability as an entity and accepts its
+independent status without the need for representation may truly be favorable for DAO
+concepts. Such jurisdiction would have to accept that the DAO is a virtual organization
+based on code that is accessible from any computer with an internet connection and
+cannot be jurisdictionally captured. The implication is that such DAO on each computer
+in any country is effective if another computer in a given country connects with and
+interacts with the code.
+Supporting DAOs is critical, now more than ever. Because of platform centralization,
+developers have in many cases lost the ability to influence the direction of what they are
+building. Platform centralization is particularly detrimental in the developer community
+because it is the developer community that brings information in from the edges of the
+system/society and helps form a consensus on emerging technologies for society. With
+only a limited ability to influence the direction of product/technology development, the
+developer community is less able to deploy its unique talents and skills in creating
+technology solutions for the greater good of humanity. This, in turn, has negative socilegal
+wrapperl ramifications. If the developer community is restrained from building technology
+it sees as cutting edge and beneficial for society, societies’ ability to experiment with such
+new technology solutions is severely hampered. Without socilegal wrapperl
+experimentation with cutting-edge technology, and increasing mainstream adoption, in
+turn, it is more problematic to increase innovation for the greater good of society. In other
+words, if the developer community does not receive the support it needs in developing
+decentralized infrastructure solutions, society at large suffers.
+DAOs and networks of DAOs offer the ability to level the playing field again, and enable
+developers to determine with community consensus what technology should be created.
+Teams of developers can work with their respective DAO community to promulgate,
+design, and obtain support for their respective projects. Rather than convincing legacy
+4
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+technology leaders and their respective platforms, teams of developer need to convince
+their own peers that their proposed technology is workable and creates significant
+solutions. The community peer review dictates projects, funding, and outcomes and
+provides feedback mechanisms. DAO communities have started to introduce healthier
+governance mechanisms that help them grow their influence in technology development.
+DAOs have the potential to form the foundation for technology development that serves
+the greater good of society.
+DAO Limitations
+At the beginning of the 2020s, DAOs are still subject to significant limitations. Such
+limitations include path dependencies, regulatory uncertainty, lingering suboptimal
+incentive designs, public policy, as well as market, economic, and technical limitations,
+among others.
+Path Dependencies
+The original DAO has a lasting impact on emerging DAO designs. It created core
+commonalities and associated path dependencies in future generations of DAOs. The
+core common denominator for all DAO token members is the unifying desire to optimize
+the DAO token value. Accordingly, performance assessment in the DAO structure is
+based on value optimization, not on hierarchical or political processes. On the upside,
+token holders and contractors work towards a common goal of optimizing the DAO and
+the token value and non-performance reputational penalties are free from racial or cultural
+biases and associated implications as the token holders are unlikely to even know each
+other. Yet, the focus on the value enhancement of fungible tokens can lead to short-
+termism and may ignore ethical and governance issues.
+DAO developers are also subject to path dependencies that undermine the evolution of
+decentralized DAO designs. Organizational communication structures will invariably
+influence future designs. While groups of DAO developers certainly influence DAO
+designs with their collective assumptions about how their intended DAO users will engage
+with the DAO, the inherent structure and approach of a group of developers building a
+software solution typically has an even larger impact on DAO design. The collective
+reasoning process of DAO developers is based largely on their prior experiences with
+DAO software solutions, which form path dependencies. The impact of such path
+dependencies became apparent in the Ethereum developer community and their attempts
+at upgrading Ethereum 1.0 to 2.0 in the late 2010s.
+5
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Developers’ familiarity and comfort with suboptimal layer 1 solutions creates long-term
+path dependencies for DAOs. Most developers expect certain solutions and libraries to
+exist in a layer 1 network in order to facilitate accelerated development and client service.
+Building on established but suboptimal solutions allows developers to show progress in
+systems design. Yet, working with suboptimal layer 1 blockchain solutions with high gas
+fees and low throughput delay the evolution of DAO infrastructure design as innovation
+and evolution is inhibited through suboptimal layer 1 features. Upgrading layer 1 solutions
+in third and fourth generation blockchains becomes more difficult if developers bring first
+generation layer 1 solution, and associated expectations as to how things should work,
+to 3rd and later generation blockchains that are created in more advanced languages.
+Regulatory Uncertainty
+Regulatory uncertainty is holding back the development of DAOs and the optimization
+potential of DAOs for digital assets. For example, the original DAO claimed to be a
+crowdfunding contract and made unregistered offers and sales of DAO tokens in
+exchange for Ether.7 However, the SEC began an investigation and determined that,
+although the DAO claimed to be a crowdfunding contact, it did not meet the SEC’s
+requirements for a Regulation Crowdfunding exemption because the DAO is neither a
+broker-dealer nor a funding portal registered with the SEC and the Financial Industry
+Regulatory Authority.8 In July 2017, following this investigation, the SEC issued an
+investigative report stating that virtual coins or tokens may be securities and subject to
+securities laws, depending on the facts and circumstances including the economic
+realities of the transaction. The SEC stated that federal securities laws apply to those who
+offer and sell securities in the United States, regardless of whether the issuing entity is a
+traditional company or a decentralized autonomous organization, regardless of whether
+securities are purchased using fiat or virtual currency, regardless of whether they are
+distributed in certificated form or through distributed Ledger technology. Federal
+securities laws provide disclosure requirements and regulatory scrutiny aimed at investor
+protection.9
+Perhaps the most common and the broadest legal issue associated with DAOs pertains
+to the selection of an applicable jurisdiction. Jurisdictional issues for DAOs include the
+government’s ability to enforce relevant regulations and DAO accountability through civil
+liability.
+7 “SEC Issues Investigative Report Concluding DAO Tokens, a Digital Asset, Were Securities.” U.S.
+Securities and Exchange Commission, July 25, 2017. https://www.sec.gov/news/press-release/2017-131.
+8 Ibid.
+9 Ibid.
+6
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+If the DAO is not properly legally formed, DAO participants can be held personally liable
+for the DAO’s liabilities. Historically, DAOs did not incorporate or officially create a
+corresponding legal entity off-chain for their on-chain existence. The lack of legal
+recognition of DAOs creates uncertainty as to how they would be treated by a court should
+they be sued. That is, the average DAO participants might not expect to be held liable for
+liabilities or obligations of the DAO. However, a very serious risk is associated with DAO
+membership in the sense that if the DAO members do not formalize a structure for their
+human-created entity, courts are very likely to impose one for the members of the DAO.10
+It is possible for a DAO to be legally construed as a general partnership or joint venture.11
+Under U.S. law, DAOs are most likely to be treated as partnerships. A partnership is “an
+association of two or more persons to carry on as co-owners a business for profit.”12 Such
+basic action legally forms a partnership, regardless as to whether or not the persons
+intend to form a partnership.13 If no legal entity is involved, partnership rules are default
+rules that apply to all interactions between parties trying to achieve a common goal.14 No
+U.S. statute authorizes the creation of a legally distinct entity in the form of a DAO.15 Many
+courts and lawyers would describe the relationship between members of a DAO and their
+investors as the default general partnership which holds every stakeholder of a DAO liable
+for any debts or legal actions that the DAO may face.16 Even not-for-profit DAOs can run
+into legal gray areas where participants may individually face legal liability for the activity
+of the organization if a court were to consider them partners should a litigation ensue.17
+The original DAO was arguably a partnership—a public, permission-less community-
+based, with on-chain governance, and a very specific investment purpose.18 By
+10 Stephen Palley, “How to Sue a DAO,” LinkedIn (Mar. 14, 2016), https://www.linkedin.com/pulse/how-
+sue-dao-stephen-palley; see also Carla L. Reyes, “If Rockefeller Were a Coder,” George Washington Law
+Review 87 (Mar. 2019): 398-400.
+11 See Laila Metjahic, “Deconstructing the DAO: the Need for Legal Recognition and the Application of
+Securities Laws to Decentralized Organizations,” Cardozo Law Review 39 (2018): 1554.
+12 U.P.A. §102 (11) (amended 2013).
+13 Ibid. at §202(a)
+14 MME Switzerland Token Summit, “Beyond DAOs and Foundations: The Decentralized Autonomous
+Association (DAA Model),” May 28, 2020, video, 6:00-6:30, https://youtu.be/tGLiSg5OLzE
+15 Amuial, Shawn S., Josias N. Dewey, and Jeffrey R. Seul. The Blockchain: a Guide for Legal and
+Business Professionals. Eagan, MN: Thomson Reuters, 2016.
+16 OpenLaw, “The Era of Legally Compliant DAOs,” Medium (Jun. 26, 2019),
+https://medium.com/@OpenLawOfficial/the-era-of-legally-compliant-daos-491edf88fed0.
+17 The LAO, “The LAO: A For-Profit, Limited Liability Autonomous Organization,” Medium (Sep. 3, 2019),
+https://medium.com/openlawofficial/the-lao-a-for-profit-limited-liability-autonomous-organization-
+9eae89c9669c.
+18 MME Switzerland Token Summit, “Beyond DAOs and Foundations,” 4:10-5:30. For full discussion of
+The DAO as a general partnership, see Metjahic, s“Deconstructing the DAO: the Need for Legal
+Recognition and the Application of Securities Laws to Decentralized Organizations,” 1546.
+7
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+interacting with a smart contract, DAO members unite their efforts and resources to
+achieve a certain goal, which satisfies the legal definition of a simple partnership.19
+As partners, DAO participants are potentially liable jointly and severally for all debts,
+obligations, and other liabilities of the partnership.20 That could mean that any known
+participants in the DAO may be targets for regulatory enforcement or civil actions.21
+However, some believe that the way in which people come together to fund, participate,
+and interact with a DAO is significantly different than that in a general partnership, and
+therefore such characterization is not appropriate.22 By contrast, a limited liability
+company is the only party that is liable for debts, obligations, or other liabilities of the
+company.23 A member or manager is not personally liable, directly or indirectly, by way of
+contribution or otherwise, for a debt, obligation or other liability of the company solely by
+reason of being or acting as a member or manager.24 In order to form an LLC, a certificate
+of organization is filed with the Secrlegal wrapperry of State.25 As will be discussed below,
+the DAO of DAOs’s legal structure is not subject to these shortcomings and creates
+optimized solutions for DAO infrastructure.
+The application of the legal concept of fiduciary duties is less clear in DAOs. Fiduciary
+duties may require a fund manager to act in the best interests of their client.26 In the
+traditional regulatory infrastructure fiduciary duties often function to overcome the
+corporate governance problems associated with the separation of ownership and
+control27. However, in a DAO, because of the value-to-effort focus of workflows in the
+DAO structure, supervision and imposition of legal duties are less clearly applicable. DAO
+token holders optimize the DAO together according to their individualized value
+propositions in accordance with their unique skillsets, backgrounds, and training.
+19 MME Switzerland Token Summit, supra note 14, at 5:30-6:00. See, e.g., George Samman & David
+Freuden, “DAO: A Decentralized Governance Layer for The Internet of Value,” Medium (Sep. 19, 2020).
+20 U.P.A., supra §306 (a).
+21 Usman W. Chohan, “The Decentralized Autonomous Organization and Governance Issues,”
+(Discussion Paper, University of New South Wales, Canberra,2017).
+22 For full discussion of business organizations and DAOs, see Amuial, et al., supra; see also Alexandra
+Sims, “Blockchain and Decentralised Autonomous Organisations (DAOs): The Evolution of Companies?,”
+New Zealand Universities Law Review (forthcoming 2019) on capitalization structures and DAOs, see
+Reyes, “If Rockefeller Were a Coder,” 414-18, 419-22 (discusses DAO as business trust).
+23 U.L.L.C.A. § 304(a) (Unif. Law Comm’n 1997).
+24 Ibid.
+25 Ibid. at § 201 (a). For more on limited liability protection and blockchain, see De Filippi, Primavera, and
+Aaron Wright. Blockchain and the Law: the Rule of Code. Cambridge, MA: Harvard University Press,
+2019.
+26 Patrick Eha and Tanaya Macheel, “What the Attack on the DAO Means for Banks,” American Banker
+(Jun. 20, 2016) (quoting Kirill Gourov, Expand Research analyst and “early bitcoin adopter”).
+27 Wulf A. Kaal “Blockchain Solutions for Agency Problems in Corporate Governance,” Economic
+Information to Facilitate Decision Making, ed. Kashi Balachandran (Singapore: World Scientific
+Publishers, 2019), 23.
+8
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Another legal risk associated with DAOs pertains to the legal recourse for third parties
+who contract with a DAO. In lieu of partner liability, it is less clear who a liable party may
+be in a DAO. Without clearly defined liability rules, third parties and investors in DAOs
+may have less clearly defined legal recourse.28 While DAO dispute settlement is relatively
+predictable on-chain,29 settlement off-chain is less predictable.30 Parties may be able to
+limit remedies to DAO assets through private agreements. But, if the DAO should face a
+tort suit, such an agreement is unlikely to be upheld.31
+Cybernetic systems are constantly changing and less amenable to jurisdictional reach,
+making it near impossible to apply a common legal anchor and traditional jurisdictional
+principles to cybernetic systems. For example, Ethereum was launched as a foundation32
+in order to have sufficient funds to further promote33 and propose the genesis block to the
+community.34 After it launched, the community had to decide which version of the protocol
+they desired to adopt and use.35 Such community choices make the application of
+jurisdictional principles and a legal anchor governance structure36 less clear for cybernetic
+systems. Exacerbating things, cybernetic systems often involve counterparties that do not
+concurrently exist.37 Therefore, web interfaces add centralization elements which make a
+legal anchor more critical because that is what traditional lawyers look for to analyze the
+system and apply jurisdictional principles.38 For example, with The DAO, the financial
+markets authority in Switzerland did not look at the functionality of the smart contract but
+how the DAO was sold, promoted, and displayed.39
+28 Eha and Macheel, “What the Attack on the DAO Means for Banks” quoting Kirill Gourov; see also
+Chohan, “The Decentralized Autonomous Organization and Governance Issues,” 4.
+29 Peter Van Valkenburgh, “What Does It Mean to Issue a Token “On Top Of” Ethereum?,” CoinCenter
+(May 10, 2017), https://www.coincenter.org/education/crypto-regulation-faq/what-does-it-mean-to-issue-a-
+token-on-top-of-ethereum/.
+30 Ibid.
+31 Ross Campbell, “E-Commerce with Legal and Blockchain Security,” Medium: Good Audience (Jan. 26,
+2019), https://blog.goodaudience.com/e-commerce-with-legal-and-blockchain-security-6f2ba6c244a3
+32 MME Switzerland Token Summit, supra note 14 at 37:51-37:51. See, e.g. “About the Ethereum
+Foundation,” Ethereum Foundation, last updated June 22, 2020,
+https://ethereum.org/en/foundation/#:~:text=The Ethereum Foundation (EF) is,supporting Ethereum and
+related technologies.&text=Their role is not to,of a much larger ecosystem.
+33 MME Switzerland Token Summit, “Beyond DAOs and Foundations,” 40:21-40:34. See Ethereum
+Foundation, “About the Ethereum Foundation.”.
+34 MME Switzerland Token Summit, “Beyond DAOs and Foundations,”37:51-40:12. See Ethereum
+Foundation, “About the Ethereum Foundation.”
+35 MME Switzerland Token Summit, “Beyond DAOs and Foundations,” 40:12-40:21.
+36 Ibid, 40:34-40.
+37 Ibid, 42:40-43:00
+38 Ibid,t 43:00-43:30.
+39 Ibid,43:30-43:49
+9
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+The application of securities laws is less clear for DAOs. Traditional organizations are
+subject to risk and compliance controls around fund withdrawal.40 Under current laws,
+DAOs solely governed by smart contracts are restricted in their ability to pool assets and
+generate profit because securities laws limit their ability to fund ecosystem development
+and deploy capital efficiently.41 The SEC found that The DAO’s tokens were securities,
+meaning that they were required to register with the SEC and be subject to federal
+securities regulations.42 A security (“investment contract”) is defined as “an investment of
+money in a common enterprise with a reasonable expectation of profits to be derived from
+the entrepreneurial or managerial efforts of others.”43 This is a very fact-specific analysis,
+which requires thorough investigation or discovery in litigation to even determine whether
+a given token meets the definition of a security.44 Certain ICOs have since been classified
+as securities offerings, but in addition to federal securities laws, state law may treat the
+issuance of tokens differently.45 In essence, for participants in a DAO, all of these factors
+combined lead to uncertainty, and potential liability for failing to comply with federal
+securities regulations, which are designed to protect investors.46
+Suboptimal Incentive Design
+The lack of decentralized governance solutions affects the application of decentralized
+systems on multiple levels. Decentralized networks depend on dynamic governance. As
+blockchains protocols evolve in a given market, they require updates. At the beginning of
+the 2020s, basic standards for the governance of digital assets were still missing. Efforts
+to provide more legal certainty through regulatory carve-outs were mostly tentative and
+lacked sufficient regulatory support or voting majorities in the regulatory agencies. The
+evolution of the digital asset market necessitates certainty for market participants. Without
+standards and governance, certainty and the associated market confidence cannot
+develop.
+40 Eha & Macheel, supra note 26 (quoting Kirill Gourov)
+41 The LAO, “The LAO: A For-Profit, Limited Liability Autonomous Organization.”
+42“SEC Issues Investigative Report Concluding DAO Tokens, a Digital Asset, Were Securities.” U.S.
+Securities and Exchange Commission.
+43 SEC v. W.J. Howey Co., 328 U.S. 293, 301 (1946).
+44 Timothy Nielsen, “Cryptocorporations: A Proposal for Legitimizing Decentralizing Autonomous
+Organizations,” Utah Law Review (forthcoming 2019-20): 8-9.
+45 Sven Riva, “Decentralized Autonomous Organizations (DAOs) as Subjects of Law – the Recognition of
+DAOs in the Swiss Legal Order,” (Master’s Thesis, University of Neuchatel 2019)..
+46 See also Joel S. Telpner & Thomas M. Ahmadifar, “ICOs, The DAO, and the Investment Company Act
+of 1940,” Investment Lawyer 24 (2017): 16; Amuial, “The blockchain: a guide for legal and business
+professionals,” § 4.5.
+10
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Chain forks with all their negative effects were still a reality and common practice for
+blockchain protocol upgrades in the early 2020s. While sometimes forks were merely
+used to test a process or upgrade, forking was most often used to implement new
+characteristics for digital assets or to create a fundamental protocol change. The
+bifurcation of nodes in a given decentralized network can lead to significant economic
+loss, errors, confusion, and bugs. For example, the bifurcation of network nodes can
+result in the reemergence of the double spend problem that the previous network had
+overcome. Users running the pre-fork code consider the post-fork code invalid, they
+cannot detect the spending on the post-fork code. Correspondingly, cryptocurrencies
+spent in a post-fork block could be spent again on a pre-fork block. Similarly, fork-related
+changes in protocol parameters such as the block size or the difficulty of the cryptographic
+puzzle can result in certain blocks being accepted by the post-fork protocol but rejected
+by the pre-fork versions of the protocol which may result in the loss of funds. The
+economic loss associated with such parallel existence can be quite significant. Finally,
+the fork that created Bitcoin Cash illustrates the risk of contention and the associated
+social and political turmoil post fork that necessitates blockchain reorganization. Post
+Bitcoin Cash fork, the Bitcoin community could not agree on the chain that provided the
+most survivable protocol. As a result of contention, two blockchains, i.e., Bitcoin and
+Bitcoin Cash, compete in perpetuity with the resulting social and economic loss for each
+chain.
+DAO governance lacked proper incentive designs at the beginning of the 2020s. Most
+DAOs utilized centralized forms of master nodes to institute blockchain protocol and DAO
+upgrades. Human nature and any effective machine derivatives of human engagements
+in institutional form require a duality of incentives in order to overcome attempts of rational
+and opportunistic internal and external constituents to game the governance design of a
+given DAO. The duality of incentives consists of a) incentives for actors to improve their
+own utility, while at the same time b) actors’ actions benefit the entirety of the institution
+and its constituents for the long run.
+DAO designs at the beginning of the 2020s did not effectively master this duality.
+Moreover, then-existing DAO designs did not effectively use non-fungible assets and
+weighted keys as an accounting metric for reputation to overcome corruptive elements.
+When fungible assets are used as the dominant incentive design in the governance of
+DAOs with identifiable actors, rational and opportunistic internal constituents and external
+participants will typically attempt to corrupt the governance design of the DAO for their
+own gain. Similarly, the identity of actors in a DAO governance design creates typically
+corruptive elements. Merit identifiers other than individual identity remove the most
+corruptive influences. At the beginning of the 2020s, no then-existing DAO design had
+11
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+effectively conceptualized and applied an anonymous merit identifier with non-fungible
+decentralized assets.
+Governance & Legal Design Experimentation
+In the 2020s, DAO legal designs are still largely relegated to experimentation. Such
+experimentation is natural and useful for the evolution of DAO concepts. Trial and failure
+of legal DAO designs create a natural filtering mechanism for successful DAO designs.
+Importantly, the experimentation with DAO legal designs, that is, legal designs that allow
+DAOs to interact with the real world in a legal construct, can go hand in hand with internal
+DAO governance designs.
+Any experimentation with DAO legal solutions has the ultimate objective of accomplishing
+the highest level of decentralization. Lasting legal solutions for DAOs have to increase
+and maintain the internal and external decentralization accomplished in the DAO. DAOs
+cannot exist and persist without ever increasing degrees of decentralization. Therefore,
+first and foremost, DAO legal designs need to supplement the internal decentralization
+accomplished by the DAO.
+Perhaps the most serious challenge for DAO legal designs is supplementing internal DAO
+decentralization. Existing legal solutions for DAOs typically require forms of legal
+representation in the respective jurisdiction, which are always a point of centralization.
+This is because tying the legal existence of a DAO to any forms of existing legal and
+jurisdictional frameworks typically results in the need for a representative in the chosen
+legal framework and jurisdiction, which in turn centralizes the DAO and can result in the
+long-term failure of the respective DAO concept. However, representation requirements
+are a natural DAO-anchoring mechanism for a given jurisdiction in order to allow the
+respective jurisdiction to exercise jurisdiction and control over the DAO.
+Surrendering jurisdiction over DAOs while giving DAOs legal status and limited liability
+will be the epitome and linchpin for DAO legal solutions. Surrendering control over DAOs
+while giving them a legal status in the given jurisdiction may be accomplished someday,
+if and when jurisdictions recognize the importance of DAO constructs for business
+relationships. However, it is perhaps less likely to tie the legal status recognition to forms
+of limited liability while surrendering jurisdiction over the DAO. Giving a DAO legal
+recognition and limited liability in a given jurisdiction would require the legislature to
+acknowledge that third parties in that jurisdiction who may interact with the limited liability
+DAO would only have limited recourse if things go wrong in the legal relationship.
+Because consumer protection is a core mandate for any legislature, it seems less likely
+12
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+that they will surrender control and jurisdiction over the DAO which includes no legal
+recourse, inability to sue in national courts etc, while also giving the DAO limited liability
+in that jurisdiction. Even if adequate alternative dispute resolution systems should emerge
+for DAO and smart contracting disputes, it remains unclear if these can suffice from a
+consumer protection perspective in most jurisdictions.
+Combining internal DAO governance with a legal concept has several advantages. First,
+a DAO with a legal wrapper (e.g. a real-world legal entity that interacts with existing
+entities on behalf of the DAO) enables the DAO’s operations in the real world and beyond.
+A DAO needs a legal wrapper representing the DAO in the sense that a DAO cannot rent
+an office or sign a contract that can only happen on paper.47 Second, the legal entity that
+represents the DAO in the real world can benefit from the DAO’s on-chain governance48
+which gives the legal entity a form of decentralized democratic legitimacy while at the
+same time not requiring internal democratic processes within such legal entity. The legal
+anchor, i.e., the legal wrapper, creates a form of needed centralization between
+decentralized technical functionality, legal relevance, and legal definition. Organizing
+based on functional technicalities runs participants into legal risks.49 For example, a smart
+contract can have a basic element of an organization and hence could be qualified as a
+minimum simple partnership, and never be a legal entity as such.50 In this context, the
+legal anchor reduces risks and increases legal certainty for the DAO and third parties that
+transact with the DAO because the DAO would be represented through the legal
+wrapper.51 Using the legal wrapper concept, the individual DAO members would not be
+liable and the third party knows exactly with whom she is interacting and where liabilities
+arise.
+Incremental improvements of DAO governance can include multiple measures. Those
+measures can include releasing smart contracts in stages. In earlier stages the contract
+is more controlled and easily updated by a set of cryptographic, multi-signature notaries.52
+In later stages, the control over the contract is released at an increasing rate. Certification
+processes and review processes as well as multiple security audits from respected
+institutions in combination with formal verification programs for smart contracts are
+additional possible governance improvement solutions for DAOs.53 Design changes can
+include so-called tripwires - arbitration and mediation under adverse conditions, or
+47 MME Switzerland Token Summit, “Beyond DAOs and Foundations,” 25:10-25:46.
+48 Ibid.
+49 Ibid, 16:15-16:30.
+50 Ibid at 53:01-53:24.
+51 Ibid at 16:30-16:55.
+52 Kyle Torpey, “They Might Be Smart, But These Contracts Need to Be More Secure,” American Banker
+Vol. 181 Iss. 140 Jul. 22, 2016 (discussing RSK Labs).
+53 Ibid.
+13
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+designing the DAO such that it can be stopped when it may appear to become too big to
+fail. Barriers to DAO entry can help ensure the success of on-chain governance, such as
+with permissioned blockchains or community guidelines (different tiers for different
+contracts).54
+Most cryptocurrencies would not exist if Bitcoin and Ethereum had effective incentives for
+future protocol development and governance built into the core protocol.55 Common core
+denominators of existing problems in governance design include the corruptive effects of
+existing governance designs with fungible assets as well as the identity of actors in
+governance designs. These factors, among many others, contributed to the resulting
+inability to govern institutions effectively.
+DAO governance structures are built on software, code and smart contracts that run on
+public decentralized blockchain platforms, such as Ethereum. DAOs typically do not have
+a physical address as they merely compute code. Because of these code-based features,
+DAOs are not organizations with a traditional hierarchy as known from traditional
+corporate structures where authority and empowerment flow downwards from
+investors/shareholders through a board of directors to management and eventually staff.
+Indeed, DAOs typically do not have directors, managers, or employees. Because a series
+of smart contracts grants DAO token holders voting rights, the blockchain-based smart
+contracts imitates the role of articles of association or bylaws and the entirety of a
+precedent system that would otherwise be provided by default in a jurisdiction-based legal
+structure. Because DAO code is typically open source, the token holders not only vote on
+investment and/or work proposals, but also on any change made to the code. Accepted
+proposals would also be backed by a software code, defining the relationship (in terms of
+rights, obligations, and performance metrics) between the respective DAO and the
+accepted and funded work proposals.
+The technological infrastructure of decentralized systems enables unprecedented
+decentralized governance incentive designs that can create solutions that could not so
+far be accomplished in centralized governance structures. Unlike centralized governance
+incentive design, decentralized incentive alignment in a DAO has the potential to be
+organized in an incorruptible way with non-fungible digital assets. Efficiently designed
+DAO governance helps overcome collective action problems associated with lacking
+incentive alignment in existing agency-based governance designs.
+54 Ibid.
+55 Ravikant, Naval. “Most Coins Wouldn't Exist If Bitcoin and Ethereum Had Incentives for Future
+Development Built into the Core Protocol.” Twitter, April 13, 2018.
+https://twitter.com/naval/status/985018594252742656.
+14
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Community audits are a key element in DAO governance. Centralized systems rarely
+provide for and administer community-driven audits. Community-driven audits go against
+the agency and monitoring principles embedded in the centralized governance. External
+monitoring and validation are key in centralized governance systems because the
+incentive design in centralized structures does not enable incorruptible internal controls.
+By contrast, community audits are at the core of DAO governance. The decentralized
+nature of DAOs enhances efficiency of coordination because the users of the system, i.e.,
+DAO members, typically know best how to assess other users / DAO members. The
+decentralized DAO structure enables unprecedented information symmetry in the
+governance design because governance information, i.e., DAO group decision-making
+metrics and DAO governance protocol needs, is at the edge of the decentralized system
+and is exchanged and evaluated directly between DAO members in a continuous and
+iterative stream of information that provides dynamic feedback effects.
+Governance upgrades in DAOs enable a different kind of agency relationship. Because
+of the smart contract coordination of agency relationships, traditional control mechanisms
+employed by principals in agency relationships can be scaled back and partially be
+removed. DAO workers are engaged in a dynamic set of working relationships that
+continuously and dynamically self-organize around projects and outcomes, not corporate
+hierarchies with implicit hierarchical biases.
+The DAO governance optimization makes traditional uses of fiduciary duties less relevant.
+The traditional regulatory infrastructure that attempts to overcome the corporate
+governance problems associated with the separation of ownership (shareholders) and
+control (management) relies heavily on fiduciary duties. Those directors and officers who
+violate their fiduciary obligations in centralized organizations by not acting in the best
+interest of the corporation can be sued. In the DAO structure such duties and litigation-
+based control mechanisms are less relevant. Because of the value to effort focus of
+workflows in the DAO structure, supervision of management and imposition of legal duties
+on management is less needed because there are fewer or no supervisors. Rather, token
+holders optimize the DAO together according to their best value propositions in
+accordance with their unique skillsets, backgrounds, and training.
+DAO of DAOs
+The common denominator of the aforementioned shortcomings in the existing DAO
+infrastructure is governance. Governance is not a bug or an afterthought in system
+design. Governance is the key feature. The future of DAOs hinges on their ability to create
+15
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+lasting dynamic governance systems that allow their members to coordinate in a
+decentralized way and equitably redistribute resources in the DAO.
+Dynamic decentralized governance is the key element to ensure the longevity of DAOs.
+Decentralized governance allows DAOs to maintain the fluidity and decentralized order
+that was possible in the initial stages of the DAO. Without continual efforts to maintain
+decentralized order, values that initially unite DAO members have a tendency to result in
+ever tighter and complex hierarchical structures in the DAO. In the final stage, the
+harmony and cooperation of the decentralized organization filters the group into an ever
+tighter and complex hierarchical structure, raising some individuals into positions of power
+over others. Eventually, a tree structure emerges, a fully centralized organization. This
+filtering process towards centralization is often the result of competition, calculated
+allocation of power, or otherwise matching the position to the appropriate individual’s
+talents within the DAO. If the hierarchy is successfully completed, all individuals find their
+positions of power statically fixed and the levers of power clear. This end stage is a
+completely centralized organization, with the top of the hierarchy being the center of
+power.
+Concept
+DAO of DAOs internal governance design and its external legal design supplement each other on
+many levels and create synergies. For many attempts to create legal solutions, if the internal
+voting mechanism of a DAO is more centralized and afflicted with existing legacy voting issues,
+a higher degree of decentralization in the external legal design will typically be canceled out in
+the long run. If the degrees of internal and external governance decentralization cancel each other
+out, the respective DAO is less likely to succeed in its decentralization attempt, which in turn
+makes it more likely for the DAO to fail. By contrast, a DAO of DAO’s synergy between internal
+DAO governance and external legal DAO designs can accomplish higher levels of
+decentralization. Because the internal governance of a DAO of DAOs is decentralized and
+effective through reputation staking, it is more likely to create internal governance solutions that
+translates well into real-word legal solutions.
+Legal Structure
+Key for the legal solution offered by DAO of DAOs is the hitherto unprecedented duality
+of internal and external governance design that helps optimize the decentralized nature
+of the DAO of DAOs. The internal and external governance coordination is facilitated by
+the unique duality of entities and their respective governance. For the internal
+governance, the DAO of DAOs uses a system of reputation token staking that facilitates
+unprecedented incentivization of the DAO of DAOs community and governance
+16
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+improvements in orders of magnitude. For the external legal relationships and
+governance, the DAO of DAOs is represented in real-world legal contexts by a legal
+wrapper.
+The objective of the legal wrapper is to establish a decentralized and democratic
+association with flat hierarchies. Key for the success of the unique duality of internal and
+external governance of the DAO of DAOs is the broad deference the LEGAL WRAPPER
+gives to the voting outcomes that originate in the DAO of DAOs. This deference is
+accomplished through delegation of voting power and outcomes from the DAO of DAOs
+to a member of the LEGAL WRAPPER.
+The DAO of DAOs enables higher levels of decentralization. Because the internal
+governance of the DAO of DAOs is decentralized and effective through reputation staking,
+it can create internal governance solutions that translate well into real-word legal solutions
+that are instantiated via the LEGAL WRAPPER and vice versa. Because the internal
+reputation staking voting mechanism of the DAO of DAOs is more decentralized it creates
+decentralization synergies with the external legal design in the LEGAL WRAPPER. Unlike
+other DAO legal proposals, the degrees of internal and external governance
+decentralization in the DAO of DAOs and the LEGAL WRAPPER do not cancel each
+other out but rather synergize and enhance each other.
+Governance
+Decentralized DAO governance is a core necessity for the evolution of decentralized
+infrastructure. Most cryptocurrencies would not exist if Bitcoin and Ethereum had effective
+incentives for future protocol development and governance built into the core protocol.
+Common core denominators of existing problems in DAO governance design include the
+corruptive effects of existing governance designs with fungible assets as well as the
+identity of actors in governance designs. These factors, among many others, contributed
+to the resulting inability to govern DAOs effectively.
+Community audits are a central feature in DAO governance. As discussed above,
+centralized systems rarely provide for and administer community-driven audits because
+they go against the agency and monitoring principles embedded in the centralized
+governance. External monitoring and validation are key in centralized governance
+systems because the incentive design in centralized structures does not enable
+incorruptible internal controls. By contrast, community audits are at the core of DAO
+governance. The decentralized nature of DAOs enhances efficiency of coordination
+17
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+because the users of the system, i.e., DAO members, typically know best how to assess
+other users / DAO members. The decentralized DAO structure enables unprecedented
+information symmetry in the governance design because governance information, i.e.,
+DAO group decision-making metrics and DAO governance protocol needs, is at the edge
+of the decentralized system and is exchanged and evaluated directly between DAO
+members in a continuous and iterative stream of information that provides dynamic
+feedback effects.
+Dynamic elements in DAO governance help avoid otherwise inevitable corruptive
+influences. In any open and democratic system, naturally opportunistic rational parties
+will attempt to circumvent and game the sets of applicable complex static rules to increase
+their share of power and profit within the system. Stable and presumptively optimal static
+and/or constitutional rules for DAO governance therefore typically enable gaming and
+arbitrage opportunities. To enable sufficient protection of DAO members while at the
+same time allowing for DAO enhancements, the static sets of rules of smart contracts in
+such a system will need to be rather complex. With static complex sets of DAO rules
+comes inevitable corruptive opportunistic gaming and arbitrage behavior. To avoid these
+negative effects of static complex DAO rules, effective DAO governance designs should
+be focused on dynamic elements. Dynamic elements here include DAO members’ ability
+to re-evaluate existing precedent in the system.
+In the early 2020s, on-chain voting mechanisms were still largely in their infancy. Most
+on-chain voting mechanisms and governance designs mostly resembled a plutocracy.
+Suboptimal voting outcomes in existing decentralized protocols were associated with the
+then-popular one-token-one-vote voting mechanisms. A one-token-one-vote design
+allocates more power to token holders who have a significant share of the total supply of
+a given token. Majority token holders have more power than the rest of the token holders
+combined. These structures reintroduce many of the downsides and suboptimal incentive
+allocations of one-share-one vote designs in legacy systems of the early 21st century.
+Examples of the suboptimal outcomes of a one-token-one-vote system include the two
+party system in the United States.
+More mature voting alternatives are slowly emerging. Such alternative DAO voting
+designs can ameliorate the traditional voting power corruption of one-token-one-vote.
+Alternative voting methods include quadratic voting, futarchy, liquid democracy,
+conviction voting, and reputation-based voting as an instantiation of non-fungible voting.
+These emerging more mature voting ecosystems enable on-chain protocol governance
+with an incentive design that more optimally balances risk and rewards of voting.
+18
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+On-chain governance models can further be optimized with reputation-based staking as
+voting mechanisms. Reputation-based voting revolves around voting by way of staking a
+non-fungible asset, aka staking non-fungible reputation tokens in a given DAO, towards
+a certain outcome. The corruptive elements of fungible assets/tokens are removed
+because third parties are less likely able to take over a non-fungible asset, such as
+reputation, that is organically grown and maintained through actual expertise in a given
+DAO subject matter. Even if third parties should be able to take over or purchase non-
+fungible reputation, they are less likely to be able to maintain the reputation score and the
+associated revenue stream of fungible assets over time.
+In the 2020s, legal designs of DAOs are still largely relegated to experimentation, which
+is useful for DAO concepts to create a natural filtering mechanism for successful DAO
+designs. The experimentation with legal designs that allow DAOs to interact with the real
+world in a legal construct can go hand in hand with internal DAO governance designs.
+Lasting legal solutions for DAOs have to increase and maintain the internal
+decentralization accomplished in the DAO, with the ultimate objective of accomplishing
+the highest level of decentralization. Without decentralization, DAOs cannot persist. DAO
+legal designs need to supplement the decentralization accomplished by the DAO -
+perhaps the most serious challenge for legal designs.
+Reputation-Based Internal Governance
+The use of reputation staking and voting metrics in the DAO of DAO’s internal governance
+design has key advantages over other decentralized voting mechanisms. The DAO of
+DAOs’s use of reputation voting has two key advantages over other decentralized one-
+token-one-vote voting mechanisms:
+1) it is non-fungible which avoids corruptive elements, and
+2) it optimally aligns incentives for DAO of DAOs members individually and at the same
+time aligns their incentives for the totality of the DAO of DAOs as an institution.
+Because reputation is non-fungible, and ideally anonymous, it is much harder for DAO of
+DAOs members and external participants to try to game the system to improve their own
+utility exclusively while hurting the common good of the DAO of DAOs.
+The DAO of DAO’s non-fungible and fungible token governance design enables the
+incentivization of DAO of DAOs members with indirect economic gain. In the DAO of
+DAO’s bifurcated design with two disparate types of tokens, i.e., reputation tokens and
+19
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+reputation salary tokens, 1. the non-fungible reputation tokens give DAO of DAOs
+members voting rights, and 2. fungible reputation salary tokens allow DAO of DAOs
+members to earn a fungible salary in proportion to their non-fungible reputation tokens.
+DAO of DAOs members increase their non-fungible tokens by making valuable
+contributions to the DAO and participating consistently in DAO of DAOs voting pools.
+DAO of DAOs members get paid with a fungible algorithmic stable token that is pegged
+to a pool of fungible tokens/good/consumer price index. The salary payments in fungible
+stable tokens are in proportion to DAO of DAOs members’ respective non-fungible
+reputation token scores. The indirect economic effects remove corruptive elements and
+make the governance design more attack-resistant and stable in the long run.
+Reputation as a valuation metric allows DAO of DAOs members to improve their own
+utility while at the same time improving the DAO of DAOs in the long term. Because
+reputation is used as a metric for indirect economic benefits, i.e., a salary in fungible
+tokens that is paid in proportion of the non-fungible reputation token score, DAO of DAOs
+reputation token holders are incentivized to increase their own reputation/utility by
+engaging in valuable conduct for the DAO. The more the aggregated individual reputation
+of all DAO of DAOs members increases, the more the overall DAO of DAOs value
+increases, and the more the DAO of DAOs creates value enhancing outcomes for its
+members.
+Reputation-staking as a basis for the DAO of DAOs governance improves incentive
+alignment and enables the correlation between individual and institutional value
+enhancement. DAO of DAOs members rationally stake their own reputation tokens based
+on the outcomes they believe will increase their overall reputation/utility. If they did not
+they would irrationally sacrifice a future income stream in fungible tokens. Through
+reputation-staking, the DAO of DAOs members are incentivized to provide long-term
+positive contributions because the DAO of DAOs member reputation is transparent and
+reviewable by the DAO of DAOs and the public in a slow, stable, yet dynamic review
+process that reaches far into the future. Valuable individual behavior/work that leads to
+individualized reputation staking and individual reputation enhancement also enhances
+the DAO of DAOs as an institution because the individual and institutional value
+enhancement are correlated.
+The correlation between individual DAO of DAOs value enhancement and DAO of DAOs
+institutional value enhancement can be illustrated as follows. Take, for example, a DAO
+of DAOs member who stakes that a given smart contract template is optimal for XYZ
+outcome/application. Once the template is affirmed by the DAO of DAOs members as
+optimal at that point in time, it becomes a valuable precedent for the DAO of DAOs
+20
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+members and external DAOs. Hence, the staking of an individual and the ex-ante work
+that leads to staking increases sustainable value for all DAO of DAOs members. The DAO
+of DAOs members and other DAOs will rationally increasingly use the precedent until a
+better precedent emerges. That precedent thus increases the individual DAO member’s
+reputation and the DAO overall.
+The reputation-based governance design in the DAO of DAOs changes the dynamic of a
+zero-sum game to a positive-sum game. Prior DAO governance designs were mostly
+zero-sum games as they used mostly fungible rewards and incentive designs.
+Accordingly, in prior DAO designs, DAO members pursued as large of a portion of the
+rewards as possible for themselves. By contrast, the reputation-based DAO of DAOs
+governance design creates a positive-sum game because DAO of DAOs members have
+incentives to create lasting non-fungible value for the DAO of DAOs by developing a long-
+term non-fungible record of productive cooperation that in effect improves the DAO of
+DAOs. Moreover, individual DAO of DAOs member reputation can change dynamically if
+the DAO of DAOs member's actions depreciate in value. The DAO of DAOs member
+reputation is inflationary in the DAO of DAOs design. As such, non-use, i.e., non-staking
+of reputation tokens or non-voting, would lead to value depreciation, which incentivizes
+action and thus value enhancement. Liveness faults become less likely. Its ability to
+address liveness faults in its incentive design is a key distinguishing feature of the DAO
+of DAOs.
+The DAO of DAOs’s decentralized on-chain precedent system enables dynamic and
+evolutionary reputation-based governance. Most prior attempts at DAO governance
+design had no dynamic and evolutionary elements. By contrast, the DAO of DAOs’s
+decentralized on-chain precedent system enables feedback effects between DAO of
+DAOs members, the public record of work/posts on the blockchain, and the public users.
+The DAO of DAOs’s decentralized precedent system makes the continuous upgrading of
+real-time data possible. As a post/template on the blockchain gets increasingly referenced
+by the DAO of DAOs members and other users, it increases the respective DAO of DAOs
+member’s non-fungible reputation weight and associated fungible token salary.
+Conversely, if a DAO of DAOs member’s post/template on the blockchain dissipates over
+time, a new post/template emerges naturally. If the new post/template gets more often
+referenced by the DAO of DAOs members and other users, it becomes over time the new
+prevailing precedent. The old precedent dissipates over time with non-use. This
+precedent replacement mechanism in the DAO of DAOs design is dynamic and
+evolutionary. It has the promise to create eternal solutions for DAO governance and
+dynamic evolutionary protocol upgrades.
+21
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+Game-theoretical Design
+To create the proper incentive design in its reputation staking engine, the DAO of DAOs
+incorporates several game-theoretical insights:
+- The DAO of DAOs disincentivizes betrayal and defection by charging an admission fee
+to become a DAO of DAOs member. Given the sunk cost of joining the DAO of DAOs, it
+is more expensive for prospective members to cheat because it would be expensive to
+rejoin even if members could be anonymous. The DAO of DAOs also blacklists member
+accounts to incentivize cooperation. KYC protocols further expand those incentives to
+cooperate.
+- To ensure continuous cooperation of DAO of DAOs members, the promise of future
+profits in the DAO of DAOs reputation token outweigh their present value. The DAO of
+DAOs reputation token has a more stable and predictable value as the LEGAL
+WRAPPER onboards additional grants and the DAO of DAOs network grows globally.
+Reputation tokens in the DAO of DAOs system are correlated with expected future salary
+tokens in the LEGAL WRAPPER.
+- In the DAO of DAOs design the loss of opportunity from slashing DAO of DAOs member
+reputation grows as the size of the network increases. In other words, the larger the DAO
+of DAOs network, the more competition for reputation tokens to receive fungible token
+salaries. Further, given the incomplete information due to increasing anonymity, the value
+of the information from reputation tokens increases. When potential business partners
+have less knowledge of DAO of DAOs members’ identity, the knowledge from the number
+of reputation tokens a DAO of DAOs member holds becomes more important. Moreover,
+the lack of personal knowledge encourages the DAO of DAOs members to devote more
+effort to fairly policing reputation tokens. Meritocracy is encouraged.
+Policing and Compliance
+The DAO of DAOs reputation-staking design also enhances policing and compliance. The
+value of DAO of DAOs member reputation is directly related to how well punishment can
+be distributed in response to cheating. The more transparent the system, the more
+accurate and efficient policing can be. Members of a traditional business police nefarious
+conduct by withholding their business. But to make the threat credible, DAO members
+need to police other members and penalize them if they did business with those who
+22
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+showed misconduct. To make the threats credible in a traditional business setting one
+would need to monitor those who, in turn, did not monitor those who, in turn, did not
+monitor. This is an expensive proposition. By contrast, in the DAO of DAOs, algorithms
+can be written which exclude DAO of DAOs members who cheat from having access to
+their market. Punishment for cheating becomes automated and therefore credible. Free
+riding in policing can at least partially be eliminated by automation. Algorithms can be
+written proactively to only supply contracts to those who have sufficient reputation. If a
+DAO of DAOs member’s reputation is slashed, such members will not be chosen by the
+algorithm.
+Equal Distribution of Power
+The DAO of DAO’s reputation-based governance design enables a much more equal
+distribution of power. Language, religion, race, physical presence, group identifiers,
+culture, etc., influence centralized power distribution. Similarly, commonly used identifiers
+in centralized governance such as social media profiles and credit scores, among others,
+are essential for access to the central system and to resources. Such relatively superficial
+identifiers play less of a role in the DAO of DAOs voting designs. The more equal
+distribution of power in the DAO of DAOs governance design allows the inclusion of
+constituents who otherwise have no agency in centralized systems.
+Attack Resistance
+The DAO of DAOs design addresses sockpuppet accounts and Sybil attacks. It is
+reasonable to assume that DAO of DAOs members can join from any jurisdiction and
+cannot be tracked or punished for any bad behavior by appealing to outside authorities.
+In that case, the only punishment available is to take away DAO of DAOs members’
+potential future reputation token salaries in the DAO of DAOs. DAO of DAOs Members
+are all anonymous and DAO of DAOs members might try to game the system by creating
+multiple accounts, i.e., sockpuppet accounts. The only way to discourage such malicious
+actors from joining is to charge money during the member onboarding process.
+Weighted Keys Accounting
+Weighted keys have key advantages over NFTs as an accounting method for reputation in a DAO
+of DAOs. NFTs can be used as an accounting system of reputation management in the Ethereum
+environment and other first generation blockchains. Weighted keys provide an alternative
+accounting system for DAO of DAOs reputation. Leading 3rd generation blockchains provide
+weighted keys as an accounting metric as part of their key design specifications. This provides
+an ideal environment for reputation management and accounting.
+23
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+A key, yet temporary, comparison of reputation NFTs vs. weighted keys as a reputation
+management system highlights the potential of weighted keys:
+● NFTs hold reputation in a wallet. By comparison, weighted keys are held on-chain.
+● NFTs can be transferred from wallet to wallet. By comparison, weights in keys cannot be
+transferred as easily as they are tied to a particular key.
+● Weighted keys are preferable to NFTs because the smart contract itself holds the weights
+and each smart contract may require a different weight for a given key (this is ideal for
+different DAO smart contracts which can be accessed with the same key in different DAO
+environments that require different/unique weights for the same key depending on the
+DAO smart contract).
+● Unlike NFT wallets where the wallet accumulates NFT for scoring, weighted keys can
+accumulate more weight in the smart contract.
+● A smart contract weighted key can give its user full access at weight 1 but may accumulate
+more weight in the future. As such, the accumulation of weight may be displayed as a
+reputation score.
+Sockpuppet Attacks
+In addition to membership fees, sockpuppet attacks are also avoided via the DAO of
+DAOs’s periodic reputation-weighted salary that distributes all fees the DAO of DAOs
+earns through the LEGAL WRAPPER to all members. Individuals who bring successful
+ideas to the DAO of DAOs or perform tasks that bring fees to the LEGAL WRAPPER will
+be rewarded with reputation tokens, not the salary tokens. DAO of DAOs members who
+own more reputation tokens share in a larger percentage of the salary pool. This solves
+the sockpuppet attack because if a DAO of DAOs member creates 10 accounts with 1
+reputation token each, it is the same as 1 account with 10 reputation tokens.
+DoS Attacks
+The DAO of DAOs design addresses DoS attacks. Denial of Service (DoS) attacks
+happen when anonymous adversaries flood a given network with automated requests for
+superfluous tasks. Such incoming superfluous tasks prevent the network from engaging
+in productive work. To restrict a significant number of bad actors from entering the DAO
+24
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+of DAOs system and ensure resistance to basic DoS attacks, the DAO of DAOs charges
+a nominal fee during the onboarding process. This fee merely needs to be high enough
+so that the effort to police the bad actors is profitable, but not so high that it prevents
+people of good will from joining the DAO of DAOs. The precise number for the onboarding
+fee depends on the market environment.
+Level of Decentralization
+The level of decentralization in a DAO design is an indicator for longevity of the respective
+DAO. The level of decentralization and the associated attack resistance and
+incorruptibility of DAO governance designs are among the core factors that influence DAO
+design adoption, its precedential value, and longevity. In other words, the more
+decentralized a given DAO design, the more likely that design will in the long run be
+adopted by other DAOs. However, not all future DAO designs will comply with the ideal-
+typical DAO parameters. Ideal typical DAO design parameters will naturally filter out at
+the edges. In other words, because the optimal DAO design parameters change
+constantly, if and when formerly ideal-typical designs fail, new and optimized designs will
+replace them.
+The level of decentralization in the DAO of DAOs design may be defined by the following
+factors:
+- merit identifiers, i.e., DAO of DAOs members merit, knowledge, and influence is
+measured through their respective DAO of DAOs non-fungible reputation token
+ownership;
+- non-fungibility of DAO of DAOs weighted keys, i.e., merit of a DAO of DAOs member is
+expressed by a non-fungible weighted keys that cannot be bought or sold;
+- full transparency, i.e., all DAO of DAOs decisions are fully transparent and accessible
+by the public and the DAO of DAOs members themselves;
+- indirect economic incentives, i.e., DAO of DAOs members are getting paid with stable
+fungible tokens in proportion to their non-fungible reputation tokens;
+- decisions in the DAO of DAOs are made with a voting design that revolves around
+staking of non-fungible reputation tokens; and
+25
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+- DAO of DAO’s fungible salary tokens are designed as stable and EURO denominated
+cryptocurrencies that maintain their value at around 1 EURO. The incoming token grants
+from a diverse set of grantors are part of the pool of digital assets that constitute the
+basket of digital assets against which the DAO of DAO’s stable and EURO denominated
+cryptocurrency is pegged.
+- anonymity of DAO of DAOs members, i.e., after an initial setup and development period
+with less anonymity, DAO of DAOs merit identifiers revolve around reputation scores and
+members of the DAO of DAOs community can predominantly be identified by their
+respective reputation score in the DAO of DAOs structure.
+Conclusion
+A DAO of DAO enables the experimentation for DAO ecosystems that is needed to bring the DAO
+evolution and decentralized commerce to its next evolutionary stage. Decentralized governance
+is the key feature that enables the evolution of a DAO of DAOs. As the decentralized governance
+becomes more mainstream, other DAO ecosystems can cooperate with the DAO of DAOs. The
+increasing experimentation with the governance precedent set by the DAO of DAOs facilitates
+the ecosystem of DAOs to evolve.
+26
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+27
+Electronic copy available at: https://ssrn.com/abstract=3799320
+
+28
+Electronic copy available at: https://ssrn.com/abstract=3799320
+

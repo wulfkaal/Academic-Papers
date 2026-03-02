@@ -1,0 +1,866 @@
+Blockchain Applications and Fee Structure Developments in
+Private Investment Funds
+Wulf A. Kaal*
+Abstract
+The traditional 2/20 fee structure of private investment funds has
+come increasingly under pressure in the last ten years. Typical factors
+considered to explain the pressure on fees in the industry include the
+inadequate performance of the private investment fund industry, the
+ability of large investors to negotiate special terms, the withdrawal of
+private investment fund investments by large institutional clients and
+public retirement funds, and the consolidation of the industry, among
+several other market-driven factors. This article explores an additional
+factor that contributes to the pressure on fees, one that has largely been
+ignored by commentators: private fund advisers’ use of blockchain
+technology, artificial intelligence, and big data.
+Using a dataset of private investment fund advisers that utilize
+blockchain technology in their investment strategy or internal
+operations (N=[98]), this article shows that the fund advisers who use
+the new technology are often able to charge lower fees overall. The
+article explores the reasons for lower fees in those funds and examines
+possible future applications of the technology in the private investment
+fund industry. While the overall proportion of strategies of private
+investment funds that apply modern technologies, including blockchain
+technology, is still small, as the use of blockchain technology grows in
+the private investment fund industry, the pressure on the fee structure is
+likely to continue to grow.
+Key Words: Blockchain, Big Data, Meta Data, Data Scientist,
+Hedge Fund, Private Equity, Fees, Fee Structure
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+*Associate Professor, University of St. Thomas School of Law (Minneapolis), United
+States of America. The author is grateful for outstanding support from librarian Ann
+Bateson.
+1
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+Table of Content
+I. INTRODUCTION .................................................................................. 3
+II. CHANGING FEE STRUCTURE .............................................................. 5
+III. FACTORS CREATING DOWNWARD PRESSURE ON FEES ..................... 6
+IV. BLOCKCHAIN TECHNOLOGY ............................................................. 8
+V. PRIVATE INVESTMENT FUNDS’ USE OF BLOCKCHAIN TECHNOLOGY
+12
+VI. BLOCKCHAIN-ENABLED PRESSURE ON FEE STRUCTURE ................ 15
+VII. CONCLUSION ............................................................................... 18
+2
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+I. Introduction
+The traditional 2/20 fee structure of private investment funds has
+come increasingly under pressure in the last ten years. Several market
+factors help explain the pressure on the fee structure of the private
+investment fund industry. Private fund investors withdrew $70.1 billion
+from the private investment fund industry in 2016.1 In 2016 a total of
+1,057 private investment funds closed down, exceeding the 1,023
+liquidations of private investment funds in 2009, and falling just shy of
+the record 1,471 closures in 2008.2 According to some observers the
+market is oversaturated which increases pressure on private investment
+fund managers’ performance3 and results in compromise fee
+arrangements, such as paying fees on invested capital only.4 Other
+factors that help explain the pressure on fees in the industry include the
+inadequate performance of the private investment fund industry,5 the
+1 HFR: Hedge Fund Industry AUM Crests to 3T to End 2016, FINALTERNATIVES
+(Jan. 20, 2017, 8:12 PM ET), http://www.finalternatives.com/node/34475.
+2 William Watts, 1,057 Hedge Funds Shut Down Last Year—the Most Since the
+Financial Crisis, MARKETWATCH (Mar. 20, 2017, 8:51 AM ET),
+http://www.marketwatch.com/story/hedge-funds-closed-down-last-year-at-a-pace-
+unseen-since-2008-2017-03-17. “Some industry watchers have put the withdrawals
+closer to $100 billion. The shutdown total was 10.4 percent worse than 2015,
+bringing the total number of remaining hedge funds to 9,893, according to HFRI's
+estimates.” Jeff Cox, Hedge Fund Fees Are Falling As Shutdown Hits a Post-Crisis
+High, CNBC (Mar. 17, 2017, 12:40 PM ET),
+http://www.cnbc.com/2017/03/17/hedge-fund-fees-falling-as-shutdowns-hit-a-post-
+crisis-high.html.
+3 "‘The market is oversaturated,’ said Don Steinbrugge, managing partner at
+Agecroft Partners, a hedge fund marketing firm. ‘It's highly competitive, and for a
+hedge fund manager to raise money they can't have any flaws.’" Cox, supra note 2.
+4 “Edmund Truell, another veteran dealmaker and former chairman of the London
+Pensions Fund Authority, also advocates the idea of paying fees on invested capital
+only. Mr Truell, who founded Duke Street Capital, the private equity firm, in 1997,
+says the LPFA now pays fees on invested capital alone through its co-investment
+programme with Adveq, the Zurich-based private equity firm. He adds that he has
+seen ‘compromise’ arrangements elsewhere in the industry, whereby investors agree
+to pay fees on invested capital as well as a minimal management fee over a four-year
+period. He says: ‘My sense is that even the bigger [buyout] funds coming out next
+year are going to work with this sort of arrangement: fees based primarily on
+invested capital.’ There are clear signs of investor discontent with current fee
+practices. More than three-quarters of 151 private equity firms and investors polled
+by Sungard, the software company, believe fees will fall in the next two years.”
+Madison Marriage, Guy Hands: Private Equity Fees Are ‘Driving Investors Away,’
+FIN. TIMES (Oct. 3, 2015), https://www.ft.com/content/1cd7cff2-67aa-11e5-a57f-
+21b88f7d973f.
+5 See generally EILEEN APPELBAUM & ROSEMARY BATT, ARE LOWER PRIVATE
+EQUITY RETURNS THE NEW NORMAL? (2016),
+http://cepr.net/images/stories/reports/private-equity-performance-2016-06.pdf.
+“While median private equity buyout funds once beat the S&P 500, they have not done
+so since 2006 – despite industry claims to the contrary.” Id. at 1.
+3
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+ability of large investors to negotiate special terms,6 the withdrawal of
+private investment fund investments by large institutional clients and
+public retirement funds,7 and the consolidation of the industry, among
+several other market-driven factors.8
+A factor contributing to the market pressure on the fee structure
+that has not been examined by commentators pertains to the increasing
+use of use of blockchain technology, artificial intelligence, and big data
+by private fund advisers. Anecdotal evidence suggests that the majority
+of private fund advisers that use blockchain technology, artificial
+intelligence, and big data in different aspects of their operations or
+strategy have a substantially lower fee structure than those who do not
+use them. Prominent examples of lower fee structures driven by the use
+of blockchain technology include those of Lending Robot’s Lending
+Robot Series, and platforms for blockchain-enabled fund management,
+such as those offered by Melonport or Drago, among others.9
+6 See, e.g., Chris Flood, Private Equity Clings to ‘2 and 20’ Fee Model, FIN. TIMES
+(Aug. 12, 2016), https://www.ft.com/content/f7dc242c-58a9-11e6-9f70-
+badea1b336d4; Madison Marriage & Attracta Mooney, Hedge Funds and Private
+Equity Pressured to Cut Fees, FIN. TIMES (Feb. 21, 2106),
+https://www.ft.com/content/07867a66-d737-11e5-8887-98e7feb46f27; Sam Sutton,
+CalPERS Pays Lower Fees, Carry for a Third Year, PEHUB NETWORK: BUYOUTS
+(Nov. 14, 2016), https://www.pehub.com/buyouts/calpers-negotiates-lower-fees-
+carried-interest-for-third-straight-year/.
+7 See, e.g., Randy Diamond, CalPERS’ Private Equity Program Size Declining Despite
+Top Performance, PENSIONS & INVESTMENTS (Nov. 8, 2016, 4:21 PM),
+http://www.pionline.com/article/20161108/ONLINE/161109897/calpers-private-
+equity-program-size-declining-despite-top-performance; PEW CHARITABLE TRUSTS,
+STATE PUBLIC PENSION FUNDS INCREASE USE OF COMPLEX INVESTMENTS (2017),
+http://www.pewtrusts.org/~/media/assets/2017/04/psrs_state_public_pension_funds_
+increase_use_of_complex_investments.pdf. “While the allocation to hedge funds has
+increased in the aggregate, the rise in hedge fund investing by pension funds is slowing
+overall, and some funds are exiting these investments altogether. In 2014, for example,
+CalPERS eliminated its $4 billion hedge fund investment program, citing high costs.
+Likewise, the board of the New York City Employees’ Retirement System voted in
+April 2016 to withdraw from all hedge fund investments due to underperformance and
+cost.” [Footnote references omitted.] Id. at 21.
+8 See Judy Gross, SEC Releases Data on Private Funds; Big Picture of US Private
+Fund Industry Emerges, FORBES (Oct. 26, 2105, 5:46 AM),
+https://www.forbes.com/sites/judygross/2015/10/26/sec-releases-data-on-private-
+funds-big-picture-of-us-private-fund-industry-emerges/#227a174393e5.
+9 See, e.g., Berenice Magistretti, LendingRobot Launches Automated Hedge Fund
+Secured by Blockchain Technology, VB (Jan. 26, 2017, 8:00 AM),
+https://venturebeat.com/2017/01/26/lendingrobot-launches-automated-hedge-fund-
+secured-by-blockchain-tech/; Melonport, https://melonport.com/ (last visited Mar.
+30, 2017); Jim Manning, Melonport Brings Digital Asset Management to Polkadot’s
+Multi-Chain Framework, ETHNEWS (Nov. 14, 2016),
+https://www.ethnews.com/melonport-digital-asset-management-polkadot-multi-
+chain. See generally Attracta Mooney, Blockchain Could Be Totally Transformative
+for Fund Industry, FIN. TIMES (May 22, 2016),
+https://www.ft.com/content/bca31b78-1d02-11e6-b286-cddde55ca122; OLIVER
+WYMAN & J.P. MORGAN, UNLOCKING ECONOMIC ADVANTAGE WITH BLOCKCHAIN
+10–12 (2016), http://www.the-blockchain.com/docs/joint-report-by-jp-morgan-and-
+4
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+Using a dataset of private investment fund advisers that utilize
+blockchain technology in their investment strategy or internal
+operations (N=[98]), this article shows that the fund advisers who use
+the new technology are able to charge overall lower fees. The article
+explores the reasons for lower fees in those funds and examines possible
+future applications of the technology in the private investment fund
+industry. While the overall proportion of strategies of private investment
+funds that apply modern technologies, including blockchain technology,
+is still small, as the use of blockchain technology grows in the private
+investment fund industry, the pressure on the fee structure is likely to
+continue to grow.
+II. Changing Fee Structure
+The fee structure of private investment funds has changed
+substantially in the last ten years. Traditionally, the hedge fund industry
+has charged fees to investors based on the so-called “2/20” formula.10
+This means that most fund advisers were paid monthly or quarterly an
+annualized 2% management fee based on assets under management and
+a 20% annual performance or incentive reallocation based on net fund
+profits.11 Similarly managers of private equity funds generally used to
+charge an annualized 2% management fee based on committed capital
+and most commonly received a 20% commission on returns over a
+designated amount (referred to as the carry) as incentive compensation.
+However, the historical fee of 2% of commitments through the
+reinvestment period, then 2% on the cost basis for the investments/value
+of fund has shifted in recent years closer to 1.0% for new managers and
+1.5-1.8% for established managers with an adequate track record.12
+oliver-wyman-unlocking-economic-advantage-with-blockchain-A-Guide-for-Asset-
+Managers.pdf.
+10 Two and Twenty, INVESTOPEDIA,
+http://www.investopedia.com/terms/t/two_and_twenty.asp (last visited Mar. 30,
+2017).
+11 Id. Such fees are typically used by managers to pay for salaries, rent, and
+equipment. The remainder goes to the partners. See, e.g., Houman B. Shadab, The
+Law and Economics of Hedge Funds: Financial Innovation and Investor Protection,
+6 BERKELEY BUS. L.J. 250 (2009),
+http://scholarship.law.berkeley.edu/cgi/viewcontent.cgi?article=1066&context=bblj;
+Hedge Fund Performance and Management Fees, HEDGECO.NET (Aug. 5, 2009),
+https://www.hedgeco.net/hedgeducation/hedge-fund-articles/hedge-fund-
+performance-management-fees/.
+12 See Irwin Latner, Trends for Early-Stage Investing in Emerging Managers,
+HEDGE CONNECTION: THE EDGE (July 24, 2015, 7:59 AM),
+http://hedgeconnection.com/blog/?p=5071; Funds Forced to Reduce Fees and
+Increase Transparency, CITCO, https://www.citco.com/our-
+thinking/thoughts/funds-forced-to-reduce-fees-and-increase-transparency/; Amanda
+Cantrell, The Beginning of the End for High Hedge Fund Fees? INSTITUTIONAL
+INVESTOR (Sept. 15, 2016),
+http://www.institutionalinvestor.com/article/3585979/banking-and-capital-
+marketsdaily-agenda/the-beginning-of-the-end-for-high-hedge-fund-
+5
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+It has become increasingly common in recent years for investors
+to negotiate fees with fund managers, particularly with newer fund
+managers who may be more willing to engage in such negotiations to
+induce seed investors at the time of fund formation.13 Alternative fee
+arrangements include but are not limited to modified highwater marks,
+incentive hurdles, and triggers, as well as clawbacks.14
+First-time or new managers are particularly affected by the new
+fee structure. Unlike in the recent past, first-time managers are now
+often forced to share the business budget (rent, employee salaries, etc.)
+to justify the 1.5% management fee. Moreover, the industry is
+increasingly seeing contested track records for new managers, i.e., the
+new firm cannot get a consensus from the new manager’s old employer
+about the manager’s track record with that employer. Another
+phenomenon that affects first-time managers pertains to early limited
+partnership investors who increasingly throw their weight around to
+negotiate tough terms on fees.
+III. Factors Creating Downward Pressure on Fees
+For the better part of the last ten years, the inadequate
+performance of the private investment fund industry created substantial
+pressure on its traditional 2/20 fee structure. A prominent example,
+exemplifying the pressure on the fee structure given the performance of
+the industry, is the wager between Warren Buffet and Ted Seides. In
+2007 Warren Buffet entered into a wager with Ted Seides of Protégé
+Partners, betting $500,000 that a purely passive investment strategy, that
+is passively tracking the S&P 500 Index, over a ten-year period would
+beat any hedge fund portfolio over the same time period.15 Buffet
+asserted that the fees of the private investment fund industry (2/20) were
+too high for hedge funds given the returns of the industry and did not
+justify the fees continuing existence.16 To show his commitment, Buffet
+fees.html#/.WORK7fkrKUl. According to Hedge Fund Research, Inc., the average
+management fee for funds launched in 2016 was 1.33.
+https://www.hedgefundresearch.com/sites/default/files/articles/4Q16_HFR_MMIR_
+FINAL.pdf. According to Prequin, the average hedge fund earned 1.57 in
+management fees in 2016. Press Release, Prequin, Investors Increase Pressure on
+Hedge Funds to Lower Fees (Sept. 22, 2106),
+https://www.preqin.com/docs/press/HF-Fees-Sep-16.pdf
+13 See, e.g., Latner, supra note 12.
+14 See, e.g., TOWERS WATSON, HEDGE FUND INVESTING OPPORTUNITIES AND
+CHALLENGES 16–18 (2012), https://www.towerswatson.com/en/Insights/IC-
+Types/Survey-Research-Results/2012/04/Hedge-Fund-investing-opportunities-and-
+challenges; 7 Differences Between Private Equity and Hedge Funds, ARTIVIST
+(Dec. 1, 2014), https://artivest.co/blog/7-differences-between-private-equity-and-
+hedge-funds/.
+15 See Letter from Warren Buffet, Chairman of the Board, Berkshire Hathaway Inc.,
+to Hathaway Berkshire Shareholders 21–22 (Feb. 25, 2017),
+http://berkshirehathaway.com/letters/2016ltr.pdf.
+16 See id. at 23–24.
+6
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+selected a Vanguard S&P Index Fund, passively tracking the S&P 500
+Index, while Seides chose five hedge funds of funds. Seides’s hedge
+funds of funds had collectively invested in over 100 hedge funds.17 The
+wager was on the higher of the respective funds’ compounded annual
+return for ten years (2008-2017) net of fees.18 Seides entered into the
+bid despite a huge disadvantage—hedge funds have a much higher fee
+structure and the wager pertained to compounded annual interest net of
+fees. A year before the end of the wager, Buffet’s nine-year result is a
+7.1 % compounded annual return compared to Seides’s 2.2%.19 Buffet
+has opined that the great majority of managers are not skillful enough
+to outperform the S&P 500, noting that “a good record quickly attracts
+a torrent of money . . . huge sums invariably act as an anchor on
+investment performance [and that] most managers will nevertheless
+seek new money because of their personal equitation – namely, the
+more funds they have under management, the more their fees.”20
+The increasing pressure on the traditional fee structure manifests
+itself in several new fee-related outcomes affecting private investment
+fund managers. In recent years, private investment fund management
+fees can deviate from the market rate of 1.5%–2% of the fund’s capital
+commitments because affiliates or other employees of the investment
+manager who invest in the fund are not charged management fees, and
+funds with fewer oversight and monitoring requirements typically
+charge lower management fees. 21 The new fee structure is also the
+result of fund managers foregoing market rate management fees, larger
+investors requiring reduced management fees to induce investment,
+side-by-side vehicles attracting investors in the co-investment entities
+by charging less than 2% management fees, real estate funds charging
+management fees based on the amounts invested in properties, and
+different investors in the same fund being charged different
+management fees. 22 Charging different management fees because of
+the aforementioned pressures on the industry can make it more difficult
+17 Id. at 22.
+18 See id.
+19 Id.
+20 Id. at 24.
+21 Barry Steinman, Private Equity Fund Fees, DUANE MORRIS 5, 7 (Aug. 2014),
+https://www.duanemorris.com/site/static/private_equity_fund_fees.pdf. Various
+company ADV reports and brochures illustrate reduced or waived management fees
+for employees and others. See, e.g., FIG LLC, U.S. Sec. and Exch. Comm’n Form
+ADV, Part 2A: Firm Brochure, Mar. 30, 2016, at 5,
+http://ir.driveshack.com/Cache/33858446.PDF?O=PDF&T=&Y=&D=&FID=33858
+446&iid=4040318; Neuberger Berman LLC, Client Brochure, Jan. 1, 2016, at 8,
+https://www.morganstanley.com/wealth-
+investmentsolutions/pdfs/adv/neubergerbermanadv.pdf; LeoGroup, U.S. Sec. and
+Exch. Comm’n Form ADV, Part 2: Client Brochure (Mar. 15, 2016), at 6,
+http://leogroupllc.com/wp-content/uploads/2015/05/LeoGroup-ADV2-2016-03-
+15.pdf.
+22 Steinman, supra note 21.
+7
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+for fund advisers to market a fund, especially a fund where investors
+receive “most favored nations” rights. 23
+Several market factors help explain the pressure on the fee
+structure of the private investment fund industry. Private fund investors
+withdrew $70.1 billion from the private investment fund industry in
+2016.24 In 2016 a total of 1,057 private investment funds closed down,
+exceeding the 1,023 liquidations of private investment funds in 2009,
+and falling just shy of the record 1,471 closures in 2008.25 According to
+some observers the market is oversaturated which increases pressure on
+private investment fund managers’ performance26 and results in
+compromise fee arrangements, such as paying fees on invested capital
+only.27
+Other important factors for the downward pressure on the
+incentive fee side include blackened carried interest and changes in the
+calculation of hurdle rates. Some industry observers are now talking
+about a movement towards blackened carried interest, meaning a private
+investment fund manager cannot collect carry until all limited partner
+investors have had their capital returned within the lifetime of the
+private equity model. A similar trend is observable in the hedge fund
+industry. Moreover, hurdle rate calculations have changed substantially.
+Inflation-indexed hurdle rates are now calculated on a monthly not a
+quarterly basis. For managers with pension plan limited partners that
+often means instead of an 8% hurdle rate the manager gets 5% plus
+inflation.
+IV. Blockchain Technology
+Blockchain technology has been defined in many different ways,
+and no truly uniform definition seems to exist. Some refer to it as a giant
+worldwide, distributed, immutable “google spreadsheet” for
+transactions.28 Others define blockchain by focusing on its central
+elements, e.g., it is a transaction ledger, electronic, decentralized,
+immutable, and provides cryptographic verification, among several
+others.29 Vitalik Buterin, the founder of Ethereum, perhaps most
+prominently defined blockchain as follows:
+23 Steinman, supra note 21, at 7.
+24 HFR: Hedge Fund Industry AUM Crests to 3T to End 2016, supra note 1.
+25 Watts, supra note 2; Cox, supra note 2.
+26 "The market is oversaturated," said Don Steinbrugge, managing partner at
+Agecroft Partners, a hedge fund marketing firm. "It's highly competitive, and for a
+hedge fund manager to raise money they can't have any flaws." Cox, supra note 2.
+27 Marriage, supra note 4.
+28 Jonathan Shieber, Colu Aims to Bring Blockchain Technology Everywhere, TC
+(Jan. 27, 2015), https://techcrunch.com/2015/01/27/colu-aims-to-bring-blockchain-
+technology-everywhere/; Craig Leppan, Who Is Blockchain Going to Affect the Most,
+OVATIONS (July 29, 2015), http://www.ovationsgroup.com/blockchain/.
+29 See, e.g., ALAN MORRISON, BLOCKCHAIN AND SMART CONTRACT AUTOMATION:
+BLOCKCHAINS DEFINED, PWC (2016), http://www.pwc.com/us/en/technology-
+8
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+Public blockchains: a public blockchain is a blockchain
+that anyone in the world can read, anyone in the world
+can send transactions to and expect to see them included
+if they are valid, and anyone in the world can participate
+in the consensus process – the process for determining
+what blocks get added to the chain and what the current
+state is. As a substitute for centralized or quasi-
+centralized trust, public blockchains are secured by
+cryptoeconomics – the combination of economic
+incentives and cryptographic verification using
+mechanisms such as proof of work or proof of stake,
+following a general principle that the degree to which
+someone can have an influence in the consensus process
+is proportional to the quantity of economic resources that
+they can bring to bear. These blockchains are generally
+considered to be “fully decentralized”.30
+Rather than attempting to agree on a mutually acceptable
+phraseology for a definition, a description of the core elements of ledger
+technology can help define the blockchain. As such, a blockchain is a
+shared digital ledger or database that maintains a continuously growing
+list of transactions among participating parties regarding digital assets –
+forecast/2016/blockchain/pwc-smart-contract-automation-definition.pdf; Alistair
+Dabbs, What Is Blockchain, and Why Is It Growing in Popularity?, ARSTECHNICA
+(Nov. 6, 2016, 8:00 AM), https://arstechnica.com/information-
+technology/2016/11/what-is-blockchain/; Lee Grant, Blockchain – Definition,
+Origin, and History, TECHBULLION (Sept. 6, 2016),
+http://www.techbullion.com/blockchain-definition-origin-history; DELOITTE,
+BLOCKCHAIN ENIGMA. PARADOX. OPPORTUNITY 4–7 (2016),
+https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/Innovation/deloitte-
+uk-blockchain-full-report.pdf.
+30 Vitalik Buterin, On Public and Private Blockchains, ETHEREUM BLOG (Aug.7,
+2015), https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/,
+contrasting public blockchains (the original idea) with consortium blockchains and
+fully private blockchains: “Consortium blockchains: a consortium blockchain is a
+blockchain where the consensus process is controlled by a pre-selected set of nodes;
+for example, one might imagine a consortium of 15 financial institutions, each of
+which operates a node and of which 10 must sign every block in order for the block
+to be valid. The right to read the blockchain may be public, or restricted to the
+participants, and there are also hybrid routes such as the root hashes of the blocks
+being public together with an API that allows members of the public to make a
+limited number of queries and get back cryptographic proofs of some parts of the
+blockchain state. These blockchains may be considered ‘partially decentralized.’” Id.
+“Fully private blockchains: a fully private blockchain is a blockchain where write
+permissions are kept centralized to one organization. Read permissions may be
+public or restricted to an arbitrary extent. Likely applications include database
+management, auditing, etc [sic] internal to a single company, and so public
+readability may not be necessary in many cases at all, though in other cases public
+auditability is desired.” Id.
+9
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+together described as “blocks.”31 The linear and chronological order of
+transactions in a chain will be extended with another transaction link
+that is added to the block once such additional transaction is validated,
+verified, and completed.32 The chain of transactions is distributed to a
+limitless number of participants, so-called nodes,33 around the world in
+a public or private peer-to-peer network.
+Blockchain technology removes fraudulent transactions.
+Compared with existing methods of verifying and validating
+transactions by third-party intermediaries, blockchain’s security
+measures make blockchain validation technologies more transparent
+and less prone to error and corruption. While blockchain’s use of digital
+signatures helps establish the identity and authenticity of the parties
+involved in the transaction, it is the completely decentralized network
+connectivity via the Internet that allows the most protection against
+fraud.34 Network connectivity allows multiple copies of the blockchain
+to be available to all participants across the distributed network.35 The
+decentralized, fully-distributed nature of the blockchain makes it
+practically impossible to reverse, alter, or erase information in the
+blockchain.36 Blockchain’s distributed consensus model, e.g., the
+network “nodes” verify and validate chain transactions before execution
+of the transactions, makes it extremely rare for a fraudulent transaction
+to be recorded in the blockchain.37 That model also allows node
+31 See, e.g., Michele D’Aliessi, How Does the Blockchain Work? MEDIUM (June 1,
+2016), https://medium.com/@micheledaliessi/how-does-the-blockchain-work-
+98c8cd01d2ae#.w76hifcu2; Monica Pearson, Blockchain Is the New Buzzword,
+EXPERIAN, (Jan. 31, 2016),
+https://www.experian.com/blogs/insights/2016/01/blockchain-is-the-new-buzzword/.
+32 See, e.g., D’Aliessi, supra note 31; Pearson, supra note 31.
+33 See, e.g., D’Aliessi, supra note 31. Participants can be individuals, organizations,
+and even things. See, e.g., Hemant Saxena, Blockchain Technology and Microsoft’s
+Plan to Develop Blockchain As a Service, WINDOWS CLUB (Feb. 16, 2017),
+http://www.thewindowsclub.com/blockchain-microsoft-plans-develop-
+service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Th
+eWindowsClub+%28The+Windows+Club%29; Sloane Brakeville & Bhargav
+Perepa, Blockchain Basics: Introduction to Distributed Ledgers, IBM:
+DEVELOPERWORKS (May 9, 2016; updated Dec. 15, 2016),
+https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-
+bluemix-trs/. The only condition for participants is the necessity of an Internet
+connection. See, e.g., D’Aliessi, supra note 31.
+34 See, e.g., Brakeville & Perepa, supra note 33. For an in-depth, nuanced discussion
+of this point, see PETER VAN VALKENBURGH, OPEN MATTERS: WHY
+PERMISSIONLESS BLOCKCHAINS ARE ESSENTIAL TO THE FUTURE OF THE INTERNET 3–
+4, 23–26 (2016), https://coincenter.org/files/2016-12/openmattersv1-1.pdf. .
+35 See, e.g., D’Aliessi, supra note 31.
+36 See, e.g., Brakeville & Perepa, supra note 33; Antony Lewis, A Gentle
+Introduction to Immutability of Blockchain, BITS ON BLOCKS (Feb. 29, 2016),
+https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-
+blockchains/.
+37 See, e.g., Francois Janinotto, The Blockchain Explained to Web Developers, Part
+1: The Theory, MARMELAB BLOG (Apr. 28, 2016),
+10
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+verification of transactions without compromising the privacy of the
+parties and is therefore arguably safer than a traditional model that
+requires third-party intermediary validation of transactions.38
+Cryptographic hashes further increase blockchain security.
+Cryptographic hashes are complex algorithms that use the details of all
+previous transactions in the existing blockchain before adding the next
+block to generate a unique hash value.39 That hash value ensures the
+authenticity of each transaction before it is added to the block. The
+smallest change to the blockchain, even a single digit/value, results in a
+different hash value. A different hash value makes any form of
+manipulation immediately detectable.40
+Smart contracts and smart property are blockchain-enabled
+computer protocols that verify, facilitate, monitor, and enforce the
+negotiation and performance of a contract.41 The term “smart contract”
+was first introduced by Nick Szabo, a computer scientist and legal
+theorist, in 1994.42 An often-cited example for smart contracts is the
+purchase of music through Apple’s iTunes platform.43 A computer code
+ensures that the “purchaser” can only listen to the music file on a limited
+https://marmelab.com/blog/2016/04/28/blockchain-for-web-developers-the-
+theory.html; Razvan Peteanu, Fraud Detection in the World of Bitcoin, BITCOIN
+MAG. (Mar. 26, 2014, 5:50 AM EST), https://bitcoinmagazine.com/articles/fraud-
+detection-world-bitcoin-1395827419/ (noting, “Fundamentally, detecting fraud is
+hard precisely because it is rare, dynamic and not necessarily obviously
+fraudulent.”).
+38 For a discussion of privacy on the blockchain, see Valkenburgh, supra note 31, at
+33–40. For an overview of various consensus mechanisms see SIGRID SEIBOLD &
+GEORGE SAMMAN, CONSENSUS: IMMUTABLE AGREEMENT FOR THE INTERNET OF
+VALUE (2016), https://assets.kpmg.com/content/dam/kpmg/pdf/2016/07/kpmg-
+blockchain-consensus-mechanism-channel-islands.pdf; Valkenburgh, supra note 31,
+at 15-40.
+39 See, e.g., Lewis, supra note 36.
+40 Id.
+41 See e.g., ALAN MORRISON, BLOCKCHAIN AND SMART CONTRACT AUTOMATION:
+INTRODUCTION AND FORECAST, PWC (2016), http://www.pwc.com/us/en/technology-
+forecast/2016/blockchain/pwc-smart-contract-automation-introduction.pdf; Nicolette
+Kost De Sevres & Bradley Cohen, The Blockchain Revolution, Smart Contracts and
+Financial Transactions, DLA PIPER (Apr. 26, 2016),
+https://www.dlapiper.com/en/czech/insights/publications/2016/04/the-blockchain-
+revolution/.
+42 Smart Contracts: The Blockchain Technology That Will Replace Lawyers,
+BLOCKGEEKS, http://blockgeeks.com/guides/smart-contracts/ (last visited Mar. 18,
+2017); Not-So-Clever Contracts, ECONOMIST, July 30, 2016, at 53,
+http://www.economist.com/news/business/21702758-time-being-least-human-
+judgment-still-better-bet-cold-hearted.
+43 See, e.g., HORSTEN KOEPPL & JEREMY KRONIK, BLOCKCHAIN TECHNOLOGY—
+WHAT’S IN STORE FOR CANADA’S ECONOMY AND FINANCIAL MARKETS? 15 (2017),
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Com
+mentary_468_0.pdf; R. Douglas Vaugh & Anna Outzer, Understanding How the
+Block Chain Could Impact the Legal Industry, LAW 360 (Jan. 11, 2017),
+https://www.law360.com/articles/879810/understanding-how-blockchain-could-
+impact-legal-industry.
+11
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+number of Apple devices.44
+More complex smart contract arrangements in which several
+parties are involved require a verifiable and unhackable system
+provided by blockchain technology.45 Through blockchain technology,
+smart contracting often makes legal contracting unnecessary as smart
+contracts often emulate the logic of legal contract clauses.46 Ethereum,
+the leading platform for smart contracting, describes smart contracting
+in this context as follows:
+Ethereum is a decentralized platform that runs smart
+contracts: applications that run exactly as programmed
+without any possibility of downtime, censorship, fraud or
+third party interference. These apps run on a custom built
+blockchain, an enormously powerful shared global
+infrastructure that can move value around and represent the
+ownership of property. This enables developers to create
+markets, store registries of debts or promises, move funds in
+accordance with instructions given long in the past (like a will
+or a futures contract) and many other things that have not
+been invented yet, all without a middle man or counterparty
+risk.47
+V. Private Investment Funds’ Use of Blockchain Technology
+A recent trend in the private investment fund industry pertains to
+the increasing use of blockchain technology to facilitate investment and
+process optimization. Several private investment funds have
+spearheaded the implementation of blockchain technology and smart
+44 Vaughn & Outzer, supra note 43; Jeffrey Glazer, Smart Contracts Are a Future,
+U. WIS. – MADISON: LAW & ENTREPRENEURSHIP CLINIC (Sept. 14, 2015),
+https://www.uwle.org/blog/smart-contracts-are-a-future.
+45 See, e.g., ETHEREUM, https://www.ethereum.org/ (last visited Apr. 17, 2017);
+Gavin Wood, Ethereum: A Secure Decentralised Generalised Transaction Ledger,
+http://gavwood.com/paper.pdf; Luke Parker, Industry Research Papers Highlight
+Blockchain Technology’s Disruptive Potential, BRAVE NEWCOIN (July 3, 2016),
+https://bravenewcoin.com/news/industry-research-papers-highlight-blockchain-
+technologys-disruptive-potential/.
+46 Mark Anderson, Smart Contracts and Blockchain Technology, IP DRAUGHTS (June
+18, 2016, 12:14 PM), https://ipdraughts.wordpress.com/2016/06/18/smart-contracts-
+and-blockchain-technology/. See generally Josh Stark, Making Sense of Blockchain
+Smart Contracts, COINDESK (June 4, 2016, 18:39 GMT),
+http://www.coindesk.com/making-sense-smart-contracts/; Josh Stark, How Close Are
+Smart Contracts to Impacting the Real World of Law?, COINDESk, (Apr. 11, 2016,
+14:00 GMT), http://www.coindesk.com/blockchain-smarts-crntracts-real-world-law/;
+Ted Mylnar & Ira Schafer, Why Smart Contracts Will Need ‘Smart Term Sheets’ to
+Match, COINDESK (Dec. 9, 2016, 14:36 GMT), http://www.coindesk.com/smart-
+contracts-will-need-smart-term-sheets-match/. For an example of what startups hope
+to accomplish with smart contracting, see Legalese, https://legalese.com/ (last visited
+Apr. 17, 2017).
+47 ETHEREUM, supra note 45.
+12
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+contracting in their business model. While some funds simply focus on
+trading bitcoin and other cryptocurrencies to avoid market fluctuations,
+others invest in and/or acquire companies that use blockchain
+technology to provide synergies to their other portfolio companies. Yet
+others go much further by fully automating a hedge fund secured by
+blockchain technology, using blockchain technology to improve
+administrative procedures of private equity deal making, or using
+cryptocurrencies as incentives for data scientists’ competitive models
+that facilitate investment analysis efficiencies. Examples include private
+investment funds such as Polychain Capital,48 the Northern Trust49 in
+cooperation with IBM, Numerai,50 LendingRobot,51 and Intellisys
+Capital LLC,52 Melonport,53 among many others.
+Several private investment funds have spearheaded and continue
+to expand the implementation of blockchain technology and smart
+contracting in their business models. In February 2017, Northern Trust
+and IBM entered into a partnership for the commercial use of blockchain
+in the private fund industry. The partnership provides an enhanced and
+efficient approach to private equity administration.54 The
+implementation of the Northern Trust and IBM blockchain is intended
+to increase the efficiency, transparency, and speed of private equity
+transactions, improve security, and bring innovation to the private
+equity market by simplifying the complex and labor-intensive
+transactions in the private equity market. While the current legal and
+administrative processes that support private equity are time-
+consuming, expensive, lack transparency, and involve lengthy,
+duplicative, and fragmented investment and administrative processes,
+the partnership’s solution delivers an enhanced and efficient approach
+to private equity administration. 55 More specifically, unlike the current
+deal practice in private equity, which requires parties to reconcile
+multiples copies of the documents that form the deals to understand the
+greater picture, the blockchain program announced by Northern Trust
+and IBM allows all involved parties in an equity deal to look at a single
+compiled version of the transaction and all other data relating to the
+deal.56
+Another example of the use of blockchain technology for private
+investment funds is Numerai. Numerai is a private investment fund with
+48 Polychain Capital, https://angel.co/polychain-capital (last visited Apr. 17, 2017).
+49 Northern Trust, https://www.northerntrust.com/ (last visited Apr. 17, 2017).
+50 Numerai, https://numer.ai/ (last visited Apr. 17, 2017).
+51 LendingRobot, https://www.lendingrobot.com/#/ (last visited Apr. 17, 2017).
+52 Intellisys Capital LLC, http://www.intellisys.ai/ (last visited Apr. 17, 2017).
+53 Melonport, https://melonport.com/, (last visited Apr. 17, 2017).
+54 See Press Release, IBM, Northern Trust and IBM Pioneer Use of Blockchain
+Technology to Help Transform Private Equity Administration (Feb. 22, 2017),
+http://www-03.ibm.com/press/us/en/pressrelease/51655.wss.
+55 See id.
+56 See id.
+13
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+a global equity strategy that will go live on the blockchain later this
+year.57 Numerai operates on the Ethereum blockchain, utilizing a
+cryptocurrency called “Numeraire.” Numerai uses artificial intelligence
+to convert financial data into machine learning problems for data
+scientists. On February 21, 2017, Numerai, announced: “[Today]
+12,000 data scientists were issued 1 million crypto-tokens to incentivize
+the construction of an artificial intelligence hedge fund.” 58 Using data
+scientists for investment analysis creates efficiency through a synthesis
+of data. Data scientists working in this model work to solve the same
+problems in their own unique way with different strategies. Numerai
+synthesizes these models to create a meta-model out of all the
+predictions from the data scientists. 59 In the Numerai model, the use of
+artificial intelligence ultimately helps achieve the goal of efficiency and
+optimum capital allocation by reducing overhead costs because there is
+no cost of human capital. 60 In addition, Numerai eliminates barriers to
+entry because users do not need capital or any special finance or data
+knowledge.
+LendingRobot’s LendingRobot Series is a fully automated hedge
+fund secured by blockchain technology. 61 Unlike other blockchain-
+based hedge funds that invest specifically in cryptocurrency, such as
+Global Advisers and Polychain Capital, the LendingRobot Series
+invests in lending marketplaces— Lending Club, Prosper, Funding
+Circle, and Lending Home.62 Its trading is determined by an algorithm
+based on the investor’s risk preferences. Once the investor has created
+a trading profile, LendingRobot selects and executes trades that are
+recorded in the blockchain public ledger on a weekly basis. Unlike
+traditional hedge funds that are rather secretive, the LendingRobot
+ledger shows detailed holdings and provides a “hash code” signature as
+evidence that the data is tamper-proof in the blockchain. 63
+57 See Laura Shin, This Is the World’s First Cryptocurrency Issued by a Hedge Fund,
+FORBES (Feb. 21, 2017, 7:00 AM),
+https://www.forbes.com/sites/laurashin/2017/02/21/this-is-the-worlds-first-
+cryptocurrency-issued-by-a-hedge-fund/#61dcf68560b6.
+58 A New Cryptocurrency for Coordinating Artificial Intelligence on Numerai,
+MEDIUM (Feb. 21, 2017), https://medium.com/numerai/a-new-cryptocurrency-for-
+coordinating-artificial-intelligence-on-numerai-9251a131419a.
+59 See Shin, supra note 57.
+60 See Interview with Richard Craib, Founder, Numerai, Crowdsourcing a Machine
+Learning Hedge Fund, TECHEMERGENCE (Nov. 10, 2016),
+https://www.techemergence.com/crowdsourcing-a-machine-learning-hedge-fund/.
+61 Press Release, deBanked, Introducing LendingRobot Series: One-Stop Investing in
+Alternative Lending (Jan. 26, 2017), http://debanked.com/2017/01/introducing-
+lendingrobot-series-one-stop-investing-in-alternative-lending/; Dan Cummings,
+LendingRobot Introduces Robo-Fund LendingRobot Series, ETHNEWS
+https://www.ethnews.com/lendingrobot-introduces-robo-fund-lendingrobot-series.
+62 Press Release, deBanked, supra note 61; Cummings, supra note 61.
+63 Press Release, deBanked, supra note 61.
+14
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+Established private investment fund managers may consider
+implementing blockchain technologies in the foreseeable future. Most
+large fund advisers in the private equity and hedge fund industry have
+not yet considered implementing blockchain technology in combination
+with big data applications and artificial intelligence. This, however, may
+change in the foreseeable future if and when larger managers realize that
+their smaller competitors who utilize these technologies gain substantial
+operational efficiencies and cost savings and are able to substantially
+diversify their portfolio holdings via such technologies. The threshold
+for change for bigger managers may be dictated by the implementation
+cost of such new technologies. If and when the long-term benefits of
+using the technologies exceed the implementation cost, which are much
+larger for larger managers than for the smaller managers who are
+currently experimenting with such technologies, larger managers are
+incentivized to start the innovation process as well.
+VI. Blockchain-Enabled Pressure on Fee Structure
+Blockchain technology enables managers to charge per-
+transaction fees which undermines the existing 2/20 fee model.
+Blockchain technology facilitates a seamless and efficient calculation of
+management fees per transaction. In contrast to the traditional
+settlement and calculation of fees in a per-transaction model that created
+a prohibitive amount of work making such operations very difficult to
+execute, blockchain technology overcomes all of these restrictions. It
+enables the fully automated allocation of the appropriate fee to the
+correct executed trade and associated client account without any manual
+reconciliation or settlement.64 While normally the use of this type of fee
+is prone to human errors that occur during manual calculation or
+settlement, these errors are removed through the use of blockchain
+technology which performs the required calculations and settlement
+procedures automatically and seamlessly. The blockchain enabled per-
+transaction fee can be pre-determined or modified by the manager in
+cooperation with clients. It also can be publicly available which allows
+the private fund adviser to determine the applicable fee in a competitive
+market.65 Accordingly, clients who invest in a more transaction-prone
+strategy will be able to agree upfront to higher fees whereas clients who
+invest in a less transaction-rich strategy will pay overall lower fees.
+64 See id. at 1–2.
+65 See generally Northern Trust Using Blockchain for Private Equity Administration,
+ISF (Feb. 22, 2017, 2:00 PM),
+https://globalinvestorgroup.com/Articles/3663824/Northern-Trust-using-blockchain-
+for-private-equity-administration; Nick Ayton, Blockchain Means the End of Asset
+Management As We Know It, INNOVATION ENTERPRISE (July 29, 2016),
+https://channels.theinnovationenterprise.com/articles/blockchain-will-revolutionize-
+asset-management.
+15
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+While not all blockchain-enabled private investment funds
+charge per-transaction fees, the majority of private fund advisers that
+use blockchain technology, artificial intelligence, and big data in
+different aspects of their operations or strategy charge their investors
+lower fees. Prominent examples of lower fee structures driven by the
+use of blockchain technology include those of LendingRobot’s
+LendingRobot Series, the Logos Fund, and platforms for blockchain-
+enabled fund management, such as those offered by Melonport or
+Drago, among many others.
+Investors in LendingRobot’s Lending Robot Series, the fully
+automated hedge fund secured by blockchain technology,66 unlike
+investors in traditional hedge funds, can withdraw funding on a weekly
+basis at no additional cost to the investor. Because LendingRobots’
+business model removes the investment adviser, overhead costs, and
+legal fees associated with each investor agreement, LendingRobot is
+able to charge a mere 1% management fee and a maximum 0.59% fund
+expense fee per year.67 Other factors that help keep the fee low include
+the increased transparency that allows LendingRobot to expense fewer
+resources on auditing the fund. LendingRobot claims an average
+performance of from 6.86% to 9.66% depending on the investment
+strategy selected by the clients.68 As of March 2017 an analysis of a
+broad range of traditional hedge funds shows an average of 8.89%
+annualized return.69 The increased transparency, reduced costs, and
+competitive performance enabled by LendingRobot’s use of blockchain
+technology may give it a competitive advantage in the private fund
+industry that could continue to exert pressure on fees charged by
+competitor funds.
+The Logos Fund is an alternative investment fund that invests in
+blockchain and cryptocurrency-related investments.70 It aims to make
+blockchain-based currencies accessible to professionals and a broad
+range of investors by investing in the mining of blockchain-based
+cryptocurrencies as well as into such currencies directly.71 To cover
+base costs and administration, the Logos Fund charges an administrative
+fee of between 1.2% and 1.92% depending on the size of the
+66 Berenice Magistretti, LendingRobot Launches Automated Hedge Fund Secured by
+Blockchain, VB (Jan. 26, 2017, 8:00 AM),
+http://venturebeat.com/2017/01/26/lendingrobot-launches-automated-hedge-fund-
+secured-by-blockchain-tech/.
+67 Id.
+68 LendingRobot Series, https://www.lendingrobot.com/#/series/ (last visited Apr.
+17, 2017).
+69 Eurekahedge Hedge Fund Index, EUREKAHEDGE,
+http://www.eurekahedge.com/Indices/IndexView/Eurekahedge/473/Eurekahedge_He
+dge_Fund_Index (last visited Apr. 17, 2017).
+70 LOGOSFUND, http://logos-fund.com/wordpress/the-logos-fund/(last visited Apr.
+17, 2017).
+71 Id.
+16
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+investment.72 The fund management also charges a performance-related
+fee of from 9% to 21% plus investment surcharges and redemption
+surcharges in accordance with market practices.73
+Blockchain-enabled platforms for setting up a private investment
+fund cause significant pressure on the existing fee structure of the
+private investment fund industry. Platforms such as Melonport or Drago
+enable competitive gains for their clients through fewer costs and time
+barriers to setting up and running a private investment fund.74 While
+such competitive gains will benefit the majority of private investment
+fund managers and investors, the lower operating costs enabled by the
+platform models will especially enable new and future managers to enter
+the market because the start-up costs and compliance costs can be
+significantly reduced. By enabling low set-up requirements and low
+costs of running a portfolio, platform models may be able to create an
+unprecedented competitive environment for asset management
+strategies. The cost of running a private fund adviser portfolio on the
+blockchain equals the core usage fees, modular commissions, and the
+infrastructure costs to be paid on the Ethereum platform.75 The usage
+fees are determined by the protocol, and the modular fees are set by the
+module developers and are a fraction of a cent or a fraction of the trade
+volume for each usage.76
+The dataset for this article comprises a representative sample of
+private investment funds that utilize blockchain technology in either
+their strategy or operations (N=[98]). The author and a team of two
+research assistants hand-coded individual use of blockchain technology
+for each fund in the dataset.
+72 Frequently Asked Questions, LOGOSFUND, http://logos-
+fund.com/wordpress/faqs/.
+73 Id.
+74 “The costs and complexity of setting up a portfolio using the Melonprotocol are
+lower than they are with traditional asset management [funds], seconds and cents
+versus months and millions." RETO TRINKLER & MONA EL ISA, MELON PROTOCOL:
+A BLOCKCHAIN PROTOCOL FOR DIGITAL ASSET MANAGEMENT: DRAFT 4
+https://bravenewcoin.com/assets/Whitepapers/melonprotocol.pdf.
+75 Id.
+76 Id.
+17
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+
+30
+25
+20
+15
+10
+5
+0
+0 0.5 1 1.5 2 2.5 3
+The graph illustrates that the fee structure of those private
+investment fund advisers that use blockchain technology (and
+responded to the survey) deviates from the traditional 2/20 model.
+While the author was unable to get responses from all managers in the
+dataset, those who responded suggested that they were able to use an
+alternative fee structure that benefited their clients.
+VII. Conclusion
+The meteoric rise of blockchain technology and the
+abovementioned prominent applications of blockchain technology
+utilizing artificial intelligence and big data serve as prominent
+examples of the impending seismic shifts in the private investment
+fund industry. The paper has illustrated that the rise of blockchain
+applications in private investment funds can exacerbate the already
+changing fee structure of the industry. Private investment funds that
+use blockchain technology in combination with artificial intelligence
+and big data are able to lower their fees. As the use of modern
+technologies increases in the industry, the fee structure is likely to be
+further affected.
+18
+)%(
+eeF
+ecnamrofreP
+Traditional Fee Structure Utilization
+n=5
+Management Fee (%)
+50
+40
+30
+20
+10
+0
+Alternative Not Applicable No Answer/ Decline to
+Answer
+sesnopseR
+fo
+rebmuN
+Responses to Fee Structure
+n=59
+Responses
+Electronic copy available at: https://ssrn.com/abstract=2959730
+Electronic copy available at: https://ssrn.com/abstract=2959730
+

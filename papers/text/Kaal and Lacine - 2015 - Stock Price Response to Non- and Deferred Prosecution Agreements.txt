@@ -1,0 +1,872 @@
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+STOCK PRICE RESPONSE TO NON- AND DEFERRED PROSECUTION AGREEMENTS
+BY
+WULF A. KAAL *
+&
+TIMOTHY A. LACINE *
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+* Associate Professor, University of St. Thomas School of Law (Minnesota). The authors would like to
+thank Brandon Garrett, John Morley, Alan Palmiter, Gregory Gilchrist, Victor Fleischer, Miriam Baer, [____].
+The authors are particularly grateful for outstanding support from research librarian Nick Farris.
+* J.D. 2014, University of St. Thomas School of Law; M.B.A. 2008, University of Minnesota.
+! 1!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+Electronic copy available at: http://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+ABSTRACT
+In response to perceived corporate governance shortcomings in major U.S.
+corporations, the U.S. Department of Justice, starting in 2002, substantially increased the
+execution of non- and deferred prosecution agreements (N/DPAs). This study examines
+investor responses to three events that define N/DPAs and N/DPA mandated governance
+improvements, specifically, the official DOJ press release announcing the execution of an
+N/DPA, the date of the start of the term of the N/DPA, and the date of the end of the term of
+the N/DPA. Our hand-selected dataset comprises all institutions that executed N/DPAs from
+1993 to 2015 (N=330) and are publicly traded (N=94). We document a significant and
+predictable positive stock price response to the DOJ press release and the start of the N/DPA
+term. Our tests indicate that the market interprets the three events not in isolation but as
+sequential and conditional events. We also find that investor’s response differs depending
+on the industry and severity of financial fines and N/DPA mandated governance
+improvements. We observe no systematic price momentum beyond the three core dates
+identified in our study, implying that the market is reasonably efficient with respect to
+information about N/DPAs. Our results are robust to alternative procedures and definitions.
+Keywords: Non-Prosecution Agreement, Deferred Prosecution Agreement,
+Economic Impact, Governance Improvements, Stock Market, Panel Data, Event
+Study.
+JEL Classification: G3, K14, K22
+! 2!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+Electronic copy available at: http://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+I. Introduction
+The execution of a Non- and Deferred Prosecution Agreement (N/DPA) is a
+common, controversial, and complex event. As contractual arrangements between a
+corporation and the Department of Justice (DOJ), intended to remedy identified governance
+shortcomings, the DOJ – not Congress or the Courts - is changing governance practices in
+the United States (Garrett 2014, Kaal and Lacine 2014). Between 1993 and 2015 (N=330)
+N/DPAs were executed in the United States. In 2002, the DOJ started to intensify the
+investigation of many industries, leading to a substantial increase in the execution of
+N/DPAs (Kaal and Lacine 2014). High profile N/DPAs and plea agreements executed in
+2012 and 2014 suggest that the DOJ, through its targeting of certain industries, is
+effectuating large-scale corporate governance changes. (Kaal and Lacine 2014, HSBC DPA
+2012, JPMorgan DPA 2014, BNP Paribas Plea Agreement 2014, Credit Suisse Plea
+Agreement 2014). The companies subject to NDPAs are among the largest domestically and
+worldwide, including Johnson & Johnson, KPMG, HSBC, JPMorgan Chase, Deutsche Bank,
+ABN Amro Bank, Barclays Bank, Credit Suisse, Fannie Mae, Freddie Mac, General
+Reinsurance, Lloyds TSB, Metropolitan Life Insurance, UBS, and Wells Fargo. The
+collective market capitalization of U.S. financial corporations that are subject to NDPAs
+exceeds $690 billion and exceeds over $20 trillion in assets under management (Copland
+2012).
+The controversy surrounding N/DPAs is bitter and well defined (Garrett 2014,
+Rakoff 2014, Warin and Schwartz 1997, Uhlman 2013, SEC v. Citigroup Global Mkts
+2011). Because historically corporate governance fell under state law, some scholars
+question the DOJ’s authority to expand and police corporate governance without a proper
+mandate (Baker 2004, Arlen and Kahan 2011). Judge Rakoff (2014) critiqued the use of
+N/DPAs and the DOJ’s focus on corporate prosecutions as morally and technically suspect.
+Others decry N/DPAs as overly burdensome, the result of significantly unequal bargaining
+power between the prosecutor and the corporation, subject to prosecutorial abuse, and
+unsuitable because of the lack of prosecutors’ governance expertise (Epstein 2006, Garrett
+2014, Arlen and Kahan 2011). Despite the broad critique of N/DPAs, consensus exists
+among scholars that N/DPAs influence corporate governance (Cunningham 2014b, Kaal and
+Lacine 2014, Coffee 2005, Thompson 2003).
+The literature has only marginally recognized the implications of N/DPAs for
+financial markets. Some evaluate the under- and over-enforcement tendencies of U.S. DPAs,
+particularly in the LIBOR scandal context (O’Brien & Dixon 2014, Golumbic and Lichy
+2014), acknowledging changes in the DOJ’s approach to DPAs in the context of large
+financial institutions. Considering the HSBC DPA of 2012, others suggest that non-
+prosecution of large financial institutions is justified by a lack of evidence, arguing that
+regulatory authorities are better suited for dealing with financial institutions than criminal
+law (Gilchrist 2014). Taking an in-depth look at AIG’s N/DPA, Cunningham (2014a)
+critiques the lack of a specifically tailored approach taken by the DOJ in mandating
+governance reforms for AIG through an N/DPA.
+To date, very few studies have empirically assessed the role of N/DPAs in financial
+markets. In the largest study to date, Kaal and Lacine (2014), using a hand-selected dataset
+comprising all publicly available N/DPAs from 1993-2013 (N=271) in over 230 governance
+categories, show a substantial effect of N/DPAs on corporate governance. Assessing 120
+! 3!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+Electronic copy available at: http://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+DPAs available through 2008, O’Reilly et. al (2009) find increasing use of N/DPAs and a
+particular high usage of N/DPAs in health care and financial industries. Garrett (2007)
+studied the terms in N/DPAs from 2003-2007, showing an increasing trend of compliance
+features. Orland (2006) assessed the corporate governance implications of N/DPAs through
+2006, before the proliferation of N/DPAs, finding profound changes in the administration of
+corporate criminal law. Markoff (2013) shows that federal conviction rarely result in
+significant repercussions for the respective corporation. Others assess the variation in the
+utilization of N/DPAs (Uhlmann 2013) and find an increased usage of monitors and
+expansion of the monitors’ powers (Boozang and Hangler-Hutchison 2009).
+This is the first study that examines stock price reactions to N/DPAs. Our hand-
+selected dataset contains all publicly available N/DPAs in several industries from 1993 to
+2015 (N=330). Because stock price data is only available for 94 of the N/DPA firms in our
+sample, we limit our sample to those 94 institutions (N=94). While our dataset includes the
+celebrated N/DPAs in Johnson & Johnson, KPMG, HSBC and AIG, and other substantial
+governance shortcomings (Gilchrist 2014, Cunningham 2014a), most N/DPAs in our sample
+received no or very little media and scholarly attention. N/DPAs in our sample are
+predominantly the result of DOJ investigations after corporate criminal wrongdoing
+including kickback schemes, violations of the FCPA, among others, were identified. N/DPA
+governance data used in this study was hand-selected and coded by Kaal and Lacine (2014)
+and expanded for purposes of this study.
+Our results suggest that while investors consistently react negatively to impending
+N/DPA changes prior to N/DPA execution, post N/DPA execution, investors generally do
+perceive N/DPAs as a positive event for the respective entity. Inversely, our results suggest
+that investors see the expiry of applicable N/DPA terms as a negative event. We interpret
+the positive market reaction at the beginning of the N/DPA term and investors’ negative
+reaction at the end of the N/DPA term as evidence that governance changes mandated by
+N/DPAs matter.
+II. Hypotheses
+This section develops four general hypotheses about investors’ response to N/DPAs.
+We test our hypotheses using an event-study approach based on daily excess stock return.
+The event study approach is widely applied in the analysis of financial events. Event study
+methodology is particularly suited to our sample of firms that executed N/DPAs because:
+(1) the event of corporate wrongdoing is identifiable through N/DPAs execution and N/DPA
+executions are reasonably similar in format, (2) the information pertaining to N/DPA firm
+wrongdoing has the potential to change the distribution of stock returns, (3) the relevant
+N/DPA events are evenly distributed over the study period and are not clustered around a
+small number of dates, (4) the tested N/DPA events are cross-sectionally independent,1 (5)
+the tested N/DPA events are driven by independent, company-specific information, and (6)
+the firms in our sample are predominantly seasoned issuer and mostly trade on the S&P 500
+Index. We measure the stock price response for the NDPA firm to three particular N/DPA
+events that define N/DPAs: (i) the DOJ’s official announcement of the N/DPA execution
+(ANDPAE), (ii) the date of the beginning of the N/DPA term (BNDPAT), and (iii) the date
+of the end of the N/DPA term (ENDPAT). We measure the stock price response to each of
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+1 Table [__] shows the distribution of N/DPA Firm wrongdoing across the study period 2002-2013. We
+observe only a very limited amount of clustering.
+! 4!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+the dates as the three-day stock return over days -1, 0, to 1. Day zero is the event date.
+The difference between pre- and post N/DPA governance practices of N/DPA Firms
+and governance practices of non-N/DPA competitor firms (direct competitors of N/DPA
+Firms in the same industry) leaves room for inter-firm variation. Some investors will shy
+away from N/DPA firms because of costs and associated reduction in market value, other
+investors may be attracted to N/DPA firms because of presumably higher governance
+standards during the term of N/DPAs; yet others may behave somewhere between these
+extremes. We test the following hypotheses:
+Hypothesis 1: The market reacts negatively at ANDPAE (E1a) and BNDPAT (E1b)
+and positively at ENDPAT (E1c). N/DPA execution is anticipated before and known at
+ANDPAE and corresponding governance changes are implemented before or at BNDAPT.
+We assume that ANDPAE and BNDAPT anticipate and impose costs on corporations that
+reduce its market value. Costs include N/DPA fines, mandated governance changes,
+mandated personnel changes, increased governmental oversight of business and disclosures,
+opportunity costs of diverted management resources, administrative cost, potential loss of
+goodwill and reputation, and cost of expected future litigation by private parties or the
+government, among others. An expected positive market reaction at ENDPAT derives from
+the view that the market will assume that lifting governance and compliance obligations on
+firms at ENDPAT will remove the abovementioned costs and increase market value.
+Hypothesis 2: The market reacts positively at ANDPAE (E1a) and BNDPAT (E1b)
+and negatively at ENDPAT (E1c). A positive market reaction at ANDPA and BNDPAT is
+associated with the view that investors’ see the execution and effectiveness of an N/DPA as
+an opportunity for the entity to be better managed, more compliant, with fewer possibilities
+to incur penalties and overall less litigation, lowering costs and resulting in benefit for
+profitability and corresponding increases in market value. An expected negative market
+reaction at ENDPAT derives from the view that investors assume suboptimal governance
+practices will continue post N/DPA term expiration and are associated with higher costs and
+lower market value.
+Hypothesis 3: The market reacts positively at BNDPAT (E1b) and negatively at
+ENDPAT (E1c). A positive market reaction at BNDPAT and a negative market reaction at
+ENDPAT derives from the view that governance changes mandated by N/DPAs matter. At
+BNDPAT, N/DPA governance changes become effective / mandatory. Inversely, at
+ENDPAT, N/DPA governance changes become ineffective and are no longer mandatory. A
+positive market reaction at BNDPAT and a negative market reaction at ENDPAT could
+suggest that the market assesses the governance changes during the term of the N/DPA as
+beneficial for market value because it effectively addresses corporate wrongdoing and the
+associated negative effects on goodwill and reputation [while lowering the likelihood of
+continuing fines and litigation.]
+Hypothesis 4: The market reacts industry specific in accordance with Hypotheses 1,
+2, and 3. Because not all industries in our sample are equally affected by the costs associated
+with N/DPAs, the Hypotheses herein can be subject to industry effects. The view that the
+market will react industry specific derives from the assumption that investors in some
+industries are more sensitive to the effects of N/DPAs than in other industries. For instance,
+the threat of corporate criminal indictment associated with an N/DPA may be more
+burdensome in the healthcare sector than in other industries, creating the potential for
+industry specific effects.
+! 5!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+III. Sample and Data Characteristics
+The initial sample of 330 N/DPAs includes all publicly available N/DPAs for the
+period of January 1993 to 2015 from a database maintained by the University of Virginia
+Law Library.2 The database covers essentially the entire population of N/DPA executions
+and filings, as well as a substantial number of state filings since 1993. N/DPA governance
+data used in this study is based on Kaal and Lacine (2014). We expand the Kaal and Lacine
+(2014) dataset for the time period 2013 to 2015, using over 215 governance categories and
+governance sub-clusters.
+Figure 1 shows the growth of N/DPA execution from 1993 to 2015 with a particular
+increase in N/DPA usage since 2002. The trends observed suggest that N/DPAs will
+continue to play a role in major U.S. corporations in a variety of industries.
+Executed N/DPAs 1993 - 2015
+40!
+35!
+30!
+25!
+20!
+15!
+10!
+5!
+0!
+1993!1994!1995!1996!1997!1998!1999!2000!2001!2002!2003!2004!2005!2006!2007!2008!2009!2010!2011!2012!2013!2014!2015!
+Figure 1: Time Series publicly available N/DPAs executed from 1993-2015 (N=330).
+!
+Table 1 provides additional details pertaining to possible cost of N/DPAs in our
+sample. Panel A reports the mean and median length of the N/DPA term (based on 330
+observations), calculated as ENDPAT date minus BNDPAT date. The overall mean
+(median) length is [___ ([__]) days. Panel B shows that the average N/DPA term (days
+between BNDPAT and ENDPAT) has [declined/increased] since [DATE] (t=-/+[___]).
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2 The database is the only comprehensive database that entails all publicly available N/DPAs. It’s core premise
+is to keep track of N/DPA execution in all affected industries, track fines, and summarize white collar crime
+statistics. The database is publicly available at: [_____].
+! 6!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Panel C shows that the number of days between ANDPAE and BNDPAT and ANDAPE and
+ENDPAT has declined / increased (t=-/+[___] and -/+[___] respectively). Panel D reports
+the mean and median fines imposed by N/DPAs and shows that fines have
+increased/decreased since [YEAR] (t=-/+ [___]). Panel E shows the mean and median
+quantity and quality of governance characteristics mandates by N/PDAs, as measured by
+total governance terms included in N/DPAs. Panel E shows that the amount of governance
+changes mandated has increased since [___] (t=+[___]).
+INSERT Table 1
+Table 1: This table summarizes the N/DPA sample by cost characteristics. Panel A: mean and median length of
+the N/DPA term, calculated as ENDPAT date minus BNDPAT date. Panel B: number of days between
+ANDPAE and BNDPAT and ANDAPE. Panel C: mean and median N/DPA fines. Panel D: mean and median
+quantity of governance characteristics mandated by N/PDAs, as measured by total governance terms included
+in N/DPAs. Panel E: mean and median amount and quality of governance changes mandated in N/DPAs. The
+t-test significance levels are for a two-sided test. ***p<.001, ** p<.01, *p<.05, n.s.=not significant.
+Table 2 shows the breakdown of firms in our sample by industry. Panel A
+summarizes the distribution of market capitalization by industries. Panel B reports the mean
+and median length of the N/DPA term by industry (based on a total of 330 observations),
+calculated as ENDPAT date minus BNDPAT date. The overall mean (median) length is
+[___ ([__])] days. Panel C shows that the average N/DPA term by industry (days between
+BNDPAT and ENDPAT) has [declined/increased] since [DATE] (t=-/+[___]). Panel D
+reports the industry specific mean and median fines imposed by N/DPAs. Fines have
+increased/decreased since [YEAR] (t=-/+ [___]) in [_____and ____] industries. Panel D
+shows the mean and median amount and intensity of governance characteristics mandated
+by N/PDAs, as measured by total governance terms included in N/DPAs by industry. Panel
+E shows that the amount of governance changes mandated has increased in [____] and
+[____] industries since [___] (t=+[___]). Panel F also shows the median and mean of quality
+of governance changes, as measured by quality of governance changes mandated by
+N/DPAs. Quality of governance changes has increased/decreased in sample period (t=-
+/+[___])
+INSERT TABLE 2
+Table 2: This table summarizes the N/DPA sample by ten industries represented in the sample: 1. CODI –
+Consumer Discretionary Company, 2. COST – Consumer Staples Company, 3. NRGY – Energy Company, 4.
+Fin – Financial company, 5. HLCR – Healthcare company, 6. IND – Industrials company, 7. IT – Information
+Technology company, 8. MTRL – Materials company, 9. TELCO – Telecommunications company, 10.
+Utilities – Utilities company. Panel A: ANDPAE (E1a) Industry 1. – 10., Panel B: BNDPAT (E1b) Industry 1.
+– 10., and Panel C: ENDPAT (E1c) Industry 1. – 10.; percent of industry represented in sample; mean and
+median market capitalization by industry; mean and median length of the N/DPA term by industry, calculated
+as ENDPAT date minus BNDPAT date; mean and median N/DPA term by industry; mean and median N/DPA
+fines by industry; mean and median quantity of governance characteristics mandates by N/PDAs, as measured
+by total governance terms included in N/DPAs by industry; mean and median quality of governance changes.
+The t-test significance levels are for a two-sided test. ***p<.001, ** p<.01, *p<.05, n.s.=not significant.
+IV. Univariate Analyses
+We examining the direction and magnitude of stock price response to three core
+! 7!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+events that define N/DPAs: ANDPAE (E1a), BNDPAT (E1b), and ENDPAT (E1c).
+Successful event studies depend on the researchers’ ability to identify the exact date for the
+events.3 BNDPAT and ENDPAT define the term and with it the duration, defined by
+beginning and end, of N/DPA mandated governance and compliance changes. The only
+reliable N/DPA announcement date is the date of the DOJ press release pertaining to the
+execution of the respective NDPA - ANDPAE. The DOJ (or a specific USAO) issues the
+press release - ANDPAE, generally if not always on the day the agreement is signed (NPAs)
+or filed with the court (DPAs). The ANDPAE is the first public announcement that is not
+subject to informational discounting. While judicial approval of an NDPA may take
+additional time, the ANDPAE typically accompanies the release of the NDPA document
+itself, memorializing the agreement. Hence, the ANDPAE is the only ascertainable way for
+the market to assess the impact of the governance changes mandated in the NDPA. The fact
+that the respective entity is in negotiations with the DOJ is often known way in advance of
+the ANDPAE. Specific details, such as the amount of the fine or even the form of the
+agreement, may be leaked, including by prosecutors, some weeks or months before the
+ANDPAE. We assume that such leaks will not precipitate significant market movements as
+there is no certainty or finality as to the final terms of the NDPA and the amount of a fine. It
+is reasonable to assume that the market will largely discount any leaked information and
+will assess the impact of the NDPA upon the issuance of the official ANDPAE. Unlike
+congressional mandates, prior to the ANDPAE there is no public debate or other publicity
+pertaining to the anticipated governance changes in the NDPA or possible fines.
+Accordingly, the effect of NDPA governance changes on firm value is not gradual and
+therefore testable.4
+We measure the direction and magnitude of stock price response for the NDPA firms
+in our sample for each of the independent event dates ANDPAE (E1a), BNDPAT (E1b), and
+ENDPAT (E1c), as the fifty-day stock return over t=-25 to t=0 to t=25. Day zero is the event
+date. Excess return in this analysis is defined as (1) excess return over return of the market
+portfolio (based on the value weighted CRSP index), and (2) as an industry-adjusted daily
+excess return (based on the value weighted Russell 1000 industry specific index in ten
+industries). To control for potential statistical dependence in the event of clustered
+observations and systematic industry effects we calculated the industry-adjusted daily
+excess return by subtracting from the NDPA firm’s daily return the average return of all
+sample firms in ten industry sub-clusters, thus, removing common market and industry
+effects from raw returns. While the tests employed in this study use both excess return
+definitions, the tables that follow in this section are based on market-adjusted return. The
+industry-adjusted return metric is used as a robustness check.
+Tables 3 presents summary statistics describing the stock price response to
+ANDPAE (E1a), BNDPAT (E1b), and ENDPAT (E1c) on event days t=-1 to t=1.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+3 For instance, an event study that depends on coding event dates from financial publications such as the New
+York Times Business Section or the Wall Street Journal runs the risk of missing the exact date of the event
+because it is often unclear if the public was informed on the day of the publication or the previous day.
+4!MacKinlay
+(1997) notes that event study methodology is rarely able to identify the effect of regulatory
+changes on firm value. Until enactment of a regulatory change, possible effects are often gradually
+incorporated into firm value (MacKinlay 1997). Public debate of anticipated regulatory changes and the
+associated increasing probabilities of regulatory changes can be a major factor in the gradual effect on firm
+value.
+! 8!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Mean SD Median t stat. Sig. Count
+Panel A: ANDPAE
+All 0 0 0 0 0
+Smaller 0 0 0 0 0
+Larger 0 0 0 0 0
+High Fine 0 0 0 0 0
+Low Fine 0 0 0 0 0
+High Int. Gov. 0 0 0 0 0
+Low Int. Gov. 0 0 0 0 0
+Panel B: BNDPAT
+All 0 0 0 0 0
+Smaller 0 0 0 0 0
+Larger 0 0 0 0 0
+High Fine 0 0 0 0 0
+Low Fine 0 0 0 0 0
+High Int. Gov. 0 0 0 0 0
+Low Int. Gov. 0 0 0 0 0
+Panel C: ENDPAT
+All 0 0 0 0 0
+Smaller 0 0 0 0 0
+Larger 0 0 0 0 0
+High Fine 0 0 0 0 0
+Low Fine 0 0 0 0 0
+High Int. Gov. 0 0 0 0 0
+Low Int. Gov. 0 0 0 0 0
+Table 3: Stock price reaction measured as market-adjusted excess returns over days t=-1 to t=1 partitioned for
+each event date: Panel A: ANDPAE (E1a), Panel B: BNDPAT (E1b), and Panel C: ENDPAT (E1c) industry
+adjusted excess return and further partitioned as follows: All = All [94] firms in sample; Smaller = relative to
+median low market capitalization in sample; Larger = relative to median high market capitalization in sample;
+High Fines = relative to median high fines; Low Fines = relative to median low fines; High Gov. Int.= relative
+to median high governance intensity; Low Gov. Int.= relative to low median governance intensity [if high Gov.
+Int. NDPACGI CAR scores versus All – interpretation is that NDPA governance matters], The t-test
+significance levels are for a two-sided test. ***p<.001, ** p<.01, *p<.05, n.s.=not significant.
+Figure 2 shows the cumulative abnormal return from t=-25 to t=25 after ANDPAE for
+N/DPA firms (in blue) and direct competitors (in red). Unlike the competitor firms’ CARs,
+the CARs for N/DPA firms show a significant positive trend before t=-5, followed by a
+significant drop at -5 before the event date t=0 ANDPAE and negative CARs in comparison
+with the competitors from t=-4 to t=-1. At t=0 to t=1, however, N/DPA firms reverse a trand
+and again show positive CARs in comparison with competitors’ CARs. Figure 2a
+demonstrates that while the competitor CARs show a negative trend from t=0 to t=25, the
+neutral/positive trend in N/DPA firms’ CARs continues from t=0 to t=25. This data suggests
+that the market assesses the impact of the N/DPA and the often associated fines negatively
+immediately before the announcement of the N/DPA execution, which could be a function
+of market uncertainty before the N/DPA announcement. At ANDPAE t=0 and immediately
+following ANDPAE, the data in Figures 2 and 2a suggest that the market interprets N/DPA
+! 9!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+execution as a positive event, especially in comparison to the competitor firms. We interpret
+the positive market reaction from t=0 to t=25 as a positive reaction to the end of the costly
+DOJ investigation and the anticipated governance terms imposed by the N/DPA.
+Figure 2: Cumulative abnormal return from t=-25 to t= 25 after ANDPAE for N/DPA firms and direct
+competitors. The daily abnormal returns are averaged across firms and then cumulated. The sample comprises
+94 N/DPA firms over the period 1993-2015. 94 direct competitors are hand-selected and matched by market
+capitalization. For [__]% of N/DPA firms in our sample ANDPAE equals BNDPAT.
+! 10!
+RAC
+3
+2
+1
+0
+1-
+ANDPAE CARs
+-20 0 20
+t
+NDPAs Competitors
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Figure 2a: Cumulative abnormal return from t=0 to t=25 after ANDPAE for N/DPA firms and direct
+competitors including fitted lines showing trends and differences between N/DPA firms and their direct
+competitors. N/DPA CARs consistently exceed competitor CARs. The daily abnormal returns are averaged
+across firms and then cumulated. The sample comprises 94 N/DPA firms over the period 1993-2015. 94 direct
+competitors are hand-selected and matched by market capitalization. For [__]% of N/DPA firms in our sample
+ANDPAE equals BNDPAT.
+Figure 3 shows the cumulative abnormal return from t=-25 to t=25 after BNDPAT for
+N/DPA firms (in blue) and direct competitors (in red). While the overall trends are
+comparable to Figures 2 and 2a for ANDPAE, the CARs for N/DPA firms show a less
+significant negative reaction at t=-4 before the event date BNDPAT at t=0. Figure 3
+suggests that the market assesses the impact of the beginning of the N/DPA term as a
+negative event immediately before the N/DPAs become effective from t=-3 to t=-1. At
+BNDPAT t=0 and from t=0 to t=25, when N/DPA governance improvements are in effect,
+Figures 3 and 3a show that the market assesses such N/DPAs as a positive event for the
+respective entity. We interpret the positive market reaction from t=0 to t=25 as a positive
+reaction to the governance terms imposed by the N/DPA.
+! 11!
+1
+5.
+0
+5.-
+1-
+5.1-
+ANPDAE CARs - 0 to 25 Fitted Lines
+0 5 10 15 20 25
+t0=ANDPAE
+NDPAs Competitors
+NDPAs Fitted Competitors Fitted
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Figure 3: Cumulative abnormal return from day -25 to day 25 after BNDPAT for N/DPA firms and direct
+competitors. The daily abnormal returns are averaged across firms and then cumulated. The sample comprises
+for 94 N/DPA firms over the period 1993-2015. 94 direct competitors are hand-selected and matched by
+market capitalization. For [__]% of N/DPA firms in our sample ANDPAE equals BNDPAT.
+! 12!
+3
+2
+1
+0
+1-
+BNDPAT CARs
+-20 0 20
+t0=BNDPAT
+NDPAs Competitors
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Figure 3a: Cumulative abnormal return from t= 0 to t=25 after BNDPAT for N/DPA firms and direct
+competitors including fitted lines showing trends and differences between N/DPA firms and their direct
+competitors. N/DPA CARs consistently exceed competitor CARs. The daily abnormal returns are averaged
+across firms and then cumulated. The sample comprises 94 N/DPA firms over the period 1993-2015. 94 direct
+competitors are hand-selected and matched by market capitalization. In our sample for [__]% of N/DPA firms
+ANDPAE equals BNDPAT. For [__]% of N/DPA firms in our sample ANDPAE equals BNDPAT.
+Figure 4 shows the market reaction at ENDPAT t=0. Unlike ANDPAE and BNDPAT that
+show positive CARs for N/DPA firms, at ENDPAT N/DPA firms show negative CARs at
+t=0 and from t=1 to t=15. We interpret the negative N/DPA firms’ CARs from t=1 to t=15
+in Figures 4 and 4a as evidence that investors see the expiration of the N/DPA term and the
+expiration and following unenforceability of associated governance improvements as a
+negative event for the respective entity.
+! 13!
+3
+2
+1
+0
+BNDPAT CARs - 0 to 25 Fitted Line
+CAR
+0 5 10 15 20 25
+t0=BNDPAT
+NDPAs Competitors
+NDPAs Fitted Competitors Fitted
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Figure 4: Cumulative abnormal return from t=-25 to t=25 after ENDPAT for N/DPA firms and direct
+competitors. The daily abnormal returns are averaged across firms and then cumulated. The sample comprises
+59 N/DPA firms over the period 1993-2015. The authors removed N/DPA firms from the original sample of 94
+N/DPA firms if the day of ENDPAT was a weekend day without trading data (for results pertaining to original
+sample of N=94 see appendix). [59] direct competitors are hand-selected and matched by market capitalization.
+! 14!
+5.
+0
+5.-
+1-
+ENDPAT CARs
+-20 0 20
+t0=ENDPAT
+NDPAs Competitors
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Figure 4a: Cumulative abnormal return from t=0 to t=25 after ENDPAT for N/DPA firms and direct
+competitors including fitted lines showing trends. The daily abnormal returns are averaged across firms and
+then cumulated. The sample comprises 59 N/DPA firms over the period 1993-2015. The authors removed
+N/DPA firms from the original sample of 94 N/DPA firms if the day of ENDPAT was a weekend day without
+trading data. [59] direct competitors are hand-selected and matched by market capitalization.
+Table 4 presents ten industry specific summary statistics describing the industry-adjusted
+excess stock price response to ANDPAE (E1a), BNDPAT (E1b), and ENDPAT (E1c) on
+event days -25 to 25. Represented industries include: 1. CODI – Consumer Discretionary
+Company, 2. COST – Consumer Staples Company, 3. NRGY – Energy Company, 4. Fin –
+Financial company, 5. HLCR – Healthcare company, 6. IND – Industrials company, 7. IT –
+Information Technology company, 8. MTRL – Materials company, 9. TELCO –
+Telecommunications company, 10. Utilities – Utilities company. Panel A: ANDPAE (E1a)
+Industry 1. – 10., Panel B: BNDPAT (E1b) Industry 1. – 10., and Panel C: ENDPAT (E1c)
+Industry 1. – 10.
+INSERT TABLE 4
+Table 4: Stock price reaction measured as industry-adjusted excess returns over t=-25 to t=25 relative to event
+dates E1a, E1b, and E1c in eight industries as identified via Morningstar categories: 1. CODI – Consumer
+Discretionary Company, 2. COST – Consumer Staples Company, 3. NRGY – Energy Company, 4. Fin –
+Financial company, 5. HLCR – Healthcare company, 6. IND – Industrials company, 7. IT – Information
+Technology company, 8. MTRL – Materials company, 9. TELCO – Telecommunications company, 10.
+Utilities – Utilities company. Panel A: ANDPAE (E1a) Industry 1. – 10. , Panel B: BNDPAT (E1b) Industry 1.
+– 10., and Panel C: ENDPAT (E1c) Industry 1. – 10.; Fines = relative to median fines; PRM = relative to
+preemptive remedial measures instituted by N/DPA prior to execution; Gov. Int. = relative to median
+! 15!
+0
+5.-
+1-
+ENDPAT CARs - Fitted Line
+0 5 10 15 20 25
+t0=ENDPAT
+NDPAs Competitors
+NDPAs Fitted Competitors Fitted
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+governance intensity; Gov. Qual. = relative to median governance quality. The t-test significance levels are for
+a two-sided test. ***p<.001, **p<.01, *p<.05, n.s.=not significant.
+V. Regression Analysis
+The univariate analysis presented in the preceding section demonstrates a statistical
+relationship for individual factors. However, it does not control for coinciding factors with
+similar statistical relationships (e.g., preemptive remedial measures instituted before N/DPA
+execution, amount of fines, corporate governance quality and quantity). To estimate the
+incremental effect of one factor we use ordinary least squares regression and control for the
+explanatory power of the other factors.
+Regression Variables and Models
+The dependent variable for our multiple regression is excess stock return at
+ENDPAT date for t=-25 to t=25. We examine how this measure of price response varies
+with excess stock return on ANDPAE date and BNDPAT date, among other factors such as
+fines, preemptive remedial measures, corporate governance quantity and quality, and
+industries. The variables for our multiple regression are:
+EENDPAT = Market-adjusted excess return for t=-25 to t=25 at the end of the
+N/DPA term (ENDPAT).
+EANDPAE = Market-adjusted excess return for t=-25 to t=25 at the official DOJ
+announcement of N/DPA Execution (ANDPAE).
+EBNDPAT = Market-adjusted excess return for t=-25 to t=25 at the beginning of
+the N/DPA term (BNDPAT).
+FINES = Log of Monetary dollar fines imposed by N/DPA.
+PRM = Total number of preemptive remedial measures imposed by
+N/DPA.
+GOVQT = Governance Quantity as measured by NDPACGI index score.
+GOVQL = Governance Quality as measured by NDPACGI quality-weighted
+index score.
+NDPAT = Length of N/DPA Term, calculated as ENDPAT date minus
+BNDPAT date.
+CODI = Consumer Discretionary company as identified via Morningstar
+sector category (Consumer Cyclical) and Russell 1000 Consumer
+Discretionary Index = 1, otherwise 0.
+COST = Consumer Staples company as identified via Morningstar category
+(Consumer Defensive) and Russell 1000 Consumer Staples Index
+= 1, otherwise 0.
+NRGY = Energy company as identified via Morningstar category (Energy)
+and Russell 1000 Energy Index = 1, otherwise 0.
+FIN = Financial company as identified via Morningstar category
+(Financial Services) and Russell 1000 Financial Services Index =
+1, otherwise 0.
+HLCR = Healthcare company as identified via Morningstar category
+(Healthcare) and Russell 1000 Health Care Index = 1, otherwise 0.
+! 16!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+IND = Industrials company as identified via Morningstar category
+(Industrials) and Russell 1000 Producer Durables Index = 1,
+otherwise 0.
+IT = Information technology company as identified via Morningstar
+category (Technology) and Russell 1000 Technology Index = 1,
+otherwise 0.
+MTRL = Materials company as identified via Morningstar category (Basic
+Materials) and Russell 1000 Materials & Processing Index = 1,
+otherwise 0.
+TELCO = Telecommunications company as identified via Morningstar
+category (Communication Services) and S&P index [___] = 1,
+otherwise 0.
+UTLT = Utilities company as identified via Morningstar category (Utilities)
+and Russell 1000 Utilities Index = 1, otherwise 0.
+The model is specified as follows:
+EENDPAT = α + βEANDPAE + δEBNDPAT + ηFINES
+it i i i
++ γPRM + λGOVQT + µGOVQL +
+i i i
+πNDPAT
+i
++ ρCODI
+i
++ ϕCOST
+i
++ κNRGY
+i
+(1)
++ νFIN + θHLCR + οIND + τIT + υMTRL
+i i i i i
++ ϖTELCO
+i
++ ψUTLT
+i
++ ε
+it
+We test whether the regression coefficients in (1) are positive, zero, or negative
+depending on the sign predicted by the hypotheses. Given our prior discussion we expect
+[____].
+! 17!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+TABLE&5
+CORRELATION&AMONG&EXCESS&RETURN&AT&END&OF&N/DPA&TERM&(ENDPAT)&AND&OTHER&EXPLANATORY&VARIABLES
+EENDPAT EANDPAE EBNDPAT FINES PRM GOVQT GOVQL NDPAT CODI NRGY FIN HLCR IND IT
+EENDPAT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+EANDPAE 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+EBNDPAT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FINES 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+PRM 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+GOVQT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+GOVQL 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+NDPAT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+CODI 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+COST 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+NRGY 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+FIN 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+HLCR 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+IND 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+IT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+MTRL 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+TELCO 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+UTLT 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Table 5. This table reports the Pearson correlation coefficients (below the diagonal) and significant levels
+(above the diagonal) among EENDPAT (the dependent variable) and the independent variable in the
+regression analyses. The variables are defined as follows: EANDPAE = Market-adjusted excess return for t=-
+25 to t=25 at the official DOJ announcement of N/DPA Execution (ANDPAE): EBNDPAT = Market-adjusted
+excess return for t=-25 to t=25 at the beginning of the N/DPA term (BNDPAT); FINES = Monetary dollar
+fines imposed by N/DPA; PRM = Total number of preemptive remedial measures imposed by N/DPA;
+GOVQT = Governance Quantity as measured by NDPACGI index score; GOVQL = Governance Quality as
+measured by NDPACGI quality-weighted index score; NDPAT = Length of N/DPA Term, calculated as
+ENDPAT date minus BNDPAT date; CODI = Consumer Discretionary company as identified via S&P index
+and Morningstar category = 1, otherwise 0; COST = Consumer Staples company as identified via S&P index
+and Morningstar category = 1, otherwise 0; NRGY = Energy company as identified via S&P index and
+Morningstar category = 1, otherwise 0; FIN = Financial company as identified via S&P index and Morningstar
+category = 1, otherwise 0; HLCR = Healthcare company as identified via S&P index and Morningstar category
+= 1, otherwise 0; IND = Industrials company as identified via S&P index and Morningstar category = 1,
+otherwise 0; IT = Information technology company as identified via S&P index and Morningstar category = 1,
+otherwise 0; MTRL = Materials company as identified via S&P index and Morningstar category = 1, otherwise
+0; TELCO = Telecommunications company as identified via S&P index and Morningstar category = 1,
+otherwise 0; UTLT = Utilities company as identified via S&P index and Morningstar category = 1, otherwise
+0. Number of observations = 134. The t-test significance levels are: ***p<.001, **p<.01, *p<.05, n.s.=not
+significant.
+Correlations Among the Variables
+Table 5 reports the product moment correlations among the variables. This checks for
+collinearity, which if highly significant could affect the estimation and interpretation of the
+regression coefficients. First, we note the [direct] correlation between [____].
+Regression Results
+! 18!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+VI. Discussion
+1. Key Findings and Interpretation
+There is no evidence to support Hypothesis 1: The market does not react negatively
+at ANDPAE (E1a) and BNDPAT (E1b) and positively at ENDPAT (E1c). Figures 2 to 4a
+support Hypothesis 2: The market reacts positively at ANDPAE (E1a) and BNDPAT (E1b)
+and negatively at ENDPAT (E1c). Consistent with Hypothesis 2, we interpret the positive
+market reaction at ANDPA and BNDPAT as the market’s acknowledgement that the
+execution and effectiveness of an N/DPA is an opportunity for the entity to be better
+managed, more compliant, with fewer possibilities to incur penalties and overall less
+litigation, lowering costs and resulting in higher profitability and corresponding increases in
+market value. In turn, we interpret the negative market reaction at ENDPAT in Figures 4
+and 4a as the market’s acknowledgment that post N/DPA term expiration suboptimal
+governance practices are likely to continue and are associated with higher costs and lower
+market value for the respective entity. [The tentative analysis of a shorter event window (t=-
+1 to t=1) affirms the conclusions herein (see appendix)].
+Figures 3, 3a, 4, and 4a support Hypothesis 3: The market reacts positively at
+BNDPAT (E1b) and negatively at ENDPAT (E1c). At BNDPAT, N/DPA governance
+changes become effective / mandatory. Inversely, at ENDPAT, N/DPA governance changes
+become ineffective and are no longer mandatory. We interpret the positive market reaction
+at BNDPAT and its negative reaction at ENDPAT as evidence that governance changes
+mandated by N/DPAs matter. The market assesses the governance changes during the term
+of the N/DPA as beneficial for market value because it effectively addresses corporate
+wrongdoing and the associated negative effects on goodwill and reputation while lowering
+the likelihood of continuing fines and litigation. We interpret the negative N/DPA firms’
+CARs at t=0 and from t=0 to t=15 in Figures 4 and 4a as evidence that investors see the
+expiration of the N/DPA term and the expiration and following unenforceability of
+associated governance improvements as a negative event for the respective entity. [The
+tentative analysis of a shorter event window (t=-1 to t=1) affirms the conclusions herein (see
+appendix)].
+We find industry-specific effects that support Hypothesis 4. [___].
+2. Policy Implications
+The positive market reaction to announcements of N/DPAs and to N/DPA
+governance improvements at the beginning of the N/DPA term suggest that the DOJ’s
+increase in N/DPA executions, starting in 2002, could be justified. [___]
+3. Limitations and Future Research
+Several limitations in this study seem to suggest that additional research may be
+required to fully investigate the impact of N/DPAs and the associated governance
+improvements. It is possible that our results are skewed towards N/DPAs that had a
+relatively low impact on the respective entity. Because of lacking public trading data, we
+had to remove those firms subject to N/DPAs that were acquired, merged or went bankrupt
+as a result of the N/DPA execution. N/DPAs that caused mergers etc. that have the highest
+impact on the respective entities. We did not find evidence in our sample that would suggest
+! 19!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+the timing of N/DPA execution resulted in mitigating the effect of N/DPAs, e.g. by
+announcing it with other news at the end of the quarter. While we show industry effects of
+N/DPAs, we cannot rule out that N/DPAs could have additional disparate effects on
+different parts of the industry. The findings of this study are based on a small sample size
+and limited data. As more publicly traded companies are subjected to N/DPAs, we may
+expand this study with a larger dataset.
+! 20!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+VII. References
+Arlen, Jennifer, and Marcel Kahan. 2011. “Corporate Governance Regulation through Non-
+Prosecution.” Unpublished manuscript, New York University. http://goo.gl/W8I0GX.
+Baker, John S., Jr. 2004. “Reforming Corporations through Threats of Federal Prosecution.”
+Cornell Law Review 89 (2):310-355.
+Boozang, Kathleen M., and Simone Handler-Hutchinson. 2009. “‘Monitoring’ Corporate
+Corruption: DOJ's Use of Deferred Prosecution Agreements in Health Care.”
+American Journal of Law and Medicine 35 (1):89-124.
+Coffee, John C. Jr. 2005. “Deferred Prosecution: Has It Gone Too Far?” National Law
+Journal, July 25.
+Copland, James R. 2012. “The Shadow Regulatory State: The Rise of Deferred Prosecution
+Agreements.” Civil Justice Report 14 (May):1. http://goo.gl/sfBfnM
+Cunningham, Lawrence A. 2014a. “Deferred Prosecutions and Corporate Governance: An
+Integrated Approach to Investigation and Reform.” Florida Law Review 66 (1):1-86.
+———. 2014b. “Prosecutors in the Governance Business: Improving the Quality
+of Deferred Prosecution Agreements.” Banking and Financial Services Policy
+Report 33 (8):1-12.
+Deferred Prosecution Agreement, United States v. JPMorgan Chase Bank, N.A., No. 1:14-
+cr-00007 (S.D.N.Y. Jan. 6, 2014), http://goo.gl/xjKIig.
+Deferred Prosecution Agreement, United States v. HSBC Bank, USA N.A. and HSBC
+Holdings plc, No. 1:12-cr-00763 (E.D.N.Y. Dec. 11, 2012), http://goo.gl/52Ygh3.
+Epstein, Richard A. 2006. “The Deferred Prosecution Racket.” Wall Street Journal,
+November 28.
+Garrett, Brandon L. 2007. “Structural Reform Prosecution.” Virginia Law Review 93 (4) :
+853-957.
+———. 2014. Too Big to Jail: How Prosecutors Compromise with Corporations.
+Cambridge: Harvard University Press.
+Gilchrist, Gregory M. 2014. “The Special Problem of Banks and Crime.” University of
+Colorado Law Review 85 (1):1-52.
+Golumbic, Court E., and Albert D. Lichy. 2014. “The ‘Too Big to Jail’ Effect and the
+! 21!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Impact on the Justice Department’s Corporate Charging Policy.” Hastings Law
+Journal 65 (5):1293-1344.
+Kaal, Wulf A., and Timothy A. Lacine. 2014. “The Effect of Deferred and Non-Prosecution
+Agreements on Corporate Governance: Evidence from 1993-2013.” Business
+Lawyer 70 (1):61-120.
+MacKinlay, A. Craig. 1997. “Event Studies in Economics and Finance.” Journal of
+Economic Literature 35 (1):13-39.
+Markoff, Gabriel. 2013. “Arthur Andersen and the Myth of the Corporate Death Penalty:
+Corporate Criminal Convictions in the Twenty-First Century.” University of
+Pennsylvania Journal of Business Law 15 (3):797-842.
+O’Brien, Justin, and Olivia Dixon. 2014. “Deferred Prosecutions in the Corporate Sector:
+Lessons From Libor.” Seattle University Law Review 37 (2):475-510.
+O’Reilly, James T., James Patrick Hanlon, Ralph F. Hall, Steven L. Jackson, and Erin Lewis.
+2009. Punishing Corporate Crime: Legal Penalties for Criminal and Regulatory
+Violations. Oxford: Oxford University Press.
+Orland, Leonard. 2006. “The Transformation of Corporate Criminal Law.” Brooklyn
+Journal of Corporate, Financial, and Commercial Law 1 (1):45-88.
+Plea Agreement, United States v. BNP Paribas S.A., No. 1:14-cr-00460 (S.D.N.Y. July 9,
+2014).
+Plea Agreement, United States v. Credit Suisse AG, No. 1:14-cr-00188 (E.D. Va. May 19,
+2014), http://goo.gl/4VV8HT.
+Rakoff, Jed S. 2014. “The Financial Crisis: Why Have No High-Level Executives Been
+Prosecuted?” New York Review of Books, January 9. http://goo.gl/P4SepA.
+SEC v. Citigroup Global Mkts. Inc., 827 F. Supp. 2d 328 (S.D.N.Y. 2011), rev’d, 752 F.3d
+285 (2d Cir. 2014).
+Thompson, Larry D. 2003. “Principles of Federal Prosecution of Business Organizations.”
+U.S. Department of Justice Memorandum, Washington D.C. http://goo.gl/pmpj2L.
+Warin, F. Joseph, and Jason C. Schwartz. 1997. “Deferred Prosecution: The Need for
+Specialized Guidelines for Corporate Defendants.” Journal of Corporation Law 23
+(1):121-134.
+Uhlmann, David M. 2013. “Deferred Prosecution and Non-Prosecution Agreements and the
+Erosion of Corporate Criminal Liability.” Maryland Law Review 72 (4):1295-1344.
+! 22!
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+VIII. Appendices
+!
+!
+Figure [X]: Cumulative abnormal return from t=-25 to t=25 after ENDPAT for N/DPA firms and direct
+competitors. The daily abnormal returns are averaged across firms and then cumulated. The sample comprises
+94 N/DPA firms over the period 1993-2015. For N/DPA terms that ended on a weekend, the authors used the
+following Monday as the first trading day post ENDPAT. 94 direct competitors are hand-selected and matched
+by market capitalization.
+!
+! 23!
+5.
+0
+5.-
+1-
+5.1-
+ENDPAT CARs
+-20 0 20
+t0=ENDPAT
+NDPA Competitors
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+
+STOCK PRICE RESPONSE TO N/DPAS
+(DRAFT – OCTOBER 2015)
+Event Window t=-1 to t=1
+! 24!
+sRAC
+5.1
+1
+5.
+0
+CARs - Press Release
+-1 0 1
+t
+NDPAs Comp
+5.1
+1
+5.
+0
+5.-
+BNPAT CARs
+-1 -.5 0 .5 1
+t0=BNDPAT
+NDPAs Competitors
+RAC
+0
+2.-
+4.-
+6.-
+8.-
+ENDPAT CARs
+-1 0 1
+t0=ENDPAT
+NDPAs Competitors
+RAC
+Electronic copy available at: https://ssrn.com/abstract=2629451
+

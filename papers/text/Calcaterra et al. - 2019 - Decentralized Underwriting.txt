@@ -1,0 +1,1072 @@
+DECENTRALIZED UNDERWRITING
+DECENTRALIZED UNDERWRITING
+Craig Calcaterra,* Wulf A. Kaal,** and Vadhindran Rao ***
+Abstract
+Insurance products can be optimized with emerging decentralized
+technology. We propose the use of cryptocurrencies as claims on
+future cash flows of an underwriting business operated by a
+Decentralized Autonomous Organization (DAO). The design of our
+DAO allows for decentralized collaboration (i) among DAO
+underwriters as well as (ii) between underwriters and consumers. In
+this decentralized system, the tokens essentially substitute for
+reputation. Financial distress or bankruptcy of an individual
+underwriter does not have to affect either customers or the DAO as
+the insurance contracts are backed by encumbered tokens. The
+structure of incentives embedded in the design has the potential to
+lower capital requirements and the related need for capital
+regulation.
+Key Words: Insurance, Underwriting, Finance, Token Models,
+Cryptocurrencies, Feedback Effects, Emerging Technology,
+Tokens, Blockchain, Distributed Ledger Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* Professor of Mathematics, Metropolitan State University (Minneapolis,
+USA)
+** Professor of Law, University of St. Thomas School of Law (Minneapolis,
+USA)
+*** Professor of Finance, Metropolitan State University (Minneapolis, USA)
+0
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+Table of Contents
+I. INTRODUCTION .................................................................................. 2
+II. THE DESIGN OF THE UNDERWRITING DAO .......................................... 3
+III. RELATED LITERATURE ................................................................... 5
+IV. RESEARCH OBJECTIVES AND QUESTIONS ........................................ 6
+V. MODEL ............................................................................................ 7
+1. Value of the DAO in Steady State................................................. 10
+2. Value of Tokens in Steady State ................................................... 10
+3. DAO Insolvency .......................................................................... 17
+4. Capital Requirements .................................................................. 21
+VI. CONCLUSION ............................................................................... 22
+1
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+I. Introduction
+The insurance and underwriting industries are subject to significant
+cost, inefficiencies, and barriers to entry. In the current system,
+insurance underwriting drives the insurance process and business.
+Underwriters protect insurance companies’ books of business from
+risks and potential losses and issue insurance policies at a premium
+that is commensurate with the exposure presented by the risk. The
+cost of underwriting includes the cost incurred by insurance
+companies when determining whether to accept or decline an
+insurance contract and the associated risk. Given the nature of its
+business and the need for consumer protection, the insurance
+industry is subject to a high degree of capital requirements and the
+related need for capital regulation. Financial distress or bankruptcy
+of an individual underwriter affects consumers who may no longer
+be protected by the insurance contract and have to look for new
+coverage. Each insurance company applies its own set of
+underwriting guidelines to help the underwriter determine whether
+or not the company should accept the insureds. The insurance
+market is dominated by a few core players and subject to high
+barriers to entry for new market entrants. In the current system,
+democratized access to the underwriting process and collective
+decision making on risk does not exist.
+The literature has started to evaluate emerging decentralized token
+models as means of optimizing the insurance business. Asset tokens
+already exist that directly or indirectly serve as claims on future
+output or profits. Proposals to operate DAOs in the insurance field
+have also already been put forward and are under active
+development. IAIS (2017) provides a survey of current and
+potential future impact of Fintech on new insurance products and
+the structure of the insurance industry. Marke (2018) contains an
+update relating to the B3i (Blockchain Insurance Industry
+Initiative), an initiative that was launched in 2016 by a consortium
+of international insurance companies with the goal of pilot-testing
+the blockchain for implementing highly complex reinsurance
+contracts. A report by Hogan Lovells (2017) contains not only an
+analysis of the legal and regulatory challenges involved in
+implementing the technology of the blockchain and smart contracts
+2
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+in the insurance industry, but also some examples of firms that have
+already started implementing some aspects of this technology.
+In order to appreciate the innovative features of our proposal herein
+and the resulting potential benefits to both underwriters and
+consumers, it is important to develop an understanding of the
+proposed design of the DAO. The next section contains an outline.
+II. The Design of the Underwriting DAO
+The novelty of our proposal lies in the decentralized and
+democratized underwriting functionality enabled by our DAO
+design. The Underwriting DAO we propose consists of a group of
+underwriters, who roughly correspond to the partners or
+shareholders of an insurance company. These underwriters each
+hold a certain number of tokens in the DAO. We will refer to these
+tokens on occasion as reputation tokens as an agent’s proportional
+holdings of these tokens is likely to increase over time only if the
+agent were to follow sound and successful underwriting practices.
+It is important to note that the reputation tokens are separate and
+distinct from the cash currency that the insured use to pay their
+premia.
+Reputation tokens serve multiple purposes.
+• First, only token holders are allowed to participate in
+underwriting insurance policies. Inbuilt processes are used to
+assign new business to token holders. Policies may be
+underwritten either singly or jointly by these agents.
+• Second, these tokens serve as claims on the future cash flows
+generated by the DAO. Insurance premia collected by the
+DAO are distributed among the token holders in proportion to
+their token holdings. It is worth emphasizing that the premium
+from a policy is not considered the revenue solely of the
+underwriters. Instead, the premia are treated as the revenue of
+the entire DAO and shared among the DAO participants.
+Thus, the value of the tokens is a function of the expected
+future cash flows of the DAO.
+3
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+• Third, agents who underwrite policies by staking their
+reputation tokens are rewarded with a certain number of newly
+minted reputation tokens as salaries, based on a predetermined
+formula. Thus, the total number of tokens grows over time.
+This implies that "passive" agents who hold the tokens purely
+to receive a share of future premia will find their proportional
+ownership in the DAO decrease over time. Their income may
+however still increase if the overall revenues of the DAO grow
+at a sufficiently faster pace. Therefore, the effect of the design
+is to incentivize agents to play an active" role by participating
+in underwriting activities and thereby grow the business,
+while still allowing passive investors to derive income and
+speculate on growth.
+• Fourth, the design requires the underwriters to "stake" or
+“encumber” an appropriate number of tokens against each
+policy they underwrite. These tokens in effect serve to secure
+the promises of the underwriters. The number of tokens to be
+encumbered is based on a preset formula with the objective of
+ensuring that the value of the encumbered tokens is sufficient
+to meet any claims that may arise at any point in the life of the
+policy. Such encumbered tokens continue to remain under the
+ownership of the respective agents and entitle the owners to
+receive their share of future premia. In case, there is no claim
+on the policy, the tokens are "freed up" or become
+"unencumbered" when the policy matures. In case the insured
+event were to occur during the life of the policy, the agents
+who underwrote the policy can (in effect) reclaim these tokens
+(or receive replacement tokens) after meeting the claim.
+However, the underwriters of the policy may choose not to
+reclaim the tokens. For convenience, this is referred to as a
+"breach" by the underwriters. In such a case, the encumbered
+tokens, along with additional freshly minted tokens as needed,
+would be sold in an auction. All current DAO participants as
+well as outsiders interested in joining the DAO may bid for
+the tokens in this auction. The objective here is to generate
+enough proceeds from the auction so as to meet the claim on
+the policy. Note that a breach by underwriters on a policy does
+not imply a default by the DAO. Under normal market
+conditions, a well-designed DAO should experience very few
+breaches, if any; and in case of a breach, the mechanism
+4
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+outlined above should ensure that the customer suffers no
+losses on this insurance policy.
+Under what circumstances would a breach occur? It would
+occur only if the underwriters concerned believed that the
+value of these tokens is less than the payment they need to
+make in order to reclaim the tokens. In general, this will
+happen only if there is a dramatic shift in the future prospects
+of the DAO, such as a sharp decrease in expected future
+revenues or a sharp increase in expected payments on
+outstanding policies.
+III. Related Literature
+There is a growing literature on cryptocurrencies, token designs,
+and token uses for funding start-up ventures. Bakos and Halaburda
+(2018) provide a good review as well as a study of the network
+effects of Initial Coin Offerings (ICOs). In their model, platform-
+specific tokens provide funding for capital constrained firms while
+giving early adopters the opportunity to benefit from the possible
+future success of the venture. In the process, the token issue also
+helps solve the coordination problem relating to network adoption.
+The focus of Li and Mann (2018) is similar in that their objective
+too is to show how ICOs can solve the coordination problem.
+Recent studies that focus on valuation of tokens include Catalini and
+Gans (2018) and Cong et al (2018). In the former, the focus is on
+ICOs as an alternative to equity financing for new ventures and on
+the challenges of pricing an ICO when the value of a token depends
+on the highly uncertain future demand for the services provided by
+the platform. In the latter, the focus is on valuation of tokens in a
+dynamic, continuous time setting in which agents take into account
+both the utility value of the token as well as possible value
+appreciation in making their decision regarding their token
+holdings.
+Malinova and Park (2018) compare ICOs to equity financing and
+also study the question of how best to structure a token offering. As
+in Catalini and Gans (2018), the objective of the token sale is to
+fund development and growth, effectively a trade-off of future
+5
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+revenue for current funding. The question of interest is whether the
+tokens should represent a claim on future revenue or output.
+Interestingly, they find that the optimal way to structure the token
+offering is as a combination. Structuring it as purely a claim on one
+or the other results in the monopolist entrepreneur either under-
+producing or over-producing and therefore, a sub-optimal project
+net present value.
+The current study is related to these prior studies in that we too study
+the valuation and design of cryptocurrencies, token designs, and
+strategic decision-making by DAO participants, and the optimal
+structure of incentives. However, there are also several important
+differences between the studies mentioned above and the current
+one. The most important difference perhaps is that our focus is
+squarely on designing a DAO to conduct the business of
+underwriting. The focus is broader than may appear at first sight.
+By underwriting, we do not have in mind only traditional insurance
+policies, but a variety of use cases that may range from providing
+insurance to the Internet of Things (IoT) to guaranteeing settlements
+on online exchanges. In fact, almost any transaction on the
+blockchain that does not involve an exchange of purely digital
+tokens may require or benefit from underwriting. Another key
+difference is that in our study, the purpose of issuing tokens is not
+only to raise capital but also to provide the owners the opportunity
+and incentive to develop the business of the DAO. The focus is not
+on how the tokens help solve the coordination problem, but rather
+on how best to design the mechanism so as to provide utility and
+stability to all participants, both underwriters and consumers.
+IV. Research Objectives and Questions
+The main objectives of this paper are as follows:
+• To develop a mathematical model in order to study optimal
+decision-making by the DAO, its steady-state performance,
+and the impact of possible shocks. In particular, the model
+will help determine the viability of the business model
+outlined above, shed light on potential weaknesses, and help
+assess its advantages and disadvantages as compared to a
+traditional insurance firm.
+6
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+• To address specific questions such as the following:
+o What are the key variables that determine the DAO’s
+decisions regarding how much premium to charge,
+how much risk to take, and how to reward
+underwriters?
+o How is the value of a token determined?
+o What are the circumstances and the likelihood of a
+breach by an underwriter, and the likelihood of the
+related but distinct possibility of the DAO facing
+financial distress?
+o How do the economic capital requirements of the
+DAO compare with that of a traditional insurance
+firm?
+o What kind of a governance structure should be put
+in place in order to make decisions relating to
+changes in protocol and, more generally, to handle
+unforeseen contingencies?
+In sum, the paper will address questions relating to optimal design of
+incentives for DAO participants and safeguards to ensure that the
+design is fair and just as well as sustainable.
+V. MODEL
+A ≡ policy amount (maximum claim initially assumed to be actual
+payout)
+N ≡ number of agents
+S ≡ number of tokens at the end of the period (time step) t
+t
+M ≡ number of policies issued each period
+t
+p ≡ probability of a claim (occurrence of insured event) in any
+t
+given period
+τ ≡ policy duration (number of periods or time steps for which
+policy is active)
+π ≡ premium per dollar of policy amount (paid up front)
+ρ ≡ proportion of existing tokens given out as reward per policy. We
+assume that every policy issued in a given period receives the same
+number of reward tokens. Thus, S = S (1+ρM).
+t t-1 t
+7
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+γ ≡ proportion of existing tokens given out as reward tokens in
+t
+period t. Thus, γ = ρM, and S = S (1+γ).
+t t t t-1 t
+r ≡ discount rate
+V ≡ total value of DAO at the end of period t.
+t
+For simplicity, we will assume for now that:
+• The DAO is in a steady state. This means that all the
+variables listed above, with the exception of S, are constant.
+t
+In particular, M, the number of policies issued in a period,
+is constant although we will consider the case of a stochastic
+M in a later section.
+• The actual number of claims each period is equal to the
+expected number of claims. Also, the expected number of
+claims each period will be assumed to be a whole number.
+Alternatively, we allow for partial claims on a policy. Thus,
+for example, if there are 100 policies outstanding and the
+probability of a claim on each of these policies is 2.5%, then
+we will assume that there are 2.5 claims in that period.
+• All policies issued in a period receive the same number of
+reward tokens. Thus, the total number of tokens grows each
+period at a constant rate, γ. Reward tokens received in a
+period are entitled to a share of the premia received in that
+period, but can be first used to issue new policies only in the
+next period.
+The probability of a claim (payout) on the policy at some point in
+the life of the policy 𝜏 is:
++
+"𝑝(1−𝑝)()* = 1−(1−𝑝)+
+(,*
+We assume that no claims can be made on a policy in the same
+period in which it is issued. The expected number of policies
+outstanding each period is:
++
+𝑀(1−(1−𝑝)+)
+𝑀"(1−𝑝)()* =
+𝑝
+(,*
+The total potential liability on outstanding policies is therefore:
+8
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+𝐴𝑀(1−(1−𝑝)+)
+𝑝
+The expected liability on outstanding policies can be calculated
+using the table below:
+No. of No. of Probability of Expected
+periods to policies a claim at number of
+maturity some point in claims
+policy’s
+remaining life
+𝜏 M 1 – (1-p)𝜏 M(1 – (1-p)𝜏)
+𝜏 – 1 M(1-p) 1 – (1-p)𝜏-1 M(1-p)(1 –
+(1-p)𝜏-1)
+⋮
+1 M(1-p)𝜏-1 1 – (1-p) M(1-p)𝜏-1(1 –
+(1-p))
+Therefore, the total expected number of claims (at some point or
+other in a policy’s life) on all outstanding policies in a given period
+is given by adding up the last column, which gives:
+𝑀(1+(1−𝑝)+⋯+(1−𝑝)+)* −𝜏(1−𝑝)+) =
+𝑀4
+(*)(*)5)6)
+− 𝜏(1−𝑝)+7
+5
+Therefore, the expected liability on outstanding policies is:
+(1−(1−𝑝)+)
+𝐴𝑀8 − 𝜏(1−𝑝)+9
+𝑝
+We reiterate that the above is the expected liability only on currently
+outstanding policies. It does not take into account policies issued in
+subsequent periods. The expected liability (cash outflow or payout)
+each period is:
+𝑝𝐴𝑀(1−(1−𝑝)+)
+= 𝐴𝑀(1−(1−𝑝)+)
+𝑝
+It is worth noting that the expected liability on the M policies issued
+in the current period is also given by the same expression as above,
+namely:
+9
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+𝐴𝑀(1−(1−𝑝)+)
+1. Value of the DAO in Steady State
+At any point in time, the value of the DAO as a whole is just the
+present value of all expected future cash flows. In steady state (i.e.,
+with constant M and p), the value of the DAO as a whole can be
+easily calculated by discounting the constant expected cash flow
+each period. The cash inflow each period is Mπ. The expected cash
+outflow each period is given by the expression above. Therefore,
+the value of the DAO as at the start of the current period (t = 0) is
+given by:
+<
+𝐴𝑀(𝜋−(1−(1−𝑝)+) 𝐴𝑀(𝜋−(1−(1−𝑝)+)
+" =
+(1+𝑟)( 𝑟
+(,*
+2. Value of Tokens in Steady State
+Valuing tokens, even in steady state, is complicated for two reasons.
+Firstly, the number of tokens grows at rate γ. Secondly, the value of
+a token will depend on whether or not it is currently encumbered,
+and, among encumbered tokens, on the time period in which the
+token is expected to “free up” or become unencumbered (i.e.,
+become available for encumbrance on new policies). In general, the
+sooner a token is expected to be released from encumbrance (by the
+policy on which it is staked terminating due to either a payout or
+reaching maturity), the greater its value.
+For simplicity, we will assume that all unencumbered tokens
+available as of the start of a period will be staked on the new policies
+issued in that period even if a smaller number of tokens is sufficient
+to cover the maximum possible potential liability on these policies.
+(Given that the DAO is supposed to be in a steady state, the
+assumption is not unreasonable.)
+10
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+For a given period t, let
+n ≡ number of currently existing tokens (as at the end of
+j,t
+period t) expected to be available for staking on a policy j
+periods hence, for j = 1 to τ + 1. In particular, n is the
+1,t
+number of unencumbered tokens as at the end of period t
+that are available to be staked on new policies in period t+1.
+v ≡ collective value as at the end of period t of the n tokens
+j,t t,j
+for j = 1 to τ + 1.
+In steady state, for any given j, ν = ν = ν for all t. So for
+j,0 j,1 j,t
+convenience, we can omit the second subscript. Further,
++@*
+"𝑛 = 𝑆
+>,( (
+>,*
+In words, what we are doing here is the dividing up the total number
+of tokens in existence as at the end of period t into different groups
+based on when the tokens can be (expected to be) staked again. As
+at the end of period t, n is the number of tokens that are
+1,t
+unencumbered and hence can be staked on a new policy in the next
+period (i.e., one period hence). The remaining tokens that make up
+S are all currently (i.e., as of the end of period t) encumbered.
+t
+Another useful result is that
+𝑛 = 𝑛 + 𝛾𝑆
+*,( B,()* ()*
+For now, we will assume that
+• The process (DAO) is in a steady state: M, the number of
+policies issued in a period, and p, the probability of the
+event occurring in any single period, are both constant.
+• The total number of tokens grows each period at a constant
+rate, γ.
+• While the policy duration is fixed, policies are infinitely
+divisible as far as the amount is concerned.
+Importantly, given the steady state assumption, values for
+variables such as future policy premiums, future claims and
+11
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+payouts, etc., will be treated as constants, even though strictly
+speaking these values are expectations.
+For ease of exposition, we will value the tokens as of period 0 (or
+the beginning of period 1). Note that n is made up of tokens that
+1,0
+were
+• freed up in period 0 owing to either a payout on some
+policies (due to the occurrence of the insured event) or the
+maturing of some policies, or
+• awarded as reward tokens in period 0 for issuance of new
+policies.
+The value of these n tokens, v , is based on
+1,0 1
+• share of premiums on all policies issued in t ≥ 1
+• value of tokens received as a reward in t = 1
+• payouts on the new policies issued in t = 1
+• value of these tokens as and when they free up in future
+periods (when the policies issued by staking these n
+1,0
+tokens either pay out or mature in periods 2 through τ + 1.
+The following table lays out the cash flows relating to the n
+1,0
+tokens:
+Period Cash Flows
+1 𝑛 +𝛾𝑆 𝛾𝑆
+*,E E E
+𝜋𝐴𝑀D F+ 𝑣
+𝑆 𝑛 *
+* *,*
+⋮ ⋮
+𝑛 𝑛
+t (1−𝑝)()BH 𝑆 *,E 𝜋𝐴𝑀+𝑝8 𝑛 *,E 𝑣 * −𝐴𝑀9I
+( *,(
+⋮ ⋮
+𝑛 𝑛
+τ+1 (1−𝑝)+)*H 𝑆 *,E 𝜋𝐴𝑀+𝑝8 𝑛 *,E 𝑣 * −𝐴𝑀9I
++@* *,+@*
+𝑛
++(1−𝑝)+ *,E 𝑣
+𝑛 *
+*,+@*
+12
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+The value as of period 0 of these n tokens, v is the present value
+1,0 1
+of the cash flows listed in the table. Collecting terms and solving
+for v , we get
+1
+𝜈
+*
+𝜋𝐴𝑀 𝑛 +𝛾𝑆 (1−𝑝)()B 𝑛
+D *,E EF+∑+@* 4 *,E𝜋𝐴𝑀−𝑝𝐴𝑀7
+(1+𝑟) 𝑆 (,B (1+𝑟)( 𝑆
+= * (
+𝛾𝑆 (1−𝑝)()B 𝑛 (1−𝑝)+ 𝑛
+1− E −∑+@* 𝑝 *,E − *,E
+(1+𝑟)𝑛 (,B (1+𝑟)( 𝑛 (1+𝑟)+@*𝑛
+*,* *,( *,+@*
+For convenience, we can write this more compactly as follows:
+𝜋Λ −𝑝Λ
+* B
+𝑣 = 𝐴𝑀
+* Λ
+M
+where
++@*
+1 𝑛 +𝛾𝑆 (1−𝑝)()B𝑛
+*,E E *,E
+Λ = D F+"
+* (1+𝑟) 𝑆 (1+𝑟)( 𝑆
+* (
+(,B
++@*
+(1−𝑝)()B
+Λ = "
+B (1+𝑟)(
+(,B
++@*
+𝛾𝑆 (1−𝑝)()B 𝑛 (1−𝑝)+ 𝑛
+E *,E *,E
+Λ = 1− −" 𝑝 −
+M (1+𝑟)𝑛 (1+𝑟)( 𝑛 (1+𝑟)+@*𝑛
+*,* *,( *,+@*
+(,B
+The design of the DAO requires that v should be large enough to
+1
+cover the maximum possible liability on the M policies against
+which these tokens are to be encumbered. We will later derive a
+condition on the premium π to ensure this.
+Let η denote the proportion of the expected number of tokens
+available for encumbrance to the total number of tokens:
+𝑛
+*,(
+𝜂 ≡
+𝑆
+(
+13
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+In steady state, this ratio will be constant and therefore, we do not
+need a time subscript for η. Further, as S grows at a constant rate γ,
+t
+so too will n .
+1,t
+In order to find η, we start by noting that n is the sum of three
+1,0
+components: (i) reward tokens received in period 0, (ii) tokens freed
+up from policies that matured in period 0, and (iii) tokens freed up
+from claims that occurred in period 0. Thus,
++@*
+𝑛 = 𝛾𝑆 +(1−𝑝)+𝜂𝑆 +𝜂"𝑝(1−𝑝)()B𝑆
+*,E )* )(+@*) )(
+(,B
+Using the relationships S = S (1+γ)t and n = ηS , and assuming
+t 0 1,0 0
+that γ > 0, we can solve the above equation for η:
+𝛾(1+𝛾))*
+𝜂 =
+1−(1−𝑝)+(1+𝛾))(+@*) −𝑝∑+@*(1−𝑝)()B(1+𝛾))(
+(,B
+𝛾(1+𝛾)+
+=
+(1+𝛾)+@* −(1−𝑝)+ −𝑝∑+@*(1−𝑝)()B(1+𝛾)+@*)(
+(,B
+In order to compute v , we take S as given, compute S for each t
+1 0 t
+using S = S (1+γ)t, compute η (which is a function only of p and γ),
+t 0
+and then compute n for each t using n = ηS.
+1,t 1,t t
+Next, we calculate v , the value of the n set of tokens – namely
+2 2,0
+the tokens that are expected to free up in the next period and be
+available for encumbering in two periods. We begin by noting that,
+in steady state, holders of the n set of tokens can collectively
+2,0
+expect the same pattern of cash flows as the holders of the n set
+1,0
+of tokens except that: (i) the cash flows would be shifted forward
+by one period; and (ii) as the n set of tokens are currently
+2,0
+encumbered, the holders will face some additional cash flows in the
+next period – namely, cash inflows from premiums on new policies
+and cash outflows from payouts in period 1. Note that the tokens
+freed up from all policies that either pay out or mature in t = 1
+belong by definition to the n set of tokens. Therefore,
+2,0
+14
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+𝑛 𝑣 1 𝑛 (1−(1−𝑝)+)
+B,E * B,E
+𝑣 = + 8 𝜋𝐴𝑀−𝑝𝐴𝑀 9
+B 𝑛 (1+𝑟) (1+𝑟) 𝑆 𝑝
+*,* *
+In calculating v above, we keep in mind that
+2
+𝑛 = 𝜂𝑆 = 𝜂𝑆 (1+𝛾)
+*,* * E
+Similarly, other than the time-shifted cash flows of value v , the
+1
+cash flows to the holders of the n set of tokens (assuming that τ ≥
+3,0
+2) consist of (i) their share of premiums from new policies and (ii)
+the payouts in period 2, but keeping in mind that a portion of this
+payout relates to new policies issued in t = 1 for which they are not
+liable:
+𝑛 𝑣 1 𝑛
+M,E * M,E
+𝑣 = + 𝜋𝐴𝑀
+M 𝑛 (1+𝑟)B (1+𝑟) 𝑆
+*,B *
+1 𝑛 (1−(1−𝑝)+)
+M,E
++ 8 𝜋𝐴𝑀−𝑝𝐴𝑀
+(1+𝑟)B 𝑆 𝑝
+B
++𝑝𝐴𝑀9
+In calculating v above, we use the result that
+3
+𝑛 = 𝜂𝑆 = 𝜂𝑆 (1+𝛾)B
+*,B B E
+In general, for t = 3 through τ + 1 (assuming that τ ≥ 2),
+()*
+𝑛 𝑣 1 𝑛
+(,E * (,E
+𝑣 = +" 𝜋𝐴𝑀
+( 𝑛 (1+𝑟)()* (1+𝑟)P 𝑆
+*,()* P
+P,*
+1 (1−(1−𝑝)+)
++ H−𝑝𝐴𝑀
+(1+𝑟)()* 𝑝
+()M
++𝑝𝐴𝑀"(1−𝑝)PI
+P,E
+We reiterate that in the expression above, we are taking the current
+period to be 0, and thinking of v as the value of the n set of tokens
+t t,0
+that are expected to become unencumbered in period t – 1 and
+therefore available for staking on new policies in period t. The last
+15
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+term in the expression above pertains to payouts on policies issued
+in periods 1 through t – 2, i.e., in periods subsequent to the current
+period, and therefore liabilities that attach not to the holders of the
+n set of tokens, but rather to the holders of the n set, n set, and
+t,0 1,0 2,0
+so on. (For instance, policies issued in period 1 are related to the n
+1,0
+set. Therefore, in our calculations above, the payouts on those
+policies are included in v . Similarly, policies issued in period 2 are
+1
+related to the n set, and therefore, the payouts on those policies
+2,0
+are implicitly included in v (in the first term), and so on. The key
+2
+point is that in valuing the n set of tokens, the payouts on policies
+t,0
+issued in periods 1 through t-1 should not be included. For each n
+t,0
+set of tokens , we should only include payouts in period t-1 on
+policies issued prior to period 1 to which these tokens have been
+encumbered. The sum of the values of the Q𝑛 R sets of tokens must
+(,E
+of course equal the value of the DAO as a whole.
+As mentioned previously, the design of the DAO requires that the
+value of the tokens staked against a policy should cover the
+maximum possible liability on the policy. Note that as the total
+number of tokens is growing at a rate of ρ per period, the value of
+individual tokens will depreciate over time.
+Let m denote the “margin” or “markup” defined as follows:
+𝑚 ≡ 𝜋−(1−(1−𝑝)+)
+Thus, m is the amount of premium per dollar in excess of the
+probability of a claim on the policy sometime during its life.
+We ask the question, what is the minimum margin that will ensure
+that the following condition is satisfied:
+𝑣
+*
+> 𝐴𝑀
+(1+𝛾)(+@*)
+Using our previously derived expression for v , the condition on m
+1
+works out to be the following:
+(1+𝛾)+@*Λ +𝑝Λ −(1−(1−𝑝)+)Λ
+M B *
+𝑚 >
+Λ
+*
+16
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+3. DAO Insolvency
+The DAO will be insolvent if the value of the DAO becomes
+negative - in other words, if the Present Value (PV) of expected
+cash flows from new policies is less than the expected cash
+outflow from currently outstanding (old) policies. If the DAO is
+insolvent, the value of a token will be negative.
+One reason the DAO may become insolvent is if the number of
+policies expected to be issued each period, M, falls sharply.
+t
+Thus far, we have assumed that the DAO is in a steady state, and
+thus that M is constant. In this section, suppose that M follows a
+t
+random walk.
+𝑀 = 𝑀 +𝜀
+( ()* (
+Above, ε is white noise, and 𝐸 W𝑀 X = 𝑀 for all k ≥ 0 and t.
+t ( (@P) (
+Each M is known at the start of period t.
+t
+We take the current period to be 0, and our objective is to value
+the DAO as at the end of period 0 based on expected cash flows in
+period 1 and beyond. Let us break up the value of the DAO into
+two parts: (i) the steady state value based on the current level of
+policy issuance M , and (ii) an adjustment for the differences
+0
+between this steady state value and the actual numbers of policies
+issued prior to the current period.
+We note for future reference that for t > 0,
+𝑀 = 𝑀 −(𝜀 +𝜀 +⋯+𝜀 )
+)( E E )* )(()*)
+The key here is to calculate the expected cash payouts on policies
+issued prior to the current period (t ≤ -1). The table below lays out
+the number of outstanding policies (on which claims can occur) as
+of each future period from 1 to τ – 1.
+Period Number of outstanding policies (on which
+claims are possible)
+17
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+1 𝑀 +𝑀 (1−𝑝)+⋯+𝑀 (1−𝑝)+)*
+E )* )(+)*)
+2 𝑀 +𝑀 (1−𝑝)+⋯+𝑀 (1−𝑝)+)*
+* E )(+)B)
+⁝
+𝜏−1 𝑀 +𝑀 (1−𝑝)+⋯+𝑀 (1−𝑝)+)*
++)B +)M )*
+Above, the table ignores periods τ and beyond as only up to period
+τ-1 will there be any policies outstanding that were issued prior to
+the current period. All policies outstanding in these periods will
+have been issued in period 0 and later. In each period t ≥ τ, the
+number of outstanding policies is given by the same formula as the
+one for the steady state:
+𝑀 (1−(1−𝑝)+)
+E
+𝑝
+We now make use of our martingale assumption for future values
+of M and re-express the information in the table above in terms of
+t
+the shocks (or residuals or errors) ε.
+t
+Period Expected number of outstanding policies (on
+which claims are possible)
+1 𝑀 ((1−𝑝)+(1−𝑝)B…+(1−𝑝)+)*)−
+E
+𝜀 (1−𝑝)−(𝜀 +𝜀 )(1−𝑝)B −⋯−(𝜀 +𝜀 +
+E E )* E )*
+⋯+𝜀 )(1−𝑝)+)*
+)(+)B)
+2 𝑀 ((1−𝑝)+(1−𝑝)B…+(1−𝑝)+)*)−
+E
+𝜀 (1−𝑝)B −(𝜀 +𝜀 )(1−𝑝)M −⋯−(𝜀 +
+E E )* E
+𝜀 +⋯+𝜀 )(1−𝑝)+)*
+)* )(+)M)
+⁝
+𝜏−1 𝑀 ((1−𝑝)+(1−𝑝)B…+(1−𝑝)+)*)−
+E
+𝜀 (1−𝑝)+)*
+E
+As defined in the previous section, m denotes the “margin” or
+“markup” defined as follows:
+𝑚 ≡ 𝜋−(1−(1−𝑝)+)
+As previously mentioned, the value of the DAO, V , can be broken
+0
+up into two parts: (i) the steady state value based on the current
+18
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+level of policy issuance M , and (ii) an adjustment for the
+0
+differences between this steady state value and the actual numbers
+of policies issued prior to the current period:
+𝑉
+E
+𝑚𝐴𝑀
+E
+=
+𝑟
++𝑎𝑑𝑗𝑢𝑠𝑡𝑚𝑒𝑛𝑡 𝑟𝑒𝑙𝑎𝑡𝑖𝑛𝑔 𝑡𝑜 𝑝𝑜𝑙𝑖𝑐𝑖𝑒𝑠 𝑖𝑠𝑠𝑢𝑒𝑑 𝑖𝑛 𝑝𝑒𝑟𝑖𝑜𝑑𝑠
+−1 𝑡ℎ𝑟𝑜𝑢𝑔ℎ−(𝜏−1)
++)*
+𝑚𝐴𝑀 (1−𝑝)P
+E
+= +𝑝𝐴h𝜀 " +(𝜀
+𝑟 E (1+𝑟)P E
+P,*
++)B
+(1−𝑝)P@*
++𝜀 )" +⋯+(𝜀 +𝜀 +⋯
+)* (1+𝑟)P E )*
+P,*
+(1−𝑝)+)*
++𝜀 ) i
+)(+)B) 1+𝑟
+For convenience, define α as follows:
+1−𝑝
+𝛼 ≡
+1+𝑟
+The value of the DAO in period 0 can then be expressed as
++)*
+𝑚𝐴𝑀
+= E +𝑝𝐴H𝜀 "𝛼P +(𝜀 +𝜀 )(1
+𝑟 E E )*
+P,*
++)B
+−𝑝)"𝛼P +⋯+(𝜀 +𝜀 +⋯
+E )*
+P,*
++𝜀 )(1−𝑝)+)B𝛼I
+)(+)B)
+19
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+𝑚𝐴𝑀 𝛼(1−𝛼+)*)
+E
+= +𝑝𝐴8𝜀 +(𝜀
+𝑟 E (1−𝛼) E
+𝛼(1−𝛼+)B)
++𝜀 )(1−𝑝) +⋯+(𝜀 +𝜀 +⋯
+)* (1−𝛼) E )*
++𝜀 )(1−𝑝)+)B𝛼9
+)(+)B)
+Thus, the value of the DAO will be negative in period 0 if
+𝑚𝐴𝑀 𝛼(1−𝛼+)*)
+E
+< −𝑝𝐴8𝜀 +(𝜀
+𝑟 E (1−𝛼) E
+𝛼(1−𝛼+)B)
++𝜀 )(1−𝑝) +⋯+(𝜀 +𝜀 +⋯
+)* (1−𝛼) E )*
++𝜀 )(1−𝑝)+)B𝛼9
+)(+)B)
+If the ε are negative and sufficiently large in magnitude, then the
+t
+above condition will hold.
+For a special case, suppose that ε = 0 for all t < 0. In words, suppose
+t
+that M was constant until t = -1, and there is a one-time change in
+M at t = 0. The above condition simplifies to:
+𝑚𝑀 𝛼
+E < −𝜀 ((1−𝛼+)*)+(1−𝑝)(1−𝛼+)B)+⋯
+𝑝𝑟 E1−𝛼
++(1−𝑝)+)B(1−𝛼))
+Thus, if ε is sufficiently negative and large in magnitude (i.e., if
+0
+there is a sufficiently large decrease in M), then the value of DAO
+will become negative and the DAO will become insolvent. Of
+course, a remedial course of action that could perhaps be taken in
+period 0 is to increase the margin m if that is possible. However, we
+would need to consider the impact of an increase in the margin on
+future demand.
+20
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+4. Capital Requirements
+We will use a simple, single-period model to illustrate how the
+DAO structure may reduce capital requirements – i.e., reserves
+needed to meet the unexpected component of payouts. In a
+traditional corporate structure, the insurance firm is a separate
+entity, and the amount of capital needed is a function of the standard
+deviation of total payouts. In the proposed DAO structure, assuming
+that there is a good system in place to ensure that an adequate
+amount of tokens are encumbered for each underwritten policy,
+each agent is responsible for meeting the payouts on the policies
+they have underwritten. Consequently, the burden of maintaining
+adequate capital falls on each individual agent, and the amount of
+capital that each agent will need (or find it prudent) to hold will
+depend on how much additional risk the potential underwriting
+liabilities contribute to the agent’s overall portfolio. As a result, it
+is possible that the sum of the individual amounts of capital held by
+the DAO agents may be less than the amount of capital required to
+be held by a traditional corporate entity.
+In the exposition below, we will assume for simplicity that all
+policies and agents are identical. Let
+N ≡ number of agents
+x ≡ the (random) payout of an individual agent i at the end of
+i
+the period. The x are iid (independently and identically
+i
+distributed), and therefore uncorrelated with each other.
+σ ≡ standard deviation of x
+x i
+y ≡ the (random) end-of-period value of the private portfolio of
+i
+agent i, not including the payout. The y are iid and
+i
+uncorrelated among themselves as well as with the x
+i
+σ ≡ standard deviation of y
+y i
+Suppose that the N agents are organized as a traditional firm. The
+capital requirement of the firm would be proportional to √𝑁 𝜎 , the
+o
+standard deviation of the total end-of-period payout. Under the
+DAO structure, the standard deviation of the value of each agent’s
+overall portfolio (consisting of her private portfolio plus the payout
+on policies she has underwritten) would be p𝜎B +𝜎B. The
+q o
+additional risk to the agent by the insurance payouts is therefore
+21
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+r𝜎B +𝜎B −𝜎
+q o q
+and each agent would hold capital proportional to this amount. The
+total amount of capital that the N agents combined would hold
+would therefore be proportional to N times this amount.
+We see that
+𝑁Dr𝜎B +𝜎B −𝜎 F < √𝑁 𝜎
+q o q o
+if
+𝜎
+o
+r𝜎B +𝜎B −𝜎 <
+q o q
+√𝑁
+Thus, to reiterate the main point, if the incremental risk to the
+private portfolios of the agents from the contingent liabilities is
+small enough, the sum of the individual amounts of capital the DAO
+agents will hold will be less than the capital requirement for a
+traditional corporate entity.
+VI. Conclusion
+We conclude the paper with a summary of the key points.
+The DAO structure we propose can be used by traditional insurance
+companies as well as niche players specializing in a narrow range
+of specialty policies. In common with all applications of the DAO
+concept, insurers as well as consumers can enjoy the benefits of
+transparency, efficiency and cost-effectiveness. In addition, the
+particular design outlined above is likely to facilitate the entry of
+new players to the insurance market. It is possible for a DAO to
+allow the participation of non-traditional firms and even individual
+investors. Such participants could buy tokens when they come up
+for auction, and then use these tokens to participate in underwriting,
+or else, just hold the tokens as a passive investment.
+22
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+The design allows for collaboration (i) among DAO underwriters as
+well as (ii) between underwriters and consumers. The need to trust
+is minimized by appropriately designed economic incentives. The
+governance rules of the DAO can be set up so as to ensure that
+minority token holders are appropriately protected. In general,
+assuming all agents are active underwriters, the rules can be
+designed to ensure that the proportion of policies written by an agent
+in the long run is commensurate with the proportion of the agent's
+token holdings. Further, bad business decisions by one underwriter
+need not impact the other underwriters or the DAO. If a certain
+underwriter makes the mistake of underestimating the risk of the
+insured event, the losses will be suffered purely by the underwriter
+as long as the value of the staked or encumbered tokens covers the
+claim. As far as consumers are concerned, potential claims are fully
+backed or secured by the underwriters' encumbered tokens. In this
+decentralized system, the tokens essentially substitute for
+reputation. Even if the underwriters of a particular policy were to
+breach the contract, the auction of the encumbered tokens and the
+sale of additional tokens as needed ensures that the policy holder's
+claim is fully met. Thus, what we are referring to as a breach on a
+particular insurance contract does not necessarily imply any losses
+for the consumer.
+The structure of incentives embedded in this design has the potential
+to substantially lower capital requirements and the related need for
+capital regulation. We note that the burden of maintaining sufficient
+liquidity in order to meet claims is not on the DAO, but rather on
+the individual underwriters that make up the DAO. Each
+underwriter would of course need to maintain sufficient liquidity
+and economic capital in order to be able to reclaim tokens as and
+when claims occur. (By economic capital, we mean the buffer that
+needs to be maintained in order to meet "unexpected" losses - i.e.,
+losses in excess of the expected level.) However, it is possible under
+certain conditions that the total amount of capital that these agents
+will collectively hold is lower under this design than if the burden
+of meeting the liability were to be on a traditional insurance firm.
+This result is based on the premise that the amount of capital each
+underwriter will hold will be based on the risk of the underwriter's
+overall portfolio. The overall portfolio of an individual underwriter,
+especially a non-traditional one, may benefit from the addition of
+underwriting due to diversification, as attested to some extent by the
+23
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+DECENTRALIZED UNDERWRITING
+existence of insurance-linked securities such as catastrophe bonds.
+As a result, the sum of the incremental VaRs (Value at Risk
+amounts) of the individual underwriters may be less than the VaR
+of an insurance firm that has underwritten the same contracts.
+More importantly, how much capital an underwriter holds is a
+matter of their personal risk preference. An underwriter who is
+willing to tolerate fluctuations in their token holdings need only
+provide for expected losses. The key point is this: from the
+viewpoint of consumers and regulators, the encumbered tokens
+(which as we know derive their value from the DAO's future cash
+flows) essentially serve as a substitute for capital. Financial distress
+or bankruptcy of an individual underwriter does not have to affect
+either consumers or the DAO. As mentioned previously, in case of
+a breach on a particular contract, the policy holder’s claim can still
+be met by an auction of the encumbered tokens. Additional
+resources if required can be raised by minting new tokens. Barring
+highly adverse market conditions, the availability of "capital on tap"
+protects the DAO from default and bankruptcy. Thus, the design has
+the potential to greatly simplify capital regulation.
+In sum, many of the innovative features of this design stem from
+the fact that the tokens serve multiple purposes: as reward for risk-
+taking, and a substitute for reputation and capital.
+References
+Bakos, Yannis and Halaburda, Hanna (2018), “The Role of
+Cryptographic Tokens and ICOs in Fostering Platform Adoption,”
+Available at SSRN: https://ssrn.com/abstract=3207777 or
+http://dx.doi.org/10.2139/ssrn.3207777
+Catalini, Christian and Gans, Joshua S. (2018), “Initial Coin
+Offerings and the Value of Crypto Tokens,” MIT Sloan Research
+Paper No. 5347-18; Rotman School of Management Working
+Paper No. 3137213. Available at
+SSRN: https://ssrn.com/abstract=3137213 or http://dx.doi.org/10.2
+139/ssrn.3137213
+24
+Electronic copy available at: https://ssrn.com/abstract=3396542
+
+Cong, Lin and Li, Ye and Wang, Neng (2018), “Tokenomics:
+Dynamic Adoption and Valuation,” Columbia Business School
+Research Paper No. 18-46; 2nd Emerging Trends in
+Entrepreneurial Finance Conference. Available at
+SSRN: https://ssrn.com/abstract=3153860 or http://dx.doi.org/10.2
+139/ssrn.3153860
+Hogan Lovells (2017), “Blockchain/DLT in the Insurance Sector,”
+Available at
+https://www.hlengage.com/_uploads/downloads/5425Blockchaini
+ninsuranceV7FORWEB.pdf
+IAIS (International Association of Insurance Supervisors) (2017),
+“FinTech Developments in the Insurance Industry,” Basel,
+Switzerland. Available at
+https://www.iaisweb.org/page/news/other-papers-and-reports
+Li, Jiasun and Mann, William (2018), “Initial Coin Offerings and
+Platform Building,” 2018 WFA, 2019 AFA. Available at
+SSRN: https://ssrn.com/abstract=3088726 or http://dx.doi.org/10.2
+139/ssrn.3088726
+Malinova, Katya and Park, Andreas (2018), “Tokenomics: when
+tokens beat equity,” Available at
+SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=32868
+25
+Marke, Ken (2018), “Blockchain Is Tech Evolution That Will
+Create Re/Insurance Revolution,” Insurance Journal, Available at
+https://www.insurancejournal.com/news/international/2018/07/11/
+494638.htm
+25
+Electronic copy available at: https://ssrn.com/abstract=3396542
+

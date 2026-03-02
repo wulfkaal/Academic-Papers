@@ -1,0 +1,1249 @@
+BLOCKCHAIN TECHNOLOGY AND RACE IN CORPORATE
+AMERICA
+Wulf A. Kaal*
+Abstract
+Blockchain technology provides anonymous and secure
+transactional guarantees through democratized trust and
+disintermediation. Minorities and disenfranchised communities can
+benefit from the evolving technology and its anti-discrimination
+features. The article evaluates how blockchain technology helps
+minimize discriminatory practices in corporate America and creates a
+more equal society.
+Key Words: Blockchain, Distributed Ledger Technology, Artificial
+Intelligence, Machine Learning, Data Science, Data Scientists,
+Entrepreneurship, Innovation, Big Data, Efficiency, Race, Community
+Development, Minorities, Discrimination, Optimization, Equality
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+*Associate Professor, University of St. Thomas School of Law (Minneapolis). The
+author is grateful for outstanding support from librarians Nicole Kinn and student
+research assistant Samuel Evans. The author would also like to thank Troy
+Wilkinson (principal at the Fountainheart Fund in Los Angeles) for helpful
+suggestions on the underlying causes. A more detailed evaluation of the issues
+outlined in this paper may follow.
+1
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+Table of Content
+I. INTRODUCTION .................................................................................. 3
+II. BLOCKCHAIN TECHNOLOGY ............................................................. 5
+1. Disruptive Innovation ................................................................. 10
+2. Limitations .................................................................................. 12
+III. DISENFRANCHISED COMMUNITIES IN CORPORATE AMERICA ......... 15
+1. Corporate Structure .................................................................... 16
+2. Corporate Culture ....................................................................... 17
+3. Boards of Directors ..................................................................... 19
+IV. BLOCKCHAIN SOLUTIONS FOR DISENFRANCHISED COMMUNITIES . 20
+1. Blockchain-Enabled Trust as Anti-Discrimination ..................... 20
+2. DAOs as Equalizing Organizations ............................................ 21
+V. CONCLUSION ................................................................................... 26
+2
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+I. Introduction
+Race is at the core of American democracy1 yet racial equality
+in America is elusive.2 Race has played a large role in American politics
+and business since the end of slavery. Whereas in the early days of the
+American democracy the race struggle involved access to property,
+voting and other fundamental rights, the modern-day race conversation
+has shifted towards barriers to entry in corporate America.
+Inequalities along racial lines in America can be traced in data.3
+Researchers have commonly recognized the disproportionate large
+number of minorities in unskilled labor who are likely to remain
+untrained.4 During the Great Recession, a large number of African
+American manufacturing jobs were lost, but have steadily been
+returning.5 After the Great Recession, African American unemployment
+rose at a greater rate than Caucasian unemployment and African
+American unemployment also stayed higher for longer.6 This data
+suggests that minorities in America are “first fired, last hired”.7 While
+minorities have been able to improve in attaining upper-level corporate
+positions in the 1980s and 1990s, minorities were still
+disproportionately affected by layoffs through corporate restructuring in
+the 1980 and 1990s.8 In the early 2000, however, the risk for minorities
+to be laid off because of corporate restructuring decreased.9
+Discrimination is a common phenomenon in corporate America.
+Opaque promotion processes in corporations require political
+1 Alfreda Robinson, Corporate Social Responsibility and African American
+Reparations: Jubilee, 55 Rutgers L. Rev. 309, 318 (2003)
+2 Id. at 313–23
+3 CITE all data driven empirical studies on this subject.
+4 Cheryl Wade, The Impact of U.S. Corporate Policy on Women and People of
+Color, 7 J. GENDER RACE & JUST. 213, 221 (2003).
+5 Christian E. Weller and Jaryn Fields, The Black and White Labor Gap in America:
+Why African Americans Struggle to Find Jobs and Remain Employed Compared to
+Whites, AMERICANPROGRESS.ORG (July 25, 2011, 9:00 AM),
+https://www.americanprogress.org/issues/economy/reports/2011/07/25/9992/the-
+black-and-white-labor-gap-in-america/
+6 Id.
+7 Id.
+8 George Wilson & Debra Branch McBrier, Race and Loss of Privilege: African
+American/White Differences in the Determinants of Job Layoffs From Upper-Tier
+Occupations, 20 SOC. FOR. 301, 305 (2005)
+9 Soohan Kim, Alexandra Kalev, Frank Dobbin, Progressive Corporations at Work:
+The Case of Diversity Programs, 36 N.Y.U. REV. L. & SOC. CHANGE 171, 174
+(2012)
+3
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+positioning with corporate institutions.10 Using Fortune 1000
+corporations as a sample, one study suggests that 76% of the sample
+dataset had at least one minority member on their board which reflects
+an increase of 2% from 2003 and a 32% increase from ten years
+before.11 Within this minority sub-sect, African Americans account for
+47%, Latinos account for 18% and Asians account for 11%.12
+Contrasting these numbers with the ethnic composition of the United
+States, in the 2010 United States Census, African Americans made up
+12.6% of the population, Latinos made up 16.3% of the population and
+Asians made up 4.8% of the population.13 Minorities as a whole made
+up 37.7% of the United States population.14 This means that of the
+minorities in the United States, 33.4% are African American, 47.7% are
+Latino and 12.7% are Asian.15 The remainder of the minority population
+identify as some other race.
+The data suggest that minority groups are being
+underrepresented in Corporate America by significant margins without
+considering external factors. In the sample dataset of Fortune 1000
+companies, 37% of employees are women and about 15% are
+minorities.16 Management positions are held only at 17% by women and
+6% by minorities.17 Executive level management positions are only at
+6% women and 3% minorities.18
+Based on the available data, this paper examines discriminatory
+practices afflicting disenfranchised communities in corporate America
+including its origins in corporate structures, corporate culture, and on
+the level of the board of directors. After examining such discriminatory
+influences in corporate America, the paper examines how employing
+blockchain technology can support a more equal society and help
+counteract historically grown and path dependent inequalities in
+corporate America.
+10 Devon W. Carbado & Mitu Gulati, Race to the Top of the Corporate Ladder: What
+Minorities Do When They Get There, 61 WASH. & LEE L. REV. 1645, 1691 (2004)
+[hereinafter Carbado].
+11 Lisa M. Fairfax, The Bottom Line on Board Diversity: A Cost-Benefit
+Analysis of the
+Business Rationales for Diversity on Corporate Boards, 2005 WIS. L. REV. 795, 799
+(2005).
+12 Id. at 800
+13 United States Census Bureau,
+https://www.census.gov/quickfacts/fact/table/US/PST045216 (last visited July 31,
+2017); Janis Sarra, Class Act: Considering Race and Gender in the Corporate
+Boardroom, 79 ST. JOHN'S L. REV. 1121, 1126 (2005).
+14 Id.
+15 Id.
+16 Ramona L. Paetzold & Rafael Gely, Through the Looking Glass: Can Title VII
+Help Women and Minorities Shatter the Glass Ceiling?, 31 HOUS. L. REV. 1517,
+1519–20 (1995).
+17 Id.
+18 Id.
+4
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+II. Blockchain Technology
+Leading technologists around the world have hailed blockchain
+technology as one of the most important technological innovations since
+the Internet.19 The peer-to-peer interactions and transactions in a
+decentralized network where all participants are equal and verification
+and validation of each transaction is provided by all parties in the
+network through the blockchain technology provide near unlimited
+opportunities and applications. For instance, in the financial world, a
+global consensus record of information and transactions creates the
+much-needed transparency and, at the same time, opens global access
+to finance, including in areas of the world where the banking system —
+in contrast to a mobile telephone network — is not readily available.20
+The technology incentivizes direct transactions, including
+compensation, between the creator and consumer, eliminating the need
+19 COGNIZANT, MARKETFORCE & PEGASYSTEMS, The Future of Financial Legal
+Services 6, 28-30 (2016),
+https://www.pega.com/sites/pega.com/files/docs/2016/Jan/the-future-of-retail-
+financial-services-study.pdf [hereinafter Cognizant]; John Naughton, Is Blockchain
+the Most Important IT Invention of Our Age?, THE GUARDIAN (Jan. 24, 2016, 4:00
+EST), https://www.theguardian.com/commentisfree/2016/jan/24/blockchain-
+bitcoin-technology-most-important-tech-invention-of-our-age-sir-mark-walport;
+William Mougayar, The Blockchain Is the New Google, TECHCRUNCH (May 11,
+2016) https://techcrunch.com/2016/05/11/the-blockchain-is-the-new-google/;
+Michael Crosby, Nachiappan, Pradhan Pattanayak, Sanjeev Verma & Vignesh
+Kalyanaraman, Blockchain Technology: Beyond Bitcoin 3 (2015),
+http://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf; Kyle Torpey, Why
+the Bitcoin Blockchain Is the Biggest Thing Since the Internet, NASDAQ (Apr. 19,
+2016, 9:32:27 AM EST), http://www.nasdaq.com/article/why-the-bitcoin-
+blockchain-is-the-biggest-thing-since-the-internet-cm608228; Carrie Kirby,
+Andreessen at Coin Summit: Bitcoin Today Is the Internet in 1994, COINDESK (Mar.
+25, 2014, 20:21 GMT), http://www.coindesk.com/marc-andreessen-balaji-srinivasan-
+discuss-bitcoin/; Dinis Guarda, Over 50 Bitcoin and Blockchain Thoughts and
+Quotes You Need to Read, TRADERSDNA (July 4, 2016),
+http://www.tradersdna.com/bitcoin-and-blockchain/over-50-bitcoin-and-blockchain-
+thoughts-and-quotes-you-need-to-read/; Rich Daly, Blockchain: Wall Street’s Most
+Game-Changing Technology Advance Since the Internet, FORBES (July 11, 2016,
+6:00 PM), https://www.forbes.com/sites/richdaly/2016/07/11/blockchain-wall-
+streets-most-game-changing-technology-advance-since-the-internet/#33987a154d87.
+20 See, e.g., Michele Chandler, Mobile Banking Takes Off in Nigeria, STANFORD
+GRADUATE SCHOOL OF BUSINESS (Jan. 24, 2012),
+https://www.gsb.stanford.edu/insights/mobile-banking-takes-nigeria; Cade Metz,
+Why Bitcoin Will Thrive First in the Developing World, WIRED (Feb. 2, 2016, 8:00
+AM), https://www.wired.com/2016/02/why-bitcoin-will-thrive-first-in-the-
+developing-world/ (noting that in Nigeria, for example, banking transactions are
+readily executed over mobile phones because no infrastructure exists for consumer
+banking. Donations and aid to third world countries can finally be provided without
+the interference of suboptimal bureaucratic organizations that don’t allocate the aid
+as intended by the donor.).
+5
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+for intermediation.21
+Blockchain technology creates a platform for trust through truth
+and transparency for parties. Blockchain technology can be described as
+“an open, distributed ledger that can record transactions between two
+parties efficiently and in a verifiable and permanent way.”22 Moreover,
+blockchain records are incredibly secure, as it is nearly impossible to
+alter a transaction once it has been added to the blockchain.23 Because
+the blockchain (at the least the public blockchain) is in fact public and
+immutable, the technology increases transparency, while at the same
+time significantly reducing transaction costs. Intermediaries, including
+lawyers, are replaced by code, connectivity, crowd, and collaboration.24
+Blockchain technology has been defined in many different ways,
+and no truly uniform definition seems to exist. Some refer to it as a giant
+worldwide, distributed, immutable “google spreadsheet” for
+transactions.25 Others define blockchain by focusing on its central
+elements, e.g., it is a transaction ledger, electronic, decentralized,
+immutable, and provides cryptographic verification, among several
+other elements.26 Vitalik Buterin, the founder of Ethereum, perhaps
+most prominently defined blockchain as follows:
+21 Rene Bader & Thorsten Deckers, How Does Blockchain Work?: Transactions
+Without an Intermediary, ISBUZZNEWS (May 6, 2017),
+http://www.informationsecuritybuzz.com/articles/blockchain-work-transactions-
+without-intermediary/; Jill Richmond, How Blockchain Is Transforming the Creative
+Industry, NASDAQ (Apr. 26, 2017, 8:25:46 PM EDT),
+http://www.nasdaq.com/article/how-blockchain-is-transforming-the-creative-
+industry-cm780005.
+22 Marco Iansiti & Karim R. Lakhani, The Truth About Blockchain, 2017 HARV. BUS.
+R. 118 (Jan.–Feb.), https://hbr.org/2017/01/the-truth-about-blockchain.
+23 Sean Murray, This So-Hot Robot Is Launching a Marketplace Lending Hedge
+Fund, DEBANKED (Jan. 26, 2017), http://debanked.com/2017/01/this-so-hot-robot-is-
+launching-a-marketplace-lending-hedge-fund/.
+24 Erik P.M. Vermeulen, There Is No Escape from Blockchains and Artificial
+Intelligence…Lawyers Better Be Prepared!, MEDIUM (Jan. 23, 2017)
+https://medium.com/@erikpmvermeulen/there-is-no-escape-from-blockchains-and-
+artificial-intelligence-lawyers-better-be-prepared-2d7a8221c627.
+25 Jonathan Shieber, Colu Aims to Bring Blockchain Technology Everywhere,
+TECHCRUNCH (Jan. 27, 2015), https://techcrunch.com/2015/01/27/colu-aims-to-
+bring-blockchain-technology-everywhere/; Craig Leppan, Who Is Blockchain Going
+to Affect the Most, OVATIONS (July 29, 2015),
+http://www.ovationsgroup.com/blockchain/.
+26 See, e.g., Alan Morrison, Blockchain and Smart Contract Automation: Blockchains
+Defined, PWC (2016), http://www.pwc.com/us/en/technology-
+forecast/2016/blockchain/pwc-smart-contract-automation-definition.pdf; Alistair
+Dabbs, What Is Blockchain, and Why Is It Growing in Popularity?, ARSTECHNICA
+(Nov. 6, 2016, 8:00 AM), https://arstechnica.com/information-
+technology/2016/11/what-is-blockchain/; Lee Grant, Blockchain – Definition,
+Origin, and History, TECHBULLION (Sept. 6, 2016),
+http://www.techbullion.com/blockchain-definition-origin-history; Vimi Grewel-Carr
+& Stephen Marshall, Blockchain: Enigma. Paradox. Opportunity 4–7 (2016),
+6
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+Public blockchains: a public blockchain is a blockchain
+that anyone in the world can read, anyone in the world
+can send transactions to and expect to see them included
+if they are valid, and anyone in the world can participate
+in the consensus process – the process for determining
+what blocks get added to the chain and what the current
+state is. As a substitute for centralized or quasi-
+centralized trust, public blockchains are secured by
+cryptoeconomics – the combination of economic
+incentives and cryptographic verification using
+mechanisms such as proof of work or proof of stake,
+following a general principle that the degree to which
+someone can have an influence in the consensus process
+is proportional to the quantity of economic resources that
+they can bring to bear. These blockchains are generally
+considered to be “fully decentralized”.27
+Rather than attempting to agree on a mutually acceptable
+phraseology for a definition, a description of the core elements of ledger
+technology can help define the blockchain. As such, a blockchain is a
+shared digital ledger or database that maintains a continuously growing
+list of transactions among participating parties regarding digital assets –
+together described as “blocks.”28 The linear and chronological order of
+transactions in a chain will be extended with another transaction link
+https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/Innovation/deloitte-
+uk-blockchain-full-report.pdf.
+27 Vitalik Buterin, On Public and Private Blockchains, ETHEREUM BLOG (Aug.7,
+2015), https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/,
+contrasting public blockchains (the original idea) with consortium blockchains and
+fully private blockchains: “Consortium blockchains: a consortium blockchain is a
+blockchain where the consensus process is controlled by a pre-selected set of nodes;
+for example, one might imagine a consortium of 15 financial institutions, each of
+which operates a node and of which 10 must sign every block in order for the block
+to be valid. The right to read the blockchain may be public, or restricted to the
+participants, and there are also hybrid routes such as the root hashes of the blocks
+being public together with an API that allows members of the public to make a
+limited number of queries and get back cryptographic proofs of some parts of the
+blockchain state. These blockchains may be considered ‘partially decentralized.’” Id.
+“Fully private blockchains: a fully private blockchain is a blockchain where write
+permissions are kept centralized to one organization. Read permissions may be
+public or restricted to an arbitrary extent. Likely applications include database
+management, auditing, etc [sic] internal to a single company, and so public
+readability may not be necessary in many cases at all, though in other cases public
+auditability is desired.” Id.
+28 See, e.g., Michele D’Aliessi, How Does the Blockchain Work? MEDIUM (June 1,
+2016), https://medium.com/@micheledaliessi/how-does-the-blockchain-work-
+98c8cd01d2ae#.w76hifcu2; Monica Pearson, Blockchain Is the New Buzzword,
+EXPERIAN, (Jan. 31, 2016),
+https://www.experian.com/blogs/insights/2016/01/blockchain-is-the-new-buzzword/.
+7
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+that is added to the block once such additional transaction is validated,
+verified, and completed.29 The chain of transactions is distributed to a
+limitless number of participants, so-called nodes,30 around the world in
+a public or private peer-to-peer network.
+Blockchain technology removes fraudulent transactions.
+Compared with existing methods of verifying and validating
+transactions by third-party intermediaries, blockchain’s security
+measures make blockchain validation technologies more transparent
+and less prone to error and corruption. While blockchain’s use of digital
+signatures helps establish the identity and authenticity of the parties
+involved in the transaction, it is the completely decentralized network
+connectivity via the Internet that allows the most protection against
+fraud.31 Network connectivity allows multiple copies of the blockchain
+to be available to all participants across the distributed network.32 The
+decentralized, fully-distributed nature of the blockchain makes it
+practically impossible to reverse, alter, or erase information in the
+blockchain.33 Blockchain’s distributed consensus model, e.g., the
+network “nodes” verify and validate chain transactions before execution
+of the transactions, makes it extremely rare for a fraudulent transaction
+to be recorded in the blockchain.34 That model also allows node
+verification of transactions without compromising the privacy of the
+29 See, e.g., D’Aliessi, supra note 28; Pearson, supra note 28.
+30 See, e.g., D’Aliessi, supra note 28. Participants can be individuals, organizations,
+and even things. See, e.g., Hemant Saxena, Blockchain Technology and Microsoft’s
+Plan to Develop Blockchain As a Service, WINDOWS CLUB (Feb. 16, 2017),
+http://www.thewindowsclub.com/blockchain-microsoft-plans-develop-
+service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Th
+eWindowsClub+%28The+Windows+Club%29; Sloane Brakeville & Bhargav
+Perepa, Blockchain Basics: Introduction to Distributed Ledgers, IBM:
+DEVELOPERWORKS (May 9, 2016; updated Dec. 15, 2016),
+https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-
+bluemix-trs/; the only condition for participants is the necessity of an Internet
+connection. See, e.g., D’Aliessi, supra note 28.
+31 See, e.g., Brakeville & Perepa, supra note 30. For an in-depth, nuanced discussion
+of this point, see Peter Van Valkenburgh, Open Matters: Why Permissionless
+Blockchains Are Essential to the Future of the Internet, COINCENTER 3–4, 23–26
+(2016), https://coincenter.org/files/2016-12/openmattersv1-1.pdf.
+32 See, e.g., D’Aliessi, supra note 28.
+33 See, e.g., Brakeville & Perepa, supra note 30; Antony Lewis, A Gentle
+Introduction to Immutability of Blockchains, BITS ON BLOCKS (Feb. 29, 2016),
+https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-
+blockchains/.
+34 See, e.g., Francois Janinotto, The Blockchain Explained to Web Developers, Part
+1: The Theory, MARMELAB BLOG (Apr. 28, 2016),
+https://marmelab.com/blog/2016/04/28/blockchain-for-web-developers-the-
+theory.html; Razvan Peteanu, Fraud Detection in the World of Bitcoin, BITCOIN
+MAG. (Mar. 26, 2014, 5:50 AM EST), https://bitcoinmagazine.com/articles/fraud-
+detection-world-bitcoin-1395827419/ (noting, “Fundamentally, detecting fraud is
+hard precisely because it is rare, dynamic and not necessarily obviously
+fraudulent.”).
+8
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+parties and is therefore arguably safer than a traditional model that
+requires third-party intermediary validation of transactions.35
+Cryptographic hashes further increase blockchain security.
+Cryptographic hashes are complex algorithms that use the details of all
+previous transactions in the existing blockchain before adding the next
+block to generate a unique hash value.36 That hash value ensures the
+authenticity of each transaction before it is added to the block. The
+smallest change to the blockchain, even a single digit/value, results in a
+different hash value. A different hash value makes any form of
+manipulation immediately detectable.37
+Smart contracts and smart property are blockchain-enabled
+computer protocols that verify, facilitate, monitor, and enforce the
+negotiation and performance of a contract.38 The term “smart contract”
+was first introduced by Nick Szabo, a computer scientist and legal
+theorist, in 1994.39 An often-cited example for smart contracts is the
+purchase of music through Apple’s iTunes platform.40 A computer code
+ensures that the “purchaser” can only listen to the music file on a limited
+number of Apple devices.41
+More complex smart contract arrangements in which several
+parties are involved require a verifiable and unhackable system
+provided by blockchain technology.42 Through blockchain technology,
+35 For a discussion of privacy on the blockchain, see Valkenburgh, supra note 31, at
+33–40. For an overview of various consensus mechanisms see Sigrid Seibold &
+George Samman, Consensus: Immutable Agreement for the Internet of Value, KPMG
+(2016), https://assets.kpmg.com/content/dam/kpmg/pdf/2016/07/kpmg-blockchain-
+consensus-mechanism-channel-islands.pdf; Valkenburgh, supra note 31, at 15-40.
+36 See, e.g., Lewis, supra note 33.
+37 Id.
+38 See e.g., Morrison, supra note 26; Nicolette Kost De Sevres & Bradley Cohen, The
+Blockchain Revolution, Smart Contracts and Financial Transactions, DLA PIPER
+(Apr. 26, 2016),
+https://www.dlapiper.com/en/czech/insights/publications/2016/04/the-blockchain-
+revolution/.
+39 Smart Contracts: The Blockchain Technology That Will Replace Lawyers,
+BLOCKGEEKS, http://blockgeeks.com/guides/smart-contracts/ (last visited Mar. 18,
+2017); Schumpeter, Not-So-Clever Contracts, ECONOMIST (Jul 30, 2016),
+http://www.economist.com/news/business/21702758-time-being-least-human-
+judgment-still-better-bet-cold-hearted.
+40 See, e.g., Horsten Koeppl & Jeremy Kronik, Blockchain Technology—What’s in
+Store for Canada’s Economy and Financial Markets? 15 (2017),
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Com
+mentary_468_0.pdf; R. Douglas Vaugh & Anna Outzer, Understanding How the
+Block Chain Could Impact the Legal Industry, LAW 360 (Jan. 11, 2017),
+https://www.law360.com/articles/879810/understanding-how-blockchain-could-
+impact-legal-industry.
+41 Vaughn & Outzer, supra note 40; Jeffrey Glazer, Smart Contracts Are a Future,
+U. WIS. – MADISON: L. & ENTREPRENEURSHIP CLINIC (Sept. 14, 2015),
+https://www.uwle.org/blog/smart-contracts-are-a-future.
+42 See, e.g., ETHEREUM, https://www.ethereum.org/ (last visited Apr. 17, 2017);
+Gavin Wood, Ethereum: A Secure Decentralised Generalised Transaction Ledger,
+9
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+smart contracting often makes legal contracting unnecessary as smart
+contracts often emulate the logic of legal contract clauses.43 Ethereum,
+the leading platform for smart contracting, describes smart contracting
+in this context as follows:
+Ethereum is a decentralized platform that runs smart
+contracts: applications that run exactly as programmed
+without any possibility of downtime, censorship, fraud or
+third party interference. These apps run on a custom built
+blockchain, an enormously powerful shared global
+infrastructure that can move value around and represent the
+ownership of property. This enables developers to create
+markets, store registries of debts or promises, move funds in
+accordance with instructions given long in the past (like a will
+or a futures contract) and many other things that have not
+been invented yet, all without a middle man or counterparty
+risk.44
+1. Disruptive Innovation
+Blockchain technology has vast disruptive innovative
+properties. Despite the very early stage developments in blockchain
+technology, the possible applications are near limitless. For example,
+until recently, most commentators viewed Bitcoin as a hype, susceptible
+to fraud, price manipulation and corruption.45 Yet, the pace of
+innovation in cryptocurrencies and their application in different
+http://gavwood.com/paper.pdf; Luke Parker, Industry Research Papers Highlight
+Blockchain Technology’s Disruptive Potential, BRAVE NEWCOIN (July 3, 2016),
+https://bravenewcoin.com/news/industry-research-papers-highlight-blockchain-
+technologys-disruptive-potential/.
+43 Mark Anderson, Smart Contracts and Blockchain Technology, IP DRAUGHTS (June
+18, 2016, 12:14 PM), https://ipdraughts.wordpress.com/2016/06/18/smart-contracts-
+and-blockchain-technology/. See generally Josh Stark, Making Sense of Blockchain
+Smart Contracts, COINDESK (June 4, 2016, 18:39 GMT),
+http://www.coindesk.com/making-sense-smart-contracts/; Josh Stark, How Close Are
+Smart Contracts to Impacting the Real World of Law?, COINDESk, (Apr. 11, 2016,
+14:00 GMT), http://www.coindesk.com/blockchain-smarts-crntracts-real-world-law/;
+Ted Mylnar & Ira Schafer, Why Smart Contracts Will Need ‘Smart Term Sheets’ to
+Match, COINDESK (Dec. 9, 2016, 14:36 GMT), http://www.coindesk.com/smart-
+contracts-will-need-smart-term-sheets-match/. For an example of what startups hope
+to accomplish with smart contracting, see Legalese, https://legalese.com/ (last visited
+Apr. 17, 2017).
+44 ETHEREUM, supra note 42.
+45 See, e.g., Izabella Kaminska, Simon Taylkor & Carola Hoyos, Bitcoin and
+Blockchain: The Future of Money of Just Hype?, FIN. TIMES (Sept. 21, 2016),
+https://www.ft.com/content/3bea303c-7a7e-11e6-b837-eb4b4333ee43; Office of
+Inv’r Educ. and Advocacy, U.S. SEC, Ponzi Schemes Using Virtual Currencies (July
+2103), http://www.sec.gov/investor/alerts/ia_virtualcurrencies.pdf
+10
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+industries and commercial settings is faster than ever.46 The high levels
+of investor activity in the blockchain area appears to provide a reliable
+indicator of the commercial maturity of blockchain technology. The VC
+investment in startup companies that utilize blockchain technology has
+increased exponentially since 2012. Investor interest in the technology
+will undoubtedly further increase. Particularly, the applicability of
+blockchain-based smart contracts to digital marketplaces, the sharing
+economy, the Internet of Things (IoT) and artificial intelligence will
+further accelerate its development.47
+Blockchain technology startups have the potential to create
+lasting societal changes. Some predict a future in which such blockchain
+startups can remove intermediaries altogether from commerce as smart
+contracts in the blockchain, such as the ones in the Ethereum platform,48
+regulate commerce entirely, enabled by the trust created between parties
+through immutable blockchain technology.49
+Business, administrative, and legal processes that rely on legal
+intermediaries may become redundant because of advances in and
+acceptance and implementation of blockchain technology. Forms of
+keeping legal ledgers such as notary and registry services, legal motions
+practice in court, legal title companies, among several others, may be
+among the first services to disappear in the not too distant future.
+46 Money is No Object: Understanding the Evolving Cryptocurrency Market, PWC
+(2015), https://www.pwc.com/us/en/financialservices/publications/assets/pwc-
+cryptocurrency-evolution.pdf
+47 See, e.g., Arun Sudararajan, The Rise of the Sharing Economy: The end of
+Employment and the Rise of Crowd-based Capitalism (2016); Ben Dickson,
+Decentralizing IoT Networks Through Blockchain, TECHCRUNCH (June 28, 2016),
+https://techcrunch.com/2016/06/28/decentralizing-iot-networks-throughblockchain/;
+Scott Amyx, Decentralized IoT to Drive Disruption and Business Transformation,
+IOT ONE (Aug. 1, 2016), https://www.iotone.com/guide/decentralized-iot-to-drive-
+disruption-and-businesstransformation/g113; C. J. Dew, Post Capitalism: Rise of the
+Collaborative Commons, MEDIUM, (Mar. 18, 2015), https://medium.com/basic-
+income/postcapitalism-rise-of-the-collaborative-commons-
+62b0160a7048#.ar6aev65l; Trent McConaghy, How Blockchains Could Transform
+Artificial Intelligence, DATACONOMY (Dec. 21, 2016),
+http://dataconomy.com/2016/12/blockchains-forartificial-intelligence/; Mark
+Fenwick, Wulf A. Kaal & Erik P.M. Vermeulen, Legal Education in the Blockchain
+Revolution, SSRN (Mar. 22, 2017),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939127 [hereinafter Fenwick].
+48 ETHEREUM, http://www.ethereum.org (last visited Apr. 26, 2017) (“a
+decentralized platform that runs smart contracts: application that run exactly as
+programmed without any possibility of downtime, censorship, fraud, or third party
+interference.”)
+49 See e.g. Fenwick, supra note 48; Rob Marvin, Blockchain: The Invisible
+Technology That’s Changing the World, PC MAG (Aug. 29, 2017, 1:38 PM EST),
+https://www.pcmag.com/article/351486/blockchain-the-invisible-technology-thats-
+changing-the-wor; Joseph Young, The Unbreachable Data Made Possible With
+Bitcoin & Ethereum Blockchain, Here’s How, COINTELEGRAPH (Apr. 19, 2017),
+https://cointelegraph.com/news/the-unbreachable-data-made-possible-with-bitcoin-
+ethereum-blockchain-heres-how.
+11
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+Similarly, corporate processes that have ledger functionality but
+rely on legal intermediaries could be streamlined very quickly by
+implementing blockchain technology. When blockchain technology
+becomes more widely accepted and applications are spreading into
+consumer territory, existing legal/financial/backoffice processes and
+structures will likely be among the first processes to become redundant.
+The combination of blockchain technology startups with
+platforms, artificial intelligence and machine learning offer
+opportunities for developing new technologies. Leveraging the big data
+that is collected by using FinTech solutions and blockchain applications
+in combination with machine learning creates more creative and faster
+tools. This, in turn, creates a surge of new and innovative platforms with
+disruptive effects for the many industries.
+2. Limitations
+Blockchain technology and smart contracts executed on
+blockchain technology platforms, such as Ethereum.org, are faced with
+possible technological and legal limitations. First, the world of
+blockchain and smart contracting has not yet reached maturity.50 While
+blockchain enabled smart contracts generally do not require legal
+involvement across the spectrum of transactions, legal professionals
+often still believe that “code” in smart contracts can only deal with very
+simple transactions, such as buying music or perhaps a car, arguing that
+more complicated legal arrangements will necessitate the draftsmanship
+and negotiations of traditional lawyers.51 Even if more complex
+50 See, e.g., Garrick Hileman, State of Blockchain Technology Q1 2016: Blockchain
+Funding Overtakes Bitcoin, COINDESK (May 11, 2016, 15:15 GMT),
+http://www.coindesk.com/state-of-blockchain-q1-2016/; Alan Morrison, Blockchain
+and Smart Contract Automation: How Smart Contracts Automate Digital Business,
+PWC (2016), at 5-8 https://www.pwc.com/us/en/technology-
+forecast/2016/blockchain/pwc-smartcontract-automation-digital-business.pdf; Prasad
+Satavolu & Abhijeet Sangamnerkar, Blockchain’s Smart Contracts: Driving the Next
+Wave of Innovation Across Value Chains, COGNIZANT 20-20 INSIGHTS (June 2016),
+at 6–9, https://www.cognizant.com/whitepapers/blockchains-smart-contracts-
+driving-thenext-wave-of-innovation-across-manufacturing-value-chains-
+codex2113.pdf; Rob Marvin, Blockchain in 2017: The Year of Smart Contracts, PC
+(Dec. 12, 2016), http://www.pcmag.com/article/350088/blockchain-in-2017-the-
+year-of-smartcontracts; Chris Kanaracus, Don’t Believe the Blockchain Hype:
+Examining the Weaknesses and Risks, ZDNet (Apr. 13, 2016, 14:22 PDT),
+http://www.zdnet.com/article/dont-believe-the-blockchain-hype-examining-
+itsweaknesses-and-risks/; 2016: A Pivotal Year for Blockchain, SWIFT (May 12,
+2016), https://www.swift.com/insights/news/2016_a-pivotal-year-for-blockchain;
+Laura Shin, Looking to Integrate Blockchain into Your Business? Here’s How,
+Forbes (May 10, 2016, 8:00 AM),
+https://www.forbes.com/sites/laurashin/2016/05/10/looking-to-integrateblockchain-
+into-your-business-heres-how/#715aa8911a15.
+51 See, e.g., Mark Fenwick, Wulf A. Kaal & Erik P.M. Vermeulen, Legal Education
+in the Blockchain Revolution, SSRN (Mar. 22, 2017),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939127; Kevin Shook, Self-
+12
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+transactions could be coded and included in smart contracts, a
+widespread believe in the legal community suggests that lawyers will
+remain responsible for drafting the terms and arrangements that would
+later have to be coded by specialists.52
+Legal limitations pertaining to smart contracts and blockchain
+technology originate mostly from concerns over the legal origin of smart
+contracting. While smart contracts may reflect the underlying contract
+between parties, lawyers may argue that “smart contracts” are void and
+unenforceable under the law. Contractual legal rules regarding
+formation, interpretation, conditions and remedies require substantive
+adjustments of smart contracts in contract law.53
+The Blockchain evolution in combination with smart contracting
+also raises legal concerns regarding: privacy, data protection, security
+and integrity. While blockchain technology itself offers unprecedented
+genuine data and privacy protection, the storage of blockchain data
+across a global network of nodes often will not comply with specific
+consumer protection rules, directives, and guidelines around the
+Enforcing Smart Contracts Will Change Your Life, CORPORATE COUNSEL (Feb. 6,
+2017), http://www.corpcounsel.com/id=1202778557927/SelfEnforcing-Smart-
+ContractsWill-Change-Your-Life?slreturn=20170213090556; Richad Howlett, A
+Lawyer’s Perspective: Can Smart Contracts Exist Outside the Legal Structure?
+BITCOIN MAGAZINE (July 11, 2016, 2:52 PM EST),
+https://bitcoinmagazine.com/articles/alawyer-s-perspective-can-smart-contracts-
+exist-outside-the-legal-structure-1468263134/; Ira J. Shafer & Theodore Mylnar,
+Blockchain Smart Contracts Need a New Kind of Due Diligence, HOGAN LOVELLS
+(Sept. 22, 2016), https://www.hoganlovells.com/en/blogs/fintech-blog/blockchain-
+smart-contractsneed-a-new-kind-of-due-diligence; Andy Robinson & Tom Hingley,
+Smart Contracts: The Next Frontier? OXFORD BUSINESS LAW BLOG (May 23, 2016),
+https://www.law.ox.ac.uk/business-law-blog/blog/2016/05/smartcontracts-next-
+frontier; Norton Rose Fulbright, Smart Contracts: Coding the Fine Print, a Legal
+and Regulatory Guide 12 (2016),
+https://www.accmeetings.com/AM16/faculty/files/Article_471_734F_NRF24493_S
+mart_Contracts_V6_LR.PDF.
+52 Mark Fenwick, Wulf A. Kaal & Erik P.M. Vermeulen, Legal Education in the
+Blockchain Revolution, SSRN (Mar. 22, 2017),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2939127.
+53 Id.; Matthew McMillan, Smart Contracts: Legal and Regulatory Challenges of
+Smart Contracts, HENRY DAVIS YORK (Dec. 8, 2016), https://www.hdy.com.au/our-
+insights/insights/legal-regulatory-challenges-ofsmart-contracts; Lex Disturbia: The
+Impact of Smart Contracts on the Law, GOWLING WLG (Mar. 16, 2016),
+https://www.lexology.com/library/detail.aspx?g=0b7cf43a-7032-4750-9220-
+caca5c529281; Kate Withers, Smart Contracts: Opportunities and Legal Risks in
+FinTech, NAT’L L. REV. (Nov. 8, 2016),
+http://www.natlawreview.com/article/smart-contracts-opportunities-and-legalrisks-
+fintech; Martin von Haller Gronbaek, Blockchain 2.0, Smart Contracts and
+Challenges, BIRD & BIRD (June 16, 2016).
+https://www.twobirds.com/en/news/articles/2016/uk/blockchain-2-0--smartcontracts-
+and-challenges
+13
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+world.54 The existing legal issues arising in the context of sharing
+platforms,55 demonstrate that future blockchain-enabled sharing
+services may not be accepted quickly and without resistance on the part
+of incumbents challenged by new ways of delivering a service or
+product.
+Blockchain technology and smart contracts executed over the
+blockchain face many of the same limitations other new technology
+companies face. The lack of maturity has slowed the progression of
+integration into the corporate world. There is still a lack of legal
+framework for the industry to work with, which causes uncertainty.
+Without knowing which laws apply, the whole industry is operating in
+a grey area of the law.
+By operating in a grey area of law, a new level of volatility is
+introduced. Once Congress adopts a policy on the treatment of
+blockchain services, companies will be better able utilize the technology
+in a more legal and efficient way.
+Another issue the blockchain community has seen is when
+Ethereum introduced what is known as a Decentralized Autonomous
+Organization (DAO). The DAO was launched in May 2016,56 in an
+attempt to set up a corporation like organization without the traditional
+structure.57 The DAO did not have a physical address as it was merely
+computer code.
+During a fundraising period, the DAO raised roughly $168
+Million from around 10,000 participants. Unfortunately, the code had
+not yet been perfected and hackers were able to take a third of the DAO
+tokens and transfer them into another account. This hack and other
+technological limitations, led to the demise of the DAO.58
+54 Id.; See, e.g., Andres Guadamuz & Chris Marsden, Blockchains and Bitcoin:
+Regulatory Responses to Cryptocurrencies, FIRST MONDAY (Dec. 7, 2015),
+http://firstmonday.org/article/view/6198/5163. For a good overview of the
+complexities of the global regulation of blockchain technology, see Javier Sebastian
+Cermeño, Blockchain in Financial Services: Regulatory Landscape and Future
+Challenges for Its Commercial Application, BBVA RESEARCH, at 6–18 (2016),
+https://www.bbvaresearch.com/wp-content/uploads/2016/12/WP_16-20.pdf. For a
+summary of international law actions relating to digital currencies, see Digital
+Currencies: International Actions and Regulations, PERKINSCOIE (May 2017),
+https://www.perkinscoie.com/en/news-insights/digital-currencies-
+internationalactions-and-regulations.html (last visited November 14, 2017).
+55 Such as Uber, Lyft, Sidecar, RelayRides, SpinLister and JustPark (transportation),
+Airbnb and DogVacay (lodging), Postmates, Prime Now, and Instacart (on-demand
+delivery services), and Rent the Runway (clothing).
+56 Christoph Jentzsch, the co-founder of IoT company Slock.it, was one of the “key
+founders” of The DAO, a new style venture capital fund. Carla Reyes, et al,
+Distributed Governance, 59 WM. & MARY L. REV. ONLINE 1 (Sep. 22, 2017),
+https://wmlawreview.org/distributed-governance.
+57 Id.
+58 Vitalik Buterin, Critical Update Re: DAO Vulnerability, ETHEREUM BLOG (June
+17, 2016), https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability.
+14
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+III. Disenfranchised Communities in Corporate America
+Unlike their Caucasian peers, minorities still face obstacles in
+corporate America that affect their ability to succeed. Perhaps the most
+common method of assessing business success is the is expediency and
+degree of promotions in corporate America. Breaking into upper
+management ranks typically requires not only a high level of technical
+skill and understanding of the respective business, but also requires
+significant abilities to navigate the political environment. Because of
+societal perceptions of minorities,59 minority groups face an uphill battle
+in navigating the political environment in corporate America, which in
+turn can significantly affect their positioning and success in corporate
+America. However, some evidence exists that minorities can overcome
+the promotion gap in corporate America if they are seen as value
+enhancers by their superiors. If minorities are promoted, they often
+share common characteristics which can be predictors of minority
+success: “(a) is both a risk-taker and overly confident, (b) is a team
+player, and (c) is perceived by the employer to have the capacity to
+manage other non-whites.”60
+59 For instance, minorities are often subject to prejudices as a result of daily media
+portraying them as Criminals. Cheryl L. Wade, Corporate Governance As Corporate
+Social Responsibility: Empathy and Race Discrimination, 76 TUL. L. REV. 1461,
+1473-75 (2002). To quote one example: “while it is indisputable that African
+Americans engage in criminal activity, these frequent portrayals of African-
+American criminality, coupled with the social reality of racial isolation and de facto
+segregation, may make it difficult for… corporate managers, to empathize with
+African-American victims of racial discrimination.” Id. These prejudices can have a
+lasting impact on an individual’s career. African Americans are denied opportunities
+within the corporate setting “due to racial, ethnic, and cultural factors”. Dionne
+Rosser-Mims and Glenn A. Palmer, The Career Paths of African Americans in the
+Corporate and Political Arenas, ADULT EDUCATION RESEARCH CONFERENCE
+(2009), http://newprairiepress.org/cgi/viewcontent.cgi?article=3802&context=aerc.
+As a result of these corporate barriers, African Americans career trajectories is not
+linear, but marked with more frequent ups and downs. Id. As a result of these
+pressures, minorities are forced to assimilate to the culture if they want to be
+successful. Liwen Mah, The Legal Profession Faces New Faces: How Lawyers'
+Professional Norms Should Change to Serve A Changing American Population, 93
+CAL. L. REV. 1721, 1738–39 (2005); Benn Penn, LGBT Minorities Face High
+Unemployment, Job Discrimination, Low Wages, Study Finds, BLOOMBERG (Nov.
+18, 2014), https://www.bna.com/lgbt-minorities-face-high-unemployment-job-
+discrimination-low-wages-study-finds/ (finding that LGBTQ community is another
+one of the most disadvantaged groups in America. The study found that LGBT
+workers typically receive lower wages when compared to their co-workers.).
+60 Carbado supra note 10 at 1677; Madeleine Wyatt and Jo Silvester, Reflections on
+the Labyrinth: Investigating Black and Minority Ethnic Leaders’ Career
+Experiences, 68 HUMAN RELATIONS 1243 (2015) (Identifies similar factors such as
+visibility, network, and development).
+15
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+1. Corporate Structure
+The corporate structure in America influences whether and at
+what rate minorities are promoted. For instance, promotion to high level
+executive positions often involves skillsets that are assessed
+subjectively, such as leadership skills, personality, judgment, attitude,
+initiative etc.61 Such criteria allow supervisors and managers to apply
+criteria that facially seems objective, but can be distorted with relative
+ease. Moreover, if minorities are promoted, they don’t necessarily use
+their new position to promote other minorities. In other words, in the
+existing corporate structure in American, minorities often have
+incentives to race to the top lifting the ladder behind them.62 Several
+factors support this finding. First, the corporate culture in America is
+individualistic and aggressive.63 Second, top management are supported
+so long as others in the corporate structure continue to hold them in
+power.64 This gives them an incentive to keep the upper management
+the same. If upper management allows others into positions of equal or
+greater power, the possibility of them being squeezed out increases.
+Mentoring and targeted recruitment can help minorities break
+through the discriminatory incentives in the existing corporate structure
+in America.65 Programs that did not support changing the workforce
+composition included diversity training, diversity performance
+evaluations, and grievance procedures.66 In programs that did not work,
+managers were often defined as the source of the problem.67 Some of
+the more successful programs involved task forces and targeted
+recruiting efforts which engaged the managers in finding solutions.68
+Mentorship with a superior manager helped minorities to be
+successful.69 Such success stories seem to suggest companies should
+focus more on mentoring programs and less on the formal evaluations.
+61 Daniel Gyebi, The Civil Rights Act of 1991: Favoring Women and Minorities in
+Disparate Impact Discrimination Cases Involving High-Level Jobs, 36 HOW. L.J. 97,
+114–15 (1993).
+62 Carbado, supra note 1010 at 1692; supra Gyebi note 62 at 114–15.
+63 Robinson, supra note 2.
+64 Wade, supra note 4, at 222.
+65 John Rice, C-Level Diversity, 6 STAN. SOC. INNOVATION R. (2008); see Soohan,
+supra note 9.
+66 Id.
+67 Id.
+68 Id.
+69 Id.; Anne-Marie Dean et al., Women and Minorities in Corporate America: An
+Empirical Examination, 14 INT’L ALLIED ACAD. INT’L CONF.: PROC. OF THE ACAD.
+OF ORG. CULTURE, COMM. & CONFLICT 2 (Apr. 2009); Victoria C. Sepand, The
+Black Ceiling: Barriers to Career Advancement for African American Women in the
+US, SCRIPS SENIOR THESIS (2015). The study was limited to African American
+women and they can advance within the corporate world. In addition, the study also
+found that women can retain employment more easily when the corporation takes a
+down turn.
+16
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+The corporate structure in America is bound to change in the
+coming years because of the shift in labor markets. Since the early
+2000’s, the percentage of minorities who are earning bachelors and
+graduate degrees has increased.70 This data suggests that a business
+imperative for hiring minorities will be created because corporations
+expanded their labor pool to include minorities, given the overall
+tightening in the labor markets, will create an advantage for themselves
+over corporations that have limited access to diverse workers.71
+2. Corporate Culture
+Corporate culture can be defined by core commonalities in the
+way corporations are managed. Understanding corporate culture can
+help minorities gain a general understanding pertaining to the reason
+they are not promoted at the same rate as their Caucasian peers. By
+recognizing these reasons enable minorities to take steps to overcome
+these barriers to entry in the corporate world.
+The Glass ceiling experienced by minority groups in America
+corporate culture72 can manifest itself in many ways. The most common
+identifiers of the glass ceiling include lack of training, lack of mentors,
+informal recruiting processes, wage gaps despite comparable work, and
+placement in a job with little growth opportunity.73 Any of these
+manifestations of the glass ceiling undermine a minority employee’s
+career progression and can have associated long-term effects on
+minority employment and community development.
+70 Steven A. Ramirez, Diversity and the Boardroom, 6 STAN. J.L. BUS. & FIN. 85,
+90–93 (2000). “From 1973 to 1996, the percentage of Latinos awarded B.A. degrees
+grew from 6.1 to 13.4 percent for women, and from 6.6 to 12 percent for men. For
+African Americans the increase was from approximately 7.2 to 17.7 percent.
+Because these populations will expand most markedly in the key 18-24 year old
+range, college enrollment is expected to rise 23 percent for African Americans and
+73 percent for Latinos from 1995 to 2015.” Id.
+71 Id. at 93.
+72 David A. Cotter et al., The Glass Ceiling Effect, 80.2 SOC. FORCES 655, 657-58
+(2001) “A glass ceiling inequality represents a gender or racial difference that cannot
+be explained through other job-relevant characteristics of the employee; this
+inequality is more pronounced at higher levels of earning and authority.” Id. The
+farther a minority person goes in her career, the more likely it is she will encounter
+barriers to success. Id.
+73 Belle Rose Ragins et al., Gender Gap in the Executive Suite: CEOs and Female
+Executives Report on Breaking the Glass Ceiling, 12 ACAD. OF MGMT. EXEC. 28, 29-
+33 (1998).
+17
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+Several core factors help explain the role of corporate culture
+and its effect on minorities in America.74 The clone syndrome,75 e.g.
+companies desire to hire people that are similar to the existing work-
+force, can lead to minority underrepresentation in corporations.76 The
+clone syndrome makes it difficult for a minority and women to break
+into a job predominantly held by white men. Similarly, if a corporation
+lacks diversity and allows group thinking, the board will likely struggle
+to identify issues because the corporation needs a fresh perspective.77
+This can harm the corporation in the long term as it is less able to
+identify strengths and weaknesses. Changing the mindset of the
+corporate environment may require challenging basic assumptions of
+the men in charge.78 By not speaking out against sexist or racial
+comments, the corporate culture of an organization can increase the
+acceptability of such comments.79
+The discriminatory effect of existing corporate hierarchies may
+have their origin in the education system.80 Children in struggling
+school systems lack access to resources that better functioning school
+system in other districts can make available. Starting a career with
+lacking educational resources requires harder work to overcome
+barriers. Without access to the same resources, careers in corporate
+America are automatically geared towards those children that received
+74 Women’s groups, such as Catalyst, among others, have advanced the research on
+glass ceilings and the role of corporate culture. Catalyst is a nonprofit organization
+that researches and advises businesses on women's issues and concerns. See
+CATALYST INC., Mission and History, http://www.catalyst.org/about/mission.shtml
+(last visited Aug. 2, 2017).
+75 Sujata S. Menjoge, Testing the Limits of Anti-Discrimination Law: How
+Employers' Use of Pre-Employment Psychological and Personality Tests Can
+Circumvent Title VII and the ADA, 82 N.C. L. REV. 326, 343–44 (2003).
+76 Id. Allan G. King & Syeeda S. Amin, Social Framework Analysis As Inadmissible
+"Character" Evidence, 32 LAW & PSYCHOL. REV. 1, 2 (2008); Liwen Mah, The
+Legal Profession Faces New Faces: How Lawyers' Professional Norms Should
+Change to Serve A Changing American Population, 93 CAL. L. REV. 1721, 1738–39
+(2005). Liwan takes more of a traditional approach in saying that because the
+dominant perception is an Anglo-American one, the individuals that fit that mold
+will be rewarded. There is typically a clash over cultures, which can eliminate
+candidates from positions because they are perceived as not being able to fit in. This
+further incentivizes the assimilation of individuals into a culture.
+77 See, e.g., Lisa M. Fairfax, supra note 87.
+78 Cheryl L. Wade, Transforming Discriminatory Corporate Cultures: This Is Not
+Just Women's Work, 65 MD. L. REV. 346, 346–47 (2006).
+79 Id.
+80 See generally Lewis D. Solomon, The Role of For-Profit Corporations in
+Revitalizing Public Education: A Legal and Policy Analysis, 24 U. TOL. L. REV. 883
+(1993) (describing illiteracy among high school students and noting that rate of
+illiteracy for minority students is much higher than the percentage of white students
+who are illiterate). See also Frances Lee Ansley, Stirring the Ashes: Race, Class and
+the Future of Civil Rights Scholarship, 74 CORNELL L. REV. 993 (1989). African
+Americans “attend largely separate and unequal schools.” Id. at 1000.
+18
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+the required resources.81 Accordingly, Caucasians dominate education,
+business, and politics.82
+3. Boards of Directors
+Diversity on boards of U.S. corporations has been divisive for
+many decades.83 Whereas the European Union has considered measures
+for board diversity by proposing mandating the participation of women
+on boards (although the measure did not pass),84 board diversity in U.S.
+corporations is still largely elusive. According to some estimates, the
+lack of inclusion of minorities in corporate America costs the U.S.
+economy $1 trillion per year, taking into account the pay gap between
+whites and minorities. 85 The structure of corporations and the role of
+corporate culture86 help explain part of the reasons for lacking board
+diversity in the United States.
+Board diversity benefits corporations. By allowing minorities on
+the board, creativity increases with the different perspectives
+represented by minorities which acts as a defense against groupthink.87
+While corporations also arguably have a social and moral obligation to
+celebrate diversity,88 business leaders typically look for business
+reasons to include minorities.89 Fiduciary obligations of the board may
+provide additional business reasons for board diversity. Board members
+are obliged to take actions that are in the best interest of the
+corporation.90 The board is required to act in good faith and make
+81 Tracy Anbinder Baron, Keeping Women Out of the Executive Suite: The Courts'
+Failure to Apply Title VII Scrutiny to Upper-Level Jobs, 143 U. PA. L. REV. 267,
+270–71 (1994); Jerry Kang, Negative Action Against Asian Americans: The Internal
+Instability of Dworkin's Defense of Affirmative Action, 31 HARV. C.R.-C.L. L. REV.
+1, 44–45 (1996)
+82 Kang, supra note 82 at 44–45; Baron, supra note 82 at 267-68.
+83 See Donald C. Langevoort, Commentary: Puzzles About Corporate Boards and
+Board Diversity, 89 N.C. L. REV. 841, 841-42 (2011).
+84 Proposal for Directive 2012/0299/COD, http://eur-
+lex.europa.eu/procedure/EN/2012_299
+85 Steven A. Ramirez, Rethinking the Corporation (and Race) in America: Can Law
+(and Professionalization) Fix "Minor" Problems of Externalization, Internalization,
+and Governance?, 79 ST. JOHN'S L. REV. 977, 1002 (2005).
+86 See supra Fn 61 to 82.
+87 See, e.g., Fairfax, supra note 11; Evan Roberts, Corporate Leadership and the
+Unfinished Diversity Movement, 14 DUQ. BUS. L.J. 277, 278–79 (2012).
+88 Fairfax, supra note 11; Cheryl L. Wade, Racial Discrimination and the
+Relationship Between the Directorial Duty of Care and Corporate Disclosure, 63 U.
+PITT. L. REV. 389, 427 (2002). There are also speculative benefits of having minority
+leadership improves working conditions for lower level employees.
+89 Id. at 840-41.
+90 See Model Bus. Corp. Act, § 8.30(a); See Model Bus. Corp. Act § 8.02 (2002)
+(allowing corporations to identify requirements for directors in their articles of
+incorporation or their bylaws); Thomas W. Joo, A Trip Through the Maze of
+"Corporate Democracy": Shareholder Voice and Management Composition, 77 ST.
+JOHN'S L. REV. 735, 736 (2003); Larry Catá Backer, Director Independence and the
+19
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+decisions the board reasonably believe to be in the best interests of the
+corporation.91 Directors must act after they have gained sufficient
+relevant information or data pertaining to the transactions in question.92
+Arguably, a diverse board helps protect against group thinking which is
+in the best interest of the corporation.
+Board inclusion can create risks for minorities. Minority board
+members are held to a different set of expectations than their Caucasian
+counterparts. Because board members are expected to interact with
+clients in order to help drive shareholder value, the minority board
+members are often expected to help bring in a minority clientele. 93
+However, if the product the respective corporation produces is not used
+by minorities, the minority board member will be perceived as a failure
+for not bringing in minority clients.94 This may stigmatize minority
+board members and impact their careers. Moreover, minority board
+members are often overextended because they tend to sit on too many
+boards that wish to show diversity.95 By having a small group of
+minorities who serve on a large number of boards, corporations are in
+fact losing the diversity of viewpoints they were initially looking for in
+a minority board member.
+IV. Blockchain Solutions for Disenfranchised Communities
+Blockchain technology holds great promise as a technology
+solution for disenfranchised communities. It is well established that
+blockchain technology holds great promise as an internet-like
+technology.96 Its anti-discriminatory and equality enhancing features
+have received less attention in the literature.
+1. Blockchain-Enabled Trust as Anti-Discrimination
+Blockchain technology allows an unprecedented increase in
+trust between anonymous transacting parties. Blockchain’s digital
+signatures enable a hightened level of security for society through
+transparency, eliminating errors and fraud within the network.97 The
+Duty of Loyalty: Race, Gender, Class, and the Disney-Ovitz Litigation, 79 ST. JOHN'S
+L. REV. 1011, 1103 (2005).
+91 See Model Bus. Corp. Act, § 8.30(a); See Model Bus. Corp. Act § 8.30(a).
+92 See, e.g., Smith v. Van Gorkom, 488 A.2d 858, 893 (Del. 1985)
+93 Fairfax supra note 11, at 842.
+94 Id.
+95 Id. at 843.
+96 Cognizant, supra note 19; Naughton, supra note 19; Mougayar, supra note 19;
+Crosby, ET AL., supra note 19; Kirby, supra note 19; Guarda, supra note 19; Rich
+Daly, Blockchain: Wall Street’s Most Game-Changing Technology Advance Since
+the Internet, FORBES (July 11, 2016),
+https://www.forbes.com/sites/richdaly/2016/07/11/blockchain-wall-streets-most-
+game-changing-technology-advance-since-the-internet/#33987a154d87.
+97 See, e.g., Brakeville & Perepa, supra note 30. For an in-depth, nuanced discussion
+of this point, see Valkenburgh, supra note 31, at 23–26.
+20
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+decentralized network enabled by the technology allows multiple copies
+of any transaction to be accessible to all members of the community for
+verification,98 making the reversal, alteration or erasing of information
+nearly impossible.99 Cryptographic hashes further increase trust and
+security of blockchain transactions by evaluating previous transactions
+using a complex algorithm before adding a new block to the chain.100 If
+the hash value is even incrementally off, the new block will not be added
+to the chain and any change or manipulation becomes immediately
+detectable by others in the network.101 Finally, Blockchain technology’s
+consensus model, e.g., the network of nodes agrees on the validity of a
+certain transaction and only the agreed upon and perfected transactions
+are recorded on the blockchain,102 allows a technology-enabled
+unbiased transactional verification mechanism that is unprecedented in
+centralized legacy systems.
+The trust developed through blockchain technology benefits
+disenfranchised communities. Blockchain technology’s consensus
+model enables an unbiased transactional verification mechanism for
+known or anonymous parties. By establishing a network of transacting
+parties that trust each other despite anonymity, the technology enables
+unbiased transactions and eliminates prejudices against minorities. The
+transaction parameters or products are judged by the transacting parties
+based on quality perceptions not based-on other less rational and biased
+factors. This allows quality of the transaction and/or final product to be
+the true deciding factor in the market place, eliminating prejudices.
+Users can join the blockchain-enabled crypto marketplace without fear
+of prejudices from superiors in traditional corporate hierarchies. This
+eliminates bias-driven inefficiencies in the market economy and the
+associated diseconomies of scale and waste, which have been estimated
+at around $1 trillion dollars annually in the existing centralized business
+infrastructure.103 Corporations and society at large benefit from less
+biased and accordingly more efficient processes.
+2. DAOs as Equalizing Organizations
+A prominent example that helps illustrate the potential of
+blockchain-based organizations that support non-discriminatory
+practices and limit the impact of existing corporate hierarchies and their
+98 See, e.g., D’Aliessi, supra note 28; Pearson, supra note 28.
+99 See, e.g., Brakeville & Perepa, supra note 30; Lewis, supra note 33.
+100 See e.g., Lewis, supra note 33.
+101 Id.
+102 For an overview of various consensus mechanisms see Sigrid Seibold & George
+Samman, Consensus: Immutable Agreement for the Internet of Value, KPMG
+(2016), https://assets.kpmg.com/content/dam/kpmg/pdf/2016/07/kpmg-blockchain-
+consensus-mechanism-channel-islands.pdf
+103 See Ramirez, supra note71.
+21
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+discriminatory effects on disenfranchised communities is the
+decentralized autonomous organization (DAO).
+The DAO was launched in May 2016,104 in the founders’
+attempt to set up a corporate-type organization without using a
+conventional corporate structure. The founders’ central idea was that the
+wisdom of the crowd would lead to smarter and more game-changing
+investment decisions.105 The DAO had to operate as a kind of venture
+capital fund managed directly by the token holders.106
+The DAO governance structure was built on software, code and
+smart contracts that ran on the public decentralized blockchain platform
+Ethereum.107 The DAO did not have a physical address as it was merely
+computer code. And it was not an organization with a traditional
+hierarchy as we know it from traditional corporate structures where
+authority and empowerment flows downwards from
+investors/shareholders through a board of directors to management and
+eventually staff.108 Indeed, it had no directors, managers or employees.
+Because a series of smart contracts granted DAO token holders voting
+rights, the blockchain-based smart contracts imitated the role of articles
+of association or bylaws. Because the DAO code was open source, the
+token holders would not only vote on “investment proposals”, but also
+on any change made to the code.109 Accepted proposals would also be
+backed by a software code, defining the relationship (in terms of rights,
+obligations and performance metrics) between the DAO and the funded
+proposals.
+During a crowdfunding campaign in May 2016, all investors
+could become a DAO participants by purchasing DAO Tokens.110 The
+104 Christoph Jentzsch, the co-founder of IoT company Slock.it, was one of the “key
+founders” of The DAO, a new style venture capital fund. See See Christoph Zentsch,
+‘Blessing and a Curse’: The DAO’s Developers on Blockchain in 2016, COINDESK
+(Dec. 27, 2016, 13:27 BST), http://www.coindesk.com/blessing-and-acurse-the-
+daos-developers-on-blockchain-in-2016/; Reyes, Carla L. and Packin, Nizan
+Geslevich and Edwards, Benjamin P., Distributed Governance (December 13, 2016).
+Available at
+SSRN: https://ssrn.com/abstract=2884978 or http://dx.doi.org/10.2139/ssrn.2884978
+105 Id.
+106 Reyes, Carla L. and Packin, Nizan Geslevich and Edwards, Benjamin P.,
+Distributed Governance (December 13, 2016). Available at
+SSRN: https://ssrn.com/abstract=2884978 or http://dx.doi.org/10.2139/ssrn.2884978
+107 Clint Finley, A $50 Million Hack Just Showed That the DAO Was All Too Human,
+WIRED (June 18, 2016, 4:30 AM), https://www.wired.com/2016/06/50- million-
+hack-just-showed-dao-human/; Brent Miller, Smart Contracts and the Role of
+Lawyers (Part 2) – About “Code Is Law,” BIG LAW KM (Oct. 22, 2016),
+https://biglawkm.com/2016/10/22/smart-contracts-and-the-role-of-lawyers-part-2-
+about-code-is-law/.
+108 Id.
+109 Id.
+110 Reyes, Carla L. and Packin, Nizan Geslevich and Edwards, Benjamin P.,
+Distributed Governance (December 13, 2016). Available at
+SSRN: https://ssrn.com/abstract=2884978 or http://dx.doi.org/10.2139/ssrn.2884978
+22
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+DAO raised more than $168 million from approximately 10,000
+“investors”.111 DAO Tokens were designed to be fully transferable and
+tradeable on “peer-to-peer” exchanges, similar to shares in a traditional
+listed corporation. The automated structure was intended to give
+“participants” in the DAO direct real-time control over contributed
+funds. Alas, things went terribly wrong with the DAO. Fundamental
+flaws in the DAO code enabled hackers to transfer one third of the total
+funds to a subsidiary account.112 This hack in combination with
+additional technological limitations brought down the DAO
+initiative.113
+People who work for a DAO are free from existing corporate
+hierarchies and their possible discriminatory effects. People who work
+for a DAO would not be subject to a supervisor, boss, or CEO. Instead,
+one works in a dynamic set of working relationships that continuously
+and dynamically self-organize around projects and outcomes, not
+corporate hierarchies with implicit hierarchical biases that discriminate
+against minorities or people from disenfranchised communities that
+have not been able to work in the expected parameters of the existing
+corporate hierarchies in terms of background, education, etc.
+Disenfranchised communities will increasingly be able to afford
+the buy-in into a DAO. The increasing access to DAOs eradicates a
+possible income based or wealth based bias because participants in the
+DAO are required to buy into the DAO. People who wish to work in a
+DAO structure are required to acquire a coin or token, whose ownership
+is recorded in the DAO blockchain. Currently, the most common access
+point involves buying cryptocurrencies, such as Ether or Bitcoin, with
+existing currencies such as US dollars and using such cryptocurrencies
+to acquire coins or tokens the respective DAO one wishes to join.114
+The compensation afforded to DAO members can take the form
+of increases in value of the DAO token the members own or can take
+the form of earning tokens by performing tasks for the DAO. Because
+the total outstanding and publicly held supply of tokens for any given
+DAO is fully transparent and pre-determined in code, the value of the
+111 Hailed as the largest crowdfunding effort in the shortest time frame,
+Cade Metz, The Biggest Crowdfunding Project Ever—The DOA—is Kind of A Mess,
+WIRED (Jun. 6, 2016, 7:00 AM), https://www.wired.com/2016/06/biggest-
+crowdfunding-project-ever-dao-mess/.
+112 See, e.g., Nathaniel Popper, A Hacking of More Than $50 Million Dashes Hopes
+in the World of Virtual Currency, N.Y. TIMES (June 17, 2016),
+https://www.nytimes.com/2016/06/18/business/dealbook/hacker-may-haveremoved-
+more-than-50-million-from-experimental-cybercurrencyproject.html?_r=0;
+Schumpeter, Not-So-Clever Contracts, ECONOMIST (July 28, 2016), Vitalik
+Buterin, Critical Update Re: DAO Vulnerability, ETHEREUM BLOG (June 17, 2016),
+https://blog.ethereum.org/2016/06/17/critical-update-re-dao-vulnerability/.
+113 Id.
+114 Practically speaking, for most users the Coinbase webpage is the first access point
+that facilitates continuing access through exchanges such as Bittrex or Kraken.
+23
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+respective DAO tokens increases along with demand. Moreover,
+because the total supply of tokens is pre-determined in the DAO code,
+dilution by central administrators such as government officials or self-
+interested or biased executives/supervisors/CEOs is impossible, which
+further illustrates the power of blockchain structures such as the DAO.
+Accordingly, compensation of DAO members originates from supply
+and demand. Importantly, the compensation of DAO members can also
+take the form of earning tokens by performing tasks for the DAO. In
+other words, people / token holders can earn a separate income in
+addition to token value appreciation by supporting the DAO achieve its
+objectives.
+Disenfranchised communities benefit from the core
+distinguishing characteristics that separate the DAO from traditional
+organizations. Unlike a traditional organization, the priorities and work
+schedules of DAO members are not determined in a classical top-down
+corporate hierarchy. In fact, the traditional forms of command and
+control, giving and receiving orders does not exist because the
+functionality of a supervisor, CEO of boss does not exist in a DAO
+structure. While token holders in the DAO community may identify
+DAO requirements or needs, such as for instance a new or optimized
+webpage that helps the DAO community, such requirements are not
+identified in the form of a mandate. In other words, no particular DAO
+member is tasked with performing the identified optimization. In other
+words, disenfranchised communities who become DAO members are
+not required to perform tasks in a classical corporate hierarchy that they
+either cannot enter or are ill-equipped to function in, given the
+traditional demands of such hierarchies on education, background, and
+cultural fit.
+Disenfranchised communities benefit from the non-hierarchical
+performance expectations in a DAO structure. First of all, a common
+denominator for all DAO token members is the unifying desire to
+optimize the DAO structure and the DAO token value. If a member-
+identified optimization has the potential to make the DAO more
+meaningful, useful, or valuable to the token holder members, the DAO
+token holders will desire to perform such optimization tasks as it is in
+their very interest to do so to help increase the value of the DAO tokens.
+Accordingly, token holders are determined to increase the value of
+tokens rather than lower the value. To increase the value of its tokens,
+members can make DAO optimization proposals, e.g. optimize the
+webpage, that explain what actions ought to be taken to optimize and
+what value such actions will add to the respective DAO token holder
+community. The token holder community then votes on a given
+optimization proposal. If a proposal passes, the proposing DAO member
+will receive an award in the form of new tokens. Any such payment is
+added to the respective DAO blockchain but now requires for the
+proposing token holder to perform on the proposed parameters of
+24
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+optimization. In other words, once the optimization proponent has made
+a deal with the DAO, it’s in the blockchain and the proponent is required
+to deliver on the proposal or her contract is cancelled.
+For disenfranchised communities working in a DAO structure
+this means they will not and cannot be judged by race or cultural biases.
+Instead, their performance in an anonymized proposal voting scheme is
+the only basis for assessment and payment. If they perform well, they
+will get remunerated regardless of politics (there are none), background,
+or education. The only thing that counts is performance of optimization
+parameters. This is an important difference between classical corporate
+hierarchies and DAO member performance of optimization proposals,
+e.g. the DAO’s non-discriminatory performance measures.
+Non-performance penalties in the DAO structure are free from
+racial or cultural biases. If disenfranchised community members do not
+deliver on a proposal that was voted in by the DAO token holder
+community they lose credibility in the DAO token holder community
+and may be perceived as lacking an ability to add value. In fact, non-
+performance on proposal comes with significant reputational penalties
+and non performers in the DAO structure will be less likely to have
+future opportunities to earn tokens because the other token holders are
+unlikely to approve non performer proposals. Crucially, non-
+performance reputational penalties are entirely free from racial
+implications as the token holders are unlikely to even know each other.
+Rather, they all work towards a common goal of optimizing the DAO
+and the token value.
+The DAO token holders’ focus on adding value benefits all
+constituents. Because projects that cannot add value take token holders’
+time away from more productive endeavors, token holders become
+focused on managing their time and efforts. Unlike in traditional
+hierarchical organization where face-time and unproductive meetings
+are the norm, the self-governing DAO token optimizer avoids any such
+corporate hierarchy inefficiencies and frees herself from top-down
+inefficiencies and bad outcomes. In essence, the DAO work proposal
+and value optimization structure allows the avoidance of bad projects,
+bad colleagues, and unproductive meetings as the only thing that counts
+is the value proposition. In other words, the focus shifts from political
+positioning and supervisor pleasing without performance to a laser
+sharp focus on adding active value to a given project. If value can be
+added, the tasks will be performed, if the assessment of the proposal
+suggests that the value proposition is in doubt token holders will try to
+spend their time and skills on more productive and value-adding tasks.
+Importantly, because the DAO structure functions without supervisors
+DAO token holders who decide they cannot add value on a given task
+can move to more productive endeavors that better utilize their skills
+without any penalties that would exist in the traditional hierarchical
+corporate structure.
+25
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+
+Politics in the DAO structure have a different nature compared
+with traditional hierarchical corporate structures. In a traditional
+corporate hierarchy, position in the hierarchy and associated authority
+determine effort. In other word, the supervisor in the hierarchical
+structure can determine where, what, and when workers have to
+perform, resulting in suboptimal outcomes, attendance of unproductive
+and useless meetings, among many other negative effects. By contrast,
+in the decentralized DAO environment, influence is determined by the
+value a given token holder contributed to a project’s success. If a token
+holder adds substantial value to the DAO, other DAO token holders will
+want to add their skills in the same context which focuses the token
+holders’efforts on the highest possible value proposition. This “value to
+effort focus of work flows in the DAO structure has the potential to
+revolutionize the way society works. At the same time, the value to
+effort focus of work flows makes racial and cultural biases much less
+pronounced and protects disenfranchised communities.
+In summary, DAO token holders have enormous incentives to
+create value for the DAO based on their respective beliefs and skillsets
+and not based on expectations of supervisors in traditional top-down
+corporate hierarchies. In other words, the DAO value creation efforts by
+DAO token holders is free of implicit racial biases and cultural norms,
+helping to create a freer and less unequal society.
+V. Conclusion
+Equality is a natural byproduct of the blockchain-driven
+evolution of the crypto economy. Blockchain’s trust enhancing
+consensus model, smart contracting in anonymous networks, and DAOs
+allow for the evolution of a more equal society. Human biases are less
+likely to survive in a decentralized networked society which benefits not
+only minorities but society at large.
+26
+Electronic copy available at: https://ssrn.com/abstract=3071378
+Electronic copy available at: https://ssrn.com/abstract=3071378
+

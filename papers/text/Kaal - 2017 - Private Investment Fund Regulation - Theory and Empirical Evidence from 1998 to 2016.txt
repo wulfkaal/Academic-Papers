@@ -1,0 +1,2151 @@
+PRIVATE INVESTMENT FUND REGULATION
+Private Investment Fund Regulation - Theory and Empirical
+Evidence from 1998 to 2016
+WULF A. KAAL*
+ABSTRACT
+Private investment fund regulation in the United States
+evolved substantially in the last two decades. Tracing the main
+regulatory developments, this article summarizes the author’s
+theoretical and empirical findings on the effects of changes in
+private investment fund regulation from 2006 to 2016, assessing the
+regulatory implications of the failure of Long–Term Capital
+Management L.P. in 1998 and the Dodd-Frank Act in 2010. More
+recent trends include the emerging confluence of private investment
+funds and mutual funds as well as private investment funds’ use of
+blockchain technology and smart contracts.
+Key Words: Private Investment Funds, Hedge Funds, Private
+Equity, Long Term Capital Management, Regulation, Dodd-Frank
+Act, PFIARA, Compliance, Blockchain, Distributed Ledger
+Technology, Artificial Intelligence, Machine Learning, Data
+Science, Data Scientists, Meta Models, Innovation, Entrepreneur,
+Startup, Big Data, Diversification, Optimization, Efficiency
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* © 2017 Wulf A. Kaal. Associate Professor, University of Saint Thomas
+School of Law and Director of the Private Investment Funds Institute,
+Minneapolis. The author sincerely thanks the many industry representatives
+who provided comments and feedback on initial drafts of this article. He is also
+grateful for outstanding research assistance from librarian Ann Bateson.
+0
+Electronic copy available at: https://ssrn.com/abstract=2998097
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+TABLE OF CONTENTS
+I. INTRODUCTION ............................................................................. 2
+II. INITIAL REGULATORY FRAMEWORK IN THE UNITED STATES ... 5
+1. Reliance on Exemptions ........................................................ 5
+2. Evolution of the Investment Advisers Act Exemption ............ 7
+III. FAILURE OF LONG–TERM-CAPITAL MANAGEMENT ................. 9
+1. Critique of Regulatory Proposals ........................................ 10
+2. Indirect Regulation .............................................................. 12
+IV. DODD-FRANK-ACT ................................................................. 14
+1. Implications of Title IV—Empirical Evidence ..................... 17
+a) Hedge Fund Manager Registration Under the Dodd-Frank Act ................ 17
+b) Private Fund Industry Five Years After the Dodd-Frank Act ................... 20
+c) Private Fund Disclosures Under the Dodd-Frank Act ............................... 23
+d) Dodd-Frank Act—Comparative Evidence 2012 and 2015 ........................ 27
+e) What Drives Dodd-Frank Act Compliance Costs for Private Funds? ....... 31
+f) Dodd-Frank Impact on Private Fund Performance .................................... 32
+2. Systemic Risk ....................................................................... 33
+3. Private Fund Investor Due Diligence .................................. 37
+V. CONFLUENCE OF PRIVATE AND MUTUAL FUNDS ................... 39
+1. Evidence .............................................................................. 41
+2. Implications ......................................................................... 43
+VI. BLOCKCHAIN TECHNOLOGY APPLICATIONS FOR PRIVATE
+INVESTMENT FUNDS .......................................................................... 46
+VII. OUTLOOK ............................................................................ 48
+1
+Electronic copy available at: https://ssrn.com/abstract=2998097
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+I. Introduction
+Private investment fund regulation in the United States and
+the corresponding scholarship evolved as the private investment
+fund industry advanced from a niche market participant in the early
+1950s to a major industry operating in international financial
+markets today. The available scholarship traces the main
+developments in private investment fund regulation in three major
+phases beginning in 1998. The post 1998 phases in regulatory
+developments of private investment funds are distinguishable from
+the incremental changes in the applicable SEC rulemaking and
+regulatory developments from the 1950s to 1998 because of the
+heightened intensity of regulatory supervision post 1998.
+In phase one, domestic and international regulatory bodies
+examined ways to improve the existing regulatory framework
+pertaining to private investment funds in the aftermath of the 1998
+failure of Long–Term Capital Management, L.P. (LTCM), the
+largest hedge fund failure to date.1 Phase two, starting in 2010 with
+the passage of the Dodd-Frank Act2 (“Title IV” or “Dodd-Frank”),
+is dominated by the increasing regulatory scrutiny of the private
+investment fund industry under the Dodd-Frank Act and the
+associated rules and Securities and Exchange Commission (SEC)
+guidance. The SEC continues to refine and expand the regulatory
+landscape for the private fund industry in the aftermath of the Dodd-
+Frank Act and the Jumpstart Our Business Startups Act (“JOBS
+Act”),3 and it continues to amend rules and SEC reporting forms
+that apply to the private fund industry.4 Phase three is characterized
+1 WULF ALEXANDER KAAL, HEDGE FUND REGULATION BY BANKING
+SUPERVISION: A COMPARATIVE INSTITUTIONAL ANALYSIS, at 58–72, 133–71
+(European Univ. Studies, Ser. V., Econ. & Mgmt., Vol. 3174, 2006) [hereinafter
+KAAL, BANKING SUPERVISION] (summarizing the legislative and regulatory
+measures in response to LTCM in the United Kingdom, France, and the United
+States and evaluating the proposals for improvements of the then existing
+regulatory framework for private investment funds through various domestic
+and international regulatory bodies and industry groups).
+2 Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank
+Act), Pub. L. No. 111-203, §§ 401-416, 124 Stat. 1376, 1570–1580 (2010); id.
+at § 402 (codified at 15 U.S.C. § 80b-2 (2012)) id. at § 403 (codified as
+amended at 15 U.S.C.A. § 80b-3 (West 2009 & Supp. 2016).
+3 Jumpstart Our Business Startups Act, Pub. L. No. 112-106, § 201(a)(1), 126
+Stat. 306, 313-14 (2012).
+4 Wulf A. Kaal, The Post Dodd-Frank Act Evolution of the Private Fund
+Industry: Comparative Evidence from 2012 and 2015, 71 BUS. LAW. 1151
+2
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+by the emerging evidence of the confluence of prior separate asset
+classes5 in the aftermath of the Dodd-Frank Act and other long-term
+implications of the regulatory overhaul under the Dodd-Frank Act,
+such as the dilution of the public/private distinction in federal
+securities regulation.
+This article traces the main developments in each phase of
+private investment fund regulation from 1998 to 2016 and examines
+the author’s core scholarly contributions and empirical findings
+pertaining to each phase. The author’s scholarly contributions in
+phase one focused on evaluating the proposed remedies6 for private
+fund investment regulation and suggesting alternatives.7
+Scholarship in phase two summarized the regulatory evolution of
+the private fund industry8 and focused particularly on the evaluation
+of the effects of the Dodd-Frank Act on that industry.9 Scholarship
+(2016) (manuscript), http://ssrn.com/abstract=2739479 [hereinafter Kaal,
+Evolution].
+5 Wulf A. Kaal, Confluence of Private and Mutual Funds, in HANDBOOK ON
+MUTUAL FUNDS (forthcoming 2017) (manuscript),
+http://ssrn.com/abstract=2715083 [hereinafter Kaal, Confluence].
+6 KAAL, BANKING SUPERVISION, supra note 1.
+7 Wulf A. Kaal, Hedge Fund Regulation via Basel III, 44 VANDERBILT J.
+TRANSNAT’L L. 389 (2011) (manuscript), http://ssrn.com/abstract=1806252
+[hereinafter Kaal, Basel III] (suggesting banking supervision via Basel III to
+remedy hedge funds’ vast exposure to complex derivatives products and
+associated risks that were insufficiently addressed by the then existing
+regulatory framework); Wulf A. Kaal, Hedge Fund Valuation: Retailization,
+Regulation, and Investor Suitability, 28 REV. BANKING & FIN. L. 581 (2008-
+2009) (manuscript), http://ssrn.com/abstract=1428387; Kaal, BANKING
+SUPERVISION, supra note 1 (suggesting banking supervision as a promising
+indirect tool to improve lacking regulatory oversight of private funds).
+8 Wulf A. Kaal & Dale A. Oesterle, The History of Hedge Fund Regulation in
+the United States, in HANDBOOK ON HEDGE FUNDS (forthcoming 2017), (Ohio
+State Public Law Working Paper No. 326 & Univ. of St. Thomas (Minn.) Legal
+Stud. Res. Paper No. 16-05,
+2016), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2714974
+(examining the history and evolution of private fund adviser regulation).
+9 Wulf A. Kaal, Hedge Fund Manager Registration Under the Dodd-Frank Act,
+50 SAN DIEGO L. REV. 243 (2013), http://ssrn.com/abstract=2150377
+[hereinafter Kaal, Registration]; Kaal, Evolution, supra note 4; Wulf A. Kaal,
+What Drives Dodd-Frank Act Compliance Costs for Private Funds? J.
+ALTERNATIVE INV., Summer 2016, at 8, http://ssrn.com/abstract=2629386 or
+http://dx.doi.org/10.2139/ssrn.2629386 [hereinafter Kaal, Compliance Costs];
+Wulf A. Kaal, Private Fund Disclosures Under the Dodd-Frank Act, 9 BROOK.
+J. CORP., FIN. & COM. L. 428 (2015), http://ssrn.com/abstract=2447306
+3
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+in phase two also analyzed the shifting evaluation of the possible
+systemic risk posed by the private fund industry10 and pertinent
+developments in private investment fund investor due diligence.11
+Scholarship in phase three evaluated the implications of the
+emerging evidence of the confluence of prior separate asset
+classes12 in the aftermath of the Dodd-Frank Act and other long-
+term implications of the regulatory overhaul under the Dodd-Frank-
+Act, such as the dilution of the public/private distinction in federal
+securities regulation.13
+This article has four main parts. After an introduction to the
+initial structure of private investment fund regulation in Part II that
+later forms the basis for distinguishing the intensity of regulatory
+change in each of the three phases, Part III begins with a discussion
+of regulatory changes in phase one and the implications of LTCM.
+Part IV emphasizes the examination of regulatory changes in the
+aftermath of the Dodd-Frank Act, its effects on the private
+investment fund industry, systemic risk implications and changes in
+the assessment of private funds’ systemic risk in the aftermath of
+the Dodd-Frank Act, and new findings in the context of private fund
+[hereinafter Kaal, Private Fund Disclosures]; Wulf A. Kaal, Barbara Luppi, &
+Sandra Paterlini, Did the Dodd-Frank Act Impact Private Fund Performance? –
+Evidence from 2010–2015 (July 10, 2015) (unpublished manuscript)
+(http://ssrn.com/abstract=2629347 or http://dx.doi.org/10.2139/ssrn.2629347);
+Wulf A. Kaal, Hedge Funds’ Systemic Risk Disclosures in Bankruptcy, 22 AM.
+BANKR. INST. L. REV. 195 (2014), http://ssrn.com/abstract=2348463
+[hereinafter Kaal, Bankruptcy].
+10 Kaal, Basel III, supra note 7; Wulf A. Kaal & Timothy A. Krause, Hedge
+Funds and Systemic Risk, in HANDBOOK ON HEDGE FUNDS (forthcoming 2017)
+(manuscript), http://ssrn.com/abstract=2748096 (explaining the shifting
+literature on hedge funds’ systemic risk after Dodd-Frank); Wulf A. Kaal, The
+Systemic Risk of Private Funds After the Dodd-Frank Act, 4 MICH. BUS. &
+ENTREPRENEURIAL L. REV. 163 (2015), http://ssrn.com/abstract=2470008 or
+http://dx.doi.org/10.2139/ssrn.2470008 [hereinafter Kaal, Systemic Risk]; Kaal,
+Bankruptcy, supra note 9.
+11 Wulf A. Kaal, Private Fund Investor Due Diligence –Evidence from 1995 to
+2015, REV. BANKING & FIN. L. (forthcoming 2016) ,
+http://ssrn.com/abstract=2811718 or http://dx.doi.org/10.2139/ssrn.2811718
+[hereinafter Kaal, Due Diligence].
+12 Kaal, Confluence, supra note 5; Wulf A. Kaal & Bentley J. Anderson,
+Unconstrained Mutual Funds and Retail Investor Protection, REV. BANKING &
+FIN. L. (forthcoming 2017), (manuscript), http://ssrn.com/abstract=2811729 or
+http://dx.doi.org/10.2139/ssrn.2811729.
+13 Kaal, Confluence, supra note 5; Kaal & Anderson, supra note 12.
+4
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+investor due diligence. Finally, Part V examines the evidence on the
+confluence of hitherto separate asset classes, especially the
+evidence pertaining to the confluence of private and mutual funds.
+Part V also examines the implications of confluence of assets
+classes for the public/private distinction in federal securities
+regulation. Part VI examines the implications of private fund
+managers’ use of blockchain technology and the associated
+innovation trends in the private investment fund industry. Part VII
+concludes.
+II. Initial Regulatory Framework in the United States
+Private investment funds in the United States began
+operations as privately held and privately managed investment
+funds that were unregistered and exempt from federal securities
+regulation.14
+1. Reliance on Exemptions
+In the early 1950s, organizers of private investment funds
+designed the funds to be exempt from the registration requirements
+of the Investment Company Act of 1940 (private investment funds
+are not mutual funds), the registration requirements of the
+Investment Advisers Act of 1940 (private fund advisers are not
+classified as public investment advisers), the public offering
+registration requirements of the Securities Act of 1933 (33 Act) (no
+public offering is required), and the periodic reporting requirements
+of the Securities Exchange Act of 1934 (34 Act) (private investment
+funds are not publicly traded companies).15 Private investment
+funds also avoid classification as financial market intermediaries
+that are specifically regulated by federal legislation, including
+underwriters, market makers, broker-dealers, banks, or investment
+subsidiaries of operating companies. By having fewer than 500
+investors, private investment funds also generally avoid the periodic
+reporting obligations of section 12 of the Exchange Act and SEC
+Rule 12g-1.
+14 Kaal & Oesterle, supra note 8, Working Paper at 1–2. (“The originators of the
+early funds designed the funds to maximize their freedom to employ complex
+trading strategies by minimizing their exposure to regulation under various
+federal statutes. Characteristics of early hedge funds included their ability to
+remain unregistered and exempt from federal securities regulation.”).
+15 Id. Working Paper at 7.
+5
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+Private investment funds traditionally also relied on the
+“private offerings” exemption under the 33 Act and the “safe
+harbor” provision in Rule 506 of Regulation D. Reliance on these
+exemptions allows private investment funds to market themselves
+only to accredited investors, who are institutional investors,
+insiders, or natural persons with a net worth of over $1 million or
+income of over $200,000 for each of the last two years.16 Private
+investment funds using Rule 506 could not use any form of general
+solicitation or general advertising. The SEC applied a pre-existing,
+substantive relationship test when deciding that the general
+solicitation rule had not been violated. The traditional restrictions
+in Rule 506 have been relaxed under the JOBS Act.
+The Investment Company Act of 1940 contains the most
+important regulatory exemption for private investment funds.
+Private investment funds rely on one of two statutory exclusions in
+the definition of an investment company. Either they have fewer
+than 100 investors or their investors are qualified purchasers.17 A
+hedge fund that qualifies for one of these statutory exclusions may
+use investment techniques, such as shorting, among others, that are
+prohibited for registered investment companies.
+Through the structuring of their operations, private
+investment funds can also avoid additional otherwise applicable
+regulations. Private investment funds avoid regulation under the
+Employee Retirement Income Security Act (ERISA) by limiting the
+ownership interest of any employee benefit plan to less than 25
+percent of the fund. Private investment funds also typically avoid
+the regulation of “commodity pools” by the Commodity Futures
+Trading Commission (CFTC). New CFTC rules exempt pools that
+sell only to sophisticated participants, “accredited investors” under
+Regulation D, or “qualified purchasers” under the Investment
+Company Act.
+Despite the broad application of exemptions and avoidance
+of certain rules by way of structuring operations, private investment
+funds are still subject to the general legal framework applicable to
+financial institutions. Such regulations include the antifraud
+provisions of the 33 and 34 Acts, state law prohibitions against
+16 Id. Working Paper at 5.
+17 Qualified purchasers refers to individuals who own more than $5 million in
+investments or companies with more than $25 million in investments. Id.
+Working Paper at 6.
+6
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+investor fraud, insider trading prohibition under Rule 10b-5, and
+applicable banking laws restricting the activities of private
+investment fund lenders.18
+2. Evolution of the Investment Advisers Act Exemption
+The controversial nature and evolution of the registration
+exemptions and safe harbor under the Investment Advisers Act of
+1940 underscore their policy relevance. The Registration
+exemptions and safe harbor under the Investment Advisers Act of
+1940 and the applicable SEC guidance have traditionally allowed
+advisers to private investment funds to avoid registration as
+investment advisers with the SEC.19 Until the passing of the Dodd-
+Frank Act in 2010, the safe harbor allowed investment advisers to
+private investment funds to manage large amounts of securities
+indirectly for several hundreds of investors in several funds.20
+Under the safe harbor, investment advisers to private investment
+funds were able to count a legal organization as a single client
+provided the investment advice was based on the objectives of the
+legal organization rather than the individual investment objectives
+of any owners of the legal organization.
+The controversy over private fund adviser registration
+requirements started in 1969. Because of private investment funds’
+alleged involvement and impact on the 1969 bear market, the SEC
+started to consider opportunities to increase the regulatory scrutiny
+of the industry. While the SEC initially opined that hedge funds
+were “dealers” in securities, which could require registration under
+the Securities and Exchange Act of 1934,21 its guidance in the form
+of no-action letters continued to support the private fund industry in
+determining how to count clients to stay exempt from securities
+regulation until 1985.
+Finally, in 1985, in an attempt to clarify the no-action letter
+guidance and provide private investment fund advisers with greater
+certainty in determining when they might rely on the safe harbor,
+the SEC adopted the investment adviser registration safe harbor in
+18 Id. Working Paper at 7.
+19 Kaal, Basel III, supra note 7, at 412–14.
+20 Kaal, Basel III, supra note 7, at 414; Kaal, Registration, supra note 9, at 256-
+57; Kaal & Oesterle, supra note 8, Working Paper at 7–8.
+21 Kaal & Oesterle, supra note 8, Working Paper at 7.
+7
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+Rule 203(b)(3) under the Investment Advisers Act of 1940.22 The
+safe harbor allowed a limited partnership, rather than each of its
+limited partners, to be counted as a “client” of a general partner
+acting as investment adviser to the partnership. The SEC reasoned
+that if an investment adviser manages an investment pool on the
+basis of the investment objectives of its participants, the entire pool
+should be viewed as the adviser’s client rather than each
+participant.23
+In December 2004, in an unprecedented politically-
+motivated reversal of existing safe harbor rulemaking, the SEC,
+using its rulemaking authority under the Investment Advisers Act
+of 1940, issued a final rule that required the overwhelming majority
+of previously unregistered private investment fund advisers to
+register with the SEC and give it enhanced oversight over the
+industry.24 Hedge fund advisers strongly opposed this controversial
+rule.25 Without the private adviser exemption and as newly
+registered advisers, private investment fund advisers were subject
+to SEC inspections and bookkeeping and record keeping
+requirements. Private investment funds were now faced with
+22 Kaal, Basel III, supra note 7, at 412–14; Kaal, Registration, supra note 9, at
+256-57; Kaal & Oesterle, supra note 8, Working Paper at 7–9.
+23 Kaal & Oesterle, supra note 8, Working Paper at 8.(“The SEC broadened the
+scope of the rule in 1997 by including other entities used by investment advisers
+to pool client assets. Although the 1985 Rule permitted advisers to count each
+partnership, trust, or corporation as a single client, the 1997 Rule expanded the
+rule to cover other legal entities. Specifically, investment advisers could count a
+legal organization as a single client provided the investment advice was based
+on the objectives of the legal organization rather than the individual investment
+objectives of any owners of the legal organization. This safe harbor allowed
+investment advisers to manage large amounts of securities indirectly for several
+hundreds of investors in several hedge funds.”).
+24 Id. Working Paper at 9 (“SEC commissioners issued the rule by a rare three-
+to-two vote. The SEC justified its rulemaking with reference to the growth of
+the hedge fund industry in combination with the retailization of the hedge fund
+sector, increased hedge fund risk, and financial loss to investors caused by
+instances of fraud by hedge fund advisers. It cited among the benefits of this
+rule more information about hedge fund advisers, deterrence of fraud,
+curtailment of losses, and improved compliance controls. The SEC maintained
+that these positive aspects of its rulemaking would benefit mutual fund
+investors, other investors and markets, regulatory policy, and hedge fund
+advisers.“).
+25 Kaal, Registration, supra note 9, at 244–45, 249, 258–61; Kaal & Oesterle,
+supra note 8, Working Paper at 8–9.
+8
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+disclosure requirements and code of ethics requirements resulting
+in substantially higher legal fees. Registration also allowed the SEC
+to screen private investment fund advisers for prior convictions or
+other professional misconduct.
+The registration requirement precipitated substantial
+opposition by the hedge fund industry. Eventually, in July 2006, the
+D.C. Circuit in Goldstein v. SEC vacated the hedge fund rule as an
+instance of arbitrary rulemaking by the SEC.26 Because the term
+“client” had not otherwise been defined in the Investment Advisers
+Act, the SEC had no authority to determine the meaning of the term.
+Most hedge fund advisers who had registered under the registration
+rule deregistered.27 After the Goldstein decision, the SEC proposed
+additional accredited investor standards under Regulation D and
+dramatically expanded antifraud protection for investors.
+III. Failure of Long–Term-Capital Management
+The failure of Long–Term-Capital Management L.P.
+(LTCM) was the most well- publicized case of a failure of a private
+investment fund and the significance of a failure for the stability of
+world financial markets.28 Right after the announcement of the
+Russian debt moratorium in mid-August 1998, LTCM suffered
+losses of $1.8 billion, bringing its loss of equity for the year to over
+50 per cent.29 Because banks and brokers had allowed LTCM to
+borrow 100 percent of the value of its collateral prior to the
+worsening of LTCM’s financial condition in 1998, LTCM’s $4.8
+billion in capital dissipated quickly when the banks began to make
+margin calls. In order to stay afloat, LTCM required a large capital
+injection. However, because of the size of its debts, LTCM’s
+creditors would likely have been pushed into insolvency if LTCM
+had been allowed to file for bankruptcy. The already unstable world
+26 Kaal, Evolution, supra note 4, at 1156; Kaal, Basel III, supra note 7, at 414–
+16; Kaal, Registration, supra note 9, at 247, 260-61; Kaal & Oesterle, supra
+note 8, Working Paper at 9.
+27 Kaal, Basel III, supra note 7, at 416, 428–29; Kaal, Evolution, supra note 4,
+at 1157.
+28 KAAL, BANKING SUPERVISION, supra note 1, at 52.
+29 While LTCM at the time of its collapse had around 80 percent of its assets
+under management (AUM) in government bonds of G7 countries, it also traded
+on and off-exchange derivatives in interest rates, equity products, and foreign
+exchange, controlling $160 billion in stocks and bonds, $4.8 billion in capital,
+and derivatives with a notional value of $1 trillion. Id. at 53–54.
+9
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+credit markets in 1998 would likely have collapsed if LTCM’s
+creditors had liquidated their LTCM collateral to the value of $1
+trillion to recoup their costs.30 Realizing the effect of allowing
+LTCM to file for bankruptcy on other market participants, the
+Federal Reserve Bank of New York orchestrated a bailout of LTCM
+with fourteen leading investment banks committing between $100
+million to $350 million each.31
+LTCM’s failure and its effect on world financial markets
+raised regulators’ awareness of the risks pertaining to private
+investment funds32 and the risk tolerance of banks, prime brokers,
+and other counterparties to private investment funds.33 Because
+private investment funds take risks that other financial participants
+and other counterparties to banks would not, borrow massive
+amounts, and are willing to pay a premium for borrowing, banks’
+managements generally view private investment fund banking
+relationships as desirable. However, banks overexposed themselves
+to private investment fund lending, allowing LTCM and other
+private investment funds to grow significantly. As counterparties to
+private investment funds, such as LTCM, banks put their own
+existence at risk with their lending practices.
+1. Critique of Regulatory Proposals
+Scholarly engagement with the topic of private investment
+fund regulation increased markedly in the aftermath of the failure
+of LTCM in 1998.34 Whereas prior to the LTCM debacle the
+literature had mostly evaluated the model approaches to private
+investment fund regulation, including coordinated international
+cooperation, national direct regulation, indirect regulation, and
+prudential regulation,35 post LTCM all leading international and
+domestic regulatory bodies reviewed regulatory approaches in an
+30 Id. at 56–57.
+31 Id. at 57. The consortium injected $3.6 billion in private equity into LTCM
+and received a 90 percent stake in LTCM´s portfolio and operational control in
+return.
+32 The LTCM failure illustrated the dangerous combination of high leverage,
+large positions, funding illiquidity, inadequate risk management, investor
+redemptions, and insufficient monitoring of fund credit quality by
+counterparties. Id. at 57.
+33 Id. at 58–72,133-71.
+34 KAAL, BANKING SUPERVISION, supra note 1.
+35 Id. at 48-51.
+10
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+attempt to improve the regulatory framework for private investment
+funds.36
+International and domestic regulatory bodies proposed
+reform of the regulatory framework for private investment in an
+attempt to address the perceived regulatory shortcomings identified
+by the failure of LTCM. Most of the proposals for regulatory
+improvements involved some of the following elements: financial
+intermediaries` risk management; risk management of private
+investment funds; improvements for the role of regulators in
+individual financial intermediaries with significant private
+investment fund business, especially firms` risk management;
+improvements in market practices at the industry and firm levels,
+and improvements in transparency, e.g., reporting and disclosure
+recommendations.37
+Starting in 2005, this author critiqued the proposals to
+remedy the regulatory framework for private investment funds post
+LTCM.38 He found that proposals involving clearer credit risk
+strategies and credit risk management policies and processes for
+financial intermediaries were inappropriately applied across the
+range of business models and lacked concrete implementation
+elements. Proposals calling for credit departments for financial
+intermediaries proved very costly. Increased stress tests, Value at
+Risk, and Monte Carlo scenarios for financial intermediaries to
+private investments funds necessarily use historical data and are less
+valuable as an indicator of high risk sensitivity for future events.39
+Proposals for increased risk management in private investment
+funds may not adequately take into account evidence on private
+36 Id. at 133-71 (summarizing and evaluating regulatory proposals issued by the
+Basle Committee on Banking Supervision, the International Organization of
+Securities Commissions, the Board of Governors of the U.S. Federal Reserve
+System, the U.S. President’s Working Group on Financial Markets, the
+Counterparty Risk Management Policy Group, the Multidisciplinary Working
+Group on Enhanced Disclosure, the Hedge Fund Industry Group, the
+Committee on the Global Financial System, the International Swaps and
+Derivatives Association, and the Financial Stability Forum Working Group on
+Highly Leveraged Institutions.).
+37 Id. at 171.
+38 Id.at 171-74; Kaal, Basel III, supra note 7, at 408–10, 424–34, 436–39, 444–
+48, 456–62.
+39 KAAL, BANKING SUPERVISION, supra note 1, at 171-74.
+11
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+investment funds’ performance in relative secrecy.40 Calls for
+improving the role of regulators in individual financial
+intermediaries with significant private investment fund business
+encounter significant transaction costs. Proposals calling for
+improvements in close-out netting agreements for financial
+contracts and calls for harmonized standard documentation across
+jurisdictions may encounter jurisdictional arbitrage and national
+protectionism.41
+2. Indirect Regulation
+A core emphasis in this author’s scholarly focus post
+LTCM involved banks’ lending exposure to private investment
+funds as an indirect means of supervising the private investment
+fund industry.42 Banks are ideally positioned to support private
+investment fund regulation.43 Several factors, including the
+exclusivity, intensity, length, and quality of the relationship
+between banks and private investment funds influence the level of
+control a bank may exercise over a private investment fund.44 Some
+private investment fund managers may terminate a lending
+relationship to avoid a bank’s attempts to exercise control over a
+private investment fund. However, because private investment
+funds’ dynamic trading strategies often depend on the immediate
+availability of capital, and given today’s banking environment with
+increased scrutiny over lending and lending relationships, managers
+are unlikely to terminate a lending relationship.45
+In a 2009–10 scholarly exchange between this author and
+Professor Roberta Romano,46 Professor Romano pointed out that:
+40 Id. at 171–74.
+41 Id.at 171-74.
+42 Kaal, Basel III, supra note 7; KAAL, BANKING SUPERVISION, supra note 1.
+43 KAAL, BANKING SUPERVISION, supra note 1.
+44 Id. at 217, 218.
+45 Id.
+46 Wulf A. Kaal & Christian Kirchner, Economics of Financial Market
+Regulation: Financial Reporting Standards, Banking Regulation,
+and Hedge Funds, in LAW AND ECONOMICS OF GLOBAL FINANCIAL
+INSTITUTIONS 5 (Peter Nobel, Katrin Krehan & Anne-Cathrine
+Tanner eds., 2010); Roberta Romano, Against Financial Regulation
+Harmonization: A Comment (Yale L. & Econ. Res. Paper No. 414, 2010),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1697348; Kaal, Basel
+III, supra note 7.
+12
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+“[private investment funds] manage only a small proportion of the
+investment universe, particularly as compared to banks’ assets and
+are far less leveraged than banks.”47 European and United States
+legislators’ attempts at imposing stricter rules on private investment
+funds, seizing on hedge funds’ alleged impact on market stability in
+the 2008–09 credit crisis could, therefore, have been misplaced.
+In response, and in an attempt to show the relevance of
+indirect regulation of private investment funds via increased
+regulatory emphasis on banks’ lending exposure to private
+investment funds, this author referenced data on hedge funds’
+growing participation in managing complex financial instruments,
+such as CDOs and other derivatives.48 The data suggest that since
+2000 private investment funds have steadily increased their share in
+the credit derivatives market while banks’ role in the market for
+credit derivatives has declined.49 The increasing role of private
+investment funds in the credit derivatives market50 in combination
+with the failure of that market in 2009 formed the basis for this
+author’s proposal to increase the regulatory emphasis on banks’
+lending exposure to private investment funds.51
+Another indirect form of private investment fund regulation,
+proposed by this author, focuses on investor suitability criteria.52
+After evaluating the shortcomings of the then existing numerical
+wealth requirements defining qualified investors who were then
+eligible for investments in private investment funds,53 this author
+suggested in 2009, e.g., before the regulatory overhaul of private
+investment fund regulation in Title IV of the Dodd-Frank Act in
+2010, that investor suitability standards could help address concerns
+47 Kaal, Basel III, supra note 7, at 454.
+48 Id. at 454–55.
+49 Id. at 455 (Table 1).
+50 Id. at 455 (Table 1).
+51 Kaal, Basel III, supra note 7, 448-62.
+52 Kaal, Suitability, supra note 7.
+53 Id. at 636–37 (“The numerical wealth requirements that are currently in place
+to define qualified investors . . . do not take into account that even investors
+who would otherwise fulfill the numerical wealth requirements do not always
+have the adequate level of knowledge, understanding and sophistication that
+would be required for investing in highly complex financial instruments. Recent
+proposals by the SEC to toughen the numeracy wealth requirements for hedge
+fund investing fail to ascertain the appropriate level of sophistication and
+adequate understanding of highly complex financial instruments.”).
+13
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+over the shortcomings of investor eligibility standards. Such
+proposed investor suitability standards would require independent
+verification of investors’ ability to evaluate highly complex
+financial products and investment risk, rendering wealth as a proxy
+for sophistication redundant for investor eligibility.54
+IV. Dodd-Frank-Act
+In an unprecedented overhaul of the regulatory environment
+for private investment funds advisers in the United States, the
+Dodd-Frank Act in effect overruled all previous SEC rules and legal
+precedent on private investment fund adviser registration
+exemptions.55 Dodd-Frank added a significant new chapter in the
+debate on private investment fund adviser registration.56
+Title IV of the Dodd-Frank Act is entitled the Private Fund
+Investment Advisers Registration Act of 2010 (PFIARA). PFIARA
+authorizes the SEC to bring private investment funds under
+regulatory supervision.57 PFIARA mandates private investment
+fund adviser registration to increase record keeping and disclosure.
+Under PFIARA, private investment fund advisers with more than
+$150 million AUM must register as investment advisers and
+disclose information about their trades and portfolios to the SEC.58
+The Dodd-Frank Act also directs the SEC to set up rules for the
+registration and reporting of private investment fund managers who
+were previously exempt from registration.59
+As part of the new rules, the SEC introduced
+controversial reporting obligations in a form called Form PF
+(private funds).60 Form PF requires investment managers to disclose
+information about themselves, the funds they manage, and their
+54 Id. at 637.
+55 See supra notes 19–27 and accompanying text.
+56 Kaal, Basel III, supra note 7, at 410–36; Kaal, Registration, supra note 9, at
+261-73; Kaal & Oesterle, supra note 8, Working Paper at 9–15; Kaal,
+Evolution, supra note 4, at 1158-59.
+57 Kaal, Evolution, supra note 4, at 1157–58.
+58 Id. at 1158–65. By registering private investment fund advisers, the SEC
+intends to collect necessary information to curtail those who operate in the
+“shadows of our markets,” prevent fraud, limit systemic risk, and provide
+information to investors.
+59 Id. at 1157–58; Kaal, Registration, supra note 9, at 249, 262.
+60 Kaal, Evolution, supra note 4, at 1159, 1163–65; Kaal, Registration, supra
+note 9, at 269–73.
+14
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+investors.61 The unprecedented disclosures in Form PF that made it
+so controversial in the industry include the disclosure of strategies
+and products used by the private investment fund adviser and its
+funds, performance and changes in performance, financing
+information, risk metrics, counterparties and credit exposure,
+positions held by the investment adviser, percent of assets traded
+using algorithms, and the percent of equity and debt, among other
+matters.62
+In light of the highly sensitive and controversial nature of
+these required disclosures and the complexity of the reporting
+requirements, Form PF created substantial challenges for the hedge
+fund industry. Arguing that the mandatory private investment fund
+disclosure requirements in Form PF could inappropriately burden
+the private investment fund industry, private investment fund
+61 U.S. SEC. & EXCH. COMM’N, FORM PF: REPORTING FORM FOR INVESTMENT
+ADVISERS TO PRIVATE FUNDS AND CERTAIN COMMODITY POOL OPERATORS
+AND COMMODITY TRADING ADVISORS (2011),
+http://www.sec.gov/about/forms/formpf.pdf. Form PF disclosure requirements
+include a breakdown of the net asset value (NAV) that the investment manager
+manages, including the percentage of the reporting fund’s NAV that was
+managed using high-frequency trading strategies. Form PF requires investment
+advisers to disclose the five trading counterparties to which the reporting fund
+has the greatest net counterparty credit exposure and the dollar amount owed to
+each creditor. It also requires that the manager identify changes in market
+factors and their affect on the portfolio’s long and short components as a
+percentage of NAV. Additional disclosures include any information about the
+counterparties’ collateral and other credit support posted to the respective
+reporting funds, as well as trading and clearing mechanisms subject to liquidity
+constraints and the duration of those constraints. Form PF is also intended to
+improve the SEC’s understanding of reporting funds’ liquidity, exposure, and
+assets. Accordingly, Form PF requires investment advisers to disclose the time
+increments needed to liquidate a certain percentage of the reporting fund’s
+portfolio, the dollar value of long and short positions in each asset class, the
+value of turnover by asset class, the types of creditors and the market value of
+borrowings from them, and the aggregate value of all derivative positions for
+each advised fund. Finally, Form PF requires disclosure of the reporting fund’s
+restrictions (if any) on investor withdrawals and redemptions and other
+information pertaining to investor liquidity, such as the percentage of NAV.
+62 Id. Private investment fund advisers are also required to provide confidential
+reports with respect to certain information related to systemic risk, such as
+trading practices; trading and investment positions; the amount of AUM;
+valuation policies; side letters; the use of leverage, including off-balance sheet
+leverage; counterparty credit risk exposures; and other information deemed
+necessary.
+15
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+advisers have traditionally opposed enhanced transparency of the
+funds they manage.63 While the disclosures in Form PF were
+private, i.e., only the SEC and not the public had access, the industry
+feared that such information could at some point in the future be
+made public which would largely eliminate private investment fund
+managers’ ability to make absolute returns for their clients as
+competitors would be able to reverse engineer their strategies. Apart
+from concerns about publicity, the private investment fund industry
+complained that many reporting provisions on Form PF used
+industry terms inconsistently and many required disclosures were
+rather hard to produce.64 For instance, the disclosure of counterparty
+credit exposure is sensitive information that often cannot readily be
+determined by the individual private investment fund managers.
+In a concerted effort to enforce the Dodd-Frank Act
+provisions pertaining to the private investment fund industry, the
+SEC increased examinations and enforcement actions against
+private investment fund advisers.65 In its enforcement efforts in the
+aftermath of the enactment of the Dodd-Frank Act, the SEC
+emphasized the equitable allocation of expenses among investment
+advisers’ portfolio funds, the allocation of investment opportunities
+among private investment fund advisers’ clients, and fund advisers’
+personal investing and outside business activities.66
+These enforcement trends foreshadow further intensifying
+regulatory enhancements pertaining to the private investment fund
+industry. In light of SEC guidance in public statements, it is
+reasonable for the private investment fund industry to expect longer
+and more intrusive SEC examinations, further enhanced
+63 Kaal & Oesterle, supra note 8, Working Paper at 12; Kaal, Evolution, supra
+note 4, at 1164.
+64 Kaal, Evolution, supra note 4, at 1164
+65 Kaal, Evolution, supra note 4, at 1173-76.
+66 Id. For example, significant enforcement actions against private funds from
+2012 to 2015 include undisclosed conflicts of interest, actions for misallocation
+of expenses, and inflating the values of certain illiquid assets that hedge funds
+and private funds hold. SEC enforcement actions included enforcement of Rule
+206(4)-7, which requires funds to adopt, implement, and annually review
+compliance policies. Moreover, the SEC settled charges with private investment
+managers who received accelerated portfolio company monitoring fees from
+sales and initial public offerings (IPOs) of portfolio companies and who failed
+to disclose conflicts arising from the manager’s conversion of portfolio
+company monitoring fees that could have partially been offset.
+16
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+regulations, and increased SEC enforcement actions against private
+investment fund managers.67 The Department of the Treasury’s
+proposed rule targeting investment advisers’ filing and reporting
+requirements about money laundering, Form ADV disclosures, and
+the definition of “accredited investor,” among other non-final rules
+in 2015, provide a taste of possible future developments for the
+industry.68
+1. Implications of Title IV—Empirical Evidence
+Given the highly controversial nature of Title IV and the
+private investment fund industry’s claims pertaining to its
+detrimental effect on the industry, this author examined the impact
+of Title IV in several empirical studies.69
+a) Hedge Fund Manager Registration Under the Dodd-Frank Act
+In the first survey study70 conducted right before the
+registration effective date under Title IV, March 30, 2012, this
+author and a team of four research assistants contacted a population
+of 1,264 private fund advisers who registered with the SEC before
+the registration effective date. The author contacted the entire
+population via fax, an electronic survey via email, and phone
+interviews. Respondents (n=94) answered questions designed to
+evaluate the long-term effects of reporting and disclosure rules on
+private funds and the private fund industry.71 The survey questions
+assessed strategic responses of the hedge fund industry to Title IV,
+investigated the possible long-term effects of hedge fund
+registration, quantified compliance costs, assessed compliance
+measures, investigated the implications of disclosure requirements
+in the Dodd-Frank Act pertaining to hedge funds, evaluated the
+effect of the regulatory regime on assets under management, and
+assessed the effect of the regulatory regime on profitability.
+The results reported in this study suggested that the Dodd-
+67 Id. at 1176.
+68 Id. at 1176.
+69 Kaal, Registration, supra note 9; Wulf A. Kaal, The Private Fund Industry
+Five Years After the Dodd-Frank Act – A Survey Study, REV. BANKING & FIN.
+L. (forthcoming 2016) (manuscript), http://ssrn.com/abstract=2732915 or
+http://dx.doi.org/10.2139/ssrn.2732915) [hereinafter Private Fund Industry];
+Kaal, Evolution, supra note 4.
+70 Kaal, Registration, supra note 9.
+71 Id. at 275.
+17
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+Frank Act registration and disclosure requirements and the SEC’s
+implementation of these requirements created several areas of
+concern for the hedge fund industry.72 Despite these concerns, the
+hedge fund industry appeared to be only moderately affected and
+seems to be adapting well to the regulatory environment after the
+enactment of the Dodd-Frank Act.73
+More specifically, this first survey study shows that 46.34%
+of those who responded indicated that the Dodd-Frank registration
+and disclosure rules created higher costs that affected the funds they
+managed, while 78.26% of respondents stated that the profits of
+their investment management company were affected.74 According
+to 87.50% of the respondents, the profits of their investment
+companies were affected by increased costs as a result of the
+registration and reporting requirements. A majority of respondents
+engaged in the following activities: (1) outsourced compliance
+work, (2) hired additional counsel, (3) instituted new record-
+keeping policies, (3) hired additional staff, (4) changed marketing
+materials, and (5) changed communications with investors. A
+minority of respondents changed their funds’ legal structures in
+response to the registration and disclosure requirements.
+Despite the concerns identified in the first study, the hedge
+fund industry appeared at the time of the study to be only
+moderately affected by the Dodd-Frank reporting and disclosure
+requirements and adapted well to the then new regulatory
+environment.75 The results demonstrated that 82.02% of
+respondents at the time did not take the current regulatory regime
+into account in determining the AUM size of their funds, and
+72.09% of survey respondents did not plan a strategic response to
+the Dodd-Frank Act registration and reporting requirements.76
+Firms that planned a strategic response were smaller than those
+firms that did not plan a strategic response. Of those who responded,
+76.09% stated that their investors’ rate of return was not affected by
+the registration and disclosure requirements.77
+A majority of advisers in the first survey study quantified
+72 Id. at 315.
+73 Id. at 315-16.
+74 Id. at 315
+75 Id. at 315–16.
+76 Id. at 315–16.
+77 Id. at 316.
+18
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+the cost of compliance in a range from $50,000 to $200,000.78
+However, a significant minority estimated that the total compliance
+cost would range between $200,000 to over $400,000.79 Although
+a majority of advisers spent fewer than 500 hours to comply with
+the new registration and reporting requirements, many fund
+advisers estimated it will take them between 500 and 1000 hours to
+comply with the requirements. The hours needed to comply with all
+federal rules and regulations pertaining to hedge fund advisers
+range from under 100 up to 4000 hours, with a majority of responses
+ranging from over 300 hours to 800 hours.80
+A majority of respondents did not feel the need to change
+the size of their AUM, and Dodd-Frank Act regulations were not
+factors a majority of respondents considered if they did change the
+AUM size of their funds. For 80.46% of respondents, the Form PF
+threshold for quarterly reporting of $1.5 billion AUM was not taken
+into account in determining the appropriate size of AUM for the
+funds they manage.81 A majority of the 19.54% of respondents who
+would take the Form PF threshold into account plan to stay under
+the Form PF threshold for quarterly reporting of $1.5 billion
+AUM.82
+Anecdotal evidence collected during the course of the
+survey study suggested that the information disclosed by hedge
+fund advisers in required Forms ADV and PF could then be
+presented by advisers and third party service providers in ways that
+in effect “flatten out” and “sanitize” the disclosures.83 Although the
+level of sanitizing of disclosures could not be verified, sanitized
+disclosures could be less useful for Financial Stability Oversight
+Council (FSOC) and SEC evaluation and their determination of the
+systemic risk posed by private funds.84
+To summarize, the results of the first survey study in 2014
+suggested that the private fund industry had been adjusting well to
+the registration and disclosure requirements for private fund
+78 Id. at 316.
+79 Id. at 316.
+80 Id. at 316.
+81 Id. at 316.
+82 Id. at 316.
+83 Id. at 316.
+84 Id. at 316.
+19
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+advisers introduced in Title IV in 2012.85 The impact of the
+registration and disclosure rules appeared to be much less intense
+than the industry initially anticipated. Although hedge fund advisers
+seemed to absorb the reported cost implications of registration and
+disclosure rules relatively quickly after registration, the long-term
+cost implications of registration and reporting obligations still had
+the potential to affect the private fund industry in the long run.
+Because the data for the first study had been collected within
+three months after the registration requirements in Title IV took
+effect, the author knew that future survey studies would be needed
+to determine the long-term impact of the Dodd-Frank Act.86
+b) Private Fund Industry Five Years After the Dodd-Frank Act
+In a second study, this author evaluated the long-term
+implications of the unprecedented yet evolving post Dodd-Frank
+Act regulatory framework pertaining to the private fund industry.87
+The study helps clarify the relevant long-term implications of the
+fundamental reshaping of the regulatory landscape for the private
+fund industry through both the Dodd-Frank Act and the JOBS Act.
+For the second study, this author and a team of research assistants
+collected and coded data for a population of 1267 registered
+investment advisers. Respondents (N=69) answered questions in
+several categories designed to identify cost, compliance, and
+management issues associated with the post Dodd-Frank Act
+regulatory framework.88
+The evidence provided in this study supports findings from
+the author’s earlier study suggesting that the industry adapted well
+to the new regulatory environment in the aftermath of the Dodd-
+Frank Act. The findings in this study suggested that the industry is
+mostly affected by the uncertainty and higher costs associated with
+the Act, but under multiple metrics the industry appeared to be
+coping well overall with the evolving post Dodd-Frank Act
+regulatory landscape.89
+Nevertheless, the findings of this study also show that the
+Dodd-Frank Act had negative long-term effects on the private fund
+85 Id. at 316.
+86 Id. at 316-17.
+87 Kaal, Private Fund Industry, supra note 69.
+88 Id. at 14.
+89 Id. at 0 [the abstract], 20–24, 33–35.
+20
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+industry. More than a third of respondents (34.9%) opined that Title
+IV will affect the private fund industry in the next five years because
+of additional expenses, and nearly a third (32.6%) opined that it will
+create barriers to entry to private fund market entrants. 50% of
+respondents indicated that the Dodd-Frank registration and
+disclosure rules have created higher costs that will affect their funds
+in the next five years. The majority of those respondents who
+believed that Dodd-Frank has affected their fund(s) earnings
+blamed additional compliance costs associated with Dodd-Frank. A
+majority of respondents have instituted measures in response to the
+requirements imposed by Title IV. The most common actions taken
+included: (1) outsourcing compliance work, (2) hiring additional
+counsel, (3) instituting new record-keeping policies, (4) hiring
+additional staff, (5) changing marketing materials, and (6) changing
+communications with investors. Moreover, A majority of
+respondents stated that as a result of the post Dodd-Frank Act
+regulatory regime, their AUM would need to change. While 18.2%
+of respondents would lower their AUM to avoid the regulatory
+hassle, 27.3% actually still want to increase their AUM.90 Another
+27.3% desire to attain the right size to cover expenses.
+Compliance costs were a significant issue for the private
+fund industry, and the survey helps clarify compliance cost issues
+associated with Title IV. A majority of respondents found Dodd-
+Frank compliance costs to range from $50,000 to $200,000.
+However, a significant minority estimated that the total compliance
+cost will range from $200,000 to over $400,000.91 A considerable
+number of respondents estimated the total annual cost to comply
+with all federal regulations pertaining to the private fund industry at
+up to $100,000. The largest number of respondents (26.5%),
+however, estimated the annual compliance cost for all federal
+regulations at between $100,000 and $200,000.92 A smaller group
+(14.3%) estimated the cost of compliance as more than $400,000 a
+year.
+Respondents’ estimates pertaining to compliance time are
+consistent with their estimates pertaining to compliance cost.
+Although a clear majority of adviser respondents spent fewer than
+500 hours to comply with Title IV, a noticeable minority (11.5%)
+90 Id. at 26.
+91 Id. at 34.
+92 Id. at 34.
+21
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+estimated compliance time at more than 1000 hours. 65.1% of
+respondents estimated the total time required to comply with all
+federal regulations at between 100 and 500 hours. However, a
+significant minority (20.9%) estimated it above 1000 hours.
+The results in several survey question categories suggest
+that Title IV of the Dodd-Frank Act had a negligible effect on the
+private fund industry. Most importantly, 65% of private fund
+adviser respondents believed that their fund earnings were not
+affected by Title IV, and 75.4% opined that profits were not affected
+by the increased compliance requirements in Title IV. A majority
+(74.5%) of private fund adviser respondents do not plan a strategic
+response to Title IV of the Dodd-Frank Act. A majority of
+respondents did take the regulatory regime into account before
+Dodd-Frank, implying that Dodd-Frank did not make much
+difference in the way respondents run their business. However, of
+those who responded, 70.60% would not take the current regulatory
+regime into account in determining the AUM size of their funds.
+While a majority of respondents (33.3%) prefer an AUM size of
+between $500 million and $1 billion, no clear majority emerges as
+to the preference pertaining to the $1.5 billion Form PF quarterly
+reporting threshold for larger funds. And, a majority of adviser
+respondents (66.7%) did not take the $1.5 billion AUM threshold
+under Form PF for quarterly reporting into account in determining
+the appropriate size of AUM for the fund(s) they manage. While
+26.5% of respondents opined that there was no impact on their
+AUM preference, target investment opportunities and additional
+expenses did influence respondents’ AUM preferences. Moreover,
+Private fund advisers in the sample did not terminate existing
+employment relationships. Few respondents severed an advising
+relationship, changed funds’ (legal) structure, liquidated positions,
+changed investment styles, changed portfolio structure, or closed
+funds to new investors.
+Based on the findings in this study, the SEC’s attempts at
+clarifying and optimizing the legal framework post Dodd-Frank Act
+effectively supported the industry in its efforts to comply with the
+revised standards. At the same time, there is sufficient evidence in
+the findings of this study suggesting that the SEC’s implementation
+and clarification of Dodd-Frank Act registration and reporting
+requirements for private funds also created uncertainty and higher
+costs for the industry.
+In summary, the second survey study shows that the private
+22
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+investment fund industry had adjusted well to the Title IV
+requirements. The long-term impact of the evolving post Dodd-
+Frank Act regulatory landscape appeared to be much less intense
+than the industry initially anticipated.93 The long-term cost
+implications of registration and reporting obligations as reported in
+this study appear to be absorbed relatively quickly after
+registration.94
+c) Private Fund Disclosures Under the Dodd-Frank Act
+Because the first survey study in the private investment
+fund manager registration context left many issues pertaining to
+private investment fund disclosures open, the author conducted a
+follow-on study in 2015.95 More specifically, because this author’s
+prior studies suggested that the SEC’s mandated collection of
+private fund data in Form PF created several core challenges for the
+private fund industry and for the SEC, the follow-on survey focused
+on the Dodd-Frank-mandated SEC collection of sensitive
+proprietary information from private fund advisers. The key
+findings of the follow-on study quantified, evaluated, and clarified
+many core open issues with respect to the SEC’s efforts to collect
+private fund data through Form PF, including data in relation to: (1)
+the required resources for completing Form PF, (2) shortcomings of
+and SEC guidance on Form PF (3) adequacy of filers’ reporting
+systems and service providers, and (4) issues associated with
+investor relations. The author worked with the SEC in the context
+of the follow-on study to ensure that the SEC’s most pressing
+concerns pertaining to then new Form PF were included in the
+survey instrument.
+The key findings of the follow-on study indicated that the
+majority of private fund advisers responding to the survey incurred
+less than $10,000 to prepare their initial data reporting to the SEC,
+with the cost of subsequent annual Form PF filings at about half the
+initial cost.96 Larger private fund advisers, required to file quarterly,
+were faced with substantially higher compliance costs, both for their
+initial data reporting and for subsequent quarterly filings.97 While
+93 Id. at 35.
+94 Id. at 35.
+95 Kaal, Private Fund Disclosures, supra note 9.
+96 Id. at 431, 446–47, 469, 471.
+97 Id. at 447.
+23
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+the SEC appeared to have overestimated the costs of Form PF
+compliance for larger private fund advisers, the data analysis in the
+follow-on study affirmed SEC cost estimates for smaller private
+fund advisers’ Form PF compliance costs.98
+The data analysis in the follow-on study suggested that the
+overall effect of private fund disclosure requirements on the private
+fund industry was moderate but could be further improved. The
+majority of SEC-registered private fund advisers identified the
+ambiguity of Form PF data reporting requirements as the most
+pressing issue.99 However, the majority of respondents also
+considered their existing reporting systems adequate for capturing
+the information required by the SEC and agreed with the SEC’s
+definitions and instructions for Form PF.
+Several survey questions pertained to the purpose of Form
+PF and required filing resources. Respondents identified the SEC’s
+objective of assessing systemic risk and the historical lack of private
+fund information provided by the industry to the SEC as the primary
+purposes of Form PF disclosure requirements.100 Commenters also
+argued that FSOC and Office of Financial Research (OFR)
+monitoring of risk, investment adviser examinations, and the
+collection of risk exposure information were important purposes in
+the enactment of Form PF.101
+The completion and filing of Form PF required the
+commitment of resources from and expenditures by the private fund
+industry. A majority of respondents (59.18%) stated that the
+additional expenditures required to complete and file Form PF for
+the first time were under $10,000.102 A majority of commenters
+(57.14%) identified the cost of subsequent annual Form PF filings
+at about half of the first-time filing cost, i.e., around $5,000. A
+breakdown of respondents by assets under management suggested
+that larger private fund advisers, required to file quarterly, were
+faced with substantially higher compliance costs, both for their
+initial data reporting and for subsequent quarterly filings.103 The
+data does not identify the long-term costs for the private fund
+98 Id. at 447–48.
+99 Id. at 431, 454, 470.
+100 Id. at 446, 469.
+101 Id. at 446, 469.
+102 Id. at 447, 469.
+103 Id. at 447–49, 469.
+24
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+industry of having to complete and file Form PF on an annual or
+quarterly basis.
+The overall expenses necessary to complete and file Form
+PF correspond with resource requirements, such as the staff
+required to file Form PF and the total number of hours it took to
+complete Form PF. A majority of respondents (67.35%) used only
+one to three individuals to complete Form PF. Similarly, a majority
+of respondents (69.39%) indicated that it took staff less than 50
+hours to complete Form PF.104
+The survey identified shortcomings in the design,
+definitions, and guidance of Form PF. Respondents identified the
+burdensome nature and the ambiguity of Form PF as the most
+pressing issues with Form PF.105 While a majority of respondents
+(59.18%) agreed with the definitions or instructions in Form PF,
+respondents nevertheless argued that performance measures in
+Question 17, and counterparties and definitions of counterparties in
+Questions 22 and 23, required a level of interpretation.106 The
+minority of respondents (40.82%) who disagreed with the
+definitions or instructions in Form PF generally disagreed with the
+definition of the term “funds.” Commenters were equally split on
+whether Form PF questions pertaining to calculating RAUM
+required filers to interpret RAUM for purposes of completing Form
+PF.
+Most respondents appreciated both SEC guidance and
+SEC flexibility in responding to questions regarding Form PF. A
+majority of respondents assessed the best level of SEC guidance in
+the context of their Form PF completion as sufficient or good.107
+The majority of the commenters who believed that SEC guidance
+was inadequate indicated that SEC guidance was particularly
+unclear with respect to Section 1c, Item B (regarding Reporting
+Funds). This was consistent with the responses that disagreed with
+the definition of funds in Form PF. Most respondents (72.92%)
+agreed that the SEC’s flexibility in answering questions with
+respect to Form PF was helpful. Commenters stated that SEC
+flexibility was valuable because it enabled respondents to interpret
+Form PF, it increased respondents’ ability to use their own internal
+104 Id. at 450–51, 469.
+105 Id. at 431, 454, 470.
+106 Id. at 455–56, 470.
+107 Id. at 431, 458, 470.
+25
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+methodologies, it helped them articulate their own assumptions, it
+clarified a lot of questions, and it simplified the completion of the
+form.108
+The survey identified the adequacy of private funds’
+existing reporting systems utilized to capture the information
+required in Form PF. A majority of respondents (65.22%) stated that
+their existing internal reporting systems adequately capture the
+information required by Form PF.109 More specifically, the majority
+of respondents did not encounter difficulties in identifying data
+responsive to questions about counterparty credit exposure, by
+using counterparties’ names on trading and/or legal records. Several
+respondents (34.78%) opined that their existing internal reporting
+systems were insufficient to respond to questions on Form PF
+because they require further analysis and calculations.
+Survey respondents also largely (72.92%) abstained from
+employing a service-provider to complete Form PF.110 Firms’
+ability to use existing internal reporting systems to complete Form
+PF is consistent with firms’ preference for completing Form PF in-
+house. A majority of respondents actually suggested that Form PF
+can be completed in-house. Others opined that completing Form PF
+would not justify the expense of hiring a service-provider.
+Commenters identified several challenges in working with a
+service-provider, including the investment of time and expenses to
+develop processes, and the burden of providing service-providers
+with the required information. The minority of respondents who
+hired a service-provider stated they did so because of difficulties in
+aggregating the data and entering it directly without having an
+internal system to assist in the process; the service providers’
+knowledge and their industry insight into answer methodology; a
+desire to ensure consistency in preparation; and the burden of how
+long it would take to complete Form PF in-house.111
+In summary, the findings of the follow-on survey study
+suggested that the overall effect of Form PF data reporting
+requirements on the private fund industry was less severe than
+widely expected by the industry. In light of the cost data provided
+by the study (for both smaller and larger private fund advisers),
+108 Id. at 459–60, 470.
+109 Id. at 463, 470.
+110 Id. at 465–66, 471.
+111 Id. at 466–67, 471.
+26
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+industry concerns that mandatory private fund adviser registration
+and disclosure requirements could inappropriately burden
+investment advisersseemed to be mostly unfounded. The results of
+the follow-on study complemented earlier findings suggesting that
+the private fund industry adjusted well to the reporting obligations
+mandated by Title IV.
+Nevertheless, the data analysis and the findings of the
+study indicated several areas of concern with existing Form PF
+questions and requirements. Important issues include the ambiguity
+of several key questions in Form PF; the time constraints required
+to answer certain questions, such as Question 16 (types of
+investors), Question 17 (performance), and Question 7 (related
+persons); respondents’ disagreement with the definition of funds;
+and the lack of adequate SEC guidance for Section 1c, Item B
+(information regarding reporting fund).112 Other issues identified in
+the study pertain to the insufficiency of existing reporting systems
+for some firms; difficulties in aggregating the required Form PF
+data and entering it directly without the availability of a system to
+assist in the process; and challenges in working with a service-
+provider, including process development and the burden of
+providing service-providers with the required information.113
+d) Dodd-Frank Act—Comparative Evidence 2012 and 2015
+In an effort to understand the consistency of short-term
+and long-term surveys on the impact of Title IV of the Dodd-Frank
+Act, the author’s comparative survey study examined the private
+fund industry’s reactions and adjustments to a rapidly evolving
+regulatory framework three years after the first application of
+mandatory registration and disclosure rules for private fund advisers
+under the Dodd-Frank Act. 114 To add an historical time series
+perspective via this comparative survey study, the author used two
+datasets (2012: N = 94; 2015: N = 69) for a population of 1267
+registered investment advisers. The author analyzed and compared
+survey respondents’ short- and long-term estimations of industry
+effects.115 The data suggested that immediate and short-term
+concerns had given way to adaptation to the changes.
+112 Id. at 431, 453, 454, 456, 459, 469–70, 472.
+113 Id. at 363–64, 466–67, 469–72.
+114 Kaal, Evolution, supra note 4.
+115 Id. at 1151, 1154.
+27
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+The comparative survey study indicated that compliance
+costs associated with the evolving regulatory environment for
+private fund advisers had many unexpected consequences that had
+the potential to further shape industry practices.116 Several
+developments are particularly noteworthy. While in both the 2012
+and 2015 surveys a majority (72% and 75%, respectively) of
+respondents did not plan a strategic response to Title IV of the
+Dodd-Frank Act, in 2015 a substantially higher rate of respondents
+(47% in 2015 versus 25% in 2012) suggested that respondents
+changed their communications with investors.117 This was
+consistent with anecdotal evidence suggesting that since the 2012
+survey, private fund advisers had changed and increased their
+communications with investors, often based on advice from
+counsel. In a legal environment where SEC examinations,
+enforcement actions, and major settlements define the rules
+promulgated following the enactment of the Dodd-Frank Act,it had
+become increasingly important for private fund advisers to
+communicate with investors, emphasizing the effect of these new
+conditions on fund operations.118 The comparative data also
+suggested that the industry is increasingly doing such work in-
+house. This is consistent with the SEC’s emphasis on COO liability
+and subsequent enforcement actions since 2012 that have focused
+on compliance departments. Moreover, the comparative data
+suggest that since 2012 at least a part of the industry was closing
+funds to new investors and even changing funds’ legal structures in
+response to the evolving regulatory landscape.119
+Perhaps the most important findings of the comparative
+survey study pertained to the comparative and long-term
+implications of the compliance costs associated with the evolving
+post-Dodd-Frank-Act regulatory environment and its effect on
+private fund advisers.120 The comparative data suggested that
+between 2012 and 2015 the industry was subject to an overall higher
+cost structure.121 The annual cost of compliance doubled for many
+survey respondents, moving from the $50,000 to $100,000 range to
+116 Id. at 1198.
+117 Id. at 1183, 1198, 1201.
+118 Id. at 1201.
+119 Id. at 1183, 1185–86, 1201.
+120 Id. at 1201.
+121 Id. at 1186–90, 1201.
+28
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+the $100,000 to $200,000 range. The survey provided evidence that
+the industry became more effective from 2012 to 2015 in its
+compliance with obligations related to the Dodd-Frank Act.122
+However, assuming that compliance hour requirements were a
+proxy for compliance cost, the comparative data suggested that the
+cost structure for all federal regulation increased between 2012 and
+2015.123
+Comparative data on the possible impact of the evolving
+regulatory environment on the AUM of private investment fund
+advisers facilitated an analysis of the implications of rulemaking on
+the industry’s evolution. That data suggested that investment
+advisers of private funds were increasingly taking the regulatory
+structure into account when determining their AUM.124 It showed
+that the 2015 survey respondents preferred a higher AUM than the
+2012 survey respondents. Whereas in 2012, 29% of survey
+respondents had an AUM preference in the range from $150 million
+to $500 million, and only 16% preferred a $500 million to $1 billion
+AUM, in 2015 these figures had reversed; only 15% of respondents
+had an AUM preference in the range from $150 million to $500
+million, and 33% of respondents preferred a $500 million to $1
+billion AUM.125 While this finding could be partially explained with
+the higher overall post-Dodd-Frank-Act cost structure for the
+industry, it was inconsistent with private fund advisers’ general
+tendency to grow AUM to increase profitability.
+To ensure that as much as possible of the net management
+fee becomes compensation for the managers, investment advisers
+typically try to allocate as many operating expenses to the fund as
+possible. Nevertheless, the comparative data provided in the survey
+study suggested that the additional regulatory obligations imposed
+on the private investment fund industry in the aftermath of the
+tectonic regulatory shift stemming from the Dodd-Frank Act
+influenced AUM preferences. From a policy perspective, changing
+AUM preferences associated with compliance costs could
+eventually result in consolidations that facilitate cost savings or
+precipitate a trend towards family offices that do not manage third-
+122 Id. at 1188–89, 1201.
+123 Id. at 1188–90, 1201.
+124 Id. at 1189–92, 1191.
+125 Id. at 1192.
+29
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+party assets.
+The impact of the evolving post-Dodd-Frank Act
+regulatory environment on investment advisers’ profitability had
+raised industry-wide concerns.Nevertheless, the majority of survey
+respondents in both the 2012 survey (76.1%) and the 2015 survey
+(65%) believed that the Dodd-Frank Act did not affect reporting
+funds’ earnings.126 Of those respondents who did believe that the
+Act affected their reporting funds’ earnings, the comparative data
+suggested that between 2012 and 2015 investment advisers saw the
+costs on fund earnings increasingly associated with opportunity
+costs (2012: 9%; 2015: 32%) rather than with increased expenses
+(2012: 53%; 2015: 36%).127 This was consistent with anecdotal
+evidence suggesting that the industry largely absorbed the increased
+expenses associated with the Dodd-Frank Act through the
+increasing use of pass-through expense terms when structuring
+investment adviser and private fund relationships between 2012 and
+2015.128
+The private fund industry had long voiced concerns about
+the long-term implications of the evolving regulatory environment
+on investment advisers’ reporting funds. The comparative survey
+study suggested that the long-term effects of that environment were
+more substantial than the industry and regulators initially
+anticipated.129 A greater percentage of 2015 responses, compared to
+2012 responses, made references to “lower returns” and plans to
+“consolidate or close funds,” which seemed to suggest a more
+substantial effect on reporting funds.130 Confirming these trends,
+2012 and 2015 estimates predicted the state of the private fund
+industry over the next five years and also made references to
+additional expenses and barriers to entry to the private fund market.
+Whereas in the 2012 survey only 24% of respondents referenced
+barriers to entry for small firms, in 2015, 33% made such
+references.
+126 Id. at 1195, 1202.
+127 Id. at 1195, 1202.
+128 Id. at 1195, 1202.
+129 Id. at 1202.
+130 Id. at 1197, 1199, 1202.
+30
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+e) What Drives Dodd-Frank Act Compliance Costs for Private
+Funds?
+Using the unprecedented compliance cost estimates from
+the earlier survey studies,131 this author applied multiple regression
+analyses to evaluate the possible drivers and effects of Title IV
+Dodd-Frank Act compliance costs on the private fund industry.132
+Using hand-selected compliance cost estimates from private fund
+advisers (N=94), the study showed with two independent datasets
+that the number of funds managed by private fund advisers was
+associated with Dodd-Frank Act compliance costs.
+The study demonstrated that the size of registered private
+fund advisers as measured by assets under management was not
+associated with the per-unit cost of Title IV compliance and other
+independent variables as proxies for cost. These findings were
+consistent with the hypothesis that the cost of financial regulation
+under the Dodd-Frank Act brought increasing returns to scale.133
+These results of the study confirmed the findings in other studies
+suggesting that regulatory compliance costs can bring increasing
+returns to scale.134
+A significant long-term implication of the results included
+the creation of barriers to entry for smaller private fund advisers. In
+other words, if Title IV compliance costs bring increasing returns to
+scale because the costs of Title IV compliance favor larger firms,
+Title IV requirements may contribute to the creation of barriers to
+entry for smaller private fund advisers.135 This author demonstrated
+in this study that barriers to entry also mean that smaller private
+fund advisers could get forced out of the market or consolidate with
+other private fund advisers. Consolidation of smaller private fund
+advisers, in turn, can contribute further to an already existing trend
+towards private fund adviser consolidation.
+The study introduces for the first-time possible dynamic
+elements in the regulation of the private investment fund industry.
+The literature on dynamic regulation emphasizes adaptable
+institutions and rulemaking processes to overcome suboptimal
+131 Kaal, Registration, supra note 9; Kaal, Private Fund Industry, supra note 69;
+Kaal, Evolution, supra note 4.
+132 Kaal, Compliance Costs, supra note 9.
+133 Id. at 10, 17, 19.
+134 Id. at 19.
+135 Id. at 19.
+31
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+governance outcomes.136 Rules can become adaptable if institutions
+and rulemaking processes integrate feedback effects, including
+feedback effects between the industry and regulators, that produce
+timely, relevant, and decentralized information for rulemaking ex-
+ante before rulemakers finalize rules.137 By increasing the
+availability of relevant information for rulemaking ex-ante,
+dynamic regulation lowers unforeseen contingencies in the
+rulemaking process while increasing regulatory certainty.
+Identifying forms of dynamic regulation for the private investment
+fund industry has the potential to overcome many of the identified
+policy challenges associated with Title IV.138
+f) Dodd-Frank Impact on Private Fund Performance
+As previously noted, an important question repeatedly
+raised by the private investment fund industry lobby pertains to the
+impact of Title IV on private investment fund performance and
+profitability. Attempts to rescind Title IV via the Investment
+Advisers Modernization Act of 2016 and announcements of the
+Trump Administration pertaining to a reduction of the regulatory
+burden in the Dodd-Frank Act illustrate the highly politically
+sensitive nature of Dodd-Frank Act registration and disclosure
+obligations for the private fund industry.
+The author’s 2015 paper139 exploits a natural quasi-
+experiment to isolate the effects that were uniquely due to Title IV:
+private fund investment advisers with assets under management of
+136 Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a New Institutional
+Economics Framework, in FESTSCHRIFT ZU EHREN VON CHRISTIAN KIRCHNER
+1211 (Wulf A. Kaal, Matthias Schmidt & Andreas Schwartze eds., 2014); Wulf
+A. Kaal, Dynamic Regulation via Governmental Contracts, in ROBERT
+WALDBURGER ET AL., LAW & ECONOMICS: FESTSCHRIFT FÜR PETER NOBEL ZUM
+70 GEBURTSTAG 65 (2015); Wulf A. Kaal & Erik P.M. Vermeulen, How to
+Regulate Disruptive Innovation - From Facts to Data 57 JURIMETRICS
+(forthcoming 2017), https://ssrn.com/abstract=2808044 or
+http://dx.doi.org/10.2139/ssrn.2808044) [hereinafter Kaal, Disruptive
+Innovation]; Wulf A. Kaal, Dynamic Regulation for Innovation, in
+PERSPECTIVES IN LAW, BUSINESS AND INNOVATION (Mark Fenwick, Wulf A.
+Kaal, Toshiyuki Kono & Erik P.M. Vermeulen eds., forthcoming 2017),
+https://ssrn.com/abstract=2831040 or http://dx.doi.org/10.2139/ssrn.2831040)
+[hereinafter Kaal, Dynamic Regulation].
+137 Kaal, Dynamic Regulation, at 5-8.
+138 Id.
+139 Kaal, Luppi, & Paterlini, supra note 9.
+32
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+more than $150 million are required to register with the SEC and
+are subject to substantially increased public disclosure obligations.
+To analyze the effect of Title IV on the private fund industry, this
+author and two co-authors used five years of private fund advisers’
+performance data with over 3500 reporting private funds in a
+regression discontinuity (RD) design, using multiple hand-selected
+control groups and several iterations of broad and narrow RD
+designs and robustness checks.
+The findings in this paper are consistent and do not support
+the private fund industry’s claims that the increased supervision and
+disclosure mandated in the Dodd-Frank Act have a negative effect
+on private fund earnings. Using an array of robustness tests
+validating the RD results, the paper shows that the requirements
+introduced by the Dodd-Frank Act create no significant effect on
+private fund performance. The P-values for all RD results are above
+the 5% level and confirm the finding of no affect. By contrast, the
+private fund industry expected the introduction of the Dodd-Frank
+Act to result in negative effects on private investment fund returns.
+The absence of any statistically significant effect of mandatory
+disclosure on hedge fund returns may suggest that the transparency
+costs associated with disclosure do not significantly affect the
+profitability of hedge fund advisers.
+2. Systemic Risk
+The public media, politicians, and regulators regularly
+debate the potential for private investment funds to contribute to
+systemic risk in financial markets. Because the private investment
+fund industry experienced substantial growth over the past two
+decades, concerns about hedge funds’ systemic risk have increased,
+and regulators have taken measures to mitigate the possible risks
+associated with these funds. The Dodd-Frank Act created the
+Financial Stability Oversight Council (FSOC) with the primary
+mandate of guarding against systemic risk and correcting perceived
+regulatory weaknesses that may have contributed to the financial
+crisis of 2008-09. The SEC collects data pertaining to private fund
+advisers in order to facilitate the FSOC’s assessment of non-bank
+financial institutions’ potential systemic risks.
+In a first paper on private investment funds’ systemic risk
+33
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+implications,140 this author evaluated the Dodd-Frank Act’s
+potential to address the systemic risk implications of private
+investment funds. The paper created and evaluated data evidence
+that demonstrated that the SEC’s data collection encountered
+accuracy and consistency problems that hampered the FSOC’s
+ability to evaluate the systemic risk of private funds.141 The author
+showed that while the SEC’s data played a crucial role in all stages
+of FSOC’s systemic risk assessment of private funds, the FSOC
+relied most heavily on some of the most problematic disclosure
+items collected by the SEC.
+The paper demonstrated that the data collected via Form
+PF had several core shortcomings.These included: the ambiguity of
+several key questions on Form PF, the inaccuracy of Form PF
+definitions and the corresponding insufficiency of SEC guidance for
+Form PF, and difficulties in aggregating the required Form PF
+information.142
+Referencing the author’s prior work and using the data
+collected in surveys to analyze the systemic risk of private
+investment funds,143 the paper demonstrated that the systemic risk
+assessment process employed by the FSOC was suboptimal.144
+Several core Form PF questions that provide specific information
+for FSOC’s stage one threshold assessment encounter problems.
+More specifically, the definition of RAUM required substantive
+interpretation by filers. FSOC used valuations in Form PF that are
+associated with RAUM, such as gross asset value of reporting fund
+(Question 8), the value of derivative positions (Questions 13 and
+44), financing information and financing liquidity (Questions 46
+and 58), as well as gross and net assets value of reporting fund (
+Questions 8 and 9) to determine various stage one thresholds.Given
+FSOC’s direct or indirect use of RAUM-related data (and FSOC’s
+emphasis on such data), in combination with the author’s prior
+study suggesting that RAUM requires substantial interpretation,the
+paper showed that it was at least questionable if FSOC would be
+able to use the related Form PF data effectively and sustainably for
+140Kaal, Systemic Risk, supra note 10.
+141 Id. at 190–93.
+142 Id. at 191.
+143 Kaal, Registration, supra note 9; Kaal, Private Fund Disclosures, supra note
+9.
+144 Kaal, Systemic Risk, supra note 10.
+34
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+its systemic risk evaluations and the designation of non-bank
+financial companies as systemically risky.145
+The paper further showed that in addition to the specific
+matching of Form PF data issues with FSOC’s uses of Form PF
+data, Form PF data may also have presented several more generic
+areas of concern for FSOC’s systemic risk evaluation.146 Over 40%
+of respondents in the author’s prior study suggested that they
+disagreed with definitions or instructions in Form PF.147 This
+suggested that a large proportion of filers are uncertain as to how
+Form PF questions are to be answered. This uncertainty raised the
+possibility that the filers were using estimates and a variety of
+assumptions to complete Form PF.148 If FSOC relied on Form PF
+data in its systemic risk assessment that is subject to inaccuracies,
+the paper suggested that it appeared possible that FSOC’s work
+pertaining to private funds could in turn be subject to errors.149
+In a second paper150 on private investment funds’ possible
+systemic risk, the author showed that private investment fund
+advisers’ systemic risk disclosure obligations under Title IV of the
+Dodd-Frank Act and SEC implementation rules had unanticipated
+knock-on effects on other areas of the law and hedge fund practices.
+More specifically, Federal Bankruptcy Rule 2019 (Rule 2019) had
+been the subject of intense professional and scholarly debate before
+the enactment of the Dodd-Frank Act. The federal bankruptcy
+bench, practitioners, and academics debated the importance of the
+purported purpose of Rule 2019, the necessity for hedge funds to
+protect trading strategies and proprietary information, and the role
+of creditors and groups of creditors in the bankruptcy process. This
+paper added another element to the debate by evaluating possible
+implications of systemic risk disclosures by hedge fund managers
+under Title IV of the Dodd-Frank Act and SEC implementation
+rules in the bankruptcy context. In the paper, the author provided
+evidence of a substantial overlap between systemic risk disclosure
+requirements under Title IV and the disclosure requirements under
+145 Id. at 192-93.
+146 Id. at 193.
+147Kaal, Private Fund Disclosures, supra note 9, at 455–56, 470.
+148 Kaal, Systemic Risk, supra note 10, at 193.
+149 Id. at 193.
+150 Kaal, Bankruptcy, supra note 9.
+35
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+the fully-revised version of Bankruptcy Rule 2019 (Revised Rule
+2019).151
+The paper demonstrated that public access to systemic risk
+disclosures by hedge fund managers under the Dodd-Frank Act and
+SEC implementation rules could improve hedge funds' distressed
+investments and their bankruptcy practices.152 Systemic risk
+disclosures could play a possible role in bankruptcy especially if
+more evidence emerged suggesting that Revised Rule 2019 could
+result in less overall disclosure by distressed debt investors. The
+mere threat of public access or sharing of hedge funds' systemic risk
+data filings in Form PF filings between the SEC and the federal
+bankruptcy bench could help facilitate some level of discipline for
+distressed debt investors' engagements in the bankruptcy process.153
+The commonalities between disclosure requirements under the
+Dodd-Frank Act and Revised Rule 2019 suggested a possible role
+for systemic risk disclosures in the bankruptcy process.
+The paper highlighted that the threat of public disclosure
+of systemic risk filings by hedge funds via the bankruptcy process
+only marginally affected hedge funds’ tactics and their role in
+distressed investing.154 Hedge funds’ disclosure obligations under
+the Dodd-Frank Act were then still rather generic. The SEC had not
+yet standardized the requirements, and it was unclear if the SEC
+would expand the systemic risk disclosure obligations for hedge
+funds investing in distressed securities. The paper asserted that the
+hedge fund industry’s continuous, expanding, and increasingly
+assertive presence in distressed securities investments could change
+this evaluation in the future.155
+In a third paper,156 published five years after the enactment
+of the Dodd-Frank Act, this author summarized the pre- and post-
+crisis debate and highlighted and contrasted the post-crisis evidence
+regarding hedge funds’ alleged systemic risk. In particular, the
+author examined evidence regarding specific factors surrounding
+hedge funds’ possible contributions to systemic risk, including risk
+management incentives, leverage, liquidity characteristics,
+151 Id. at 217-25.
+152 Id. at 200–01, 225–33.
+153 Id. at 200–01, 226, 232–33.
+154 Id. at 201, 232.
+155 Id. at 225.
+156 Kaal & Krause, supra note 10.
+36
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+regulation, financial stability, transparency, and their potential to
+induce and perpetuate market contagion.157
+The paper outlined the empirical evidence on hedge funds’
+possible systemic risk in the aftermath of the 2007–08 financial
+crisis.158 Several theoretical academic studies pointed to the
+potential for a possible link between hedge funds and systemic risk,
+especially as it relates to liquidity. Another strand of literature
+examined in the paper evaluated the potential for “tail risk” induced
+by hedge funds’ risk management incentives that may increase risk-
+taking and leverage while shrinking hedge fund liquidity.159 The
+paper evaluated academic studies examining several additional
+factors in this process, including hedge funds’ exposures to
+macroeconomic risks, their contribution to a “shadow banking”
+system, and the potential for hedge funds to induce and perpetuate
+market contagion.
+3. Private Fund Investor Due Diligence
+Since 2010, investment due diligence has become an
+increasingly litigated issue in the capital formation and allocation
+process.160 Lock step with the growth of the private investment fund
+industry, private fund investor due diligence litigation has increased
+significantly since the financial crisis of 2008-09. Courts in the
+early 2010s started to set out private fund investor due diligence
+standards and provided guidance on the requirements and limits of
+due diligence. The increasing due diligence litigation record
+underscores the heightened importance of due diligence in the
+capital formation and allocation process since the financial crisis of
+2008-09.
+Despite the increasing relevance of investment due
+diligence in the capital formation and allocation process and despite
+increasing litigation in the context of investment due diligence, the
+industry is mostly left to its own devices to ensure adequate due
+diligence standards apply. Little to no guidance existed prior to the
+author’s study on applicable standards for private investment fund
+due diligence. Available resources describe best practices but do not
+sufficiently outline the legal requirements pertaining to private
+157 Id. at 6–9.
+158 Id. at 12–19.
+159 Id. at 20.
+160 Kaal, Due Diligence, supra note 11.
+37
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+investment fund due diligence. The available case law only
+marginally provides relevant guidance on private fund investor due
+diligence.
+The author’s study provided the first comprehensive
+evaluation of the changing private fund investor due diligence
+landscape.161 To provide the industry with data, data trend analyses,
+and guidance on applicable legal private fund investor due diligence
+standards, the author examined two datasets: (1) private investment
+fund advisers’ SEC Form ADV II filings from 2007 to 2014
+(N=100392), and (2) the publicly available litigation record
+pertaining to private fund investor due diligence from 1995 to 2015
+(N=572). After highlighting important changes in the quality and
+quantity of private fund investor due diligence disclosures in SEC
+Form ADV Part II, the author summarized and illustrated the entire
+litigation record on private investment fund due diligence from
+1995 to 2015,162 breaking down individual expert testimony
+provided by due diligence experts in courts and evaluating expert
+guidance on applicable investor due diligence best practices.
+To summarize the results, the data provided in the author’s
+study suggested that since 2010 private fund advisers increasingly
+engaged in private fund investor due diligence, partially in an effort
+to protect themselves from investor criticism and lawsuits.163 Since
+2010, an increasing number of SEC Form ADV II brochure filers
+included investor due diligence disclosures, and the number of filers
+who included those disclosures remained relatively even between
+2012 and 2014. The quantity of investor due diligence disclosures
+relative to total SEC Form ADV II brochure filings had increased
+substantially; the due diligence count exceeded the total ADV II
+filings for the first time in 2014. Filers appeared to see a need to
+increase the quantity of investor due diligence disclosures in Form
+ADV II between 2011 and 2014. The increasing caseload on private
+fund investor due diligence since 2005 could have suggested that
+applicable legal standards needed to be further clarified.164
+The data used in the study demonstrated that between
+1995 and 2015 private fund investor due diligence had reached new
+161 Id.
+162 Id. at 25–58.
+163 Id. at 10, 24, 59.
+164 Id. at 11.
+38
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+and lasting prominence in the court system.165 Madoff-related cases
+in the aftermath of the discovery of the Madoff Ponzi scheme in
+2008 only partially explained the significant increase in the
+prevalence and importance of private fund investor due diligence
+after 2009. The study demonstrated that the legal standards
+applicable to private fund investor due diligence were somewhat
+inconsistent and suboptimal and merited clarification.
+In the study, the author predicted that the heightened
+emphasis on private fund investor due diligence as demonstrated in
+the study foreshadowed the possibility of standardization of private
+fund investor due diligence.166 Lack of standards for private fund
+investor due diligence could partially be attributed to private funds’
+unique position in markets—unlike mutual funds, private funds
+evolved as unregistered entities, free from most regulatory
+oversight. Accordingly, private fund investor due diligence evolved
+without regulatory oversight. The study suggested that private
+investment fund due diligence may follow the same evolution as
+banks’ risk evaluation. Whereas in the early 2000s banks operated
+with general risk evaluation strategies but no uniformity and no
+applicable standards, today banks’ risk evaluation is heavily
+regulated and turned into a science.
+V. Confluence of Private and Mutual Funds
+Increasing evidence suggests that the traditional distinction
+between mutual and private funds is dissipating. Prior to the 2008–
+09 credit crisis, the asset management industry was bifurcated into
+two distinct product segments, regulated (mutual) funds and private
+funds. That traditional distinction between mutual and private funds
+is dissipating. The author’s contributions in this context167
+conceptualized the confluence between mutual funds and private
+investment funds as a process and identified a trend that alternative
+mutual funds and other products that are fundamentally mutual
+funds are increasingly becoming more like hedge funds.168 The
+articles show that changes pertaining to hedge funds in the
+regulatory framework post Dodd-Frank Act tend to render hedge
+funds and hedge-fund-like vehicles more mutual-fund-like. This is
+165 Id. at 11.
+166 Id. at 60.
+167 Kaal, Confluence, supra note 5; Kaal & Anderson, supra note 12.
+168 Kaal, Confluence, supra note 5.
+39
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+not just a result of more stringent regulations enacted via the Dodd-
+Frank Act in the aftermath of the financial crisis; the liberalization
+of the advertising restrictions post Dodd-Frank Act also makes
+hedge funds more like mutual funds.
+Several factors suggest that mutual funds are becoming
+more like hedge funds as a matter of investment strategy, while
+hedge funds are becoming more like mutual funds as a matter of the
+regulatory framework.169 The factors that perhaps best illustrate the
+confluence of private and mutual funds include the growth of the
+private fund industry and the proliferation of retail alternative funds
+in combination with the fundamental reshaping of the regulatory
+landscape for the private fund industry.170 Market-driven factors
+contributing to this confluence include the emergence and
+proliferation of so-called retail alternative or hybrid funds, such as
+synthetic hedge funds and unconstrained mutual funds. Other
+important confluence factors include the increasing side-by-side
+management of mutual funds and hedge funds, and public offerings
+of alternative asset managers, among others, in combination with
+the fundamental reshaping of the regulatory landscape for the hedge
+fund industry through the Dodd-Frank Act and the Jumpstart Our
+Business Startups Act (“JOBS Act”).171
+Since the early 2010s, both private and regulated fund
+managers have been offering “liquid” alternative products to the
+same investor segments. Liquid alternatives offer adequate
+management fees and strong growth potential for mutual fund
+managers. For private managers, liquid alternative products provide
+access to large asset pools, including defined contribution plans,
+which were otherwise unavailable to private fund advisers.
+Increased offerings of liquid alternatives are managers’ response to
+investor demands for a combination of risk mitigation, liquidity,
+and the lower fees associated with mutual funds and the absolute
+returns of private funds. Investments in liquid alternatives have
+more than doubled since 2008 and represent over $550 billion in
+assets.172
+169 Id.
+170 Id.
+171 Id. at 10.
+172 SEI, THE RETAIL ALTERNATIVES PHENOMENON: WHAT ENTERPRISING
+PRIVATE FUND MANAGERS NEED TO KNOW 2 (2013), http://goo.gl/orKIKD.
+40
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+Retail investors’ preferences are a major factor in the
+confluence of private and mutual funds. Retail investors gained
+access to private fund strategies and higher returns through liquid
+alternative funds. In fact, the overall demand in the alternative
+investment sector is largely driven by retail investors who seek not
+only the prospect of significant performance but also risk-adjusted
+and consistent returns that are not correlated to the market.173
+Through liquid alternatives retail investors were able to merely pay
+mutual fund fees, which in turn increased demand by retail investors
+for liquid alternatives.174
+1. Evidence
+The emergence and proliferation of unconstrained mutual
+funds (“UMFs”) provides important evidence illustrating the
+phenomenon of confluence between mutual and private funds.175
+UMFs display characteristics of both mutual funds and private
+funds, and they occupy a unique market niche. More specifically,
+by combining the regulatory structure of a mutual fund with the
+investment strategy employed by a private fund implementing a
+credit strategy and principally trading fixed income instruments,
+UMFs transcend several of the traditional investment and legal
+distinctions which have characterized mutual funds and private
+173 MCKINSEY & CO., THE TRILLION-DOLLAR CONVERGENCE: CAPTURING THE
+NEXT WAVE OF GROWTH IN ALTERNATIVE INVESTMENTS 3-15 (2014) (“Retail
+investors, meanwhile, are moving rapidly into the market, as new product
+vehicles provide unprecedented access to a broad range of alternatives
+managers and strategies. Structural, rather than cyclical, forces are accelerating
+the adoption of alternatives, chief among them the linking of alternatives to
+critical investment outcomes—a phenomenon that takes the value of
+alternatives strategies ’beyond alpha.’ Gone are the days when the sole
+attraction of alternatives was the prospect of high-octane performance. The
+market meltdown caused by the global financial crisis, coupled with the
+extended period of volatility and macroeconomic uncertainty that followed,
+have left their marks, and investors are now turning to alternatives for
+consistent, risk-adjusted returns that are uncorrelated to the market. They are
+also increasingly looking to alternatives to deliver on other crucial outcomes
+like inflation protection and income generation.”) Id. at 3( “[R]etail flows are
+expected to be three to four times those of institutional flows. Demand has been
+strongest in the U.S. market.”) Id. at 15.
+174 Id.
+175 Kaal & Anderson, supra note 12.
+41
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+funds.176 UMFs are subject to the same regulatory framework as
+traditional mutual funds, and they are widely offered and available
+to retail investors who would otherwise be excluded from
+investments in private investment funds.
+The author provides evidence that UMFs share multiple
+investment strategies and risk attributes with fixed income hedge
+funds. Analyzing trading data and prospectuses of a hand-selected
+sample of all unconstrained mutual funds launched from 2010
+through 2015 (N=449), the author provided an overview of the
+evolution of unconstrained mutual funds, contrasting core
+characteristics with publicly available data pertaining to
+benchmarked mutual fund investment indices.177
+UMFs exceeded the typical mutual fund “engagements”
+in almost all quantifiable categories. The data analysis in the study
+demonstrated that UMF trading of the referenced security and
+contract types clearly exceeded the average “engagements” for
+mutual funds as a group.178 For instance, in terms of short selling,
+UMFs exceeded other funds by more than 20% in engagements.
+Similarly, in currency exchange transactions, UMFs exceeded other
+funds by almost 30%, in restricted securities by over 40%, and in
+interest rates futures by over 50%. Investment categories where
+UMFs exceeded other funds by around 20% include options on
+futures, options on stock indexes, options on debt securities, and
+options on equities.179
+Moreover, UMFs consistently exceeded mutual funds in
+relation to almost all investment categories. In particular, UMFs
+exceeded other mutual fund “permissions” by around 10–20% in
+short selling, currency exchange transactions, securities of foreign
+issuers, restricted securities, commodity futures, options on index
+futures, options on futures, stock index futures, interest rate futures,
+options on stock indexes, options on debt securities, and options on
+equities.180 UMFs also used a significantly higher proportion of
+short sales (as a percentage of their respective Net Asset Value
+(NAVs)) than other mutual funds. They also displayed a
+substantially higher turnover rate than other mutual funds trading
+176 Id. at 4.
+177 Kaal & Anderson, supra note 12.
+178 Id. at 24.
+179 Id. at 24.
+180 Id. at 25.
+42
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+fixed income instruments. In particular, UMF turnover on average
+exceeded the turnover for other fixed income mutual funds by over
+150%.181 Finally, UMF fees generally exceed those of other mutual
+funds. While the average fee charged by a UMF (1.40%) exceeds
+the average fee charged by those mutual funds in the Morningstar
+“non-traditional category” (1.25%) and the average fee charged by
+all credit mutual funds as a group (1.15%), the fees charged by
+UMFs are only marginally higher than those charged by other
+mutual funds.182
+2. Implications
+The confluence of mutual and private funds has long-term
+implications for both the private and mutual fund industries. The
+confluence of mutual and hedge funds affects the evolution of the
+hedge fund industry, rendering it a more widely recognized industry
+that is part of mainstream of finance.183 Confluence factors also
+make governance alternatives and possible governance
+improvements available for the mutual fund industry. Other
+implications include a positive effect on the growth of the retail
+alternative fund market and possible support for the proposition that
+the public/private distinction in federal securities regulation may be
+dissipating. Moreover, the confluence of mutual and investment
+funds through the proliferation of UMFs calls into question the
+effectiveness of retail investor protections under the Investment
+Companies Act of 1940.184
+Factors associated with the confluence of mutual and
+hedge funds help the private investment fund industry transition
+from an industry operating at the fringes of finance to one
+recognized as part of mainstream finance.185 Private investment
+funds have been able to proliferate and increasingly attract investors
+due in part to the Federal Reserve’s policies and resulting low
+interest rates in the early 2010s. Unprecedented changes in the rules
+and regulations pertaining to the private investment fund industry
+under Title IV of the Dodd-Frank Act and the JOBS Act allow
+increased oversight of the industry and contribute to the increasing
+181 Id. at 28.
+182 Id. at 29.
+183 Kaal, Confluence, supra note 5.
+184 Kaal & Anderson, supra note 12, at 32–34.
+185 Kaal, Confluence, supra note 5, at 16.
+43
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+recognition of the industry as a fully regulated asset class.186
+The confluence of mutual and hedge funds can also
+influence mutual fund governance. Given the proliferation of that
+confluence, it is possible that other governance models for mutual
+funds emerge over time. The proliferation of multimanager series
+trusts, for example, established a hitherto nonexistent alternative
+governance model for mutual funds. Multimanager series trusts can
+support mutual fund governance. Unlike the board in a traditional
+mutual fund governance setting, the board in a multimanager series
+trust arrangement is largely independent of any advisers within the
+fund group. Thus, independent directors on the board are not subject
+to conflicts of interest that often exist in traditional mutual fund
+governance settings if directors are affiliated with the investment
+adviser. Apart from its involvement in approving each adviser in a
+group structure, the board in the trust setting also typically has no
+involvement in selecting the group’s investment advisers, creating
+fewer incentives for the board to comport with advisers in
+contradiction of fiduciary obligations. Despite the open issues and
+possible shortcomings of the multimanager series trust model, the
+trust model governance structure for mutual funds appears to offer
+lasting substantive governance improvements for mutual funds.187
+Factors of mutual and hedge fund confluence increase the
+demand for retail alternative funds. While the market-driven
+proliferation of retail alternative funds itself drives confluence,
+several additional nonmarket confluence factors support the growth
+of the market for alternative funds. For instance, several provisions
+in the Dodd-Frank Act revised legal requirements applicable to
+private investment funds that in effect assimilated the legal
+requirements of mutual and hedge funds. Merging the regulatory
+requirements applicable to mutual funds with the formerly more
+distinct rules applicable to private investment funds creates
+incentives for private investment managers to set up retail
+alternative funds.188 A higher supply of retail alternative funds, in
+turn, is likely to further increase investor demand for retail
+alternative funds. A higher demand for retail alternative funds, in
+turn, precipitates more sustainable market-driven confluence of the
+186 Id. at 16.
+187 Id. at 17.
+188 Id. at 17.
+44
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+mutual and hedge fund industries.189
+The mandatory investment adviser registration provisions
+under the Dodd-Frank Act incentivize investment advisers to set up
+retail alternative funds. Prior to the enactment of the Dodd-Frank
+Act, the registration of a hedge fund was a significant disincentive
+for investment managers to enter into the mutual fund sector.
+Investment advisers to hedge funds disfavored registration with the
+SEC because they considered the associated disclosures intrusive
+and feared negative effects on profitability. By eliminating previous
+registration exemptions and requiring investment advisers with
+assets under management (AUM) of more than $150 million to
+register with the SEC, the Dodd-Frank Act mandates SEC
+registration and reporting of information that was hitherto
+considered proprietary and private.190 Hedge fund advisers who are
+required to register with the SEC have incentives to also manage
+mutual funds or set up retail alternative funds because the regulatory
+burden is minimally higher in comparison with preregistration legal
+requirements.191 Some registered hedge fund advisers may choose
+to offer hedge fund strategies in a mutual fund setting, thus
+increasing the trend towards confluence.
+Mutual and private investment fund confluence
+contributes to the gradual erosion of the public/private distinction
+in federal securities regulation. Beyond the retail investor-
+protection concerns associated with UMFs, the growth in the
+number of UMFs calls into question the continuing relevance of the
+public / private divide in federal securities regulation.192 The
+academic literature on this topichas explored a number of different
+subjects, and suggested a continuous blurring of the traditional
+boundary lines between regulated companies and activities, on the
+one hand, and “private” firms and transactions, on the other hand,
+including blurring that follows the enactment of new legislation
+(such as, for instance, the JOBS Act and the Crowdfunding Act).
+The confluence of mutual funds and private funds is an important
+example of the blurring of the public / private distinction in federal
+securities regulation.193
+189 Id. at 17.
+190 Id. at 14.
+191 Id. at 18.
+192 Kaal & Anderson, supra note 12, at 34.
+193 Id. at 34.
+45
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+Finally, the proliferation of unconstrained mutual funds
+calls into question the effectiveness of retail investor protections
+under the Investment Companies Act of 1940. The author’s analysis
+reveals, among other things, that UMFs share several important
+investment strategy and risk attributes with private funds. These
+include broad authority to trade almost any type of security,
+including illiquid securities; take concentrated investment risks in
+individual securities, sectors, or markets; make extensive use of
+derivatives; engage in short selling; and change the duration of the
+portfolio without any effective limit.194 However, unlike private
+funds, which are generally limited to investors who satisfy
+particular investment sophistication and net worth requirements,
+shares of UMFs may be purchased by retail investors, including
+those with quite limited or even no investment experience.
+VI. Blockchain Technology Applications for Private
+Investment Funds
+Starting in 2015, private investment fund managers have
+begun to embrace the use of blockchain technology to facilitate
+investment and process optimization.195 Several private investment
+funds have spearheaded the implementation of blockchain
+technology and smart contracting in their business model and
+continue to expand it. While some funds simply focus on trading
+bitcoin and other cryptocurrencies to avoid market fluctuations,
+others invest in and/or acquire companies that use blockchain
+technology to provide synergies to their other portfolio companies.
+Yet others go much further by fully automating a hedge fund
+secured by blockchain technology. This is accomplished by
+improving the administrative procedures of private equity deal
+making, or using cryptocurrencies as incentives for data scientists’
+competitive models that facilitate investment analysis efficiencies.
+Several key benefits are associated with the introduction
+of blockchain technology in private investment funds’ back-office
+administrative processes and compliance. By automatically
+recording all transactions in a given private investment fund along
+194 Id. at 6.
+195 Wulf A. Kaal, Blockchain Innovation for Private Investment Funds,
+available at: https://ssrn.com/abstract=2998033
+46
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+with any documentation or information that is associated with a
+given transaction, blockchain technology reduces the otherwise
+significant costs associated with human oversight in recording,
+organizing, and maintain investment fund data and records.
+Blockchain technology also creates a verified marketplace and
+provides market participants with reliable and fully transparent data
+on market transactions. The technology reduces the need for
+information exchange among parties because all transactions are
+fully recorded and transparent. Blockchain increases security
+because transactions are recorded in an immutable database that
+ensures the validity of data and removes expensive security
+procedures and labor-intensive data maintenance while reducing the
+need for a paper trail. Overall, the technology allows for a
+significant simplification of transactions and enormous increases in
+efficiency and speed of private investment fund transactions while
+providing significant security improvements.
+Diversification is a key element of blockchain-based
+change in the private investment fund industry. A benefit of
+investing in digital currencies rather than traditional investments is
+that digital currencies can be immune to the vicissitudes of
+traditional stock investments and the equity markets. Although
+crypto investments can to be just as and more volatile than
+traditional investments, digital currencies might be used to hedge
+against traditional investments.
+The use of blockchain technology increases the competitive
+pressure in the private investment fund industry. Private investment
+funds implementing blockchain technology are facilitating and
+spearheading radical changes in financial markets. First and
+foremost, the structural characteristic of blockchain as a
+decentralized model for financial transactions disintermediates and
+disrupts the existing financial infrastructure. Private investment
+funds that are first movers in the implementation of the blockchain
+infrastructure systems in finance directly contribute to that
+disintermediation and facilitate the accelerating evolution of the
+blockchain infrastructure in finance.
+The competitive pressure in the private investment fund
+industry increases through operational and business efficiencies
+gained by those funds that implement the technology. Most large
+fund advisers in the private equity and hedge fund industry have not
+yet considered implementing blockchain technology in
+combination with big data applications and artificial intelligence.
+47
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+This, however, may change in the foreseeable future if and when
+larger managers realize that their smaller competitors who utilize
+these technologies gain substantial operational efficiencies and cost
+savings and are able to substantially diversify their portfolio
+holdings via such technologies. The threshold for change for bigger
+managers may be dictated by the implementation cost of such new
+technologies. If and when the long-term benefits of using the
+technologies exceed the implementation cost, which are much
+larger for larger managers than for the smaller managers who are
+currently experimenting with such technologies, larger managers
+are incentivized to start the innovation process as well.
+The increasing use of blockchain technology in combination
+with artificial intelligence and big data contributes to the market
+pressure on the fee structure of private investment funds. Anecdotal
+evidence suggests that the majority of private fund advisers that use
+blockchain technology, artificial intelligence, and big data in
+different aspects of their operations or strategy have a substantially
+lower fee structure than those who do not use them. While the
+overall proportion of strategies of private investment funds that
+apply modern technologies, including blockchain technology, is
+still small, as the use of blockchain technology grows in the private
+investment fund industry, the pressure on the fee structure is likely
+to continue to grow.
+Blockchain technology enables managers to charge per-
+transaction fees which undermines the existing 2/20 fee model.
+Blockchain technology facilitates a seamless and efficient
+calculation of management fees per transaction. In contrast to the
+traditional settlement and calculation of fees in a per-transaction
+model that created a prohibitive amount of work making such
+operations very difficult to execute, blockchain technology
+overcomes all of these restrictions. It enables the fully automated
+allocation of the appropriate fee to the correct executed trade and
+associated client account without any manual reconciliation or
+settlement. While not all blockchain-enabled private investment
+funds charge per-transaction fees, the majority of private fund
+advisers that use blockchain technology, artificial intelligence, and
+big data in different aspects of their operations or strategy charge
+their investors lower fees.
+VII. Outlook
+This article examined the author’s scholarly contributions
+48
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+and empirical findings pertaining to private investment fund
+regulation from 1998 to 2016, tracing the main regulatory
+developments in each phase since 1998. Starting with a discussion
+of and the implications of LTCM and associated regulatory changes
+since 1998, the author’s scholarly contributions in phase one
+focused on evaluating the proposed remedies for private fund
+investment regulation and suggesting alternatives. Evaluating the
+effects of regulatory changes in the aftermath of the Dodd-Frank
+Act, the author’s scholarship in phase two summarized the
+regulatory evolution of the private fund industry and focused
+particularly on the evaluation of the effects of the Dodd-Frank Act
+on the private investment fund industry. Scholarship in phase two
+also analyzed the shifting evaluation of the possible systemic risk
+posed by the private fund industry and pertinent developments in
+private investment fund investor due diligence. The author’s
+scholarship in phase three evaluated the implications of the
+emerging evidence of confluence of prior separate asset classes in
+the aftermath of the Dodd-Frank Act and other long-term
+implications of the regulatory overhaul under the Dodd-Frank-Act,
+such as the dilution of the public/private distinction in federal
+securities regulation.
+Future scholarship on private investment fund regulation will
+likely continue the existing work in the context of the effects of the
+Dodd-Frank Act, and it will further the examination of evidence on
+confluence of the hitherto separate asset classes (mutual funds and
+private funds). In particular, comparative empirical scholarship on
+the different impact of the Alternative Investment Fund Managers
+Directive in Europe and Title IV of the Dodd-Frank Act could help
+clarify how and when private investment fund managers who invest
+internationally and use foreign branches are regulated and what
+impact such regulation across borders has on the industry. In the
+confluence context, future scholarship will help ascertain the impact
+of private and mutual fund confluence. Other areas of future
+scholarship may include the evolution and impact of private fund
+investor due diligence requirements.
+The rise of blockchain technology and the prominent
+applications of blockchain technology in the private investment
+fund industry serve as prominent examples of the impending
+seismic shifts in the private investment fund industry. Blockchain
+initiatives have significant implications for innovation in the private
+investment fund industry. As the industry continues to evolve in the
+49
+Electronic copy available at: https://ssrn.com/abstract=2998097
+
+PRIVATE INVESTMENT FUND REGULATION
+blockchain realm, more change is inevitable. Legacy infrastructure
+upgrades via blockchain technology may only be a first step towards
+crypto integration and evolution via the private investment fund
+industry.
+50
+Electronic copy available at: https://ssrn.com/abstract=2998097
+

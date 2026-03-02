@@ -1,0 +1,1103 @@
+Article
+How can we Best Monitor AI Agents?
+Wulf Kaal, Ph.D. 1
+School of Law, University of St. Thomas, St Paul, MN 55105, USA
+Abstract: This paper examines the critical challenge of monitoring AI agent transaction
+execution within decentralized digital ecosystems, highlighting the deficiencies of
+traditional centralized AI-driven supervision, including opacity, bias, and systemic
+vulnerabilities. In response, it proposes a web3 Decentralized Autonomous Organization
+(DAO)-centric governance model that integrates blockchain technology, federated
+communication platforms, smart contracts, and Weighted Directed Acyclic Graphs
+(WDAGs) to deliver an alternative oversight framework. The proposed system ensures
+unparalleled transparency and accountability through blockchain’s immutable ledger,
+while decentralized decision-making via community consensus mitigates bias and single
+points of failure. Federated platforms enhance scalability and privacy by distributing
+data processing, and smart contracts automate real-time compliance, bolstered by
+WDAGs’ adaptive governance structure. Validation pools and reputation tokens further
+empower stakeholders, fostering a dynamic, inclusive monitoring process.
+By incorporating feedback loops, this model anticipates and adapts to AI evolution,
+overcoming scalability, interoperability, and regulatory gaps inherent in existing
+frameworks. This decentralized approach not only addresses current shortcomings but
+also establishes a forward-looking standard for secure, compliant, and efficient AI agent
+management in modern infrastructures.
+Keywords: Web3; Artificial Intelligence; Blockchain; Decentralization; Data Sovereignty;
+Privacy; Smart Contracts; Tokenization; Weighted Directed Acyclic Graph; Web3
+Governance; DAO;
+1. Introduction
+The rapid proliferation of artificial intelligence (AI) has ushered in a new era of
+autonomous digital agents tasked with executing complex transactions across diverse
+platforms. As these AI agents become increasingly integral to financial, logistical, and
+operational systems, effective monitoring of their transaction execution emerges as a
+critical challenge. Traditional, centralized AI-driven supervision methods are often
+hindered by limited transparency, susceptibility to bias, and the risk of single points of
+failure. Consequently, there is a growing imperative to explore alternative oversight
+frameworks to ensure security, compliance, and efficiency in managing AI agent
+transactions.
+In response to these challenges, this paper proposes a decentralized governance
+system that integrates web3 community software with federated communication
+platforms. This decentralized mechanism guarantees complete transparency and public
+accountability, thereby enabling independent verification of AI agent activities.2
+Moreover, by leveraging the distributed nature of web3 technology, the proposed
+framework facilitates consensus-driven decision-making among a diverse stakeholder
+Future Internet 2025, 17, x https://doi.org/10.3390/xxxxx
+
+Future Internet 2025, 17, x FOR PEER REVIEW2 of 21
+community. This decentralized approach minimizes systemic biases and reduces the risk
+associated with centralized oversight, ensuring a more resilient and aligned monitoring
+process.3
+Furthermore, the integration of federated communication platforms, such as Matrix
+with its Synapse server, distributes data processing tasks across multiple nodes. This
+federated model not only scales the monitoring process efficiently but also enhances
+data privacy by processing sensitive information locally rather than in a single
+centralized repository.4 In addition, the application of smart contracts (self-executing
+agreements) automates compliance checks and performance validations, ensuring that
+governance protocols are executed consistently and in real time. Coupled with the
+structured oversight provided by Weighted Directed Acyclic Graphs (WDAGs), these
+mechanisms enable dynamic adaptation to emerging standards.5
+This paper contends that the proposed decentralized governance system not only
+overcomes the inherent limitations of centralized, AI-only monitoring approaches but
+also establishes a robust, transparent, and adaptive framework for overseeing AI agent
+transactions. By aligning technological oversight with community values and regulatory
+mandates, this model sets new standards for secure, compliant, and efficient AI system
+management in modern digital infrastructures.
+2. Convergence of AI and Blockchain Technology
+The integration of AI with blockchain technology represents a significant
+development for the digital asset industry, offering robust solutions to persistent
+challenges in data management, security, privacy, and operational efficiency. This
+confluence leverages the complementary strengths of both technologies, thereby
+introducing innovative paradigms for operational frameworks and economic structures.6
+This integration transcends a mere technological amalgamation, signifying a
+profound shift towards a digital ecosystem characterized by heightened security,
+transparency, and democratization. It may revolutionize industries by enhancing data
+management practices, fortifying privacy safeguards, advancing decentralization, and
+fostering novel economic models. Nonetheless, the trajectory towards a fully
+decentralized AI landscape remains an evolving process, necessitating persistent
+research, regulatory evolution, and interdisciplinary collaboration to address extant
+limitations and fully realize its transformative potential.7
+Blockchain's immutable ledger functionality provides a critical advantage for AI by
+ensuring the authenticity and traceability of training data, an aspect particularly vital for
+systems employing LLMs, where data integrity directly impacts output reliability.
+Blockchain establishes a verifiable record of data provenance and alterations, essential
+for sustaining trust and mitigating risks such as data poisoning, thereby ensuring AI
+models are trained on genuine datasets.8
+The decentralization inherent in blockchain technology dismantles traditional
+barriers posed by data silos and centralized governance, offering significant benefits to
+small and medium-sized enterprises (SMEs). These entities can now engage in secure,
+resource-efficient cross-chain transactions, leveraging the resilient and transparent
+environment blockchain provides. This decentralization fosters collaborative models
+that enhance operational efficiency and security, while AI algorithms capitalize on
+blockchain’s real-time data processing capabilities to enable dynamic, adaptive systems.9
+For privacy and security, the integration of AI with decentralized physical
+infrastructure networks (DePINs) is a significant advancement. Blockchain’s
+cryptographic mechanisms ensure data privacy and verifiability, critical for AI
+operations involving sensitive information. DePIN decentralizes control over physical
+devices, enabling secure AI computations without compromising user privacy.10
+Blockchain facilitates the democratization of AI services through tokenization and
+decentralized marketplaces, managing access to AI resources transparently and securely
+
+Future Internet 2025, 17, x FOR PEER REVIEW3 of 21
+via blockchain-based tokens. This approach promotes equitable distribution of
+computational power and data, reducing reliance on centralized entities and broadening
+AI accessibility.11 The tokenization of AI outputs transforms them into tangible, tradable
+assets within financial systems, enhancing liquidity for AI intellectual property and
+fostering innovative economic models, such as resource-sharing ventures and novel
+revenue streams.12
+Smart contracts within blockchain enable self-executing transactions among AI
+systems, automating complex decision-making and interactions without necessitating
+human oversight. This automation ensures transactions adhere to predefined conditions,
+enhancing efficiency in domains like supply chain logistics and energy trading.13 As this
+author will demonstrate later in this article, AI agents are a significant extension of AI
+systems that can directly interface with smart contracts for transaction execution.
+However, the juxtaposition of centralized and decentralized AI models presents a
+strategic conundrum. Centralized systems exploit vast data pools for efficiency, whereas
+decentralized frameworks promote innovation via data sovereignty and reduced
+monopolistic tendencies. Scholarly perspectives advocate a balanced approach to
+harness the strengths of both models.14
+In practical contexts, the synergy of AI and blockchain demonstrates significant
+potential across supply chain management, financial systems, and cybersecurity. AI
+enhances process efficiency and data analytics, while blockchain ensures transparency
+and security.15
+Despite these advancements, challenges such as scalability, resource intensity, and
+regulatory compliance persist, underscoring the need for continued research to fully
+realize this integration’s potential.16
+In summation, the convergence of AI and blockchain transcends a simple
+technological merger, heralding a foundational shift towards a secure, transparent, and
+democratized digital infrastructure. This transformative potential demands ongoing
+interdisciplinary efforts to overcome current limitations and fully leverage its capacity to
+reshape industries and societal functions.17
+3. AI Agents
+AI agents are autonomous software entities designed to execute specific tasks on
+behalf of their users, encompassing a convergence of computational engineering and
+cognitive simulation. AI agents represent a paradigm shift in autonomous computing,
+integrating sophisticated data processing, adaptive decision-making, and seamless
+system interoperability to serve user needs across diverse domains. Their ongoing
+evolution promises to further redefine the boundaries of artificial intelligence in practical
+applications.
+AI agents leverage advanced algorithms, machine learning methodologies, and, in
+many instances, natural language processing capabilities to emulate human-like
+decision-making processes within digital ecosystems. Their deployment spans a broad
+spectrum of applications, from financial trading systems to personalized consumer
+services, reflecting their versatility and transformative potential in modern technology.
+The operational framework of AI agents starts with the interpretation of user directives,
+facilitated through diverse interfaces such as textual or vocal inputs, or through intricate
+analyses of behavioral patterns. This interpretive capacity is pivotal in ensuring that the
+actions undertaken by the agent align seamlessly with user expectations and objectives.18
+Central to their functionality, AI agents aggregate and process data from an array of
+heterogeneous sources, encompassing real-time market feeds, detailed user profiles, and
+extensive historical transaction repositories. Machine learning models, often employing
+supervised and unsupervised techniques, are instrumental in extracting actionable
+insights from this voluminous data. This analytical prowess enables agents to identify
+patterns and correlations that inform subsequent decision-making.19
+
+Future Internet 2025, 17, x FOR PEER REVIEW4 of 21
+The decision-making apparatus of AI agents is underpinned by algorithms that
+oscillate between adherence to predefined rules and adaptive responses derived from
+learned patterns. In financial trading contexts, for instance, predictive models—such as
+regression analyses or neural networks—may be harnessed to optimize the timing of
+transactions or to calibrate pricing strategies, thereby maximizing economic outcomes.
+This adaptive capacity is critical in dynamic environments where market conditions
+fluctuate rapidly.20
+To effectuate their decisions, AI agents interface with external digital systems
+through application programming interfaces (APIs), necessitating robust mechanisms
+for secure and authenticated communication. This integration ensures that
+transactions—whether financial, logistical, or informational—are executed with
+precision and integrity.21
+Upon computing their decisions, AI agents operationalize these outcomes by
+executing transactions, ranging from trading securities in volatile markets to managing
+consumer purchases in e-commerce platforms. This execution phase underscores their
+role as intermediaries between abstract computation and tangible action.22 Following
+transaction execution, AI agents engage in continuous post-action monitoring,
+scrutinizing outcomes to refine their strategic approaches. This iterative process
+leverages feedback loops and newly acquired data to enhance the precision and efficacy
+of future decision-making. Such adaptability is a hallmark of advanced AI systems,
+distinguishing them from static rule-based programs.23 Finally, AI agents furnish users
+with comprehensive feedback, detailing the execution process, performance metrics, and
+any deviations from anticipated results. This transparency fosters trust and enables
+users to evaluate the agent’s efficacy critically.24
+3.1. Applications
+AI agents are deployed across a variety of domains, exemplifying their adaptability
+and utility in automating complex tasks. In the realm of financial trading, AI agents
+leverage sophisticated market analysis to execute trades autonomously, capitalizing on
+real-time data and predictive modeling to optimize outcomes. These agents employ
+advanced techniques, such as high-frequency trading algorithms and microstructural
+analysis, to navigate volatile markets with precision.25
+In the domain of e-commerce, personal shopping agents enhance the online
+purchasing experience by identifying optimal deals, curating product recommendations,
+and managing transactional logistics. These agents utilize recommender systems—often
+grounded in collaborative filtering or content-based approaches—to align offerings with
+user preferences, thereby streamlining decision-making and increasing satisfaction.26
+Similarly, smart home agents exemplify the integration of AI into domestic
+environments, autonomously managing household transactions such as ordering
+supplies based on observed consumption patterns. These agents rely on sensor
+networks, machine learning, and predictive analytics to anticipate needs, thereby
+enhancing efficiency and convenience. For instance, they might reorder groceries or
+adjust energy usage in response to behavioral trends.27
+3.2. Open Issues
+As these systems continue to evolve, balancing innovation with responsibility will
+remain paramount to harnessing their benefits while safeguarding societal values. The
+widespread adoption of AI agents necessitates stringent security protocols to protect
+sensitive user data and ensure the integrity of financial transactions. Robust encryption,
+secure API integrations, and authentication mechanisms are imperative to mitigate risks
+such as data breaches or unauthorized access. Beyond technical safeguards, the
+deployment of AI agents raises profound ethical considerations that demand careful
+scrutiny. Key among these are the imperatives of transparency—ensuring users
+
+Future Internet 2025, 17, x FOR PEER REVIEW5 of 21
+understand how decisions are made—securing informed consent for data usage, and
+addressing algorithmic bias to prevent inequitable outcomes. These issues are
+compounded by the potential for AI systems to inadvertently perpetuate societal
+disparities if trained on flawed datasets.28
+By automating intricate decision-making and operational tasks, AI agents offer
+significant efficiencies and, in certain contexts, outperform human capabilities. Their
+ability to process vast datasets, adapt to dynamic conditions, and execute actions with
+precision positions them as invaluable tools in fields ranging from finance to domestic
+management. However, this enhanced performance must be tempered by rigorous
+design considerations to ensure that AI agents operate ethically and in alignment with
+user interests. Safeguards—such as regular audits of algorithmic behavior, mechanisms
+for user override, and transparent reporting—must be embedded within their
+architecture to prevent misuse or unintended consequences.
+4. Cryptocurrency Payment Rails and AI Agents
+Cryptocurrency payment rails, rooted in blockchain technology, enable AI agents
+with a superior infrastructure for conducting financial transactions, outperforming the
+capabilities of traditional banking systems. This advantage derives, in part, from their
+decentralized design, programmable functionalities, and fortified security measures,
+which collectively augment the autonomy and efficiency of AI operations. Nevertheless,
+the confluence of AI and cryptocurrency payment rails presents significant monitoring
+challenges, necessitating advanced oversight mechanisms to ensure compliance,
+security, and ethical integrity.
+Cryptocurrency payment rails function through decentralized blockchain networks,
+obviating the need for centralized intermediaries such as banks. This decentralization
+enables AI agents to autonomously oversee digital wallets—securing private keys,
+monitoring balances, and managing multiple addresses—without requiring human or
+institutional authorization.29 Conversely, traditional banking systems, reliant on
+centralized governance and manual validation, impose restrictions that curtail AI
+independence and engender operational delays.30 A pivotal attribute of these rails is the
+deployment of smart contracts—self-executing protocols embedded in the
+blockchain—which permit AI agents to automate transactions, such as releasing funds
+upon verified service completion through external data feeds (oracles).31 This
+programmability starkly contrasts with traditional banking’s dependence on less
+adaptable application programming interfaces (APIs), which lack the seamless
+integration inherent in blockchain frameworks.32
+Moreover, cryptocurrency rails afford AI agents direct engagement with
+decentralized exchanges (DEXs), facilitating real-time trading of cryptocurrencies based
+on market conditions or preestablished algorithms.33 Traditional financial systems,
+hampered by broker intermediaries and limited market access, offer no analogous
+flexibility.34 The cryptographic underpinnings of blockchain bolster transaction security,
+empowering AI agents to safeguard user data effectively.35 Additionally, these agents
+can dynamically adjust transaction parameters in response to real-time market volatility
+or regulatory exigencies, such as adherence to Know Your Customer (KYC) and
+Anti-Money Laundering (AML) mandates.36 Traditional banking, burdened by
+centralized legacy infrastructure, exhibits diminished responsiveness to such
+exigencies.37
+5. Monitoring Frameworks and Inherent Challenges
+The ecosystem supporting AI agents on cryptocurrency rails incorporates
+sophisticated monitoring tools. For example, platforms such as Coinbase utilize
+solutions like the CDP SDK Wallet Manager to ensure wallet security and transactional
+
+Future Internet 2025, 17, x FOR PEER REVIEW6 of 21
+compliance.38 Blockchain providers, including Biconomy, employ frameworks like the
+Delegated Authorization Network (DAN) to enforce permissioned AI activities.39
+Compliance entities such as Chainalysis scrutinize transactions to identify illicit conduct,
+extending their purview to AI-driven operations.40 Developers and proprietors also
+establish internal mechanisms to align agent actions with legal and ethical standards.41
+Despite these efforts, significant obstacles endure. The decentralized nature of
+blockchain complicates accountability, rendering oversight across distributed networks
+opaque.42 This opacity jeopardizes adequate regulatory supervision of AI agents.43 The
+accelerated evolution of AI and blockchain technologies frequently outstrips regulatory
+development, potentially situating agents within legal interstices, particularly in
+financial and data management domains.44 Furthermore, AI autonomy introduces
+unpredictability, wherein actions may diverge from intended outcomes, amplifying risks
+of unintended ramifications.45 Security vulnerabilities persist, as blockchain integration
+does not wholly preclude cyberattacks or privacy breaches absent rigorous monitoring.46
+Prospectively, heightened regulatory scrutiny can be anticipated as AI-driven
+financial transactions proliferate, aiming to forestall fraud and ensure compliance.47
+Specialized AI monitoring services and Decentralized Autonomous Organizations
+(DAOs) may arise, harnessing smart contracts for governance and risk mitigation.48
+Self-monitoring among AI agents could enhance efficiency, though robust security
+protocols are imperative to thwart manipulation.49 Integration with expansive systems,
+such as the Internet of Things (IoT), may amplify monitoring capacities.50
+5.1. Current Monitoring of AI Agents
+The integration of AI agents into cryptocurrency payment rails necessitates a
+complex monitoring framework to ensure the security, compliance, and operational
+integrity of autonomous financial transactions. To be clear, the existing monitoring
+framework is necessitated by the autonomous nature of AI agents, which leverage the
+decentralized and programmable infrastructure of blockchain-based cryptocurrency
+rails to conduct financial operations.51 The complexity of these systems, combined with
+their rapid evolution, underscores the critical role of coordinated oversight to mitigate
+risks such as illicit activity, regulatory noncompliance, and operational errors.52 The
+primary actors in this ecosystem—cryptocurrency exchanges, blockchain infrastructure
+providers, compliance and security services, and AI agent developers and
+owners—collectively form a robust yet intricate monitoring apparatus.53
+For example, cryptocurrency exchanges, such as Coinbase, employ initiatives like
+the CDP SDK Wallet Manager to oversee AI-managed wallets, guaranteeing secure and
+compliant transactions.54 Blockchain infrastructure providers, exemplified by Biconomy,
+contribute through mechanisms like the Delegated Authorization Network (DAN),
+which enforces permissioned execution of AI transactions.55 Compliance and security
+services, notably Chainalysis, extend their analytical tools to monitor AI agent activities,
+focusing on the detection of illicit conduct and adherence to regulatory standards.56
+Additionally, AI agent developers and owners implement internal systems to supervise
+their agents, ensuring alignment with intended functions and legal boundaries.
+Collectively, these actors form a multilayered monitoring ecosystem, critical to
+managing the complexities of AI autonomy in the rapidly evolving landscape of
+decentralized finance. This subchapter explores the roles, mechanisms, and implications
+of these oversight efforts, setting the stage for a deeper analysis of their efficacy and
+challenges.
+5.1.1. Cryptocurrency Exchanges and Platforms
+Cryptocurrency exchanges and platforms serve as pivotal entities in the monitoring
+of AI agent activities, leveraging their positions as gateways to blockchain networks to
+enforce security and compliance standards.57 For example, Coinbase, a leading
+
+Future Internet 2025, 17, x FOR PEER REVIEW7 of 21
+cryptocurrency exchange, has developed sophisticated tools such as the CDP SDK
+Wallet Manager, a software development kit designed to oversee AI-managed digital
+wallets.58 This initiative enables real-time tracking of wallet activities, ensuring that
+transactions executed by AI agents remain secure against unauthorized access and
+compliant with applicable regulatory frameworks.59 The CDP SDK Wallet Manager
+exemplifies how exchanges integrate advanced technological solutions to monitor AI
+operations, providing functionalities such as anomaly detection, balance verification,
+and adherence to Know Your Customer (KYC) protocols.60 By implementing such tools,
+exchanges not only safeguard their platforms but also contribute to the broader stability
+of the cryptocurrency ecosystem, addressing vulnerabilities inherent in decentralized
+financial systems.61
+5.1.2. Blockchain Infrastructure Providers
+Blockchain infrastructure providers constitute another critical layer in the
+monitoring framework, furnishing the technical scaffolding that enables secure and
+permissioned AI agent transactions.62 Biconomy, a prominent provider in this domain,
+employs its Delegated Authorization Network (DAN), which implements permissioned
+transaction controls, to ensure that AI agents operate within predefined parameters.63
+The DAN functions as a decentralized authorization protocol, embedding permissions
+into the blockchain to regulate the scope of AI-driven transactions—such as specifying
+allowable counterparties, transaction limits, or execution conditions.64 This system
+ensures that AI agents adhere to their intended mandates, preventing unauthorized or
+erroneous activities that could compromise network integrity.65 By integrating such
+mechanisms, infrastructure providers like Biconomy enhance the reliability of
+cryptocurrency payment rails, bridging the gap between AI autonomy and operational
+accountability.66 Their role underscores the importance of foundational blockchain
+technologies in supporting scalable and secure AI applications.67
+5.1.3. Compliance and Security Services
+Compliance and security services further extend the monitoring landscape of AI
+agents by offering specialized tools to scrutinize cryptocurrency transactions, including
+those orchestrated by AI agents.68 Chainalysis, a leading blockchain analytics firm,
+provides analytical solutions that detect illicit activities—such as money laundering,
+fraud, or sanctions evasion—within blockchain networks.69 These tools extend to AI
+agent operations, enabling the identification of suspicious transactional patterns through
+advanced data analytics and blockchain forensics.70 Chainalysis’s focus on regulatory
+compliance ensures that AI-driven transactions align with legal standards, such as
+Anti-Money Laundering (AML) requirements, by cross-referencing transaction data
+against global watchlists and regulatory benchmarks.71 This external layer of oversight
+complements internal monitoring efforts, offering an independent check on AI behavior
+and reinforcing trust in decentralized financial systems.72 The integration of such
+services highlights the necessity of aligning technological innovation with regulatory
+imperatives.73
+5.1.4. AI Agent Developers and Owners
+Finally, AI agent developers and owners themselves play an indispensable role in
+the monitoring ecosystem, implementing internal systems to oversee their agents’
+performance and ensure alignment with legal and ethical boundaries.74 These
+stakeholders deploy proprietary monitoring mechanisms—such as real-time activity
+logs, behavioral auditing tools, and fail-safe protocols—to verify that AI agents execute
+tasks as intended.75 For instance, developers may program agents with predefined
+operational limits, such as caps on transaction volumes or restrictions on interactions
+with high-risk entities, to mitigate potential misuse.76 Owners, meanwhile, maintain
+
+Future Internet 2025, 17, x FOR PEER REVIEW8 of 21
+continuous oversight to ensure compliance with jurisdictional laws and adherence to
+ethical guidelines, adapting agent functionalities in response to evolving standards.77
+This internal accountability layer is critical, as it addresses the inherent unpredictability
+of AI autonomy, providing a first line of defense against operational deviations or
+unintended consequences.78 The proactive engagement of developers and owners thus
+forms a foundational component of the monitoring framework, complementing external
+efforts by exchanges, infrastructure providers, and compliance services.79
+5.2. Expected Future Monitoring of AI Agents
+The prospective evolution of monitoring AI agents operating on cryptocurrency
+payment rails can be expected to undergo significant expansion and transformation,
+driven by technological advancements, regulatory imperatives, and systemic
+complexities.80
+First, regulatory bodies can be expected to amplify their oversight as AI agents
+assume a more prominent role in financial transactions facilitated by cryptocurrency
+payment rails. The increasing prevalence of AI in executing autonomous trades,
+payments, and asset management amplifies the potential for fraud, market
+manipulation, and consumer harm, necessitating a fortified legal framework. This
+evolving regulatory environment, particularly surrounding cryptocurrencies, will
+demand stringent monitoring protocols to safeguard against illicit activities, ensure
+consumer protection through transparent and equitable transaction practices, and
+enforce compliance with financial regulations such as anti-money laundering (AML) and
+sanctions regimes.81 Such oversight may manifest in enhanced reporting requirements,
+real-time transaction audits, and mandatory integration of compliance tools into AI
+systems, reflecting a proactive governmental response to the proliferation of
+decentralized finance.82
+Second, the emergence of specialized AI monitoring services represents a plausible
+advancement, concentrating exclusively on the supervision of AI-driven transactions.83
+These bespoke services could harness advanced AI algorithms to predict risks—such as
+market volatility or agent malfunctions—detect anomalies in transactional behavior, and
+manage associated threats through automated interventions.84 By leveraging machine
+learning and predictive analytics, it is conceivable that these services might identify
+patterns indicative of fraud or non-compliance before they escalate, offering a
+preemptive rather than reactive approach to oversight.85 This development could spawn
+a novel market segment dedicated to AI monitoring tools, catering to cryptocurrency
+platforms, financial institutions, and regulatory bodies seeking scalable solutions to
+oversee autonomous agents.86
+Third, Decentralized Autonomous Organizations (DAOs) are likely to evolve as
+governance and monitoring entities within blockchain ecosystems, exerting
+decentralized control over AI agents.87 DAOs, structured as community-governed
+entities operating via smart contracts, could encode rules into the blockchain to regulate
+AI behavior—such as restricting transaction types or enforcing ethical guidelines. Smart
+contracts might autonomously monitor agent activities by comparing them against
+predefined parameters, flagging deviations for review, and resolving disputes or
+instances of non-compliance through consensus-driven mechanisms. This decentralized
+approach could enhance transparency and accountability, reducing reliance on
+centralized authorities while aligning with the ethos of blockchain technology.
+Fourth, AI self-monitoring emerges as a compelling future trajectory, wherein AI
+agents are designed to oversee one another’s operations within the cryptocurrency
+ecosystem.88 This paradigm envisions a network of interdependent agents, each
+equipped with monitoring protocols to audit peers’ transactions, validate compliance,
+and ensure operational fidelity.89 Such a system could enhance efficiency by distributing
+oversight tasks across agents, minimizing the need for external intervention.90 However,
+
+Future Internet 2025, 17, x FOR PEER REVIEW9 of 21
+this approach necessitates robust security measures—such as cryptographic safeguards
+and anti-collusion algorithms—to prevent coordinated manipulation or exploitation of
+vulnerabilities, ensuring that self-monitoring does not devolve into self-serving
+behavior.91
+Fifth, the integration of AI agent monitoring with the Internet of Things (IoT) and
+broader interconnected systems could herald a more holistic approach to oversight.92 By
+linking cryptocurrency payment rails with IoT networks—such as smart devices,
+sensors, and data feeds—monitoring could extend beyond blockchain transactions to
+encompass real-world interactions, verifying the integrity of inputs, e.g., oracle data, and
+outputs, e.g., payment triggers.93 This convergence might enable a comprehensive
+ecosystem where connected devices collectively ensure transaction security, detect
+physical-world anomalies, and reinforce compliance across digital and tangible
+domains.94 Such an approach would leverage the scalability of IoT to address the
+expanding scope of AI applications in finance.95
+The impetus for this anticipated increase in monitoring stems from multiple
+converging factors: heightened security concerns arising from AI vulnerabilities, the
+imperative of regulatory compliance amid evolving legal standards, the demand for
+consumer protection in decentralized markets, continuous innovations in AI and
+blockchain technology, and the scalability challenges of blockchain networks.96 As these
+domains progress, the methods and technologies for monitoring will adapt accordingly,
+incorporating new capabilities—such as real-time analytics and decentralized
+governance—while addressing emergent vulnerabilities like scalability bottlenecks or
+regulatory gaps.97 This dynamic evolution underscores the need for a forward-looking
+framework that balances innovation with oversight, ensuring the sustainable integration
+of AI agents into cryptocurrency ecosystems.98
+5.3. AI-Based Agentic Monitoring
+The monitoring of AI agent-based transactions by centralized AI systems offers a
+multifaceted strategic approach to managing the security, compliance, and efficiency
+challenges inherent in modern digital infrastructures. By combining real-time
+monitoring, predictive modeling, regulatory adherence, advanced security protocols,
+comprehensive auditing, adaptive learning, user-friendly interfaces, and integrated
+system architectures, AI-based monitoring systems empower human owners with
+enhanced oversight capabilities.
+5.3.1. Real-time Transaction Monitoring
+AI systems can be designed to monitor AI agent transactions in real time by
+analyzing patterns and identifying anomalies within transaction data. Machine learning
+models, once trained on typical transactional behaviors, are capable of flagging
+deviations that may indicate errors or fraudulent activities. For instance, anomaly
+detection algorithms can examine variations in transaction frequency, volume, or the
+identities of counterparties to promptly alert system administrators to irregularities. This
+real-time capability is essential for maintaining operational continuity and safeguarding
+the integrity of digital transactions.99
+5.3.2. Behavioral Analysis and Predictive Modeling
+In addition to real-time Ai agent monitoring, AI systems can employ behavioral
+analysis to predict transaction outcomes based on historical data and observed agent
+behavior. By constructing predictive models that assess risk factors, these systems
+determine whether a transaction aligns with predetermined directives or poses potential
+threats. Techniques such as supervised learning and regression analysis enable AI
+systems to forecast success rates and flag non-compliant transactions before adverse
+outcomes occur. This proactive approach not only minimizes risk but also ensures that
+
+Future Internet 2025, 17, x FOR PEER REVIEW10 of 21
+transaction behaviors remain consistent with the owner’s strategic and regulatory
+objectives.100
+5.3.3. Compliance and Regulatory Adherence
+Ensuring that transactions adhere to established regulatory frameworks is a critical
+function of AI-based monitoring systems. These systems can be programmed to enforce
+compliance with standards such as Know Your Customer (KYC) and Anti-Money
+Laundering (AML) regulations. By incorporating Natural Language Processing (NLP)
+techniques, AI systems interpret complex legal texts and apply their provisions directly
+to transaction data. The immutable nature of blockchain technology further supports
+these efforts by providing a transparent, tamper-proof record of all transactions, which
+can be scrutinized for compliance.101
+5.3.4. Security and Fraud Detection
+Security remains a paramount concern in digital transactions, and AI systems
+contribute significantly to safeguarding operations through multi-layered security
+protocols. AI-driven intrusion detection systems learn from network patterns to
+distinguish between legitimate and malicious activities, thereby preemptively
+countering potential cyber threats. Additionally, simulation of potential attack vectors
+allows these systems to fortify defenses proactively. Such comprehensive security
+measures are critical for protecting the centralized repositories where AI agent
+transactions are processed and stored.102
+5.3.5. Audit and Accountability
+Post-transaction auditing is another critical function enabled by AI-based
+monitoring. Automated audit processes can cross-reference blockchain transaction
+records with internal logs to verify the integrity and consistency of transactions. Detailed
+reports generated by AI systems highlight discrepancies and potential areas of concern,
+ensuring transparency and accountability. Such audit trails are indispensable for
+regulatory compliance and for maintaining the trust of human owners overseeing AI
+agent activities.103
+5.3.6. Adaptive Learning and System Improvement
+AI-based monitoring systems are inherently capable of adaptive learning through
+the establishment of feedback loops that refine their operational parameters over time.
+By continuously analyzing past transactions, these systems adjust their detection
+algorithms to reduce false positives and improve the identification of emerging threats
+or inefficiencies. This dynamic recalibration is critical for maintaining high levels of
+accuracy and reliability in environments where transactional data volume and
+complexity are constantly evolving.104 However, the feedback loops in centralized AI
+learning systems as discussed herein need to be distinguished from web3-based AI
+feedback systems that are discussed later in this article.
+5.3.7. User Interface and Interaction
+For effective oversight, AI monitoring systems must present complex transactional
+data in a manner that is accessible and actionable for human owners. Advanced user
+interfaces, designed with the aid of AI-driven data interpretation techniques, translate
+intricate patterns and analytics into clear insights and alerts. This enhanced interaction
+facilitates intuitive decision-making and reduces the dependency on specialized
+technical knowledge, empowering owners to monitor and control AI agent transactions
+more effectively.105
+
+Future Internet 2025, 17, x FOR PEER REVIEW11 of 21
+5.3.8. Integration with Broader Systems
+Finally, the efficacy of AI monitoring is amplified when integrated with broader
+Internet of Things (IoT) and enterprise systems. Such integration provides a holistic
+view of all transactions, enabling cross-system data correlation and comprehensive
+oversight of AI agent activities. This interconnected approach ensures that monitoring is
+not limited to isolated processes but extends to encompass the entire digital ecosystem,
+thereby maximizing security and operational efficiency.106
+6. Shortcomings in AI Agent Monitoring
+6.1. Gaps in Current Monitoring Viability
+The existing framework for monitoring AI agents on cryptocurrency payment rails,
+while identifying key actors, falls short of delivering viable solutions. In particular, it
+fails to identify specifically scalability and adaptability challenges, and omits critical
+risks. These deficiencies across the ecosystem—cryptocurrency exchanges, blockchain
+infrastructure providers, compliance and security services, and AI agent developers and
+owners—reveal a structure unprepared for the complexities of decentralized finance and
+the ever evolving AI agents that scale DeFi systems.
+The existing framework for monitoring AI agents using cryptocurrency payment
+rails offers no prescriptive measures—such as predictive analytics or cross-actor
+protocols—to anticipate evolving risks, rendering it reactive rather than proactive.
+Furthermore, it fails to articulate how the framework scales with the increasing volume
+and diversity of AI-driven transactions, leaving its operational resilience untested.
+In particular, the identified drivers—security, compliance, consumer protection,
+innovation, and scalability—underscore the need for monitoring but are not matched
+with solutions adaptable to AI agent’s swift rise. The expected solutions for future AI
+monitoring fail to propose feedback-driven mechanisms,107 to balance innovation with
+oversight, leaving regulatory gaps and scalability bottlenecks unresolved. Without this
+anticipatory capacity, the framework cannot efficiently or fruitfully manage ubiquitous
+AI agents.
+6.1.1. Scalability and Interoperability Deficits in Cryptocurrency Exchanges and
+Platforms
+The discussion of exchange-based tools, such as the CDP SDK Wallet Manager,
+lacks detail on scalability under high transaction loads or adaptability across
+heterogeneous blockchain protocols. It does not address how these tools counter
+sophisticated threats, like adversarial AI agents exploiting wallet vulnerabilities, nor
+evaluate their feasibility for smaller exchanges, limiting broader applicability. The
+absence of interoperability considerations with non-standardized networks further
+restricts its utility in a fragmented ever evolving DeFi landscape.
+6.1.2. Adaptability and Risk Mitigation in Blockchain Infrastructure Providers
+The portrayal of infrastructure mechanisms, like the DAN, omits specifics on
+adapting to diverse AI agent designs or scaling across complex blockchain networks. It
+also neglects critical risks, such as smart contract exploits, bugs, or permission conflicts,
+and fails to propose real-time enforcement solutions across distributed nodes.108 This
+lack of granularity and risk mitigation weakens its claim to bridge AI autonomy and
+accountability.
+6.1.3. Scope and Real-Time Limitations in Compliance and Security Services
+The reliance on compliance tools, such as those from Chainalysis, overlooks their
+scalability challenges in monitoring vast, decentralized transaction volumes and
+adaptability to jurisdictional regulatory disparities.109 It fails to address latency in
+
+Future Internet 2025, 17, x FOR PEER REVIEW12 of 21
+forensic analysis, limiting real-time detection, and provides no strategy for overseeing
+transactions on privacy-focused blockchains where opacity hampers traditional
+methods.110 This narrow focus undermines its effectiveness as a comprehensive oversight
+solution.111
+6.1.4. No Standardization and Accountability in AI Agent Developers and Owners
+The emphasis on internal monitoring by developers and owners lacks a framework
+for standardizing proprietary systems across diverse stakeholders, risking inconsistent
+oversight.112 It does not address accountability mechanisms for agent deviations, such as
+insider manipulation or third-party agent risks, nor propose auditing standards against
+external benchmarks.113 This omission leaves internal efforts fragmented and
+unreliable.114
+6.2. Shortcomings of Expected Future Monitoring Solutions
+While the prospective framework for monitoring AI agents on cryptocurrency
+payment rails anticipates transformative developments driven by technological,
+regulatory, and systemic dynamics, it falls critically short of offering viable solutions. Its
+inability to suggest a viable solution can be traced predominantly back to the rapid
+evolution and impending ubiquity of AI agents.
+As AI agents proliferate and adapt at an unprecedented pace, outstripping static
+oversight mechanisms, the prospective framework for monitoring AI agents on
+cryptocurrency payment rails speculative projections lack the specificity, adaptability,
+and anticipatory capacity required for effective monitoring.115
+6.2.1. Regulatory Oversight: Outpaced by AI Evolution
+The expectation of enhanced regulatory oversight fails to account for the
+accelerating evolution of AI agents, which will soon dominate financial transactions,
+rendering static legal frameworks obsolete. The proposed framework’s vague references
+to audits and compliance tools lack mechanisms to adapt to AI’s adaptive capabilities,
+such as self-optimizing algorithms that evade traditional detection. Anticipatory
+regulation requires feedback loops—continuous data inputs from AI behavior—to
+dynamically update rules, a necessity unmet here given the absence of such adaptive
+systems.116 Without feedback loops, regulatory efforts cannot efficiently address fraud or
+consumer harm as AI ubiquity amplifies these risks across decentralized networks.
+6.2.2. Specialized AI Monitoring Services: Static Tools in a Dynamic Landscape
+The proposed specialized AI monitoring services, while conceptually promising, do
+not grapple with the rapid adaptability of ubiquitous AI agents, which demand
+real-time, evolving oversight. It is entirely unclear how these specialized AI monitoring
+services will scale computationally or adjust algorithms as AI agents diversify, a critical
+flaw given their anticipated pervasiveness. This static vision lacks the efficiency needed
+for preempting risks.
+6.2.3. Traditional DAOs - Overwhelmed by AI Agent Ubiquity
+The evolution of DAOs as monitoring entities assumes a static governance model117
+incapable of keeping pace with the rapid proliferation and sophistication of AI agents. It
+remains unclear how DAOs will manage the computational burden of overseeing
+ubiquitous AI agents or adapt smart contracts to their evolving behaviors. Feedback
+loops are essential for DAOs to dynamically adjust their governance rules based on AI
+activity, a mechanism absent here, risking inefficiency and vulnerability to exploits.
+Without this adaptability, DAOs cannot fruitfully govern an AI-dominated ecosystem.
+
+Future Internet 2025, 17, x FOR PEER REVIEW13 of 21
+6.2.4. AI Self-Monitoring: Unchecked Evolution Undermines Security
+AI self-monitoring is envisioned as efficient but fails to address how rapidly
+evolving agents will maintain integrity as they become ubiquitous. The proposed
+reliance on unspecified security measures overlooks the risk of adaptive AI agents
+colluding or evading oversight, a concern amplified by their pervasive deployment.
+Feedback loops are crucial to monitor AI agent interactions in real time, ensuring
+accountability—an approach absent here, rendering the system susceptible to
+manipulation. This lack of dynamic safeguards jeopardizes its viability.
+6.2.5. IoT Integration: Scalability Outstripped by AI Pace
+The integration with IoT aims for holistic oversight but does not account for the
+pace at which AI agents will outgrow static IoT-blockchain linkages. The text omits how
+this convergence will handle latency or secure data as AI ubiquity drives exponential
+transaction complexity. The governance feedback loop model—integrating real-time IoT
+data to adapt monitoring118—is essential yet unaddressed, leaving the approach
+inefficient against AI’s rapid evolution. This gap undermines its practicality.
+6.3. Fallacy of Centralized AI Monitoring AI Agent Evolution
+The abovementioned centralized AI-driven monitoring of AI agents119 encounters
+fallacies that undermine its capacity to effectively oversee the rapid evolution of AI
+agents.120 Centralized AI structures for AI agent monitoring create a self-referential loop
+prone to systemic biases and blind spots, while their rigidity fails to adapt to AI’s
+dynamic nature.
+6.3.1. Circular Dependency: AI Monitoring AI Creates Inherent Bias
+The foundational premise of AI systems monitoring AI agent transactions
+introduces a fallacy, as the monitoring AI inherits the same adaptive traits and potential
+flaws as the agents it oversees.121 Real-time anomaly detection and behavioral analysis
+rely on machine learning models trained on agent data, which may replicate biases or
+fail to detect novel deviations not present in training sets.122 This self-referential loop
+lacks an external benchmark to ensure objectivity, which in turn undermines its
+reliability as AI agents evolve beyond initial parameters.123
+6.3.2. Insufficient Adaptability: Static Centralization vs. Dynamic Evolution
+Centralized AI monitoring systems, despite adaptive learning claims, cannot
+sufficiently keep pace with AI agents’ rapid evolution due to their hierarchical,
+top-down design.124 Centralized AI monitoring schemes’ reliance on feedback loops
+within a centralized framework adjusts algorithms retrospectively, but lacks the
+anticipatory capacity. Real-time, decentralized data inputs—to match AI’s exponential
+adaptability are essential.125 As AI agents proliferate across decentralized networks,
+static centralized models fail to scale or adapt to diverse, emergent behaviors.126
+Moreover, the assertion that centralized AI ensures compliance with KYC and AML
+standards overlooks the circularity of relying on AI to interpret regulations it may itself
+violate.127 NLP-driven compliance assumes static legal frameworks, yet AI agents’
+evolution introduces novel transaction types that outstrip predefined rules, undetected
+by centralized systems lacking external validation. Feedback loops, requiring diverse
+stakeholder inputs, are essential for AI agent monitoring and highlight the insufficiency
+of centralized AI oversight to dynamically align with evolving standards.
+6.3.3. Security and Fraud Detection: Centralized Vulnerabilities Amplify Risks
+Centralized AI-driven security protocols, while robust against known threats, are
+insufficient because of their single-point-of-failure design, which AI agents can exploit as
+
+Future Internet 2025, 17, x FOR PEER REVIEW14 of 21
+they evolve.128 The circular reliance on AI to simulate attack vectors assumes it can
+anticipate its own adaptive strategies—an inherent fallacy as evolving agents may
+bypass centralized defenses.129
+The audit function’s dependence on AI to cross-reference blockchain records creates
+circular verification, insufficient for ensuring accountability as AI agents evolve.130
+Centralized systems lack external checks to validate AI-generated reports, risking
+undetected errors or manipulations by adaptive agents.131 Decentralized feedback loops,
+incorporating diverse perspectives,132 underscores the need for independent oversight
+missing in this approach.
+6.3.4. Adaptive Learning: Centralized Constraints Limit Evolution
+The centralized AI adaptive learning touted as a strength is insufficient, as it relies
+on internal data loops that cannot match AI agents’ external evolution.133 This circular
+recalibration fails to incorporate real-time, ecosystem-wide inputs that are essential for
+anticipating emerging threats. As AI agents become ubiquitous, centralized AI
+monitoring systems lag behind, unable to scale dynamically lock step with AI agent
+evolution.134
+Enhanced user interfaces and IoT integration, while user-friendly, exacerbate
+centralized AI monitoring of AI agents because interfaces create data bottlenecks as AI
+agents proliferate.135 The circular reliance on AI to interpret complex data assumes static
+scalability, ignoring the exponential growth of transactions.136 Decentralized systems can
+handle these issues better through distributed processing as discussed further below.
+7. Decentralized AI Agent Monitoring Solutions
+The proposed decentralized governance system for monitoring AI agent transaction
+execution—achieved through the integration of web3 community software with
+federated communication platforms—presents a robust alternative to traditional
+AI-driven supervision. The proposed system for monitoring AI agent transaction
+execution—integrating web3 community software, federated communication platforms,
+blockchain, smart contracts, WDAGs, and community-driven validation
+mechanisms—offers significant advantages over conventional, centralized AI-driven
+supervision.
+By ensuring transparency and accountability, facilitating decentralized
+decision-making, and promoting real-time, automated responses, the proposed system
+not only mitigates inherent risks associated with centralization but also fosters an
+inclusive, and robust governance framework. This holistic approach aligns AI operations
+with both regulatory frameworks and community values, setting new standards for the
+development and deployment of AI technologies. Collectively, these advantages
+demonstrate that a decentralized governance model is superior to AI-driven supervision
+for ensuring the secure, compliant, and efficient execution of AI agent transactions in
+modern digital infrastructures.
+7.1. Transparency and Accountability
+At the heart of the proposed decentralized AI agent monitoring system lies
+blockchain technology, which guarantees that every decision and transaction is recorded
+on an immutable ledger. This permanent, tamper-proof record enables public
+verification and fosters accountability by ensuring that no single entity can alter the
+historical record of AI agent activities. In contrast, AI-driven supervision, often
+operating within centralized frameworks, can obscure accountability through opaque
+decision-making processes and data handling. The blockchain-based model, by contrast,
+enhances trust among stakeholders because every action is transparently logged and
+subject to independent audit.137
+
+Future Internet 2025, 17, x FOR PEER REVIEW15 of 21
+7.2. Decentralized Decision-Making
+Unlike centralized AI agent monitoring—which relies on a limited number of
+systems or algorithms making decisions—the proposed decentralized AI agent
+monitoring model leverages the distributed nature of web3 technology to facilitate
+consensus-driven decision-making among a diverse group of stakeholders. This
+decentralized approach minimizes the risk of bias and single points of failure, as
+governance decisions are made collectively rather than being subject to the limitations or
+potential errors of a solitary AI system. This inclusive mechanism improves the overall
+integrity of transaction monitoring by incorporating varied perspectives and expertise.138
+7.3. Web3 Governance via Federated Communication for Operational Efficiency
+The proposed integration of federated communication platforms such as Matrix
+with its Synapse server distributes data processing tasks across multiple nodes. This
+federated model not only scales the monitoring of AI transactions efficiently but also
+maintains data privacy by processing sensitive information locally. In contrast,
+centralized AI monitoring systems typically require aggregating data into a single
+repository, which creates a vulnerability by exposing a single point of failure and
+potentially compromising sensitive data. The federated approach thus offers improved
+operational efficiency and enhanced privacy protections.139
+7.4. Smart Contracts for Automated Governance
+A significant advantage of the proposed web3 governance system is the utilization
+of smart contracts, which automate compliance checks, performance validations, and
+other governance tasks by executing predefined rules. These contracts execute
+automatically when pre-defined self enforcing conditions are met, ensuring that AI
+agent transactions are continuously monitored and managed according to
+community-established rules. The automated nature of smart contracts minimizes the
+need for manual oversight, reduces the potential for human error, and guarantees a
+consistent application of governance protocols—features that are often lacking in purely
+AI-driven supervisory models, though consensus delays may occur.140
+7.5. Validation Pools and Reputation Tokens
+The proposed system of web3 governance for AI agent monitoring further enhances
+decentralized oversight through the implementation of Validation Pools and Reputation
+(REP) tokens. Validation Pools are mechanisms in which members stake their reputation
+tokens to vote on the approval or disapproval of transactions, proposals, or activities.
+REP tokens are non-transferable tokens that represent a user's trustworthiness and
+influence. They affect governance participation, profit sharing, and overall
+decision-making power. Within these pools, community members stake REP tokens to
+evaluate the quality and compliance of AI agent transactions. The resulting consensus
+not only influences the minting of REP tokens but also serves as a decentralized method
+of quality control. This mechanism ensures that monitoring is driven by collective
+expertise and community considerations rather than solely by algorithmic
+determinations, thereby reducing systemic bias and increasing the legitimacy of
+governance decisions.141
+7.6. WDAGs for Structured Governance
+WDAGs provide a structured framework for mapping dependencies and
+establishing precedence among governance elements. By representing each governance
+rule or decision as a node and their relationships as weighted directed edges, WDAGs
+create a dynamic, traceable, and adaptable governance structure.142 The acyclic nature
+ensures no circular dependencies exist, preventing governance deadlocks, while weights
+
+Future Internet 2025, 17, x FOR PEER REVIEW16 of 21
+define the relative importance of connections between nodes. This approach allows for
+the efficient updating of protocols in response to new ethical or legal standards—an
+adaptability that is typically more limited in AI-driven supervision systems, which may
+operate on static algorithmic rules.143
+7.7. Decentralized Community Engagement
+Central to the proposed system is the active participation of a diverse community in
+the governance process. By enabling community-driven decision-making, the system
+incorporates a wide range of perspectives, which are essential for monitoring the societal
+impacts of AI agent transactions. This participatory approach contrasts sharply with
+centralized AI-driven monitoring systems, which may lack the necessary diversity in
+oversight and can inadvertently perpetuate narrow, biased perspectives.144 The
+combination of smart contracts and WDAGs in the proposed system enables real-time
+monitoring and rapid response to anomalies in AI agent transactions. This dynamic
+responsiveness is crucial for maintaining compliance and adapting to emerging threats
+or regulatory changes. While AI-driven supervision systems can detect anomalies, their
+centralized nature may delay response times or obscure the decision-making process.145
+The proposed decentralized framework, by contrast, ensures immediate corrective
+action through automated and transparent mechanisms.
+7.8. Regulatory Oversight: Adapting to AI Evolution with Feedback Loops
+The critique that regulatory oversight cannot keep pace with AI agents’ accelerating
+evolution, rendering static frameworks obsolete, is addressed by the proposed
+DAO-centric dynamic web3 governance model. The WDAG structure, with its on-chain
+forum and validation pools, enables continuous updates to governance rules through
+expert community consensus, incorporating real-time AI behavior data. Meanwhile,
+feedback loops—integrating live inputs to adjust regulations dynamically—ensuring
+adaptability to self-optimizing AI algorithms. By automating the integration of evolving
+standards via smart contracts, the system efficiently mitigates fraud and consumer harm
+across ubiquitous AI deployments.
+7.9. Dynamic Scalability Through Decentralized Tools
+The limitation of specialized AI monitoring services as static tools unable to adapt
+to AI agents’ rapid diversification is overcome by the DAO’s decentralized, scalable
+architecture. The WDAG-based forum and validation pools leverage community-driven
+analytics, scaling computationally via roll-ups—off-chain activities consolidated
+on-chain—to handle pervasive AI transactions. The proposed feedback loop model
+supports this by enabling real-time risk prediction and adjustment, ensuring efficiency
+as AI agents evolve. This dynamic system preempts risks, surpassing the static vision
+critiqued.
+7.10. Enhanced Governance via WDAG Adaptability
+The concern that traditional DAOs are overwhelmed by AI ubiquity due to static
+governance is rectified by the proposed system’s WDAG-enhanced DAO. The WDAG’s
+acyclic, weighted structure dynamically integrates new AI behaviors as posts, adapting
+smart contracts through validation pools to manage computational loads. The proposed
+model’s emphasis on feedback loops ensures DAOs evolve rules based on real-time AI
+activity, reducing vulnerability to exploits and enabling fruitful governance of an
+AI-dominated ecosystem. This adaptability addresses the scalability and flexibility gaps
+identified.
+7.11. Securing Integrity with WDAG Oversight
+
+Future Internet 2025, 17, x FOR PEER REVIEW17 of 21
+The risk of unchecked AI self-monitoring, where evolving agents might collude or
+evade oversight, is mitigated by the DAO’s WDAG framework. By treating AI models as
+posts within the WDAG, linked to governance precedents via weighted edges, the
+system enforces accountability through community-validated smart contracts. The
+proposed feedback loops monitor interactions in real time, preventing manipulation
+with cryptographic safeguards embedded in the blockchain. This dynamic oversight
+ensures viability as AI agents become ubiquitous.
+7.12. Scalable Convergence via Real-Time Data
+The shortfall in IoT integration—unable to scale with AI agents’ rapid pace—is
+resolved by the DAO’s integration of federated communications and WDAG analytics.
+The Matrix platform and real-time IoT data feeds, processed through the WDAG,
+address latency and secure data across complex transactions. The proposed governance
+feedback loops adapt monitoring using live inputs, ensuring efficiency against AI’s
+exponential growth. This practical, scalable solution overcomes the static linkage
+critique.
+The proposed dynamic evolutionary DAO-centric web 3 governance system, with
+its WDAG-based governance, directly addresses the monitoring issues by offering a
+dynamic, scalable, and anticipatory framework. Leveraging feedback loops—as author
+has advocated for almost a decade—it adapts to AI agents’ rapid evolution and
+ubiquity, ensuring efficient, fruitful oversight.
+8. Conclusion
+In conclusion, this paper has shown the inherent limitations of traditional,
+centralized AI-driven monitoring systems in overseeing the transaction execution of AI
+agents, particularly within the rapidly evolving landscape of decentralized digital
+infrastructures. These conventional approaches, characterized by opacity, susceptibility
+to bias, and single points of failure, are increasingly inadequate in addressing the
+complexities introduced by AI agents operating on cryptocurrency payment rails. In
+response, the proposed decentralized governance model, rooted in a web3 DAO-centric
+framework, emerges as a transformative solution, offering a robust, transparent, and
+adaptive alternative that aligns technological oversight with both community values and
+regulatory imperatives.
+Looking forward, the web3 DAO-centric governance system provides innovative
+solutions to the multifaceted challenges of AI agent monitoring. By harnessing
+blockchain’s immutable ledger, smart contracts, and WDAGs, the proposed model
+ensures real-time transparency, automated compliance, and structured adaptability,
+effectively mitigating risks such as fraud, regulatory lag, and systemic bias. The
+integration of federated communication platforms and validation pools further enhances
+scalability and privacy, distributing oversight across a diverse stakeholder community
+and fostering a resilient ecosystem capable of evolving alongside AI advancements.
+Crucially, the incorporation of feedback loops—drawing on real-time data and
+community consensus—enables the system to anticipate and adapt to the accelerating
+pace of AI agent proliferation, addressing scalability bottlenecks and interoperability
+deficits that plague current frameworks.
+This forward-looking approach not only overcomes the shortcomings of centralized
+and static monitoring solutions but also sets a new standard for the future of AI
+governance. By empowering decentralized communities to actively shape oversight
+protocols, the proposed system ensures that AI agent transactions remain secure,
+compliant, and efficient, even as their ubiquity transforms digital and economic
+landscapes. As AI and blockchain technologies continue to converge, the web3
+DAO-centric model offers a scalable, democratic, and anticipatory framework that
+
+Future Internet 2025, 17, x FOR PEER REVIEW18 of 21
+promises to safeguard societal interests while unlocking the full potential of
+autonomous digital systems. Future research and implementation efforts should focus
+on refining these mechanisms, ensuring their practical deployment, and fostering
+interdisciplinary collaboration to realize a governance paradigm that thrives in an
+AI-driven world.
+References
+1. Professor of Law. The author is grateful for excellent research assistance from Michael Bernardi, research assistant.
+2. See, e.g., Haoxiang Luo et al., A Perspective of Trusted Artificial Intelligence When Blockchain Meets Large Language Models, 599
+NEUROCOMPUTING 1 (2024), https://doi.org/10.1016/j.neucom.2024.128089.
+3. See, e.g., Zhonghua Zhang et al., Recent Advances in Blockchain and Artificial Intelligence Integration: Feasibility Analysis,
+Research Issues, Applications, Challenges, and Future Work, 2021 SEC. & COMM. NETWORKS 1, 4-5 (2021),
+https://doi.org/10.1155/2021/9991535.
+4. See, e.g., Sandner et al., Convergence of Blockchain, IoT, and AI, 3 FRONTIERS BLOCKCHAIN, at 3-5 (2020),
+https://doi.org/10.3389/fbloc.2020.522600.
+5. See, e.g., Nitine Rane et al., Blockchain and Artificial Intelligence (AI) Integration for Revolutionizing Security and Transparency in
+Finance 1, 10-11 (SSRN, Dec. 2023), http://dx.doi.org/10.2139/ssrn.4644253.
+6. See, e.g., Nakhoon Choi & Heeyoul Kim, Technological Convergence of Blockchain and Artificial Intelligence: A Review and
+Challenges, 14 ELECTRONICS 84, 23-24 (2025), https://doi.org/10.3390/electronics14010084.
+7. See, e.g., Satish Kumar et al., Artificial Intelligence and Blockchain Integration in Business: Trends from a Bibliometric-Content
+Analysis, 25 INFO. SYS. FRONTIER 871, 892-893 (2023), https://doi.org/10.1007/s10796-022-10279-0.
+8. See, e.g., Luo et al., supra note 2 at, 4, 8, & 10.
+9. See, e.g., Abdullah Ayub Khan et al., The Collaborative Role of Blockchain, Artificial Intelligence, and Industrial Internet of Things in
+Digitalization of Small and Medium-size Enterprises, 13 SCIENTIFIC REPORTS 1656, 1-2 (2023),
+https://doi.org/10.1038/s41598-023-28707-9.
+10. See, e.g., Mark C. Ballandies et al., A Taxonomy for Blockchain-based Decentralized Physical Infrastructure Networks (DePIN), 2023
+IEEE WORLD FORUM INTERNET THINGS at 1 (2023), https://doi.org/10.1109/WF-IoT58464.2023.10539514.
+11. See, e.g., Zhibin Lin et al., Decentralized Physical Infrastructure Network (DePIN): Challenges and Opportunities, ARXIV 2406.02239v1
+at 2-4, 6-7 (June 2024), https://arxiv.org/html/2406.02239v1.
+12. See, e.g., Alejandro Baldominos & Yago Saez, Coin.AI: A Proof-of-Useful-Work Scheme for Blockchain-Based Distributed Deep
+Learning, 8 ENTROPY 723, at 7-14 (2019), https://doi.org/10.3390/e21080723.
+13. See, e.g., Mohsen Soori et al., AI-powered Blockchain Technology in Industry 4.0, a Review, 1 J. ECONOMY & TECH. 222, 223-226,
+231-232 (2023), https://doi.org/10.1016/j.ject.2024.01.001.
+14. See, e.g., Xiang Hui & Catherine Tucker, Decentralization, Blockchain, Artificial Intelligence (AI): Challenges and Opportunities, at
+17-22 (SSRN, Dec. 2024), http://dx.doi.org/10.2139/ssrn.4601788.
+15. See, e.g., Vincent Charles et al., A Critical Analysis of the Integration of Blockchain and Artificial Intelligence for Supply Chain, 327
+ANNALS OPERATION RSCH. 7, at 3-9 (2023), https://doi.org/10.1007/s10479-023-05169-w; Nitine Rane et al., supra note 5.
+16. See, e.g., Moetez Abdelhamid et al., A Review on Blockchain Technology, Current Challenges, and AI-Driven Solutions, 57 ACM
+COMPUTING SURVEYS 1 (2024), https://doi.org/10.1145/3700641. Moreover, regulatory frameworks must evolve concurrently with
+technological progress to prevent misuse and uphold ethical standards. See, e.g., Oleksandr Kuznetsov et al., On the Integration
+of Artificial Intelligence and Blockchain Technology: A Perspective About Security, 12 IEEE ACCESS 3881 (2024),
+https://doi.org/10.1109/ACCESS.2023.3349019; Ahmed M. Shamsan Saleh, Blockchain for Secure and Decentralized Artificial
+Intelligence in Cybersecurity: A Comprehensive Review, 5 BLOCKCHAIN: RSCH. & APPLICATIONS (2024),
+https://doi.org/10.1016/j.bcra.2024.100193.
+17. See, e.g., Al Montha Al Shareef et al., Integration of Blockchain with Artificial Intelligence Technologies in the Energy Sector: A
+Systematic Review, 12 FRONTIERS IN ENERGY RSCH., at 1-7 (2024), https://doi.org/10.3389/fenrg.2024.1377950.
+18. For a foundational exploration of these principles, see STUART J. RUSSELL & PETER NORVIG, ARTIFICIAL INTELLIGENCE: A MODERN
+APPROACH, at 31–34 (3d ed. 2010) (detailing the theoretical underpinnings of intelligent agents and their interaction with users).
+19. For an in-depth examination of these techniques, see IAN H. WITTEN ET AL., DATA MINING: PRACTICAL MACHINE LEARNING TOOLS
+AND TECHNIQUES 353–376 (3rd ed. 2016) (elucidating the application of machine learning in data-intensive environments).
+20. See EFRAIM TURBAN ET AL., ELECTRONIC COMMERCE 2018: A MANAGERIAL AND SOCIAL NETWORKS PERSPECTIVE 191–195 (9th ed. 2018)
+(discussing predictive analytics in e-commerce and trading systems).
+21. The technological infrastructure supporting such interactions is rigorously examined in Stefan Tilkov & Steve Vinoski, Node.js:
+Using JavaScript to Build High-Performance Network Programs, 14 IEEE INTERNET COMPUTING 80, 81-83 (2010) (exploring scalable
+network programming paradigms) https://www.doi.org/10.1109/MIC.2010.145.
+22. See e.g., Fatima Dakalbab et al., Artificial intelligence techniques in financial trading: A systematic literature review, 36 J. KING SAUD
+UNIV. – COMPUTER INFO. SCIENCES (Article No. 102015), at 3-6, https://doi.org/10.1016/j.jksuci.2024.102015 (for an analysis of AI in
+trading); see also, AI agents for retail and e-commerce: Capabilities, components, use cases, implementation, and benefits, LEEWAYHERTZ,
+
+Future Internet 2025, 17, x FOR PEER REVIEW19 of 21
+https://www.leewayhertz.com/ai-agents-in-retail-and-ecommerce/ (last visited, Mar. 2, 2025) (for an analysis of AI agents in
+retail and e-commerce)
+23. See Andrew Y. Ng & Michael I. Jordan, On Discriminative vs. Generative Classifiers: A Comparison of Logistic Regression and Naive
+Bayes, ADVANCES NEURAL INFO. PROCESSING SYSTEMS 841–848 (2002) (comparing adaptive learning models)
+https://papers.nips.cc/paper_files/paper/2001/hash/7b7a53e239400a13bd6be6c91c4f6c4e-Abstract.html.
+24. For an applied perspective on feedback mechanisms in data-driven systems, see DURSUN DELEN, REAL-WORLD DATA MINING:
+APPLIED BUSINESS ANALYTICS AND DECISION MAKING 126–129 (FT Press 2014) (highlighting the role of analytics in performance
+reporting).
+25. For an analysis of market microstructure principles, including performance benchmarking and timing strategies relevant to
+high-frequency algorithmic trading, see LARRY HARRIS, TRADING AND EXCHANGES: MARKET MICROSTRUCTURE FOR PRACTITIONERS
+451–460 (Oxford Univ. Press 2003) (elucidating the role of automated systems in modern financial markets).
+26. This application is explored in J. Ben Schafer et al., Recommender Systems in E-Commerce, PROC. 1ST ACM CONF. ELEC. COM. 158
+(1999) (detailing the algorithmic foundations of personalized shopping agents) https://doi.org/10.1145/336992.337035.
+27. This functionality is analyzed in DIANE J. COOK & SAJAL K. DAS, SMART ENVIRONMENTS: TECHNOLOGY, PROTOCOLS, AND APPLICATIONS
+135–148 (John Wiley & Sons 2004) (discussing the technological infrastructure of intelligent home systems).
+28. For a philosophical and practical exploration of these challenges, see LUCIANO FLORIDI, THE ETHICS OF INFORMATION 76–82 (Oxford
+Univ. Press 2013) (examining the ethical dimensions of informational technologies, including AI and arguing that ethical
+frameworks must evolve alongside technological advancements to ensure accountability and fairness, a perspective
+increasingly relevant as AI agents assume greater autonomy).
+29. Vitalik Buterin, Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform, ETHEREUM 5-6 (2013),
+https://ethereum.org/en/whitepaper/.
+30. ARVIND NARAYANAN ET AL., BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES: A COMPREHENSIVE INTRODUCTION 123-126 (Princeton
+University Press 2016).
+31. CRAIG CALCATERRA & WULF A. KAAL, DECENTRALIZATION: TECHNOLOGY’S IMPACT ON ORGANIZATIONAL AND SOCIETAL STRUCTURE 54-55
+(2021).
+32. NARAYANAN ET AL., supra note 30, at 145-148.
+33. Fabian Schär, Decentralized Finance: On Blockchain- and Smart Contract-Based Financial Markets FED. RSRV. BANK ST. LOUIS REV. 153,
+157-159 (2021), https://doi.org/10.20955/r.103.153-74.
+34. PRIMAVERA DE FILIPPI & AARON WRIGHT, BLOCKCHAIN AND THE LAW: THE RULE OF CODE 78-80 (Har. University Press 2018).
+35. Eli Ben-Sasson et al., Zerocash: Decentralized Anonymous Payments from Bitcoin, 2014 IEEE SYMP. SEC. PRIV. 459, 461-462 (2014),
+https://doi.org/10.1109/SP.2014.36.
+36. Id. at 462-463.
+37. NARAYANAN ET AL., supra note 30, at 130-132.
+38. Justin, AI Agents on Base BLOCKBASE (Oct. 25, 2024), https://insights.blockbase.co/ai-agents-on-base/.
+39. Ana Paula Pereira, Biconomy Onboards AI Agents for Onchain Transactions, COINTELEGRAPH (Jun. 11, 2024),
+https://cointelegraph.com/news/biconomy-ai-agents-on-chain-transactions.
+40. CHAINALYSIS, https://www.chainalysis.com/ (last visited Feb. 27, 2025).
+41. MASSIMO BARTOLETTI ET AL., An Empirical Analysis of Smart Contracts: Platforms, Applications, and Design Patterns, in FIN.
+CRYPTOGRAPHY AND DATA SEC. 494, 502-504 (Michael Brenner et al. eds., 2017) (Lecture Notes in Comput. Sci. Vol. 10323).
+42. Ballandies et al., supra note 10, at 5.
+43. Zhibin Lin et al., Decentralized Physical Infrastructure Networks (DePIN): Challenges and Opportunities, IEEE NETWORK, at 6 (Early
+Access Oct. 29, 2024), https://doi.org/10.1109/MNET.2024.3487924.
+44. DE FILIPPI & WRIGHT, supra note 34, at 150-152.
+45. NICK BOSTROM, SUPERINTELLIGENCE: PATHS, DANGERS, STRATEGIES 115-118, 138-140 (Oxford Univ. Press 2014).
+46. Kuznetsov et al., supra note 16, at 3881-3882.
+47. DE FILIPPI & WRIGHT, supra note 34, at 165-167.
+48. Calcaterra & Kaal, supra note 31, at 74; see also Aaron Wright & Primavera De Filippi, Decentralized Blockchain Technology and
+the Rise of Lex Cryptographia, at 16 (Mar. 12, 2015) (unpublished manuscript), http://dx.doi.org/10.2139/ssrn.2580664.
+49. BOSTROM, supra note 45, at 137-138, 140-142.
+50. Kuznetsov et al., supra note 16, at 3885-3886.
+51. ANDREAS M. ANTONOPOULOS, MASTERING BITCOIN: PROGRAMMING THE OPEN BLOCKCHAIN 236-237 (1d ed. 2014).
+52. KEVIN WERBACH, THE BLOCKCHAIN AND THE NEW ARCHITECTURE OF TRUST 132-135 (MIT Press 2018).
+53. Joshua de Vos & Jacob Joseph, CoinDesk 20 Quarterly Report Q4 2024 Market Commentary and Analysis, COINDESK 18-20 (2024),
+https://downloads.coindesk.com/cd3/CDI/CoinDesk+20+Quarterly+Report.pdf.
+54. Justin, supra note 38.
+55. Pereira, supra note 39.
+56. CHAINALYSIS, supra note 40.
+57. Nathan Reiff, Cryptocurrency Exchanges: What They Are and How to Choose, Investopedia (Nov. 22, 2024),
+https://www.investopedia.com/tech/190-cryptocurrency-exchanges-so-how-choose/.
+
+Future Internet 2025, 17, x FOR PEER REVIEW20 of 21
+58. COINBASE, Coinbase Developer Platform: Wallet Command Center,
+https://docs.cdp.coinbase.com/learn/docs/wallet-command-center (last visited Feb. 28, 2025).
+59. Id.
+60. Id.
+61. Chainalysis Team, Introduction to Cryptocurrency Exchange Compliance, CHAINALYSIS (Nov. 21, 2024),
+https://www.chainalysis.com/blog/introduction-to-cryptocurrency-exchange-compliance-crypto-businesses-2024/.
+62. Buterin, supra note 29, at 13.
+63. Delegated Authorization Network, BICONOMY, https://www.biconomy.io/delegated-authorisation-network (last visited Feb. 28,
+2025).
+64. Id.
+65. Id.
+66. Securing the AI-Driven Crypto Future: How Biconomy's Permissions Infrastructure Empowers Users, BICONOMY (Dec. 16, 2024),
+https://www.biconomy.io/post/securing-the-artificial-intelligence-driven-crypto-future-biconomy-permissions-infrastructure.
+67. Id.
+68. Elliptic, Elliptic Horizon Scanning Report 2024: AI-Enabled Crime in the Cryptoasset Ecosystem, ELLIPTIC 46-49 (2024),
+https://www.elliptic.co/resources/ai-enabled-crime-in-the-cryptoasset-ecosystem.
+69. CHAINALYSIS, supra note 40.
+70. CHAINALYSIS, supra note 40.
+71. CHAINALYSIS, supra note 40.
+72. Financial Action Task Force, Targeted Update on Implementation of the FATF Standards on Virtual Assets and Virtual Asset Service
+Providers, FATF at 9–12, 26–31, 32 (2024),
+https://www.fatf-gafi.org/content/dam/fatf-gafi/recommendations/2024-Targeted-Update-VA-VASP.pdf.
+73. Id.
+74. BOSTROM, supra note 45, at 128-129.
+75. See for an overview of proprietary monitoring mechanisms Alan Chan et al., Visibility into AI Agents, 24 PROC. 2024 ACM CONF.
+FAIRNESS, ACCOUNTABILITY, TRANSPARENCY 958, 961-965 (Jun. 5, 2024), https://doi.org/10.1145/3630106.3658948; c.f. Akira AI,
+Information Security Policy Enforcement AI Agents, AKIRA AI, https://www.akira.ai/ai-agents/policy-enforcement-agent (last
+visited Mar. 3, 2025); Relevance AI, Information Security Policy Enforcement AI Agents, RELEVANCE AI,
+https://relevanceai.com/agent-templates-tasks/information-security-policy-enforcement-ai-agents (last visited Mar. 3, 2025)
+76. Id.
+77. Id.
+78. STUART RUSSELL, HUMAN COMPATIBLE: ARTIFICIAL INTELLIGENCE AND THE PROBLEM OF CONTROL 89-92 (Penguin 2019).
+79. Id.
+80. WERBACH, supra note 52, at 139-166.
+81. Financial Action Task Force, supra note 72, at 28-33.
+82. Financial Action Task Force, supra note 72, at 20-31.
+83. C.f. HAWK AI, https://hawk.ai/ (last visited Mar. 3, 2025); Symphony AI, Detect and stop criminals with AI-powered AML
+transaction monitoring software, SYMPHONY AI, https://www.symphonyai.com/financial-services/transaction-monitoring/ (last
+visited Mar. 3, 2025); Striim Team, Real-Time AI-Powered Fraud Detection: Safeguarding FinServ Transactions, STRIIM,
+https://www.striim.com/blog/real-time-ai-powered-fraud-detection-safeguarding-finserv-transactions/ (last visited Mar. 3,
+2025).
+84. Id.
+85. Elliptic, supra note 68, at 46-49.
+86. Elliptic, supra note 68, at 48-49.
+87. Wulf A. Kaal, Ai Governance Via Web3 Reputation System, STAN. J. BLOCKCHAIN L. & POL’Y, at 26-28 (JAN. 3, 2025),
+https://stanford-jblp.pubpub.org/pub/aigov-via-web3.
+88. BOSTROM, supra note 45, at 140-142, 205-206.
+89. BOSTROM, supra note 45, at 145-147.
+90. RUSSELL, supra note 78, at 89.
+91. BOSTROM, supra note 45, at 145-147.
+92. Kuznetsov et al., supra note 16, at 3890.
+93. Kuznetsov et al., supra note 16, at 3887.
+94. Kuznetsov et al., supra note 16, at 3887-3888.
+95. Gene Alvarez et al., Top Strategic Technology Trends for 2025, GARTNER (Oct. 21, 2024),
+https://www.gartner.com/doc/reprints?id=1-2JVTU0M8&ct=250106&st=sbp-strategic-technology-trends-for-2025.
+96. 2025 Crypto Crime Report, TRMLABS (2025), https://www.trmlabs.com/2025-crypto-crime-report.
+97. Id.
+98. WERBACH, supra note 52, at 138-140.
+99. See, e.g., Saleh, supra note 16, 3890.
+
+Future Internet 2025, 17, x FOR PEER REVIEW21 of 21
+100. See, e.g., Nitine Rane et al., supra note 5, at 2.
+101. See, e.g., Kuznetsov et al., supra note 16, at 3881-3897.
+102. See, e.g., Safak Kayikci & Taghi M. Khoshgoftaar, Blockchain Meets Machine Learning: A Survey, 11 J. BIG DATA, at 24 (Art. No. 9,
+2024), https://doi.org/10.1186/s40537-023-00852-y.
+103. See, e.g., Rakibul Hasan Chowdhury, Blockchain and AI: Driving the Future of Data Security and Business Intelligence, 23 WORLD J.
+RSCH. & REV. 2559, 2565 (2024), https://doi.org/10.30574/wjarr.2024.23.1.2273.
+104. See, e.g., Abdelhamid et al., supra note 16, at 20.
+105. See, e.g., Dalila Ressi et al., AI-enhanced Blockchain Technology: A Review of Advancements and Opportunities, 225 J. NETWORK &
+COMP. APPLICATIONS, at 12 (Article No. 103858, 2024), https://doi.org/10.1016/j.jnca.2024.103858.
+106. Wenxiu Ding et al., A Survey on Data Fusion in Internet of Things: Towards Secure and Privacy-Preserving Fusion, 51 INFO. FUSION,
+129, 137 (2019), https://doi.org/10.1016/j.inffus.2018.12.001.
+107. As proposed by Kaal; Sandner et al., supra note 4 at 17-19, 23-25, 27-29.
+108. Gavin Wood, Ethereum: A Secure Decentralised Generalised Transaction Ledger, 7-9 (2014),
+https://ethereum.github.io/yellowpaper/paper.pdf.
+109. Financial Action Task Force, supra note 72 at 20-25.
+110. Eli Ben-Sasson et al., supra note 35, at 464.
+111. BOSTROM, supra note 45, at 115-118.
+112. RUSSELL, supra note 78, at 93.
+113. Chan et al., supra note 75, at 965.
+114. BOSTROM, supra note 45, at 140-142.
+115. Wulf A. Kaal, Dynamic Regulation for Innovation, (SSRN, Aug. 27, 2016), http://dx.doi.org/10.2139/ssrn.2831040.
+116. WULF A. KAAL, Evolution of Law: Dynamic Regulation in a New Institutional Economics Framework, in FESTSCHRIFT IN HONOR OF
+CHRISTIAN KIRCHNER 1211 (Mohr Siebeck 2014).
+117. Wright & De Filippi, supra note 48 at 37.
+118. Kaal, supra note 87, at 27-29, 31-36.
+119. See supra part Shortcomings of Expected Future Monitoring Solutions, at 27.
+120. WERBACH, supra note 52, at 132-135.
+121. Saleh, supra note 16, at 4-6.
+122. Nitine Rane et al., supra note 5, at 10-12.
+123. BOSTROM, supra note 45, at 115-118.
+124. Kuznetsov et al., supra note 16, at 3885-3886.
+125. Kaal, supra note 117, at 1215.
+126. Kayikci & Khoshgoftaar, supra note 102, at 8-10.
+127. Kuznetsov et al., supra note 16, at 3887-3888.
+128. Kayikci & Khoshgoftaar, supra note 102, at 12-14.
+129. Chowdhury, supra note 103, at, 5-7. Decentralized alternatives mitigate this by distributing oversight, a resilience absent here,
+see Saleh, supra note 16, at 6-8.
+130. Chowdhury, supra note 103, at 8-10.
+131. Abdelhamid et al., supra note 16, at 10-12.
+132. Kaal, supra note 117, at 1219.
+133. Abdelhamid et al., supra note 16, at 14-16.
+134. RUSSELL, supra note 78.
+135. Ressi et al., supra note 105, at 6-8.
+136. Sandner et al., supra note 4, at 4-6.
+137. See, e.g., Luo et al., supra note 2.
+138. See, e.g., Zhang et al., supra note 3.
+139. See, e.g., Sandner et al., supra note 4.
+140. See, e.g., Sandner et al., supra note 4; see also, e.g., Nitine Rane et al., supra note 5.
+141. See, e.g., Baldominos & Saez, supra note 13.
+142. Kaal, supra note 87, at 29-34.
+143. See, e.g., Khan et al., supra note 9.
+144. See, e.g., Kumar et al., supra note 7.
+145. See, e.g., Kuznetsov et al., supra note 16, at 3881-3897.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury
+to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

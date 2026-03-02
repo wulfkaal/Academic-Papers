@@ -1,0 +1,1453 @@
+SYSTEMIC RISK OF PRIVATE FUNDS
+THE SYSTEMIC RISK OF PRIVATE FUNDS AFTER THE DODD-FRANK ACT
+BY
+WULF A. KAAL *
+ABSTRACT
+The Financial Stability Oversight Council (FSOC) was created under the Dodd-
+Frank Act with the primary mandate of guarding against systemic risk and correcting
+perceived regulatory weaknesses that may have contributed to the financial crisis of
+2008-09. The SEC collects data pertaining to private fund advisers in order to facilitate
+the FSOC’s assessment of non-bank financial institutions’ potential systemic risks.
+Evidence that the SEC’s data collection encounters accuracy and consistency problems
+might hamper the FSOC’s ability to evaluate the systemic risk of private fund advisers.
+The author shows that while the SEC’s data plays a crucial role in all stages of FSOC’s
+systemic risk assessment of private fund advisers, the FSOC relies most heavily on some
+of the most problematic disclosure items collected by the SEC.
+* Associate Professor, University of Saint Thomas School of Law, Minneapolis (wulfkaal@sttthomas.edu).
+The author is grateful for research assistance from research librarians Valerie Aggerbeck and Robert N.
+Farris.
+1
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+TABLE OF CONTENTS
+I. INTRODUCTION ................................................................................................................................................ 3
+II. SYSTEMIC RISK OF PRIVATE FUNDS ....................................................................................................... 8
+III. PRIVATE FUND TRANSPARENCY UNDER THE DODD-FRANK ACT ........................................... 13
+1. Private Fund Adviser Registration and Disclosure ...................................................................... 15
+2. Systemic Risk Data .................................................................................................................................... 17
+IV. FINANCIAL STABILITY OVERSIGHT COUNCIL ................................................................................ 20
+1. Procedure for Systemic Risk Assessment of Private Funds ....................................................... 22
+2. Data Analysis .............................................................................................................................................. 25
+V. PRIVATE FUND DATA AND SYSTEMIC RISK ASSESSMENT .......................................................... 26
+1. Sub-optimality of Systemic Risk Data ................................................................................................ 27
+2. Impact on Systemic Risk Assessment .................................................................................................. 28
+VI. CONCLUSION .............................................................................................................................................. 29
+2
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+I. Introduction
+The possible systemic risk posed by the private fund industry has been the subject
+of a long policy debate. Prior to the financial crisis of 2008 and 2009, the demise of large
+private funds1 seemed to highlight the potential systemic risk posed by the private fund
+industry.2 The retailization of the hedge fund industry,3 and increasing hedge fund
+1 Prominent examples include: Long-Term Capital Management (LTCM) in 1998, see Philippe Jorion, Risk
+Management Lessons from Long-Term Capital Management, 6 EUR. FIN. MGMT. 277 (2000) (drawing risk
+management lessons from LTCM); Paul N. Roth & Brian H. Fortune, Hedge Fund Regulation in the
+Aftermath of Long-Term Capital Management, in HEDGE FUNDS: LAW AND REGULATION 83 (Iain Cullen &
+Helen Parry eds., 2001) (describing the industry response to LTCM’s collapse); Amaranth in 2006, René
+M. Stulz, Hedge Funds: Past, Present, and Future, 21 J. ECON. PERSP. 175, 188 (2007) (“[T]he Amaranth
+losses led to calls for regulation of hedge funds.”); see Ludwig B. Chincarini, The Amaranth Debacle: A
+Failure of Risk Measures or a Failure of Risk Management?, 10 J. ALTERNATIVE INV. 91, 92 (2007)
+(analyzing “the causes and details of the collapse of Amaranth”); other massive hedge fund failures such as
+Bailey Coates, Bayou Management, Cromwell Fund, Philadelphia Alternative Asset Management, Marin
+Capital, Aman Capital Global, Tiger Funds, Eifuku Master Trust, Lyceum Capital, and Wood River
+Partners. See MARK JICKLING & ALISON A. RAAB, CONG. RESEARCH SERV., RL33746, HEDGE FUND
+FAILURES 5–9 (2006).
+2 Ben S. Bernanke, Chairman, Bd. Of Governors of the U.S. Fed. Reserve Sys., Speech at the Federal
+Reserve Bank of Atlanta’s 2006 Financial Markets Conference: Hedge Funds and Systemic Risk (May 16,
+2006), available at http://www.federalreserve.gov/newsevents/speech/Bernanke20060516a.htm
+(“Following the LTCM crisis and the publication of the Working Group’s recommendations, the debate
+about hedge funds and the broader effects of their activities on financial markets abated for a time. That
+debate, however, has now resumed with vigor—spurred, no doubt, by the creation of many new funds,
+large reported inflows to funds, and a broadening investor base. Renewed discussion of hedge funds and of
+their benefits and risks has in turn led to calls for authorities to implement new policies, many of which will
+be topics of this conference. . . . Authorities’ primary task is to guard against a return of the weak market
+discipline that left major market participants overly vulnerable to market shocks. Continued focus on
+counterparty risk management is likely the best course for addressing systemic concerns related to hedge
+funds.”); See Regulation of Hedge Funds: Hearing Before the S. Comm. on Banking, Hous., & Urban
+Affairs, 109th Cong. 31 (2006) (statement of Christopher Cox, Chairman, SEC) (“[H]ad the Federal
+Reserve Bank of New York not intervened to organize a $3.6 billion bailout by the fund’s creditor banks,
+the bankruptcy of LTCM ‘could have potentially impaired the economies of many nations, including our
+own.’”).
+3 See generally Wulf A. Kaal, Hedge Fund Valuation: Retailization, Regulation, and Investor Suitability,
+28 REV. BANKING & FIN. L. 581 (2009); Registration Under the Advisers Act of Certain Hedge Fund
+Advisers, 69 Fed. Reg. 72,054, 72,058 (Dec. 10, 2004) (codified as amended at 17 C.F.R. pts. 275 & 279)
+(“Investors that have not been traditional hedge fund investors, including pension plans that have millions
+of beneficiaries, are thus today purchasing hedge funds. As a result of the participation by these entities in
+hedge funds, the assets of these entities are exposed to the risks of hedge fund investing. Losses resulting
+from hedge fund investing and hedge fund frauds may affect the entities’ obligations to their beneficiaries
+or pursue other intended purposes.”); Nicholas Chan et al., Systemic Risk and Hedge Funds (Nat’l Bureau
+of Econ. Research, Working Paper No. 11200, 2005), available at http://www.nber.org/papers/w11200
+(“[S]ince the collapse of Long Term Capital Management in 1998, it has become clear that hedge funds are
+also involved in systemic risk exposures. The hedge-fund industry has a symbiotic relationship with the
+banking sector, and many banks now operate proprietary trading units that are organized much like hedge
+funds. As a result, the risk exposures of the hedge fund industry may have a material impact on the
+banking sector, resulting in new sources of systemic risks.”); see also Hearing on the Nomination of
+William H. Donaldson, of New York, To Be a Member of the U.S. Securities and Exchange Commission
+Before the S. Comm. on Banking, Hous. & Urban Affairs, 108th Cong. 1, 37 (2003) (statement of William
+3
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+4
+adviser fraud further increased demands for a heightened level of supervision for the
+private fund industry.5 During6 and after the financial crisis, many commentators blamed
+the private fund industry for taking excessive risks that destabilized the economy and
+contributed to the financial crisis.7 Only a minority of scholars opined that private funds
+were not to blame.8 More recent studies suggest that financial markets may be
+destabilized by private funds.9
+H. Donaldson), available at http://www.gpo.gov/fdsys/pkg/CHRG-108shrg90929/pdf/CHRG-
+108shrg90929.pdf (describing the retailization of hedge funds as a “distressing move”).
+But see U.S. SEC. & EXCH. COMM’N, STAFF REPORT: IMPLICATIONS ON THE GROWTH OF HEDGE FUNDS 80
+(2003), available at http://www.sec.gov/news/studies/hedgefunds0903.pdf (“[T]he staff has not uncovered
+evidence of significant numbers of retail investors investing directly in hedge funds.”);
+4 Majed R. Muhtaseb & Chun Chun “Sylvia” Yang, Portraits of Five Hedge Fund Fraud Cases, 15 J. FIN.
+CRIME 179 (2008) (identifying fraud committed by hedge funds); Franklin R. Edwards, New Proposals to
+Regulate Hedge Funds: SEC Rule 203(b)(3)-2 (APEC Study Center, Columbia Univ. Discussion Paper No.
+35, 2004), http://www8.gsb.columbia.edu/apec/sites/apec/files/files/discussion/35EdwardsHedge.pdf
+(examining the Commission’s new proposal to address its current concerns about hedge funds, rule
+203(b)(3)-2, which would require the registration of most advisers to hedge funds with the SEC); Press
+Release, U.S. Sec. & Exch. Comm’n, SEC Adopts Dodd-Frank Act Amendments to Investment Advisers
+Act (June 22, 2011), available at http://www.sec.gov/news/press/2011/2011-133.htm (“These reporting
+requirements are designed to help identify practices that may harm investors, deter advisers’ fraud, and
+facilitate earlier discovery of potential misconduct.”); Registration Under the Advisers Act of Certain
+Hedge Fund Advisers, 69 Fed. Reg. 72,054, 72,078 (Dec. 10, 2004) (“Registration allows us to conduct
+examinations of hedge fund advisers, and our examinations provide a strong deterrent to advisers’ fraud,
+identify practices that may harm investors, and lead to earlier discovery of fraud that does occur.”).
+5 Registration Under the Advisers Act of Certain Hedge Fund Advisers, 69 Fed. Reg. at 72,077, 72,080.
+6 Hedge Funds and Systemic Risk in the Financial Markets: Hearing Before the H. Comm. on Fin. Servs.,
+110th Cong. 4 (2007) (statement of Rep. Spencer Bauchus); Id. at 8 (statement of E. Gerald Corrigan,
+Managing Director, Goldman Sachs & Company); Jón Daníelsson & Jean-Pierre Zigrand, Regulating
+Hedge Funds, 10 FIN. STABILITY REV. 29, 30 (2007) (“Hedge funds do . . . contribute to systemic risk
+whereby the failure of a systemically important hedge fund has the potential to create sufficient uncertainty
+in the markets for liquidity to dry up and for trading to cease with potentially costly consequences.”).
+7 155 CONG. REC. 30,851 (2009) (statement of Rep. Sheila Jackson-Lee) (“[The Dodd-Frank Act will]
+provide[] more transparency and tougher regulation of hedge funds, private equity firms, and credit rating
+agencies, whose seal of approval gave way to excessively risky practices that led to a financial collapse.”).
+8 Andrew W. Lo, Regulatory Reform in the Wake of the Financial Crisis of 2007-2008, 1 J. FIN. ECON.
+POL’Y 4, 16 (2009) (“While the shadow banking system has no doubt contributed to systemic risk in the
+financial industry, hedge funds have played only a minor role in the current financial crisis, as evidenced by
+the lack of attention they have received in the government’s recent bailout efforts.”); Roberta Romano,
+Against Financial Regulation Harmonization: A Comment 3 (Yale Law & Econ., Research Paper No. 414,
+2010), available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1697348 (“[T]here is an absence of
+evidence pointing to hedge funds as a contributing factor in the recent financial panic.”); See also Stephen
+Brown et al., Hedge Funds After Dodd-Frank, NYU STERN SCH. BUS. (July 19, 2010, 3:41 PM),
+http://w4.stern.nyu.edu/blogs/regulatingwallstreet/2010/07/hedge-funds-after-doddfrank.html (assessing
+hedge funds’ lack of contribution to systemic risk in general and during the recent crisis).
+9See further summary of literature in Part II below. See, e.g., Reint Gropp, How Important Are Hedge
+Funds in a Crisis?, FRBSF Economic Letter, Apr. 4, 2014, at 4, available at
+http://www.frbsf.org/economic-research/publications/economic-letter/2014/april/hedge-fund-risk-
+measurement-spillover-economic-crisis/ (finding “that hedge funds may play an even more prominent role
+in transmitting shocks to the rest of the financial market, and thus may amplify systemic risk more than
+previously thought.”). See also Tobias Adrian et al., Hedge Fund Tail Risk, in QUANTIFYING SYSTEMIC
+RISK 155, 155 (Joseph G. Haubrich & Andrew W. Lo eds., 2013) (“While hedge funds are liquidity
+providers in usual times, during times of market crisis, they can be forced to delever, potentially
+contributing to market volatility.”); Photis Lysandrou, The Primacy of Hedge Funds in the Subprime Crisis,
+4
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+In part in reaction to the systemic risk concerns posed by the private fund
+industry,10 Congress passed the Dodd-Frank Wall Street Reform and Consumer
+Protection Act of 2010 (Dodd-Frank Act).11 The Dodd-Frank Act defines potential
+systemic risk posed by a U.S. or foreign nonbank financial entity as the “material
+financial distress at the [company], or the nature, scope, size, scale, concentration,
+34 J. POST KEYNESIAN ECON. 225, 227 (2012) (“Take away hedge funds and a general financial crisis could
+still have occurred in 2007–8, but it is only because of the hedge funds that the crisis that actually occurred
+initially took on the specific form of a subprime crisis.”); John Kambhu et al., Hedge Funds, Financial
+Intermediation, and Systemic Risk 11–12, 291 FED. RES. BANK OF NEW YORK STAFF REP. 1, 11 (2007),
+available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1003210 (“If systemic risk is
+fundamentally about financial markets linkages to the real economy, then hedge funds create systemic risk
+to the extent that they can disrupt the ability of financial intermediaries or financial markets to efficiently
+provide credit. . . . [B]anks’ direct exposure to hedge funds has been growing proportionately with the
+hedge fund industry itself.”); Andrew W. Lo, Hedge Funds, Systemic Risk, and the Financial Crisis of
+2007-2008: Written Testimony for the House Oversight Committee Hearing on Hedge Funds 10 (Nov. 13,
+2008), http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1301217 (“[O]ver the past decade, these
+investors and funds have become central to the global financial system, providing loans, liquidity,
+insurance, risk-sharing, and other importan[t] services that used to be the exclusive domain of banks. But
+unlike banks—which are highly regulated entities (but less so, since the repeal of the Glass Steagall Act in
+1999), with specific capital adequacy requirements and leverage and risk constraints—hedge funds and
+their investors are relatively unconstrained. . . . [Hedge funds] can also cause market dislocation in
+crowded markets with participants that are not fully aware of or prepared for the crowdedness of their
+investments.”).
+10 Following the financial crisis, there were a number of calls both in the Department of Treasury and
+Congress to create procedures to deal with the systemic risk posed by private funds. Perspectives on Hedge
+Fund Registration: Hearing on H.R. 711 Before the Subcomm. On Capital Mkt., Ins., and Gov’t Sponsored
+Enterprises of the H. Comm. On Financial Services, 111th Cong. 6 (2009) (statement of Rep. David Scott,
+Member, Subcomm. On Capital Mkt., Ins. and Gov’t Sponsored Enterprises) (“It is of utmost importance
+that we continue to assess systemic risk related to these funds, as well as how their processes might be
+improved to ensure our financial markets are more secure in the future. Hedge funds indeed hold
+unmatched sway over our markets, and I believe supervisors must have the necessary tools to effectively
+monitor the systemic risk posed by hedge funds, improve market surveillance, assure effective oversight,
+and improve transparency of the level of risk in the financial markets related to hedge funds.”); U.S. DEP’T
+OF THE TREASURY, FINANCIAL REGULATORY REFORM: A NEW FOUNDATION 3 (2009),
+available at http http://www.treasury.gov/initiatives/Documents/FinalReport_web.pdf (“Financial
+institutions that are critical to market functioning should be subject to strong oversight. No financial firm
+that poses a significant risk to the financial system should be unregulated or weakly regulated. We need
+clear accountability in financial oversight and supervision. We propose…….The registration of advisers of
+hedge funds and other private pools of capital with the SEC.”) When Dodd-Frank was making its way
+through conference, the bills new regulatory controls to deal with private funds’ risks were mentioned by
+members as a reason to pass the legislation. 156 Cong. Rec. H5233, at H5238 (daily ed. June 30, 2010)
+(statement of Rep. Kanjorski, Conference Report on H.R. 4173). (“The bill that we are considering today
+contains a number of other worthwhile elements that should become law…….[such as] the registration of
+hedge fund managers and private equity fund advisers. To promote market integrity, we need those
+individuals who handle large sums of money and assets to register with the SEC and provide information
+about their trades and portfolios. While I remain concerned about the registration exemptions put in place
+by others during the legislative process, I believe that these reforms are necessary to improve the quality of
+regulation and protect against systemic risk. While hedge funds may not have directly caused this latest
+financial crisis, we do know that these investment vehicles have previously contributed to significant
+market instability, as was the case in the collapse of Long-Term Capital Management in 1998. Thus, this
+reform is an important step in understanding and controlling systemic risk.”)
+11 Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), Pub. L. No. 111-203,
+124 Stat. 1376 (2010) (codified as amended in scattered sections of the U.S.C)
+5
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+interconnectedness, or mix of the activities of the [company that], could pose a threat to
+the financial stability of the United States.”12
+To address concerns about the private fund industry’s possible systemic risk, the
+Dodd-Frank Act authorized the SEC to promulgate rules requiring registration and
+enhanced disclosure for private funds advisers,13 and facilitating data collection for the
+assessment of systemic risk. To fulfill its data collection obligations under the Dodd-
+Frank Act, the SEC Division of Investment Management adopted Form PF.14 Form PF
+requires private fund advisers to disclose their strategies, products, performance, changes
+in performance, financing information, risks metrics, counterparties and credit exposure,
+percentage of assets traded using algorithms, and the percentage of equity and debt,
+among others.15
+The reporting requirements in Form PF are intended to enable the FSOC,16 a
+council of banking and securities regulators tasked with the monitoring of systemic risk
+in U.S. financial markets, to fulfill its mandate.17 The FSOC was created under the Dodd-
+Frank Act18 with the mandate to correct perceived regulatory weaknesses that may have
+12 Id. at § 113(a)(1); See also W. Avery, Kathleen A. Scott & Lindsey Carson, Dodd-Frank Act Attempts to
+Curtail Systemic Risk, 127 BANKING L.J. 766, 768 (2010).
+13 Dodd-Frank Act §§ 402–408.
+14 See 17 C.F.R. § 275.204(b)-1; Reporting by Investment Advisers to Private Funds and Certain
+Commodity Pool Operators and Commodity Trading Advisors on Form PF, 76 Fed. Reg. 71,128 (Nov. 16,
+2011)(codified as amended at 17 C.F.R. pts. 275 & 279); SEC. & EXCH. COMM’N, OMB No. 3235-0679,
+FORM PF, REPORTING FORM FOR INVESTMENT ADVISERS TO PRIVATE FUNDS AND CERTAIN COMMODITY
+POOL OPERATORS AND COMMODITY TRADING ADVISORS (2011) [hereinafter Form PF], available at
+http://www.sec.gov/about/forms/formpf.pdf; SEC. & EXCH. COMM’N, OMB No. 3235-0049, FORM ADV,
+UNIFORM APPLICATION FOR INVESTMENT ADVISER REGISTRATION AND REPORT BY EXEMPT REPORTING
+ADVISERS [hereinafter FORM ADV], available at http://www.sec.gov/about/forms/formadv.pdf.
+15 Form PF, supra note 14.
+16 See Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,128-32 (establishing the FSOC to monitor
+and assess risks to the U.S. financial system and to promote financial stability); Id. at 71,142 (“Form PF has
+been designed to collect information to assist FSOC in monitoring and assessing systemic risks that private
+funds may pose . . . .”); Dodd-Frank Act § 112(a)(2)(A) (authorizing the FSOC to collect information to
+support its functions).
+17 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,129; see also Dodd-Frank Act §
+112(a)(2)(A)-(C) (“The purposes of the Council are—(A) to identify risks to the financial stability of the
+United States that could arise from the material financial distress or failure, or ongoing activities, of large,
+interconnected bank holding companies or nonbank financial companies, or that could arise outside the
+financial services marketplace; (B) to promote market discipline, by eliminating expectations on the part of
+shareholders, creditors, and counterparties of such companies that the Government will shield them from
+losses in the event of failure; and (C) to respond to emerging threats to the stability of the United States
+financial system.”); EDWARD V. MURPHY & MICHAEL B. BERNIER, CONG. RESEARCH SERV., R42083,
+FINANCIAL STABILITY OVERSIGHT COUNCIL: A FRAMEWORK TO MITIGATE SYSTEMIC RISK (2011),
+available at http://www.llsdc.org/assets/DoddFrankdocs/crs-r42083.pdf (describing the mission,
+membership, and scope of the FSOC and providing an analysis of FSOC-related policy issues Congress
+may face); Saule T. Omarova, Bankers, Bureaucrats, and Guardians: Toward Tripartism in Financial
+Services Regulation, 37 J. CORP. L. 621, 627 (2012) (explaining the FSOC’s charge to monitor and regulate
+systemic risk “throughout the entire U.S. financial sector”); Jason Rudderman, Article, Eliminating Wall
+Street’s Safety Net: How a Systemic Risk Premium Can Solve “Too Big To Fail”, 11 FLA. ST. U. BUS. REV.
+39, 46 (2012) (describing the responsibilities tasked to the FSOC).
+18 Dodd-Frank Act § 111.
+6
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+contributed to the financial crisis of 2008-09, including the insufficient supervision of
+large non-bank financial institutions, the complexity of financial institutions and the lack
+of coordination among financial regulators.19 The data collected via Form PF has been
+tailored primarily for the use of the FSOC.20 The role of Form PF involved not only
+collecting the necessary data to aid in the process of designating systemically significant
+financial institutions, but also serving the additional role of providing the FSOC with
+information to assess the risk of the private fund industry within the financial system as a
+whole.21
+Several observations from previous studies and anecdotal evidence suggest that
+the mandated data collection in Form PF could create issues for FSOC in evaluating the
+systemic risk of hedge funds.22 Despite overall acceptance of Form PF by the private
+fund industry, the core challenges for the SEC in Form PF include: the ambiguity of
+several questions on Form PF, private fund advisers’ disagreement with the definition of
+funds in Form PF and corresponding insufficiency of SEC guidance, insufficiency of
+private fund advisers’ existing reporting systems, and challenges in aggregating the
+required Form PF data.23
+This Article evaluates the feasibility of FSOC’s assessments of private funds’
+systemic risk in light of the identified core challenges for Form PF. Part I provides a
+basic overview of the ideas presented in this Article and introduces the debate over hedge
+funds’ systemic risk. Part II introduces the debate and literature on private funds’
+systemic risk. After a short introduction of the history of private fund transparency in the
+United States, Part III describes the legal requirements and private fund advisers’ data
+collection obligations under the SEC’s Form PF before assessing the FSOC’s utilization
+of Form PF data in Part IV. In Part V, the author introduces evidence from prior
+empirical studies suggesting that the data reported by private funds in Form PF could be
+suboptimal. Based on these findings, the author evaluates possible challenges for the
+systemic risk analysis performed by FSOC and the SEC as it pertains to private funds.
+Part IV concludes.
+19 See generally, MURPHY, supra note 17, at 1-2; Ben S. Bernanke, Chairman, Bd. Of Governors of the
+U.S. Fed. Reserve Sys., Speech at the 47th Annual Conference on Bank Structure and Competition:
+Implementing a Macroprudential Approach to Supervision and Regulation (May 5, 2011) [hereinafter
+Bernanke Speech 2011], available at
+http://www.federalreserve.gov/newsevents/speech/bernanke20110505a.htm; Emerich Gutter, Too-Big-to-
+Fail and the Financial Stability Oversight Council, Developments in Bank and Financial Law, 30 REV.
+BANKING & FIN. L. 73 (2010); Stavros Gadinis, From Independence to Politics in Financial Regulation,
+101 CAL. L. REV. 327, 369-70 (2013); EDWARD V. MURPHY, CONG. RESEARCH SERV., R43087, WHO
+REGULATES WHOM AND HOW? AN OVERVIEW OF U.S. FINANCIAL REGULATORY POLICY FOR BANKING AND
+SECURITIES MARKETS (2013), at 16-17, available at
+http://digitalcommons.ilr.cornell.edu/key_workplace/1148/). law
+20 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. 71,128, 71,129-71,130 (Nov. 16, 2011) (codified
+as amended 17 C.F.R. pts. 275 and 279) (suggesting that SEC would not necessarily have required the same
+level of reporting had the information reported on Form PF been intended for the sole use of the SEC).
+21 Securities/Section 20/Broker-Dealer, 40 BANKING & FIN. SERVICES POL’Y REP 26 (Dec. 2011).
+22 Wulf A. Kaal, Hedge Fund Manager Registration Under the Dodd-Frank Act, 50 SAN DIEGO L. REV.
+244-322 (2013) [hereinafter Kaal Registration]; Wulf A. Kaal, The Effect of Private Fund Disclosures
+under the Dodd-Frank Act (forthcoming) [hereinafter Kaal Disclosure].
+23 Id.
+7
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+II. Systemic Risk of Private Funds
+The debate on private funds’ systemic risk has taken place primarily in two major
+phases. One of the key events that triggered debate regarding private fund systemic risk
+was the 1998 collapse of Long-Term Capital Management (LTCM) and the bailout
+orchestrated by the New York Federal Reserve Bank.24 Some argued that the
+proliferation of hedge funds in combination with their risk/reward profile made hedge
+funds systemically risky.25 Others found that hedge funds can create market events such
+as the Long-Term Capital Management failure, which in turn can turn into global
+financial crises if there are many highly leveraged funds with illiquid portfolios and if
+those funds are obligors of a small number of major financial institutions.26 In addition to
+posing a direct systemic risk by damaging systemically important financial institutions,
+hedge funds can also pose an indirect threat to the financial system by generating a
+liquidity shock and increasing market volatility in key markets.27 Yet other scholars saw
+the combination of leverage and the complexity of hedge funds’ transactions employing
+derivative instruments and non-exchange traded derivative instruments as the main
+concerns in the field of hedge funds’ systemic risk.28 Hedge funds’ systemic risk is
+mainly the result of their pursuit of aggressive investment strategies and a significant
+level of leverage in combination with adverse fluctuations in market prices that can dry
+up credit and negatively affect the market price of collateral.29
+The 2008-09 global financial crisis changed market conditions and several related
+factors that contribute to private funds advisers’ posing a possible systemic risk,
+precipitating the second major wave of scholarship in the context of possible systemic
+implications of private funds.30 More specifically, the unprecedented growth of the
+24 See Ben S. Bernanke, Chairman, Bd. Of Governors of the U.S. Fed. Reserve Sys., Speech at the Federal
+Reserve Bank of Atlanta’s 2006 Financial Markets Conference: Hedge Funds and Systemic Risk (May 16,
+2006), available at http://www.federalreserve.gov/newsevents/speech/Bernanke20060516a.htm; see further
+supra note 1.
+25 Nicholas Chan et al., Do Hedge Funds Increase Systemic Risk?, 91 FEDERAL RES. BANK OF ATLANTA
+ECON. REV. 49 (2006), available at http://www.frbatlanta.org/filelegacydocs/erq406_lo.pdf.
+26 Nicholas Chan et al., Systemic Risk and Hedge Funds, in THE RISKS OF FINANCIAL INSTITUTIONS 235,
+236 (Mark Carey and René M. Stulz eds., 2007) (Pointing to the importance of two key themes post
+LTCM, liquidity and leverage, leverage can turn small losses into large losses and the more illiquid a
+portfolio the larger the impact of forced liquidations).
+27 Michael R. King & Philipp Maier, Hedge Funds and Financial Stability: The State of the Debate 1
+(Discussion Paper 2007-9, 2007), available at http://www.bankofcanada.ca/wp-
+content/uploads/2010/01/dp07-9.pdf. (Suggesting that: “while the potential for a systemic risk from the
+hedge fund sector is considered small, the potential for damage from such shocks may have increased due
+to the increased spread, complexity, and tighter linkages of the global financial system. Going forward, the
+relationship between large complex financial institutions and hedge funds must be monitored closely. In
+terms of policy, direct regulation that increases transparency – whether of counterparty exposures or trading
+positions – does not appear feasible, may create a moral-hazard problem, and may reduce overall market
+efficiency. Indirect regulation via prime brokers, market discipline, and improved risk management
+practices are the most promising approaches for addressing potential risks from the hedge fund sector.”).
+28 Hedge Funds and the Financial Market: Hearing Before the H. Comm. on Oversight and Gov’t Reform,
+110th Cong. 15-24 (2008) (statement of Professor David S. Ruder, Northwestern University School of
+Law); see generally Id.
+29 Anita I. Anand, Is Systemic Risk Relevant to Securities Regulation?, 60 U. TORONTO L.J. 941, 956 (2010)
+30 Reint Gropp, How Important Are Hedge Funds in a Crisis?, FRBSF Economic Letter, Apr. 4, 2014, at 1,
+available at http://www.frbsf.org/economic-research/publications/economic-letter/2014/april/hedge-fund-
+risk-measurement-spillover-economic-crisis/. (finding that: ”financial crises amplify the spillover effects
+8
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+private fund industry leading up to the financial crisis was a significant factor with
+knock-on effects in the changing assessment of the role of private funds’ systemic risk
+after the financial crisis. According to some estimates, private funds surpassed banks in
+size and importance during and after the financial crisis.31 The unprecedented growth in
+the private fund industry in combination with the low interest rate environment following
+the Federal Reserve’s quantitative easing after the financial crisis of 2008-09 resulted in
+private fund managers’ increasingly “reaching for yield”.32 The use of leverage and
+among certain types of financial institutions […] and hedge funds may be the most important transmitters
+of shocks during crises, more important than commercial banks or investment banks.”); TOBIAS ADRIAN,
+DANIEL COVITZ & NELLIE J. LIANG, FINANCIAL STABILITY MONITORING (2013); David Easley, Maureen
+O'Hara & Liyan Yang, Opaque Trading, Disclosure, and Asset Prices: Implications for Hedge Fund
+Regulation, 27 REV. FIN. STUD. 1190 (2013), available at http://rfs.oxfordjournals.org/content/27/4/1190;
+Laura Zakaras, Do Hedge Funds Pose a Systemic Risk to the Economy?, RAND CENTER FOR CORP.
+ETHICS AND GOVERNANCE (2012), http://www.rand.org/pubs/research_briefs/RB9680/index1.html; Lloyd
+Dixon, Noreen Clancy & Krishna B. Kumar, Hedge Funds, Systemic Risk, and Dodd-Frank: The Road
+Ahead, RAND CENTER FOR CORP. ETHICS AND GOVERNANCE (2013),
+http://www.rand.org/pubs/conf_proceedings/CF308.html; Barbara Novick, Systemic Risk and Asset
+Management: Improving the Financial Ecosystem for All Market Participants (Harvard L. Sch. EU-US
+Symposium, Concept Paper, Mar. 2014),
+http://www.law.harvard.edu/programs/about/pifs/symposia/europe/2014-europe/hls-symposium---b-
+novick---final.pdf; Maria Stromqvist, Hedge Funds and Their Impact on Systemic Stability, in RESEARCH
+HANDBOOK ON HEDGE FUNDS, PRIVATE EQUITY AND ALTERNATIVE INVESTMENTS 309 (Phoebus
+Athanassiou ed., 2012); Gregory W. Brown, Jeremiah Green & John R.M. Hand, Are Hedge Funds
+Systemically Important?, 20 J. DERIVATIVES 8 (2012); U.K. FIN. SERV. AUTHORITY, FINANCIAL SERVICES
+AUTHORITY, ASSESSING THE POSSIBLE SOURCES OF SYSTEMIC RISK FROM HEDGE FUNDS: A REPORT ON THE
+FINDINGS OF THE FSA’S HEDGE FUND SURVEY AND HEDGE FUND AS COUNTERPARTY SURVEY (2012),
+http://www.fsa.gov.uk/static/pubs/other/hedge-fund-report-aug2012.pdf; Markus K. Brunnermeier &
+Martin Oehmke, Bubbles, Financial Crises, and Systemic Risk (NBER Working Paper Series, Working
+Paper No. 18398, 2012), http://www.nber.org/papers/w18398.pdf?new_window=1; Stephen J. Brown et al.,
+Systemic Risk and Cross-Sectional Hedge Fund Returns (Working Paper, 2013),
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2242685
+31 OFFICE OF FIN. RES., DEP’T OF THE TREASURY, ASSEST MANAGEMENT AND STABILITY 1 (2013),
+available at
+http://www.treasury.gov/initiatives/ofr/research/Documents/OFR_AMFS_FINAL.pdf?n=60157 (“The U.S.
+asset management industry oversees the allocation of approximately $53 trillion in financial assets (see
+Figure 1).”); Andrew G. Haldane, Executive Director, Fin. Stability, Address at the London Business
+School: The Age of Assest Management? (Apr. 4, 2014, available at
+http://www.bankofengland.co.uk/publications/Documents/speeches/2014/speech723.pdf; Sam Fleming,
+Asset Managers Pose a Risk to Stability, Boe Warns, THE FINANCIAL TIMES (Apr. 4, 2014),
+http://www.ft.com/intl/cms/s/0/d84aae26-bbda-11e3-84f1-00144feabdc0.html#axzz2zjWtcd00 (quoting
+Andrew Haldane, a member of the BOE’s Financial Policy Committee: “although asset managers did not
+pose the same risks for stability as banks, their size could still damage financial markets. He said the
+industry, which collects $87tn globally, has the potential to cause frictions in markets such as via asset fire-
+sales.”); Chris Flood, Debate Over Fund Market Risks Grows, THE FINANCIAL TIMES (Apr. 6, 2014),
+http://www.ft.com/cms/s/0/dd87b69c-bb38-11e3-948c-00144feabdc0.html#axzz2zjWtcd00; Huw Jones,
+BoE's Haldane Says Funds Can Also Be 'Too Big to Fail', REUTERS (Apr. 4, 2014),
+http://uk.reuters.com/article/2014/04/04/uk-boe-funds-haldane-idUKBREA330EW20140404
+32 OFR, supra note 31, at 9; Renee Haltom, Are the Fed’s low interest rate policies pushing investors
+toward risk?, ECON FOCUS, Third Quarter 2013, at 1, available at
+http://www.richmondfed.org/publications/research/econ_focus/ (“Not only have short-term rates been
+lower and for a longer period than in any episode since the Great Depression, but long-term rates are
+remarkably low as well, thanks to the Fed’s unconventional monetary policies like quantitative easing and
+“Operation Twist”. For the world’s biggest bond investors, returns have been squeezed at all parts of the
+9
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+complex financial transactions including derivatives to increase private fund advisers’
+yield expectations further increased private funds’ systemic risk.33
+Given the changing conditions for private funds, scholars evaluated several
+additional factors as possible sources of systemic risk in the financial system that may be
+associated with private fund advisers. Some of the core factors identified in the literature
+included: redemption risk that causes sudden reductions in funding to banks and other
+financial entities, insufficient credit risk transfer to private fund managers, and contagion
+through business relationships connecting private fund managers with their sponsors.34
+A large part of the post-crisis debate pertained to the role of the so-called shadow
+banking system in the global financial crisis, focusing in large part on the possible
+systemic risk of private funds.35 Private fund advisers can create funds that may function
+as a close substitute for the money-like liabilities created by banks.36 Like banks, private
+fund advisers can provide liquidity to clients and to financial markets and engage in
+various forms of liquidity transformation. The vulnerabilities created by private fund
+advisers engaging in bank-like activities may have large implications for financial
+stability.37
+yield curve. This time, some Fed policymakers have also voiced concerns about reaching for yield. Fed
+Governor Jeremy Stein has been the most vocal detailing what he views as causes of excessive risk in a
+February speech, and Bernanke and Vice Chair Janet Yellen have said that the Fed is watching the issue”)
+33 U.K. FIN. CONDUCT AUTHORITY, HEDGE FUND SURVEY 27 (2014),
+http://www.fca.org.uk/static/documents/hedge-fund-survey.pdf; Letter from Jiří Król, Deputy Chief
+Executive Officer Alternative Inv. Mgmt. Association, to the Secretariat of the Financial Stability Board,
+available at http://www.aima.org/objects_store/assessment_methodologies_for_identifying_nbni-g_sifis_-
+_response_to_consultation.pdf (“Based on available data, it is unlikely that, today, an individual hedge fund
+or family of funds managed by a hedge fund manager could pose systemic risk: Although the hedge fund
+sector has grown in recent years, collectively, it remains a small part of the financial sector as a whole,
+employing lower levels of leverage than the banking sector, managing more liquid portfolios and capable
+of managing and stemming investor redemptions in stressed market conditions.”).
+34 Elias Bengtsson, Fund Management and Systemic Risk – Lessons from the Global Financial Crisis, 23
+FIN. MKTS., INSTITUTIONS & INSTRUMENTS 101 (2014), available at
+http://onlinelibrary.wiley.com/doi/10.1111/fmii.12016/abstract; R. Glenn Hubbard, Financial Regulatory
+Reform: A Progress Report, 95 FED. RES. BANK OF ST. LOUIS REV. 181, 181 (2013) available at
+http://research.stlouisfed.org/publications/review/13/03/181-198Hubbard.pdf (“some hedge funds may pose
+a systemic risk to the financial system. A very large, unsustainably leveraged fund exposes a number of
+large financial institutions to increased counterparty risk.”).
+35 See Anita K. Krug, Financial Regulatory Reform and Private Funds 2 (Berkeley Center for Law, Bus.
+and the Econ., White Paper, 2011), available at
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1682623 (“More indirectly, prevalent sentiment has it
+that there exists a “shadow” banking system” — a swath of financial institutions that are unregulated but
+that engage in activities that regulated financial institutions engage in — and that, given the lack of
+regulatory oversight, the activities within the shadow banking system, perhaps more than the activities of
+regulated financial institutions, contribute to systemic risk. Typically included as participants of this
+shadow banking system are affiliates of brokerage firms, insurance companies, and other regulated entities,
+along with private investment funds, including hedge funds and private equity funds”). H. Kent Baker et al,
+Hedge Funds and the Financial Crisis, in ALTERNATIVE INVESTMENTS: INSTRUMENTS, PERFORMANCE,
+BENCHMARKS, AND STRATEGIES (2013).
+36 OFR, supra note 31, at 1.
+37 Id. (“Some activities highlighted in this report that could create vulnerabilities—if improperly managed
+or accompanied by the use of leverage, liquidity transformation, or funding mismatches—include risk-
+taking in separate accounts and reinvestment of cash collateral from securities lending.”).
+10
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+Recognizing the increasing risk emanating from the private fund industry in the
+aftermath of the financial crisis, several governmental entities and agencies issued reports
+on the question of the systemic risks posed by private funds.38 The Office of Financial
+Research (OFR) identified several activities of hedge fund managers as important threats
+to the financial system, including “reaching for yield”, herding, responding to investors’
+frequent or large-scale redemption requests, and “fire sales” of assets in a liquidity
+crunch.39 Similarly, the Financial Stability Board (FSB) and the International
+Organization of Securities Commissions (IOSCO) issued a Consultative Document
+suggesting a set of methods for the identification of globally active systemically
+important investment funds.40 The OFR as well as FSB and IOSCO reports provide
+reasons as to why globally active investment funds should be designated as systemically
+important but differ on what specific entities in the fund structure should be considered
+for the systemic assessment. Although the proposed designation criteria are similar, the
+FSB and IOSCO emphasize the assessment of systemic importance at the fund-level,
+while the OFR suggests systemic assessment at the asset manager-level with all funds
+combined.41
+In contrast with the OFR, FSB and IOSCO, the Financial Services Authority
+(FSA) in the United Kingdom concluded in its first comprehensive survey of London's
+hedge fund industry that the hedge fund industry poses no systemic risk to the financial
+system.42 The FSA’s report caused widespread industry endorsements.43 The Australian
+38 OFR, supra note 31, at 11; FIN. STABILITY BD. & INT'L ORG. OF SEC. COMMISSIONS, CONSULTATIVE
+DOCUMENT: ASSESSMENT METHODOLOGIES FOR IDENTIFYING NON-BANK NON-INSURER GLOBAL
+SYSTEMICALLY IMPORTANT FINANCIAL INSTITUTIONS (2014) [hereinafter FSB & IOSCO], available at
+http://www.iosco.org/library/pubdocs/pdf/IOSCOPD435.pdf; FIN. STABILITY OVERSIGHT COUNCIL, 2013
+ANNUAL REPORT (2013) available at http://www.treasury.gov/initiatives/fsoc/studies-reports/Pages/2013-
+Annual-Report.aspx; for further analysis of FSOC’s evaluation of systemic risk see Part III below.
+39 OFR, supra note 31, at 2.
+40 FSB & IOSCO, supra note 38 at 3 (identifying exposures / counterparty channel and
+asset liquidation / market channel as the two systemic risk transmission channels for investment funds).
+41 See supra note 38 at 1.
+42 U.K. FIN. SERVS. AUTHORITY, ASSESSING POSSIBLE SOURCE OF SYSTEMIC RISK FROM HEDGE FUNDS: A
+REPORT ON THE FINDINGS OF THE HEDGE FUND AS COUNTERPARTY SURVEY AND HEDGE FUND SURVEY (2010)
+(finding that: “major hedge funds did not pose a potentially destabilising credit counterparty risk across the
+surveyed banks. HFS data shows a relatively low level of ‘leverage’ under our various measures and
+suggests a contained level of risk from hedge funds at that time. [O]ur analysis revealed no clear evidence
+to suggest that, from the banks and hedge fund managers surveyed, any individual fund posed a significant
+systemic risk to the financial system at the time”). Cf INT’L ORG. OF SEC. COMM’N, REPORT ON THE
+SECOND IOSCO HEDGE FUND SURVEY 25 (Oct. 2013),
+http://www.iosco.org/library/pubdocs/pdf/IOSCOPD427.pdf (“[…]it has not been possible at this stage to
+draw definitive conclusions relating to the systemic importance of the global hedge fund industry as a
+whole.”).
+43 Press Release, Alternative Investment Management Association, Europe’s Hedge Fund Industry Does
+Not Pose Systemic Risk (Feb. 25, 2010), available at http://www.aima.org/en/media/press-
+releases.cfm/id/F688E5B9-17B0-415A-800B2EC217FEB585 (“The Alternative Investment Management
+Association (AIMA) – the global hedge fund industry association – has welcomed the hedge fund survey
+published by the UK’s Financial Services Authority which concluded that the industry does not pose a
+systemic risk and features relatively low levels of leverage.”).
+11
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+Securities and Investment Commission concurred in its assessment, concluding that the
+private fund industry posed no systemic concerns.44
+Critics of the systemic risk assessments used to examine the private fund
+industry45 have suggested that private fund advisers are unlikely to trigger a systemic
+event because losses in private investment funds are directly absorbed by the multitude of
+investors and their equity capital.46 In the aftermath of LTCM, regulators have
+encouraged banks to monitor their private fund adviser clients through limitations on
+44 AUSTL. SEC. & INV. COMM’N, HEDGE FUNDS NO SYSTEMIC RISK TO FINANCIAL SYSTEM 5 (2013),
+http://www.asic.gov.au/asic/pdflib.nsf/LookupByFileName/rep370-published-10-September-
+2013.pdf/$file/rep370-published-10-September-2013.pdf (“ The survey results indicate that Australian
+hedge funds do not currently appear to pose a systemic risk to the Australian economy .”).
+45 Letter from Stuart J. Kaswell, Executive Vice President & Managing Director, General Counsel of the
+Managed Funds Association, to Secretariat of the Financial Stability Board (Apr. 7, 2014), available at
+https://www.managedfunds.org/wp-content/uploads/2014/04/MFA-comment-letter-on-GSIFI-assessment-
+methodologies.pdf (“In that regard, we generally support the FSB’s and IOSCO’s efforts to develop
+quantitative-based metrics for establishing thresholds at which investment funds might be considered to
+pose systemic risk, though we believe the FSB and IOSCO should modify the proposed metrics, as
+discussed in more detail below.”); Luke Clancy, IOSCO Report Exaggerates Hedge Fund Leverage, Critics
+Claim, HEDGE FUNDS REV. (Nov. 5, 2013), http://www.risk.net/hedge-funds-review/news/2302823/iosco-
+report-exaggerates-hedge-fund-leverage-critics-claim (“market participants claim the [IOSCO] figures are
+overblown, largely because of the decision to consider derivatives exposures on a gross basis.”); ICI
+Responds to the FSB Consultation on Systemic Risk and Investment Funds, INV. COMPANY INST. (Apr. 8,
+2014), http://www.ici.org/viewpoints/view_14_fsb_comment (“Designation of regulated funds as
+“systemically important financial institutions” (SIFIs), whether in the United States or other jurisdictions, is
+neither necessary nor appropriate as a means to address concerns about stability of the global financial
+markets. The consequences of designating regulated funds would be highly adverse to the designated fund,
+its investors, the overall fund marketplace, and fund investing at large.”); Hazel Bradford, SIFMA Study
+Responds to Stability Oversight Council, PENSIONS & INV. (Apr. 10, 2014),
+http://www.pionline.com/article/20140410/ONLINE/140419999/sifma-study-responds-to-stability-
+oversight-council (“A study released April 4 by the Securities Industry and Financial Markets
+Association's asset management group, which looked at nine of the largest managers with $3.86 trillion in
+separate account assets, found 99% of large separate accounts were invested in long-only strategies and
+53% were in passively managed index strategies. Less than 4% of the firms employ leverage and less than
+2% engage in securities lending. All of the responding firms monitor counterparty risk, SIFMA found.”);
+Stephen A. Keen & C. Todd Gibson, United States: Systemic Risk and Asset Management: Progressing
+from Ignorance to Confusion, MONDAQ (Feb. 22, 2014),
+http://www.mondaq.com/unitedstates/x/294868/asset+finance/Systemic+Risk+And+Asset+Management+P
+rogressing+From+Ignorance+To+Confusion (concluding that the OFR report “engaged in purely
+speculative assessments that ignored fundamental characteristics of the asset management business.”);
+Emily Stephenson & Sarah N. Lynch, U.S. Senators Slam Study on Systemic Risks Posed by Asset
+Managers, REUTERS (Jan. 24, 2014) http://www.reuters.com/article/2014/01/24/us-financial-regulation-
+asset-idUSBREA0N1LG20140124 (“Five U.S. senators slammed a government report that raised red flags
+about risks posed by asset management firms in a letter to Treasury Secretary Jack Lew that was dated
+Thursday. The bipartisan group said the September study mischaracterized the asset management industry
+and in some places relied on faulty information, and that the report could threaten the credibility of the
+Treasury Department unit that published it.[…] The U.S. Securities and Exchange Commission, which
+oversees asset managers, asked for public feedback on the study, a sign that it disagreed with the OFR's
+findings. The OFR did the research with little input from the SEC and, as a new agency, has struggled to
+obtain data it needs in some cases, Reuters has reported.”);
+46 Peter J. Wallison, Unrisky Business: Asset Management Cannot Create Systemic Risk, Am. Enter. Inst.
+(Jan. 13, 2014), http://www.aei.org/outlook/economics/financial-services/banking/unrisky-business-asset-
+management-cannot-create-systemic-risk/.
+12
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+leverage.47 The lack of financial market repercussion after the Amaranth failure seems to
+suggest that this approach was successful.48
+III. Private Fund Transparency under the Dodd-Frank Act
+Prior to the enactment of the Dodd-Frank Act in 2010,49 private fund advisers
+were largely exempt from the securities laws provided they limited the sale of their
+securities to a limited number of accredited investors,50 did not advertise or otherwise
+hold themselves out to the public, and limited the resale of their securities.51 After more
+than sixty years of limited regulatory constraints, despite several failed attempts by the
+SEC to register private funds,52 Congress enacted the Private Fund Investment Adviser
+Registration Act (PFIARA) under Title IV of the Dodd-Frank Act.53
+To end the speculative trading practices and close alleged regulatory gaps that
+may have contributed to the 2008 financial market crisis,54 PFIARA, by amending the
+47 Roger Ferguson & David Laster, Hedge Funds and Systemic Risk, 10 FIN. STABILITY REV. 45, 45 (2007)
+available at
+http://www.banquefrance.fr/fileadmin/user_upload/banque_de_france/publications/Revue_de_la_stabilite_f
+inanciere/etud5_0407.pdf; see also Wulf A. Kaal, Hedge Fund Regulation via Basel III, 44 VAND. J.
+TRANSNATNL. L. 389, 395 (2011) (suggesting that indirect regulation of hedge funds through their
+relationships with banks could sufficiently curtail the hedge fund industry).
+48 Ferguson & Laster, supra note 47 at 45; Roberta Romano, supra note 8, at 3-4.
+49 See infra Part II.B.
+50 See SEC v. Ralston Purina Co., 346 U.S. 119, 125 (1953) (holding that investors who met the Regulation
+D criteria qualified to invest in hedge funds because they could “fend for themselves”); 17 C.F.R. §
+230.501(a)(5)–(6) (defining the term “accredited investor” as a natural person whose individual net worth
+exceeded $1 million at the time of the purchase, or whose individual income exceeded $200,000 in each of
+the two most recent years and who had a reasonable expectation of reaching the same income level in the
+year of investment). In August 2007, the SEC dramatically expanded fraud protection for investors after its
+defeat in attempting to require hedge fund registration. See Prohibition of Fraud by Advisers to Certain
+Pooled Investment Vehicles, 72 Fed. Reg. 44,756, 44,757 (Aug. 9, 2007) (codified as amended at 17 C.F.R.
+pt. 275) (“The rule prohibits advisers from (i) making false or misleading statements to investors or
+prospective investors in hedge funds and other pooled investment vehicles they advise, or (ii) otherwise
+defrauding these investors.”); Prohibition of Fraud by Advisors to Certain Pooled Investment Vehicles;
+Accredited Investors in Certain Private Investment Vehicles, 72 Fed. Reg. 400, 404 (proposed Jan. 4, 2007)
+(“many individual investors today may be eligible to make investments in privately offered investment
+pools as accredited investors that previously may not have qualified as such for those investments”).
+51 See Kaal, supra note 47, at 412–16 (2011) (summarizing hedge fund regulation before the Dodd-Frank
+Act). Hedge funds, for the most part, limited the sale of their securities to accredited investors to remain
+exempt from registration and supervision. See 17 C.F.R. §230.501(a)(5) (providing a safe harbor under
+§4(2) of the Securities Act and defining an “accredited investor” as a person with a net worth of more than
+$1 million). The SEC proposed amending Regulation D, noting that inflation might have eroded the
+significance of a $1 million net worth as good indication of investor sophistication. See Prohibition of
+Fraud by Advisors to Certain Pooled Investment Vehicles; Accredited Investors in Certain Private
+Investment Vehicles, 72 Fed. Reg. 400, 405 (proposed Jan. 4, 2007) (proposing two steps for determining
+whether an investors would be accredited: (1) whether the individual meets the test in rule 501(a) or rule
+215 and (2) whether the individual “owns at least $2.5 million in investments”). But see Prohibition of
+Fraud by Advisers to Certain Pooled Investment Vehicles, 72 Fed. Reg. at 44,756 n.2 (deferring
+consideration of proposed change to definition of “accredited investor”)
+52 See further with background and historical perspective on private fund regulation under PFIARA - Kaal
+Registration, supra note 22, at 249.
+53 See Dodd-Frank Act §§ 401–416.
+54 See Tom Braithwaite, U.S. Senate Passes Financial Reform, FINANCIAL TIMES (July 16, 2010, 1:01 AM),
+http://www.ft.com/intl/cms/s/0/6b9d4542-9026-11df-ad26-00144feab49a.html#axzz2DrwfWezl (“The
+13
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+Investment Advisers Act (IAA), gave the SEC authority to issue rules and regulations for
+the registration of private funds with the SEC,55 increasing record keeping and
+disclosure.56 Private fund advisers with more than $150 million assets under management
+(AUM) 57 are required to register as investment advisers and have to disclose systemically
+relevant information to the SEC.58 Motivated by a desire to curtail those who operate in the
+shadows of our markets,59 prevent fraud, limit systemic risk, and provide information to
+investors,60 Congress authorized the SEC to collect information from registered private
+fund advisers. Under the Dodd-Frank Act, the SEC is also required to set up rules for the
+registration and reporting of hedge fund managers who were previously exempt from
+registration.61
+The PFIARA also requires registered private fund advisers to maintain records
+and any other information the SEC and the systemic risk regulators may deem necessary and
+financial reform legislation approved by Congress today represents a welcome and far-reaching step toward
+preventing a replay of the recent financial crisis.” (quoting Ben Bernanke) (internal quotation marks
+omitted)).
+55 Dodd-Frank Act § 406; 15 U.S.C. 80b-11 (West, Westlaw current through 2014 Legis. Sess.).
+56 See Dodd-Frank Act § 408 (“The Commission shall require investment advisers exempted by reason of this
+subsection to maintain such records and provide to the Commission such annual or other reports as the
+Commission determines necessary or appropriate in the public interest or for the protection of investors.”).
+57 Rules Implementing Amendments to the Investment Advisers Act of 1940, 76 Fed. Reg. at 42,955. The
+IAA defined Regulatory Assets Under Management (RAUM) as “the ‘securities portfolios’ with respect to
+which an adviser provides ‘continuous and regular supervisory or management services.’” Id. (quoting
+Advisers Act § 203A(a)(3)). Under revised Form ADV, advisers must report their gross RAUM rather than
+net; this means they will no longer be able to deduct outstanding debt or other accrued but unpaid liabilities
+from their totals. Id. at 42,956. To increase consistency, revised Form ADV also gives investment advisers less
+room to exercise discretion in counting or excluding assets from RAUM. Id.; see also id. at 42,955. The
+Dodd-Frank Act gives the SEC authority to require reporting and record keeping for assets carrying
+systemic risk. Dodd-Frank Act, Pub L. No. 111-203, § 404, 124 Stat. 1376, 1571 (2010); Rules
+Implementing Amendments to the Investment Advisers Act of 1940, 76 Fed. Reg. at 42,955.
+58 FORM ADV, supra note 14, pt. 1A, at 5 (requiring exempt reporting advisers to check that they qualify
+for an exemption from registration: (i) “as an adviser solely to one or more venture capital funds” or (ii)
+because they act “solely as an adviser to private funds and have assets under management in the United
+States of less than $150 million”); See Dodd-Frank Act § 408 (“The Commission shall provide an exemption
+from the registration requirements under this section to any investment adviser of private funds, if each of
+such investment adviser acts solely as an adviser to private funds and has assets under management in the
+United States of less than $150,000,000.”); see also Dodd-Frank Act § 403 (striking private adviser
+exemption under section 203(b)(3) of the Advisers Act, thereby precluding many private fund advisers
+from avoiding registration); Rules Implementing Amendments to the Investment Advisers Act of 1940, 76
+Fed. Reg. 4 at 42,955 (“We are adopting revisions to the instructions to Part 1A of Form ADV to
+implement a uniform method for advisers to calculate assets under management that will be used under the
+Act for regulatory purposes in addition to assessing whether an adviser is eligible to register with the
+Commission.”); Exemptions for Advisers to Venture Capital Funds, Private Fund Advisers With Less Than
+$150 Million in Assets Under Management, and Foreign Private Advisers, 76 Fed. Reg. 39,646, 39,666
+(July 6, 2011) (codified as amended 17 C.F.R. pt. 275) (providing an exemption from registration for
+advisers with less than $150 million in private fund assets under management in the United States); U.S.
+SEC. & EXCH. COMM’N, FORM ADV: INSTRUCTIONS FOR PART 1A, at 6–9 (2011), available at
+http://www.sec.gov/about/forms/formadv-instructions.pdf (explaining how to calculate regulatory assets
+under management).
+59 155 CONG. REC. 30,824 (2009) (statement of Rep. Paul Kanjorski).
+60 156 CONG. REC. S5925–26 (daily ed. July 15, 2010) (statement of Sen. Richard Durbin).
+61 Dodd-Frank Act § 404.
+14
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+appropriate to avoid systemic risk. 62 Private fund advisers are required to file confidential
+reports with the SEC pertaining to information related to systemic risk.63 Required
+disclosures in such reports include counterparty credit risk exposures; valuation policies;
+trading practices; the amount of AUM; side letters; the use of leverage, including off-
+balance sheet leverage; and other information deemed necessary.64
+1. Private Fund Adviser Registration and Disclosure
+To implement the registration requirements under PFIARA, the SEC amended
+Form ADV, a disclosure document with periodic amendments.65 Any investment adviser
+registering with the SEC was required to file Form ADV.66 Amended Form ADV
+requires registered investment advisers and exempt reporting advisers67 to report to the SEC
+information regarding the private funds they manage.68 The required disclosures
+include information regarding the number and type of clients, including an assessment of
+the percentage of AUM attributable to each client type,69 financial industry affiliations,
+non-advisory activities, the scope of services provided, investment strategy, the fund
+structure, ownership, the gross asset value, and the adviser’s use of consultants and
+other gatekeepers.70
+To help the SEC identify the entities and individuals with exposure to private
+fund investments, advisers are required to provide information on the type of clients they
+62 Id. at §§ 404–405, § 404(b)(1)(A).
+63 Id. § 404(b)(3).
+64 Id.
+65 FORM ADV, supra note 14.
+66 Id.; see also 17 C.F.R. § 279.1 (2012) (establishing filing requirements for Form ADV); James F.
+Koehler & P. Wesley Lambert, Impact of the Dodd-Frank and Registration Acts of 2010 on Investment
+Advisers, 13 DUQ. BUS. L.J. 29, 34–35 (2011); Marybeth Sorady et al., Summary and Analysis of Dodd-
+Frank Rules for Investment Advisers: Registration Requirements, Exemptions, Family Offices, Performance
+Fee Eligibility, 12 J. INVEST. COMPLIANCE 4, 4 (2011); Michael P. Coakley & Matthew P. Allen, The New
+Form ADV Part 2 and the “Plain English” Movement of the SEC, FINRA, and Michigan’s OFIR, 31 MICH. BUS.
+L.J. 19 (2011). Investment advisers that were registered with the SEC on January 1, 2012, were required to
+file the amendment to Form ADV by March 30, 2012. See 17 C.F.R. § 275.203A-5(b) (2012); see also Rules
+Implementing Amendments to the Investment Advisers Act of 1940, 76 Fed. Reg. 42, 950, 42,953–54 (Jul.
+19, 2011) (codified as amended 7 C.F.R pt 275)(discussing rule 203A-5(b), which provides that SEC-
+registered advisers not required to file an annual updating amendment between January 1, 2012, and March
+30, 2012, will file an other-than-annual amendment, but they will complete all of the items on Part 1A of
+Form ADV, not just the items required to be updated in a typical other-than-annual amendment).
+67 FORM ADV, supra note 14, pt. 1A, at 5–6 (requiring exempt reporting advisers to disclose only a limited
+subset of items on Form ADV).
+68 Id.
+69 FORM ADV, supra note 14, pt. 1A, at Item 5.C–D.
+70 Rules Implementing Amendments to the Investment Advisers Act of 1940, 76 Fed. Reg. 42, 950, 42,965–
+66 (Jul. 19, 2011) (codified as amended 7 C.F.R pt 275) (requiring advisers to complete section 7.B.(1) of
+Schedule D for any private fund that the adviser manages when, previously, Item 7 required advisers only
+to complete section 7.B.(1) of Schedule D for “investment-related” limited partnerships or limited liability
+companies that the adviser or a related person advised). Part A of Section 7.B.(1) “requires an adviser to
+provide basic information regarding the size and organizational, operational, and investment characteristics
+of each fund.” Id. at 42,965. Part B of the same section “requires advisors to report information
+concerning five types of [private fund] service providers that generally perform important roles as
+‘gatekeepers’”—which will both identify gatekeepers and give investors an idea of what kinds of roles
+particular gatekeepers play. Id. at 42,968. For example, advisers must indicate if a prime broker has
+custody of fund assets. Id. Information reported on this section of Schedule D will be publicly available.
+Id. at 42,965.
+15
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+service including high net worth individuals, investment companies, banks, charities,
+and insurance companies.71 Private fund advisers must also identify the type of
+services they provide,72 what compensation arrangements the adviser uses,73 and what
+percentage of the adviser’s total RAUM is owned by a particular type of client.74
+In order to help the SEC understand the respective adviser’s business and provide
+the SEC with relevant data, amended Form ADV also requires advisers to disclose their
+clients, employees, compensation arrangements, and advisory activities.75 Required
+disclosures in this context include the number of employees,76 the number of employees
+who perform advisory functions, are registered representatives of broker-dealers, are
+registered with state authorities as investment adviser representatives, and are insurance
+agents,77 and the number of nonemployees—firms or other persons—who solicit
+advisory clients on the adviser’s behalf.78
+To avoid potential conflicts of interest between the different types of businesses
+and services provided by private fund advisers,79 amended Form ADV requires advisers to
+identify their types of business activity,80 if one of those businesses is primary to the
+adviser,81 and whether the adviser provides any services other than investment advice to
+advisory clients.82 Advisers are also required to disclose transactions between advisers or
+related persons and clients because conflicts of interest may arise in such transactions.83
+71 FORM ADV, supra note 14, at Item 5.D.(1).
+72 Id. at Item 5.G.; see also id. at Item 5.H (requiring disclosures pertaining to the number of clients the
+adviser provided with financial planning services); id. at Item 5.I (asking whether the adviser participates in
+a wrap fee program); id. at Item 5.J (asking whether the adviser previously indicated that it provides
+investment advice only with respect to limited types of investments).
+73 Id. at Item 5.E.
+74 Id. at Item 5.D.(2).
+75 FORM ADV, supra note 14, pt. 1A, at Item 5; see Rules Implementing Amendments to the Investment
+Advisers Act of 1940, see also 76 Fed. Reg. 42,950, 42,970 (Jul. 19, 2011) (codified as amended 7 C.F.R pt
+275) (adopting amendments to Item 5 largely as they were originally proposed, with only a few minor
+changes).
+76 FORM ADV, supra note 14, pt. 1A, at Item 5.A.
+77 Id. at Item 5.B.
+78 Id.; see also Id. at Items 5.C, 5.H (specifically excluding as clients investors in private funds that the
+adviser advises unless that investor also has a separate advisory relationship with the adviser); Id. at Item
+5.C.(1)–(2) (asking for the number of clients and what percentage are non-U.S. persons).
+79 Rules Implementing Amendments to the Investment Advisers Act of 1940, see also 76 Fed. Reg. 42,950,
+42,970 (Jul. 19, 2011) (codified as amended at 17 C.F.R. pts. 275 & 279).
+80 FORM ADV, supra note 14, pt. 1A, at Item 6.A (providing that business activities include broker-dealer,
+futures commission merchant, real estate broker, banking, legal work, or accounting).
+81 Id. at Item 6.B.(1)–(2).
+82 Id. at Item 6.B.(3) (asking the adviser to describe other products and services).
+83 Rules Implementing Amendments to the Investment Advisers Act of 1940, see also 76 Fed. Reg. 42,950,
+42,971 (Jul. 19, 2011) (codified as amended at 17 C.F.R. pts. 275 & 279); FORM ADV, supra note 14, pt.
+1A, at Item 8.A (requiring disclosure as to whether the adviser or related person buys securities from or
+sells securities to advisory clients, buys securities for himself that he also recommends to advisory clients,
+or recommends securities to advisory clients in which the adviser or related person has a proprietary
+ownership interest other than the two described immediately above); id. at Item 8.B (requiring disclosure as
+to whether the adviser or related person acts as a broker-dealer or a registered representative of a broker-
+dealer in securities trades for brokerage customers in which advisory client securities are sold or bought,
+recommends the purchase of securities for which the adviser or related person is an underwriter, general or
+managing partner, or purchaser representative, or recommends purchase or sale of securities to advisory
+clients for which the adviser or any related person has any other sales interest); id. at Item 8.C (requiring
+disclosure as to whether the adviser or related person has discretionary authority to determine what
+securities should be sold on a client’s account or the amount of securities to be sold on that account, to
+16
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+Other required disclosures in this context include compensation for client referrals,84
+related-persons status of brokers and dealers,85 and research or other products and
+services in connection with client transactions.86
+2. Systemic Risk Data
+To facilitate the FSOC’s assessment of systemic risk that may result from private
+fund activities in the financial system of the United States,87 the Dodd-Frank Act
+authorized the SEC to collect the relevant data via Form PF and tasked the SEC with
+providing the FSCO with the data collected via Form PF.88 After jointly developing Form
+PF with the Commodity Futures Trading Commission (CFTC) and in consultation with
+FSOC members and several international regulators,89 Form PF was primarily intended
+determine the broker or dealer to be used for purchases or sales for a client’s account, or to determine the
+commission rates to be paid to a broker or dealer for a client’s account).
+84 Id. at Items 8.H–I; see Rules Implementing Amendments to the Investment Advisers Act of 1940, 76 Fed.
+Reg. at 42,971–72 (adopting three amendments to Item 8: (1) an adviser who indicates that he has
+discretionary authority to determine brokers or dealers or that recommends brokers or dealers must report
+whether any of those brokers or dealers are related persons; (2) advisers receiving soft dollar benefits must
+report whether they are eligible for research or brokerage services under § 28(e) of the Exchange Act’s safe
+harbor; and (3) an adviser must report whether it or its related person receives direct or indirect
+compensation for client referrals); see also FORM ADV, supra note 14, pt. 1A, at Items 8.C.3, 8.D–F,
+8.G.(2); Commission Guidance Regarding Client Commission Practices Under Section 28(e) of the
+Securities Exchange Act of 1934, Exchange Act Release No. 34-54165, 71 Fed. Reg. 41,978, 41,981–82
+(July 24, 2006), available at http://www.sec.gov/rules/interp/2006/34-54165fr.pdf (providing interpretive
+guidance in determining whether soft dollar benefits fit under the safe harbor of § 28(e) of the Securities
+Exchange Act).
+85 FORM ADV, supra note 14. pt. 1A at Items 8.D, 8.F.
+86 Id. at Item 8.G.
+87 Dodd-Frank Act, Pub. L. No. 111-203, § 404(7)(A), 124 Stat. 1376 (2010) (codified as amended 15
+U.S.C. 80b-4) (under the PFIARA, the Commission is required to make available to the Financial Stability
+Oversight Council “copies of all reports, documents, records and information filed with or provided to the
+Commission” by private equity and hedge fund advisers “as the Council may consider necessary for the
+purpose of assessing the systemic risk posed by a private fund.”); Charles K. Whitehead, Regulating for the
+Next Financial Crisis, 24 PAC. MCGEORGE GLOBAL BUS. & DEV. L.J. 3, 17-18 (2011) (information the
+SEC gathers can be provided to the FSOC; and, in principle, that should assist efforts to assess systemic
+risk. The principal regulator, however, remains the SEC, with a rules-based (rather than prudential)
+approach to overseeing the industry.”); see generally Cheryl Nichols, Addressing Inept Sec Enforcement
+Efforts: Lessons from Madoff, the Hedge Fund Industry, and Title IV of the Dodd-Frank Act for U.S. and
+Global Financial Systems, 31 NW. J. INT'L L. & BUS. 637, 683 (2011).
+88 Dodd-Frank Act, § 404(2);17 C.F.R. § 275.204(b)-1 (2012); Reporting by Investment Advisers to Private
+Funds and Certain Commodity Pool Operators and Commodity Trading Advisors on Form PF, 76 Fed.
+Reg. 71,128, 71,140 (Nov. 16, 2011) (codified as amended at 17 C.F.R. pts. 275 & 279)(the Dodd-Frank
+Act amended section 204(b) of the Advisers Act in effect requiring the SEC to establish reporting and
+recordkeeping requirements for private fund advisers); see also Dodd-Frank Act § 112; EDWARD V.
+MURPHY & MICHAEL B. BERNIER, CONG. RESEARCH SERV., EDWARD V. MURPHY & MICHAEL B.
+BERNIER, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY OVERSIGHT COUNCIL: A FRAMEWORK
+TO MITIGATE SYSTEMIC RISK (2011), available at http://www.llsdc.org/assets/DoddFrankdocs/crs-
+r42083.pdf (describing the mission, membership, and scope of the FSOC and providing an analysis of
+FSOC-related policy issues Congress may face).
+89 Securities/Section 20/Broker-Dealer, 40 BANKING & FIN. SERVICES POL’Y REP 26 (Dec. 2011); 17
+C.F.R. § 275.204(b)-1 (2014) (requiring private fund advisers to file Form PF with the SEC periodically);
+17 C.F.R. § 4.27(d) (2014) (requiring private fund advisers to file Form PF if they are registered as
+commodity pool operators or commodity trading advisers).
+17
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+and drafted for the use of the FSOC.90 Form PF provides the FSOC with information
+about the private fund industry in order to assess the risks in the financial system and
+support FSOC’s mandate of designating systemically significant financial institutions.91
+Additionally, Form PF filings can be utilized by the SEC and the CFTC for investigations
+and examinations.92 Although Form PF information contains private fund advisers’
+proprietary information and is considered confidential, the Dodd-Frank Act authorized
+the SEC, upon request, to share Form PF data with institutions that are also required to
+maintain confidentiality of Form PF data, including the FSOC, Congress, courts, federal
+departments, and self-regulated organizations upon request.93
+The SEC had broad expectations for the use of Form PF data. The SEC expected
+Form PF data to help more fully evaluate and anticipate issues with potential regulatory
+actions, allocate and reallocate resources, and anticipate regulatory problems.94 The SEC
+also anticipated that Form PF data would enhance its ability to develop and frame
+regulatory policies pertaining to the private fund industry, private fund investment
+advisers, and the markets in which they participate. 95 Additionally, the SEC believed
+that Form PF data would help discern relationships between private fund’s investment
+activities and regulatory actions.96
+Form PF filing requirements apply to registered investment advisers that hold $150
+million RAUM or more attributable to private funds at the end of their most recently
+completed fiscal year, are registered or are required to register with the SEC, and advise a
+single private fund or several private funds.97 To take account of the relative risks of each
+90 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,129-71,130
+91 Id.
+92 “In addition to the primary purpose to assist FSOC in its assessment of systemic risk, the Commission
+stated that it would use the information collected on Form PF in its regulatory programs, including
+examinations, investigations, and investor protection efforts.” SEC, ANNUAL STAFF REPORT RELATING TO
+THE USE OF DATA COLLECTED FROM PRIVATE FUND SYSTEMIC RISK REPORTS 3 (2013) [HEREINAFTER SEC
+2013], available at http://www.sec.gov/news/studies/2013/im-annualreport-072513.pdf.; see also Anita K.
+Krug, Institutionalization, Investment Adviser Regulation, and the Hedge Fund Problem, 63 HASTINGS L.J.
+1, 27 (2011); Cheryl Nichols, Addressing Inept SEC Enforcement Efforts: Lessons from Madoff, the Hedge
+Fund Industry, and Title IV of the Dodd-Frank Act for U.S. and Global Financial Systems, 31 NW. J. INT’L
+L. & BUS. 637, 683 (2011).
+93 Barbara Crutchfield George & Lynn Vivian Dymally, The End of an Era of Limited Oversight: The
+Restructured Regulatory Landscape of Private Investment Funds Through the U.S. Dodd-Frank Act and the
+E.U. Alternative Investment Fund Managers Directive, 25 FLA. J. INT'L L. 207, 236 (2013).
+94 Id.
+95 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,142.
+96 Id.
+97 17 C.F.R. § 275.204(b)-1 (2014); Reporting by Investment Advisers to Private Funds and Certain
+Commodity Pool Operators and Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,132 (listing
+three criteria for filing Form PF that represent an initial threshold for the minimal Form PF requirements).
+Most private fund advisers who meet these three criteria will only be required to file Section 1 of Form PF.
+Id. at 71,132. Remaining sections of Form PF will be filed by “Large Private Fund Advisers.” Id. at
+71,132–33. There are three types of Large Private Fund Advisers: (1) “[a]ny adviser having at least $1.5
+billion in [RAUM] attributable to hedge funds as of the end of any month in the prior fiscal quarter;” (2)
+“[a]ny adviser managing a liquidity fund having at least $1 billion in combined [RAUM] attributable to
+liquidity funds and registered money market funds as of the end of any month in the prior fiscal quarter;”
+18
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+type of private fund, the SEC takes a tiered approach to Form PF filing requirements.98
+While smaller private fund advisers – those with less than $1.5 billion regulatory assets
+under Management (RAUM) attributable to hedge funds - are required to complete and
+file Form PF annually,99 large private fund advisers - those with at least $1.5 billion
+RAUM attributable to hedge funds100 - have to update their Form PF filings quarterly.101
+Categories of required disclosures under Form PF include information on the
+investment adviser, the funds managed by the investment adviser, and information about
+individual investors,102 financing information, the products used by the investment
+adviser, performance and changes in performance, risks metrics, strategies used, credit
+exposure, and positions held by the investment adviser, among others.103 Form PF
+disclosure requirements pertaining to the investment advisers’ reporting funds advised by
+investment advisers require a breakdown of Net Asset Value (NAV) managed by the
+adviser by hedge fund strategy,104 and the percentage of the reporting fund’s NAV
+managed by using computer-driven trading algorithms.105 Form PF also requires hedge
+fund advisers to disclose the five trading counterparties to which the reporting fund has
+the greatest net counterparty credit exposure,106 the name of the creditor, and the dollar
+amount owed to each creditor.107 Other information required in this context includes
+information about the collateral and other credit support counterparties posted to the
+respective reporting funds108 and changes in market factors and their effect on the long
+and short components of the portfolio as a percentage of NAV.109
+To enable the SEC to understand the exposure of the advisers’ reporting funds
+and their assets, Form PF requires disclosure pertaining to the value of turnover by asset
+class in the respective reporting month110 and the exposure of long and short
+positions.111 Similarly, to help the SEC understand the liquidity of the reporting
+and (3) “[a]ny adviser having at least $2 billion in [RAUM] attributable to private equity funds as of the
+last day of the adviser’s most recently completed fiscal year.” Id. (footnotes omitted).
+98 Id. at 71,136.
+99 See Id.; see also FORM PF, supra note 14, at General Instruction 9 (providing different filing periods for
+different types of advisers).
+100 See Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. 71,128, 71,132–33 (Nov. 16, 2011) (codified as
+amended 17 C.F.R. pts. 275 & 279) (defining “large private fund adviser”).
+101 Id. at 71,140; FORM PF, supra note 14, at General Instruction 9 (“[Y]ou [large hedge fund advisers] must
+file a quarterly update that updates the answers to all Items in this Form PF relating to the hedge funds that
+you advise.”).
+102 See 17 C.F.R. § 279.9 (2014) (establishing filing requirements for Form PF); FORM PF, supra note 18, §
+1a–b.
+103 See FORM PF, supra note 14, at 1b-c.
+104 Id. § 1a, Item B.3 (including the following private fund categories: (a) hedge funds, (b) liquidity funds,
+(c) private equity funds, (d) real estate funds, (e) securitized asset funds, (f) venture capital funds, (g) other
+private funds, (h) funds and accounts other than private funds).
+105 Id. § 1c, Item B.21.
+106 Id. § 1c, Items B.22–23.
+107 Id. § 2b, Item D.47.
+108 Id. § 2b, Item B.36.
+109 Id. § 2b, Item C.42.
+110 Id. § 2a, Item B.27.
+111 Id. § 2a, Item B.26; Id. § 2b, Item B.30 (pertaining to investment advisers that advise more than one
+hedge fund).
+19
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+fund’s portfolios, Form PF requires the investment adviser to disclose the reporting
+fund’s positions and the time it would take to liquidate them.112 Form PF also requires
+the disclosure of information regarding the investment adviser’s use of trading and
+clearing mechanisms.113 In addition, investment advisers have to disclose information
+regarding the value of each of the advised funds’ borrowings and the types of creditors114
+and the aggregate value of all derivative positions for each advised fund.115 Finally,
+Form PF requires disclosure of information pertaining to investor liquidity—time period
+and percentage of NAV locked116—and the reporting fund’s restrictions of investor
+withdrawals and redemptions.117
+IV. Financial Stability Oversight Council
+In an attempt to correct perceived regulatory weaknesses that may have
+contributed to the financial crisis of 2008-09, the Dodd-Frank Act created the FSOC.118
+With the FSOC, Congress created a common forum that enabled financial regulators to
+assess and address systemic risks that could develop in less or unregulated non-bank
+financial institutions.119
+The FSOC’s mandate and primary purpose includes the identification and
+remedying insufficient supervision of large non-bank financial institutions, the promotion
+of market discipline, and responding to emerging threats to the stability of the U.S.
+financial system.120 It is also tasked with curtailing the complexity of financial
+institutions and improving the coordination among financial regulators121 and its
+supervisory responsibilities include evaluation and implementation of supervisory
+priorities and principles.122 Its core duties include: regulatory recommendations for
+financial regulators; the identification of regulatory shortcomings that could pose
+112 Id. § 2b, Item B.32.
+113 Id. § 1c, Item B.24.
+114 Id. § 2d, Item D.43.
+115 Id. § 2b, Item D.45.
+116 Id. § 2b, Item E.50.
+117Id. § 2b, Item E.49.
+118 Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), Pub. L. No. 111-203,
+§ 111-112, 124 Stat. 1376, 1392 (2010) (codified as amended in 12 U.S.C. 5321,5322).
+119 Id.
+120 FIN. STABILITY OVERSIGHT COUNCIL, 2013 ANNUAL REPORT (2013), available at
+http://www.treasury.gov/initiatives/fsoc/studies-reports/Pages/2013-Annual-Report.aspx; Amanda Risch,
+The Financial Stability Oversight Council, 31 REV. BANKING & FIN. L. 521, 522-523 (2012).
+121 EDWARD V. MURPHY, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY OVERSIGHT COUNCIL: A
+FRAMEWORK TO MITIGATE SYSTEMIC RISK 1-2 (2013), available at
+http://www.fas.org/sgp/crs/misc/R42083.pdf; Ben S. Bernanke, Chairman, Bd. Of Governors of the U.S.
+Fed. Reserve Sys., Speech at the 47th Annual Conference on Bank Structure and Competition:
+Implementing a Macroprudential Approach to Supervision and Regulation (May 5, 2011) [hereinafter
+Bernanke Speech 2011], available at
+http://www.federalreserve.gov/newsevents/speech/bernanke20110505a.htm; See generally Emerich Gutter,
+Too-Big-to-Fail and the Financial Stability Oversight Council, 30 REV. BANKING & FIN. L. 73 (2010);
+Stavros Gadinis, From Independence to Politics in Financial Regulation, 101 CAL. L. REV. 327, 369-70
+(2013); EDWARD V. MURPHY, CONG. RESEARCH SERV., R43087, WHO REGULATES WHOM AND HOW? AN
+OVERVIEW OF U.S. FINANCIAL REGULATORY POLICY FOR BANKING AND SECURITIES MARKETS (2013), at
+16-17, available at http://www.fas.org/sgp/crs/misc/R43087.pdf.
+122 See Emerich Gutter, Too-Big-to-Fail and the Financial Stability Oversight Council, 30 REV. BANKING
+& FIN. L. 73, 74 (2010).
+20
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+systemic risk; collection of information on financial firms; monitoring the financial
+system for potential systemic risks; facilitating the sharing of information and
+coordination among financial regulators; suggesting regulatory changes to Congress for
+the promotion of efficiency, competitiveness, and stability; and providing a forum for the
+resolution of jurisdictional disputes among council members.123
+The governance structure of the FSOC facilitates its coordination tasks and
+enables it to fulfil its mandate of addressing systemic risks. As a collaborative body
+chaired by the Secretary of the Treasury, the FSOC consists of ten voting members124 and
+five nonvoting members125 and brings together the expertise of federal regulators and
+state regulators.126 For the purpose of identifying emerging risks to financial stability, the
+FSOC can request data and analyses from the OFR and provide direction to the OFR.127
+The FSOC’s systemic risk committee and two sub-committees provide structure for
+analysing potential emerging systemic risks.128 In addition to the systemic risk
+123 EDWARD V. MURPHY, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY
+OVERSIGHT COUNCIL: A FRAMEWORK TO MITIGATE SYSTEMIC RISK 4-9 (2013).
+124 EDWARD V. MURPHY, CONG. RESEARCH SERV., R43087, WHO REGULATES WHOM AND
+HOW? AN OVERVIEW OF U.S. FINANCIAL REGULATORY POLICY FOR BANKING AND
+SECURITIES MARKETS 33-34 (2013) (“The council is chaired by the Secretary of the Treasury and the
+other voting members consist of the heads of the Federal Reserve, Federal Deposit Insurance Corporation,
+Office of the Comptroller of the Currency, National Credit Union Administration, Securities and Exchange
+Commission, Commodity Futures Trading Commission, Federal Housing Finance Administration,
+Consumer Financial Protection Bureau and a member with insurance expertise appointed by the
+President.”).
+125 Id. at 33-34 (“The five nonvoting members who serve in an advisory capacity are the director of the
+Office of Financial Research (created in conjunction with FSOC to support its efforts), the head of the
+Federal Insurance Office (created by Title V of DFA), a state banking supervisor, state insurance
+commissioner, and a state securities commissioner.”)
+126 FAQs about FSOC, U.S. DEP’T OF THE TREASURY (Apr. 10, 2013),
+http://www.treasury.gov/initiatives/fsoc/about/Pages/default.aspx (“The Financial Stability Oversight
+Council has a clear statutory mandate that creates for the first time collective accountability for identifying
+risks and responding to emerging threats to financial stability. It is a collaborative body chaired by the
+Secretary of the Treasury that brings together the expertise of the federal financial regulators, an
+independent insurance expert appointed by the President, and state regulators”)
+127 Financial Stability Oversight Council, DEP’T OF THE TREASURY,
+http://www.treasury.gov/initiatives/fsoc/about/Pages/default.aspx (Apr. 10, 2013, 12:00PM),
+(“Additionally, to help with the identification of emerging risks to financial stability, the FSOC can provide
+direction to, and request data and analyses from, the newly created Office of Financial Research (OFR)
+housed within Treasury.”);
+128 Continuing Oversight of the Implementation of the Dodd-Frank Wall Street Reform and Consumer
+Protection Act (Dodd-Frank Act), Focusing on Provisions Related to Monitoring Systemic Risk and
+Promoting Financial Stability: Hearing Before the S. Comm. on Banking, Housing, and Urb. Affairs, 112th
+Cong. 65 (2011) (statement of Mary L. Schapiro, Chairman, U.S. Securities & Exchange Commission)
+(“FSOC has established a Systemic Risk Committee that seeks to identify, highlight and review possible
+risks that could develop across the financial system.” available at
+https://www.sec.gov/news/testimony/2011/ts051211mls.htm; FAQs about FSOC, U.S. DEP’T OF THE
+TREASURY (Apr. 10, 2013), http://www.treasury.gov/initiatives/fsoc/about/Pages/default.aspx (“The
+structure is intended to balance the need for an interdisciplinary and cross-cutting approach with the need to
+leverage existing expertise and experience. The systemic risk committee will include senior staff and report
+to the Deputies committee.”) Id. (“Systemic Risk Committee: This committee is accountable for monitoring
+systemic risk and will play a role in prioritizing the review of sources of systemic risk and guiding the work
+of both the staff and systemic risk subcommittees”).
+21
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+committees, FSOC has its own permanent staff at the OFR, tasked with providing
+information, technical expertise and collecting required data on the financial system.129
+1. Procedure for Systemic Risk Assessment of Private Funds
+The FSOC’s powers over nonbank financial institutions are broad and unprecedented in
+U.S. financial regulation.130 The Dodd-Frank Act gave FSOC the power to subject a
+nonbank financial company to extensive supervision by the Federal Reserve.131 While the
+FSOC has to consider several quantitative metrics in its systemic risk assessment of non-
+bank financial institutions,132 the Dodd-Frank Act allowed FSOC to consider any other
+risk-related factors it may deem appropriate,133 underscoring its broad powers. Moreover,
+the Dodd-Frank Act specifically prohibits “antievasion” by nonbank financial
+institutions,134 further extending FSOC’s powers. On its own initiative, the FSOC may
+determine with a two-thirds vote if a nonbank financial institution is systemically
+important.135 While Dodd-Frank proscribes several considerations that the Council must
+take into account in its determination of what entities qualify as Systemically Important
+Financial Institution (SIFI), the quantitative systemic risk assessment measures are not
+specifically codified and the FSOC can change thresholds and analysis via the rule
+making process.136
+The FSOC applied two broad standards to the designation of the non-bank
+financial institution as a Systemically Important Financial Institution. First, FSOC
+assesses whether the “material financial distress” at a nonbank financial institution could
+pose a threat to the stability of the financial system.137 Secondly, FSOC takes into
+129 EDWARD V. MURPHY, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY
+OVERSIGHT COUNCIL: A FRAMEWORK TO MITIGATE SYSTEMIC RISK 1-2 (2013).
+130 See generally D. Jean Veta & Michael Nonaka, Assessment of the Act's Systemic Risk Regulation
+Provisions, in 6 CURRENT DEVELOPMENTS IN MONETARY AND FINANCIAL LAW: RESTORING FINANCIAL
+STABILITY 71 (International Monetary Fund, 2012).
+131 Section 111-113 of the Dodd-Frank Act outlines the purpose of the FSOC, which is to determine the
+material financial distress of nonbank financial companies and to bring such entities under the prudential
+supervision of the Federal Reserve. Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-
+Frank Act), Pub. L. No. 111-203, § 111-113, 124 Stat. 1376, 1392 (2010) (codified as amended in 12
+U.S.C. 5321-5323); Id. at § 113 (authorizing the FSOC to designate a nonbank financial institution for
+enhanced prudential standards and consolidated supervision by the Fed ); Id. at § 165 (instructing the Board
+of Governors of the Federal Reserve to develop special prudential standards that are to be applied to any
+bank holding company holding assets of more than $50 billion, as well as to any firms designated by the
+FSOC); EDWARD V. MURPHY, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY
+OVERSIGHT COUNCIL: A FRAMEWORK TO MITIGATE SYSTEMIC RISK 1-2 (2013); see further
+Nonbank Financial Company Designations, U.S. DEP’T OF TREASURY (DEC. 17, 2013),
+http://www.treasury.gov/initiatives/fsoc/designations/Pages/default.aspx
+132 Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), Pub. L. No. 111-203,
+§ 113(a)(2), 124 Stat. 1376, 1392 (2010) (codified as amended in 12 U.S.C. 5321)
+133 Id. at § 113(a)(2)(K). The FSOC “has authority to assess nonbank financial companies, and their
+relationships with other nonbank financial companies and market participants in a manner that addresses
+the statutory considerations and such other factors the Council deems appropriate.” 12 C.F.R. § 1310 app.
+A(III)(a) (2014).
+134 Dodd-Frank Act at § 113(c).
+135 Id. at § 113(a)(1)
+136 Id. at § 113(a)(1) & (a)(2)(K); 12 C.F.R. § 1310 app. A (2014).
+137 12 C.F.R. § 1310 app. A(II) (“A threat to the financial stability of the United States [….] exist[s] if there
+would be an impairment of financial intermediation or of financial market functioning that would be
+22
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+account in its assessment the nature, size, scope, scale, concentration, interconnectedness,
+or mix of the activities of the nonbank financial institution as possible threats to the
+financial system.138 Commonly managed investment funds that manage $50 billion or
+more in the aggregate of total consolidated assets could be designated a SIFI, particularly
+if such funds all follow a similar investment strategy.139
+The Dodd-Frank Act requires certain statutory considerations to determine
+whether or not a nonbank financial institution meets either of the two standards.140 The
+sufficiently severe to inflict significant damage on the broader economy.”) Id. (“An impairment of
+financial intermediation and financial market functioning, in turn, can be established through several
+channels including exposure, asset liquidation, or critical function or service”); see generally TOBIAS
+ADRIAN, DANIEL COVITZ & NELLIE J. LIANG, FINANCIAL STABILITY MONITORING (2013).
+Whether a nonbank financial institution is in “material financial distress” will be assessed by FSOC as if
+the financial industry as a whole were in a period of overall stress and in a weak market environment,
+similar to bank stress tests conducted by the Fed under Section 165(i)(2) of Dodd-Frank Act. Dodd-Frank
+§165(i)(2).
+138 12 C.F.R. § 1310 app. A(II)(c) (2014). This standard will be met if the “nature of a nonbank financial
+company’s business practices, conduct, or operations could pose a threat to the stability of the financial
+system, regardless of whether or not the nonbank financial company is experiencing any financial distress.”
+Id. Because large nonbank financial companies that experience financial distress often impact the broader
+financial industry there will be significant overlap between the two FSOC determination standards for SIFI
+status of nonbank financial institutions. Id. Dodd-Frank Act Section 113 lists 10 considerations that the
+FSOC must take into account in making a SIFI determination. Dodd-Frank Act at § 115(b)(1).
+139 12 C.F.R. § 1310 app. A(III)(a) (2014). (A nonbank financial company will be evaluated further in Stage
+2 if it meets both the total consolidated assets threshold and any one of the other thresholds. The thresholds
+are: Total Consolidated Assets. The Council intends to apply a size threshold of $50 billion in total
+consolidated assets……Credit Default Swaps Outstanding. The Council intends to apply a threshold of $30
+billion in gross notional credit default swaps (“CDS”) outstanding for which a nonbank financial company
+is the reference entity…..Derivative Liabilities. The Council intends to apply a threshold of $3.5 billion of
+derivative liabilities….Total Debt Outstanding. The Council intends to apply a threshold of $20 billion in
+total debt outstanding…..Leverage Ratio. The Council intends to apply a threshold leverage ratio of total
+consolidated assets (excluding separate accounts) to total equity of 15 to 1…..Short-Term Debt Ratio. The
+Council intends to apply a threshold ratio of total debt outstanding (as defined above) with a maturity of
+less than 12 months to total consolidated assets (excluding separate accounts) of 10 percent….); see also
+Joseph P. Vitale & Marc E. Elovitz, FSOC Issues Final Rule on Designating Nonbanks as "Systemically
+Important" — What Private Fund Managers Need to Know, SCHULTE ROTH & ZABEL (Apr. 12, 2012),
+http://www.srz.com/FSOC_Issues_Final_Rule_on_Designating_Nonbanks_as_Systemically_Important/
+140 Dodd-Frank Act at §113(a)(2). (2) CONSIDERATIONS.—In making a determination
+under paragraph (1), the Council shall consider—
+(A) the extent of the leverage of the company;
+(B) the extent and nature of the off-balance-sheet exposures of the
+company;
+(C) the extent and nature of the transactions and relationships of the
+company with other significant nonbank financial companies and
+significant bank holding companies;
+(D) the importance of the company as a source of credit for
+households, businesses, and State and local governments and as a
+source of liquidity for the United States financial system;
+(E) the importance of the company as a source of credit for low-
+income, minority, or underserved communities, and the impact that
+the failure of such company would have on the availability of credit
+in such communities;
+23
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+FSOC organized these statutory considerations into a six-category framework, each
+category reflecting a different dimension of the nonbank financial institution’s potential
+threat to financial stability: leverage, liquidity risk and maturity mismatch, size,
+interconnectedness, substitutability, and existing regulatory scrutiny.141
+Based on its six-category analytical framework, FSOC employs a three-stage
+process of increasing in-depth evaluation and analysis to determine whether a nonbank
+financial institution creates a threat to the financial stability of the United States.142 In
+stage one, applying six quantitative thresholds, FSOC uses a mechanical screening
+process to eliminate those nonbank financial institutions from review that are unlikely to
+pose significant systemic risk and may not merit SIFI designation.143 Only those nonbank
+financial institutions that raised systemic concerns in stage one will be subject to more
+institution-specific and qualitative evaluation in stage two and thereafter possibly stage
+three.144 In stage two FSOC prioritizes those nonbank financial institutions identified in
+stage one based on quantitative and qualitative public and regulatory sources of
+information and initiates the consultation process with the primary financial regulatory
+agencies.145 In stage three, FSOC contacts each identified nonbank financial institution to
+collect additional information that was not available in stages one and two146. The
+combined information from all three stages is then evaluated.147 Should the FSOC
+(F) the extent to which assets are managed rather than owned by the
+company, and the extent to which ownership of assets under
+management is diffuse;
+(G) the nature, scope, size, scale, concentration, interconnectedness,
+and mix of the activities of the company;
+(H) the degree to which the company is already regulated by 1 or
+more primary financial regulatory agencies;
+(I) the amount and nature of the financial assets of the company;
+(J) the amount and types of the liabilities of the company, including
+the degree of reliance on short-term funding; and
+(K) any other risk-related factors that the Council deems appropriate; see also
+12 C.F.R. § 1310 app. A(II)(c) (2014).
+141 12 C.F.R. § 1310 app. A(III)(c) (2014).
+142 Id at (III). See generally Gregory S. Rowland, Designation of Asset Managers and Funds as
+Systemically Important Non-Bank Financial Institutions: Process and Industry Implications, 20
+INVESTMENT LAW. 1, 1-2 (2013), available at
+http://www.davispolk.com/sites/default/files/files/Publication/496c5f23-8c9a-48ae-bd95-
+078e31e4b632/Preview/PublicationAttachment/5585c767-083c-48ed-b549-
+0d07d4cc1515/IL_April_2013_Rowland_article.pdf.
+143 12 C.F.R. § 1310 app. A(III)(a) (2014); see generally Joseph P. Vitale & Marc E. Elovitz, FSOC Issues
+Final Rule on Designating Nonbanks as "Systemically Important" — What Private Fund Managers Need to
+Know, SCHULTE ROTH & ZABEL, (Apr. 12, 2012),
+http://www.srz.com/FSOC_Issues_Final_Rule_on_Designating_Nonbanks_as_Systemically_Important/
+144 See generally Press Release, Financial Stability Oversight Council, Financial Stability Oversight
+Council Makes First Nonbank Financial Company Designations to Address Potential Threats to Financial
+Stability (Jul. 9, 2013), available at http://www.treasury.gov/press-center/press-releases/Pages/jl2004.aspx.
+145 12 C.F.R. § 1310 app. A(III)(b) (2014).
+146 Id. at (III)(c).
+147 FIN. STABILITY OVERSIGHT COUNCIL, 2013 ANNUAL REPORT (2013) available at
+http://www.treasury.gov/initiatives/fsoc/studies-reports/Pages/2013-Annual-Report.aspx; Press Release,
+Financial Stability Oversight Council, Financial Stability Oversight Council Makes First Nonbank
+Financial Company Designations to Address Potential Threats to Financial Stability (Jul. 9, 2013),
+available at http://www.treasury.gov/press-center/press-releases/Pages/jl2004.aspx (“Each nonbank
+24
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+conclude at the conclusion of stage three that the nonbank financial company creates a
+threat to the stability of the U.S. financial system, FSOC will request a hearing in
+accordance with section 113(e) of the Dodd-Frank Act.148
+Designation as a systemically important financial institution (SIFI) would change
+the nature of the regulation for the respective nonbank financial institution and subject
+such entity to substantial additional regulations,149 requiring the respective entity to
+change the way it does business. This change in the way a nonbank does business could
+impact its growth as such entity may be required to bolster its balance sheet and curtail
+risk.150
+2. Data Analysis
+The design of Form PF is intended to provide the FSOC with the required
+empirical data to determine the extent to which the activities of private funds and/or their
+advisers pose a systemic risk.151 Of particular interest for FSOC’s systemic risk analysis
+via Form PF data are the concentration of fund investments by geography and industry,
+the systemic exposure to specific financial institutions and credit counterparties, and the
+concentration of the respective private funds’ investor base.152
+FSOC’s three-stage review process for SIFI designation153 depends heavily on the
+information provided by private fund investment advisers in Form PF.154 A large
+proportion of the information provided in Form PF also relates directly to the six-
+category framework the FSOC uses throughout is SIFI designation process. The six-
+category framework is organized in accordance with the statutory considerations set out
+by the Dodd-Frank Act and is designed to determine whether or not a nonbank financial
+financial company that is reviewed in Stage 3 is notified that it is under consideration and is provided an
+opportunity to submit written materials related to the Council’s consideration of the company for a
+proposed designation.”).
+148 12 C.F.R. § 1310 app. A(III)(2014).
+149 Once designated as a SIFI, the respective entity will be subject to extensive regulation and supervision
+by the Federal Reserve Board under Title I of the Dodd-Frank Act. Dodd-Frank Act at § 115(a)(1);
+EDWARD V. MURPHY, CONG. RESEARCH SERV., R42083, FINANCIAL STABILITY OVERSIGHT
+COUNCIL: A FRAMEWORK TO MITIGATE SYSTEMIC RISK (2013) at 1-2. The Dodd-Frank Act
+requires that the regulatory standards for non-bank financial firms under Fed supervision are more stringent
+than the standard for non-bank financial firms outside of Fed supervision. Dodd-Frank Act at § 115(a). The
+Fed has the authority to require such non-bank financial institutions to comply with the following
+prudential standards: leverage limits, liquidity requirements, enhanced public disclosures, concentration
+limits, risk-based capital requirements, resolution plan and credit exposure report requirements, a
+contingent capital requirement, short-term debt limits, and overall risk management requirements. See
+Dodd-Frank Act at § 115(b)(1).
+150 Douglas J. Elliot, Regulating Systemically Important Financial Institutions That Are Not Banks,
+INITIATIVE ON BUS. AND PUB. POL'Y AT BROOKINGS, 1 (May 9, 2013)
+http://www.brookings.edu/~/media/research/files/papers/2013/05/09%20regulating%20financial%20institut
+ions%20elliott/09%20regulating%20financial%20institutions%20elliott.pdf.
+151 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,129.
+152 FORM PF, supra note 14, at §2a.
+153 See supra notes 137-140 and accompanying text; 12 C.F.R. § 1310 app. A(III) (2014).
+154 Rowland, supra note 141, at 2. Except for the Stage 1 threshold relating to the credit default swaps
+written on the nonbank financial company. Id. “Stage 2 analysis is more company specific, and will move
+beyond the scope of the metrics collected by Form PF for Stage 1, but will likely be used as a reference.” Id
+at 3.
+25
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+institution merits a SIFI designation.155 Each category reflects a different dimension of
+the nonbank financial institution’s potential threat to financial stability: leverage,
+liquidity risk and maturity mismatch, size, interconnectedness, substitutability, and
+existing regulatory scrutiny.156
+The information in Form PF either directly or indirectly addresses most of
+FSOC’s stage one thresholds.157 More specifically, the following Form PF Questions
+provide specific information for FSOC’s stage one threshold assessment: Form PF
+Question 8 (gross asset value of reporting fund) is directly relevant for FSOC’s stage one
+threshold for $50 billion in total consolidated assets; Form PF Questions 13, 44 (value of
+derivative positions) help assess the threshold of $3.5 billion in derivative liabilities;
+Form PF Questions 46 (financing liquidity) and 58 (financing information) inform the
+$20 billion threshold in stage one for total debt outstanding; and Form PF Questions 8
+(gross assets value of reporting fund) and 9 (net asset value of reporting fund) help
+determine the 15 to 1 leverage ratio in FSOC’s stage one assessment.158
+Form PF data is also used in FSOC’s stage two SIFI designation analysis. Several
+Form PF Questions provide directly relevant information for the six criteria considered
+by FSOC in its stage two analysis and beyond: Form PF Questions 22, 23, 36 and 37
+(five counterparties to which the reporting fund has the greatest mark-to-market net
+counterparty credit exposure) provides highly relevant information to determine the
+interconnectedness of private funds; Form PF Question 8 (gross assets value of reporting
+fund) helps the FSOC assess the size of private funds/advisers; Form PF Questions 30
+(reporting fund exposure) and 56 (product exposures) help the FSOC in assessing the
+fund substitutability; Form PF Questions 32 (liquidity of reporting funds’ portfolio) and
+55 (reporting fund assets) can help FSOC compare the liquidity of a funds’ assets with
+the liquidity of investors in Questions 50 (investor liquidity) and 64 (investor liquidity in
+percent) to analyse funds’ liquidity and maturity mismatch risk; Form PF Questions 8, 9,
+43, 44, 46, 58, and 66 can help FSOC assess the reporting fund’s leverage; finally Form
+PF Questions 40 (reporting fund’s VaR) and 42 (effect of market factors on portfolio) can
+help FSOC assess the overall riskiness of private funds advisers’ investments.159
+V. Private Fund Data and Systemic Risk Assessment
+The analysis in this article suggests that the evidence provided by the SEC160 and
+the FSOC161 in combination with data analysis from a prior study162 seem to confirm
+155 Dodd-Frank Act at § 113(a)(2); 12 C.F.R. § 1310 app. A(II)(d)(2) (2014).
+156 12 C.F.R. § 1310 app. A(II)(d)(2) (2014).
+157 Rowland, supra note 141, at 2. Except for the Stage 1 threshold relating to the credit default swaps
+written on the nonbank financial company. Id. “Stage 2 analysis is more company specific, and will move
+beyond the scope of the metrics collected by Form PF for Stage 1, but will likely be used as a reference.”
+Id. at 3.
+158 Compare FSOC’s Stage 1 thresholds in 12 C.F.R. § 1310 app. A(III)(a) (2014) with the information
+filed by private fund investment advisers in Form PF - Form PF, supra note 14, at §2a; see also Rowland,
+supra note 141, at 5-7.
+159 Form PF, supra note 14, at §2a; Compare FSOC’s Stage 1 thresholds in 12 C.F.R. § 1310 app. A(III)(a)
+(2014) with the information filed by private fund investment advisers in Form PF; see also Rowland, supra
+note 141, at 5-7.
+160 See infra Fn. 163 to 167.
+161 See infra Fn. 171 to 172.
+162 Kaal Registration, supra note 22, at 316-317.
+26
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+concerns over Form PF data insufficiency and possible inaccuracies. These challenges for
+Form PF data could have an effect on FSOC’s systemic risk assessment of private fund
+advisers.
+1. Sub-optimality of Systemic Risk Data
+The analysis of the data collected in Form PF presents several key challenges. The
+SEC suggests that the consistency of investment adviser’s responses on Form PF is not
+ensured and could be questionable.163 Other challenges with Form PF identified by the
+SEC include the differences in approaches taken by investment advisers in completing
+Form PF and differences in assumptions made by investment advisers in completing
+Form PF.164 Upon initial analysis of Form PF data, the SEC identified data anomalies
+deemed to be attributable to filer error165 which precipitated SEC concerns about the
+quality of the information provided by private fund advisers. 166 While the SEC is making
+a concerted effort to improve Form PF data quality by issuing FAQs on interpretive
+issues and requesting curative amendments of Form PF filings from filers,167 expanding
+the utility of Form PF data without sufficient confidence in the accuracy of the
+information provided by investment advisers on Form PF remains difficult. On the
+upside, the SEC’s experience with Form PF data is in its early stages and the data quality
+and utility is likely to evolve over time as filers become more familiar with the
+requirements of Form PF and the methods of calculation.168
+The SEC also appears to be aware of possible data quality shortcomings169
+because it continues to assess Form PF data quality.170 Similarly, in its attempt to identify
+activities of twenty of the largest U.S. fund managers as possible sources of systemic
+risk,171 the FSOC acknowledged that the available data was insufficient – at least in the
+163 SEC, ANNUAL STAFF REPORT RELATING TO THE USE OF DATA COLLECTED FROM PRIVATE FUND
+SYSTEMIC RISK REPORTS 1 (2013) [HEREINAFTER SEC 2013], available at
+http://www.sec.gov/news/studies/2013/im-annualreport-072513.pdf.
+164 Id.
+165 Section 207 of the Investment Advisers Act makes any willful misstatements or omission of a material
+fact in any report filed with the SEC pursuant to the Investment Advisers Act unlawful.
+166 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,129.
+167 See Form PF: Frequently Asked Questions, U.S. SEC. & EXCH. COMM’N (last visited Jan. 12, 2014),
+, http://www.sec.gov/divisions/investment/pfrd/pfrdfaq.shtml.
+168 Kaal Disclosure, supra note 22, at [__].
+169 OFFICE OF FIN. RESEARCH, ASSET MANAGEMENT AND FINANCIAL STABILITY 2 (2013), available at
+http://www.treasury.gov/initiatives/ofr/research/Documents/OFR_AMFS_FINAL.pdf (“Unfortunately,
+there are limitations to the data currently available to measure, analyze, and monitor asset management
+firms and their diverse activities, and to evaluate their implications for financial stability. These data gaps
+are not broadly recognized”); Yin Wilczek, Report: ‘Data Gaps’ About Asset Managers Stymies Analysis
+of Risks Posed by Industry, BNA BANKING REPORT, Sept. 30, 2013 (“There are “significant data gaps”
+regarding the activities of asset managers that make it difficult to fully analyze or measure the threat posed
+by the industry to financial stability, the Office of Financial Research said Sept. 30.”)
+170 SEC 2013, supra note 163, at 1.
+171 FIN. STABILITY OVERSIGHT COUNCIL, 2013 ANNUAL REPORT (2013) available at
+http://www.treasury.gov/initiatives/fsoc/Documents/FSOC%202013%20Annual%20Report.pdf.
+ELABORATE ON FINDINGS IN FN.
+27
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+context of counterparty risks and leverage, including the repo market and securities
+lending and in the context of separate fund accounts.172
+The data collected via Form PF has several core shortcomings.173 Core
+substantive issues with Form PF include: the ambiguity of several key questions on Form
+PF, the inaccuracy of Form PF definitions and corresponding insufficiency of SEC
+guidance for Form PF, and difficulties in aggregating the required Form PF
+information.174 Over forty percent of respondents in a prior study suggested that they
+disagreed with definitions or instructions in Form PF.175 Especially the definition of
+Regulatory Assets under Management (RAUM), as required by Form PF, required filers
+to interpret what they were required to report.176 The level of interpretation required to
+answer Form PF precipitated particular concerns among filers pertaining to the definition
+of counterparties and performance measures for counterparties in Form PF. There is also
+evidence that Form PF questions and definitions had to be optimized, including
+performance information required by Form PF.177 Form PF instructions generally needs
+clarification and the definitions for RAUM/AUM in Form PF, among others, have to be
+improved.178
+2. Impact on Systemic Risk Assessment
+Given the identified shortcomings of Form PF data, the systemic risk assessment
+process employed by the FSOC could be compromised. Several core Form PF questions
+that provide specific information for FSOC’s stage one threshold assessment encounter
+problems. More specifically, the definition of RAUM required a level of interpretation by
+filers.179 FSOC is using asset valuations in Form PF that are associated with RAUM, such
+as gross asset value of reporting fund (Form PF Question 8), the value of derivative
+positions (Form PF Questions 13, 44), financing information and financing liquidity
+(Form PF Questions 46 and 58), as well as gross and net assets value of reporting fund
+(Form PF Questions 8 and 9) to determine various stage one thresholds.180 Given FSOC’s
+direct or indirect use of RAUM related data (and FSOC’s emphasis on such data), in
+combination with the author’s prior study suggesting that RAUM requires substantial
+interpretation,181 it seems at least questionable if FSOC will be able to use the related
+Form PF data effectively and sustainably for its systemic risk evaluations and the
+designation of non-bank financial companies as systemically risky.
+FSOC’s stage two assessment process could be equally affected. Form PF
+questions that provide specific information for FSOC’s stage two threshold assessment
+also encounter problems. The determination of a private fund’s size and leverage in
+172 Id. at 13.
+173 Id.; Kaal Disclosure, supra note 22, at [__].
+174 Kaal Disclosure, supra note 22, at [__].
+175 Id.
+176 Id.
+177 Id.
+178 Id.
+179 Id.
+180 FSOC’s stage one thresholds that can be determined by use of Form PF RAUM data include: $50
+billion in total consolidated assets, $3.5 billion in derivative liabilities, $20 billion of total debt outstanding,
+15 to 1 leverage ratio of total consolidated assets to total equity, the leverage ration of private funds. For
+further analysis of relevance of Form PF data in FSOC’s stage one evaluation see supra Fn. 143-144.
+181 Kaal Disclosure, supra note 22, at [__].
+28
+
+SYSTEMIC RISK OF PRIVATE FUNDS
+FSOC’s stage two also relies on Form PF RAUM data182 and could be subject to
+inaccuracies because the RAUM measures reported by private funds can required a level
+of interpretation by the filers, as identified in the author’s prior study.183 The level of
+interpretation required to answer Form PF affects performance measures in Form PF
+Question 17, counterparties and definitions of counterparties in Form PF Questions 22
+and 23.184 Form PF questions 22 and 23 are directly used in FSOC’s stage two analysis
+to determine the interconnectedness of private funds.
+In addition to the specific matching of Form PF data issues with FSOC’s uses of
+Form PF data, Form PF data may also present several more generic areas of concern for
+FSOC’s systemic risk evaluation. Over forty percent of respondents in a prior study
+suggested that they disagreed with definitions or instructions in Form PF.185 This
+suggests that a large proportion of filers are uncertain as to how Form PF questions are to
+be answered. This uncertainty at least raises the possibility that the filers are using
+estimates and a variety of assumptions to complete Form PF. If FSOC relies on Form PF
+data in its systemic risk assessment that is subject to inaccuracies, it appears possible that
+FSOC’s work pertaining to private funds could in turn be subject to errors.
+VI. Conclusion
+The article suggests that private fund advisers who reported data as required by
+SEC Form PF encountered issues that could affect FSOC’s systemic risk assessment of
+private funds. The author does not suggest that the FSOC is unable to fulfill Congress’s
+mandate. The observations in this article pertaining to the suboptimality of Form PF data
+are primarily based on the quantifications and evaluations of the author’s prior survey
+study. The author identified and matched the relevance of purported Form PF data issues
+with the respective use and emphasis of Form PF data in FSOC’s systemic risk
+assessment. The matching of identified Form PF issues with FSOC’s respective use of
+such suboptimal Form PF data suggests that possible inaccuracies may exist in FSOC’s
+systemic risk assessment process. The author does not claim scientific and/or empirical
+precision in the analysis. Addressing the identified problems with Form PF data could
+help optimize FSOC’s systemic risk assessment of private funds.
+182 See supra Fn 145.
+183 Kaal Disclosure, supra note 22, at [__].
+184 Id.
+185 Id.
+29
+

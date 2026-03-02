@@ -1,0 +1,1065 @@
+TILEC
+TILEC Discussion Paper
+Electronic copy available at: https://ssrn.com/abstract=3227967
+Electronic copy available at: https://ssrn.com/abstract=3227967
+
+CODING FOR LAWYERS
+LEGAL EDUCATION IN A DIGITAL AGE
+-
+WHY ‘CODING FOR LAWYERS’ MATTERS
+Mark Fenwick,* Wulf A. Kaal,** and Erik P.M. Vermeulen***
+ABSTRACT
+In this paper, we explain the benefits of introducing a “Coding for
+Lawyers” course in the legal curriculum, and present our initial
+experiences with the course in Europe and the United States. The
+paper outlines the broader context of the transformation of
+education in a digital age; describes the importance of computer
+code in a legal context, particularly in terms of on-going changes in
+the legal profession; and, introduces the main features of the course
+and its initial reception. The main argument is to suggest that the
+lawyers of the future will be “transaction engineers” and that to
+perform this function effectively, legal professionals need to be able
+to understand the basic concepts and power of coding.
+Keywords: algorithms, Bitcoin, blockchain, coding, digital, digital
+transformation, Ethereum, legal education, legal tech, smart
+contracts, software, transaction engineers, trust
+JEL Classifications: A20, C90, D20, D80, G30, I20, I21, I23,
+I25, K10, K20, K30, K40
+* Kyushu University (Fukuoka, Japan)
+** University of St. Thomas School of Law (Minneapolis, USA)
+*** Tilburg University; Tilburg Law and Economics Center; Philips Lighting
+(Netherlands)
+0
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+TABLE OF CONTENTS
+I. INTRODUCTION ...................................................................................... 2
+II. EDUCATION IN A DIGITAL AGE ................................................................... 6
+III. LAWYERS AS TRANSACTION ENGINEERS ................................................... 8
+IV. LEGAL TECH ................................................................................... 12
+V. LAWYER OF THE FUTURE ........................................................................ 17
+VI. BLOCKCHAIN .................................................................................. 19
+VII. SMART CONTRACTS .......................................................................... 22
+VIII. NO TURNING BACK .......................................................................... 24
+IX. CODING FOR LAWYERS ...................................................................... 27
+X. CONCLUSION ....................................................................................... 31
+1
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+“In short, developers will be at the center of solving the world’s
+most pressing challenges. However, the real power comes when
+every developer can create together, collaborate, share code and
+build on each other’s work. In all walks of life, we see the power of
+communities, and this is true for software development and
+developers.”1 Satya Nadella (CEO, Microsoft)
+I. Introduction
+We all now live in a world of “ubiquitous computing.” Computers
+are embedded in all aspects of our everyday lives. As a result,
+computer code now provides the unseen and unnoticed architecture
+structuring our whole existence: work, recreation, communication,
+consumption, travel, and education/research.2
+Think about how much of our lives is spent interacting with devices
+that are, at some level, structured by computer code. Such
+experiences can be direct and proximate – interacting with a
+smartphone or computer, for instance – or more “distant” –
+traveling to work on a subway system that is automated in various
+ways. In both cases, it is code that makes the experience possible
+and code that, ultimately, provides the structure for that experience.
+The world today is a world structured by computer code or – as
+venture capitalist and serial entrepreneur, Marc Andreessen, rather
+1 Satya Nadella, Microsoft + Github = Empowering Developers, MICROSOFT:
+OFFICIAL MICROSOFT BLOG (Jun. 3, 2018),
+https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-
+developers/.
+2 Erik P.M. Vermeulen, Why I Want My Students to Code: The Importance of
+Coding in Education, MEDIUM: HACKERNOON, (Apr. 1, 2018),
+https://hackernoon.com/why-i-want-my-students-to-code-b358a2b97770.
+2
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+dramatically puts it – “software is eating reality.”3 Code provides
+the fundamental architecture that sets the terms on which life in a
+digital age is lived. Code determines how easy it is to protect
+personal information or express ourselves. It determines whether
+access to information is open or whether specific information or
+space is zoned and access limited. Code affects who sees what, or
+who or what is monitored. It determines how machines
+communicate in the Internet of Things.4 The deep architecture of a
+digital world can regulate in a host of ways, ways that one cannot
+begin to see (or understand) unless you consider the nature of such
+code and how it operates.
+Code raises all manner of substantive legal issues. But, computer
+code and digital technologies are also transforming what it means
+to be a lawyer. In that respect, all lawyers will be affected by the
+on-going digital transformation.5 If Satya Nadella is right that
+developers will be at the “center” of “solving the problems of a
+today’s world,” then lawyers must be able to “speak” the language
+of code to participate in the crucial task of engaging with and
+solving these problems.
+3Marc Andreessen, Why Software is Eating the World, Wall St. J. (Aug. 20,
+2011),
+https://www.wsj.com/articles/SB1000142405311190348090457651225091562
+9460; Jeetu Patel, Software is Still Eating the World, TECHCRUNCH (Jun. 7,
+2016), https://techcrunch.com/2016/06/07/software-is-eating-the-world-5-years-
+later/.
+4 Internet of Things (IoT), TechTarget: IoT Agenda,
+https://internetofthingsagenda.techtarget.com/definition/Internet-of-Things-IoT
+(last visited Aug. 28, 2018); Limor “Ladyada” Fried, All the (Internet of) Things,
+CODECADEMY NEWS (Apr. 19, 2018), https://news.codecademy.com/internet-of-
+things/.
+5 Daniel Newman, Top 5 Digital Transformation Trends in Legal, FORBES (Aug.
+29, 2017, 6:14 AM),
+https://www.forbes.com/sites/danielnewman/2017/08/29/top-5-digital-
+transformation-trends-in-legal/#2610caac76f8
+3
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+Historically, lawyers have been at their most effective – and socially
+useful - when they operate as “transaction engineers,” i.e.,
+facilitating new forms of business and other social relationships.6 It
+seems obvious that the “engineering” of the near-future will, to a
+large extent, be code-based. This does not mean that lawyers are
+irrelevant or that they will disappear. Rather, the digital
+transformation will disrupt the legal profession and demand a
+different set of skills and capacities than have traditionally been
+taught in law school or used in legal practice.
+It is for this reason that we decided to introduce a “Coding for
+Lawyers” course in our legal education programs. We are
+convinced that “coding” can help us in solving many contemporary
+economic, environmental and social issues and that to participate in
+the “multi-disciplinary” teams of the future, lawyers will need to
+develop some coding skills.
+It is perhaps not entirely surprising to discover that this initiative
+has been met with a certain amount of skepticism. “Is it really
+necessary for law students to learn how to code?”; “What is the
+value-added for us (non-technologists) of understanding code?”; or,
+“Isn’t this all just a waste of time?” These are some of the typical
+responses of colleagues.
+No doubt, there is something to these concerns. For a start, we don’t
+need to have any understanding of code to successfully navigate the
+digital world. “Users” of digital devices don’t need to be able to
+6 Dan Mangan, Lawyers Could Be the Next Profession To Be Replaced By
+Computers, CNBC: FUTURE OF WORK (Feb. 17, 2017, 1:55 PM),
+https://www.cnbc.com/2017/02/17/lawyers-could-be-replaced-by-artificial-
+intelligence.html?&qsearchterm=lawyers%20could%20be%20replaced%20by
+%20artificial%20intelligence.
+4
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+code for themselves. After all, we use technology all the time,
+without ever really understanding it. We can drive a car perfectly
+well, without understanding much about how automobile engines
+work and the overwhelming majority of users of the Internet don’t
+necessarily understand the ins and outs of TCP/IP protocols.
+Moreover, coding isn’t easy. Acquiring competency takes a
+significant investment of time and even if law students do feel the
+need to learn how to code, there are thousands of available resources
+(on- and off-line) out there that can teach them. It isn’t effective or
+necessary to add “another course” to the curriculum.
+To be clear from the start, however, we are not suggesting that law
+students should become professional coders. After all, coding is
+complicated and to become a serious coder does take time.
+However, we do believe that the ability to understand and
+communicate with coders is a necessary skill for the lawyer of the
+future. As such, we think that law students will benefit from
+understanding the basic concepts and power of coding. Not only by
+reading or hearing about it but by participating in and experimenting
+with coding projects in a classroom environment.
+The “Coding for Lawyers” course has generated a lot of interest, so
+this paper aims to introduce the background, content and initial
+experience of the course. Section 2 outlines the broader context of
+the transformation of education in a digital age; Sections 3, 4 and 5
+describes the importance of computer code in a legal context,
+particularly in terms of technology-driven changes to the legal
+profession; Section 6 introduces the main features of the course and
+its initial reception; and Section 7 concludes.
+5
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+II. Education in a Digital Age
+We are experiencing a “digitization of reality,” as a result of the
+global proliferation of new technologies.7 We live in a “digital
+world” that is characterized by fast-paced, technology-driven
+social, economic and cultural change.8 And, with ever-shorter
+innovation cycles, it seems obvious that new technologies are going
+to continue to transform every aspect of how we live and work.
+Constant technological disruption is now the “new normal” and, as
+a consequence, “old world” concepts, paradigms and ideas are
+becoming increasingly less relevant.9 At least, they are being
+challenged and disrupted by a new networked world of
+interconnected digital technologies.
+The resulting uncertainties create a massive challenge for all
+educators and not just lawyers. What should we be teaching our
+students today? How can we prepare students for the complex and
+uncertain world of tomorrow?
+Teaching has always tended to be “backward-looking” and
+knowledge-based.10 Transmitting the settled knowledge of the past
+has been the starting point for our whole approach to education. For
+instance, in a legal context, students have traditionally analyzed
+existing laws, regulations, and cases. The idea has been that if you
+understand and examine historical developments, you would be
+7 Erik P.M. Vermeulen, Education in a Digital Age, by Professor Vermeulen:
+How to Prepare the Next Generation for the Uncertain Things to Come, MEDIUM:
+STUDENT VOICES (Feb. 22, 2018), https://mystudentvoices.com/education-in-a-
+digital-age-by-professor-vermeulen-7d3b69f43de3.
+8 Erik P.M. Vermeulen, Technology is Changing Us: We Must Be Much Smarter
+About the Digital Transformation, MEDIUM: HACKERNOON (May 27, 2018),
+https://hackernoon.com/technology-is-changing-us-e3c6bf7f9888.
+9 Vermeulen, supra note 7.
+10 Id.
+6
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+able to solve future problems by applying old doctrines and
+precedents to the new situation. Similar logic can be seen in other
+fields. MBA programs, for example, employed the same approach
+in a business context.
+The responsibility of the educator was to transmit this settled
+information/knowledge. In a world of information asymmetries, the
+educator-student relationship was, by necessity, a hierarchical one.
+After all, the teacher had all the knowledge and experience. This
+was the source of their authority and credibility as an educator. But,
+this model seems ill-suited to a world of fast-paced change and easy
+access to information. Prior experience may not be relevant to a
+fast-changing reality and information is only ever one Google
+search away.
+If the future is radically different from the present, it doesn't make
+sense to focus too much attention on transmitting information that
+seems likely to be less and less relevant. The result? Education
+needs to become much more “forward-looking” and skills - rather
+than content - based. How then do we prepare the next generation
+for dealing with unknown future problems? This is the question that
+everyone involved with education now needs to be asking. Denying
+this change is doing a disservice to our students.
+Here a few general suggestions. For a start, everyone is going to
+need a much better technical grasp of the core technologies
+surrounding computers, communication networks, and artificial
+intelligence (“AI”). For many of us, the underlying technologies
+that are driving social change remain a mystery, and that is a
+problem. Practical technical knowledge needs to be integrated into
+many fields of education. Coding and data analysis seem a good
+starting point. But, we also need to think about other skills and
+7
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+capacities that are important in a world of constant change. The
+focus should be on building skills that will assist the next generation
+in making the “better” decisions under conditions of uncertainty.
+The next generation has to be able to think fast and “out of the box.”
+Dynamic analysis of complex situations and the ability to
+communicate solutions, in presentations or video form, will be the
+key. In the future, we will see looser organizations and social
+platforms. It is therefore important that the next generation find
+ways to become more productive and self-motivating, i.e., how to
+operate without a “boss” or supervisor telling them what to do.
+As traditional concepts of a “career” become much less relevant in
+the so called “Gig Economy,” it will become increasingly important
+to build and communicate a personal “brand” by telling the right
+kind of story. More open organizations will mean having to work in
+teams of strangers, often from diverse national or disciplinary
+backgrounds. The ability to work in such a team, continually
+adapting to new situations and working patterns, becomes crucial.
+Finally, many of the problems of the future will be ethically
+complex. This seems particularly true in the context of robotics and
+AI, but all new technologies raise difficult ethical issues. Building
+the capacity of students to think about ethics seems another way that
+educators can add value. Again, this would seem to put a premium
+on more inter-disciplinary and inclusive forms of study.
+III. Lawyers as Transaction Engineers
+When thinking about legal education, it is essential to consider the
+function and needs of the legal profession. In this regard, it is
+helpful to examine the role of lawyers in earlier periods of fast-
+paced technological change.
+8
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+Take the growth of Silicon Valley in the early 1970s. While the idea
+of the “clustering” of similar businesses was a significant source of
+innovation, there is little doubt that the legal industry is also
+important as a source of innovation. Law firms and individual
+lawyers played a crucial role in facilitating innovation. After all,
+lawyers were responsible for drafting innovative contractual
+provisions that protected high-risk investors - for instance, angel
+investors and venture - from the relational and performance risks
+associated with investing in young and often inexperienced
+entrepreneurs. Moreover, the lawyers’ involvement in both non-
+legal and legal activities, such as deal making, matchmaking,
+gatekeeping, and conciliating, served as an important sorting device
+for entrepreneurs that needed more than just an investor to start and
+develop their start-up businesses. 11 Finally, the contractual
+mechanisms and the lawyer-dominated market for reputation
+reduced the information asymmetries between the entrepreneurs
+and investors and, as such, were necessary to bring the demand-side
+and supply-side of “venture capital” together effectively.12
+In this sense, we can see how lawyers functioned as “transaction
+engineers,” i.e., crucial intermediaries that brought together in a
+“safe” environment various parties with different but mutually
+compatible interests and expertise. The often-neglected
+11 Lisa Bernstein, The Silicon Valley Lawyer as Transaction Cost Engineer?, 74
+Or. L. Rev. 239 (1995).
+12 Vijay Mehta, Principle-Agent Issues in Private Equity and Venture Capital,
+(2004) (unpublished manuscript) (on file with Wharton Research Scholars),
+https://repository.upenn.edu/cgi/viewcontent.cgi?referer=https://www.google.co
+m/&httpsredir=1&article=1013&context=wharton_research_scholars; Daniel
+Schmidt, Entrepreneur’s Choice Between Venture Capitalist and Business Angel
+for Start-Up Financing, GRIN (Aug. 5, 2013),
+https://www.grin.com/document/230839.
+9
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+contribution of local law firms to the institutionalization of venture
+capital and venture capital contracting helps explain the relative
+success of Silicon Valley.13
+The problem, however, is that lawyers have often failed to perform
+this function of being active transaction engineers and have become
+a hindrance or obstacle to transactions.14 This can happen for many
+reasons but the tendency to standardize – or “proceduralize” - legal
+solutions and to employ standard form “templates” is one major
+factor. Fixed and standardized solutions are imposed on complex,
+dynamic transactions resulting in frustration and difficulties.15 As a
+result, lawyers have developed a reputation as the least trusted of
+professions.16 The list of complaints is familiar: lawyers are
+verbose, they don't listen, they are unresponsive, they charge too
+much, they don’t care about clients, they spend too much time on
+trivial issues, they don’t keep clients informed, they constantly
+“over-lawyer”, and they don’t communicate clearly and concisely.17
+13 Joseph A. McCahery, Erik P.M. Vermeulen, & Andrew M. Banks, Corporate
+Venture Capital: From Venturing to Partnering, in OXFORD HANDBOOK OF
+VENTURE CAPITAL (Douglas Cumming ed., 2012).
+14 Frederic A. Rubinstein & Audrey M. Roth, The Life Cycle of a Venture-Backed
+Company, in Deal Strategies for Venture Capital and Private Equity Lawyers 3
+(2007).
+15 OpenLaw, Decentralizing the Deal, Medium (Sep. 25, 2017),
+https://media.consensys.net/decentralizing-the-deal-e6af1c0cfdab; Micahel G.
+Parsomanikas, Frustration of Contract in International Trade Law and
+Comparative Law, 18 DUQ. L. REV. 551 (1980).
+16 Derek Thompson, The Least-Trusted Jobs in America: Congress Members and
+Car Salespeople, ATLANTIC (Dec. 3, 2012),
+https://www.theatlantic.com/business/archive/2012/12/the-least-trusted-jobs-in-
+america-congress-members-and-car-salespeople/265843/; Top 30 Biggest
+Career Mistakes Made by Lawyers, LAW OFFICE OF YURIY MOSHES, P.C.: BLOG
+(Jan. 6, 2018), https://mosheslaw.com/top-30-biggest-career-mistakes-made-by-
+lawyers/.
+17 Felicity Nelson, Why Do People Hate Lawyers So Much?, LAWYERS WEEKLY:
+FOLKLAW (Feb. 18, 2015), https://www.lawyersweekly.com.au/folklaw/16179-
+why-do-people-hate-lawyers.
+10
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+In a highly competitive and fast-changing world, lawyers need to
+focus on re-discovering their function as effective transaction
+engineers that facilitate interactions and reduce costs. In a modern
+context, many costs need to be cut: agency costs, transaction costs,
+monitoring costs, regulatory costs and compliance costs. In that
+respect, the scope for lawyers to “add value” is enormous.
+Legal education needs to be more tightly oriented towards preparing
+prospective legal professionals in achieving this objective. In the
+context of the digital transformation, an understanding of code is
+going to be crucial for the lawyer of the future to perform this task
+effectively. Here are two reasons that we believe are particularly
+important:
+• “Legal tech” will profoundly disrupt the legal profession18 and
+since these technologies are code-based lawyers need to be able
+to understand and talk about code to participate in the design of
+such legal technologies and to maximize their usefulness in
+supporting all legal work.
+• More and more businesses and industries revolve around code-
+based products or services. Since all companies are now
+increasingly managed by and run on software code, facilitating
+transactions – i.e., being an active transaction engineer - involves
+coding. This coding will involve multi-disciplinary teams
+working in collaboration and the capacity of lawyers to actively
+participate in such teams will be crucial to their success as legal
+professionals. The development of blockchain technologies and
+smart contracts are particularly relevant in this regard.
+18 AI Trends Driving the Legal Industry, A.B.A.: L. TECH. TODAY (Mar. 28,
+2018), https://www.lawtechnologytoday.org/2018/03/ai-trends/.
+11
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+The next two sections consider these issues in turn.
+IV. Legal Tech
+Legal technology - or “Legal Tech” - is changing the way lawyers
+practice law.19 In this context, Legal Tech refers to platforms, IT
+services, and software that first made law firms and lawyers more
+efficient in performing their activities.20 Practice management,
+document storage and automated billing and accounting software
+are prominent examples. Legal Tech also assists legal professionals
+in due diligence and discovery processes.
+Legal Tech has evolved from support systems to fully integrated
+and automated services for lawyers that increasingly disrupt the
+practice of law. 21 Legal Tech can generally be defined as
+information technology services and software, as well as platforms
+and their applications.22 Since the 1970s, with the invention of the
+first legal databases. Legal Tech has supported the need for
+additional lawyers to evaluate the new and increasing numbers of
+legal materials made available faster and more easily accessible by
+technology.23
+19 Id.
+20 Erik P.M. Vermeulen, The Future of Law, Lawyers and Law Professors…and
+the Exponential Growth of Disruptive Technology, MEDIUM: CHATBOTS LIFE
+(Mar. 29, 2017), https://chatbotslife.com/the-future-of-law-lawyers-and-law-
+professors-and-the-exponential-growth-of-disruptive-technology-
+b5c979608c9c.
+21 A.B.A., supra note 18.
+22 Joshua Lenon & Bryce Tarling, The Next Phase of Legal Technology Has
+Already Been Built, ABOVE THE LAW: EVOLVE THE LAW (Dec. 7, 2017),
+https://abovethelaw.com/legal-innovation-center/2017/12/07/the-next-phase-of-
+legal-technology-has-already-been-built/
+23 Catalyst Investors, LegalTech is Primed for Growth Investments, Ross:
+Startups, https://rossintelligence.com/legaltech-growth-investments/ (last visted
+Aug. 28, 2018); Edgar Alan Rayo, AI in Law and Legal Practice – A
+Comprehensive View of 35 Current Applications, TECH EMERGENCE (Nov. 29,
+2017),https://www.techemergence.com/ai-in-law-legal-practice-current-
+applications/.
+12
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+At first, Legal Tech made law firms and lawyers more efficient in
+performing their activities. Examples include automated billing,
+document storage, practice management, and accounting
+software.24 In the early 2010s, Legal Tech became more advanced
+and started to incorporate technology that assisted legal
+professionals in due diligence and e-discovery processes.25 Since
+2015, Legal Tech has continued to evolve in unprecedented ways.
+Multiple startup companies and their investors have started to
+capitalize on technologies, and their applications are already
+replacing some junior lawyers and disrupting the existing
+parameters for the practice of law.26
+Four categories of startups in LegalTech can be distinguished. The
+first category includes startup companies that offer a range of online
+legal services, removing the in-person legal consultation process
+and guidance process for clients. 27 The second legal startup
+category involves online “matching” platforms that connect lawyers
+with clients.28 Such platform startups help consumers find a fitting
+lawyer without the costly involvement of a law firm. The third
+category entails startups that use AI tools to take over their lawyer
+24 Wells H. Anderson & JoAnn Hathaway, All-in-One Practice Management
+Applications, 31 GP Solo 4 (July/Aug. 2014),
+https://www.americanbar.org/publications/gp_solo/2014/july-august-
+2014/allinone_practice_management_applications.html; Eileen O’Loughlin,
+Legal Document Management Software Buyer’s Guide, SOFTWARE ADVICE
+(Aug. 3, 2018), https://www.softwareadvice.com/legal/document-management-
+comparison/.
+25 Robert Ambrogi, The 10 Most Important Legal Technology Developments of
+2015, LAWSITES (Dec. 28, 2015), https://www.lawsitesblog.com/2015/12/the-
+10-most-important-legal-technology-developments-of-2015.html
+26 Id.; 3 Reasons Why Tech Companies Need a New Kind of Lawyer, CORNELL
+TECH: LAW TECH BLOG (Feb. 17, 2016), https://tech.cornell.edu/news/3-reasons-
+why-tech-companies-need-a-new-kind-of-lawyer/.
+27 Zoe Andreae, Legal Tech Startups, MEDIUM: LEGAL TECH INSIGHTS (May 29,
+2017), https://medium.com/legal-tech/legal-tech-startups-9755b18f93ac.
+28 Id.
+13
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+time consuming and expensive legal research activities such as
+reviewing, understanding, evaluating, and reapplying contracts.29
+Finally, startups with expertise in blockchain technology attempt to
+replace lawyers as intermediaries in certain types of transactions.30
+The decentralization of law that is a central part of the startup
+companies’ purpose and that disrupts existing legal practices has
+broad repercussions for the legal profession. First, existing legal
+services are rendered increasingly irrelevant or will be replaced by
+Legal Tech.31 Junior legal professionals and legal support staff are
+likely the first victims of the Legal Tech evolution.32 Legal Tech
+applications will be able to perform most of the junior lawyers’
+work soon without the human elements that create imprecision,
+flaws, inaccuracies, possible lawsuits, and delay.33 Second, and
+most importantly, the legal profession will be forced by such startup
+companies to innovate in perpetuity, a task that is not easily
+accomplished by overextended and – often – cumbersome legal
+organizations that have lost the capacity for rapid re-invention.34
+Legal Tech has the potential to rapidly transform law firms and legal
+departments into virtual law firms. Virtual law firms may dominate
+29 Id.
+30 Erik P.M Vermeulen, There is No Escape from Blockchains and Artifical
+Intelligence…Lawyers Better Be Prepared!, MEDIUM (Jan. 23, 2017),
+https://medium.com/@erikpmvermeulen/there-is-no-escape-from-blockchains-
+and-artificial-intelligence-lawyers-better-be-prepared-2d7a8221c627.
+31 Steve Lohr, I, Robot, Esq.? Not Just Yet, N.Y. TIMES, Mar. 19, 2017, at B1
+(New York Edition); Shannon Farley, Legal Tech is Opening the System to Those
+Who Need Legal Representation the Most, TECHCRUNCH (Mar. 13, 2018),
+https://techcrunch.com/2018/03/13/legal-tech-is-opening-the-system-to-those-
+who-need-legal-representation-the-most/.
+32 Vermeulen, supra note 30.
+33 Id.
+34 Id.; Erin Winick, Lawyer-Bots are Shaking Up Jobs, MIT TECH. REV. (Dec. 12,
+2017), https://www.technologyreview.com/s/609556/lawyer-bots-are-shaking-
+up-jobs/.
+14
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+in the future.35 A virtual law firm is a platform with an emphasis on
+connecting legal and other professionals in a collaboration. When
+implemented successfully, the effect of the platform model will be
+the creation of a flexible and accessible community of professionals
+with different skills and experience. The bigger the community, the
+easier it is to offer solutions tailored to the needs of the clients. The
+virtual law firm model attracts a broad spectrum of law firms.36 One
+extreme is represented by the traditional law firm characterized by
+a hierarchy with partners at the top and varying levels of associates,
+paralegals, and non-lawyers below them. On the other end of the
+spectrum are those firms that adopt an “Airbnb-type” platform
+organization, mainly providing a matchmaking/coordination
+service. Enormous variations exist between the two extremes,
+depending on the level of implementation of Legal Tech.
+Legal platforms adopt a variety of approaches. For instance,
+UpCounsel offers entrepreneurs on-demand access to experienced
+lawyers. LawyerlinQ37 in the Netherlands and Digitorney38 in
+Germany offer law firms the possibility to insource special
+knowledge and skills for more complex projects. Digitorney is one
+of the first startups known to the authors that also realized very early
+35 Companies get access to more than 5,000 lawyers in almost 50 countries. In
+this respect, Digitorney finds suitable experts in a digital manner and creates case
+summaries. Moreover, companies can make use of digital templates and premium
+information sources. At the same, lawyers from corporate law firms of every size
+and type benefit from innovative business development services: Digitorney
+helps them grow their business and make legal advisory more flexible, efficient
+and focused. Digitorney, https://www.digitorney.com/ (last visited Sep. 5, 2018);
+see also CuroLegal, https://www.curolegal.com/about/ (last visited Sep. 6, 2018);
+Culhane Meadoes, PLLC, https://www.culhanemeadows.com/ (last visited Sep.
+5, 2018); VLP Law Group, LLP, https://www.vlplawgroup.com/ (last visited Sep.
+5, 2018); Axiom Law, https://www.axiomlaw.com (last visited Sep. 5, 2018).
+36 Tera Brostoff, Virtual Law Offices Offer Flexibility, Ability to Draw Talent,
+LITIGATION ON BLOOMBERG LAW (Feb. 17, 2017), https://www.bna.com/virtual-
+law-offices-n57982083991.
+37 LAWYERLINQ, https://about.lawyerlinq.com (last visited Sept. 5, 2018).
+38 DIGITORNEY, https://www.digitorney.com/ (last visited Sept. 5, 2018).
+15
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+the need to bring law students into the new reality of virtual law
+firms early. Accordingly, Digitorney established the so-called
+Junior Pool, as a way for law students to work very early in their
+careers on international mandates and help them develop a track
+record of excellence in a virtual law firm setting that allows them to
+take on more senior roles earlier in their careers.39 LexSemble is a
+crowdsourcing platform that allows multiple users to edit legal
+knowledge entries.40 The information gathered from the cloud helps
+the platform to develop a machine learning analytics engine. This
+engine can be used to assist in legal decision-making and prediction
+activities.
+Legal Tech is replacing the traditional role of legal professionals.
+Legal professionals play a crucial role in establishing trust and truth
+in legal transactions. They negotiate, draft, and interpret contracts
+and help enforce them; create laws and regulations that protect the
+weaker parties; and design structures that enable the registration and
+transfer of tangible property and intellectual property. Well-drafted
+legal contracts help establish trust and confidence in the validity of
+the transaction and the economic benefits of the transaction for the
+contracting parties. Important matters, such as the truth about
+ownership and control, the transfer of ownership, and the allocation
+of risk and control, are typically covered in a contract. However, the
+deal-making, matchmaking, gatekeeping, and enforcing roles are
+increasingly performed by technology. This trend is likely to
+accelerate soon, enabled by new technologies (such as blockchain
+technology) and smart contracts.
+39 Id.
+40 LEXSEMBLE BY LEXPREDICT, https://lexsemble.com (last visited Sept. 5,
+2018).
+16
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+But it will not stop here. Near future technological advances —
+most obviously, machine learning and deep learning — have
+already started to replace lawyers and other legal professionals.
+Artificial intelligence tools help clients to review, understand and
+even draft legal documents.41 Data analytics, machine learning and
+deep learning are not only used to do legal research but also assist
+in legal decision-making and the prediction of legal cases.42
+There is no doubt that LegalTech will automate “legal work,” such
+as contract drafting, legal risk management, and dispute resolution.
+If legal work will be dependent on and performed by algorithms in
+the future, it is crucial for the future lawyers (and lawyers who are
+at the start of their careers) to get a better understanding of “data
+analytics” and “artificial intelligence.” Since all of these near-
+benefits technologies are code based, the benefits of understanding
+code will be of value in the medium to long-term.
+V. Lawyer of the Future
+Some commentators suggest that the digital transformation will be
+the end of lawyers and legal advisors.43 We certainly don't make
+this claim, but we do think that if the lawyers of the future are to
+function as effective transaction engineers, they are going to need
+to understand the power of code.
+41 e.g. LEXPREDICT, https://www.lexpredict.com (last visited Sep. 5, 2018);
+BEAGLE, https://www.beagle.ai (last visited Sep. 5, 2018); Legalzoom,
+https://www.legalzoom.com (last visited Sep. 5, 2018); Legal Robot,
+https://www.legalrobot.com/ (last visited Sep. 5, 2018).
+42 Beverly Rich, How AI Is Changing Contracts, HARV. BUS. REV.: TECHNOLOGY
+(Feb. 12, 2018), https://hbr.org/2018/02/how-ai-is-changing-contracts.
+43 RICHARD SUSSKIND, THE END OF LAWYERS?, (2010).
+17
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+Firstly, lawyers of the future will need to be able to assume the role
+of project managers or, at least, active participants in the new multi-
+disciplinary teams that are going to design the solutions/transactions
+of the future. As such, the capacity to work in multi-disciplinary
+teams will take on a much higher significance than has previously
+been in the case for lawyers. At least, the ability to work with a more
+diverse set of “partners” will be required. In the digital world, this
+means that lawyers will not only have to work closely with their
+traditional professional “partners” such as accountants and financial
+advisors, but also with engineers, designers, architects and other
+experts/specialists (depending on the project/transaction at hand).
+Law firms will become more like legal “platforms” with an
+emphasis on connecting legal and other experts and managing the
+collaboration and transaction. In a world of platforms, matchmaking
+and project-based partnerships, lawyers and other legal advisors
+will need to be aware of the way network technology, and other
+code-based technologies work.
+Secondly, in pursuing these new solutions, lawyers will be
+confronted with a very different type of client. Fast-growth
+technology companies with few assets and fewer employees are
+central to the “digital world.” Winning companies have used the
+opportunities of networked technology to develop new business
+models. Trust, value and wealth are created through platforms,
+connections, and networks, instead of the management of workers
+or physical assets.44 Crucially, many firms in this new innovation-
+driven economy adopt new organizational forms and governance
+44 Erik P.M. Vermeulen, We All Struggle!, MEDIUM: HACKERNOON (Aug 19,
+2018), https://hackernoon.com/we-all-struggle-adb0cfc65773.
+18
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+structures to deliver their new products and services.45 What then
+are the main features of such organizations? To appeal to millennial
+“talent” and consumers, such firms have embraced mission-driven
+and inclusive organizational cultures and practices in which a “best-
+idea-wins” culture replaces hierarchies.46 Significantly, however,
+many such “new” firms have often struggled to maintain this new
+governance model and fulfill their initial promise. Lawyers of the
+future will need to understand the opportunities and challenges of
+the digital world and will help firms to re-invent their governance
+structures to be more open and inclusive.
+Thirdly, many of the “solutions” that the lawyer of the future will
+be expected to design will be technology based. The transactions
+that lawyers will be facilitating will be dependent on computer
+code. It is in this context that blockchain and smart contracts
+become particularly important.
+VI. Blockchain
+To understand blockchain technology, it makes sense first to
+consider the Internet. It enabled a free, fast and global exchange of
+information and ideas. The blockchain adds another dimension by
+making it possible to transfer and exchange value (and assets)
+45 Erik P.M. Vermeulen, The Future of Law, Lawyers and Law Professors... And
+the Exponential Growth of Disruptive Technology, MEDIUM: CHATBOTSLIFE
+(Mar 29, 2017), https://chatbotslife.com/the-future-of-law-lawyers-and-law-
+professors-and-the-exponential-growth-of-disruptive-technology-
+b5c979608c9c; Rune Dahl Fitjar, Martin Gjelsvik, and Andrés Rodríguez-Pose,
+Organizing Product Innovation: Hierarchy, Market or Triple-Helix Networks?,
+3 TRIPLE HELIX 1 (2014).
+46 Vermeulen, supra note 45.
+19
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+without the involvement of intermediaries. Also, blockchain
+technology can be used to store personal and other information in
+an accessible, but secure environment.
+So, what is a blockchain? A blockchain is a shared and distributed
+digital ledger or database that maintains a continuously growing list
+of “blocks.”47 A block could contain records of transactions
+regarding digital assets, but could also include facts and
+information. Once the record is verified and validated, a block is
+added to the chain with previous records in linear and chronological
+order.
+What makes the blockchain such a revolutionary technology is that
+the ledger or database is distributed to a countless number of
+participants (“nodes”) around the world in public peer-to-peer
+networks (similar to the Internet) or private (or permissioned) peer-
+to-peer networks (similar to an intranet).48 These participants can
+be individuals or organizations (and even things). The only
+condition is that they have a cell phone and Internet connection.
+Everybody with a cell phone can create a real digital ID and interact
+with other people in the blockchain network. Blockchain
+technology thus enables and facilitates access to finance, insurance
+services, stock markets, etc.
+The “peer-to-peer” transactions are possible because the technology
+uses a “distributed consensus model” where the network “nodes”
+47 Erik P.M. Vermeulen, 3 Reasons Why the Blockchain Revolution Is (Finally)
+Becoming a Reality!, MEDIUM: STARTUPGRIND (May 5, 2017),
+https://medium.com/startup-grind/3-reasons-why-the-blockchain-revolution-is-
+finally-becoming-a-reality-63bdd90c89e2.
+48 Saurabh Gupta, Blockchain – The Next Big Revolution, MEDIUM:
+BLOCKCHAIN MUSINGS (Jul. 3, 2017), https://medium.com/blockchain-
+musings/blockchain-the-next-big-revolution-dabb748d33fa.
+20
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+verify, validate and audit transactions before and after they are
+executed. 49 This is safer than a traditional model in which
+transactions can only be accomplished through third-party
+intermediaries, such as a bank, judiciary or notary.50
+Network connectivity is also important because it allows for
+multiple copies of the blockchain to be available across a distributed
+network. This makes it practically impossible to alter or erase
+information in the blockchain.51
+The use of cryptographic hashes makes tampering with blockchain
+records even more difficult, if not impossible.52 Cryptographic
+hashes comprise complex algorithms. Even a minuscule change to
+the blockchain will result in a different hash value, making
+manipulation instantly and readily detectable.
+Digital signatures help establish the identity and authenticity of the
+parties involved in the transaction. These security measures make
+blockchain validation technologies more transparent and less prone
+to error and corruption than existing methods of verifying and
+validating transactions via third-party intermediaries.53
+In short, blockchain technology creates an independent and
+transparent platform for establishing truth and building trust.54
+49 Id.
+50 Id.
+51 Id.
+52 Id.
+53 Mark White, Jason Killmeyer, Bruce Chew, Will Blockchain Transform the
+Public Sector?, Deloitte Insights (Sept. 11, 2017),
+https://www2.deloitte.com/insights/us/en/industry/public-sector/understanding-
+basics-of-blockchain-in-government.html.
+54 Id.
+21
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+Intermediaries, bureaucracy and old-fashioned procedures are
+replaced by the 4 Cs: code, connectivity, crowd, and
+collaboration.55 The technology increases openness and speed,
+while at the same time significantly reducing costs.
+But perhaps the most significant feature of blockchain is that it is so
+adaptable. There are multiple possible applications relevant to a
+business context. Most obviously, blockchain can be used to
+provide new methods of processing digital transactions.56 But
+blockchain can also be used for crypto-currencies, records
+management (e.g., real estate, corporate or medical records), “e-
+voting” and identity management (IAM). It is for this reason that
+blockchain technology has been mentioned as one of the most
+significant disruptive technological innovations since the Internet.57
+VII. Smart Contracts
+But blockchain gets particularly attractive when combined with so-
+called “smart contracts.” This term was first introduced by Nick
+Szabo, a computer scientist, and legal theorist, in 1994.58 A smart
+contract is a computer program code that enables the verification,
+execution, and enforcement of specific terms and conditions of a
+contractual arrangement. An often-cited example is the “purchase”
+of music through Apple’s iTunes platform. A computer code
+55 Vermeulen, supra note 47.
+56 Gupta, supra note 48.
+57 Martin Hiesboeck, Blockchain is the Most Disruptive Invention Since the
+Internet Itself – Not Just in Finance, DIGITAL DOUGHNUT (Apr. 6, 2016),
+https://www.digitaldoughnut.com/articles/2016/april/blockchain-is-the-most-
+disruptive-invention-since.
+58 Brett Ryder, Not-So-Clever Contracts, ECONOMIST: SCHUMPETER (Jul.
+30, 2016), https://www.economist.com/business/2016/07/28/not-so-clever-
+contracts.
+22
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+ensures that the “purchaser” can only listen to the music file on a
+limited number of Apple device.
+A smart contract could also be an essential part of, for instance, a
+car loan. If the borrower misses a payment (tracked via a
+blockchain-like technology), the contract will not allow the use and
+operation of the car (“enforced” via networked technologies that
+“disable” the car automatically, rather than a “repo man” physically
+depriving a driver of access to their car).59 Such smart contracts will
+become more prevalent in the growing world of the Internet of
+Things.60 The more devices are connected to each other, the more
+“smart contracts” will be used to execute and enforce “legal
+transactions.” There is no doubt that smart contracts are already
+disrupting traditional legal assumptions, doctrines, and concepts.
+For instance, it will give a boost to the sharing economy (with its
+implications for property law). Another example is the set-up of so-
+called “decentralized autonomous organizations” (“DAOs) built on
+software, code, and smart contracts, challenging traditional
+corporation laws.
+DAOs are “merely” computer code. They don’t have any directors,
+managers or employees. The governance structure is built with and
+on software, code and smart contracts that ran on a public
+decentralized blockchain platform (in most cases Ethereum). This
+automated structure is intended to give “participants” / “investors”
+in the DAO direct real-time control over contributed funds and
+where such funds would be distributed.
+59 Felix Küster, What Are Smart Contracts in Blockchain Technology, CAPTAIN
+ALTCOIN (Jul. 14, 2017), https://captainaltcoin.com/blockchain-smart-
+contracts.
+60 Vermeulen, supra note 47.
+23
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+DOAs fit in the flatter, decentralized and automated world. With
+software code automating procedures and tasks, the focus of
+“knowledge work” is shifting from the routine “application of
+procedures” to designing the systems and standardized functions
+that are then performed by machines.
+Unfortunately, law programs have been slow to adapt to these
+technological developments. Most students are still being prepared
+for a hierarchical, centralized and “proceduralized” world. In the
+labor market of the future, however, a premium will be placed on a
+person’s capacity to design and communicate innovative solutions,
+rather than comply with pre-established procedures. And since
+these new solutions will be code-based, an understanding of code
+and coding will be essential to participate effectively in our digital
+world.
+VIII. No Turning Back
+Teaching students the basics of “how to code” and inspiring them
+to get out of their comfort zone, will be a necessary first step to help
+them embrace the many future opportunities of a “software-based”
+environment. Blockchain and smart contracts can solve multiple
+societal challenges and — in doing so — to facilitate new
+opportunities for disruptive business models. Consider the
+following:
+• Health and Wellbeing. Blockchain technology will transform
+healthcare, giving the patient more control in the healthcare
+ecosystem by increasing the security, privacy, and interoperability
+of health data.
+24
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+• Agriculture and Food Security. Consumers increasingly favor
+“clean” food. It is usually difficult to verify the integrity of products.
+A distributed ledger replacing the current supply chain would
+provide transparency. Fair price-setting and fast payments systems
+would also be facilitated.
+• Safe, Clean and Efficient Energy Supplies. We are facing an
+aggressive growth in distributed energy resources. Think rooftop
+solar and electric vehicles, for example. Governments, utilities, and
+other stakeholders need new ways to better regulate and manage the
+electricity grid. Blockchain has the potential to offer a reliable, low-
+cost solution for financial or operational transactions to be recorded
+and validated across the distributed network with no central point
+of authority.
+In each case, a major societal problem can be solved more
+effectively than current solutions via the use of blockchain
+technology and smart contracts.
+Moreover, in a 20th Century business environment, trust was
+created and maintained by rules, regulations, and contracts.61 One
+way of thinking about the law is as a mechanism for stabilizing
+expectations and building trust when dealing with strangers.62 “I
+may not know you or even like you, but the fact that we have a
+contract means that I can (to a certain extent) trust you.”63 In a
+digital world, trust can be embedded in software code. Recent
+interest in smart contracts suggests that this is going to be a
+significant growth area in the near-future. And building trust via
+61 Vermeulen, supra note 2.
+62 Id.
+63 Id.
+25
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+code is also crucial in machine-to-machine (M2M) based
+transactions. As M2M interaction becomes normal in an Internet of
+Things environment, the issue of trust becomes a technical and
+design problem.64
+We want students to think about software-based solutions to solving
+trust and reputation issues that are currently present in the Internet
+of Things and blockchain environments. Moreover, software code
+is often delivered as an online/cloud-based service. Again, this will
+only increase with the rise of the Internet of Things. Cybersecurity
+becomes an important issue here. But instead of combatting
+“cybersecurity” with the introduction of “more law in books,” law
+students should look for technology-based solutions. At the very
+least, they need to have the necessary knowledge to evaluate
+technology-based solutions and compare them with the alternatives.
+Finally, there are the multiple ethical issues that are created in a
+code-based world and being aware of these issues is again essential
+for the lawyer of the future. Consider the example of the driverless
+car. How do we want our driverless vehicle to react when
+confronted with an unavoidable accident? Should it minimize the
+loss of life, even if that means sacrificing the occupants of the car
+or should it prioritize the lives of the occupants at any cost?
+Alternatively, should the choice be a random one? This “Trolley
+problem” is just one example of the ethical challenges associated
+with new technologies. There are a lot of ethical questions involved
+with the dominant position of software code in our society, varying
+from the ethics of video games, the issue of automation of
+64 Id.; CISCO, Securing the Internet of Things: A Proposed Framework,
+https://www.cisco.com/c/en/us/about/security-center/secure-iot-proposed-
+framework.html (last visited Sept 5, 2018).
+26
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+employment to singularity (when machines are more intelligent
+than human beings).65 Building the capacity of the lawyers of the
+future to think about the social and ethical implications of code is
+both essential and inevitable. But, to say something sensible about
+the ethical aspects of technology, it is necessary to understand both
+more about coding and coders.
+IX. Coding for Lawyers
+So, what does the ‘Coding for Lawyer’ course do? Here is a quick
+overview of some of the topics that are covered. It should be
+emphasized that this class has a multidisciplinary dimension. Most
+obviously, the course was taught by lawyers, coders, and
+mathematicians.
+In class, we first discussed the strengths of blockchain and smart
+contract applications. We explain that these applications inhibit
+“rent-seeking” and offer transparency. And they are secure. The
+organization of the DAO was discussed in more detail. For instance,
+the governance protocols used in a DAO are open source and
+weaknesses are constantly tested. An openly readable ledger means
+anyone can check the integrity of transactions. The distributed
+cooperation component implies that “attackers” must be able to
+“out-compute” the entire network (which is practically impossible).
+65 Julia Bossmann, Top 9 Ethical Issues in Artificial Intelligence, WORLD
+ECONOMIC FORUM: AGENDA (Oct 21, 2016),
+https://www.weforum.org/agenda/2016/10/top-10-ethical-issues-in-artificial-
+intelligence; Susan Schneider et al., Science Fiction and Philosophy (2009).
+27
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+Then we looked at these strengths and advantages, we also
+concluded (as we did in class) that DAOs will eventually overtake
+any organization which lacks these incentives and efficiencies.
+Moreover, DAOs are cheap and straightforward to “clone,” which
+will potentially lead to more competition. The distributed and
+anonymous nature of the organizations prevents natural and
+political monopolies. Of course, we concluded that we aren’t there
+yet. Blockchains and DOAs still have significant technical and
+operational shortcomings.
+In our discussion, the following weaknesses were highlighted.
+There is still a lack of decentralization (there are currently no "true"
+DAOs). For instance, Bitcoin’s proof of work protocol has led to
+“mining pools” because of economies of scale and unbalanced
+reward structures. Also, the anonymity in blockchain organizations
+means that they are prone to “Sybil attacks” and “51% attacks.” We
+also discussed the many examples in which the anonymity (and
+autonomy) have led to hacks. Remember that in a truly
+decentralized system, any mistakes (stolen/lost passwords,
+programming bugs, etc.) are permanent and irrevocable.
+We also discussed cryptography, the role of hash functions, Merkle
+Trees, and several new blockchain initiatives. For instance, we
+presented a blockchain-based “reputation verification platform”
+(Semada.io) that rewards trustful parties and punishes bad actors.
+This was considered to be important because if the trust were to be
+created through an eternal reputational record, it would be open to
+review and driven by proper incentives. In fact, the platform is
+relying on “storytelling” and “cryptocurrencies” to earn “reputation
+tokens.”
+28
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+The students understood that the real challenge is to find a “proof
+of stake” protocol that offers both trust and security (without
+unintentionally creating just another centralized validation system).
+The Semada Proof of Stake protocol (SPoS) is an example that uses
+its reputation-verification platform to solve the centralization,
+efficiency, and security problems that afflict existing blockchain
+consensus protocols.
+Finally, students were introduced to the Ethereum platform and
+given a basic introduction to coding on that platform.
+It is worth stressing that a combination of lawyers, mathematicians,
+and coders taught the course, and the students are encouraged in
+doing their assignment to partner up with students in other faculties
+to put together their final assignment. In that sense, the kind of
+multi-disciplinary teams of the future is re-created in the classroom.
+And expanding this kind of interaction is something that we plan to
+formalize in the future.
+The assessment for the class involved students coding for
+themselves. Here are some examples of the kind of project that
+students submitted:
+• Blockchain solutions for the purchase of used cars
+• A blockchain-based dispute resolution procedure
+• A blockchain-based land and real estate registration system
+• Blockchain-based digital identities for refugees or other stateless
+persons
+• Blockchain-based “ridesharing”
+• Energy trading schemes
+• Smart contracts for political campaign funding
+• Blockchain and smart contracts for compliance
+29
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+CODING FOR LAWYERS
+• A decentralized social media platform
+• Blockchain solutions for art traders
+In an increasingly software-driven world, we need to remain smart
+about technology. And this is what the “Coding for Lawyers”
+course is really about. It is not about teaching students “how to
+code,” but about making them realize how important it is to think
+about our relationship with new technology and technology experts.
+In this way, students can see the new opportunities that technology
+creates, but also think about the new issues (practical and ethical)
+that such technologies create. For this reason, we plan to introduce
+the basics of machine learning and deep learning to the program.
+Coders, programmers, and other developers do not always
+understand the industry or business environment they target with
+their software solutions. Nor do they always consider the trust or
+ethical issues when implementing technology-based business
+solutions. They are not trained to think in this way. Most tech-
+education is almost exclusively focused on technical training and
+skills. A parallel reconfiguration in our technical education is also
+required.
+“Co-creation” involving partnerships between developers and non-
+developers will be crucial to building a “better” digital future. And
+understanding coding enables lawyers to constructively engage
+with coders, programmers, and other software developers. By
+introducing these “three pillars” of our relationship with code
+(opportunities, trust, and ethics), the course provides the necessary
+counter-balance to the technical aspects of coding. The
+understanding of code creates a new level of experience, which
+serves as the essential first step for the students to participate in
+multi-disciplinary teams that will develop the software that (ideally)
+30
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+
+has a positive economic and social impact and contributes to a better
+digital future.
+X. Conclusion
+We should not feel threatened by the exponential growth of
+technology and the subsequent changes in society. We should view
+them more as opportunities. The opportunities for lawyers and other
+legal professionals are obvious. If the “standardized work” and legal
+research activities can be performed by algorithms, there is more
+time for assisting the client with the new and very specific
+challenges of the digital world.
+The same goes for legal education. The new technologies in the
+digital world has forced us to return to the drawing board. The task
+is clear: creating new courses in the hopes of retaining relevancy,
+while ensuring job opportunities for our students now and in the
+future.
+31
+Electronic copy available at: https://ssrn.com/abstract=3227967
+E Elelecctrtoronnicic c ocoppy ya vaavialailbalbel ea ta: th: thtpttsp:s//:s/s/srsnr.cno.cmo/mab/asbtrsatcrat=c3t=23227297697 67
+

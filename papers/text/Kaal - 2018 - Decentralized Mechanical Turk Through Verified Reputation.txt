@@ -1,0 +1,745 @@
+DECENTRALIZED MECHANICAL TURK THROUGH VERIFIED REPUTATION
+Decentralized Mechanical Turk through Verified Reputation
+Wulf A. Kaal*
+ABSTRACT
+Centralized mechanical turk solutions are subject to significant
+shortcomings. Decentralized crypto solutions can optimize the mechanical
+turk market. Autonomous decentralized protocols for validating domain
+specific reputation of workers that perform tasks allow such micro task
+workers to stake tokens in order to prove the validity of their tasks and earn
+a reusable computed reputation score. Such decentralized crypto solutions
+enhance the cost-efficiency of mechanical turk work while democratizing
+access for reputation verified workers.
+Key Words: Mechanical Turk, Micro Tasks, Decentralization, Blockchain,
+Distributed Ledger Technology, Regulation, Artificial Intelligence, Machine
+Learning, Data Science, Data Scientists, Innovation, Entrepreneur, Start-up,
+Big Data, Crytpo Economics, Semada, Platform, Democratization
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* © 2018 Wulf A. Kaal. Professor, University of Saint Thomas School of Law and
+Director of the Private Investment Funds Institute, Minneapolis.
+Electronic copy available at: https://ssrn.com/abstract=3128900
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+Table of Contents
+(cid:0)
+1 PROBLEMS IN CENTRALIZED MECHANICAL TURK ......................................... 3
+2 DECENTRALIZED SOLUTIONS FOR MECHANICAL TURK .............................. 8
+3 SEMADA PLATFORM .................................................................................................... 11
+3.2 REPUTATION STAKING MECHANISM ..................................................................................... 12
+3.3 REPUTATION SCORE .................................................................................................................. 12
+3.4 PAYMENT SYSTEM..................................................................................................................... 13
+3.5 GAMIFICATION OF MICRO TASKS .......................................................................................... 14
+4 INNOVATING THE MECHANICAL TURK MARKET .......................................... 15
+4.1 NO PLATFORM FEES .................................................................................................................. 15
+4.2 TRANSACTION COST REMOVAL.............................................................................................. 16
+4.3 OPTIMIZED USER INTERFACE .................................................................................................. 16
+4.4 WORKER ANONYMITY INCREASES PARTICIPATION ........................................................... 17
+6 OUTLOOK ......................................................................................................................... 18
+2
+Electronic copy available at: https://ssrn.com/abstract=3128900
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+1 Problems in Centralized Mechanical Turk
+The growth in freelance work is a global trend.1 According to some studies,
+over 40% of the American workforce will be freelancers by 2020.2 Freelance
+work allows individuals to pursue their passions, create flexible
+opportunities to make a living, and enables people to truly advance
+themselves and their families. Technology and automation play a much
+larger role in the workplace than even five years ago, rendering the
+traditional work schedule nearly obsolete across industries while
+maintaining operational efficiencies and reducing costs.3 Task performers or
+workers are no longer bound by geographical location and task requesters
+are able to hire from the growing global talent pool of freelancers.4 In the
+current freelancer market, leading centralized platforms Fiverr, Taskrabbit,
+Upwork, Crowdflower and Mechanical Turk have their workforces
+distributed throughout the world. Micro Tasks freelance work is becoming
+increasingly important in the freelance market.5
+Micro tasks are defined as small tasks that require human judgment, can be
+completed by humans independently over the internet, and are part of a
+1 Shoshana Deutschkron, New Study Finds Freelance Economy Grew to 55 Million
+Americans Shis Year, 35% of Total U.S. Workforce, UPWORK: PRESS (Oct. 6, 2016),
+https://www.upwork.com/press/2016/10/06/freelancing-in-america-2016/; Self-
+employment rate, THE ORGANIZATION FOR ECONOMIC CO-OPERATION AND DEVELOPMENT
+(OECD): DATA (Jan. 25, 2018), https://data.oecd.org/emp/self-employment-rate.htm;
+Nathan Heller, Is the Gig Economy Working?, THE NEW YORKER, May 15, 2017,
+https://www.newyorker.com/magazine/2017/05/15/is-the-gig-economy-working; Aaron
+Smith, Shared, Collaborative, and On Demand: The New Digital Economy, PEW
+RESEARCH CENTER (May 19, 2016), http://www.pewinternet.org/2016/05/19/the-new-
+digital-economy/; Sonal Khetarpal, The Rise of the Freelancer, BUSINESS TODAY (April
+24, 2016),
+http://www.businesstoday.in/magazine/features/companies-are-hiring-more-freelancers-
+than-ever/story/230742.html.
+2 INTUIT, Dispatches from the new Economy: The On-Demand Workforce, (Second Annual
+Report, Feb. 21, 2017), https://www.slideshare.net/IntuitInc/dispatches-from-the-new-
+economy-the-ondemand-workforce-72248688/1.
+Intuit 2020 Report: TWENTY TRENDS THAT WILL SHAPE THE NEXT DECADE, Intuit (Oct.
+2010), http://http-
+download.intuit.com/http.intuit/CMO/intuit/futureofsmallbusiness/intuit_2020_report.pdf.
+3 Jonathan Millet, STORM Tokens in the Freelance Marketplace Enhances Efficiency and
+Profitability, NEWSBTC (Dec. 7, 2017), http://www.newsbtc.com/2017/12/07/storm-
+tokens-freelance-marketplace/.
+4 STORMX, INC. Storm Token: White Paper, Market Research, Network Development
+Plans, and Marketing Materials (Oct. 16, 2017),
+https://s3.amazonaws.com/cakecodes/pdf/storm_web/STORM_Token_White_Paper_Mark
+et_Research_Network_Development_vFINAL.pdf.
+5 THE WORLD BANK, FEASIBILITY STUDY: MICROWORK FOR THE PALESTINIAN
+TERRITORIES, 2013,
+http://documents.worldbank.org/curated/en/529481468140639204/pdf/ACS36850ESW0P
+1015B00PUBLIC00A9R7B83.pdf.
+3
+Electronic copy available at: https://ssrn.com/abstract=3128900
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+larger unified project.6 Because of the necessity of human judgment that
+cannot currently be replaced by machines/computers, micro tasks enable
+organizations to build products or create outcomes that cannot be synthesized
+by machines/computers alone.7 For example, the Chinese government uses
+2 million micro task workers to aid in censoring the internet.8 Internet
+companies, such as Google, Facebook, Twitter, Ebay, and Linkedin optimize
+their production ready solutions and enhance their AI model training with
+micro task workers.9 Large scale distributions of machine learning
+researchers, among others, gather structured labeled data for artificial
+intelligence (AI) training purposes through the use of micro task workers.10
+Billions of micro tasks are completed each year and the demand for micro
+task workers is increasing consistently. In an attempt to capitalize on the
+growing demand for micro task work, Amazon created Amazon Mechanical
+Turk (MTurk) in 2005.11 MTurk is an online marketplace that allows
+requesters to pay workers for performing micro tasks online, thus
+crowdsource data collection. The World Bank concluded in a 2015 report,
+that the largest crowdsourced data collection platforms Amazon Mechanical
+Turk and CrowdFlower, a venture backed company that raised over $58
+6 AMNESTY INTERNATIONAL, Microtasking, THE ENGINE ROOM LIBRARY (last visited Jan.
+25, 2018), https://library.theengineroom.org/microtasking/.
+7 Cole, F., Sanik, K., DeCarlo, D., Finkelstein, A., Funkhouser, T., Rusinkiewicz, S., and
+Singh, M. How Well Do Line Drawings Depict Shape?, ACM SIGGRAPH (2009), 1–9;
+Callison-Burch, C. Fast, Cheap, and Creative: Evaluating Translation Quality Using
+Amazon's Mechanical Turk, in 1 PROCEEDINGS OF THE 2009 CONFERENCE ON EMPIRICAL
+METHODS IN NATURAL LANGUAGE PROCESSING 286 (2009); Horton, J. J., Rand, D.G. and
+Zeckhauser, R.J., The Online Laboratory: Conducting Experiments in a Real Labor
+Market (National Bureau of Economic Research, Working Paper 15961, 2010); Kittur, A.,
+Chi, E., Suh, B. Crowdsourcing User Studies With Mechanical Turk, Proceedings of
+SIGCHI Conference on Human Factors in Computing Systems 453 (2008),
+http://delivery.acm.org/10.1145/1360000/1357127/p453-
+kittur.pdf?ip=140.209.181.61&id=1357127&acc=ACTIVE%20SERVICE&key=70F2FD
+C0A279768C%2ECD0A7109D1C458E3%2E4D4702B0C3E38B35%2E4D4702B0C3E3
+8B35&__acm__=1517258739_5d051dc3294d8ac7c245ec3c954d350d.
+8 Katie Hung & CY Xu, China “Employs 2 Million to Police Internet”, CNN (Oct. 7,
+2013), https://www.cnn.com/2013/10/07/world/asia/china-internet-monitors/index.html
+(those who pass an exam will gather opinions and attitudes of Internet users, organize
+them into reports, and submit them to decision-makers. At present, there are about 2
+million people in this occupation in the country); China Employs Two Million Microblog
+Monitors State Media Say, BBC NEWS, (Oct. 4, 2013), http://www.bbc.com/news/world-
+asia-china-24396957l Cate Cadell & Pei Li, Team and Tiananmen: Inside China’s new
+censorship machine, REUTERS (Sept. 29, 2017, 1:32 AM),
+https://www.reuters.com/article/us-china-congress-censorship-insight/tea-and-tiananmen-
+inside-chinas-new-censorship-machine-idUSKCN1C40LL
+9 CROWDFLOWER, Success Stories, https://www.crowdflower.com/success-stories/.
+10 Jason Pontin, Artificial Intelligence, With Help From the Humans, THE NEW YORK
+TIMES (Mar. 25, 2007),
+http://www.nytimes.com/2007/03/25/business/yourmoney/25Stream.html.
+11 AMAZON MECHANICAL TURK, www.mturk.com;
+Paul Hitlin, What is Mechanical Turk? PEW RESEARCH CENTER (July 11, 2016),
+http://www.pewinternet.org/2016/07/11/what-is-mechanical-turk/.
+4
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+million12 and is focused on enriching data used for AI, would quadruple their
+revenue from 2013 to 2016.13
+The increasing demand for micro task workers that came initially from data
+scientists and other academics is further increased by the growth of artificial
+intelligence (AI) and the increasing scope and scale of AI applications in a
+broad range of industries.14 Fortune 500 tech companies including Amazon,
+Apple, Google Alphabet, Twitter, and Facebook use AI and machine
+learning to improve their services and cut costs, thus increasing profitability
+exponentially.15 According to some estimates, Fortune 500 tech companies
+spent between $20 and $30 billion on the development and enhancement of
+their AI systems in 2016.16 More recent data for 2017 suggests that this trend
+is continuing and increasing.17 AI is already playing a significant role in
+consumer expectations and tech companies have the best possible set of
+incentives to keep investing in AI to fulfill such expectations and develop
+new products at marginal cost.18
+12 Julie Bort, Founder of $110 Million Startup CrowdFlower: I’m Forever Grateful to
+Travis Kalanick, BUS. INSIDER (Oct. 15, 2017, 11:00 AM),
+http://www.businessinsider.com/crowdflower-founder-learned-from-travis-kalanick-2017-
+10
+13Siou Chew Kuek et al., The Global Opportunity in Online Outsourcing, WORLD BANK
+GROUP (June 2015),
+http://documents.worldbank.org/curated/en/138371468000900555/pdf/ACS14228-ESW-
+white-cover-P149016-Box391478B-PUBLIC-World-Bank-Global-OO-Study-WB-Rpt-
+FinalS.pdf.
+14 Jacques Bughin et al., How Artificial Intelligence Can Deliver Real Value to
+Companies, MCKINSEY & COMPANY (Jun. 2017),
+https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/how-
+artificial-intelligence-can-deliver-real-value-to-companies; Dmitry Matskevich, Low-Wage
+Workers Drive the Global AI Labor Market, VENTUREBEAT (Dec. 12, 2017, 12:10 PM),
+https://venturebeat.com/2017/12/12/low-wage-workers-drive-the-global-ai-labor-market/.
+15 Cade Metz, Google, Facebook, and Microsoft are Remaking Themselves Around AI,
+WIRED (Nov. 21, 2016, 7:00 AM), https://www.wired.com/2016/11/google-facebook-
+microsoft-remaking-around-ai/.
+Joe McKendrick, Artificial Intelligence Doesn’t Just Cut Costs, It Expands Business
+Brainpower, FORBES (Jan 24, 2017, 12:03 PM),
+https://www.forbes.com/sites/joemckendrick/2017/01/24/artificial-intelligence-doesnt-
+just-cut-costs-it-expands-business-brainpower/#29a22aa8535a.
+16 Bughin, supra.; Louis Columbus, McKinsey’s State of Machine Learning and AI, 2017,
+FORBES (Jul. 9, 2017, 9:36 AM),
+https://www.forbes.com/sites/louiscolumbus/2017/07/09/mckinseys-state-of-machine-
+learning-and-ai-2017/#30d75fbb75b6.
+17 INTERNATIONAL DATA CORPORATION (IDC), Worldwide Spending on Cognitive and
+Artificial Intelligence Systems Forecast to Reach $12.5 Billion This Year, According to
+New IDC Spending Guide (Apr. 3, 2017),
+https://www.idc.com/getdoc.jsp?containerId=prUS42439617 (worldwide revenues for
+cognitive and AI solutions are forecasted to continue to see significant corporate
+investment over the next several years).
+18 Nick Johnson, How Your Customers’ Expectations Have Changed in the Age of the
+Customer, SALESFORCE BLOG (Jul. 7, 2017),
+https://www.salesforce.com/blog/2017/07/customers-expectations-in-age-of-the-
+customer.html.; Oliver Tan, How AI Can Improve the Customer Experience, FORBES
+5
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+The evolution, improvements, and growth of AI is correlated with the
+evolution, improvements, and growth in micro task work. AI uses
+supervised and unsupervised as well as reinforcement machine learning.
+Because unsupervised and reinforcement learning are much more complex
+than supervised learning, supervised learning is to date more common and
+more relied upon for AI development. While this may change as
+unsupervised and reinforcement learning evolve, currently, supervised
+learning depends on labelled data that is produced via micro task work. The
+mapping function of the supervised AI learning process necessitates the
+analysis of labelled input variables x and corresponding output variables y.
+In the supervised learning training phase, the AI neural network examines
+the training dataset of labeled x input data to learn to classify the input data
+idealistically. The higher the quality and quantity of such labelled datasets
+the better the AI neural network’s learning algorithm during the supervised
+training process.19 Accordingly, the evolution, improvements, and growth of
+AI is correlated with the evolution, improvements, and growth in micro tasks
+work.20 But alas, microtasks platform systems are subject to significant
+limitations that inhibit the evolution of AI.21
+The existing centralized marketplaces for micro task work cannot adequately
+fulfil the increasing demand for high quality micro task work for AI labelled
+training datasets. First and foremost, the cost structure for micro task work
+in centralized systems that necessitate intermediation results in significant
+overpricing without benefiting the micro task workers directly. The cost
+(Aug. 9, 2017, 8:00 AM),
+https://www.forbes.com/sites/forbestechcouncil/2017/08/09/how-ai-can-improve-the-
+customer-experience/#4dcca41f757d; Amit Sharma, How Predictive AI Will Change
+Shopping, HARV. BUS. REV. (Nov. 18, 2016), https://hbr.org/2016/11/how-predictive-ai-
+will-change-shopping.
+19 Bernard Marr, Supervised v Unsupervised Machine Learning: What’s the Difference,
+FORBES (Mar. 16, 2017, 3:13 AM),
+https://www.forbes.com/sites/bernardmarr/2017/03/16/supervised-v-unsupervised-
+machine-learning-whats-the-difference/#47e947ea485d.
+20 Hope Reese & Nick Heath, Inside Amazon’s Clickworker Platform: How Half a Million
+People are Being Paid Pennies to Train AI, TECHREPUBLIC (Dec. 2016),
+https://www.techrepublic.com/article/inside-amazons-clickworker-platform-how-half-a-
+million-people-are-training-ai-for-pennies-per-task/.
+21 Michel Dalle et al., Microwork Platforms as Enablers to new Ecosystems and Business
+Models: The Challenge of Managing Difficult Tasks, 75 INT’L J. TECH. MGMT. 55 (2017);
+Yang Gao, Yan Chen & K. J. Ray Liu, On Cost-Effective Incentive Mechanisms in
+Microtask Crowdsourcing, 7 IEEE TRANSACTIONS ON COMPUTATIONAL INTELLIGENCE
+AND AI IN GAMES 3 (Mar. 2015); Winter Mason & Duncan J. Watts, Financial Incentives
+and the “Performance of Crowds”, 11 ACM SIGKDD EXPLORATIONS NEWSLETTER 100-
+108 (2010), http://delivery.acm.org/10.1145/1810000/1809422/p100-
+mason.pdf?ip=140.209.181.61&id=1809422&acc=ACTIVE%20SERVICE&key=70F2FD
+C0A279768C%2ECD0A7109D1C458E3%2E4D4702B0C3E38B35%2E4D4702B0C3E3
+8B35&__acm__=1517240131_111ce0376ad360b2b87eb813b5552142.
+6
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+structure suboptimality can be traced back to several factors.22 All too human
+shortcomings of micro task works, such as limited attention span,
+irrationality, and inaccuracies result in verification requirements for micro
+task work. However, manual verification of micro task work is subject to the
+same human limitations. In an attempt to ensure quality of results and
+minimize the impact of the human limitations of their workers, requesters in
+centralized micro task structures set up teams of up to 15 workers to perform
+the same task in an effort to form a consensus.23 The multiplication of work
+inherent in this process significantly increases the cost of micro task work.
+Requiring requesters to pay proportionally (e.g. up to 15 times) for work per
+project result in waste. The necessity of multiplication of work also subjects
+micro task workers to lower rates and lack of payment increases. Moreover,
+because unmanaged centralized micro task platforms do not supply
+consumer interfaces needed to accomplish specific tasks, requesters of micro
+task work are forced to either build their own tools24 or pay large fees to
+22 AMAZON, INC., Amazon Mechanical Turk Pricing, https://requester.mturk.com/pricing
+(intermediation necessitated by the centralized marketplace for micro task work harms
+both requesters and workers economically. To illustrate this point, Amazon charges
+requesters a minimum 20% fee on any amount paid out to workers and an additional 5%
+for requesting workers that have a good track record. Amazon charges an additional 20%
+fee for tasks with 10 or more assignments, totaling upwards of 40% in fees. With over half
+of MTurk workers earning less than $5 an hour.); Paul Hitlin, Research in the
+Crowdsourcing Age, a Case Study: How Scholars, Companies and Workers are Using
+Mechanical Turk, a ‘Gig Economy’ Platform, for Tasks Computers Can’t Handle, PEW
+RESEARCH CENTER (July 11, 2016), http://www.pewinternet.org/2016/07/11/research-in-
+the-crowdsourcing-age-a-case-study (Mechanical Turk pays its workers by the task
+completed and not by the hour, therefore it is not required to follow federal wage laws.
+The specific payments are determined by the requesters and not the site itself. This report
+does not explore how Mechanical Turk sets prices or pays workers).
+Ellen Cushing, Amazon Mechanical Turk: The Digital Sweatshop, UTNE (Jan/Feb 2013),
+http://www.utne.com/science-and-technology/amazon-mechanical-turk-zm0z13jfzlin
+(Amazon’s MTurk raises ethical concerns and some go as far as calling it a sweatshop of
+online crowdsourced labor); Louise Matsakis, The Unknown, Poorly Paid Labor Force
+Powering Academic Research, MOTHERBOARD (Feb. 4, 2016, 11:50 AM),
+https://motherboard.vice.com/en_us/article/8q8ggb/the-unknown-poorly-paid-labor-force-
+powering-academic-research; Vanessa Williamson, On the Ethics of Crowdsourced
+Research, PS: POLITICAL SCIENCE & POLITICS, 49(1), 77-81,
+https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/on-the-
+ethics-of-crowdsourced-research/B1BDFB1111B416DD0B71540CD6E7D94F.
+CROWDFLOWER, Plans, https://www.crowdflower.com/plans (CrowdFlower is currently
+no longer sharing their pricing structure publicly but rather is requiring possible customers
+to contact them for pricing directly).
+23 Neeraj Kumar, Effective Use of Amazon Mechanical Turk (MTurk); Tips and techniques
+for better usage of Amazon Mechanical Turk for researchers, NEERAJ KUMAR (May
+2013, updated May 8, 2014), http://neerajkumar.org/writings/mturk/; Rory O’Reilly, How
+the Gems Protocol Reduces Consensus by Redundancy, GEMS (Nov. 27, 2017),
+https://blog.gems.org/how-the-gems-protocol-reduces-consensus-by-redundancy-
+b151de80ecb8.
+24 AMAZON, Mechanical Turk FAQ, https://requester.mturk.com/help/faq; Elena Simperl,
+How to Use Crowdsourcing Effectively: Guidelines and Examples, 25 LIBER QUARTERLY
+18 (2015), http://doi.org/10.18352/lq.9948.
+7
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+startups that hope to capture the enterprise market.25 Both options are
+necessary in current centralized systems but also result in underutilization of
+resources. Most importantly, the circa 38% of the labor pool that is unbanked
+but skilled does not currently have access to the centralized micro task
+marketplaces.26 Without a bank account, workers cannot contribute and
+profit from the existing centralized micro task marketplace. Furthermore,
+even for those in the labor pool who do have bank accounts, micro task work
+is often associated with practical problems such as high fees of intermediary
+financial institutions, lost or otherwise affected payments, lost checks,
+among other issues.27 Finally, micro workers in centralized systems are faced
+with invasive, privacy challenging, time consuming, and unclear signup and
+approval processes that create market entry barriers for micro task workers.28
+2 Decentralized Solutions for Mechanical Turk
+Decentralized crypto market solutions for the existing mechanical turk
+market can provide significant optimization while democratizing market
+access. Semada is an autonomous, decentralized, open-source protocol29 that
+enables domain specific reputation verification for human task
+crowdsourcing, built on the ETHEREUM blockchain. The Semada Protocol,
+25CROWDFLOWER, How Crowdflower Can Work For You,
+https://www.crowdflower.com/use-cases/; Paul Hyman, Software Aims to Ensure Fairness
+in Crowdsourcing Projects, 56 COMM. OF THE ACM 19 (Aug. 2013),
+http://delivery.acm.org/10.1145/2500000/2492015/p19-
+hyman.pdf?ip=140.209.181.61&id=2492015&acc=ACTIVE%20SERVICE&key=70F2FD
+C0A279768C%2ECD0A7109D1C458E3%2E4D4702B0C3E38B35%2E4D4702B0C3E3
+8B35&__acm__=1517263106_bffc0ea8d50db54f894b596fc073b9aa.
+26 The Global Findex Database 2014 11 (World Bank Group, Policy Research Working
+Paper 7255, 2014),
+http://documents.worldbank.org/curated/en/187761468179367706/pdf/WPS7255.pdf 22
+(38% of the world’s population does not have a bank account).; Camilla Hodgson, The
+World’s 2 Billion Unbanked, in 6 Charts, BUSINESS INSIDER (Aug. 30, 2017 2:00 AM),
+http://www.businessinsider.com/the-worlds-unbanked-population-in-6-charts-2017-8;
+Karen Weise, Why Half the World Doesn’t Have Bank Accounts, BLOOMBERG (Apr. 25,
+2012 14:40 PM), https://www.bloomberg.com/news/articles/2012-04-25/why-half-the-
+world-doesnt-have-bank-accounts.
+27 Miranda Katz, Amazon’s Turker Crowd Has Had Enough, WIRED (Aug. 23, 2017 6:55
+AM), https://www.wired.com/story/amazons-turker-crowd-has-had-enough/;
+Mark Harris, Amazon’s Mechanical Turk Workers Protest: ‘I am a human being, not an
+algorithm’, THE GUARDIAN (Dec. 3, 2014, 9:41 AM),
+https://www.theguardian.com/technology/2014/dec/03/amazon-mechanical-turk-workers-
+protest-jeff-bezos; Kristy Milland, Crowd-working for Amazon took a Physical and
+Psychological Toll for One Woman, THE BALTIMORE SUN (Aug. 23, 2017, 10:50 AM),
+http://www.baltimoresun.com/news/opinion/oped/bs-ed-op-0824-amazon-tasks-20170823-
+story.html; Hyman, supra.
+28 Aniket Kittur et al., The Future of Crowd Work, 16th ACM Conference on Computer
+Supported Cooperative Work 1301 (Feb. 2013),
+http://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf.
+29 www.semada.io
+8
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+Semada Platform, and the modules built on top of the Semada Platform are
+collectively known as the Semada Network.
+The Semada Protocol facilitates producer (hereinafter known as workers or
+miners) and consumer (hereinafter known as requesters) access to the
+scalable power of micro tasks while eradicating the limitations of centralized
+micro task systems.
+The Semada reputation token enables the incentive alignment for users of
+the Semada Protocol. The Semada reputation token is a multi-utility token
+that is associated with and a value proposition for worker and requester
+reputation on the Platform. The Semada Protocol uses its token mechanism
+to incentivize and enforce the behavior of all micro task participants.
+Through the reputation tokens, the Semada Protocol provides a micro task
+worker reputation staking mechanism that incentivizes high quality work and
+task completion by workers. The reputation staking mechanism via tokens
+also allows requesters to verify and track worker quality, integrity, and
+quantity. Moreover, the reputation staking mechanism only requires a
+minimal fee from the requester while enabling micro task workers not only
+to get paid for their work but also to capitalize on the quality and integrity of
+their work.
+The Semada Protocol can reduce the cost structure of intermediation-
+requiring centralized structures for micro tasks in orders of magnitude.
+Through its domain specific reputation verification for human task
+crowdsourcing, the Semada Protocol removes the manual verification and
+the associated multiplication of micro task work necessitated by centralized
+systems, enabling its decentralized micro task workers to profit from the
+disintermediation.
+In addition to the improvement of existing centralized mechanical turk
+solutions, existing decentralized solutions for micro task work are also
+largely enhanced by the Semada Protocol. The Semada Protocol provides
+coherent, attack resistant, and scalable solutions previously unprecedented
+by existing decentralized solutions for micro task work. Like other
+decentralized mechanical turk protocols, the Semada Protocol is designed to
+disincentivize malicious actors and reward fair players. However, unlike its
+decentralized competitors, the Semada Protocol ensures Sybil Attack and
+Tyranny of the Majority attack resistance. The Semada Protocol architecture
+and its incentive structure facilitates enhanced 51% attack resistance unlike
+any previous reputation verification attempts in decentralized and
+centralized networks. Moreover, unlike other decentralized mechanical turk
+companies, the Semada Platform does not charge fees, other than the gas
+needed, for the platform itself. Nevertheless, the Semada Platform
+significantly reduces transaction fees for the parties.
+9
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+The Semada Platform provides a consumer friendly graphical user interface
+(GUI). The Semada Platform GUI allows micro work requesters to avoid
+building their own tools for micro work or hire startups. The Semada
+Platform GUI provides a free consumer interface that connects micro task
+requesters and workers, thereby freeing significant financial resources and
+enabling unprecedented scalable solutions for micro tasks.
+The Semada Platform expands the labor pool of micro task workers in orders
+of magnitude and enhances the requester and worker experience and their
+respective profitability. The Semada Platform GUI gives access to anyone
+with an internet connection, including the unbanked. Thus, expanding the
+micro task labor pool by up to 40%. The Semada Platform GUI enhances the
+consumer experience by removing fees altogether, facilitating easy
+cryptocurrency payment functionality, removing the necessity of check etc.
+remittance that exist in centralized systems, and creating a quick and easy to
+use signup process. Applying the Semada Protocol, the Semada Platform
+removes socioeconomic barriers that exist in centralized mechanical turk
+systems, including large fees, accountants, other intermediation.
+In summary, the Semada Network addresses the following primary pain
+points in existing centralized mechanical turk systems:
+1. Disintermediation of centralized mechanical turk removes fee
+structure
+2. Crowdsourced tasks verification improves cost structure further
+3. User interfaces enable requesters and workers alike
+4. Blockchain technology increases micro task labor pool
+5. Reputation tokens and scores optimally incentivize requesters and
+workers alike
+In addition to providing upgrades to existing centralized mechanical turk
+system, the Semada Network also addresses the following primary pain
+points in existing decentralized mechanical turk systems:
+1. Attack resistant architecture
+2. Scalable solution
+3. No platform fees further reduce decentralized transaction fees
+4. Gamification of micro tasks increases worker participation and
+accuracy
+Given the qualitative and quantitative improvements over existing
+mechanical turk micro task platforms, the Semada Platform is uniquely
+positioned to facilitate and expand the future growth of AI in a broad array
+of industries. The Semada Platform supplies optimal micro task outputs that
+satisfy the increasing demand for labelled data via micro task work at higher
+quality while at the same time lowering cost for requesters and workers in
+10
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+orders of magnitude. Through the quantitative and qualitative improvements
+of mechanical turk micro tasks, the Semada Platform provides
+unprecedented labelled training datasets that allow AI neural network
+learning algorithms to reach unprecedented levels of automation after the
+supervised learning process.
+3 Semada Platform
+The Semada Platform facilitates the efficient functioning of the micro task
+community and its extension. Through the Semada Platform GUI, requesters
+can engage in an easy and reliable deployment process for micro task
+workers. Through reputation scoring and validating micro tasks, the Semada
+Protocol enables workers to gain additional work and requesters to attract
+high quality workers.
+A key design goal of Semada is to create a minimal and robust architecture
+that allows for creating much more complex and automated validation logic,
+as well as machine expert validators. For instance, experts could evolve from
+humans to smart contracts in order to allow for the automation of validation.
+In addition, the forum can support the creation of formal verification proofs
+and engines, which could be utilized by experts in their validation process.
+Four components create the core functioning of the Semada expertise
+validation platform:
+1. A dynamic list of system-generated sub-tokens, representing worker
+reputation pertaining to micro tasks performed.
+2. The public forum of workers’ micro task performance. Worker
+performance measures can be measured via a linked list of posts,
+where each list has a sub-token assigned to it, based on its root post,
+called the worker micro task reputation score.
+3. The bench of workers. Workers are anonymous users who have the
+option to stake their respective sub-tokens to answer validation
+requests of other workers or proclaim their availability for off-
+platform work.
+4. The validation pool. Workers may stake their expertise-specific
+tokens in order to validate or invalidate posts through a betting pool.
+This is used to answer validation requests. The validation pool
+intermediates between the bench and the forum to vest workers and
+requesters with verified reputation. The validation pool is valuable as
+it allocates power to influence the development of the expertise and
+enables gaining future reputational salaries.
+In summary, micro workers from the bench stake their expertise specific
+reputation tokens to:
+11
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+1. Announce their availability for micro work through public smart
+contracts by posting stakes of their reputation.
+2. Evaluate posts with upvotes or downvotes,
+In summary, Semada Platform
+1. answers requester queries about the list of available micro task
+workers and each worker’s availability stakes
+2. answers validation requests, taking as input an ETHEREUM fee and
+the address of an ETHEREUM post, then
+3. distributes the ETHEREUM as reputational salaries to the bench
+4. opens a new validation pool
+5. collects reputation stakes from workers on the pool
+6. distributes the losers’ stakes to the winners
+3.2 Reputation Staking Mechanism
+Instead of repeating work on given tasks to attain high quality work products
+for micro tasks, Semada uses an architecture of reputation verification that
+examines micro worker task performance and verifies the validity and
+quality of the work. The Semada reputation token staking mechanism,
+created through ETHEREUM-based smart contracts, allows the micro task
+constituents, e.g. requesters, workers, and verifiers to stake their reputation
+tokens on the validity of their work and/or against the validity of others’
+work.
+The reputation token staking mechanism, provides well-calibrated incentives
+for workers and requesters to perform micro tasks correctly. The It helps
+maintain micro task quality and avoid micro task errors can be caused by
+malicious actors and simple human error. Malicious actors may attempt to
+get paid for micro task work they have actually not performed or not
+performed at the expected level of quality. Semada staking mechanism
+creates disincentives for malicious actors, enhancing the efficiency of the
+Semada Network and making it attack resistant.
+Requesters in the Semada Platform specify whether they require a worker
+with a given reputation score or if they require verifiers for workers with
+lower reputation scores, including the number of verifiers before the work is
+deemed accurate. When staking their reputation tokens, workers assert that
+their micro task work was performed accurately and at the expected level of
+quality. Similarly, verifiers stake (a proportionally smaller) amount
+of reputation tokens because verifiers have a higher reputation score and are
+therefore less likely to be malicious actors.
+3.3 Reputation Score
+Every participant on the Semada Platform will have a reputation score linked
+to their ETHEREUM address. The Semada reputation score functions as a
+12
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+readily available indicator of how reliable a worker or requester is on the
+Semada network. The micro task worker’s reputation score is a measure of
+the worker’s history of completing micro tasks on the Semada network
+qualitatively accurate, efficient, and consistently. The requester’s reputation
+score is a measure of the requester’s history of interacting with micro task
+workers on the Semada network including payment history for completed
+work, among other measures. The Semada reputation score is formed and
+linked to the respective network participant’s ETHEREUM wallet address.
+Market factors balance the equilibrium of supply and demand of micro work
+on the Semada Network based on the workers and requesters reputation
+scores. If requesters have a lower reputation score, workers become less
+likely to accept requesters’ offers. In turn, low reputation scores for micro
+task workers result in a lower likelihood of retention for micro task work on
+the Semada Network. Requesters can select workers based on their
+reputation score, giving workers an incentive to keep the reputation scores
+high by performing micro tasks with high accuracy and efficiency. The
+reputation score mechanism and the building of reputation on the Semada
+Platform allows workers to graduate to the privilege of being a verifier. The
+reputation score mechanism helps discern malicious actors and simple
+mistakes. It also protects workers and verifiers from fraudulent requesters
+and suboptimally designed requests.
+3.4 Payment System
+The Semada Platform does not receive any fees. The Semada platform
+is designed primarily to ensure security, and encourage maximal productive
+cooperation, by valuing reputation over all else. A crucial element of
+ensuring this security and cooperation consist of requiring users who want
+validation to send all work fees to the platform to earn maximal reputation.
+Choosing to enforce a protocol where all fees are shared with the expertise
+creates a successful positive feedback loop: The more fees are sent to the
+platform, the more the reputation is worth; which means the reputation
+tokens will be more desirable to workers than one-time fees. This in turn
+means the system will be carefully policed by vested constituents. This
+makes the system more secure; so the platform will attract more public fees.
+Unlike transactions on the Ethereum network that require gas uniformly, the
+ETHEREUM network requires payment only for posters, not for viewers.
+While some mechanical turk competitors on the Ethereum network are
+required allow for micro payments and staking without using gas through
+payment channels that unnecessarily complicate the operations, the Semada
+Protocol uses the ETHEREUM blockchain architecture which significantly
+simplifies the Semada Network’s operations on the blockchain.
+13
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+When starting a task, workers and verifiers send their stake via the Semada
+Platform payment GUI. If and when worker’s micro tasks are verified and
+approved through the voting pool in the Semada Network, worker reputation
+earnings and stakes are released to workers and verifiers. To allow for cost-
+efficient staking and micro payments to workers, the Semada payment
+system allocates payments to its workers in as few transactions as possible.
+Workers and verifiers can receive the balance owed by requesters at any
+time. In turn, requesters can receive the balance of workers stakes they are
+owed through the Semada Platform at any time.
+The Semada payment system on the ETHEREUM blockchain has significant
+advantages over the Ethereum payment systems via payment channels as
+utilized by decentralized mechanical turk competitors. The Semada Payment
+System will be used by requesters, workers, and verifiers to increase the cost
+efficiency of the network. It allows for secure off chain payments without
+using gas before transferring those payments on the ETHEREUM
+blockchain at a later date.
+3.5 Gamification of Micro Tasks
+The foundational principle of proof of work in the blockchain suggests that
+it is a lot easier to verify a game was played properly than it is to play it
+properly. The Semada Platform incorporates this philosophy into its
+gamification of micro task work through its user interface on the Semada
+platform. On the Semada platform, the forum establishes the game and the
+rewards, so the bench validators can verify the game was played properly
+almost completely automatically.
+Gamification is defined as the process of adding games or game-like
+elements, such as a micro-task, to encourage active task worker participation,
+boost motivation, and increase user loyalty. Game mechanics for micro task
+work can be integrated via websites, apps, and services. Several examples
+illustrate the use of gamification and its benefits. Gamified services include
+language learning courses such as Duolingo and MindSpace.
+Semada’s primary objective of embedding gamification into the user
+interface is enhanced micro task worker incentives that enable faster
+platform growth. Gamification of micro tasks is an iterative process that
+incentivizes user game mastery. Users’ desire of game mastery combined
+with their ability to earn a flexible income if and when they choose to create
+well calibrated user incentives and significant platform loyalty. Semada’s
+user interface for gamification of micro tasks makes monotonous work much
+more enjoyable. Gamification facilitates the easiest and most enjoyable way
+for users to earn reputation and gain financial benefits associated with their
+enhanced reputation on the Semada Platform.
+14
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+Unlike other decentralized gamification attempts for micro task workers that
+are monodimensional and only allow earning by playing the game, the
+Semada platform offers players multiple opportunities to earn by playing.
+Such multidimensional earning opportunities further optimize user
+incentives and build unparallelled user loyalty through the proper incentive
+structure.
+4 Innovating the Mechanical Turk Market
+Centralized freelance and mechanical turk markets are subject to significant
+inefficiencies and misalignment of incentives for their workers. These
+centralized platforms are intermediaries that make the global freelance
+market expensive and inefficient. Centralized industry leaders in the
+freelancer market, including Upwork, Amazon, and Fiverr charge up to 40%
+in transaction fees.
+Similarly, centralized mechanical turk marketplace leaders act as rent
+seeking intermediaries that create numerous inefficiencies in the
+market. Market leaders in centralized micro task marketplaces include
+MTurk and Crowdflower. Just to illustrated, on MTurk, tasks can range from
+clicking a link, going to a webpage and annotating an image, to completing
+a survey. Crowdflower is particularly focused on enriching AI data.
+Freelance workers are deprived of participating in the profits charged by the
+centralized platforms.
+By contrast, the Semada Platform not only allows increases of pay for
+workers but workers can also capitalize on the quality of their work and the
+associated reputation enhancement. Semada mechanical turk labor pool
+enhancement through the participation of the unbanked, decreased cost for
+requesters, and a user friendly quality management solution.
+Unlike other decentralized mechanical turk platforms such as Gems, Bloom,
+and Storm, the Semada Platform provides an attack resistant platform
+ecosystem that grows in attack resistance as the platform grows. Unlike
+GEMS, which bans malicious actors detected through the GEMS trust
+mechanism from the platform, the Semada platform has a self-enforcement
+mechanism. Once the system reaches maturity, the users will be guided by
+the incentive system in the Semada architecture to avoid bad actors and
+workers with lower reputation scores.
+4.1 No Platform Fees
+Unlike Centralized mechanical turk marketplaces, Semada does not charge
+a centralized fee for micro transactions on the Semada platform. Centralized
+mechanical turk marketplaces such as Crowdflower and MTurk charge
+15
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+requesters for the right to submit tasks to their platforms. Such centralized
+fees add downward pressure on the platforms’ worker compensation. By
+contrast, the only cost on the Semada Platform is gas used on the
+ETHEREUM blockchain for posters but not for viewers. The lack of fees
+on the Semada platform creates a more efficient marketplace for workers,
+verifiers, and requesters alike through the removal of the rent seeking
+intermediators. This lack of any centralized fees enables workers, verifiers
+and requesters to share the fees equally and increase the economic utility of
+their cooperation via the Semada Platform.
+4.2 Transaction Cost Removal
+The Semada platform removes transactions costs associated with micro task
+work. Unlike centralized mechanical turk platforms that require an existing
+banking relationship to receive account transfers for otherwise unbanked
+micro task workers, the Semada Platform operates entirely through crypto
+transactions utilizing its reputation tokens and other cryptocurrencies. This
+enables unbanked workers to avoid opening a bank account to receive
+payments on centralized mechanical turk platforms, such as Crowdflower or
+MTurk.
+The Semada Platform also improves the payment system for micro task
+workers in centralized mechanical turk platforms in orders of magnitude.
+Centralized mechanical turk platforms are subject to significant payment
+issues and payment timing for their workers. Workers are further burdened
+by high fees for intermediaries that facilitate the payment process such as
+Paypal. The fees make is only economically viable for higher volume
+workers who can at some point avoid the Paypal fees but create barriers to
+entry for new micro task workers.
+The Semada Platform not only allows workers to get paid in Semada tokens
+but also to capitalize on their growing reputation stakes within the platform.
+The Semada Platform removes all non-Semada transaction fees for workers
+as only requesters post ETH to request micro task completion. Holding and
+storing Semada tokens does not necessitate a banking relationship. All that
+is needed for a micro task worker to earn a living on the Semada Platform is
+access to the Internet.
+4.3 Optimized User Interface
+Existing user interfaces for micro tasks require upgrades. In centralized
+micro task platforms, user interfaces require high computer literacy.
+Centralized mechanical turk interfaces are also outdate and create burdens
+for the users. Requesters on centralized platforms are required to expense
+16
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+significant resources to build the infrastructure for more complicated
+projects. The lacking quality in mechanical turk user interfaces also
+significantly increases the time for workers to perform tasks and increases
+the error rate in performing tasks both of which significantly lower
+worker earning ability on such platforms. Another burden is the centralized
+use closed sourced software in mechanical turk that can only be limitedly
+reused.
+The Semada Platform interface for micro tasks can be built on top of the
+Semada Platform and can provide a requester and worker friendly micro task
+performance environment. The Semada team works directly for early
+requesters to build reusable open source user interfaces modules on the
+Semada Platform. All open source software components of modules are
+reusable and enable future requesters to build new modules on existing ones,
+enabling superior network effects within the Semada Platform. These
+combined factors in the open source interface solution on the Semada
+Platform enable requesters to obtain high quality performance on micro tasks
+in less time and workers to earn more money in less time.
+4.4 Worker Anonymity Increases Participation
+Workers in the centralized micro task economy are required to pass an
+approval process before they can start work. According to a study by the
+World Bank, centralized approval processes and identity requirements for
+mechanical turk worker registration creates significant limitations for the
+registration of new workers for micro task platforms. However, centralized
+micro task platforms need to verify identity to prevent malicious actors from
+abusing the network and ensure work quality.
+By contrast, on the Semada Platform, users do not need to verify their
+identity to complete micro tasks. The Semada Protocol architecture, and
+specifically its reputation token staking mechanism, make the Semada
+Platform attack resistant. This mechanism enables the Semada Platform to
+circumvent all the issues that are associated with centralized identity
+verification processes. Accordingly, workers in the Semada Platform are not
+required to expense money to qualify for centralized approval processes,
+don’t experience delays, are not required to surrender their private
+information. Given those benefits, the Semada Platform enhances the labor
+pool of workers willing to provide micro tasks services.
+The Semada Platform is built to facilitate such worker disclosures via posts
+on the Forum. Alternatively, existing decentralized onboarding processes,
+via Bloom and Ocular, among others, allow the verification of worker
+identity information. The Semada Platform integrates such verified
+identification information through post on the Forum in the user interface.
+17
+Electronic copy available at: https://ssrn.com/abstract=3128900
+
+6 Outlook
+Mechanical turk is an application of the Semada Protocol and the Semada
+Platform ecosystem. Other use cases will evolve on the Semada Platform
+over time and applications for the Semada Protocol that cannot currently be
+conceptualized will materialize. The Semada Platform architecture will
+evolve in any setting that supports the ethical advancement of the crypto
+evolution.
+18
+Electronic copy available at: https://ssrn.com/abstract=3128900
+

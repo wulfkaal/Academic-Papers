@@ -1,0 +1,1674 @@
+Draft Version 8 - September 2024
+The Future of Law - Dynamic Web3 Governance
+Wulf Kaal, Ph.D.1
+Abstract
+This article proposes a novel web3 governance model using Weighted Directed Acyclic
+Graphs (WDAGs) and validation pools with reputation staking, combined with a
+federated communications protocol, to address the negative externalities of continuous
+legal growth. The traditional methods of legal garbage removal, such as sunset
+provisions and periodic legal reviews, are hindered by inefficiencies, political
+manipulation, and resource demands. In contrast, the WDAG system enables a
+dynamic, self-enforcing, and community-driven approach to legal remediation, ensuring
+the continuous relevance, efficiency, and adaptability of legal frameworks in a
+decentralized environment. This model utilizes real-time data analysis and community
+input to organically adjust legal norms, minimizing political resistance and unintended
+consequences while preserving legal history and promoting transparency.
+The integration of the WDAG framework into web3 governance aligns with the needs of
+a rapidly evolving technological and social landscape. By facilitating a more responsive
+and equitable legal system, the WDAG model supports economic growth, fosters
+democratic engagement, and ensures that legal rules and regulations remain aligned
+with contemporary societal values. This approach represents a significant advancement
+in legal governance, demonstrating how emerging technologies can create sustainable
+and adaptive legal frameworks that better reflect community consensus and adapt to
+technological and societal changes.
+Key Words: Law Growth, Web3, Negative Externalities, Dynamic Regulation, Sunset
+Provisions, Web3 Governance, Token Models, Cryptocurrencies, Feedback Effects,
+Emerging Technology, Tokens, Distributed Ledger Technology, Weighted Directed
+Acyclic Graphs (WDAGs), Legal Garbage Collection, Reputation Staking,
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1ProfessorofLaw.TheauthorisgratefulforexcellentresearchassistancefromNicoleKatlin,research
+librarian,andJackPlamer,researchassistant.
+1
+
+Draft Version 8 - September 2024
+Table of Contents
+Introduction 3
+Growth of Law 5
+Negative Externalities 8
+Proposed Remedies 10
+Sunset Provisions 11
+History 13
+Critique 14
+Case Studies 16
+Legal Garbage Collection 17
+Proposed Methodologies 18
+Critique 19
+Other Remedies 21
+Experimental Rules 22
+Automatic Adjustment Mechanisms 24
+System-Level Approaches to Regulatory Reform 26
+Historical Precedent for Legal Recycling: Law Reform in the Interwar Period 27
+War Cleanups 27
+Case Study: Post-war Japan 28
+Web 3 Remedies 30
+Proposed System 31
+Governance Mechanism 32
+Precedent and Citation system 33
+Dynamic Governance 34
+Exponential Evolution of Emerging Technology and Governance Needs 35
+Dynamic Real-Time Governance 36
+Key Components of WDAG-based Emerging Technology Governance 37
+Benefits of WDAG-Based Legal System Upgrades 37
+Dynamic Evolution of Law 38
+Overcoming Sunset Provisions 40
+Improving Garbage Removal 41
+Conclusion 44
+2
+
+Draft Version 8 - September 2024
+Introduction
+In contemporary legal systems, the accumulation of laws and regulations has led to
+what is often termed "hyperlexis"—an overwhelming proliferation of legal rules that
+complicates governance and burdens businesses and individuals alike. This
+phenomenon is driven by the continual need to adapt legal frameworks to societal
+changes, technological advancements, and evolving governance challenges. While new
+laws are frequently enacted to address emerging issues, outdated regulations are rarely
+repealed, resulting in a growing, complex, ill adjusted, and less transparent legal
+corpus.
+The consequences of this expanding body of law are manifold. Legal complexity
+increases compliance costs, creates uncertainty, undercuts market development, and
+can undermine public trust in legal institutions. When individuals and businesses
+struggle to understand and adhere to overlapping or contradictory regulations, the risk
+of selective enforcement and legal arbitrage rises, where entities exploit legal gaps and
+inconsistencies to their advantage. Moreover, a convoluted legal system may appear
+overly bureaucratic, deterring public engagement and undermining confidence in
+markets and in the rule of law.
+Economic efficiency is a primary victim of expanding corpus of law. The continual
+growth of legal regulations is driven by societal changes and technological
+advancements, which create the need for new laws to address emerging issues.
+However, the practice of layering new regulations over existing ones without repealing
+outdated provisions leads to legal accumulation. This accumulation makes the legal
+system more complex and less transparent, increasing the compliance costs for
+individuals and businesses. As the body of law grows, it can also hinder economic
+efficiency, as navigating and complying with an increasingly intricate regulatory
+environment demands significant resources.2
+An ever-expanding body of law can create significant negative consequences, such as
+increased legal uncertainty, where individuals and businesses struggle to understand
+and comply with overlapping or contradictory regulations. This complexity may also
+foster selective enforcement and legal arbitrage, where entities take advantage of gaps
+and inconsistencies in the law for their benefit. Additionally, a continually growing legal
+system can undermine public trust by making the legal framework appear excessively
+bureaucratic and inaccessible. Regularly reviewing and removing outdated laws can
+2Olson, M. (1982). The Rise and Decline of Nations: Economic Growth, Stagflation, and Social
+Rigidities. Yale University Press.
+3
+
+Draft Version 8 - September 2024
+help streamline the legal system, reducing these issues and promoting a more efficient
+and fair legal environment.3
+Sunset regulations, which involve the removal of outdated or less relevant legal
+provisions over time, are no longer widely used due to several factors. Primarily, the
+administrative burden and political inertia associated with regularly reviewing and
+repealing such laws discourage these practices. Legislative bodies often lack the
+necessary resources and motivation to systematically evaluate the relevance of existing
+laws, resulting in regulatory accumulation. Additionally, interest groups that benefit from
+specific regulations may resist their repeal, further contributing to the persistence of
+outdated laws.4
+Legal garbage collection, the systematic removal of obsolete legal provisions, should
+work by establishing regular review cycles where laws are assessed for their continued
+relevance and effectiveness. This process should involve multiple stakeholders,
+including legal experts, industry representatives, and public interest groups, to ensure a
+comprehensive evaluation. Implementing a structured legal garbage collection process
+can help streamline the legal code, making it more accessible and reducing
+administrative costs associated with navigating outdated or redundant regulations.5
+This article explores the factors contributing to the proliferation of legal rules, the
+challenges of an increasingly complex legal environment, and the potential solutions to
+manage this growth. It will examine the role of sunset provisions, legal garbage
+collection, and alternative remedies such as experimental rules and automatic
+adjustment mechanisms in maintaining an efficient and effective legal system. Through
+this analysis, the paper aims to provide insights into addressing the challenges posed
+by the continuous expansion of law in modern societies and fostering new approaches
+to legal reform.
+To address these challenges, a WDAG-based dynamic governance model offers a
+promising path forward. Unlike traditional approaches that rely on periodic reviews and
+centralized decision-making, a WDAG-based system leverages decentralized networks,
+real-time data, and community consensus to create a flexible, self-adjusting legal
+framework. By embedding laws, regulations, and governance principles into a dynamic,
+3Sunstein, C. R. (1990). After the Rights Revolution: Reconceiving the Regulatory State.
+Harvard University Press.
+4Romano,Roberta,[onsunsetprovisionsCITE];Keohane, N., Revesz, R. L., & Stavins, R. N.
+(1998). The choice of regulatory instruments in environmental policy. Harvard Environmental
+Law Review, 22, 313-367.
+5Revesz, R. L. (2001). Federalism and Environmental Regulation: A Public Choice Analysis.
+Harvard Law Review, 115(2), 553-641.
+4
+
+Draft Version 8 - September 2024
+evolving structure, this model enables continuous legal adaptation and efficient removal
+of outdated or irrelevant provisions, thereby reducing legal complexity and enhancing
+regulatory clarity. In this context, integrating WDAGs into web3 technologies and
+decentralized autonomous organizations (DAOs) represents a transformative
+opportunity to reimagine legal governance in a way that aligns with the realities of our
+rapidly changing world. As such, a shift toward WDAG-based dynamic solutions is
+desirable and necessary for creating a legal system that is both efficient and equitable
+in addressing the complexities of contemporary governance.
+Growth of Law
+The expansion of legal systems from common law traditions to increasingly codified
+frameworks has been a defining characteristic of legal evolution in recent centuries.
+This transition has accelerated dramatically in the 20th and 21st centuries, leading to
+what some scholars describe as a state of "hyperlexis" in modern legal systems.6
+Historically, legal systems were predominantly based on judicial precedent and
+customary practices, where court rulings and traditional norms shaped the development
+of the law. However, over time, there has been a significant shift towards
+codification—the process of creating comprehensive statutory laws. This shift was
+driven by a desire for greater clarity, consistency, and accessibility in the legal system.
+Codification aimed to simplify legal interpretation by providing more concrete rules, as
+opposed to the often vague and flexible principles found in common law.
+Ironically, this move towards a codified legal framework has often resulted in greater
+legal complexity. In the United States, for example, both federal and state legislation
+have expanded exponentially since the early 20th century, contributing to what some
+commentators describe as "hyperlexia," or an overabundance of laws. While a specific
+statute might appear easier and cheaper to understand than a vague standard, the
+sheer volume of new legislation creates significant "information costs."7 These costs
+arise from the need to navigate and interpret an ever-growing body of statutory law,
+ultimately complicating rather than simplifying the legal landscape.
+Thus, while codification was initially intended to make the law more straightforward and
+accessible, it has paradoxically led to an increase in the complexity and volume of legal
+6BaylessManning,HYPERLEXIS-OURNATIONALDISEASE,71NORTHWESTERNUNIVERSITYLAWREVIEW
+767–782,767(1977).
+7DruStevenson,COSTSOFCODIFICATION,2014UNIVERSITYOFILLINOISLAWREVIEW1129–1173,1136(2014).
+5
+
+Draft Version 8 - September 2024
+rules, posing new challenges for individuals, businesses, and the judiciary in
+understanding and applying the law effectively.8
+The rapid growth of law in modern times can be attributed to several interrelated factors.
+The growth of law in contemporary times is driven by a combination of technological
+and social changes, expanding government regulation, lobbying influences, and
+reactive legislative responses to crises. While each of these factors contributes to the
+legal framework's adaptability, they also create challenges related to complexity,
+coherence, and efficiency.
+Firstly, technological advancements and societal changes have driven the need for new
+legal frameworks. The rapid pace of innovation, particularly in areas such as data
+privacy, cybersecurity, and biotechnology, has outpaced existing laws, necessitating the
+creation of new regulations to address emerging challenges and risks.9 For instance,
+the rise of digital platforms and data collection technologies has led to significant
+developments in data protection laws, such as the European Union's General Data
+Protection Regulation (GDPR),10 which provides a comprehensive legal framework for
+data privacy and security. Similarly, developments in biotechnology and genetic
+engineering have required lawmakers to address complex ethical and safety concerns,
+resulting in a rapidly expanding body of law.
+Secondly, the increasing role of government regulation across various sectors has
+contributed to the proliferation of legal rules. As governments expand their regulatory
+oversight over environmental protection, health and safety, financial markets, and
+consumer rights, they create an ever-growing web of laws and regulations. This
+phenomenon, referred to as "regulatory accretion,"11 involves the cumulative growth of
+regulations, which can pose significant challenges to governance and administration.
+Regulatory accretion often results in a complex and sometimes contradictory legal
+environment, complicating compliance for businesses and individuals and creating
+burdens on regulatory agencies tasked with enforcement and oversight.12
+A third contributing factor is the influence of lobbying and special interest groups on the
+legislative process. Lobbyists and special interest groups, including large corporations,
+trade associations, and advocacy organizations, exert substantial influence over
+8Stevenson,supranote[-].
+9Kaal,Wulf&Farris,Nick, InnovationandLegislation:TheChangingRelationship-Evidencefrom1984
+to2015,10.2139/ssrn.3079787(2017)SSRNElectronicJournal
+10https://gdpr.eu/what-is-gdpr/
+11Ruhl,J.B.andSalzman,JamesE.,MozartandtheRedQueen:TheProblemofRegulatoryAccretion
+intheAdministrativeState(August1,2002).GeorgetownLawJournal,Vol.91,p.757,2003,FSU
+CollegeofLaw,PublicLawResearchPaperNo.59,AvailableatSSRN:https://ssrn.com/abstract=321922
+12Id.
+6
+
+Draft Version 8 - September 2024
+lawmakers, often resulting in the creation of laws tailored to the needs and priorities of
+specific industries or interest groups. This influence can lead to a fragmented legal
+landscape characterized by overlapping and occasionally conflicting regulations. As
+different groups vie for legislative favor, the resulting laws may lack coherence and
+integration, further complicating the legal system and increasing the burden on those
+who must comply.13
+Finally, reactive legislation, or the tendency of lawmakers to respond rapidly to
+high-profile events or crises, also contributes to legal proliferation. When faced with
+crises such as financial meltdowns, public health emergencies, or natural disasters,
+governments often enact new laws and regulations in a bid to prevent future
+occurrences or mitigate ongoing harm. However, this reactive approach can result in a
+patchwork of legal rules that may not be well-coordinated with existing frameworks. For
+example, the 2008 financial crisis prompted a flurry of new financial regulations, such as
+the Dodd-Frank Act in the United States,14 which added to the existing body of financial
+law but did not always align seamlessly with prior regulations. This layering of new rules
+over old ones can create legal complexities and inefficiencies, underscoring the need
+for a more strategic approach to lawmaking15 and the need for a cost benefit analysis of
+law making.16
+13Romano,RobertaandLevin,Simon,SunsettingasanAdaptiveStrategy(October21,2020).YaleLaw
+School,PublicLawResearchPaperForthcoming,AvailableatSSRN:https://ssrn.com/abstract=3655900
+orhttp://dx.doi.org/10.2139/ssrn.3655900
+14Pub.L.No.111-203,124Stat.1376(2010)(codifiedasamendedinscatteredsectionsoftheU.S.
+Code);seeDeconstructingDodd-Frank,N.Y.Times(Dec.11,2012),
+http://www.nytimes.com/interactive/2012/12/11/business/Deconstructing-Dodd-Frank.html(citinglawfirm
+reportthat398rulesarerequiredbyDodd-Frank).
+15Bainbridge,StephenMark,Dodd-Frank:QuackFederalCorporateGovernanceRoundII(September7,
+2010).UCLASchoolofLaw,Law-EconResearchPaperNo.10-12,AvailableatSSRN:
+https://ssrn.com/abstract=1673575;seeLarryE.Ribstein,BubbleLaws,40Hous.L.Rev.77,78-79
+(2003);seealso,e.g.,CassR.Sunstein,RiskandReason:Safety,Law,andtheEnvironment22-26
+(2002);CassR.Sunstein,Congress,ConstitutionalMoments,andtheCost-BenefitState,48Stan.L.
+Rev.247,261-62(1996).ButseeJohnC.Coffee,Jr.,ThePoliticalEconomyofDodd-Frank:Why
+FinancialReformTendstoBeFrustratedandSystemicRiskPerpetuated,97CornellL.Rev.1019,
+1025-26(2012)(criticizingbubblelawtheory).
+16See,e.g.,PaulRose&ChristopherJ.Walker,Ctr.forCapitalMkts.Competitiveness,U.S.Chamberof
+Commerce,TheImportanceofCost-BenefitAnalysisinFinancialRegulation6-11(2013),availableat
+http://ssrn.com/abstract=2231314.Tobesure,therelevantpartiesdonotagreethatindependent
+agenciesarelegallyrequiredtoconductaformalcost-benefitanalysis,assuchagenciesarenotsubject
+totheexecutiveordersrequiringcost-benefitanalysis.Instead,theD.C.Circuithasheldthatthe
+AdministrativeProcedureActandagencies’governingstatutesrequirethemtoconsidercostsand
+benefits.Seeid.at6-9,24-36;seealsocasescitedinfranote3.InMarch2012,theSECrespondedto
+criticismsaboutinadequatecost-benefitanalysisbyissuingaguidancememorandumthatineffect
+embracestheexecutive’scost-benefitanalysisframeworkwhilemaintainingthat“[n]ostatuteexpressly
+requirestheCommissiontoconductaformalcost-benefitanalysisaspartofitsrulemakingactivities.”
+MemorandumfromtheSECDiv.ofRisk,Strategy,&Fin.InnovationandtheSECOfficeoftheGen.
+CounseltotheStaffoftheRulewritingDivs.&Offices3-4(Mar.16,2012),availableat
+http://www.sec.gov/divisions/riskfin/rsfi_guidance_econ_analy_secrulemaking.pdf;seealsoRose&
+Walker,supra,at34-36(comparingSECandexecutiveagencyapproaches).
+7
+
+Draft Version 8 - September 2024
+Negative Externalities
+The rapid expansion of legal frameworks has resulted in a range of negative
+externalities that present substantial challenges to society and governance. This growth
+complicates compliance, strains both legislative and judicial resources, and diminishes
+democratic participation. Addressing these issues effectively will require comprehensive
+legal reform strategies that balance the need for adaptability and responsiveness with
+the core principles of clarity, accessibility, and fairness in the law.
+Firstly, the growing volume of legal codes has made compliance increasingly
+challenging for individuals and organizations. As legal frameworks expand,
+understanding and adhering to all applicable rules requires significant resources, often
+necessitating specialized legal expertise. The financial and administrative burdens
+associated with compliance have escalated, as the complexity of navigating such a
+dense regulatory environment deters businesses and individuals from fully engaging
+with the law. This situation increases the risk of unintentional violations, as the citizenry
+is faced with overwhelming information costs.
+Secondly, the proliferation of laws has significantly complicated the processes of legal
+interpretation and application. As statutes, regulations, and legal provisions multiply,
+contradictions and ambiguities within the law become more frequent, placing a strain on
+the courts and administrative bodies responsible for interpretation. Inconsistencies in
+the application of laws by different judges or regulatory bodies can result in
+unpredictable legal outcomes, thereby increasing litigation as parties seek judicial
+clarification. This inconsistency further undermines public confidence in the legal
+system, as the perception grows that the law is arbitrarily applied or excessively open to
+interpretation.
+Furthermore, the continuous introduction of new laws imposes a substantial burden on
+both legislative and judicial systems. Legislators, tasked with responding to new social
+and technological challenges, may become overwhelmed by the volume of laws they
+must draft, debate, and enact, leading to hastily crafted laws that lack comprehensive
+consideration. Similarly, the judiciary faces an increased workload in interpreting and
+applying an ever-growing body of law, which can lead to delays in case resolution and a
+diminished quality of governance. Both legislative and judicial bodies, therefore,
+struggle to keep pace with these demands, reducing the effective administration of
+justice.
+8
+
+Draft Version 8 - September 2024
+Additionally, the increasing complexity of legal systems poses significant challenges to
+democratic participation. As laws become more detailed and specialized, they become
+less accessible to the general public, complicating citizens' ability to understand and
+engage with the rules that govern their lives. This lack of accessibility and transparency
+can discourage public engagement and participation in democratic processes, as
+citizens may feel alienated or overwhelmed by the perceived opacity and bureaucracy
+of the legal system. Consequently, public trust and participation are eroded,
+undermining the democratic principle that legal systems should be clear, accessible,
+and open to scrutiny and input from all members of society.
+In response to the opacity and complexity of legal processes, citizens increasingly seek
+alternative ways to express their opinions and address grievances, notably through
+social media platforms such as X (formerly Twitter). These platforms enable individuals
+to bypass traditional legal channels and engage directly in public discourse, often
+ignoring the complexities of legal realities. While social media allows for the rapid
+dissemination of views and fosters public accountability, it also complicates efforts to
+address systemic legal challenges constructively by fostering echo chambers where
+alternative viewpoints are reinforced without the balanced scrutiny typically provided by
+judicial processes.
+However, while social media serves as an alternative space for expression, it also
+exacerbates the phenomenon of people seeking alternatives to formal legal solutions.
+The spread of information and misinformation on these platforms can intensify public
+distrust in legal institutions. The immediacy and accessibility of these web2 platforms
+can amplify grievances and criticisms, leading to a polarization of public opinion and a
+fragmented public discourse. This fragmentation makes it more difficult to build
+consensus or foster constructive dialogue on how to improve legal systems, potentially
+undermining the democratic engagement that social media platforms are supposed to
+facilitate.
+The proliferation of laws and regulations, often intended to address specific societal
+needs, has also resulted in significant economic, social, and systemic consequences.
+Economically, the expanding body of laws imposes substantial compliance costs on
+businesses and individuals, increasing the financial burden and stifling innovation. The
+overregulation can lead to market inefficiencies by creating barriers to entry, reducing
+competition, and limiting consumer choice. Furthermore, the complexity of navigating
+numerous laws often falls disproportionately on smaller businesses, which have fewer
+resources to dedicate to legal compliance.
+9
+
+Draft Version 8 - September 2024
+The growth of law also places considerable strain on the capacity of legal institutions to
+function effectively. Overburdened courts and procedural complexities result in
+increased litigation, delays in justice, and a clogging of the judicial system. Additionally,
+the sheer volume of laws undermines public perception and compliance, with the
+proliferation of laws contributing to a decline in public respect for the law, challenges in
+maintaining an informed citizenry, unequal enforcement, and the destabilization of
+established legal principles.
+These negative externalities underscore the urgent need for comprehensive strategies
+to manage legal proliferation. Addressing these issues requires thoughtful legal reform,
+including mechanisms for reviewing and culling unnecessary or outdated laws to ensure
+that the legal system remains efficient, equitable, and capable of maintaining public trust
+and democratic engagement.
+Proposed Remedies
+To address the illustrated challenges associated with Hyperlexis"various legal
+mechanisms have been proposed. Sunset provisions are legislative clauses that
+establish automatic expiration dates for laws, necessitating periodic review and
+reassessment. These provisions aim to ensure that laws remain relevant and effective,
+prevent regulatory accumulation, and provide opportunities to repeal outdated
+legislation. However, the use of sunset provisions has waned due to several practical
+challenges, such as the administrative burden of regular reviews, political resistance,
+and unintended consequences like legislative inefficiency and uncertainty for
+businesses and individuals.
+The concept of legal garbage collection presents another potential solution by
+systematically identifying and removing obsolete or redundant laws. This process aims
+to streamline legal codes, improve clarity, and reduce the complexity of navigating the
+legal system. However, legal garbage collection also faces significant challenges,
+including political reluctance to repeal laws, the difficulty of determining which laws are
+truly obsolete, and the resources required to conduct comprehensive legal reviews.
+In addition to sunset provisions and legal garbage collection, scholars have suggested
+other innovative approaches to manage legal proliferation. These include experimental
+rules that allow for temporary regulations to test new policies, automatic adjustment
+mechanisms that adapt laws to changing circumstances without legislative intervention,
+and system-level approaches that focus on holistic regulatory reform. Each of these
+10
+
+Draft Version 8 - September 2024
+strategies offers distinct advantages and disadvantages, and their effectiveness will
+depend on the context in which they are applied.
+Ultimately, addressing the challenges posed by legal rule growth requires a
+multi-faceted approach that combines these various mechanisms. By adopting a
+combination of sunset provisions, legal garbage collection, experimental rules,
+automatic adjustment mechanisms, and system-level reforms, it may be possible to
+create a more efficient, adaptable, and effective legal framework that better serves the
+needs of society. This article will explore these proposed remedies in detail, considering
+their potential benefits, limitations, and implications for the future of legal systems.
+Sunset Provisions
+Sunset provisions are legislative tools designed to impose automatic expiration dates on
+laws or regulations, thereby compelling periodic review and reassessment. By
+establishing a predetermined date upon which a law will cease to have effect unless
+actively renewed or amended by the legislative body, sunset provisions aim to prevent
+legal proliferation and maintain a streamlined legal framework. The underlying rationale
+of these provisions is to ensure that laws remain relevant, effective, and aligned with
+current societal needs. Sunset provisions can be seen as expiration dates for existing
+rules that force Congress to reconsider old laws before they disappear.17 As such, they
+prompt lawmakers to re-evaluate the validity and utility of a given law at regular
+intervals.
+The primary purposes of sunset provisions include ensuring the regular evaluation of
+laws' effectiveness, providing opportunities to update or repeal outdated legislation, and
+mitigating the cumulative effects of legal proliferation. By mandating periodic review,
+sunset provisions encourage legislative bodies to scrutinize whether a law continues to
+serve its intended purpose or requires modification. This mechanism promotes
+proactive governance, wherein laws are assessed against evolving societal and
+technological contexts, preventing stagnation and ensuring ongoing relevance. Such
+regular evaluations prevent the accumulation of outdated or redundant laws, thereby
+simplifying legal frameworks and reducing complexity.18
+17Fahrenthold, David A. Expiration Dates Force Congress to Reconsider Old Laws
+Before They Disappear. The Washington Post, 2003.
+18Baird, Vanessa. Legislative Sunset Clauses and the Effectiveness of Lawmaking. Law
+and Policy Review, vol. 37, no. 2, 2015; Gersen, Jacob E. Temporary Legislation. The
+University of Chicago Law Review, vol. 74, no. 1, 2007.
+11
+
+Draft Version 8 - September 2024
+Furthermore, sunset provisions provide structured opportunities to update or repeal
+laws that have become less relevant or redundant. They function as a legal
+“housekeeping” tool, allowing legislatures to remove obsolete regulations, particularly in
+rapidly evolving fields like technology, environmental regulation, and public health,
+where laws may quickly become outdated due to new developments or unforeseen
+consequences. By ensuring that legal frameworks are periodically cleansed of irrelevant
+statutes, sunset clauses contribute to the overall clarity and coherence of the legal
+system.19
+In addition, sunset provisions aim to mitigate the cumulative effects of legal proliferation
+by preventing the unchecked accumulation of regulations. Without mechanisms for
+regular reassessment, legal systems tend to expand over time, leading to increased
+complexity, higher compliance costs, and potential contradictions within the law. Sunset
+clauses act as a counterbalance to this natural tendency, fostering a more streamlined
+and manageable body of law by requiring a reassessment of each statute's continued
+necessity and effectiveness.20
+Sunset provisions also provide several benefits, including increased legislative
+accountability, fiscal responsibility, flexibility, and adaptability in lawmaking. By
+mandating that laws be periodically reviewed and justified, sunset clauses enhance
+oversight and encourage thoughtful resource allocation. They enable policy
+experimentation by allowing temporary legislative measures that can be evaluated and
+either revised or discontinued based on their outcomes, facilitating a data-driven
+approach to governance.21 However, the effectiveness of sunset provisions depends
+heavily on their proper implementation, political commitment, and the capacity of
+legislative bodies to undertake thorough and meaningful evaluations of existing laws.
+Sunset provisions are a vital legislative tool for managing legal proliferation. They
+ensure that laws remain relevant and effective in a dynamic society by mandating
+regular evaluations, providing opportunities for repeal or modification, and mitigating the
+cumulative effects of legal expansion. However, their success depends on the political
+will and practical capacity to engage in genuine and comprehensive legislative review
+processes. As legal systems continue to evolve, sunset provisions represent a proactive
+approach to maintaining clarity, accessibility, and responsiveness in the law.
+19Fahrenthold,supranote[_];Staszewski, Glen. Sunset Clauses and Democratic
+Deliberation. Legal Studies Research Paper Series, no. 09-01, 2009.
+20Stigler, George J. The Theory of Economic Regulation. The Bell Journal of Economics
+and Management Science, vol. 2, no. 1, 1971; Yin, George K. Temporary-Effect
+Legislation. The University of Virginia Law Review, vol. 97, 2011.
+21Kysar, Rebecca M. Sunset Provisions and Fiscal Restraint. Tax Law Review, vol. 59,
+2006; Gersen, supra note [_].
+12
+
+Draft Version 8 - September 2024
+History
+The concept of sunset provisions has deep roots in the history of legislative practice.
+The idea of temporary legislation, which underlies sunset provisions, can be traced back
+to the Roman Republic.22 During this period, temporary laws were enacted for specific
+purposes or emergencies, with the understanding that they would expire after a set
+duration or once their objective was achieved. This approach reflected an early
+recognition of the need for flexibility in governance, allowing the legislative body to
+respond to specific challenges without permanently altering the legal framework.23
+However, the modern incarnation of sunset provisions as a systematic legislative tool
+emerged in the 1970s in the United States, a period marked by growing concerns over
+the rapid expansion of regulatory frameworks and the inefficiencies associated with
+bureaucratic inertia. The increased complexity of government regulation, particularly in
+the post-World War II era, prompted lawmakers to seek mechanisms that could prevent
+the indefinite accumulation of laws and regulations. Sunset provisions were seen as a
+way to ensure that laws remained relevant, effective, and necessary by mandating
+periodic reviews and potential expirations. The adoption of these provisions aimed to
+foster legislative accountability, reduce regulatory burdens, and prevent unnecessary
+governmental overreach.24
+One of the first notable applications of sunset provisions in the United States was the
+Colorado Sunset Act of 1976,25 which introduced automatic expiration dates for state
+regulatory agencies unless they were actively reviewed and renewed by the
+legislature.26 This legislative innovation soon inspired similar measures at both the
+federal and state levels. The 1970s and 1980s saw a wave of legislative activity in
+which sunset provisions were incorporated into various laws, particularly those
+concerning regulatory agencies, environmental protection, and financial oversight. This
+22AnthonyR.Licata,Zero-BaseSunsetReview,14HARV.J.LEGIS.(1977).
+23 Frier, Bruce W. A Casebook on the Roman Law of Delict. Oxford University Press,
+1999.
+24Gersen,supranote[_];Kysar,supranote[_].
+25HereisthecitationinBluebookformat:
+ColoradoDepartmentofRegulatoryAgencies,*Colorado’s2023SunriseandSunsetReviewsReleased*
+(Aug.31,2023),
+https://dora.colorado.gov/press-release/colorados-2023-sunrise-and-sunset-reviews-released#:~:text=Th
+e%20Colorado%20General%20Assembly%20created,programs%20and%20functions%20of%20governm
+ent.
+26SupraNote 12
+13
+
+Draft Version 8 - September 2024
+movement was driven by a combination of public demand for greater governmental
+transparency and efficiency, as well as by legislative concerns about the unchecked
+expansion of the regulatory state.27
+As the sunset movement gained momentum, its application expanded beyond
+regulatory agencies to various legislative areas, reflecting its perceived value in
+promoting legislative oversight and accountability. By the late 1970s and early 1980s,
+sunset provisions were being utilized in numerous states across the United States and
+were also being considered for federal regulations. The incorporation of sunset
+provisions into legislative practice during this period reflects a broader trend toward
+mechanisms that encourage dynamic and adaptive governance, enabling laws to be
+revisited and revised in light of changing circumstances and evolving public needs.28
+Critique
+While sunset provisions are designed to enhance accountability and ensure that laws
+remain relevant and effective, their practical implementation may be subject to several
+significant downsides. Such limitation may include legislative inefficiency, political
+manipulation, uncertainty, and unintended consequences. These potential drawbacks
+necessitate a careful consideration of the context in which sunset provisions are
+applied, as well as the development of strategies to mitigate their negative impacts.
+Critics of sunset provisions argue that these mechanisms, while intended to enhance
+legislative oversight and accountability, can result in several negative consequences.
+One primary concern is legislative inefficiency. No guarantees exist that Congress will
+self correct and undertake the detailed work required.29 Regularly reviewing and
+reassessing laws as mandated by sunset clauses can place a significant strain on
+legislative bodies, requiring substantial time and resources. This burden could
+potentially overwhelm lawmakers, diverting attention from other pressing legislative
+duties and leading to delays in the legislative process. Moreover, if the necessary
+reviews are not conducted thoroughly, the effectiveness of sunset provisions is
+undermined, and laws may expire or continue without proper scrutiny, defeating the
+intended purpose of these mechanisms.30
+Another significant critique of sunset provisions is the potential for political manipulation.
+Opponents argue that sunset clauses can be exploited for short-term political gains
+27Romano and Levin, supra note [_].
+28Staszewski, supra note [_].
+29STEPHENG.BREYER,REGULATIONANDITSREFORM,365-366(1982).
+30Kysar, supra note [_]. 2006
+14
+
+Draft Version 8 - September 2024
+rather than genuine policy improvement. Sunset provisions also likely increase rents
+from interest groups, entrench current majoritarian preferences, which can at times
+produce planning conundrums for public and private actors.31 Because sunset clauses
+create periodic opportunities for legislative action, they can become tools for political
+maneuvering, allowing lawmakers to cater to specific interest groups or respond to
+shifting political winds rather than pursuing long-term, effective policy solutions. This
+environment fosters a focus on immediate political advantages rather than thoughtful,
+deliberative policymaking, ultimately detracting from the quality of the laws enacted or
+retained.
+The uncertainty and instability created by sunset provisions also pose significant
+concerns. These provisions can result in a lack of predictability, affecting long-term
+planning for businesses and individuals who rely on stable regulatory environments.
+Particularly, The use of sunset provisions may pose a risk to entities that are subjects of
+intense political debate. Such provisions could lead to the dissolution of agencies that
+face opposition or controversy, potentially undermining their stability and ability to
+function effectively. This approach may result in the premature termination of institutions
+that are politically contentious, regardless of their ongoing relevance or necessity.32 The
+threat of laws expiring at any moment without guarantee of renewal can create a climate
+of uncertainty, discouraging investment and planning that relies on consistent regulatory
+frameworks. For example, businesses may hesitate to enter certain markets or make
+long-term investments if they are unsure whether the governing regulations will remain
+in place. This unpredictability undermines economic stability and growth, which are
+crucial for a healthy, functioning market economy.
+Finally, critics argue that sunset provisions can lead to unintended consequences,
+particularly under the pressure of looming expiration dates. The requirement to
+reassess and potentially renew laws by a certain deadline may result in hasty
+decision-making or the continuation of flawed policies due to a lack of time for proper
+evaluation. Lawmakers may renew outdated or ineffective laws simply to avoid
+legislative gridlock or controversy, rather than engaging in a comprehensive
+assessment of the laws' effectiveness and relevance. This can result in a perpetuation
+of inadequate legal frameworks that fail to address the underlying issues they were
+meant to resolve, thereby diminishing the overall quality and efficacy of the legal
+system.33
+31RebeccaM.Kysar,Lasting Legislation, 159U.PA. L. REV.1007(2011)
+https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1097&con
+text=penn_law_review; Kysar, supra note [_]. 2006
+32Breyer, supra note [_], 1982
+33Mendelson, Nina A. The Federal District Courts and the Political Economy of Sunset
+Provisions. Georgetown Law Journal, vol. 98, no. 3, 2010.
+15
+
+Draft Version 8 - September 2024
+Case Studies
+Sunset provisions have been used across various domains of law, reflecting a strategy
+to manage legislative activity by setting expiration dates for laws unless they are
+renewed. In financial regulation, sunset provisions have gained traction as a tool to
+respond swiftly to economic crises while ensuring that such measures are reassessed
+once the immediate pressures have subsided. Sunsetting can mitigate the potentially
+negative consequences of crisis-driven financial legislation, providing a built-in
+mechanism for reviewing and potentially repealing laws that were enacted under
+emergency conditions.34 This approach balances the need for urgent action with the
+necessity of future scrutiny.
+The use of sunset provisions in tax law fail to function as effective tools for fiscal
+responsibility. Complexities such as shifting baselines, exceptions to budget rules, and
+the challenges of accurately assessing the costs of temporary legislation undermine the
+theoretical benefits of sunset provisions in promoting fiscal restraint.35 This perspective
+suggests that, rather than encouraging prudent budgeting, sunset provisions in tax law
+can create unintended complications that distort legislative decision-making.
+In criminal law and counterterrorism, sunset provisions have been employed to balance
+the need for security with the protection of civil liberties. A paradox exists in using
+sunset provisions for counterterrorism, where the necessity for flexible and adaptive
+security measures conflicts with the imperative to safeguard civil rights.36 Similarly, using
+sunset provisions in criminal law to address "time-based failures" requires a more
+dynamic and responsive legislative framework that adapts to evolving social and legal
+contexts.37
+Overall, sunset provisions are a potent mechanism for controlling legal proliferation,
+enabling periodic review and the potential repeal of laws deemed unnecessary or
+outdated. However, their effectiveness relies heavily on the context in which they are
+applied, the implementation strategy, and the political will to conduct genuine
+34 RobertaRomanoandSimon Levin,Sunsetting asanadaptivestrategy,118Proc.Nat’lAcad.
+Sci. (2021) https://www.pnas.org/doi/epdf/10.1073/pnas.2015258118
+35Kysar, Rebecca M. Sunset Provisions and Fiscal Restraint. Tax Law Review, vol. 59,
+2006.
+36EmilyBerman,TheParadoxofCounterterrorismSunsetProvisions,81FORDHAML.REV.1777(2013)
+37RichardE.IIMyers,RespondingtotheTime-BasedFailuresoftheCriminalLawthroughaCriminalSunset
+Amendment,49B.C.L.REV.1327(2008)
+https://scholarship.law.unc.edu/cgi/viewcontent.cgi?article=1286&context=faculty_publications
+16
+
+Draft Version 8 - September 2024
+reassessment. While these provisions have demonstrated value in certain areas, such
+as crisis-response legislation, their application in other fields remains contentious,
+highlighting the need for careful evaluation of their use and consideration of alternative
+strategies.
+As shown, sunset provisions represent a powerful tool for managing legal proliferation,
+offering mechanisms for regular review and potential culling of unnecessary laws.
+However, their effectiveness depends heavily on implementation and the political will to
+engage in genuine reassessment. While they offer promising solutions in some areas,
+such as crisis-response legislation, their application in other domains remains
+contested. The mixed results of sunset provisions in practice underscore the need for
+careful consideration of their use and potential alternatives in addressing the challenges
+of legal proliferation.
+Legal Garbage Collection
+Legal garbage collection presents a promising strategy for managing legal proliferation
+and maintaining an efficient, relevant legal system. However, its successful
+implementation requires navigating several challenges, including political resistance,
+complexity in law determination, resource demands, and the risk of unintended
+consequences. A combination of political will, technological innovation, and sustained
+commitment to legal system maintenance will be crucial in developing effective legal
+garbage collection strategies. As the body of law continues to expand, the importance of
+such efforts will only grow, making it imperative to find practical and sustainable
+solutions to ensure legal frameworks remain responsive and efficient.
+Legal garbage collection refers to the systematic review and removal of outdated,
+redundant, or otherwise unnecessary laws from the legal code. This process aims to
+streamline legal frameworks, enhance clarity, and improve efficiency within the legal
+system. Analogous to the concept of garbage collection in computer science—where
+unused or obsolete data is automatically removed from memory—legal garbage
+collection involves purging laws that no longer serve their intended purpose or align with
+current societal needs.
+A comprehensive restructuring of the U.S. legal system is needed to address the
+excessive accumulation of laws, particularly those with significant budgetary
+implications. The current legal framework is overburdened by numerous statutes that
+may be outdated, redundant, or contradictory, resulting in confusion and inefficiency. To
+manage this growing body of legislation effectively, a systematic approach is required to
+17
+
+Draft Version 8 - September 2024
+identify and eliminate unnecessary or irrelevant laws. This process, known as "legal
+garbage collection,"38 aims to streamline the legal code by removing outdated
+provisions, simplifying the legal framework, and ensuring that remaining laws are
+relevant and functional. The goal is to create a clearer, more efficient system that
+enhances governance and reduces administrative burdens by maintaining only
+essential, current regulations.
+Proposed Methodologies
+Implementing legal garbage collection involves several methodologies, each with
+distinct benefits and potential challenges. One proposed approach is Periodic
+Comprehensive Reviews, which entail regular and in-depth assessments of existing
+legislation to identify laws that are outdated, redundant, or misaligned with
+contemporary societal needs. This method relies on dedicated commissions or
+legislative bodies tasked with evaluating statutes and recommending necessary repeals
+or amendments. By institutionalizing these reviews, legal systems can avoid stagnation
+and ensure laws evolve in response to changing social, economic, and technological
+contexts. However, the effectiveness of this approach depends on the consistent
+allocation of resources and the political will to support ongoing, comprehensive
+evaluations.
+Technological Solutions offer a more innovative method for legal garbage collection by
+utilizing advancements in artificial intelligence (AI) and machine learning. These
+technologies can analyze large volumes of legal texts, cross-referencing them with
+current practices to identify potential inconsistencies, redundancies, or outdated
+provisions. Machine learning algorithms, for instance, can detect patterns suggesting
+which laws have become obsolete, thus enhancing the efficiency and accuracy of legal
+analysis. While this approach significantly reduces the manual effort required, it also
+presents challenges, such as the need for substantial investments in technological
+infrastructure and the complexities of training algorithms to understand the nuanced
+language of law. Additionally, the potential biases inherent in emerging technology
+systems must be managed carefully to ensure fairness and objectivity in the review
+process.
+38 PhillipK.Howard,ShowcasePanel IV:A Federal Sunset Law,16Tex.Rev. L. &Pol. 339,348
+(2012)
+https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=5152
+&context=journal_articles
+18
+
+Draft Version 8 - September 2024
+A third approach involves Collaborative Efforts that engage a wide range of
+stakeholders, including legal professionals, policymakers, industry experts, community
+representatives, and interest groups. This method benefits from diverse perspectives,
+which help ensure that the review process considers a variety of interests and expertise.
+By incorporating insights from those directly impacted by legislation, collaborative efforts
+can provide a more comprehensive evaluation of a law's relevance and utility. However,
+the effectiveness of this method can be compromised by the challenges of coordinating
+multiple parties, managing conflicts of interest, and ensuring that the process remains
+objective and evidence-based.
+Finally, an Incremental Approach focuses on systematically reviewing specific areas of
+law or particular periods in a phased manner. Rather than attempting a comprehensive
+overhaul, this method allows for more manageable and focused assessments that
+address different segments of the legal code over time. This gradual process minimizes
+disruption and maintains continuity in the legal framework while still working towards the
+elimination of outdated laws. However, the incremental approach may extend the time
+required to achieve complete legal reform, leaving some outdated laws in place longer
+than necessary, potentially causing temporary inefficiencies.
+Overall, these methodologies provide a range of strategies for implementing legal
+garbage collection, each contributing to a more streamlined and effective legal system.
+The choice of method will depend on factors such as available resources, political will,
+technological capabilities, and the specific legal context in which they are applied. By
+carefully considering these factors, policymakers can develop effective strategies to
+manage legal proliferation and ensure that the legal framework remains relevant and
+functional.
+Critique
+Despite its potential benefits, the implementation of legal garbage collection presents
+several significant challenges that warrant critical examination. For example, political
+resistance poses a formidable barrier, as repealing laws, especially those with symbolic
+importance, can be contentious and politically fraught. Additionally, the determination of
+which laws are genuinely obsolete is often complicated by the intricate web of
+interdependencies that characterize legal statutes. The process is further hindered by
+its resource-intensive nature, requiring substantial investment of time, expertise, and
+financial resources. There is also a risk of unintended consequences, such as creating
+legal gaps or undermining existing regulatory frameworks, which underscores the need
+for comprehensive analysis and consultation. Lastly, balancing the removal of obsolete
+laws with the preservation of legal history adds another layer of complexity to the
+19
+
+Draft Version 8 - September 2024
+endeavor. Given these challenges, a nuanced critique of legal garbage collection is
+essential to understanding its feasibility as a tool for legal reform.
+Laws, even those considered outdated or redundant, can be politically contentious,
+particularly when they hold symbolic importance to specific constituencies or when their
+removal might be perceived as weakening the regulatory framework. Legislators may be
+reluctant to repeal laws that have served as political or ideological markers, even when
+those laws no longer hold practical relevance. Overcoming this resistance requires
+building a broad consensus around the benefits of streamlining legal frameworks and
+promoting transparency throughout the review process. Without sufficient political will
+and support, efforts at legal reform can quickly become stymied, making this one of the
+most formidable challenges to legal garbage collection.
+Another challenge lies in the complexity of determining which laws are genuinely
+obsolete. Legal statutes are often interconnected, with laws that appear outdated on the
+surface having unforeseen relevance in specific contexts or being intricately linked with
+other, still-applicable legislation. For instance, a seemingly redundant law may still serve
+as a foundational element for another statute or regulatory framework, creating a ripple
+effect if repealed. This interconnectedness complicates efforts to eliminate unnecessary
+laws, requiring meticulous analysis of the broader legal ecosystem and consideration of
+potential impacts across multiple domains. It also necessitates a deeper understanding
+of both historical and contemporary applications of the law to avoid unintended
+consequences that could arise from overly hasty or uninformed legal reforms.
+The process of legal garbage collection is also resource-intensive. Comprehensive legal
+reviews demand significant time, expertise, and financial resources, and are inherently
+labor-intensive. Assembling teams of experts, conducting thorough analyses, and
+managing the administrative components of legal reform require substantial investment,
+which may not be consistently available, particularly in jurisdictions with budget
+constraints or competing policy priorities. The high costs associated with these
+processes can deter governments from committing the necessary resources, thereby
+hindering the consistent and effective application of legal garbage collection initiatives.
+Moreover, there is the risk of unintended consequences. Removing laws without fully
+understanding their current applications or interdependencies could create legal gaps or
+unintended policy outcomes. For example, the repeal of a statute without recognizing its
+links to other legal provisions might inadvertently weaken regulatory or protective
+frameworks, compromising public welfare or safety. This risk emphasizes the
+importance of conducting comprehensive reviews and consultations, ensuring that any
+20
+
+Draft Version 8 - September 2024
+decision to remove a law is based on a thorough understanding of its role and impact
+within the legal system.
+Finally, the issue of preserving legal history poses a unique challenge. While the
+removal of outdated laws can help streamline the legal framework, there is also a need
+to balance this with the preservation of legal history. Historical statutes provide valuable
+insights into the evolution of legal principles and societal values, serving as a record of
+the social, political, and economic contexts in which they were created. Deciding which
+laws to retain for historical purposes and how best to document and archive them
+requires careful deliberation to ensure that important aspects of legal heritage are not
+lost in the process of reform.
+Overall, while legal garbage collection offers a promising approach to managing the
+proliferation of laws and improving the efficiency of legal systems, its implementation
+requires navigating numerous challenges. Effective reform necessitates a combination
+of political will, strategic planning, adequate resource allocation, and a careful balance
+between modernization and the preservation of legal heritage. These considerations
+underscore the complexity of undertaking legal garbage collection and highlight the
+need for a nuanced and multifaceted approach to legal reform.
+Other Remedies
+While sunset provisions and legal garbage collection offer potential solutions to the
+challenges of legal proliferation, several other approaches have been proposed. These
+alternatives address the dynamic nature of law-making and the need for adaptable legal
+frameworks in an ever-changing society.
+Experimental Rules
+Experimental rules represent a novel approach to lawmaking that integrates temporary
+regulations with data-driven policymaking, allowing legislators to test the effectiveness
+of new policies in real-world settings before committing to permanent implementation.39
+The concept hinges on the idea of using temporary rules to gather empirical data, which
+can subsequently inform long-term policy decisions. This approach addresses some of
+39ZacharyJ. Gubler,Experimental Rules,55B.C.L. REV.129,141(2014)
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2210101
+21
+
+Draft Version 8 - September 2024
+the inherent uncertainties in policy development, particularly in areas characterized by
+complexity or rapid change.
+Experimental rules are temporary regulatory mechanisms designed with the primary
+objective of generating empirical data during their limited period of implementation.
+These rules aim to gather evidence that helps evaluate the effectiveness, practicality,
+and potential unintended consequences of proposed regulations. By allowing for
+real-world testing, experimental rules serve a dual purpose: they enable policymakers to
+observe the actual impact of new policies and provide a data-driven foundation for
+informed decision-making. This approach offers a strategic means to overcome
+significant challenges associated with policy experimentation, as it facilitates data
+collection and analysis before any full-scale regulatory adoption, enhancing the quality
+and responsiveness of public policy.
+Experimental rules possess several key features that distinguish them from traditional
+regulatory approaches, making them particularly suitable for data-driven policy
+development. One of the most prominent characteristics is their automatic expiration
+through sunset provisions. These provisions ensure that experimental rules are
+inherently temporary, set to expire after a predetermined period unless renewed or
+amended based on the findings generated during their implementation. The sunset
+clause is crucial in preventing rules from remaining in effect longer than necessary,
+aligning with the primary objective of gathering empirical data rather than establishing
+long-term regulations prematurely.
+Another defining feature of experimental rules is their explicit purpose of data
+generation. Unlike conventional regulations, which are often enacted to address specific
+issues or enforce compliance standards, experimental rules are specifically designed to
+collect data on their own effectiveness, feasibility, and potential consequences. This
+focus on data generation is explicitly stated within the rule's framework, guiding both its
+design and implementation. This explicit purpose differentiates experimental rules from
+other regulatory forms by ensuring that their primary function is to provide evidence that
+informs subsequent policy decisions.
+The process of implementing experimental rules is typically structured in two distinct
+stages. In the first stage, the rule is applied experimentally to gather data on its
+performance and impact. This period allows policymakers to observe the rule's effects in
+a controlled yet realistic environment. The second stage involves the thorough analysis
+of the data collected to evaluate whether the rule should be adopted permanently,
+modified, or discarded. This two-stage process facilitates a methodical and
+22
+
+Draft Version 8 - September 2024
+evidence-based approach to regulation, ensuring that any decision to formalize or
+abandon the rule is grounded in empirical findings rather than theoretical assumptions.
+Experimental rules present several significant advantages in the context of
+policymaking, offering unique benefits that enhance the regulatory process. Firstly, they
+facilitate real-world testing of policies, allowing proposed regulations to be implemented
+in actual settings rather than in theoretical or simulated environments. This approach
+enables policymakers to observe the effects and outcomes of these policies in practice,
+revealing unforeseen issues or benefits that may not have been apparent during the
+initial design phase. Such practical testing helps refine and improve policies based on
+empirical evidence rather than speculative assumptions.
+Secondly, experimental rules support evidence-based policymaking by providing a
+robust empirical foundation for regulatory decisions. The data collected during the
+implementation of experimental rules offers a concrete basis for evaluating a policy's
+effectiveness, feasibility, and unintended consequences. This evidence-based approach
+enhances the quality of policy decisions by ensuring that they are grounded in observed
+outcomes, thereby reducing the reliance on theoretical models or assumptions that may
+not accurately reflect real-world complexities.
+Finally, experimental rules provide flexibility in addressing complex or rapidly evolving
+issues. Their temporary nature allows for quick adjustments and modifications based on
+feedback and data collected from actual implementation. This flexibility is particularly
+valuable in dynamic regulatory environments where conditions change rapidly, such as
+in technology or environmental regulation. By allowing for iterative development and
+adaptation, experimental rules enable policymakers to respond more effectively to
+emerging challenges and evolving circumstances, thereby promoting more adaptive and
+resilient regulatory frameworks.
+While experimental rules offer notable advantages, their implementation poses several
+challenges that require careful management. The first challenge lies in ensuring
+meaningful data collection. The effectiveness of experimental rules is contingent upon
+their design and the quality of the mechanisms established for data collection.
+Policymakers must ensure that the data gathered during the experimental phase is
+comprehensive, reliable, and aligned with the specific objectives of the policy. This
+requires clear criteria for data relevance and accuracy to ensure that the findings
+support evidence-based policy decisions.
+Another significant challenge is the temporary uncertainty in regulated areas that may
+arise from the introduction of experimental rules. Since these rules are inherently
+23
+
+Draft Version 8 - September 2024
+temporary and subject to change, they can create uncertainty for stakeholders,
+especially if they entail substantial modifications to existing regulatory frameworks. This
+uncertainty can complicate compliance efforts, disrupt long-term planning, and create
+ambiguities regarding the rules that need to be followed, potentially leading to
+resistance or unintended non-compliance among affected parties.
+Additionally, there is a necessity for robust data analysis and policy adjustment
+mechanisms. To ensure the success of experimental rules, it is crucial to have
+well-developed processes for analyzing the collected data and making informed policy
+adjustments based on the findings. This not only requires technical expertise in data
+interpretation but also a governance structure capable of promptly revising or
+discontinuing policies that fail to achieve their intended outcomes. Without such
+mechanisms, the benefits of experimental rules could be undermined by inadequate
+responses to the data generated during the experimental phase.
+Overall, experimental rules represent a pragmatic approach to modern policymaking,
+combining flexibility with rigor. By allowing for real-world testing and adjustment, they
+provide a dynamic framework for developing and refining laws that are responsive to
+changing societal needs and empirical evidence. However, their success depends on
+careful design, clear objectives, and robust processes for data collection, analysis, and
+decision-making.
+Automatic Adjustment Mechanisms
+Automatic adjustment mechanisms are pre-established components within legislation
+designed to enable laws to self-update and adapt in response to changing
+circumstances without requiring frequent legislative intervention.40 These mechanisms
+serve the dual purpose of maintaining the relevance and effectiveness of laws over time
+while minimizing the need for constant legislative amendments. By incorporating
+automatic adjustments, such as economic or social policy changes triggered by specific
+indicators, these mechanisms aim to address the issue of policy drift — the divergence
+of policy from its original intent due to changing conditions. As Kamin notes, these
+mechanisms are particularly promising for their ability to respond swiftly and predictably
+to evolving circumstances.
+Automatic adjustment mechanisms find diverse applications across various policy
+areas. In economic policy, they are often employed in tax systems, where adjustments
+40David Kamin,Legislatingfor Good Times andBad, 54HARV. J.LEGIS.149,202-204 (2017)
+https://law.indiana.edu/instruction/tax-policy/assets/kamin-legislating-for.pdf
+24
+
+Draft Version 8 - September 2024
+to tax brackets are automatically made based on inflation rates, ensuring that tax
+burdens remain consistent in real terms despite economic fluctuations. In social
+programs, these mechanisms adjust benefit levels based on economic indicators such
+as cost-of-living indexes or unemployment rates, thereby maintaining the adequacy of
+social welfare provisions in the face of economic change. Environmental regulations
+also utilize automatic adjustments, such as emission standards that progressively
+tighten over time to encourage technological innovation and reduce environmental
+impact.
+The benefits of automatic adjustment mechanisms are significant. Firstly, they reduce
+the need for frequent legislative intervention, allowing for a more streamlined and
+efficient policy-making process. This reduces the legislative workload and helps prevent
+policy paralysis in situations where swift adjustments are necessary. Secondly, these
+mechanisms provide greater predictability for stakeholders, as they can anticipate policy
+changes based on pre-defined criteria rather than the uncertainties associated with ad
+hoc legislative decisions. Finally, automatic adjustment mechanisms help maintain the
+relevance of laws over time by ensuring they evolve in line with changing social,
+economic, or environmental conditions.
+Despite their advantages, automatic adjustment mechanisms also present several
+challenges. One key difficulty lies in designing mechanisms that can accurately
+anticipate all future scenarios. Policy-makers must ensure that these mechanisms are
+flexible enough to accommodate unforeseen developments without leading to
+unintended policy consequences. Additionally, poorly calibrated adjustments could have
+adverse effects, such as exacerbating economic inequalities or creating inefficiencies in
+resource allocation. Another challenge is the potential reduction in legislative oversight
+and democratic input, as these mechanisms may limit opportunities for public debate
+and scrutiny of ongoing policy adjustments, raising concerns about accountability and
+transparency.
+System-Level Approaches to Regulatory Reform
+Recognizing the inadequacies of addressing legal proliferation by focusing solely on
+individual rules, some scholars propose more comprehensive, system-level strategies
+for regulatory reform.41 This perspective shifts away from conventional approaches that
+41JamesSalzman&J.B. Ruhl,Mozartandthe RedQueen: TheProblemofRegulatoryAccretion
+in the AdministrativeState,91Georgetown Law Journal757-850(2003)
+https://scholarship.law.duke.edu/faculty_scholarship/1525
+25
+
+Draft Version 8 - September 2024
+target specific regulations in isolation and instead emphasizes the importance of
+understanding and managing the broader regulatory environment.
+Holistic strategies, as proposed by scholars like Salzman and Ruhl, advocate for
+regulatory reforms that address the interactions and cumulative impacts of various laws
+and regulations.42 These approaches suggest that meaningful reform must go beyond
+rule-specific solutions and focus on the behavior of the regulatory system as a whole.
+Key elements of system-level approaches include developing comprehensive regulatory
+frameworks that account for the interconnectedness of different laws, conducting
+regular system-wide assessments to evaluate regulatory effectiveness and burdens,
+and establishing mechanisms for coordinating regulatory efforts across multiple
+agencies and levels of government.
+Several potential strategies can be employed to implement these holistic reforms. One
+such strategy is the introduction of regulatory budgets, which place caps on the total
+economic impact of regulations to control the overall regulatory burden. Another
+approach involves cross-cutting regulatory reviews that assess the cumulative effects of
+regulations rather than examining them in isolation. Additionally, adaptive management
+techniques could be employed to allow for continuous adjustment of regulations based
+on their systemic performance, enabling a more responsive and dynamic regulatory
+environment.
+However, implementing these system-level reforms presents several challenges. The
+complexity of designing and enforcing comprehensive reforms that address the full
+scope of regulatory interactions is a significant hurdle. There may also be resistance
+from stakeholders who benefit from the current fragmented regulatory approaches and
+could perceive system-wide changes as threatening to their interests. Furthermore,
+maintaining effective oversight at the system level requires sustained political will and
+adequate resources, which can be difficult to secure over the long term.
+These alternative remedies offer promising avenues for addressing the challenges of
+legal proliferation. Experimental rules provide a data-driven approach to policy
+development, automatic adjustment mechanisms offer a way to maintain the relevance
+of laws over time, and system-level approaches aim to manage the regulatory
+environment as a cohesive whole.
+Each of these approaches has its strengths and limitations, and their effectiveness likely
+depends on the specific context of their application. As the legal system continues to
+evolve, a combination of these strategies, along with sunset provisions and legal
+42Id.
+26
+
+Draft Version 8 - September 2024
+garbage collection, may provide a comprehensive toolkit for managing the growth of law
+and ensuring a more efficient, adaptable, and effective legal framework.
+Historical Precedent for Legal Recycling: Law Reform in the Interwar Period
+War Cleanups
+Wars serve as a catalyst for legal reform by compelling legislators to focus on laws that
+are immediately relevant to wartime and post-war objectives, facilitating the rapid
+removal of outdated, inefficient, or irrelevant legal provisions. This process creates an
+opportunity for comprehensive legal reform, enabling the establishment of a more
+responsive and streamlined legal system that aligns with the realities of the post-conflict
+world. Conflicts disrupt existing legal frameworks and necessitate swift adaptation to
+new conditions, driving a reassessment and restructuring of legal priorities to better
+serve the changing needs of society.
+Firstly, wars often bring about a significant restructuring of national priorities, which
+forces legislators to reassess the relevance and functionality of existing laws. In times of
+conflict, governments must quickly adapt to new social, economic, and political
+conditions, often necessitating the removal or amendment of laws that are not
+conducive to war efforts or post-war reconstruction. Wartime conditions generate a
+unique set of pressures that make it politically feasible to undertake reforms that might
+otherwise face substantial opposition or inertia.43 In particular, laws that contribute to
+bureaucratic inefficiencies or that contradict the new wartime priorities can be swiftly
+repealed or revised, allowing the state to streamline operations to better respond to the
+exigencies of war.
+Secondly, war disrupts normal political processes and can alter the balance of power
+among political actors, providing a rare window of opportunity for clearing legal
+"deadwood" — outdated or counterproductive statutes that have persisted due to
+institutional inertia or vested interests. Wars often grant executives or legislatures
+extraordinary powers to reorganize legal frameworks, an authority that is seldom
+43 Wartime conditions generate a unique set of pressures that make it politically feasible
+to undertake reforms that might otherwise face substantial opposition or inertia Posner,
+Eric A. and Vermeule, Adrian, Tyrannophobia (September 15, 2009). U of Chicago,
+Public Law Working Paper No. 276, Harvard Public Law Working Paper No. 09-44,
+Available at SSRN: https://ssrn.com/abstract=1473858 or
+http://dx.doi.org/10.2139/ssrn.1473858; Eric Posner and Adrian Vermeule (2009).
+27
+
+Draft Version 8 - September 2024
+available in peacetime.44 Such powers enable governments to discard redundant or
+ineffective laws that may have accumulated over time and created regulatory burdens,
+thereby fostering a more rational and coherent legal system that aligns with current
+societal needs.
+Thirdly, wars necessitate the reallocation of economic resources, which can reveal and
+eliminate inefficiencies embedded in pre-existing legal structures. For instance, laws
+that obstruct efficient resource mobilization or production can be rapidly suspended or
+abolished to ensure the national economy supports war efforts. This reallocation often
+uncovers irrational legal provisions that are not aligned with the goal of maximizing
+national productivity or ensuring public safety during wartime. War-induced legal
+adjustments often lead to a more focused and effective legal regime that cuts through
+layers of redundant regulation.45
+Finally, post-war reconstruction offers a unique context in which legal reform can occur
+more freely. After a conflict, there is often a consensus on the need to rebuild society
+and the economy, which can include a critical reassessment of the legal system.
+Legislators may take this opportunity to repeal or replace laws that have become
+irrelevant due to societal changes precipitated by the war. Additionally, the need for
+economic recovery and social stabilization can drive a concerted effort to remove
+inefficient or irrational outcomes from the legal framework, thereby clearing the books of
+legal provisions that no longer serve their intended purpose or that hinder new policy
+objectives.
+Case Study: Post-war Japan
+The post-war restructuring of Japan's legal system serves as a notable case study,
+demonstrating how extensive legal transformations can occur under specific
+circumstances.46
+Following Japan's defeat in World War II, the country experienced significant legal
+changes under the supervision of the Allied occupation forces. The primary objectives of
+these reforms were to demilitarize Japanese society and to promote democratization.
+This process involved a thorough re-evaluation and restructuring of existing legal
+frameworks, where outdated and inefficient laws were either abolished or fundamentally
+revised to align with new social and political realities. The legal reforms targeted various
+44John Yoo (2006)
+45Michael Head (2010)
+46ThomasL.Blakemore,Post-WarDevelopmentsinJapaneseLaw,1947WIS.L.REV.632,637(1947).
+28
+
+Draft Version 8 - September 2024
+aspects of governance, from constitutional changes to modifications in civil and criminal
+law, reflecting a comprehensive effort to reshape the entire legal system in a manner
+that supported post-war democratic governance and economic reconstruction.
+The impetus for this reform was not entirely new. Even after World War I, Japan had
+undertaken some legal revisions. However, these efforts were limited and
+overshadowed by the nation's preoccupation with continental expansion after 1931.
+During this period, legal changes were primarily geared towards facilitating militarization
+and mobilization, neglecting broader social needs. By the end of World War II, many
+areas of Japanese law had become significantly misaligned with social realities.47 The
+legal system was burdened with outdated laws that were no longer relevant to the
+evolving socio-political context. Even without the direct pressure of the Potsdam
+Declaration, significant legal reforms would likely have been necessary to bring the
+Japanese legal system in line with contemporary needs and to remove laws that were
+redundant or obstructive in a new era of governance.
+The Japanese experience after World War II demonstrates how external shocks, such
+as wars, can provide an impetus for clearing outdated legal provisions and creating
+opportunities for comprehensive legal reform. It also underscores the importance of
+aligning legal frameworks with contemporary social, political, and economic realities, a
+lesson that remains pertinent in current efforts to address the complexities of legal
+proliferation and to undertake systematic legal reforms.
+The reform of Japan's legal system following World War II involved a comprehensive
+review, swiftly identifying and removing laws that were outdated or inconsistent with
+newly established democratic principles. This extensive examination of the legal
+framework aimed to ensure that the laws aligned with the emerging political and social
+realities, thereby facilitating a more relevant and functional legal system for the post-war
+period.
+A critical aspect of this reform was its rapid implementation, demonstrating that
+large-scale legal changes are possible when there is strong political will and adequate
+resources. The swift enactment of these reforms showcases the potential efficiency of
+legal transformation processes when driven by clear objectives and decisive action from
+governing authorities.
+The Japanese legal reforms also illustrated a nuanced approach to balancing
+modernization with respect for existing traditions. While the reforms sought to
+modernize the legal system to fit new democratic norms, they also made efforts to
+47Id.
+29
+
+Draft Version 8 - September 2024
+preserve certain elements of Japan's legal heritage. This balance highlights the
+importance of cultural sensitivity in any legal reform effort, ensuring that changes do not
+undermine societal values and traditions.
+External influences, particularly from the Allied powers, played a significant role in
+shaping the direction and content of these legal reforms. The involvement of external
+actors provided critical expertise and perspectives, demonstrating how international
+collaboration and input can be valuable in identifying areas for reform and proposing
+effective solutions in the context of rebuilding legal systems.
+Overall, the Japanese post-war legal reform process provides key lessons for
+contemporary legal reform efforts, emphasizing the importance of aligning legal
+frameworks with current societal needs, the possibility of rapid and comprehensive
+reform under the right conditions, the necessity of balancing modernization with cultural
+respect, and the potential value of external perspectives. While the specific
+circumstances of post-war Japan are unique, the case offers valuable insights into the
+challenges and opportunities of large-scale legal reform and legal garbage collection
+initiatives.
+Web 3 Remedies
+Web2 social media platforms have intensified the public's sense of alienation and
+frustration with the legal system. The challenges associated with social media as an
+alternative to legal solutions are further exacerbated by the underlying architecture of
+Web2 platforms. These platforms, such as X (formerly Twitter), Facebook, and
+Instagram, operate on centralized models that are driven by engagement metrics, which
+can unintentionally prioritize sensationalism and conflict over nuanced discourse. This
+design incentivizes the rapid spread of both information and misinformation, often
+amplifying extreme viewpoints and fostering echo chambers. As a result, these
+platforms can magnify public distrust in legal institutions by presenting distorted or
+unbalanced narratives that lack the scrutiny inherent in judicial processes.
+The centralized nature of web2 social media platforms means that content moderation
+and control are often opaque, inconsistent, or influenced by the platforms' commercial
+interests. Consequently, this centralization may lead to perceptions of bias or
+manipulation, further eroding trust in both legal and digital systems. The problem is
+compounded by the fact that these platforms often lack the necessary tools to verify the
+authenticity of the information being shared, which allows misinformation to proliferate
+unchecked. This widespread misinformation can create a misleading picture of legal
+processes and outcomes, contributing to a cycle of mistrust and misinformation.
+30
+
+Draft Version 8 - September 2024
+Web3 systems, which are based on decentralized, transparent, and
+community-governed architectures, offer a potential solution to these deep-rooted
+problems. Unlike Web2 platforms, Web3 systems aim to eliminate the centralized
+control that exacerbates the spread of misinformation and the creation of echo
+chambers. Instead, they prioritize transparency, decentralization, and user control,
+thereby providing an alternative that is better aligned with democratic values and the
+principles of fairness and openness.
+Web3 technologies can introduce mechanisms for verifiable truth and accountability that
+are not possible on traditional social media platforms. For example, decentralized
+networks could enable the creation of immutable records of statements or claims,
+allowing for a more robust public discourse that is less susceptible to manipulation.
+Moreover, Web3 platforms can employ community governance models where rules and
+content moderation policies are transparent and collectively decided by users, fostering
+a sense of ownership and accountability that is missing in Web2 models.
+Furthermore, Web3 systems can enhance the protection of individual rights, such as
+privacy and freedom of expression, while reducing reliance on centralized entities that
+may censor content based on commercial interests or external pressures. Decentralized
+identity systems could allow users to engage in public discourse without fear of reprisal
+or bias, while smart contracts could enforce content moderation rules automatically and
+fairly, reducing the risk of arbitrary or inconsistent enforcement seen in Web2 platforms.
+Proposed System
+The web3 community as proposed herein operates a forum as an on-chain collection of
+posts, each uniquely identified and possibly citing previous contributions. This forum
+forms a Weighted Directed Acyclic Graph (WDAG), facilitating organized discussion and
+citation among participants.
+Validation Pool (VP) form a crucial mechanism where author stakes are pooled to
+evaluate specific posts within the forum. The outcome of a VP can lead to the minting of
+new REP tokens, reflecting the consensus on a given issue or contribution.
+Work Evidence and Work Smart Contract represent the tangible output of work that
+meets certain criteria. Work Smart Contracts manage the logistics of work contracts,
+staking, and the validation process, ensuring transparency and fairness in task
+assignment and completion.
+Membership in the web3 community is signified by holding REP tokens, which grant
+voting rights and a share in web3 community revenues. The dynamic valuation of REP
+31
+
+Draft Version 8 - September 2024
+tokens through validation pools allows for a flexible and responsive governance model
+that adapts to the collective decisions of the web3 community members.
+On top of the foundational governance structure, the web3 community can implement
+various contracts for specific operational needs, such as work assignments and
+availability management. Given the cost of on-chain operations, a strategy involving
+off-chain activities consolidated into on-chain posts (roll-ups) creates efficiency.
+The integration with Matrix ensures a decentralized repository and communication
+platform, enabling seamless interaction and data exchange among web3 community
+participants.
+Governance Mechanism
+Decentralized Community Governance is central to this decentralized governance
+model, employing a combination of smart contracts, a reputation system (REP), and a
+validation pool mechanism to ensure emerging technology governance aligns with
+expert community consensus.
+Reputation (REP) Tokens are Non-Fungible Tokens (NFTs) represent an individual's
+contribution and standing within the web3 community, allowing them to participate in
+governance decisions. The ERC 721 and ERC 1155 extension enables the association
+of a numeric value with each token, reflecting the individual's reputation.48
+The Forum of the proposed governance system is an on-chain data structure of posts
+forming a weighted directed acyclic graph (WDAG), facilitating the documentation and
+citation of contributions. Validation Pools are consensus operations targeting specific
+forum posts, enabling the minting and distribution of REP based on community
+consensus.
+By leveraging the Decentralized Community Governance within a web3 community, the
+input parameters and learning data for emerging technology systems can be governed
+through expert community consensus. This process involves submitting proposals to the
+Forum and undergoing Validation Pool review, ensuring that only vetted and
+consensus-backed data and parameters are utilized in emerging technology
+development.
+Work Smart Contracts and Availability Smart Contracts operationalize the transactional
+aspects of emerging technology governance. Work Smart contracts define the terms
+under which emerging technology governance tasks are undertaken, while Availability
+Smart Contracts facilitate the assignment of these tasks to reputable community
+members.
+This governance model promotes decentralization by distributing decision-making
+authority across a wide range of experts, rather than centralizing it in the hands of a few.
+48 Gavin Wood, Ethereum: A Secure Decentralised Generalised Transaction Ledger, Ethereum Project
+YellowPaper(2014).
+32
+
+Draft Version 8 - September 2024
+Through the Validation Pool mechanism, expert consensus is required for significant
+decisions, ensuring that governance outcomes reflect the collective expertise and
+ethical considerations of the community.
+Precedent and Citation system
+The application of WDAG to the governance of communities through a precedent and
+citation system offers a robust, scalable, and dynamic framework suitable for managing
+the rapid evolution of technologies. By leveraging the structural advantages of WDAGs,
+such a system can ensure that web3 governance remains effective, relevant, and
+responsive to the ever-changing landscape of technology development and its societal
+impacts. This approach not only facilitates the practical management of tech
+governance but also supports the ethical and legal compliance of technology systems,
+aligning them with societal values and regulatory requirements. This system's
+significance is amplified in the context of emerging technology's exponential growth,
+necessitating governance mechanisms that can adapt and scale accordingly.
+A WDAG is a fundamental construct in the field of graph theory and computer science,
+characterized by its directed edges, absence of cycles, and assignment of weights to
+each edge. This mathematical structure provides a powerful framework for representing
+relationships and processes that have inherent directionality, precedence constraints,
+and varying degrees of importance or capacity among their connections.
+A WDAG consists of vertices (or nodes) connected by directed edges (or arcs), where
+each edge has an associated weight. The directed nature of the edges means that each
+connection between two vertices has a designated direction, indicating the flow from
+one vertex to another. The acyclic characteristic ensures that there are no loops within
+the graph, meaning it is impossible to start at a vertex and follow a sequence of directed
+edges that eventually loops back to the starting vertex.49
+The weights assigned to the edges in a WDAG can represent various quantitative
+attributes such as cost, distance, time, or capacity, depending on the specific
+application. These weights play a crucial role in algorithms that operate on WDAGs,
+influencing the computation of shortest paths, scheduling, and other optimization
+problems.
+WDAGs find extensive applications across various domains including computer science,
+operations research, and engineering. One notable application is in task scheduling,
+where tasks are represented by vertices, and precedence relationships (i.e., the
+requirement that one task must be completed before another can begin) are
+represented by directed edges. The weights on these edges can indicate the time
+49 Bang-Jensen, J., & Gutin, G., "Digraphs: Theory, Algorithms and Applications" (Springer Science &
+BusinessMedia,2008).
+33
+
+Draft Version 8 - September 2024
+required to complete tasks or the transition time between tasks, aiding in the efficient
+scheduling of tasks to minimize overall completion time or resource utilization.50
+In the context of network routing and communication, WDAGs can model network
+topologies where messages or data packets must be transmitted across a network
+without cycles, ensuring efficient data flow. The weights on the edges can represent
+bandwidth, latency, or other network characteristics, influencing routing decisions to
+optimize performance and resource allocation.51
+Additionally, WDAGs are instrumental in project management and planning, particularly
+in the application of the Critical Path Method (CPM) for project scheduling. This method
+leverages WDAGs to model project tasks, their dependencies, and durations, identifying
+the longest path through the graph (the critical path) that determines the minimum
+project duration.52
+The algorithmic treatment of WDAGs involves specialized algorithms for traversing the
+graph, computing shortest paths, and identifying topological orderings—a linear
+ordering of its vertices that respects the direction of the edges, which is particularly
+useful for scheduling and planning applications.53
+Dynamic Governance
+The structure of WDAGs, with their vertices representing legal precedents or
+governance rules and directed edges signifying citations or logical dependencies,
+creates an ideal model for organizing and navigating the multitude of governance
+considerations pertinent to emerging technology. In such a system, the weights on the
+edges could quantify the relevance, authority, or impact of each precedent or citation,
+guiding the decision-making processes in emerging technology governance by
+highlighting the most pertinent and influential governance frameworks or legal
+precedents.
+The dynamic nature of WDAGs is essential for emerging technology governance for
+several reasons, including but not limited to scalability and flexibility, navigating
+complexity, and decision support:
+As technologies evolve, new precedents and governance rules will emerge. WDAGs
+can seamlessly integrate these new elements without disrupting the existing structure,
+ensuring the governance framework remains comprehensive and up-to-date.54
+50Coffman,E.G.,Ed.,"ComputerandJob-ShopSchedulingTheory"(JohnWiley&Sons,1976).
+51 Bertsekas,D.P.,&Gallager,R.,"DataNetworks"(Prentice-Hall,1987).
+52 Kelley, J. E., Jr., & Walker, M. R., "Critical-Path Planning and Scheduling," in: "Proceedings of the
+EasternJointComputerConference,"1959.
+53 Kahn,A.B.,"TopologicalSortingofLargeNetworks,"CommunicationsoftheACM,1962.
+54 Bang-Jensen, J., & Gutin, G., "Digraphs: Theory, Algorithms and Applications" (Springer Science &
+BusinessMedia,2008).
+34
+
+Draft Version 8 - September 2024
+The complexity of emerging technology systems and their potential impact across
+different sectors demands a nuanced approach to governance. WDAGs allow for the
+mapping of intricate relationships between governance rules and their applications,
+enabling stakeholders to navigate this complexity more effectively.55
+By assigning weights to the edges based on factors such as recency, jurisdictional
+relevance, or cited frequency, a WDAG-based system can aid in prioritizing certain
+governance pathways over others, supporting more informed decision-making in
+emerging technology governance.56
+Exponential Evolution of Emerging Technology and Governance Needs
+The exponential evolution of emerging technology underscores the necessity for
+governance frameworks that can not only keep pace with technological advancements
+but also anticipate future governance challenges. WDAGs, with their inherent
+adaptability and capacity for organizing complex information, provide a mechanism for
+such anticipatory governance.57 This adaptability ensures that as emerging technology
+systems learn and evolve, the governance mechanisms guiding their development and
+application can evolve correspondingly. Decentralized emerging technology governance
+utilizing WDAGs also offers a comprehensive framework capable of addressing the
+complexities and rapid evolution of artificial intelligence technologies. This governance
+approach, grounded in the structural benefits of WDAGs, ensures the governance
+mechanisms are scalable, dynamic, and aligned with ethical, legal, and societal
+expectations. By applying WDAGs to emerging technology governance through a
+precedent and citation system, we can create a robust infrastructure that supports the
+ethical development and application of emerging technology, fostering trust and
+compliance within the emerging technology ecosystem.
+Dynamic Real-Time Governance
+The above illustrated key system features and WDAG components contribute a much
+needed innovative approach to emerging technology governance. The proposed system
+leverages the principles of decentralization and real-time data analytics to enhance
+dynamic emerging technology governance. This approach is particularly relevant in the
+context of managing and governing emerging technology systems, where ethical and
+legal standards are constantly evolving due to technological advancements and shifting
+societal values. Societal values are reflected in the core of the proposed system as the
+WDAG allows for dynamic governance where precedents in the system evolve much
+faster and dynamically in comparison with legacy systems.
+55Coffman,E.G.,Ed.,"ComputerandJob-ShopSchedulingTheory"(JohnWiley&Sons,1976).
+56Kahn,A.B.,"TopologicalSortingofLargeNetworks,"CommunicationsoftheACM,1962.
+57 Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a New Institutional Economics Framework
+(2013). Festschrift in Honor of Christian Kirchner,2013,Forthcoming,UofSt.Thomas(Minnesota)Legal
+StudiesResearchPaperNo.13-17, https://ssrn.com/abstract=2267560.
+35
+
+Draft Version 8 - September 2024
+The proposed WDAG system can harness decentralized networks to gather and assess
+community sentiment and ethical considerations in real-time. Unlike traditional
+governance models that rely on periodic reviews and updates, WDAG can tap into a
+continuous stream of data from a wide range of stakeholders. This ensures that the
+ethical frameworks guiding emerging technology development are always in alignment
+with current societal values.
+By analyzing real-time data on community sentiment, of for example experts who are
+tasked with the dynamic ethical supervision and guidance of evolving LLM systems,
+WDAG systems can detect shifts in public opinion regarding what is considered ethical
+or acceptable behavior for emerging technology systems. Such evolving sentiment, in
+turn, can provide feedback effects and guidance for emerging technology governance
+metrics in diverse LLM applications. By staying attuned to these shifts, WDAG ensures
+that emerging technology governance remains relevant and responsive.
+The proposed WDAG system can automate the process of integrating evolving ethical
+guidelines and legal standards into the emerging technology development lifecycle. This
+is achieved by maintaining an up-to-date repository of guidelines and standards that are
+directly applied during the design, development, and deployment stages of emerging
+technology systems. This real-time updating mechanism ensures that emerging
+technology technologies do not outpace ethical and legal considerations.
+The proposed WDAG framework facilitates the continuous upgrading of emerging
+technology governance metrics. As ethical standards evolve and new legal
+requirements emerge, WDAG can adjust governance metrics accordingly. This ensures
+that emerging technology systems are assessed against the most current benchmarks,
+maintaining their ethical integrity and legal compliance.
+Through a precedent and citation system, WDAG can automate the enforcement of
+ethical guidelines and legal standards. By codifying these guidelines into enforceable
+rules within the emerging technology development and deployment process, WDAG
+minimizes the risk of ethical breaches or legal violations. This automated enforcement
+mechanism is crucial for maintaining trust in emerging technology systems, especially
+as they become more autonomous and integrated into daily life.
+By continuously monitoring and adjusting to evolving ethical and legal standards,
+WDAG provides a preventive approach to emerging technology governance. This
+contrasts with reactive models that address issues only after they have arisen. Such a
+proactive stance is essential in preventing harm and ensuring that emerging technology
+systems contribute positively to society.
+Key Components of WDAG-based Emerging Technology Governance
+In the context of emerging technology governance, vertices (nodes) represent distinct
+governance elements—such as legal precedents, regulatory requirements, ethical
+guidelines, or governance rules. Directed edges (arcs) illustrate the relationships or
+36
+
+Draft Version 8 - September 2024
+citations between these governance elements, establishing a directional flow that
+signifies logical or legal precedence and dependencies among them.
+Assigning weights to the edges of the graph quantifies aspects such as the relevance,
+authority, impact, or applicability of each governance element in specific contexts.
+These weights are crucial for prioritizing certain pathways in the decision-making
+process, ensuring that the most pertinent and influential guidelines are considered in
+governance decisions.
+The acyclic nature of WDAGs ensures there are no loops within the governance
+framework, facilitating a clear, unambiguous progression from foundational principles to
+specific governance outcomes. This characteristic is vital for maintaining the integrity
+and coherence of the emerging technology governance process.
+Benefits of WDAG-Based Legal System Upgrades
+The integration of WDAGs into the legal system offers an algorithmic solution for
+dynamically updating and removing outdated laws. By embedding new legal
+precedents, regulations, or ethical considerations into the existing WDAG structure, this
+system ensures that the legal framework remains current and responsive to societal
+advancements and expectations without necessitating complete overhauls. This
+seamless integration facilitates the timely removal of obsolete provisions, akin to
+effective legal garbage collection, thereby maintaining the relevance and efficiency of
+the legal system.
+The intricate relationships between various legal elements can be effectively mapped
+and navigated using WDAGs, allowing stakeholders to gain a comprehensive
+understanding of the legal landscape. This capability supports more nuanced and
+informed legal strategies by highlighting the connections and dependencies between
+legal provisions across different sectors and technologies. Consequently, this approach
+aids in the systematic removal of outdated laws, ensuring that the legal framework
+evolves in a coherent and structured manner.
+By assigning weights to the edges in the WDAG framework, the system can highlight
+the most relevant, authoritative, or impactful legal elements for particular scenarios. This
+feature supports stakeholders in making informed decisions by prioritizing pathways that
+align with current needs, legal requirements, and ethical standards. Such a system of
+prioritization ensures that as new legal provisions are introduced, they are appropriately
+weighted against existing laws, facilitating the timely retirement of outdated regulations.
+Integrating the legal system into the WDAG framework involves treating each legal rule
+or precedent as a "post" within the precedent credit system. By documenting key
+37
+
+Draft Version 8 - September 2024
+attributes of legal rules, including design principles, ethical considerations, and
+compliance with existing governance rules, stakeholders can dynamically assess,
+update, and navigate the complex landscape of the legal system. This process ensures
+that the legal framework is aligned with societal values while concurrently facilitating the
+removal of outdated legal provisions.
+The decentralized approach inherent in WDAGs fosters a transparent, accountable, and
+adaptable legal system. This model not only supports the continuous evolution of legal
+frameworks but also mitigates the negative consequences of an ever-growing body of
+law. By enabling regular updates and the systematic removal of irrelevant provisions,
+WDAG-based governance promotes a more efficient, equitable, and accessible legal
+system.
+Dynamic Evolution of Law
+The proposed system of web3 community governance via WDAGs, which leverages
+blockchain technology and federated communications platforms, can address the
+negative externalities of the lack of legal garbage collection. This innovative model
+hinges on the interplay between various components, including a Layer 1 blockchain, a
+communication forum platform, and specialized smart contracts. The integration of
+these components creates a dynamic, transparent, and participatory environment for
+managing and executing tasks, effectively handling the complexities of legal systems by
+incorporating regular reviews and updates within a decentralized framework.58
+A web3 community operates on a blockchain and is characterized by distributed
+governance mechanisms, enabling stakeholders to collectively make decisions without
+centralized authority. By allowing for the seamless integration of new precedents and
+governance rules, WDAGs ensure the legal framework remains comprehensive and
+up-to-date. This adaptability is crucial for addressing the regulatory accumulation and
+legal uncertainties caused by a constantly growing body of law.59
+The validation pool mechanism within the web3 community further enhances the
+process by pooling author stakes to evaluate specific posts within the forum. The
+outcome of a validation pool can lead to the minting of new reputation (REP) tokens,
+reflecting consensus on given issues or contributions. This mechanism promotes the
+58Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the Internet of
+Things. IEEE Access, 4, 2292-2303.
+59Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.
+Buterin, V. (2014). A next-generation smart contract and decentralized application platform.
+Ethereum White Paper.
+38
+
+Draft Version 8 - September 2024
+continuous updating and removal of outdated legal provisions, akin to a legal garbage
+collection process, ensuring that only relevant and effective regulations remain in
+place.60
+The proposed model addresses the negative externalities of a lack of legal garbage
+collection by creating a dynamic and responsive legal system. By leveraging the
+decentralized network to gather and assess community sentiment and ethical
+considerations in real-time, the system ensures that the legal frameworks guiding
+emerging technology development align with current societal values. This continuous
+feedback loop prevents the stagnation and irrelevance of legal provisions, ensuring that
+the legal system evolves alongside technological and societal advancements.61
+The implementation of smart contracts within this framework automates the process of
+integrating evolving ethical guidelines and legal standards into the emerging technology
+development lifecycle. This real-time updating mechanism ensures that emerging
+technology technologies do not outpace ethical and legal considerations, maintaining
+the integrity and relevance of the legal system. By codifying guidelines into enforceable
+rules, the system minimizes the risk of ethical breaches or legal violations, fostering
+trust and compliance within the emerging technology ecosystem.62
+The proposed system of decentralized emerging technology governance utilizing web3
+communitys and WDAGs provides a robust framework for legal garbage collection. It
+addresses the negative consequences of a constantly growing body of law by ensuring
+continuous, community-driven innovation and oversight.63 This dynamic and scalable
+framework supports the rapid evolution of emerging technology, ensuring that
+governance mechanisms remain effective, relevant, and aligned with ethical, legal, and
+societal expectations.
+60Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the Internet of
+Things. IEEE Access, 4, 2292-2303; Buterin, V. (2014). A next-generation smart contract and
+decentralized application platform. Ethereum White Paper.
+61Keohane, N., Revesz, R. L., & Stavins, R. N. (1998). The choice of regulatory instruments in
+environmental policy. Harvard Environmental Law Review, 22, 313-367; Revesz, R. L. (2001).
+Federalism and Environmental Regulation: A Public Choice Analysis. Harvard Law Review,
+115(2), 553-641.
+62Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the Internet of
+Things. IEEE Access, 4, 2292-2303; Buterin, V. (2014). A next-generation smart contract and
+decentralized application platform. Ethereum White Paper.
+63Sunstein, C. R. (1990). After the Rights Revolution: Reconceiving the Regulatory State.
+Harvard University Press; Olson, M. (1982). The Rise and Decline of Nations: Economic
+Growth, Stagflation, and Social Rigidities. Yale University Press; Keohane, N., Revesz, R. L., &
+Stavins, R. N. (1998). The choice of regulatory instruments in environmental policy. Harvard
+Environmental Law Review, 22, 313-367.
+39
+
+Draft Version 8 - September 2024
+Overcoming Sunset Provisions
+The proposed WDAG system provides a more dynamic, efficient, and equitable
+framework for legal governance, addressing the shortcomings of sunset provisions
+while promoting adaptability, predictability, and consensus in the legal system. This
+approach aligns with contemporary needs for responsive and democratic legal
+structures, ensuring that laws evolve in tandem with societal values and preferences.
+Critics argue that sunset provisions, while intended to enhance accountability and
+oversight, can result in inefficiencies, political manipulation, and instability. The WDAG
+system directly addresses these concerns through its unique features.
+Addressing Legislative Inefficiency and Self-Correction: Sunset provisions can lead to
+legislative inefficiency by requiring repeated reviews and reauthorizations, which may or
+may not be undertaken thoroughly or at all. The WDAG system mitigates this
+inefficiency by being self-enforcing and self-correcting. In the WDAG system, when a
+new legal precedent or rule gains favor due to its effectiveness, it automatically receives
+a higher weight in the system based on user preferences and citations. This dynamic
+adjustment process eliminates the need for periodic external reviews, as the system
+continuously evolves and adapts to the most relevant and effective legal norms.
+Reducing Political Manipulation and Promoting Consensus: Sunset provisions may be
+manipulated for short-term political gains, leading to laws that reflect transient political
+priorities rather than long-term policy goals. The WDAG system avoids this issue by
+incorporating a direct democratic mechanism that builds consensus organically within
+the system itself. Since the weight of a given precedent or rule is determined by user
+preferences and community consensus, the process is less susceptible to political
+manipulation and more reflective of the collective will of the community.
+Avoiding Rent-Seeking and Interest Group Influence: Traditional sunset provisions may
+increase rent-seeking behavior, as interest groups attempt to influence the renewal or
+termination of laws to serve their own interests. The WDAG system prevents such
+behavior by integrating all stakeholders into the decision-making process. There are no
+external costs or lobbying pressures, as any advocacy or lobbying occurs transparently
+within the system's forums, where all user actions and preferences are accounted for.
+Ensuring Stability and Predictability: Sunset provisions can create uncertainty and
+unpredictability, making it difficult for businesses and individuals to plan long-term
+investments or strategies. The WDAG system addresses this concern by creating
+stability through its mathematical and democratic processes. By aligning legal outcomes
+with predictable user preferences and community decisions, WDAG ensures a stable
+regulatory environment that supports economic growth and market evolution.
+40
+
+Draft Version 8 - September 2024
+Maintaining Institutional Relevance Without Unintended Consequences: Sunset
+provisions may lead to the premature dissolution of agencies or institutions that are
+controversial but still necessary, causing regulatory gaps and undermining stability. In
+contrast, the WDAG system allows for the retention of all precedents and rules on the
+blockchain, ensuring that no legal principle is permanently discarded. Instead, less
+relevant rules gradually lose weight, allowing them to be revisited if circumstances
+change, thus maintaining institutional relevance while avoiding hasty or ill-considered
+decisions.
+Avoiding Hasty Decision-Making and Ensuring Comprehensive Review: Sunset
+provisions can force lawmakers to make rushed decisions due to impending deadlines,
+often resulting in the renewal of ineffective laws. The WDAG system eliminates this
+pressure by continuously adjusting to community and user preferences, allowing for a
+more measured and thoughtful evolution of legal norms. Since all rules remain
+accessible on the blockchain, there is no need for hasty reinstatement of outdated laws;
+instead, community preferences naturally shape the application and relevance of each
+rule over time.
+Improving Garbage Removal
+The WDAG system offers a more effective and adaptive approach to legal reform than
+traditional legal garbage removal mechanisms. While legal garbage removal provisions
+are designed to periodically reassess and potentially repeal outdated or irrelevant laws
+to maintain an efficient legal framework, they often face significant challenges. These
+challenges include political resistance, high resource demands, unintended
+consequences from removing interconnected laws, and complexities in preserving legal
+history.
+The WDAG system addresses these limitations by enabling an automatic, dynamic, and
+continuous evolution of legal precedents. It leverages real-time data analysis and user
+preferences to adjust legal norms organically, reducing the need for external legislative
+intervention and overcoming political barriers. This self-correcting and consensus-based
+approach ensures that legal frameworks remain relevant and efficient, effectively
+responding to contemporary societal needs while maintaining historical integrity. By
+integrating these innovative mechanisms, the WDAG system streamlines the legal
+reform process, making it more responsive, cost-effective, and adaptable to change.
+41
+
+Draft Version 8 - September 2024
+Overcoming Political Resistance Through Dynamic Consensus Building: Traditional
+legal garbage removal efforts face significant political resistance, particularly when laws
+hold symbolic value or are perceived as integral to the regulatory framework. Repealing
+such laws is often contentious and can provoke opposition from specific constituencies.
+The WDAG system mitigates this issue by dynamically reflecting evolving support or
+opposition to legal precedents through a citation mechanism. If a legal rule loses
+substantial backing, its relevance diminishes organically within the WDAG framework,
+without the need for external legislative intervention. This built-in consensus mechanism
+ensures that laws adapt to changing societal needs while avoiding the political
+contention associated with traditional garbage removal processes.
+Streamlining the Legal Process and Reducing Resource Intensity: Legal garbage
+removal provisions often require significant time, expertise, and financial resources to
+comprehensively review and assess laws. This resource-intensive process can strain
+government budgets and divert attention from other legislative priorities. In contrast, the
+WDAG system eliminates these costs by leveraging an automated, data-driven process
+where updates to legal precedents occur based on user citations and preferences. This
+continuous feedback loop ensures that outdated laws are phased out organically,
+enhancing efficiency and reducing the administrative burden on legislative bodies.
+Mitigating Unintended Consequences Through Real-Time Adjustments: One of the main
+challenges of legal garbage removal is the risk of creating legal gaps or undermining
+regulatory frameworks if laws are repealed without understanding their
+interdependencies. The WDAG system addresses this concern by employing a
+mathematical citation process that maintains interconnectedness within a dynamic
+framework. As legal precedents evolve based on user citations, the system preserves
+coherence and prevents unintended consequences by continuously adjusting to reflect
+the most relevant and widely supported norms. Moreover, artificial intelligence tools can
+support this dynamic process by providing real-time updates and explaining potential
+changes to users, thus avoiding gaps or disruptions in the legal framework.
+Preserving Legal History While Ensuring Relevance: Balancing the removal of obsolete
+laws with the preservation of legal history is another challenge for traditional legal
+garbage removal efforts. Historical statutes are crucial for understanding the evolution
+of legal principles and societal values. The WDAG system retains all legal precedents
+within its blockchain-based framework, preserving the history of legal developments in a
+transparent and immutable format. This approach allows continuous access to historical
+data while dynamically adjusting the relevance of legal precedents based on current
+societal needs, ensuring that the legal framework remains both historically informed and
+practically applicable.
+42
+
+Draft Version 8 - September 2024
+Enhancing Stability and Predictability in Legal Reforms: Legal garbage removal
+provisions can create instability by introducing uncertainty regarding whether laws will
+be renewed or repealed. This uncertainty can hinder long-term planning for businesses
+and individuals. The WDAG system overcomes this issue by ensuring that changes in
+legal precedents are predictable and transparent, based on user preferences and
+community consensus. By aligning legal outcomes with these democratic processes,
+WDAG fosters a stable and predictable regulatory environment, promoting economic
+growth and market development while maintaining flexibility and adaptability in the legal
+system.
+Avoiding the Need for Extensive Analysis and Consultation: Determining which laws are
+genuinely obsolete is a complex endeavor that can complicate legal garbage removal
+efforts. Laws are often interconnected, and repealing one statute may inadvertently
+affect others. The WDAG system inherently accounts for all interdependencies within its
+framework, allowing for real-time updates and dynamic adjustments without requiring
+extensive external analysis or consultation. emerging technology systems can further
+assist by providing real-time feedback and identifying potential dependencies,
+enhancing transparency and minimizing complexity in the reform process.
+Creating a Self-Sustaining, Consensus-Based Legal System: Unlike traditional legal
+garbage removal provisions, which rely heavily on political will and external oversight,
+the WDAG system is self-sustaining. It creates a built-in consensus mechanism where
+changes in legal precedents are driven by the aggregated preferences of users and
+stakeholders. This process inherently fosters transparency and accountability,
+eliminating the need for external validation and promoting a more responsive and
+adaptive legal framework.
+Conclusion
+The integration of the WDAG system into web3 community governance offers a
+comprehensive and innovative approach to legal reform, addressing many of the
+challenges inherent in traditional legal garbage removal mechanisms. Unlike sunset
+provisions or legal garbage collection, which rely on periodic reviews, external
+interventions, and often politically contentious decision-making processes, the WDAG
+system provides a self-enforcing, dynamic, and continuous framework for the evolution
+of legal norms. This decentralized governance model leverages real-time data analysis,
+community input, and automatic adjustments to maintain a legal framework that remains
+relevant, efficient, and responsive to contemporary needs.
+43
+
+Draft Version 8 - September 2024
+By enabling the organic adaptation of legal precedents through a consensus-based
+process, the WDAG system mitigates the inefficiencies and uncertainties often
+associated with traditional mechanisms. It circumvents the political resistance and
+resource intensity that typically hinder legal garbage removal efforts, while
+simultaneously reducing the risk of unintended consequences by maintaining the
+interconnectedness of legal rules. Furthermore, the system preserves legal history
+through its blockchain-based structure, ensuring transparency, accountability, and
+accessibility to all legal developments.
+The WDAG framework aligns with the evolving landscape of law and governance in a
+decentralized, technology-driven society. By continuously reflecting community
+preferences and user input, it creates a more predictable and stable regulatory
+environment, supports economic growth, and fosters democratic engagement. This
+model not only addresses the limitations of traditional legal reform mechanisms but also
+offers a scalable and adaptable solution for managing the exponential growth of legal
+rules and regulations.
+Ultimately, the WDAG system represents a significant advancement in the field of legal
+governance, demonstrating how emerging technologies can be harnessed to create
+more dynamic, equitable, and sustainable legal frameworks. As legal systems continue
+to evolve in response to technological, societal, and economic changes, the WDAG
+model provides a robust foundation for ongoing legal innovation and reform, ensuring
+that laws remain aligned with the values and needs of society.
+44
+

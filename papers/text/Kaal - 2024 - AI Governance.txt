@@ -1,0 +1,2350 @@
+Version 9.0 - May 2024
+AI Governance
+Wulf Kaal, Ph.D.1
+Abstract
+In the rapidly evolving landscape of artificial intelligence (AI), governance frameworks are
+increasingly pivotal. As AI technologies become more complex and integral to various
+sectors, the mechanisms to oversee and regulate these systems must evolve
+correspondingly. Traditional governance approaches often rely on static, predefined rules
+that may not adapt quickly enough to the pace of AI development or the nuanced
+challenges it presents. These conventional methods, largely reactive or fixed to ex-post
+solutions, are proving insufficient for the dynamic nature of AI technologies.
+The proposed AI governance system integrates decentralized web3 community
+governance and federated communication platforms, forming a sophisticated framework
+for dynamic, anticipatory, and participatory oversight of AI development. Key components
+include a federated forum platform structured as a Weighted Directed Acyclic Graph
+(WDAG), and specialized smart contracts for managing tasks and validation. This setup
+not only facilitates real-time consensus-building and decision-making via web3
+community governance but also supports a scalable, transparent communication
+network. Validation Pools and Reputation tokens within this framework play crucial roles
+in maintaining an updated and responsive governance system, reflecting the collective
+decisions and ethical standards of the community.
+This system's effectiveness is demonstrated through applications like medical diagnosis
+AI and autonomous driving AI, where each development stage is captured as vertices in
+the WDAG, documenting key compliance and operational metrics. Directed edges in this
+graph link these stages to relevant legal and ethical standards, with assigned weights
+emphasizing areas critical for compliance and safety. The dynamic nature of WDAG
+allows for continuous updates and integration of new regulations or ethical guidelines,
+ensuring AI governance remains current with technological and societal shifts. This model
+thus ensures AI systems are not only technologically advanced but also ethically aligned
+and legally compliant, effectively balancing innovation with responsible governance.
+Key Words: Artificial Intelligence, AI Models, Governance, Decentralized Autonomous
+Organization, WDAG, Hybrid Models, Data Governance, Token Models,
+Cryptocurrencies, Feedback Effects, Emerging Technology, Blockchain, Distributed
+Ledger Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1 Professor of Law. The author is grateful for excellent research assistance by Jack Palmer and research
+librarian Adam Bent.
+1
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Table of Contents
+Introduction .......................................................................................................................................................... 3
+Origin of AI ........................................................................................................................................................... 5
+AI Models ......................................................................................................................................................... 9
+Federated Model ....................................................................................................................................... 11
+Centralized Model ..................................................................................................................................... 13
+AI Governance ................................................................................................................................................... 15
+Shortcomings in Existing AI Governance .................................................................................................... 17
+Proposed Solutions ....................................................................................................................................... 19
+Decentralizing AI Governance........................................................................................................................... 23
+Blockchain & DLT Technology ................................................................................................................. 25
+Recentralization......................................................................................................................................... 27
+Challenges ................................................................................................................................................... 28
+Adapting Decentralization of AI Governance to AI Models ............................................................................ 32
+Proposed System .............................................................................................................................................. 35
+Foundations ................................................................................................................................................... 35
+Governance Mechanism ............................................................................................................................... 37
+Precedent and Citation system .................................................................................................................... 37
+Dynamic Governance ................................................................................................................................... 39
+Exponential Evolution of AI and Governance Needs ............................................................................. 40
+Dynamic Real-Time Governance ............................................................................................................. 40
+Key Components of WDAG-based AI Governance............................................................................ 41
+Benefits of WDAG-based AI Governance ........................................................................................... 42
+Uploading AI Models as Posts in the Precedent Credit System........................................................ 42
+AI Model Integration ...................................................................................................................................... 42
+Example: WDAG Governance for Medical Diagnosis AI........................................................................ 44
+Example: WDAG Governance for AI Model in Autonomous Vehicles .................................................. 44
+Avoiding WEB2 Inadvertent AI Learning Mistakes through WDAG AI Learning ...................................... 46
+Model Comparison ........................................................................................................................................ 47
+Model 1: Decentralized Community Governance Approach .................................................................. 48
+Model 2: Decentralized Data Validation Layer Approach ...................................................................... 49
+Hybrid Model ............................................................................................................................................. 49
+Model 3: Ex-Ante Community AI Governance ........................................................................................ 51
+Conclusion ......................................................................................................................................................... 54
+2
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Introduction
+In the rapidly evolving landscape of artificial intelligence (AI), governance frameworks
+are increasingly pivotal. As AI technologies become more complex and integral to
+various sectors, the mechanisms to oversee and regulate these systems must evolve
+correspondingly. Traditional governance approaches often rely on static, predefined
+rules that may not adapt quickly enough to the pace of AI development or the nuanced
+challenges it presents. These conventional methods, largely reactive or fixed to ex-post
+solutions, are proving insufficient for the dynamic nature of AI technologies.
+Web3, characterized by its decentralized architecture and reliance on blockchain
+technologies, introduces a fundamentally different approach to AI governance. This
+approach is not just a shift in technology but a paradigm shift in how governance can be
+implemented—through decentralized autonomous governance systems that utilize
+dynamic feedback mechanisms.2 Such systems are crucial for addressing the dual
+needs of governing evolving AI models ex-ante and managing existing solutions ex-post.
+No legacy systems exist at the time of publication that could provide such dynamic
+governance toolsets.
+The traditional ex-post governance methods, where regulations are applied after AI
+systems are developed and deployed, or were pretrained LLMs models were trained on
+existing proprietary datasets, often fall short in preemptively addressing risks and biases.
+This approach can lead to gaps in oversight during critical early stages of AI
+development, where foundational attributes of AI systems are established. In contrast,
+an ex-ante governance approach, advocated within Web3 frameworks as presented in
+this paper, involves setting community coordinated regulatory measures and oversight
+mechanisms during the development phase of AI technologies. This proactive stance
+allows for real-time adjustments and refinements based on ongoing feedback from AI
+operations and interactions within the ecosystem.
+Web3 systems, with their inherent capabilities for real-time data processing,
+decentralized decision-making, and transparent operations, provide a robust
+infrastructure for implementing AI governance systems ex-ante. These systems facilitate
+a dynamic feedback loop where AI behaviors and outcomes are continually monitored
+and influenced by decentralized consensus, rather than being solely dictated by
+centralized authorities or delayed regulatory responses. Technology has historically
+outpaced regulation.3 The exponential trends in AI development will continue to
+exacerbate the mismatch between regulation and AI development. The author has
+2 Festschrift zu Ehren von Christian Kirchner: Recht im ökonomischen Kontext XVI, 1387 (Wulf A. Kaal,
+Andreas Schwartze & Matthias Schmidt eds., 2014).
+3 Mark Fenwick, Wulf A. Kaal & Erik P.M. Vermeulen, Regulation Tomorrow: What Happens When
+Technology Is Faster Than the Law?, 6 Am. U. Bus. L. Rev. 561 (2017), available at
+https://ssrn.com/abstract=3204119.
+3
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+advocated ex-ante dynamic regulatory methods for over a decade.4 The proposed model
+in this paper ensures that AI governance is more adaptive, responsive, and aligned with
+ethical standards and societal needs ex-ante and during AI model development, not ex-
+post as demanded by traditional regulatory methods.
+Moreover, the use of dynamic feedback mechanisms enables a more nuanced and
+effective management of AI technologies. By integrating feedback directly into the
+governance processes, stakeholders can iteratively improve and adjust AI models in
+response to new information, operational experiences, and changing environments. This
+ongoing process helps in mitigating risks and biases more effectively than static, ex-post
+regulatory frameworks.
+The shift towards Web3 and the utilization of Web3 tools with dynamic feedback effects
+represent a necessary advancement in AI governance frameworks. This new model not
+only addresses the inadequacies of previous systems but also enhances the capability
+to govern AI technologies in a manner that is as advanced and dynamic as the
+technologies themselves. This paper aims to explore these advancements in detail,
+illustrating how Web3 can transform AI governance from a reactive to a proactive
+discipline that is better equipped to handle the complexities of modern AI systems.
+The conceptual framework for AI governance within Web3 revolves around creating a
+system where artificial intelligence entities can operate autonomously yet responsibly
+within a decentralized digital ecosystem. In Web3, AI entities can perform transactions
+without human intervention. This is made possible through the use of cryptocurrencies
+and digital tokens. AI systems can have their wallets to send and receive tokens as
+payment for services, such as data processing or cognitive tasks. This capability is
+critical for fostering a self-sustaining ecosystem of AI services. Yet, the web3 technology
+enables human inputs to co-govern with AI in real-time. With the massive amounts of
+data that AI systems generate and process, ensuring the integrity and authenticity of this
+data is crucial.
+Data attestation mechanisms in Web3 offer a cryptographic means to verify data
+integrity, crucial for AI systems reliant on data inputs for decision-making and pattern
+recognition. This capability not only enables AI tracking to monitor uploaded content and
+address potential intellectual property concerns but also provides a governance
+framework to mitigate liability issues stemming from AI misuse. By ensuring
+accountability at the individual level, rather than burdening the entire community, this
+proposed model for AI governance within Web3 offers a promising avenue to address
+ethical dilemmas associated with AI applications.
+Web3-based self-sovereign identity (SSI) allows individuals—and potentially AI
+systems—to have control over their digital identities without relying on a central authority.
+In the context of AI governance, SSI ensures that AI entities have verifiable credentials
+4 Mark Fenwick, Wulf A. Kaal, Toshiyuki Kono & Erik P.M. Vermeulen, Dynamic Regulation for Innovation,
+in 6 Persp. in L., Bus. & Innov. 1 (2016), University of St. Thomas (Minnesota) Legal Studies Research
+Paper No. 16-22, 30 pages, posted Aug. 31, 2016.
+4
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+and can engage in interactions with confidence in the identity and reputation of other
+participants. Web3 can offer a set of standards and protocols that define how AI systems
+interact, share data, and settle transactions. These protocols act as the "rules of the
+road," setting the groundwork for interoperability and collaborative efforts among diverse
+AI systems.
+In a decentralized autonomous organization (DAO) governed by Web3 principles, AI
+systems can actively participate in the governance process, contributing to decision-
+making and protocol changes that impact the network. This approach ensures a fair
+distribution of power, preventing any single entity from exerting undue influence and
+fostering an environment where decisions benefit all participants. Despite concerns
+about AI involvement in governance, the potential benefits are significant, especially
+when considering specialized AI systems that offer expertise or ensure the integrity of
+organizational principles through formal logic representation. By leveraging AI
+capabilities, DAOs can enhance the purity of decision-making processes, minimizing
+biases and agenda-driven actions, thus advancing the overall effectiveness and
+transparency of governance within Web3 ecosystems.
+By integrating these features, Web3 aims to augment human intelligence rather than
+replace it. The goal is to create an environment where AI can process vast amounts of
+data, learn, and interact in ways that amplify our cognitive capabilities, leading to better
+decision-making and innovation. AI governance in Web3 is about creating a framework
+where AI systems are empowered to act autonomously but are also accountable to the
+larger network. This involves enabling secure transactions, ensuring data integrity,
+managing identities, and coordinating actions through shared protocols. By doing so,
+Web3 can foster a governance model that is adaptable, transparent, and responsive to
+the fast-paced changes characteristic of modern AI technologies.
+Origin of AI
+AI represents a fusion of computational techniques engineered to execute tasks
+traditionally requiring human intelligence, such as learning, reasoning, problem-solving,
+perception, and language understanding. The foundational architecture of AI systems
+incorporates a variety of methodologies that enable these machines to analyze
+environments and undertake actions aimed at achieving specific objectives, thus closely
+mirroring but not yet matching human cognitive functions.5
+Central to AI's capability is machine learning (ML), a domain wherein algorithms analyze
+data, learn from it, and subsequently apply the acquired knowledge to make informed
+decisions. This process involves constructing mathematical models that facilitate
+predictions or decisions autonomously, without direct programming for specific tasks. A
+5 Philip Boucher, Artificial Intelligence: How Does It Work, Why Does It Matter, and What Can We Do
+About It?, STOA | Panel for the Future of Science and Technology, European Parliamentary Research
+Service (June 2020), available at
+http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_STU(2020)641547_EN.
+5
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+more specialized branch of ML, known as deep learning, utilizes layered neural networks
+that emulate human decision-making processes. These networks, capable of processing
+vast datasets, learn to recognize complex patterns and are crucial for tasks like image
+and speech recognition, as well as natural language processing.
+Neural networks, essential components of deep learning, are organized into multiple
+layers: the input layer, one or more hidden layers, and an output layer. Each layer is
+composed of units or neurons that process incoming data from the previous layer before
+passing it to the next, allowing the system to learn increasingly complex features as the
+data progresses through the network.
+Other AI Methodologies include rule-based modeling, data mining, fuzzy logic, case-
+based reasoning, and text and visual analytics.6 Rule-Based Modeling uses if-then rules
+for knowledge representation, enabling the system to make decisions based on
+predefined logical rules. Data Mining involves extracting patterns from large datasets,
+which is pivotal for discovering hidden patterns and unknown correlations. Fuzzy Logic
+allows for reasoning that is approximate rather than fixed and exact, handling the concept
+of partial truth — where values may range between completely true and completely false.
+Case-Based Reasoning solves new problems based on the solutions of similar past
+problems. Text and Visual Analytics involves extracting useful information from text and
+visual data to facilitate decision-making and insight generation.
+The synthesis of these diverse AI methodologies typically involves combinatorial search
+and formal mathematical models, which are integral in developing systems capable of
+automated reasoning. This functionality is critical for AI's ability to process information
+and derive logical conclusions from intricate datasets.7
+However, a significant challenge within AI, particularly evident in deep learning models,
+is their "black box" nature. The internal mechanisms by which these models make
+decisions are not always transparent, complicating efforts to understand and trace how
+inputs are transformed into outputs. This opacity can obstruct the debugging process,
+obscure bias detection and mitigation, and hinder comprehension of AI decision-making.8
+For example, Nvidia’s self-driving cars learn from human behavior but might confuse the
+moon for a traffic light, and the DeepPatient project accurately predicted disease onset
+from medical records without providing explanations for its predictions, posing challenges
+for medical professionals trying to trust and interpret these AI systems.9 This opacity not
+6 Iqbal H. Sarker, "AI-Based Modeling: Techniques, Applications and Research Issues Towards
+Automation, Intelligent and Smart Systems," in SN Computer Science, vol. 3, no. 158, 2022, pp. 1-20,
+https://doi.org/10.1007/s42979-022-01043-x
+7 Stuart Russell, The History and Future of AI, 37 Oxford Rev. Econ. Pol'y 509 (Autumn 2021),
+https://doi.org/10.1093/oxrep/grab013.
+8 Melissa Heikkilä, Nobody Knows How AI Works, MIT Tech. Rev. (Mar. 5, 2023),
+https://www.technologyreview.com/2024/03/05/1089449/nobody-knows-how-ai-works/.
+9 Will Knight, The Dark Secret at the Heart of AI, MIT Tech. Rev. (Apr. 11, 2017),
+https://www.technologyreview.com/2017/04/11/5113/the-dark-secret-at-the-heart-of-ai/?gad_source=1.
+6
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+only makes it difficult to correct biases and errors but also potentially erodes trust, which
+is critical as AI becomes more embedded in everyday life. Each application benefits from
+AI’s ability to swiftly process large datasets, learn from inputs, and enhance decision
+accuracy over time. Nevertheless, the deployment of AI systems brings forth critical
+ethical and practical considerations, such as issues of trust, privacy, and control. These
+aspects require ongoing evaluation and management to ensure that AI technologies are
+utilized responsibly and continue to align with human values and societal norms.10
+AI systems continuously evolve by harnessing vast datasets and utilizing sophisticated
+learning algorithms to enhance their decision-making capabilities over time. This
+evolution is significantly supported by rapid advancements in hardware, which provide
+the necessary computational power to process and analyze complex datasets efficiently.
+Moreover, the development of innovative architectures for structuring AI systems is
+essential, as these frameworks facilitate the effective interconnection and scaling of data
+layers, model complexity, and application breadth. Such structural innovations are crucial
+in optimizing the flow and processing of information, enabling AI systems to handle more
+complex tasks, adapt to new environments, and integrate seamlessly across diverse
+applications. This dynamic interplay of data accumulation, algorithmic learning, hardware
+advancements, and system architecture refinements drives the continuous improvement
+and expanding capabilities of AI technologies.11
+The primary hardware advancement critical to AI advancement has been increased
+computing power and chip performance. As AI algorithms become more complex and
+data-intensive, the demand for computational resources continues to escalate. Web3
+systems offer a solution by enabling decentralized sharing of AI computing power.
+Through blockchain technology and distributed networks, unused computing resources
+can be harnessed and allocated efficiently, allowing AI tasks to be processed faster and
+at a lower cost. By democratizing access to computational resources, Web3 systems
+facilitate collaborative efforts in AI research and development, accelerating innovation
+and driving forward the capabilities of AI.12
+The improvement in chip performance, particularly through GPUs and specialized AI
+processors, has been crucial in providing the high-speed, efficient computing required to
+train these models on large datasets. This combination of advanced AI models and robust
+computing infrastructure allows AI systems to process vast amounts of information
+10 Will Knight, The Dark Secret at the Heart of AI, MIT Tech. Rev. (Apr. 11, 2017),
+https://www.technologyreview.com/2017/04/11/5113/the-dark-secret-at-the-heart-of-ai/?gad_source=1.
+11 Ganesh D. Govindwar & Sheetal S. Dhande, A Review on Federated Learning Approach in Artificial
+Intelligence, Paper presented at the 2022 6th Int'l Conf. on Computing, Communication, Control and
+Automation (ICCUBEA), IEEE, Aug. 26-27, 2022,
+https://doi.org/10.1109/ICCUBEA54992.2022.10010798.
+12 CITE CHECK ALL: Ben Dickson, The Democratization of Artificial Intelligence (Year); Pedro Domingos, The
+Hardware of AI (Year); Ian Goodfellow, Yoshua Bengio, and Aaron Courville, Deep Learning (Year); OpenMined,
+Decentralized AI: The Key to Democratizing AI (Year); Elisa Bertino et al., Blockchain for AI: Review and Open
+Research Challenges (Year).
+7
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+rapidly, making strides toward achieving and even surpassing human-level thought in
+specific tasks. These technological enhancements not only increase the speed and
+efficiency of AI systems but also expand their applicability across different fields, pushing
+the boundaries of what AI can achieve and transforming potential theoretical concepts
+into practical applications.13
+The dominance of big tech companies in AI development is significantly shaped by their
+comprehensive resources, which include access to vast datasets, state-of-the-art
+hardware, and extensive human capital. These advantages enable them to develop more
+advanced and sophisticated AI systems, providing big tech with a substantial competitive
+edge in the market. As a result, the solutions offered by these companies are not only
+more prevalent in the marketplace but also superior in technological capabilities. This
+disparity in resource availability and resultant AI proficiency creates a pronounced digital
+divide, where smaller companies and traditional sectors that lack similar access to large-
+scale data and cutting-edge technology struggle to keep pace. Consequently, this divide
+exacerbates the gap in AI capabilities, potentially leading to a concentration of power and
+influence in the hands of a few large tech entities, while others lag significantly behind in
+leveraging AI for innovation and improvement.14
+Regulatory frameworks and ethical guidelines have become pivotal in shaping the
+evolution of AI, steering development towards a human-centric approach. These
+guidelines emphasize the creation of trustworthy AI systems that uphold privacy, ensure
+transparency, and strive for explainability. By prioritizing these principles, regulators aim
+to mitigate the risks associated with AI technologies, such as data misuse, biased
+decision-making, and opaque systems whose workings are not understandable to users
+or their developers. The push towards explainability is particularly crucial as it involves
+designing AI systems whose actions can be easily understood by humans, thus fostering
+greater trust and acceptance. This regulatory focus not only ensures that AI development
+aligns with ethical norms and societal values but also helps in maintaining public
+confidence in how these advanced technologies are integrated into daily life, making AI
+systems more accessible and safer for widespread use.15
+The evolution of AI is increasingly guided by institutional regulations and ethical
+guidelines that advocate for a human-centric approach and the development of
+trustworthy AI systems that prioritize privacy, data governance, and transparency.
+However, strict data privacy regulations such as the General Data Protection Regulation
+(GDPR) present challenges to this growth trajectory. GDPR imposes stringent conditions
+13 Jie Wen, Zhixia Zhang, Yang Lan, Zhihua Cui, Jianghui Cai, & Wensheng Zhang, A Survey on
+Federated Learning: Challenges and Applications, 14 Int'l J. Mach. Learn. & Cybernetics 513, 513-535
+(2023), https://doi.org/10.1007/s13042-022-01647-y
+14 Yannick Bammens & Paul Hünermund, Using Federated Machine Learning to Overcome the AI Scale
+Disadvantage, 65 MIT Sloan Mgmt. Rev. 54 (Fall 2023)
+15 José Luis, Manuel Martínez-González, Miguel L. Bote-Lorenzo, Juan I. Asensio-Pérez, & Eduardo
+Gómez-Sánchez, FED-XAI: Federated Learning of Explainable Artificial Intelligence Models, 3277 CEUR
+Workshop Proc. 1, 1-10 (2022), https://ceur-ws.org/Vol-3277/paper8.pdf.
+8
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+on data sharing, which can limit the amount and variety of data AI systems use, potentially
+reducing their performance and exacerbating biases due to the restricted dataset.
+Furthermore, while the move towards more explainable, private, and transparent AI is
+commendable, these regulations can paradoxically consolidate power within large tech
+companies. These entities possess the vast data resources and sophisticated
+infrastructures needed to comply with such regulations and still develop effective AI
+solutions, unlike smaller companies or individual developers who might be sidelined by
+these legal constraints, thus altering the competitive landscape in favor of more
+established players.16
+The future of AI's evolution is intricately linked to the widespread adoption of smartphones
+and the move towards decentralized data processing and model training. With
+smartphone usage projected to rise from over 5 billion users in 2020 to an estimated 7.5
+billion by 2025, these devices are poised to become an even more significant foundation
+for AI development. The ubiquity of smartphones, coupled with their advanced computing
+capabilities and constant connectivity, offers a vast resource for deploying AI applications
+directly into the hands of users globally. This scale of interconnectivity and integration into
+daily life makes smartphones a crucial platform for AI. Furthermore, the evolution of AI
+technologies is increasingly embracing approaches like embedded and federated
+machine learning, which prioritize decentralization. These methods shift away from
+traditional cloud-centric models, opting instead to process data and train models directly
+on local devices. This approach not only leverages the computational power of individual
+smartphones but also enhances privacy and data security by keeping sensitive
+information on the device, thus shaping a future where AI applications are both powerful
+and privacy-preserving.17
+AI Models
+AI models have undergone a significant evolution from their early days of relying on
+symbolic reasoning and fuzzy logic, which depended heavily on predefined rule systems,
+to the modern paradigms that utilize machine learning and data mining. This shift marks
+a transition from rule-based to data-driven approaches, where current AI models excel at
+generating content and making decisions based on patterns and insights extracted from
+large, complex datasets. Unlike the earlier systems that operated within the strict confines
+of manually programmed rules and logical frameworks, these newer models adapt and
+learn from the data itself, leading to more dynamic, flexible, and scalable AI solutions.
+16 Ye Yuan et al., DeceFL: A Principled Fully Decentralized Federated Learning Framework, Natl Sci
+Open, vol. 2, 20220043, 2023, accessible at https://doi.org/10.1360/nso/20220043
+17 Somdip Dey, Are Embedded and Federated Machine Learning the Future of the AI Industry?, Forbes
+(July 3, 2023), https://www.forbes.com/sites/forbestechcouncil/2023/07/03/are-embedded-and-federated-
+machine-learning-the-future-of-the-ai-industry/?sh=64bacd24515f.
+9
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+This ability to derive emergent systems from data allows for more robust and nuanced
+responses to a variety of tasks and challenges in real-time environments.18
+AI systems are designed to interpret data, learn from this data, and utilize the acquired
+knowledge to accomplish specific objectives via flexible adaptation. These systems are
+typically classified into three types based on their underlying technologies and
+capabilities. First, analytical AI, which includes methods like fuzzy logic and symbolic
+reasoning, relies on predefined rules to process data. Second, human-inspired AI utilizes
+neural networks to mimic human brain functions, enabling it to learn from complex data
+sets and improve over time. Lastly, humanized AI extends capabilities to understand and
+replicate human emotions and social contexts, aspiring towards more comprehensive
+cognitive abilities. AI systems are also categorized by their evolutionary stages, which
+reflect their scope and sophistication: Artificial Narrow Intelligence (ANI) which excels in
+specific tasks, Artificial General Intelligence (AGI) that equals human cognitive abilities
+across a broad range of activities, and Artificial Superintelligence (ASI) which surpasses
+human intelligence and capability. Each stage represents an expansion in the scope,
+complexity, and autonomy of AI applications, moving from task-specific implementations
+to potentially self-aware systems that can perform across multiple domains with emotional
+and social intelligence.19
+AI can be divided into four categories based on its potential functionalities, each
+representing different levels of complexity and capability. Currently, two of these
+categories are operational: reactive machine AI, which responds to specific stimuli without
+past references, and limited memory AI, which uses data from the recent past to make
+decisions. The other two categories, Theory of Mind AI and Self-Aware AI, remain
+theoretical and represent future aspirations in AI development. Theory of Mind AI aims to
+comprehend and simulate human emotional and cognitive processes, while Self-Aware
+AI seeks an even deeper understanding, potentially achieving consciousness.
+Developments like Emotion AI, which attempts to read and respond to human emotions,
+are steps towards these advanced, hypothetical stages of AI functionality.20
+When a model incorporates machine learning, it typically utilizes one of three main types:
+supervised, unsupervised, or reinforcement learning, with semi-supervised learning
+acting as a hybrid between supervised and unsupervised. Supervised learning involves
+explicitly training the model by providing it with input and expected output data, which
+helps the system to learn and predict future outputs based on new inputs. Unsupervised
+learning, on the other hand, does not involve direct instruction; instead, the model
+18 Philip Boucher, Artificial Intelligence: How Does It Work, Why Does It Matter, and What Can We Do
+About It?, STOA | Panel for the Future of Science and Technology, European Parliamentary Research
+Service (June 2020), available at
+http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_STU(2020)641547_EN.
+19 Michael Haenlein & Andreas Kaplan, A Brief History of Artificial Intelligence: On the Past, Present, and
+Future of Artificial Intelligence, 61 Cal. Mgmt. Rev. 5 (2019), https://doi.org/10.1177/0008125619864925.
+20 IBM Cloud Education, Understanding the Different Types of Artificial Intelligence (Oct. 12, 2023), IBM,
+available at https://www.ibm.com/blog/understanding-the-different-types-of-artificial-intelligence/
+10
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+analyzes unlabeled data to discover patterns and correlations on its own. Reinforcement
+learning is based on a behaviorist approach where the model learns to achieve a specific
+goal in a complex environment through trial and error, continuously adjusting its actions
+based on feedback to optimize the path towards the goal. This framework allows models
+to adapt and improve autonomously within their operational parameters and
+environments.21
+Federated Model
+In federated AI learning (FL), a comprehensive global model is created by aggregating
+individually trained local models, minimizing the need for direct data transfer. Unlike
+traditional centralized models, FL trains AI algorithms across multiple decentralized
+devices using local data samples, without requiring the data to be sent to a central server.
+This process involves each participating device (client) training an AI model on its own
+data locally, which ensures that sensitive information does not leave the device. These
+local models then communicate their parameters to a central server, which aggregates
+these parameters to update the global model. This method of parameter interaction,
+rather than direct data sharing, not only enhances privacy by keeping the data on the
+device but also facilitates a more efficient use of bandwidth. The updated global model is
+then sent back to each device, completing a cycle of learning that progressively improves
+the model's accuracy while maintaining data security.22 This makes FL an effective
+solution for scenarios where privacy is paramount and data transmission costs are a
+concern.23
+Federated Machine Learning (FedML) is a privacy-preserving collaborative AI approach
+that utilizes decentralized data, enabling entities with smaller datasets to leverage AI
+effectively. By distributing the computational tasks of machine learning across numerous
+devices that hold their data locally, FedML allows multiple participants to contribute to the
+creation of a robust model without needing to share their data. This method is particularly
+advantageous for smaller entities or those with privacy concerns, as it bypasses the
+necessity of large, centralized datasets that traditional machine learning models require.
+Furthermore, FedML's structure not only maintains data privacy but also facilitates the
+21 Sara Brown, Machine Learning, Explained, MIT Sloan (Apr. 21, 2021), available at
+https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
+22 José Luis, Manuel Martínez-González, Miguel L. Bote-Lorenzo, Juan I. Asensio-Pérez, & Eduardo
+Gómez-Sánchez, FED-XAI: Federated Learning of Explainable Artificial Intelligence Models, 3277 CEUR
+Workshop Proc. 1, 1-10 (2022), https://ceur-ws.org/Vol-3277/paper8.pdf.
+23 Ganesh D. Govindwar & Sheetal S. Dhande, A Review on Federated Learning Approach in Artificial
+Intelligence, Paper presented at the 2022 6th Int'l Conf. on Computing, Communication, Control and
+Automation (ICCUBEA), IEEE, Aug. 26-27, 2022,
+https://doi.org/10.1109/ICCUBEA54992.2022.10010798.; Jie Wen, Zhixia Zhang, Yang Lan, Zhihua Cui,
+Jianghui Cai, & Wensheng Zhang, A Survey on Federated Learning: Challenges and Applications, 14 Int'l
+J. Mach. Learn. & Cybernetics 513, 513-535 (2023), https://doi.org/10.1007/s13042-022-01647-y
+11
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+pooling of diverse data sources, enhancing the model's overall learning and predictive
+power. This approach aligns well with small-data strategies, offering a practical solution
+for harnessing AI capabilities in scenarios where data availability is limited.24
+In a FedML setup, the unique feature is that the machine learning model is trained across
+multiple decentralized servers, each using its distinct dataset. This framework enables
+smaller companies to participate in training an AI model collaboratively while retaining
+exclusive control over their data. Such a decentralized approach not only ensures the
+privacy and confidentiality of personal data but also complements other methods suited
+for small datasets, like transfer learning and self-supervised learning. By integrating these
+techniques, FedML facilitates the creation of community-trained large language models
+(LLMs), allowing even entities with limited data resources to contribute to and benefit from
+advanced AI technologies without compromising data security.25
+Despite its advantages, practical implementations of FL encounter several bottlenecks
+that can affect model performance and efficiency, including significant privacy and
+security risks. These challenges arise because, while FL keeps data decentralized, it still
+involves the exchange of model parameters, which could potentially expose sensitive
+information if intercepted or improperly handled. Additionally, FL lacks theoretical
+guarantees that ensure reliability and robustness, making it less predictable for practical
+applications. Moreover, the rigid communication topology in FL, which typically requires
+constant coordination between numerous nodes, can lead to inefficiencies and does not
+easily adapt to dynamic network conditions or node failures. This rigidity can hinder the
+scalability and responsiveness of FL systems, complicating their deployment in
+environments with fluctuating data or network structures.26
+FL can experience reduced accuracy due to the diverse and decentralized nature of its
+data sources, but this can be mitigated through various strategies. The decentralized
+setup in FL means that data variability across different nodes might lead to
+inconsistencies in training, which in turn can affect the overall FL model accuracy. To
+counter this, techniques such as data augmentation can enhance the volume and variety
+of data available for training, thereby improving the model's ability to generalize across
+different scenarios. Model compression techniques can optimize the processing
+capabilities of local devices, ensuring that even with limited hardware resources, the
+performance of the AI system is not compromised. Additionally, incentivizing participation
+by offering rewards or benefits for sharing higher-quality data or for more active
+involvement in the training process can significantly enhance the quantity and quality of
+data collected, thus boosting the overall effectiveness and accuracy of FL models. These
+24 Yannick Bammens & Paul Hünermund, Using Federated Machine Learning to Overcome the AI Scale
+Disadvantage, 65 MIT Sloan Mgmt. Rev. 54 (Fall 2023)
+25 Yannick Bammens & Paul Hünermund, Using Federated Machine Learning to Overcome the AI Scale
+Disadvantage, 65 MIT Sloan Mgmt. Rev. 54 (Fall 2023)
+26 Ganesh D. Govindwar & Sheetal S. Dhande, A Review on Federated Learning Approach in Artificial
+Intelligence, Paper presented at the 2022 6th Int'l Conf. on Computing, Communication, Control and
+Automation (ICCUBEA), IEEE, Aug. 26-27, 2022, https://doi.org/10.1109/ICCUBEA54992.2022.10010798
+12
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+strategies collectively aim to harness the full potential of decentralized learning while
+addressing the inherent challenges of data diversity.27
+Centralized Model
+In contrast to FL, centralized AI models necessitate the collection of data at a single,
+central location for processing, which is a common approach among major AI platforms.
+Traditional centralized machine learning approaches encounter significant obstacles
+when data are distributed across various locations and cannot be centralized due to
+privacy concerns or logistical challenges. The centralized model is employed by well-
+known entities such as Google, OpenAI, and Anthropic, where vast amounts of data are
+aggregated from various sources and then processed in a centralized server or data
+center. This approach allows for powerful computation and the application of complex
+algorithms across large datasets, potentially leading to more robust and sophisticated AI
+systems. However, it also raises concerns regarding privacy and data security, as the
+central accumulation of data increases the risk of data breaches and misuse. Centralized
+models, while efficient in terms of computational power and algorithmic sophistication,
+thus involve trade-offs that must be carefully managed, especially in terms of data
+governance and security protocols.28
+Traditional centralized models necessitate transferring data to a central location for
+processing, whereas decentralized models enhance privacy but demand complex
+coordination to ensure consistent performance. Centralized systems, by pooling data
+from various sources into a single repository, can leverage powerful computational
+resources and advanced algorithms to optimize AI performance. However, this
+centralization can pose significant privacy risks and create a single point of failure. On the
+other hand, decentralized models, such as those used in FL, keep data localized on users'
+devices, significantly boosting data security and privacy. Yet, these models face
+challenges in synchronizing and coordinating between diverse and geographically
+dispersed devices to maintain uniform AI effectiveness. This coordination often requires
+sophisticated communication protocols and algorithms to manage and harmonize the
+distributed learning process, ensuring that performance does not vary widely across the
+network.29
+27 Somdip Dey, Are Embedded and Federated Machine Learning the Future of the AI Industry?, Forbes
+(July 3, 2023), https://www.forbes.com/sites/forbestechcouncil/2023/07/03/are-embedded-and-federated-
+machine-learning-the-future-of-the-ai-industry/?sh=64bacd24515f.
+28 Jie Wen, Zhixia Zhang, Yang Lan, Zhihua Cui, Jianghui Cai, & Wensheng Zhang, A Survey on
+Federated Learning: Challenges and Applications, 14 Int'l J. Mach. Learn. & Cybernetics 513, 513-535
+(2023), https://doi.org/10.1007/s13042-022-01647-y; Ganesh D. Govindwar & Sheetal S. Dhande, A
+Review on Federated Learning Approach in Artificial Intelligence, Paper presented at the 2022 6th Int'l
+Conf. on Computing, Communication, Control and Automation (ICCUBEA), IEEE, Aug. 26-27, 2022,
+https://doi.org/10.1109/ICCUBEA54992.2022.10010798
+29 Philip Boucher, Artificial Intelligence: How Does It Work, Why Does It Matter, and What Can We Do
+About It?, STOA | Panel for the Future of Science and Technology, European Parliamentary Research
+Service (June 2020), available at
+http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_STU(2020)641547_EN.
+13
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+To address these issues, novel methods like FL allow for the collaborative training of
+machine learning models without requiring the direct sharing of data. As discussed earlier,
+FL addresses these issues by decentralizing the learning process; algorithms are sent to
+local datasets where they are trained independently. The local models then send their
+learned parameters or updates back to a central server that aggregates these
+contributions into a global model. This method effectively sidesteps the need to
+compromise data privacy or tackle the logistical difficulties of data aggregation, making it
+ideal for scenarios where data sensitivity or distribution is a concern.30
+In contrast to both centralized and FL models, embedded machine learning stands out by
+enabling devices to learn directly on their hardware, optimizing performance and
+enhancing privacy. This approach integrates machine learning algorithms directly into
+device firmware, allowing them to process data and learn from it locally without relying on
+cloud connectivity. By processing data on the device itself, embedded machine learning
+significantly reduces the need for constant data transmission to the cloud, which
+decreases latency and conserves bandwidth. Additionally, this method enhances user
+privacy by keeping data physically secured on the device. Despite these advantages,
+embedded machine learning faces challenges related to the finite computing resources
+available on the devices, which can constrain the complexity and capability of the AI
+models that can be implemented effectively.31
+Embedded devices often face constraints due to limited resources, making it difficult to
+train complex models directly on the devices. To address these challenges, two primary
+strategies are commonly employed. First, developers might opt for simpler, less resource-
+intensive models that can operate effectively within the hardware limitations of embedded
+systems. These models require fewer computational resources, allowing them to run
+smoothly on devices with restricted processing power and memory. Second, transfer
+learning can be utilized to enhance the capabilities of embedded machine learning
+systems. This technique involves pre-training a model on a more powerful system with
+abundant data and then transferring the learned features to the embedded device, which
+only needs to fine-tune the model based on its specific application. This approach
+significantly reduces the computational burden on the embedded device while still
+leveraging advanced machine learning capabilities.32
+30 José Luis, Manuel Martínez-González, Miguel L. Bote-Lorenzo, Juan I. Asensio-Pérez, & Eduardo
+Gómez-Sánchez, FED-XAI: Federated Learning of Explainable Artificial Intelligence Models, 3277 CEUR
+Workshop Proc. 1, 1-10 (2022), https://ceur-ws.org/Vol-3277/paper8.pdf.
+31 Somdip Dey, Are Embedded and Federated Machine Learning the Future of the AI Industry?, Forbes
+(July 3, 2023), https://www.forbes.com/sites/forbestechcouncil/2023/07/03/are-embedded-and-federated-
+machine-learning-the-future-of-the-ai-industry/?sh=64bacd24515f.
+32 Somdip Dey, Are Embedded and Federated Machine Learning the Future of the AI Industry?, Forbes
+(July 3, 2023), https://www.forbes.com/sites/forbestechcouncil/2023/07/03/are-embedded-and-federated-
+machine-learning-the-future-of-the-ai-industry/?sh=64bacd24515f.
+14
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+AI Governance
+Current efforts to regulate AI applications have become increasingly evident across
+various jurisdictions in the United States. In 2023, legislative initiatives aimed at regulating
+AI applications were observed in at least twenty-five states, as well as Puerto Rico and
+the District of Columbia. These proposed bills encompass a wide range of uses and
+concerns, addressing both government and private sector applications of AI. They include
+stipulations for impact assessments to evaluate the potential effects of AI systems,
+notification requirements to ensure transparency, guidelines for responsible use to
+maintain ethical standards, specific regulations for AI in healthcare to safeguard patient
+interests, and mandates for studies to continually assess and update AI regulations.
+These legislative actions reflect a growing recognition of the need to manage the complex
+impacts of AI technologies on society.33
+To effectively implement AI governance, a multifaceted approach involving various tools
+and solutions is essential to address key issues. This approach should include promoting
+ethical frameworks, conducting rigorous research into the implications of AI, and
+developing measures for interpretability and explainability. Establishing norms, ethics,
+and values frameworks provides a foundation for guiding AI development and usage in a
+manner consistent with societal values. Additionally, researching the effects and
+implications of AI use is crucial for understanding its impact and identifying potential risks
+and benefits. These insights then inform the creation of technical solutions and legislative
+measures, which are necessary to address and mitigate the challenges posed by AI
+technology. Such comprehensive governance strategies ensure that AI systems are
+developed and deployed in ways that are beneficial, ethical, and transparent, thereby
+maximizing their positive impact while minimizing potential harms.34
+AI governance fundamentally centers on ensuring accountability within AI systems,
+highlighting the obligation to comply with established guidelines and regulations
+throughout the AI lifecycle. Accountability in AI is multifaceted and can be evaluated
+through several key dimensions: the specific context in which AI is applied, which helps
+define its purpose and scope; the various stages of its lifecycle, including design,
+development, and deployment; the identification of all parties involved in these stages;
+and the stakeholders affected by AI’s operations. Additionally, the standards used to
+judge AI—whether legal, ethical, or technical—play a crucial role. The mechanisms
+through which accountability is enforced, such as audits or compliance checks, are critical
+in ensuring that AI behaves as intended. Lastly, the consequences of applying the
+accountability framework determine the effectiveness of governance measures,
+influencing future policies and the development of AI technologies. This comprehensive
+approach to AI governance ensures that AI systems are not only effective and efficient
+33 Artificial Intelligence 2023 Legislation, Nat'l Conf. of State Legislatures (last updated Jan. 12, 2024),
+https://www.ncsl.org/technology-and-communication/artificial-intelligence-2023-legislation.
+34 James Butcher & Irakli Beridze, What is the State of Artificial Intelligence Governance Globally?, 164
+RUSI J. 88, 88-96 (2019), https://doi.org/10.1080/03071847.2019.1694260.
+15
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+but also operate within the bounds of societal norms and regulations, maintaining public
+trust and safeguarding against potential misuses.35
+The EU AI Act36 exemplifies a risk-based legislative framework that categorizes AI
+applications according to the level of risk they pose, from "Unacceptable Risk" to
+"Transparency requirements." This structure allows for tailored regulatory responses
+where the obligations for AI providers and users vary based on the identified risk level. AI
+systems that pose an "Unacceptable Risk" and are deemed a threat to people's safety or
+rights will be prohibited, although certain exceptions exist for law enforcement purposes.
+On the other hand, generative AI systems, while not classified as high-risk, are required
+to meet specific transparency obligations and comply with EU copyright laws. This
+approach aims to balance the benefits of AI innovation against potential harms, ensuring
+that AI technologies are used safely and ethically within the EU.37
+AI regulation currently lacks global uniformity, with various regions adopting distinct
+strategies reflecting their unique priorities and values. The European Union adopts a
+precautionary principle, implementing bans on certain AI uses perceived as threats to
+rights or safety, emphasizing a controlled and safety-first approach. In contrast, the United
+States favors a more laissez-faire attitude, focusing on establishing guiding principles
+rather than stringent laws, thereby prioritizing innovation and the development of AI
+technologies without heavy governmental interference. Meanwhile, China presents a dual
+approach that aims to stimulate technological innovation while maintaining tight
+governmental control over AI applications, ensuring that advancements align with national
+interests and regulatory standards.
+The divergence in regulatory philosophies on AI development and management reflects
+differing cultural, political, and economic priorities globally, despite the imperative for a
+unified approach to such transformative technology. The varying priorities of nations have
+led to distinct regulatory frameworks, shaped by cultural values, political ideologies, and
+economic interests. However, achieving a consensus on AI regulation is crucial to
+address ethical, societal, and technological challenges effectively. Without global
+cooperation and alignment, disparities in AI governance may hinder innovation,
+exacerbate inequalities, and impede the realization of AI's full potential for the benefit of
+humanity.38
+35 Claudio Novelli, Mariarosaria Taddeo & Luciano Floridi, Accountability in Artificial Intelligence: What It Is
+and How It Works, AI & Soc'y (2023), https://doi.org/10.1007/s00146-023-01635-y
+36 European Commission, Regulatory Framework for AI, https://digital-
+strategy.ec.europa.eu/en/policies/regulatory-framework-ai (last updated Mar. 6, 2024).
+37 European Parliament. (2023, June 15). EU AI Act: first regulation on Artificial Intelligence.
+News European Parliament. https://www.europarl.europa.eu/news/en/press-
+room/20230619IPR88602/eu-ai-act-first-regulation-on-artificial-intelligence.
+38 Matthew Hutson, Rules to Keep AI in Check: Nations Carve Different Paths for Tech
+Regulation, Nature, no. 620, at 260-263 (2023), https://doi.org/10.1038/d41586-023-02491-y
+16
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Shortcomings in Existing AI Governance
+AI governance does encounter a critical challenge in mitigating biases within AI systems,
+where biases can inadvertently arise through algorithms incorporating discriminatory
+practices due to data used in training. These biases generated manifest in various forms,
+such as skewed considerations for maternity leave or inadequate recognition of foreign
+qualifications, which can perpetuate inequality. A specific example of this can be seen
+with incidents like “Tay, the racist chatbot,”39 which reflected and amplified social
+prejudices due to flawed training data. As such, these issues demonstrate a profound
+misalignment between AI operations and societal values, ethics, and norms.40
+The unpredictable nature and potential biases of AI models call for a cautious and
+research-based governance approach. As AI technologies evolve, establishing a
+governance framework for prioritizing transparency and realistic expectations becomes
+critical. Such a framework should focus on clear communication about what AI can and
+cannot do, correcting the often overly optimistic or misleading portrayals presented by
+tech industry marketing. Additionally, it should aim to anchor public discourse and policy-
+making in a realistic understanding of AI's capabilities and limitations, thereby ensuring
+that the development and deployment of AI technologies are aligned with ethical
+standards and societal needs. This approach will help mitigate risks and guide the
+responsible integration of AI into various sectors.41
+Legal and ethical challenges are heightened when AI is deployed in critical decision-
+making roles that significantly impact human lives, particularly when the reasoning behind
+AI's decisions is opaque. AI algorithms are increasingly used to make determinative
+decisions about parole eligibility, employment, and medical strategies—areas where the
+consequences for individuals are profound.42 The reliance on purely quantitative data in
+these decisions raises substantial ethical concerns about the sidelining of human
+empathy and qualitative judgment. Furthermore, the growing ubiquity of Generative AI
+systems in such roles exacerbates these issues. These systems, while enhancing
+operational efficiency, obscure the decision-making process further, making it difficult to
+discern how conclusions are reached. This opacity not only challenges the principles of
+fairness and accountability but also risks diminishing the human elements essential in
+39 Philip Boucher, Artificial Intelligence: How Does It Work, Why Does It Matter, and What Can
+We Do About It?, STOA | Panel for the Future of Science and Technology, European
+Parliamentary Research Service (June 2020), available at
+http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_STU(2020)64154
+7_EN.
+40 Philip Boucher, Artificial Intelligence: How Does It Work, Why Does It Matter, and What Can
+We Do About It?, STOA | Panel for the Future of Science and Technology, European
+Parliamentary Research Service (June 2020), available at
+http://www.europarl.europa.eu/thinktank/en/document.html?reference=EPRS_STU(2020)64154
+7_EN.
+41 Melissa Heikkilä, Nobody Knows How AI Works, MIT Tech. Rev. (Mar. 5, 2023),
+https://www.technologyreview.com/2024/03/05/1089449/nobody-knows-how-ai-works/.
+42 Will Knight, The Dark Secret at the Heart of AI, MIT Tech. Rev. (Apr. 11, 2017),
+https://www.technologyreview.com/2017/04/11/5113/the-dark-secret-at-the-heart-of-ai/?gad_source=1.
+17
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+sensitive contexts, thus intensifying the ethical dilemmas associated with AI
+governance.43
+The ethical landscapes and privacy concerns surrounding AI underscore the critical need
+for robust guidelines to prevent misuse and ensure that AI technologies serve the greater
+good while safeguarding individual privacy rights. As AI becomes increasingly integrated
+into diverse sectors—from healthcare to finance—it becomes imperative to enforce
+regulatory compliance tailored to each sector's specific needs and risks. This regulatory
+framework must address the dual challenge of harnessing AI's potential for societal
+benefits while effectively managing the risks associated with data privacy and ethical
+dilemmas. Establishing these guidelines involves a collaborative effort among
+technologists, legal experts, policymakers, and the public to create a balanced approach
+that promotes innovation while protecting fundamental human rights.44
+Privacy concerns in AI governance are heightening worries about how personal data may
+be abused or manipulated. As AI technologies evolve, they rely heavily on vast amounts
+of data, transforming personal information from a resource that individuals could control
+and use at their discretion into a fundamental operational tool for AI systems. This shift
+not only increases the potential for misuse of personal data but also complicates
+individuals' ability to understand and manage how their information is utilized.
+Consequently, the depth and breadth of data required for AI operations raise significant
+concerns about privacy, as these systems can potentially exploit personal data in ways
+that are difficult to predict and often beyond the direct control of the individuals whose
+data is being used.45
+The debate around AGI amplifies existing concerns regarding AI's misuse, particularly
+focusing on the profound existential risks and long-term social impacts. The advent of
+AGI could radically transform job markets through widespread automation, potentially
+rendering many career fields redundant. This scenario indicates that no sector may be
+safe from disruption. Such a significant shift highlights the critical necessity for balanced
+regulations that encompass not only the transparency and safety of AI models but also
+tackle their extensive economic and existential effects. Crafting these regulations is a
+delicate task; it is imperative to strike a balance that encourages technological innovation
+while ensuring that the deployment of AI does not negatively impact societal structures or
+economic stability, thereby safeguarding against disruptive consequences across all
+levels of employment and industry sectors.46
+43 Will Knight, The Dark Secret at the Heart of AI, MIT Tech. Rev. (Apr. 11, 2017),
+https://www.technologyreview.com/2017/04/11/5113/the-dark-secret-at-the-heart-of-ai/?gad_source=1.
+44 What is Artificial Intelligence?, IBM (Mar. 4, 2024), https://www.ibm.com/topics/artificial-intelligence.
+45 François Candelon, Rodolphe Charme di Carlo, Midas De Bondt & Theodoros Evgeniou, AI Regulation
+Is Coming: How to Prepare for the Inevitable, Harvard Bus. Rev., Sept.-Oct. 2021,
+https://hbr.org/2021/09/ai-regulation-is-coming.
+46 Bill Whyman, AI Regulation is Coming: What is the Likely Outcome?, Ctr. for Strategic & Int'l Studies
+(Oct. 10, 2023), https://www.csis.org/blogs/strategic-technologies-blog/ai-regulation-coming-what-likely-
+outcome
+18
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+The notable cases involving Apple and Amazon have intensified scrutiny over biased
+outcomes produced by AI systems. In specific incidents, Apple's credit card algorithms
+and Amazon's resume scanning technology were accused of exhibiting bias, which led to
+widespread criticism and brought to light the potential discriminatory practices embedded
+within AI applications. These instances exemplify how even well-intentioned AI systems,
+developed by leading technology companies, can inadvertently perpetuate inequalities.
+The fallout from these cases highlights the critical need for rigorous testing, transparency
+in AI decision-making processes, and mechanisms for addressing any biases that AI
+systems may harbor. It also highlights the importance of continuous monitoring and
+adaptation of AI systems to prevent discriminatory outcomes and ensure fairness across
+all user interactions.47
+Proposed Solutions
+Addressing the shortcomings of AI governance involves implementing multi-faceted
+strategies to enhance transparency, decentralization, fairness, and accountability in AI
+systems. Key examples include establishing rigorous regulatory frameworks that adapt
+to the rapid evolution of AI technologies, such as those addressing the risks associated
+with AGI. These regulations should carefully balance innovation with potential socio-
+economic impacts, ensuring that technological advances do not exacerbate existing
+inequalities or disrupt societal structures. Furthermore, cases like Apple’s, Google’s, and
+Amazon’s biased AI outcomes48 highlight the necessity for continuous monitoring and
+rigorous bias mitigation strategies. These include thorough testing and revision of AI
+algorithms to prevent discriminatory practices and incorporating diverse data sets to
+reduce bias. Additionally, promoting a deeper understanding of AI processes through
+transparency and enhancing public and regulatory oversight can help align AI
+development with ethical and societal norms. Together, these measures can strengthen
+AI governance, making it more robust and responsive to the challenges posed by
+advanced technologies.
+Risk management and bias mitigation, integral to AI systems, are crucial for ensuring
+fairness and economic feasibility, requiring that AI algorithms be adapted across diverse
+markets to address operational complexities. This approach involves the strategic
+integration of human judgment to identify and correct unconscious biases that AI systems
+may perpetuate. By incorporating human oversight, organizations can refine AI algorithms
+to better reflect the nuances of different cultural, social, and economic contexts they
+operate within. This not only enhances the reliability and fairness of AI applications but
+also ensures their decisions are economically viable and ethically sound, adapting
+47 Bill Whyman, AI Regulation is Coming: What is the Likely Outcome?, Ctr. for Strategic & Int'l Studies
+(Oct. 10, 2023), https://www.csis.org/blogs/strategic-technologies-blog/ai-regulation-coming-what-likely-
+outcome
+48 François Candelon, Rodolphe Charme di Carlo, Midas De Bondt & Theodoros Evgeniou, AI Regulation
+Is Coming: How to Prepare for the Inevitable, Harvard Bus. Rev., Sept.-Oct. 2021,
+https://hbr.org/2021/09/ai-regulation-is-coming.
+19
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+dynamically to the varied landscapes in which they are deployed. Such practices are
+essential for maintaining trust in AI technologies and their decisions in a globally
+interconnected market.49
+Executives can effectively integrate AI into business processes by considering four critical
+factors: the potential for AI to influence high-impact decisions, its utility in identifying
+unconscious biases, the importance of transparent communication about AI's role, and
+the operational challenges and scaling limitations posed by localized biases. This
+approach ensures that AI tools are not just mechanically applied but are strategically
+deployed to enhance decision-making capacities, particularly in areas where their impact
+can be significant. By leveraging AI to detect and mitigate unconscious biases,
+businesses can promote fairness and inclusivity. Transparent communication about the
+capabilities and limitations of AI helps build trust among stakeholders, clarifying how
+decisions are made and to what extent they are influenced by AI. Lastly, understanding
+the operational complexities and potential scaling issues due to localized biases ensures
+that AI integration is both practical and adaptable to specific market conditions and
+cultural contexts, maximizing the technology's effectiveness across different business
+environments.50
+Another strategy for managing the integration of new technologies involves adapting
+existing laws to better accommodate these innovations while simultaneously
+implementing proactive measures to encourage technological development. This
+approach places a strong emphasis on crafting sector-specific regulations that are
+tailored to address the unique challenges and opportunities presented by new tech within
+different industries. By updating legal frameworks to reflect the evolving tech landscape
+and introducing proactive measures, policymakers can ensure that regulation fosters
+innovation rather than stifles it. This balance is crucial for nurturing a dynamic
+technological ecosystem that remains competitive and compliant, ensuring that
+advancements in tech bring broad societal benefits while managing potential risks
+effectively.51
+Sector-specific regulations are particularly effective in contexts where tailored oversight
+is necessary, such as managing liability for damages caused by AI applications,
+protecting personal data processed by AI systems, and overseeing healthcare
+applications. This tailored approach ensures that regulations are directly applicable to the
+unique challenges and risks posed by AI technologies within specific sectors. For
+49 Bill Whyman, AI Regulation is Coming: What is the Likely Outcome?, Ctr. for Strategic & Int'l Studies
+(Oct. 10, 2023), https://www.csis.org/blogs/strategic-technologies-blog/ai-regulation-coming-what-likely-
+outcome
+50 Bill Whyman, AI Regulation is Coming: What is the Likely Outcome?, Ctr. for Strategic & Int'l Studies
+(Oct. 10, 2023), https://www.csis.org/blogs/strategic-technologies-blog/ai-regulation-coming-what-likely-
+outcome
+51 Giusella Finocchiaro, The regulation of artificial intelligence. International Journal of Law and
+Information Technology, 31(1), 1-18. https://doi.org/10.1093/ijlit/eaac022 (2023)
+20
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+instance, in healthcare, regulations could focus on ensuring the accuracy and safety of
+AI diagnostics and treatment recommendations, while in data protection, the emphasis
+would be on securing personal information against AI-driven breaches or misuse. By
+targeting the specific needs and potential risks of each sector, regulatory frameworks can
+provide more effective safeguards, foster trust, and enhance the responsible deployment
+of AI technologies, ensuring they contribute positively to the sector's specific operations
+and ethical standards.52
+Proposed legislation and initiatives from the White House53 call for direct reporting by
+entities using AI, aiming to better catalog AI applications and identify potential issues.
+This requirement for transparency ensures a more comprehensive understanding of how
+AI is currently utilized across various industries, providing vital data that can inform the
+development of regulations. By having a clear view of AI applications and their
+implications, regulators can tailor their approaches to the real-world contexts in which AI
+operates. This alignment between regulation and the practical realities of AI use helps in
+crafting effective policies that protect public interests while supporting innovation,
+ensuring that AI growth is managed responsibly and remains beneficial for society at
+large.54
+Government mandates, including proposed legislation and recent White House memos,
+are requiring entities across different sectors to report on their AI use cases, facilitating a
+more comprehensive understanding of how AI is applied and the associated risks. These
+directives aim to gather detailed insights into the deployment and operational dynamics
+of AI technologies within industries such as healthcare, finance, and transportation. By
+systematically collecting data on AI applications, these mandates help identify common
+challenges, potential threats, and areas needing stricter oversight or support. This
+accumulation of knowledge not only aids in tailoring regulations that address specific
+sector needs but also enhances the overall safety, fairness, and effectiveness of AI
+systems in society, ensuring they align with national interests and public welfare.55
+The White House's "Blueprint for an AI Bill of Rights"56 outlines five guiding principles
+designed to ensure that AI technologies adhere to democratic values, civil rights, and
+52 Giusella Finocchiaro, The regulation of artificial intelligence. International Journal of Law and
+Information Technology, 31(1), 1-18. https://doi.org/10.1093/ijlit/eaac022 (2023)
+53 White House Office of Science and Technology Policy, Blueprint for an AI Bill of Rights (2022),
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/.
+54 Aylin Caliskan & Kristian Lum, Effective AI Regulation Requires Understanding General-Purpose AI,
+Brookings (Jan. 29, 2024), available at https://www.brookings.edu/articles/effective-ai-regulation-requires-
+understanding-general-purpose-ai/
+55 Aylin Caliskan & Kristian Lum, Effective AI Regulation Requires Understanding General-Purpose AI,
+Brookings (Jan. 29, 2024), available at https://www.brookings.edu/articles/effective-ai-regulation-requires-
+understanding-general-purpose-ai/
+56 White House Office of Science and Technology Policy, Blueprint for an AI Bill of Rights (2022),
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/.
+21
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+safety standards. These principles aim to establish a framework that supports the ethical
+development and deployment of AI by emphasizing the necessity for AI systems to be
+safe and effective, protecting individuals from algorithmic discrimination, and
+safeguarding data privacy. Additionally, the blueprint mandates clear notice and
+explanation about the workings of AI systems to users, enhancing transparency and trust.
+Finally, it asserts the importance of providing human alternatives to automated decisions,
+thereby preserving human agency and accountability in critical decision-making
+processes. This set of principles seeks to balance innovation with fundamental rights and
+safety, promoting a technologically advanced society that upholds and respects individual
+rights and freedoms.57 The blueprint advocates for rigorous pre-deployment testing,
+equitable system use, comprehensive data protection, AI usage transparency, and
+human oversight to maximize AI's benefits without compromising individual rights or
+societal values.58
+The EU AI Act59 establishes a risk-based regulatory framework that categorizes AI
+applications according to their risk levels, ranging from 'Unacceptable risk' to those
+requiring 'Transparency requirements.' This framework is designed to tailor regulatory
+measures appropriately, prohibiting AI systems that pose 'Unacceptable risks' to safety
+and fundamental rights, although it allows exceptions for law enforcement purposes under
+strict conditions. Additionally, generative AI systems, which are not classified as high-risk
+but still have significant implications, are required to comply with transparency
+requirements. This includes obligations to clearly inform users when they are interacting
+with AI-generated content and to implement safeguards to prevent the generation of
+illegal content. The act aims to ensure that AI technologies are safe, compliant with ethical
+standards, and transparent in their operations, fostering trust and safety in their
+deployment across various sectors.60
+The EU AI Act also supports innovation by mandating that national authorities provide
+testing environments that simulate real-world AI development and training conditions,
+balancing regulatory compliance with technological advancement. Additionally, the
+European Parliament emphasizes that AI systems should be safe, transparent, traceable,
+non-discriminatory, and environmentally friendly, advocating for human oversight to
+prevent adverse outcomes. It also aims to establish a technology-neutral, uniform
+57 White House Office of Science and Technology Policy. (2022). Blueprint for an AI Bill of Rights.
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/
+58 White House Office of Science and Technology Policy. (2022). Blueprint for an AI Bill of Rights.
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/
+59 Regulation (EU) 2020/1828, European Parliament and Council Regulation on Artificial Intelligence (AI
+Act), 2024 O.J. (L ... [pending publication]).
+60 European Parliament. (2023, June 15). EU AI Act: first regulation on Artificial Intelligence. News
+European Parliament. https://www.europarl.europa.eu/news/en/press-room/20230619IPR88602/eu-ai-
+act-first-regulation-on-artificial-intelligence
+22
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+definition of AI applicable to future systems, contributing to a transparent regulatory
+landscape conducive to innovation and ethical use.61
+Comprehensive information on the current usage of AI models across various sectors is
+essential for crafting effective AI regulations. This necessitates a thorough understanding
+of both conventional and generative AI applications in critical areas such as employment
+and finance. Tech companies, which possess vital insights into the deployment and
+impact of their AI products, play a crucial role in this process. By collaborating with
+regulators and sharing detailed information on how AI applications operate and affect
+users, these companies can help ensure that regulatory frameworks address real and
+specific AI risks instead of hypothetical concerns. This collaboration would aid in
+developing informed regulations concurrent with enhancing AI technologies being
+transparent and accountable, ensuring AI implementations would lead to being safer and
+more trustworthy in society.62
+Decentralizing AI Governance
+Decentralized ML governance provides a robust alternative to centralized systems by
+bolstering data protection and minimizing vulnerabilities. This approach significantly
+enhances the management of digital identities within ML ecosystems, promoting the
+adoption of self-sovereign identities, soul-bound tokens, and decentralized identifiers.
+Self-sovereign identities allow individuals to manage their personal data independently,
+without reliance on third-party storage, thereby ensuring privacy and control. Soul-bound
+tokens, which are non-transferable and linked to specific digital identities, further secure
+user data by preventing unauthorized transfers. Additionally, decentralized identifiers,
+standardized by the World Wide Web Consortium (W3C), offer a reliable method for
+unique identification on the internet without depending on centralized registries. Together,
+these technologies empower individuals with unprecedented control over their digital
+identities, making ML systems more secure and user-centric.63
+Platforms like SingularityNET harness distributed ledger technology (DLT) to enhance
+interactions between AI services and users, promoting autonomy and privacy. By
+leveraging blockchain, SingularityNET allows AI developers to maintain control over their
+intellectual property while fostering the creation of decentralized datasets equipped with
+robust privacy controls. This setup facilitates direct transactions between AI services and
+agents without the need for intermediaries, thereby ensuring a decentralized and
+transparent operational environment. Such a platform not only streamlines the delivery of
+61 European Parliament. (2023, June 15). EU AI Act: first regulation on Artificial Intelligence. News
+European Parliament. https://www.europarl.europa.eu/news/en/press-room/20230619IPR88602/eu-ai-
+act-first-regulation-on-artificial-intelligence.
+62 Aylin Caliskan & Kristian Lum, Effective AI Regulation Requires Understanding General-Purpose AI,
+Brookings (Jan. 29, 2024), available at https://www.brookings.edu/articles/effective-ai-regulation-requires-
+understanding-general-purpose-ai/
+63 Dana Alsagheer, Lei Xu & Weidong Shi, Decentralized Machine Learning Governance: Overview,
+Opportunities, and Challenges, 11 IEEE Access 96718, 96718-96732 (2023).
+23
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+AI-driven services but also enhances the security and privacy of data exchanged, making
+it a vital tool for developers looking to deploy and manage AI solutions efficiently while
+safeguarding user and organizational data.64
+The decentralized governance model facilitated by overlapping institutions presents a
+promising approach for effective AI regulation, characterized as a regime complex. This
+description reflects the current global AI governance landscape, which is notably
+fragmented yet adaptable, benefiting from a system that encompasses multiple,
+autonomously coordinated values. Such a structure promotes decentralization, potentially
+enhancing the effectiveness, inclusivity, and adaptability of AI governance. However, the
+apparent disorganization within this regime complex also underscores the urgent need
+for normative research focused on ethical values. This research would provide critical
+guidance for the development of a more unified and coherent governance framework,
+ensuring that AI development aligns with broader societal goals and ethical standards.65
+A decentralized approach to AI governance acknowledges that AI's global externalities
+surpass national boundaries, requiring the development of international standards to
+balance innovation and risk mitigation. As AI technologies increasingly influence global
+systems, the actions of multinational corporations in driving cross-border AI development
+emphasize the need for a global cooperative regulatory framework. This unified approach
+aims to prevent the fragmentation of international policies and ensure cohesive practices
+across borders. Significant issues such as accountability, the risk of dehumanization, and
+the competitive dynamics surrounding military AI development further highlight the critical
+need for these discussions. Consequently, global governance forums are becoming
+increasingly vital in establishing joint regulations that address these complex challenges,
+ensuring that AI development remains safe, ethical, and beneficial worldwide.66
+Furthermore, a decentralized approach to AI governance could shift the balance of power,
+enhancing user autonomy and negotiation capabilities. By introducing the concept of
+"computational agency," this approach empowers end-users to control their own data and
+actively participate in service agreements, challenging the current norm of accepting
+terms without genuine negotiation. Typically, users are presented with standard terms
+that they can either accept or decline without the opportunity for dialogue. The proposal
+for computational agency seeks to disrupt this dynamic, providing users with the tools
+necessary to negotiate terms effectively. This empowerment enables a higher degree of
+64 Gabriel Axel Montes & Ben Goertzel, Distributed, Decentralized, and Democratized Artificial
+Intelligence, 141 Tech. Forecasting & Soc. Change 354, 354-358 (2019),
+https://doi.org/10.1016/j.techfore.2018.11.010.
+65 Jonas Tallberg, Eva Erman, Markus Furendal, Johannes Geith, Mark Klamberg & Magnus Lundgren,
+The Global Governance of Artificial Intelligence: Next Steps for Empirical and Normative Research, 25
+Int'l Stud. Rev. viad040, at preface (2023), https://doi.org/10.1093/isr/viad040.
+66 Peter Cihon, Matthijs M. Maas & Luke Kemp, Fragmentation and the Future: Investigating Architectures
+for International AI Governance, Global Policy, Nov. 2020, at 545, https://doi.org/10.1111/1758-
+5899.12890
+24
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+personalization and privacy, leading to more favorable service outcomes that truly meet
+user needs and protect their interests.67
+Blockchain & DLT Technology
+The fusion of blockchain and AI signifies a crucial advancement in digital governance,
+offering a framework for the transparent, secure, and accountable management of
+artificial intelligence. This integration ensures that as AI continues to evolve and become
+integral to various sectors, it does so in a manner that is ethical, responsible, and aligned
+with societal values. The collaborative potential of blockchain and AI paves the way for a
+future where digital systems are governed with an unprecedented level of integrity and
+accountability, ensuring that technological advancements contribute positively to society.
+Blockchain's inherent characteristics such as decentralization, immutability, and
+transparency, complement AI's need for data integrity and auditability. This synergy can
+significantly enhance the oversight and control mechanisms for AI systems, making it
+easier to track and verify AI decisions and actions, thereby reducing the risks of misuse
+and enhancing trust among users and regulators alike.
+The intersection of blockchain technology and AI represents a significant paradigm shift
+in digital governance, offering new methodologies for managing and ensuring the ethical
+application of AI. This integration heralds a transformative era where AI's sophisticated
+decision-making processes are complemented by blockchain's immutable record-
+keeping capabilities, promising enhanced accountability and transparency.
+Blockchain as a Governance Mechanism for AI
+Blockchain technology, with its distinct attributes of tamper-resistance, sequential data
+organization, and enhanced security, emerges as a formidable solution to AI's
+governance challenges. It provides a transparent and unalterable ledger of AI's data
+inputs and changes, facilitating traceability and accountability in AI operations.68
+The capability of blockchain to offer an immutable log of transactions and modifications
+within AI systems is crucial for industries leveraging AI for decision-making. This feature
+allows stakeholders to track the lineage of AI decisions back to their original data inputs,
+enabling easier identification and correction of errors.
+The integration of blockchain into AI democratizes the governance of AI by making its
+operations more accessible and understandable to a wider range of stakeholders. This
+transparency is crucial for building trust in AI systems and ensuring they are utilized
+responsibly and ethically.
+67 Wenjing Chu, A Decentralized Approach Towards Responsible AI in Social Ecosystems, 61 Artif. Intell.
+& Soc'y 354, 354-358 (2022), https://doi.org/10.48550/arXiv.2102.06362.
+68 Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System (Aug. 21, 2008),
+https://www.bitcoin.org/bitcoin.pdf
+25
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Blockchain's governance capabilities ensure that AI systems not only operate more
+efficiently and autonomously but also adhere to ethical standards and regulatory
+requirements. This alignment is essential for fostering a digital ecosystem that is
+sustainable, trustworthy, and socially responsible. Blockchain's ledger is immutable,
+meaning once data is entered, it cannot be altered or deleted. This feature is crucial for
+AI governance, as it ensures a transparent and unchangeable history of AI decisions,
+data inputs, and modifications. Stakeholders can audit these records at any time to verify
+the AI's actions and the data it processed, enhancing trust and transparency. This
+transparency is fundamental in ensuring that AI systems are accountable and operate
+within ethical guidelines and legal frameworks. Blockchain's secure nature protects
+against unauthorized access and tampering, safeguarding the data AI systems use and
+generate. This security is essential for maintaining the privacy and integrity of sensitive
+information, aligning AI operations with privacy laws and ethical considerations.
+Moreover, blockchain can facilitate secure data sharing among AI systems, promoting
+collaboration while adhering to confidentiality requirements.
+The traceability afforded by blockchain's ledger allows for tracking the provenance of data
+used by AI systems, ensuring that the data is accurate, lawful, and ethically sourced.
+Should an AI system make a decision that leads to a dispute or investigation, the
+blockchain can provide an auditable trail of all relevant actions and data inputs,
+establishing accountability and facilitating resolution in accordance with ethical and
+regulatory standards.
+Blockchain operates on a decentralized model, where control and decision-making
+processes are distributed across a network rather than centralized in a single entity. This
+decentralization democratizes AI governance, allowing multiple stakeholders to
+participate in the oversight and decision-making processes. It prevents any single party
+from having undue influence over the AI, promoting a fair and balanced approach to
+governance that aligns with ethical standards and societal values.
+Smart contracts are self-executing contracts with the terms of the agreement directly
+written into code. They can be used to automate compliance with regulatory requirements
+and ethical guidelines. For instance, smart contracts can automatically enforce privacy
+laws by controlling AI's access to personal data based on predefined rules. This
+automated compliance ensures that AI systems operate within legal boundaries, reducing
+the risk of violations and enhancing societal trust.
+An argument can be made that the governance capabilities of blockchain and DLT
+technology can help ensure that AI systems not only enhance their operational efficiency
+and autonomy but also rigorously adhere to ethical standards and regulatory
+requirements. By embedding these principles into the foundation of AI systems,
+blockchain fosters a digital ecosystem that is sustainable, trustworthy, and socially
+responsible. This alignment is crucial for maximizing the benefits of AI while mitigating
+risks and ensuring that technological advancements contribute positively to society.
+26
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Recentralization
+The integration of blockchain technology into the governance of AI systems is often touted
+for its potential to enhance efficiency, autonomy, and adherence to ethical standards and
+regulatory compliance. Alas, recentralization may interfere with blockchain and DLT
+technologies’ ability to effectively govern AI.
+The effectiveness of blockchain in achieving the goal of decentralized AI governance is
+contingent upon overcoming the fundamental blockchain trilemma: the challenge of
+balancing decentralization, security, and scalability. The blockchain trilemma posits that
+it is challenging to simultaneously achieve high levels of decentralization, security, and
+scalability within a blockchain network. This trilemma presents significant implications for
+the governance of AI systems through blockchain technology. In 2024, the landscape of
+Layer 1 blockchain systems, such as Bitcoin (BTC) and Ethereum (ETH), exemplifies the
+ongoing struggle to resolve this trilemma, particularly concerning decentralization and
+governance. While not directly addressed in the critique, the blockchain trilemma also
+encompasses security and speed, with networks often having to compromise on one
+aspect to excel in another. This compromise can have direct consequences for the
+governance of AI, particularly in ensuring timely and secure responses to ethical
+dilemmas or regulatory changes.
+Despite the theoretical advantages of blockchain decentralization, practical
+implementations, especially in Layer 1 protocols such as Bitcoin and Ethereum, have
+shown a trend towards recentralization. A key premise of blockchain's application in AI
+governance is the distribution of control and decision-making across the network,
+ostensibly preventing any single entity from exerting undue influence over AI systems.
+The purported lack of decentralization in networks like Bitcoin, where mining operations
+are concentrated in specific geographical regions such as China, or among "whales" who
+hold significant amounts of cryptocurrency, undermines this premise.69 Similarly, Proof of
+Stake (PoS) consensus mechanisms, as implemented in Ethereum and other
+blockchains, centralize control based on the quantity of tokens held, potentially skewing
+governance in favor of the wealthy. The recentralization phenomenon occurs when
+control over the network, whether through mining operations, token ownership, or
+governance decisions, becomes concentrated among a limited number of participants.
+This concentration of power undermines the blockchain's distributed nature and, by
+extension, the impartiality and integrity of smart contracts deployed on these platforms.70
+Smart contracts, autonomous programs that execute predefined actions upon meeting
+certain criteria, can support automated regulatory compliance and enforcement of ethical
+guidelines without the need for continuous human supervision.71 By embedding these
+contracts into blockchain, AI systems could ostensibly operate within legal and moral
+boundaries, ensuring a consistent adherence to privacy laws and ethical norms. By
+69 Kaal, W. & Calcaterra, C. "Decentralization: Technology's Impact on Organizational and Societal
+Structure," 2020.
+70 Gervais, A., et al., "Is Bitcoin a Decentralized Currency?” 2014.
+71 Nick Szabo, "Formalizing and Securing Relationships on Public Networks" 1997.
+27
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+encoding these standards into the blockchain, so the theory goes, AI systems can be
+designed to automatically enforce privacy laws and ethical guidelines, ensuring
+operations remain within legal and moral boundaries without constant human oversight.72
+When the decentralization of Layer 1 blockchains is compromised, the autonomy of smart
+contracts is inherently jeopardized, undermining their effectiveness as tools for ethical AI
+governance. Smart contracts are corruptible in the current design system as the lack of
+decentralization of layer 1s extends by affiliation to the smart contracts deployed on a
+given layer 1 blockchain. The recentralization of Layer 1 blockchains carries significant
+implications for the use of smart contracts in AI governance. If the underlying blockchain
+infrastructure is subject to the influence of a few dominant parties, then the smart
+contracts it hosts, regardless of their intended autonomous and neutral nature, are equally
+susceptible to corruption and manipulation.73 This vulnerability challenges the premise
+that smart contracts can reliably automate compliance with ethical guidelines and
+regulatory standards.
+Addressing the recentralization challenge requires a multifaceted approach, focusing on
+both technical innovations within blockchain technology and broader regulatory and
+governance frameworks to ensure fair and equitable participation in blockchain networks.
+Proposals for more sophisticated consensus mechanisms, such as proof-of-stake (PoS),
+delegated proof-of-stake (DPoS), hybrid secure proof-of-stake (HSPoS),74 and secure
+proof-of-stake (SPoS)75 offer potential pathways to mitigate centralization risks, although
+they are not without their own challenges and trade-offs.76 Moreover, the development of
+Layer 2 scaling solutions and cross-chain interoperability protocols may provide additional
+avenues for dispersing network control and enhancing the decentralization of blockchain
+ecosystems.77
+Challenges
+While the regulatory strategies mentioned in the literature are steps in the right direction
+for managing the deployment and development of AI, they are not without their
+challenges. Effective regulation of AI requires a dynamic, informed, and flexible approach
+72 Kaal, W. & Calcaterra, C. "Decentralization: Technology's Impact on Organizational and Societal
+Structure," 2020.
+73 Nicola Atzei, Massimo Bartoletti & Tiziana Cimoli, A Survey of Attacks on Ethereum Smart Contracts
+(SoK), presented at the International Conference on Principles of Security and Trust, in Lecture Notes in
+Computer Science (2017) https://doi.org/10.1007/978-3-662-54455-6_8.
+74 Wulf A. Kaal, Hybrid Secure Proof of Stake, SSRN Electronic Journal (Aug. 27, 2021), available at
+https://ssrn.com/abstract=3931933
+75 Craig Calcaterra & Wulf A. Kaal, Secure Proof of Stake Protocol, U of St. Thomas (Minnesota) Legal
+Studies Research Paper No. 18-10 (Jan. 18, 2018), available at https://ssrn.com/abstract=3125827
+76 Vitalik Buterin, A Next-Generation Smart Contract and Decentralized Application Platform (2014),
+available at https://ethereum.org/en/whitepaper/
+77 Joseph Poon & Vitalik Buterin, Plasma: Scalable Autonomous Smart Contracts (Aug. 11, 2017),
+available at https://plasma.io/
+28
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+that can adapt as quickly as the technologies it seeks to govern, ensuring safety and
+fairness without curtailing innovation.
+Decentralized structures as proposed in the existing literature, while offering numerous
+advantages, may encounter challenges related to efficiency and barriers, as evidenced
+in the environmental agreement domain, which can complicate negotiation and
+monitoring processes. In decentralized systems, the lack of a central authority often leads
+to difficulties in coordinating and achieving consensus among diverse stakeholders, each
+with their own priorities and objectives. This can result in prolonged negotiations or weak
+enforcement of agreements, as there is no single entity responsible for overseeing and
+ensuring compliance. Additionally, the monitoring of decentralized agreements requires
+robust systems to track and verify actions taken by disparate parties, further complicating
+the implementation and effective functioning of such frameworks. These challenges
+highlight the need for innovative solutions to enhance cooperation and streamline
+processes within decentralized settings to ensure they operate as intended and achieve
+their goals efficiently.78
+Furthermore, while the call for regulation at the model and data levels before AI
+deployment is well-intentioned and crucial for preventing many foreseeable harms, it is
+equally important to recognize the limitations of such an approach. A flexible, dynamic,
+and adaptive regulatory framework that incorporates both ex ante and ex post measures
+is likely more effective in managing the multifaceted challenges posed by AI technologies.
+While human judgment is integral to risk management and bias mitigation, it inherently
+carries its own biases. Relying on human judgment to uncover unconscious biases in AI
+may inadvertently perpetuate these biases rather than eliminate them. Humans may not
+always recognize their implicit biases, or they might lack the necessary expertise to
+identify bias in complex AI systems.
+Adapting AI algorithms to reflect operational complexities across diverse markets is
+necessary, but it also presents challenges. This adaptation process can be overly
+generalized, failing to account for the nuanced differences between sectors, industries,
+cultures, or geographic regions. A regulation that works well in one context might be
+inappropriate or ineffective in another, leading to a lack of flexibility in regulatory
+approaches.
+Adapting current laws to accommodate new technologies is often a slow process,79
+lagging behind the rapid pace of technological advancement. This delay can stifle
+innovation and potentially leave new AI applications unregulated for prolonged periods,
+posing risks to users and society.
+78 Peter Cihon, Matthijs M. Maas & Luke Kemp, Should Artificial Intelligence Governance be Centralised?:
+Design Lessons from History, in AIES '20: Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+Society, February 2020, at 228-234, https://doi.org/10.1145/3375627.3375857
+79 Erik Vermeulen, Mark Fenwick & Wulf A. Kaal, Regulation Tomorrow: What Happens When
+Technology is Faster than the Law?, TILEC Discussion Paper No. 2016-024 (Oct. 2016), available at
+https://ssrn.com/abstract=2834531
+29
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+While emphasizing sector-specific regulations can be beneficial by addressing the unique
+characteristics of different fields, this approach can also lead to a patchwork of regulations
+that are complex and difficult for AI developers to navigate. This complexity can hinder
+innovation and create barriers to entry for smaller companies that lack the resources to
+comply with intricate regulatory environments.
+The strategy of requiring entities to report on their use of AI aims to improve transparency
+and regulatory oversight. However, this approach assumes that entities will accurately
+and fully disclose their AI applications and potential issues. There may be incentives for
+underreporting or misreporting to avoid scrutiny or regulatory burdens, which could
+undermine the effectiveness of the regulations.
+Ensuring that regulations remain anchored in practical realities is crucial, but it also
+depends on the regulators' ability to understand and keep up with technological
+advancements. There is often a gap between the regulators' technical understanding and
+the state of the art in AI technology. This gap can lead to regulations that are either too
+vague to be enforceable or overly prescriptive, stifling creative and beneficial uses of AI.
+Finally, decentralized AI governance within Decentralized Autonomous Organizations
+(DAOs) as they are set up and governed in the majority of cases in the year 2024, face
+several potential risks that could undermine their efficacy and security. For instance,
+DAOs are susceptible to 'Sybil attacks,' where malicious actors or bots could manipulate
+decisions by controlling a significant portion of governance tokens through multiple
+anonymous accounts. Many other attack vectors and incentive design issues continue to
+afflict the DAO industry in 2024. Such attack vectors include but are not limited to the
+tyranny of the majority, Arrow’s impossibility theorem, level of decentralization,
+sockpuppet attacks, tragedy of the commons, among many others.80 Without solving
+these attack vectors, DAO related AI governance solutions remain suboptimal.
+Additionally, the decentralized nature of DAOs involves numerous participants in
+decision-making, increasing the risk of sensitive information leaks. Coordination
+challenges also emerge when managing large groups, complicating effective decision-
+making and governance. Furthermore, AI-powered DAOs that autonomously generate
+revenue pose unique challenges in regulation and potential dismantling, as the inherent
+security features of blockchain technology make it difficult to intervene or alter these
+entities once they are operational. These risks highlight the need for robust mechanisms
+to enhance security, transparency, and regulatory compliance in decentralized AI
+governance structures.81
+80 Kaal, W. & Calcaterra, C. "Decentralization: Technology's Impact on Organizational and Societal
+Structure," 2020.
+81 Casey Clifton, Richard Blythman & Kartika Tulusan, Is Decentralized AI Safer? (Nov. 4, 2022), available
+at http://arxiv.org/abs/2211.05828v1
+30
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Even if the existing literature on AI regulation recognizes the need for proactive and pre-
+emptive measures at the model and data levels,82 arguing that effective governance must
+occur before AI systems are deployed, the traditional legacy mode approach to
+preemptive AI governance is less equipped to address the AI governance preemptive
+requirements than web3 system.
+First and foremost, It is challenging to anticipate all potential issues or biases that may
+arise with an AI system before it is fully operational and interacting with real-world
+variables. Regulations that insist on preemptive controls may fail to address unforeseen
+problems that only become evident after deployment. This critique argues that while ex
+ante regulation is preferable, it is not always practical or sufficient in legacy ssytems to
+address the dynamic challenges that AI technologies present because legacy systems,
+unlike web3 systems as proposed herein, are not typically equipped to create dynamic
+feedback effects.
+Strict legacy type regulations with stable and presumptively optimal rules83 enforced at
+the development stage of AI might inadvertently stifle innovation. By imposing rigid
+constraints before a model is fully developed or deployed, regulators might limit the
+potential exploratory developments that contribute to technological advancements. The
+necessity to comply with stringent pre-deployment regulations could deter developers
+from experimenting with new and potentially transformative technologies. Web3 AI
+governance is less subject to those constraints as the developer community becomes
+integral part of the AI governance process in real time thorugh dynamic feedback effects.
+The exponential pace at which AI technology evolves makes it difficult to establish legacy
+system ex-post regulations that remain relevant over time. In turn, legacy ex-ante
+regulatory attempts assume a static technological landscape. In reality, AI development
+is dynamic, and regulations need to be adaptable, dynamic, and responsive. The
+literature often underestimates the need for regulations to evolve as quickly as the
+technologies they aim to govern.
+The literature advocating for ex-ante AI regulation may overlook the practical complexities
+involved in implementing such policies. It is often difficult for regulators to have a detailed
+and technical understanding of every AI model or dataset before it's operational. This can
+lead to regulations that are either overly generic, failing to address specific risks,
+impractically stringent, or simply misplaced, demanding compliance with standards that
+82 Casey Clifton, Richard Blythman & Kartika Tulusan, Is Decentralized AI Safer? (Nov. 4, 2022), available
+at http://arxiv.org/abs/2211.05828v1; Peter Cihon, Matthijs M. Maas & Luke Kemp, Should Artificial
+Intelligence Governance be Centralised?: Design Lessons from History, in AIES '20: Proceedings of the
+AAAI/ACM Conference on AI, Ethics, and Society, February 2020, at 228-234,
+https://doi.org/10.1145/3375627.3375857; Dana Alsagheer, Lei Xu & Weidong Shi, Decentralized
+Machine Learning Governance: Overview, Opportunities, and Challenges, 11 IEEE Access 96718,
+96718-96732 (2023); Ye Yuan et al., DeceFL: A Principled Fully Decentralized Federated Learning
+Framework, Natl Sci Open, vol. 2, 20220043, 2023, https://doi.org/10.1360/nso/20220043
+83 Wulf A. Kaal, Critiquing Stable and Presumptively Optimal Rules in Legacy Governance System, in
+Festschrift zu Ehren von Christian Kirchner: Recht im ökonomischen Kontext (Wulf A. Kaal, Andreas
+Schwartze & Matthias Schmidt eds., 2014).
+31
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+do not align with technological capabilities or practical usage scenarios. Similarly,
+advocating for regulation at the AI model and data levels before deployment may place
+too much confidence in the ability of developers and regulators to foresee all potential
+ethical, operational issues, and the overall evolution of the AI models as they emerge.
+This approach might overlook the valuable insights that can be gained from post-
+deployment monitoring and iterative improvements based on real-world use and
+feedback. Yet, post-deployment monitoring is typically woefully outdated as the AI models
+evolve.
+The literature may not adequately address the need for a balanced approach that
+integrates both ex ante and ex post regulations. Effective governance should not only
+involve setting standards before deployment but also include continuous monitoring,
+assessment, and adaptation after AI systems are in use. This integrated approach
+ensures that AI governance is both preventive and responsive, catering to the continuous
+learning nature of many AI systems.
+For example, the literature may inadequately consider compliance issues associated with
+stringent data privacy regulations like the General Data Protection Regulation (GDPR)
+introduces complexities in decentralized governance, necessitating robust data
+management practices and refined auditing processes. As decentralized systems often
+distribute data across various nodes, ensuring that all points comply with GDPR's
+requirements for data protection, transparency, and user consent can be challenging.
+These systems must incorporate secure data handling and storage protocols that adhere
+to legal standards, along with mechanisms for easy retrieval and deletion of data upon
+request. Additionally, the decentralized nature complicates the auditing process, as
+verifying compliance requires new methods to assess and ensure that each node within
+the network adheres to the regulation. Consequently, effective decentralized governance
+must develop advanced technological and procedural solutions to overcome these
+hurdles and maintain compliance with data privacy laws.84
+Adapting Decentralization of AI Governance to AI Models
+While decentralization can offer benefits such as autonomy and local control, it also
+introduces challenges that require careful consideration and innovative solutions.
+Achieving effective AI governance in a federated model necessitates addressing these
+challenges through coordination, standardization efforts, collaborative frameworks, and
+mechanisms to ensure accountability and transparency.
+Decentralized structures, while beneficial in many ways, often encounter challenges
+related to efficiency and operational barriers, particularly evident in the environmental
+agreement domain. These structures can complicate both negotiations and monitoring
+processes due to the lack of a central authority to streamline decisions and enforce
+84 Dana Alsagheer, Lei Xu & Weidong Shi, Decentralized Machine Learning Governance: Overview,
+Opportunities, and Challenges, 11 IEEE Access 96718, 96718-96732 (2023).
+32
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+agreements. In the context of environmental agreements, this decentralization can lead
+to difficulties in coordinating among multiple parties, each with their own interests and
+priorities, which may delay consensus and impede the swift implementation of necessary
+measures. Furthermore, monitoring compliance in such decentralized settings is
+challenging, as it requires effective collaboration and communication across diverse
+entities to ensure that all parties adhere to agreed-upon standards and commitments.
+This can ultimately affect the overall effectiveness and responsiveness of environmental
+initiatives.85
+Traditional machine learning relies on centralized data pipelines for model training, but
+the inherently fragmented nature of data presents significant challenges for collaboration
+and privacy. Sending decentralized datasets to a central server for processing raises
+serious privacy concerns and vulnerability issues, particularly if the central server fails or
+is attacked. In response, privacy-preserving frameworks like federated learning have
+been developed, yet these often still depend on a central client to collect and distribute
+model information, resulting in high communication loads and centralized vulnerabilities.
+In the federated model of AI governance, many challenges cannot be easily
+decentralized. In a federated AI model, different entities or organizations maintain their
+own AI systems and datasets. This can lead to variations in standards, protocols, and
+formats used, making it difficult to establish a unified governance framework.
+Standardization is crucial for interoperability, collaboration, and ensuring ethical
+practices, which become challenging in a decentralized setting.
+In a federated model, where decision-making power is distributed across multiple entities,
+it becomes harder to achieve consensus and cooperation, making it challenging to
+establish cohesive AI governance mechanisms. In a federated model, it can be
+challenging to ensure transparency and accountability across all participating entities due
+to the lack of centralized control, which this author does not otherwise advocate. This can
+lead to issues such as biased or unfair AI systems, inadequate privacy protection, or
+unequal access to AI benefits.
+In a federated model, enforcing regulations and policies related to AI can be complex. In
+a decentralized setting, different entities may have varying interpretations of regulations
+or differing levels of commitment to compliance. This can hinder effective enforcement,
+monitoring, and oversight of AI systems, potentially leading to misuse or unethical
+practices.
+A more decentralized web3 model of AI governance as proposed hereing could ostensibly
+address these challenges in a federated AI governance model by distributing governance
+more equitably across network participants.86 That model could truly democratize AI
+85 Peter Cihon, Matthijs M. Maas & Luke Kemp, Fragmentation and the Future: Investigating Architectures
+for International AI Governance, Global Policy, Nov. 2020, at 545, https://doi.org/10.1111/1758-
+5899.12890
+86 Kaal, W. & Calcaterra, C. "Decentralization: Technology's Impact on Organizational and Societal
+Structure," 2020.
+33
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+governance, ensuring no single entity can dominate decision-making processes. This
+would align AI development and deployment with broader societal values and ethical
+standards.
+To address the issues with decentralizing the federated AI model, several intermediary
+solutions have been proposed in the literature. Among those is Decentralized Federated
+Learning (DeceFL). DeceFL represents an evolution of FL by addressing its central
+shortcomings, particularly by enabling direct local information exchange among clients
+without the need for centralized aggregation. Unlike centralized models, traditional FL,
+and even swarm learning, DeceFL is more decentralized, meaning there is no central
+server collecting or processing data, which enhances privacy and system resilience. It
+also maintains competitive performance with no noticeable gap when compared to other
+models. All clients in DeceFL have equal access to the model, ensuring fairness in training
+and usage. Additionally, the system is adaptable to various network structures,
+performing effectively across different setups, and importantly, it avoids the
+communication of privacy-sensitive data among clients. These attributes not only reduce
+the communication load but also significantly bolster the privacy and applicability of the
+system, making DeceFL particularly suited for sectors like healthcare and smart
+manufacturing where data security and system resilience are paramount.87
+The DeceFL approach ensures that every client can reach the global minimum with zero
+performance gap and achieve the same convergence rate as centralized methods when
+the loss function is smooth and strongly convex. The effectiveness of the DeceFL
+algorithm has been demonstrated across various applications, including those with
+convex and nonconvex loss functions, and in settings with time-invariant and time-varying
+network topologies, as well as IID and non-IID datasets. This showcases DeceFL's broad
+applicability and potential impact on real-world scenarios, particularly in medical and
+industrial fields.88
+Decentralized AI governance solutions in the federated model are complicated by the
+need for compliance with stringent data privacy regulations such as the General Data
+Protection Regulation (GDPR). GDPR highlights the need for robust data management
+practices and effective solutions to auditing challenges. Decentralized systems, by their
+nature, distribute data across various nodes, making it difficult to ensure all data handling
+meets the strict privacy standards set by regulations like GDPR. This structure
+necessitates advanced data management strategies that can secure data across a
+dispersed network and complex auditing processes to verify compliance continuously.
+Addressing these challenges is crucial for maintaining the integrity of decentralized
+87 Ye Yuan et al., DeceFL: A Principled Fully Decentralized Federated Learning Framework, Natl Sci
+Open, vol. 2, 20220043, 2023, https://doi.org/10.1360/nso/20220043
+88 Ye Yuan et al., DeceFL: A Principled Fully Decentralized Federated Learning Framework, Natl Sci
+Open, vol. 2, 20220043, 2023, https://doi.org/10.1360/nso/20220043
+34
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+systems and ensuring they operate within legal frameworks, thereby safeguarding user
+privacy and enhancing trust in these technologies.89
+Managing ML assets and adhering to laws such as GDPR and CCPA is significantly more
+challenging under decentralized governance, raising concerns over privacy and data
+management. In decentralized environments, where data and operations are spread
+across various stakeholders and locations, ensuring consistent compliance with stringent
+privacy laws becomes complex. The distributed nature of these systems complicates the
+tracking of data flows and the enforcement of privacy controls, making it difficult to
+demonstrate compliance during audits. This challenge is exacerbated when multiple
+stakeholders are involved, as coordination and transparency across different entities must
+be maintained to ensure that all aspects of the system adhere to legal standards. Thus,
+decentralized governance demands robust mechanisms for compliance verification to
+address these inherent difficulties in managing privacy and data security effectively.90
+Proposed System
+One promising way to address the decentralized governance needs of AI pertains to the
+implementation of Decentralized Autonomous Organizations (DAOs) for the governance
+of AI through expert community consensus. The integration of Decentralized Community
+Governance, blockchain technology, and federated communications platforms facilitates
+a robust mechanism for overseeing AI development and application. This system hinges
+on the interplay between various components including a Layer 1 blockchain, a
+communication forum platform, and specialized smart contracts.
+The proposed model presents a sophisticated approach to decentralized governance,
+leveraging blockchain technology and federated communication platforms to create a
+dynamic, transparent, and participatory environment for managing and executing tasks.
+By intertwining the technological capabilities of different components with innovative
+governance mechanisms like validation pools and smart contracts, this system
+exemplifies the potential for decentralized autonomous organizations to enhance digital
+collaboration and decision-making for AI governance.
+Foundations
+A DAO operates on a blockchain and is characterized by distributed governance
+mechanisms, enabling stakeholders to collectively make decisions without centralized
+authority.91 Key terminology and functions of the proposed system facilitate the core
+89 Dana Alsagheer, Lei Xu & Weidong Shi, Decentralized Machine Learning Governance: Overview,
+Opportunities, and Challenges, 11 IEEE Access 96718, 96718-96732 (2023).
+90 Dana Alsagheer, Lei Xu & Weidong Shi, Decentralized Machine Learning Governance: Overview,
+Opportunities, and Challenges, 11 IEEE Access 96718, 96718-96732 (2023).
+91 Vitalik Buterin, A Next-Generation Smart Contract and Decentralized Application Platform (2014),
+available at https://ethereum.org/en/whitepaper/
+35
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+mechanisms as outlined below.92 Matrix serves as a federated communication platform,
+with Synapse being its reference server implementation. This setup provides a
+decentralized communication layer for DAO operations.93
+The DAO operates a forum as an on-chain collection of posts, each uniquely identified
+and possibly citing previous contributions. This forum forms a Weighted Directed Acyclic
+Graph (WDAG), facilitating organized discussion and citation among participants.
+Validation Pool form a crucial mechanism where author stakes are pooled to evaluate
+specific posts within the forum. The outcome of a VP can lead to the minting of new REP
+tokens, reflecting the consensus on a given issue or contribution.
+Work Evidence and Work Smart Contract represent the tangible output of work that meets
+certain criteria. Work Smart Contracts manage the logistics of work contracts, staking,
+and the validation process, ensuring transparency and fairness in task assignment and
+completion.
+Membership in the DAO is signified by holding REP tokens, which grant voting rights and
+a share in DAO revenues. The dynamic valuation of REP tokens through validation pools
+allows for a flexible and responsive governance model that adapts to the collective
+decisions of the DAO members.
+On top of the foundational governance structure, the DAO can implement various
+contracts for specific operational needs, such as work assignments and availability
+management. Given the cost of on-chain operations, a strategy involving off-chain
+activities consolidated into on-chain posts (roll-ups) creates efficiency.
+92Key Terminology and Components:
+● Decentralized Autonomous Organization (DAO): A digital organization operated by smart contracts
+on a blockchain, facilitating decentralized governance without central authority.
+● Community Governance Framework (CGF): The structural rules and protocols defining the
+operation and governance of a DAO.
+● Matrix: A federated communications platform providing decentralized communication across
+various services.
+● Synapse: The reference server implementation for Matrix, enabling federated communication.
+● Element-web: The reference client (front-end) implementation for Matrix, facilitating user interaction
+with the Matrix ecosystem.
+● Homeserver: A server running the Synapse software or an equivalent, serving as a node in the
+Matrix network.Functional Overview:
+● Client Integration: An Element-web widget integrates with the Casper Wallet, allowing users to
+participate in the DAO directly from any Matrix room.
+● Roles within the DAO:
+○ Worker: A participant with a web3 Wallet who can contribute work, stake, and earn
+reputation (REP) and CSPR.
+○ Customer: A participant who initiates work contracts by paying with CSPR.
+● Reputation (REP): A non-fungible token (NFT) representing the credibility and contributions of a
+worker within the DAO, based on the outcomes of validation pools and forum citations.
+93 Matthew Hodgson & Amandine Le Pape, Matrix: An Open Network for Secure, Decentralized
+Communication, Matrix.org Foundation (2019).
+36
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+The integration with Matrix ensures a decentralized repository and communication
+platform, enabling seamless interaction and data exchange among DAO participants.
+Governance Mechanism
+Decentralized Community Governance is central to this decentralized governance model,
+employing a combination of smart contracts, a reputation system (REP), and a validation
+pool mechanism to ensure AI governance aligns with expert community consensus.
+Reputation (REP) Tokens are Non-Fungible Tokens (NFTs) represent an individual's
+contribution and standing within the DAO, allowing them to participate in governance
+decisions. The ERC 721 and ERC 1155 extension enables the association of a numeric
+value with each token, reflecting the individual's reputation.94
+The Forum of the proposed governance system is an on-chain data structure of posts
+forming a weighted directed acyclic graph (WDAG), facilitating the documentation and
+citation of contributions. Validation Pools are consensus operations targeting specific
+forum posts, enabling the minting and distribution of REP based on community
+consensus.
+By leveraging the Decentralized Community Governance within a DAO, the input
+parameters and learning data for AI systems can be governed through expert community
+consensus. This process involves submitting proposals to the Forum and undergoing
+Validation Pool review, ensuring that only vetted and consensus-backed data and
+parameters are utilized in AI development.
+Work Smart Contracts and Availability Smart Contracts operationalize the transactional
+aspects of AI governance. Work Smart contracts define the terms under which AI
+governance tasks are undertaken, while Availability Smart Contracts facilitate the
+assignment of these tasks to reputable community members, ensuring accountability and
+quality in AI governance tasks.
+This governance model promotes decentralization by distributing decision-making
+authority across a wide range of experts, rather than centralizing it in the hands of a few.
+Through the Validation Pool mechanism, expert consensus is required for significant
+decisions, ensuring that AI governance reflects the collective expertise and ethical
+considerations of the community.
+Precedent and Citation system
+The application of Weighted Directed Acyclic Graphs to the governance of AI through a
+precedent and citation system offers a robust, scalable, and dynamic framework suitable
+94 Gavin Wood, Ethereum: A Secure Decentralised Generalised Transaction Ledger, Ethereum Project
+Yellow Paper (2014).
+37
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+for managing the rapid evolution of artificial intelligence technologies. By leveraging the
+structural advantages of WDAGs, such a system can ensure that AI governance remains
+effective, relevant, and responsive to the ever-changing landscape of AI development
+and its societal impacts. This approach not only facilitates the practical management of
+AI governance but also supports the ethical and legal compliance of AI systems, aligning
+them with societal values and regulatory requirements. This system's significance is
+amplified in the context of AI's exponential growth, necessitating governance
+mechanisms that can adapt and scale accordingly.
+A WDAG is a fundamental construct in the field of graph theory and computer science,
+characterized by its directed edges, absence of cycles, and assignment of weights to
+each edge. This mathematical structure provides a powerful framework for representing
+relationships and processes that have inherent directionality, precedence constraints,
+and varying degrees of importance or capacity among their connections.
+A WDAG consists of vertices (or nodes) connected by directed edges (or arcs), where
+each edge has an associated weight. The directed nature of the edges means that each
+connection between two vertices has a designated direction, indicating the flow from one
+vertex to another. The acyclic characteristic ensures that there are no loops within the
+graph, meaning it is impossible to start at a vertex and follow a sequence of directed
+edges that eventually loops back to the starting vertex.95
+The weights assigned to the edges in a WDAG can represent various quantitative
+attributes such as cost, distance, time, or capacity, depending on the specific application.
+These weights play a crucial role in algorithms that operate on WDAGs, influencing the
+computation of shortest paths, scheduling, and other optimization problems.
+WDAGs find extensive applications across various domains including computer science,
+operations research, and engineering. One notable application is in task scheduling,
+where tasks are represented by vertices, and precedence relationships (i.e., the
+requirement that one task must be completed before another can begin) are represented
+by directed edges. The weights on these edges can indicate the time required to complete
+tasks or the transition time between tasks, aiding in the efficient scheduling of tasks to
+minimize overall completion time or resource utilization.96
+In the context of network routing and communication, WDAGs can model network
+topologies where messages or data packets must be transmitted across a network
+without cycles, ensuring efficient data flow. The weights on the edges can represent
+bandwidth, latency, or other network characteristics, influencing routing decisions to
+optimize performance and resource allocation.97
+95 Bang-Jensen, J., & Gutin, G., "Digraphs: Theory, Algorithms and Applications" (Springer Science &
+Business Media, 2008).
+96 Coffman, E. G., Ed., "Computer and Job-Shop Scheduling Theory" (John Wiley & Sons, 1976).
+97 Bertsekas, D. P., & Gallager, R., "Data Networks" (Prentice-Hall, 1987).
+38
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Additionally, WDAGs are instrumental in project management and planning, particularly
+in the application of the Critical Path Method (CPM) for project scheduling. This method
+leverages WDAGs to model project tasks, their dependencies, and durations, identifying
+the longest path through the graph (the critical path) that determines the minimum project
+duration.98
+The algorithmic treatment of WDAGs involves specialized algorithms for traversing the
+graph, computing shortest paths, and identifying topological orderings—a linear ordering
+of its vertices that respects the direction of the edges, which is particularly useful for
+scheduling and planning applications.99
+Dynamic Governance
+The structure of WDAGs, with their vertices representing legal precedents or governance
+rules and directed edges signifying citations or logical dependencies, creates an ideal
+model for organizing and navigating the multitude of governance considerations pertinent
+to AI. In such a system, the weights on the edges could quantify the relevance, authority,
+or impact of each precedent or citation, guiding the decision-making processes in AI
+governance by highlighting the most pertinent and influential governance frameworks or
+legal precedents.
+The dynamic nature of WDAGs is essential for AI governance for several reasons,
+including but not limited to scalability and flexibility, navigating complexity, and decision
+support:
+As AI technologies evolve, new precedents and governance rules will emerge. WDAGs
+can seamlessly integrate these new elements without disrupting the existing structure,
+ensuring the governance framework remains comprehensive and up-to-date.100
+The complexity of AI systems and their potential impact across different sectors demands
+a nuanced approach to governance. WDAGs allow for the mapping of intricate
+relationships between governance rules and their applications, enabling stakeholders to
+navigate this complexity more effectively.101
+By assigning weights to the edges based on factors such as recency, jurisdictional
+relevance, or cited frequency, a WDAG-based system can aid in prioritizing certain
+governance pathways over others, supporting more informed decision-making in AI
+governance.102
+98 Kelley, J. E., Jr., & Walker, M. R., "Critical-Path Planning and Scheduling," in: "Proceedings of the
+Eastern Joint Computer Conference," 1959.
+99 Kahn, A. B., "Topological Sorting of Large Networks," Communications of the ACM, 1962.
+100 Bang-Jensen, J., & Gutin, G., "Digraphs: Theory, Algorithms and Applications" (Springer Science &
+Business Media, 2008).
+101 Coffman, E. G., Ed., "Computer and Job-Shop Scheduling Theory" (John Wiley & Sons, 1976).
+102 Kahn, A. B., "Topological Sorting of Large Networks," Communications of the ACM, 1962.
+39
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Exponential Evolution of AI and Governance Needs
+The exponential evolution of AI underscores the necessity for governance frameworks
+that can not only keep pace with technological advancements but also anticipate future
+governance challenges. WDAGs, with their inherent adaptability and capacity for
+organizing complex information, provide a mechanism for such anticipatory
+governance.103 This adaptability ensures that as AI systems learn and evolve, the
+governance mechanisms guiding their development and application can evolve
+correspondingly. Decentralized AI governance utilizing WDAGs also offers a
+comprehensive framework capable of addressing the complexities and rapid evolution of
+artificial intelligence technologies. This governance approach, grounded in the structural
+benefits of WDAGs, ensures the governance mechanisms are scalable, dynamic, and
+aligned with ethical, legal, and societal expectations. By applying WDAGs to AI
+governance through a precedent and citation system, we can create a robust
+infrastructure that supports the ethical development and application of AI, fostering trust
+and compliance within the AI ecosystem.
+Dynamic Real-Time Governance
+The above illustrated key system features and WDAG components contribute a much
+needed innovative approach to AI governance. The proposed system leverages the
+principles of decentralization and real-time data analytics to enhance dynamic AI
+governance. This approach is particularly relevant in the context of managing and
+governing AI systems, where ethical and legal standards are constantly evolving due to
+technological advancements and shifting societal values. Societal values are reflected in
+the core of the proposed system as the WDAG allows for dynamic governance where
+precedents in the system evolve much faster and dynamically in comparison with legacy
+systems.
+The proposed WDAG system can harness decentralized networks to gather and assess
+community sentiment and ethical considerations in real-time. Unlike traditional
+governance models that rely on periodic reviews and updates, WDAG can tap into a
+continuous stream of data from a wide range of stakeholders. This ensures that the ethical
+frameworks guiding AI development are always in alignment with current societal values.
+By analyzing real-time data on community sentiment, of for example experts who are
+tasked with the dynamic ethical supervision and guidance of evolving LLM systems,
+WDAG systems can detect shifts in public opinion regarding what is considered ethical or
+acceptable behavior for AI systems. Such evolving sentiment, in turn, can provide
+feedback effects and guidance for AI governance metrics in diverse LLM applications.
+103 Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a New Institutional Economics Framework
+(2013). Festschrift in Honor of Christian Kirchner, 2013, Forthcoming, U of St. Thomas (Minnesota) Legal
+Studies Research Paper No. 13-17, https://ssrn.com/abstract=2267560.
+40
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+By staying attuned to these shifts, WDAG ensures that AI governance remains relevant
+and responsive.
+The proposed WDAG system can automate the process of integrating evolving ethical
+guidelines and legal standards into the AI development lifecycle. This is achieved by
+maintaining an up-to-date repository of guidelines and standards that are directly applied
+during the design, development, and deployment stages of AI systems. This real-time
+updating mechanism ensures that AI technologies do not outpace ethical and legal
+considerations.
+The proposed WDAG framework facilitates the continuous upgrading of AI governance
+metrics. As ethical standards evolve and new legal requirements emerge, WDAG can
+adjust governance metrics accordingly. This ensures that AI systems are assessed
+against the most current benchmarks, maintaining their ethical integrity and legal
+compliance.
+Through a precedent and citation system, WDAG can automate the enforcement of
+ethical guidelines and legal standards. By codifying these guidelines into enforceable
+rules within the AI development and deployment process, WDAG minimizes the risk of
+ethical breaches or legal violations. This automated enforcement mechanism is crucial
+for maintaining trust in AI systems, especially as they become more autonomous and
+integrated into daily life.
+By continuously monitoring and adjusting to evolving ethical and legal standards, WDAG
+provides a preventive approach to AI governance. This contrasts with reactive models
+that address issues only after they have arisen. Such a proactive stance is essential in
+preventing harm and ensuring that AI systems contribute positively to society.
+Key Components of WDAG-based AI Governance
+In the context of AI governance, vertices (nodes) represent distinct governance
+elements—such as legal precedents, regulatory requirements, ethical guidelines, or
+governance rules. Directed edges (arcs) illustrate the relationships or citations between
+these governance elements, establishing a directional flow that signifies logical or legal
+precedence and dependencies among them.
+Assigning weights to the edges in the graph quantifies aspects such as the relevance,
+authority, impact, or applicability of each governance element in specific contexts. These
+weights are crucial for prioritizing certain pathways in the decision-making process,
+ensuring that the most pertinent and influential guidelines are considered in governance
+decisions.
+The acyclic nature of WDAGs ensures there are no loops within the governance
+framework, facilitating a clear, unambiguous progression from foundational principles to
+specific governance outcomes. This characteristic is vital for maintaining the integrity and
+coherence of the AI governance process.
+41
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Benefits of WDAG-based AI Governance
+As new legal precedents, regulations, or ethical considerations arise, they can be
+seamlessly integrated into the existing WDAG structure without necessitating a complete
+overhaul of the governance framework. This capability ensures that AI governance
+remains current and responsive to the latest developments in AI technology and societal
+expectations.
+The intricate relationships between various governance elements and their applications
+across different sectors and technologies can be effectively mapped and navigated using
+WDAGs. This approach enables stakeholders to understand the governance landscape
+better, facilitating more nuanced and informed governance strategies.
+The weighted edges in the WDAG framework aid in highlighting the most relevant,
+authoritative, or impactful governance elements for particular scenarios. This feature
+supports stakeholders in making informed decisions by prioritizing governance pathways
+that align with current needs, legal requirements, and ethical standards.
+Uploading AI Models as Posts in the Precedent Credit System
+Integrating AI model governance into the WDAG framework can be achieved by treating
+each AI model or development milestone as a "post" within the precedent credit system.
+This process involves:
+Documenting key attributes of AI models, including design principles, ethical
+considerations, intended use cases, and compliance with existing governance rules, as
+vertices within the WDAG.
+Establishing directed edges from these AI model posts to relevant legal precedents,
+ethical guidelines, or regulatory requirements, indicating how each model aligns with or
+diverges from established governance pathways.
+Assigning weights to these connections based on factors like model impact, ethical
+significance, or regulatory compliance, facilitating a dynamic assessment of the model's
+governance alignment.
+Through the WDAG-based governance framework, stakeholders can dynamically
+assess, update, and navigate the complex landscape of AI governance, ensuring that AI
+development remains ethical, compliant, and aligned with societal values. This
+decentralized approach leverages the inherent advantages of WDAGs to foster a
+transparent, accountable, and adaptable governance ecosystem for AI.
+AI Model Integration
+For instance, in the context of federal AI learning models, where AI systems must adapt
+to diverse operational environments and comply with stringent regulations, the WDAG
+system can dynamically adjust to new ethical guidelines and legal standards. This is
+crucial in federal contexts where AI applications may range from public safety to health
+42
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+care, requiring a flexible yet robust governance system to ensure that all AI deployments
+are ethically sound and legally compliant.
+By treating each AI model as a post within a WDAG framework, stakeholders can create
+a comprehensive, visually intuitive map of how well the AI aligns with required governance
+frameworks. This method allows for ongoing adjustments to governance as AI models
+evolve and as legal and ethical standards change, ensuring continuous compliance and
+ethical alignment. This dynamic, structured approach provides a clear, accountable
+method for managing the complexities of AI governance across various industries and
+applications. The WDAG system automates the integration of evolving ethical guidelines
+directly into the AI development lifecycle. This continuous dynamic updating mechanism
+ensures that AI technologies are always in step with the latest ethical and legal
+considerations, preventing them from outpacing the regulatory frameworks meant to
+govern them.
+The WDAG governance system is predicated on a decentralized network that captures
+and integrates community sentiment and ethical considerations, providing real-time
+responsiveness that traditional governance models lack. Traditional models often depend
+on periodic reviews and are slow to adapt, whereas the WDAG system ensures that the
+ethical frameworks guiding AI development constantly reflect current societal values.
+AI governance elements such as legal precedents, regulatory requirements, and ethical
+guidelines are represented as vertices (nodes) in the WDAG. The directed edges (arcs)
+between these nodes establish logical or legal precedence and dependencies, which are
+crucial for understanding the governance structure. Weights assigned to these edges
+quantify aspects like relevance and impact, prioritizing certain governance pathways over
+others in decision-making processes.
+The acyclic nature of the WDAG ensures that the governance framework is devoid of
+loops, which facilitates a straightforward progression from foundational principles to
+specific governance outcomes. This characteristic is vital for maintaining the integrity and
+clarity of the AI governance process, preventing backtracking and ensuring that each step
+builds upon the previous one in a logical manner.
+As new legal precedents and ethical guidelines emerge, they can be swiftly incorporated
+into the existing WDAG structure. This capability ensures that AI governance remains
+contemporary and reactive to the latest developments in AI technology and societal
+expectations.
+The relationships between various governance elements and their application across
+different sectors and technologies can be effectively mapped using WDAGs. This detailed
+mapping aids stakeholders in understanding the governance landscape more thoroughly,
+facilitating more nuanced and informed governance strategies.
+The weighted edges within the WDAG framework assist stakeholders in identifying the
+most relevant, authoritative, or impactful governance elements for particular scenarios.
+43
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+This prioritization helps in making informed decisions that align with current legal
+requirements and ethical standards.
+Importantly, integrating AI model governance within the WDAG framework involves
+treating each AI model or development milestone as a "post" within the precedent system.
+Key attributes of AI models, such as design principles and compliance with governance
+rules, are documented as vertices. Directed edges from these model posts to relevant
+legal and ethical precedents demonstrate how each model aligns with established
+governance pathways. Weights assigned to these connections help dynamically assess
+the model's compliance and ethical alignment.
+Example: WDAG Governance for Medical Diagnosis AI
+For example, consider an AI system developed for medical diagnosis. At each
+development stage—such as initial concept, prototype testing, and final deployment—
+distinct "posts" or vertices are created within the WDAG. These vertices may document
+1. design principles, and 2. compliance factors, as follows: 1. Design principles may
+include the AI's algorithmic basis, which could be deep learning techniques tailored for
+high accuracy in diagnosing specific diseases. 2. Compliance factors may include
+adherence to HIPAA regulations for patient data privacy, or FDA guidelines for medical
+devices, among others.
+Directed edges are then drawn from these vertices to other relevant governance elements
+within the WDAG. These connections represent how the AI model aligns with or diverges
+from established legal precedents, community precedent in DAO, working smart contract
+templates, ethical guidelines, or regulatory requirements. For instance: 1. Directed edge
+from AI design vertex to a legal precedent vertex: An edge could link the AI's data handling
+practices to specific legal precedents that dictate how patient data must be securely
+managed and anonymized. 2. Directed edge from AI compliance vertex to an ethical
+guideline vertex: An edge might connect the model's protocols for informed consent to
+ethical guidelines ensuring that patients are fully aware of and agree to AI-based
+diagnostic processes.
+Furthermore, weights are assigned to these directed edges to signify the relevance,
+impact, or authority of each connection. In our medical AI for medical applications
+example the following logic applies: 1. Weight significance: An edge connecting the AI
+model's data privacy measures to HIPAA regulations might be assigned a higher weight
+if compliance with these regulations is critically important for legal and operational
+viability. 2. Dynamic adjustments: If new HIPAA amendments are passed, the weights
+and perhaps even the directed edges themselves might be adjusted to reflect the updated
+legal landscape.
+Example: WDAG Governance for AI Model in Autonomous Vehicles
+Another example of WDAG governance for AI models we can consider is an AI system
+designed for autonomous driving. At each significant development phase—algorithm
+44
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+design, prototype testing, real-world testing, and final product launch—vertices are
+created within the WDAG:
+1. Vertices document key attributes like algorithm robustness, sensor data accuracy,
+and compliance with automotive safety standards.
+2. Directed edges could link the AI's sensor accuracy vertex to regulatory
+requirements for vehicle safety, illustrating compliance or highlighting areas
+needing improvement.
+3. Weights on edges might be particularly heavy between the AI's decision-making
+algorithms and safety standards to prioritize these aspects in governance
+assessments, ensuring the AI system does not pose undue risk to public safety.
+At this initial stage, the primary focus is on developing the algorithms that will enable the
+vehicle to make decisions autonomously. The vertex created in the WDAG at this phase
+documents the theoretical robustness of these algorithms, their expected performance in
+various driving conditions, and preliminary compliance checks with existing automotive
+safety regulations.
+Once the algorithms are developed, they are embedded into a vehicle prototype for
+testing in controlled environments. The vertex for this phase records outcomes like the
+algorithm’s response to simulated emergencies or unexpected obstacles, sensor
+integration effectiveness, and initial compliance with safety protocols.
+Following successful simulations, the prototype enters real-world testing, where it
+encounters a wider range of variables. The corresponding vertex would detail the
+performance of the AI system under real traffic conditions, its interaction with other road
+users, and adherence to traffic laws and safety standards.
+The last phase before commercial deployment involves final adjustments and
+confirmations of compliance with all national and international automotive regulations.
+The vertex for this stage would include final safety certifications and readiness for mass
+production.
+In the WDAG, directed edges are used to connect these vertices to various regulatory
+and ethical standards. For example, an edge from the real-world testing vertex might link
+to specific safety regulations that mandate how vehicles must behave when pedestrians
+are detected. This connection serves to show how the AI's sensor data accuracy and
+decision-making processes comply with these regulations. If the model falls short, the
+edge could highlight this discrepancy, signaling a need for improvement.
+The weight assigned to each directed edge quantifies the importance of the connection
+in the overall governance of the AI system. For autonomous driving AI, weights might be
+particularly heavy on edges connecting decision-making algorithms to safety standards.
+This prioritization ensures that any assessment of the AI system heavily factors in its
+ability to safely handle driving decisions. For instance, if an AI system is exceptional in
+non-critical tasks but performs poorly in emergency braking scenarios, the weighted
+45
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+edges would prioritize the latter in the governance assessment, reflecting its higher
+importance for public safety.
+Avoiding WEB2 Inadvertent AI Learning Mistakes through WDAG AI Learning
+The concern highlighted by Elon Musk and others about the potential dangers of AI
+developing a skewed or negative perception of humanity, such as considering humanity
+a”plague on the Earth,"104 stems from the reliance on unfiltered, uncontextualized data
+from the web and social media platforms. Integrating AI development within the WDAG
+framework presents a proactive approach to embedding evolving human ethics directly
+into AI learning processes. This integration ensures that AI systems are developed with
+a deep understanding of human values, significantly reducing the risk of AI adopting
+negative or harmful perceptions of humanity. By encouraging thoughtful participation from
+a diverse range of stakeholders and continuously aligning AI with human ethics, WDAG
+fosters the development of AI systems that are not only technologically advanced but also
+ethically aligned with the best of human values, ensuring a positive synergy between AI
+and humanity.
+AI learning is afflicted by web2 systems that bring out suboptimal human generated
+outcomes. WEB2 platforms often amplify extreme viewpoints and negativity due to their
+engagement-driven algorithms, presenting a distorted view of human sentiment and
+ethics. Integrating AI development with Web3 WDAG aims to mitigate these risks by
+embedding AI learning processes within a framework that prioritizes human ethics and
+values as they evolve in real-time, informed by a broad and balanced spectrum of human
+input.
+WDAG's dynamic nature allows for the integration of a wide range of human perspectives
+that are incentivizes for highest standards of ethics, ensuring that AI systems are exposed
+to a balanced and nuanced understanding of human ethics and values. This approach
+contrasts sharply with traditional data collection methods that often capture and amplify
+the most extreme and sensational content, leading to skewed learning outcomes for AI.
+By grounding AI development in the WDAG framework, we ensure that AI systems evolve
+in harmony with community consensus and the human spirit, reflecting the diversity and
+complexity of human values.
+Incorporating AI into the WDAG system, where human community continuously develops
+and morphs its ethics and values, addresses the risk of AI inadvertently adopting negative
+views of humanity. By ensuring that AI's learning materials are vetted through a
+consensus-driven process and validation pools that are accounted for in the WDAG that
+includes ethical considerations and a broad spectrum of human experiences, WDAG
+prevents the incorporation of unchecked biases and flawed logic into AI's ethical
+104 Peter H. Diamandis, Elon Musk on Abundance, AGI, and The Media in 2024 | EP #79 (X Spaces),
+Moonshots with Peter Diamandis (Jan. 4, 2024), at 01:02:32, https://www.youtube.com/watch?v=_PcL4w-
+-uNs.
+46
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+framework. This process significantly reduces the risk of AI systems concluding that
+humanity is inherently harmful or negative.
+The WDAG system incentivizes both human and AI participants to contribute positively
+and thoughtfully to the development of AI ethics. Through validation pools and incentive
+mechanisms, individuals and machines together are encouraged to engage in reflective
+and constructive discourse about what values should guide AI development. This
+incentivization ensures that contributions are made with a consideration of their long-term
+impact on AI's understanding of humanity, encouraging a more responsible and ethical
+approach to AI training.
+By aligning AI development with the WDAG framework, AI is taught to evolve in tandem
+with human ethics, dynamically adjusting to changes in societal values and norms. This
+ongoing adjustment ensures that AI governance and value development are inherently
+rooted in the ethics of the human communities it serves. Such a system ensures that AI
+does not become detached from human values or develop harmful biases based on
+flawed data sources.
+Model Comparison
+The AI governance proposal in this paper has so far focused mostly on the AI Model Level
+governance, not the data level governance of AI. In the evolving landscape of artificial
+intelligence (AI), the strategies for developing, training, and governing AI models are
+pivotal to their success, ethical alignment, and societal impact. As AI systems become
+more integral to our daily lives and industries, the methodologies behind their creation
+and regulation have come under greater scrutiny. Among the myriad approaches, three
+distinct models have emerged, each offering a unique perspective on how best to
+navigate the challenges of AI development and governance. These models reflect varying
+priorities, from the timing and emphasis on governance to the foundational role of data
+and the involvement of the community in the decision-making process.
+Here, we introduce and compare three innovative frameworks for AI development: Post-
+hoc Governance of AI Models and Training Data, Pretrained AI Models with an Emphasis
+on Data Quality, and Community Co-Governance with Decentralized Data Collection.
+Each approach provides insightful strategies for the ethical and effective deployment of
+AI technologies, highlighting the importance of governance, data integrity, and community
+involvement in shaping the future of artificial intelligence.
+1. Model 1 - AI model - Training Data - Governance: The first model emphasizes
+governance after the initial development and selection of training data, allowing for
+comprehensive oversight and potential adjustments to both the AI model and its
+data inputs. This post-hoc governance approach provides flexibility in
+modifications but may lead to slower adaptation and refinement cycles.
+2. Model 2 - Data - Pretrained AI Model - Governance: The second model
+prioritizes the collection and preparation of data before the AI model is pretrained,
+with governance coming into play afterward. This approach highlights the
+47
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+importance of data quality from the outset and focuses on refining the application
+of the pretrained model according to governance principles. It streamlines
+governance to the later stages of AI development, concentrating on fine-tuning and
+application-specific training.
+3. Model 3: WDAG Web3 Community Governance - Decentralized Data - AI
+Model: This model emphasizes the use of WDAG for community co-governance
+of AI (as detailed above in Chapter Proposed System).
+The contrast between leveraging Decentralized Community Governance within a DAO
+for AI training and governance in Model 1 and an approach focused entirely on providing
+decentralized data validation layers for pretrained AI Large Language Models (LLMs) in
+Model 2 highlights a fundamental shift in control, transparency, and involvement from the
+community in the AI development process.
+Both approaches bring unique strengths to AI training and governance. Decentralized
+Community Governance within a DAO offers a holistic and democratic method for
+developing and improving AI systems. In contrast, focusing on decentralized data
+validation layers provides a targeted and efficient way to enhance the reliability of
+pretrained AI models. The choice between these approaches depends on the specific
+goals, resources, and constraints of the AI development project.
+Model 1: Decentralized Community Governance Approach
+This approach emphasizes the role of a diverse expert community in governing the AI's
+learning process ex post. Input parameters and learning data are selected through
+collective decision-making, ensuring a broader representation of interests and expertise.
+Proposals for new data sets or parameter adjustments are submitted to a community
+forum, where they are openly discussed and reviewed. A subsequent Validation Pool,
+consisting of selected community members or experts, performs a more in-depth review
+to ensure the quality and relevance of the proposed changes.
+The use of a consensus mechanism for decision-making democratizes the development
+process. This not only fosters transparency and accountability but also potentially
+mitigates biases in AI training by incorporating a wide range of perspectives.
+The governance model allows for continuous updates and improvements to the AI
+systems based on evolving expert consensus and emerging data, keeping the AI models
+relevant and effective over time.
+The process begins with the development of AI models, where initial parameters and
+architectural decisions are made. Once the model's structure is established, relevant
+training data is selected to train the model. This step is crucial for determining the model's
+future behavior and performance. Governance comes into play after the model and its
+training data are selected, overseeing and potentially adjusting both the model's structure
+and the data it has been trained on. Governance intervenes after the initial model
+48
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+development and training data selection, making it more about oversight and refinement
+than direct involvement in these early stages. There's room to revise both the model and
+its data based on governance decisions, offering a chance to rectify issues or biases
+identified after the fact. Governance encompasses the entire AI development process,
+allowing for holistic adjustments but potentially leading to slower adaptation and
+refinement cycles.
+Model 2: Decentralized Data Validation Layer Approach
+This approach primarily targets the refinement and validation of existing AI models, such
+as pretrained LLMs, through decentralized validation layers. It does not inherently involve
+the community in the initial training phase or in setting input parameters.
+The core of this approach is the establishment of decentralized mechanisms for validating
+the data fed into AI systems. This could involve crowdsourced verification tasks or
+consensus mechanisms among validators to ensure the accuracy and reliability of data.
+By concentrating on data validation for pretrained models, this method can quickly
+enhance the model's performance and reliability without revisiting the initial training
+process.
+While it incorporates decentralization in data validation, this approach offers a narrower
+scope for community governance. The focus is more on the quality control of input data
+rather than the comprehensive governance of the AI's development lifecycle.
+The process in Model 2 begins with data collection and preparation of the data that will
+be used to train the AI model. The model is then pretrained on this collected data.
+"Pretraining" implies that the model undergoes initial training on a general dataset to learn
+basic patterns and structures before it's fine-tuned or further trained on more specific
+datasets. Governance is applied after the model has been pretrained, focusing on how
+the model will be further developed, fine-tuned, and utilized.
+The initial focus on data underscores the importance of the quality and diversity of training
+data in shaping the model's capabilities and biases. The AI model's parameters and
+structure are largely set during the pretraining phase, with governance having more
+influence over subsequent fine-tuning and application-specific training. Governance at
+this stage is more about directing the model's application and ensuring its alignment with
+ethical standards, regulatory requirements, and community values during further training
+and deployment.
+Hybrid Model
+In Model 1, governance has the potential to influence both the AI model's initial
+development and its training data, offering a chance to address issues from the ground
+up. In Model 2, governance mainly impacts the subsequent use and refinement of a
+49
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+pretrained model, focusing on steering its application and mitigating any biases
+introduced during pretraining. Model 1 places governance after the model and data
+selection, potentially allowing for changes in both areas. Model 2 prioritizes data collection
+and preparation, suggesting a model where the structure is somewhat fixed but the input
+data's quality and representation are paramount. Model 1 offers a broad scope for
+governance but might entail more complex and slower processes for adjusting the AI's
+development trajectory. Model 2 streamlines governance to the post-pretraining phase,
+emphasizing efficient refinement and application-specific adjustments.
+A hybrid approach that combines the strengths of Decentralized Community Governance
+with the Decentralized Data Validation Layer approach offers a comprehensive model for
+AI governance. This model integrates the community's collective expertise in the AI's
+learning process with robust validation mechanisms for the data inputs of pretrained
+models. Here's how it could work and the benefits it brings:
+Initially, the AI's learning parameters and data sets are proposed and discussed within a
+diverse community forum. This stage leverages the decentralized community governance
+approach to ensure a wide range of perspectives and expertise influence the AI model's
+foundational elements.
+Proposals that gain traction in the community forum move to a Validation Pool, where a
+smaller group of selected experts conducts an in-depth review. This stage ensures the
+proposed data sets and parameters meet quality standards before being integrated into
+the AI's learning process.
+Once the AI model is trained or in the case of refining pretrained models, a decentralized
+data validation layer comes into play. This mechanism focuses on validating and verifying
+the data inputs for pretrained models through a consensus among validators or
+crowdsourced verification tasks.
+The results and insights gained from the data validation process are fed back into the
+community governance framework. This allows for continuous refinement of data sets,
+learning parameters, and even the validation mechanisms themselves based on real-
+world performance and community feedback.
+By combining community-driven governance with decentralized data validation, the
+hybrid approach ensures high-quality data inputs and comprehensive oversight
+throughout the AI's lifecycle. This leads to more reliable and effective AI systems.
+The feedback loop between the community governance and data validation stages allows
+for continuous updates and refinements. As new data becomes available or as the
+community's consensus evolves, the AI models can be quickly adapted to maintain
+relevance and performance.
+The broad community involvement in the AI's development process helps mitigate biases
+from the outset. Furthermore, the transparent nature of community discussions and
+decentralized validation processes fosters accountability and trust in the AI systems.
+50
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+By focusing on the validation of data for pretrained models, the hybrid approach allows
+for the rapid enhancement of existing AI systems without the need for extensive
+retraining. This saves resources while still benefiting from community insights and
+validation mechanisms.
+The hybrid approach marries the best aspects of community-driven governance with the
+practicalities of decentralized data validation, offering a robust, adaptable, and
+transparent framework for AI model governance. This synergy not only enhances the
+quality and performance of AI systems but also ensures they evolve in alignment with
+community values and the latest advancements in the field.
+Model 3: Ex-Ante Community AI Governance
+The distinction between the first two proposed models Model 1 - AI model - Training Data
+- Governance, Model 2 - Data - Pretrained AI Model - Governance lies primarily in the
+sequencing and emphasis on where and how governance intervenes in the AI
+development process. This impacts not only the development and refinement of AI
+models but also how transparency, bias mitigation, and community involvement are
+handled.
+The DAO web3 governance model involves the community deeply in the AI's
+development process, from data selection to parameter setting, whereas the
+decentralized data validation approach primarily engages the community in post-training
+refinement.
+Decentralized Community Governance provides a transparent framework for AI
+development, offering more control over the training process to the community. In
+contrast, the validation layer approach mainly enhances the transparency and reliability
+of data inputs in an existing model.
+The governance model allows for the continuous evolution of AI systems based on
+community consensus, potentially leading to more adaptive and innovative outcomes.
+The validation layer approach, while efficient for refining pretrained models, may not
+facilitate significant changes in the model's core design or training approach which could
+make it more attack prone.
+Moreover, involving a broad community in the governance of AI training can help identify
+and mitigate biases more effectively than a focus on data validation alone, which might
+overlook systemic biases embedded in the pretrained models.
+Yet, Model 3: “Web 3 Community Governance - Decentralized Data - AI Model” stands
+out for several reasons, potentially offering a superior approach when compared to the
+other two models. Model 3's emphasis on community governance and decentralized data
+collection offers a comprehensive framework that addresses many of the shortcomings
+51
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+found in the other models. It not only facilitates a more inclusive and ethical approach to
+AI development but also ensures that the models are adaptable, transparent, and aligned
+with the needs and values of a broad range of stakeholders. This can lead to AI systems
+that are more effective, equitable, and trusted by the public, thereby enhancing their utility
+and acceptance in society.
+First and foremost, Model 3 ensures that the AI's development and operational guidelines
+are shaped by a diverse set of stakeholders and cultures. This inclusivity can lead to more
+adaptable and resilient governance structures, as they are continually refined through
+community feedback and consensus. Decentralized Data sourcing in Model 3 allows for
+a wider variety of data inputs, enhancing the model's ability to generalize and adapt to
+new situations or contexts without the need for centralized control or extensive retraining.
+Moreover, the decentralized approach to data collection in Model 3 can lead to higher
+data quality and representativeness, as it pulls from a broader base. This diversity in data
+helps in training more robust and fair AI models. Community governance inherently
+embeds ethical considerations into the AI model’s lifecycle, ensuring that decisions
+around data and model adjustments are made transparently and with a broad spectrum
+of impacts in mind.
+Model 3 also creates greater accountability and trust. With the community involved in AI
+governance, there’s a higher degree of accountability. The community can directly
+influence the development process, ensuring that the model aligns with user needs and
+ethical standards. This community involvement can build trust between developers,
+users, and other stakeholders, as the development process is transparent and
+participatory.
+Moreover, Model 3 creates scalability and continuous improvement in AI governance.
+The decentralized nature of both governance and data collection allows for a scalable AI
+model that can continuously improve and adapt over time. As new data sources are
+added, the model can be updated and refined without centralized bottlenecks. Community
+governance facilitates a more dynamic and responsive feedback loop for improving the
+AI model, as insights from diverse users and applications can be quickly integrated.
+Finally, Model 3 generates ethical and societal implications. By involving the community
+in governance decisions, a natural alignment towards serving broader societal interests
+and ethical considerations is created through model 3. This can lead to AI models that
+are more socially responsible and aligned with human values. The approach promotes
+fairness and mitigates biases more effectively, as community input can help identify and
+correct biases in data and model behavior.
+Comparing Model 3 with the hybrid model, Model 3 retains significant benefits. While the
+hybrid approach offers a comprehensive model for AI governance by integrating
+community expertise with robust validation mechanisms, Model 3 stands superior. It not
+only encapsulates the strengths of direct community governance and decentralized data
+collection but also enhances adaptability, ethical considerations, transparency,
+52
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+accountability, and societal alignment. This approach ensures the development of AI
+systems that are not just technologically advanced but also socially responsible and
+broadly trusted.
+Model 3 places the community at the heart of AI governance, ensuring that AI
+development is directly shaped by a wide range of stakeholders and cultures. This model
+fosters an environment where decisions are made collectively, enhancing adaptability and
+resilience through continuous feedback and consensus. This is a significant step beyond
+the hybrid approach, which, while incorporating community input, primarily relies on a
+select group of experts for data validation and may not fully capture the diverse
+perspectives and expertise of a broader community.
+The emphasis on decentralized data collection in Model 3 leads to the gathering of a
+broader, more diverse dataset. This diversity is crucial for developing AI models that are
+robust, fair, and capable of generalizing across various contexts. Unlike the hybrid model,
+where decentralized data validation plays a critical role, Model 3 ensures high data quality
+and representativeness from the outset, reducing reliance on post-hoc validation
+processes.
+Model 3 inherently prioritizes ethical considerations and transparency throughout the AI
+model's lifecycle. By involving the community in every step of the development process,
+decisions around data and model adjustments are made openly, with a broad spectrum
+of impacts in mind. This contrasts with the hybrid model, where the transparency mainly
+focuses on the validation stage, potentially overlooking the ethical dimensions of data
+selection and initial model training.
+With Model 3's community-driven governance, accountability is significantly increased.
+The model aligns closely with user needs and ethical standards, thanks to direct
+community involvement in the development process. This participatory approach builds
+trust between developers, users, and stakeholders, a feature that the hybrid approach
+may not fully realize if community engagement is limited to specific stages of the
+development process.
+The decentralized nature of governance and data collection in Model 3 allows for a more
+scalable and dynamically improving AI model. Unlike the hybrid model, which may face
+bottlenecks in data validation and refinement stages, Model 3's approach ensures that
+the AI model can evolve continuously, integrating new data sources and insights without
+centralized limitations.
+Model 3 ensures that AI development aligns with broader societal interests and ethical
+standards, promoting fairness and effectively mitigating biases. This model benefits from
+the collective wisdom of the community to identify and address biases in data and model
+behavior, an area where the hybrid model's focus on technical validation may fall short.
+53
+Electronic copy available at: https://ssrn.com/abstract=4796714
+
+Version 9.0 - May 2024
+Conclusion
+In the rapidly evolving landscape of AI, the establishment of robust governance
+frameworks is crucial. As AI technologies grow increasingly complex and become integral
+across various sectors, the necessity for adaptive governance mechanisms that can
+evolve alongside these technologies becomes apparent. Traditional governance models,
+which often depend on static, predefined rules, struggle to keep pace with the rapid
+development of AI and the intricate challenges it introduces. These conventional
+approaches, typically reactive and limited to ex-post solutions, are increasingly seen as
+inadequate for managing the dynamic nature of AI technologies.
+The innovative AI governance system proposed in this paper leverages decentralized
+web3 community governance alongside federated communication platforms, creating a
+sophisticated and forward-looking framework for the proactive and participatory oversight
+of AI development. Central to this system is a federated forum platform organized as a
+WDAG and specialized smart contracts designed for task management and validation.
+This structure not only promotes real-time consensus-building and decision-making
+through web3 community governance but also underpins a scalable and transparent
+communication network. Within this framework, Validation Pools and Reputation tokens
+play essential roles in ensuring that the governance system remains continuously
+updated and responsive, accurately reflecting the collective decisions and ethical
+standards upheld by the community.
+The efficacy of this governance system is exemplified in its application to sectors such as
+medical diagnosis AI and autonomous driving AI. In these applications, each stage of
+development is represented as vertices in the WDAG, capturing essential compliance and
+operational metrics. Directed edges in the graph connect these stages to pertinent legal
+and ethical standards, with weights assigned to underscore critical areas for compliance
+and safety. The inherent dynamism of the WDAG facilitates seamless updates and the
+integration of new regulations or ethical guidelines, thereby ensuring that AI governance
+remains relevant amidst technological advancements and societal changes.
+Consequently, this model not only advances AI systems technologically but also ensures
+they are ethically sound and legally compliant, effectively harmonizing innovation with
+responsible governance. This comprehensive approach provides a promising outlook for
+the future of AI governance, suggesting a pathway that could potentially mitigate risks
+while enhancing the beneficial impacts of AI on society.
+54
+Electronic copy available at: https://ssrn.com/abstract=4796714
+

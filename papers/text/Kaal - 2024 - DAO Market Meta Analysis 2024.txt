@@ -1,0 +1,2242 @@
+Version10.0-May2024
+DAO Market Meta Analysis 2024
+Wulf Kaal, Ph.D.1
+Abstract
+Decentralized Autonomous Organizations (DAOs) represent a transformative approach
+to governance and decision-making, driven by technology that enables decentralized,
+transparent, and direct stakeholder participation. DAOs are disrupting traditional
+centralized models across various industries. For instance, they offer alternatives to
+conventional banking and investment systems by facilitating decentralized asset
+management and peer-to-peer transactions. In the insurance sector, DAOs streamline
+claims processing, reduce fraud, and enhance risk assessment accuracy. They also
+provide solutions to combat misinformation and censorship through community-driven
+news platforms.
+However, several challenges and open questions persist for DAOs. Key issues include
+the need to establish standardized governance mechanisms to ensure fairness,
+security, and accountability. Additionally, scalability concerns, legal frameworks, and
+interoperability between different DAOs are critical areas requiring further exploration
+and development.
+This paper presents an analysis of the DAO marketplace that utilizes a dataset of 50
+DAOs selected by the assets size in their treasuries across different industries. Through
+descriptive statistics and comprehensive analysis, the paper identifies trends in DAO
+industries and highlights governance and other shortcomings in the evolving landscape
+of DAOs.
+Key Words: Decentralized Autonomous Organization, Cryptocurrencies, Blockchain,
+DLT, Distributed Systems, Governance, Distributed Ledger Technology, Regulation,
+Protocols, Optimization, Principal-Agent, Emerging Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1ProfessorofLaw.TheauthorisgratefulforexcellentresearchassistancebyBeauRaymond,Jack
+Palmer,andJoshNierengarten.TheauthorisgratefultothestudentinhisclassonDecentralization-
+TechandPolicyinthespringsemester2024fortheirsupportingeneratingthedataforthisstudy.
+1
+
+Version10.0-May2024
+Table of Contents
+Introduction.....................................................................................................................3
+Historical Context and Technological Evolution...........................................................3
+Emergence of Decentralized Autonomous Organizations (DAOs)..............................4
+Key Concepts and Technologies Underpinning DAOs...............................................4
+Governance in DAOs vs. Traditional Corporations......................................................4
+One-Person-One-Vote.................................................................................................5
+Quadratic Voting..........................................................................................................5
+Fungible Governance Tokens......................................................................................5
+Reputation Governance.............................................................................................. 5
+Importance of Governance in DAOs........................................................................6
+Current State and Challenges of DAOs...................................................................................6
+The Impact of DAOs on Traditional Industry................................................................6
+DAOs in the Financial Sector......................................................................................7
+Tokenization of Assets.................................................................................................7
+Decentralized Exchanges............................................................................................7
+DAOs in the Insurance Sector.....................................................................................8
+Decentralized Risk Pools............................................................................................ 8
+DAOs in the Service Provider Industry........................................................................8
+Tokenization and Incentivization..................................................................................9
+DAOs in the Media Industry........................................................................................ 9
+DAOs in Non-Profits....................................................................................................9
+Global Community Engagement............................................................................... 10
+Open Challenges.......................................................................................................... 10
+DAO Market Analysis....................................................................................................11
+Dataset......................................................................................................................11
+Scoring Methodology.................................................................................................11
+Descriptive statistics....................................................................................................12
+Conclusion....................................................................................................................31
+APPENDIX A: DAO Dataset..........................................................................................33
+APPENDIX B: DAO Scoring.........................................................................................48
+APPENDIX C: Bibliography.......................................................................................................71
+2
+
+Version10.0-May2024
+Introduction
+DAOs represent a transformative development in the landscape of business entities,
+offering decentralized, transparent, and efficient alternatives to traditional corporations.
+By addressing challenges through robust governance structures and continuous
+adaptation, DAOs can realize their potential as a transformative force in the modern
+economy. Further research and development in DAO governance will be critical to
+harnessing their full potential and ensuring their contribution to a more decentralized
+and transparent economic system.
+By examining the historical context, technological foundations, governance models, and
+current state of DAOs, this paper provides a comprehensive overview of their potential
+and challenges in the digital age. Effective governance mechanisms are essential to
+ensure that DAOs can operate efficiently, transparently, and sustainably, thereby
+realizing their potential as a transformative force in the modern economy.
+HistoricalContextandTechnologicalEvolution
+Business entities have evolved alongside technological advancements, from simple
+trade systems to complex corporate structures. The digital age, marked by the rise of
+the internet and digital communication, has further transformed the way businesses
+operate. Traditional business models, designed for a pre-digital era, may no longer be
+the most efficient means of managing operations in today's interconnected and
+fast-paced environment.
+The evolution of business entities can be traced back to early civilizations, where trade
+and commerce were facilitated through various forms of partnerships and guilds. As
+technology advanced, these entities evolved into more complex structures, such as
+joint-stock companies during the Industrial Revolution. The introduction of limited liability
+in the 19th century marked a significant milestone, allowing for greater risk-taking and
+capital accumulation. In the 20th century, the rise of multinational corporations further
+transformed the global economy, enabling businesses to operate across borders with
+unprecedented scale and efficiency.2
+2Zingales[2000]; Rajan and Zingales [2001]
+3
+
+Version10.0-May2024
+EmergenceofDecentralizedAutonomousOrganizations(DAOs)
+The Information Age has facilitated the emergence of DAOs, which utilize blockchain
+technology to operate in a decentralized and transparent manner. DAOs differ
+fundamentally from traditional corporations in their governance structures, relying on
+smart contracts to encode rules and automate processes. This allows for greater
+efficiency, security, and autonomy in business operations.3
+Blockchain technology, the underlying infrastructure of DAOs, offers a distributed ledger
+that ensures transparency and immutability of transactions. Smart contracts,
+self-executing contracts with terms directly written into code, eliminate the need for
+intermediaries, reducing costs and increasing trust among participants. The combination
+of these technologies enables DAOs to function without centralized control, providing a
+more democratic and inclusive form of governance.4
+KeyConceptsandTechnologiesUnderpinningDAOs
+DAOs are built on blockchain technology and smart contracts. These technologies
+enable DAOs to function without centralized control, ensuring transparency and
+automation in decision-making processes. The concept of DAOs was significantly
+influenced by early discussions on smart contracts by computer scientist Nick Szabo
+and later by the Ethereum project, which provided the technological foundation for
+implementing DAOs.5
+GovernanceinDAOsvs.TraditionalCorporations
+Traditional corporations are governed by a board of directors and executives who make
+decisions on behalf of shareholders. In contrast, DAOs employ various governance
+models, such as one-person-one-vote, quadratic voting, fungible governance tokens,
+and reputational governance. These models offer different approaches to
+decision-making, reflecting the decentralized and participatory nature of DAOs.6
+3Wright and De Filippi [2015]
+4Buterin [2014]; Tapscott and Tapscott [2016]
+5Szabo [1997]; Ethereum Foundation [2015]
+6Zwitter and Hazenberg [2020]
+4
+
+Version10.0-May2024
+One-Person-One-Vote
+This model ensures equal voting power for all participants, promoting democratic
+decision-making but potentially leading to majority tyranny. One-person-one-vote in
+DAOs seeks to address the imbalance found in traditional corporations by giving each
+participant an equal say, regardless of their financial stake.7
+QuadraticVoting
+Quadratic voting allows participants to allocate votes based on their preferences,
+reducing the influence of wealthy individuals and encouraging nuanced
+decision-making. The cost of additional votes increases quadratically, making it
+prohibitively expensive for any one individual to dominate the voting process. This
+promotes a more equitable distribution of voting power.8
+FungibleGovernanceTokens
+These tokens represent voting rights and can be traded, providing liquidity and
+transparency but also risking vote buying and manipulation. Governance tokens are a
+common feature in many DAOs, allowing participants to buy and sell voting rights on
+cryptocurrency exchanges. While this can enhance liquidity and participation, it also
+raises concerns about the concentration of power and the potential for manipulation.9
+ReputationGovernance
+This model allocates decision-making power based on participants' past contributions
+and reputation within the community, promoting transparency and trust but challenging
+to measure objectively. Reputational governance systems use metrics such as
+contribution history, community feedback, and peer reviews to determine voting power.
+This incentivizes positive contributions and discourages harmful behavior.10
+7Taleb [2007]
+8Posner and Weyl [2018]
+9Cong and He [2019]
+10Beck et al. [2018]
+5
+
+Version10.0-May2024
+Importance of Governance in DAOs
+Effective governance is crucial for the success of DAOs, ensuring that decisions are
+made democratically, conflicts are managed, and the organization remains aligned with
+its mission. Governance mechanisms also help in addressing risks such as
+centralization, manipulation, and legal non-compliance.11
+Current State and Challenges of DAOs
+As DAOs gain popularity, several platforms, such as Aragon, Colony, and DAOStack,
+provide tools for DAO creation and management. However, poorly governed DAOs face
+significant risks, including centralization, lack of transparency, and inefficiency. Effective
+governance structures are essential to mitigate these risks and ensure the sustainability
+and success of DAOs.12
+Aragon offers a suite of tools for DAO governance, including token management and
+voting systems. It provides templates for creating DAOs but requires careful
+consideration to avoid risks associated with fungible governance tokens.13
+Colony focuses on task and reputation-based governance, integrating decentralized
+finance (DeFi) protocols to manage funds and incentivize contributions. Its flexible
+governance model allows customization to suit different organizational needs. Colony's
+reputation system rewards participants based on their contributions, ensuring that those
+who add value to the organization have a greater say in decision-making. This can
+promote meritocracy and encourage active participation.14
+TheImpactofDAOsonTraditionalIndustry
+The advent of DAOs is significantly impacting various sectors, heralding a paradigm
+shift in traditional industries. DAOs, enabled by blockchain technology and smart
+contracts, are revolutionizing finance, insurance, service provision, media, non-profits,
+and political action by fostering decentralization, transparency, and community-driven
+decision-making. This paper explores the transformative potential of DAOs across these
+11De Filippi and Hassan [2016]
+12Hassan and De Filippi [2021]
+13Hassan and De Filippi, [2021]
+14Allen [2017]
+6
+
+Version10.0-May2024
+sectors, their impact on existing models, and the challenges and opportunities they
+present.
+DAOs are emerging as a transformative force across various industries. By leveraging
+blockchain technology and smart contracts, DAOs facilitate decentralized
+decision-making, transparency, and direct stakeholder participation.
+DAOsintheFinancialSector
+The financial sector is undergoing a significant transformation with the emergence of
+DAOs. By utilizing blockchain technology and smart contracts, DAOs enable
+decentralized financial systems that are more transparent, efficient, and accessible.
+Decentralized finance (DeFi) platforms built on DAOs offer a wide range of financial
+services, including lending, borrowing, trading, and asset management, without relying
+on traditional intermediaries.15
+TokenizationofAssets
+DAOs facilitate the tokenization of traditional financial instruments such as stocks,
+bonds, and real estate. This allows for fractional ownership, increased liquidity, and
+efficient transferability of assets. Additionally, DAOs enable decentralized asset
+management, allowing investors to participate in the governance and decision-making
+processes of investment strategies.16
+DecentralizedExchanges
+DAOs have given rise to decentralized exchanges (DEXs) that operate without central
+authority. These exchanges facilitate peer-to-peer trading of digital assets, offering
+enhanced security, privacy, and user control. DAOs govern the rules and operations of
+these exchanges, ensuring transparency and fairness.17
+15Buterin [2014]
+16Catalini and Gans [2016]
+17Hayes [2019]
+7
+
+Version10.0-May2024
+DAOsintheInsuranceSector
+The insurance industry is also experiencing a transformation with the advent of DAOs.
+These organizations offer innovative solutions to longstanding challenges, such as high
+administrative costs and lack of transparency.18
+DecentralizedRiskPools
+DAOs enable the creation of decentralized risk pools where individuals can collectively
+manage insurance coverage (Kaal et al, Decentralized Underwriting. Through smart
+contracts, premiums are pooled, and claims are automatically disbursed based on
+predefined conditions, improving efficiency and transparency.19
+Blockchain technology ensures transparency in claims processing, with smart contracts
+automating verification and settlement. This reduces administrative costs and increases
+the speed and accuracy of claims processing.20
+DAOs facilitate community-based insurance models where individuals with similar risks
+form insurance pools with tailored rules, premiums, and coverage terms. This
+decentralized approach enhances governance and decision-making within the
+community.21
+DAOsintheServiceProviderIndustry
+Service providers are leveraging DAOs to revolutionize various sectors, including
+finance, healthcare, and logistics. DAOs enable decentralized service delivery models,
+connecting providers directly with consumers, thus eliminating intermediaries.22
+By utilizing blockchain-based identity verification and reputation tracking, DAOs
+enhance trust and reliability in service provision. Transparent pricing mechanisms and
+cost optimization strategies further improve the efficiency of service delivery.23
+18Schwartz [2020]
+19Tapscott and Tapscott [2016]
+20PWC [2017]
+21Lamberti et al. [2020]
+22Wright and De Filippi [2015]
+23Davidson et al. [2016]
+8
+
+Version10.0-May2024
+TokenizationandIncentivization
+DAOs create utility tokens to incentivize consumer engagement and participation.
+These tokens can be used for accessing services, participating in governance, or
+receiving rewards, fostering a more inclusive and decentralized service landscape.24
+DAOsintheMediaIndustry
+The media industry is being reshaped by DAOs, which enable decentralized content
+creation, curation, and distribution. Creators can collaborate with a global community,
+and through DAO governance, community members influence content selection and
+promotion.25
+DAOs introduce decentralized crowdfunding mechanisms, allowing supporters to
+contribute directly to media projects. Transparent revenue sharing models ensure fair
+compensation for creators and contributors.26
+DAOs facilitate direct engagement between creators and audiences, fostering a sense
+of community ownership. Blockchain technology provides secure and transparent
+intellectual property management, enhancing copyright protection and royalty
+distribution.27
+DAOsinNon-Profits
+DAOs are revolutionizing the non-profit sector by providing decentralized and
+transparent governance structures. They enable community participation in
+decision-making, innovative fundraising models, and efficient resource allocation.28
+24Cong et al. [2020]
+25Jain et al. [2020]
+26Napoli [2020]
+27De Filippi [2017]
+28Allen [2017]
+9
+
+Version10.0-May2024
+Non-profits can leverage DAOs to democratize decision-making processes and
+introduce token-based fundraising campaigns. This fosters deeper donor engagement
+and ensures transparency in fund utilization.29
+GlobalCommunityEngagement
+DAOs facilitate global community engagement, enabling cross-cultural collaboration and
+knowledge sharing. This broadens the reach of non-profit organizations and enhances
+their impact.30
+DAOs are transforming political action by democratizing decision-making, enhancing
+transparency, and enabling grassroots mobilization. They provide secure voting
+systems and facilitate advocacy and lobbying efforts.31
+DAOs empower individuals to participate in political decision-making and fundraising.
+Blockchain-based tokens represent participation in political campaigns, promoting
+grassroots involvement and transparency in resource allocation.32
+DAOs offer blockchain-based voting mechanisms, ensuring the integrity and
+transparency of the electoral process. They also facilitate decentralized advocacy,
+empowering individuals and interest groups to collectively influence policy decisions.33
+OpenChallenges
+Despite their potential, DAOs face challenges such as scalability, governance issues,
+and the need for robust security measures. Addressing regulatory concerns and
+building trust among traditional financial institutions are also critical for the widespread
+adoption of DAOs in the financial sector. As the technology matures, DAOs are likely to
+play a more significant role in decentralized lending, insurance, derivatives, and
+cross-border transactions, creating a more inclusive, transparent, and efficient financial
+ecosystem.34
+29Swartz [2018]
+30Hassan and De Filippi [2021]
+31Allen [2017]
+32Wright and De Filippi [2015]
+33Schwartz [2020]
+34Swan [2015]
+10
+
+Version10.0-May2024
+DAOMarketAnalysis
+Dataset
+The DAO market analysis data (n=50) was generated by a team of research assistants,
+under the guidance of Professor Wulf Kaal, at the University of St. Thomas. The paper
+provides an analysis of six major factors of each individual DAO and scores them on
+their performance in each category. The six factors considered are: Decentralization,
+Work to Earn, Attack Resistance, Regulatory Compliance, Governance, and
+Organizational Communication. Each DAO was given a score between zero (0) and ten
+(10) by the analyzing teams based on publicly available information and the
+organization’s whitepaper, if it has one.
+The DAOs were further separated into market categories based on their primary
+purpose in the industry. The market categories are: Investment DAOs, Political Action
+DAOs, Oracle DAOs, Decentralized Insurance, Charity DAOs, Media DAOs, and
+Services DAOs. The support for each metric’s score can be found in the appendix. The
+following graphs illustrate how each DAO was scored in comparison with their peers
+and provide valuable insight into the strengths and weaknesses of each DAO and their
+respective market category.
+ScoringMethodology
+To assess the performance and characteristics of various decentralized autonomous
+organizations (DAOs), the author created a comprehensive scoring metric. This metric
+evaluates six key attributes essential for the sustainability and effectiveness of a DAO:
+Decentralization, Attack Resistance, Governance, Regulatory Compliance, Work to
+Earn, and Organizational Communication. Each attribute is scored on a scale of 1 to 10,
+with higher scores indicating better alignment with the ideals of a sustainable DAO
+Decentralization (“D”) scores reflect the distribution of power and decision-making
+authority within the DAO. A score of 10 suggests a fully decentralized organization with
+anonymous participation, minimal barriers to entry, and well-distributed power. Lower
+scores indicate increasing centralization, with power concentrated in the hands of a few
+individuals or a central authority.
+Attack Resistance scores (“A”) assess a DAO's ability to withstand common attacks,
+such as 51% attacks or Sybil attacks. Higher scores suggest robust security measures,
+such as the use of reputation-based governance, multi-signature wallets, or other
+protective mechanisms. Lower scores indicate vulnerability to attacks, often due to the
+use of easily purchasable or transferable governance tokens.
+11
+
+Version10.0-May2024
+Governance scores (“G”) evaluate the sustainability and effectiveness of a DAO's
+governance protocols. High scores, such as 9 or 10, indicate the presence of
+mechanisms to prevent common governance failures, such as the tyranny of the
+majority or the tragedy of the commons. These may include reputation-based voting,
+multi-round voting, or incentive structures that align individual interests with the overall
+health of the DAO. Lower scores suggest a lack of safeguards against governance
+failures and potential centralization of decision-making power.
+Regulatory Compliance scores (“R”) reflect a DAO's ability to operate within legal
+frameworks and interact with real-world entities. Higher scores indicate the use of
+appropriate legal wrappers, such as LLC or foundation structures, and compliance with
+relevant regulations in the DAO's jurisdiction. Lower scores suggest a lack of legal
+recognition or a failure to address regulatory requirements.
+Work to Earn scores (“W”) assess the opportunities for individuals to contribute to the
+DAO and earn rewards based on their work. High scores indicate the presence of
+well-defined contribution mechanisms, such as bounty systems or reputation-based
+reward distribution. Lower scores suggest limited opportunities for meaningful
+contribution or a lack of clear incentive structures.
+Organizational Communication scores (“O”) evaluate a DAO's ability to facilitate
+effective communication and collaboration among its members. Higher scores indicate
+the use of dedicated communication platforms, such as forums or chat systems, and the
+presence of mechanisms to encourage meaningful discussion and reward valuable
+contributions. Lower scores suggest a reliance on third-party platforms or a lack of
+incentives for active engagement.
+By considering the scores across these six attributes, it is possible to gain insight into
+the strengths, weaknesses, and overall sustainability of different DAOs. While no
+scoring system is perfect, and that some attributes may have changed by the time of
+publication, this metric aims to provide a structured approach to evaluating the key
+characteristics that contribute to the success or failure of decentralized organizations.
+Descriptivestatistics
+12
+
+Version10.0-May2024
+Figure 1: This graph displays the total scores of DAOs (Decentralized Autonomous
+Organizations) across various industries. The scores range from 0 to 60, with notable
+fluctuations between different industries. The data indicates that no single industry
+consistently outperforms others, suggesting a diverse performance landscape for DAOs
+across different sectors.
+13
+
+Version10.0-May2024
+Figure 2: This graph presents a detailed scoring card for DAOs across various
+industries, highlighting their performance in different categories such as
+decentralization, attack resistance, governance, regulatory compliance, work to earn,
+and organizational communication. The total scores, represented by the line graph,
+show significant variation among the industries, with DeScience DAOs and Data
+Analysis DAOs scoring the highest. The bar chart beneath each industry segment
+provides insight into the specific performance metrics contributing to the overall scores,
+revealing a multifaceted evaluation of each DAO's strengths and weaknesses.
+14
+
+Version10.0-May2024
+Figure 3: This graph illustrates the decentralization scores of various DAOs, with scores
+ranging from 1 to 10. The average decentralization score across all DAOs is 4.25, with
+the highest score being 9 and the lowest being 1. The data shows a wide distribution of
+decentralization levels among the DAOs, indicating significant variability in how
+decentralized these organizations are.
+Figure 4: This graph shows the attack resistance scores of various DAOs, with scores
+ranging from 0 to 10. The average score is 3.65, with the highest score being 9 and the
+15
+
+Version10.0-May2024
+lowest being 0. The data reveals a broad range of attack resistance across the DAOs,
+indicating that some are highly resistant to attacks, while others are much more
+vulnerable.
+Figure 5: This graph presents the governance scores of various DAOs, with scores
+ranging from 0 to 10. The data indicates that there is considerable variation in
+governance quality among the DAOs, with some scoring as high as 9 while others score
+much lower. This suggests that while some DAOs have strong governance structures in
+place, others may need to improve their governance mechanisms to achieve better
+organizational performance and reliability.
+16
+
+Version10.0-May2024
+Figure 6: This graph displays the regulatory compliance scores of various DAOs, with
+scores ranging from 1 to 10. The average score is 3.22, with the highest score being 9
+and the lowest score being 1. The distribution of scores suggests that many DAOs
+struggle with regulatory compliance, with only a few achieving higher scores. This
+indicates that regulatory compliance is a challenging area for many DAOs, and there is
+significant room for improvement across the sector.
+17
+
+Version10.0-May2024
+Figure 7: This graph illustrates the "Work to Earn" scores for various DAOs, with values
+ranging from 1 to 10. The average score across all DAOs is 4.1, with the highest score
+being 9 and the lowest score being 1. The distribution of scores indicates that there is a
+moderate level of effectiveness in the work-to-earn mechanisms across most DAOs,
+with some performing significantly better than others. This variability suggests that while
+some DAOs have well-developed systems for rewarding work, others may need to
+improve their structures to enhance incentives for contributors.
+18
+
+Version10.0-May2024
+Figure 8: This graph depicts the organizational communication scores of various DAOs,
+with scores ranging from 1 to 10. The average score is 4.32, indicating a moderate level
+of effectiveness in communication across these organizations. The highest score is 10,
+showing that some DAOs excel in this area, while the lowest score is 1, suggesting
+significant room for improvement in others. The distribution of scores highlights the
+variability in how well DAOs communicate within their organizations, impacting their
+overall coordination and efficiency.
+19
+
+Version10.0-May2024
+Figure 9: This graph compares the scores of five Investment DAOs (Fingerprints,
+Metacartel Venture, ApeCoin, Decubate, and Mantle) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Each DAO exhibits a unique profile of
+strengths and weaknesses. For instance, Metacartel Venture has high decentralization
+and organizational communication scores, while Fingerprints excels in regulatory
+compliance and governance. In contrast, ApeCoin shows balanced scores across most
+categories but has lower decentralization. Decubate and Mantle demonstrate varied
+performance, with Decubate scoring higher in governance and organizational
+communication, whereas Mantle has a more balanced yet lower overall score. This
+comparison highlights the diverse capabilities and focus areas within Investment DAOs.
+20
+
+Version10.0-May2024
+Figure 10: This graph compares the scores of five Art and Culture DAOs (Moda, Rally,
+Botto, Rari Foundation, and SuperRare) across seven criteria: Organizational
+Communication, Work to Earn, Regulatory Compliance, Governance, Attack
+Resistance, and Decentralization. Moda shows a balanced profile with moderate scores
+in most categories, while Rally excels in organizational communication but lags in
+decentralization and regulatory compliance. Botto has high scores in decentralization
+and work to earn but lower scores in other areas. Rari Foundation stands out in
+organizational communication and work to earn but falls short in attack resistance.
+SuperRare displays a high level of decentralization and organizational communication
+but lower scores in governance and attack resistance. This analysis highlights the
+diverse strengths and weaknesses among Art and Culture DAOs, indicating varying
+levels of focus and development in key operational areas.
+21
+
+Version10.0-May2024
+Figure 11: This graph compares the performance of five DAO Tools (Orbs, Galaxe,
+UMA, ENS, and Gnosis) across seven categories: Organizational Communication, Work
+to Earn, Regulatory Compliance, Governance, Attack Resistance, and Decentralization.
+Orbs and Galaxe exhibit balanced profiles with moderate scores in most categories,
+though Galaxe has a lower score in governance. UMA shows strong performance in
+organizational communication and regulatory compliance, but lower in attack resistance.
+ENS stands out with high regulatory compliance but has lower scores in work to earn
+and attack resistance. Gnosis shows balanced performance across all categories, with
+slightly higher scores in decentralization and regulatory compliance. This comparison
+highlights the diverse capabilities and focus areas among the DAO Tools, indicating
+varying levels of development and strengths in different operational aspects.
+22
+
+Version10.0-May2024
+Figure 12: This graph evaluates five Decentralized Finance (DeFi) DAOs (Goldfinch
+DAO, Aave, Olympus DAO, QiDAO, and MakerDAO) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Goldfinch DAO shows balanced scores across
+all categories, with a slight strength in governance. Aave excels in decentralization and
+organizational communication but has lower scores in regulatory compliance and attack
+resistance. Olympus DAO has high decentralization and work-to-earn scores, indicating
+strong incentives and autonomy, but scores lower in other areas. QiDAO demonstrates
+a balanced performance with moderate scores in all categories. MakerDAO excels in
+decentralization and governance but has lower scores in attack resistance and
+regulatory compliance. This analysis highlights the diverse strengths and areas for
+improvement among DeFi DAOs, with a particular emphasis on decentralization and
+governance.
+23
+
+Version10.0-May2024
+Figure 13: This graph compares the scores of five Decentralized Science DAOs (Data
+Lake, MoonDAO, VitaDAO, HairDAO, and Researchhub) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Data Lake exhibits strong performance in
+organizational communication and decentralization but lower in regulatory compliance
+and governance. MoonDAO shows balanced scores across all categories, with slightly
+higher performance in decentralization. VitaDAO excels in work to earn and
+organizational communication, indicating strong incentive structures and effective
+communication, but scores lower in regulatory compliance. HairDAO has high
+regulatory compliance and decentralization scores but lower scores in governance and
+attack resistance. Researchhub shows balanced scores with slightly higher
+performance in governance and decentralization, indicating a well-rounded approach to
+decentralized science. This analysis highlights the varied strengths and focus areas of
+Decentralized Science DAOs, reflecting their unique approaches to achieving scientific
+collaboration and innovation.
+24
+
+Version10.0-May2024
+Figure 14: This graph evaluates five Media and Communication DAOs (Mail3, Global
+Coin Research, Bankless DAO, Push Protocol, and Seedclub) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Mail3 shows moderate scores across all
+categories, with slightly higher performance in organizational communication. Global
+Coin Research has balanced scores, with a notable strength in organizational
+communication and decentralization. Bankless DAO stands out with high
+decentralization and organizational communication scores but lower in attack resistance
+and regulatory compliance. Push Protocol shows a balanced performance, with
+relatively high scores in regulatory compliance and governance. Seedclub exhibits
+strong decentralization and work-to-earn scores but lower in attack resistance and
+governance. This analysis highlights the varied strengths and areas for improvement
+among Media and Communication DAOs, with decentralization and organizational
+communication being key strengths.
+25
+
+Version10.0-May2024
+Figure 15: This graph evaluates five Gaming DAOs (Illuvium, ParagonsDAO, Merit
+Circle, Decentraland, and Magic Square) across seven criteria: Organizational
+Communication, Work to Earn, Regulatory Compliance, Governance, Attack
+Resistance, and Decentralization. Illuvium shows balanced scores with moderate
+performance in most categories, particularly in organizational communication and
+decentralization. ParagonsDAO has lower scores overall, with slightly higher
+performance in governance and organizational communication. Merit Circle exhibits
+balanced and moderate scores across all categories, with a slight edge in
+decentralization and organizational communication. Decentraland stands out with high
+scores in decentralization and organizational communication but lower in regulatory
+compliance and attack resistance. Magic Square shows strong performance in attack
+resistance and organizational communication but lower scores in other areas. This
+analysis highlights the strengths and areas for improvement among Gaming DAOs, with
+decentralization and organizational communication being notable strengths for some
+DAOs.
+26
+
+Version10.0-May2024
+Figure 16: This graph compares the performance of five Work and Funding DAOs
+(NounsDAO, Dtravel, Gitcoin, Radicle, and Yield Guild Games) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. NounsDAO exhibits balanced scores across
+all categories, with a slight emphasis on decentralization and governance. Dtravel
+shows strong performance in regulatory compliance and governance but lower in attack
+resistance and work to earn. Gitcoin excels in regulatory compliance and
+decentralization but has lower scores in organizational communication and attack
+resistance. Radicle has high decentralization and governance scores but falls short in
+attack resistance and regulatory compliance. Yield Guild Games demonstrates strong
+decentralization and work to earn scores, indicating effective incentive structures, but
+lower performance in regulatory compliance and governance. This analysis highlights
+the diverse strengths and focus areas among Work and Funding DAOs, with
+decentralization being a common strength across most DAOs.
+27
+
+Version10.0-May2024
+Figure 17: This graph evaluates five Political/Greater Good DAOs (Pool Together,
+Paladin, KlimaDAO, UXD Protocol, and Silo Finance) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Pool Together shows balanced scores across
+all categories, with slightly higher performance in organizational communication and
+governance. Paladin has similar balanced scores but excels in decentralization and
+governance. KlimaDAO demonstrates moderate performance in all areas, with a slight
+emphasis on regulatory compliance and governance. UXD Protocol stands out with a
+high score in regulatory compliance but lower scores in decentralization and
+organizational communication. Silo Finance exhibits balanced scores, with strengths in
+organizational communication and governance but slightly lower in attack resistance
+and regulatory compliance. This analysis highlights the varied strengths and focus
+areas of Political/Greater Good DAOs, with governance and organizational
+communication being common strengths.
+28
+
+Version10.0-May2024
+Figure 18: This graph evaluates the performance of ten Infrastructure DAOs (Hop DAO,
+TomiDAO, API3, InstaDapp, Gelato DAO, BrainDAO, DIMO, Polkadot, Polygon, and
+Arbitrum) across seven criteria: Organizational Communication, Work to Earn,
+Regulatory Compliance, Governance, Attack Resistance, and Decentralization. Hop
+DAO and TomiDAO exhibit balanced profiles with moderate scores across most
+categories, although TomiDAO excels slightly in decentralization and governance. API3
+shows strong performance in decentralization and governance but lower in attack
+resistance and work to earn. InstaDapp has balanced scores with higher performance in
+regulatory compliance and governance. Gelato DAO stands out with high scores in
+attack resistance but lower in organizational communication and governance.
+BrainDAO exhibits strong performance in decentralization and attack resistance but falls
+short in regulatory compliance and work to earn. DIMO has moderate scores across all
+categories, with a slight emphasis on decentralization and organizational
+communication. Polkadot, Polygon, and Arbitrum display high scores in most
+categories, with Polkadot and Polygon excelling in organizational communication and
+regulatory compliance, while Arbitrum shows strong attack resistance and
+decentralization. This analysis highlights the diverse strengths and focus areas among
+Infrastructure DAOs, with decentralization, governance, and regulatory compliance
+being key strengths for many of these organizations.
+29
+
+Version10.0-May2024
+Figure 19: This graph evaluates five Data Analysis DAOs (Bakery DAO, Dapp Radar,
+CrunchDAO, RocketStar Foundation, and The Graph) across seven criteria:
+Organizational Communication, Work to Earn, Regulatory Compliance, Governance,
+Attack Resistance, and Decentralization. Bakery DAO shows balanced scores across all
+categories, with moderate performance in organizational communication and
+governance. Dapp Radar excels in decentralization but has lower scores in regulatory
+compliance and attack resistance. CrunchDAO stands out with high scores in
+decentralization and organizational communication but lower in governance. RocketStar
+Foundation demonstrates balanced performance with slightly higher scores in
+organizational communication and decentralization. The Graph shows strong
+performance in decentralization and attack resistance but lower in regulatory
+compliance and governance. This analysis highlights the varied strengths and areas for
+improvement among Data Analysis DAOs, with decentralization and organizational
+communication being common strengths.
+30
+
+Version10.0-May2024
+Conclusion
+This study introduces a comprehensive scoring metric to evaluate the performance and
+sustainability of various Decentralized Autonomous Organizations (DAOs) across six key
+attributes: Decentralization, Attack Resistance, Governance, Regulatory Compliance, Work to
+Earn, and Organizational Communication.Eachattributeisassessedonascaleof1to10,where
+higher scores indicate better alignment with theidealsofasustainableDAO.Byanalyzingthese
+attributes, we can identify the strengths and weaknesses of DAOs and gain insights into their
+overallsustainabilityandeffectiveness.
+Decentralization is crucial for the equitable distribution of power within a DAO. Higher
+decentralization scores indicate that power and decision-making are well-distributed among
+participants, promoting a truly decentralized governance structure. On the other hand, lower
+scoressuggestcentralizationofauthority,potentiallyunderminingthecoreprinciplesofaDAO.
+Attack Resistance measures the ability of a DAO towithstandcommonsecuritythreats,suchas
+51% attacks or Sybil attacks. High scores in this category reflect robust security mechanisms,
+such as reputation-based governance and multi-signature wallets, while lower scores indicate
+vulnerabilitiesthatcouldcompromisetheorganization'sintegrity.
+Governance assesses the mechanisms in place to ensure effective and sustainable
+decision-making. DAOs with high governance scores typically implement advanced voting
+systems and incentive structures that prevent governance failures andalignindividualinterests
+with the overall health of the organization. Conversely, lower scores highlight the need for
+improvedgovernanceprotocolstoavoidpotentialcentralizationandinefficiencies.
+Regulatory Compliance evaluates how well a DAO adheres to relevant legal frameworks. High
+scores in this area indicate the use of appropriate legal structures and compliance with
+jurisdictional regulations, essential for the DAO's legitimacy and ability to interact with
+real-world entities. Low scores suggest a lack of legal recognition andpotentialrisksassociated
+withregulatorynon-compliance.
+Work to Earn measures the opportunities available forindividualstocontributetotheDAOand
+earn rewards. High scores reflect well-definedmechanismsforrewardingcontributions,suchas
+bounty systems and reputation-based reward distribution, ensuring that contributors are fairly
+compensated fortheirefforts.Lowerscoresindicatelimitedopportunitiesandunclearincentive
+structures,whichcouldhindermemberengagementandparticipation.
+Organizational Communication assesses the effectiveness of communication within the DAO.
+High scores denote the use of dedicated platforms that facilitate meaningful discussions and
+collaborations, encouraging active member participation. Lower scores suggest reliance on
+third-party platforms and a lack of incentives for engagement, which can impair the
+organization'soverallcoordinationandefficiency.
+31
+
+Version10.0-May2024
+The descriptive statistics and visual representations provided offer a detailed view of the
+performance landscape for DAOs across different sectors. For instance, DeScience and Data
+Analysis DAOs generally score higher in overall performance metrics, while Investment and Art
+and Culture DAOs exhibit unique profiles of strengths and weaknesses. Furthermore, detailed
+graphs illustrate specific attributes like decentralization, attack resistance, governance, and
+regulatorycompliance,highlightingthevariabilityinperformanceamongdifferentDAOs.
+The analysis of these attributes reveals significant variability in the decentralization, security,
+governance, regulatorycompliance,workincentives,andcommunicationeffectivenessofDAOs.
+Some DAOs excel in particular areas while others need substantial improvement, emphasizing
+thediverseapproachesanddevelopmentalstagesofDAOsacrossindustries.
+This comprehensive evaluation framework aims to provide a structured approach to
+understanding the key characteristics that contribute to the success or failure of decentralized
+organizations. By identifying areas for improvement and leveraging strengths, DAOs can
+enhance their sustainability and effectiveness, fostering a more robust and resilient ecosystem
+inthedecentralizedlandscape.
+32
+
+Version10.0-May2024
+APPENDIXA:DAODataset
+All DAOs that were used in this dataset are listed and generically described below .
+ResearchHub
+ResearchHub is a decentralized platform that leverages blockchain for scientific
+research, sharing, and funding. It plans to distribute editorial powers to top users,
+indicating moderate decentralization (D: 4). The platform needs more robust defenses
+against common DAO attacks (A: 4). ResearchHub has an evolving tokenized
+reputation system, but centralization risk persists (G: 6) . It operates as a privately held
+corporation and is not registered as a DAO (R: 4). Nonetheless, it has a strong model
+for reputation and token rewards aligned with user contributions (W: 8) and facilitates
+structured discussions effectively (O: 7).
+HairDAO
+HairDAO leverages the Ethereum blockchain for democratic participation in the hair
+care industry. It boasts a high level of decentralization through Ethereum and
+democratic token distribution (D: 8) . However, it still needs to improve its defenses
+against token hoarding despite using a multi-sig wallet (A: 4). Governance remains
+somewhat centralized as voting tokens are purchasable (G: 4), although it is legally
+robust, being registered in Wyoming (R: 9) . The DAO rewards contributions with $HAIR
+tokens but lacks nuance in assessing the quality of contributions (W: 6). Communication
+within the DAO is facilitated via Discord, though there's room for better integration of
+tools to ensure all voices are heard (O: 6).
+VitaDAO
+VitaDAO is an Ethereum-based DAO designed to democratize participation in
+biomedical research decision-making. It operates with high decentralization and
+encourages wide community involvement (D: 8) . The DAO employs NFTs to protect
+intellectual property and benefits from Ethereum's security (A: 7). Its governance
+structure is robust, encouraging community debate before voting (G: 8) . Although it
+employs novel approaches for IP with NFTs, regulatory guidelines need to be clearer
+across jurisdictions (R: 6). Researchers earn VITA tokens for their contributions, aligning
+with the DAO’s goals, but incentives could be improved (W: 7) . VitaDAO uses Discord
+and forums to facilitate transparent and inclusive governance discussions (O: 8).
+MoonDAO
+MoonDAO combines various governance structures, balancing power across groups but
+maintaining some centralized elements like a Senate and Executive Branch, resulting in
+moderate decentralization (D: 4) . Despite using governance tokens and staking to
+33
+
+Version10.0-May2024
+distribute power, some attack vulnerabilities persist (A: 6). The governance structure
+aims for democratic balance but the fixed token supply could result in centralized power
+over time (G: 4) . Regulatory compliance is weak as it operates under LuckDAO Limited
+without comprehensive strategies across jurisdictions (R: 3). Token earnings via
+projects and governance are currently limited and benefit existing holders (W: 4) . The
+DAO holds regular meetings for transparency but relies significantly on third-party
+platforms (O: 6).
+Data Lake
+Data Lake leverages blockchain technology to decentralize medical data management,
+focusing on access and consent (D: 4) . It uses blockchain for security but could
+improve defenses against sophisticated attacks (A: 6). The governance contains some
+centralization, with strategic decisions led by the founders, but aims for token-based
+community voting (G: 5) . Being organized in Poland, Data Lake complies with EU data
+privacy laws such as GDPR (R: 7). The DAO incentivizes data-sharing participation with
+$LAKE tokens, creating a sustainable ecosystem (W: 7) . It facilitates communication
+between researchers and providers effectively but could expand community tools (O: 6).
+Gelato DAO
+Gelato DAO is the governance framework overseeing the Gelato protocol, facilitating
+automated smart contract executions on Ethereum. It is highly centralized as users
+must purchase governance tokens to vote, limiting power to majority token holders (D:
+1). The platform is highly vulnerable to 51% and sock puppet attacks due to the
+purchasable governance tokens (A: 1). Governance favors majority token holders and
+could benefit from incorporating a reputation-based system and incentives (G: 1).
+Regulatory compliance is ensured through a GmbH (LLC equivalent) but lacks
+jurisdictional clarity (R: 5). While it allows staking for the right to earn fees, the system
+lacks nuanced, reputation-based token distribution (W: 3). Communication is facilitated
+through both DAO-run and third-party forums, but incentives for rewarding meaningful
+content are absent (O: 4).
+Instadapp
+Instadapp is a DeFi platform offering simplified tools for interacting with Ethereum’s
+DeFi protocols. The governance is centralized as users must purchase governance
+tokens, giving majority power to token holders (D: 1). It remains highly vulnerable to
+51% and sock puppet attacks due to the governance token model (A: 1). Governance
+also favors majority token holders and lacks incentives tied to a reputation-based
+system (G: 1). It employs an LLC legal wrapper, but the jurisdiction is unknown (R: 4).
+Users can participate in a bug bounty program with fixed payouts, providing better
+work-to-earn opportunities than other DAOs in this list (W: 4). Communication is
+34
+
+Version10.0-May2024
+structured through both DAO-run and third-party forums but could be enhanced by
+incentivizing valuable contributions (O: 4).
+API3
+API3 is a decentralized oracle solution designed to bridge real-world data with
+blockchain smart contracts. Despite its innovative approach, governance is centralized,
+requiring users to purchase governance tokens (D: 1). While token staking offers some
+security, it is inadequate to prevent centralization and governance token accumulation
+(A: 2). Governance is similarly centralized, favoring major token holders and lacking a
+reputation-based system (G: 1). It operates under a Cayman Islands foundation,
+necessitating a physical office (R: 5). Users can earn via inflationary staking rewards,
+but there is room for improvement in terms of reputation-based distribution (W: 3). Like
+others, it uses both DAO-run and third-party forums for communication, though there
+are no significant incentives for rewarding meaningful content (O: 4)
+TomiDAO
+TomiDAO is focused on governance and participation in the TOMI DeFi ecosystem on
+Ethereum. With a one-person, one-vote structure and small centralized committees, it
+maintains moderate decentralization (D: 5). The one-person, one-vote model increases
+resistance to 51% and sock puppet attacks (A: 6). Governance could still improve with a
+reputation-based system, staking, and salary incentives (G: 5). The lack of a legal
+wrapper poses substantial risks, as it could be deemed a partnership by estoppel if
+sued (R: 1). In terms of work-to-earn, it allows bug bounty participation with fixed
+payouts, but the system lacks reputation-based distribution (W: 4). The DAO uses
+third-party forums for communication, which could be enhanced by creating internal
+systems to reward valuable content (O: 4).
+Hop DAO
+Hop DAO focuses on cross-chain interoperability and liquidity provisioning. Its
+governance is highly centralized, as users must purchase governance tokens, limiting
+power to majority token holders (D: 1). It remains highly susceptible to 51% and sock
+puppet attacks due to the purchased governance tokens (A: 1). The governance
+structure favors majority token holders, indicating a need for a reputation-based system
+and incentives (G: 1). Lacking a legal wrapper, it is at risk of being deemed a
+partnership by estoppel in legal disputes (R: 1). The DAO does not offer paid work
+opportunities for participants, stifling engagement (W: 1). Communication happens
+through both DAO-run and third-party forums, but there are no incentives to encourage
+meaningful content creation (O: 3).
+35
+
+Version10.0-May2024
+Magic Square
+Magic Square is an algorithmic trading and investment strategies DAO that leverages
+collective intelligence. The DAO aims to distribute power, but there are risks of
+centralization in the validation process (D: 4). It has some security measures, but
+potential vulnerabilities exist in the concentration of power among its validators (A: 4) .
+The governance structure lacks detailed mechanisms to prevent common failures such
+as tyranny of the majority or tragedy of the commons (G: 4). Although efforts have been
+made for regulatory compliance, detailed information on legal status and compliance is
+lacking (R: 3). While there are opportunities for developers and validators to earn, the
+lack of specifics on outsourcing limits these opportunities (W: 5). Organizational
+communication exists, but its effectiveness and responsiveness are unclear (O: 4) .
+Decentraland
+Decentraland is a virtual world DAO governed by its inhabitants, shaping digital
+economies and communities. The DAO emphasizes decentralization but lacks details
+on governance structures and voting mechanisms, leading to moderate decentralization
+(D: 5) . It has implemented measures like blockchain and decentralized ledgers to
+enhance attack resistance, but specifics are missing (A: 6). While it has a governance
+structure, explicit information on the mechanisms to prevent common pitfalls is lacking
+(G: 5). Regulatory compliance is another weak area, as Decentraland may not have
+explicit legal recognition or compliance (R: 3). There is potential for monetization, but it
+lacks specific implementation details or success data (W: 4). Communication focuses on
+technical and economic aspects but lacks detail on communication tools or processes
+(O: 4) .
+Merit Circle
+Merit Circle is a DAO supporting philanthropic endeavors and incentivizing positive
+contributions. It provides a foundational framework for decentralization but lacks
+detailed information on voting power distribution and risk mitigation (D: 5) . The role of
+the $BEAM token is highlighted, but explicit information on security protocols or
+measures against attacks is missing (A: 4). Positive elements like tokenholder voting
+are present, but detailed mechanisms to mitigate common risks are lacking (G: 5).
+Though the DAO considers compliance to some extent, it lacks deep details on legal
+status or compliance steps (R: 4). The "Work to Earn" model is general and lacks
+specifics on the process, transparency, and inclusivity of opportunities (W: 5). Though a
+resource hub is mentioned, detailed information on communication tools or platforms is
+absent (O: 4) .
+36
+
+Version10.0-May2024
+ParagonsDAO
+ParagonsDAO focuses on bridging traditional and decentralized finance through asset
+tokenization and management. The DAO outlines a permissionless lending system but
+lacks details on decision-making authority and inclusivity, leading to moderate
+decentralization (D: 4) . It implements permissionless lending and a reputation-based
+protocol, but the lack of technical implementation specifics reduces attack resistance (A:
+5). The governance structure is weak, lacking detailed information on how it addresses
+common pitfalls (G: 3). Regulatory compliance is also minimal, with no clear indication
+of addressing compliance or legal recognition (R: 2). Opportunities exist to earn
+reputation through gameplay, but other avenues are not explicitly mentioned (W: 4).
+Communication protocols or platforms for member discussion are not explicitly outlined
+(O: 3) .
+Illuvium
+Illuvium pioneers decentralized gaming, redefines the gaming experience through
+player-owned economies and community-driven development. Though the liquidity
+mining program aims to distribute tokens, it lacks clarity on voting power distribution and
+centralization risks (D: 5) . Decentralized governance and the use of blockchain provide
+some resistance to attacks, but specific details on security measures are missing (A: 4).
+Governance shows commitment to community involvement but lacks detailed
+mechanisms to address common failures (G: 4). There is limited information on legal
+recognition and interactions with real-world entities, affecting regulatory compliance (R:
+2). While there are opportunities to propose and work on projects, the DAO lacks
+specifics on accessibility and inclusivity (W: 5). Illuvium prioritizes community
+involvement and transparency but lacks detailed information on communication tools
+and processes (O: 5) .
+ENS (Ethereum Name Service)
+ENS (Ethereum Name Service) is a distributed naming system built on the Ethereum
+blockchain that provides human-readable names for Ethereum addresses. Its structure
+and working groups promote decentralized decision-making, although the presence of a
+Cayman Islands foundation and core team members introduces some centralization (D:
+6). Utilizing off-chain voting through the Snapshot platform aligns with the "1 person, 1
+vote" principle, but it lacks extensive details on defense mechanisms against specific
+attack vectors (A: 5). The governance structure, while participative through executable
+proposals and working groups, lacks explicit reputational governance mechanisms and
+incentives (G: 5). The Cayman Islands foundation provides a legal wrapper, but the
+connection between the legal structure and internal governance is unclear (R: 5).
+Contributors can engage through working groups and steward roles, yet detailed
+token-based reputation systems or explicit work-to-earn incentives are absent (W: 4).
+37
+
+Version10.0-May2024
+Communication is facilitated through forums and open discussion platforms, but lacks
+formal token-based incentivization for participation (O: 5).
+Gnosis
+Gnosis is a platform for creating and trading prediction markets, enabling speculation on
+event outcomes. It utilizes a diverse validator set and encourages community
+participation in governance, projecting a high level of decentralization tempered by the
+influence of the Gnosis Foundation and core team (D: 6). While its large validator set
+offers some protection against attacks, detailed information on specific attack scenarios
+or mitigation strategies is lacking (A: 5). The DAO structure enables community
+members to submit proposals and vote, though discussions on long-term sustainability
+or reputational incentives are minimal (G: 6). As a decentralized platform with potential
+for legal recognition, Gnosis navigates the regulatory landscape effectively (R: 7). Users
+can participate in governance and benefit from prediction market success, though
+explicit work-to-earn programs or incentives are limited (W: 4). Forums and channels
+facilitate community discussion, but token-based incentivization for participation is
+absent (O: 5).
+UMA (Universal Market Access)
+UMA is a decentralized platform that enables the creation of financial contracts and
+synthetic assets on Ethereum. It facilitates decentralized financial contracts without
+relying on centralized intermediaries, although the influence of its core team and a
+U.S.-based legal entity suggests incomplete decentralization (D: 5). Economic
+incentives and the Data Verification Mechanism (DVM) help mitigate risks, but a more
+detailed quantitative analysis of potential attack vectors is needed (A: 5). The
+governance model includes token voting and DVM, although it lacks an in-depth
+discussion of long-term sustainability and resilience (G: 5). The U.S.-based legal entity
+provides some regulatory clarity, but compliance with various jurisdictions' laws is
+uncertain due to the evolving landscape (R: 4). Users can earn rewards by creating and
+providing liquidity to contracts or participating in dispute resolution, but explicit
+work-to-earn programs or incentive structures are missing (W: 3). Communication
+channels exist to inform and engage the community, but token-based incentives for
+participation are not in place (O: 5).
+Galaxe
+Galaxe is a decentralized identity protocol that leverages zero-knowledge proofs and
+verifiable credentials for secure, private identity management. It employs decentralized
+architecture and allows users to store identity data locally, but some centralized
+components persist (D: 5). While zero-knowledge proofs and blinded credentials
+provide strong privacy protection, more detailed analysis of potential attack scenarios
+38
+
+Version10.0-May2024
+and countermeasures is needed (A: 4). The high-level governance process involves
+community participation but lacks detailed mechanisms for proposing, debating, and
+implementing changes (G: 2). Emphasis on user control and privacy may conflict with
+various regulatory requirements, presenting significant compliance challenges (R: 1).
+Users can potentially monetize identity data by selectively sharing with third parties, but
+structured work-to-earn programs or incentive mechanisms are insufficient (W: 2).
+Communication channels exist to inform the community and facilitate discussions,
+though explicit token-based participation incentives are absent (O: 4).
+Orbs
+Orbs is a public blockchain infrastructure that supports large-scale decentralized
+applications and interoperability with EVM-based Layer 1 blockchains. It relies on a
+decentralized set of permissionless validators to promote an open and inclusive
+ecosystem, although the role of the Orbs team in appointing block producers suggests
+some centralization (D: 5). It employs the Randomized Proof-of-Stake consensus and a
+large validator set to enhance network resilience, but greater analysis of specific attack
+vectors and defense mechanisms is necessary (A: 5). Governance tools like the Orbs
+Voting Weight mechanism facilitate stakeholder participation, but a comprehensive
+governance model is lacking (G: 4). The focus on public blockchain infrastructure and
+integration with various Layer 1 networks subjects the DAO to complex regulatory
+requirements across jurisdictions (R: 4). Validators and delegators can earn rewards for
+securing the network and participating in consensus, but explicit work-to-earn programs
+or incentive mechanisms for contributors are missing (W: 3). Communication channels
+aim to inform stakeholders and facilitate discussions, yet lack clear token-based
+incentives for participation (O: 4).
+Maker DAO
+Maker DAO is a decentralized finance platform focused on creating and managing the
+stablecoin DAI. Its decentralization efforts are hindered by its bootstrap to the Maker
+Foundation and the purchasable nature of the governance token (D: 3). Built-in
+protections like oracles, keepers, 2-step voting, and emergency shutdowns bolster its
+security, but it remains vulnerable to 51% attacks due to the purchasable governance
+token (A: 4). The governance process includes 2-step voting with temperature checks,
+but the purchasable governance token makes true decentralization nominal (G: 4).
+Maker DAO lacks separation from its founding entity, providing no compatible legal
+wrapper for DAOs and possibly being based in Denmark (R: 1). There are no
+work-to-earn opportunities, with DAI or MKR only obtainable through investment (W: 2).
+Although the DAO has its own forums with substantial participation and sub-forums, it
+lacks a reputation system for participation (O: 4) .
+39
+
+Version10.0-May2024
+Qi DAO
+Qi DAO is a decentralized finance platform aimed at stabilizing the stablecoin MAI.
+Despite its claims that Qi can be received through participation and work, the
+documentation is unclear and not transparent, affecting its decentralization score (D: 5).
+Community voting is based on Qi holdings, with no apparent defense against 51%
+attacks, although it may resist sockpuppet attacks if holders are unwilling to sell (A: 2).
+The platform lacks a reputation system, 2-step voting, and clear payouts based on Qi
+holdings; it only offers proportional voting through Snapshot (G: 3). The founders are
+anonymous, and there is no information indicating a legal entity (R: 1). Work-to-earn
+opportunities are claimed but unclear, and profits can be withheld (W: 3).
+Communication is limited to Discord, with no differentiation of members based on
+participation and no engagement measurement (O: 2) .
+Olympus DAO
+Olympus DAO is a decentralized reserve currency protocol. While the governance
+council leads rather than votes, and emergency status guardians are appointed,
+governance tokens are obtained through investment, leading to a fairly decentralized
+structure (D: 6). It has a transparent voting process using 2-step voting, staking on
+votes, and Snapshot, but the voting power is purchasable by wrapping assets (A: 4).
+The governance token, gOHM, is used for loans but remains purchasable, making the
+governance process somewhat transparent but centralized (G: 3). Without legal
+registration, Olympus DAO relies on anonymity to avoid legal action (R: 1). The DAO
+does not offer work-to-earn opportunities, as gOHM is purchased rather than earned
+through working (W: 1). Forums are used primarily for voting, and discussion
+predominantly occurs on Discord without reputation for discussion (O: 3) .
+Aave
+Aave is a decentralized lending platform. It maintains a high level of decentralization;
+contributors are welcome to join groups, work on the Protocol, or complete bounties.
+However, delegation and community-elected guardians can centralize power to some
+extent (D: 7). The governance involves 2-step voting, proportional voting, and guardians
+with vetoes, providing some protection despite its vulnerability to 51% attacks (A: 4).
+Governance is not reputation-based, as the tokens can be purchased, reducing the
+overall effectiveness of decentralization (G: 2). The DAO lacks a legal wrapper, and
+although a proposal to add a Cayman Foundation failed, the Cayman Islands'
+crypto-friendliness adds a slight advantage (R: 2). Bounties are available within Aave,
+allowing profit through work, though there is no general structure for payouts or
+work-to-earn opportunities (W: 5). Communication is strong, using Discord, Snapshot,
+and Aave forums with impressive community engagement, yet lacking measures for
+engagement or reputation (O: 5) .
+40
+
+Version10.0-May2024
+Goldfinch DAO
+Goldfinch DAO is a decentralized credit platform. It allows open investing and
+borrowing, awarding GFI to investors, yet the Goldfinch Council has the final say on any
+vote, balancing community input with centralized decision-making (D: 3). The council's
+veto power offers resistance to external attacks but risks internal corruption, and
+quadratic voting is used for community decisions (A: 5). The governance process
+involves all community votes being reviewed by the council, which is not democratically
+elected (G: 2). There is no apparent legal wrapper, making it likely susceptible to joint
+and several liability if sued, given its founding in California (R: 1). The DAO provides
+tokens akin to investments, awarding GFI for work in the past, but no regular payouts
+exist for holding GFI (W: 3). Communication occurs on Discord, Twitter, and Snapshot,
+yet there is no metric for assessing community engagement or differentiating
+contributors (O: 2) .
+Seed Club
+Seed Club serves as a collaborative and educational hub, nurturing decentralized
+communities through cohort-based programs. It scores moderately in decentralization,
+with governance largely steered by the community through the $CLUB token, though
+preferential token allocation and elevated member statuses introduce some centralizing
+factors (D: 6). While the decentralized voting process is a positive feature, the lack of
+clarity on specific protective measures against token accumulation leaves attack
+defenses ambiguous (A: 5). Governance revolves around the $CLUB token, distributing
+voting power based on ownership rather than the "one person, one vote" principle (G:
+5). The DAO offers no disclosed information regarding the implementation of a legal
+wrapper (R: 1). Participants are rewarded with $CLUB tokens, aligning incentives with
+contributions, but the absence of a specialized reputation system limits the recognition
+of nuanced contributions (W: 7). Organizational communication is encouraged through
+$CLUB token rewards, town hall meetings, and governance conversations, but access
+to exclusive channels is controlled by token ownership (O: 5).
+Push Protocol
+Push Protocol is a decentralized communication network for the web3 universe,
+facilitating notifications triggered by on-chain and off-chain activities. Despite aiming for
+community involvement with $PUSH token governance, centralization concerns arise
+from the power held by PUSH Delegatees and potential token concentration through
+market purchases (D: 4). Its resilience is undermined by the fungible, publicly tradable
+$PUSH tokens, which expose it to risks such as 51% attacks (A: 2). Governance
+processes are vulnerable to centralizing decision-making power due to the lack of a
+dual voting system, leaving the protocol imbalanced and favoring larger token holders
+41
+
+Version10.0-May2024
+(G: 3). Although it hints at a formal legal entity in adherence to Singapore's regulations,
+transparent information on its legal wrapper or alignment with specific DAO stipulations
+is missing (R: 4). It offers earning potential through a grant system and community-led
+initiatives, but the clarity on grant distribution is still nascent (W: 5). The protocol
+engages its community across multiple digital platforms, showing strategic evolution, but
+lacks a system to formally recognize and reward individual efforts within forums (O: 6).
+Bankless DAO
+Bankless DAO is a global collective focused on creating and disseminating media and
+educational content to empower individuals in a banking-free world. Its token-weighted
+voting and contributor levels based on BANK token ownership introduce barriers to
+entry and potential for power concentration, partially offsetting decentralization (D: 4).
+Though token-weighted voting could lead to potential power concentration and
+vulnerability to 51% attacks, transparency and community-driven processes offer some
+resilience (A: 4). The tiered membership model ties rights and influence to token
+holdings, creating an imbalance and centralization element in its governance (G: 4). The
+DAO operates without a legal wrapper, lacking a legal structure to formalize operations
+and define regulatory compliance interactions (R: 1). Members earn BANK tokens for
+project participation in a meritocratic model, supported by the ecosystem's funding
+structure and membership hierarchy (W: 6). Organizational communication utilizes a
+multilayered approach with Discord and forums, where access and discussion depth are
+stratified by token ownership (O: 5).
+Global Coin Research
+Global Coin Research is a research and investment-focused DAO providing resources,
+insights, events, learning opportunities, and direct involvement in deal-flow. Despite
+substantial token allocation for community-driven endeavors and multisig treasury
+management, open market token purchases and a tiered access model could lead to
+power imbalances (D: 4). Purchasable governance tokens may skew power dynamics
+and increase vulnerability to attacks like 51%, although the community-managed
+treasury provides some defense (A: 3). Governance is primarily directed towards
+community initiatives, but the ability to acquire voting power through purchases risks
+centralizing governance (G: 4). The DAO operates without transparently disclosing its
+use of legal frameworks or protective measures such as a legal wrapper (R: 1). Active
+involvement is rewarded with incentives like research access and investment
+opportunities, yet a more nuanced approach recognizing individual reputation and
+expertise is needed (W: 5). The multi-platform strategy enables dialogue and
+cooperative action but may restrict participation in pivotal debates due to tiered
+membership based on token holdings (O: 6).
+42
+
+Version10.0-May2024
+Mail3
+Mail3 is a foundational framework for web3 communications, serving as a hub for social
+metrics like relationships, reputation, and trust. While it supports a decentralized
+communication system across blockchains, a lack of detailed explanations about user
+involvement in wider governance raises centralization questions (D: 3). Although
+encrypted data and a decentralized network suggest inherent resistance to some
+attacks, the scarcity of explicit defense mechanisms lowers confidence (A: 3). The
+Postoffice DAO initiative indicates a drive towards decentralized governance, but
+vagueness about token allotment and centralization countermeasures casts uncertainty
+(G: 2). The absence of available information regarding a legal framework and legal
+wrapper complicates the assessment of regulatory compliance alignment (R: 1). The
+"Communicate to Earn" model points to a unique incentive framework, but the lack of
+clarity on the quantification and impact of contributions raises questions (W: 2). Specific
+tools and processes for internal DAO communication, collaborative decisions, and
+feedback loops are not delineated, along with a lack of transparency about engagement
+strategies (O: 3).
+Arbitrum
+Arbitrum enhances the speed and cost-effectiveness of Ethereum transactions by
+providing tools for developers to create accessible dApps using Rollup and AnyTrust
+protocols. The DAO allows anyone to submit and vote on proposals, achieving a high
+degree of decentralization, but the presence of committees suggests potential for further
+decentralization (D: 7) . The tiered voting system incorporating temperature checks and
+token holder percentages robustly defends against common DAO attacks (A: 8) .
+Governance sustainability is facilitated by decentralized proposals and a Security
+Committee, though the presence of committees slightly impacts long-term sustainability
+(G: 8) . Regulatory compliance is well-managed within a Cayman Islands Foundation
+framework, ensuring adherence to legal standards (R: 8) . However, the 'Work to Earn'
+framework is limited, offering few incentives beyond coin contributions (W: 4) .
+Communication relies on its own platform supplemented by third-party services, which
+could be improved to facilitate meaningful discussions (O: 5) .
+Polygon
+Polygon is a Layer 2 blockchain built on Ethereum, leveraging Proof of Stake and ZK
+rollup technology for scaled, cost-effective, and rapid transactions. The DAO permits
+any member to propose and comment on issues but final decisions are made by a
+select committee, which results in moderate decentralization (D: 5) . Although lacking a
+tiered voting system, the extensive discussion process potentially limits common
+exploits (A: 7) . Governance is less sustainable with limited member contribution and
+the absence of multi-level voting (G: 5) . Regulatory compliance is robust, structured as
+43
+
+Version10.0-May2024
+a Cayman Islands Foundation with a comprehensive privacy policy (R: 8) . There are
+limited opportunities to work and earn within the DAO, with few avenues beyond specific
+job roles and contributing to Polygon Improvement Proposals (PIPs) (W: 4) .
+Organizational communication excels with a very active community forum and dynamic
+discussions (O: 9) .
+Polkadot
+Polkadot is a fully sharded, layer 0 blockchain that provides the foundation and security
+for specialized-application layer 1 parachains. The governance model includes elected
+officials proposing referenda and exercising veto power, with DOT token holders voting,
+which limits wider decentralization (D: 5) . While active DOT token holders secure the
+network and collect rewards by staking, the implementation lacks details on tiered
+voting mechanisms (A: 7) . Governance is somewhat compromised, lacking measures
+to counteract common failures and exhibiting potential for tyranny due to the power of
+elected officials (G: 5) . Polkadot is based in Switzerland but offers minimal information
+on adherence to broader regulatory standards (R: 4) . Work-to-earn opportunities are
+limited, with few incentives beyond full-time roles or hosting meetups (W: 3) .
+Organizational communication relies on third-party platforms such as Reddit, Twitter,
+and Discord, and lacks independent forums for structured discussions (O: 5) .
+DIMO
+DIMO is an open-source, community-governed protocol for vehicles and IoT devices,
+merging web2 technologies with decentralized data validity on Polygon. It operates in a
+very centralized manner, with a standard organizational chart and no real
+decentralization mechanisms (D: 2) . The project lacks specific details on attack
+resistance due to its centralized nature, making it difficult to evaluate (A: 1) .
+Governance is weak, with the platform operating as a centralized entity, potentially
+making it more susceptible to organizational failures (G: 2) . Regulatory compliance is
+somewhat covered by an extensive privacy policy across various jurisdictions, though
+the exact incorporation location is unclear (R: 5) . Work-to-earn opportunities are
+severely limited, primarily available to those building software compatible with DIMO (W:
+2) . Organizational communication is facilitated through the DIMO network and an active
+Discord channel, but these remain effective within a centralized context (O: 5) .
+BrainDAO
+BrainDAO governs the IQ ecosystem, supporting crypto education, research, and
+analysis tools such as IQ.Wiki, IQ token, and IQ GPT. It leverages a content-liking
+mechanism for decisions, ensuring that no single entity or small group can exert
+excessive control while auto-publishing at like thresholds, leading to high
+decentralization (D: 8) . The decision-making process is vested in token holders,
+44
+
+Version10.0-May2024
+offering robust resistance to attacks, but some vulnerabilities remain (A: 8) .
+Governance is reasonably sustainable, lacking layered voting but supporting a
+decentralized structure without power concentration (G: 7) . Detailed information on
+legal structure and compliance measures is hard to find, making regulatory compliance
+opaque (R: 1) . Favorable conditions exist for contributors to earn IQ tokens for the
+quality and popularity of their contributions, but they cannot propose software upgrades,
+limiting broader contributions (W: 7) . The absence of a dedicated discussion platform
+and poor engagement on third-party accounts hinder meaningful discussions and
+collaboration (O: 1).
+Silo Finance
+Silo Finance focuses on De-Fi services leveraging blockchain for permissionless and
+risk-isolated lending markets. The structure features multiple barriers to entry, with a
+council holding authority and the centralized ownership by SiloDAO, leading to
+moderate decentralization (D: 4) . It uses purchasable governance tokens, allowing a
+few individuals to amass significant control, though token holder voting provides some
+resistance (A: 2) . The SILO token is used strictly for governance with off-chain voting
+via Snapshot and Tally, indicating limited sustainability (G: 2) . Registered as an LLC in
+Texas, it offers some legal protection, but Texas does not recognize DAOs (R: 5) . Silo
+Finance incentivizes bug identification with varying rewards, but lacks a merit-based
+system (W: 5) . Organizational communication relies on third-party software like
+Discord, featuring different channels based on user engagement (O: 5) .
+UXD Protocol
+UXD Protocol advances user experience design through blockchain collaboration and
+innovation, dedicated to a non-custodial stable coin on Solana. A small group retains
+significant control, limiting decentralization (D: 4) . Being newly created, it lacks
+sufficient measures to mitigate risks and shows no voting mechanism to prevent attacks
+(A: 1) . The governance structure, uncertain in its infancy, operates using the Solana
+system (G: 3) . Domiciled in the UAE, it benefits from recent laws offering protection and
+benefits to DAOs but implementation is yet to be observed (R: 7) . There are no found
+opportunities for users to perform services or earn a reputation (W: 1) . Limited
+information on facilitating discussion and participation, relying heavily on third-party
+software, and engagement channels lack details (O: 2) .
+Klima DAO
+Klima DAO tackles climate change by incentivizing carbon offsetting initiatives using
+blockchain. With substantial control retained by the Core Team and barriers for entry, it
+scores low on decentralization (D: 2) . It uses Snapshot for voting, receiving recognition
+for token-weighted voting and incentives despite centralization concerns (A: 5) .
+45
+
+Version10.0-May2024
+Governance is controlled by the Core Team, with token holders' rights proportional to
+tokens held, moving slowly towards decentralization (G: 5) . Registered in California, it
+faces potential treatment as a partnership under existing laws (R: 5) . Work-to-earn
+opportunities exist for identifying issues or working on tasks, but accountability for merit
+is lacking (W: 4) . Communication is active through Discord, despite reliance on
+third-party channels (O: 5) .
+Paladin
+Paladin enhances De-Fi security by providing decentralized insurance and risk
+management for crypto assets. It elects small pockets of centralized key players,
+promoting a balance in power distribution (D: 5) . Users can stake votes and anticipate
+rewards, although it relies on Snapshot for voting (A: 5) . Governance fosters active
+participation through delegation mechanisms and safeguards (G: 6) . Organized under
+French law, it lacks specific DAO statutes but benefits from certain protections under the
+1901 statute (R: 6) . Utilizing the Quest method, it incentivizes community engagement
+although specifics about bug reporting compensation are unclear (W: 4) .
+Communication is facilitated via Discord and Twitter, emphasizing active member
+participation (O: 5) .
+Pool Together
+Pool Together promotes prize savings through pooled user funds with interest accrued
+going to one winner, encouraging financial inclusion. The Core Team acts as the interim
+governance body with hierarchy and entry barriers, resulting in low decentralization (D:
+1) . Despite having a protocol that indicates strong defense mechanisms, the
+centralized control poses risks (A: 4) . Governance is determined by the purchasable
+POOL token, using Snapshot for off-chain voting (G: 1) . Based in New York, it lacks a
+legal wrapper and operates without specific DAO recognition or tax advantages (R: 1) .
+There is no information available on work-to-earn opportunities (W: 1) . Communication
+relies on multiple platforms, including Discord and Twitter, although it lacks incentives
+for meaningful participation beyond engagement (O: 4).
+Mantle
+Mantle aims to enhance Ethereum's scalability with an EVM-compatible technology
+stack. However, it faces significant centralization issues due to heavy moderation and a
+hierarchical structure based on affiliations (D: 3). Its reliance on purchasable and
+fungible governance tokens makes it highly vulnerable to attacks, lacking essential
+defenses like reputational governance and sustainable voting mechanisms (A: 1). The
+governance system is weak, with token holders able to propose and vote but without
+key features for sustainability (G: 1). There is no information on the legal wrapper, which
+affects its regulatory compliance (R: 1). Mantle offers limited opportunities for individuals
+46
+
+Version10.0-May2024
+to engage, with its work-to-earn model relying on basic grants (W: 3). Organizational
+communication is facilitated through third-party software but lacks mechanisms for
+meaningful discussions or engagement tracking (O: 4).
+Decubate
+Decubate is a tokenization DAO supporting web3 entrepreneurs, but it fails to uphold
+decentralization principles, with centralized control pervading the organization (D: 2).
+The DAO is highly vulnerable to attacks due to reliance on purchasable governance
+tokens (A: 2). Governance is severely compromised, with decisions driven by
+purchasing power, leading to power centralization (G: 2). It operates under the
+Netherlands' legal framework, which provides some regulatory compliance, but
+navigating regulatory complexities remains challenging (R: 6). While the DAO offers
+opportunities to contribute and earn rewards, it falls short in recognizing merit
+proportional to work performed (W: 4). Communication is conducted via Discord, but
+there are no incentives to engage meaningfully (O: 5).
+ApeCoin
+ApeCoin fosters web3 culture within the Bored Ape Yacht Club, displaying some
+decentralized traits but compromised by a centralized committee (D: 5). Governance
+mechanisms are susceptible to manipulation, with proposal centralization presenting
+risks (A: 4). Governance attempts to be robust but falls short in fully addressing
+common failures (G: 4). No legal compliance information is available, impacting
+transparency (R: 1). Participation in work-to-earn is severely limited, prohibiting outside
+individuals from involvement (W: 1). Organizational communication relies on third-party
+platforms, lacking mechanisms to track and reward engagement (O: 4).
+MetaCartel Ventures
+MetaCartel Ventures supports early-stage dApps and web3 projects through
+investments and mentorship, exhibiting a centralized decision-making structure (D: 3). It
+lacks transparency on attack resistance measures, posing potential vulnerabilities (A:
+2). Governance information is sparse, affecting transparency and engagement (G: 2).
+There are no disclosed details on the legal wrapper or jurisdiction (R: 1). Information
+about work-to-earn processes is missing, limiting transparency (W: 1). Organizational
+communication is deficient, with efforts needing improvement despite using "Townhalls"
+(O: 2).
+FingerPrints DAO
+FingerPrints DAO curates and promotes on-chain artwork but maintains centralized
+oversight by a committee (D: 5). The DAO is vulnerable to attacks due to purchasable
+governance tokens, lacking safeguards against token concentration (A: 2). Governance
+47
+
+Version10.0-May2024
+is weak, facing significant issues with decentralization and manipulation risks (G: 2). No
+information on the legal wrapper exists, affecting transparency and compliance (R: 1).
+Its work-to-earn approach is underdeveloped, introducing centralization and potential
+biases (W: 2). Efforts in communication are noted but fall short due to the lack of
+mechanisms to track meaningful discussions (O: 4).
+APPENDIXB:DAOScoring
+Set1
+ResearchHub
+Decentralized platform leveraging blockchain for scientific research, sharing, and
+funding.
+- Decentralization: 3, not fully decentralized, plans to distribute editorial powers to
+top users.
+- Attack Resistance: 3, needs to bolster defense against common DAO attacks like
+Sybil attacks.
+- Governance: 5, evolving, tokenized reputation system, but risk of centralization
+with top contributors.
+- Regulatory Compliance: 4, privately held corporation, not registered as a DAO.
+- Work To Earn: 7, robust model, users gain reputation and tokens for quality
+contributions.
+- Organizational Communication: 7, facilitates structured discussions, peer
+reviews, tracks communication in "Hubs".
+HairDAO
+DAO using Ethereum blockchain for democratic participation in the hair care industry.
+- Decentralization: 7, high level through Ethereum and democratic token
+distribution.
+- Attack Resistance: 3, multi-sig wallet for treasury security, but lacks protections
+against token hoarding.
+- Governance: 3, flexible voting schemes, but voting tokens are purchasable,
+potentially skewing decisions.
+- Regulatory Compliance: 9, registered DAO in Wyoming, allows member
+anonymity and indemnification.
+- Work To Earn: 7, rewards contributions with $HAIR tokens, but lacks nuance for
+quality/impact.
+48
+
+Version10.0-May2024
+- Organizational Communication: 6, uses Discord, could better integrate tools for
+equal voice.
+VitaDAO
+Ethereum-based DAO enabling broad participation in biomedical research
+decision-making.
+- Decentralization: 8, operates with high decentralization, encouraging wide
+community involvement.
+- Attack Resistance: 7, uses NFTs to protect IP, benefits from Ethereum security
+and own protocols.
+- Governance: 8, strong with formal proposal process encouraging community
+debate before voting.
+- Regulatory Compliance: 5, novel NFT approach for IP, but needs clearer
+guidelines across jurisdictions.
+- Work To Earn: 6, researchers earn VITA tokens, aligning with DAO goals, but
+could improve incentives.
+- Organizational Communication: 7, uses Discord and forums for transparent,
+inclusive governance discussions.
+MoonDAO
+DAO with complex governance balancing power across groups, but with some
+centralized bodies.
+- Decentralization: 5, governance model includes centralized Senate and
+Executive Branch.
+- Attack Resistance: 7, governance tokens and staking help distribute power, but
+some vulnerabilities remain.
+- Governance: 4, aims for democratic balance, but fixed token supply could
+centralize power over time.
+- Regulatory Compliance: 2, entity under LuckDAO Limited, lacks comprehensive
+cross-jurisdiction strategies.
+- Work To Earn: 4, earn tokens via projects/governance, but benefits existing
+holders, limits wider participation.
+- Organizational Communication: 7, regular meetings crucial for transparency, but
+third-party platform reliance.
+Data Lake
+Blockchain platform decentralizing medical data management, focused on access and
+consent.
+- Decentralization: 3, aims to decentralize medical data management through
+blockchain.
+49
+
+Version10.0-May2024
+- Attack Resistance: 6, uses blockchain for security, but room to improve against
+sophisticated attacks.
+- Governance: 5, some centralization in strategic decisions by founders, aims for
+token-based community voting.
+- Regulatory Compliance: 6, organized in Poland, complies with EU data privacy
+laws like GDPR.
+- Work To Earn: 8, $LAKE tokens incentivize data-sharing participation, creating a
+sustainable ecosystem.
+- Organizational Communication: 7, facilitates researcher/provider communication,
+could expand community tools.
+Set2
+Gelato DAO
+Governance framework overseeing the Gelato protocol for automated smart contract
+executions on Ethereum.
+- Decentralization: 1, users must purchase governance tokens to vote, power
+limited to majority token holders.
+- Attack Resistance: 1, vulnerable to 51% and sock puppet attacks due to
+purchasable governance tokens.
+- Governance: 1, favors majority token holders, could improve with
+reputation-based system and incentives.
+- Regulatory Compliance: 5, uses a GmbH (LLC equivalent) legal wrapper,
+jurisdiction not listed.
+- Work To Earn: 4, allows staking for right to earn fees, could improve with
+reputation-based token distribution.
+- Organizational Communication: 4, uses both DAO-run and third-party forums,
+could reward meaningful content.
+Instadapp
+DeFi platform offering tools to simplify interactions with Ethereum DeFi protocols.
+- Decentralization: 1, users must purchase governance tokens, power limited to
+majority token holders.
+- Attack Resistance: 1, vulnerable to 51% and sock puppet attacks due to
+purchasable governance tokens.
+- Governance: 1, favors majority token holders, could improve with
+reputation-based system and incentives.
+- Regulatory Compliance: 5, uses an LLC legal wrapper, jurisdiction unknown.
+- Work To Earn: 5, allows participation in bug bounty program with fixed payouts.
+50
+
+Version10.0-May2024
+- Organizational Communication: 4, uses both DAO-run and third-party forums,
+could reward meaningful content.
+API3
+Decentralized oracle solution bridging real-world data and blockchain smart contracts.
+- Decentralization: 1, users must purchase governance tokens, power limited to
+majority token holders.
+- Attack Resistance: 1, token staking inadequate to prevent governance token
+accumulation, centralization.
+- Governance: 1, favors majority token holders, could improve with
+reputation-based system and incentives.
+- Regulatory Compliance: 5, uses Cayman Islands foundation, requires physical
+office.
+- Work To Earn: 3, users can earn via inflationary staking rewards, could improve
+with reputation-based distribution.
+- Organizational Communication: 4, uses both DAO-run and third-party forums,
+could reward meaningful content.
+TomiDAO
+DAO focused on governance and participation in the TOMI DeFi ecosystem on
+Ethereum.
+- Decentralization: 5, one-person, one-vote structure with small centralized
+committees.
+- Attack Resistance: 5, one-person, one-vote structure more resistant to 51% and
+sock puppet attacks.
+- Governance: 5, one-person, one-vote, could improve with reputation-based
+system, staking, salary incentives.
+- Regulatory Compliance: 1, no legal wrapper, risks being deemed partnership by
+estoppel if sued.
+- Work To Earn: 5, allows bug bounty participation with fixed payouts, could
+improve with reputation-based distribution.
+- Organizational Communication: 3, uses third-party forum, could create internal
+one rewarding meaningful content.
+Hop DAO
+DAO focused on cross-chain interoperability and liquidity provisioning.
+- Decentralization: 1, users must purchase governance tokens, power limited to
+majority token holders.
+- Attack Resistance: 1, vulnerable to 51% and sock puppet attacks due to
+purchasable governance tokens.
+51
+
+Version10.0-May2024
+- Governance: 1, favors majority token holders, could improve with
+reputation-based system and incentives.
+- Regulatory Compliance: 1, no legal wrapper, risks being deemed partnership by
+estoppel if sued.
+- Work To Earn: 1, does not offer opportunities for participants to contribute paid
+work.
+- Organizational Communication: 4, uses both DAO-run and third-party forums,
+could reward meaningful content.
+Set3
+SuperRare
+NFT marketplace DAO prioritizing decentralization, community governance, and artist
+empowerment.
+- Decentralization: 5, channels network value to community treasury, overseen by
+community governance.
+- Governance: 5, transparent and adaptable, all token holders participate,
+governance council ensures security.
+- Attack Resistance: 2, vulnerabilities due to lack of preventive measures and
+token-based governing power.
+- Regulatory Compliance: 1, concerns arise due to lack of information.
+- Work to Earn: 9, incentivizes participation with token allocation, staking rewards,
+and commissions.
+- Organizational Communication: 5, structured approach using Discourse and SIP
+procedures for inclusive decision-making.
+Rarible
+NFT marketplace with $RARI token rewards for engagement, legal entity in Cayman
+Islands.
+- Decentralization: 3, governance primarily revolves around a governor, reflecting
+centralized decision-making.
+- Governance: 3, delegates chosen by token holders wield decision-making power,
+participation through token locking.
+- Attack Resistance: 3, lacks clarity on preventive measures against attacks,
+focuses on long-term sustainability.
+- Regulatory Compliance: 5, RARI Foundation provides legal representation,
+challenges in defining guidelines persist.
+- Work to Earn: 2, limited information on incentive programs hinders active
+participation and growth.
+52
+
+Version10.0-May2024
+- Organizational Communication: 7, community engagement crucial, transparency
+through RRCs, autonomous initiatives.
+Botto
+AI-generated art DAO with weekly voting, minting, and auctioning process.
+- Decentralization: 4, transparency in creative process and finances, managed by
+centralized group of stewards.
+- Governance: 4, rigorous process requiring token ownership, governed by
+non-anonymous board of "Stewards".
+- Attack Resistance: 1, lacks clear preventive measures against potential attacks.
+- Regulatory Compliance: 1, no information available regarding compliance
+measures.
+- Work to Earn: 7, stakeholders rewarded for feedback through percentage of
+artist's earnings, driving improvement.
+- Organizational Communication: 5, active member participation in shaping
+direction through snapshot voting.
+Rally
+Platform empowering creators to launch social tokens and NFTs, focusing on
+sustainability.
+- Decentralization: 1, operates with minimal environmental impact using small
+number of computers.
+- Attack Resistance: 4, implements flow control to restrict coin transfer and
+conversion, ensuring fair transactions.
+- Governance: 1, no information available.
+- Regulatory Compliance: 1, no information available.
+- Work to Earn: 1, no information available.
+- Organizational Communication: 1, no information available.
+MODA DAO
+Web3 music community fostering fair, sustainable, and artist-centric progressions in the
+music industry.
+- Decentralization: 5, decentralized structure with team, backers, and partners,
+separate legal entity for fund management.
+- Governance: 5, formal participation requires token ownership, decision-making
+distributed among organizer working group.
+- Attack Resistance: 3, structured into eight separate but equal groups to mitigate
+centralized control.
+- Regulatory Compliance: 5, Australian-based, operates without traditional
+shareholders, utilizes legal wrapper.
+53
+
+Version10.0-May2024
+- Work to Earn: 5, rewards sustainable engagement, reinvests revenue to buy
+back tokens for rewards pool.
+- Organizational Communication: 5, communicates via Snapshot, Discord, and
+Twitter for voting and announcements.
+Set4
+Magic Square
+Algorithmic trading and investment strategies DAO leveraging collective intelligence.
+- Decentralization: 5, aims to distribute power but risks centralization in validation
+process.
+- Attack Resistance: 5, some security measures but potential vulnerabilities in
+validation and power concentration.
+- Governance: 4, lacks detailed mechanisms to prevent common failures like
+tyranny of majority or tragedy of commons.
+- Regulatory Compliance: 4, efforts made but lacks detailed information on legal
+status and compliance with laws.
+- Work to Earn: 6, some opportunities for developers and validators to contribute
+and earn, but lacks specifics on outsourcing.
+- Organizational Communication: 5, infrastructure for interaction exists, but
+effectiveness and responsiveness unclear.
+Decentraland
+Virtual world DAO governed by its inhabitants, shaping digital economies and
+communities.
+- Decentralization: 6, emphasizes decentralization but lacks detail on governance
+structures and voting mechanisms.
+- Attack Resistance: 7, implements measures like blockchain, decentralized
+ledger, and peer-to-peer networks, but lacks specifics.
+- Governance: 5, has governance structure but lacks explicit information on
+mechanisms to prevent common pitfalls.
+- Regulatory Compliance: 3, operates in decentralized virtual world, may not have
+explicit legal recognition or compliance.
+- Work to Earn: 4, mentions potential for monetization but lacks specific examples,
+implementation details, or success data.
+- Organizational Communication: 4, focuses on technical and economic aspects,
+limited detail on communication tools or processes.
+Merit Circle
+DAO supporting philanthropic endeavors and incentivizing positive contributions.
+54
+
+Version10.0-May2024
+- Decentralization: 6, provides foundational framework but lacks detailed
+information on voting power distribution and risk mitigation.
+- Attack Resistance: 5, highlights $BEAM token role but lacks explicit information
+on security protocols or measures against attacks.
+- Governance: 6, has positive elements like tokenholder voting but lacks detailed
+mechanisms to mitigate common risks.
+- Regulatory Compliance: 5, considers compliance to some extent but lacks deep
+details on legal status or compliance steps.
+- Work to Earn: 5, provides general overview but lacks specifics on process,
+transparency, and inclusivity of opportunities.
+- Organizational Communication: 4, mentions resource hub and communication
+importance but lacks details on tools or platforms.
+ParagonsDAO
+DAO bridging traditional and decentralized finance through asset tokenization and
+management.
+- Decentralization: 5, outlines permissionless lending system but lacks details on
+decision-making authority and inclusivity.
+- Attack Resistance: 6, implements permissionless lending and reputation-based
+protocol but lacks technical implementation specifics.
+- Governance: 4, lacks detailed information on governance mechanisms and how
+they address common pitfalls.
+- Regulatory Compliance: 2, unclear if regulatory compliance or legal recognition
+has been addressed.
+- Work to Earn: 5, offers opportunities to earn reputation through gameplay but
+does not explicitly mention other avenues.
+- Organizational Communication: 3, does not explicitly outline communication
+protocol or platform for member discussion.
+Illuvium
+Pioneer in decentralized gaming, redefining gaming experience through player-owned
+economies and community-driven development.
+- Decentralization: 6, liquidity mining program aims to distribute tokens but lacks
+clarity on voting power distribution and centralization risks.
+- Attack Resistance: 5, decentralized governance and blockchain provide some
+resistance, but lacks specific details on security measures.
+- Governance: 5, demonstrates commitment to community involvement but lacks
+details on mechanisms to address common failures.
+- Regulatory Compliance: 3, limited information on legal recognition and interaction
+with real-world entities, lacks compliance details.
+55
+
+Version10.0-May2024
+- Work to Earn: 6, offers opportunities to propose and work on projects, but lacks
+specifics on accessibility and inclusivity.
+- Organizational Communication: 6, prioritizes community involvement and
+transparency, but lacks details on communication tools and processes.
+Set5
+ENS (Ethereum Name Service)
+Distributed naming system built on Ethereum blockchain, providing human-readable
+names for Ethereum addresses.
+- Decentralization: 6, structure and working groups promote decentralized
+decision-making, but presence of Cayman Islands foundation and core team
+members introduces some centralization.
+- Attack Resistance: 5, utilizes off-chain voting through Snapshot platform, aligning
+with "1 person, 1 vote" principle, but lacks extensive details on defense
+mechanisms against specific attack vectors.
+- Governance: 6, combination of off-chain voting, executable proposals, and
+working groups enables community participation, but lacks explicit reputational
+governance mechanisms and incentives.
+- Regulatory Compliance: 5, Cayman Islands foundation provides legal wrapper,
+but connection between legal structure and internal governance remains unclear.
+- Work to Earn: 4, contributors can engage through working groups and steward
+roles, but lacks detailed token-based reputation systems or explicit work-to-earn
+incentives.
+- Organizational Communication: 5, utilizes forums and open discussion platforms,
+but lacks formal token-based incentivization for participation.
+Gnosis
+Platform for creating and trading prediction markets, enabling speculation on event
+outcomes.
+- Decentralization: 6, utilizes diverse validator set and encourages community
+participation in governance, but presence of Gnosis Foundation and core team
+influence suggests ongoing transition to full decentralization.
+- Attack Resistance: 5, large validator set provides some protection against
+attacks, but lacks detailed information on specific attack scenarios or mitigation
+strategies.
+- Governance: 6, DAO structure enables community members to submit proposals
+and participate in decision-making through voting, but lacks extensive discussion
+on long-term sustainability or reputational incentives.
+56
+
+Version10.0-May2024
+- Regulatory Compliance: 7, as a decentralized platform that can exist as a legally
+recognized entity in its jurisdiction, Gnosis has fewer difficulties navigating the
+regulatory landscape.
+- Work to Earn: 4, users can participate in governance and potentially benefit from
+prediction market success, but lacks explicit work-to-earn programs or incentives.
+- Organizational Communication: 5, provides forums and channels for community
+discussion and collaboration, but lacks token-based incentivization for
+participation.
+UMA (Universal Market Access)
+Decentralized platform enabling creation of financial contracts and synthetic assets on
+Ethereum.
+- Decentralization: 5, facilitates creation of decentralized financial contracts without
+relying on centralized intermediaries, but influence of core team and presence of
+U.S.-based legal entity suggest incomplete decentralization.
+- Attack Resistance: 5, economic incentives and Data Verification Mechanism
+(DVM) help mitigate risks, but could benefit from more detailed quantitative
+analysis of potential attack vectors.
+- Governance: 5, token voting and DVM facilitate community involvement, but
+lacks in-depth discussion of long-term sustainability and resilience of governance
+model.
+- Regulatory Compliance: 4, U.S.-based legal entity provides some regulatory
+clarity, but compliance with various jurisdictions' laws remains uncertain due to
+evolving landscape.
+- Work to Earn: 3, users can potentially earn rewards by creating and providing
+liquidity to contracts or participating in dispute resolution, but lacks explicit
+work-to-earn programs or incentive structures.
+- Organizational Communication: 5, maintains various communication channels to
+inform and engage community, but lacks clear token-based incentives for
+participation.
+Galaxe
+Decentralized identity protocol leveraging zero-knowledge proofs and verifiable
+credentials for secure, private identity management.
+- Decentralization: 6, employs decentralized architecture and enables users to
+store identity data locally, but presence of some centralized components
+suggests incomplete decentralization.
+- Attack Resistance: 5, zero-knowledge proofs and blinded credentials provide
+strong privacy protection, but could benefit from more detailed analysis of
+potential attack scenarios and countermeasures.
+57
+
+Version10.0-May2024
+- Governance: 2, outlines high-level governance process involving community
+participation, but lacks detailed information on specific mechanisms and
+procedures for proposing, debating, and implementing changes.
+- Regulatory Compliance: 1, emphasis on user control and privacy may conflict
+with certain regulatory requirements across jurisdictions, presenting significant
+compliance challenges.
+- Work to Earn: 3, users can potentially monetize identity data by selectively
+sharing with third parties, but lacks structured work-to-earn programs or incentive
+mechanisms.
+- Organizational Communication: 5, maintains communication channels to inform
+community and facilitate discussions, but lacks explicit token-based incentives for
+participation.
+Orbs
+Public blockchain infrastructure supporting large-scale decentralized applications and
+interoperability with EVM-based Layer 1 blockchains.
+- Decentralization: 5, relies on decentralized set of permissionless validators,
+promoting open and inclusive ecosystem, but Orbs team's role in appointing
+block producers suggests some centralization.
+- Attack Resistance: 5, employs Randomized Proof-of-Stake consensus and large
+validator set to enhance network resilience, but could benefit from more in-depth
+analysis of specific attack vectors and defense mechanisms.
+- Governance: 4, implements governance tools like Orbs Voting Weight
+mechanism for stakeholder participation, but lacks a clearly outlined
+comprehensive governance model.
+- Regulatory Compliance: 4, focus on public blockchain infrastructure and
+integration with various Layer 1 networks may subject it to complex regulatory
+requirements across jurisdictions.
+- Work to Earn: 3, validators and delegators can earn rewards for securing network
+and participating in consensus, but lacks explicit work-to-earn programs or
+incentive mechanisms for contributors.
+- Organizational Communication: 5, maintains communication channels to inform
+stakeholders and facilitate discussions, but lacks clear token-based incentives for
+participation.
+Set6
+Maker DAO
+Decentralized finance platform focused on creating and managing the stablecoin DAI.
+58
+
+Version10.0-May2024
+- Decentralization: 4, not fully decentralized yet, bootstrapped to Maker
+Foundation, governance token is purchasable.
+- Attack Resistant: 4, built-in protections like oracles, keepers, 2-step voting,
+emergency shutdowns, but vulnerable to 51% attacks due to purchasable
+governance token.
+- Governance: 5, 2-step voting with temp checks, but purchasable governance
+token makes proper DAO aspects nominal.
+- Regulatory Compliance: 1, no separation from founding entity Maker Foundation,
+likely based in Denmark, no compatible legal wrapper for DAOs.
+- Work to Earn: 2, no work to earn in any capacity, Dai or MKR only obtainable
+through investment.
+- Organizational Communication: 4, own forums with significant participation and
+sub-forums, but no reputation system for participation.
+Qi DAO
+Decentralized finance platform focused on stabilizing the stablecoin MAI.
+- Decentralization: 8, states Qi can be received by participation and work, but
+documentation is unclear and not transparent.
+- Attack Resistant: 2, community voting based on Qi holdings, no apparent
+resistance to 51% attacks, only resistant to sockpuppet attacks if holders
+unwilling to sell Qi.
+- Governance: 3, no reputation system, 2-step voting, or payouts based on Qi
+holdings, uses Snapshot, only proportional voting present.
+- Regulatory Compliance: 1, no indication of legal entity, founders are anonymous.
+- Work to Earn: 3, claims work to earn but unclear if in place or what work can be
+done, profits can be withheld.
+- Organizational Communication: 1, exclusively uses Discord to communicate, no
+differentiation of members based on participation, no engagement measurement.
+Olympus DAO
+Decentralized reserve currency protocol.
+- Decentralization: 7, governance council responsible for leading, not voting,
+emergency status with appointed guardians, governance tokens obtained
+through investment.
+- Attack Resistant: 3, 2-step voting, staking on votes, voting on Snapshot, voting
+power can be purchased by wrapping assets, transparent process.
+- Governance: 2, purchasable governance token, gOHM can be used for loans,
+transparent processes.
+- Regulatory Compliance: 1, not legally registered anywhere, relies on anonymity
+to avoid legal action.
+59
+
+Version10.0-May2024
+- Work to Earn: 1, gOHM is purchased, not earned by working.
+- Organizational Communication: 2, no reputation for discussion, forums and
+sub-forums but primarily uses Discord, forums only for voting.
+Aave
+Decentralized lending platform.
+- Decentralization: 8, legitimately decentralized, contributors welcome to join
+groups, work on Protocol, or complete bounties, delegation and
+community-elected Guardians can centralize power to an extent.
+- Attack Resistant: 3, AAVE is purchasable, 2-step voting, proportional voting,
+Guardians have vetoes for malicious attacks, still subject to 51% attacks.
+- Governance: 1, nothing is reputation-based, tokens are purchasable.
+- Regulatory Compliance: 2, no legal wrapper, vote to add Cayman Foundation
+failed, extra point because Cayman Islands are friendly to DAOs and crypto.
+- Work to Earn: 5, bounties within Aave so profit can be earned by performing
+work, but no general structure of payouts or work to earn.
+- Organizational Communication: 4, uses Discord, Snapshot, and Aave forums,
+impressive community engagement but no measure of engagement or
+reputation, operates on trust and speculation.
+Goldfinch DAO
+Decentralized credit platform.
+- Decentralization: 2, investing and borrowing open to anybody, GFI awarded to
+investors, but Goldfinch Council has final say on any vote after community voting.
+- Attack Resistant: 5, council can veto any community action, resistant to outside
+attacks but susceptible to corruption, quadratic voting for community votes.
+- Governance: 1, all community votes are then voted on by the council, council
+does not appear to be democratically elected.
+- Regulatory Compliance: 1, no apparent legal wrapper, founded in CA, would
+likely be a partnership with joint and several liability if sued.
+- Work to Earn: 3, tokens are more like crypto investments, lending money can
+earn payouts, GFI has been awarded for work in the past but no payouts for
+holding GFI.
+- Organizational Communication: 2, operates on Discord, Twitter, and Snapshot,
+no community engagement measurement or differentiation of contributors.
+Set7
+Seed Club
+A hub for collaboration and education, nurturing the growth and innovation of
+decentralized communities through cohort-based programs.
+60
+
+Version10.0-May2024
+- Decentralization: 6/10, governance largely steered by community and democratic
+use of $CLUB token, but some centralizing factors like preferential token
+allocation and elevated status of certain members.
+- Attack Resistant: 5/10, decentralized voting process is positive, but lack of clarity
+on specific protective measures against token accumulation leaves defense
+mechanisms ambiguous.
+- Governance: 5/10, $CLUB token system distributes voting power based on
+ownership, diverging from "one person, one vote", and lacks details on token
+fungibility for acquiring governance influence and procedural aspects of voting.
+- Regulatory Compliance: 1/10, no disclosed information regarding the
+implementation of a legal wrapper.
+- Work to Earn: 7/10, rewards participants with $CLUB tokens, aligning incentives
+with contributions, but lacks specialized reputation system to fully capture
+nuanced value of contributions.
+- Organizational Communication: 5/10, promotes dialogue among members
+through $CLUB token rewards, town hall meetings, and governance
+conversations, but access to exclusive channels controlled by token ownership.
+Push Protocol
+A decentralized communication network for the web3 universe, facilitating user
+notifications triggered by on-chain and off-chain activities.
+- Decentralization: 4/10, $PUSH token governance aims for community
+involvement, but centralization concerns arise from PUSH Delegatees' proposal
+power and potential for token concentration through open market purchases.
+- Attack Resistant: 1/10, resilience undermined by reliance on fungible, publicly
+tradable $PUSH governance tokens, exposing the protocol to risks like 51%
+attacks.
+- Governance: 3/10, governance token acquisition risks centralizing
+decision-making power, lack of dual voting system leaves protocol vulnerable to
+imbalances favoring larger token holders.
+- Regulatory Compliance: 5/10, hints at formal legal entity in adherence to
+Singapore's regulations, but lacks transparent information on legal wrapper or
+alignment with specific DAO legal stipulations.
+- Work to Earn: 5/10, offers earning potential through grant system and
+community-led initiatives, but evaluative process for awarding work and clarity on
+grant distribution in nascent stage.
+- Organizational Communication: 6/10, engages community across multiple digital
+platforms, showcases strategic approach to evolution, but lacks system to
+formally recognize and reward individual efforts within forums.
+61
+
+Version10.0-May2024
+Bankless DAO
+A global collective creating and disseminating media and educational content to
+empower individuals in a world without traditional banking.
+- Decentralization: 4/10, token-weighted voting and contributor levels based on
+BANK token ownership partially offset decentralization, introducing barriers to
+entry and potential for power concentration.
+- Attack Resistant: 5/10, token-weighted voting and contributor levels suggest
+potential for power concentration, making DAO vulnerable to attacks like 51% if a
+single entity acquires majority of voting tokens, but transparency and
+community-driven processes provide some resilience.
+- Governance: 5/10, incorporates community input and iterates on proposals, but
+tiered membership model ties rights and influence to token holdings, creating
+imbalance and centralization element.
+- Regulatory Compliance: 1/10, no evidence of legal wrapper adoption, lack of
+legal structure to formalize operations and define interactions within regulatory
+compliance.
+- Work to Earn: 6/10, meritocratic model where members earn BANK tokens for
+project participation, ecosystem supports this with funding structure and
+membership hierarchy linked to ownership and participation.
+- Organizational Communication: 5/10, multilayered approach using Discord and
+forums, access and discussion depth stratified by token ownership, systematic
+and hierarchical structure conducive to dialogue and decision-making.
+Global Coin Research
+A research and investment-focused DAO providing community members with
+resources, insights, events, learning opportunities, and direct involvement in deal-flow.
+- Decentralization: 4/10, substantial token allocation for community-driven
+endeavors and multisig treasury management, but open market token purchases
+and tiered access model could lead to power imbalances.
+- Attack Resistant: 3/10, governance protocols and community-managed treasury
+provide some defense, but purchasable governance tokens may skew power
+dynamics and increase vulnerability to attacks like 51%.
+- Governance: 4/10, majority of tokens directed towards community initiatives, but
+ability to acquire voting power through purchase rather than contribution risks
+governance centralization.
+- Regulatory Compliance: 1/10, operates without transparently disclosing use of
+legal frameworks or protective measures like a legal wrapper.
+- Work to Earn: 6/10, rewards active involvement with incentives like research
+access and investment opportunities, but could benefit from more nuanced
+approach recognizing individual reputation and expertise.
+62
+
+Version10.0-May2024
+- Organizational Communication: 6/10, multi-platform strategy enables dialogue
+and cooperative action, but tiered membership based on token holdings may
+restrict participation in pivotal debates.
+Mail3
+A foundational framework for web3 communications, serving as a hub for social metrics
+like relationships, reputation, and trust.
+- Decentralization: 3/10, supports decentralized communication system across
+blockchains, but lacks detailed explanation of user involvement in wider
+governance, leading to centralization questions.
+- Attack Resistant: 3/10, encrypted data and decentralized network suggest
+inherent resistance to some attacks, but scarcity of explicit defense mechanisms
+against sophisticated attacks lowers confidence.
+- Governance: 3/10, Postoffice DAO initiative indicates drive towards decentralized
+governance, but lack of details on token allotment, equal participation
+mechanisms, and centralization countermeasures casts uncertainty.
+- Regulatory Compliance: 1/10, no available information regarding a legal
+framework, lack of discernible legal wrapper makes assessing alignment with
+regulatory standards challenging.
+- Work to Earn: 2/10, "Communicate to Earn" model points to unique incentive
+framework, but lack of clarity on quantification, distribution, and impact of
+contributions raises questions.
+- Organizational Communication: 3/10, specific tools and processes for internal
+DAO communication, collaborative decision-making, and feedback loops not
+delineated, lack of transparency about strategies and community engagement
+mechanisms.
+Set8
+Arbitrum
+Enhances speed and cost-effectiveness of Ethereum transactions, a tool for developers
+to create accessible dApps using Rollup and AnyTrust protocols.
+- Decentralization: 7, allows anyone to submit and vote on proposals, but presence
+of committees suggests potential for further decentralization.
+- Attack Resistance: 8, tiered voting system with temperature checks and token
+holder percentages robustly defends against common DAO attacks.
+- Governance: 9, sustainability facilitated by decentralized proposals and a
+Security Committee.
+- Regulatory Compliance: 8, well-managed within a Cayman Islands Foundation
+framework, ensuring adherence to legal standards.
+- Work to Earn: 4, limited incentives beyond coin contributions.
+63
+
+Version10.0-May2024
+- Organizational Communication: 5, relies on own platform supplemented by
+third-party services, could be improved to better facilitate meaningful discussions.
+Polygon
+Layer2 blockchain built on Ethereum, utilizing Proof of Stake and ZK rollup technology
+for scaled, cost-effective, rapid transactions, developing web3 infrastructure on PoS
+network.
+- Decentralization: 5, permits any member to propose and comment on issues, but
+final decisions made by select committee.
+- Attack Resistance: 7, lacks tiered voting system but extensive discussion
+process potentially limits common exploits.
+- Governance: 5, less sustainable with limited member contribution and absence of
+multi-level voting.
+- Regulatory Compliance: 8, structured as Cayman Islands Foundation with
+comprehensive privacy policy.
+- Work to Earn: 4, few avenues beyond specific job roles and contributing to
+Polygon Improvement Proposals (PIPs).
+- Organizational Communication: 10, excels with very active community forum,
+dynamic and engaging discussions.
+Polkadot
+Fully sharded, layer 0 blockchain providing foundation and security for building
+specialized-application layer 1 parachains.
+- Decentralization: 5, elected officials propose referenda and exercise veto power,
+DOT token holders vote, limits wider decentralization.
+- Attack Resistance: 8, active DOT token holders secure network and collect
+rewards by staking, supplemented by tiered voting mechanisms.
+- Governance: 6, somewhat compromised, lacks measures to counteract common
+failures, potential for tyranny due to power of elected officials.
+- Regulatory Compliance: 4, based in Switzerland, minimal information on
+adherence to broader regulatory standards.
+- Work to Earn: 3, limited opportunities beyond full-time work or hosting meetups,
+lack of direct incentives for broader participation.
+- Organizational Communication: 5, relies on third-party platforms like Reddit,
+Twitter, and Discord, lacks independent forums for structured discussions.
+DIMO
+Open-source, community-governed protocol and platform for vehicles and IoT devices,
+merges web2 technologies with decentralized data validity and security on Polygon.
+64
+
+Version10.0-May2024
+- Decentralization: 2, operates with very centralized approach, standard
+organizational chart without real decentralization mechanisms.
+- Attack Resistance: 0, challenging to evaluate due to centralized nature, typical
+DAO attack defenses not applicable, security measures unclear.
+- Governance: 3, weak sustainability, operates as centralized entity, may be more
+susceptible to common organizational failures.
+- Regulatory Compliance: 5, extensive privacy policy covering various jurisdictions,
+but exact incorporation location unclear.
+- Work to Earn: 2, severely limited, main avenue is building software compatible
+with DIMO, restricts broader community engagement.
+- Organizational Communication: 6, DIMO network and active Discord channel
+facilitate discussions, somewhat effective but within centralized context.
+BrainDAO
+Governs IQ ecosystem supporting crypto education, research, and analysis tools,
+offerings include IQ.Wiki, IQ token, and IQ GPT.
+- Decentralization: 8, leverages content-liking mechanism for decisions, automatic
+publication at like threshold, distributes power widely without controlling
+committees.
+- Attack Resistance: 9, decision-making vested in token holders, prevents single
+entity or small group from exerting undue control.
+- Governance: 7, reasonably sustainable, lacks layered voting but supports
+decentralized structure without power concentration.
+- Regulatory Compliance: 0, detailed information about legal structure and
+compliance measures hard to find, indications of South Korea as primary
+jurisdiction, lack of transparency.
+- Work to Earn: 8, favorable conditions, contributors earn IQ tokens for quality and
+popularity of contributions, but cannot propose software upgrades, somewhat
+limiting broader contributions.
+- Organizational Communication: 0, significant weak point, absence of dedicated
+discussion platform and lack of engagement on third-party accounts hinders
+meaningful discussions and collaboration.
+Set9
+Silo Finance
+Focused on providing De-Fi services leveraging blockchain technology for
+permissionless and risk-isolated lending markets.
+- Decentralization: 5, multiple barriers to entry for individuals, presence of a
+"council" with authority, and centralized structure owned by SiloDAO.
+65
+
+Version10.0-May2024
+- Attack Resistant: 1, uses purchasable governance tokens allowing a few
+individuals to amass control.
+- Governance: 1, SILO token used strictly for governance, off-chain voting via
+Snapshot and Tally.
+- Regulatory Compliance: 5, registered in Texas as an LLC, but Texas does not
+recognize DAOs as legal entities.
+- Work to Earn: 5, offers incentives for identifying bugs with varying rewards based
+on risk level, but not accounted for merit.
+- Organizational Communication: 5, relies on third-party software (Discord) for
+member discussions with different channels based on user engagement.
+UXDProtocol
+Dedicated to advancing user experience design through community collaboration and
+innovation on the blockchain, a non-custodial stable coin protocol on Solana.
+- Decentralization: 5, small group (UXD Protocol team) retains significant control,
+not fully anonymous with barriers for entry.
+- Attack Resistant: 1, no sufficient measures to mitigate risks due to being newly
+created, no record of voting mechanism to prevent attacks.
+- Governance: 5, governance token is UXD DAO, but structure and functionality
+uncertain due to infancy, operates using Solana system.
+- Regulatory Compliance: 8, domiciled in UAE which recently passed laws offering
+protection and benefits to DAOs and digital assets.
+- Work to Earn: 1, no information found on opportunities for users to perform
+services or earn reputation.
+- Organizational Communication: 1, limited information on facilitating discussion
+and participation, heavy reliance on third-party software.
+Klima DAO
+Aims to combat climate change by incentivizing carbon offsetting initiatives through
+blockchain-based solutions.
+- Decentralization: 1, three layers with Core Team holding substantial power, entry
+barriers for contributors and Core Team, largely controlled by Core Team despite
+using blockchain.
+- Attack Resistant: 5, uses Snapshot, but received strong marks in a recent study
+for token weighted voting, incentives, and no evidence of collusion.
+- Governance: 5, core team members retain access to protect treasury, token
+holders' rights proportional to number of tokens held, moving slowly in the right
+direction.
+66
+
+Version10.0-May2024
+- Regulatory Compliance: 5, registered in California which has no existing DAO
+laws but pending legislation, some litigation suggests DAOs formed in CA are
+governed under partnership law.
+- Work to Earn: 5, extends opportunities to external members for identifying issues
+or working on voted tasks, but lacks accountability measures for merit.
+- Organizational Communication: 5, proposals conducted through Discord server,
+active user engagement despite reliance on third-party sources.
+Paladin
+Enhances security in the De-Fi space by providing decentralized insurance and risk
+management solutions for crypto assets.
+- Decentralization: 5, elects small pockets of centralized key players, but no one
+person holds onto power or creates barriers to power distribution.
+- Attack Resistant: 5, allows users to stake votes and know potential rewards
+before joining, but uses Snapshot voting.
+- Governance: 5, successfully fosters active voting participation through delegation
+mechanisms, has safeguards as a voting lending protocol.
+- Regulatory Compliance: 5, organized under French law with recent legal
+wrapper, France has no DAO-specific laws but some protection under 1901
+statute.
+- Work to Earn: [no score given], unable to find information about bug reporting
+and compensation, but Quest method seems to incentivize community.
+- Organizational Communication: 5, uses Discord and Twitter for members to
+communicate, strong emphasis on active participation.
+Pool Together
+Focuses on prize savings, pooling users' funds with interest accrued going to one lucky
+winner to promote savings and financial inclusion.
+- Decentralization: 1, Core Team acts as interim governance body, no anonymity
+between users, hierarchy and barriers to entry.
+- Attack Resistant: 5, sparse information but reasonably indicates strong protocol
+against viable attacks, run by smart contracts on blockchain.
+- Governance: 1, POOL is purchasable governance token, voting power
+determined by number of tokens held, uses Snapshot for off-chain voting.
+- Regulatory Compliance: 1, organized in New York which has no laws recognizing
+DAOs, would be taxed according to traditional status, currently inactive with no
+legal wrapper.
+- Work to Earn: 1, no information found, lacks details in whitepaper or webpage.
+- Organizational Communication: 5, utilizes Discord, Twitter, Reddit, Telegram, and
+others, has a functioning forum for ideas, updates, and ecosystem engagement.
+67
+
+Version10.0-May2024
+Set10
+Mantle
+Dedicated to enhancing Ethereum's scalability by offering an EVM-compatible
+technology stack, providing resources and a comprehensive governance system.
+- Decentralization: 3/10, lacks true decentralization due to heavy moderation and
+prioritization based on affiliations, creating a hierarchical structure.
+- Attack Resistance: 1/10, vulnerable due to purchasable and fungible governance
+tokens, lacks essential features like reputational governance and sustainable
+voting mechanisms.
+- Governance: 1/10, lacks sustainability, susceptible to common failures, token
+holders can propose and vote but absence of essential features leaves
+governance protocol flawed.
+- Regulatory Compliance: 1/10, no information found on legal wrapper, lack of
+transparency about jurisdiction.
+- Work to Earn: 4/10, limited opportunities, lacks comprehensive economic
+incentivization model, relies on basic grant system.
+- Organizational Communication: 5/10, relies on third-party software, lacks
+mechanisms to incentivize meaningful discussion or track engagement levels.
+Decubate
+Tokenization DAO supporting web3 entrepreneurs and investors with a suite of services
+and opportunities, operating with a club tier system based on token holdings.
+- Decentralization: 1/10, fails to uphold principles of distributing power, centralized
+control pervades the organization.
+- Attack Resistance: 1/10, highly vulnerable due to reliance on purchasable and
+fungible governance tokens, lacks essential features for attack prevention.
+- Governance: 1/10, sustainability severely compromised, reliance on purchasing
+power fails to address common pitfalls, perpetuates centralization of power.
+- Regulatory Compliance: 5/10, operates within the Netherlands' legal framework,
+adhering to relevant regulations, but may face challenges in navigating regulatory
+complexities.
+- Work to Earn: 5/10, offers opportunities to contribute and earn rewards, but falls
+short in recognizing merit and reputation proportional to work performed.
+- Organizational Communication: 5/10, utilizes Discord for member discussions but
+lacks incentives to foster meaningful engagement.
+ApeCoin
+Decentralized protocol layer and token promoting web3 culture within the Bored Ape
+Yacht Club (BAYC) community, supporting various initiatives and ecosystem growth.
+68
+
+Version10.0-May2024
+- Decentralization: 5/10, exhibits some decentralized characteristics but presence
+of a centralized committee compromises overall decentralization.
+- Attack Resistance: 4/10, some vulnerabilities in governance mechanisms,
+reliance on centralized group for proposal selection introduces risk of
+manipulation.
+- Governance: 4/10, shortcomings in sustaining robust governance protocol,
+measures may not fully address common failures, potential vulnerabilities from
+voting mechanism.
+- Regulatory Compliance: 1/10, no information found on legal wrapper, lack of
+transparency about jurisdiction.
+- Work to Earn: 1/10, severely limited, completely prohibits outside individuals from
+participating in any form of work within the organization.
+- Organizational Communication: 5/10, relies on third-party platforms for member
+engagement, lacks integrated mechanisms to measure engagement or reward
+meaningful contributions.
+MetaCartel Ventures
+For-profit DAO supporting early stage dApps and web3 projects through investments
+and mentorship, led by experienced individuals known as "Mages".
+- Decentralization: 2/10, centralized decision-making structure despite efforts to
+engage community through "Townhalls", use of Zoom implies centralized
+platform.
+- Attack Resistance: 1/10, no information found on website, lack of transparency
+on attack resistance.
+- Governance: 1/10, no information found on website, lack of transparency on
+governance.
+- Regulatory Compliance: 1/10, no information found on website, lack of
+transparency on legal wrapper and jurisdiction.
+- Work to Earn: 1/10, no information found on website, lack of transparency on
+work to earn process.
+- Organizational Communication: 1/10, glaring deficiencies in transparency and
+accessibility, absence of information on resilience against common DAO attacks.
+FingerPrints DAO
+Diverse web3-centered collective strategically curating, collecting, and promoting
+on-chain artwork, with governance forums currently Discord-only.
+- Decentralization: 5/10, maintains a centralized committee overseeing operations,
+suggesting some level of centralization within the organization.
+69
+
+Version10.0-May2024
+- Attack Resistance: 1/10, vulnerable to common attacks due to reliance on
+purchasable and fungible governance tokens, lacks safeguards against token
+concentration.
+- Governance: 1/10, significant shortcomings due to reliance on purchasable
+tokens granting governing power, introduces hierarchical structure and
+vulnerability to manipulation.
+- Regulatory Compliance: 1/10, no information found on legal wrapper, lack of
+transparency about jurisdiction.
+- Work to Earn: 2/10, approach to incentivizing contributions lacks necessary
+mechanisms, approval process introduces centralization and potential bias.
+- Organizational Communication: 5/10, demonstrates some effort with proprietary
+software but fails to establish clear mechanisms to track communication, limiting
+potential for meaningful discussions.
+70
+
+Version10.0-May2024
+APPENDIX C: Bibliography
+Allen, D. W. (2017). “The Sharing Economy.” MIT Press.
+Beck, R., Müller-Bloch, C., and King, J. L. (2018). “Governance in the Blockchain
+Economy: A Framework and Research Agenda”. Journal of the Association for
+Information Systems, 19(10), 1020-1034.
+Buterin, V. (2014). “A next-generation smart contract and decentralized application
+platform”. Ethereum White Paper.
+Catalini, C., and Gans, J. S. (2016). “Some Simple Economics of the Blockchain.”
+SSRN Electronic Journal.
+Cong, L. W., and He, Z. (2019). “Blockchain Disruption and Smart Contracts.” The
+Review of Financial Studies, 32(5), 1754-1797.
+Cong, L. W., Li, X., and Wang, N. (2020). “Tokenomics: Dynamic Adoption and
+Valuation.” The Review of Financial Studies, 33(9), 3791–3823.
+Davidson, S., De Filippi, P., & Potts, J. (2016). “Economics of Blockchain.” SSRN
+Electronic Journal.
+De Filippi, P. (2017). “Blockchain and the Law: The Rule of Code.” Harvard
+University Press.
+De Filippi, P., and Hassan, S. (2016). “Blockchain technology as a regulatory
+technology: From code is law to law is code.” First Monday, 21(12).
+Ethereum Foundation. (2015). Ethereum White Paper.
+Hassan, S., and De Filippi, P. (2021). “Decentralized Autonomous Organizations.”
+Cambridge University Press.
+Hayes, A. (2019). “The Impact of Blockchain Technology on Finance: A Catalyst for
+Change.” Journal of Financial Perspectives, 7(1).
+Jain, R., Arora, N., and Aggarwal, S. (2020). “Decentralized Media: Transforming
+Content Creation and Distribution.” Journal of Media Innovations, 7(1), 23–42.
+71
+
+Version10.0-May2024
+Lamberti, F., Gatteschi, V., Demartini, C., Pranteda, C., and Santamaría, V. (2020).
+“Blockchain or Not Blockchain, That Is the Question of the Insurance and Other
+Sectors.” IT Professional, 20(2), 56–65.
+Napoli, P. M. (2020). “Social Media and the Public Interest: Media Regulation in the
+Disinformation Age.” Columbia University Press.
+Posner, E. A., and Weyl, E. G. (2018). “Radical Markets: Uprooting Capitalism and
+Democracy for a Just Society.” Princeton University Press.
+PWC. (2017). “Blockchain: The $5 Billion Opportunity for Insurers.”
+PricewaterhouseCoopers Report.
+Schwartz, D. (2020). “Blockchain and the Future of Governance.” Governance and
+Regulation, 12(3), 45-62.
+Swan, M. (2015). “Blockchain: Blueprint for a New Economy.” O'Reilly Media.
+Swartz, L. (2018). Blockchain Dreams: Imagining Techno-Economic Alternatives
+After Bitcoin. Futures, 95, 49–58.
+Szabo, N. (1997). “The Idea of Smart Contracts.”
+Taleb, N. N. (2007). “The Black Swan: The Impact of the Highly Improbable.”
+Random House.
+Tapscott, D., and Tapscott, A. (2016). “Blockchain Revolution: How the Technology
+Behind Bitcoin Is Changing Money, Business, and the World.” Penguin Random House.
+Wright, A., and De Filippi, P. (2015). “Decentralized Blockchain Technology and the
+Rise of Lex Cryptographia.” SSRN Electronic Journal.
+Zingales, L. (2000). “In Search of New Foundations.” Journal of Finance, 55(4),
+1623-1653.
+Zwitter, A., and Hazenberg, J. (2020). “Decentralized Autonomous Organizations:
+Governance and Regulation Challenges.” Blockchain and Governance, 45-62.
+72
+

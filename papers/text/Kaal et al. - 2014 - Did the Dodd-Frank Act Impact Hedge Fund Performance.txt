@@ -1,0 +1,1322 @@
+DID THE DODD-FRANK ACT IMPACT HEDGE FUND PERFORMANCE ?
+This Version: April 23, 2014
+BY
+WULF A. KAAL (CORRESPONDING AUTHOR)
+Prof. Wulf A. Kaal, Ph.D.
+Associate Professor
+University of St. Thomas School of Law
+1000 LaSalle Avenue
+MSL 400
+Minneapolis, MN 55403
+United States of America
+mobile: 001(312) 810-4390
+work: 001(651) 962-4972
+Fax: 001(651) 962-4881
+email: wulfkaal@stthomas.edu
+BARBARA LUPPI
+Prof. Barbara Luppi, Ph.D.
+University of Modena and Reggio Emilia
+Department of Economics
+Viale J. Berengario 51,
+41100 Modena
+Italy
+Tel: +39 059 2056845
+E-mail: barbara.luppi@unimore.it
+SANDRA PATERLINI
+Prof. Sandra Paterlini, Ph.D.
+Chair of Financial Econometrics & Asset Management
+EBS Universität für Wirtschaft & Recht
+EBS Business School
+Department of Finance, Accounting and Real Estate
+Gustav-Stresemann-Ring 3
+D-65189 Wiesbaden
+Germany
+Phone: +49 611 7102 1227
+Email: sandra.paterlini@ebs.edu
+1
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttpp::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+ABSTRACT
+Title IV of the Dodd-Frank Act introduced the most significant regulatory
+change in the history of the hedge fund industry. Contrary to the hedge fund industry’s
+claims that increased supervision and disclosure would affect their profitability, we find
+statistical evidence of a positive effect of the requirements introduced by the Dodd-
+Frank Act on hedge fund performance. The registration requirement for hedge fund
+advisers under the Dodd-Frank Act creates a discontinuity in hedge fund returns at the
+registration effective date, March 30, 2012. Strategic actions by fund advisers lead to a
+strong increase in the discontinuity around the AUM registration threshold.
+Keywords: Dodd-Frank Act, Hedge Funds, Performance, Regression Discontinuity
+Design, Difference-in-Difference Design
+JEL Classification: G23, G24, G28, K22
+2
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttpp::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+1. INTRODUCTION
+Hedge fund managers fear that the registration and disclosure requirements under
+the Dodd-Frank Act could lower their returns (Oesterle 2006, Kaal 2013a, Kaulessar
+2012). A survey of hedge fund managers conducted in 2012, after the registration
+effective date for hedge fund managers under the Dodd-Frank Act, revealed that a clear
+majority of hedge fund managers believed that increased compliance costs affect the
+industry. However, while Dodd-Frank Act compliance costs affect the profitability of
+hedge fund advisors’ investment management companies, registration and disclosure
+requirements under the Dodd-Frank Act do not seem to affect the returns of hedge funds
+(Kaal 2013a).
+For the first time since the inception of the hedge fund industry, Title IV of the
+Dodd-Frank Act (the Act or Dodd-Frank) and Securities and Exchange Commission
+(SEC) rules implementing the Act require hedge fund manager registration and
+enhanced disclosure of sensitive proprietary information (Dodd–Frank Act § 401, 402,
+408). The SEC’s rules introduced controversial disclosure obligations that require the
+reporting of risks metrics, counterparties and credit exposure, strategies and products
+used by the investment adviser and its funds, performance and changes in performance,
+financing information, positions held by the investment adviser, percentage of assets
+traded using algorithms, and the percentage of equity and debt, among others (SEC
+Form PF 2012, SEC Form ADV 2012). The true impact of these regulations on the
+hedge fund industry and their effect on hedge fund advisor performance is unclear.
+Some analysts estimate that the cost will range from $50,000 to $400,000 per year (Kaal
+2013a and 2013b).
+The enactment of Title IV of the Dodd-Frank Act was controversial. Despite
+reservations on both sides, the regulation of hedge funds in Title IV was included in the
+Dodd-Frank Act (CoE 2011, Paletta and Lucchetti 2010). In a 2009 white paper, the
+Treasury Department favored the registration of advisers of hedge funds and other
+private pools of capital with the SEC to ensure that financial institutions that are critical
+to market functioning are subject to strong oversight (Department of the Treasury,
+2009). SEC Commissioner Louis Aguilar commented: “’We're totally unable to discern
+what's going on in [the hedge fund] market, [we] have no idea how many dollars are
+involved, [. . .] what type of risk-taking is happening, [we] don't know if they're
+investing in vanilla securities or investing in the riskiest instruments."(Goldfarb and
+Cho, 2009). In the debate over the measure, Senator Jack Reed (D-RI) commented
+(2009, 1): “These private pools of capital are responsible for huge transfers of capital
+and risk, and so examining these industries and potential regulation are extremely
+important.” Rep. Paul E. Kanjorski (D-PA) (2009, H14420) stated: “[F]or the first time
+regulators will have the information needed to better understand exactly how these
+entities operate and whether their actions pose a threat to the financial system as a
+whole.” Opponents of Title IV were concerned that regulation would invade the privacy
+of clients and would place an unnecessary burden on investment advisers (Strasburg,
+2009). Banking Committee ranking member Richard Shelby (R-Ala.), complained that
+the bill represents a ‘squandered opportunity’ for streamlining the regulatory system and
+predicted that the measure will foster ‘unrestrained and unaccountable’ agencies.”
+(Ferullo, Bruce, Hill, and Manickavasgam 2010).
+3
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttpp::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Did Congress by enacting Title IV of the Dodd-Frank Act overburden the hedge
+fund industry? This study aims to estimate the impact of hedge fund adviser registration
+and increased disclosure requirements under the Dodd-Frank Act on hedge fund
+performance. We use self-reported Morningstar earnings data for 2145 hedge fund
+advisers that are based in the United States and are subject to the registration and
+disclosure requirements under Title IV of the Dodd-Frank Act and SEC rules.
+We find evidence that hedge fund adviser registration under the Dodd-Frank Act
+positively affects hedge fund adviser returns in March 2012, but this effect is not
+persistent in the subsequent months after the registration effective date for hedge fund
+advisers under the Dodd-Frank Act. Contrary to the claims of the hedge fund industry,
+we find no empirical evidence that would suggest that hedge fund adviser registration
+under the Dodd-Frank Act negatively affects hedge fund performance. To our
+knowledge, no other study has analyzed the implications of hedge fund adviser
+regulation. Because the hedge fund industry is a significant representative of Wall
+Street’s interests and regulating hedge funds is somewhat politically sensitive, the
+preliminary findings in this study are intended to provide guidance to policy makers who
+seek to implement a regulatory framework for the hedge fund industry.
+Part II explains the core aspects of hedge fund registration and enhanced
+disclosure requirements under the Dodd-Frank Act and SEC implementation rules and
+provides a short overview of the literature on hedge fund performance. Part III describes
+our dataset, hypotheses, and the empirical methodology. Part IV reports the empirical
+results of the impact of Title IV of the Dodd-Frank Act and SEC implementation rules
+on hedge fund performance, provides a summary of key findings, and discusses their
+implications, limitations, and the need for future research. Part V concludes.
+2. HEDGE FUND ADVISER REGULATION UNDER THE DODD-FRANK ACT
+The hedge fund industry evolved without substantial regulatory oversight (Kaal
+2009, Fung and Hsieh 1999). Since the development of the hedge fund model by Alfred
+Winslow Jones in the late 1940s (Jones 1949, Loomis 1966, Landau 1968), balancing
+the interests of hedge fund managers, investors, and regulators to attain a suitable level
+of regulatory oversight has proved contentious (Kaal 2013a). The SEC and the hedge
+fund industry reached a workable compromise in the mid 1980s, allowing hedge funds
+to remain exempt from regulation as long as they complied with accredited investor
+standards (SEC Regulation D, IA Release No. 2576, IA Release No. 2628) and safe
+harbor requirements (Kaal 2011 and 2013a).
+The expansion of the hedge fund industry in the late 1990s and its increasing
+importance in financial markets in combination with the creation of global financial
+markets and the non-stop flow of new financial instruments (Schumer 2008) changed the
+delicate balance of interests. The retailization of the hedge fund industry (IA Release
+2333, Kaal 2009, Donaldson 2003), the rise of hedge fund fraud (IA Release 2333), and
+the collapse of large hedge funds such as Long Term Capital Management in 1998,
+Tiger Funds in 2000, and Amaranth in 2006 (Roth and Fortune 2001, Jickling and Raab
+2006, Jorion 2000), among others, precipitated politicians and policy makers to voice
+concern over the alleged systemic risks posed by the hedge fund industry (Cox 2006,
+Kaal 2009 and 2013a). A combination of these factors amplified calls for increased
+supervision of the hedge fund industry (SEC HEDGE FUND REPORT 2003).
+4
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Following the global financial crisis of 2008-09, however, the tension between
+the hedge fund industry and the regulators flared up again. Politicians and the media
+accused hedge funds for taking undue risks that contributed to the financial crisis (Lee
+2009, Economist 2010). Capitalizing on the political support for increased oversight of
+the hedge fund industry, legislatures in the United States and Europe enacted new rules
+intended to address the perceived shortcomings of the global hedge fund industry
+(Dodd-Frank Act §§ 401-416, Commission AIF Proposal 2009). In the United States,
+Congress enacted the Private Fund Investment Advisers Registration Act of 2010
+(PFIARA) in Title IV of the Dodd-Frank Act (Dodd–Frank Act §§ 401-416). Title IV
+was intended to close regulatory gaps, provide greater protections for investors, and
+curtail speculative trading practices (House of Representatives Joint Explanatory
+Statement 2010).
+Title IV established rules and regulations for the registration of private funds
+with the SEC and expands the reporting requirements of private advisers to the SEC
+(Dodd–Frank Act § 408). The registration of hedge fund advisers was intended to limit
+systemic risk, prevent fraud, provide information to investors (Durbin 2010), and help
+the SEC to restrict market participants operating in the “shadows of our markets”
+(Kanjorski 2009). Hedge fund managers with assets under management (AUM) in
+excess of $150 million were required to register with the SEC as investment advisers
+and had to disclose information about their trades and portfolios to the SEC (Dodd Frank
+Act §§ 408, 403, IA Release 3221, IA Release 3222). Required disclosures under Title
+IV include: counterparty credit risk exposures, trading and investment positions, trading
+practices, the amount of AUM, valuation policies, side letters, the use of leverage, and
+other information deemed necessary and appropriate to avoid systemic risk (Dodd–
+Frank Act §§ 404, 405).
+2.1. Registration
+Title IV of the Dodd-Frank Act exempts private fund advisers with less than
+$150 million AUM from registration (Dodd-Frank Act § 408) and requires the SEC to
+examine factors including the investment strategy, size, and governance of an
+investment adviser in order to determine the systemic risk of hedge funds and to impose
+registration and examination procedures accordingly. To prevent the exemptions from
+registration to “swallow the rules,” Title IV authorizes the SEC to utilize its rulemaking
+authority (Kanjorski 2010). The SEC can require the disclosure of any other reports it
+considers necessary to protect investors (Dodd-Frank Act § 408).
+Investment advisers registering with the SEC are required to file the pertinent
+disclosure document - Form ADV (Form ADV, Sorady 2011, Coakley and Allen 2011,
+Koehler and Lambert 2011). To implement the new registration requirements under Title
+IV, the SEC amended Form ADV. On March 30, 2012 investment advisers in the United
+States, including those who had previously registered with the SEC, had to file the
+SEC’s amendment to Form ADV (Rule 203A-5(b), IA Release 3221), reporting to the
+SEC information regarding the private funds they manage (Form ADV Part 1A).
+2.2. Disclosure
+In addition to mandatory registration requirements, amended Form ADV requires
+disclosure of information regarding the fund structure, ownership, the gross asset value,
+5
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+the investment strategy, the scope of services provided, and the fund’s use of consultants
+and other gatekeepers (Amendments to Form ADV). Amended Form ADV also
+demands disclosure of non-advisory activities, financial industry affiliations, the number
+and types of its clients, and an assessment of the percentage of AUM attributable to each
+client type (Form ADV Part 1A). In addition to the regular annual filing, investment
+advisers also have to update Form ADV if the disclosures therein become materially
+inaccurate (Form ADV Part 1A).1
+In addition to the filing requirements under Amended Form ADV, Title IV
+requires registered hedge fund advisers to file periodic reports (Dodd-Frank Act § 404,
+IA Release 3308). In January 2011, in a joint effort to implement the Dodd-Frank Act
+provisions, the SEC and the Commodity Futures Trading Commission (CFTC) together
+proposed Form PF (IA Release 3308). In October 2011, the SEC enacted Form PF (IA
+Release 3308, Rule 204(b)-1). In adopting the final rules, the SEC attempted to balance
+FSOC’s interest in monitoring systemic risk through analyzing high quality information
+with industry concerns.
+Form PF filing requirements apply to all registered investment advisers that
+manage RAUM in excess of $150 million for private funds at the end of their most
+recently completed fiscal year (IA Release 3308). Hedge fund advisers managing less
+than $1.5 billion RAUM attributable to hedge funds must file Form PF annually (IA
+Release 3308), whereas advisers managing RAUM in excess of $1.5 billion attributable
+to hedge funds must file Form PF quarterly (IA Release 3308). The quarterly reporting
+requirement for large hedge fund advisers is intended to provide timely data that enables
+the FSOC to identify trends in systemic risk (IA Release 3308).
+Mandatory Form PF disclosures include the following items: credit exposure,
+strategy, risks metrics, products used by the investment adviser, performance and
+changes in performance, financing information, the funds managed by the investment
+advisor, and information about individual investors and positions held by the investment
+advisor (Form PF). Counterparty credit exposure is an important item on Form PF,
+requiring hedge fund advisers to identify the five trading counterparties to which the
+reporting funds have the greatest net counterparty credit exposure (Form PF Section 1c,
+2b).
+3. Previous work on Hedge Fund Performance
+Hedge fund performance has received a lot of attention in the literature. Prior
+studies have investigated the effects of various variables on hedge fund performance
+persistence. Several studies evaluate performance persistence in various contexts, (Fung
+et al. 2008, Jagannathan et al. 2010, Koh et al. 2003, Liang 2000 and 2003, Naik et al.
+2007, Teo 2009, Agarwal and Naik 2000, Agarwal et al. 2006 and 2007, Baquero et al.
+1 Amended Form ADV obliges advisers to disclose advisory activities, clients, employees, compensation
+arrangements (IA Release 3221, Form ADV Part 1A). Once advisers file Form ADV they can no longer
+deduct accrued but unpaid liabilities and other outstanding debt from their totals, because rather than
+reporting net Regulatory Assets Under Management (RAUM), advisers are required under Amended Form
+PF to report their gross RAUM (IA Release 3221). Amended Form ADV also curtails investment advisers
+in their ability to exercise discretion in including or excluding assets from RAUM (Amended Form ADV,
+Part 1 A, instr. 5.b) and identifying the adviser’s total RAUM and the ownership of RAUM by type of
+client (Form ADV Part 1A Item 5.D.(2)).
+6
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+2005, Cassar and Gerakos 2009, Ding and Shawky 2007, Eling 2009, Fung and Hseih
+1997, 2000, 2001 and 2004), among others. Other studies consider fund regulation and
+governance in the United States (Hu and Black 2007, Kaal 2013a and 2013b, Brown et
+al. 2008, Verret, 2008, Cassar and Gerakos, 2009, 2011), and internationally (Cumming
+and Dai 2009, 2010a and 2010b, Cumming and Johan 2008).
+A significant part of the literature focuses on the performance of hedge funds in
+comparison with other market participants. Ackermann, McEnally and Ravenscraft
+(1999), for instance, find that while hedge funds are more volatile than mutual funds and
+market indices, they consistently outperform mutual funds, but not standard market
+indices. Incentive fees used by hedge funds may explain some of the higher
+performance, but cannot explain the increased total risk (Ackermann, McEnally and
+Ravenscraft 1999). Other studies evaluate the strategies employed by hedge fund
+managers and their impact on performance. De Los Rios, Diez and Garcia (2011), for
+instance, find that only a few hedge fund strategies provide significant value to investors
+and not all fund categories exhibit significant nonlinearities. Hedge fund managers’
+unique investment strategies are associated with better hedge fund performance (Sun,
+Wang and Zheng, 2012). Hedge fund strategy can also influence hedge funds’
+performance persistence (Elgin, 2009).
+Absolute and relative performance of hedge funds is an important factor in the
+hedge fund industry. According to Amin and Kat (2003), hedge funds investments show
+the best results when 10%-20% of the portfolio value is invested in hedge funds but do
+not offer a superior risk-return profile as a stand-alone investment. Among more than
+three thousand hedge funds with similar style classification in 2011, Fung and Hsieh
+(2011) find that less than 20% of long/short equity hedge funds delivered persistent,
+significant, and stable positive non-factor related returns for investors. Past performance
+is associated with risk levels in hedge funds (Brown, Goetzmann and Park 2001).
+Absolute and relative performance of hedge funds is an important factor contributing to
+fund disappearance (Brown, Goetzmann and Park 2001). Average hedge fund returns
+are related positively to fund assets, lockup period, and incentive fees (Liang 1999).
+Funds performance and skills have been challenged by Lo and Hasanhodzic (2007) and
+Gramouridis and Paterlini (2010), that show that some hedge funds strategies can be
+replicated by combining simple financial tools.
+Because hedge funds evolved in a regulatory environment with low or no
+regulatory supervision until the enactment of the Dodd-Frank Act, most prior studies on
+hedge fund performance do not assess the implications of hedge fund regulation. Prior
+studies have explored the impact of earlier attempts by the SEC to register hedge fund
+managers and increase disclosure requirements for hedge funds. In the context of the
+SEC’s attempt in 2004 to register hedge fund advisers and file Form ADV disclosures
+(Kaal 2013a), Brown, Goetzmann, Liang and Schwarz (2008) investigate the effect of
+hedge fund manager registration on hedge funds’ operational risk. The study concludes
+that market participants were already aware of operational risk. Cumming and Dai
+(2010) also analyze the impact of pre Dodd-Frank Act hedge fund regulation on fund
+structure and performance. They report that lower fund alphas, lower average monthly
+returns, and higher fixed fees are associated with the location of key service providers
+and permissible distributions.
+7
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+The enactment of Dodd-Frank Act increases significantly regulatory oversight in
+hedge fund industry. Our study estimates the causal effect of an exogenous regulatory
+shock on hedge fund performance. More specifically, we estimate the causal effect of
+hedge fund manager registration and increased disclosure requirements under Title IV of
+the Dodd-Frank Act on hedge fund performance. Other studies investigate other effects
+of the Dodd-Frank Act. Among others, Dimmock and Gerken (2014) show that the
+increased regulatory oversight introduced by the Dodd-Frank Act reduces returns
+misreport by hedge funds.2
+4. DATA SOURCES AND DESCRIPTIVE STATISTICS
+To assess the impact of the registration effective date for hedge fund advisers
+under the Dodd-Frank Act on the hedge fund industry, we use data from the Morningstar
+Hedge Fund Database, Inc. on monthly hedge fund earnings (measured in US dollars)
+reported by about 7,000 hedge funds and more than 3,700 hedge fund advisers. Before
+the mandatory registration requirement for hedge fund advisers under the Dodd Frank
+Act, some hedge fund advisers voluntarily disclosed information about their investment
+strategies and earnings. After the mandatory registration requirement for hedge fund
+advisers under the Dodd Frank Act became effective on March 30, 2012, hedge fund
+advisers with AUM above $150 million are required to comply with increased disclosure
+obligations. Hedge fund advisers with less than $150 million AUM can choose to
+disclose information to the SEC.
+Due to missing data and the presence of outliers, we extract a sample of 2,145
+hedge funds that report all the monthly earnings data and monthly AUM in each period
+from January to October 2012. The data set contains information on individual hedge
+fund advisers and their managed funds (SEC identification number, name of the hedge
+fund, inception date, domicile) including legal structure and quality of management
+(manager name and tenure).
+The main descriptive statistics related to the monthly hedge funds returns and the
+logarithm of the AUM are reported in Table 1. We focus not only on the entire period
+but also on March 2012, the registration effective date for hedge fund advisers under the
+Dodd-Frank Act. The average number of funds with AUM larger than $150 million is
+about the 20% of the entire sample of funds. There are minor differences in the reported
+results between the entire period and March 2012. While the statistics related to the
+AUM are quite similar in the two considered periods, we notice that the average
+performance in March 2002 is negative compared to the average on the entire sample
+period, while the median is very close to zero, the minimum value of -28.78 confirms
+the presence of large losses.
+Because disclosure under the Dodd-Frank Act is mandatory only for the hedge
+fund advisers with AUM exceeding the threshold set at $150 million, we have divided
+our sample into three subsamples: the first and second subsamples include all the hedge
+funds with AUM always smaller or equal to $150 million or always larger than $150
+million, respectively. Such subsamples are referred to as "Small" and "Large"
+2 The Dodd-Frank Act aims to increase stability of financial markets. See, for example, Kane (2012) and
+Bhanu and Cyree (2014) investigating the effect of Dodd-Frank Act on the stability of financial systems
+and market discipline on banks.
+8
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+respectively. The third subsample, henceforth referred to as "Strategic" includes the
+remaining hedge funds with AUM larger than $150 million for at least one month but
+not in the entire sample period from January to October 2012.
+Average Values March 2012
+Number of funds ≤150 mil 1743 1735
+Funds with AUM>150 mil 402 410
+9
+snruteR
+Min -27.54 -28.78
+Mean 0.44 -0.34
+Median 0.43 0.01
+Max 46.61 27.21
+Std 3.52 3.19
+)MUA(goL
+Min 6.29 6.82
+Mean 17.06 17.11
+Median 17.23 17.27
+Max 23.86 23.84
+Std 2.15 2.12
+Table 1 – Descriptive statistics on the entire sample, in the period January-October 2012
+Figures 1 and 2 report the mean values for the hedge fund returns and the AUM
+(in logarithmic scale) for the three subsamples considered, while Table 2 and 3 display
+the main descriptive statistics for the entire period and for March 2012. As we notice
+from Figure 1, the average performance is better for the "Small" subsample in January,
+February, June and September, while the "Strategic" subsample outperforms on average
+the "Large" subsample in July and August. There is a strong variability in the
+performance of the subsamples, with on average no clear dominant group. Figure 2
+shows that average AUM is stable across the entire period with the "Large" group
+having the largest AUM, followed then by the "Strategic" and the "Small" groups,
+respectively.
+Table 2 provides more detailed information on the composition of the three
+groups in the sample period. About 79% of the entire sample of 2145 hedge funds
+consists of funds with AUM smaller than $150 million. Only 17% represents the
+"Large" subsample and 4% the "Strategic" subsample. While the median and mean
+return performance are similar for the three subsamples, the standard deviation and the
+minimum and maximum average performance suggest that the "Small" and "Strategic"
+group have a larger dispersion. When considering the AUM, we notice that, as expected,
+the "Small" subsample is more heterogeneous with respect to the size of the AUM, while
+the other two groups are quite stable, with smaller dispersion for the "Strategic".
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+3
+2
+1
+0
+−1
+−2
+−3
+−4
+1 2 3 4 5 6 7 8 9 10
+Months in Year 2012
+Figure 1 – Average mean hedge fund returns in the period January-October 2012
+Figure 2 – Average mean hedge fund logarithm AUM in the period January-October 2012
+10
+snruteR
+naeM
+Mean Returns − Year 2012
+Small
+Large
+Strategic
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+0
+1 2 3 4 5 6 7 8 9 10
+Months in Year 2012
+)MUA(nl
+naeM
+Small
+Large
+Strategic
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Sample Period: January-October 2012
+Small Large Strategic
+Number of funds 1700 358 87
+11
+snruteR
+Min -27.54 -11.34 -21.14
+Mean 0.43 0.49 0.30
+Median 0.41 0.52 0.49
+Max 46.61 11.13 11.94
+Std 3.64 2.63 3.99
+)MUA(goL
+Min 6.29 18.85 17.58
+Mean 16.36 19.92 18.83
+Median 16.74 19.76 18.83
+Max 18.80 23.86 19.75
+Std 1.83 0.84 0.31
+Table 2 – Descriptive statistics disaggregated on basis of AUM: average values in the period January-
+October 2012
+March 2012
+Small Large Strategic
+Number of funds 1700 358 87
+snruteR
+Min -28.78 -9.18 -24.33
+Mean -0.41 0.11 -0.82
+Median -0.06 0.25 0.18
+Max 27.21 8.53 7.67
+Std 3.28 2.17 4.42
+)MUA(goL
+Min 6.82 18.87 18.25
+Mean 16.43 19.94 18.88
+Median 16.81 19.79 18.85
+Max 18.82 23.84 19.73
+Std 1.79 0.83 0.24
+Table 3 – Descriptive statistics on subsamples, partitioned on basis of AUM in March 2012
+The picture does not change much when we look at the statistics in a single
+period, namely March 2012, shortly before the registration effective date for hedge fund
+advisers, March 30, 2012. Only the standard deviation of the returns of strategic
+subsample increased from 3.99 to 4.41. The other two subgroups reported a slightly
+lower standard deviation for March 2012.
+Figure 3 shows the boxplots of the hedge funds returns for the three subsamples
+in March 2012. We notice that the "Large" group is the one characterized by the smaller
+dispersion and largest median value, while the "Small" sample is the one characterized
+by the largest number of extreme observation (i.e. the red crosses). The strategic group
+has the largest dispersion in distribution of the data, but only few observations fall
+outside of the box, mostly in the left tail, pointing out a negative performance in the
+period considered. Results for the entire sample period are available upon request.
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Boxplot Funds Returns − March 2012
+30
+20
+10
+0
+−10
+−20
+−30
+Small Large Strategic
+Figure 3 – Hedge funds returns boxplot for the 3 subsamples in March 2012
+Figure 4 displays the times series of the 87 hedge funds in the strategic group
+from January 2012 to October 2012. The dotted line identifies the threshold set under
+the Dodd-Frank Act for mandatory disclosure. We notice that only few hedge funds
+sensibly decrease or increase their AUM under or above the threshold and then keep
+such position. Most funds in the sample have AUM very close to the threshold, with
+oscillations around it.
+20
+19.5
+19
+18.5
+18
+17.5
+17
+16.5
+1 2 3 4 5 6 7 8 9 10
+Period
+Figure 4 – Hedge funds AUM time series of the strategic sample in the period January-October 2012
+12
+)MUA(goL
+AUM Threshold
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Figure 5 displays the histogram of the strategic sample with respect to the number of
+times that such funds had AUM larger than $150 million. Considering the interval
+January-October 2012, the sample is quite heterogeneous. Among the 87 funds, there are
+14 funds that had AUM larger than $150 million only once and 14 funds for 8 out of the
+10 periods. For the remaining number of periods, the number of periods in which funds
+had AUM larger than $150 million varies from 6 to 10.
+14
+12
+10
+8
+6
+4
+2
+0
+1 2 3 4 5 6 7 8 9
+Number of Times with AUM>150
+Figure 5 – Histogram of the number of times the strategic hedge funds had AUM larger than 150 million
+during the period January-October 2012
+Figure 6 shows the evolution of the AUM from time t to time t+1 of the number
+of funds in the strategic sample. The blue dashed dotted line displays the number of
+funds that have changed their AUM from above $150 million to below for the different
+time periods (i.e. the first bin in the x-axis refers to the variation between January 2012
+and February 2012, the second bin in the x-axis refers to the variation between February
+2012 and March 2012, etc). The red continuous line displays the number of funds that
+have reported AUM below $150 million in period t and above $150 million in the next
+period, with an increase in the AUM. The green dotted line refers to the funds that had
+no variation from one period to the next one in the AUM, above or below the threshold
+of $150 million for two consecutive periods.
+We notice that on average 71 funds do not significantly change their AUM in
+time (green line), while there are some negative spikes from March to April 2012 and
+from July to August 2012 for the funds that record a decrease of the AUM under the
+threshold. The largest positive spike, which corresponds to the largest number of funds
+that decreased their AUM below $150 million is in the period April-May 2012, possibly
+suggesting some lagged effect of the registration effective date for hedge fund advisers
+under the Dodd-Frank Act.
+13
+sdnuF
+fo
+rebmuN
+−
+ycneuqerF
+etulosbA
+Strategic Sample
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+80
+70
+60
+50
+40
+30
+20
+10
+0
+1 2 3 4 5 6 7 8 9
+Periods in 2012
+Figure 6 – Evolution in time of the AUM for the strategic group
+5. ESTIMATING THE EFFECT OF ADVISER REGISTRATION ON PERFORMANCE
+For each period, from January 2012 to December 2012, we focus first on the
+empirical results from estimating linear regressions, considering the entire sample of
+2145 funds. Then, we use the sharp regression discontinuity approach (Imbens and
+Rubin 2007) to provide more insights on the effect of hedge fund adviser registration on
+performance.
+5.1. Linear Regression
+As a first step, we estimate the parameters of a simple linear regression model,
+considering the entire sample of 2145 funds for each period, from January 2012 to
+October 2012. We want to evaluate the possible presence of a relationship between the
+funds' returns (Y) and the logarithm of the AUM(X) at time t (t= Jan 2012, ...Oct 2012).
+Moreover, as a second step, we introduce a dummy variable, which assumes value equal
+to 1 if the AUM is larger than $150 million or 0 otherwise.
+Tables 4 and 5 below report the results of our investigation. In particular, we
+report the estimated values of the intercept (alpha), of the beta coefficient of the
+logarithm of the AUM (beta) and of the dummy variable, when present. For each
+coefficient, we also report the corresponding p-values. Finally, the value of the F-
+statistics with the corresponding p-value and the R-squared are reported.
+When considering the entire sample and no dummy variable, the estimated beta
+for the logarithm of the AUM are statistically significant at 5% level only in the period
+March-August 2012. We cannot reject the null hypothesis that the beta is equal to zero
+in the remaining period. The F-statistics also leads us to reject the null hypothesis that
+the coefficients are jointly equal to zero, supporting the validity of the model.
+Examining the beta coefficients, we notice that in the period March-May 2012
+and July 2012, beta coefficients are positive, suggesting that a larger AUM could
+explain a better performance, while in June and August 2012 the beta coefficients are
+14
+sdnuF.N
+Strategic Sample
+Decrease
+No Variation
+Increase
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+negative. In the period close to and following the registration effective date for hedge
+fund advisers under the Dodd-Frank Act, the size of funds seems to have a positive
+relationship with the fund performance.
+March 2012 April 2012 May 2012 June 2012 July 2012 August 2012
+Alpha -1.735*** -1.452*** -8.909*** 2.529*** -2.289*** 3.067***
+(0.002) (0.000) (0.000) (0.000) (0.000) (0.000)
+Beta 0.082** 0.059** 0.319*** -0.112*** 0.168*** -0.095**
+(0.012) (0.013) (0.000) (0.002) (0.000) (0.006)
+F-stat 6.373** 6.157** 29.007*** 9.286*** 26.142*** 7.584***
+(0.012) (0.013) (0.000) (0.002) (0.000) (0.006)
+R-squared 0.003 0.003 0.013 0.004 0.012 0.004
+Table 4 – Regression statistics for a linear model in the period March-August 2012
+If we look at the results in Table 5, where the simple linear regression models
+also include a dummy variable, with value equal to 1 for funds with AUM larger than
+$150 million and 0 otherwise. We notice that in March 2012, no variable is statistically
+significant at 5% significance level while in April 2012, the dummy variable is
+statistically significant. In the following periods, no dummy variable or beta coefficient
+is significant. The F-statistics support the validity of the models, while the explanatory
+power, measured by the R-squared is still very limited.
+The empirical results from the simple regression analysis seem to suggest that
+close to the registration effective date for hedge fund advisers under the Dodd-Frank
+Act, the size of AUM, above or below the regulatory threshold of $150 million can play
+a role in explaining the hedge funds returns of the entire sample of data, which a
+regression model with dummy variables cannot capture.
+March 2012 April 2012 May 2012 June 2012 July 2012 August 2012
+Alpha -1.131* -0.422 -8.046*** 2.297*** -2.107*** 2.939***
+(0.099) (0.402) (0.000) (0.003) (0.002) (5.29e-05)
+Beta 0.043 -0.007 0.263*** -0.097* 0.156*** -0.087**
+(0.302) (0.806) (0.0005) (0.037) (0.0002) (0.048)
+Dummy 0.339 0.591*** 0.509 -0.137 0.109 -0.075
+(0.128) (0.000) (0.222) (0.598) (0.641) (0.758)
+F-stat 4.345** 9.427*** 15.251*** 4.780*** 13.175*** 3.838**
+(0.013) (8.39e-05) (2.64e-07) (0.008) (2.055e-06) (0.021)
+R-squared 0.004 0.008 0.014 0.004 0.012 0.004
+Table 5 – Regression statistics for a linear model with a dummy variable, in the period March-August
+2012.
+5.2. Regression Discontinuity Design
+5.2.1. Entire Sample
+Our main identification strategy is based on the potential discontinuity generated
+by the enactment of the Dodd-Frank Act and SEC implementation rules that require
+hedge fund advisers with an AUM greater than $150 million to comply with registration
+after March 30, 2012.
+15
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Our empirical methodology is based on a regression discontinuity design, using
+the Rubin Causal Model (RCM) (Rubin 1974, Holland 198, Imbens and Rubin 2007,
+Imbens and Wooldridge 2007). The regression discontinuity design allows us to
+examine the causal effect of a binary treatment of units (which may be individuals,
+firms, or other entities), that may have been exposed or may not have been exposed to a
+specific treatment. In our analysis, the unit of observation is a specific hedge fund before
+and after the treatment, represented by the registration effective date for hedge fund
+advisers under the Dodd-Frank Act, March 30, 2012. Additionally, the treatment may
+affect the units, each hedge fund adviser in our sample, in a heterogeneous way, which
+needs to be controlled for.
+In the following, we use the Sharp Regression Discontinuity (SRD) design
+(Trochim 1984 and 2001, Imbens and Kalyanaraman 2012). Our analysis has been
+performed in STATA and MATLAB, using the code described in Fuji, Imbens and
+Kalyanaraman (2009) and the STATA packages rd (Nichols 2007) and rdrobust
+(Calonico et al. 2013).
+In the SRD design, the assignment of units to the treatment group is governed by
+the variable Wi, defined as a deterministic function of the forcing (or treatment-
+determining) variable X and the fixed threshold c, and takes the following value:
+1 𝑖𝑓 𝑋 > 𝑐
+𝑊 = !
+! 0 𝑜𝑡ℎ𝑒𝑟𝑤𝑖𝑠𝑒
+All units with a value of X at least equal to c are assigned to the treatment group.
+i
+On the contrary, all units with a covariate value less than c are assigned to the control
+group (and are not eligible for the treatment). The basic idea behind the RD design is
+that any discontinuity in the conditional distribution of Y as a function of X at the cutoff
+i i
+value c is interpreted as evidence of a causal effect of the treatment.
+In the context described here, the registration of the hedge fund advisers under
+the Dodd-Frank Act is the treatment. The Dodd-Frank Act requires a hedge fund adviser
+to be registered if the AUM exceeds $150 million after March 30, 2012, the registration
+effective date. Hedge fund advisers are assigned to the treatment group only when these
+two conditions are met. The outcome variable Y is the hedge fund advisers’ returns in
+i
+each period of the sample, after the registration effective date for hedge fund advisers
+under the Dodd-Frank Act. The forcing variable X is the log AUM of each hedge fund
+i
+adviser i, with the threshold c set equal to $150 million, which has been re-scaled to zero
+in the following figures.
+We apply the data-driven optimal choice of evenly-spaced bins in Calonico et al.
+(2013). The procedure aims to use bins to approximate the underlying regression
+functions by local sample means. The optimal solutions provided by their approach
+would suggest to partition our data in seven bins, which is too small. Hence, we
+increased the optimal number of bins by a factor of 20 and 100 to obtain a plot showing
+a cloud of points as shown in Figure 7 below. We notice that the variability on the
+returns (y-axis) is larger for the funds with large AUM and as we increase the number of
+bins, the regression function clearly gets smoother. However, the presence of
+discontinuity is evident, not matter what number of bins we consider.
+16
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Under a SRD approach, following Imbens and Kalyanaraman (2012), we focus
+on the estimation of the average effect of the treatment for units with covariate values
+equal to the threshold, denoted with coefficient τ . We perform the regression on the
+RD
+entire sample from January 2012 to October 2012. Only in March 2012, i.e. the
+registration effective date for hedge fund advisers, the estimated coefficient has value
+larger than one, while it is always close to zero in the other periods. Moreover, the
+coefficient in March 2012 is the only one with p-value smaller than 5%, while all the
+estimates in the following months are not significant.
+Mar 12 Apr 12 May 12 Jun 12 Jul 12 Aug 12 Sep 12 Oct 12
+τ 1.104*** 0.029 0.574 0.021 0.002 0.122 0.144 0.200
+RD
+Std. Err 0.452 0.254 0.824 0.399 0.391 0.315 0.312 0.330
+p-value 0.015 0.909 0.486 0.958 0.995 0.697 0.645 0.545
+Opt. 1.032 2.019 1.337 2.319 1.951 2.022 2.410 2.006
+Bandwidth
+Table 6 – SRD estimated coefficient on entire sample of 2145 funds in March 2012
+The impact of mandatory registration of hedge fund advisers under the Dodd-
+Frank Act is not persistent in the subsequent months after March 2012, i.e. after the
+registration effective date, except for May 2012. Compliance with mandatory
+registration could have occurred in the months prior to the registration effective date,
+March 30, 2012. We have extended our analysis using a Fuzzy Regression Discontinuity
+(FRD) approach on the entire sample. FRD design allows us to model the probability of
+receiving the treatment (compliance with mandatory information disclosure) as a smaller
+jump at the threshold (i.e. lower than 1), rather than a sharp change from 0 to 1 as in the
+SRD design. However, because the denominator is very close to 1 in our investigation,
+empirical results show that the differences between the SRD and the FRD approach are
+of minor importance.
+Figure 8 illustrates the discontinuity effect on hedge fund earnings occurred at
+the registration effective date, on March 30, 2012. Figure 8 suggests that the
+requirements introduced by the Dodd-Frank Act create a positive effect on hedge fund
+performance. By contrast, the hedge fund industry expected the introduction of the
+Dodd-Frank Act to result in negative effects on hedge fund returns. However, this
+discontinuity effect we observe in March 2012 is not persistent and is completely
+absorbed in the months following the registration effective date for private fund advisers
+under the Dodd-Frank Act.3
+Figure 9 reports the results obtained by using the density test proposed by
+McCrary (2008). The results reported in Figure 9 further support and underscore the
+presence of a discontinuity in March 2012 at the threshold of 150 million.
+The estimates reported in Table 6 are computed in correspondence of the optimal
+bandwidth. As a robustness check, we computed such estimates when considering
+different bandwidths. As Figure 10 shows, the estimates are statistically significant and
+rather stable also for larger bandwidths. Smaller bandwidths, which are of limited
+3 All statistical results and graphs of SRD analysis for the subsequent months are available upon request.
+17
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+interest in our application, eventually result in confidence intervals that include the zero
+value, suggesting that such bandwidth would not lead to detect any discontinuity.
+Figure 7 –RD plot using a) (on the left) a factor 20 and b) (on the right) a factor 100 scaled down optimal
+bin-length choice relative to the entire sample of 2145 funds in March 2012. X-axis: logarithm of the
+(AUM) after subtracting the threshold of log(150mil), y-axis: log-returns in March 2012
+Figure 8 – SRD graph for registration effective date March 30, 2012
+18
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Figure 9 – Jump in density of Assignment Variable for registration effective date March 30, 2012
+Figure 10 – Confidence intervals for the estimated effect in March 30, 2012 when different bandwidths
+are applied
+Figure 11 shows that the optimally chosen bandwidth is very close to the value
+that cross-validation would select, as implemented by Calonico et al. (2013), supporting
+the validity of the results. Increasing the bandwidth size does not dramatically affect our
+estimates. Larger values could also be considered as viable alternatives.
+19
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Figure 11 – Confidence intervals for the estimated effect in March 30, 2012 for different bandwidths
+Finally, following the approach proposed by Calonico et at. (2013), we compared
+the estimates computed by the conventional RD method with the Bias-Corrected and
+Robust ones. As Table 7 below shows, all the estimates are very close to each other in
+magnitude and all of them have a p-value smaller than 5%, affirming the presence of a
+discontinuity in March 2012.
+Method Coef. Standard z p-value 95% Conf. Interval
+Error
+Conventional 1.1302 0.47117 2.3988 0.016 0.206749 2.05372
+Bias-Corrected 1.3306 0.47117 2.8241 0.005 0.407146 2.25411
+Robust 1.3306 0.52251 2.5466 0.011 0.306533 2.35472
+Table 7 – Robust alternative estimates for the RD coefficient in the period March 30, 2012
+5.2.2. Strategic Subsample
+The registration effective date for hedge fund advisers under the Dodd-Frank
+Act, March 30, 2012, may have affected hedge fund advisers in an asymmetric way.
+Hedge fund advisers with a very small AUM would have probably been unresponsive to
+the regulation, anticipating that information disclosure would remain on a voluntary
+basis. Hedge fund advisers with an AUM sufficiently larger than $150 million had to
+comply with the new requirements. This would not be the case for those hedge fund
+advisers with an AUM level floating above and below $150 million during the 10
+months of observation in the sample. It is possible that the enactment of the Dodd-Frank
+Act introduces incentives that are powerful enough to cause some hedge fund advisers to
+opt out of Dodd-Frank Act registration and disclosure through a strategic change of
+AUM size. There would be room for strategic decisions by advisers to reduce the AUM
+size below $150 million, to avoid compliance with mandatory information disclosure.
+20
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+As previously described, we build a subsample, called "Strategic", made of 87
+hedge fund advisers characterized by an AUM level above $150 million for at least one
+month in the sample period but not in the entire sample period from January to October
+2012. We extend the analysis to consider the effect of the registration effective date for
+hedge fund advisers on the subsample of hedge fund advisers. We perform a FRD
+regression on the strategic hedge fund adviser subsample in March 2012, i.e. after the
+registration effective date, and in all the subsequent months in the period January 2012-
+October 2012.
+Table 8 reports the values of the estimated coefficients, the standard errors, and
+the number of funds in the strategic subsample with AUM smaller or larger than $150
+million and the value of the optimal bandwidth. Figure 9 reported below shows the value
+of the discontinuity coefficient for the entire sample and the strategic sample from
+March 2012 to October 2012. While the entire sample has a value always very close to
+zero, except for March 2012, the strategic subsample has a value always above zero. The
+strategic subsample reaches its lowest estimates in March 2012 and then the magnitude
+of the coefficients in the following periods increases sensibly until August 2012.
+Moreover, looking at the number of advisers with AUM above or below the threshold,
+we notice that while in March and April 2012 we have basically no change, there are
+relevant changes in the following months, from May until August 2012. In particular,
+some large advisers reduce their AUM. This leads to a strong increase in the
+discontinuity around the AUM registration threshold, suggesting a stronger separation
+between the two groups. The effect vanishes during the last months of our sample
+period.
+March April May June July August September October
+2012 2012 2012 2012 2012 2012 2012 2012
+τ 2.59 4.74 4.25 -1.82 1.21 -2.04 0.28 2.13
+!"
+Standard 0.95 2.17 2.73 1.76 1.71 1.08 1.14 1.09
+Error
+Funds with 52 53 40 38 34 43 44 35
+AUM>150
+mil
+Funds with 35 34 46 47 52 41 42 51
+AUM<150
+mil
+Optimal 0.10 0.12 0.13 0.15 0.14 0.17 0.18 0.19
+Bandwidth
+Table 8 – FRD estimated coefficients on strategic subsample in period March-October 2012
+21
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+3
+2.5
+2
+1.5
+Entire Sample
+1
+Strategic Sample
+0.5
+0
+Figure 12 - Tau coefficient for FRD for the entire sample vs the strategic sample. In the period March -
+October 2012
+The most important limitation of our study is the availability of data. For the
+preliminary findings in this study, we worked with ten months of available hedge fund
+advisers earnings data. Available data includes earnings data from January 2012 to
+October 2012. However, because the registration effective date for hedge fund managers
+under the Dodd-Frank Act, is March 30, 2012, the results for the last seven months of
+the sample are of most interest.
+5.3. Difference-in-Difference Design
+Thus far, we have used a SRD design (Trochim 1984 and 2001, Imbens and
+Kalyanaraman 2012) and a FRD design to assess whether the registration effective date
+under the Dodd-Frank Act and SEC implementation rules affect hedge funds’ earnings
+post treatment. We use here an alternative approach, difference-in-difference (DiD)
+analysis, to test our earlier results. In the DiD analysis we consider hedge funds to be
+“treated” by the Dodd-Frank Act and SEC implementation rules if they have more than
+$150 million AUM. In this DiD analysis, funds with less than $150 million AUM are
+controls.
+The simple comparison of the mean of the outcome in treatment and control
+groups (the “differences” estimator) can be justified because the randomization ensures
+that mean comparison does not have any systematic differences in any other pre-
+treatment variable. Even without the assumption that the treatment and control groups
+are the same apart from the treatment, we can assume that, in the absence of the
+treatment, the unobserved differences between our treatment group (funds with AUM
+larger than $150 million) and control group (funds with AUM lower than $150 million)
+are the same over time.
+A key assumption for the DiD strategy is that the outcome in treatment and
+control group follow the same time trend in the absence of the treatment, but this does
+mean that the outcomes have the same mean. Using additional pre-treatment
+performance data, Figure 13 suggests that the trends in our dataset are the same for the
+treatment and control group.
+22
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+6
+4
+2
+0
+Nov-10 Feb-11 Jun-11 Sep-11 Dec-11 Apr-12 Jul-12 Oct-12 Jan-13
+-­‐2
+No Treatment
+Treatment
+-­‐4
+-­‐6
+-­‐8
+Figure 13 - Time series comparison for treatment group and control group: earnings in the period
+January 2011 – October 2012. The yellow bar indicates the beginning of the treatment
+The difference estimator simply uses the difference in means between treatment
+and control group post-treatment as the estimate of the treatment effect. We use t=0 to
+denote the pre-treatment-period and t=1 to denote the post-treatment-period, y denotes
+it
+the outcome for individual i in period t. Given these specifications, an alternative
+regression-based estimator that uses the level of the outcome variable can be modeled
+as:
+y = β +βX +βT +βX *T + ε
+it 0 1 i 2 t 3 i t it
+where X is a dummy variable with value 1 if the fund is in the treatment group and 0 if
+i
+the fund is in the control group. T is a dummy variable with value 1 in the post-
+t
+treatment period and 0 in the pre-treatment period. The DiD estimator is the OLS
+estimate of β, that is, the coefficient on the interaction between X and T. This is a
+3 i t
+dummy variable that takes the value 1 only for the treatment group in the post-treatment
+period.
+Our DiD analysis confirms the results of our RD design. Table 9 shows the
+dummy variable that identifies the treatment with a positive coefficient that is highly
+significant. Table 9 also shows that the dummy variable that identifies the treatment
+group univocally (year 2012 and AUM>150M) is positive and statistically significant in
+March, April and May 2012. It loses significance in June and July, but it becomes
+significant again in August, September (with a negative coefficient) and October (with a
+positive coefficient).
+23
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Dependent Monthly Return
+Variable
+Month March April May June July August September October
+Post Reform 0.8216*** 0.8193*** 1.1962*** -0.3098 -0.0843 -1.4256*** -2.2199*** 1.5731***
+Dummy * [0.23] [0.23] [0.37] [0.25] [0.27] [0.35] [0.39] [0.39]
+Monthly [0.3609, [0.3651, [0.4763, [0.3609, [-0.7977, [-0.6145, [-2.1134, [0.7993,
+AUM Dummy 1.2823] 1.2737] 1.9161] 1.2823] 0.1781] 0.4459] -0.7377] 2.3468]
+95% confidence
+interval
+Constant Yes yes yes yes yes yes Yes Yes
+Number of 4290 4290 4290 4290 4290 4290 4290 4290
+observations
+R2 0.0202 0.2558 0.0458 0.0662 0.0095 0.1768 0.3114 0.1261
+Table 9 - Difference-in-Differences regressions, of individual hedge fund monthly returns over March-
+October 2012 on post-reform dummy (=1 for March 2012 and later), monthly AUM dummy (=1 for hedge
+funds with AUM greater than $150 millions), interaction between these variables, and constant term.
+Amounts in $. t statistics, with standard errors, in parentheses. *, **, *** indicate significance at the 10%,
+5%, and 1% levels. Significant results (at 5% or better) are in boldface.
+5.4. DISCUSSION & CONCLUSION
+For much of its history, the hedge fund industry has viewed hedge fund adviser
+registration and the disclosure of proprietary information as a threat to its profitability.
+Regulators have attempted for decades to increase the monitoring and supervision of the
+hedge fund industry. Ending the struggle between the industry and regulators, Title IV
+of the Dodd-Frank Act introduced a mandatory registration and disclosure requirement
+for hedge fund managers.
+Contrary to the hedge fund industry’s claims that increased supervision and
+disclosure would affect its profitability, we find statistical evidence of a positive effect
+of the requirements introduced by the Dodd-Frank Act on hedge fund advisers’
+performance. More specifically, upon an examination of beta coefficients in the period
+following the registration effective date, the size of funds seems to have a positive
+relationship with fund performance. Moreover, the empirical results from a simple
+regression analysis suggest that the size of AUM, above or below the regulatory
+threshold of $150 million can play a role in explaining hedge fund returns in the time
+period following the registration effective date for hedge fund advisers under the Dodd-
+Frank Act.
+The results of this study suggest that a discontinuity exists at the threshold value
+of $150 million AUM, above which hedge fund adviser registration under the Dodd-
+Frank Act becomes mandatory. Despite the great volatility of hedge fund adviser returns
+displayed over the period under examination, the empirical evidence is robust. The
+discontinuity is not persistent and dissipates in the subsequent months after the
+registration effective date for hedge fund advisers. Comparing the discontinuity of those
+fund advisers that act strategically with the remainder of the sample, strategic actions by
+fund advisers lead to a strong increase in the discontinuity around the AUM registration
+threshold. However, the effect disappears during the last months of the sample period.
+Prior studies have demonstrated that mandatory hedge fund adviser registration
+under the Dodd-Frank Act affects the cost structure of the industry (Kaal 2013a). Kaal
+(2013a) collected data on hedge fund managers, showing that registration and increased
+24
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+compliance requirements under the Dodd-Frank Act increase the cost structure of hedge
+funds. However, that increase may be marginal. Kaal (2013a) finds non-robust evidence
+that the higher administrative costs imposed by the Dodd-Frank Act are a second-order
+effect of the regulation, thereby not affecting the overall returns of hedge funds. Kaal’s
+(2013a) result is consistent with our findings because the impact of Dodd-Frank Act
+registration requirements on hedge fund manager profitability does not persist in the
+long run.
+Our regression analysis also suggests that the mandatory registration requirement
+imposed by the Dodd-Frank Act affects the hedge fund industry asymmetrically. We
+find some evidence that hedge fund advisers with AUM floating above and below the
+threshold value of $150 million may strategically reduce their AUM size. Because the
+Dodd-Frank Act affects hedge fund advisers with AUM greater than $150 million,
+hedge fund advisers may be incentivized to change their organizational structure or act
+otherwise strategically to avoid the registration and disclosure requirements imposed by
+the Dodd-Frank Act.
+The preliminary results in this study suggest that the SEC’s collection of
+proprietary hedge fund data via Forms ADV and PF does not negatively impact the
+hedge fund industry’s performance as a whole. It seems to affect merely a subset of the
+hedge fund industry. However, our analysis needs to be extended further in order to
+assess more carefully the impact of the Dodd-Frank Act on administrative costs.
+Acknowledgements
+The authors would like to thank Bernard Black, Katherine Litvak, Douglas Cumming,
+Shari Seidman Diamond, Ronald Masulis, CNV Krishnan, Scott Hirst, Dhammika
+Dharmapala, David Zaring, John Morley, Dirk Zetzsche, Tamar Frankel, William
+Bratton, Sabastian V. Niles, Anne Tucker, Joan Heminway, Jennifer Taub, James Cox,
+and Lisa Fairfax, the participants at the 2013 Conference on Empirical Legal Studies,
+the participants at the 2013 annual meeting of the Midwest Law & Economics
+Association, the participants at the Fourth Annual Junior Faculty Business and Financial
+Law Workshop at George Washington University Law School, the participants at the
+2014 annual meeting of the Eastern Finance Association, and the participants at the 2014
+annual meeting of the European Financial Management Association.
+25
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+References
+155 Cong. Rec. H14419-20 (daily ed. Dec. 9, 2009) (statement of Rep. Paul Kanjorski).
+155 Cong. Rec. H14441–42 (daily ed. Dec. 9, 2009) (statement of Rep. Sheila Jackson
+Lee).
+156 Cong. Rec. H5233, H5235–39 (daily ed. June 30, 2010) (statement of Rep. Paul
+Kanjorski).
+156 Cong. Rec. S5902, S5912 (daily ed. July 15, 2010) (statement of Sen. Patrick
+Leahy).
+156 Cong. Rec. S5902, S5925 (daily ed. July 15, 2010) (statement of Sen. Dick Durbin).
+17 C.F.R. § 275.203A–5(b) (2012).
+17 C.F.R. § 279.9 (2012).
+Ackermann, Carl, Richard McEnally, and David Ravenscraft. 1999. The Performance of
+Hedge Funds: Risk, Returns, and Incentives. Journal of Finance 54 (3), 833-874.
+doi:10.1111/0022-1082.00129.
+Agarwal, Vikas, and Narayan Y. Naik. 2000. Multi-Period Performance Persistence
+Analysis of Hedge Funds. Journal of Financial and Quantitative Analysis 35 (3),
+327-342. doi:10.2307/2676207.
+Agarwal, Vikas, and Narayan Y. Naik, 2006. “Flows, Performance, and Managerial
+Incentives in the Hedge Fund Industry”, London Business School Working
+Paper.
+Agarwal, Vikas, and Narayan Y. Naik, 2007. “Why is Santa So Kind to Hedge Funds?
+The December Return Puzzle.” London Business School Working Paper.
+Agarwal, Vikas, Naveen D. Daniel, and Narayan Y. Naik. 2009. Role of Managerial
+Incentives and Discretion in Hedge Fund Performance. Journal of Finance 64
+(5), 2221–2256. doi:10.1111/j.1540-6261.2009.01499.
+Amenc, Noël, and Lionel Martellini. 2003. “The Alpha and Omega of Hedge Fund
+Performance Measurement.” Risk and Asset Management Research Center,
+EDHEC Business School, Lille, France. http://www.edhec-
+risk.com/events/EDHEC_Events/Event.2004-12-
+09.1402/attachments/alpha%20and%20omega.pdf.
+Amenc, Noël, Sina El Bied, and Lionel Martellini. 2003. “Predictability in Hedge Fund
+Returns.” Financial Analysts Journal 59 (5): 32-46.
+Amendments to Form ADV, Investment Advisers Act Release No. 3060, 75 Fed. Reg.
+49,234 (July 28, 2010) (IA Release 3060).
+Americas’ Financial Services Regulatory Center of Excellence (CoE). 2011.
+“Regulatory Reform for the Financial Services Industry--and Beyond.” KPMG,
+issued May 4, 2011, and accessed December 3, 2012.
+http://www.kpmg.com/US/en/IssuesAndInsights/ArticlesPublications/Document
+s/dodd-frank-quickhits.pdf
+Amin, Gaurav S., and Harry M. Kat. 2003. “Hedge Fund Performance 1990–2000: Do
+the ‘Money Machines’ Really Add Value?” Journal of Financial and
+Quantitative Analysis 38 (2) 251-274. doi:10.2307/4126750.
+Bhanu Balasubramnian A. and Ken B. Cyree. 2014. “Has market discipline on banks
+improved after the Dodd–Frank Act?”, Journal of Banking and Finance 41, 155-
+166
+26
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Baquero, G., J. t. Horst, M. Verbeek, 2005. "Survival, Look-Ahead Bias, and Persistence
+in Hedge Fund Performance." Journal of Financial and Quantitative Analysis
+40(3): 493-517.
+Brown, Stephen J., William N. Goetzmann, and James Park. 2001. “Careers and
+Survival: Competition and Risk in the Hedge Fund and CTA Industry.” Journal
+of Finance 56 (5): 1869-1886. doi:10.1111/0022-1082.00392.
+Brown, Stephen, William Goetzmann, Bing Liang, and Christopher Schwarz. 2008.
+“Mandatory Disclosure and Operational Risk: Evidence from Hedge Fund
+Registration.” Journal of Finance 63 (6): 2785-2815. doi: 10.1111/j.1540-
+6261.2008.01413.x.
+Cassar, G., and J. Gerakos, 2009. “Determinants of Hedge Fund Internal Controls and
+Fees,” The Accounting Review, 85, 1887-1919.
+Cassar, G., and J. Gerakos, 2011. “Hedge Funds: Pricing Controls and the Smoothing of
+Self-Reported Returns.” Review of Financial Studies, 24 (5), 1698-1734.
+Caglayan, Mustafa O., and Sevan Ulutas. 2012. “Emerging Market Betas and the Cross
+Section of Hedge Fund Returns.” Working Paper.
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2037039.
+Chelsea Technologies. 2012. “Hedge Fund Managers Ramping up Mock Due Diligence
+Audits in Preparation for First Post Dodd-Frank SEC Examinations.” News
+release, February 13. http://199.195.116.193/news+events/2012/02/hedge-fund-
+managers-ramping-up-mock-due-diligence-audits-in-preparation-for-first-post-
+dodd-frank-se.html
+Cheng, M.-Y., Fan, J. and Marron, J.S. 1997. “On Automatic Boundary Corrections,”
+The Annals of Statistics, 25, 1691-1708.
+Coakley, Michael P., and Matthew P. Allen. 2011. “The New Form ADV Part 2 and the
+‘Plain English’ Movement of the SEC, FINRA and Michigan’s OFIR.” Michigan
+Business Law Journal 31 (1): 19-30.
+Colonico, Sebastian, Matias D. Cattaneo, and Rocio Titiunik. 2013. “Robust Data-
+Driven Inference in the Regression-Discontinuity Design”, The Stata Journal, ii,
+1-34.
+_________. 2013. “Robust Nonparametric Confidence Intervals for Regression-
+Discontinuity Designs.”, (working paper). http://www-
+personal.umich.edu/~cattaneo/papers/RD-robust.pdf
+Commission of the European Communities. “Commission Proposal for a Directive of
+the European Parliament and of the Council on Alternative Investment Fund
+Managers and amending Directives 2004/39/EC and 2009/…/EC.” COM (2009)
+207 final, April 30, 2009.
+http://ec.europa.eu/internal_market/investment/docs/alternative_investments/fun
+d_managers_proposal_en.pdf
+Cumming, Douglas, and Na Dai. 2009. “Capital Flows and Hedge Fund Regulation”
+Journal of Empirical Legal Studies, 6, 848-873.
+_________. 2010a. “A Law and Finance Analysis of Hedge Funds.” Financial Management
+39 (3): 997-1026. doi:10.1111/j.1755-053X.2010.01102.x.
+______. 2010b. “Hedge Fund Regulation and Misreported Returns”, European
+Financial Management 16, 829-867.
+Cumming, Douglas, and Sophia A. Johan, 2008. “Hedge Fund Forum Shopping”,
+27
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+University of Pennsylvania Journal of Business Law 10(4), 783-831.
+De Los Rios, Antonio Diez, and René Garcia. 2011. “Assessing and Valuing the
+Nonlinear Structure of Hedge Fund Returns.” Journal of Applied Econometrics
+26 (2): 193-212. doi:10.1002/jae.1147.
+Department of the Treasury. 2009. Financial Regulatory Reform: A New Foundation:
+Rebuilding Financial Supervision and Regulation. Accessed December 3.
+http://www.treasury.gov/initiatives/Documents/FinalReport_web.pdf
+Dichev, Ilia D., and Gwen Yu. 2011. “Higher Risk, Lower Returns: What Hedge Fund
+Investors Really Earn.” Journal of Financial Economics 100 (2): 248-263.
+doi:10.1016/j.jfineco.2011.01.003.
+Dimmock, Stephen G. and William C. Gerken, 2014. “Regulatory Oversight and Return
+Misreporting by Hedge Funds”, mimeo.
+Ding, B., and H.A. Shawky, 2007. “The Performance of Hedge Fund Strategies and the
+Asymmetry of Return Distributions”. European Financial Management 13, 309-
+331.
+Dodd–Frank Wall Street Reform and Consumer Protection Act, Pub. L. No. 111-203, §§
+401, 402, 408, 124 Stat. 1326 (2010).
+Economist. 2010. “A Few Minutes of Mayhem: America’s Stockmarket Plunge.” May
+15, United States edition, 82.
+Edelman, Daniel, William Fung, David A. Hsieh, and Narayan Y. Naik. 2012. “Funds of
+Hedge Funds: Performance, Risk and Capital Formation 2005 to 2010.”
+Financial Markets and Portfolio Management 26 (1): 87-108.
+doi:10.1007/s11408-011-0180-z.
+Eling, Martin. 2009. “Does Hedge Fund Performance Persist? Overview and New
+Empirical Evidence.” European Financial Management 15 (2): 362-401.
+doi:10.1111/j.1468-036X.2008.00471.x.
+Ernst and Young. 2012. “Global Hedge Fund and Investor Survey 2012.” Accessed
+November 28. http://www.ey.com/Publication/vwLUAssets/Global-hedge-fund-
+and-investor-survey_2012/$FILE/CK0582_Global-HF-Survey-2012.pdf
+Exemptions for Advisers to Venture Capital Funds, Private Fund Advisers with Less
+Than $150 Million in Assets Under Management, and Foreign Private Advisers,
+Investment Advisers Act Release No. 3222, 76 Fed. Reg. 39,646 (July 6, 2011)
+(IA Release 3222).
+Ferullo, Mike, R. Christian Bruce, Richard Hill, and Malini Manickavasgam. 2010.
+“Senate Sends Regulatory Reform Bill To White House for President's
+Signature.” Securities Regulation and Law Report 42: 1353.
+Fuji, Daisuke, Guido Imbens and Karthik Kalyanaraman (2009), Notes for MATLAB
+and STATA Regression Discountinuity Software, Technical Report.
+Fung, William, and David A. Hsieh. 1997. “Empirical characteristics of dynamic trading
+strategies: The case of hedge funds”, Review of Financial Studies, 10(2), 275-
+302.
+____. 2000. “Performance Characteristics of Hedge Funds and CTA Funds: Natural
+Versus Spurious Biases”, Journal of Financial and Quantitative Analysis, 35 (3),
+291-307.
+____. 2001. “The Risk in Hedge Fund Strategies: Theory and Evidence from Trend
+Followers”, Review of Financial Studies, 14 (2), 313-341.
+28
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+____. 2002. “Risk in Fixed-Income Hedge Fund Styles.” Journal of Fixed Income 12
+(2): 6-27. doi:10.3905/jfi.2002.319321.
+____. 2004. “Hedge Fund Benchmarks: A Risk Based Approach”, Financial Analyst
+Journal 60, 65–80.
+____. 2011. “The Risk in Hedge Fund Strategies: Theory and Evidence from Long/Short
+Equity Hedge Funds.” Journal of Empirical Finance 18 (4): 547-569.
+doi:10.1016/j.jempfin.2011.04.001.
+Fung, William, David A. Hsieh, and T. Ramadorai, 2008. “Hedge Funds: Performance,
+Risk, and Capital Formation” Journal of Finance, 63, 1777-1803.
+Goldfarb, Zachary A. and David Cho. 2009. “Hedge Funds Making Way for
+Government Regulation; Industry Faces New Realities, Investors Who Want
+Assurances.” Washington Post, March 14, D.2.
+Giamouridis, Daniel and Sandra Paterlini. 2009. Regular(Ized) Hedge Fund Clones,
+CAREFIN Research Paper No. 1/09. http://ssrn.com/abstract=1600539
+H.R. Rep. No. 111–517, at 865 (2010) (Conf. Rep.).
+Hahn, J., Todd, P., and Van Der Klaauw, W. 2001. “Regression discontinuity,”
+Econometrica, 69(1), 201-209.
+Hu, H.T.C., and B. Black, 2007. “Hedge Funds, Insiders, and the Decoupling of
+Economic and Voting Ownership: Empty Voting and Hidden (Morphable)
+Ownership,” Journal of Corporate Finance 13, 343-367.
+Imbens, G. and T. Lemieux. 2008. “Regression discontinuity designs: A guide to
+practice,” Journal of Econometrics, 142: 615–635.
+Imbens, G., and K. Kalyanaraman. 2012. “Optimal Bandwidth Choice for the
+Regression Discontinuity Estimator,” Review of Economic Studies 79 (3): 933-
+959.
+Investment Advisers Act of 1940, Pub. L. No. 76-768, 54 Stat. 847 (1940).
+Investment Company Act of 1940, Pub. L. No. 76-768, 54 Stat. 789 (1940).
+Jagannathan, Ravi, Alexey Malakhov, and Dmitry Novikov. 2010. “Do Hot Hands Exist
+Among Hedge Fund Managers? An Empirical Evaluation.” Journal of Finance
+65 (1): 217–255. doi:10.1111/j.1540-6261.2009.01528.x.
+Jickling, Mark, and Alison A. Raab. 2006. CRS Report for Congress: Hedge Fund
+Failures. Congressional Research Services, RL33746, 5, issued December 4,
+2006.
+Jones, Alfred Winslow. 1949. “Fashions in Forecasting.” Fortune, March, 88.
+Jorion, Philippe. 2000. “Risk Management Lessons from Long-Term Capital
+Management.” European Financial Management 6 (3): 277-300.
+doi:10.1111/1468-036X.00125.
+Kaal, Wulf A. 2009. “Hedge Fund Valuation: Retailization, Regulation, and Investor
+Suitability.” Review of Banking and Financial Law 28 (2): 581-637.
+____. 2011. “Hedge Fund Regulation Via Basel III.” Vanderbilt Journal of
+Transnational Law 44 (2): 389-463.
+____. 2013a. “Hedge Fund Manager Registration Under the Dodd-Frank Act.” San
+Diego Law Review 50 (1).
+____. 2013b. “The Impact of Dodd-Frank Act Compliance Cost on the Hedge Fund
+Industry.” (forthcoming). http://ssrn.com/abstract=2389423
+29
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Kane, Edward J. 2012. “Missing elements in US financial reform: A Kübler-Ross
+interpretation of the inadequacy of the Dodd-Frank Act”, Journal of Banking and
+Finance 36, 654-661.
+Kaulessar, Ricardo. 2012. “Survey: Fund Managers Welcome Regulations – With
+Reservations.” eVestment Alliance, last modified April 13, and accessed
+December 4. http://news.hedgefund.net/default.aspx?story=13554.
+Kelly, Kate. 2012. “A Secretive Hedge Fund Legend Prepares to Surface.” CNBC,
+February 13.
+http://www.cnbc.com/id/46351343/A_Secretive_Hedge_Fund_Legend_Prepares
+_to_Surface.
+Koehler, James F., and P. Wesley Lambert. 2011. “Impact of the Dodd-Frank and
+Registration Acts of 2010 on Investment Advisers.” Duquesne Business Law
+Journal 13 (1): 29-42.
+Koh F., W.T.H. Koh, and M. Teo, 2003. “Asian hedge funds: return persistence, style
+and fund characteristics,” Working paper, Singapore Management University.
+Kosowski, Robert, Narayan Y. Naik, and Melvyn Teo. 2007. “Do Hedge Funds Deliver
+Alpha? A Bayesian and Bootstrap Analysis.” Journal of Financial Economics 84
+(1): 229-264. doi:10.1016/j.jfineco.2005.12.009.
+Landau, Peter. 1968. “Alfred Winslow Jones: The Long and the Short of the Founding
+Father.” Institutional Investor, August, 1.
+Lee, D., and T. Lemieux. 2009. “Regression Discontinuity Designs in Economics,”
+Working Paper, Dept of Economics, Princeton University.
+Liang, Bing. 1999. “On the Performance of Hedge Funds.” Financial Analysts Journal
+55 (4): 72-85.
+____. 2000. “Hedge Funds: The Living and the Dead”, Journal of Financial and
+Quantitative Analysis 35, 309-326.
+____. 2003. “The Accuracy of Hedge Fund Returns”, Journal of Portfolio Management
+29, 111-122.
+Lo, Andrew and Jasmina Hasanhodzic. 2007. “Can Hedge-Fund Returns Be
+Replicated?: The Linear Case,“ Journal of Investment Management 5 (2007), 5–
+45.
+Loomis, Carol J. 1966. “The Jones Nobody Keeps Up With.” Fortune, April, 237.
+Nomination of William H. Donaldson: Hearing Before the Comm. on Banking,
+Housing and Urban Affairs, 108th Cong. 1, 37 (2003).
+McCrary, Justin. 2008. “Manipulation of the running variable in the regression
+discontinuity design: A density test.” Journal of Econometrics, 142(2): 698-714.
+Naik, N.Y., T. Ramadoria and M. Stromqvist, 2007. “Capacity Constraints and Hedge
+Fund Strategy Returns”. European Financial Management 13, 239-256.
+Nichols, Austin. 2007. “Causal Inference with Observational Data.” The Stata Journal,
+7, 4, 507-541.
+Oesterle, Dale A. 2006. “Regulating Hedge Funds.” Entrepreneurial Business Law
+Journal 1 (1): 1-42.
+Paletta, Damian, and Aaron Lucchetti. 2010. “Law Remakes U.S. Financial
+Landscape.” Wall Street Journal, July 16, New York edition, A.1.
+30
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Prohibition of Fraud by Advisors to Certain Pooled Investment Vehicles; Accredited
+Investors in Certain Private Investment Vehicles, Investment Advisers Act
+Release No. 2576, 72 Fed. Reg. 400 (January 4, 2007) (IA Release 2576).
+Prohibition of Fraud by Advisers to Certain Pooled Investment Vehicles, Investment
+Advisers Act Release No. 2628, 72 Fed. Reg. 44,756 (August 9, 2007) (IA
+Release 2628).
+Registration Under the Advisers Act of Certain Hedge Fund Advisers, Investment
+Advisers Act Release No. 2333, 69 Fed. Reg. 72,054, 72,059 (December 10,
+2004) (IA Release 2333).
+Regulating Hedge Funds and Other Private Investment Pools: Hearing Before the
+United States Subcomm. on Securities, Insurance, and Investment, 111th Cong. 1
+(2009) (statement of Jack Reed, Chairman, Senate Comm. on Banking, Housing,
+and Urban Affairs, Subcomm. on Securities, Insurance, and Investment).
+Regulation of Hedge Funds: Hearings Before the United States Senate Comm. on
+Banking, Housing, and Urban Affairs, 109th Cong. 7 (2006) (statement of
+Christopher Cox, Chairman, Securities and Exchange Commission).
+Reporting by Investment Advisers to Private Funds and Certain Commodity Pool
+Operators and Commodity Trading Advisors [sic] on Form PF, Investment
+Advisers Act Release No. 3308 (October 31, 2011), 76 Fed. Reg. 71,128 (November
+16, 2011) (IA Release 3308).
+Reporting Form for Investment Advisers to Private Funds and Certain Commodity Pool
+Operators and Commodity Trading Advisors, available at
+http://www.sec.gov/about/forms/formpf.pdf. Accessed December 4, 2012 (Form PF).
+Roth, Paul N., and Brian H. Fortune. 2001. “Hedge Fund Regulation in the Aftermath of
+Long Term Capital Management.” In Hedge Funds: Law and Regulation, edited
+by Iain Cullen and Helen Parry. London: Sweet and Maxwell.
+Rules Implementing Amendments to the Investment Advisers Act of 1940, Investment
+Advisers Act Release No. 3221, 76 Fed. Reg. 42,950 (July 19, 2011) (IA Release
+3221).
+Securities and Exchange Commission. 2003. Implications of the Growth of Hedge
+Funds. Accessed December 4, 2012.
+http://www.sec.gov/news/studies/hedgefunds0903.pdf.
+Uniform Application for Investment Adviser Registration and Report by Exempt
+Reporting Advisers. Accessed December 4, 2012.
+http://www.sec.gov/about/forms/formadv.pdf. (Form ADV).
+Sorady, Marybeth, Daren Domina, Wendy Cohen, Fred Santo, Henry Bregstein, Meryl
+Wiener, Marilyn Okoshi, and Jack P. Governale. 2011. “Summary and Analysis
+of Dodd-Frank Rules for Investment Advisers: Registration Requirements,
+Exemptions, Family Offices, Performance Fee Eligibility.” Journal of Investment
+Compliance 12 (4): 4-17. doi:10.1108/15285811111188126.
+Strasburg, Jenny. 2009. “U.S. would have hedge funds register and disclose clients.”
+Wall Street Journal, February 3, Asia edition, M.3.
+Sun, Zheng, Ashley Wang, and Lu Zheng. 2012. “The Road Less Traveled: Strategy
+Distinctiveness and Hedge Fund Performance.” Review of Financial Studies 25
+(1): 96-143. doi:10.1093/rfs/hhr092.
+Teo, M., 2009. “The Geography of Hedge Funds.” Review of Financial Studies 22,
+3531-3561.
+31
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Trochim, W. 1984. Research Design for Program Evaluation: The Regression-
+Discontinuity Design. Sage Publications, Beverly Hills, CA.
+Trochim, W. 2001. Regression-discontinuity design. In: Smelser, N.J., Baltes, P.B.
+(Eds.), International Encyclopedia of the Social and Behavioral Sciences, vol.
+19. North-Holland, Amsterdam, pp. 12940–12945.
+Van Der Klaauw, W. 2008. “Regression–Discontinuity Analysis: A Survey of Recent
+Developments in Economics,” Labour, 22(2): 219-245.
+Verret, J.W., 2007. "Dr. Jones and the Raiders of Lost Capital: Hedge Fund Regulation,
+Part II”, Delaware Journal of Corporate Law 32, 799-841.
+Appendix A - Descriptive Statistics
+Table 1- (Selective) Descriptive Statistics in the period January-October 2012
+Jan Feb March April May June July Aug Sept Oct
+2012 2012 2012 2012 2012 2012 2012 2012 2012 2012
+Min -38.32 -16.18 -28.78 -22.03 -35.27 -31.80 -31.67 -15.38 -34.84 -21.15
+Mean 2.67 2.32 -0.335 -0.435 -3.478 0.616 0.571 1.444 1.371 -0.381
+Median 2.07 2.12 0.01 -0.34 -3.250 0.660 0.500 1.27 1.28 0.02
+Max 44.33 48.55 27.21 32.96 53.410 24.37 29.28 107.3 18.71 80.01
+St Dev 4.007 3.118 3.185 2.391 5.071 3.695 3.321 3.471 2.770 3.251
+Panel a) - Hedge Fund Monthly Returns
+Jan Feb March April May June July Aug Sept Oct
+2012 2012 2012 2012 2012 2012 2012 2012 2012 2012
+Min 6.761 6.737 6.823 6.608 6.040 6.204 6.006 5.902 5.849 5.963
+Mean 17.101 17.119 17.112 17.083 17.038 17.031 17.017 17.027 17.027 17.004
+Median 17.275 17.293 17.269 17.269 17.200 17.207 17.183 17.187 17.187 17.175
+Max 23.839 23.849 23.843 23.853 23.844 23.811 23.845 23.877 23.923 23.926
+St Dev 2.122 2.124 2.120 2.151 2.165 2.161 2.169 2.163 2.177 2.177
+# Funds 405 412 410 411 398 396 392 401 402 393
+with
+AUM>
+$150M
+Panel b) - Hedge Fund Monthly Asset Under Management (AUM)
+32
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+
+Appendix B – Sharp Regression Discontinuity for Optimal Bandwidth. Period:
+April – September 2012
+Figure A.1 Sharp Regression Discontinuity for optimal bandwidth. Period: April-September 2012
+33
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22338899441166
+

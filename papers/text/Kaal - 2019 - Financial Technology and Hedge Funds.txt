@@ -1,0 +1,1099 @@
+2019 TECHNOLOGY IN HEDGE FUNDS
+Chapter 13: Financial Technology and Hedge Funds
+Wulf A. Kaal*
+Abstract
+Since their inception in the 1940s, hedge funds have been on
+the leading edge of technology in finance. Examples include big data,
+artificial intelligence, machine learning algorithms, and blockchain
+technology. This book chapter examines how and why private fund
+advisers utilize emerging technology. Some indicia suggest that
+emerging technology plays a primary role in front office and
+investment functions, in the securing of crypto assets, but also in
+private investment fund managers’ attempts to satisfy the growth
+expectations of clients. The use of emerging technology in trade
+execution and other back-office functions goes hand-in-hand with an
+ever-increasing interest in the private investment fund industry in
+investing in digital assets.
+Key Words: Private Investment Funds, Hedge Funds, Private Equity,
+Technology, Emerging Technology, Blockchain, Distributed Ledger
+Technology, Artificial Intelligence, Machine Learning, Data Science,
+Data Scientists, Meta Models, Innovation, Entrepreneur, Big Data,
+Diversification, Compliance, Optimization, Efficiency
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* Professor, University of St. Thomas School of Law (Minneapolis). The author is
+grateful for outstanding support from Hayley Howe and Nicole Kinn.
+1
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+Table of Contents
+I. INTRODUCTION ......................................................................................... 3
+II. FINANCIAL TECHNOLOGY AND HEDGE FUNDS ........................................... 5
+1. Semiconductors .................................................................................... 9
+2. Artificial Intelligence and Big Data .................................................... 10
+3. Blockchain Technology ....................................................................... 12
+III. IMPACT OF TECHNOLOGY ON THE HEDGE FUND INDUSTRY ................... 21
+1. Transaction Speed .............................................................................. 22
+2. Performance....................................................................................... 23
+3. Diversification.................................................................................... 26
+4. Capitalizing on Disruption ................................................................. 29
+5. Administrative Process & Compliance ................................................ 30
+6. Competitive Pressure.......................................................................... 32
+IV. CONCLUSION ...................................................................................... 33
+2
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+I. Introduction
+Hedge fund managers have historically pioneered the
+application and use of emerging technology in finance.1 For instance,
+56% of respondents to a BarclayHedge survey currently use artificial
+intelligence (AI) or machine learning (ML) to inform investment
+decisions and generate trading ideas.2 However, just over a quarter of
+hedge funds use AI or ML for trade execution.3
+Hedge fund managers have strong incentives to implement
+emerging technologies. Being able to use technology to optimize their
+performance makes them overall more competitive with other funds
+and with other financial institutions. Being more competitive through
+technology and creating higher returns for their clients, in turn, allows
+them to charge higher fees than traditional financial institutions. In
+recent years, it became increasingly more difficult to justify the 2 and
+20 fee model.4 Embracing modern financial products allows them to
+produce returns that can still justify that fee model. Emerging
+technology also allows hedge fund managers to facilitate investment
+and process optimization.
+1 Steve Young, Hedge Fund Technology: Operations and Industry Trends for 2019,
+THE HEDGE FUND JOURNAL (2019), https://thehedgefundjournal.com/hedge-fund-
+technology/.
+2 Hayley McDowell, More Than Half of Hedge Funds Now Using AI Technology,
+THE TRADE (Jul. 19, 2018), https://www.thetradenews.com/half-hedge-funds-now-
+using-ai-technology/.
+3 McDowell. supra note 2.
+4 Wulf A. Kaal, Blockchain Applications and Fee Structure Developments in Private
+Investment Funds 5-6 (Apr. 27, 2017) (unpublished article)
+https://ssrn.com/abstract=2959730.
+3
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+In a push to embrace an emerging foundational technology,
+several private investment funds have spearheaded the
+implementation of blockchain technology and smart contracting in
+their business model. While some funds simply focus on trading
+bitcoin and other cryptocurrencies5 to avoid market fluctuations,
+others invest in and/or acquire companies that use blockchain
+technology to provide synergies to their other portfolio companies.6
+Yet others go much further by fully automating a hedge fund secured
+by blockchain technology.7 Other fund managers combine data model
+optimization with the use of cryptocurrencies as a means of incentives
+for data scientists’ competitive models that facilitate investment
+analysis efficiencies.8
+This book chapters shows that the hedge fund advisers who use
+the technology in front office and investment functions, in the securing
+of crypto assets, but also with regards to the growth expectation of
+clients, can benefits. The article explores the reasons for the increasing
+5 PANTERA CAPITAL, https://www.panteracapital.com/ (last visited Jun. 8, 2019);
+POLYCHAIN CAPITAL, https://polychain.capital/ (last visited Jun. 8, 2019).
+6 See generally Tom Wilson, Crypto Hedge Funds Grew Last Year Even as Bitcoin
+Slumpe Report, REUTERS (May 14, 2019), https://www.reuters.com/article/crypto-
+currencies-int/crypto-hedge-funds-grew-last-year-even-as-bitcoin-slumped-report-
+idUSKCN1SJ1B4; PRICEWATERHOUSECOOPER, 2019 CRYPTO HEDGE FUND REPORT
+(2019), https://www.pwc.com/gx/en/financial-services/fintech/assets/pwc-elwood-
+2019-annual-crypto-hedge-fund-report.pdf; Olivia Oran & Anna Irrera, Goldman,
+JPMorgan to Invest in Blockchain Startup Axoni: sources, REUTERS (Dec. 19,
+2016), https://www.reuters.com/article/us-axoni-blockchain-idUSKBN149073;
+Amir Bozorgzadeh, Impact Investing is Driving the Most Exciting Emerging
+Technologies, VENTUREBEAT (Jan 30, 2019),
+https://venturebeat.com/2019/01/30/impact-investing-is-driving-the-most-exciting-
+emerging-technologies/.
+7 MELONPORT, https://melonport.com/ (last visited Jun. 8, 2019).
+8 Richard Craib, Geoffrey Bradway, Xander Dunn with Joey Krug, Numeraire: A
+Cryptographic Token for Coordinating Machine Intelligence and Preventing
+Overfitting, Numer.ai (2017), https://numer.ai/whitepaper.pdf.
+4
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+use of blockchain technology, among other technological trends in the
+industry. While the overall proportion of strategies of private
+investment funds that apply modern technologies, including
+blockchain technology, is still small, as the use of blockchain
+technology grows in the private investment fund industry, the
+innovation benefits for private investment funds and their clients
+promise to result in lasting change for the industry.
+II. Financial Technology and Hedge Funds
+The use of financial technology by hedge funds is diverse and
+constantly evolving. In the last decade and beyond, the core
+technologies pioneered by hedge funds included semiconductors to
+increase trade execution, artificial intelligence to optimize data
+models, big data applications to facilitate unprecedented trend
+analysis, as well as blockchain technology both on the investment side
+as well as a means of optimizing back office and compliance.
+Emerging technologies play an important role in finance. In an effort
+to innovate, about 50% of financial services firms around the world
+plan to acquire FinTech start-ups in the next three to five years.9 Hedge
+fund managers see a need to partner with technologists such as
+portfolio or risk analytics providers, cybersecurity or EMS vendors.10
+9 Nael Shabaz, WealthTech-Business as Unusual, in THE WEALTHTECH BOOK 19
+(Susanne Chishti & Thomas Puschmann ed., 2018) (citing Edward Robinson, Big
+Banks Poised to Scoop up Fintech Startups, Report Finds, BLOOMBERG (Apr. 6
+2017).
+10 James Williams, Technology Innovation Thriving but 'Software Intelligence'
+Necessary, HEDGEWEEK: SPECIAL REPORT 3, 4 (Jun. 2018),
+5
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+For example, Axioma Risk offers front-office and middle-office tools
+that are connected at the back-end.11 Artificial intelligence (AI) and
+machine learning (ML) algorithms are trained by data in order to offer
+better user experience.12 The current technology used in hedge fund
+trading is hard coded by a human. In contrast, a deep learning AI
+machine learning algorithm can be given a simple command and
+automatically find a result based on data.13 Cloud-based utilities can
+perform risk functions such as know-your-client (KYC), anti-money
+laundering (AML), and surveillance monitoring.14
+The use of commercial hedge fund databases is proliferating in the
+hedge fund industry. The first electronic platform used to analyze
+hedge fund data was a MS-DOS program built through an affiliation
+between MAR and Burlington Hall Asset Management.15 The first
+directory of hedge fund information was published in 1990 and
+contained information on 70 offshore funds.16 In 1996, Strategic
+https://www.hedgeweek.com/sites/default/files/Hedgeweek_Special_Report_Tech
+nology_Innovations_2018.pdf.
+11 Id.
+12 Dr. Yannis Kalfoglu, Embracing Emerging Technology, in THE WEALTHTECH
+BOOK 17 (Susanne Chishti & Thomas Puschmann ed., 2018).
+13 Marshall Chang, AI Capital Management, TEDxBeaconStreetSalon Talks (Oct.
+4, 2018).
+14 Boudewijn Chalmers Hoynck van Papendrecht, FinTech Disruption Across the
+Wealth Management Value Chain – Will FinTech Dominate the Wealth
+Management Model of the Future or is there Still a Place for Traditional Wealth
+Managers?, in THE WEALTHTECH BOOK 14 (Susanne Chishti & Thomas
+Puschmann ed., 2018).
+15 Meredith Jones, The Role of Technology in Hedge Fund Investing, EUREKAHEDGE
+(Apr. 2004),
+http://www.eurekahedge.com/Research/News/1055/The_Role_of_Technology_in_
+Hedge_Fund_Investing.
+16 Id.
+6
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+Financial Solutions, LLC began offering multi-database analytic
+capabilities and continues to do so today through its flagship PerTrac
+2000 desktop software platform.17 Since 1997, the electronic data
+market has grown exponentially.18 There are currently 12 major hedge
+fund databases available commercially.19
+Easier access to trading data and information about the hedge fund
+industry has been a significant factor in the growth of hedge fund
+assets.20 Information on other funds is easily manipulated and
+analyzed using analytic platforms and allows hedge funds to construct
+marketing materials with complex style and peer analysis.21 For
+example a fund of hedge funds database provides details about
+underlying constituent funds contained in the portfolio, allowing
+hedge fund managers to be able to better target marketing efforts.22
+Roughly 9 percent of all hedge funds in 2016 made a majority of their
+trades with help from computer models, managing about $197
+billion.23 However, according to research done by Preqin, the typical
+systematic fund doesn’t always perform as well as funds operated by
+human managers.24
+17 Id.
+18 Id.
+19 Id.
+20 Id.
+21 Jones, supra note 15.
+22 Id.
+23 Cade Metz, The Rise of the Artificially Intelligent Hedge Fund, WIRED (Jan. 25,
+2018), https://www.wired.com/2016/01/the-rise-of-the-artificially-intelligent-
+hedge-fund/.
+24 Id.
+7
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+Advanced AI technology helps automate existing processes and
+realize new revenue streams and business models.25 Bayesian
+networks use a handful of machines to predict market trends and
+pinpoint particular trades.26 Hedge funds that base their strategies on
+AI have provided better results over the last five years than the
+average.27 Algorithms for sentiment analysis and document
+classification are above 90% accuracy levels.28 AI, natural language
+processing and neural networks in front-office solutions can be
+applied by hedge funds.29 Robotic process automation for can be
+applied to simple processes or data handling and manipulation.30
+Machine learning can make predictions on real-time information, and
+analyze historical financial data to predict cash flow and important
+financial indicators based on past performance of similar companies.31
+ML can help in accurate portfolio diversification by looking for
+uncorrelated instruments that match requirements of the risk profile.32
+ML can also generate investment strategies parameterized by goals
+such as expected risk profiles, asset categories and tie span, resulting
+in sets of predictive models that may be applied in order to fulfill the
+25 Kalfoglu supra note 12, at 18.
+26 Metz, supra note 23.
+27 Michal Rozanski, How AI Will Cause Robo-Advice to completely Outperform
+Human Advice, in THE WEALTHTECH BOOK 275 (Susanne Chishti & Thomas
+Puschmann ed., 2018); EUREKAHEDGE, http://eurekahedge.com/ (last visited Jun. 20,
+2019).
+28 Id. at 276.
+29 Young, supra note 1.
+30 Id.
+31 Rozanski, supra note 27, at 276.
+32 Id.
+8
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+assumptions.33 Social media platforms impact those in the asset
+management industry.34 ML can analyze management’s public
+statements and activity on social networks in order to track the
+integrity of their past words, actions, and results. 35
+Cloud adoption is also growing in the hedge fund industry. 36 Mobile
+offerings and delivery of trading and performance-related information
+to investors.37 The fund industry is built on sharing information and
+making sure all of the data being examined is correct.38 Trade
+confirmations and settlements could be offered through distributed
+ledger technology.39 Distributed ledgers could also replace share
+registers for investor-level recordkeeping and servicing.40
+1. Semiconductors
+Semiconductors amplify signals, switch, and convert energy.41
+The number of transistors in a dense integrated circuit doubles
+approximately every two years – leading to fierce competition in the
+industry.42 Companies need to maintain large research and
+33 Id.
+34 Williams, supra note 10, at 3.
+35 Rozanski, supra note 27, at 276.
+36 Young, supra note 1.
+37 Id.
+38 Id.
+39 Id.
+40 Id.
+41 James Chen, SemiConductor, INVESTOPEDIA (Feb. 26, 2018),
+https://www.investopedia.com/terms/s/semiconductor.asp.
+42 Id.
+9
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+development budgets to be able to compete in the semi-conductor
+business.43 Hedge fund managers invest in semiconductors through
+the PHLX Semiconductor Index, and its derivative forms are traded in
+exchange-traded funds.44 Semiconductor companies offer highly
+liquid securities that encourage risk-taking and varied profit
+strategies.45 Hedge funds invest in Taiwan Semiconductor
+Manufacturing Company Limited (TSM).46 In 2018, energy,
+semiconductors and healthcare led US sector hedge fund gains.47
+2. Artificial Intelligence and Big Data
+Hedge fund managers have early embraced the use of artificial
+technology, machine learning, and big data.48 The combination of big
+43 Id.
+44 Id.
+45 Alan Farley, The Truth Behind Trading Semiconductor (Chip) Stocks (INTC, TXN)
+INVESTOPEDIA (Oct. 25, 2018), https://www.investopedia.com/articles/active-
+trading/031815/truth-behind-trading-semiconductor-chip-stocks.asp.
+46 Why You Should Care When Hedge Funds Invest in Taiwan Semiconductor
+Manufacturing Company Limited (TSM), HedgeMaven (Nov. 27 2018).
+47 Komfie Manalo, Global Hedge Funds Up 1.88% by mid-January, OPALESCUE
+(Jan. 19, 2018),
+https://www.opalesque.com/667299/Global_hedge_funds_up_by729.html.
+48 See, e.g. Charles D'Haussy, Welcoming an Artificial Intelligence Robot as a
+Colleague, in THE WEALTHTECH BOOK 23 (Susanne Chishti & Thomas Puschmann
+ed., 2018); Katarina Prozorova, How Emerging Technologies Will Change
+Emerging Markets- Welcome Robo-Advisor X.0!, in THE WEALTHTECH BOOK 71
+(Susanne Chishti & Thomas Puschmann ed., 2018); Richard Peers, Digital Super
+Powers- The Role of Artificial Intelligence in Wealth Management, in THE
+WEALTHTECH BOOK 77 (Susanne Chishti & Thomas Puschmann ed., 2018); Holger
+Boschke, Using Artificial Intelligence in Wealth Management, in THE WEALTHTECH
+BOOK 80 (Susanne Chishti & Thomas Puschmann ed., 2018); Catherine Flax,
+Personal Financial Intelligence- AI and the Future of Money Management, in THE
+WEALTHTECH BOOK 132 (Susanne Chishti & Thomas Puschmann ed., 2018);
+Jeremy Sosabowski, Financial Forecasting and Portfolio Optimization in the 21st
+Century, in THE WEALTHTECH BOOK 135 (Susanne Chishti & Thomas Puschmann
+ed., 2018); Yaron Golgher, Lipa Roitman, Dmitry Neginsky, AI-Powered Wealth
+Management Products and Investment Vehicles, in THE WEALTHTECH BOOK 138
+10
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+data that is collected by using FinTech and LegalTech solutions and
+blockchain applications creates a surge of new and innovative
+platforms with disruptive effects for the financial industry. The
+combination of blockchain technology startups with platforms,
+artificial intelligence and machine learning offer opportunities for
+developing new technologies. Private investment funds often combine
+the benefits offered by emerging technology with other evolving
+technologies and cutting-edge applications to create synergies. By
+leveraging the big data that is collected by using FinTech and
+LegalTech solutions and blockchain applications in combination with
+machine learning, hedge fund managers are able to create more
+creative and faster tools for finance.49
+Perhaps the most prominent example of a private investment
+fund that very successfully incorporated the combination of
+technologies is Numerai. Numerai is a private investment fund with a
+global equity strategy. Numerai uses artificial intelligence to convert
+financial data into machine learning problems for data scientists.50
+Using data science for investment analysis creates efficiency through
+(Susanne Chishti & Thomas Puschmann ed., 2018); Jerry Floros, The Investment
+Managers of the Future are Going to be Millennials, in THE WEALTHTECH BOOK
+249 (Susanne Chishti & Thomas Puschmann ed., 2018); Alpesh Doshi, An Industry
+Driven by Digital, Data and Artificial Intelligence, in THE WEALTHTECH BOOK 254
+(Susanne Chishti & Thomas Puschmann ed., 2018); Daniel Diemers, Wealth-Tech-
+Taking Private Banking and Wealth Management Digital, in THE WEALTHTECH
+BOOK 257 (Susanne Chishti & Thomas Puschmann ed., 2018).
+49 See, e.g. Richard Peers, Digital Super Powers- The Role of Artificial Intelligence
+in Wealth Management, in THE WEALTHTECH BOOK 77 (Susanne Chishti & Thomas
+Puschmann ed., 2018).
+50 On February 21, 2017, Numerai, announced: “[Today] 12,000 data scientists
+were issued 1 million crypto-tokens to incentivize the construction of an artificial
+intelligence hedge fund.” Richard Craib, Geoffrey Bradway, Xander Dunn with
+Joey Krug, supra note 8.
+11
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+a synthesis of data. Data scientists working in this model work to solve
+the same problems in their own unique ways with different strategies.
+Numerai synthesizes these models to create a meta-model out of all
+the predictions from the data scientists.51 In the Numerai model, the
+use of artificial intelligence increases efficiency and optimum capital
+allocation by reducing overhead costs.52
+Adaptive data analysis is one of the important problems that
+are being addressed in the Numerai model. When data scientists use
+the same data set repetitively a risk exists that the training model will
+overfit the test set of data, which can limit the performance of the
+applied model on a different dataset.53 To overcome this problem, data
+scientists working for Numerai are tasked with staking Numeraire on
+their predictions which in effect represents data scientists’ confidence
+in their model’s live performance. The staking process, in turn,
+enables Numerai to choose the optimal model and in the process
+improve the performance of its hedge fund.54
+3. Blockchain Technology
+Blockchain is a transformational technology that emerged in 2009
+with the Bitcoin Protocol.55 Between the years 2000 and 2012, despite
+51 See Laura Shin, This Is the World’s First Cryptocurrency Issued by a Hedge
+Fund, FORBES (Feb. 21, 2017),
+https://www.forbes.com/sites/laurashin/2017/02/21/this-is-the-worlds-first-
+cryptocurrency-issued-by-a-hedge-fund/#61dcf68560b6.
+52 See Daniel Fagglla, Crowdsourcing a Machine Learning Hedge Fund,
+TECHEMERGENCE (Nov. 10, 2016),
+https://www.techemergence.com/crowdsourcing-a-machine-learning-hedge-fund/
+(providing excerpts from and the audio of an interview with Richard Craib, the
+founder of Numerai.).
+53 CRAIB, supra note 8.
+54 Id. at 2.
+55 See, e.g. Rainer Bohme, Nicolas Christin, Benjamin Edelman, and Tyler Moore,
+Bitcoin: Economics, Technology, and Governance, J. OF ECON. PERSP. 213(2015).
+12
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+an initial pickup in 2005, the use of blockchain in private investment
+funds was minimal. In 2012, coinciding with the more public debate
+of blockchain based solutions, private investment fund managers
+started to get involved in the technology. They began to experiment
+with the technology by setting up separate and new fund entities that
+utilized the technology in various forms. In 2015, however, existing
+funds also started to create substructures that utilized blockchain
+technology.
+The use of blockchain technology by hedge funds is strongly
+correlated with overall market developments of digital assets. Starting
+with the emergence of the Bitcoin protocol in 2009,56 the digital asset
+market is a market for investment opportunities in digital assets. Such
+assets are instantiated through computer code and depend on so-called
+consensus computer algorithms to trigger and validate a transaction in
+a given digital asset. With the emergence of alt-coins in April 2011,
+e.g. coins that provide an alternative investment opportunity other than
+bitcoin,57 public token sales a/k/a Initial Coin Offerings (ICOs)
+became possible. The first ICO was conducted by Mastercoin in July
+2013.58 Right from the start of the digital asset and altcoin market,
+56 Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System, BITCOIN
+(May 24, 2009), https://bitcoin.org/bitcoin.pdf.
+57 See, e.g. Lawrence H. White, The Market for Cryptocurrencies, 35 CATO J. 383,
+388 (2015); William J. Luther, Bitcoin and the Future of Digital Payments, 20 THE
+INDEPENDENT REVIEW 397, 399 (2016).
+58 INITIAL COIN OFFERING, https://en.wikipedia.org/wiki/Initial_coin_offering
+(June 12, 2019).
+13
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+hedge fund managers saw a crucial technology-driven opportunity and
+invested.59
+Blockchain technology has vast disruptive innovative
+properties. For example, until recently, most commentators viewed
+Bitcoin as a hype, susceptible to fraud, price manipulation and
+corruption.60 Yet, the pace of innovation in cryptocurrencies and their
+application in different industries and commercial settings is faster
+than ever.61 The high levels of investor activity in the blockchain area
+appears to provide a reliable indicator of the commercial maturity of
+blockchain technology.
+Business, administrative, and legal processes that rely on legal
+intermediaries may become redundant because of advances in and
+acceptance and implementation of blockchain technology. Forms of
+keeping business and legal ledgers such as notary and registry
+services, legal motions practice in court, legal title companies, among
+several others, may be among the first services to disappear in the not
+too distant future. Similarly, corporate processes that have ledger
+functionality but rely on legal intermediaries could be streamlined
+very quickly by implementing blockchain technology. When
+blockchain technology becomes more widely accepted and
+applications are spreading into consumer territory, existing corporate
+59 PANTERA CAPITAL, https://www.panteracapital.com/ (last visited Jun. 8, 2019);
+POLYCHAIN CAPITAL, https://polychain.capital/ (last visited Jun. 8, 2019).
+60 Mark Fenwick, Wulf A. Kaal, and Erik P.M. Vermeulen, The "Unmediated" and
+"Tech-driven" Corporate Governance of Today's Winning Companies (TILEC
+Discussion Paper No. 2017-009, U of St. Thomas (Minn.) Legal Studies Research
+Paper No. 17-10, Lex Research Topics in Corporate Law & Economics Working
+Paper No. 2017-1),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2922176##.
+61 Id.
+14
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+processes and structures will likely be among the first processes to
+become redundant. Blockchain technology startups are already
+attempting to replace intermediaries in many types of transactions,
+including and most notably contract analyses, real estate, and
+intellectual property.62 Some commentators predict a future in which
+blockchain startups can remove lawyers altogether from commerce as
+smart contracts in the blockchain, such as the ones in the Ethereum
+platform,63 regulate commerce entirely, enabled by the trust created
+between parties through immutable blockchain technology.64
+The limitations of blockchain technology became most
+apparent in the aftermath of the ICO boom of 2018. ICOs promised
+investors core decentralized infrastructure products that assumed a
+baseline infrastructure existed. This turned out to be false as Ethereum
+and other infrastructure products proved unable to deliver on the
+62 See CLAUSE, http://clause.io (last visited June 30, 2017). Clause is a platform for
+self-managing legal contracts. The contract integrates “real-time data from the
+'internet of things', web services, and business and accounting systems.” See also,
+BINDED, https://binded.com (last visited June 30, 2017) (uses blockchain to track
+and enforce copyright); ASCRIBE, https://www.ascribe.io (last visited June 30,
+2017) (uses the bitcoin blockchain to establish digital ownership of art and other
+creative works); UBIITQUITY, https://www.ubitquity.io/web/index.html (last visited
+June 30, 2017) (uses Software-as-a-Service (SaaS) blockchain platform to track
+property).
+63 ETHEREUM, http://www.ethereum.org (last visited June 30, 2017).
+64 See, e.g., Philipp Kristian, How Do P2P Platforms Build Trust Between
+Strangers?, E27 (Apr. 13, 2016), https://e27.co/how-do-peer-to-peer-platforms-
+build-trust-between-strangers-20160413/; Anand Iyer, How Modern Marketplaces
+Like Uber and Airbnb Build Trust to Achieve Liquidity, TC (Mar. 4, 2014),
+https://techcrunch.com/2014/03/04/how-modern-marketplaces-like-uber-and-
+airbnb-build-trust-to-achieve-liquidity/; Frederic Mazzella & Arun Sundararajan,
+Entering the Trust Age, BLABLACAR (2016), https://blog.blablacar.com/trust;
+Eric Piscini et al., Blockchain: Trust Economy, DELOITT U. PRESS (Feb. 7, 2017),
+https://dupress.deloitte.com/dup-us-en/focus/tech-trends/2017/blockchain-trust-
+economy.html.
+15
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+expectations by the investing may reach full maturity by 2030. Legal
+limitations pertaining to smart contracts and blockchain technology
+originate mostly from concerns over the legal origin of smart
+contracting. While smart contracts may reflect the underlying contract
+between parties, lawyers may argue that “smart contracts” are void
+and unenforceable under the law.65 Contractual legal rules regarding
+formation, interpretation, conditions and remedies require substantive
+adjustments for smart contracts in contract law.66 Such limitations are
+slowly disappearing. For instance, Arizona passed a law in early 2017
+that makes smart contracts fully enforceable under Arizona law.67
+Delaware is looking into similar rules proposed in the Blockchain
+Initiative.68
+The lack of regulatory recognition of Blockchain technology
+creates significant uncertainty for the blockchain community. While
+blockchain technology itself offers unprecedented genuine data and
+65Stuart D. Levi & Alex B. Lipton, An Introduction to Smart Contracts and Their
+Potential And Inherent Limitations, HARVARD LAW SCHOOL: FORUM ON
+CORPORATE GOVERNANCE AND FINANCIAL REGULATION (May 26, 2018) (citing
+Kevin Werbach & Nicolas Cornell, Contracts Ex Machina, 67 Duke L.J. 101
+(2017),
+https://poseidon01.ssrn.com/delivery.php?ID=30403100302208400901111206800
+009909210006205301506802011012112208800508407206811510012103301601
+002001102802410712607112211606911700609405400709202000108109306510
+106604502401708300409301210808607410912006901911308612309912309309
+7103085123103118111088&EXT=pdf); Mike Orcutt, States That are Passing
+Laws to Govern "Smart Contracts" Have No Idea What They're Doing,
+TECHNOLOGYREVIEW (Mar. 29, 2018),
+https://www.technologyreview.com/s/610718/states-that-are-passing-laws-to-
+govern-smart-contracts-have-no-idea-what-theyre-doing/.
+66 Id.
+67 H.R. 2417, 53rd Leg., Reg. Sess. (Ariz. 2017).
+68 Garrett Keirns, Delaware is Drafting Law That Would Recognize Blockchain
+Records, COINDESK (Mar. 15, 2017), http://www.coindesk.com/delaware-drafting-
+law-recognize-blockchain-records/.
+16
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+privacy protection, the storage of blockchain data across a global
+network of nodes often will not comply with specific consumer
+protection rules, directives, and guidelines around the world.69 The
+existing legal issues arising in the context of sharing platforms,70
+demonstrate that future blockchain-enabled sharing services may not
+be accepted quickly and without resistance on the part of incumbents
+challenged by new ways of delivering a service or product. The
+lacking recognition hinders the implementation of the technology
+across industries and undermines the infrastructure conversion via
+blockchain technology. The regulatory uncertainty derives from
+insufficient or non-existent regulatory guidance, lacking court
+decisions, and uncertainty over applicable jurisdiction.
+Several private investment funds have spearheaded the
+implementation of blockchain technology and smart contracting in
+their business model. While some funds simply focus on trading
+bitcoin and other cryptocurrencies to avoid market fluctuations, others
+invest in and/or acquire companies that use blockchain technology to
+provide synergies to their other portfolio companies. Yet others go
+much further by fully automating a hedge fund secured by blockchain
+69 Id.
+70 Such as UBER (https://www.uber.com/) (transportation), LYFT
+(https://www.lyft.com) (transportation), SIDECAR (https://www.side.cr/)
+(transportation), RELAYRIDES (https://Relayrides.Turo.com) (transportation),
+SPINLISTER (https://www.spinlister.com/) (transportation) and JUSTPARK
+(https://www.justpark.com/) (transportation), AIRBNB (https://www.airbnb.com)
+(lodging) and DOGVACAY (https://dogvacay.com/) (lodging), POSTMATES
+(https://postmates.com/) (on-demand delivery services), PRIME NOW
+(https://primenow.amazon.com) (on-demand delivery services), and INSTACART
+(https://www.instacart.com) (on-demand delivery services), and RENT THE
+RUNWAY (https://www.renttherunway.com) (clothing).
+17
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+technology, using blockchain technology to improve administrative
+procedures of private equity deal making, or using cryptocurrencies as
+incentives for data scientists’ competitive models that facilitate
+investment analysis efficiencies. Examples include private investment
+funds such as Polychain Capital,71 the Northern Trust72 in cooperation
+with IBM, Numerai,73 LendingRobot,74 and Intellisys Capital LLC,75
+Melonport,76 among many others.
+Several private investment funds have spearheaded and
+continue to expand the implementation of blockchain technology and
+smart contracting in their business models. In February 2017,
+Northern Trust and IBM entered into a partnership for the commercial
+use of blockchain in the private fund industry. The partnership
+provides an enhanced and efficient approach to private equity
+administration.77 The implementation of the Northern Trust and IBM
+blockchain is intended to increase the efficiency, transparency, and
+speed of private equity transactions, improve security, and bring
+innovation to the private equity market by simplifying the complex
+and labor-intensive transactions in the private equity market. While
+the current legal and administrative processes that support private
+equity are time-consuming, expensive, lack transparency, and involve
+71 POLYCHAIN CAPITAL, https://angel.co/polychain-capital (last visited Apr. 17,
+2019).
+72 NORTHERN TRUST, https://www.northerntrust.com/ (last visited Apr. 17, 2019).
+73 NUMERAI, https://numer.ai/ (last visited Apr. 17, 2019).
+74 LENDINGROBOT, https://www.lendingrobot.com/#/ (last visited Apr. 17, 2019).
+75 INTELLISYS CAPITAL LLC, http://www.intellisys.ai/ (last visited Apr. 17, 2019).
+76 MELONPORT, https://melonport.com/, (last visited Apr. 17, 2019).
+77 See Press Release, IBM, Northern Trust and IBM Pioneer Use of Blockchain
+Technology to Help Transform Private Equity Administration (Feb. 22, 2017),
+http://www-03.ibm.com/press/us/en/pressrelease/51655.wss.
+18
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+lengthy, duplicative, and fragmented investment and administrative
+processes, the partnership’s solution delivers an enhanced and
+efficient approach to private equity administration.78 More
+specifically, unlike the current deal practice in private equity, which
+requires parties to reconcile multiple copies of the documents that
+form the deals to understand the greater picture, the blockchain
+program announced by Northern Trust and IBM allows all involved
+parties in an equity deal to look at a single compiled version of the
+transaction and all other data relating to the deal.79
+Another example of the use of blockchain technology for
+private investment funds is Numerai. Numerai is a private investment
+fund with a global equity strategy that will go live on the blockchain
+later this year.80 Numerai operates on the Ethereum blockchain,
+utilizing a cryptocurrency called “Numeraire.” On February 21, 2017,
+Numerai, announced: “[Today] 12,000 data scientists were issued 1
+million crypto-tokens to incentivize the construction of an artificial
+intelligence hedge fund.” 81
+LendingRobot’s LendingRobot Series is a fully automated
+hedge fund secured by blockchain technology.82 Unlike other
+blockchain-based hedge funds that invest specifically in
+78 See id.
+79 See id.
+80Shin, supra note 51.
+81 Richard Craib, Geoffrey Bradway, Xander Dunn with Joey Krug, supra note 8.
+82 Press Release, deBanked, Introducing LendingRobot Series: One-Stop Investing
+in Alternative Lending (Jan. 26, 2017), http://debanked.com/2017/01/introducing-
+lendingrobot-series-one-stop-investing-in-alternative-lending/; Dan Cummings,
+LendingRobot Introduces Robo-Fund LendingRobot Series, ETHNEWS
+https://www.ethnews.com/lendingrobot-introduces-robo-fund-lendingrobot-series,
+(last visited Jun. 19, 2019).
+19
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+cryptocurrency, such as Global Advisers and Polychain Capital, the
+LendingRobot Series invests in lending marketplaces— Lending
+Club, Prosper, Funding Circle, and Lending Home.83 Its trading is
+determined by an algorithm based on the investor’s risk preferences.
+Once the investor has created a trading profile, LendingRobot selects
+and executes trades that are recorded in the blockchain public ledger
+on a weekly basis. Unlike traditional hedge funds that are rather
+secretive, the LendingRobot ledger shows detailed holdings and
+provides a “hash code” signature as evidence that the data is tamper-
+proof in the blockchain.84
+Jurisdiction over blockchain transactions presents a problem for
+those hedge funds that apply the technology. For private investment
+funds that use blockchain technology and are set up on the blockchain
+via the Ethereum network, the issues of domicile over their fund is
+particularly important. Some private investment funds may exist
+through the combination of smart contracts on the Ethereum
+blockchain.85 Such funds may not have a domicile either foreign or
+domestic. If managers use digital currencies to invest in digital assets
+and are set up through Ethereum smart contracting via Melonport,86
+ostensibly the fund would exist entirely in cyberspace. However,
+managers cannot assume that they are judgment-proof. Instead, fund
+83 Press Release, deBanked, supra note 82; Cummings, supra note 82.
+84 Press Release, deBanked, supra note 145.
+85 See Reto Trinkler & Mona El Isa, Melon Protocol: A Blockchain Protocol for
+Digital Asset Management, (Jun. 28, 2000) (Draft),
+https://github.com/melonproject/greenpaper/blob/master/melonprotocol.pdf (“The
+Green Paper”) at 4.
+86 Id.
+20
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+managers may be required to comply with more regulations not
+fewer.87
+III. Impact of Technology on the Hedge Fund Industry
+The use of emerging technology has the potential to restructure
+large parts of the private investment fund and banking industry.88 Most
+legacy systems at private investment funds and banks are much more
+expensive than emerging blockchain technologies, are subject to
+human error, and take much more time. Banks charged $1.7 trillion in
+processing fees in 2014.89
+Blockchain technology is transparent, verifiable, self-
+authenticating, and self-enforcing, financial transactions can be
+executed instantaneously at near zero transaction costs, increasing the
+efficiency for business and individuals exponentially. These factors,
+in addition to blockchain technology’s disintermediation through
+technology-driven democratized trust, precipitated the financial
+87 “[E]very transaction potentially comes under the legislative umbrella of
+wherever a node exists whether in respect of financial services or data protection.”
+Gregory Brandman & Samuel Thampapillai, Blockchain – Considering the
+Regulatory Horizon, OXFORD BUS. L. BLOG (Jul. 7, 2016),
+https://www.law.ox.ac.uk/business-law-blog/blog/2016/07/blockchain-
+%E2%80%93-considering-regulatory-horizon.
+88 Lawrence J. Trautman, Is Disruptive Blockchain Technology the Future of
+Financial Services?, 69 CONSUMER FIN. L.Q. REP. 232 (2015).
+89 Id.
+21
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+industry’s substantial investments into blockchain technologies90 in
+fear of becoming obsolete.91
+1. Transaction Speed
+Starting in 2005, transaction speed and execution capability
+became the new focus of hedge funds, placing cost control and
+efficiency higher in their priorities.92 Execution capability is aided by
+real-time data to enhance the investment decision-making process,
+direct market access, and algorithms.93 Many robo-advisors are
+automating the processes of the execution of actual orders behind
+portfolio allocation and rebalancing strategies, passing generated
+orders to brokerage systems.94 ML can be applied in execution
+algorithms that help execute large orders by dividing them into
+thousands of smaller transactions without influencing the market,
+while adjusting their aggressiveness to the market situation.95
+Complete and closed AI-based “analysis-to-decision-to-execution”
+system, with minimal to no input from the fund manager can also be
+implemented.96 Opus uses “Smart Automation” to achieve highly
+90 Financial institutions are expected to spend over $1 billion on blockchain
+projects in 2017. This is on top of the $1.4 billion invested in the last three years.
+Id.
+91 Reggie O'Shields, Smart Contracts: Legal Agreements for the Blockchain, 21
+N.C. BANKING INST. 177 (2017).
+92 Datamonitor, Hedge Funds Turn to Technology at 107-08 (2006).
+93 Id. at 108.
+94 Rozanski, supra note 27.
+95 Id. at 276.
+96 Yaron Golgher, Lipa Roitman, Dmitry Neginsky, AI-Powered Wealth
+management products and investment vehicles, in THE WEALTHTECH BOOK 140
+(SUSANNE CHISHTI & THOMAS PUSCHMANN ED., 2018).
+22
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+streamlined and efficient workflows.97 In their banking team and
+distribution process, which processes thousands of distribution
+payments each month, Opus has been able to create “Smart
+Automation” to safely handle these high volumes. Finally, trade
+confirmations and settlements could be offered through distributed
+ledger technology.98 Distributed ledgers could also replace share
+registers for investor-level recordkeeping and servicing.99
+2. Performance
+Hedge funds are using technology to optimize their
+performance. In a 2018 survey conducted by BarclayHedge, more than
+half of respondents use AI/ML to inform investment decisions.100
+Two-thirds of respondents use AI/ML to generate trading ideas and
+optimize portfolios.101 Just over a quarter of respondents use
+automation to execute trades.102 Over half of the respondents have
+used AI for three or more years, and a third of respondents have used
+AI for five or more years.103
+Two-thirds of respondents used AI/ML to generate trading
+ideas to optimize portfolios.104 Big data in combination with AI/ML
+allows traders and portfolio managers to scan immense data sets and
+97Mike Canni, Smart Automation, HEDGEWEEK 17 (Jun. 2018),
+https://www.hedgeweek.com/sites/default/files/Hedgeweek_Special_Report_Tech
+nology_Innovations_2018.pdf.
+98 Young, supra note 1.
+99 Id.
+100 BarclayHedge (2018).
+101 Id.
+102 Id.
+103 Id.
+104 Id.
+23
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+act on data that informs a desired outcome because the algorithms
+optimize positive outcomes.105 However, more than four out of ten of
+survey respondents still rely on conventional human thinking to guide
+their investment processes.106 The technology is being used to
+formulate investment ideas and build portfolios informed by the
+complex data analysis AI allows.107 More than one half of respondents
+said that AI/ML guides 20-60% of their decision-making process as a
+fund manager.108 More than two-thirds of survey respondents use
+AI/ML on assets of less than $50 million.109
+The hedge fund industry is using fully automated electronic
+trading systems. For example, Aidyia, based in Hong Kong, is uses a
+fully automated trading system to make all stock trades using AI.110
+The Aidyia system identifies and executes trades entirely on its
+own.111 The technology uses AI that includes techniques such as
+evolutionary computation and deep learning, as well as probabilistic
+logic, and runs across hundreds or thousands of machines.112 The AI
+engines make market predictions each day and then “vote” on the best
+course of action.113 The goal of these systems is to be able to
+automatically recognize changes in the market and adapt in ways that
+105 Id.
+106 Id.
+107 Id.
+108 Id.
+109 Id.
+110 Metz. supra note 23; See also Hedge funds embrace machine learning – up to a
+point, THE ECONOMIST (Dec. 9 2017), https://www.economist.com/finance-and-
+economics/2017/12/09/hedge-funds-embrace-machine-learning-up-to-a-point.
+111 Metz. supra note 23.
+112 Id.
+113 Id.
+24
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+traditional quant114 models cannot.115 Adidyia trades in US equities
+and generated a 2 percent return on its first day.116 AI-driven fund
+management is looking for the best trades in the longer term by
+choosing strategy.117
+Sentient Technologies of San Francisco has been trading with
+a similar system since 2015 backed by US$143 million in funding.118
+The company has not openly marketed its fund but has been making
+official trades since 2015 using money from private investors after a
+longer period of test trades.119 Sentient has worked with the hedge
+fund business inside JP Morgan Chase in developing trading
+technology.120 The fund operates entirely through AI by automatically
+authoring a strategy then giving fund managers commands but allows
+the company to adjust risk settings.121 There is disagreement over
+whether deep learning may be able to identify particular features of a
+stock that could be profitable.122
+114 See Kevin McPartland, Quantimental Investing: The New Way to Beat the
+Market, FORBES, (Jul. 12, 2018),
+https://www.forbes.com/sites/kevinmcpartland/2018/07/12/quantimental-investing-
+the-new-way-to-beat-the-market/#32437cab5f15; Saijel Kishan & Vincent Bielski,
+It's Been a Rough 2018 for Many Quant Hedge Funds, BLOOMBERG (Jun. 26, 2018,
+12:33PM CDT), https://www.bloomberg.com/news/articles/2018-06-26/quants-
+beset-by-woes-as-jpmorgan-pulls-money-from-hedge-fund.
+115 Metz. supra note 23.
+116 Id.
+117 Id.
+118 Id.
+119 Id.
+120 Metz. supra note 23 (citing Kelly Bit, The $10 Hedge Fund Supercomputer
+That’s Sweeping Wall Street, BLOOMBERG (May 20, 2015),
+https://www.bloomberg.com/news/articles/2015-05-20/the-10-hedge-fund-
+supercomputer-that-s-sweeping-wall-street).
+121 Metz. supra note 23.
+122 Id.
+25
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+As of 2016, Two Sigma and Renaissance Technologies were
+using AI and Bridgewater Associates and Point72 Asset Management
+were moving in the same direction.123 Smart Automation is an
+important technology development that involves combining a deep
+understanding of workflows with robust granular data to allow highly
+efficient, accurate, and controlled decisions to be made.124
+FundNexus is a new technology that will offer a platform with
+uniform subscription documents and direct electronic delivery to and
+confirmation by administrators.125 Custom platforms for data
+collection are also being built as well as a platform that will cross-
+check funds across databases to remove duplicate funds and offer data
+verification to the major databases.126 A rating system is also being
+discussed.127
+3. Diversification
+Diversification is a key element of emerging technology in the
+private investment fund industry. For example, a benefit of investing
+in digital currencies rather than traditional investments is that digital
+currencies can be immune to the vicissitudes of traditional stock
+investments and the equity markets. Although crypto investments can
+be just as and more volatile than traditional investments, digital
+currencies might be used to hedge against traditional investments.128
+123 Id.
+124 Canni, supra note 97.
+125 Jones, supra note 15.
+126 Id.
+127 Id.
+128 In fact, bitcoin has been arguably more volatile. See e.g., Neil Haran, What’s
+Keeping Cryptocurrencies From Mass Adoption? TECHCRUNCH (Apr. 20, 2017),
+26
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+Diversification derived from investments in digital assets is
+strongly related with the evolution of the Initial Coin Offering market.
+ICOs evolved rapidly and receded equally quickly. After Satoshi
+Nakamoto established the use case for blockchain technology for
+cryptocurrencies in 2008,129 it took until 2012 for the first ICO to
+occur. However, the exponential growth of ICOs since 2015
+culminated in ICO fundraising outperforming venture capital
+financing of crypto start-ups in the second quarter of 2017.130
+Following its rapid proliferation and market exuberance, ICOs
+receded equally quickly lockstep with the depreciation of bitcoin in
+early 2018.
+Crypto hedge funds enable significant diversification for their
+clients. Examples include TheToken Fund,131 Polychain Capital,132
+Pantera Capital,133 and Logos Fund.134 Such funds provide investors
+with exposure to a wide range of digital currencies without the risk of
+investing in either the underlying organization behind a protocol or the
+digital currency itself. Rather than make one large investment in one
+cryptocurrency, these funds employ an asymmetric investment
+strategy by making large-scale investments in numerous
+https://techcrunch.com/2017/04/20/whats-keeping-cryptocurrencies-from-mass-
+adoption.
+129 Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System, BITCOIN
+(May 24, 2009), https://bitcoin.org/bitcoin.pdf.
+130 Alex Sunnarborg, ICO Investments Pass VC Funding In Blockchain Market First,
+COINDESK (Jun. 9, 2017), https://www.coindesk.com/ico-investments-pass-vc-
+funding-in-blockchain-market-first//.
+131 THETOKEN, https://thetoken.io/ (last visited June 30, 2019).
+132 See Polychain Capital, supra note 5.
+133 PANTERA CAPITAL, https://www.panteracapital.com/ (last visited Jun. 8, 2019).
+134 THE LOGOS FUND, http://logos-fund.com (last visited Apr. 24, 2019).
+27
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+cryptocurrencies. The Logos Fund combines such crypto investment
+diversification with the mining of bitcoins to increase the value of the
+fund during downswings in the volatile cryptocurrency markets.
+Since late 2017, the market for digital assets has moved back
+from the ICO model to the venture model, leading to less
+diversification. Historical examples show that nascent markets are
+subject to significant change.135 The nascent market for digital assets’
+rapid proliferation in 2016-18 was followed by significant downward
+corrections, called the “crypto winter” in 2018-19.136 Since its
+inception in 2009 until around January 2017, the digital asset market
+was dominated by one digital currency, namely Bitcoin. Until around
+April 15, 2011, the creation of the first known alt-coin (e.g. an
+alternative coin to Bitcoin), Bitcoin virtually dominated the market
+and was in fact the only digital asset.137 Between 2017 and 2019, the
+alt-coin market proliferated significantly.138 Correspondingly, from
+2016 to 2017, Bitcoin’s market share dropped dramatically.139 At the
+end of 2014, with the instantiation of smart contracting in the
+Ethereum ecosystem and the ETH currency, the market for digital
+135 José Albuquerque de Sousa, Thorsten Beck, Peter A.G. van Bergeijk, and
+Mathijs A. van Dijk, Nascent markets: Understanding the Success and Failure of
+New Stock Markets (CEPR Discussion Paper No. DP11604, 2016),
+http://www.lse.ac.uk/economics/Assets/Documents/finance-and-development-
+workshop/beck-nascent-markets.pdf.
+136 Michael J Casey, Crypto Winter is Here and We Only Have Ourselves to
+Blame, COINDESK (Dec. 3, 2018), https://www.coindesk.com/the-crypto-winter-is-
+here-and-we-only-have-ourselves-to-blame.
+137 COINMARKETCAP, https://coinmarketcap.com (last visited Jun. 14, 2019). Note:
+100% dominance assumed till April 15, 2011 (creation of first known altcoin).
+Linear interpolation from April 15, 2011 to April 28, 2013 (the date of
+coinmarketcap.com’s first Bitcoin data point).
+138 Id.
+139 Id.
+28
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+assets started to diversify and proliferate substantially. New alt-coins
+emerged almost weekly, leading to over 1600 crytocurrencies in
+circulation in late 2018.140 The percentage of ICOs in relation to total
+fundraising of blockchain startups dropped from 80% to around 35%
+in August 2018 and only marginally recovered between September
+2018 and February 2019 at around 40% to 50% before dropping to
+20% in March 2019.141 Other funding vehicles, such as venture
+fundraising, became more important for the blockchain industry in
+August 2018.
+4. Capitalizing on Disruption
+The disruption of legacy finance by ICOs has triggered attempts by
+private investment funds to capitalize on the source of disruption
+within the existing business model to benefit from its advantages.142
+Funds can benefit from the early liquidity provided by
+cryptocurrencies in the lifecycle of a company. In the existing legacy
+business for private investment funds, the investment process is
+subject to long, complex, and time intensive processes leading up to a
+very late liquidity event in the form of an IPO or acquisition. By
+140 LIST OF CRYPTO CURRENCIES,
+https://en.wikipedia.org/wiki/List_Of_Cryptocurrencies (last visited June 12,
+2019).
+141 ICOs % of Total Blockchain Funding,
+COINDESK, https://www.coindesk.com/ico-tracker (Jan 2016 – Dec 2016);
+ICORATING.COM , https://icorating.com/statistics/market/ (Jan 2017 – Mar 2019).
+142 Lionel Laurent, Want to be a VC? Just Flip a Bitcoin, BLOOMBERG (Apr. 18,
+2017), https://www.bloomberg.com/gadfly/articles/2017-04-18/beating-vc-funds-
+is-as-easy-as-flipping-a-bitcoin.
+29
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+contrast, ICOs provide liquidity to investors much faster.143
+Cryptocurrencies created by blockchain start-ups generate investment
+returns that cannot be matched by legacy investments.144
+5. Administrative Process & Compliance
+A significant application of blockchain technology for private
+investment funds involves the improvement of administrative
+processes and compliance procedures. For instance, LendingRobot’s
+LendingRobot Series is a fully automated hedge fund secured by
+blockchain technology.145 Unlike other blockchain-based hedge funds
+that invest specifically in cryptocurrency, such as Global Advisers and
+Polychain Capital, the LendingRobot Series invests in lending
+marketplaces— Lending Club, Prosper, Funding Circle, and Lending
+Home.146 Its trading is determined by an algorithm based on the
+investor’s risk preferences. Once the investor has created a trading
+profile, LendingRobot selects and executes trades that are recorded in
+the blockchain public ledger on a weekly basis. This facilitates
+significant efficiencies and facilitates administrative and compliance
+optimization. Moreover, by recording all transactions in the public
+blockchain, LendingRobot is able to comply with its best execution
+143 Richard Kastelein, What Initial Coin Offerings Are and Why VC Firms Care,
+HARVARD BUSINESS REVIEW (Mar. 24, 2017), https://hbr.org/2017/03/what-initial-
+coin-offerings-are-and-why-vc-firms-care.
+144 For example, several cryptocurrencies such as Ether, Monero and NEM
+increased in value by 2,000% in 2017-18,144 and Litecoin more than the 900% in
+2017-18. See COINBASE, https://www.coinbase.com/ (price at July 3, 2017).
+145 Press Release, deBanked, Introducing LendingRobot Series: One-Stop
+Investing in Alternative Lending (Jan. 26, 2017),
+http://debanked.com/2017/01/introducing-lendingrobot-series-one-stop-investing-
+in-alternative-lending/; Cummings, supra note 82.
+146 Press Release, deBanked, supra note 145; Cummings, supra note 82.
+30
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+obligations as well as locate and audit past trades. The technology
+helps the firm conduct investigations, but it also facilitates reporting
+to the SEC.
+Several key benefits are associated with the introduction of
+blockchain technology in private investment funds’ back-office
+administrative processes and compliance. By automatically recording
+all transactions in a given private investment fund along with any
+documentation or information that is associated with a given
+transaction, blockchain technology reduces the otherwise significant
+costs associated with human oversight in recording, organizing, and
+maintaining investment fund data and records. Blockchain technology
+also creates a verified marketplace and provides market participants
+with reliable and fully transparent data on market transactions. The
+technology reduces the need for information exchange among parties
+because all transactions are fully recorded and transparent. Blockchain
+increases security because transactions are recorded in an immutable
+database that ensures the validity of data and removes expensive
+security procedures and labor-intensive data maintenance while
+reducing the need for a paper trail. Overall, the technology allows for
+a significant simplification of transactions and enormous increases in
+efficiency and speed of private investment fund transactions while
+providing significant security improvements.
+Several concrete examples illustrate the cost savings and
+compliance opportunities of technology. Most prominently, in
+February 2017, Northern Trust and IBM entered into a partnership for
+the commercial use of blockchain in the private fund industry. The
+partnership provides an enhanced and efficient approach to private
+31
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+equity administration.147 While the current legal and administrative
+processes that support private equity are time-consuming, expensive,
+lack transparency, and involve lengthy, duplicative, and fragmented
+investment and administrative processes, the partnership’s solution
+delivers an enhanced and efficient approach to private equity
+administration by simplifying the complex and labor-intensive
+transactions in the private equity market.148 More specifically, unlike
+the current deal practice in private equity, which requires parties to
+reconcile multiple copies of the documents that form the deals to
+understand the greater picture, the blockchain program announced by
+Northern Trust and IBM allows all involved parties in an equity deal
+to look at a single compiled version of the transaction and all other
+data relating to the deal.149
+6. Competitive Pressure
+The use of emerging technology increases the competitive
+pressure in the private investment fund industry. Private investment
+funds implementing blockchain technology are facilitating and
+spearheading radical changes in financial markets. First and foremost,
+the structural characteristic of blockchain as a decentralized model for
+financial transactions disintermediates and disrupts the existing
+financial infrastructure. Private investment funds that are first movers
+in the implementation of the blockchain infrastructure systems in
+147 See Press Release, IBM, Northern Trust and IBM Pioneer Use of Blockchain
+Technology to Help Transform Private Equity Administration (Feb. 22, 2017),
+http://www-03.ibm.com/press/us/en/pressrelease/51655.wss.
+148 See Id.
+149 See Id.
+32
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+finance directly contribute to that disintermediation and facilitate the
+accelerating evolution of the blockchain infrastructure in finance.
+The competitive pressure in the private investment fund
+industry increases through operational and business efficiencies
+gained by those funds that implement the technology. Most large fund
+advisers in the private equity and hedge fund industry have not yet
+considered implementing blockchain technology in combination with
+big data applications and artificial intelligence. This, however, may
+change in the foreseeable future if and when larger managers realize
+that their smaller competitors who utilize these technologies gain
+substantial operational efficiencies and cost savings and are able to
+substantially diversify their portfolio holdings via such technologies.
+The threshold for change for bigger managers may be dictated by the
+implementation cost of such new technologies. If and when the long-
+term benefits of using the technologies exceed the implementation
+cost, which are much larger for larger managers than for the smaller
+managers who are currently experimenting with such technologies,
+larger managers are incentivized to start the innovation process as
+well.
+IV. Conclusion
+The proliferation of emerging technologies their prominent
+applications in the hedge fund industry illustrate the seismic
+technology-driven shift in the private investment fund industry. The
+book chapter has illustrated that the rise of blockchain applications in
+private investment funds already has an impact on the industry’s front
+office and investment functions, in the securing of crypto assets, but
+33
+Electronic copy available at: https://ssrn.com/abstract=3409548
+
+2019 TECHNOLOGY IN HEDGE FUNDS
+also in private investment fund managers’ attempts to satisfy the
+growth expectation of clients. As the industry continues to evolve in
+the blockchain realm, more change is inevitable. Legacy infrastructure
+upgrades via blockchain technology may only be a first step towards
+crypto integration and evolution via the private investment fund
+industry. Regulatory guidance will be essential to ensuring the
+continuing evolution and blockchain integration for the private
+investment fund industry.
+34
+Electronic copy available at: https://ssrn.com/abstract=3409548
+

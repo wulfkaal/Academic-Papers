@@ -1,0 +1,625 @@
+Chapter ) - Historiography 1
+The Importance of History in Decentralization
+By Craig Calcaterra and Wulf Kaal
+Abstract
+Chapter 9 emphasizes the role of history in the creation of decentralized organiza-
+tions. Access to historical records creates transparency and accountability and enables
+punishment and rewards in decentralized organizations which changes the motiva-
+tions of members from a focus on immediate rewards to the future, encouraging de-
+layed gratification and sacrifice for the good of the group. Historical review changes
+the game theoretical perspective from a single stage game, to a repeated game. This
+leads to more efficient cooperation instead of internal competition. Review helps cre-
+ate a decentralized history for decentralized organizations, which gives them momen-
+tum. History is the basis for making governance more effective. History brings clarity
+and stability.
+The book can be accessed here:
+https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Struc-
+ture/dp/3110673924/
+and here:
+https://www.degruyter.com/view/title/569051
+Chapter 9. Historiography
+We are not makers of history. We are made by history.
+--Martin Luther King, Jr., Strength to Love (JKLM)
+Dual to cryptography, which is the process of writing secrets, historiography is the
+process of distilling and sharing information publicly. Historiography is the way you
+choose to write the past—how it’s recorded, what information is stressed as im-
+portant, how it is presented. Do we present history as a list of the important decisions
+kings and queens have made, or do we stress the social developments that provoked
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+2 (cid:0) Chapter ) - Historiography
+those decisions, or do we point to the technological innovations that fomented those
+social changes?
+In business, your choice of historiography determines what past events are im-
+portant to consider when making economic decisions. Your historiography is your per-
+spective. To achieve liquidity, marketplaces must be trustworthy. They need momen-
+tum. It’s not enough to achieve motion in any particular instance. Momentum must
+be observed to give trust to the marketplace. These observations need to be collected
+in a history to give them weight and meaning.
+In decentralized organizations, governance is the key ingredient for driving effec-
+tive collaboration towards a goal. Governance relies on meaningful reputation to de-
+cide who or what to focus on. The meaning of reputation is determined by its history
+and how that history is analyzed and presented. Information, especially through news
+sources, controls a decentralized organization.
+How is our attention focused and organized? Which details are important? Which
+narrative do we follow? What is the internet search engine for the decentralized PXP
+environment? How do you tell the story of what the data means? How trustworthy,
+how efficient, how effective is any particular DAO, compared with other DAOs? To
+answer all of these questions, you need to answer how history is recorded and dis-
+seminated.
+The choice of historiography is the design choice of the architecture of higher-
+order information storage. The purpose of the judicial branch is to finalize information
+storage, to decide what is true. The architecture of history, historiography, is the ar-
+chitecture for judicial governance. Historiography is our method for putting the au-
+thoritative stamp on what is true. This stamp sets the stage to analyze our situation
+and decide what to do next (legislative governance/information processing), then to
+do it (executive governance/information transmission).
+In this chapter we describe how to build decentralized news services for DAOs,
+known as oracles. Incidentally, this explains how to revitalize our failing news media,
+the vaunted Fourth Estate, and educational institutions that are essential to the func-
+tioning of the larger DAOs of our democratic societies, using the principles of decen-
+tralization.
+Oracles
+In the decentralized economy, trusted news sources become even more im-
+portant than in the traditional economy. Business contracts are becoming more auto-
+mated, reacting immediately to news events. Automated news services in PXP systems
+are called oracles.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 3
+Many oracles exist today which work with PXP projects, such as Provable (for-
+merly Oraclize) and Town Crier, which are centralized (Provable uses Amazon’s Web
+Services virtual machine and Town Crier uses Intel). These centralized oracles are rec-
+ommended for any contemporary PXP project, because as of X‘X‘, no decentralized
+oracle is robust enough to be trusted for valuable transactions. To make DAOs secure
+in the long run, however, many different types of trusted decentralized oracles need
+to be developed.
+Why do you need a decentralized oracle? The same reason all the other institu-
+tions that business relies on need to be decentralized before a DAO can reach its full
+potential. Any time your DAO relies on a centralized feature, that is a centralized point
+of failure that is a threat to the survival of the organization. That means the system is
+technically centralized. In that case it would be more efficient to completely centralize
+around the single point of failure the DAO is automated around. The effort you’re
+making to decentralize and give each member redundant power is wasted, because
+the point of failure might as well be the supreme leader.
+For example, if the DAO relies on a centralized oracle, that means someone in the
+oracle’s hierarchy has the power to decide what information to share. A DAO is auto-
+mated by its smart contracts to rely on the information coming from the oracle. The
+DAO is automatically triggered to make monetary transactions based on that infor-
+mation. Eventually, the people who have the relevant power in the centralized oracle
+will become aware of the power they have over the DAO. Eventually there will be an
+opportunity to exploit that information. And from a game theory perspective, given
+the competitive nature of capitalism, they are right to take advantage of that power.
+You can never achieve a perfectly decentralized system, any more than any or-
+ganization’s hierarchy can ever become perfectly centralized. There is always going to
+be a problem and weakness somewhere with any practical instantiation of any project.
+And machines don’t need to be perfect in every regard to work. But if we can identify
+a weakness, we can address it.
+Theoretically, you can make overarching centralized laws dictating such exploita-
+tion shouldn’t happen. In fact, there are many laws related to this sort of insider in-
+formation. But the very existence of this opportunity for arbitrage means systems will
+evolve around whatever rules exist to exploit the advantage. Instead of legislating, the
+proper response is to engineer a better system. More to the point, robust decentral-
+ized oracles would be superior.
+A robust decentralized oracle would find better information. The wisdom of the
+crowd can be employed to discover the truth. Averaging information is typically better
+for any complex situation, since they’re less subject to the prejudices of the individual,
+who has more limited information. All things being equal, the individual mistakes that
+overestimate some measurement are balanced by the individuals that underestimate.
+Decentralized oracles are more reliable. Their failures will be smaller, because they
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+4 (cid:0) Chapter ) - Historiography
+are more diluted through averaging. Centralized oracles have more singular sources
+of information, leading to higher variance in their mistakes.
+Condorcet’s Jury Theorem
+A rigorous explanation of the wisdom of the crowd was first introduced in Jabc by
+Condorcet. The same French revolutionary genius whose paradox (Chapter d) pre-
+vents us from finding a perfect democratic voting method also gives us this argument
+in favor of democracy. Condorcet’s Jury Theorem says bigger democracies are better
+than having smaller groups in charge. Sort of. Condorcet demonstrated that larger
+groups of slightly intelligent people are better than smaller groups for democratically
+finding the truth.1
+Here’s the setup: Suppose you have a group that is going to vote on an issue. Also
+suppose the group is slightly intelligent, meaning the average group member is more
+than cJ% likely to get the right answer, rather than the wrong answer. In this case, the
+more people you use to vote on the issue, the more likely they are to come to the
+truth. The bigger the network, the more efficiently it will come to the correct answer.
+The crowd’s answers are much wiser than the average individual’s answer.
+Since it’s a rigorous logical result, it also is balanced by the fact that larger groups
+of slightly stupid people are worse than smaller groups of stupid people. The idiocy of
+the mob is the counterbalance to the wisdom of the crowd. Stupid, here, is defined as
+being wrong slightly more than half the time. It’s not clear whether any mortal escapes
+that assignation in sum—perhaps we’re all slightly stupid in the larger scheme of
+things. But in some areas, we can train ourselves to be at least slightly competent. So
+an oracle DAO needs to filter its network to guarantee the average member is correct,
+at least slightly more than they are incorrect. Then the larger and more decentralized
+the network becomes, the quicker and more certainly it will converge on the truth.
+SchellingCoin protocol
+One decentralized approach to generating oracle information is based on the
+SchellingCoin protocol, explained for Ethereum in X‘Jd by Vitalik Buterin. The idea is
+to have your Oracle DAO members stake their reputation tokens on their answer to a
+question a DApp is asking. Then you reward those closer to the resulting median value
+(cid:0)(cid:0)
+1 Bernard Grofman, Guillermo Owen, and Scott Feld, “Thirteen Theorems in Search of the Truth”, The-
+ory and Decision, CD, pp EFC-EGH, (C)HJ).
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 5
+and punish those whose answers deviated further. The median answer is the Schelling
+point, a concept from game theory.
+For example, suppose an insurance DAO needs to know whether to pay out to
+policy holders for a hurricane. The policy stipulates that it will pay out if the wind in
+your coastal town is higher than J‘‘ mph. Oracle DAO members may post their esti-
+mate of the top wind speed in Virginia Beach last Thursday and encumber their repu-
+tation tokens in a smart contract. When the deadline to report the wind speed arrives,
+the smart contract calculates the median value of all submissions, weighted by the
+stakes. Then the encumbered reputation tokens are redistributed to the group, with
+more tokens given to members who answered closer to the median, and less for those
+whose answers were farther away.
+There are infinitely many choices for the redistribution process. The original pro-
+posal suggested minting some amount 𝑁 of new tokens and distributing them to those
+with answers between the Xcth and acth percentile. Incentivization can be optimized
+by selecting over the set of all designs. Different questions and DAO behaviors should
+have different reward schemes. For instance, if all members are behaving honestly,
+and the answers are satisfactory within a predetermined tolerance, your reputation
+shouldn’t be arbitrarily reassigned because you were a tiny fraction of the median
+value further away than the majority. In that case everyone should earn a share of the
+new reputation.
+What protocols are followed in answering any particular oracle questions should
+be determined by the experts on the particular subject. Giving the experts, them-
+selves, control of their own organization is better than relying on a static centralized
+hierarchy. The experts know best how to game their own system, and how to prevent
+gaming to protect their hard-earned reputation. The experts will find the most effi-
+cient and secure methodology for providing trustworthy answers.
+Assuming there is no systemic bias in the members, meaning that the group is
+diverse and decentralized, the median should be close to the truth, so Oracle DAO
+participants are incentivized to answer as honestly as they can. Fees are later distrib-
+uted among the Oracle DAO members proportionate to their reputation holdings.
+This approach may also serve as a forecasting device. Members would stake their
+reputation tokens on bets on future events, making the DAO into a more literal oracle
+from mythology.
+Though decentralization improves information discovery, it further improves
+when you filter out the bad sources of information. All things are not equal. Every
+network has biases that need to be filtered out. Reputation, governance, and review
+provide a stable system for filtering the bad sources of information and improving ac-
+curacy.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+6 (cid:0) Chapter ) - Historiography
+Unfortunately, robust decentralized oracles don’t exist, yet. Proposals have been
+well funded by ICOs since X‘Ja, but we have little confidence in any scheme currently
+being built. Chain.link has a protocol that demonstrates proof of concept—the tech-
+nology exists to build a decentralized oracle. But the difference between theory and
+practice is often vast.
+Put simply, decentralized oracles are DAOs, so they still lack the proper incentive
+structure and governance processes and history that all DAOs suffer from. Until the
+decentralized protocol is secure and robustly enacted, it is better to rely on centralized
+oracles, and make sure your network doesn’t grow to gain such a large monetary value
+that an incentive arises for the centralized newsfeed to manipulate the data. A decen-
+tralized oracle is not secure until it has significant momentum and history—an oracle
+is not even truly decentralized until this is achieved, until it has a large network of
+active members.
+When sophisticated DAOs that represent banking and lending and insurance fi-
+nally emerge, the structure will be easy to mutate to adapt to properly motivate and
+govern oracle DAOs. Unfortunately, oracle DAOs and deFi DAOs rely on each other for
+their very existence. Which will come first, the chicken or the egg? Mixing two more
+metaphors, the skeleton of our proposal for priming the pump is detailed at the end
+of Chapter d, above. People first have to prove their worth in a development period,
+before they become invaluable to other DAOs and can charge fees for their services.
+News and education
+Centralized civic institutions always become corrupt in time. Then this corruption
+becomes obvious once a new technology disrupts their operation, revealing their
+weaknesses. Today, trust in the news media has cratered due to the corruption of the
+institution.
+People periodically give up their power of information transmission to centralized
+institutions which are more effective and efficient. These institutions become corrupt
+after their hierarchies centralize and ossify, then new technology allows people to by-
+pass these centrally controlled media institutions. It used to be that a far greater per-
+centage of people were publishers. Letter writing was relatively decentralized among
+anyone literate who could afford ink and paper. Then book-making concentrated the
+power of information storage throughout medieval Europe in the clergy, as teams of
+monks were devoted to the task. Economies of scale made it prohibitively expensive
+to produce a book of comparable quality without going through the Church. Europe
+trusted in the institution of the Christian hierarchy which became corrupt in time and
+eventually stultified individual progress. With the power of information creation and
+storage, the Church had the power of making history, which is ultimately the power
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 7
+of thought, as was used famously against Bruno and Galileo. The Church’s corruption
+was revealed when the new technology of the printing press unleashed the Protestant
+Reformation, under which the Catholic hierarchy collapsed and reformed.
+The printing press automated book making, so that a few people could do the job
+of hundreds of monks. Every small community of a few hundred people had compet-
+ing printing presses.2 This gave people power to make local broadsheets so that local
+newspapers could run local stories written by local citizens on local interests. Natu-
+rally, power eventually concentrated again, through economies of scale, until a few
+global corporations now primarily run global stories catering to globally powerful in-
+terests.
+Throughout history, advances in technology give individuals more power to
+spread their information to more people, but unchecked competition accumulates
+power in hierarchies of more successful groups. We give our individual power to insti-
+tutions which initially serve us more effectively and more efficiently. But as these in-
+stitutions age, they become more corrupt. This is revealed as new technology disrupts
+their operations, as the internet is currently doing.
+Today global news media institutions of all types are being revealed as weak and
+corrupt. Unprofessionally produced stories reveal the major professional media cor-
+porations are failing to provide unbiased and relevant information for their average
+consumer. These unprofessional stories are spread with the new Web X.‘ technolo-
+gies, such as Twitter, YouTube, and Wikipedia, displaying this corruption widely.
+If we don’t build transparent democratic institutions to replace the corrupt insti-
+tutions, new opaque centralized institutions will. Already, Facebook, YouTube, and
+Twitter are creating secret algorithms that control what type of story can be spread
+through their platforms, with absolutely no democratic power of oversight. To prevent
+the corruption such centralized control inevitably leads to, we must foster transpar-
+ency and individual autonomy over information. Powerful decentralized media insti-
+tutions need to be built, using dynamic governance design principles to keep them
+stable and responsive. How do we use PXP tools to achieve this?
+Decentralization has always been a crucial factor in manufacturing the news. So-
+cial truth can only be discovered using diverse and decentralized sources. What is a
+fact? What facts are important? The ultimate answer is, valuable knowledge affects
+people’s lives and experiences and decisions; it helps humanity. How do we best or-
+ganize news collection and dissemination to create valuable knowledge?
+(cid:0)(cid:0)
+2 For example, by CDDO, less than a century after Gutenberg’s original printing press, Geneva had more
+than JOO printing presses and CG,OOO citizens, for an average of C printing press per DG people. Eliza-
+beth Eisenstein, The Printing Press as an Agent of Change, Cambridge University Press, p. VCO, (C)G)).
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+8 (cid:0) Chapter ) - Historiography
+Traditionally, a healthy news media, our fourth estate, relies on a variety of com-
+peting companies. Truth discovery in any market, including the marketplace of ideas,
+is more effective and efficient when news aggregators are more decentralized. When
+there are J‘ newspapers reporting on a story, a more accurate historical picture
+emerges than when one newspaper reports on the story J‘ times. “The wisdom of the
+crowd” is the phrase that distills the fact that this diversity improves the focus and
+accuracy of the information reported, and it improves as it becomes more diverse,
+from the level of companies all the way down to the individual. Newspapers, radio,
+and movies, from television to internet platforms, diversity of media company owner-
+ship contributes to diversity of viewpoint and serves more audience interests, from
+local to national to global audiences and between groups at each scale.
+On the one hand, advances in information technology have been regularly im-
+proving our ability to disseminate news and history to the masses for centuries, in-
+creasing the quantity of stories and the number of people they reach.
+On the other hand, economies of scale naturally lead media companies to merge
+and concentrate power in territorial monopolies and trusts. American faith in media
+has reliably fallen in direct correlation with the consolidation of broadcasting power,
+as long as active statistics have been studied. Since the JKK‘s with the Telecommuni-
+cations Act of JKKL, and especially with several decisions by the FCC in the X‘‘‘s,
+there has been a string of deregulation which has allowed global companies to in-
+crease their power in local communities. In X‘‘a, the FCC voted to eliminate media
+ownership rules that included a law forbidding a single company from owning both a
+newspaper and a television or radio station in the same city.3 Since then, iHeartMedia
+(formerly Clear Channel Communications) grew to JX‘‘ radio stations. In JKbM the top
+c‘ companies owned K‘% of the media and entertainment industry in the U.S.4, com-
+prising businesses that produce and distribute movies, television, commercials,
+streaming content, audio recordings, radio, newspapers, books, video games, and sup-
+plementary services and products. By X‘JX, K‘% was controlled by the top L media
+conglomerations. As an application of Zipf’s law, the values scale roughly exponen-
+tially, with AT&T owning roughly twice as much as Comcast, which is worth twice as
+much as Walt Disney Corp, then Viacom, then Fox. Without external regulating forces,
+this is the natural and predictable result for centralizing forces under competition.
+AT&T Comcast Disney ViacomCBS
+Figure J: X‘JK valuations of the top media corporations follow Zipf's Law.
+(cid:0)(cid:0)
+3 Labaton, Stephen, “Plan Would Ease Limits on Media Owners”, The New York Times, CH October
+EOOG.
+4 Lutz, Ashley, “These F Corporations Control )O% Of The Media In America". Business Insider, CV June
+EOCE.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 9
+The most obvious problem with news consolidation is that national or interna-
+tional centralized corporations do not devote the same degree of focus to the inter-
+ests of the local communities they serve.5 Again, love doesn’t scale. Diversity of view-
+points is diminished when power is concentrated. Editorial freedom is decreased.
+News corporations certainly must value accuracy and truth in their reporting; but they
+also must consider what news stories and perspectives will attract and maintain ad-
+vertising, what positions serve their owners’ interests. A mega trust conglomeration,
+like GE and Comcast each owning half of NBC, diminishes market liquidity with large
+scale static power relations which leverage the increased internal firm efficiencies
+through economies of scale, leading to frictions and corruption that undermine the
+efficiency of the larger market.
+Wide scale decentralization of power in the media will not collapse the power of
+centralized corporations, any more than file sharing services like Napster and Bit-
+Torrent6 collapsed the power of the centralized music companies. These disruptive
+technologies merely transformed how entertainment is consumed and business is
+done. The entertainment industry is more powerful and pervasive in our global culture
+than ever before. Decentralization is more efficient for empowering individuals in
+every way. It doesn’t take power from centralized actors, it increases everyone’s
+power. Decentralization is only a threat to those who refuse to participate in the new
+collaborative networks and embrace the new tools of communication at our disposal.
+Musicians and record companies now have more influence in their fans’ personal lives
+through social media. Decentralization creates new opportunities for collaboration at
+a higher level.
+Simultaneous with the consolidation of traditional media outlets in the X‘‘‘s,
+Web X.‘ companies like Facebook, Twitter, and YouTube decentralized content crea-
+tion while retaining centralized ownership and general control. This centralized con-
+trol had the same effect in media communication that it did in commerce with Amazon
+and Alibaba—users go largely unregulated until a major problem comes to the atten-
+tion of the central authority. Fake news generators, trolls, fact checkers, and citizen
+(cid:0)(cid:0)
+5 The Communications Act of C)JV mandated that the FCC must act in the interest of the "public con-
+venience, interest, or necessity." The FCC argued in EOOF that consolidation would bring more focus
+on local news, because the larger organizations would have more resources. This argument failed in
+practice, as there was an average decrease exceeding CO% of local news stories within the first year of
+transfer of ownership. Obar, Jonathan (EOO)). "Beyond cynicism: A review of the FCC's reasoning for
+modifying the newspaper/broadcast cross-ownership rule". Communication Law & Policy. CV (V): VG)–
+DED.
+6 Hundreds of decentralized file sharing programs and communities have evolved to avoid centralized
+legal restrictions. See https://en.wikipedia.org/wiki/Timeline_of_file_sharing for a list of some of the
+major historical developments.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+10 (cid:0) Chapter ) - Historiography
+reporters now unite into communities within hours and scatter just as quickly, thanks
+to platforms such as Twitter and Reddit which leverage the new information technol-
+ogy to tap the talent of the masses to generate news content. Without editorial con-
+trol, the content is self-evidently unreliable. People rely on unconscious algorithms
+which use popularity to determine what is authoritative content. But the lessons of
+the Folk Theorems again arise, to remind us that such algorithms can always be
+gamed. A more effective means of distilling what information is important is required.
+To handle the profusion of information created by empowering the populace with de-
+centralized content creation, we need a decentralized solution.
+A central authority is perfectly well incentivized to ignore minor problems which
+only partially eat into their profits, as long as they maintain ultimate control of profits.
+When users are given more control of their content, decentralized regulation can be
+more effective, with immediate policing and protocol changes. With proper reputa-
+tion design, history and momentum can be built to filter the information more pro-
+ductively. With decentralized governance, where all members have a proper balance
+of power to police their platforms, regulation of these decentralized platforms can be
+more effective. Stories can be properly evaluated, with proportionately increased or
+decreased visibility according to their merit, without censoring them.
+News organizations with greater power decentralization have been proposed
+such as WikiNews (funded by the same non-profit Wikimedia Foundation that pub-
+lishes Wikipedia), the Decentralized News Network (DNN), and Steemit (X‘JL). All of
+these examples appear to us to have failed to gain wide adoption due to a lack of
+ambition. The goal should be to empower individuals with greater ability to communi-
+cate and cooperate.
+Imagine a hybrid mix of social media platforms (like Facebook or LinkedIn) with
+the news and entertainment media corporations (like BBC or New York Times). Instead
+of a paywall, newspapers should be encouraging participation. If you read many arti-
+cles on a particular subject you are more expert in that subject. If you comment pro-
+ductively on articles, or if you create the content, you are more expert. If your discus-
+sions stimulate more discussions and more content, you are more of an expert. If an
+article generates more meaningful, reputable connections, then the article is more
+valuable. If it doesn’t, it isn’t. Your expertise, your reputation, is based on whether you
+are helping create content or bringing attention to something that actually matters—
+meaning it is connected to profitable enterprises. If you create content that does not
+connect to something profitable, or if you promote such unproductive knowledge, es-
+pecially if you are a troll, your reputation will not grow in the DAO which values other
+behaviors and polices their reputation properly. Different definitions of what profita-
+ble means, will lead to different types of reputation or expertise that people strive to
+attain, and different measures of power in different endeavors with separate DAOs.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 11
+Major news corporations have the opportunity to rival the power of Facebook by
+decentralizing their institutions. People could have news accounts that keep track of
+how many articles they’ve read, how many comments they’ve made, on which sub-
+jects, with a Reddit style accounting system of up and downvotes7 for how well their
+contributions are appreciated, by which people, who have how much and what type
+of reputation. How many articles have you initiated? How much do those articles con-
+tribute to further comments and articles? Each article is weighted, based on how much
+extra content it generates, and recursively, based on how influential that content ul-
+timately proves to be.
+Every software programmer understands how important the contributions to
+Stack Overflow8 are, but these contributions are not rewarded by anything but brag-
+ging rights. If we can find a fair way to value such contributions, it would contribute to
+a more effective and efficient system of collaboration. Following the principles of
+building secure and meaningful reputation from Chapter L, articles must have a foun-
+dational meaning in fungible currency. New reputation should only be minted when
+the articles are connected to profitable endeavors—advertising, paid analyses, new
+protocols that are relied upon for decentralized business contracts. Then other con-
+tributions gain valuable reputation if they are linked through references.
+The exact process of Steps J-a for the Software Review DAO in Chapter d can be
+cloned to build a news story review DAO. Reviewers could judge stories’ veracity ac-
+cording to the standards the News DAO chooses. As before, reputation in the News
+DAO becomes valuable once News DApps steer viewership to stories based on your
+News DAO reviews. Then media sites will pay fees to get their stories reviewed more
+quickly. Reviewers will be incentivized to give honest reviews despite fees, because
+the reputational system rewards members mostly based on future fees. Unlike cen-
+tralized platforms, like Twitter, which don’t fairly share profits or power with their
+members, policing can be properly incentivized in a DAO, to discourage reviewers who
+erode the integrity of the system. The success of this system, however, will depend on
+the effectiveness of the choice of protocols which govern the DAO.
+The purpose of news media is education. Such a system, which takes advantage
+of our new power in information technology, can track our attainment of expertise (or
+(cid:0)(cid:0)
+7 Better yet, they would build an automated system of staking your reputation on your up or down
+vote using some of the methods explored in Chapters F, G, and Section ).V, below.
+8 Stack Overflow is a social media platform for computer science professionals which promotes good
+questions and answers with a gamified upvote system similar to Reddit where users can earn badges.
+It has become so valuable in programming circles, they joke that the solution to any new software
+programming problem is to copy code from Stack Overflow.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+12 (cid:0) Chapter ) - Historiography
+lack of attainment) more accurately than our traditional systems of professional licen-
+sures or college degrees. Tracking and aggregating our reputations in various DAOs
+can build a more accurate picture of our expertise and experiential gaps than our tra-
+ditional educational institutions have. The expertise that has evolved in the century of
+public education9 would be essential to designing effective curricula. Meaningless cer-
+tification and licensure programs would be quickly revealed as the worthless pursuits
+they are.
+Notably, the transparency and openly reviewable nature of a DAO greatly adds to
+the trustworthiness of the system. Being eternally open to audits and reviews from
+anyone on the planet greatly improves the integrity of the system. Such improvements
+to transparency and accountability in the institutions of media and education have the
+opportunity for improving many aspects of society.
+Such transparency is a hallmark of the open source culture that is a pillar of the
+WebM movement. Unfortunately, the open source culture makes no sense.
+Open source culture requires a culture of respect for history
+The open source culture of the WebM movement is absolutely essential to the
+goals of decentralizing the economy. Transparency is crucial in a decentralized net-
+work. Every function needs to be publicly auditable for people to trust it. Without a
+central authority to approve it, unexpected malicious behavior can be built into any
+opaque code. The open source culture has been extremely successful in generating
+useful distributed applications which are essential to the functioning of Web X.‘. An
+open source environment is much more innovative.
+But open source culture makes no sense from a business perspective. Whenever
+we’ve tried to explain the open source culture to a nontechnical business person
+we’ve been met with incredulity. It might make sense in a fantasy world utopia, where
+we imagine no scarcity, where everyone is an angel who shares freely with no expec-
+tation of enjoying the rewards of their labor. But it certainly doesn’t make sense in our
+capitalist business world, where the incentive structures address our essential, base
+instinct of selfishness that has preserved life for more than a billion years. Open source
+makes no sense from an economic perspective. So why do people do it? From the
+(cid:0)(cid:0)
+9 The institution of education is as old as civilization, but the current system of compulsory public
+secondary schools started around C)CO during the Progressive Movement in the U.S. The majority of
+the U.S. public first earned high school diplomas in C)VO. Jurgen Herbst, The Once and Future School:
+Three Hundred and Fifty Years of American Secondary Education (C))F)
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+Chapter ) - Historiography (cid:0) 13
+game theory perspective, the current open source culture advocated in the WebM
+movement is not sustainable in the long term.
+Unless we marry it with a culture of respect for history.
+The way to build sustainable incentives for fostering open source culture is to
+simultaneously foster a culture which acknowledges the contributions of the past. Ac-
+ademics of all stripes have lived in an open source culture for centuries, even millen-
+nia. Like WebM, academia thrives on transparency and open collaboration with
+strangers. Periods when societies are less transparent with their ideas, less collabora-
+tive, are usually referred to as Dark Ages. Open source culture has always been the
+lifeblood of progress, in societies around the globe, throughout history. But to sustain
+that open culture, a culture of respect for the past simultaneously evolves, so resent-
+ment doesn’t build. The solution to the game theory conundrum of how to incentivize
+a player to freely give up their intellectual property at one stage of a repeated game,
+is by guaranteeing a reward in a future stage, by fostering a culture of acknowledge-
+ment of past contributions. The players then seek the future rewards of fame by freely
+distributing their work in the present.
+Some academic subjects have stronger cultures respecting history, such as philos-
+ophy and theology and especially the law, as evidenced by the density of footnote
+references in any paper. Some are weaker, such as science and especially mathemat-
+ics, where typically a few essential references are perfunctorily tacked on at the end
+of their introduction.
+It’s not efficient to be constantly conscious of the source of our ideas. It’s easier
+to simply state your ideas and build your arguments without referencing each idea’s
+debt to previous thinkers. It’s unnatural to have a culture of respect for history, and
+needs to be consciously policed—it’s another of the essential catalyst institutions
+which needs to be built into the decentralized economy.
+But the new advances in information technology allow us to create a more so-
+phisticated system of acknowledging minute past contributions than previously imag-
+ined possible, with digitally accurate, automated accounting methods.
+Let’s take a final brief digression into technical territory to explain how these new
+architectures are built.
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+14 (cid:0) Chapter ) - Historiography
+Review gives momentum
+Mathematical analyses of the different ways the network of references can be
+weighted makes it possible to design protocols for promoting the goals each particular
+DAO happens to value. This network of references is technically referred to as a cita-
+tion graph. As indicated in Chapter a, governance needs to be designed in harmony
+with the values of the group. A full example is beyond the scope of this text. However,
+the elements of citation graph analysis are quite basic, similar to how all of the sym-
+bolic logic involved in the most complex smart contracts boils down to understanding
+Figure 2: The forum as a weighted directed acyclic graph (WDAG)
+the NOT and AND operators.
+The set of all posts and comments in a News DAO can be interpreted from an
+abstract perspective as a weighted directed acyclic graph (WDAG). This technical math
+jargon is the term for a relatively simple concept in graph theory, which underlies the
+mathematical analysis of any network.
+Figure M: Elements of graphs
+A graph is a mathematical term which distills the crucial elements of a network. A
+graph consists of two collections: a set of vertices (the dots, or the nodes, or the posts,
+or the members of the network) and a set of edges (connections, or references, or
+citations, or transmission lines in a network). If we add an arrow to an edge, indicating
+one post is referencing another, the graph becomes a directed graph. A graph has a
+cycle if M vertices are connected to each other in order, with vertex A connected to
+vertex B which is connected to vertex C which is connected back to vertex A. Citation
+graphs, or reference graphs, don’t have cycles, since an older post cannot reference
+newer posts before they exist. We call such graphs acyclic. Finally, we can allow a post
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+212 Chapter9 Historiography
+values of the group. A full example is beyond the scope of this text. However, the
+elements of citation graph analysis are quite basic, similar to how all of the sym-
+boliclogicinvolvedinthemostcomplexsmartcontractsboilsdowntounderstand-
+ingtheNOTandANDoperators.
+The set of all posts and comments in a News DAO can be interpreted from an
+abstract perspective as a weighted directed acyclic graph (WDAG) (see Figure 9.2).
+Thistechnicalmathjargonisthetermforarelativelysimpleconceptingraphthe-
+ory,whichunderliesthemathematicalanalysisofanynetwork.
+Figure9.2:Theforumasaweighteddirectedacyclicgraph(WDAG).
+A graph is a mathematical term that distills the crucial elements of a network
+(seeFigure9.3).Agraphconsistsoftwocollections:asetofvertices(thedots,or
+thenodes,ortheposts,orthemembersofthenetwork)andasetofedges(connec-
+tions, or references, or citations, or transmission lines in a network). If we add an
+arrow to an edge, indicating one post is referencing another, the graph becomes a
+directedgraph.Agraphhasacycleifthreeverticesareconnectedtoeachotherin
+order,withvertexAconnectedtovertexB,whichisconnectedtovertexC,whichis
+connectedbacktovertexA.Citationgraphs,orreferencegraphs,don’thavecycles,
+since an older post cannot reference newer posts before they exist. We call such
+graphsacyclic.Finally,wecanallowaposttoindicatepreciselyhowimportantits
+Chapter ) - Historiography (cid:0) 15
+vertex/post
+to indicate precisely how important its connections are, how important the older posts
+are, by weighting the references. When we attach weights to the edges/references,
+the forum of all posts/comments becomes a weighted directed acyclic graph.
+edge/reference graph with cycles
+DAG
+Figure9.3:Elementsofgraphs.
+Figure d: Weighting the references changes older posts' values.
+The idea of the weighted references is to determine how much the new posts
+affect the older posts with their review. If you give a high weight, close to J‘‘%, then
+the reference will affect it more than a low weight, closer to ‘%. A positive weight
+suggests that the referenced post deserves to increase in value. A negative weight
+suggests the older post should diminish in value—it is not contributing value to the
+DAO.
+Figure c: Weighted references cascade value to older posts, increasing or decreas-
+ing their value. This enables review of past behavior, rewarding long-term contribu-
+tions and guarding the DAO against gaming.
+Simple arithmetic will change the value of the older posts. The changes cascade
+through the WDAG of posts in the forum, readjusting the value of all connected con-
+tributions, continually improving previous judgments.
+There are many choices that need to be made for exactly how the cascade works.
+How many levels deep do the references affect the value of posts? The deeper the
+calculations go, the more history is relevant. How much do the new posts share their
+value with old posts? More value-sharing with older posts will promote long-term con-
+tributions and innovations and increases stability; less value-sharing encourages new
+contributions and immediate work. How you design the calculation tells us whether
+you give more value to long-term or short-term contributions. Deeper graph theory
+analysis allows us to optimize design choices to incentivize behaviors which lead to
+the goals which further the DAO’s particular values.
+Hard protocols stipulate how the algorithm automatically calculates the changes
+to the value of the posts. Soft protocols stipulate how the DAO requires the posters
+to behave. An example of a soft protocol is the requirement that whenever a poster
+discusses a new topic within a category, like local politics, they must reference the
+previous protocols posted which set up the DAO’s rules for discussing the politics of
+how to spend taxes—say ‘.J%. This enables the DAO to reward older contributions,
+from the time when the DAO was initially being developed and not yet attracting
+Electronic copy available at: https://ssrn.com/abstract=3782217
+
+16 (cid:0) Chapter ) - Historiography
+money. If a new post doesn’t reference older posts properly, according to the proto-
+cols that have been established by the DAO, then the UI of each user can follow the
+soft protocols and automatically punish the poster with downvotes. Again, the gov-
+ernance design, in this case the parameter choices, reflect the values of the DAO.
+In summary, reviewing through references enables punishment and rewards in
+DAOs which changes the motivations of members from a focus on immediate rewards
+to the future, encouraging delayed gratification and sacrifice for the good of the
+group. Review changes the game theoretical perspective from a single stage game, to
+a repeated game. This leads to more efficient cooperation instead of internal compe-
+tition. This makes business sense for how the open source environment, essential to
+the decentralized economy, can be sustained in the long run. Review helps create a
+decentralized history for a DAO, which gives them momentum. History gives meaning
+and focus to our perceptions. History is the basis for making governance (steering)
+more effective. It allows members to judge whether they are properly promoting their
+unifying transcendental values. History brings clarity and stability.
+To keep a decentralized organization stable in the long run, they need this mo-
+mentum gained from a clear history. But momentum toward what purpose? If the
+system is not moving toward a healthy and productive goal, it will not last long. The
+most important aspect of a decentralized organization, the feature that ultimately de-
+termines its long-term success, is the group’s set of transcendental values.
+Bibliography
+Formating example:
+Evans, Dave (Apr. 2011). The Internet of Things: How the Next Evolution of the Internet is Changing
+Everything. CISCO White Paper, https://www.cisco.com/c/dam/en_us/about/ac79/docs/in-
+nov/IoT_IBSG_0411FINAL.pdf (accessed June 1, 2020).
+Wikipedia. Last Universal Common Ancestor, https://en.wikipedia.org/wiki/Last_universal_com-
+mon_ancestor (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3782217
+

@@ -1,0 +1,1316 @@
+2022 DIGITAL ASSET VALUATION
+DIGITAL ASSET VALUATION
+WULF A. KAAL*
+SAMUEL R. EVANS*
+HAYLEY A. HOWE
+Abstract
+Existing valuation metrics for legacy assets only limitedly apply in the
+context of digital assets. The valuation infrastructure in the current
+legal, accounting, technology, and back-office framework in
+combination with the immaturity of the digital asset market create an
+environment of digital asset valuation uncertainty. This article
+evaluates the existing asset valuation methods and their limited
+application to digital assets before contrasting new and evolving
+digital asset valuation trends.
+Key Words: Digital Assets, Valuation, Blockchain, Distributed
+Ledger Technology, Emerging Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O3
+* (c) 2022 Professor of Law, University of St. Thomas School of Law
+(Minneapolis, USA).
+* (c) 2019 Experienced Associate, PricewaterhouseCoopers.
+* (c) 2021 Compliance Director, Emerging Technology Association.
+1
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+Table of Contents
+I. INTRODUCTION ............................................................................................. 3
+II. DIGITAL ASSET VALUATION ..................................................................... 6
+1. Digital Asset Valuation Issues in Practice ............................................... 6
+a) Market Arbitrage Issues .................................................................................... 6
+b) Private Investment Fund Valuation Issues ........................................................ 7
+2. Impact of Digital Asset Characteristics on Valuation ............................ 12
+III. TRADITIONAL ASSET VALUATION METRICS ........................................... 14
+1. Asset Approach ....................................................................................... 17
+2. Market Approach .................................................................................... 18
+3. Discounted Cash Flow Model ................................................................ 19
+a) Lack of Liquidity ............................................................................................ 22
+(1) Prospective Put Model (PPM) ................................................................ 24
+(2) Longstaff Model ..................................................................................... 25
+(3) Quantitative Marketability Discount Model (QMDM) .......................... 26
+IV. APPLICATION OF TRADITIONAL VALUATION METHODS TO DIGITAL
+ASSETS ................................................................................................................ 28
+1. Market Pricing ....................................................................................... 28
+2. Private Market Transactions .................................................................. 31
+a) Market Approach ............................................................................................ 31
+b) DCF ................................................................................................................. 33
+V. CONCLUSION ........................................................................................... 35
+2
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+I. Introduction
+Digital asset valuation is subject to uncertainties. Digital assets are
+often subject to significant price volatility, liquidity shortcomings that
+lead to pricing inaccuracies. Ever since the emergence of the digital
+asset market in 2009, established digital assets, such as Bitcoin,
+experienced pricing uncertainties. Since its inception, the price of
+Bitcoin has varied largely and frequently depending on the trading
+location.1
+Pricing inadequacies are at the forefront of the issues that undermine
+the evolution of the digital asset market. The valuation infrastructure
+in the current legal, accounting, finance, technology, and back-office
+framework in combination with the immaturity of the digital asset
+market create an environment where digital asset valuation continues
+to be a mystery. Digital asset managers cannot be certain they are
+valuing their assets correctly and their investors may not be satisfied
+with managers’ valuation efforts and methodology. While many
+traditional assets also cannot be fully assessed, the lack of valuation
+accuracy for financial reporting is exacerbated by the lack of
+established pricing standards for digital assets.
+The definition of fair value under existing accounting terminology
+may not apply to digital assets.2 As a result, the correct valuation of
+digital assets may not be possible for financial reporting issues. Digital
+assets may also not meet the definition of financial instruments under
+1 Sid Clarkmore, Why is BTC-E Bitcoin Cheaper and Lower in Price Than Other
+Markets?, HEAVY (Nov. 20, 2013), http://perma.cc/XPP5-DEJ2).
+2 Financial Accounting Standards Board, Statement No. 157 (DATE?) ("FASB
+157”). Fair value is market-based, focusing on exit rather than entry price. Factors
+include assumptions about risk and restrictions on asset sale and use. As such,
+liquidity (the degree to which an asset can be quickly purchased or sold)
+significantly impacts fair value.
+3
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+established accounting standards. Yet, in lieu of parallel accounting
+terminology for digital assets, current practices necessitate the
+application of existing terminology such as fair value.
+It is unclear how digital assets may be priced in fair valuation metrics
+under the existing accounting terminology. Fair value is defined as the
+exit price of a given asset at the time of sale in an orderly market.3
+Three classes of asset falls help categorize fair value of an asset which
+reflect the level of judgment in estimating fair values, in order from
+most to least liquid. Assets in the Level one category generally are
+liquid exchange-traded assets that have reliable observable inputs.4
+Bitcoin and Ethereum as the most liquid digital assets and could
+qualify as a level one asset. Similarities can be drawn between
+traditional dual-listed securities and Bitcoin and Ethereum. Typically,
+an asset will be listed on multiple exchanges to provide the market
+with more liquidity. For traditional markets, when a security is dual-
+listed, we see the bid-ask spread decrease because additional liquidity
+is being injected into the market. This differs from the crypto market
+where the difference between the two exchanges can reach upwards of
+5% during peak trading times.5 As markets continue to develop, this
+market arbitrage should continue to reduce.
+Level two encapsulates semi-liquid or illiquid assets but allows asset
+managers to extrapolate price based on comparable assets.6 Typically,
+a quoted price for a similar asset or liability in an active market or
+Quoted prices for identical/similar assets or liabilities in markets that
+are not active; i.e., in which there are few transactions for the asset or
+liability, the prices are not current, or price quotations vary over time
+or among market makers (some brokered markets), or in which little
+information is released publicly (a principal-to-principal market).
+Level three uses unobservable inputs that are developed internally
+from the reporting entity’s point of view. The assessment of market
+3 International Financial Reporting Standards Foundation, IFRS 13 Fair Value
+Measurement (2021); 3 PwC, Fair value measurements global accounting and
+financial reporting guide (Sep. 2019) at 8 or 1-4.
+4 FASB 157, supra.
+5 https://www.gemini.com/cryptopedia/crypto-arbitrage-crypto-exchange-prices
+6 FASB 157, supra.
+4
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+participant assumptions are based on the most up to date information.
+These inputs are used when there are little, if any, market activity for
+the asset or liability at the measurement date.
+Depending on their liquidity, altcoins and securities tokens may
+generally qualify for level two or three. Level three permits the use of
+proprietary pricing models for assets that do not qualify for level two.
+Because digital asset exchanges do not have closing prices, digital
+asset managers cannot simply use the closing price for given asset.
+Digital asset valuation methodologies vary significantly. Tradeoffs
+between such methodologies allow for some valuation discretion
+between digital asset managers. For instance, when quoting level 1
+securities, while some managers may use the price on their favored
+cryptocurrency exchange, others might take an aggregate the price
+from multiple exchanges.7 The lack of standards for digital asset
+valuation leads to uncertainty and confusion among investors and
+managers. The industry would benefit from uniform standards for
+digital asset valuation.
+Digital assets valuation is critical to the establishment of digital assets
+as a legitimate financial asset.8 Digital currencies are being recognized
+7 A datafeed by Coinmarketcap.com offers the average price. Because of the
+shortcomings of average price determination, several industry participants have
+started to use proprietary methods in an effort to determine best industry practices.
+See for instance Lukka proprietary pricing: “Called Lukka Pricing, Lukka's new
+service lets fund administrators to use one of three different methodologies when
+striking a price for a cryptoasset: an average pricing methodology, the price struck
+by the fund itself or the price on the primary exchange. Here is how the firm
+describes its five steps to coming up with a spot price for a cryptocurrency based
+on picking its primary exchange. The first consists of assigning for each currency
+traded on each exchange accessed by the fund manager a base exchange score
+(BES) reflecting the compliance oversight, microstructure and technology used by
+the exchange. The second consists of adjusting the BES on the relative monthly
+volume on each exchange to create the volume adjusted score (VAS). The third is
+to decay or adjust the VAS to take into account the time passed since the last trade
+to create the decayed volume adjusted score (DVAS). The fourth step is to select
+the exchange which has the highest DVAS as the principal market. Lastly, the
+price of the last transaction on the principal market is the Lukka spot price.
+8 Hayes, supra note 1, at 1308.
+5
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+as an emerging asset class and an emergent derivatives market is
+slowly evolving for digital currencies.9
+II. Digital Asset Valuation
+1. Digital Asset Valuation Issues in Practice
+Digital asset valuation issues are affecting business decisions for
+digital asset startups and have resulted in litigation. The existing
+litigation record involving cases on digital asset valuation provides an
+early indicator on digital asset valuation issues that may require further
+clarification.
+a) Market Arbitrage Issues
+The concept of arbitrage is common in traditional markets and has
+started to creep into the crypto markets. Traditionally, when securities
+are being bought and sold for different prices at the same time,
+individuals will look to cover the spread by arbitrage trading. This has
+become one of the key indicators of an inefficient market.
+The reason arbitrage trading starts to happen is because of
+asymmetries of information across the different exchanges. These
+asymmetries can happen as a result of imperfect disclosures or incite
+on whether a company has a willingness to take on debt. As a result,
+market efficiency decreases, which may allow for arbitrage traders to
+take advantage of market conditions.
+One of the most prominent examples of arbitrage happened on the
+South Korean exchange Bithumb. On December 15, 2017, when
+Bitcoin hit it’s all time high, Coinbase was trading one bitcoin for
+roughly $18,500. On this same day, Bithumb hit $21,000 per Bitcoin.
+Traders able to time their trades correctly made roughly 14% just by
+providing additional liquidity to the Bithumb market.
+9 Adam S. Hayes, Cryptocurrency value formation: An empirical study leading to
+a cost of production model for valuing bitcoin, 34 TELEMATICS AND INFORMATICS
+1308, 1308 (2017).
+6
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+It is unlikely any South Korean investor was able to take advantage of
+this opportunity because of the hurdles they would have to go through
+before being able to access the US exchange Coinbase. The Korean
+investor would have had to take their Korean Won and transferred it
+into United States dollars because that is the functional currency used
+by Coinbase. This requires a reliance on the foreign exchange market
+that would increase the fees associated with the transaction.
+Additionally, South Korean regulators enforce capital controls that
+would have made it difficult to move a large sum of money out of the
+country.
+Before any money can be moved out of South Korea, regulators must
+approve the transfer. Regulators have traditionally blocked crypto
+transaction because they do not align with current Korean financial
+regulations or anti-money laundering regulations.
+Arguably, arbitrage traders may be providing markets with liquidity
+they would otherwise be lacking. On the other hand, if these markets
+were more open and had greater clarity on outstanding legal issues,
+there may be less arbitrage opportunity in the market.
+b) Private Investment Fund Valuation Issues
+Exchanges are not the only place that have seen issues with crypto
+valuation, the private investment fund space has also run into
+valuation issues. For example, Polychain Capital was one of the first
+digital asset funds that was involved in litigation over the valuation of
+its digital assets. In 2017, an investor in Polychain Capital, Mr.
+Greenhouse, who gained over 2000 percent through his investment in
+Polychain Capital, sued the fund over the fund’s asset valuation.10
+Several events precipitated Mr. Greenhouses’s decision to sue
+Polychain Capital. According to Greenhouse, Polychain Capital’s
+employees made contradictory statements regarding the valuation of
+digital assets.11 Polychain Capital had assured Mr. Greenhouse the
+10 Greenhouse, No. CV 2018-0214-JRS,
+11 Greenhouse was a limited partner of Polychain at the time of this request and
+“[i]n reliance upon the assurances given by [Eagan],” on November 27, 2017,
+Greenhouse notified Polychain by email that he wanted to make a full redemption
+7
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+fund’s most liquid assets would be valued for redemption and there
+would be a framework to value less liquid assets.12 Later he was told
+the illiquid assets would be placed in side pockets13 and excluded from
+the redemption until they were deemed to be liquid by Polychain
+Capital.14 Because Greenhouse requested full withdrawal before
+Polychain had designated any side pockets, Polychain determined his
+redemption would be valued without the benefit of excluding less
+liquid assets from the valuation process until their liquidity
+improved.15 Upon request, Polychain Capital told Greenhouse the
+fund’s asset valuation policy would not be disclosed.16 Thereafter,
+Polychain Capital denied Greenhouses’s requests for information and
+of his capital account. Compl. ¶ 15. On November 29, 2017, Greenhouse emailed
+Jacquiss requesting confirmation that his redemption would be made as described
+by Eagan. Compl. ¶ 16. Jacquiss informed Greenhouse the redemption would not
+follow the process Eagan described during the November 15 call but would not
+explain why. Compl. ¶ 16. The Court opinion reveals that the redemption would be
+valued “under the old terms” and that no assets would be side-pocketed.
+Greenhouse, No. CV 2018-0214-JRS, at *2 (citing Compl. ¶¶ 7, 16).
+12 Greenhouse, No. CV 2018-0214-JRS, at *2 (citing Compl. ¶¶ 10, 14-15).
+13 The opinion explains that a “side pocket” is a “type of account used by hedge
+funds to separate illiquid, hard-to-value assets from liquid assets.” Greenhouse,
+No. CV 2018-0214-JRS, at fn 8 (citing Henry Ordower, Demystifying Hedge
+Funds: A Design Primer, 7 U.C. Davis Bus. L.J. 323, 328 (2007)). Most often,
+some funds permit investors to redeem the liquid portion of their interests but
+retain the investor in the fund with respect to the investor’s share of illiquid
+positions. Id. Some funds estimate the value of side pocket positions and include a
+payment for them in the redemption price. Id. Other funds exclude side pocket
+value from the redemption proceeds for investors wishing to redeem from the fund
+before the illiquid positions are sold, so that the redeeming investor simply
+relinquishes any interest in the side pocket. Id. Occasionally, managers create a
+separate class of fund interests with some investors only sharing in the liquid
+positions in the fund’s portfolio, while others, with a longer-term appetite for
+commitment, participate in the side pocket portion of the fund as well. Id.
+14 Id. (citing Compl. ¶ 14). On December 13, 2017, counsel for Polychain Capital
+contacted Greenhouse via email. Compl. ¶ 17. The Court opinion reveals that this
+email “largely confirmed Eagan’s prior assurances concerning the valuation
+procedures.” Greenhouse, No. CV 2018-0214-JRS, at *2 (citing Copml. ¶ 17;
+Compl., Ex. D). The email explained that all assets would be priced as of
+December 31, 2017, certain less liquid assets would be priced at affair market
+value as determined in Polychain’s discretion and others would continue to be held
+at cost. Greenhouse, No. CV 2018-0214-JRS, at fn 14.
+15 Id. at *2 (citing Compl. ¶ 17; Compl., Ex. D).
+16 Greenhouse, No. CV 2018-0214-JRS, at *2 (citing Compl. ¶¶ 18, 19; Compl.
+Ex. E), Compl. ¶ 18.
+8
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+his request to suspend his redemption.17 Mr. Greenhouses capital
+account with Polychain had been redeemed and he received a wire
+transfer for the withdrawal amount without receiving any
+documentation or valuation explanation.18 The fund denied
+subsequent requests to review its book and records.19
+17 On December 22, 2017, Greenhouse’s counsel sent Polychain Capital counsel a
+letter requesting information. Compl. ¶ 19. On December 26, 2017, having
+received no response, Greenhouse’s counsel sent another letter to the owner and
+manager of Polychain Capital and Polychain 2030 directing Polychain to suspend
+Greenhouse’s request to redeem his interest. Compl. ¶ 20. On December 30, 2017,
+Polychain counsel responded via letter stating that Greenhouse’s request to
+suspend his redemption was denied. Compl. ¶ 21.
+18 On January 25, 2018, Greenhouse received an investor statement dated
+December 31, 2017 indicating that his capital account for Polychain had been
+redeemed. Compl. ¶ 22. On January 29, 2018, Greenhouse received a wire transfer
+for the withdrawal. Compl. ¶ 22. Greenhouse at no time received explanation for,
+or documentation regarding the information he requested. Compl. ¶ 23. Polychain
+withheld 5% of Greenhouse’s capital account as an audit holdback per Polychain’s
+limited partnership agreement. Greenhouse, No. CV 2018-0214-JRS, at *2 (citing
+Compl. ¶ 22, Compl., Ex. A (limited partnership agreement) § 8.04 “[T]he General
+Partner shall have the right, at its discretion, to withhold 5% of the net asset value
+of the withdrawn Capital Account for the Partnership’s liabilities and other
+contingencies until no later than 30 days after the completion of the year-end audit
+of the Partnership’s financial statements …”).
+19 On February 20, 2018, Greenhouse sent a request to Polychain owner and
+manager seeking to examine Polychain’s books and records in connection with his
+redemption. Compl. ¶ 24. Greenhouse stated his goal was “to evaluate the figures
+reported and the amount paid to [him” and the General Partner. Compl. ¶ 24.
+Polychain denied Greenhouse’s request via letter through their counsel on
+February 26, 2018, stating that the Delaware Revised Uniform Limited Partnership
+Act did not give limited partners the right to the information Greenhouse
+requested. Compl. ¶ 25. On February 28, 2017, Greenhouse’s counsel formalized
+and renewed Greenhouse’s inspection demand pursuant to 6. Del. C. § 17-305 via
+letter to Polychain counsel, including their special power attorney required by the
+statute. Compl. ¶ 26. The request demanded that Polychain “produce for inspection
+and copying any and all books and records from the time Mr. Greenhouse invested
+pertaining to [redacted].” Compl. ¶ 26. Polychain failed to respond as of the date
+Greenhouse filed this action on March 9, 2018. Compl. ¶ 28. Greenhouse states
+that these efforts have complied with the requirements of section 17-305 with
+respect to the form and manner of his demand on Polychain for inspection and
+copying of Polychain’s books and records in the demand letter sent by his counsel
+on February 28, 2017.
+9
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+In 2018, Greenhouse filed an action to enforce his rights as limited
+partner in Polychain Capital.20 Polychain argued that at the time
+Greenhouse filed his complaint, he had already withdrawn from the
+partnership and fully redeemed his partnership interest, he was no
+longer a limited partner and therefore had no standing to inspect
+Polychain’s books and records.21 Polychain argued Greenhouse was
+instead at most a creditor with no inspection rights.22 The complaint
+did not allege that Greenhouse resisted Polychain’s refusal to suspend
+his withdrawal from the partnership or that he sought to return the
+distribution of his capital account when he received it.23 Therefore, the
+Court was not persuaded by Greenhouse’s oral arguments and
+concluded these facts “do not change the fact that he has withdrawn
+from the partnership and no longer has rights as a limited partner.”24
+Therefore, the court concluded that Greenhouse did not retain and
+equity interest in the partnership and was not entitled to inspect the
+partnership’s books and records.25
+In summary, the Court concluded only current limited partners can
+inspect records and that limited partners who have withdrawn from the
+partnership have rights and remedies as creditors of the partnership
+but no longer maintain an equity interest that would entitle them to
+20 The lawsuit was filed under 6 Del. C. § 17-305 in the Court of Chancery seeking
+an order to compel Polychain and Polychain 2030 “summarily to make available to
+Mr. Greenhouse for inspection and copying certain books and records as demanded
+by Mr. Greenhouse.” Compl. ¶ 1.
+21 Greenhouse, No. CV 2018-0214-JRS, at *3.
+22 Id.
+23 Id. at *3-4. In oral arguments Greenhouse argued that because Polychain
+redeemed him over his objection, his withdrawal was involuntary. Greenhouse,
+No. CV 2018-0214-JRS, at *3. Furthermore, Greenhouse argued in oral arguments
+that because Polychain withheld 5% of Greenhouse’s interest as an audit holdback
+and later gave him a cash distribution based on assets in which he continued to
+have an interest after his redemption, Greenhouse’s involuntary withdrawal was
+partial and therefore he continued to hold an equity interest in Polychain. Id. At
+oral arguments, Greenhouse introduced new documents into evidence: a
+distribution letter with a transmittal email from Polychain and a wire transfer from
+Polychain. Greenhouse, No. CV 2018-0214-JRS, at *6. Greenhouse argued that
+the cash distribution evidences an ongoing interest in a side pocket account that
+existed after his redemption. Id. (citing Oral Arg. Ex. B where the description of
+the wire transfer refers to “BK OBI=SIDE POCKET REDEMPTION”).
+24 Id. at *4.
+25 Id.
+10
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+rights as limited partners.26 The Court found that Polychain correctly
+responded that the cash distribution was in satisfaction of what was
+owed to Greenhouse and that the distribution was Greenhouse’s pro
+rata share of additional assets that could not be valued when
+Greenhouse withdrew from the fund but could be valued as of January
+30, 2019.27 The cash distribution made to Greenhouse did not indicate
+an equity share in Polychain Capital.28
+26 Greenhouse, No. CV 2018-0214-JRS, at *3. This decision was supported by the
+plain language of 6 Del. C. § 17-305 that was to be abided by per the LPA, in
+addition to agreeing Delaware Limited Liability Company Act § 18-305 and
+Delaware General Corporation Law § 220, in addition to 6 Del. C. § 17-305’s
+departure from 34 RULPA § 304(e)’s provision for right to former limited partners
+to inspect a partnership’s books and records. Id. at *4-5. Once a partner withdraws,
+the partner becomes a “contract claimant holding fixed rights … and can sue in
+contract for failure to pay the value of tis share as of the withdrawal date.”
+Greenhouse, No. CV 2018-0214-JRS, at *5 citing Schuss v. Penfield P’rs, L.P.,
+[see Greenhouse fn 42]. The Court points out that Greenhouse referred to himself
+as a redeemed partner throughout the Complaint. Greenhouse, No. CV 2018-0214-
+JRS, at *5 (citing Compl. ¶¶ 15, 22, 23, 24). Greenhouse did not challenge
+Polychain’s denial of his request for suspension of his redemption and has acted as
+if he had been redeemed since. Id. at *5-6. (citing Compl. ¶ 22). Greenhouse
+challenges the valuation of his redemption but does not make any claim that the
+redemption itself was ineffective, for less than his full capital account, or that the
+valuation is based on an ongoing equity interest in the Fund. Id.
+27 Id. (citing Oral Ag. Ex. A).
+28 Equity interests of Polychain’s remaining limited partners fluctuated with the
+value of the Fund. Greenhouse, No. CV 2018-0214-JRS, at *6 (citing Oral Arg.
+Ex. A). Greenhouse’s “pro rata” share did not. Id. “Had the fund declined in value
+in the wake of his withdrawal, Plaintiff would readily distinguish himself from
+those limited partners saddled with cheaper assets and argue that his status as a
+fully redeemed partner requires that the Fund pay out the balance owed to him
+based on a valuation as of the date of his withdrawal. At best, the January 30,
+2019, distribution suggests Plaintiff was invested in side pockets during his time as
+a limited partner, a fact that may be relevant to valuing his redemption but does
+nothing to support his claim of ongoing equity interest. … Moreover, Section 8.04
+of the LPA makes clear that the purpose of the audit holdback is to cover any
+downward audit adjustment to the partnership's net asset value, thereby ensuring
+that the redeemed partner's redemption is consistent with the Fund's audited net
+asset value. According to the LPA, any unapplied portion of the audit holdback
+must be returned to the redeemed partner within the 30 days of the end-of-year
+audit. And that is precisely what happened; Plaintiff received the entirety of the
+holdback within 30 days of the completion of the Fund's 2017 annual audit.
+Nothing about that holdback resembles equity and, therefore, Polychain's decision
+to exercise its holdback right did not somehow extend Plaintiff's status as a limited
+partner.” Greenhouse, No. CV 2018-0214-JRS, at *6-7.
+11
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+Finally, whether Polychain Capital would have won its case had
+Greenhouse not redeemed his stake in its fund is debatable. In either
+case, Polychain Capital would likely have made the same disclosures
+and valuation arguments.
+2. Impact of Digital Asset Characteristics on Valuation
+Digital assets are often coded with hard caps—the set maximum
+number of digital assets that will be issued is absolute—to maintain a
+reliable positive value. In order to hold issuers of privately issued
+money accountable to maintain a reliably positive value, the issuer of
+the “money” makes a commitment on either price or quantity of
+“money” units that will be issued.29 The traditional solution is
+instantiated through price commitments, called redemption contracts,
+holding the issuer accountable through an enforceable money-back
+guarantee.30 Such redemption contracts lack credibility.31 In contrast,
+the pre-programmed smart contract’s enabled by cryptocurrencies
+facilitate an enforceable and secure quantity commitment.32 For
+instance, a programmed enforceable quantity commitment ensures a
+reliable positive value of Bitcoin.33 Cryptocurrencies’ observable
+source code are fully transparent on their respective blockchain and
+continuously verifiable.34
+29 White, supra, note 10, at 387.
+30 Lawrence H. White, What Kinds of Monetary Institutions Would a Free Market
+Deliver?, 9 CATO J. 367 (Fall 1989)).
+31 White, supra, note 10, at 387.
+32 On the historical perspective of quantity commitments, see e.g. Ronald Coase,
+Durability and Monopoly, 25 JOURNAL OF LAW AND ECONOMICS 143 (April 1972).
+33 White, supra, note 10, at 388.
+34 R.S. King, S. Williams, and D. Yanofsky, By Reading This Article, You’re
+Mining Bitcoins, QUARTZ (Dec. 17, 2013), http://qz.com/154877/by-reading-this-
+page-you-are-mining-bitcoins, F.R. Velde, Bitcoin: A Primer, 317 CHICAGO FED
+LETTER (Dec. 2013),
+www.chicagofed.org/digital_assets/publications/chicago_fed_letter/2013/cfldecem
+ber2013_317.pdf, and K. Dowd & M. Hutchinson, Bitcoin Will Bite the Dust. 35
+(2) CATO J. 357 (2015).
+12
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+The effects of supply limitations on digital assets is the subject of an
+ongoing debate. Some argue that the limited supply of Bitcoins and its
+slow rate of growth will cause deflationary bias that will eventually
+counter the declining value of Bitcoin over time.35 As cryptocurrencies
+deflates, users may begin hoarding. Where the supply is capped, it may
+not be able to be increased to counter this deflation or stop the
+hoarding.36 Others argue that the quantity commitments in existing
+digital currencies will inevitably lead to a bubble because the market
+price of digital assets is still left to vary with demand and can be tied
+merely to tentative expectations of market valuation.37 In the same
+vein, some academics argue that Bitcoin has no intrinsic value.38 The
+cryptocurrency market growth in 2017 was driven by a combination
+of improved ease of access, media attention, speculation, network
+mining activity, distrust of traditional banking, global instability
+hedging, and a demand effect from the market. 39
+An agreed-upon reliable valuation method does not exist for
+cryptocurrencies in 2022. Some academic valuation models are
+focused on the labor side of mining cryptocurrencies and may be
+indicative of prices. Some base valuation metrics on regressions of
+market price against independent variables such as the market price of
+gold, occurrences of “bitcoin” in Google searches, and velocity of
+bitcoin measured by transaction data.40 Other valuation models point
+35 Pittman, supra note 32, at 60-61 (citing Matthew O’Brien, Bitcoin is No Longer
+a Currency, THE ATLANTIC (Apr. 11, 2013),
+https://www.theatlantic.com/business/archive/2013/04/bitcoin-is-no-longer-a-
+currency/274859/).
+36 Pittman, supra note 32, at 61 (citing O’Brien, supra note 26).
+37 White, supra, note 10, at 391-93.
+38 Hayes, supra note 1, at 1310 (see David Yermack, Is Bitcoin a Real Currency?,
+in Handbook of Digital Currency 31-43 (2013), Brian P. Hanley, The False
+Premises and Promises of Bitcoin (Dec. 7 2013), https://arxiv.org/abs/1312.2048,
+Woo et al., Bitcoin: A First Assessment, BANK OF AMERICA MERRILL LYNCH
+(2013), http://web.elastic.org/~fche/mirrors/www.cryptome.org/2013/12/boa-
+bitcoin.pdf).
+39 Ryan Clements, Assessing the Evolution of Cryptocurrency: Demand Factors,
+Latent Value, and Regulatory Developments, 8 MICH. BUS. & ENTREPRENEURIAL
+L. REV. 73, 75 (2018) (see Eustance Huang, Bitcoin Market Cap Falls Below $100
+Billion for First Time Since October 2017, CNBC (Nov. 15, 2018),
+https://www.cnbc.com/2018/11/15/bitcoin-market-cap-falls-below-100-billion-for-
+first-time-since-2017.html.
+40 Jamal Bouoiyour & Refk Selmi, What Bitcoin Looks Like? (Sept. 2014)).
+13
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+out the importance of considering altcoins in Bitcoin valuation
+strategy41 or develop a valuation model based on the cost of production
+of Bitcoin.42
+III. Traditional Asset Valuation Metrics
+Whenever a new asset class comes to the market, practitioners look to
+apply legacy asset valuation methodologies. Although these legacy
+valuation models and ideas often fall short in determining the true fair
+value of a new asset class, they do present an adequate starting point
+for a valuation analysis of a new asset. As efficiency continues to
+develop in the digital asset space, so should the accuracy of the digital
+asset valuation practice.
+Fair value is “the price that would be received to sell an asset or paid
+to transfer a liability in an orderly transaction between market
+participants at the measurement date.”43 Fair value measurements
+provide information about what an entity might realize if it sold an
+asset or might pay to transfer a liability.44 The fair value standards
+outlined in ASC 820 and IFRS 13 provide authoritative guidance on
+fair value measurement,45 establishing a framework applicable to all
+fair value measurements under US GAAP and IFRS.46 These
+41 Hayes, supra note 1, at 1310.
+42 The predominant factor in forming Bitcoin’s value is the profitability of mining
+a new bitcoin given its relative cost of production by setting “a lower bound in
+value around which miners will decide to produce it or not”. Hayes, supra note 1,
+at 1315-16. The input variables in Hayes’ model were the block reward, the
+hashing power employed by a miner, and the difficulty. Hayes, supra note 1, at
+1308, 1314. Hayes regression model points to three main drivers of value: level of
+competition in the network of products, the rate of unit production, and the
+difficulty of algorithm used to “mine” for the cryptocurrency à relative diffs in
+cost of production of one digital currency over another at the margin à diffs in
+relative cost of production – electricity. No-arbitrage situation established for
+cryptocurrencies followed by the formalization of a cost of production model to
+determine the fair value of a bitcoin.
+43 PwC, Fair value measurements global accounting and financial reporting guide
+(Sep. 2019) at 8 or 1-4
+44 PwC supra note 1 at 6 or 1-2
+45 PwC supra note 1 at 6 or 1-2
+46 PwC supra note 1 at 8 or 1-4
+14
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+standards require fair value to be measured based on an exit price (the
+price to sell an asset or transfer a liability) determined using several
+key concepts.47 Fair market value is the legal standard for valuation,
+but it has real-world problems.48
+Objectivity and observability is at the core of fair market valuation.49
+Where inputs are less observable, a higher degree of disclosure is
+required50 to explain the fair value of the entire asset or the significant
+input(s) to the fair value measurement.51 The highest priority level of
+inputs (“level 1” used in valuation techniques is observable inputs
+reflecting unadjusted quoted prices for identical assets or liabilities in
+active markets.52 An active market is defined as one in which
+transactions for the asset or liability being measured take place with
+sufficient frequency and volume to provide pricing information on an
+ongoing basis.53 Level two inputs are those other than quoted prices
+which are observable for the asset or liability or indirectly.54 Level
+three inputs are unobservable--e.g., a reporting entity’s or other
+entity’s own data.55
+Observability is not to be confused with risk level. For example,
+although US Treasury securities are perceived as risk-free, because
+they do not trade in an active market, they are more appropriately
+categorized as level two.56
+47 See PwC supra note 1 at 6 or 1-2, 8-12 or 1-4 - 1-8. See also American Institute
+of Certified Public Accountants, Statements on Standarsd for Valuation Services
+VS Section 100, VALUATION SERVICES at 8-10 (paragraph 25-30) (Jun. 2007).
+(Herinafter, “AICPA”)
+48 See, e.g., Z. Christopher Mercer & Terry S. Brown, Fair Market Value vs. The
+Real World, Business Valuation Review 16-25 (Mar. 1999).
+49 See PwC supra note 1 at 51-52 (4-24 - 4-25)
+50 See PwC supra note 1 at 51-52 (4-24 - 4-25)
+51 PwC supra note 1 at 64 4-37
+52 PwC supra note 1 at 51 or 4-24, 60 4-33 - 62 4-35
+53 PwC supra note 1 at 55 4-28. See PwC supra note 1 at 65 for factors indicating
+an inactive market.
+54 PwC supra note 1 at 51 or 4-24; 62-63 4-35 - 4-36; see also PwC 59 or 4-32
+55 PwC supra note 1 at 4-24; 64 4-37
+56 PwC supra note 1 at 59 4-32
+15
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+ASC 820 methodologies are applied to debt and equity investments57,
+derivatives58, financial assets/liabilities eligible for fair value option59,
+financial instruments, hybrid financial instruments, and stock
+compensation.60 IFRS valuation is applied to financial instruments and
+revenue.61 There are exceptions to these generalities for scope and
+practicability.62 Market participant assumptions, which continue to
+evolve, are also important to fair market valuation.63
+Traditional asset valuation methods do not easily lend themselves to
+digital asset valuations. Stocks and cryptocurrencies are both traded
+on markets, with fluctuating prices, and seem similar enough in
+context to warrant similar regulation, yet they differ in their potential
+for abuse, their nature, acceptance, and use.64
+Three basic concepts form the foundation for any given valuation
+analysis: exit price, market price, and underlying value of the asset if
+sold. Exit price, the price that would be received in a sale of assets and
+liabilities between market participants at the measured date, controls
+when available.65 When exit price is unavailable but market prices are
+available, market prices are the exclusive basis for valuation of assets
+that are actively traded (quoted).66 Next, if the asset is an unquoted
+investment, a fair valuation first assumes the underlying business or
+investment sold at the measure date and then appropriately allocates
+the various interests (regardless of whether the underlying business is
+57 See PwC supra note 1 at 100-01 6-5-6 for discussion of valuation of equity
+investments.
+58 See PwC supra note 1 at 112-14 6-17-19 for discussion of valuation of
+derivative assets and liabilities.
+59 See PwC supra note 1 at Chapter 5 (page 71-95) for discussion of fair value
+option (“FVO”).
+60 PwC supra note 1 at 16 or 2-2
+61 PwC supra note 1 at 17 or 2-3
+62 PwC supra note 1 at 2-4-2-7; PwC supra note 1 at 2-7-2-8
+63 See PwC supra note 1 at 11 1-7. For discussion of changes in market participant
+assumptions, see PwC supra note 1 at 119-25 6-24-30
+64 Pittman, supra note 32, at 53.
+65 FASB 157, supra.
+66 Id.
+16
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+prepared for sale or whether the shareholders intend to sell in the near
+future).67
+Thus, in the case of an unquoted asset, the goal in determining the
+value of a business is to discover the price that would be received to
+sell an asset or paid to transfer a liability in an ordinary transaction
+between market participants at a measurement date. The three most
+common legacy models to ascertain this value are the asset approach,
+market approach, and discounted cash flow approach. Traditionally,
+in a private market transaction, a business is valued either a market
+approach or discounted cash flow. A review of each will provide a
+starting point to understand where we have been as well as what
+adjustments may be needed in the age of digital currencies.
+1. Asset Approach
+The asset approach bases the value of a business on the fair value of
+its underlying assets less its standing liabilities. The asset approach
+considers future returns in excess of net assets, focusing either on
+liquidation adjusted net assets, in contrast to the market and DCF
+approach, which take a returns-based approach.
+The liquidation approach considers the situation of the business
+ceasing to do business and liquidating all its assets as well as paying
+off all debts. The value does not consider any ongoing business and
+only consider a disposition of assets. It will only account for costs
+associated with winding up the business such as commission related
+to sale of assets, prepayment penalties on debt, employee severance
+costs and taxes on disposals and distributions.
+The adjusted net asset approach starts at the book net asset value set
+out in company accounts. Book values do not necessarily reflect the
+fair value because of the amount of depreciation taken on the assets.
+The estimated useful life of a given asset can differ from its actual
+useful life in real life. Therefore, the adjusted net asset approach
+attempts to revalue the balance sheet values by aligning them more
+with the current fair value of the assets. One way this is done is by
+bringing in machinery experts to determine the depreciated
+67 Id.
+17
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+replacement cost of the assets. However, the approach still fails to take
+into consider any intangible assets because they are not represented on
+the balance sheet.68
+When using the asset approach, it is important to consider the need to
+engage specialists (machinery valuation, debt, pension, etc.), off
+balance sheet assets and liabilities and tax considerations (triggering
+capital gains). This approach is useful in the valuation of financial
+service firms. The asset approach can be a useful crosscheck to the
+returns based approach discussed below.
+2. Market Approach
+The market approach looks to peer companies’ enterprise value, based
+on the understanding that similar assets will sell for similar prices. The
+market approach makes three key assumptions: (1) the company cash
+flow and earnings are similar; (2) the company will have a constant
+growth profile; and (3) the company will continue indefinitely. To
+correctly utilize the market value approach, the valuer must
+understand the subject company, identify the compatibilities of peer
+companies, determine the appropriate multiple or maintainable base
+and then finally make adjustments.
+The first step in the market approach analysis is to understand the
+company being valued. The asset’s growth potential and riskiness can
+be understood by analyzing business operations (type, scale of
+offering, and geographical diversification), historical and projected
+financial performance and position, quality and cyclicality of earnings
+(including seasonality), capital structure and the industry and sector
+within which company operates (future outlook and key
+developments). Peer companies should have growth and risk trends
+similar to the valuation subject in question. In considering a similar
+sale, important factors include whether the transaction is in progress
+or completed, whether control was transferred, and the degree of
+synergies paid out.
+68 For an overview of discussion of intangible asset valuation, see
+http://www.appraisers.org/docs/default-source/default-document-library/bv-
+standards.pdf?sfvrsn=2, supra, at 20.
+18
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+The market approach is more subjective than the asset approach
+because it heavily considers other similar businesses that have been
+sold. When using the market approach, there is typically a
+consideration of four factors being the price of recent investments,
+multiples, industry, valuation benchmarks and available market prices.
+When considering recent investments, the typical consideration is
+whether transactions were at arm’s length or not. If a company is
+planning on acquiring another company through a transaction, it will
+be important to understand the disposition of the parties prior to the
+transaction.
+3. Discounted Cash Flow Model
+The Discounted Cash Flow (“DCF”) method is typically applied to
+valuation of future income, such as enterprise cash flows (or, less
+frequently, to equity cash flows).69 Income expected in the future is of
+less value to its recipient today than income that recipient expects
+today. Thus, in order to value future income today, expected net cash
+flows must be discounted. The present value of future expected net
+cash flows is calculated using a discount rate.70 The discount is a rate
+of return that considers the relative risk of the cash flows and the time
+value of money. 71 Under a DCF analysis, the terminal value is present
+value at end of projection period of all subsequent cash flows to end
+of life of asset, or into perpetuity. A DCF analysis estimates future
+cash flows and terminal value and discounts those amounts to present
+value at the calculated discount rate.72 The DCF method factors in
+69 Deloitte, supra note 24 at 5.
+70 American Society of Appraisers, ASA Business Valuation Standards at 27
+(2009), http://www.appraisers.org/docs/default-source/default-document-
+library/bv-standards.pdf?sfvrsn=2.
+71 PwC supra note 1 at 48/ 4-20; Deloitte, supra note 24 at 5.
+72 PwC supra note 1 at 48/ 4-20
+19
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+capitalization,73 forecast assumptions,74 forecast earnings or cash
+flows, and terminal value.75
+Cash flows from assets—after debt payments and after making
+reinvestments needed for future growth—flow to equity and constitute
+the cash flows available to all equity capital providers (“free cash
+flows”).76 The discount rate reflects the cost of raising equity
+financing.77
+When a DCF analysis is done in a currency that differs from the
+currency used in the cash flow projections, as in the case of a digital
+asset versus USD or another fiat currency, the cash flows should be
+translated either using a discount rate appropriate for the foreign
+currency or using a currency exchange forward curve.78 However, no
+such set discount rate or currency exchange forward curve is available
+for digital assets, as they are not traded in exchange markets where
+closing prices are readily available and representative of fair value.79
+Digital assets exchanges are most comparable to principal-to-principal
+markets, where transactions (originations and resales) are negotiated
+independently, with no intermediary.80 There is often little information
+about principal-to-principal transactions publicly available, and as
+such the markets are generally not considered observable.81 If
+reporting entities use pricing services from third parties, the entity
+73 See AICPA, supra note 5 at 11 Par. 33.a for factors
+74 See AICPA, supra note 5 at 28-30 for illustrative list of assumptions and limiting
+conditions for a business valuation
+75 AICPA, supra note 5 at 11 Par 33b
+76 Deloitte, supra note 24 at 5.
+77 Deloitte, supra note 24 at 5
+78 PwC supra note 1 at 51 or 4-24
+79 PwC supra note 1 at 56 4-29 (contrast with NYSE, London Stock Exchange)
+80 PwC supra note 1 at 4-30
+81 PwC supra note 1 at 4-30
+20
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+needs to confirm the prices were developed in accordance with the fair
+value standard.82
+A pre-adjustment value should be discounted for lack of marketability
+or liquidity.83 Observability could have an indirect relationship with
+liquidity, but liquidity is not a differentiating factor between levels of
+inputs.84 A quote for a non-liquid security from a dealer that is ready
+and able to transact is considered a level two asset.85 Complex
+instruments (currency swaps and structured derivatives with longer-
+dated interest rates) and fixed income asset-back securities are
+examples of instruments that are typically level 3 asset
+measurements.86
+To determine value of a company, the first step is to determine the
+enterprise value using different valuation methodologies. One of these
+techniques adjusting the enterprise value for factors a market
+participant would take into account such as surplus assets or excess
+liabilities. The equity value formula is as follows:
+𝐸𝑞𝑢𝑖𝑡𝑦 𝑉𝑎𝑙𝑢𝑒 = 𝐸𝑛𝑡𝑒𝑟𝑝𝑟𝑖𝑠𝑒 𝑉𝑎𝑙𝑢𝑒−(𝑑𝑒𝑏𝑡
+−𝑐𝑎𝑠ℎ & 𝐼𝑛𝑣𝑒𝑠𝑡𝑚𝑒𝑛𝑡)
+After determining the enterprise value, that amount is attributed
+between the company’s relevant financial instruments taking into
+account any priority. By having this basic understanding of what the
+company is worth, further valuation methods can be used to zero in on
+the true valuation.
+Under the discounted cash flow (“DCF”) approach, the analysis is
+forecasting the businesses unlevered free cash flow into the future and
+discounting it back to todays Weighted Average Cost of Capital
+(“WACC”). After determining the valuation, additional adjustments
+82 PwC supra note 1 at 57 (citing ASC 820-10-35-54K and IFRS 13.B45)
+83 AICPA, supra note 5 at 13 par 40.
+84 PwC supra note 1 at 55 4-28
+85 PwC supra note 1 at 62 4-35
+86 PwC supra note 1 at 64 4-37
+21
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+are made for lack of control, lack of marketability, liquidity, and
+multiple classes of the asset are made.
+a) Lack of Liquidity
+Traditionally, the concept of liquidity considers how easily an asset
+could readily be converted into a country’s functional currency on
+demand. By converting the asset into a functional currency, the
+individual has more options in the market to exchange for a larger
+variety of goods or services. A country's functional currency has
+traditionally been viewed as the most liquid asset because it is the most
+common medium of exchange. Liquidity for any asset has the ability
+to change over time depending on the market size for the asset.
+Within the concept of liquidity, there is another concept called market
+liquidity which refers to the extent an accessible market is available to
+an individual where assets are bought and sold at transparent prices.
+In order to have strong market liquidity, there must be large trade
+volume within the market. Historically, in an exchange context, if the
+spread between bid and ask price becomes too large and trades are
+occurring at high volumes, the market will start to lose liquidity and
+the value of the asset will start to fall. This results in investors giving
+up unrealized gain as a result when trying to unload shares at that
+specific time. Arguably, it may be in an investors best interest to
+continue to hold the asset until the market becomes more liquid and
+they can feely exit without being penalized as a result of market
+conditions.
+In the private markets, lack of marketability for a security can detract
+from the value and can become an issue upon exiting an investment.
+The market participant will typically apply a Discount for Lack of
+Marketability (“DLOM”). The DLOM considers whether a
+nonmarketable investment lacks a ready market and whether an
+illiquid investment is not actively traded or whether there are
+restrictions on accessing the market. Typically, a minority interest will
+22
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+be considered nonmarketable for investment purposes and therefore
+must be discounted accordingly.
+Marketability, an asset’s capability and ease of transfer or salability,
+denotes the legal ability to sell or transfer ownership.87 Liquidity refers
+to an asset holder’s ability to readily convert an asset into cash without
+significant loss of principal88, which in traditional stocks, drops
+rapidly for larger trading volumes which results in increasing bid-ask
+spreads, large price impact, and frequent market failure.89 It has been
+said “A block of unregistered stock in a privately held business suffers
+from impairment in value from a lack of both marketability and
+liquidity.”90
+In creating the appropriate model to discount the investment, several
+qualitative and qualitative factors are considered. Historically,
+valuation models consider the following:
+● Function of the duration of the restriction (time);
+● The inherent risk of the investment (volatility);
+● Prospect of liquidity at a future date;
+● Pool of potential buyers (the larger the pool of buyers, the
+smaller the discount);
+● Whether there is an established market for the good or service;
+● Potential future market growth;
+● Restriction on transferability of the security;
+● Number, extent and terms of contractual agreements that
+impact the ability to purchase or sell the securities;
+● Size/timing of any distribution that are to be made; and
+● Concentration of ownership
+87 Abbott, supra note 49 at 144.
+88 Jay E. Fishman & Bonnie O’Rourke, Estimating Discounts for Lack of
+Marketability: Understanding Alternative Approaches--Put Options Versus
+Monetizing an Option Collar, Business Valuation Review 81, 82 (Fall 2016)
+(citing American Society of Appraisers).
+89 Abbott, supra note 49 at 144-45.
+90 Abbott, supra note 49 at 145.
+23
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+Over time three quantitative foundational models have been developed
+to determine the discount amount attributable to nonmarketable
+securities: The prospective put model, which focuses on loss
+avoidance; the Longstaff model, which focuses on unrealized gains;
+and the Quantitative Marketability Discount Model, which focuses on
+income.
+(1) Prospective Put Model (PPM)
+A put option is an option to sell financial assets at an agreed price on
+or before a particular date.91 The premium is the price of the option
+and represents the present value, of the risk-free rate, of the expected
+benefit from owning the option at maturity.92 Thus, an ability to
+exercise such a right results in a lack of marketability which must be
+discounted.93
+A holder of an asset faces two price risk components: 1) realized loss
+and 2) opportunity loss that occurs when the asset increases in price
+during the period of illiquidity and then declines to a lower value
+before the asset can be liquidated.94 A put option covers this risk and
+the prospective put model, first described in 1993 by David Chaffe,
+includes compensation for both loss types.95 Chaffe developed a
+model to measures this discount by dividing the value of the put at the
+time period of restriction by the current value of the stock.96
+91 John E. Elmore, Determining the Discount for Lack of Marketability with Put
+Option Pricing Models in View of the Section 2704 Proposed Regulations,
+Willamette Valuation Practices and Procedures Insights 32, 33 (Winter 2017).
+92 Abbott, supra note 49 at 146.
+93 Stockdale, supra note 57 at 132.
+94 Abbott, supra note 49 at 146.
+95 John D. Finnerty, Using Put Option-based DLOM Models to Estimate Discounts
+for Lack of Marketability, Business Valuation Review 165, 168 (Fall 2013).
+96 Stockdale, supra note 57 at 132.
+24
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+The prospective put model focuses on loss avoidance97 and estimates
+the discount for lack of marketability as the value of an at-the-money
+put with a life equal to the restriction divided by the marketable stock
+value.98 This formula produces prices that vary directly with time and
+volatility and inversely with interest rate.99 By calculating the
+purchase at the time-money put option, the buyer is guaranteed a price
+at minimum equal to today's stock value.
+Models based on put options are employed to measure price risk
+associated with lack of liquidity, where the put option premium is used
+to estimate the cost of liquidity.100 Put option models estimate the price
+risk borne by an owner during the period of illiquidity.101 This model
+has been widely used by market participants to determine the discount
+on nonmarketable security. However, this method can be inaccurate
+because investors do not have perfect market-timing ability.102
+(2) Longstaff Model
+A “look back” option permits the option to be exercised prior to the
+expiration date, permitting the holder to look back at the end of the put
+option’s life and retroactively exercise the option at the highest stock
+price during the holding period, yielding the maximum return.103
+Similarly, the Longstaff model104 focuses on restricted transferability
+97 Elmore, supra note 60 at 42.
+98 David B.H. Chaffe III, Option Pricing as a Proxy for Discount for Lack of
+Marketability in Private Company Valuations--A Working Paper, Business
+Valuation Review 182-88 (Dec. 1993).
+99 Chaffe, supra note 65 at 184.
+100 Abbott, supra note 49 at 145.
+101 Abbott, supra note 49 at 145.
+102 Finnerty, supra note __ at 168 (citing Longstaff 1995).
+103 Elmore, supra note 60 at 42.
+104 Francis A Longstaff, “How much Can Marketability Affect Security Values,”
+The Journal of Finance, vol. 50, issue 5 (December 1995): 1767-74
+25
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+and unrealized gains105 using a hypothetical “look back” option to
+consider the upper bound in the discount for lack of marketability.106
+Longstaff’s model assumes an investor has perfect timing, but can’t
+exercise the option in order to benefit from that perfect timing due to
+a restriction period.107 If an investor had perfect timing, Longstaff
+suggested, the value of marketability would be the present value of the
+incremental cash flow that the investor would receive if the
+marketability restriction were relaxed.108 For an actual investor with
+imperfect market timing ability, the value of marketability would be
+less.109 Therefore, Longstaff’s model creates an upper bound on the
+value of marketability which provides a benchmark for estimating the
+valuation effects of marketability restrictions110 and represents the
+largest discount for lack of marketability that could be sustained in a
+market with rational investors.111
+It has been suggested that this model is beneficial in that it can
+characterize whether the nonmarketable instrument can be hedged and
+whether its owner possesses any sort of skill related to the particular
+instrument (e.g. market timing ability).112 The Longstaff model’s
+underlying assumptions are inconsistent with the reality of perfect
+timing as well as the assumed volatility level between ten to thirty
+percent, yet small stocks typically have volatility exceeding fifty
+percent.113
+(3) Quantitative Marketability Discount Model (QMDM)
+105 Elmore, supra note 60 at 42.
+106 Elmore, supra note 60 at 42.
+107 Stockdale, supra note 57 at 133.
+108 Longstaff, supra note 71 at 1769.
+109 Longstaff, supra note 71 at 1769.
+110 Longstaff, supra note 71 at 1768.
+111 Longstaff, supra note 71 at 1770.
+112 Robert Brooks, A General Option Valuation Approach to Discount for Lack of
+Marketability, Business Valuation Review 135, 135 (Winter 2016).
+113 Elmore, supra note 60 at 44.
+26
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+The QMDM approach takes an income-based approach for
+determining the lack of marketability at the shareholder level. Chris
+Mercer and Travis Harms developed the QMDM in the early 1990s114
+to employ the basic DCF model to value illiquid interests of closely
+held enterprises in the context of appraisals.115 The QMDM is a
+shareholder-level discounted cash flow method under the income
+approach to valuation116 where value is a function of expected cash
+flow, risk, and growth.117 The model points out concerns over if the
+security is held for a long period of time.
+The underlying assumption behind this model is that investors in
+illiquid securities require higher rates of return than investors with
+liquid securities. The QMDM model also assumes the valuation was
+performed at the marketable minority level of value.
+In order to determine the applicable marketability discount, the
+QMDM considers the rate of return information provided by restricted
+stock transactions over relevant holding periods, estimating the value
+of illiquid interests based on the expectation of benefits over relevant
+expected holding periods using appropriate discount rates to equate
+with present values.118 The model considers the following valuation
+inputs:
+114 The model was introduced publicly at the Joint ASA/CICBV Conference in San
+Diego, CA in 1994. Z. Christopher Mercer, The QMDM and Estimating Required
+Rates of Return for Restricted Stocks of Public Companies, Business Valuation
+Review 5, 5 (Jun. 2001). See also Z. Christopher Mercer, Quantifying
+Marketability Discounts: Developing and Supporting Marketability Discounts in
+the Appraisal of Closely Held Business Interests (1997).
+115 Z. Christopher Mercer, A Primer on the Quantitative Marketability Discount
+Model, The CPA Journal (Jul. 2003),
+http://archives.cpajournal.com/2003/0703/dept/d076603.htm.
+116 Chris Mercer, The Quantitative Marketability Discount Model’s (QMDM) 20th
+Anniversary (Oct. 24, 2017) https://chrismercer.net/the-quantitative-marketability-
+discount-models-qmdm-20th-anniversary/.
+117 Mercer, supra note __ (QMDM 20th Anniversary)
+118 Z. Christopher Mercer and Travis W. Harms, Marketability Discount Analysis
+at a Fork in the Road, Business Valuation Review 21, 23 (Dec. 2001)
+27
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+● The expected growth rate in value of the underlying enterprise.
+● The expected dividend/distribution yield (expressed on a C
+corporation equivalent basis);
+● The expected growth rate of distributions and dividends
+● The required holding period rate of return, or shareholders’
+discount rate.
+● The expected holding period or range of holding periods.
+One major shortcoming of the QMDM is that it has not been accepted
+by any court in any case, but has been mentioned explicitly in three
+tax cases from 2000, 2001, and 2006.119 The QMDM has also been
+criticized for measuring minority discount, relying on arbitrary growth
+assumptions, and requiring additional assumptions.120
+IV. Application of Traditional Valuation Methods to Digital Assets
+Traditional valuation methods only limitedly apply to digital assets.
+While there are large commonalities, the digital assets space requires
+a disparate analysis of digital asset pricing. Factors impacting the price
+of a digital asset include supply and demand, number of competing
+digital assets, cost to produce the asset through mining, rewards issued
+to miners for verifying transactions to the blockchain, regulations
+governing sale and use, internal government, and news.
+1. Market Pricing
+When available, exit or market prices control. In the case of exit prices,
+data is published by Bitcoin Charts that would make it possible to
+119 See Janda v. C.I.R., 2001 WL 95127 (U.S. Tax Court 2001); Weinberg v.
+C.I.R., 2000 WL 157919 (U.S. Tax Court 2000); Temple v. U.S., 423 F.Supp.2d
+605, 613-14 (E.D. Tex. 2006). For full discussion of QMDM and tax court, see Z.
+Christopher Mercer, The QMDM & The Tax Court,
+https://www.mercercapital.com/assets/DLOM_QMDM-and-the-Courts.pdf.
+120 Mercer and Harms, supra note 88 at 32-34.
+28
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+calculate average Bitcoin prices, but such a resource is often not
+available for other cryptocurrencies.121
+In the market market for digital assets, liquidity has traditionally been
+provided via centralized exchanges. Crypto exchanges share some
+similarities to traditional exchanges in that they only have limited
+offerings, they charge a fee for providing a market and they help
+manage user accounts. However, trade execution on digital assets
+exchanges is different from traditional exchanges. The main issue may
+be that the number of token holders have not continued to expand
+exponentially year over year. Having a greater number of stake
+holders may result in the deeper liquidity in the market, which would
+in turn allow for seamless movement in and out of the market.
+Liquidity is one of the key elements considered in determining how
+healthy a market is at any given time.
+Today, the most common way to enter and exit the digital asset market
+is through exchanges. Originally, digital assets could only be traded
+on a centralized exchange (e.g., Coinbase, Binance, Kraken) where
+custody and intermediary issues remain. In 2020, decentralized
+finance appeared, and along with it, decentralized exchanges.
+Decentralized exchanges (DEXes) are smart contracts that allow users
+to directly (peer-to-peer) buy, sell, or trade digital assets.122
+Digital assets are less liquid when individuals try to move large
+amounts at once. If an individual wants to sell a large number of tokens
+through an exchange, they have to ensure they do not flood the market
+with token, causing price to drop on the exchange. Remedies or
+solutions include monitoring and buy-in.
+To increase the trading volume, one solution may be to have a federal
+governing authority or a self-regulatory organization monitor the
+exchange to assure compliance with existing laws. Currently, there
+continues to be uncertainty surrounding the legality of many crypto
+exchanges from the role broker dealers play to what is considered a
+security under federal securities law. The uncertainty surrounding
+121 Pittman, supra note 32, at 57 (citing Bitcoin Charts,
+http://www.bitcoincharts.com).
+122 William Peaster, What is DeFi? Understanding Decentralized Finance, DeFi
+Pulse (Aug. 31, 2021) https://www.defipulse.com/blog/what-is-defi
+29
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+these legal issues has a chilling effect on the market. Once the market
+gains greater clarity on the legal issues surrounding this new asset
+class, increased liquidity in the market may follow.
+Another way to increase liquidity may be to have buy in from the
+business community. Having buy in from the business community
+may involve using crypto as a means of transacting. Increasing
+liquidity does not mean only being able to exchange crypto for fiat
+currency, but also the ability to exchange for any good or service. By
+allowing for transactions to use crypto as a means of transaction may
+increase market liquidity.
+Custody introduces additional uncertainties that are unique to
+exchanges for digital assets. Traditional exchanges stay away from the
+broker dealer role and never touch the custody of the asset. In contrast,
+digital asset transactions take place on the blockchain and therefore
+require exchanges to store funds in an offline digital wallet
+(traditionally referred to as cold storage). Blockchain transactions are
+required to be stored eternally and redundantly on as many machines
+as possible in order to aid decentralization.123 By having the crypto
+exchange perform the services of a traditional broker/dealer and
+custody holder, digital asset exchanges face uncertainties and
+increased liability that do not impact traditional exchanges.124
+As a result of these uncertainties, some exchanges have refused to
+accept any trading account with individuals in the United States. One
+issue with U.S.-based customers is the potential application of long-
+arm statutes to the claim jurisdiction over them. When U.S.-based
+individuals are precluded from trading on digital asset exchanges, or
+when exchanges exclude certain individuals from access based on
+residence or any other status, this reduces the number of participants
+allowed in the market. When different exchanges apply different
+standards as to who can trade on their platform, the market sees
+different prices for the same asset across exchanges. This may be one
+123 Craig Calcaterra and Wulf A. Kaal, Decentralization: Technology’s Impact on
+Organizational and Societal Structure, Chapter 8 (2021).
+124 See Wulf A. Kaal and Hayley A. Howe, Custody of Digital Assets (2021) for in-
+depth discussion. Non-custodial trading options are also becoming available.
+30
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+of the reasons why trading arbitrage has become a common practice
+in the crypto market.
+2. Private Market Transactions
+Valuation in the context of private market transactions is much less
+transparent than for publicly owned companies whose shares are
+purchased on an exchange with a published market price.
+As discussed above, a business is valued via either a market approach
+or discounted cash flow in a traditional private market transaction.
+a) Market Approach
+The market approach values a subject company by examining peer
+companies’ enterprise value based on cash flow and earnings, constant
+growth profile, and company continuing indefinitely.
+Factors impacting the adoption, success, and price of digital assets that
+are unique from traditional assets include technical core (blockchain
+native, ERC-20, Dapp, etc.), token model (currency, stablecoin,
+utility, asset-backed, etc.), underlying value (inherent, permission to
+use, permission to work, physical asset, share in enterprise), valuation
+trajectory (inflationary or deflationary), user experience, ecosystem
+breadth, consensus protocol, and governance.125
+To reduce price volatility in digital assets, the stablecoin was born. A
+stablecoin is pegged to the value of an external asset (frequently fiat
+currency).126 A benefit of stablecoins has shown to be affordable, low-
+friction international transfers.127 In fact, stablecoins are used to
+increase digital asset market liquidity by supplying stablecoins to
+DEX liquidity pools.128
+125 Wulf A. Kaal, Crypto Economics – The Top 100 Token Models Compared
+(2018).
+126 William Peaster, What are stablecoins? A guide to stable crypto money, DeFi
+Pulse (Jan. 10, 2022) https://www.defipulse.com/blog/stablecoins
+127 Id.
+128 Id.
+31
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+Digital assets are comparable to high-growth companies, where
+scenario planning is critical because markets may not yet exist.129 In
+such a case, business leaders must start from the future rather than the
+present.
+When applying the market approach to digital assets, the valuer can
+look to secondary trade pricing or comparable token price.130
+Secondary trade pricing (as seen in exchanges) are relevant when
+liquidity is high enough to rely on these prices.131 The analysis for
+liquidity and depth of trades can be significantly different between
+token-to-token trades versus token-to-fiat trades. When liquidity is
+lacking or unreliable, a valuer can discount for lack of liquidity as
+described above. Tokens can also be valued according to comparable
+token prices, where factors indicating comparability are those unique
+characteristics of digital assets described above.
+A couple of other valuation models developed in 2017 and 2018 can
+help inform the evolution of digital asset valuation. First, for utility
+tokens used as a pure medium of exchange for network access, the
+network utility usage valuation can capture a low amount of the
+token’s value.132 The minimum network value can be calculated by
+using supply, demand, and velocity.133 Second, the price to earnings
+ratio is similar to network value to transactions multiple.134
+129 Liz Erickson and Tim Koller, Why ‘digital’ is no different when it comes to
+valuation, McKinzey & Company (Oct. 20, 2020)
+https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-
+insights/why-digital-is-no-different-when-it-comes-to-valuation.
+130 The valuation of crypto-assets, Ernst & Young 1, 7 (2019)
+https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/topics/emeia-financial-
+services/ey-the-valuation-of-crypto-assets.pdf
+131 Ernst & Young, supra, at 7.
+132 Aenigma Capital, How do you value cryptocurrency?, Medium (May 5, 2018)
+https://medium.com/@aenigmacapital/how-do-you-value-cryptocurrency-
+3d296f68ec40
+133 Id.
+134 Willy Woo, Introducing NVT Ratio (Bitcoin's PE Ratio), use it to detect
+bubbles, Woobull (Oct. 5, 2017) https://woobull.com/introducing-nvt-ratio-
+bitcoins-pe-ratio-use-it-to-detect-bubbles/
+32
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+b) DCF
+The Discounted Cash Flow model seeks to value enterprise cash
+flows. The discount rate considers the relative risk of future cash flow
+and time value of money.
+Until this point, we have thought of digital asset valuation as valuing
+a given token at a given time, so DCF would appear at first glance not
+to be a good fit for digital asset valuation. However, some digital asset
+networks do return cash flows to token holders or those who contribute
+work to the network. In such a case, DCF can shed light on the role of
+these structures in digital asset valuation.
+DCF is applicable in fee incentivized networks where platforms record
+transaction fees that are paid out to token holders who perform work
+on the network.135 This model is used in some distributed autonomous
+corporations (DACs).136 PoW networks (Dash Master Nodes,
+Ethereum Validators after PoS) make service fee payments to workers,
+paid tokens by other users, for the services they perform.137 Ripple,
+Stellar, Factcom, and Binance offer token burns or buybacks,
+comparable to product sales paid for using company stock, or treasury
+stock (share repurchases).138 In this case, tokens are purchased and
+destroyed for use of the platform or to distribute profits.139 Next is
+inflationary or dilutive value redistribution (Stellar, Factcom
+Federated Servers, Dash, Pivx), where networks pay newly-minted
+block rewards to workers as an expense that redistributes value.140
+These are dividend payments, where token holders receive an ongoing
+stream of value distributions.141
+Cash flow is impacted by whether a token’s model is inflationary or
+deflationary. A deflationary model of token issuance caps the number
+135 John Tadaro, Valuing Crypto Assets using a DCF Model, Medium (Jun. 21,
+2018) https://medium.com/@john_19547/valuing-crypto-assets-using-a-dcf-
+model-bc6297b0bd25. See also Blocktown Capital’s REN report applying DCF
+136 Aenigma Capital, Fundamental Valuation Approaches: DCF (May 6, 2018)
+https://medium.com/@aenigmacapital/fundamental-valuation-approaches-dcf-
+3dcdbf873c3b
+137 Aenigma Capital, Fundamental Valuation Approaches: DCF, supra.
+138 Aenigma Capital, Fundamental Valuation Approaches: DCF, supra.
+139 Aenigma Capital, Fundamental Valuation Approaches: DCF, supra.
+140 Aenigma Capital, Fundamental Valuation Approaches: DCF, supra.
+141 Aenigma Capital, Fundamental Valuation Approaches: DCF, supra.
+33
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+DIGITAL ASSET VALUATION
+of tokens that will ever be issued by the respective token issuer.142 This
+method is utilized by tokens such as Bitcoin. With a deflationary
+method, prices are expected to increase due to fundamental scarcity of
+token supply.
+Tokens that utilize an inflationary model often attempt to operate
+similar to a fiat currency. This means typically that no maximum
+number of token issuance is contemplated. Rather, inflationary token
+models consider a continuing token minting process that allows the
+issuer more flexibility depending on the current state of the token and
+the general market environment. Several indicia seem to suggest that
+as the cryptocurrency market matures, inflationary token models may
+continue to become more popular. Inflationary token models allow the
+use of stability mechanisms, which may allow more experimentation
+with volatility mitigation.
+In the case of Bitcoin, the reward per mined transaction has decreased
+over time from its initial 50 BTC in 2009.143 In November 2021 the
+reward per mined transaction was 6.25 bitcoins.144 One valuation
+method that focuses on cash inflow is a trailing twelve-month revenue
+to miners, stakers and liquidity providers.145 Another is a stock-to-
+flow model, which shows that historically, the price of BTC has
+correlated inversely to mining reward amount.146 However, BTC’s
+issuance schedule and relative scarcity are not necessarily the only
+reasons for its rise in value.147 “There are thousands of bitcoin
+142 All of this comes from Wulf A. Kaal, Crypto Economics – The Top 100 Token
+Models Compared, Banking & Fin. Ser. Pol. Rep. 1, 22-23 (2018).
+143 Black, supra.
+144 Black, supra.
+145 Keith Black, What’s the correct valuation model for digital assets?, CAIA
+Association (Nov. 21, 2021) https://caia.org/blog/2021/11/21/whats-correct-
+valuation-model-digital-assets
+146 Black, supra (citing Steven Ehrlic, Demystifying Bitcoin’s Remarkably
+Accurate Price Prediction Model, Stock-To-Flow, Forbes (Apr. 29, 2021)
+https://www.forbes.com/sites/stevenehrlich/2021/04/29/demystifying-bitcoins-
+remarkably-accurate-price-prediction-model-stock-to-flow/?sh=48f4e46e476a).
+147 Ehrlic, supra.
+34
+Electronic copy available at: https://ssrn.com/abstract=4033886
+
+2022 DIGITAL ASSET VALUATION
+copycats with the same issuance schedules, but none can match its
+demand, and thus its value.”148
+V. Conclusion
+Traditional valuation methods only limitedly apply to digital assets.
+While there are large commonalities, the digital assets space requires
+a disparate analysis of digital asset pricing. Digital asset valuation
+methodologies vary significantly. Tradeoffs between such
+methodologies allow for some valuation discretion between digital
+asset managers. The lack of standards for digital asset valuation leads
+to uncertainty and confusion among investors and managers. The
+industry would benefit from uniform standards for digital asset
+valuation. Such standards can evolve over time as the market evolves.
+Standard setting requires common core practices what are slowly
+evolving.
+148 Ehrlic, supra (quoting PlanB, who in 2019 released Modeling Bitcoin Value
+with Scarcity https://medium.com/@100trillionUSD/modeling-bitcoins-value-
+with-scarcity-91fa0fc03e25).
+35
+Electronic copy available at: https://ssrn.com/abstract=4033886
+

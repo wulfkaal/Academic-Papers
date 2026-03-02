@@ -1,0 +1,1281 @@
+REPUTATION AS CAPITAL
+REPUTATION AS CAPITAL
+–
+How DAOs Optimize Finance
+Wulf Kaal1
+Abstract
+Decentralized Autonomous Organizations (DAOs) have the
+potential to upgrade finance. This paper evaluates the design of and
+system requirements for a decentralized cryptocurrency venture
+capital investment club that is operating as a DAO (DAOIC). The
+design of the proposed DAOIC enables investors to substitute
+capital commitments by way of reputation token staking on
+proposed portfolio companies. The proposed design has the
+potential to lower capital requirements and free up liquidity for
+decentralized smart contract coordinated investment vehicles.
+Key Words: Decentralized Autonomous Organization, Venture
+Capital, Reputation, Non-Fungible Tokens, Fungible Tokens,
+Capital, Venture Funding, Finance, Token Models,
+Cryptocurrencies, Feedback Effects, Emerging Technology,
+Tokens, Blockchain, Distributed Ledger Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1 Professor of Law, University of St. Thomas School of Law, Minneapolis. The
+author is grateful for many discussions with Craig Calcaterra & Kaal on the
+uses of reputation systems for the evolution of decentralized governance and
+DAOs.
+0
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+Executive Summary
+● Reputation Replaces Capital: Instead of capital
+commitments, DAOIC members stake RNFTs on deals
+● Return Amplification - the fungible reputation token may
+be valued by the market as:
+○ 1.) a tokenized instantiation of the collective wisdom
+of the DAOIC members
+○ 2.) a representation of the total ROP on each deal
+upvoted by DAOIC members via RNFT
+● Risk Mitigation:
+○ 1.) collective wisdom of DAOIC members hedges
+against purchase risk
+○ 2.) RNFT staking removes counterparty risk
+○ 3.) fungible reputation tokens are liquid assets in
+secondary market
+○ 4.) incentive design ensures consent in RNFT
+staking which removes risk of loss
+● Liquidity:
+○ 1.) removal of capital gives the DAOIC members a
+permanent option on deals
+○ 2.) no capital calls etc. improves liquidity
+○ 3.) public secondary market ensures liquidity in
+fungible reputation token
+● Ratio Adjustments:
+○ 1.) provide a key tool for strategic increases in
+profitability
+○ 2.) enable strategic tradeoffs
+○ 3.) coordinate overall DAOIC policy
+○ 4.) are subject to DAOIC member vote via RNFT
+staking
+1
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+Table of Contents
+I. INTRODUCTION ...................................................................................... 3
+II. BASIC CONCEPT .................................................................................... 4
+1. Reputation Replaces Capital ............................................................ 4
+2. Liquidity ........................................................................................... 5
+3. Risk Optimization ............................................................................. 9
+4. Decentralized Underwriting .......................................................... 12
+III. TOY MODEL ................................................................................... 15
+1. Phase 1 - Priming the Pump .......................................................... 17
+2. Phase 2 - Capital Allocation .......................................................... 19
+3. Phase 3 - Reputation Building ....................................................... 22
+4. Phase 4 - Reputation as Capital .................................................... 23
+5. Phase 5 – Growth Through Market Evolution ................................ 24
+IV. POLICY CONSIDERATIONS ............................................................... 25
+1. Standard Setting ............................................................................. 25
+2. Accountability ................................................................................ 27
+3. Market Power ................................................................................ 28
+4. Decentralized Coordination ........................................................... 30
+V. GOVERNANCE ADJUSTMENTS .............................................................. 31
+1. Minting Ratio of Capital Commitment to RNFT ............................ 31
+2. Ratio of Capital Commitment to RNFT Staking ............................. 31
+3. Minting Ratio of ROP to Fungible Reputation Token .................... 32
+4. Ratio of Market to DAOIC Capital Commitments ......................... 32
+5. Minting Ratio of Market Purchases to Fungible Reputation Tokens
+33
+VI. CONCLUSION .................................................................................. 33
+2
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+I. Introduction
+Decentralized investment designs have significant advantages over
+traditional finance. The need for capital is taken as a basic
+requirement of traditional finance. All investment decisions
+revolve, on some level, around the existence of investment capital.
+Derivatives and margin trading, among other financial designs in
+legacy finance, provided a first step towards the removal of capital
+in financial transactions. Decentralized systems can take the
+removal of investment capital from deals to the next level.
+In the existing markets, decentralized investment solutions and
+associated vehicles are subject to significant downsides that make
+them less competitive than traditional financial investment
+solutions. Primary among the downsides is the legal uncertainty that
+is typically affecting decentralized investments and investment
+platforms. Legal solutions for decentralized funding vehicles are
+naturally evolving with a delay after innovative new funding
+vehicles emerged.2
+Decentralized markets are overcollateralized, giving traditional
+markets a fundamental advantage. To enable a decentralized
+financial transaction, such as a loan or insurance policy,
+decentralized products typically need to be backed with 100%
+collateral. In the case of secondary layers, such MakerDAO, 200%
+collateralization is required. This would be an unthinkable obstacle
+to liquidity in traditional markets. However, in digital asset markets
+the lack of alternatives mandates such levels of collateralization.
+With the evolution of decentralized infrastructure, decentralized
+investment designs are increasingly equipped to outperform
+2 The design proposed herein is technologically possible in 2021. The author
+recognizes that many jurisdictions will treat the design proposed herein less
+favorably. However, the author takes not position on legal issues and possible
+solutions in any jurisdiction that may be associated with the design proposed in
+this article. Legal solutions are under development in many jurisdictions in 2021.
+In the United States, the Wyoming DAO is only one example that provides a
+temporary legal solution that is subject to experimentation. The author believes
+that legal designs will develop lockstep with a time delay to decentralized DAO
+governance in finance.
+3
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+traditional finance. For example, once secure and meaningful
+reputation is incorporated into the Web3 environment, the
+imbalance between decentralized and traditional finance can be
+reversed. Reputation tokens that are utilized in decentralized
+finance are more meaningful than traditional identity verification
+metrics, and much easier to value. Accordingly, decentralized
+protocols that use reputation metrics will require less
+collateralization than in traditional protocols. Given these
+advantages, the decentralized economy that will be powered by new
+and innovative designs, such as the one proposed herein, are likely
+to be more competitive and may eventually gain the upper hand over
+traditional centralized financial institutions. For example, locking
+users reputation tokens instead of your fungible assets would be a
+strong leap in efficiency, giving a powerful economic advantage
+over traditional finance. This requires a coherent system which
+securely tracks the value of a reputation token.
+II. Basic Concept
+1. Reputation Replaces Capital
+The basic concept introduced in this article revolves around the core
+mantra of “reputation as capital.” In essence, once meaningful
+decentralized reputation is established, reputation can be used to
+remove the need for capital base and/or capital requirements. In the
+DAOIC model, the members of the DAOIC wean off the need for
+capital in order to participate in DAOIC deals. Instead of capital
+commitments, DAOIC members stake RNFTs on newly proposed
+incoming deals. The public market funds the DAOIC approved
+deals and the DAOIC members get paid via the 20% public ROP
+minting to fungible reputation token.
+If members still wish to commit capital on particular deals they can
+get into deals on the public market side, based on the same
+conditions. But, they would in essence be paying themselves with
+the 20% of ROP.
+Because DAOIC members are sharing in the ROP of the market
+with 20%, which may be much more in the aggregate than the
+individual DAOIC members’ ROP, the model amplifies the DAOIC
+member returns. DAOIC members get paid in fungible reputation
+4
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+tokens. The long-term effect here is that the market replaces the
+need for capital commitments by DAOIC members. The members
+still continue to benefit from their staking work without the need to
+contribute capital. Over time, the reputation effect grows and the
+uncoupling from capital increases.
+Not only are members sharing in the ROP of the market with 20%,
+which may be much more in the aggregate than the individual
+DAOIC members’ ROP, the model also amplifies the DAOIC
+member returns because only DAOIC members get paid in fungible
+reputation tokens. Public investors get paid their 80% ROP via DAI
+pro rata.
+Such tokens are themselves a significant value proposition because
+the fungible reputation token is based on the deal pipeline upvoted
+by DAOIC members via RNFT. The fungible reputation token is:
+1.) a tokenized instantiation of the collective wisdom of the DAOIC
+members, which may be valued by the market as such, and
+2.) a representation of the total ROP (100% DAOIC Member ROP
+PLUS 20% Public ROP) on each deal upvoted by DAOIC members
+via RNFT.
+The combined effect of these factors will likely cause the public
+perception and corresponding market valuation of the fungible
+reputation tokens to be favorable.
+2. Liquidity
+The most efficient and most liquid markets display high levels of
+transaction rates of highly diverse goods exchanging between a
+multiplicity of small market participants. This market
+decentralization is most efficient and provides the most reliable and
+accurate (price) information, which, in turn, enables the highest
+levels of truth discovery in the market.
+The basic mantra of reputation as capital is that it makes business
+more efficient and more liquid as it frees resources for further use.
+Reputation frees up capital. As capital is replaced by reputation it
+5
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+no longer has to be tied to a given asset. Reputation is encumbered
+and tied to an asset instead of capital. The more reputation replaces
+capital the less capital has to be allocated, tied, and encumbered. In
+turn, the ratio of capital becoming unencumbered through
+reputation increases the deployment of capital ratio, e.g. a higher
+proportion of unencumbered capital can be newly encumbered.
+Therefore, reputation increases the degree, speed, and overall
+ability of an individual or firm to purchase or sell an asset. In turn,
+reputation increases the availability of liquid assets to a company or
+market.
+The liquidity function of reputation as capital can theoretically be
+extended to tokenized assets. Reputation can be used to underwrite
+tokenized assets and provide immutable guarantees for tokenized
+assets. With reputation staked guarantees on tokenized assets such
+tokenized assets can, over time, exist like real assets. Reputation
+allows tokenized assets to be used in business because, just like
+underwriting, someone is taking on the risk of losing reputation and
+associated cashflow streams if such tokenized asset should in reality
+not exist. Insurance could serve a similar function but is much less
+efficient as it requires the allocation of capital for holding reserves
+to pay out claims etc. Reputation removes the need to deploy capital
+for reserves etc. Accordingly, can facilitate unprecedented levels of
+liquidity. It removes the need for encumbering capital for tokenized
+assets and at the same time through the guarantees it provides for
+tokenized assets makes those tokenized assets real for commerce.
+The combination of replacing capital with reputation for
+tokenization creates the ideal environment for liquidity.
+Tokenization itself provides unprecedented liquidity of real assets.
+Combining tokenization with reputation underwriting further
+enhances the liquidity effects of tokenization. Again, the benefits
+for liquidity can only materialize if reputation is meaningful and
+secure.
+In the case of the DAOIC, the replacement of capital with reputation
+increases liquidity for DAOIC members. In the DAOIC model,
+because reputation takes over part of the role of capital it frees up
+otherwise locked capital for DAOIC members. DAOIC members
+can increase their ability to deploy capital because RNFT staking
+on deals does not require the deployment of capital while still
+generating returns, here through the 20% ROP participation on the
+6
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+public side of a deal, that would otherwise only be possible through
+the deployment of capital.
+The replacement of capital with reputation gives the DAOIC
+members a permanent option and right of first refusal on deals.
+DAOIC members can merely stake RNFT on a deal without
+participating in the purchase commitment for such a deal. But,
+RNFT staking involves two phases, loosely coupled and tightly
+coupled votes (as described in Calcaterra & Kaal et al (2019)). The
+information revealed during the loosely coupled voting engagement
+should, in most cases, make it clear to each DAOIC member what
+deal parameters are at stake. At the same time, the delayed voting
+outcomes and associated feedback effects enabled by the transition
+from loosely coupled to tightly coupled voting enable DAOIC
+members to triangulate their own internal liquidity with deal
+feasibility. If a DAOIC member suffers a liquidity crisis, such
+member still participates in the fungible reputation salary payouts.
+The removal of capital through RNFT staking also makes capital
+calls and other liquidity-limiting measures less relevant. There are
+no ex post capital commitments associated with an RNFT staking
+participation. DAOIC members will commit capital if they can but
+during a liquidity squeeze they can opt out of the public side of a
+given deal while still participating through the RNFT staking and
+associated fungible token salary.
+Because a public secondary market exists for the fungible
+reputation tokens, DAOIC members not only improve their
+liquidity by replacing capital with reputation, their liquidity is also
+ensured after the conversion of capital to reputation. The public
+market supplements liquidity in fungible reputation tokens if
+DAOIC members decide they need to convert fungible reputation
+tokens back to capital. This can help supplement their capital-driven
+engagements as a liquidity pool.
+The removal of capital creates a high level of flexibility for DAOIC
+members. It allows the DAOIC members to invest if they so choose
+but it does not force them to invest if they disagree with the
+collective decision on a given deal.
+7
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+DAOIC members can decide which deals are so good that it would
+be worth paying themselves the 20% of ROP on the public side as
+a fungible token salary. However, the nature of the publicly listed
+fungible reputation token is a better value proposition for the
+DAOIC members, especially in the long run.
+Liquidity can also be significantly improved in the DAOIC design
+through the selling of RNFT to the open market. For example, if the
+DAOIC should not have enough capital to cover the staked token
+commitment in firm commitment underwriting, it may be able to
+overcome the shortfall immediately by selling RNFT, which is in
+effect selling future cashflow rights associated with the RNFT.
+Individual members should have a stable way to exit the system by
+selling their reputation tokens for a fair market valuation of the
+future expected value of their reputational salary. This is more
+problematic for reputation than for most other cryptocurrency
+tokens, since reputation is less fungible because a token’s value is
+tied to the post in which the reputation was created and subject to
+separate review. But in principle it could be algorithmically valued.
+This situation of selling RNFTs via the OTC market only arises in
+ICD firm commitment underwriting deals that did not sell out on
+the public portion. In order to satisfy the capital call that results from
+the inability to sell out the public portion of the firm commitment
+deal, the respective RNFT member is forced to sell RNFT on the
+OTC market only if the respective ICD member cannot satisfy his
+or her pro rata capital requirement with liquid capital held by the
+ICD member. In that case, RNFT may be sold to cover the lacking
+liquidity. It is very likely that the other RNFT holders who still have
+liquid assets will wish to purchase the RNFT on the OTC market as
+it gives them a larger share of the future cash flows via FRT/GT.
+The other relevant situation for selling RNFT via the OTC market
+and with it the right to all future cash flows that derive from the
+RNFT, is retirement of an ICD member. Should an ICD member
+wish to retire from the ICD permanently, the respective ICD
+member can sell her RNFT.
+8
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+3. Risk Optimization
+Running a DAOIC is subject to several risk factors, including but
+not limited to the following:
+- Limited token opportunities
+- High level of uncertainty in digital asset market
+- Only 1 in 100 of token opportunities returns 100x, 30x, 10x
+- Regulatory uncertainty - investigations
+- gaining access to industry expertise in digital assets creates
+challenges
+- difficult to distinguish core expertise in digital assets
+- Since its inception, the digital asset industry has evolved in
+silos of information and expertise, making it more difficult
+for early-stage investors to gain access to a broad spectrum
+of engineering and technology insights.
+- Early stage investing in digital assets is a relationships
+business. It is key for early-stage investors in digital assets
+to be part of a core network of early-stage experts in the
+industry.
+- Without access to a network of core expertise, early-stage
+investments in the digital asset industry are rarely successful
+- Without access to experienced decentralized system
+architects, legacy investors and venture capitalists struggle
+navigating the market for digital assets. During the early
+days of the digital asset evolution a very limited amount of
+people had relevant experience with the technical and
+market aspects of digital assets. Very few were able to build
+cryptocurrencies that attempted to solve incentive issues and
+create tokens that were compatible with the incentives
+design in order to enable participants in the network to act
+non-opportunistically and align their utility and economic
+incentives in systems with anonymous actors.
+- The anonymity in decentralized networks requires a special
+skillset for system architects who know how to navigate the
+9
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+limitations in system design that is associated with
+anonymity.
+- Only very few architects have figured out how to create
+system solutions in ways that overcome the challenges of
+anonymous and autonomous systems. That skillset is still
+very rare in the early 2020s.
+- Venture capitalists and crypto hedge funds require key
+expertise in helping their portfolio companies on the
+operating side.
+- Limited amount of qualified technical talent: A key skill that
+contributes to portfolio companies’ success is the ability to
+hire engineers and run technical teams. The most successful
+digital asset investors are able to use their network to help
+their portfolio companies successfully hire technical talent.
+- Venture companies that do not have a strong background in
+community building can be disadvantaged in the digital
+asset market. In the digital asset space generally, and more
+specifically in the context of ICOs and token design, it is
+essential to have some expertise in open-source software
+and the associated community building. Incentive designs
+for open-source software contributions can also play a large
+role.
+- Technical decentralized designs take a long time to reach
+maturity. Because of the community building aspect and the
+built-in experimentation with design features, decentralized
+network design can take much longer than other technical
+network designs.
+- The cryptocurrency market in the early 2020s is still
+afflicted with questionable designs, as well as legal and
+ethical issues. Many top projects in 2020 are still afflicted
+by technical issues that have not been ironed out.
+- Because the market has been so hype driven, technical
+experience has not added significantly to overall market
+development and maturity. Yet, several indicia suggest that
+this can change over time.
+10
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+The mantra of “Reputation as Capital” has built-in multiple levels
+of risk mitigation for the network participants. Through meaningful
+reputation in a business network, network participants are
+incentivized to cooperate without performing the extra due-
+diligence analysis on counterparties in the network and possible
+agents of the network.
+Reputation removes the need for monitoring cost. It lowers
+transaction costs in orders of magnitude. Through reputation in the
+interaction between principals and agents, both are incentivized to
+watch out for each other and further each other's profit. It is simply
+good business to do so as it extends the opportunities for future
+frictionless business opportunities. Because reputation is at stake in
+each interaction, parties to the network as well as principals and
+agents are incentivized to go significantly beyond the key
+parameters of their respective contractual obligations to maintain,
+extend and protect each their respective reputation.
+Reputation is not only the gateway to future revenues and business
+opportunities but also becomes a currency with its own value
+proposition. Removing readily available and fungible cash and
+emphasizing reputation in the network disperses power fairly.
+Participants in the network with equivalent talent are equally
+acceptable as they are most likely to help protect the reputation of
+the collective and each other’s reputation at the same time.
+Accordingly, anyone available with similar talents can be given
+opportunities.
+In the case of the DAOIC, the collective wisdom of DAOIC
+members helps hedge against purchase risk. The applicable
+decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019))3 provide an optimal incentive
+3 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain
+Infrastructure for Measuring Domain Specific Reputation in Autonomous
+Decentralized and Anonymous Systems (February 18, 2018). U of St.
+Thomas (Minnesota) Legal Studies Research Paper No. 18-11, Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/s
+srn.3125822
+11
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+design to coordinate collective decision making. Improved
+collective decision making in the DAOIC further mitigates purchase
+risk.
+Similarly, RNFT staking by DAOIC members removes
+counterparty risk. The desire to preserve and increase RNFT scores
+predominates the DAOIC decision making. Therefore, bad actors
+are less likely to occur in the system as their reputation would
+inevitably suffer.
+Moreover, because the applicable decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)) with
+loosely and tightly coupled votes will very likely make all tightly
+coupled votes unanimous. Accordingly, DAOIC members are less
+likely to lose RNFTs and continue to receive the stream of fungible
+reputation tokens.
+Liquidity risk is addressed because the fungible reputation tokens
+can be sold on the secondary market as needed by DAOIC
+members.
+4. Decentralized Underwriting
+The DAOIC form of underwriting can be distinguished from
+traditional underwriting where underwriters are typically
+gatekeepers and create barriers to entry. In the tradition
+underwriting market, underwriters serve as gatekeepers for the
+purpose of screening offerings for investors. Underwriters with a
+good reputation can charge issuers of traditional securities higher
+rates, giving underwriters a financial incentive to screen. However,
+in the traditional underwriting market, investors can fail to
+distinguish underwriters based on reputation. As a result, free-riding
+on other’s reputation may occur. Once free riding occurs, traditional
+underwriters will likely stop investing in their screening and instead
+attempt to free ride on others. This creates what is known as a
+lemons problem in the law and economics literature. Moreover,
+individual agents within an underwriter may decide to sacrifice the
+underwriter’s overall reputation for personal gain. For example, it
+is possible that an agent may put out a fraudulent offering on behalf
+12
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+of the underwriter for personal gain, such as additional business for
+the agent etc.
+The DAOIC’s adoption of decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)) addresses
+these shortcomings of traditional underwriting. In this theoretical
+model, the entire incentive design of decentralized governance
+aligns the interests of the individual with the interest of the group.
+In other words, the incentives of the principal, e.g. the group, and
+the individual are aligned so much that the agent cannot gain
+personally at the expense of the principal.
+As the DAOIC reputation proliferates, in the model, the DAOIC
+may become the initial starting point for a public token offering.
+The DAOIC can, over time, provide essential services for token
+opportunity teams, including but not limited to: source of contact
+for large institutional investors, and as a source of financing, e.g. in
+firm commitment offerings.
+In the DAOIC model, best efforts underwriting via RNFT staking
+can be distinguished from firm commitment underwriting via RNFT
+staking. Best efforts underwriting is synonymous with the smart
+contract accountability system in the DAOIC that allows each
+DAOIC member to make a given capital commitment that is
+encumbered in the smart contract as a deposit. Such deposit will
+only be released and directly transferred to the token opportunity
+when the RNFT staking pool has made a decision on the token
+opportunity. Funding only happens in the case of a majority upvote.
+Only then will the smart contract release the funds from the DAOIC
+member to the token opportunity.
+This can be contrasted with DAOIC firm commitment
+underwriting. In a firm commitment RNFT staking engagement, the
+DAOIC does not commit any capital at all, except for the portion of
+the token opportunity that does not sell out to the public. In other
+words, the DAOIC has to be confident in its ability to translate its
+reputation in deal analysis, e.g. RNFT staking on a token
+opportunity, into a co-purchase engagement by the public. Should
+the public fail to purchase the capped amount of the token
+opportunity, the DAOIC will have to sacrifice its own liquidity and
+commit to buy the remaining part of the token opportunity sale.
+13
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+Having to commit liquidity if the DAOIC’s collective wisdom is
+wrong incentivizes the DAOIC community. After all, its
+“Reputation as Capital” mantra is largely motivated by the
+increased liquidity that is enabled by it. Getting the public
+commitment part on a firm underwriting engagement wrong would
+neutralize the prior gained liquidity from RNFT staking.
+While firm commitment underwriting may be seen as antithetical to
+decentralization, it in fact further enhances the level of
+decentralization. A firm commitment underwriting by the DAOIC
+member collective provides the DAOIC more leverage to increase
+the decentralized governance in the token opportunity. Enhanced
+decentralized governance of token opportunities, in turn, improves
+the level of decentralization in the system overall. Moreover, in a
+firm commitment underwriting of a token opportunity DAOIC
+internal governance and the RNFT staking with the collective
+wisdom of the DAOIC members enable an offset of the potentially
+liquidity lowering capital commitment that may result from a
+collective misassessment of the public’s interest in a token
+opportunity.
+14
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+III. Toy Model
+Figure 1. Non-Custodial DAOIC Model with Smart Contracts.
+Figure 1 illustrates the non-custodial DAO Investment Club
+(DAOIC) model with smart contracts. In this model, the entirety of
+the ROP is minted into fungible reputation tokens that get paid as
+reputation salaries following the decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)). This
+model provides enhanced incentive alignment for DAOIC members
+with the highest potential return for all involved.
+Roadmap & Overview Legend
+15
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+DOIC Members Deals C/R Ratio Returns Liquidity Growth Risk Mitigation UnderwritingDecentralization Publicity Transparency Accountability Governance Reg Scrutiny
+Phase 1 - Market/Dex Market/Dex Market/Dex GT Dex GT Dex
+N/A N/A N/A N/A N/A GT Dex Listing N/A N/A N/A
+Priming in GT in GT in GT Listing Listing
+DAOIC: ROP
+80% Pro SC coordinates,
+DAOIC
+Rata to no custody, yet Smart Contracts
+Phase 2 - <=5 Active collective
+Quality: High Capital 20% small DAOIC N/A No DAOIC coalesce with MVPR
+Capital Investors and 100% Capital 100% Capital Low decision making N/A N/A N/A
+Quantity: Low Pro Rata to member group, UI MVPR DAOIC Internally
+Allocation Analysts hedges agains
+RNFT as purchase risk less information internally
+FRT. from edge
+Public: N/A
+DAOIC: ROP DAOIC Collective Best efforts increasing MVPR
+underwriting
+100% Pro decision making governance, more DAOIC tightly Smart Contracts voluntary
+Phase 3 - Quality: High 50% Capital FRT OTC - DAOIC
+Rata to hedges RFNT information from coupled RNFT coalesce with MVPR for
+Reputation >5, MVPR Quantity: 50% secondary Increasing RNFT PR begins Low
+RNFT as staking risk, the edges, shift voting disclosed MVPR DAOIC token
+Building Medium Reputation market staking -
+FRT MVPR reduce risk from capital to via UI internally opportunity
+public
+Public: N/A of loss visibility reputation
+RNFT firm
+Higher degree of
+commitment
+DAOIC: ROP Scaling DAOIC crowd underwriting reputation, RNFT
+100% Pro through wisdom for - DAOIC staking offsets DAOIC Smart Contracts
+Rata to firm commitment loosely
+public access market capital coalesce with
+RNFT as of capital, DOIC coupled RNFT Mandatory
+Phase 4 - Quality: High DAOIC to deals - participants, covers MVPR DAOIC
+FRT + 20% underwriting PR budget voting MVPR for
+Reputation MVPR Quantity: Member FRT Listed 20% Public RNFT staking missing internally and in Investigations
+Public ROP increases increase disclosed token
+as Capital Higher Discretion ROP shared follows MVPR, public Public portion of
+to F D RT A O + I C 7% a s via FRT + token purchases - lev M er V a P ge R for t P ig L h U tly S c D o A u O pl I e C d a capital opportunity
+cross spread 7% cross opportunities use DAOIC governance of RNFT voting commitment
+as FRT spread MVPR underwriting token
+fee 7% cross
+opportunities
+spread
+DAOIC: ROP
+100% Pro Mandatory
+Phase 5 - Rata to Governance Self regulation TBD - Market High degree as MVPR Protocols Smart Contracts MVPR for N/A, Low -
+RNFT as Mainstream increases: market decentralized
+Growth Quality: High DAOIC via MVPR lowers terms and Derivatives enforce token
+FRT + >20% adoption, Certainty, proliferates regulation
+Through MVPR Quantity: Member risk for evolving as N/A become part of governance in opportunities
+Public ROP Market Adoption, through more
+Market Scaling Discretion participating C/R ratio public domain Public Market and entire
+Evolution to F D RT A O + I C 7% a s proliferation D Ev ig o it lu a t l i A o s n s o et f s market segment increases d g e o c v e e n r t n ra a l n iz c e e d and proliferate via MVPR markets/segm compre e hensiv
+cross spread ents
+as FRT
+Table 1: Roadmap & Overview – minimum viable protocol requirements
+(MVPR) describes the need for instantiation of decentralized governance designs.
+Table 1 shows the life cycle of the DAOIC which involves different
+phases that serve different purposes in order to fulfil the ultimate
+purpose of the DAOIC. Each phase serves a particular purpose.
+Four different phases can be distinguished with different purposes.
+Generally speaking phase 1 is concerned with priming the pump and
+institutional setups, phase 2 is concerned capital allocation, phase 3
+is concerned with reputation building, phase 4 is concerned with
+reputation replacing the need for capital allocation, and finally
+phase 5 deals with market evolution.
+Phase 5 is the growth phase that results from phases 1-3 and is
+further extended by mandating decentralized governance via
+decentralized reputation staking governance mechanisms
+16
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+(Calcaterra & Kaal et al (2019)) in digital asset market segments.
+Enhanced decentralized governance helps increase certainty in the
+digital asset market which enables increasing mainstream adoption
+and ultimately leads to market proliferation.
+1. Phase 1 - Priming the Pump
+Phase 1 is concerned with core functionality setup of operations in
+the DAOIC model. The DAO team has to make certain decision
+during phase, including but not limited to: determining the total
+supply of its governance token, listing the token on a DEX, open
+the token to short list of investors, ensuring the free flow of the
+token on the market, among several other core setup functions.
+The Capital to Reputation ratio of the DAOIC is at 100% capital
+during phase 1 as this is the initiation phase and reputation capital
+has not been built yet. Using the decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)), the
+DAOIC mints RNFT in proportion to the capital commitments.
+Capital commitments are flexible as both active purchasers and
+talented analysts are onboarded. RNFT tokens get minted
+proportional to capital commitment, e.g. US$2 million equals 200
+RNFTs, or to another metric for talented analysts.
+The DAOIC members share returns on purchases (ROP) 80% pro
+rata to capital commitment and 20% pro rata to RNFT score. The
+20% of ROP is minted into a fungible reputation token (FRT). The
+FRT is not liquid in phase 1. The FRT is not listed and cannot be
+sold in the OTC secondary market. Accordingly, liquidity
+facilitated to DAOIC is low as 100% of capital is committed and
+DAOIC members have no liquidity in the FRT salary as the FRT is
+not OTC traded and not listed. The overall growth is low in the
+initial startup phase 1.
+The degree of decentralization is still low in phase 1. Smart
+contracts coordinate the DAOIC purchases and interaction with the
+token opportunity directly for each DAOIC member. Individual
+smart contract engagements remove the need for institutional
+custody and associated points of centralization. However, because
+the group of DAOIC members is still small, less information comes
+17
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+from the edges of the system. The DAOIC member group is also
+presumably homogenous, dissent will be small in the RFNT-based
+decision-making processes. Accordingly, the benefits from
+decentralization are still relatively small in phase 1.
+During phase 1 risk mitigation for DAOIC members is minimal
+because reputation has only marginally entered the system. Yet, the
+DAOIC members hedge their individual purchase risk and risk of
+loss of capital through the decentralized governance-driven
+collective reasoning process. During the loosely coupled voting
+(staked RFNT vote does not count but is set back to 0 afterwards)
+on proposed deals, DAOIC members can see each other’s reasoning
+and engage in an open deliberation process to come to the best
+choice for each DAOIC member. Yet, no DAOIC user interface
+(UI) is available during phase 1 to help coordinate the voting. It is
+possible to clone the decentralized reputation staking governance
+mechanisms (Calcaterra & Kaal et al (2019)). UI during phase 1
+which may help the DAOIC members to internally coordinate.
+However, the UI should not be publicly visible and only serves the
+DAOIC members’s internal matters. Publicity and PR expenses are
+not needed during Phase 1. However, DAOIC members should start
+evaluating what level of publicity is desirable in phase 2 and prepare
+their outgoing communications for phase 2.
+Transparency is very low during phase 1. DAOIC token purchases
+are not publicly visible as the DAOIC is still in the internal
+coordination phase. However, accountability for DAOIC members
+is high because smart contracts coalesce the decentralized
+reputation staking governance mechanisms (Calcaterra & Kaal et al
+(2019)) RNFT staking with the respective token capital allocation.
+Accordingly, internal accountability is facilitated through smart
+contracting.
+DAOIC internal governance during phase 1 is facilitated through
+cloning the decentralized reputation staking governance
+mechanisms (Calcaterra & Kaal et al (2019)), which ensures
+optimal incentivization and internal policing. Regulatory scrutiny
+during phase 1 is low because token purchases are facilitated
+directly from the purchaser to the token opportunity via smart
+contract. The smart contract releases the deposit automatically to
+18
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+the token opportunity after the DAOIC upvote on the purchase
+proposal.
+2. Phase 2 - Capital Allocation
+Capital allocation is the primary objective in phase 2. In the DAOIC
+design, capital allocation to token opportunities in phase 2 also sets
+up the DAOICs “reputation as governance” mantra. It is also during
+phase 2 that capital allocation is used for reputation non-fungible
+token (RNFT) minting. RNFTs, in turn, establish the internal
+governance of the DAOIC.
+Overall, Phase 2 is the governance setup phase where the DAOIC
+establishes its own internal governance, forms the founders group,
+identifies potential token opportunities internally, and starts
+proposing deals. Phase 2 is also the phase where new members are
+being introduced and onboarded with their respective deal proposals
+via decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)).
+In phase 2 of the model, the DAOIC brings in members with their
+deals and mints RNFT in proportion to incoming capital. The
+number of DAOIC members is presumably below 5 but could be
+higher and is subject to the onboarding procedures in the
+decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)). The quality of deals brought in by
+new members or the DAOIC is high but the quantity remains low
+as only the most select and most promising decentralized
+infrastructure projects will be selected. Token opportunity selection
+follows the voting procedures of the decentralized reputation
+staking governance mechanisms (Calcaterra & Kaal et al (2019)).
+All DAOIC members stake RNFT tokens on identified token
+opportunities, either up or down.
+In phase 2, the DAOIC member group increases as more people
+start appreciating the benefits of “Reputation as Capital” and its
+instantiation in the DAOIC. The incoming deal quality remains high
+because all DAOIC members are incentivized via decentralized
+19
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+governance to scrutinize incoming deal proposals. The quantity of
+incoming deals is increasing in phase 2 as compared to phase 1.
+Importantly, in phase 2 the ratio of capital commitment to
+reputation (RNFT) commitment (C/R ratio) starts shifting from
+100% capital (phase 1) to less than 100% capital. Phase 2 makes it
+possible to incrementally move the C/R ratio to around 50/50,
+depending on DAOIC individual member preferences.
+In light of the shifting C/R ratio, the DAOIC policy for the ROP to
+FRT minting ratio is adjusted to move from phase 1 (ROP 80% pro
+rata to capital, e.g. ROP to DAI, and 20% pro rata to RNFT as FRT,
+e.g. ROP to FRT) to phase 2 (ROP100% pro rata to RNFT as FRT,
+e.g. ROP to FRT). The effect of this change in policy is significant.
+All ROP is minted into FRT which, in turn, is paid out proportional
+to RNFT holdings. This instantiates the important shift from capital
+to reputation and shifts the incentives away from capital to
+reputation and can be seen as a form of best efforts underwriting on
+a token opportunity.
+The shift away from capital to reputation starts incrementally.
+DAOIC members may still need to commit capital in phases 1 and
+2. However, the move away from capital commitments is already
+possible. For example, in phases 1 and 2, if the market co-purchases
+at 50% of capital commitment of a given deal and 20% of the
+corresponding ROP on such deal is allocated to the fungible
+reputation token minting pool, which is shared only by the DAOIC
+members, then the DAOIC members would in the aggregate be
+better off keeping their own ROP at 100% (which is proportional to
+their capital commitment) combined with the 20% of ROP from
+public/market capital commitments in the fungible reputation token,
+which is paid out proportionally to RNFT score. This is especially
+true considering that the fungible reputation token is itself an
+investment proposition that amplifies the DAOIC members’ initial
+capital commitment.
+Liquidity of DAOIC members receives a major boost in phase 2
+because of the shift from capital to reputation. The liquidity
+enhancement is arguably directly proportional to the changes in the
+C/R ratio. Liquidity is further significantly enhanced because the
+FRT can be traded OTC in a secondary market. This allows the
+20
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+DAOIC members to use the fungible reputation token for their own
+liquidity needs. However, full liquidity is not yet achieved in the
+FRT as it is not yet traded on public exchanges.
+Risk mitigation is enhanced during phase 2 because the DAOIC
+collective decision making on incoming deal proposals hedges
+against counterparty risk, RNFT staking risk, and risk of capital
+loss.
+The degree of decentralization is increasing in phase 2 as reputation
+is being built by DAOIC members. The cloning of decentralized
+reputation staking governance mechanisms (Calcaterra & Kaal et al
+(2019)) provides a key point of decentralization to the DAOIC.
+Decentralized governance allows the DAOIC to coordinate its
+internal governance in a fully decentralized and incentive optimized
+fashion. As the DAOIC membership grows, information flow
+becomes more diverse and more information enters the system from
+the edges. Key increase in the level of decentralization is possible
+because 100% of the ROP gets minted into FRT which, in turn,
+enables a shift in focus from capital to reputation. Increased
+liquidity in phase 2 supports the expansion of decentralization as
+DAOIC members can increasingly make diverse decisions in the
+system.
+Transparency and public awareness and interest in the DAOIC
+increases during phase 2 as publicity is increased and public
+relations begin. Transparency is significantly advanced during
+phase 2 largely because of the user interface (UI) goes online. The
+UI is the public registry of the DAOIC deal priorities, updated
+monthly. The UI also publishes the RNFT staking outcomes. While
+phase 3 enables full transparency, e.g. the loosely coupled votes and
+the tightly coupled votes are disclosed as well as all incoming deal
+proposals, in phase 2, the UI does not disclose the reasoning process
+and the discourse during loosely coupled votes. In phase 2, the UI
+only discloses the outcomes of the RNFT staking pools, e.g. the
+final results of the collective reasoning process of the DAOIC on a
+given deal. This incomplete transparency is needed during phase 2
+to ensure the DAOIC can experiment with policy adjustments
+without fear of public market impact.
+21
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+Accountability during phase 2, as in phase 1, is ensured through
+smart contract coordination of individual DAOIC member’s
+purchase commitments. The smart contract does not release
+encumbered deposits, intended for a particular token opportunity,
+until the RNFT staking pool has decided on the funding of a token
+opportunity. Assets are not pooled but purchases take place
+individually through each individual DAOIC member via smart
+contract with the token opportunity.
+Governance of the DAOIC in phase 2 still revolves around the
+decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)). and is used for the DAOIC internal
+governance. Yet, in phase 2 the DAOIC may start to offer the
+benefits of decentralized governance to token opportunities.
+Regulatory scrutiny in phase 2 is low because the DAOIC engages
+in very little publicity and still does mostly internally generated
+deals which are governed by smart contracts entirely.
+3. Phase 3 - Reputation Building
+“Reputation Building” summarizes the core function of phase 3
+which is a core necessity for the “Reputation as Capital” mantra that
+will be introduced in phase 4. Reputation building begins for each
+DAOIC member and incoming DAOIC members by staking RNFT
+on incoming deals.
+Reputation staking in phase 3 serves multiple purposes. First, it
+establishes the need to gain and maintain reputation to be able to
+participate financially in the DAOIC. This is largely an educational
+function because reputation as capital has not been possible via
+token economics before and takes a period of education and
+adjustment for many individuals. Second, reputation staking
+establishes the governance metrics that enable the DAOIC to create
+superior returns for the DAOIC community while at the same time
+policing itself. Third, reputation staking instills the notion that
+reputation in the long-term is more important and more valuable
+than capital. It also establishes the notion that one can benefit
+individually while at the same time benefiting the group of DAOIC
+members.
+22
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+The C/R ratio, the key indicator of reputation replacing capital in
+the DAOIC, shifts higher in phase 3. It is in phase 3 that DAOIC
+members can exercise their discretion as to whether they wish to
+participate in an undertaking, other than a firm commitment
+undertaking that did not result in a fully subscribed public deal (see
+more details under firm commitment underwriting).
+Phase 3 is also a major growth phase for the DAOIC. In phase 3,
+the DAOIC engages in a form of RNFT firm commitment
+underwriting. Should the public not purchase the entire token
+commitment, only then the DAOIC is liable to commit capital for
+the outstanding portion of the public sale. That firm commitment
+underwriting allows a fee of 7% of the cross spread for the given
+token opportunity.
+While phase 3 enables full transparency, e.g. the loosely coupled
+votes and the tightly coupled votes are disclosed as well as all
+incoming deal proposals.
+4. Phase 4 - Reputation as Capital
+Phase 4 is key for the DAOIC as it is during phase 4 that the
+majority of the benefits of the DAOIC design materialize. DAOIC
+members are onboarded following decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)) only for
+new members who bring in deals that benefit the DAOIC
+ecosystem. Deal quality is consistently high to protect the RNFT
+scores of the existing members. Yet, because of the increasing
+publicity of the benefits of the DAOIC model the on boarding of
+new members with high quality deals increases and the quantity of
+deals increases accordingly.
+Phase 4 enables a consolidation of the shift away from capital. In
+phase 3, if the market purchases 100% of capital commitment of a
+given deal, based on DAOIC member staking on the deal, and 20%
+of the corresponding ROP on such deal is allocated to the fungible
+reputation token minting pool, which is shared only by the DAO
+investment club members, then the DAOIC members would in the
+23
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+aggregate be better off keeping their own ROP at 100% (which is
+proportional to their capital commitment) combined with the 20%
+of ROP from public/market capital commitments in the fungible
+reputation token, which is paid out proportionally to RNFT score.
+DAOIC can still invest on the public side if they so choose.
+In the model, key for phase 4 is the returns for DAOIC members
+increase to 100% ROP + 20% ROP from the public market + 7%
+cross spread from firm commitment RNFT underwriting of token
+opportunities. In other words, through the move from capital to
+reputation in phase 3, the DAOIC is able to amplify its returns on
+both the public purchase side but also on the token opportunity side
+of the deals. During phase 3, the public co-purchases deals based on
+the RNFT staking on deals by the DAOIC members. The public
+receives their ROP pro rata to capital commitment in DAI.
+It is during phase 4 that the full breadth of liquidity that is generated
+by the DAOIC design materializes. Most importantly, the FRT is
+listed on a public exchange. This gives DAOIC not only a strong
+profitability opportunity but also liquidity in public markets. It
+should be assumed that demand for FRT is strong (see further under
+FRT economics). The fungible reputation token may only be a
+public secondary market. E.g. the fungible reputation token is
+available only to DAOIC members who may sell the token on a
+public exchange if they so choose to create liquidity.
+5. Phase 5 – Growth Through Market Evolution
+Phase 5 introduces the long-term effects of the DAOIC model on
+the overall market. During phase 5, the DAOIC model suggests that
+the DOIC may have the opportunity to help token projects
+incorporate decentralized governance for the greater good of the
+overall ecosystem. Phase 5 also marks the period when the
+“reputation as capital” mantra of the model may prove to truly
+unfold as more and more capital heavy businesses may start to
+appreciate the benefits of reputation as capital. This, in turn, may
+result in increasing adoption of the DAOIC model in different
+implementations. During phase 5, the DAOIC may be engaging in
+long-term policy optimization. The policy considerations are further
+discussed below.
+24
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+IV. Policy Considerations
+The DAOIC design has the potential to upgrade financial structures
+and financial designs. Given this potential, several long-term policy
+implications seem inevitable. The DAOIC has the potential to
+provide standards for governance in finance, using its influence for
+good, and increase accountability in finance.
+1. Standard Setting
+Proper governance enables long-term growth. The DAOIC can use
+its market power for good. The DAOIC is internally governed by
+decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)). The decentralized reputation
+staking governance mechanisms (Calcaterra & Kaal et al (2019))
+ensure incentive optimized fully transparent internal governance.
+Moreover, through the use of decentralized governance, the DAOIC
+can help improve the governance of the digital asset market.
+It is conceivable that the DAOIC, over time, once its position in the
+market has been solidified, mandates the adoption of decentralized
+governance mechanisms (Calcaterra & Kaal et al (2019) for the
+governance of each token opportunity, before it begins the RNFT
+staking process on a given token opportunity. At a minimum, it is
+conceivable that the DAOIC encourages s the incorporation of
+decentralized governance mechanisms for purposes of the particular
+token opportunity purchase, both for the DAOIC RNFT staking
+portion and the following market purchase of the token opportunity.
+In essence, the DAOIC would use its market power for good by
+mandating governance reform for DAOIC RNFT staking in a given
+token opportunity. This enhancement of decentralized governance
+provides long-term benefits for the DAOIC as its own oversight of
+its investments is becoming easier across different market
+segments.
+The decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)) provide a higher form of
+decentralized governance than most legal standards in a given
+jurisdiction. Using the decentralized governance for self-
+governance instills the highest forms of ethics in the token
+25
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+opportunity which over time can reform the market into a fully
+decentralized form of ethics and governance. It is possible that the
+DAOIC may be perceived as using its influence to inappropriately
+force governance solutions on token opportunities. Yet, the use of
+decentralized governance will help the digital asset space mature
+quicker.
+As an advocate for digital asset standards, the DAOIC helps
+upgrade the digital asset space to become ready for mass adoption.
+Without standards for digital assets, it will be very difficult to
+increase regulatory certainty in the digital asset space and
+coordinate market activity. Without regulatory certainty the market
+for digital assets is less likely to evolve.
+In addition to the commercial benefits of being perceived as a
+standard setter and governance optimizer for the digital asset space,
+the DAOIC advocacy for digital asset governance and standards of
+governance could make it a beacon of self-regulatory upgrades for
+the digital asset space.
+Creating a self-regulated protective environment for digital asset
+markets participants may be seen by regulators as favorable which,
+in turn, could help the DAOIC to cooperate with regulators.
+Cooperation with regulators is in the long-term interest of the
+DAOIC and the self-regulated digital asset space.
+The DAOIC smart contract and reputation engine (following
+decentralized reputation staking governance mechanisms
+(Calcaterra & Kaal et al (2019)) provides enhanced transparency
+and accountability. A basic smart contract coordinates the deposits
+of DAOIC purchases and the release of such deposits after a DAOIC
+RNFT staked upvote on a token opportunity. Said smart contract
+will likely be fully transparent, even without the access to the
+Casper network via a specific user interface.
+In order to facilitate public access and review of the DAOIC RNFT
+staking, a workable UI may be needed. The UI creates the needed
+level of transparency but is also potentially a legal liability (needs
+to be further evaluated with lawyers).
+26
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+It is conceivable that the public will already begin to react with
+interest to a token purchase opportunity after observing the loosely
+coupled vote of the DAOIC. One would need to consider what level
+of publicity the smart contract should entail in order to protect the
+public and minimize legal risk. Perhaps a workable compromise
+could involve only putting the final DAOIC RNFT staking vote on
+a given deal in the tightly coupled format on the UI/webpage.
+Transparency of the RNFT staking by DAOIC members also
+ensures the adequate management of potential conflicts of interest.
+For example, DAOIC members who stake RNFT on a given deal
+but also participate in the public portion of the purchase
+commitment may have a conflict of interest in the sense that they
+may be perceived by the market as having prior knowledge of a
+particular deal and could potentially use that to their advantage, by
+approaching the token opportunity team in advance, among other
+nefarious practices. However, such practices are rather limited
+because of the transparent nature of the loosely coupled RNFT
+voting on a particular deal and the transition to tightly coupled
+voting. The public may not see the debate about deal priorities
+before they are published but the public will see the particular
+loosely coupled voting on a particular deal that is at issue.
+Accordingly, potential DAOIC member conflicts of interest
+deriving from participation on the public side of a deal commitment
+are minimized.
+2. Accountability
+In the DAOIC model, the smart contract transparency is
+accompanied by enhanced accountability. Each transaction and
+purchase after a RNFT staked upvote can be easily tracked. Each
+DAOIC member transaction can be traced via wallets. This
+accountability in combination with enhanced transparency of the
+smart contract transactions increases overall counterparty risk
+reporting, if any.
+Because the smart contracts automate the purchase of the token
+opportunity by each DAOIC member and coordinates the payouts
+to the token opportunity, both parties are entirely accountable to
+each other. Funds do not get released until there is an upvote by the
+DAOIC members. Timing of the upvote follows the decentralized
+27
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+reputation staking governance mechanisms (Calcaterra & Kaal et al
+(2019)) and is thus also entirely public and transparent.
+Similarly, a smart contract can coordinate how the ROP can be
+minted into fungible reputation tokens. The ratio of ROP to fungible
+reputation token minting can be adjusted over time. This process is
+also entirely transparent to the DAOIC members.
+3. Market Power
+The relationship between the token opportunity, aka investment
+project, and the DAOIC has several dimensions that have long-term
+policy implications. It is conceivable that the DAOIC could gain
+substantial influence over the deal terms with token opportunities.
+This influence brings responsibility to the DAOIC members.
+In order to protect the DAOIC interests, it is conceivable to make it
+a condition for DAOIC purchases to bifurcate the DAOIC
+investment portion and co-purchase of the public market for each
+deal. In other words, the DAOIC would only purchase a token
+opportunity if the token opportunity team agrees to some of the
+terms below. Moreover, the DAOIC may have a reasonable
+expectation that the token opportunity creates favorable conditions
+for the DAOIC because the DAOIC RNFT staking sets the token
+opportunity up for success in the public sale portion of their token
+sale, both in the DAOIC portion of the public sale and any public
+sales thereafter. Accordingly, it may be reasonable to consider some
+of the following terms:
+1. The total amount of DAOIC purchase commitment.
+Token opportunity should agree to give DAOIC a
+percentage of the token opportunity as a right of first
+refusal before the public market gets access to said
+token opportunity
+2. The corresponding public market portion of the
+DAOIC engagement
+3. The timing of other public market purchases that
+materialize after the DAOIC purchase.
+28
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+4. Token opportunity should give the DAOIC most
+favorable terms for token purchases among any
+purchasers, e.g. timing, price, caps etc.
+5. Because the DAOIC creates a public market backlog
+effect because of its transparency, the token
+opportunity may be required to give the DAOIC
+preferred terms over any other early round with
+another VC fund / institutional investor.
+Contrasting the above evaluation as to the relationship between the
+DAOIC and the token opportunity, it is also conceivable that the
+token opportunity should treat the DAOIC and the market the same,
+and the DAOIC should insist on equal terms for the DAOIC and the
+overall market.
+Several arguments in favor of market neutrality could justify this
+approach:
+1. The DAOIC should not take a position that in any way can
+be seen or construed as moving or manipulating the market
+in a token opportunity. It is in the long-term interest of the
+DAOIC to be a market neutral player in digital assets.
+Market neutrality ensures long-term independence and
+lessens regulatory pressure. An overall DAOIC policy of
+market neutrality could help ensure that the DAOIC is, once
+it proliferates, not perceived as a bad actor by the market,
+counterparties, and regulators. Should the DAOIC be
+perceived as having a market impact, it could significantly
+increase corruptive influences coming from other market
+players. This, in turn, increases the likelihood of regulatory
+interventions.
+2. The DAOIC may insist that the token opportunity
+randomize its purchaser selection criteria post RNFT
+staking by the DAOIC on said token opportunity.
+Randomization can help ensure neutrality.
+3. The DAOIC may insist that the token opportunity
+anonymize its purchaser selection criteria post RNFT
+staking by the DAOIC on said token opportunity. This may
+29
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+run afoul of AML and KYC compliance requirements in
+several jurisdictions. Yet, it would instill market confidence
+into a fair allocation of token purchase opportunities, which
+would in the long run help the DAOIC because it makes it
+more likely for the DAOIC to be perceived as a neutral
+market oracle.
+4. Decentralized Coordination
+The DAOIC presents a core form of decentralized management. It
+does not feature any centralized form of management in the
+traditional sense. It is a true investment club in the sense that all
+decisions are made via RNFT staking, following the decentralized
+reputation staking governance mechanisms (Calcaterra & Kaal et al
+(2019)). All decisions are made independently by each DAOIC
+investor individually and without coordination. The smart contract
+only holds the purchase amount as a deposit until the RNFT
+validation pool has approved an investment. Once the investment
+has been approved by the validation pool, the smart contract
+releases the deposit directly to the project. No pooling of assets
+takes place.
+The ROP from each deal is also not pooled but rather paid out pro
+rata to the DAOIC members in proportion to their RNFT holdings.
+For the 20% of ROP that is coming in from the public and minted
+into fungible reputation tokens, pooling here only pertains to the
+portion that is considered an “access to information fee.” In other
+words, the 20% of ROP coming from the public is paid as a fee to
+the DAOIC in exchange for the ability to find out about the DAOIC
+deals that are upvoted via RNFT staking by DAOIC members.
+The key difference from the traditional VC model is that even for
+the co-purchases through the market, the DAOIC only makes their
+investment choices public. The co-purchases by the public are
+entirely voluntary, the DAOIC never provides investment analysis
+etc. All that is visible is that the DAOIC members approved for the
+DAOIC members’ smart contract to release the deposit for a
+purchase of the token opportunity. If the public trades along, that
+has arguable only a tentative connection to the DAOIC. It is similar
+30
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+to a VC fund disclosing publicly where they are investing and the
+public having direct access to also invest in such projects.
+V. Governance Adjustments
+Governance metrics in decentralized designs are subject to dynamic
+upgrade processes over time. The DAOIC governance design is
+subject to such governance upgrade requirements in a dynamic
+evolutionary process. The following ratios can be adjusted during
+different phases of the DAOIC. Ratio adjustments provide a key
+tool for strategic increases in profitability and overall DAOIC
+policy. Ratio adjustments should be subject to DAOIC member vote
+following the decentralized reputation staking governance
+mechanisms (Calcaterra & Kaal et al (2019)).
+1. Minting Ratio of Capital Commitment to RNFT
+DAOIC may start in the priming the pump phase 1 by keeping
+capital commitments to $2 mil for each incoming purchaser which
+is minted into 200 RNFT. This incentivizes people to commit
+capital to keep their spot. For simplicity, in phases 2 and 3, the
+DAOIC follows the baseline minting ratio of RNFT for an upvote
+proposal as specified in the decentralized reputation staking
+governance mechanisms (Calcaterra & Kaal et al (2019)).
+2. Ratio of Capital Commitment to RNFT Staking
+The ratio of capital commitment on a given deal to RNFT staking
+commitment on such deal illustrates how reliant the DAOIC is on
+incoming and committed capital. The ratio measures the degree of
+reputation usage as a proxy for capital. The DAOIC may mandate
+a minimum commitment in phases 1 and 2 but in phase 3 may wean
+off the ratio and, thus, enable an increasing reliance on RNFT
+staking and fungible reputation token revenue to DAOIC members.
+This ratio adjustment makes it possible to move away from capital
+to increase the community benefits of reputation as capital.
+31
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+3. Minting Ratio of ROP to Fungible Reputation Token
+The minting ratio of ROP on a funded deal to fungible reputation
+token measures the speed of capital conversion into fungible
+reputation tokens. Arguably, it should be a 1 to 1 ratio based on the
+ROP dollar equivalent value through phases 1-3, regardless if it is
+from the 20% of ROP from public purchases or the ROP from
+DAOIC purchases.
+During phase 3 it seems possible to consider an increase in the
+minting ratio as reputation increasingly replaces capital. This could
+have a significant impact on the scaling of the system and the
+returns of the DAOIC members. It may be defensible to adjust the
+ratio in phase 3 in an effort to scale the DAOIC publicly listed
+fungible reputation tokens and increase their value proposition. The
+counterargument here suggests that an increase in the ratio would
+increase supply which destroys demand. Yet, this may not be
+entirely true, it is theoretically possible that the demand for the
+reputation token is so significant that the ratio adjustment becomes
+a much welcomed policy tool to adjust pricing. Of course, there are
+potential legal issues associated with using the ratio adjustment as
+a policy tool.
+Arguably during phases 1-2, the minting ratio of the ROP to
+fungible reputation tokens as it pertains to the ROP from DAOIC
+member investments can be adjusted. The rationale for this
+adjustment is associated with the need for increased fungible
+reputation tokens during phases 1-2.
+During phase 3, the 20% of the public ROP portion is increasing the
+proportional ROP minting into fungible reputation tokens.
+Therefore, the need for a higher minting ratio from DAOIC ROP to
+fungible reputation token is removed over time.
+4. Ratio of Market to DAOIC Capital Commitments
+The ratio of market purchases to DAOIC purchases on a given deal
+is subject to many factors. This ratio is certainly affected by a cap
+on the total amount of potential purchases in a token opportunity.
+For example, some token opportunities may not at all be open to the
+public market because the token opportunity team decides it does
+not want public market exposure. Conversely, some token
+32
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+opportunity teams may decide to use the DAOIC purchase publicly
+to create a market frency in their token. It may be up to the DAOIC
+to determine what is in their best interest to maintain their collective
+reputation in the market and ensure ethical business practices and
+corresponding longevity of the DAOIC.
+It seems possible to use several measures pertaining to this ratio in
+an effort to adjust policy. For example, a predetermined cap on the
+ratio, e.g. 50/50 has effects on the market demand and profitability
+as well as on the ROP to fungible reputation minting ratio.
+5. Minting Ratio of Market Purchases to Fungible Reputation
+Tokens
+The ratio of market purchases to DAOIC purchases for a given deal
+as it relates to minting of new fungible reputation tokens is a
+measure for how much the market relies on and trusts the
+reputation-driven DAOIC.
+A higher proportion of market purchases to DAOIC purchases
+(assuming a fully transparent and efficient market) could justify
+higher minting of fungible reputation tokens because the higher
+proportion of market purchases to DAOIC purchases is testimony
+to the fact that the market increasingly adopts the reputation-driven
+opportunities that derive from RNFT staking by DAOIC members.
+VI. Conclusion
+The replacement of capital with reputation has several core benefits
+above and beyond traditional finance. Decentralized systems can
+take the removal of investment capital from deals to the next level.
+Replacing capital with reputation increases liquidity. When
+reputation takes over part of the role of capital it frees up otherwise
+locked capital that cannot fully be utilized. Decentralized
+investment vehicles are able to deploy capital more effectively
+because reputation staking on deals does not require the deployment
+of capital.
+33
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+REPUTATION AS CAPITAL
+34
+Electronic copy available at: https://ssrn.com/abstract=3949098
+
+35
+Electronic copy available at: https://ssrn.com/abstract=3949098
+

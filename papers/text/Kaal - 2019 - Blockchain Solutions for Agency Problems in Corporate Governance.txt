@@ -1,0 +1,753 @@
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+BLOCKCHAIN SOLUTIONS FOR AGENCY PROBLEMS IN
+CORPORATE GOVERNANCE
+WULF A. KAAL*
+Forthcoming in: ECONOMIC INFORMATION TO FACILITATE DECISION
+MAKING, EDITED BOOK, EDITOR- KASHI R. BALACHANDRAN, WORLD
+SCIENTIFIC PUBLISHERS (2019).
+Abstract
+As a foundational technology, blockchain technology creates the
+infrastructure for decentralized networked governance that, over time,
+creates the environment that enables the removal of internal and
+external monitoring mechanisms previously necessitated by agency
+problems in corporate governance. Blockchain technology facilitates
+a substantial increase in efficiency in the agency relationship and
+lowers agency costs in orders of magnitude.
+Key Words: Agency, Principal-Agent, Blockchain, Technology,
+Agency Cost, Monitoring, Corporate Governance, Blockchain,
+Distributed Ledger Technology, Emerging Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* (c) 2019 Professor of Law, University of St. Thomas School of Law
+(Minneapolis, USA).
+1
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+Table of Contents
+I. INTRODUCTION ......................................................................................... 3
+II. AGENCY PROBLEMS IN CORPORATE GOVERNANCE .................................... 4
+1. Remedial Attempts ................................................................................ 7
+2. Path Dependencies ............................................................................. 12
+III. BLOCKCHAIN SOLUTIONS FOR AGENCY PROBLEMS IN CORPORATE
+GOVERNANCE ................................................................................................ 13
+1. Blockchain Guarantees ....................................................................... 13
+2. Removal of Agents .............................................................................. 17
+3. Reforming Governance Hierarchies .................................................... 19
+4. Agency Reform ................................................................................... 22
+IV. OPEN ISSUES ....................................................................................... 23
+V. CONCLUSION ...................................................................................... 25
+2
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+I. Introduction
+Agency theory is still today the leading theory for governance
+conflicts between shareholders, corporate managers, and debt
+holders.1 A vast literature attempts to explain the nature of the agency
+conflicts in corporate governance and possible ways to resolve such
+conflicts.2 However, the core agency conflicts emanating from the
+separation of ownership (shareholder principal) and control (manager
+agent) cannot be fully addressed by the existing theoretical and legal
+framework. Attempts to monitor agents is inevitably costly and
+transaction costs abound.
+This book chapter adds to that literature and highlights the evolving
+solutions offered by blockchain technology. The scope and scale of
+agency problems in corporate governance can become more
+adequately manageable over time.
+It is important to note that any use of blockchain technology in a
+corporate governance context necessitates the evolution of blockchain
+technology. Such evolution is subject to several factors. Similar to the
+internet itself and perhaps even comparable to electricity, blockchain
+technology is not a disruptive technology, it is a foundational
+technology whose transformational impact takes decades rather than
+years. The use cases of blockchain technology involve most complex
+1 Michael C. Jensen & William H. Meckling, Theory of the Firm: Managerial
+Behaviour, Agency Costs and Ownership Structure, 3 J. Fin. Econ. 305 (1976).
+2 For an overview of the relevant literature Andrei Shleifer & Robert W. Vishny, A
+Survey of Corporate Governance, 737 J. Fin. 737 (1997).
+3
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+structures that are all interdependent. In other words, development of
+one area alone cannot be successful as the existence of multiple
+additional support structures are needed. By way of comparison, the
+use of electricity necessitated wiring and light bulbs, connectors,
+generators etc. One cannot exist without the others being in place.
+Even if the infrastructure elements are being developed in any of the
+major areas of use cases for blockchain technology complex
+discussions around structural changes are needed before the
+technology can be applied.
+The complexity of blockchain technology and its evolving
+characteristics and use cases also impacts its ability to serve in a
+corporate governance role. More specifically, in the corporate
+governance context it requires the authorities, who most likely
+understand the use case and not the technology, to come to a consensus
+on how and when to implement such technology for that governance
+use case.
+II. Agency Problems in Corporate Governance
+Agency problems originate from the lacking trust between principals
+and agents. The agency relationship can be defined as a contract
+between principal and agent whereby the agent acts on principals’
+behalf because principal delegated a modicum of decision-making
+authority to the agent.3 Because of the delegated authority, the agents’
+3 Jensen and Meckling, supra note 1.
+4
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+decisions affect both the agents’ welfare and the principals’ welfare.
+The agency model at its very basic level suggests that information
+asymmetries between the principal and the agent and agents’
+opportunistic behavior resulting from self-interest leads to principals’
+lacking trust in agents. Because of bounded rationality, incomplete
+foresight, and information asymmetries between principal and agent,4
+it is impossible for principals to contract for every possible action or
+inaction of the agent in order to induce the agent to act in the best
+interests of the principal.5
+The lacking trust in the agent’s performance of her duties creates the
+underlying problems in corporate governance. Despite best efforts at
+monitoring and bonding, the interest of manager agents and
+shareholder principals in corporate governance are never fully aligned
+and agency losses inevitably arise from conflicts of interest between
+principals and agents, known as residual loss. Residual loss arises
+because the cost of enforcing suboptimal contracts between principals
+and agents always exceed the benefits of performing the contractual
+obligations.
+Agency costs arise because the principal attempts to control, monitor,
+and supervise the agent. As a result of lacking trust in the integrity of
+the principal agent relationship, and in an attempt to minimize
+4 Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a New Institutional
+Economics Framework, in FESTSCHRIFT ZU EHREN VON CHRISTIAN KIRCHNER
+(Wulf A. Kaal & Schmidt M. Schwartze eds., 2014).
+5 Michael J. Brennan, Corporate Finance Over the Past 25 Years, 24 FIN. MGMT.
+9 (1995).
+5
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+information asymmetries, principals are forced to put into place costly
+mechanisms to align their interest with those of the agents. Most
+prominently, such control mechanisms involve periodic reporting,
+compensation structures for agents, bonding, among others. In the
+corporate context, agency costs can be seen as the lost value to
+shareholders (loss in corporation’s share price) that results from
+diverging interests between shareholders (principal) and corporate
+managers (agents). As such, agency costs are the sum of monitoring
+costs, bonding costs, and residual loss.6
+Monitoring costs are costs to the principal resulting from observing,
+measuring, and controlling an agent’s behavior. Monitoring costs can
+include the cost of audits, executing executive compensation
+contracts, and cost of hiring/firing manager agents. While such
+monitoring costs are generally paid by the principal, agents may be
+responsible for such costs as well because agents’ compensation is
+subject to adjustments to cover monitoring costs.7
+Bonding costs are the cost of establishing and adhering to system
+structures that allow agents to act in shareholder principal’s best
+interests or compensate shareholder principals appropriately if agents
+do not act in their best interest. While bonding costs are typically paid
+by the agents, they may in addition to financial costs include the cost
+of increased disclosures to shareholder principals. If the marginal
+6 Jensen & Meckling, supra note 1.
+7 Eugene F. Fama & Michael C. Jensen, Separation of Ownership and Control,
+88 J.L. & ECON. 301 (1983).
+6
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+reduction in monitoring equals the marginal increase in bonding costs,
+agents no longer incur bonding costs.
+The agency relationship in modern finance and corporate governance
+is characterized by attempts to optimize incentives between principals
+and agents, control costs, minimize information asymmetries, control
+adverse selection and moral hazard, optimize risk preferences between
+principals and agents, and engage in monitoring.
+1. Remedial Attempts
+Centralization around well-established principal-agent hierarchies in
+corporations defines the existing corporate governance structure.8
+Such governance hierarchy and the associated governance structures
+revolve around authority, responsibility and control flows with the
+investors at the epicenter of that hierarchy,9 particularly the minority
+investors.10
+The dominant corporate governance solution for the agency problem
+today focuses on shareholder value maximization.11 Implementation
+8 Ion Ivan et al., Requirements for Corporate Governance Assessment Based on
+Ontologies, 15 Econ. Informatics 49, 49 (2015); Mark Fenwick & Erik P.M.
+Vermeulen, The Future of Capitalism: “Un-Corporating” Coprorate Governance,
+(Lex Research Topics in Corp. Law & Econ., Working Paper No. 2016-4, 2016),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2795042.
+9 ICSA: THE GOVERNANCE INSTITUTE, What is Corporate Governance?,
+https://www.icsa.org.uk/about-us/policy/what-is-corporate-governance, (last visited
+Apr. 16, 2019).
+10 Rafael Law Porta et al., Investor Protection and Corporate Governance 2 (2000)
+(unpublished article), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=183908.
+11 According to the dominant view, the goal of a firm should be to increase the
+financial interests of the investors and by doing so the firm can maximize
+7
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+of the shareholder primacy doctrine results mostly in measures that
+aim at aligning the interests of all of the other actors/stakeholders
+within those of the investor-shareholders.12 Thus, reducing the risk of
+managerial misbehavior.13 If management acts opportunistically at the
+expense of shareholder value, the associated firm underperformance
+and possible bankruptcy harms all stakeholders. 14 Conversely, by
+aligning the interests and incentives of the various actors with those of
+the investor-shareholders, the resulting increase in firm performance
+— as measured by the share price — benefits all of the stakeholders
+in a firm, as well as the public who benefit from the goods and services
+opportunities to be successful. Stephen M. Bainbridge, Director v. Shareholder
+Primacy in the Convergence Debate, 16 TRANSNAT’L LAW. 45 (2002), available at
+https://scholarlycommons.pacific.edu/globe/vol16/iss1/5. Please CITE all in
+this debate with short summaries of their main points – there are many papers that
+summarize the debate with full citations to the debate participants. Make Marin,
+The Crisis of Shareholder Primacy, RESEARCH AT CAMBRIDGE (Mar. 19, 2012),
+http://www.cam.ac.uk/research/discussion/the-crisis-of-shareholder-primacy; H.
+Jeff Smith, The Shareholders vs. Stakeholders Debate, MITSLOAN MGMT REV.
+(July 15, 2003), http://sloanreview.mit.edu/article/the-shareholders-vs-
+stakeholders-debate/; Lynn A. Stout, The Shareholder Value Myth (Cornell Law
+Faculty Publications, Paper 771, 2013),
+https://scholarship.law.cornell.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&arti
+cle=2311&context=facpub.
+http://scholarship.law.cornell.edu/cgi/viewcontent.cgi?article=2311&context=facp
+ub
+12 N. Craig Smith & David Ronnergard, Shareholder Primacy, Corporate Social
+Responsibility, and the Role of Business Schools, 134 J. BUS. ETHICS 463 (2016).
+13 Alessio M. Pacces, RETHINKING CORPORATE GOVERNANCE: THE LAW AND
+ECONOMICS OF CONTROL POWERS (2013).
+14 Maria Maher & Thomas Andersson, Corporate Governance: Effects on Firm
+Performance and Economic Growth, ORGANISATION FOR ECONOMIC CO-
+OPERATION AND DEVELOPMENT 7 (1999),
+https://www.oecd.org/sti/ind/2090569.pdf; David Larrabee, Maximization of
+Shareholder Value: Flawed Thinking That Threatens
+Our Economic Future, ENTERPRISING INV. (Sept. 24, 2014), https://blogs.cfainstitu
+te.org/investor/2014/09/24/maximization-of-shareholder-value-flawed-thinking-
+that-threatens-our-economic-future/.
+8
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+that a successful firm provides.15 Following this logic, increasing
+shareholder control over other actors within the firm has become the
+primary goal of corporate governance rules.16 The correct corporate
+governance is seen as naturally resulting in shareholder value.17
+While the shareholder value approach to governance and many other
+attempts at optimizing corporate governance and addressing the
+agency problems in corporate governance helped optimize the agency
+problems, many examples suggest that the core underlying agency
+problems cannot fully be resolved within the existing theoretical and
+legal infrastructure.
+A standard approach for effective corporate governance involved
+outside independent directors on corporate boards who hold
+managerial positions in other companies, thus separating the problems
+of decision management and decision control.18 However, CEOs who
+often dominate the board make the separation of these functions much
+more difficult, which hurts shareholders. Furthermore, outside
+directors’ separation of decision management and decision control
+depends on their concern over reputation as an incentive, which is
+15 Stout, supra note 11 (Discussing residual claimants arguments and potential
+benefits to society through the company); see also Smith, supra note 12.
+16 Justin Fox & Jay W. Lorsch, What Good Are Shareholders, HARV. BUS. REV.
+(Jul.-Aug. 2012), https://hbr.org/2012/07/what-good-are-shareholders;
+17 Id.; Margaret
+M. Blair, Shareholder Value, Corporate Governance, and Corporate
+Performance: A Post- Enron Reassessment of the Conventional Wisdom, in
+CORPRATE GOVERNANCE AND CAPITAL FLOWS IN A GLOBAL ECONOMY 53-82
+(P.K. Cornelius & B. Kogut eds., Oxford University Press 2003).
+18 Fama & Jensen, supra note 7.
+9
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+insufficient in most cases.
+Another much touted governance mechanism for firms involved
+firms’ capital structures with emphasis on higher debt levels. Higher
+levels of insider ownership by increasing debt and reducing equity19
+in the firm’s capital structure acts as a bonding mechanism for
+manager agents.20 Management by issuing debt rather than paying
+dividends creates contractual obligations to pay out future cash flows
+in ways unattainable through dividends. Debt financing can also help
+create external capital market monitoring which incentivizes
+managers’ avoidance of personal utility maximization and increases
+value maximizing strategies for shareholders.21
+In an effort to curtail the inevitable instability that is a by-product of
+the pervasive agency problem in the corporate governance system,22
+governments have responded to corporate governance scandals by
+adopting a number of regulatory changes. Such changes include
+substantively increased disclosure requirements.23 Shareholder
+19 Jensen & Meckling, supra note 1.
+20 Michael C. Jensen, Agency Costs of Free Cash Flow, Corporate Finance and
+Takeovers, 76 Am. Econ. Rev. 323 (1986).
+21 Frank H. Easterbrook, Two Agency Cost Explanations of Dividends, 74 Am. Econ.
+Rev. 650 (1984).
+22 Mark J. Roe, The Inevitable Instability of American Corporate Governance, in
+RESTORING TRUST IN AMERICAN BUSINESS (American Academy of Arts and
+Sciences eds., 2004).
+23 Benjamin E. Hermalin & Michael S. Weisbach, Transparency and Corporate
+Governance (Nat’l Bureau of Econ. Research, Working Paper No. w12875, 2007),
+https://ssrn.com/abstract=958628; Fenwick & Vermeulen, supra note 8 (“The
+political response to corporate scandals has been the introduction of more regulation.
+10
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+activism reform by itself has been unable to sufficiently improve the
+corporate governance system.24 Upgrading the U.S. proxy system has
+been another government priority.25 Changes in executive
+compensation has been another approach to address the instability of
+the existing corporate governance system.26 Government-sponsored
+In a US context, for instance, “Sarbanes-Oxley” and “Dodd-Frank” function as
+shorthand for these new swathes of legal rules, but such a trend can be found
+everywhere. The inevitable result has been the emergence of a regulatory landscape
+that requires large modern corporations to make a much more significant investment
+in compliance and the management of legal risk.”).
+24 Stephen M. Bainbridge, Shareholder Activism and Institutional Investors (UCLA
+Sch. of Law Pub. Law-Econ. Research, Working Paper No. 05-20, 2005),
+https://ssrn.com/abstract=796227; Jonathan M. Karpoff, The Impact of Shareholder
+Activism on Target Companies: A Survey of Empirical Findings (2001), https://ssr
+n.com/abstract=885365 (“[T]he disagreement among researchers is more apparent
+than real. Most evidence indicates that shareholder activism can prompt small
+changes in target firms’ governance structures, but has negligible impacts on share
+values and earnings.”); Roberta Romano, Less Is More: Making Shareholder
+Activism A Valued Mechanism Of Corporate Governance (Yale Law & Econ.,
+Research Paper No. 241; Yale ICF, Working Paper No. 00-10; Yale SOM,
+Working Paper No. ICF- 00- 10) (2000), https://ssrn.com/abstract=218650 (“The
+finance literature presents an apparent paradox: Notwithstanding commentators'
+generally positive assessment of the development of such shareholder activism, the
+empirical studies suggest that it has an insignificant effect on targeted firms'
+performance. Very few find evidence of a positive impact, and some even find a
+significant negative stock price effect from activism.”); John C. Coffee Jr., Liquidity
+Versus Control: The Institutional Investor as Corporate Monitor, 91 COLUM. L.
+REV. 1277 (1991).
+25 The existing U.S. proxy system lacks transparency; has few accountability
+mechanisms; is complex and costly; tolerates record-keeping inaccuracies partially
+because it provides no audit trail; and produces voting results that cannot be verified.
+John C. Wilcox, Shareholder Nominations of Corporate Directors: Unintended
+Consequences and the Case for Reform of the u.S. Proxy System, in SHAREHOLDER
+ACCESS TO THE CORPORATE BALLOT (Lucian Bebchuck, ed. 2005); Henry T. C. Hu
+& Bernard S. Black, The New Vote Buying: Empty Voting and Hidden (Morphable)
+Ownership, 79 S. CALIF. L. REV. 811, 811 (2006);
+David Yermack, Shareholder Voting and Corporate Governance,
+2 Ann. Rev. Fin. Econ. 103 (2010).
+26 Lucian A. Bebchuk & Jesse M. Fried, Executive Compensation as an Agency
+Problem, 17 J. Econ. Persp. 71-92 (2003); Lucian A. Bebchuk et al., The Wages of
+Failure: Executive Compensation at Bear Stearns and Lehman 2000-2008, 27 YALE
+J. ON REG. 257-282 (2010); Roe, supra note 22.
+11
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+organizational experimentation that enables new business models and
+new organizational structures is desirable and valuable and may be one
+of the few ways to facilitate the much needed corporate governance
+reform.27
+2. Path Dependencies
+Despite the unresolved substantive problems associated with the
+division of ownership (shareholders) and control (agent),28 the
+corporate form with the diffused share ownership that leads to such
+conflicts, and the incomplete and suboptimal rules that govern such
+conflicts, remains the most popular form of a governance mechanism.
+The popularity of existing mechanisms to address the agency
+problems in corporate governance may be related to path
+dependencies created by the evolution of internal and external
+monitoring mechanisms in corporate governance and the evolution of
+governance mechanisms designed to limit the scope of agency
+problems, instituted to address the agency problems in corporate
+governance.
+Existing universal governance solutions are often ineffective because
+27 Bengt R. Holmström & Steven N. Kaplan, The State of U.S. Corporate
+Governance: What's Right and What's Wrong? (ECGI – Fin., Working Paper No.
+23/2003, 2003), https://ssrn.com/abstract=441100.
+28 Roe, supra note 22 (“The core fissure in American corporate governance is the
+separation of ownership from control—distant and diffuse stockholders, with
+concentrated management—a separation that creates both great efficiencies and
+recurring breakdowns.”).
+12
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+agency conflicts and the specific scope of agency conflicts differ
+across firms. Governance mechanisms and the effectiveness of
+governance mechanisms in reducing agency conflicts in firms differ
+from firm to firm. Each type of governance mechanism and
+combinations of governance mechanisms can help reduce aspects of
+agency costs associated with the separation of ownership (principal
+shareholder) and control (manager agent). However, existing
+governance mechanisms work well in some firms but are ineffective
+in others. The literature today is still lacking a comprehensive
+understanding of workable governance mechanisms and solutions
+across a broad spectrum of firms.
+III. Blockchain Solutions for Agency Problems in Corporate
+Governance
+Blockchain offers unprecedented solutions for agency problems in
+corporate governance. Supervisory tasks that were traditionally
+performed by principals to control their agents can be delegated to
+decentralized computer networks that are highly reliable, secure,
+immutable, and independent of fallible human input and discretionary
+human goodwill. Blockchain technology provides an alternative
+governance mechanism that eliminates agency costs - the principal’s
+cost of supervising agents - by creating trust in the contractual
+relationship between the principal and the agent.
+1. Blockchain Guarantees
+Blockchain technology provides formal guarantees to participating
+principals and agents that address agency problems in corporate
+13
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+governance. Because of the blockchain guarantees, the technology
+allows a qualitatively different solution for agency problems in
+corporate governance, especially if compared with the existing finance
+infrastructure that is riddled with agency problems (see credit rating,
+executive compensation etc.).
+The immutability of the blockchain and its cryptographic security
+systems provide transactional guarantees and create trust between
+principals and agents in the integrity of their contractual relationship.
+Such guarantees ensure no participant can circumvent the rules
+embedded in blockchain code. Blockchain guarantees include
+contract execution between principal and agent only if and when all
+contract parameters were fulfilled by both parties and verified by a
+majority of miners/nodes in the system. Hence, in the blockchain
+infrastructure, there is no need for the principal to institute oversight
+and monitoring with the associated agency costs. Because of the
+governance guarantees embedded in code, blockchain addresses the
+inherent agency problems in modern finance and corporate
+governance comprehensively.
+Blockchain technology secures the integrity of principal agent
+relationships by removing fraudulent transactions. Compared with
+existing methods of verifying and validating transactions by third
+party intermediaries (banking, lending, clearing etc.), blockchain’s
+security measures make blockchain validation technologies more
+transparent, faster, and less prone to error and corruption. While
+14
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+blockchain’s use of digital signatures helps establish the identity and
+authenticity of the parties involved in the transaction, it is the
+completely decentralized network connectivity via the Internet that
+allows the most protection against fraud. Network connectivity allows
+multiple copies of the blockchain to be available to all participants
+across the distributed network. The decentralized fully distributed
+nature of the blockchain makes it practically near impossible to
+reverse, alter, or erase information in the blockchain. Blockchains’
+distributed consensus model, e.g. the network “nodes” verify and
+validate chain transactions before transaction execution, makes it
+extremely rare for a fraudulent transaction to be recorded in the
+blockchain. Blockchain’s distributed consensus model allows node
+verification of transactions without comprising the privacy of the
+parties. Blockchain transactions are therefore arguably safer than a
+traditional transaction model that requires third-party intermediary
+validation of transactions. Blockchain technology is also substantively
+faster than traditional third-party intermediary validation of
+transactions.
+Cryptographic hashes used in blockchain technology further increase
+blockchain security and removes trust barriers in agency relationships
+that require monitoring of agents and create agency costs.
+Cryptographic hashes are complex algorithms that use details of the
+existing entirety of transactions of the existing blockchain before the
+next block is added to generate a unique hash value. That hash value
+ensures the authenticity of each transaction before it is added to the
+block. The smallest change to the blockchain, even a single
+15
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+digit/value, results in a different hash value. A different hash value in
+turn makes any form of manipulation immediately detectable. As
+such, hash cryptology provides another level of guarantee in a agency
+relationship executed through blockchain technology.
+Smart contracts enabled by blockchain technology allow for the
+comprehensive, near error free, and zero transaction/agency cost
+coordination of agency relationships. Smart contracts and smart
+property are blockchain enabled computer protocols that facilitate,
+verify, monitor, and enforce the negotiation and performance of a
+contract between principal and agent. Agency relationships in smart
+contracts run exactly as coded without any possibility of opportunistic
+behavior of the agent. All contractual terms are public and fully
+transparent. Accordingly, a company’s finances, for instance, are
+visible on the blockchain to anyone, not just to the company’s
+accounting department. Smart agency contracts run on a custom built
+blockchain, that enables principals and agents to store registries of
+debts or promises, create entire markets, among many other aspects
+that have not yet been considered.
+Agency related governance in the blockchain takes place without
+intermediaries, counterparty risk, and principal’s control mechanisms.
+Blockchain technology simply does not require the layers of control
+and verification that prior financial systems necessitated. Control
+mechanisms such as regular management (agent) meetings with
+shareholders (e.g. at the AGM etc.), financial disclosures,
+16
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+management agent scrutiny through analyst reports and financial
+press, pressure on management from stock market performance, hedge
+fund investors, and other institutional and private investors, are no
+longer part of the blockchain enabled agency relationship in corporate
+governance.
+Blockchain technology facilitates a substantial increase in the
+efficiency of agency relationships in orders of magnitude and lowers
+agency costs equally substantial in orders of magnitude. The removal
+of checks and balances in corporate governance, monitoring of agents,
+audit requirements, disclosure regimes, market pressure, executive
+agent compensation schemes, among many others, provides a
+qualitative shift in efficiency in the agency relationship and in
+corporate governance overall.
+Self-validating blockchain transactions can help resolve the agency
+issues between most of the stakeholders and constituents of modern
+corporations. In addition to addressing the traditional agency problem
+in corporate governance between shareholder principals and manager
+agents, blockchain enabled smart contracting allows for the public and
+fully transparent, secure, and completely networked exchange
+between the corporation and customers, owners and investors, other
+stakeholders, staff, regulators, strategic partners, suppliers and service
+providers.
+2. Removal of Agents
+Blockchain technology can facilitate the removal of agents as
+17
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+intermediaries in corporate governance through code, peer-to-peer
+connectivity, crowds, and collaboration. While it is still difficult to
+imagine a world without governance structures facilitated by agency
+constructs, Decentralized Autonomous Organizations (DAOs) have
+started to challenge the core believe that governance necessitates
+agency.
+The first DAO, launched in May 2016, in the founders’ attempt to set
+up a corporate-type organization without using a conventional
+corporate structure, had a governance structure that was entirely built
+on software, code, and smart contracts that ran on the public
+decentralized blockchain platform Ethereum. Because if was pure
+computer code it had no physical address, no jurisdiction that could
+claim jurisdiction/control over it, and it was not an organization with
+a traditional hierarchy as we know it from traditional corporate
+structures. The DAO did not use a traditional corporate structure that
+necessitated formal authority and empowerment flowing top down
+from investors/shareholders through a board of directors to
+management and eventually staff. Indeed, it had no directors,
+managers or employees. In essence, all the core control mechanisms
+typically employed by principals in agency relationships were entirely
+removed in the DAO.
+While the first DAO was subject to many limitations and ended in
+quite some controversy, future DAOs may be less prone to problems.
+Fundamental flaws in the DAO code enabled hackers to transfer one
+18
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+third of the total funds to a subsidiary account. This hack in
+combination with additional technological limitations brought down
+the first DAO initiative. Yet, future DAOs are already created and
+DAO enthusiasts never stopped testing it. A new DAO is currently
+being developed that is not set up as a Venture Capital Fund but rather
+as a donation DAO where participants donate and don’t expect returns.
+DAO enthusiasts and the DAO community in general are constantly
+improving the DAO and it seems possible that future DAOs may
+improve agency problems in corporate governance much more
+thoroughly than is currently fathomable.
+3. Reforming Governance Hierarchies
+DAO token holders are free from existing corporate hierarchies and
+their restricting effects. People who work for a DAO are subject to a
+different kind of agency relationship and not subject to a supervisor or
+CEO. Instead, DAO workers work in a dynamic set of working
+relationships that continuously and dynamically self-organize around
+projects and outcomes, not corporate hierarchies with implicit
+hierarchical biases and associated suboptimal outcomes.
+The core common denominator for all DAO token members is the
+unifying desire to optimize the DAO structure and the DAO token
+value. If a member-identified optimization has the potential to make
+the DAO more meaningful, useful, or valuable to the token holder
+members, the DAO token holders will desire to perform such
+optimization tasks as it is in their very interest to do so to help increase
+the value of the DAO tokens. Accordingly, token holders are
+19
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+determined to increase the value of tokens rather than lower the value.
+To increase the value of its tokens, members can make DAO
+optimization proposals, e.g. optimize the voting procedure, webpage
+etc., that explain what actions ought to be taken to optimize and what
+value such actions will add to the respective DAO token holder
+community. The token holder community then votes on a given
+optimization proposal. If a proposal passes, the proposing DAO
+member will receive an award in the form of new tokens. Any such
+payment is added to the respective DAO blockchain but now requires
+for the proposing token holder to perform on the proposed parameters
+of optimization. In other words, once the optimization proponent has
+made a deal with the DAO, it’s in the blockchain and the proponent is
+required to deliver on the proposal or her contract is cancelled.
+Performance assessment in the DAO structure is based on value
+optimization not on hierarchical or political processes. DAO workers’
+performance are assessed in an anonymized proposal voting scheme
+which is the only basis for assessment and payment. If DAO members
+perform well, they will get remunerated regardless of politics,
+background, or education. The only thing that counts for purposes of
+assessment of DAO works is their performance of optimization
+parameters. This is an important difference between classical
+corporate hierarchies and DAO member performance of optimization
+proposals, e.g. the DAO’s non-discriminatory performance measures.
+20
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+Non-performance penalties in the DAO structure are free from biases.
+If DAO community members do not deliver on a proposal that was
+voted in by the DAO token holder community they lose credibility in
+the DAO token holder community and may be perceived as lacking an
+ability to add value. In fact, non-performance on proposal comes with
+significant reputational penalties. Non-performers in the DAO
+structure will be less likely to have future opportunities to earn tokens
+because the other token holders are unlikely to approve non-performer
+proposals. Crucially, non-performance reputational penalties are
+entirely free from racial or cultural biases and associated implications
+as the token holders are unlikely to even know each other. Rather, they
+all work towards a common goal of optimizing the DAO and the token
+value.
+The DAO token holders’ focus on adding value benefits all
+constituents. Because projects that cannot add value take token
+holders’ time away from more productive endeavors, token holders
+become focused on managing their time and efforts. Unlike in
+traditional hierarchical organization where face-time and
+unproductive meetings are the norm, the self-governing DAO token
+optimizer avoids any such corporate hierarchy inefficiencies and frees
+herself from top-down inefficiencies and bad outcomes. In essence,
+the DAO work proposal and value optimization structure allows the
+avoidance of bad projects, bad colleagues, and unproductive meetings.
+The only thing that counts is the value proposition. In other words, the
+focus shifts from political positioning and supervisor pleasing without
+performance to a focus on adding active value to a given project. If
+21
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+value can be added, the tasks will be performed, if the assessment of
+the proposal suggests that the value proposition is in doubt token
+holders will try to spend their time and skills on more productive and
+value-adding tasks. Importantly, because the DAO structure functions
+without supervisors, DAO token holders who decide they cannot add
+value on a given task can move to more productive endeavors that
+better utilize their skills without any penalties that would exist in the
+traditional hierarchical corporate structure.
+Politics in the DAO structure have a different nature compared with
+traditional hierarchical corporate structures. In a traditional corporate
+hierarchy, position in the hierarchy and associated authority determine
+effort. In other word, the supervisor in the hierarchical structure can
+determine where, what, and when workers have to perform, resulting
+in suboptimal outcomes, attendance of unproductive and useless
+meetings, among many other negative effects. By contrast, in the
+decentralized DAO environment, influence is determined by the value
+a given token holder contributed to a project’s success.
+4. Agency Reform
+The “value to effort focus of work flows” in the DAO structure has
+the potential to reform agency relationships. The value-focused
+performance in the DAO structure helps optimize work flows and
+creates sustainable solutions for DAO token holders. The supervisor
+in the traditional hierarchical corporate structure can determine where,
+what, and when workers have to perform, which often results in
+attendance of unproductive meetings, facetime, support for
+22
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+suboptimal outcomes to please supervisors, among many other
+suboptimal outcomes. By contrast, in the decentralized environment
+of DAOs, influence and outcomes are not created by hierarchy but
+rather determined by the value a token holder’s contributions to a
+project’s success. Moreover, if a token holder adds substantial value
+to the DAO, other DAO token holders will want to add their skills in
+the same context which focuses the token holders’ efforts on the
+highest possible value proposition.
+The traditional regulatory infrastructure that attempts to overcome the
+corporate governance problems associated with the separation of
+ownership (shareholders) and control (management) relies heavily on
+fiduciary duties. In the DAO structure such duties are less needed.
+Because of the value to effort focus of work flows in the DAO
+structure, supervision of management and imposition of legal duties
+on management is less needed because there are fewer or no
+supervisors. Rather, token holders optimize the DAO together
+according to their best value propositions in accordance with their
+unique skillsets, backgrounds, and training.
+IV. Open issues
+The discussion above has outlined the potential of blockchain
+technology as an emerging technology for governance design. Many
+of the ideal-typical and theoretical evaluations therein are subject to
+real-world limitations.
+First and foremost, blockchain technology is a foundational
+23
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+technology whose transformational impact takes decades rather than
+years to take hold and reform legacy systems. Most complex systems
+and structures that will be reformed by the technology are
+interdependent. Reform and development of one area alone cannot be
+successful as the existence of multiple additional support structures
+are needed. Even if the infrastructure elements are being developed in
+any of the major areas of use cases for blockchain technology,
+complex discussions around structural changes in legacy systems are
+needed before the technology can be applied.
+In the corporate governance context, the application of blockchain
+technology may evolve within existing centralized structures or in a
+decentralized environment. The former requires the authorities to
+come to a consensus on how and when to implement such technology
+for the governance use case. For the latter, core issues that have
+afflicted centralized governance solutions, such as information
+asymmetries between principal and agent, censorship, opportunism of
+agents, breaches of fiduciary duties, liability rules for principals and
+agents, and fraud or third-party interference, can only be truly
+removed to fully reform the agency relationship if and when a truly
+decentralized public blockchain emerges that is scalable and fully
+secure.
+As agency relationships become more complex, a backstop for human
+behavior in agency relationships becomes necessary. The notion that
+agency relationships in smart contracts run exactly as coded without
+any possibility of opportunistic behavior of the agent is less likely to
+24
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE
+uphold in complex agency relationships. Similarly, without a
+decentralized human backstop to code, the immutability of the
+blockchain and its cryptographic security systems may not be able to
+create truly transactional guarantees and trust between principals and
+agents in the integrity of their contractual relationship.
+Blockchain-based corporate governance solutions in DAOs require
+evolutionary blockchain governance protocols. Socially optimal hard-
+forking rules cannot suffice. Blockchain-based guarantees embedded
+in blockchain code can help ensure that no participant in business
+transactions and agency relationships can circumvent the set of
+governance rules. Blockchain guarantees include contract execution
+between principal and agent only if and when all contract parameters
+were fulfilled by both parties and verified in a consensus algorithm.
+Hence, in the blockchain infrastructure, a lower level of oversight and
+monitoring of agents changes the cost structure of the principal agent
+relationship. Yet, the basis of such coded guarantees will evolve and
+require protocol upgrades for that changing environment. Without
+evolutionary governance upgrades the cost reduction for the agency
+relationship cannot be maintained.
+V. Conclusion
+Agency problems in corporate governance can be reformed by way of
+blockchain technology. As a foundational technology, blockchain-
+based governance solutions for agency problems in corporate
+governance depend on the creation of infrastructure components that
+have not yet been conceptualized in the decentralized technology
+25
+Electronic copy available at: https://ssrn.com/abstract=3373393
+
+BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE - VERSION 8.DOCX
+evolution. Once supported by the necessary infrastructure
+components, decentralized networked governance can, over time,
+create the environment that enables the removal of internal and
+external monitoring mechanisms previously necessitated by agency
+problems in corporate governance.
+Yet, the boundaries of technological implementation may necessitate
+a long-term commitment by all constituents in the governance reform
+process. Centralized and decentralized blockchain based governance
+solutions require different implementation efforts.
+26
+Electronic copy available at: https://ssrn.com/abstract=3373393
+

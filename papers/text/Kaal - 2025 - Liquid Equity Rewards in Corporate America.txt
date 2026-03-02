@@ -1,0 +1,1247 @@
+Draft Version 8 - September 2025
+Liquid Equity Rewards in Corporate America
+Wulf Kaal, Ph.D.1
+Abstract
+In an era of increasing shareholder activism, this essay examines Liquid Equity Rewards (LER),
+a blockchain-enabled mechanism that provides shareholders with time-weighted, utility-only
+incentives, as a novel way to improve corporate governance. LER uses a dual
+architecture—voucher-based for off-chain equities and programmable on-chain units—to
+encourage shareholder retention in the face of proxy battles, activist challenges, and corporate
+political complexities. LER is based on NASDAQ's tokenized stock framework, stablecoins, and
+DeFi liquid staking principles. The analysis compares LER's effectiveness to more conventional
+defenses like poison pills and assesses how well it complies with Delaware corporation law, US
+securities rules, and the EU's MiCA framework. LER's contributions include the potential to
+alleviate stock price volatility, lower activist success rates by 15–30%, and resolve ESG, M&A,
+and political expenditure issues in a market estimated to be worth $900 billion due to activism,
+driven by a $10 trillion capital shift to risk assets. Cost-benefit analysis suggests that LER’s
+governance enhancements and market opportunities outweigh implementation challenges. LER
+offers a scalable, transparent alternative that fosters stakeholder alignment and reshapes
+corporate governance for a dynamic financial landscape.
+Key Words: Blockchain, Tokenization, Shareholder Activism, Proxy Fights, Corporate
+Governance, Fiduciary Duties, Airdrops, Tokenized Stocks, Stablecoins, DeFi
+JEL Categories: G34, K22, O31, O32, L86
+1 Professor of Law. The author is grateful for excellent research assistance from Mickey Bernardi,
+research assistant.
+1
+
+Draft Version 8 - September 2025
+Table of Contents
+1. Introduction 3
+2. Liquid Equity Rewards 5
+2.1. How LER Works 6
+2.2. Why LER Matters 8
+2.3. Opportunities for LER 9
+3. LER in the Regulatory Landscape for Corporate Governance and Defenses 10
+3.1. Delaware Corporate Law 10
+3.2. U.S. Securities Regulation 11
+3.3. EU and International Frameworks 14
+4. LER in Proxy Fights 15
+4.1. LER Shape Proxy Fights 15
+4.2. Strategic Deployment of LER Airdrops 16
+4.3. Legal Boundaries Under Delaware and SEC Rules 18
+5. LER for Offsetting Stock Price Volatility 21
+5.1. Time-Weighted Rewards Between Annual Meetings 21
+5.2. Economic Incentives for Shareholder Retention 22
+6. LER in Incumbent-Activist Conflicts 23
+6.1. Incentivizing Alignment with Incumbents 23
+6.2. Co-Opting Activists Through Utility Rewards 24
+7. Broader Applications of LER in Corporate Politics 25
+7.1. ESG Disputes and Shareholder Proposals 25
+7.2. Merger and Acquisition Contests 26
+7.3. Political Spending and Lobbying Incentives 27
+7.4. Executive Compensation and Alignment 28
+8. LER Market Opportunity and Empirical Projections 29
+8.1. Sizing the Activism-Driven Market 29
+8.2. LER’s Role in Capital Reallocation 30
+9. Cost-Benefit Analysis of Implementing LER in Corporate America 31
+9.1. Costs and Risks 31
+9.2. Benefits: Governance Enhancements and Market Opportunities 33
+9.3. Net Evaluation 34
+10. Conclusion 35
+2
+
+Draft Version 8 - September 2025
+1. Introduction
+The incorporation of blockchain technology into corporate governance has sparked the
+development of novel approaches to deal with the complex relationships between corporate
+politics and shareholder activism. A blockchain-enabled system called Liquid Equity Rewards
+(LER) provides verified holders of stocks or tokenized assets with time-weighted, utility-only
+rewards. It is a game-changing tool for incumbent boards navigating proxy fights, activist
+investors, and other political issues in Corporate America. Inspired by the rise of stablecoins,
+liquid staking in decentralized finance (DeFi), and NASDAQ's tokenized stock structure, which
+was revealed on September 8, 2025.2
+LER employs smart contracts to distribute consumptive utilities, such as merchant vouchers or
+platform credits, fostering shareholder loyalty without imposing liquidity constraints. In an era
+where activist campaigns influence over $900 billion in market value annually in the United
+States,3 LER suggests a programmable alternative to traditional defenses like poison pills or
+staggered boards. As such, it enables incumbents to stabilize stock prices, align activists with
+management, and manage contentious governance disputes. Supported by regulatory
+advancements, including the 2025 Guiding and Establishing National Innovation for U.S.
+Stablecoins (GENIUS) Act,4 and the EU’s Markets in Crypto-Assets (MiCA) framework,5 LER
+capitalizes on a $10 trillion capital reallocation from fixed income to risk assets.6 The author
+2 Nasdaq Stock Market; Notice of Filing of Proposed Rule Change To Amend the Exchange’s Rules To
+Enable the Trading of Securities on the Exchange in Tokenized Form, 90 Fed. Reg. 45426, 45426–27
+(Sep. 22, 2025).
+3 Author's calculation based on data from 2024 Review of Shareholder Activism, BARCLAYS (Jan. 2025),
+https://corpgov.law.harvard.edu/wp-content/uploads/2025/01/Barclays-2024-Review-of-Shareholder-Activi
+sm_vF.pdf. Barclays tracked 115 U.S. activist campaigns in 2024 targeting companies with market
+capitalizations exceeding $500 million. Using the market cap distribution data reported therein (59%
+targeting $500M–$5B; 19% targeting $5B–$10B; 14% targeting $10B–$25B; 8% targeting >$25B) and
+applying midpoint averages to each segment for the approximately 100 distinct U.S. companies targeted,
+the aggregate market value calculates to: (59 companies × $2B average) + (19 companies × $7B
+average) + (14 companies × $15B average) + (8 companies × $60B average) ≈ $941 billion. This
+methodology counts each distinct company once and uses segment midpoints, likely underestimating the
+mega-cap category where 2024's largest targets included Texas Instruments ($182B), Walt Disney
+($168), and Pfizer ($166B). See id. at 3–5, 8–10 (providing campaign counts, market cap distributions,
+and specific target examples).
+4 The GENIUS Act of 2025 Stablecoin Legislation Adopted in the US, LATHAM & WATKINS (July 24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us.
+5 Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on markets
+in crypto-assets, 2023 O.J. (L 150) 40, http://data.europa.eu/eli/reg/2023/1114/oj.
+6 Henri Torbet & Ju-Hon Kwek, Asset Management 2025: The Great Convergence, MCKINSEY & CO. 13–14
+(2025) (estimating that structural shifts in asset management could unleash between $6 trillion and $10.5
+3
+
+Draft Version 8 - September 2025
+reviews LER’s applications in proxy fights, stock price stabilization, activist co-option, and
+broader corporate political contexts, evaluating its compliance with fiduciary duties, securities
+regulations, and alignment with market dynamics.
+Conventional board defenses can undermine shareholder rights and entrench management,
+even when they are successful in thwarting activist efforts. Staggered boards and poison pills
+are examples of defenses that frequently shield boards at the price of value generation and
+lessen accountability to shareholders.7 Empirical analyses have shown that firms with fewer
+defensive mechanisms often have higher market valuations and better operating performance,
+thus supporting calls for dismantling entrenchment tactics.8 Delaware courts have reinforced this
+scrutiny by applying enhanced standards under Unocal and Revlon that ensure defenses are
+proportional and do not undermine shareholder choice.9 For example, the Delaware Supreme
+Court upheld a poison pill in Airgas, Inc. v. Air Products & Chemicals, Inc., but emphasized its
+tentative nature, thus signaling that limits exist with regard to prolonged entrenchment.10
+This changing environment creates opportunities through cutting-edge instruments like LER,
+which uses utility-only, blockchain-based rewards to engage shareholders without running the
+risk of entrenchment like traditional defenses do. In line with Bebchuk's support of shareholder
+empowerment, LER provides a programmable substitute that encourages loyalty while abiding
+by legal and fiduciary requirements.11
+Through its utility-only incentive mechanism, LERs challenge and reshape traditional board
+defenses, including but not limited to advance notice bylaws, poison pills, and negotiated
+settlements. LERs engage shareholders adequately without entrenchment risks. For example,
+unlike advance notice bylaws, which can deter activist campaigns by burdening shareholders,
+LER increases shareholder loyalty through non-speculative rewards vouchers.12 Unlike poison
+trillion of “money in motion” over the next five years as investors reallocate from traditional fixed income
+into higher-yielding risk assets).
+7 Lucian A. Bebchuk, The Myth That Insulating Boards Serves Long-Term Value, 113 COLUM. L. REV. 1637,
+1653 (2013), https://www.jstor.org/stable/23561271.
+8 Lucian A. Bebchuk, Alon Brav, & Wei Jiang, The Long-Term Effects of Hedge Fund Activism, 115
+COLUMBIA L. REV. 1085, 1118–20.
+9 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955–57 (Del. 1985); Revlon, Inc. v. MacAndrews &
+Forbes Holdings, Inc., 506 A.2d 173, 180–82 (Del. 1986).
+10 Air Prods. & Chems., Inc. v. Airgas, Inc., 16 A.3d 48, 111–28 (Del. 2010).
+11 Lucian A. Bebchuk, The Case for Increasing Shareholder Power, 118 HARV. L. REV. 833, 837–41 (2005),
+https://harvardlawreview.org/wp-content/uploads/pdfs/bebchuk.pdf.
+12 Nasdaq Stock Market, supra note 2.
+4
+
+Draft Version 8 - September 2025
+pills, which may be invalidated by courts for disproportionality,13 LER’s universal, utility-focused
+airdrops avoid coercion and align with fiduciary duties under Unocal.14 Unlike negotiated
+settlements that, in granting activists board seats, risk incumbent entrenchment,15 LERs
+incentivize consensus and alignment through LER’s consumptive utilities, thus, reducing conflict
+while enhancing shareholder engagement. LER challenges traditional defenses in their reliance
+on restrictive mechanisms. Instead, LERs offer a scalable, compliance-aligned alternative that
+mitigates activist pressure while at the same time fostering accountability in a
+shareholder-centric governance landscape.
+2. Liquid Equity Rewards
+A dramatic reallocation of capital from underperforming fixed-income assets, like U.S.
+Treasuries, which yielded an average of 2.5–3% from 2015–2025 with nearly zero or even
+negative real returns after inflation, to equities with over 200% cumulative returns in the S&P
+500 and cryptocurrencies is evident as we navigate the financial landscape in September 2025.
+In this context, the total value locked (TVL) of decentralized finance (DeFi) has increased
+significantly from its prior levels to over $250 billion.16 Stablecoins, meantime, have risen to a
+value of almost $290 billion, processing trillions of transfers every month and opening the door
+for programmable, effective payments and cutting-edge loyalty programs. This background
+highlights how traditional banking and blockchain are increasingly overlapping, where tools like
+LER can play a pivotal role.
+By 2025, shareholder activism will affect over $900 billion in market value.17 The integration of
+blockchain technology into corporate governance has spurred innovative solutions to the
+complex problems of shareholder activism. Fundamentally, LER is a blockchain-driven system
+that gives verified shareholders time-weighted, utility-focused incentives. This gives boards a
+new approach to handling proxy conflicts, stock volatility, and other governance issues.
+13 Williams Cos. Stockholder Litig., 2021 WL 754593, at *35–37 (Del. Ch. Feb. 26, 2021).
+14 Unocal Corp., 493 A.2d at 955–57.
+15 See Marcel Kahan & Edward B. Rock, Hedge Funds in Corporate Governance and Corporate Control,
+155 U. PA. L. REV. 1021, 1031, 1050–56 (2007), https://www.jstor.org/stable/40041292 (describing
+companies granting activists board seats “in order to avoid a proxy fight” and explaining that regulatory
+constraints and costs discourage mutual funds from running proxy contests, concluding that mutual funds
+“have not instigated proxy contests or led the charge in pushing for changes in business strategy and
+management”).
+16 See DEFILLAMA, https://defillama.com/?liquidstaking=true (last visited Sep. 28, 2025) (reporting billions in
+total value locked in liquid staking protocols, reflecting its widespread adoption in DeFi).
+17 BARCLAYS, supra note 3.
+5
+
+Draft Version 8 - September 2025
+Motivated by stablecoin dependability, DeFi liquid staking retention tactics, and NASDAQ's
+tokenized stock structure, LER promotes enduring shareholder dedication without the
+disadvantages of traditional defenses like restrictive bylaws or poison pills.18
+2.1. How LER Works
+LER can be viewed as a clever, two-tiered system that uses blockchain technology to provide
+shareholders with simple, non-speculative benefits across both regular (off-chain) and tokenized
+(on-chain) stocks. It addresses the drawbacks of traditional loyalty programs, which frequently
+cause businesses to incur delayed obligations and find it difficult to hold onto assets without
+engaging in hazardous speculation. LER, on the other hand, presents a useful model to make
+rewards effective and accessible.
+A staged strategy is used to encourage adoption. Pilots are conducted using the Independent
+Model among smaller entities, such as boutique brokerages or pink sheet corporations, and
+then the Merchant Model is gradually adopted to unleash the value uplift and promote greater
+network synergies.
+LER uses a straightforward voucher system for off-chain stocks. Registered shareholders
+receive digital or physical vouchers that can be used for common benefits like platform credits or
+discounts at retailers. With a strong focus on utility, it expands upon NASDAQ's tokenized
+framework on the on-chain side to issue programmable, non-transferable reward units, like
+soulbound tokens (SBTs), that are anchored to particular wallet addresses.19
+Similar to how DeFi liquid staking leverages yields to encourage retention, these payments
+increase over time based on holding durations (for example, 30–90 days), encouraging
+prolonged ownership without locking up liquidity.20 While using zero-knowledge proofs (ZKPs)
+for verification that complies with privacy regulations, smart contracts take care of the heavy
+lifting by automating distributions linked to verified ownership.21 Programmatic orders, KYB
+18 Nasdaq, supra note 2; Bebchuk et al., supra note 7, at 1645–50.
+19 Nasdaq, supra note 2.
+20 See What are Soulbound Tokens (SBT)?, COINBASE,
+https://www.coinbase.com/en-gb/learn/crypto-glossary/what-are-soulbound-tokens-sbt (last visited Oct. 8,
+2025).
+21 See Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the
+protection of natural persons regarding the processing of personal data, arts. 25, 32, 2016 O.J. (L 119) 1,
+6
+
+Draft Version 8 - September 2025
+compliance, and ownership checks are made possible without the need for further layers thanks
+to Dinari's FINRA approval on June 26, 2025, and its Avalanche-based Layer 1 launch on
+August 14, 2025, which expedites tokenized equity integration through APIs.22 Supported 1:1 by
+U.S. stocks, Dinari's dShares increase access, notably through EU collaborations like Gemini,
+and might accelerate the LER deployment by three to six months. It's a clear method to foster
+loyalty without getting into speculation, so picture a holder of tokenized Apple shares getting
+regular retailer coupons or credits through NASDAQ's structure.
+LER avoids balance-sheet drags and streamlines finances by using marketing budgets at a
+modest $0.01–0.05 per holder-day and expensed upfront under U.S. GAAP. Drawing inspiration
+from consumer loyalty programs that that reduce shareholder turnover by 15–30% through
+interesting, non-cash incentives.23 LER appeals to institutions with over 20% of S&P 500 voting
+power24 and retail investors, who hold roughly 40% of U.S. equities.25
+http://data.europa.eu/eli/reg/2016/679/oj (requiring data protection by design and by default, and
+mandating security measures such as encryption and pseudonymization).
+22 See Dinari Securities, LLC Receives Broker-Dealer Registration, DINARI (JUNE 30, 2025),
+https://dinari.com/blog/dinari-securities-llc-receives-broker-dealer-registration; Dinari Launches the Dinari
+Financial Network, an Omni-Chain Orderbook Powered by Avalanche, DINARI (Aug. 14, 2025),
+https://dinari.com/blog/dinari-launches-the-dinari-financial-network-an-omni-chain-orderbook-powered-by-
+avalanche.
+23 Evidence from European loyalty shares points to increased ownership stability and, consistent with that,
+lower trading intensity. See Maria Lucia Passador, Game of Votes: Loyalty Shares and the New
+Battleground for Corporate Control, EUR. BUS. ORG. L. REV. (forthcoming 2025) (Manuscript at 26–28),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5223830 (reporting trading volumes inversely
+related to ownership concentration and a statistically significant stability effect); The 15–30% range is
+benchmarked against analogous mechanisms: Serdar Aldatmaz, Paige Ouimet & Edward D. Van Wesep,
+The Option to Quit: The Effect of Employee Stock Options on Turnover, 127 J. FIN. ECON. 136, 149 (2018)
+(20% turnover reduction in pre-vesting stock options); Growave, Gamification in Loyalty Programs (2024),
+https://www.growave.io/blog/gamification-loyalty-programs (reporting 22–30% retention through gamified
+loyalty programs); Global Loyalty Programs Market Intelligence and Future Growth Dynamics Report
+2025, GLOBENEWSWIRE (Sept. 4, 2025),
+https://www.globenewswire.com/news-release/2025/09/04/3144304/0/en/Global-Loyalty-Programs-Market
+-Intelligence-and-Future-Growth-Dynamics-Report-2025-Coalition-Expansion-and-Gamified-Rewards-Red
+efine-Customer-Engagement-Across-Retail-Banking-and-T.html.
+24 Lucian A. Bebchuk & Scott Hirst, The Specter of the Giant Three, 99 B.U.L. REV. 721, 724–27, 736,
+740–41 (2019).
+25 See generally 2025 Capital Markets Outlook, SIFMA (Jan. 1, 2025),
+https://www.sifma.org/wp-content/uploads/2025/01/2025-Capital-Markets-Outlook-SIFMA.pdf (providing
+data on household equity ownership as a share of the U.S. market, illustrating the retail investor base to
+which LER could appeal); Financial Accounts of the United States: Flow of Funds, Balance Sheets, and
+Integrated Macroeconomic Accounts Second Quarter 2025, BD. OF GOVERNORS OF THE FED. RSRV. SYS., tbl.
+L.224, lines 31 & 32 Corporate Equities (Q2 2025),
+https://www.federalreserve.gov/releases/z1/20250911/z1.pdf (reporting that households and nonprofits
+directly held $41.79 trillion of the $99.80 trillion in corporate equities outstanding, or about 41.9%).
+7
+
+Draft Version 8 - September 2025
+2.2. Why LER Matters
+LER transforms corporate governance by offering a cooperative, shareholder-friendly alternative
+to antiquated defenses that frequently protect management at the expense of value. Consider
+advance notice bylaws, which, as Bebchuk notes, might suppress activism by imposing
+needless obstacles, or poison pills, which in turn can weaken activist views but invite judicial
+challenges for overreach.26 In contrast, LER encourages shareholder involvement through
+utility-driven, inclusive incentives that align with important Delaware precedents such as Unocal
+and Blasius.27 Because LER does not involve cash yields, LER avoids Howey test pitfalls as an
+investment contract, staying compliant with SEC safeguards against manipulation.28
+LER’s true comparative advantage lies in its ability to curb shareholder turnover by 15–30%,
+benchmarked against proven loyalty initiatives, which in turn helps solidify ownership amid
+activist-fueled swings.29 In proxy contests, where activists prevail in about 40% of cases,30
+frequently capitalizing on retail sell-offs, LER matters a great deal because LER could trim those
+wins by 15–30%,31 thus fortifying boards—especially for retail holders who represent 40% of
+U.S. equities.32 BlackRock and other giants in the industry stand to gain from the clarity LER
+provides.
+LER's growth potential derives from its ability to participate in the $10 trillion capital pivot and a
+projected $2 trillion tokenized asset market by 2030.33 LER could thus participate in the $900
+26 Lucian A. Bebchuk & Robert J. Jackson, Jr., The Law and Economics of Blockholder Disclosure, 2
+HARV. BUS. L. REV. 39, 47–49 (2012) (arguing that tighter Blockholder disclosure rules deter activism and
+entrench management); Williams Cos. Stockholder Litig., 2021 WL 754593, at *1–2, *25–27 (Del. Ch.
+Feb. 26, 2021).
+27 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955–57 (Del. 1985); Blasius Indus., Inc. v. Atlas
+Corp., 564 A.2d 651, 661–62 (Del. Ch. 1988).
+28 SEC v. W.J. Howey Co., 328 U.S. 293, 298–99 (1946); 17 C.F.R. § 240.10b-5 (2025).
+29 Passador; Aldatmaz, Ouimet & Wesep; Growave, supra note 23.
+30 Shareholder Activism Annual Review 2025, DILIGENT MARKET INTELLIGENCE 9–10 (2025) (reporting U.S.
+activist success rates of roughly 35–45% depending on method, with dissidents securing board seats or
+settlements in about 40% of contests).
+31 Yao Gao & Yoshiaki Nose, Long-term shareholder perks and stock price reaction, 19(4) PLOS ONE
+e0300284, at 1, 13–15 (2024), https://doi.org/10.1371/journal.pone.0300284) (long-term perk
+announcements expand retail holder base).
+32 SIFMA & BD. OF GOVERNORS OF THE FED. RSRV. SYS., supra note 25.
+33 Torbet & Kwek, supra note 6; Anutosh Banerjee, Julian Sevillano, & Matt Higginson, From ripples to
+waves: The transformational power of tokenizing assets, MCKINSEY & CO. (Jun. 20, 2024),
+https://www.mckinsey.com/industries/financial-services/our-insights/from-ripples-to-waves-the-transformat
+ional-power-of-tokenizing-assets.
+8
+
+Draft Version 8 - September 2025
+billion creation of activism-influenced value.34 Unlike activist shareholder settlements that can
+create boardroom tensions by ceding board seats,35 LER is intended to promote widespread
+harmony among shareholders. As we will see further below, LER reimagines corporate
+defenses as inclusive tools, thus delivering scalable, compliant answers for proxy fights, ESG
+debates, M&A tussles, and political expenditures.36
+2.3. Opportunities for LER
+Opportunities created for LER are significant. LER can capitalize on the $10 trillion market pivot
+from fixed income,37 roughly $500 billion in annual ETF inflows from bond-to-equity shifts,38 a $4
+trillion crypto space,39 the fusion of DeFi and loyalty ($250 billion in liquid staking TVL),40 and
+favorable regulations like the GENIUS Act, alongside EU MiCA exemptions for non-transferable
+utility tokens. This primes LER to capture the roughly $94 billion global loyalty rewards sector
+with a low-risk, utility-centric model.41
+Smooth tokenized equity mixing is made possible by Dinari's API, and merchant network
+connections may increase pilots' velocity gains by five times. Fiat-equivalent revenue from
+redemptions eases sell-offs; for large issuers like American Airlines, this may result in an annual
+savings of $440 million in debt refinances.42 Everyone benefits: merchants gain from faster
+spending at reduced acquisition costs, brokers experience an increase in trade volumes through
+rebates, and holders enjoy more liquidity and benefits. LER's adaptable, user-friendly design
+34 BARCLAYS, supra note 3.
+35 Kahan & Rock, supra note 15, at 1077–82.
+36 Bebchuk, supra note 11, at 838–42, 856–62, 896–902.
+37 Torbet & Kwek, supra note 6.
+38 Aniket Ullal, Retail Investors Power US ETF Flows Past $500B in 2025 Despite Macro Risks,
+WEALTHMANAGMENT (June 24, 2025),
+https://www.wealthmanagement.com/etfs/retail-investors-power-u-s-etf-flows-past-500b-in-2025-despite-
+macro-risks.
+39 Market Statistics, COINBASE, https://www.coinbase.com/market-stats (last visited Oct. 8, 2025).
+40 DEFILLAMA, supra note 16.
+41 Global Loyalty Programs Report, supra note 23.
+42 This figure is based on the merchant network revenue model where voucher redemptions generate
+fiat-equivalent revenue for issuers. Large firms like American Airlines, with substantial loyalty programs
+and debt loads of $25–40 billion, could direct these cash flows toward systematic debt reduction.
+Companies achieving credit rating improvements of 1–2 notches could refinance maturing debt at
+150–200 basis points lower rates, potentially producing $440 million in annual interest savings. The
+favorable accounting treatment enhances this pathway by eliminating the balance sheet drag of deferred
+revenue liabilities, improving financial ratios that credit rating agencies evaluate. See Delta Air Lines
+December Quarter and Full Year 2024 Financial Results (Jan. 2025); American Airlines Fourth-Quarter
+and Full-Year 2024 Financial Results (Jan. 2025).
+9
+
+Draft Version 8 - September 2025
+sets it apart from activity-tied Qiibee and crypto-focused Lido (with $39 billion TVL).
+Airdrop-style payouts are made possible via NASDAQ's filing and Dinari's API. With a positive
+perspective, anticipate a 10x velocity expansion by 2030, capturing 5–10% of yield streams and
+generating 20–50% retention lifts, which will open up capital for Millennials and Gen Z.
+3. LER in the Regulatory Landscape for Corporate
+Governance and Defenses
+Corporate defenses against shareholder activism are governed by a complex regulatory
+framework that includes Delaware corporation law, federal securities laws in the United States,
+and international frameworks. Each of these frameworks imposes unique requirements to strike
+a balance between the rights of shareholders and the power of the incumbent board. The
+investigation of novel tools like LER is prompted by the increased scrutiny of traditional
+defenses like advance notice bylaws and poison pills for possible entrenchment.43 By
+encouraging participation without using coercive methods, LER complies with regulatory
+standards and provides a fresh way to handle activist concerns.44
+3.1. Delaware Corporate Law
+The main framework for assessing board defenses against shareholder activism is Delaware,
+the legal home of more than 60% of publicly traded firms in the United States. It applies more
+scrutiny to make sure that actions are reasonable and non-preclusive. According to the Unocal
+standard, defensive measures like advance notice ordinances or poison pills must be a
+reasonable reaction to a real threat and must not unnecessarily restrict shareholder rights.45
+Under the Unocal standard as established by courts, boards of directors must establish a good
+faith belief in a threat to corporate policy and in the corresponding proportionality of director
+responses, thus balancing defensive needs against shareholder voting rights.46 The Revlon
+doctrine mandates in change-of-control scenarios that boards prioritize shareholder value
+maximization, thus precluding defenses that entrench management at the expense of a higher
+43 Bebchuk, supra note 7, at 1645–50.
+44 Bebchuk, supra note 11, at 837–40.
+45 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955–57 (Del. 1985).
+46 Id. at 955.
+10
+
+Draft Version 8 - September 2025
+bidder.47 The Delaware Chancery Court’s Blasius standard imposes even stricter scrutiny on
+actions that directly undermine shareholder voting rights, requiring a “compelling justification” to
+avoid invalidation.48 For example, in Chesapeake Corp. v. Shore, the Delaware Chancery Court
+critiqued and struck down overly restrictive advance notice bylaws that effectively precluded
+shareholder nominations, thus reinforcing the limits on entrenchment.49
+Boards are frequently insulated by these defenses. Furthermore, mechanisms like staggered
+boards or restrictive bylaws can significantly reduce accountability and undermine
+value-enhancing activist interventions.50 Case in point, firms with fewer defensive barriers
+exhibit higher market valuations and operational performance, thus, supporting calls for
+dismantling entrenchment tactics.51
+LER responds to these critiques by enhancing shareholder loyalty without impairing voting
+rights. Unlike poison pills, which risk invalidation for disproportionality,52 LER’s comprehensive
+distribution design is aligned with Unocal’s proportionality requirement, because LERs
+incentivize retention without precluding activist nominations.53 LER also satisfies Blasius
+standards by avoiding discriminatory treatment, offering a governance tool that aligns with
+Bebchuk’s advocacy for shareholder empowerment.54
+3.2. U.S. Securities Regulation
+U.S. federal securities regulations provide standards to ensure fair and transparent shareholder
+engagement, particularly in proxy contests and defensive actions. SEC Rule 14a-9 prohibits
+false or misleading statements in proxy solicitations, mandating boards to disclose material
+information about defensive measures to avoid misleading shareholders.55 The Williams Act in
+particular regulates tender offers and shareholder disclosures, requiring timely reporting of
+significant ownership stakes, that is, 5% or more, to prevent covert stock ownership
+accumulations by activists.56 The core antifraud rule, Rule 10b-5, prohibits actions that artificially
+47 Revlon, Inc. v. MacAndrews & Forbes Holdings, Inc., 506 A.2d 173, 180–82 (Del. 1986).
+48 Blasius Indus., Inc. v. Atlas Corp., 564 A.2d 651, 661–62 (Del. Ch. 1988).
+49 Chesapeake Corp. v. Shore, 771 A.2d 293, 328–30 (Del. Ch. 2000).
+50 Bebchuk, supra note 7, at 1655–57.
+51 Bebchuk, Brav, & Jiang, supra note 8.
+52 Williams Cos. Stockholder Litig., 2021 WL 754593, at *25–27 (Del. Ch. Feb. 26, 2021).
+53 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955–57 (Del. 1985).
+54 Bebchuk, supra note 11, at 837–40.
+55 17 C.F.R. § 240.14a-9 (2025).
+56 15 U.S.C. §§ 78m(d)-(e), 78n(d)-(f) (2025); Bebchuk & Jackson, Jr., supra note 26, at 45–47.
+11
+
+Draft Version 8 - September 2025
+influence stock prices, such as coordinated buybacks or selective disclosures, ensuring market
+integrity.57
+LER’s utility-only design, delivering non-transferable voucher rewards, comparable to merchant
+credit vouchers, aligns with US federal securities regulations. In particular, LER as vouchers are
+designed to incentivize stock ownership through a rewards system and do not qualify as
+securities under the Howey test, as outlined by the US Supreme Court in SEC v. W.J. Howey
+Co.58 Under the Howey test an investment contract requires: (1) an investment of money, (2) in
+a common enterprise, (3) with a reasonable expectation of profits, (4) derived from the
+entrepreneurial or managerial efforts of others.59 While LERs may satisfy the first two prongs,
+they fail to meet the critical third and fourth prongs, thus ensuring they are not securities under
+U.S. federal securities law:
+1. Investment of Money: Holding an issuer’s stock for a certain time period may trigger
+LER minting. LER are vouchers that have no direct monetary value. Thus, they would
+not be classified as money. But, courts have interpreted “money” broadly to include
+tangible or intangible value.60
+2. Common Enterprise: A common enterprise may exist under the Howey test through
+either the horizontal or vertical commonality tests. Horizontal commonality could apply if
+the issuer pools funds to distribute LER. However, issuer discretion in LER reward
+allocation may weaken this element.61 Vertical commonality may be present, as the LER
+ecosystem and merchant network align the interests of holders of LERs and issuers of
+stock to accomplish its mission.62 Courts may find a common enterprise exists in LERs
+under one of the tests. However, there is some uncertainty on qualifying LER as a
+common enterprise given the inconsistent treatment and precedent in different district
+courts.63
+3. Expectation of Profits: LER as vouchers are non-transferable, have no inherent value,
+are not listed as fungible assets, and cannot be traded. As such, LER issuance
+precludes any expectation of profit through capital appreciation.64 LERs are minted as
+57 17 C.F.R. § 240.10b-5 (2025); SEC v. Texas Gulf Sulphur Co., 401 F.2d 833, 860–62 (2d Cir. 1968).
+58 SEC v. W.J. Howey Co., 328 U.S. 293, 298–99 (1946).
+59 Id.
+60 Id. at 301; SEC v. Ripple Labs, Inc., 682 F.Supp.3d 308, 323 (S.D.N.Y. 2023).
+61 Ripple Labs, 682 F. Supp.3d at 325–26.
+62 SEC v. Telegram Grp. Inc., 448 F. Supp. 3d 352, 368–69 (S.D.N.Y. 2020).
+63 Id.
+64 United Hous. Found., Inc. v. Forman, 421 U.S. 837, 852–53 (1975).
+12
+
+Draft Version 8 - September 2025
+consumptive utilities, function as vouchers granting discounts or cashback, spendable at
+merchants. As such, LERs are compensatory, tied to holders’ own actions, e.g., whether
+to hold or sell stock. There is no speculative gain associated with LERs. The LER
+voucher rewards’ value derives from merchant redemption, e.g., acceptance of LER
+issued by other merchants, not issuer performance. These key LER features align with
+the proposed 2025 safe harbors for non-investment tools and distinguish LER from
+profit-driven instruments.65
+4. Derived from Efforts of Others: LER voucher rewards are driven by stockholders’
+efforts in maintaining stock ownership for a certain time period. LER accrual is
+automated via smart contracts and does not rely on LER’s ecosystem, merchants, or
+issuers’ managerial efforts.66 LER’s role is ministerial, facilitating the platform and reward
+distribution without discretionary control over the ecosystem’s success or reward
+amounts. This distinguishes LER from cases like SEC v. LBRY, Inc., where the court
+held that promotional efforts created profit expectations.67 The non-transferability of LER
+further rules out any reliance on a secondary market, unlike Dapper Labs, Inc., where
+the court held that a private blockchain tied NFT value to managerial efforts.68
+SEC Guidance further suggests that LERs are likely to stay clear of any US Federal securities
+law violations. For example, the SEC’s IMVU No-Action Letter supports LER as non-securities,
+as VCOIN was deemed non-securitized because of its fixed-price, non-speculative nature, and
+lack of reliance on platform upgrades for value.69 Similarly, LERs are not marketed as
+speculative, and their value stems from stockholder actions—for example, how long to maintain
+stock ownership— rather than from LER’s managerial efforts. The SEC’s 2019 Framework
+further emphasizes that digital assets driven by user actions, not promoter efforts, are less likely
+to be securities.70
+Accordingly, LERs do not meet the requirements of the Howey test’s third and fourth prongs.
+LER lacks an expectation of speculative profits and does not rely on the entrepreneurial efforts
+65 Id. at 852–54; Framework for “Investment Contract” Analysis of Digital Assets, SEC (July 5, 2024),
+https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-a
+nalysis-digital-assets.
+66 Howey, 328 U.S. at 298–99.
+67 SEC v. LBRY, Inc., 639 F. Supp. 3d 211, 221–22 (D.N.H. 2022).
+68 Friel v. Dapper Labs, Inc., 657 F. Supp. 3d 422, 449 (S.D.N.Y. 2023).
+69 IMVU, Inc., SEC No- Action Letter (Nov. 19, 2020),
+https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance
+-no-action/imvu-111920-2a1.
+70 Framework for “Investment Contract,” supra note 65.
+13
+
+Draft Version 8 - September 2025
+of others. The LER design, as non-transferable compensatory electronic voucher rewards within
+a closed-loop ecosystem, ensures that LERs function as utilities, not securities, under U.S.
+federal securities law.
+3.3. EU and International Frameworks
+In the European Union, the Transparency Directive and the Markets in Crypto-Assets (MiCA)
+Regulation provide the relevant frameworks for ownership disclosure and crypto-asset
+classification. The Transparency Directive requires shareholders to promptly notify issuers when
+their holdings cross specified thresholds, and issuers must then disclose those notifications
+publicly to maintain market transparency—an obligation especially relevant in activist contexts.
+71 MiCA exempts non-transferable utility tokens, such as LER’s voucher rewards, from white
+paper and issuer authorization requirements, as long as they lack investment characteristics
+and are confined to closed-loop ecosystems.72 The MiCA exemption aligns with LER’s design,
+which delivers non-transferable, consumptive token rewards utilities, thus avoiding classification
+as electronic money tokens (EMTs) or financial instruments.73
+The UK’s Financial Conduct Authority (FCA) may also support LER’s viability by allowing
+non-transferable voucher rewards as loyalty perks under limited-network exemptions, as long as
+such voucher rewards avoid investment-like marketing.74 By leveraging blockchain’s
+transparency and MiCA’s exemptions, LER may ensure equitable token reward distribution
+without precluding shareholder rights.75 Furthermore, the use of ZKPs for ownership verification
+71 Directive 2004/109, of the European Parliament and of the Council of 15 Dec. 2004 on the
+Harmonisation of Transparency Requirements and Amending Directive 2001/34/EC, arts. 9, 12, 2004 O.J.
+(L 390) 38 (EC), amended by Directive 2013/50, 2013 O.J. (L 294) 13 (EU).
+72 Regulation (EU) 2023/1114, supra note 5, at recital 10, art. 4(2).
+73 FINANCIAL ACTION TASK FORCE, UPDATED GUIDANCE FOR A RISK-BASED APPROACH TO VIRTUAL ASSETS AND VIRTUAL
+ASSET SERVICE PROVIDERS 84, at 33 (Oct. 2021),
+https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html.
+74 FINANCIAL CONDUCT AUTHORITY, POLICY STATEMENT PS23/6: FINANCIAL PROMOTIONS FOR CRYPTOASSETS (June
+2023),
+https://www.fca.org.uk/publications/policy-statements/ps23-6-financial-promotion-rules-cryptoassets
+(noting that only cryptoassets that are transferable and fungible fall within the financial promotions regime,
+thereby excluding non-transferable, closed-loop voucher rewards such as loyalty perks); BaFin, Crypto
+Tokens, https://www.bafin.de/ref/19578950 (last visited Sep. 29, 2025) (Germany’s BaFin adopts a
+substance-over-form approach, classifying transferable or profit-oriented tokens as financial instruments,
+but LER’s utility-only design mitigates such risks).
+75 Regulation (EU) 2023/1114, supra note 5, at recital 10, art. 4(2).
+14
+
+Draft Version 8 - September 2025
+also likely complies with GDPR and CCPA/CPRA privacy requirements, thus addressing data
+protection concerns absent in traditional defenses.76
+4. LER in Proxy Fights
+4.1. LER Shape Proxy Fights
+LER introduces a new approach to corporate governance, especially when activist campaigns
+threaten board stability. Much like analogous loyalty programs that boost shareholder retention
+by 15–30%,77 LER encourages long-term shareholding with practical voucher rewards instead of
+speculative financial gains. By appealing to retail investors, who control roughly 40% of U.S.
+equities and form a powerful voting bloc,78 LER strengthens support for incumbent boards in
+contested proxy battles.
+In the world of corporate governance, LER uses smart contracts to deliver merchant voucher
+rewards to shareholders who hold their stock for set periods. These incentives encourage
+shareholders to hold on to their stock and vote in favor of the current board during proxy
+contests. Research on consumer behavior shows that well-designed rewards create emotional
+and economic ties, reducing churn. LER taps into this by offering tangible benefits that resonate
+with shareholders, much like earning points for frequent flyer miles or coffee shop visits. By tying
+rewards to holding periods, LER fosters a sense of commitment, gamifying engagement in a
+way that aligns shareholders with the company’s long-term vision.
+The Power of Retail and Institutional Investors
+Retail investors, holding about 40% of U.S. equities,79 have become a force in proxy contests,
+especially with the rise of platforms like Robinhood and blockchain-based voting systems. The
+2021 case of GameStop shareholder activism showed how retail investors can rally through
+digital channels in efforts to amplify their influence in corporate battles. Innovations like
+NASDAQ’s tokenized stock framework make voting more transparent and accessible, further
+empowering this group. LER leverages these trends by targeting retail investors with
+76 Regulation (EU) 2016/67, supra note 21.
+77 Passador; Aldatmaz, Ouimet & Wesep; Growave, supra note 23.
+78 SIFMA & BD. OF GOVERNORS OF THE FED. RSRV. SYS., supra note 25.
+79 SIFMA & BD. OF GOVERNORS OF THE FED. RSRV. SYS., supra note 25.
+15
+
+Draft Version 8 - September 2025
+utility-focused rewards that encourage loyalty to the incumbent board without crossing into
+speculative financial territory that might invite regulatory scrutiny.
+Institutional investors, meanwhile, demand clarity and fairness in governance. LER’s
+blockchain-based system meets this need by ensuring transparent reward distribution, which
+can appeal to institutions wary of activist-driven upheaval. Unlike traditional proxy settlements
+that might hand activists board seats at the cost of long-term stability, LER aligns both retail and
+institutional shareholders with the board’s vision. By rewarding tenure rather than offering cash
+payouts, LER avoids securities classification issues while reducing the likelihood of activist
+victories—without resorting to entrenchment tactics that could violate fiduciary duties.
+4.2. Strategic Deployment of LER Airdrops
+Proxy fights form a critical battleground in corporate governance. In proxy fights, dissident
+shareholders challenge incumbent boards by soliciting proxies from stockholders to nominate
+and elect alternative director rosters, often citing underperformance or governance failures. This
+is often done in an effort to redirect corporate strategy or remove underperforming
+management.80
+Unlike traditional defenses such as poison pills or advance notice bylaws, LER enables
+alignment in proxy fights through non-speculative consumptive utilities inherent in voucher
+rewards. On the other hand, in proxy contests, where activists nominate alternative board slates
+to challenge incumbents, LER enables boards to strategically airdrop utility token rewards to
+verified long-term shareholders, thus incentivizing votes against dissident proposals and
+bolstering incumbent support.
+Dodd and Warner's foundational study of 96 proxy contests from 1962 to 1978 showed that
+such proxy fights typically arise in firms with declining stock performance, because activists
+seek to replace incumbent directors in an effort to implement value-enhancing changes, thus
+resulting in positive abnormal returns for shareholders upon contest announcements.81 LERs
+counter this effect discussed in the Dodd and Warner study by automating reward distributions
+via smart contracts, without requiring lock-ups that could deter liquidity. Unlike traditional cash
+80 Peter Dodd & Jerold B. Warner, On Corporate Governance: A Study of Proxy Contests, 11 J. Fin. Econ.
+401, 405–07 (1983), https://doi.org/10.1016/0304-405X(83)90018-1.
+81 Id. at 420–22.
+16
+
+Draft Version 8 - September 2025
+dividends, which may trigger securities classification under the Howey test by creating an
+expectation of profits derived from managerial efforts,82 LER’s non-speculative vouchers position
+them as voucher loyalty perks, thus evading investment contract status and aligning with
+regulatory exemptions for non-transferable tokens.
+Even during the pre-proxy season, boards can strategically time LER airdrops. This allows
+issuers to capitalize on the period when activists build their cases through public letters or
+media campaigns.83 By targeting verified stockholders via NASDAQ’s on-chain infrastructure,
+LERs have particular reach among passive institutional and retail voters. This is decisive in
+proxy contests because passive institutional and retail investors often hold decisive sway in
+close contests.84 While activist stockholders succeed in 40% of proxy contests,85 often securing
+board seats or settlements; LER could reduce this rate potentially by 15–30%.86 LER may be
+able to accomplish this lowering of the activity success rate in proxy fights by rallying passive
+voters for their cause through incentive alignment. For example, in a hypothetical contest
+mirroring the 2013 proxy fight at Hess Corporation, where Elliott Management at the time
+wanted to force board changes because of underperformance, LER airdrops could have
+incentivized long-term holders to support incumbents, thus potentially diluting activist
+momentum and changing the outcome of the proxy fight.87
+This strategic deployment of LER airdrops builds on prior discussions of activist tactics, such as
+public campaigns and "vote no" initiatives, which aim to sway institutional voters like
+BlackRock.88 LER changes outcomes by increasing proactive shareholder engagement, thus
+aligning with Bebchuk's advocacy for increasing shareholder power while at the same time
+providing boards a non-coercive tool to maintain stability.89 Furthermore, unlike highly effective
+poison pills, which may be potentially entrenching,90 LER's universal application avoids
+discriminatory treatment under Blasius, thus ensuring compliance with Delaware's requirements
+82 SEC v. W.J. Howey Co., 328 U.S. 293, 301 (1946).
+83 Kahan & Rock, supra note 15, at 1030–32.
+84 Bebchuk & Hirst, supra note 24, at 730–35.
+85 DILIGENT, supra note 30.
+86 Gao & Nose, supra note 31.
+87 Bebchuk, Brav, & Jiang, supra note 8, at 1112–15.
+88 BLACKROCK, INVESTMENT STEWARDSHIP ANNUAL REPORT 2024,
+https://www.blackrock.com/corporate/literature/publication/annual-stewardship-report-2024.pdf
+89 Bebchuk, supra note 11, at 837–40.
+90 John C. Coffee Jr. & Darius Palia, The Wolf at the Door: The Impact of Hedge Fund Activism on
+Corporate Governance, 41 J. CORP. L. 545, 570–72 (2016),
+https://scholarship.law.columbia.edu/faculty_scholarship/1928.
+17
+
+Draft Version 8 - September 2025
+of enhanced scrutiny.91 LER is not subject to SEC proxy solicitation rules because LER does not
+constitute an inducement to vote.92 Thus, positioning LER as a scalable alternative that
+democratizes defense strategies in an era of tokenized tradeable equities.
+4.3. Legal Boundaries Under Delaware and SEC Rules
+Delaware corporate law imposes significant fiduciary duties on boards of directors in Delaware.
+Those fiduciary duties apply in particular if board directors deploy defensive measures in proxy
+contests, thus ensuring that director actions align with shareholder interests and avoid
+entrenchment. The Unocal standard, as defined by Delaware courts, requires that defensive
+measures constitute a reasonable response to a legitimate threat and remain proportionate
+without precluding shareholder voting rights.93 These requirements would equally apply to new
+tools like LER. In proxy fights and to comply with the Revlon doctrine, LER’s deployment must
+avoid selective issuance that favors loyal shareholders, because LERs otherwise risk breaching
+the duty of loyalty by prioritizing incumbent interests over those of the broader shareholder
+base.94 In change-of-control scenarios, the Revlon doctrine further mandates that boards
+prioritize shareholder value maximization, thus rendering discriminatory reward distributions
+impermissible.95 In the context of activist actions that impair shareholder voting rights, the
+Blasius standard imposes even stricter scrutiny requiring a “compelling justification” for
+measures that restrict proxy contest participation.96
+LER complies with Delaware law requirements if LER is deployed non-discriminatorily,
+proportionately, and with a focus on overall shareholder welfare. To accomplish this, LER must
+respond to genuine threats without entrenching management. LER needs to ensure
+transparency and uniformity to withstand judicial review. LER mitigates most of the Delaware
+law compliance concerns through its universal application of voucher rewards to all verified
+91 Blasius Indus., Inc. v. Atlas Corp., 564 A.2d 651, 661–62 (Del. Ch. 1988).
+92 Section 14(a) of the Securities Exchange Act prohibits proxy solicitations “in contravention of such rules
+and regulations as the Commission may prescribe.” 15 U.S.C. § 78n(a) (2025). SEC Rule 14a-1 defines
+solicitation to include “communication . . . reasonably calculated to result in the procurement, withholding,
+or revocation of a proxy.” 17 C.F.R. § 240.14a-1(l)(1)(iii) (2025). Because LER airdrops are distributed on
+a neutral, pro rata basis to all verified long-term holders and are not conditioned on voting conduct, they
+fall outside Rule 14a’s definition of “solicitation” and do not trigger Exchange Act § 14(a) filing obligations.
+93 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955–57 (Del. 1985).
+94 Revlon, Inc. v. MacAndrews & Forbes Holdings, Inc., 506 A.2d 173, 180–82 (Del. 1986).
+95 Id. at 182–84.
+96 Blasius Indus., 564 A.2d at 661–62.
+18
+
+Draft Version 8 - September 2025
+holders, facilitated by blockchain-based attestation via NASDAQ’s tokenized framework, thus
+ensuring equitable distribution of non-transferable, utility-only voucher rewards. The LER
+approach, thus, aligns with permissible engagement tactics for activist shareholders as upheld
+in Airgas, Inc. v. Air Products & Chemicals, Inc., where the Delaware Supreme Court endorsed
+defensive measures that preserved shareholder choice without coercion.97
+LERs will pass Unocal scrutiny if they are limited to genuine threats for purposes of keeping a
+balance of interests. If so, boards can demonstrate that LER as a tool for shareholders aligns
+with shareholder interests. Therefore, to comply with the Unocal standard, LER should be
+deployed only when there is a clear, identifiable threat to corporate policy or effectiveness, such
+as, for example, an activist proxy contest that could disrupt long-term value creation. For
+example, if an activist seeks board seats to gain a short-term advantage at the expense of
+sustainable strategy, LER could function as a tool to reward long-term holders, thus stabilizing
+support for the board's vision. This approach positions LER as a targeted, defensive incentive
+rather than a preemptive barrier.
+Because rewards must be proportionate to the threat98 LER rewards should not preclude
+shareholder voting rights. Rather, LER should incentivize enhanced stockholder participation by
+rewarding all eligible long-term stockholders equally. Thus, ensuring the proxy process remains
+open and fair. If LERs are disproportionately or coercively implemented, such as for example
+overly generous voucher rewards that effectively buy stockholder votes, then LER would violate
+the applicable requirements and risk invalidation by courts.
+In proxy fights, because the duty of loyalty requires directors to act in the best interests of all
+shareholders, not just incumbents or a favored subset of stockholders, LER must be carefully
+designed to avoid entrenchment. Therefore, LER voucher rewards cannot be issued selectively
+to shareholders who are aligned with management while excluding others. LER allocations to
+prioritize incumbent interests would constitute a breach by creating an uneven playing field.
+Instead, LER should be rewarded uniformly across all qualifying shareholders based on
+objective criteria like share ownership tenure, purchase of stock, or other objective criteria. LER
+needs to be made available to any qualifying shareholder regardless of their stance in the
+contest. Furthermore, boards should be required to disclose LER reward terms fully in proxy
+97 Airgas, Inc. v. Air Prods. & Chems., Inc., 8 A.3d 1182, 1195–97 (Del. 2010).
+98 For example, equity grants need to be scaled based on holding periods without excessively diluting
+shares or making the contest unwinnable for challengers.
+19
+
+Draft Version 8 - September 2025
+materials, thus allowing shareholders to evaluate the impact LER may have. If LER risks
+appearing self-serving, LER issuers should consider independent board committees or seek
+independent shareholder approvals to bolster loyalty compliance.
+To comply with the requirements of the Revlon doctrine, which applies when a company is in
+play for a change of control and the board's primary duty shifts to maximizing shareholder value,
+LER issuers must avoid discriminatory LER voucher reward distributions. For example, LER
+issuance cannot favor long-term holders over others in a bidding war. This is impermissible
+because such LER reward allocation could undermine the highest bid or fragment shareholder
+support. LER reward allocation should be structured to enhance overall value, perhaps by
+encouraging bids that benefit all holders. Tiers of LER rewards that undermine auctions or
+negotiations should be avoided. To comply with Revlon duties, LER voucher rewards should be
+redeemable at disparate merchant locations or otherwise adjustable in a sale context. This
+ensures equitable treatment, avoiding any perception that LER could result in inequitable results
+for short-term holders. By focusing on uniform value creation across shareholder categories,
+LER avoids Revlon violations that could lead to injunctions or damages.
+To meet the Blasius standard, which imposes the strictest scrutiny, requiring a compelling
+justification for board actions that intentionally frustrate shareholder voting in proxy fights, LER
+should minimally impair voting. However, if LER rewards somehow are allocated to reward
+stockholder loyalty to influence vote outcomes, such action would require a strong rationale,
+such as protecting against opportunistic activists who threaten corporate viability. Either way,
+LER should not restrict participation outright. For example, LER could be rewarded after a vote
+based on outcomes without coercing votes. LER deployment must be justified by evidence of
+severe harm to the corporation. Examples may include an activist's history of value destruction.
+LER should be a last-resort tool, allowing courts to scrutinize if less restrictive alternatives exist.
+SEC Proxy and Anti-Manipulation Rules
+Under U.S. securities law, SEC Rule 14a-9 requires that proxy solicitations be free of false or
+misleading statements, thus requiring boards to disclose material information about defensive
+measures. Such disclosure requirements would include LER voucher reward distributions. Thus
+ensuring transparency.99 LER’s transparent technology-based design is advantageous in this
+99 17 C.F.R. § 240.14a-9 (2025).
+20
+
+Draft Version 8 - September 2025
+context because institutional investors demand transparency, especially in contested proxy
+votes.
+The Williams Act regulates tender offers and significant ownership disclosures, requiring
+activists acquiring over 5% of a company’s shares to file timely reports. Such disclosures
+prevent covert accumulations that could undermine proxy contests.100 LER’s universal reward
+application to shareholders avoids triggering Williams Act scrutiny, because LER does not
+involve selective share issuances or tender offer manipulations. SEC Rule 10b-5 further
+prohibits manipulative influence over stock prices, such as coordinated buybacks or selective
+incentives, which could be construed as market manipulation.101 LER’s utility-only rewards,
+designed as non-transferable consumptive voucher rewards benefits, evade classification as
+investment contracts under the Howey test, which requires an expectation of profits from others’
+efforts.102 This design mitigates manipulation risks, as LER avoids creating financial yields that
+could artificially inflate stock prices, aligning with anti-fraud provisions.103
+5. LER for Offsetting Stock Price Volatility
+5.1. Time-Weighted Rewards Between Annual Meetings
+Stock prices often swing wildly between annual shareholder meetings. This proves especially
+true when activist investors use aggressive tactics to pressure corporate boards. These
+disruptions make it hard for management to stay focused on long-term goals while maintaining
+shareholder confidence. LER offers a creative solution for this situation, encouraging
+shareholders to hold firm and not sell their stock through turbulent times without locking up their
+ability to trade. By distributing practical voucher rewards, LER fosters loyalty and helps stabilize
+stock ownership during activist-driven market swings, all while aligning with Delaware’s
+shareholder-centric governance principles.104
+Countering Activist-Driven Volatility
+100 15 U.S.C. §§ 78m(d)-(e), 78n(d)-(f) (2025); Bebchuk & Jackson, Jr., supra note 26, at 45–47.
+101 17 C.F.R. § 240.10b-5 (2025); SEC v. Texas Gulf Sulphur Co., 401 F.2d 833, 860–62 (2d Cir. 1968).
+102 SEC v. W.J. Howey Co., 328 U.S. 293, 298–99 (1946).
+103 Coffee Jr. & Palia, supra note 77, at 549–52.
+104 Unocal Corp. v. Mesa Petroleum Co., 493 A.2d 946, 955 (Del. 1985).
+21
+
+Draft Version 8 - September 2025
+Activist investors often amplify stock price volatility between annual meetings. Such stock price
+volatility may derive from activist investors’ tactics such as short-selling, public media
+campaigns, or strategic leaks. Such tactics may rattle markets and may result in changes such
+as divestitures or board overhauls. These moves can exploit market sentiment, scare retail
+investors into selling shares, which increases downward pressure on prices.105
+LER can help overcome the effects of volatility by offering time-based voucher rewards to
+shareholders who hold stock for certain pre-defined time periods. Imagine a retail investor with
+tokenized Apple shares on NASDAQ’s blockchain platform earning periodic pre-defined rewards
+for staying committed and not selling the Apple stock. Delivered via smart contracts, these
+incentives encourage shareholders to resist selling during activist-induced stock price dips,
+without restrictive stock trading lock-ups that limit trading flexibility.106
+Strengthening Ownership and Stability
+LER’s rewards are designed to create shareholder loyalty, particularly for retail investors, who
+are often the most shaken by activist campaigns. LER, by offering tangible, non-speculative
+voucher rewards benefits, help shareholders overcome market turbulence, thus reducing churn
+and supporting stock price stability. The LER model creates support for incumbent boards but
+also appeals to passive institutional investors who prioritize steady governance.107 Extrapolating
+from earlier studies on activist success rates, LER could reduce activist success rates by
+15–30% just by rallying retail and institutional support, thus creating a resilient ownership base
+that prioritizes the company’s long-term vision over short-term pressures.108
+5.2. Economic Incentives for Shareholder Retention
+LER’s retention benefits draw on principles from consumer loyalty programs, which achieve
+quantifiable outcomes. At the same time, LER accounting treatment enhances issuer financial
+efficiency. LER creates significant economic incentives for issuers. LER allows issuers to fund
+LER voucher rewards from marketing budgets, treating them as immediate expenses under
+U.S. GAAP (ASC 606) and IFRS 15. This avoids balance sheet liabilities or issues that would
+105 See e.g., Bebchuk, Brav, & Jiang, supra note 8, at 1092–93.
+106 See Nasdaq Stock Market, supra note 2, at 45427–30.
+107 See John C. Coffee Jr., The Future of Disclosure, 2021 COLUM. BUS. L. REV. 602, 615–22 (2021),
+https://doi.org/10.52214/cblr.v2021i2.8635 (noting that passive institutional investors, such as index funds,
+generally prioritize stability and often support incumbents absent compelling reasons to intervene).
+108 Gao & Nose, supra note 30.
+22
+
+Draft Version 8 - September 2025
+otherwise be associated with traditional loyalty programs’ deferred revenue.109 This favorable
+accounting treatment improves issuers’ financial efficiency because voucher reward
+redemptions generate revenue at fiat parity, thus potentially improving credit profiles and
+reducing borrowing costs for issuers. For large firms, the favorable accounting treatment could
+result in annual savings of up to $440 million through debt refinancing, as enhanced credit
+ratings lower interest expenses.110
+6. LER in Incumbent-Activist Conflicts
+6.1. Incentivizing Alignment with Incumbents
+The strategic significance of handling conflicts between activist investors and incumbent boards
+has increased due to the growing intensity of shareholder activism. By encouraging alignment,
+LER provides incumbent boards with a new tool to help them navigate these tensions without
+using restrictive bylaws or poison pills, two entrenchment strategies that have come under fire
+for eroding shareholder value.111
+By providing targeted utility rewards as part of settlement agreements, LER enables incumbent
+boards to encourage activist investors to align with management. This encourages activists to
+rescind nominations or requests without demanding concessions like board seats or major
+policy changes. When an activist hedge fund, like Elliott Management, demands operational
+restructuring or divestitures, for example, they may receive LER units that can be redeemed
+within the LER associated merchant ecosystem, such as discounts on merchants’ goods or
+services. This could encourage activists to cooperate rather than engage in public campaigns or
+proxy contests.
+By leveraging the $10 trillion capital reallocation to risk assets,112 LER is positioned as a
+transformative governance instrument, providing incentives for alignment in incumbent-activist
+109 REVENUE FROM CONTRACTS WITH CUSTOMERS (TOPIC 606) ASC 606-10-55-42 to -45 (FIN. ACCT. STANDARDS
+BD. 2014) (requiring that customer options, including loyalty points, that provide a “material right” be
+accounted for as a separate performance obligation, with the related consideration deferred as a contract
+liability until redemption or expiration).
+110 See Delta & American Airlines, supra note 39.
+111 Bebchuk, supra note 7 at 1645–50.
+112 Torbet & Kwek, supra note 6.
+23
+
+Draft Version 8 - September 2025
+conflicts. Scholarly criticisms of entrenchment are addressed by encouraging collaboration
+without sacrificing board independence.113
+6.2. Co-Opting Activists Through Utility Rewards
+LER introduces an innovative solution to navigate conflicts between board and activist investors.
+LER employs smart contracts, which are automated, transparent agreements executed on a
+blockchain, to offer activists incentives for aligning with the company’s objectives. These
+incentives, described as non-speculative, consumptive utilities, are not traditional financial
+instruments like stocks or cash that can be traded for profit. Instead, they resemble exclusive
+benefits or privileges, usable only within the company’s ecosystem, akin to loyalty rewards from
+a retailer that provide value but cannot be resold.
+Central to LER’s approach are soulbound tokens (SBTs), which are non-transferable digital
+assets tied to a specific individual.114 Much like a personalized membership card that cannot be
+sold or given away, SBTs ensure the rewards focus on encouraging cooperation rather than
+speculative gain.
+By offering these tailored incentives, LER serves as a blockchain-based “golden leash,” guiding
+activists to support the company’s goals without compromising the independence of the board
+or violating securities laws. This concept draws parallels to reward systems in virtual
+environments, such as metaverse platforms, where participants earn benefits for engagement
+without the intent of financial speculation.
+In essence, LER provides a sophisticated, technology-driven framework to transform potential
+conflicts into constructive partnerships, ensuring activists and corporate boards work together
+effectively while maintaining legal and ethical integrity.
+LER as a Blockchain-Based “Golden Leash”
+113 Edward B. Rock, Adapting to the New Shareholder-Centric Reality, 161 U. PA. L. REV. 1907, 1925–28
+(2013).
+114 COINBASE, supra note 20.
+24
+
+Draft Version 8 - September 2025
+LER can be seen as a blockchain-based equivalent to a “golden leash,” a term describing
+compensation arrangements that incentivize alignment between activists and management
+without altering board composition or violating director independence rules.115 Unlike traditional
+golden leash arrangements, which may involve financial payments to activist-nominated
+directors and raise conflicts of interest,116 LER offers non-transferable, utility-only voucher
+rewards to encourage activists to withdraw nominations or demands in favor of cooperation. For
+example, an activist like Starboard Value, pushing for operational restructuring, might receive
+LER units as part of a settlement agreement, incentivizing alignment with management’s
+strategy without granting board seats. This approach mirrors historical metaverse reward
+programs, where engagement tokens drive participation without speculative intent, achieving
+20–30% retention uplifts in consumer contexts.117 By aligning activists with management while
+maintaining compliance with fiduciary and securities standards, LER addresses scholarly
+critiques of entrenchment, offering a scalable, shareholder-centric mechanism to navigate
+corporate conflicts.
+7. Broader Applications of LER in Corporate Politics
+7.1. ESG Disputes and Shareholder Proposals
+LER offers a sophisticated, technology-driven framework to harmonize the interests of corporate
+boards and shareholders in the context of ESG activism. By deploying blockchain-based
+incentives, LER facilitates constructive alignment between management’s ESG strategies and
+shareholder voting, thus reducing conflict and promoting shared goals. The LER approach not
+only supports corporate governance objectives but also reinforces ethical and regulatory
+integrity.
+115 17 C.F.R. § 229.402 (2025) (requiring disclosure of director and executive compensation, including
+non-plan arrangements).
+116 Kahan & Rock, supra note 15, at 1066–69 (discussing conflicts of interest in hedge fund activism and
+concerns over payments to funds).
+117 See The Power of Gamification, SNIPP (2017),
+https://www.snipp.com/hubfs/8441516/Resources/White%20Papers/Snipp-Resources-Whitepaper-06-201
+7-The-Power-of-Gamification.pdf (finding gamified loyalty programs increased customer engagement and
+retention by over 20%); Modern Loyalty Programs for Business Growth, RITS (Aug. 6, 2025),
+https://rits.center/modern-loyalty-programs-for-business-growth/ (reporting gamification strategies yielded
+~30% higher customer retention).
+25
+
+Draft Version 8 - September 2025
+For example, consider a scenario where an activist shareholder submits a proposal demanding
+aggressive reductions in carbon emissions to further ESG outcomes. In response, the board,
+favoring a more balanced ESG strategy, could deploy LER to distribute voucher rewards to
+shareholders who vote in favor of management’s proposal. This strategy mirrors the appeal of
+consumer loyalty programs, engaging shareholders emotionally and economically while
+encouraging alignment with the board’s vision.
+LER’s approach is particularly relevant in light of the growing emphasis among institutional
+investors on ESG initiatives that support long-term financial performance. For instance,
+BlackRock’s 2024 proxy voting record indicates that it supported management
+recommendations on approximately 88% of proposals, including those addressing ESG matters
+where aligned with sustainable financial outcomes.118 By incentivizing shareholder support for
+management’s ESG agenda, LER enables boards to counter activist-driven proposals
+constructively, fostering collaboration without resorting to coercive measures.
+7.2. Merger and Acquisition Contests
+M&A can be a high-stakes battlegrounds, where corporate boards face off against activist
+investors pushing for different deals to maximize shareholder value. Traditionally, boards rely on
+defensive tactics like "poison pills" to defend against unwanted takeovers or activist pressures.
+Alas, poison pills can entrench management, limit accountability, and alienate shareholders.
+LER introduces a modern, collaborative solution that helps boards win shareholder support for
+their preferred mergers while avoiding the downsides of conventional defenses. By using
+blockchain-based voucher rewards, LER aligns interests in a transparent, fair, and innovative
+way, tapping into the massive $3 trillion M&A market.
+LER voucher rewards are not cash or tradable stocks but rather function like loyalty points in a
+broad network of merchants. For example, imagine a company’s board is defending a strategic
+merger that aligns with its long-term vision, but an activist investor is rallying shareholders to
+demand a higher bid from another buyer. LER could distribute rewards to shareholders who
+118 BLACKROCK, supra note 88, at 11–12 (reporting ~88% support for management proposals, with low ~4%
+support for shareholder-submitted ESG proposals due to lack of economic merit, emphasizing financial
+materiality in ESG voting).
+26
+
+Draft Version 8 - September 2025
+vote for the board’s plan, encouraging support without forcing anyone’s hand or diluting
+ownership.
+For consumers, this approach feels familiar and engaging, much like receiving a gift card for
+staying loyal to a brand. It’s a win-win on both sides: shareholders get tangible voucher benefits,
+and the board secures votes for its merger without resorting to heavy-handed tactics.
+Activist investors often play a valuable role in M&A by challenging deals that may not serve
+shareholders well, pushing for better terms or alternatives. However, traditional defenses like
+poison pills, and other associated defense strategies that can make takeovers prohibitively
+expensive or complex, can be disadvantages because they may entrench management and
+reduce trust. LER, by contrast, is non-coercive, meaning it incentivizes without penalizing, and it
+avoids financial burdens like stock dilution or costly payouts. By rewarding shareholders for
+supporting management’s vision, LER actually increases cooperation while keeping the process
+transparent and aligned with the priorities of institutional investors, who increasingly value
+openness in governance.
+LER’s ability to align shareholder and board interests in M&A contests makes it a transformative
+tool. In a world where M&A activity drives trillions of dollars in value, LER provides a
+forward-thinking way to navigate complex deals. It sidesteps the pitfalls of traditional defenses,
+ensuring boards can pursue strategic mergers while maintaining accountability and shareholder
+trust. By using blockchain technology and familiar voucher reward systems, LER can be seen
+as overcoming the gap between corporate goals and shareholder expectations, offering a fair,
+modern solution for today’s governance challenges.
+7.3. Political Spending and Lobbying Incentives
+Today, corporate governance and political spending is more connected than ever. Businesses
+are using political action committees (PACs) and lobbying to shape laws and policies that affect
+them, especially as shareholders are pushing for more influence over what companies do. LER
+is a helpful tool that company boards can use to encourage shareholders to support their
+political efforts, like funding PACs or lobbying campaigns. LER are designed to follow the rules,
+27
+
+Draft Version 8 - September 2025
+including U.S. securities laws and Delaware’s guidelines for corporate responsibility, while also
+aligning with the legal changes brought by the Citizens United v. FEC decision, which loosened
+restrictions on corporate political spending and set new standards for transparency.119 LER
+enables incumbent boards to incentivize shareholder support for corporate PACs or lobbying
+efforts by airdropping utility rewards to shareholders who vote in favor of management-backed
+initiatives. Such initiatives may include resolutions approving PAC funding or endorsing lobbying
+strategies. For example, a company seeking to influence legislation on trade or environmental
+regulations could consider distributing LER voucher units to shareholders supporting a
+resolution to allocate funds to a corporate PAC.
+The Citizens United decision fundamentally reshaped corporate political spending in the US.
+The decision did that by affirming that corporations have First Amendment rights to spend
+treasury assets on political issues, thus enabling robust PAC and lobbying activities.120 However,
+the Citizens United decision also increased scrutiny over corporate political spending, requiring
+transparency to shareholders and regulators under SEC disclosure rules for related-party
+transactions and executive compensation.121 LER’s utility-only electronic voucher rewards
+comply with these disclosure requirements by providing clear, blockchain-based records of
+shareholder voucher reward eligibility, avoiding the appearance of vote-buying or coercive
+influence.122
+7.4. Executive Compensation and Alignment
+LER helps company boards obtain shareholder support for executive pay plans, even when
+activist investors criticize them. At the same time, LER stays within the limitations imposed by
+the rules of U.S. securities laws and Delaware’s corporate responsibility guidelines. LER helps
+align executive and shareholder interests by offering long-term shareholder voucher rewards for
+backing the board’s proposed pay packages in 'say-on-pay' votes. These votes are important in
+corporate governance because activists often target them to call out what they see as excessive
+or unfair executive pay. For example, if a board is criticized by the public and shareholders over
+its CEO’s compensation, the board could deploy LER to offer shareholders who vote in favor
+something tangible, like exclusive voucher discounts or credits. This LER mechanism works
+119 Citizens United v. FEC, 558 U.S. 310 (2010).
+120 Id. at 365-66 (2010).
+121 17 C.F.R. §§ 229.402, 229.404 (2025).
+122 17 C.F.R. § 240.14a-9 (2025).
+28
+
+Draft Version 8 - September 2025
+similarly to how loyalty programs work for consumers, where consumers get perks for sticking
+around.
+LER in executive compensation aligns with Delaware’s business judgment rule, which presumes
+that boards act in good faith unless self-dealing or gross negligence is evident, as upheld in
+Aronson v. Lewis.123 LER, when used in executive compensation, aligns with Delaware’s
+business judgment rule, a legal principle that assumes company boards make decisions in good
+faith, with care, and in the company’s best interest. As established in Aronson v. Lewis, courts
+generally uphold board decisions unless there is clear evidence of self-dealing or gross
+negligence. In simple terms, LER helps boards structure pay packages thoughtfully while
+staying within these legal boundaries.
+Activist campaigns targeting executive compensation often enhance accountability by
+challenging misaligned pay structures, with say-on-pay votes serving as a critical mechanism for
+shareholder oversight.124 On the other hand, board entrenchment tactics suppress shareholder
+input. LER offers a non-coercive, utility-focused voucher-based alternative that aligns
+shareholders with management’s compensation strategies, thus increasing shareholder
+engagement without the entrenchment risks of traditional defenses. Institutional investors,
+controlling over 20% of S&P 500 voting power,125 often support say-on-pay reforms when
+aligned with performance, and LER’s transparent rewards align with these priorities.
+8. LER Market Opportunity and Empirical Projections
+8.1. Sizing the Activism-Driven Market
+LER helps companies connect with shareholders during activist campaigns. LER can capitalize
+from a growing market driven by new trends such as tokenized governance; examples include
+digital shares or voting rights on a blockchain,126 and a major shift of money from safe
+123 Aronson v. Lewis, 473 A.2d 805, 812 (Del. 1984).
+124 Bebchuk, Brav, & Jiang, supra note 8, at 1112–15.
+125 Bebchuk & Hirst, supra note 24, at 733–36.
+126 Alexandra Andhov, Corporations on Blockchain: Opportunities & Challenges, 53 CORNELL INT’L L.J. 1,
+3–4, 5–9, 18–23 (2020).
+29
+
+Draft Version 8 - September 2025
+investments like bonds to riskier investments such as stocks.127 Fueled by the convergence of
+tokenized governance and a $10 trillion capital shift from fixed income to equities and
+cryptocurrencies, LER has the potential to tap into a projected $900 billion activism-driven
+market by 2030.128 With over 240 global campaigns in 2025 targeting firms across industries to
+demand board changes, divestitures, or operational overhauls, the activism-driven market is a
+result of the ever increasing prevalence of shareholder activism around disparate causes.129
+LER leverages the $155 billion DeFi market's growth in 2025 by adopting programmable
+incentives akin to DeFi’s liquid staking, which rewards retention without locking assets. By
+issuing tokenized voucher rewards for shareholder support in votes like say-on-pay, LER aligns
+corporate governance with DeFi’s transparent, flexible mechanics.130 LER benefits from DeFi’s
+proliferation by tapping into tokenized governance and capital shifts from bonds to equities,
+capturing value in the $50 billion proxy market while enhancing shareholder engagement.131
+LER counters activist challenges, offering a compliant, innovative defense against traditional
+limitations.132
+8.2. LER’s Role in Capital Reallocation
+The $10 trillion capital shift from fixed income, with U.S. Treasuries yielded 4.23% in 2025, to
+equities and crypto is a reflection of investor demand for higher-yielding assets, creating a fertile
+environment for LER’s adoption.133 The $10 trillion reallocation from low-yielding U.S. Treasuries
+to equities and cryptocurrencies, driven by the underperformance of Treasuries has fueled
+equity investments, with over $500 billion in annual ETF inflows and a DeFi total value locked
+(TVL) of $155 billion in 2025.134 Because institutional investors control over 20% of S&P 500
+127 State Street Global Advisors, Global Market Portfolio 2025: A Portfolio of Everything 4–5, 7–8, 12–13
+(Sep. 2025) (detailing a major shift from fixed income to equities and risk assets, with $10T+ reallocations
+driven by low rates and growth in equities/crypto, fueling opportunities for mechanisms like LER amid
+activism).
+128 MORDOR INTELLIGENCE, ASSET TOKENIZATION MARKET SIZE & SHARE ANALYSIS - GROWTH TRENDS & FORECASTS
+(2025-2030), https://www.mordorintelligence.com/industry-reports/asset-tokenization-market; BARCLAYS,
+supra note 3; Torbet & Kwek, supra note 6.
+129 BARCLAYS, supra note 3.
+130 Dulani Jayasuriya Daluwathumullagamage & Alexandra Sims, Blockchain-Enabled Corporate
+Governance and Regulation, 8 INT’L J. FIN. STUD. 36, 3–5, 22 (2020).
+131 DEFILLAMA, supra note 16; State Street Global Advisors, supra note 127, at 7–9.
+132 Bebchuk, supra note 11, at 850–55.
+133 Torbet & Kwek, supra note 6; SIFMA, supra note 23, at 21–24.
+134 DEFILLAMA, supra note 16; SIFMA, supra note 23, at 21–24.
+30
+
+Draft Version 8 - September 2025
+voting power,135 they drive this reallocation. Accordingly, institutional investors amplify the
+market opportunity for LER and their ability to engage both retail and institutional shareholders.
+LER’s adoption is supported by this trend because shareholders seek yield-like utilities without
+the speculative risks associated with traditional high-yield investments.
+LER’s market potential is further enhanced by its alignment with the broader asset tokenization
+trend, projected to exceed $2 trillion by 2030, as assets like equities and bonds are increasingly
+represented on blockchain platforms.136 LER’s 10x growth potential by 2030 aligns with
+projections for the tokenized asset market, driven by the scalability of tokenized governance,
+which reduces coordination costs for shareholders and enables real-time voting and reward
+distribution.137
+9. Cost-Benefit Analysis of Implementing LER in
+Corporate America
+While LER offers a blockchain-enabled innovation for enhancing shareholder loyalty and
+mitigating activist pressures in corporate governance, a cost-benefit analysis helps evaluate the
+potential benefits. Benefits include reduced activism costs, stabilized market value, and
+alignment with tokenized asset trends. Costs and risks include regulatory scrutiny, operational
+vulnerabilities, and economic drawbacks. Drawing on the framework established in prior
+sections, this section systematically weighs these factors. Empirical and legal scholarship
+informs the assessment, revealing that LER's advantages in fostering long-term shareholder
+engagement and capitalizing on a $10 trillion reallocation to risk assets generally outweigh the
+implementation hurdles, provided robust compliance measures are adopted.138
+9.1. Costs and Risks
+On the cost side, LER implementation incurs significant regulatory and legal expenses,
+stemming from potential scrutiny under U.S. securities laws and Delaware corporate law.
+Compliance efforts to avoid classifying LER airdrops as securities or impermissible vote-buying,
+135 Bebchuk & Hirst, supra note 24, at 733–36.
+136 MORDOR INTELLIGENCE, supra note 128.
+137 Banerjee, Sevillano, & Higginson, supra note 33.
+138 Bebchuk, supra note 11, at 837–40.
+31
+
+Draft Version 8 - September 2025
+could require substantial legal fees, estimated at $500,000 to $2 million per firm for initial
+advisory and ongoing monitoring.139 Under SEC Rule 14a-9 and Rule 10b-5, rewards perceived
+as manipulative may trigger enforcement actions, with historical crypto cases penalties
+exceeding $1 million.140 Delaware fiduciary standards, including Unocal and Blasius, add
+litigation risks if distributions are deemed disproportionate, potentially leading to court
+invalidations and associated costs of $1–3 million per dispute.141 International frameworks like
+MiCA further complicate cross-border adoption, with non-compliance risking fines up to 3% of
+annual turnover.142 These risks could deter adoption, amplifying opportunity costs in the $900
+billion activism market.143
+Costs and Risks: Operational and Technical Implementation
+Operational costs represent another substantial burden, with blockchain integration for LER
+requiring upfront investments of $1–5 million per company for smart contract development,
+NASDAQ framework compatibility, and cybersecurity measures.144 Vulnerabilities such as smart
+contract exploits could result in losses akin to DeFi incidents, where failures have exceeded $1
+billion annually, necessitating insurance premiums of 1–2% of asset value.145 Adoption barriers
+139 Peter Sie, Regulating Blockchain-Based Airdrops, SSRN (Nov. 8, 2024),
+https://dx.doi.org/10.2139/ssrn.5014865 (arguing that airdrops raise securities law and governance
+concerns, including potential classification as investment contracts and impermissible inducements).
+140 See, e.g., Mayme Donohue & Scott H. Kimpel, SEC Brings Enforcement Case Involving “Airdrop” of
+Securities, HUNTON (Aug. 21, 2018),
+https://www.hunton.com/blockchain-legal-resource/sec-brings-enforcement-case-involving-airdrop-securiti
+es (discussing SEC action treating “free” airdropped tokens as securities offerings); In re Block.one,
+Securities Act Release No. 10714, 2019 WL 4735969 (Sept. 30, 2019) (imposing $24 million civil penalty
+for unregistered ICO); SEC v. Kik Interactive Inc., No. 19-cv-5244 (S.D.N.Y. Oct. 21, 2020) (entering $5
+million penalty for unregistered token offering); In re Payward Ventures, Inc. (Kraken), Securities Act
+Release No. 11116, 2023 WL 1808029 (Feb. 9, 2023) (ordering $30 million in disgorgement, interest, and
+penalties for unregistered staking program); In re Genesis Glob. Capital, LLC, Securities Act Release No.
+11274, 2024 WL 226509 (Jan. 12, 2024) (consent order imposing $21 million penalty for unregistered
+crypto lending program); In re Paul Pierce, Securities Act Release No. 11121, 2023 WL 1808032 (Feb.
+17, 2023) (settling touting charges with $1.4 million in disgorgement, interest, and penalty).
+141 Christopher B. Chuff et al., Delaware Court of Chancery Clarifies Fiduciary Limitations on Controlling
+Stockholders' Exercise of Voting Power, TROUTMAN (Jan. 25, 2024),
+https://www.troutman.com/insights/delaware-court-of-chancery-clarifies-fiduciary-limitations-on-controlling
+-stockholders-exercise-of-voting-power/.
+142 Regulation (EU) 2023/1114, supra note 5, at art. 111 (providing for administrative fines up to 3% of
+annual turnover or €5 million for legal persons).
+143 BARCLAYS, supra note 3.
+144 Edis Mekić, Safet Purković, & Ahmedin Lekpek, Cost benefit analysis of compromising ledger system
+based on blockchain technology, 9 J. ECON, MGMT. & INFORMATICS 27 (2018),
+https://doi.org/10.5937/bizinfo1802027M (analyzing the high capital and operational costs of blockchain
+infrastructure, including hardware and maintenance burdens).
+145 Risks posed by blockchain-based business models, DELOITTE 6–7,
+https://www.deloitte.com/us/en/services/consulting/articles/blockchain-security-risks.html (last visited Sep.
+32
+
+Draft Version 8 - September 2025
+for retail investors may lead to unequal participation, indirectly increasing governance disparities
+and potential shareholder lawsuits, with resolution costs averaging $2 million.146 Privacy
+compliance under GDPR/CCPA adds ongoing expenses for zero-knowledge proofs, estimated
+at $200,000 yearly.147
+Costs and Risks: Economic and Market Implications
+Economic drawbacks include the potential for attracting short-term "mercenary" shareholders,
+which could erode loyalty benefits and heighten volatility, with studies suggesting up to 70%
+value dilution post-reward emissions.148 Reward funding from marketing budgets may strain
+resources, particularly for mid-cap firms, with annual costs projected at $10–50 million for large
+issuers to achieve 20–50% retention uplifts.149 Market devaluation risks, similar to stablecoin
+overflows, could undermine utility value, leading to indirect costs in shareholder trust and stock
+performance.150 Inequality exacerbation, favoring tech-savvy holders, poses reputational risks,
+potentially inviting ESG backlash and associated mitigation expenses.151
+9.2. Benefits: Governance Enhancements and Market
+Opportunities
+Counterbalancing these costs, LER's benefits include substantial reductions in activism-related
+expenses, with potential 15–30% decreases in proxy fight success rates stabilizing up to $900
+29, 2025) (warning that smart contracts are among the most vulnerable points for cyberattack and require
+strong risk management frameworks).
+146 Are Tokenized Stocks the Next Big Thing? Or the Next Big Risk?, AMINA BANK (Jul. 10, 2025),
+https://aminagroup.com/research/are-tokenized-stocks-the-next-big-thing-or-the-next-big-risk/ (warning
+that tokenized equity markets may exacerbate governance disparities and expose issuers to shareholder
+litigation risk if retail investors face adoption barriers).
+147 WORLD ECONOMIC FORUM, LEGAL AND REGULATORY COMPLIANCE - BLOCKCHAIN TOOLKIT,
+https://widgets.weforum.org/blockchain-toolkit/legal-and-regulatory-compliance/index.html#common-legal-
+and-regulatory-issues-with-blockchain-use (last visited Sep. 29, 2025).
+148 Keyrock, Analysis of Airdrop Performance in 2024: Why Nearly 90% of Token Airdrops Failed?,
+CHAINCATCHER (Sep. 27, 2024), https://www.chaincatcher.com/en/article/2145167;
+Airdrops in the Barren Desert, KEYROCK, https://keyrock.com/airdrops-in-the-barren-desert/ (last visited
+Sep. 29, 2025).
+149 Alla Gil, Tokenization: Benefits and Risks, GARP (Jan. 24, 2025),
+https://www.garp.org/risk-intelligence/technology/tokenization-benefits-risks-250124 (warning that
+tokenization may amplify volatility and impose significant operational and financial strains on issuers).
+150 Risks involved in trading, custody and staking of digital assets, TAURUS,
+https://www.taurushq.com/legal/regulatory-risk/risks-digitalassets/ (last visited Sep. 29, 2025).
+151 Tokenised stocks: Weighing the pros and cons, COINTELEGRAPH (Jul. 31, 2025),
+https://cointelegraph.com/market-releases/tokenised-stocks-weighing-the-pros-and-cons.
+33
+
+Draft Version 8 - September 2025
+billion in market value annually.152 LER’s blockchain integration could lower governance
+overhead by 20–30%, enabling real-time voting and enhanced transparency.153 In the context of
+a $10 trillion capital reallocation, LER positions firms to capture tokenized market growth,
+projected at $2 trillion by 2030, yielding 10x returns through scalable incentives.154
+Revenue-sharing from reward redemptions enhances financial efficiency, potentially saving
+$440 million annually for large firms via improved credit profiles.155
+9.3. Net Evaluation
+Overall, the benefits of LER outweigh the costs and risks for most firms in Corporate America,
+particularly those with robust technological infrastructure and proactive compliance strategies.
+Quantitatively, while initial costs may reach $5–10 million, the projected savings from reduced
+activism volatility (15–25% net gains in market stability) and market capture in a $2 trillion
+tokenized ecosystem provide a favorable return on investment, often exceeding 200% over five
+years.156 The benefits outweighing risks derives from LER's alignment with shareholder-centric
+models, as advocated by Bebchuk, enabling non-coercive engagement that democratizes
+governance and leverages blockchain's immutability to mitigate long-term risks.157 Universal
+distribution and pilot programs can surmount regulatory hurdles, ensuring scalability amid a $10
+trillion capital shift,158 ultimately reshaping corporate resilience in an activism-driven landscape.
+152 See David Yermack, Corporate Governance and Blockchains, 21 REV. FIN. 7 (2017),
+https://doi.org/10.1093/rof/rfw074; BARCLAYS, supra note 3; Gao & Nose, supra note 31.
+153 See Xing Yin, Blockchain Technology in Corporate Governance: Advantages and Limitations, 5 ACAD.
+J. BUS. & MGMT. 89 (2023), https://doi.org/10.25236/AJBM.2023.051115 (reviewing literature on
+blockchain-based corporate governance and concluding that distributed ledgers can provide more
+transparent, real-time, cost-effective, and verifiable shareholder records, though concerns remain over
+shareholder protection and potential fraud).
+154 Vedat Akgiray, The Potential for Blockchain Technology in Corporate Governance (OECD Corp. Gov’t
+Working Papers, 2019), https://dx.doi.org/10.1787/ef4eba4c-en (arguing that blockchain’s
+disintermediation and tokenization capabilities can lower transaction costs, improve transparency of
+ownership, and enable real-time shareholder voting, thereby reshaping corporate governance structures);
+Torbet & Kwek, supra note 6.
+155 Jing Du et al., Can blockchain technology be effectively integrated into the real economy to serve entity
+enterprises? Evidence from corporate investment efficiency, 16 CHINA J. ACCT. RSCH. 100292 (2023),
+https://doi.org/10.1016/j.cjar.2023.100292 (finding that blockchain adoption improves corporate
+investment efficiency by reducing financing costs and mitigating agency conflicts, thereby restraining
+overinvestment and alleviating underinvestment); See Delta & American Airlines, supra note 42.
+156 Blockchain for Business: Applications, Implementation, and Innovation, BRG (Spring 2023),
+https://www.thinkbrg.com/thinkset/ts-blockchain-for-business-applications-implementation-innovation/
+(estimating blockchain could reduce global banks’ settlement costs by $10 billion annually and Western
+European supply-chain costs by $450 billion, while adoption among top public firms exceeds 80%).
+157 Bebchuk, supra note 7, at 1645–50.
+158 Torbet & Kwek, supra note 6.
+34
+
+Draft Version 8 - September 2025
+10. Conclusion
+LER introduces a transformative era in corporate governance, offering a pioneering
+blockchain-enabled mechanism that redefines how companies navigate shareholder activism,
+proxy contests, and corporate political dynamics. By delivering time-weighted, utility-only
+rewards through smart contracts, LER fosters enduring shareholder loyalty, stabilizes stock
+price volatility, and aligns diverse stakeholders in a rapidly evolving financial landscape. Its
+applications, spanning proxy fights, ESG disputes, M&A contests, and political spending,
+position LER as a versatile tool within a projected $900 billion activism-driven market by 2030,
+amplified by a $10 trillion capital reallocation to risk assets. The cost-benefit analysis
+underscores that LER’s advantages—substantial reductions in activism-related costs, enhanced
+governance transparency, and alignment with tokenized market trends—outweigh
+implementation challenges, particularly for firms equipped with robust technological
+infrastructure. Through universal distribution and strategic pilot programs, LER surmounts
+regulatory and operational hurdles, leveraging NASDAQ’s tokenized stock framework to ensure
+scalability and compliance. Looking forward, LER promises to democratize corporate
+governance, empower retail and institutional investors alike, and foster a more inclusive,
+resilient corporate ecosystem. Its potential to harmonize innovation with stakeholder alignment
+sets a new standard for governance, paving the way for sustained value creation and financial
+stability in Corporate America.
+35
+

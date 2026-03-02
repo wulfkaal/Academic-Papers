@@ -1,0 +1,1630 @@
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+LEGAL EDUCATION IN THE BLOCKCHAIN REVOLUTION
+MARK FENWICK*, WULF A. KAAL* & ERIK P.M. VERMEULEN**
+Abstract
+The legal profession is one of the most disrupted sectors of
+the consulting industry today. The rise of Legal Tech, artificial
+intelligence, big data, machine learning, and, most importantly,
+blockchain technology is changing the practice of law. The sharing
+economy and platform companies challenge many of the traditional
+assumptions, doctrines, and concepts of law and governance,
+requiring litigators, judges, and regulators to adapt. Lawyers need to
+be equipped with the necessary skillsets to operate effectively in the
+new world of disruptive innovation in law. A more creative and
+innovative approach to educating lawyers for the 21st century is
+needed.
+Keywords: Legal Education, Legal Profession, Disruptive
+Innovation, Artificial Intelligence, Machine Learning, Big Data,
+Blockchain Technology, Platform Company, Platform Economy,
+Decentralization, Decentralized Autonomous Organization, Social
+Media, Technology, Trust.
+JEL Classification: D20, D23, F60, G30, K20, K22, L20, L25, L29,
+O10, O30, O40
+* Kyushu University (Fukuoka, Japan). The authors would like to sincerely
+thank Robert K. Vischer and Ann L. Bateson for their comments and support.
+* University of St. Thomas School of Law (Minneapolis, USA).
+** Tilburg University; Tilburg Law and Economics Center; Philips Lighting
+(Netherlands).
+1
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+TABLE OF CONTENTS
+I. INTRODUCTION .................................................................................. 3
+II. LEGAL TECH’S DISRUPTIVE LEGAL INNOVATION .......................... 8
+1. Virtual Law Firms .................................................................... 13
+2. Reevaluation of Applicable Law ............................................... 14
+3. Changing Legal Practice ......................................................... 15
+III. BLOCKCHAIN LEDGER TECHNOLOGY .......................................... 16
+1. Blockchain Technology Defined ............................................... 18
+2. Decentralization ....................................................................... 23
+3. Disruptive Innovation ............................................................... 26
+4. Limitations ............................................................................... 29
+IV. EDUCATING THE 21ST CENTURY LAWYER .................................... 34
+V. CONCLUSION ................................................................................ 38
+2
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+I. Introduction
+Law firms and in-house legal departments generally agree
+that Legal Tech impacts their future. Legal Tech startups are
+revolutionizing the legal industry by increasing the speed, accuracy,
+and performance of legal services or by replacing them altogether
+with new ideas.1 Conferences, seminars, and professional magazines
+are dedicated to debating Legal Tech and its future implications for
+the legal industry. Some consensus exists among legal industry
+representatives that adopting Legal Tech helps law firms and legal
+departments improve client engagement and satisfaction.2 Legal
+Tech allows clients to be more involved and provide feedback for
+1 Roland Vogl, The Coming of Age of Legal Technology, LEGAL AGGREGATE
+(Sept. 26, 2016), https://law.stanford.edu/2016/09/26/184188/. (“In recent years,
+we have witnessed what can be best described as a legal tech start-up boom.”)
+2 See GEORGETOWN LAW CENTER FOR THE STUDY OF THE LEGAL PROFESSION &
+THOMSON REUTERS PEER MONITOR, 2016 REPORT ON THE STATE OF THE LEGAL
+MARKET (2016),
+https://www.law.georgetown.edu/news/upload/2016_PM_GT_Final-Report.pdf.
+(“The reactions of the law firm market to the rapidly changing environment in
+which firms operate parallels in some respects the story of Kodak. The current
+challenge in the legal market is not that firms are unaware of the threat posed to
+their current business model by the dramatic shift in the demands and expectations
+of their clients. Instead, as in the case of Kodak, the challenge is that firms are
+choosing not to act in response to the threat, even though they are fully aware of its
+ramifications.”) Id. at 2. (“While neither of these studies [Altman Weil’s 2015
+LAW FIRMS IN TRANSITION and a Sept. 2015 Thomson Reuters Peer Monitor
+Study] is conclusive, both strongly suggest that firms that are proactive in pursuing
+new strategies to meet the concerns and expectations of their clients are more
+likely to achieve stronger financial results than those firms that merely react to
+specific client demands.”) Id. at 13. The Thomson Reuters Peer Monitor study
+reported the following major operational changes that upper-tier firms are
+implementing: “Use of software that allows firm lawyers to monitor the progress
+of matters, resource commitments, and budget status in real time on a matter basis”
+(71%), “Efficient and easily usable knowledge management system that provides
+lawyers with ready access to the firm’s prior work product” (71%), “Document
+review software using predicitive coding based on ‘seed sample’ of documents
+provided by firm lawyers” (71%), “Client ‘self-help’ tools that allow clients to
+perform tasks directly that previously required active participation by firm
+lawyers” (29%), “Use of e-learning systems (65%).” Id.
+3
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+legal services.
+Yet, a closer look often reveals that law firms and legal
+departments themselves often struggle with innovation and the
+required level of innovating. While the better firms often find
+innovative solutions to their clients’ problems, even those firms are
+reluctant to fully embrace Legal Tech innovations. Only those firms
+and legal departments that believe Legal Tech could give them a
+significant competitive advantage have introduced the position of
+chief innovation officer (CIO) or a functional equivalent.3 To receive
+an outside perspective, law firms sometimes appoint non-lawyers in
+some roles.4 Their role is simple and straightforward: accelerate
+innovation and take it to the next level.
+3 See, e.g., Press Release, Bryan Cave LLP, Bryan Cave Announces Chief
+Innovation Officer (Apr. 16, 2015), https://www.bryancave.com/en/news-
+events/bryan-cave-announces-chief-innovation-officer.html. (“The global law firm
+Bryan Cave LLP has named Denver-based Partner Katie DeBord Chief Innovation
+Officer.”); Baker Donelson Appoints William Painter as First Chief Innovation
+Officer, LEGALIT INSIDER (Sept. 27, 2016, 12:29 PM),
+https://www.legaltechnology.com/latest-news/baker-Donelson-appoints-first-chief-
+innovation-officer/.
+4 See, e.g., John Sterling, Non-Lawyers: A Critical Success Factor for the Law
+Firm of the Future, STERLING STRATEGIES (Dec. 5, 2013),
+http://sterlingstrat.com/non-lawyers-a-critical-success-factor-for-the-law-firm-of-
+the-future.html. (“More sophisticated law firms will be (are being) forced by
+clients and competitors to embrace technology, knowledge management, project
+management, lean process, and other management tools more common outside the
+legal industry. Successfully adopting any of those management tools requires
+attracting great people – well-trained, highly capable, hard-working and client
+focused – whose professional training is grounded in engineering, information
+technology, organizational psychology, management, and other fields.”); Manju
+Manglani, ‘Successful’ Law Firms of the Future Will Have Non-Lawyer CEOs,
+SOLIC. J. (July 23, 2015), https://www.solicitorsjournal.com/news/business-
+strategy/successful-law-firms-future-will-have-non-lawyer-ceos (noting that “In
+the next five to ten years, most UK law firms will ask non-lawyer managers to
+make strategic business decisions on the partners’ behalf,” predicts Steve Billot,
+managing director of the global restructuring advisory practice at Duff & Phelps
+who “believes that non-lawyer managers are critical to law firms being run as
+commercially-successful businesses.”); Nell Gluckman, Three Big Firms Hire New
+Diversity Officers, AM LAW DAILY (Oct. 12, 2016),
+http://www.americanlawyer.com/id=1202769805740/Three-Big-Firms-Hire-New-
+Diversity-Officers?slreturn=20170031193618.
+4
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+Key lawyer characteristics and lawyers’ core skillsets in the
+existing legal education and regulatory framework are incompatible
+with the demands on lawyers of the 21st century. Traditionally
+educated lawyers are not usually known for key characteristics such
+as agility and the capacity to innovate.5 While some litigators in a
+common law system can achieve new legal grounds that could not
+have been accomplished by legislators in the same time frame, e.g.,
+Brown v. Board of Education6 and Roe v. Wade7, the majority of
+lawyers in both civil and common law legal systems tend to be
+reactive, waiting for Congress/Parliament to provide new legal
+initiatives and legal guidance.8 Key skills emphasized in the existing
+law school education include precision, in-depth analyses and
+syntheses, substantive legal knowledge, and policy considerations.
+Yet, disruptive innovation in law9 obviates many if not most of the
+traditional legal skills and characteristics of traditional lawyers. The
+ABA, lawyers, and law schools cannot afford to ignore the new
+demands on lawyers of the 21st century.10
+The legal profession is one of the most disrupted sectors of
+5 See, e.g., RICHARD SUSSKIND, TOMORROW’S LAWYERS 53-54 (2013) (noting, “I
+find that most traditional practices are not changing much. They are not yet
+adopting alternative methods of working. This is partly an issue of change
+management, in that law firms tend to be so busy serving clients and meeting their
+own financial targets that they allow little time for internal reform—it is not easy
+to change a wheel on a moving car. It is also, in part, a structural matter, because
+most law firms still aspire to the old textbook, broad-based pyramidic structure . . .
+; whereas alternative methods of sourcing call for a revision if not rejection of that
+model.”).
+6 Brown v. Bd. of Educ., 349 U.S. 294 (1955).
+7 Roe v. Wade, 410 U.S. 113 (1973).
+8 See, e.g., GUIDO CALABRESI, A COMMON LAW FOR THE AGE OF STATUTES 163
+(1985) (noting that “[C]ourts are not capable of writing speedily enough most of
+the rules that a modern society apparently needs.”).
+9 See, e.g., Mark Fenwick, Wulf A. Kaal & Erik P.M. Vermeulen, Regulation
+Tomorrow: What Happens When Technology Is Faster Than the Law, Am. Univ.
+Bus. L. Rev. (forthcoming 2017),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2834531.
+10 A minority of law schools, including Northwestern University’s Pritzker School
+of Law and Chicago-Kent College of Law, have started to integrate law and
+technology into their curriculum and/or opened centers and other initiatives to
+prepare students for demands placed on them by future clients. At the time of
+publication of this article, the majority of law schools in the United States have
+engaged in marginal attempts to recognize the demands on 21st century lawyers.
+5
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+the consulting industry today.11 Legal Tech, artificial intelligence,
+machine learning, legal automation, big data applications, and
+blockchain technology are changing the way lawyers practice law.12
+The sharing economy challenges many of the traditional
+assumptions, doctrines, and concepts of law and governance.13
+Litigators, judges, and regulators are forced to reconsider traditional
+approaches because of disruption via platform technologies.14
+The challenges presented by Legal Tech, the new economy,
+and platform technologies justify a more creative and innovative
+approach for legal education in the 21st century. The curriculum of
+American law schools has only marginally changed over the last 30
+plus years.15 Yet, as law firms increasingly embrace Legal Tech, the
+new economy, and platform technologies16 law schools of the 21st
+11 See, e.g., Bernard Marr, How Big Data Is Disrupting Law Firms and the Legal
+Profession, FORBES Jan. 20, 2016, 2:31 AM),
+http://www.forbes.com/sites/bernardmarr/2016/01/20/how-big-data-is-disrupting-
+law-firms-and-the-legal-profession/#7836ac0a5ed6; Jane Croft, Artifical
+Intelligence Disrupting the Business of Law, FIN. TIMES (Oct. 5, 2016),
+https://www.ft.com/content/5d96dd72-83eb-11e6-8897-2359a58ac7a5.
+12 See, e.g., Marr, supra note 11; Joe Dewey & Shawn Amuial, Blockchain
+Technology Will Transform the Practice of Law, BLOOMBERG LAw (June 25,
+2015), https://bol.bna.com/blockchain-technology-will-transform-the-practice-of-
+law/; Jane Croft, More Than 100,000 Legal Roles to Become Automated, FIN.
+TIMES (MAR. 15, 2016), https://www.ft.com/content/c8ef3f62-ea9c-11e5-888e-
+2eadd5fbc4a4.
+13 See Benjamin G. Edelman & Damien Geradin, Efficiencies and Regulatory
+Shortcuts: How Should We Regulate Companies Like Airbnb and Uber? STAN.
+TECH L. REV. (forthcoming),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2658603.
+14 Id.
+15 See A. Benjamin Spencer, The Law School Critique in Historical Perspective, 69
+WASH. & LEE L. REV. 1949, 1973-2062 (2012).
+16 See, e.g., Erin Coe, Lawyers at Risk for Layoffs As Firms Embrace Technology,
+LAW 360 (June 25, 2013, 10:51 PM EDT),
+https://www.law360.com/articles/452967/lawyers-at-risk-for-layoffs-as-firms-
+embrace-technology; INT’L LEGAL TECH. ASS’N, 2016 ILTA/INSIDELEGAL
+TECHNOLOGY PURCHASING SURVEY (2016),
+http://insidelegal.typepad.com/files/2016_ILTA_InsideLegal_Technology_Purchas
+ing_Survey.pdf; THOMAS S. CLAY & ERIC A. SEEGER, 2015 LAW FIRMS IN
+TRANSITION: AN ALTMAN WEIL FLASH SURVEY 55-56, 82-83 (2015),
+http://www.altmanweil.com/dir_docs/resource/1c789ef2-5cff-463a-863a-
+2248d23882a7_document.pdf; ROBERT HALF LEGAL, FUTURE LAW OFFICE:
+6
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+century will recognize the new reality and adapt to new demands
+seamlessly. Such adaptation will likely entail incorporating AI into
+the classroom, adopting teaching by hypos via AI, and active
+machine learning in class, among many other possible innovations.17
+Curricular innovations may include coding for lawyers18 and law and
+technology courses or course modules,19 among many others. With
+curricular changes, adaptation to changes in technology, and new
+teaching methodologies that lend themselves more to technological
+adaptation, the law schools of the 21st century should be able to
+equip 21st century lawyers with the necessary skillsets to operate
+TECHNOLOGY’S TRANSFORMATION OF THE LEGAL FIELD (2013),
+https://www.roberthalf.com/sites/default/files/Media_Root/Images/RHL-
+PDFs/RHL_FLO_evolvingLegalProf.pdf. For background on the Legal Tech
+market, see Tom Wilson, Legal Tech – Managing Disruption, MEDIUM (July 12,
+2016), https://medium.com/@taw/legal-tech-mapping-disruption-
+3e6685fc4a5c#.eiufshoue.
+17 It is conceivable that first mover law schools which make the financial
+investment in artifical intelligence, machine learning, and blockchain will have a
+comparative advantage vis-à-vis their peers, regardless of the ranking of such
+school, because the demand for lawyers adequately trained in artfical intelligence,
+machine learning, and blockchain is likely to increase sharply at a threshold point
+of law firm adoption.
+18 Jason Krause, Does Learning to Code Make You a Better Lawyer? ABA J. (Sept.
+1, 2016, 2:00 AM CDT),
+http://www.abajournal.com/magazine/article/lawyer_learning_code_zvenyach_oh
+m/?utm_content=buffer8442b&utm_medium=social&utm_source=twitter.com&ut
+m_campaign=buffer; Chelsea Strauss, How I Learned Coding in Law School,
+SUFFOLK U.L. SCH.: STUDENT VOICES,
+http://theroadto1l.blogs.law.suffolk.edu/general/student-voices-how-i-learned-
+coding-in-law-school/ (last visited mar. 15, 2017).
+19 On Sept. 29, 2016, the Florida Supreme Court announced that it would require
+a minimum of three technology-related CLE credits in each three-year CLE
+reporting cycle, thus increasing the number of mandatory CLE credits from 30 to
+33. Victor Li, Florida Supreme Court Approves Mandatory Tech CLE Classes for
+Lawyers, ABA J. (Sept. 30, 2016, 8:45 AM CDT),
+http://www.abajournal.com/news/article/florida_supreme_court_approves_mandat
+ory_tech_cles_for_lawyers?utm_source=Newsletter+email+list&utm_campaign=0
+ae9e44e21-
+EMAIL_CAMPAIGN_2017_02_21&utm_medium=email&utm_term=0_2895784
+9de-0ae9e44e21-.
+7
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+effectively in the new world of disruptive innovation that is emerging
+rapidly.20
+This article has five parts. After this introduction to the basic
+tenets of the article, Part II introduces emerging changes in Legal
+Tech and their implications for lawyers. These changes include the
+emergence of virtual law firms, the changes mandated by the sharing
+economy, Legal Tech innovations in several areas of the law, and
+changes in the practice of law. After defining blockchain ledger
+technology and smart contracts, Part III evaluates the effects of
+blockchain technology’s unprecedented decentralization and its
+disruptive effects on the practice of law and society at large. Part III
+also discusses the existing but slowly resolving limitations of
+blockchain ledger technology. Part IV analyzes the implications of
+Legal Tech and blockchain ledger technology for legal education
+more generally and for law schools’ efforts in educating lawyers who
+are practice ready for the 21st century. Part V concludes.
+II. Legal Tech’s Disruptive Legal Innovation
+Legal technology (Legal Tech) has evolved from support
+systems to fully integrated and automated services for lawyers that
+increasingly disrupt the practice of law. Legal Tech can generally be
+defined as information technology services and software, as well as
+platforms and their applications.21 Since the 1970s, with the
+invention of the first legal databases,22 Legal Tech has supported
+20 As law schools adapt to legal technology, a learning process is likely to set in
+that allows a gradual, and/or in some cases more radical, appreciation of
+impending exponential changes and their meaning for the law school communities.
+21 “Broadly speaking, the Legal Tech market covers companies (mostly startups)
+utilising technology to build products solving problems faced both by industry (i.e.
+law firms, corporates [sic] etc.) and consumers related to legal services.” Wilson,
+supra note 16.
+22 William G. Harrington, A Brief History of Computer-Assisted Legal Research,
+77 L. LIBR. J. 543, 553 (1984-85) (noting that Lexis was introduced in 1973 and
+Westlaw was introduced in 1975). For a good overview of the online services and
+databases available to lawyers by the mid 1980s, see S. Blair Kauffman, Electronic
+Databases in Legal Research: Beyond LEXIS and WESTLAW, 13 RUTGERS
+COMPUTER & TECH. L.J. 73 (1987),
+http://digitalcommons.law.yale.edu/fss_papers/1293/. In 2004 Bloomberg began
+offering B-Law. “During the 1990s . . . [t]he Internet became another electronic
+medium for legal publishing . . . [C]ourts themelves began to host their own free
+8
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+existing ways of operating and practicing law and, in fact, created the
+need for additional lawyers to evaluate the new and increasing
+numbers of legal materials made available faster and more easily
+accessible by technology. At first, Legal Tech made law firms and
+lawyers more efficient in performing their activities. Examples
+include automated billing, document storage, practice management,
+and accounting software.23 In the early 2010s, Legal Tech became
+more advanced and started to include technology that assisted legal
+professionals in due diligence and e-discovery processes.24 Since
+websites.” Lynn Foster & Bruce Kennedy, Technological Developments in Legal
+Research, 2 J. APP. PRAC. & PROCESS. 275, 281-82 (2000),
+http://lawrepository.ualr.edu/appellatepracticeprocess/vol2/iss2/4/. In the mid
+1990s firms such as VersusLaw and Loislaw began to offer solo and small firm
+lawyers lower-cost (but less comprehensive) online alternatives to Westlaw and
+Lexis. Robert Ambrogi, Shake-Up in Legal Research: Fastcase Acquires Loislaw
+from Wolters-Kluwer, LAW SITES (Sept. 21, 2015,
+http://www.lawsitesblog.com/2015/09/shake-up-in-legal-research-fastcase-
+acquires-loislaw-from-wolters-kluwer.html. Those services were followed in 1999
+by Fastcase and Casemaker, which are notable for offering their services free to
+members of subscribing state bar associations. Mary Whisner, Getting to Know
+Fastcase, 106 L. LIBR. J. 473 (2014); Michael A. St. Pierre, Casemaker: Making
+Technology Work for You, R.I. BAR J., Sept./Oct. 2002, at 5. HeinOnline launched
+in 2000. The History of Hein and HeinOnline, WILLIAM S. HEIN & CO, INC.,
+http://home.wshein.com/about/history/. In 2010 Lexis, Westlaw, and Bloomberg
+introduced new versions of their research products (products which became known
+as WestlawNext, Lexis Advance, and Bloomberg Law), and Google Scholar
+entered the legal research business. Jill Schachner Chanen, Exclusive: Inside the
+New Westlaw, Lexis and Bloomberg Platforms, ABA J. (Jan, 25, 2010, 3:00 AM
+CST),
+(http://www.abajournal.com/news/article/exclusive_inside_the_new_westlaw_lexi
+s_bloomberg_platforms/ More recently, companies such as Ravel Law are
+introducing new ways to search, analyse, and visualize content. See, e.g., RAVEL,
+http://ravellaw.com/who-we-are/.
+23 See, e.g., SHARON D. NELSON, JOHN W. SIMEK & MICHAEL C. MASCHKE, THE
+2010 SOLO AND SMALL FIRM LEGAL TECHNOLOGY GUIDE 95–117 (2010), For
+more recent developments, see, e.g., Abdi Shayesteh & Elnaz Zarrini, Man Vs.
+Machine: Or, Lawyers Vs. Legal Technology, LAW 360 (Nov. 14, 2106, 12:14 PM
+EST).
+24 See, e.g., John M. Facciola, A History of Electronic Discovery, in MANAGING E-
+DISCOVERY AND ESI 13 (Michael D. Berman, Courtney Ingraffia Barton & Paul
+W. Grimm eds., 2011); BRUCE A. OLSON & TOM O’CONNOR, ELECTRONIC
+DISCOVERY FOR SMALL CASES (2012); Julie Sobowale, How Artifical Intelligence
+Is Transforming the Legal Profession, ABA J. (Apr. 1, 2016, 12:10 AM CST),
+http://www.abajournal.com/magazine/article/how_artificial_intelligence_is_transfo
+9
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+2015, Legal Tech has continued to evolve in unprecedented ways.
+Multiple startup companies and their investors have started to
+capitalize on technologies, and their applications are already
+replacing some junior lawyers and disrupting the existing parameters
+for the practice of law.25
+Four categories of startups in LegalTech can be
+distinguished. The first category includes startup companies that
+offer a range of online legal services, removing the in-person legal
+consultation process and guidance process for clients.26 The second
+legal startup category involves online “matching” platforms that
+rming_the_legal_profession (noting the launch of e-Brevia’s Diligence Accelerator
+among other developments); Wilson, supra note 16.
+25 See, e.g., Thomas H. Davenport, Let’s Automate All the Lawyers?, WALL
+STREET J. (Mar. 25, 2015, 12:18 PM ET),
+http://blogs.wsj.com/cio/2015/03/25/lets-automate-all-the-lawyers/; Peter Nussey,
+How Much of What Lawyers Do Can Be Automated?A Look at New Research,
+LEGALIT INSIDER (Jan. 22, 2016, 1:44 PM),
+https://www.legaltechnology.com/latest-news/guest-post-how-much-of-what-
+lawyers-do-can-be-automated-a-look-at-new-research/; DELOITTE, THE ROBOTS
+ARE COMING (2015),
+https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/finance/deloitte-
+uk-finance-robots-are-coming.pdf.
+26 Some of these services, including JUSTIA, https://www.justia.com/;
+LAWYERS.COM, http://www.lawyers.com/; and Avvo, https://www.avvo.com/, are
+free or have free components. Avvo, for example, allows a user to ask a question
+for free anonymously. It notifies the questioner when a lawyer responds to the
+question, which it says is usually within 12 hours. AVVO,
+https://www.avvo.com/ask-a-lawyer#! (last visited Mar. 18, 2017). Some of these
+services are fee-based or have a fee-based component. For example, in addition to
+its free service, Avvo also offers fixed fee legal services in multiple practice areas,
+and it offers a flat fee option for talking directly by phone for 15 minutes with one
+of its top-reviewed lawyers. AVVO,
+https://www.avvo.com/advisor?avvo_campaign=avvo_advisor&avvo_medium=ask
+alawyer_page_top&avvo_source=avvo (last visited Mar. 18, 2017). While
+providing some free legal advice and documents, Legal Zoom offers personal and
+business prepaid legal service plans that offer 30-minute consultations for each
+unique legal matter and a one hour annual legal checkup. LEGALZOOM,
+https://www.legalzoom.com/attorneys/ (last visited Mar. 18, 2017). Rocket
+Lawyer focuses on helping subscribers create personal and business legal
+documents, providing step-by-step instructions for customizing the documents, and
+offering review of the documents by an attorney for a set subscription cost. It also
+provides access to affordable representation by licensed attorneys.
+ROCKETLAWYER, https://www.rocketlawyer.com (last visited Mar. 18, 2017.
+10
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+connect lawyers with clients.27 Such platform startups help
+consumers find a fitting lawyer without the costly involvement of a
+law firm. The third category entails startups that use A.I. tools to take
+over their lawyer clients’ time-consuming and expensive legal
+research activities such as reviewing, understanding, evaluating, and
+reapplying contracts.28 Finally, startups with expertise in blockchain
+technology attempt to replace lawyers as intermediaries in certain
+types of transactions.29
+27 Such startups’ platforms help consumers find the right lawyer without the costly
+involvement of a law firm. Examples include UPCOUNSEL,
+https://www.upcounsel.com/ (last visited Mar. 18, 2017); LAWGIVES,
+https://www.lawgives.com/ (last visited Mar. 18, 2017); and LEGALHERO,
+https://www.legalhero.com/ (last visited Mar. 18, 2107). See generally Shannon
+Achimalbe, Will Client-Matching Services Turn Participating Lawyers into Uber
+Drivers?, ABOVETHELAW (Dec. 3, 2014, 3:19 PM),
+http://abovethelaw.com/2014/12/will-client-matching-services-turn-participating-
+lawyers-into-uber-drivers/; Jennifer Smith, Online Matchmakers Offer New Way to
+Find Legal Help, WALL STREET J. (Dec. 2, 2013),
+http://www.wsj.com/news/articles/SB100014240527023034645045791072314433
+11754.
+28 Examples include LegalSifter, https://www.legalsifter.com/ (last visited Mar. 18,
+2017); Seal software, https://www.seal-software.com/ (last visited Mar. 18, 2017);
+Exigent Group, http://www.exigent-group.com/ (last visited Mar. 18, 2017);
+Beagle, http://beagle.ai/ (last visited Mar. 18, 2107); Brightleaf,
+http://www.brightleaf.com/ (last visted Mar. 18, 2017; eBrevia,
+https://ebrevia.com/ (last visited Mar. 18, 2017; and Legal Robot,
+https://www.legalrobot.com/. See generally Frederic Lardinois, LegalSifter Helps
+Designers and Developers Read Their Contracts, TC (Aug. 7, 2014,
+https://techcrunch.com/2014/08/07/legalsifter-helps-designers-and-developers-
+read-their-contracts/; Seal Software: Breaking the Seal to Identiify Contract Value,
+SOURCING INNOVATION, (Feb. 13, 2107),
+http://sourcinginnovation.com/wordpress/category/contract-management/; Julie
+Bort, This Startup Invented a New Category of Search Software So Good Google
+Uses It, BUSINESS INSIDER (Feb. 1, 2017, 8:00 PM),
+http://www.businessinsider.com/seal-software-invents-search-software-so-good-
+google-uses-it-2017-2; Exigent Launches Hybrid Service for Low Cost
+Customisable Contract Discovery, EXIGENT (Jan. 18, 2017), http://www.exigent-
+group.com/exigent-launches-hybrid-service-for-low-cost-customizable-contract-
+discovery/; LPO Exigent Teams Up with LexPredict to Provide NLP Contract
+Discovery Service, ARTIFICIAL LAWYER (Jan. 18, 2017),
+https://artificiallawyer.com/2017/01/18/lpo-exigent-teams-up-with-lexpredict-to-
+provide-contract-discovery-service/.
+29 Ethereum is one example of a custom-built blockchain platform that runs smart
+contracts. See ETHEREUM, https://www.ethereum.org/ (last visited Mar. 18, 2017).
+11
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+The decentralization of law that is a central part of the startup
+companies’ purpose and that disrupts existing legal practices has
+broad repercussions for the legal profession. First, existing legal
+services are rendered increasingly irrelevant or are replaced by Legal
+Tech.30 Junior legal professionals and legal support staff are likely
+the first victims of the Legal Tech evolution.31 Legal Tech
+applications will be able to perform most of junior lawyers’ work in
+the near future without the human elements that create imprecision,
+flaws, inaccuracies, possible lawsuits, and delay.32 Second, and most
+Legal startups that use blockchain technology for smart contracts include:
+SmartContract, Hedgy, Mifiel, rainvow, godzillion, and Katalysis. Blockchains
+Startups, https://angel.co/blockchains (last visited Mar. 18, 2017). A few of the
+others include Adjoint Inc., http://www.adjoint.io/ (last visited Mar. 18, 2017);
+CommonAccord, https://commonaccord.wordpress.com/ (last visited Mar. 18,
+2017); Clause, CLAUSE BLOG, https://blog.clause.io/tagged/smart-contracts (last
+visited Mar. 18, 2017); and Stash, http://stashcrypto.com/smart-contracts-info (last
+visited Mar. 18, 2017). See generally Rob Marvin, Blockchain in 2017: The Year
+of Smart Contracts, PC (Dec. 12, 2016),
+http://www.pcmag.com/article/350088/blockchain-in-2017-the-year-of-smart-
+contracts; James Eyers, Blockchain ‘Smart Contracts’ to Disrupt Lawyers,
+AFRWEEKEND (May 30, 2016, 12:15 AM),
+http://www.afr.com/technology/blockchain-smart-contracts-to-disrupt-lawyers-
+20160529-gp6f5e.
+30 See, e.g., DELOITTE, DEVELOPING LEGAL TALENT; STEPPING INTO THE FUTURE
+LAW FIRM (2016), http://www.legalfutures.co.uk/wp-content/uploads/developing-
+legal-talent-2016.pdf.
+31 See, e.g. David Kravets, Law Firm Bosses Envision Watson-Type Computers
+Replacing Young Lawyers, ARS TECHNICA (Oct. 26, 2105, 12.06 PM),
+https://arstechnica.com/tech-policy/2015/10/law-firm-bosses-envision-watson-
+type-computers-replacing-young-lawyers/; Karen Turner, Meet ‘Ross,’ the Newly
+Hired Legal Robot, WASHINGTON POST (May 16, 2016),
+https://www.washingtonpost.com/news/innovations/wp/2016/05/16/meet-ross-the-
+newly-hired-legal-robot/?utm_term=.950014c34c52; Dan Mangan, Lawyers Could
+Be the Next Profession to Be Replaced by Compters, CNBC (Feb. 17, 2107, 1:55
+PM ET), http://www.cnbc.com/2017/02/17/lawyers-could-be-replaced-by-
+artificial-intelligence.html; Jacqui Walker, The Future of Law: Is Technology
+Stealing Young Lawyer Jobs?, LEGALER BLOG (Mar.1, 2015),
+http://blog.legaler.com/2015/03/01/the-future-of-law-is-technology-stealing-
+young-lawyer-jobs/; CHRISTIAN VEITH, MICHAEL BANDLOW, MICHAEL HARNISCH,
+HARIOLF WENZLER, MARKUS HARTUNG, & DIRK HARTUNG, HOW LEGAL
+TECHNOLOGY WILL CHANGE THE BUSINESS OF LAW 10–12 (2016),
+http://media.wix.com/ugd/b30d31_7b407b2c8c6b44d697957b7fa5db48c8.pdf.
+32 See, e.g., Turner, supra note 31; Mangan, supra note 31.
+12
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+importantly, the legal profession will be forced by such startup
+companies to innovate in perpetuity, a task that is not easily
+accomplished by overextended and — often — cumbersome legal
+organizations that have lost the capacity for agile re-invention.
+1. Virtual Law Firms
+Legal Tech has the potential to rapidly transform law firms
+and legal departments into virtual law firms. Virtual law firms may
+dominate in the future. A virtual law firm is basically a platform with
+an emphasis on connecting legal and other professionals and
+collaboration. When implemented successfully, the effect of the
+platform model will be the creation of a flexible and accessible
+community of professionals with different skills and experience. The
+bigger the community, the easier it is to offer solutions tailored to the
+needs of the clients.
+The virtual law firm model attracts a wide spectrum of law
+firms. One extreme is represented by the traditional law firm
+characterized by a hierarchy with partners at the top and varying
+levels of associates, paralegals, and non-lawyers below them.33 On
+the other end of the spectrum are those firms that adopt an “Airbnb”-
+type platform organization, mainly providing a match-
+making/coordination service.34 Enormous variations exist between
+the two extremes, depending on the level of implementation of Legal
+Tech.
+Legal platforms adopt a variety of approaches. For instance,
+UpCounsel offers entrepreneurs on-demand access to experienced
+lawyers. 35 LawyerlinQ in the Netherlands36 and Digitorney in
+Germany37 offer law firms the possibility to insource special
+33 Sullivan and Cromwell LLP, https://www.sullcrom.com/; Cravath, Swaine &
+Moore LLP, https://www.cravath.com/; DavisPolk, https://www.davispolk.com/;
+and Debeoise & Plimpton, http://www.debevoise.com/ are examples.
+34 Achimalbe, supra note 27; Smith, supra note 27.
+35 https://www.upcounsel.com.
+36 http://about.lawyerlinq.com.
+37 http://www.digitorney.de/. Based on Intralinks technology, Digitorney provides
+corporate law firms and its pool attorneys with a digital tool for virtual
+collaboration. Its data room enables all parties to upload files and to exchange
+working results. Digitorney is aimed at large and medium-sized law firms that
+focus on business law and that want to use external resources for some of their
+13
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+knowledge and skills for more complex projects.38 Digitorney is the
+only startup known to the authors that also realized very early the
+need to bring law students into the new reality of virtual law firms
+early. Accordingly, Digitorney established the so-called Junior Pool,
+as a way for law students to work very early in their careers on
+international mandates and help them establish a track record of
+excellence in a virtual law firm setting that allows them to take on
+more senior roles earlier in their careers.39 LexSemble is a
+crowdsourcing platform that allows multiple users to edit legal
+knowledge entries.40 The information gathered from the cloud helps
+the platform to develop a machine learning analytics engine. This
+engine can be used to assist in legal decision-making and prediction
+activities.
+2. Reevaluation of Applicable Law
+Legal Tech’s disruptive innovation in combination with the
+principles established by the sharing economy require lawyers and
+lawmakers to reevaluate their understanding of many areas of the
+law. Because of the disruptive effects of the sharing economy,41 legal
+doctrines, principles, and concepts need to be redesigned around
+sharing and decentralized peer-to-peer platforms. Such an
+undertaking requires out-of-the-box thinking for lawyers who were
+trained during law school and during their entire careers to think
+inside the box.
+The areas of law that are most clearly affected by the
+disruptive innovation in law, the sharing economy, machine learning,
+artificial intelligence, and blockchain technology include property,
+legal work. After a briefing by phone or in writing, Digitorney’s lawyers provide
+the requested product or service primarily by means of the securely encrypted
+Digitorney platform. Upon request, they also provide work in person. Digitorney
+enables participating law firms to cover peak demands and optimize internal
+capacity and profitability.
+38 For an overview of how to set up a simple virtual law practice, see Chad Burton,
+Launching a Virtual Law Firm, GP SOLO, Jan.-Feb. 2044, at 24,
+http://www.americanbar.org/publications/gp_solo/2014/january-
+february/launching_virtual_law_firm.html.
+39 http://www.digitorney.de/2016/11/08/digitorney-junior-pool/.
+40 https://lexsemble.com/.
+41 See infra note 83.
+14
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+private law, and employment law, to name only a few.
+Property is a prime example. In the sharing economy, people
+will care less over time about ownership, and property law will
+inevitably have to change. In the sharing economy, products and
+legal rights pertaining to products and land are becoming less
+relevant and are iteratively becoming services. As such, ownership,
+title, and legal rights pertaining to real property and chattel are
+becoming less relevant. Moreover, as the distinction between
+commercial property and personal consumption property becomes
+blurred, other areas of law need to be revised. Such areas may
+include: tax law, bankruptcy law, and liability and insurance law,
+among many others.
+Privacy law provides another prominent example. With the
+development and exponential evolution of the internet of things,
+artificial intelligence, machine learning, big data analytics,
+blockchain technology, and smart contracts, more and more personal
+information will be registered, recorded, and analyzed. Existing
+privacy laws need to evolve to accommodate the developments,
+while at the same time securing the integrity of the connected
+systems.
+Employment law also may be affected. Companies with few
+or no assets are becoming more common in the sharing economy.
+Trust is created through platforms and distributed networks. This
+encourages a direct “peer-to-peer” contact between the service
+provider and consumer. Accordingly, consumer protection laws, tax
+laws, and, of course, labor laws need significant revisions.
+3. Changing Legal Practice
+Legal Tech is replacing the traditional role of legal
+professionals. Legal professionals play a crucial role in establishing
+trust and truth in legal transactions.42 They negotiate, draft, and
+42 See, e.g., John O. McGinnis & Russell G. Pearce, The Great Disruption: How
+Machine Intelligence Will Transform the Role of Lawyers in the Delivery of Legal
+Services, 82 FORDHAM L. REV. 3041, 3055 (2014); Estate Planning FAQs: What Is
+the Lawyer’s Role?, AM. BAR ASS’N,
+http://www.americanbar.org/groups/real_property_trust_estate/resources/estate_pla
+nning/the_lawyer_s_role.html (last visited Mar. 18, 2017); Gregory Dent, Lawyers
+and Trust in Business Alliances, BUS. LAW., Nov. 2002, at 45, 55–59,
+http://scholarlycommons.law.case.edu/cgi/viewcontent.cgi?article=1253&context=
+faculty_publications.
+15
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+interpret contracts and help enforce them; create laws and regulations
+that protect the weaker parties; and design structures that enable the
+registration and transfer of tangible property and intellectual
+property. Well-drafted legal contracts help establish trust and
+confidence in the validity of the transaction and the economic
+benefits of the transaction for the contracting parties. Important
+matters, such as the truth about ownership and control, the transfer of
+ownership, and the allocation of risk and control, are normally
+covered in a contract. However, the counseling, deal-making,
+matchmaking, gatekeeping, and enforcing roles are increasingly
+performed by technology.43 This trend is likely to accelerate in the
+near future, enabled by blockchain technology and smart
+contracting.44
+III. Blockchain Ledger Technology
+Leading technologists around the world have hailed
+blockchain technology as one of the most important technological
+innovations since the Internet.45 The peer-to-peer interactions and
+43 McGinnis & Pearce, supra note 42, at 3041-43, 3046-55; Benjamin H. Barton,
+The Lawyer’s Monopoly—What Goes and What Stays, 82 FORDHAM L. REV. 3067,
+3069–80 (2014).
+44 See infra Part III on revolutionary role of blockchain technology in law.
+45 See, e.g., COGNIZANT, MARKETFORCE & PEGASYSTEMS, THE FUTURE OF RETAIL
+FINANCIAL SERVICEs 6, 28-30 (2016),
+https://www.pega.com/sites/pega.com/files/docs/2016/Jan/the-future-of-retail-
+financial-services-study.pdf; John Naughton, Is Blockchain the Most Important IT
+Invention of Our Age? GUARDIAN (Jan. 24, 2016, 4:00 EST),
+https://www.theguardian.com/commentisfree/2016/jan/24/blockchain-bitcoin-
+technology-most-important-tech-invention-of-our-age-sir-mark-walport; William
+Mougayar, The Blockchain Is the New Google, TC (May 11, 2016)
+https://techcrunch.com/2016/05/11/the-blockchain-is-the-new-google/; MICHAEL
+CROSBY ET AL., BLOCKCHAIN TECHNOLOGY BEYOND BITCOIN 3 (2015),
+http://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf; Kyle Torpey,
+Why the Bitcoin Blockchain Is the Biggest Thing Since the Internet, NASDAQ (Apr.
+19, 2016, 9:32:27 AM EDT), http://www.nasdaq.com/article/why-the-bitcoin-
+blockchain-is-the-biggest-thing-since-the-internet-cm608228; Carrie Kirby,
+Andreessen at Coin Summit: Bitcoin Today Is the Internet in 1994, COINDESK
+(Mar. 25, 2014, 20:21 GMT), http://www.coindesk.com/marc-andreessen-balaji-
+srinivasan-discuss-bitcoin/; Dinis Guarda, Over 50 Bitcoin and Blockchain
+Thoughts and Quotes You Need to Read, TRADERSDNA (Apr. 7, 2016),
+http://www.tradersdna.com/bitcoin-and-blockchain/over-50-bitcoin-and-
+16
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+transactions in a decentralized network where all participants are
+equal and verification and validation of each transaction is provided
+by all parties in the network through the blockchain technology
+provides near unlimited opportunities and applications. For instance,
+in the financial world a global consensus record of information and
+transactions creates the much-needed transparency, and at the same
+time opens global access to finance—including in areas of the world
+where the banking system — in contrast to a mobile telephone
+network — is not readily available.46 The technology incentivizes
+direct transactions, including compensation, between the creator and
+consumer, eliminating the need for intermediation.47
+Blockchain technology creates a platform for trust through
+truth and transparency for parties. Because the blockchain (at the
+least the public blockchain) is in fact public and immutable, the
+technology increases transparency, while at the same time
+significantly reducing transaction costs. Intermediaries, including
+lawyers, are replaced by code, connectivity, crowd, and
+collaboration.48
+blockchain-thoughts-and-quotes-you-need-to-read/; Rich Daly, Blockchain: Wall
+Street’s Most Game-Changing Technology Advance Since the Internet, FORBES
+(July 11, 2016, 6:00 AM),
+https://www.forbes.com/sites/richdaly/2016/07/11/blockchain-wall-streets-most-
+game-changing-technology-advance-since-the-internet/#33987a154d87.
+46 See, e.g., Michele Chandler, Mobile Banking Takes Off in Nigeria, STAN.
+GRADUATE SCH. BUS. (Jan. 24, 2012),
+https://www.gsb.stanford.edu/insights/mobile-banking-takes-nigeria (noting that in
+Nigeria, for example, banking transactions are readily executed over mobile
+phones because no infrastructure exists for consumer banking); Cade Metz, Why
+Bitcoin Will Thrive First in the Developing World, WIRED (Feb. 2, 2016, 8:00
+AM), https://www.wired.com/2016/02/why-bitcoin-will-thrive-first-in-the-
+developing-world/; Yessi Bello Perez, Can Bitcoin Make a Difference in the
+Global Aid Sector?, COINDESK (Sept. 9, 2015, 10:30 GMT).
+http://www.coindesk.com/can-bitcoin-make-a-difference-in-the-global-aid-sector/
+(suggesting that donations and aid to third world countries can finally be provided
+without the interference of suboptimal bureaucratic organizations that don’t
+allocate the aid as intended by the donor).
+47 See, e.g., infra note 48; Perez, supra note 46; Brett Scott, How Can
+Cryptocurrency and Blockchain Technology Play a Role in Building Social and
+Solidarity Finance? UNRISD Working Paper 2016-1) 6,
+http://www.unrisd.org/brett-scott.
+48 See, e.g., Eric Piscini, Gys Hyman & Wendy Henry, Blockchain: Trust
+Economy, DELOITTE U. (Feb.7, 2017), https://dupress.deloitte.com/dup-us-
+17
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+1. Blockchain Technology Defined
+Blockchain technology has been defined in many different
+ways, and no truly uniform definition seems to exist. Some refer to it
+as a giant worldwide, distributed, immutable “google spreadsheet”
+for transactions.49 Others define blockchain by focusing on its central
+elements, e.g., it is a transaction ledger, electronic, decentralized,
+immutable, and provides cryptographic verification, among several
+others.50 Vitalik Buterin, the founder of Ethereum, perhaps most
+prominently defined blockchain as follows:
+Public blockchains: a public blockchain is a
+blockchain that anyone in the world can read, anyone
+in the world can send transactions to and expect to
+see them included if they are valid, and anyone in the
+en/focus/tech-trends/2017/blockchain-trust-economy.html; Don Tapscott & Alex
+Tapscott, How Blockchain Will Change Organzations, MIT SLOAN MGMT. REV.,
+Winter 2017, at 10–11, http://sloanreview.mit.edu/article/how-blockchain-will-
+change-
+organizations/?social_token=5393525f2c938c2283f4f53795e343a4&utm_source=t
+witter&utm_medium=social&utm_campaign=sm-direct; Mohit Kaushal & Sheel
+Tyle, The Blockchain: What It Is and Why It Matters, BROOKINGS: TECHTANK (Jan.
+13, 2105), https://www.brookings.edu/blog/techtank/2015/01/13/the-blockchain-
+what-it-is-and-why-it-matters/; The Trust Machine; The Promise of the
+Blockchain, ECONOMIST, Oct. 31, 2015, at 13,
+http://www.economist.com/news/leaders/21677198-technology-behind-bitcoin-
+could-transform-how-economy-works-trust-machine; Jason Leibowitz,
+Blockchain’s Big Innovation Is Trust, Not Money, COINDESK (May 21, 2016,
+16:57 GMT), http://www.coindesk.com/blockchain-innovation-trust-money/.
+49 Jonathan Shieber, Colu Aims To Bring Blockchain Technology Everywhere, TC (Jan. 27,
+2015), https://techcrunch.com/2015/01/27/colu-aims-to-bring-blockchain-
+technology-everywhere/; Craig Leppan, Who Is Blockchain Going to Affect the
+Most, OVATIONS (July 29, 2015), http://www.ovationsgroup.com/blockchain/.
+50 See, e.g., ALAN MORRISON, BLOCKCHAIN AND SMART CONTRACT AUTOMATION:
+BLOCKCHAINS DEFINED, PWC (2016), http://www.pwc.com/us/en/technology-
+forecast/2016/blockchain/pwc-smart-contract-automation-definition.pdf; Alistair
+Dabbs, What Is Blockchain, and Why Is It Growing in Popularity? ,
+ARSTECHNICA (Nov. 6.2016, 8:00 AM), https://arstechnica.com/information-
+technology/2016/11/what-is-blockchain/; Lee Grant, Blockchain – Definition,
+Origin, and History, TECHBULLION (Sept. 6, 2016),
+http://www.techbullion.com/blockchain-definition-origin-history; DELOITTE,
+BLOCKCHAIN ENIGMA. PARADOX. OPPORTUNITY 4–7 (2016),
+https://www2.deloitte.com/content/dam/Deloitte/uk/Documents/Innovation/deloitte
+-uk-blockchain-full-report.pdf.
+18
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+world can participate in the consensus process – the
+process for determining what blocks get added to the
+chain and what the current state is. As a substitute
+for centralized or quasi-centralized trust, public
+blockchains are secured by cryptoeconomics – the
+combination of economic incentives and
+cryptographic verification using mechanisms such as
+proof of work or proof of stake, following a general
+principle that the degree to which someone can have
+an influence in the consensus process is proportional
+to the quantity of economic resources that they can
+bring to bear. These blockchains are generally
+considered to be “fully decentralized”.51
+Rather than attempting to agree on a mutually acceptable
+phraseology for a definition, a description of the core elements of
+ledger technology can help define the blockchain. As such, a
+blockchain is a shared digital ledger or database that maintains a
+continuously growing list of transactions among participating parties
+regarding digital assets – together described as “blocks.”52 The linear
+51 Vitalik Buterin, On Public and Private Blockchains, ETHEREUM BLOG (Aug.7,
+2015), https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/,
+contrasting public blockchains (the original idea) with consortium blockchains and
+fully private blockchains: “Consortium blockchains: a consortium blockchain is a
+blockchain where the consensus process is controlled by a pre-selected set of
+nodes; for example, one might imagine a consortium of 15 financial institutions,
+each of which operates a node and of which 10 must sign every block in order for
+the block to be valid. The right to read the blockchain may be public, or restricted
+to the participants, and there are also hybrid routes such as the root hashes of the
+blocks being public together with an API that allows members of the public to
+make a limited number of queries and get back cryptographic proofs of some parts
+of the blockchain state. These blockchains may be considered ‘partially
+decentralized.’” Id. “Fully private blockchains: a fully private blockchain is a
+blockchain where write permissions are kept centralized to one organization. Read
+permissions may be public or restricted to an arbitrary extent. Likely applications
+include database management, auditing, etc [sic] internal to a single company, and
+so public readability may not be necessary in many cases at all, though in other
+cases public auditability is desired.” Id.
+52 See, e.g., Michele D’Aliessi, How Does the Blockchain Work? MEDIUM (June 1,
+2106), https://medium.com/@micheledaliessi/how-does-the-blockchain-work-
+98c8cd01d2ae#.w76hifcu2; Monica Pearson, Blockchain Is the New Buzzword,
+EXPERIAN, (Jan. 31, 2016),
+19
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+and chronological order of transactions in a chain will be extended
+with another transaction link that is added to the block once such
+additional transaction is validated, verified, and completed.53 The
+chain of transactions is distributed to a limitless number of
+participants, so called nodes,54 around the world in a public or
+private peer-to-peer network.
+Blockchain technology removes fraudulent transactions.
+Compared with existing methods of verifying and validating
+transactions by third party intermediaries, blockchain’s security
+measures make blockchain validation technologies more transparent
+and less prone to error and corruption. While blockchain’s use of
+digital signatures helps establish the identity and authenticity of the
+parties involved in the transaction, it is the completely decentralized
+network connectivity via the Internet that allows the most protection
+against fraud.55 Network connectivity allows multiple copies of the
+blockchain to be available to all participants across the distributed
+network.56 The decentralized fully distributed nature of the
+blockchain makes it practically impossible to reverse, alter, or erase
+information in the blockchain.57 Blockchain’s distributed consensus
+https://www.experian.com/blogs/insights/2016/01/blockchain-is-the-new-
+buzzword/.
+53 See, e.g., D’Aliessi, supra note 52; Pearson, supra note 52.
+54 See, e.g., D’Aliessi, supra note 52. Participants can be individuals,
+organizations, and even things. See, e.g., Hemant Saxena, Blockchain Technology
+and Microsoft’s Plan to Develop Blockchain As a Service, WINDOWS CLUB (Feb.
+16, 2017), http://www.thewindowsclub.com/blockchain-microsoft-plans-develop-
+service?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+
+TheWindowsClub+%28The+Windows+Club%29; Sloane Brakeville & Bhargav
+Perepa, Blockchain Basics: Introduction to Distributed Ledgers, IBM:
+DEVELOPERWORKS (May 9, 2016; updated Dec. 15, 2016),
+https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-
+bluemix-trs/. The only condition for participants is the necessity of an Internet
+connection. See e.g., D’Aliessi, supra note 52.
+55 See, e.g., Brakeville & Perepa, supra note 54. For an in-depth, nuanced
+discussion of this point, see PETER VAN VALKENBURGH, OPEN MATTERS: WHY
+PERMISSIONLESS BLOCKCHAINS ARE ESSENTIAL TO THE FUTURE OF THE INTERNET
+3–4, 23–26 (2016), https://coincenter.org/files/2016-12/openmattersv1-1.pdf .
+56 See, e.g., D’Aliessi, supra note 52.
+57 See, e.g., Brakeville & Perepa, supra note 54; Antony Lewis, A Gentle
+Introduction to Immutability of Blockchain, BITS ON BLOCKS (Feb. 29, 2016),
+20
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+model, e.g., the network “nodes” verify and validate chain
+transactions before execution of the transactions, makes it extremely
+rare for a fraudulent transaction to be recorded in the blockchain.58
+That model also allows node verification of transactions without
+compromising the privacy of the parties and is therefore arguably
+safer than a traditional model that requires third-party intermediary
+validation of transactions.59
+Cryptographic hashes further increase blockchain security.
+Cryptographic hashes are complex algorithms that use details of all
+previous transactions in the existing blockchain before adding the
+next block to generate a unique hash value.60 That hash value
+ensures the authenticity of each transaction before it is added to the
+block. The smallest change to the blockchain, even a single
+digit/value, results in a different hash value. A different hash value
+makes any form of manipulation immediately detectable.61
+Smart contracts and smart property are blockchain-enabled
+computer protocols that verify, facilitate, monitor, and enforce the
+negotiation and performance of a contract.62 The term “smart
+https://bitsonblocks.net/2016/02/29/a-gentle-introduction-to-immutability-of-
+blockchains/.
+58 See, e.g., Francois Janinotto, The Blockchain Explained to Web Developers,
+Part 1: The Theory, MARMELAB BLOG (Apr. 28, 2016),
+https://marmelab.com/blog/2016/04/28/blockchain-for-web-developers-the-
+theory.html; Razvan Peteanu, Fraud Detection in the World of Bitcoin, BITCOIN
+MAG. (Mar. 26, 2014, 5:50 AM EST), https://bitcoinmagazine.com/articles/fraud-
+detection-world-bitcoin-1395827419/ (noting, “Fundamentally, detecting fraud is
+hard precisely because it is rare, dynamic and not necessarily obviously
+fraudulent.”).
+59 For a discussion of privacy on the blockchain, see Valkenburgh, supra note 55,
+at 33–40. For an overview of various consensus mechanisms see SIGRID SEIBOLD
+& GEORGE SAMMAN, CONSENSUS: IMMUTABLE AGREEMENT FOR THE INTERNET OF
+VALUE (2016). https://assets.kpmg.com/content/dam/kpmg/pdf/2016/07/kpmg-
+blockchain-consensus-mechanism-channel-islands.pdf; Valkenburgh, supra note
+54, at 15-40.
+60 See, e.g., Lewis, supra note 57.
+61 Id.
+62 See e.g., ALAN MORRISON, BLOCKCHAIN AND SMART CONTRACT AUTOMATION:
+INTRODUCTION AND FORECAST, PWC (2016),
+http://www.pwc.com/us/en/technology-forecast/2016/blockchain/pwc-smart-
+contract-automation-introduction.pdf; Nicolette Kost De Sevres & Bradley Cohen,
+The Blockchain Revolution, Smart Contracts and Financial Transactions, DLA
+PIPER (Apr. 26, 2106),
+21
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+contract” was first introduced by Nick Szabo, a computer scientist
+and legal theorist, in 1994.63 An often-cited example for smart
+contracts is the purchase of music through Apple’s iTunes platform.64
+A computer code ensures that the “purchaser” can only listen to the
+music file on a limited number of Apple devices.65
+More complex smart contract arrangements in which several
+parties are involved require a verifiable and unhackable system
+provided by blockchain technology.66 Through blockchain
+technology, smart contracting often makes contractual legal
+contracting unnecessary as smart contracts often emulate the logic of
+legal contract clauses.67 Ethereum, the leading platform for smart
+https://www.dlapiper.com/en/czech/insights/publications/2016/04/the-blockchain-
+revolution/.
+63 Smart Contracts: The Blockchain Technology That Will Replace Lawyers,
+BLOCKGEEKS, http://blockgeeks.com/guides/smart-contracts/ (last visited Mar. 18,
+2017); Not-So-Clever Contracts, ECONOMIST, July 30, 2016, at 53,
+http://www.economist.com/news/business/21702758-time-being-least-human-
+judgment-still-better-bet-cold-hearted.
+64 See, e.g., HORSTEN KOEPPL & JEREMY KRONIK, BLOCKCHAIN TECHNOLOGY—
+WHAT’S IN STORE FOR CANADA’S ECONOMY AND FINANCIAL MARKETS? 15
+(2017),
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Co
+mmentary_468_0.pdf; R. Douglas Vaugh & Anna Outzer, Understanding How the
+Block Chain Could Impact the Legal Industry, LAW 360 (Jan. 11, 2107),
+https://www.law360.com/articles/879810/understanding-how-blockchain-could-
+impact-legal-industry.
+65 Vaughn & Outzer, supra note 64; Jeffrey Glazer, Smart Contracts Are a Future,
+U. WIS. – MADISON: LAW & ENTREPRENEURSHIP CLINIC (Sept. 14, 2105),
+https://www.uwle.org/blog/smart-contracts-are-a-future.
+66 See, e.g., ETHEREUM, https://www.ethereum.org/; Gavin Wood, Etherium: A
+Secure Decentralised Generalised Transaction Ledger,
+http://gavwood.com/paper.pdf; Luke Parker, Industry Research Papers Highlight
+Blockchain Technology’s Disruptive Potential, BRAVE NEWCOIN (July 3, 2016),
+https://bravenewcoin.com/news/industry-research-papers-highlight-blockchain-
+technologys-disruptive-potential/.
+67 Mark Anderson, Smart Contracts and Bockchain Technology, IP DRAUGHTS
+(June 18, 2106, 12:14 PM), https://ipdraughts.wordpress.com/2016/06/18/smart-
+contracts-and-blockchain-technology/. See generally Josh Stark, Making Sense of
+Blockchain Smart Contracts, COINDESK (June 4, 2016, 18:39 GMT),
+http://www.coindesk.com/making-sense-smart-contracts/; Josh Stark, How Close
+Are Smart Contracts to Impacting the Real World of Law?, COINDESk, (Apr. 11,
+2016, 14:00 GMT), http://www.coindesk.com/blockchain-smarts-crntracts-real-
+world-law/; Ted Mylnar & Ira Schafer, Why Smart Contracts Will Need ‘Smart
+22
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+contracting, describes smart contracting in this context as follows:
+Ethereum is a decentralized platform that runs
+smart contracts: applications that run exactly as
+programmed without any possibility of downtime,
+censorship, fraud or third party interference. These
+apps run on a custom built blockchain, an
+enormously powerful shared global
+infrastructure that can move value around and
+represent the ownership of property. This enables
+developers to create markets, store registries of
+debts or promises, move funds in accordance with
+instructions given long in the past (like a will or a
+futures contract) and many other things that have
+not been invented yet, all without a middle man or
+counterparty risk.68
+2. Decentralization
+Rapid technological change allows society to shed its
+centralized past and become increasingly decentralized. Rapid
+technological change overcomes vertical hierarchies and enables a
+world of horizontal, open, and autonomous networks.69 The Internet
+enabled a free, fast, and global exchange of information and ideas.
+Social media further reformed and accelerated the way society
+exchanges and shares information. Both inventions had a broad and
+astonishing social impact. Within one generation, every aspect of
+social interaction has been transformed.
+Blockchain technology is transforming society for an even
+more decentralized future. Figure 1 illustrates the currently shifting
+and intersecting paradigms of user connectivity and the shift towards
+decentralization. Corporate decentralization started with firms such
+Term Sheets’ to Match, COINDESK (Dec. 9, 2016, 14:36 GMT),
+http://www.coindesk.com/smart-contracts-will-need-smart-term-sheets-match/. For
+an example of what startups hope to accomplish with smart contracting, see
+Legalese, https://legalese.com/.
+68 ETHEREUM, supra note 66.
+69 See, e.g., Don Tapscott, Why Blockchain Will Smash Hierarchies, DUKE CE,
+(SEPT. 2016), http://www.dukece.com/article-library/blockchain-will-smash-
+hierarchies/.
+23
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+as Netflix, Amazon, Tesla, and Under Armour, among several others,
+that favored flatter corporate hierarchies, open communication, a
+best-idea-wins culture, and a focus on Millenials’ preferences. This
+trend of decentralization has been accompanied by an ever-
+increasing interconnectivity of users. Figure 2 suggests that around
+2015-17 a paradigm shift began that allowed the interconnectivity of
+users to increase substantially, enabled and supported by smart
+contracts and blockchain technology, while at the same time
+blockchain-enabled distributed networks allowed for a radical
+increase in decentralization.
+Figure 1: Time Series 1980–2020 societal connectivity and platform
+decentralization.
+These findings have significant implications. Increased
+connectivity enabled by blockchain technology in combination with
+increased decentralization allows for the removal of intermediaries,
+including lawyers, financial intermediaries, and platform companies.
+Changes in social media platform companies provide a prominent
+example. Until recently, consumers of information were dependent
+on centralized media organizations and corporations to disseminate
+information. However, society relies increasingly on information that
+is created, produced, and consumed by the crowd. This crowd
+functionality slowly removes the role of journalists, media, and other
+24
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+expert intermediaries because crowd-based social media platforms
+facilitate the real-time exchange of information.70 But social media
+companies such as Twitter and LinkedIn are still just
+middlemen/platform companies that can be removed with the
+proliferation of blockchain technology. Take, for instance, Akasha,71
+the next-generation social media network powered by the Ethereum
+world computer and embedded into the inter-planetary file system
+(IPFS). Akasha requires no platform company for social media
+purposes but allows the direct peer-to-peer exchange of content with
+the difference that user content is published over a decentralized
+network rather than individual servers. Akasha shows great potential
+to remove remaining issues with the shifting content generation by
+the crowd.72
+70 See, e.g., Michael Barthel, Newspapers: Fact Sheet, PEWRESEARCHCENTER
+(June 15, 2016), http://www.journalism.org/2016/06/15/newspapers-fact-sheet/
+(noting that the number of daily newspapers decreased by more than 100 from
+2004 to 2014); Jeffrey Gottfried & Elisa Shearer, News Use Across Social Media
+Platforms 2016, PEWRESEARCHCENTER (May 26, 2016),
+http://www.journalism.org/2016/05/26/news-use-across-social-media-platforms-
+2016/ (noting that 62 % of the adults in the United States now get news on social
+media); Kalev Leetaru, Will Facebook Replace the News Media, FORBES (Sept. 12,
+2016, 2:13 PM), http://www.forbes.com/sites/kalevleetaru/2016/09/12/will-
+facebook-replace-the-news-media/#17f135d4bd56 (noting that 44% of the public
+gets its news from Facebook alone).
+71 AKASHA, www.akasha.world.
+72 For instance, “fake” news (James Carson, What Is Fake News? Its Origins and
+How It Grew in 2016, TELEGRAPH (Mar. 16, 2017, 1:57 PM),
+http://www.telegraph.co.uk/technology/0/fake-news-origins-grew-2016/), biased
+information, and the explosion of “native advertisements” (where ads cannot easily
+be distinguished from the real content) are a rapidly increasing problem on social
+media. That is not to say that fake news didn’t exist in the “pre-social media” era.
+Id. Yet, many argue that traditional newspapers and other official media outlets (if
+independent) provide at least some verification for published information. See,
+e.g., Kenneth Jost, Digital Journalism: Is News Quality Better or Worse Online?
+CQ RESEARCHER, May 30, 2014, at 457, 463,
+http://library.cqpress.com/cqresearcher/getpdf.php?id=cqresrre2014053000; Molly
+A. Dugan, Journalism Ethics and the Independent Journalist, 39 MCGEORGE L.
+REV. 801, 801–04 (2008); Craig Silverman, New Research Details How
+Journalists Verify Information, POYNTER (Feb. 27, 2013),
+https://www.poynter.org/2013/new-research-details-how-journalists-verify-
+information/203728/. However, other ways exists to solve these “fake news”
+issues. The social media platforms themselves can engage in “fact-checking,” or
+they can introduce a third-party verification system. This will, however, add a
+25
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+3. Disruptive Innovation
+Blockchain technology has vast disruptive, innovative
+properties. Despite the very early stage development of blockchain
+technology, the possible applications are near limitless. Consider the
+blockchain-based currency, Bitcoin. Until recently, most
+commentators viewed Bitcoin as a hype, susceptible to fraud, price
+manipulation, and corruption.73 Yet, now “[t]he issue is no longer
+whether cryptocurrency will survive, but rather how it will evolve.”74
+The high levels of investor activity in the blockchain area appear to
+provide a reliable indicator of the commercial maturity of blockchain
+bureaucratic layer between the “creator” and “consumer.” It will run counter to the
+decentralization trend we are currently experiencing. See, e.g., Amber Jamieson &
+Olivia Solon, Facebook to Begin Flagging Fake News in Response to Mounting
+Criticism, GUARDIAN (Dec. 15, 2016, 15:05 EST),
+https://www.theguardian.com/technology/2016/dec/15/facebook-flag-fake-news-
+fact-check; Clyde Hughes, Facebook ‘Disputed’ Tag: Fact Checkers Eye Posts
+Flagged As Fake News, NEWSMAX, (Mar. 6, 2017, 3:19 PM),
+http://www.newsmax.com/TheWire/facebook-disputed-tag-
+fake/2017/03/06/id/777192/. A combination of technology and the crowd will
+likely offer a solution soon. See, e.g., Ass’n for Computing Mfg., Slowing the
+Speed of Viral Misinformation: Can Crowdsourcing Help? HUFFINGTON POST
+(Dec. 20, 2016, 10:23 AM ET); updated Decemner 21, 2016,
+http://www.huffingtonpost.com/entry/slowing-the-spread-of-viral-misinformation-
+can-crowdsourcing_us_58594084e4b0630a254235a7; Jessica Davies, 5 New
+Automated Fact-Checking Projects Under Way, DIGIDAY, (Dec. 22, 2106),
+http://digiday.com/uk/5-new-automated-fact-checking-projects-underway/; Dhruv
+Ghulati, Introducing Factmata—Artificial Intelligence for Automated Fact-
+Checking, FACTMATA (Dec. 6, 2016), https://medium.com/factmata/introducing-
+factmata-artificial-intelligence-for-political-fact-checking-
+db8acdbf4cf1#.3alzobkgh. These solutions correspond to the peer-to-peer
+“exchange” of assets and services facilitated by the blockchain technology. See,
+e.g., Brakeville & Perepa, supra note 54.
+73 See, e.g., Izabella Kaminska, Simon Taylkor & Carola Hoyos, Bitcoin and
+Blockchain: The Future of Money of Just Hype? FIN. TIMES, Sept. 21, 2106,
+https://www.ft.com/content/3bea303c-7a7e-11e6-b837-eb4b4333ee43; Office of
+Inv’r Educ. and Advocacy, U.S. SEC, Ponzi Schemes Using Virtual Currencies
+(July 2103), http://www.sec.gov/investor/alerts/ia_virtualcurrencies.pdf.
+74 MONEY IS NO OBJECT: UNDERSTANDING THE EVOLVING CRYPTOCURRENCY
+MARKET, PWC (2015), https://www.pwc.com/us/en/financial-
+services/publications/assets/pwc-cryptocurrency-evolution.pdf
+26
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+technology. Figure 2 shows that venture capital (VC) investment in
+startup companies that utilize blockchain technology has increased
+exponentially since 2012. Investor interest in the technology will
+undoubtedly further increase. Particularly, the applicability of
+blockchain-based smart contracts to digital marketplaces, the sharing
+economy, the Internet of Things (IoT), and artificial intelligence will
+further accelerate its development.
+Figure 2: VC investments in blockchain startups from 2007 to 2016.
+Blockchain technology startups attempt to replace lawyers as
+intermediaries in many types of transactions, including and most
+notably contracts analyses, real estate, and intellectual property.75
+75 Clause is an example. It describes itself this way: “Clause is a revolutionary new
+platform that enables commercial contracts to ‛come alive’ and autonomously
+manage themselves. Our proprietary, patent-pending infrastructure seamlessly
+integrates legally enforceable contracts with real-time data from the ‛internet of
+things’, web services, and business and accounting systems. Clause leaves behind
+the world of static, paper-based contracts and unleashes the massive potential of
+dynamic contracts. Prices, warranties, delivery requirements, and other terms
+update in response to data after the parties form their initial agreement. Clause
+brings an unprecedented level of speed, integration, and automation to the business
+world.
+27
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+But also, such startups have the potential to create lasting societal
+changes. Some predict a future in which such blockchain startups can
+remove lawyers altogether from commerce as smart contracts in the
+blockchain, such as the ones in the Ethereum platform,76 regulate
+commerce entirely, enabled by the trust created between parties
+through immutable blockchain technology.77
+Business, administrative, and legal processes that rely on
+legal intermediaries may become redundant because of advances in
+and acceptance and implementation of blockchain technology. Forms
+of keeping legal ledgers such as notary and registry services, motion
+practice in court, legal title searches, among several others, may be
+among the first services to disappear in the not too distant future.
+Similarly, corporate processes that have ledger functionality but rely
+on legal intermediaries could be streamlined very quickly by
+implementing blockchain technology. When blockchain technology
+becomes more widely accepted and applications spread into
+consumer territory, existing legal processes and structures will likely
+be among the first processes to become redundant.
+The combination of blockchain technology startups with
+platforms, artificial intelligence, and machine learning offer
+We currently have several partnerships with industry and technology leaders
+in progress.
+We invented the infrastructure for ‛intelligent’ or ‛self-managing’ legal
+contracts. Our proprietary technology leverages cryptography, NLP, RESTful API
+integrations, and distributed ledgers.” CLAUSE.Io,
+https://www.linkedin.com/company/clause (last visited Mar. 18, 2017); Dynamic
+Contracts: Clause and the New Era of IoT Enabled Legal Agreements,
+ARTIFICIAL LAWYER (Oct. 25, 2016),
+https://artificiallawyer.com/2016/10/25/dynamic-contracts-clause-and-the-new-
+era-of-iot-enabled-legal-agreements/; CLAUSE, https://clause.workable.com
+76
+See Buterin, supra note 51 and accompanying text. “Buterin announces the
+death of lawyers. Who needs lawyers when the terms of your contract, or the
+evidence of your ownership of an asset, or even your own identity, are securely
+encoded within the blockchain and verified by the entire network?” Frances
+Coppola, Ethereum: Towards a New Bit Society, FORBES (Apr. 3, 2016, 1:02 PM),
+https://www.forbes.com/sites/francescoppola/2016/04/03/ethereum-towards-a-
+new-bitsociety/#7e8d17fb3adc.
+77 See, e.g., Lewis, supra note 57; Michael Kokal, The Coming Blockchain
+Disruption: Trust Without the “Middle-Man,” NAT’L L. REV. (Feb, 23, 2017),
+http://www.natlawreview.com/article/coming-blockchain-disruption-trust-without-
+middle-man.
+28
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+opportunities for developing new technologies. Leveraging the big
+data that is collected by using Legal Tech solutions and blockchain
+applications in combination with machine learning creates more
+creative and faster tools. This, in turn, creates a surge of new and
+innovative platforms with disruptive effects for the legal industry,
+among others.
+4. Limitations
+Blockchain technology and smart contracts executed on
+blockchain technology platforms, such as Ethereum.org, are faced
+with multiple possible technological and legal limitations. First, the
+world of blockchain and smart contracting has clearly not reached
+maturity yet.78 While blockchain-enabled smart contracts generally
+do not require legal involvement across the spectrum of transactions,
+legal professionals often still believe that “code” in smart contracts
+can only deal with very simple transactions, such as buying music or
+perhaps a car, arguing that more complicated legal arrangements will
+necessitate the draftsmanship and negotiations of traditional
+78 See, e.g., Garrick Hileman, State of Blockchain Technology Q1 2016:
+Blockchain Funding Overtakes Bitcoin, COINDESK (May 11, 2016, 15:15 GMT),
+http://www.coindesk.com/state-of-blockchain-q1-2016/; ALAN MORRISON,
+BLOCKCHAIN AND SMART CONTRACT AUTOMATION: HOW SMART CONTRACTS
+AUTOMATE DIGITAL BUSINESS 5–8, PWC (2016),
+https://www.pwc.com/us/en/technology-forecast/2016/blockchain/pwc-smart-
+contract-automation-digital-business.pdf; Prasad Satavolu & Abhijeet
+Sangamnerkar, Blockchain’s Smart Contracts: Driving the Next Wave of
+Innovation Across Value Chains, Cognizant 20-20 Insights, June 2016, at 6–9,
+https://www.cognizant.com/whitepapers/blockchains-smart-contracts-driving-the-
+next-wave-of-innovation-across-manufacturing-value-chains-codex2113.pdf; Rob
+Marvin, Blockchain in 2017: The Year of Smart Contracts, PC (Dec. 12, 2016),
+http://www.pcmag.com/article/350088/blockchain-in-2017-the-year-of-smart-
+contracts; Chris Kanaracus, Don’t Believe the Blockchain Hype: Examining the
+Weaknesses and Risks, ZDNet (Apr. 13, 2016, 14:22 PDT),
+http://www.zdnet.com/article/dont-believe-the-blockchain-hype-examining-its-
+weaknesses-and-risks/; 2016: A Pivotal Year for Blockchain, SWIFT (May 12,
+2016), https://www.swift.com/insights/news/2016_a-pivotal-year-for-blockchain;
+Laura Shin, Looking to Integrate Blockchain into Your Business? Here’s How,
+Forbes (May10, 20i6, 8:00 AM),
+https://www.forbes.com/sites/laurashin/2016/05/10/looking-to-integrate-
+blockchain-into-your-business-heres-how/#715aa8911a15.
+29
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+lawyers.79 Even if more complex transactions could be coded and
+included in smart contracts, a widespread belief in the legal
+community suggests that lawyers will remain responsible for drafting
+the terms and arrangements that would later have to be coded by
+specialists.80
+Legal limitations pertaining to smart contracts and blockchain
+technology originate mostly from concerns over the legal origin of
+smart contracting. While smart contracts may reflect the underlying
+contract between parties, lawyers may argue that “smart contracts”
+are void and unenforceable under the law. Contractual legal rules
+regarding formation, interpretation, conditions, and remedies require
+substantive adjustments of smart contracts in contract law.81
+79 See, e.g., Kevin Shook, Self-Enforcing Smart Contracts Will Change Your Life,
+CORPORATE COUNSEL (Feb. 6, 2017),
+http://www.corpcounsel.com/id=1202778557927/SelfEnforcing-Smart-Contracts-
+Will-Change-Your-Life?slreturn=20170213090556; Richad Howlett, A Lawyer’s
+Perspective: Can Smart Contracts Exist Outside the Legal Structure? BITCOIN
+MAG. (July 11, 2016, 2:52 PM EST), https://bitcoinmagazine.com/articles/a-
+lawyer-s-perspective-can-smart-contracts-exist-outside-the-legal-structure-
+1468263134/; Ira J. Shafer & Theodore Mylnar, Blockchain Smart Contracts Need
+a New Kind of Due Diligence, HOGAN LOVELLS (Sept. 22, 2016),
+https://www.hoganlovells.com/en/blogs/fintech-blog/blockchain-smart-contracts-
+need-a-new-kind-of-due-diligence; Andy Robinson & Tom Hingley, Smart
+Contracts: The Next Frontier? (May 23, 2016), U. OXFORD: Oxford Business
+Law Blog, https://www.law.ox.ac.uk/business-law-blog/blog/2016/05/smart-
+contracts-next-frontier; NORTON ROSE FULBRIGHT, SMART CONTRACTS: CODING
+THE FINE PRINT; A LEGAL AND REGULATORY GUIDE 12 (2016),
+https://www.accmeetings.com/AM16/faculty/files/Article_471_734F_NRF24493_
+Smart_Contracts_V6_LR.PDF.
+80 See, e.g., Shook, supra note 79; Shafer & Mylnar, supra note 79; Robinson &
+Hingley, supra note 79; Caitlin Moon, Blockchain for Lawyers 101; Part 2, LAW
+TECH. TODAY (Jan. 31, 2017),
+http://www.lawtechnologytoday.org/2017/01/blockchain-lawyers-101-part-2/;
+Evan Weinberger, ‘Smart Contracts’ Won’t Eliminate the Need for Lawyers,
+LAw360, https://www.law360.com/articles/637833/smart-contracts-won-t-
+eliminate-need-for-lawyers.
+81 Matthew McMillan, Smart Contracts: Legal and Regulatory Challenges of
+Smart Contracts, HENRY DAVIS YORK (Dec. 8, 2016),
+https://www.hdy.com.au/our-insights/insights/legal-regulatory-challenges-of-
+smart-contracts; Lex Disturbia: The Impact of Smart Contracts on the Law,
+GOWLING WLG (Mar. 16, 2016),
+http://www.lexology.com/library/detail.aspx?g=0b7cf43a-7032-4750-9220-
+caca5c529281; Kate Withers, Smart Contracts: Opportunties and Legal Risks in
+30
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+Blockchain evolution in combination with smart contracting
+also raises legal concerns regarding privacy, data protection,
+security, and integrity. While blockchain technology itself offers
+unprecedented genuine data and privacy protection, the storage of
+blockchain data across a global network of nodes often will not
+comply with specific consumer protection rules, directives, and
+guidelines around the world.82 The existing legal issues arising in the
+context of sharing platforms,83 demonstrate that future blockchain-
+enabled sharing services may not be accepted quickly and without
+resistance on the part of incumbents challenged by new ways of
+delivering a service or product.
+A prominent example, the Decentralized Autonomous
+Organization (DAO), provides ample evidence pertaining to the
+outstanding technological and legal issues that surround the
+blockchain technology. The DAO was launched in May 2016,84 in
+FinTech, NAT’L L. REV. (Nov. 8, 2016),
+http://www.natlawreview.com/article/smart-contracts-opportunities-and-legal-
+risks-fintech; Martin von Haller Gronbaek, Blockchain 2.0, Smart Contracts and
+Challenges,, Bird & Bird (June 16, 2016).
+https://www.twobirds.com/en/news/articles/2016/uk/blockchain-2-0--smart-
+contracts-and-challenges.
+82 See, e.g., Andres Guadamuz & Chris Marsden, Blockchains and Bitcoin:
+Regulatory Responses to Cryptocurrencies (FI®ST MOÑDAY, Dec. 7, 2015),
+http://firstmonday.org/article/view/6198/5163. For a good overview of the
+complexities of the global regulation of blockchain technology, see Javier
+Sebastian Cermeño, Blockchain in Financial Services: Regulatory Landscape and
+Future Challenges for Its Commercial Application 6–18 (BBVA Working Paper
+16/20, 2016), https://www.bbvaresearch.com/wp-content/uploads/2016/12/WP_16-
+20.pdf. For a summary of international law actions relating to digital currencies,
+see Digital Currencies: International Actions and Regulations, PERKINSCOIE
+(https://www.perkinscoie.com/en/news-insights/digital-currencies-international-
+actions-and-regulations.html) (last visited Mar. 15, 2017).
+83 Examples include Uber (cars), Airbnb (lodging), ETSY (marketplace),
+Kickstarter (Crowdfunding), Lending Club (Lending), Open Table (dining),
+SoundCloud (music) , DogVacay (Pet Vacation), and Liquid (bike sharing)..
+84 Christoph Jentzsch, the co-founder of the IoT company Slock.it, was one of the
+“key founders” of The DAO, a new style venture capital fund. Carla L. Reyes,
+Nizan Geslevich Packin & Benjamin P. Edwards, Distributed Governance (Dec.
+13, 2016), http://dx.doi.org/10.2139/ssrn.2884978; Shah Gilani, This Financial
+Experiment Could Be Huge…Here’s What You Need to Know Before You Invest,
+Wall Street Insights and Indictments (May 27, 2016),
+http://wallstreetinsightsandindictments.com/2016/05/this-fintech-experiment-
+could-be-huge-heres-what-you-need-to-know-before-you-invest/; Cade Metz, The
+31
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+the founders’ attempt to set up a corporate-type organization without
+using a conventional corporate structure. The founders’ central idea
+was that the wisdom of the crowd would lead to smarter and more
+game-changing investment decisions.85 The DAO had to operate as
+a kind of venture capital fund managed directly by the token
+holders.86
+The DAO governance structure was built on software code
+and smart contracts that ran on the public decentralized blockchain
+platform Ethereum.87 The DAO did not have a physical address as it
+was merely computer code. And it was not an organization with a
+traditional hierarchy as we know it from traditional corporate
+structures where authority and empowerment flow downwards from
+investors/shareholders through a board of directors to management
+and eventually staff.88 Indeed, the DAO had no directors, managers,
+or employees. Because a series of smart contracts granted DAO
+token holders voting rights, the blockchain-based smart contracts
+imitated the role of articles of association or bylaws. Because the
+DAO code was open source, the token holders would not only vote
+on “investment proposals,” but also on any change made to the
+Biggest Crowdfunding Project Ever—The Dao—Is Kid of a Mess, WIRED (June 6,
+2016, 7:00 AM), https://www.wired.com/2016/06/biggest-crowdfunding-project-
+ever-dao-mess/.
+85 See, e.g., Reyes, supra note 84, at 2–3; Kyle Torpey, The Wisdom (or Lack
+Thereof) of the Dao, AM. BANKER (June 1, 2016, 4:10 PM EDT),
+https://www.americanbanker.com/opinion/the-wisdom-or-lack-thereof-of-the-dao.
+86 See, e.g., Reyes, supra note 84, at 2–3; Seth Bannon, The Tao of “The DAO”
+or: How the Autonomous Corporation Is Already Here, TC (May 16, 2016),
+https://techcrunch.com/2016/05/16/the-tao-of-the-dao-or-how-the-autonomous-
+corporation-is-already-here/.
+87 Clint Finley, A $50 Million Hack Just Showed That the DAO Was All Too
+Human, WIRED (June 18, 2016, 4:30 AM), https://www.wired.com/2016/06/50-
+million-hack-just-showed-dao-human/; Brent Miller, Smart Contracts and the Role
+of Lawyers (Part 2) – About “Code Is Law,” BIG LAW KM (Oct. 22, 2016),
+https://biglawkm.com/2016/10/22/smart-contracts-and-the-role-of-lawyers-part-2-
+about-code-is-law/.
+88 Benjamin P. Edwards, Carla L. Reyes, & Nizan Geslevich Packin, Companies
+Face Risk and Opportunity with Distributed Governance Structures, COLUM. L.
+SCH.: CLS BLUE SKY BLOG (Jan. 19, 2017),
+http://clsbluesky.law.columbia.edu/2017/01/19/companies-face-risk-and-
+opportunity-with-distributed-governance-structures/.
+32
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+code.89 Accepted proposals would also be backed by a software code,
+defining the relationship (in terms of rights, obligations, and
+performance metrics) between the DAO and the funded proposals.
+During a crowdfunding campaign in May 2016, all investors
+could become DAO participants by purchasing DAO tokens.90 The
+DAO raised more than $168 million from approximately 10,000
+“investors.”91 DAO tokens were designed to be fully transferable and
+tradeable on “peer-to-peer” exchanges, similar to shares in a
+traditional listed corporation. The automated structure was intended
+to give “participants” in the DAO direct real-time control over
+contributed funds.
+Alas, things went terribly wrong with the DAO. Fundamental
+flaws in the DAO code enabled hackers to transfer one-third of the
+total funds to a subsidiary account.92 This hack in combination with
+additional technological limitations brought down the DAO
+initiative.93
+Open legal issues pertaining to the DAO need to be
+addressed before future DAO setups can operate seamlessly.94 Such
+89 Metz, supra note 84; Michael del Castillo, The DAO Crisis: Or How Vigilantism
+and Blockchain Democrary Became the Best Hope for Burned Law, COINDESK
+(July 13, 2106, 16:05 GMT), http://www.coindesk.com/author-daos-original-code-
+minimize-regulatory-backlash/.
+90See, e.g., Gilani, supra note 84; Guilio Prisco, The Dao Raises More Than $117
+Million in World’s Largest Crowdfunding to Date, BITCOIN MAG. (May 16,
+2016, 2:09 EST), (https://bitcoinmagazine.com/articles/the-dao-raises-more-than-
+million-in-world-s-largest-crowdfunding-to-date-1463422191/ .
+91 Metz, supra note 84.
+92 Nathaniel Popper, A Hacking of More Than $50 Million Dashes Hopes in the
+World of Virtual Currency, N.Y. TIMES (June 17, 2016),
+https://www.nytimes.com/2016/06/18/business/dealbook/hacker-may-have-
+removed-more-than-50-million-from-experimental-cybercurrency-project.html.
+93 See, e.g., Not-So-Clever Contracts, ECONOMIST (July 28, 2106),
+http://www.economist.com/news/business/21702758-time-being-least-human-
+judgment-still-better-bet-cold-hearted;Paul Vigna, Fund Based on Digital
+Currency Ethereum to Wind Down After Alleged Attack, WALL ST. J. (June 17,
+2016), https://www.wsj.com/articles/investment-fund-based-on-digital-currency-
+to-wind-down-after-alleged-hack-1466175033?mod=rss_Technology.
+94 See, e.g., Drew Hinkes, A Legal Analysis of the DAO Exploit and Possible
+Investor Rights, BITCOIN MAG. (June 21, 2016, 11:57 AM EST),
+https://bitcoinmagazine.com/articles/a-legal-analysis-of-the-dao-exploit-and-
+possible-investor-rights-1466524659/; Tanaya Macheel, The Dao Might Be
+Groundbreaking but Is It Legal? AM. BANKER (May 19, 2016, 3:12 PM EDT),
+33
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+legal issues include the following: (1) What legal regime governs the
+issuance of DAO tokens? (2) Are minority DAO token holders
+protected and, if so, how? (3) Are DAOs subject to taxation? (4) Do
+DAO smart contracts create legally binding obligations? (5) Who
+owns the intellectual property rights generated by the crowd-funded
+proposals? and (6) How are conflicts between DAO token holders,
+the DAO itself, and the proposals resolved?
+IV. Educating the 21st Century Lawyer
+Law schools need to develop approaches to enable their
+students to get ready for the increasingly disrupted legal world of the
+21st century. The exponentially increasing disruptive innovation
+worldwide will cause clients to frequently ask legal professionals to
+deal with issues lawyers cannot fully understand, within a legal
+framework that does not always offer clear or helpful answers.
+Because of these challenges facing the practice of law, law schools
+have an obligation to help their students evaluate possible niches in
+the future legal market.
+Increasing law students’ capacity to better understand the
+challenges of today’s society can enable them to provide more
+effective service to clients in the economy of the future. For
+example, a law school course on “Disruptive Innovation,” such as the
+one taught by the authors,95 not only helps law students appreciate
+emerging technology and the importance of software code, but, more
+importantly, provides students with the resources and capacities to
+help them become the much-needed legal professionals in the
+https://www.americanbanker.com/news/the-dao-might-be-groundbreaking-but-is-
+it-legal; CLYDE & CO., BLOCKCHAIN AND THE LAW: AN UNCHARTERED
+LANDSCAPE (2016),
+http://www.clydeco.com/uploads/Files/CC010565_Blockchain_brochure_10-06-
+16_LOWRES.PDF; Reuben Bramanathan, Blockchains, Smart Contracts and the
+Law, COINBASE BLOG (June 24, 2016), https://blog.coinbase.com/blockchains-
+smart-contracts-and-the-law-709c5b4a9895#.qnnsleuz5.
+95 Wulf Kaal, Disruptive Innovation Why Lawyers Matter [course description],
+https://wulfkaal.com/courses/disruptive-innovation-why-lawyers-matter/; Wulf
+Kaal, Course Description [blog entry], www.wulfkaal.com. Wulf Kaal, Future of
+Innovation and Law, REVOLUZIONNE (Jan. 12, [2017]),
+https://medium.com/@wulfkaal/future-of-innovation-and-law-
+535d7ef739a#.uzqta5n8l.
+34
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+decentralized world.
+Law schools need to find ways to educate lawyers who can
+add value in helping clients and society adjust to our increasing
+technological environment rather than who will create unnecessary
+or unwise restrictions on it. Such restrictions will not stop
+innovations and developments in technology. Take, for example,
+Spotify, the online music streaming service, which, instead of
+emphasizing the illegality of its main competitor’s (Napster’s)
+business model of peer-to-peer music sharing,96 found ways to
+charge consumers without sacrificing the convenience and
+accessibility of the streaming service. Similarly, instead of using
+legal arguments and concerns as barriers to innovation, law schools
+need to find ways to educate the lawyers of the 21st century to find
+ways to encourage friction-free interactions and conversations and
+the creative exchange of assets and services.
+Legal Tech and especially Blockchain Ledger Technology
+present tremendous opportunities for law students. Despite
+Blockchains’ disruptive properties,97 legal professionals can in fact
+benefit from the technology if they focus on the opportunities to
+enter into contracts in a cheaper and more secure way. Traditional
+lawyers too often bring a traditional legal “tool kit” to solving the
+legal problems of the 21st century, which often leads to disastrous
+outcomes. This approach might have worked adequately when
+innovation cycles were longer, but in a world where innovations
+occur exponentially, the traditional legal tool kit is regularly out of
+touch with the radically different needs of a decentralized world.
+96 Napster was a peer-to-peer file sharing company which allowed users to share
+digital music files in the MP3 format over the Internet for free. In 2000 the
+Recording Industry of America sued Napster under the Digital Millenium
+Copyright Act for violating copyright. Napster lost the case at both the district and
+appellate court levels, and when it was unable to comply with the district court
+order to block infringing uses, it was forced to shut down. See generally Corey
+Rayburn, After Napster, VA. J.L. & TECH., Fall 2001, at 1,
+http://www.vjolt.net/vol6/issue3/v6i3-a16-Rayburn.html; Erica D. Rowell, Court
+Rules Against Napster, ABC NEWS (Feb. 12, [2001]),
+http://abcnews.go.com/Technology/story?id=98767&page=1; Matt Richtel, The
+Napster Decision: The Overview; Appellate Judges Back Limitations on Copying
+Music, N.Y. TIMES (Feb. 13, 2001),
+http://www.nytimes.com/2001/02/13/business/napster-decision-overview-
+appellate-judges-back-limitations-copying-music.html.
+97 Supra, Part III(3).
+35
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+Most lawyers and law industry representatives underestimate the
+implications of the emerging Legal Tech.98 Particularly in the case of
+blockchain technology, law schools should raise awareness of the
+opportunities associated with the technology for their graduates and
+alums. In order to advise on blockchain contracts, law students and
+lawyers have to become familiar with the technology and learn at
+least basic coding as it pertains to Ethereum smart contracts.99
+Law students’ capacity to work in multidisciplinary teams
+will take on a much greater significance in the future. Lawyers are
+becoming increasingly involved in complex, nonstandard legal
+tasks.100 The automation and standardization of high volume legal
+tasks will further transform the role of lawyers and other legal
+professionals. Big Data and artificial intelligence will make Legal
+Tech solutions more effective, networked, and intelligent.
+Increasingly, legal work, such as contract drafting, legal risk
+98 Anecdotal evidence based on discussions with law firm and corporate lawyers,
+including lawyers in Asia, Europe, and the United States, among other anecdotal
+evidence, indicates that very few legal professionals are aware of developments in
+Legal Tech. Typical reactions to information about the opportunities these new
+technologies present involve giving several reasons why blockchain-based smart
+contracts and other developments are unlikely to fundamentally change the need
+for lawyers or the way that lawyers work.
+99 Wolfram Alpha Founder: Lawyers Should Code and Contracts Be Computable,
+ARTIFICIAL LAWYER (Oct. 14, 2016),
+https://www.artificiallawyer.com/2016/10/14/wolfram-alpha-founder-lawyers-
+should-code-and-contracts-be-computable/; David Colarusso, Hello, World!
+Should Attorneys Learn to Code, LAWERIST.COM (Aug. 25, 2016),
+https://lawyerist.com/124089/hello-world-attorneys-learn-code/; Jason Krause,
+Does Learning to Code Make You a Better Lawyer?, ABA J. (Sept. 1, 2016, 2:00
+AM CDT),
+http://www.abajournal.com/magazine/article/lawyer_learning_code_zvenyach_oh
+m.
+100 For examples of law firms which have established multidisciplinary practices,
+see LAURA SHIN, AS BITCOIN TECHNOLOGY MAKES INROADS, ONE LAW FIRM
+LAUNCHES MULTIDISCIPLINARY BLOCKCHAIN PRACTICE, FORBES: WOMEN AT
+FORBES (Aug. 9, 2016, 8:00 AM),
+https://www.forbes.com/sites/laurashin/2016/08/09/as-bitcoin-technology-makes-
+inroads-one-law-firm-launches-multidisciplinary-blockchain-
+practice/#41044fc42dab; STEPTOE’S BLOCKCHAIN TEAM EXPANDS INTO
+MULTIDISCIPLINARY PRACTICE, STEPTOE (Aug. 9, 2016),
+http://www.steptoe.com/news-2342.html.
+36
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+management, and dispute resolution, will be outsourced to
+technology and robots.101 Lawyers and legal advisors will
+increasingly assume the role of project managers and business
+advisors.
+For law students, the growth of multidisciplinary teams in the
+technology-based society/economy means that they are required to
+work closely not only with accountants or fiscal advisors, but also
+and ever increasingly with engineers, designers, and architects.
+Crucially, lawyers and legal advisors will find themselves operating
+as a bridge between the diverse range of actors who must now work
+together in dealing with increasingly complex challenges. A
+business-oriented perspective means that legal professionals are
+better placed to help their clients maximize efficiency, enhance client
+services, and reduce costs.
+Specifically, law schools need to enable their students to
+work in interdisciplinary teams with software engineers. A greater
+appreciation of the means by which code can be utilized and
+integrated in legal contexts is essential. Legal Tech startups and
+software engineers are increasingly using predictive coding and
+algorithms for legal applications. Lawyers benefit from such
+algorithmic technology applications in the context of e-discovery,
+contract drafting, and legal research, among many others. Curricular
+changes, including the introduction of a course on “coding for
+lawyers,” can help facilitate a greater understanding of
+interdisciplinary skill requirements for students. The purpose of a
+course on coding for lawyers would be for students to gain a general
+conceptual understanding of the possible applications of innovative
+and disruptive technologies and their algorithmic implementations in
+101 Dana Remus & Frank S. Levy, Can Computers Be Lawyers? Computers,
+Lawyers, and the Practice of Law, SSRN (Nov. 27, 2016; last revised Nov. 30,
+2016), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701092; Jeff
+Bennion, Are Robots Going to Take Our legal Jobs? ABOVE THE LAW (June 21,
+2016, 2:02 PM), http://abovethelaw.com/2016/06/are-robots-going-to-take-our-
+legal-jobs/; Chris Holder & Vikran Khurana, Robotics Process Automation and
+Outsourcing, LAWYERISSUE (May 16, 2016),
+http://www.lawyerissue.com/robotics-process-automation-and-outsourcing/;
+Michael Cross, Role of Artificial Intelligence in Law, RACONTEUR (Feb. 19,
+2015), https://www.raconteur.net/business/time-for-technology-to-take-over.
+37
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+KAAL VERMEULEN - NEW LEGAL EDUCATION - VERSION 10.DOCX (DO NOT DELETE) 3/24/17 10:12 PM
+the context of law.
+Law school initiatives should help students evaluate the most
+important legal applications of algorithmic technology solutions and
+explain how software engineers are applying code to legal problems
+to provide efficient legal solutions. Students should learn basic
+mathematical principles for coded technology solutions in law,
+including legal applications of big data, artificial intelligence,
+machine learning, and blockchain technology. Based on the
+mathematical foundations, students should develop basic conceptual
+coding skills that enable them to engage with representatives of the
+hard sciences on a daily basis and develop client solutions in
+interdisciplinary teams.
+V. Conclusion
+Lawyers and law schools cannot afford to ignore the changes
+discussed in this article. The legal profession is one of the most
+disrupted sectors of the consulting industry today. Legal Tech,
+artificial intelligence and blockchain technology, the sharing
+economy, and platform companies are changing legal practice.
+Traditional legal assumptions and doctrines and concepts of law and
+governance have to be reevaluated in light of the impending
+disruptive changes. Law schools’ attempts to innovate in order to get
+their students practice ready for the 21st century and equipped with
+the necessary skill set to operate effectively in the new world of
+disruptive innovation require experimentation with new ways and a
+more creative and innovative approach to the law school curriculum.
+Legal Tech and especially Blockchain Ledger Technology present
+tremendous opportunities for law students wishing to get practice
+ready for the 21st century.
+While blockchain-centered legal jobs of the future will be the
+center piece of any law school reform agenda, the future of non-
+blockchain-centered legal employment is equally important. For
+instance, future lawyers will have to be able to distinguish
+blockchain-based contracting from traditional legal contracting and
+advise clients on optimal blockchain and non-blockchain contracting
+allocations. Certain parts of larger legal
+arrangments/contracts/dealmaking will certainly be blockchainable
+in the future, providing trust, efficiency, cost savings, and legal
+clarity. Other parts of dealmaking and other legal tasks will continue
+38
+Electronic copy available at: https://ssrn.com/abstract=2939127
+
+2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION
+to require the ambiguity and flexibility of the law. For the parts of
+dealmaking and the other legal tasks that are non-blockchainable, the
+role for other, non-blockchainable agents of trust may expand. It
+seems possible that the blockchain-driven disintermediation of law
+itself creates additional legal tasks that require human lawyer input.
+39
+Electronic copy available at: https://ssrn.com/abstract=2939127
+

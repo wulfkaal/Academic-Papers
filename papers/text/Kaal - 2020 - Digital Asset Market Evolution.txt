@@ -1,0 +1,2881 @@
+DIGITAL ASSET MARKET EVOLUTION
+DIGITAL ASSET MARKET EVOLUTION
+Wulf A. Kaal**
+Forthcoming in: Journal of Corporation Law (2020)
+Abstract
+The market for digital assets has evolved since its inception in 2009.
+Its rapid proliferation in 2016-18 was followed by significant
+downward corrections in 2018-19. The article evaluates the central
+stages of the evolution of the market in digital assets and the
+affected market participants. It presents and compares market data
+for initial coin offerings, equity offerings, and initial exchange
+offerings in blockchain and digital asset startups. The author
+examines data trends and their underlying causes in the evolution of
+the market for digital assets. Particular emphasis is placed on the
+emerging market for Decentralized Finance (DeFi) and its role in
+the evolution of digital assets. The article examines data to evaluate
+the feasibility of a DeFi market evolution in the decentralized
+market infrastructure environment of the early 2020s.
+Key Words: Digital Assets, Decentralized Finance, Initial Coin
+Offering, Blockchain, Startup, Decentralized Commerce,
+Reputation Verification, Emerging Technology, Crypto
+Economics, Token Models, Incentive Design, Tokens, Equity,
+Distributed Ledger Technology, Decentralized Infrastructure
+** Professor of Law, University of St. Thomas School of Law (Minneapolis,
+USA). The author is on the board of directors of the Emerging Technology
+Association in Zug, Switzerland. He is also a founding member of the DevDAO
+and routinely advises digital asset businesses and startups, crypto hedge funds,
+digital asset exchanges, and policy makers. The author is grateful for outstanding
+research assistance from Hayley Howe and research librarian assistance from
+Nicole Kinn. The author did not receive any form of financial incentive for
+authoring this article.
+1
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+Table of Contents
+I. INTRODUCTION ...................................................................................... 3
+II. DIGITAL ASSET MARKET ....................................................................... 7
+1. Bitcoin vs. Altcoins .......................................................................... 8
+2. Initial Coin Offerings ..................................................................... 13
+3. Venture Capital .............................................................................. 16
+4. Initial Exchange Offers .................................................................. 20
+5. DeFi ............................................................................................... 21
+a) Decentralized Exchanges (“DEXs”) & Protocols ................................. 23
+b) Lending and Borrowing ........................................................................ 24
+c) Trading .................................................................................................. 26
+III. DIGITAL ASSET MARKET EVOLUTION ............................................ 27
+1. Market Volatility ............................................................................ 28
+2. Funding Source Volatility .............................................................. 31
+3. Challenges for Early Stage Investors ............................................. 32
+4. Regulatory Uncertainty .................................................................. 34
+5. Cyber Security ................................................................................ 37
+6. Crypto Economics .......................................................................... 38
+7. Coins of Two Realms ..................................................................... 39
+a) Private Realm ........................................................................................ 40
+b) Public Realm ......................................................................................... 41
+8. Convergence of Asset Classes ........................................................ 54
+9. DeFi Evolution ............................................................................... 57
+a) Growth Estimates .................................................................................. 57
+b) Growth Factors ..................................................................................... 61
+(1) Decentralization ............................................................................... 62
+(2) Disintermediation Beyond FinTech ................................................. 64
+(3) Counterparty Risk Management ...................................................... 65
+(4) StableCoins ...................................................................................... 66
+(5) DAO Prospects ................................................................................ 67
+c) Growth Limitations ............................................................................... 69
+d) DeFi Infrastructure Case Study ............................................................. 71
+IV. CONCLUSION .................................................................................. 76
+2
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+I. Introduction
+The market in digital assets continues to evolve. The emergence of
+the Bitcoin protocol in 20091 inaugurated and gave rise to the
+market in digital assets.2 Its rapid proliferation in 2016-18 was
+followed by significant downward corrections, called the “crypto
+winter” of 2018-19. The continuing creation of digital assets and the
+funding for the creation of digital assets is subject to ongoing
+market changes and changes in investor priorities.
+Digital assets can be narrowly defined and broadly defined.
+Narrowly construed, digital assets are instantiated through
+computer code and depend on so-called consensus computer
+algorithms to trigger and validate a transaction in a given digital
+asset. Broadly construed, digital assets can include virtual assets
+such as video games in the broadest sense and items sold in video
+games can be virtual assets. Virtual assets do not necessitate a
+consensus algorithm that validates the transaction or provides a
+level of security.
+For the purposes of this article, digital assets are defined broadly.
+Digital assets cover all types of virtual and electronic assets,
+regardless of how they are otherwise named or categorized by
+regulatory agencies, including cryptocurrencies, security tokens,
+utility tokens, virtual assets, virtual collectibles, stablecoins,
+altcoins, among others. Digital assets can be distinguished from
+1 Satoshi Nakamoto, Bitcoin: A Peer-to-Peer Electronic Cash System,
+BITCOIN.ORG (May 24, 2009), https://bitcoin.org/bitcoin.pdf (PDF).
+2 The market for virtual assets predates the market for digital assets. In the gaming
+industry, the acquisition of virtual assets for purposes of game advancement was
+a common occurrence almost since the inception of online gaming. Yet, such
+virtual gaming assets could not initially be freely traded in a liquid market. By
+contrast, the digital asset market allowed free consumer access with limited
+liquidity in digital assets.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+stock because stocks are not inherently digital and have strong ties
+to the world of hard assets. Bitcoin is a purely digital asset because
+it only exists in the virtual world.
+Blockchain technology has enabled the emergence of the digital
+asset market.3 The digital asset market was possible through a form
+of upgrading the internet era with decentralized technology and
+cryptocurrencies. 4 Blockchain technology5 allows securities
+3 Marco Iansiti & Karim R. Lakhani, The Truth About Blockchain, HARV. BUS.
+REV., Jan.–Feb. 2017, https://hbr.org/2017/01/the-truth-about-blockchain.
+4 William Mougayar, THE BUSINESS OF BLOCKCHAIN: PROMISE, PRACTICE,
+AND APPLICATION OF THE NEXT INTERNET TECHNOLOGY (2016), excerpt
+reprinted in The Blockchain Is the New Google, TECHCRUNCH (May 11, 2016,
+5:30 PM), https://techcrunch.com/2016/05/11/the-blockchain-is-the-new-
+google/.; Dinis Guarda, Over 50 Bitcoin and Blockchain Thoughts and Quotes
+You Need to Read, TRADERSDNA (July 4, 2016),
+http://www.tradersdna.com/bitcoin-and-blockchain/over-50-bitcoin-and-
+blockchain-thoughts-and-quotes-you-need-to-read/; Cognizant et al., The Future
+of Financial Services: A Global Study of 500 Senior Banking and Insurance
+Executives by Cognizant, Marketforce and Pegasystems, PEGASYSTEMS INC., 6,
+28-30 (Jan. 2016),
+https://www.pega.com/sites/pega.com/files/docs/2016/Jan/the-future-of-retail-
+financial-services-study.pdf; John Naughton, Is Blockchain the Most Important
+IT Invention of Our Age?, THE GUARDIAN (Jan. 24, 2016, 4:00 PM),
+https://www.theguardian.com/commentisfree/2016/jan/24/blockchain-bitcoin-
+technology-most-important-tech-invention-of-our-age-sir-mark-walport;
+Michael Crosby et al., BlockChain Technology: Beyond Bitcoin, SUTARDJA CTR.
+FOR ENTREPRENEURSHIP & TECH. TECHNICAL REP., 3 (2015),
+http://scet.berkeley.edu/wp-content/uploads/BlockchainPaper.pdf; Kyle Torpey,
+Why the Bitcoin Blockchain Is the Biggest Thing Since the Internet, NASDAQ:
+BITCOIN MAG. (Apr. 19, 2016), http://www.nasdaq.com/ article/why-the-bitcoin-
+blockchain-is-the-biggest-thing-since-the-internet-cm608228; Carrie Kirby,
+Andreessen at Coin Summit: Bitcoin Today Is the Internet in 1994, COINDESK
+(Mar. 25, 2014), http://www.coindesk.com/marc-andreessen-balaji-srinivasan-
+discuss-bitcoin/; Rich Daly, Blockchain: Wall Street’s Most Game-Changing
+Technology Advance Since the Internet, FORBES (July 11, 2016),
+https://www.forbes.com/sites/richdaly/2016/07/11/blockchain-wall-streets-
+most-game-changing-technology-advance-since-the internet/#33987 a154d87.
+5 A blockchain is a shared digital ledger or database that maintains a
+continuously growing list of transactions among participating parties regarding
+digital assets – together described as “blocks.” The linear and chronological order
+of transactions in a chain will be extended with another transaction link that is
+added to the block once such additional transactions are validated, verified and
+completed. The chain of transactions is distributed to a limitless number of
+4
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+offerings and stock transfers with all the characteristics of a physical
+stock transfer, yet the blockchain-enabled stock transfer is
+completely digitalized and virtual. Much of the media attention has
+centered on the uses of decentralized technology to support the
+issuance and trading of Bitcoin and other cryptocurrencies.6
+Blockchain technology offers a number of attractive features to
+potential issuers of traditional securities who wish to experiment
+with digital assets. Benefits to issuers, and to those who process
+trades in the offering after-market, include lower issuing, operating,
+and administrative costs.7 In the securities trading context,
+blockchain could provide indisputable proof of current ownership
+of “digital securities,” any transaction in those shares, and the
+resulting changes in ownership of the shares, in a form that is
+available to multiple securities market participants (e.g., investors,
+brokers, regulators).
+The nascent digital asset market presents an opportunity for the
+establishment of a new asset class that attracts mainstream
+investors. The global consensus record of information and
+transactions that is enabled through blockchain technology enables
+the much-needed transparency in finance. At the beginning of the
+participants, so called nodes, around the world in a public or private peer-to-peer
+network. The technology provides significant opportunities and applications in
+peer-to-peer interactions and transactions in a decentralized network where all
+participants are equal and verification and validation of each transaction is
+provided by all parties in the network through the blockchain technology.
+6 Jen Wieczner, Uber Co-Founder and E*Trade Alum Launch No-Fee
+Cryptocurrency Trading, FORTUNE: THE LEDGER (July 25, 2018),
+http://fortune.com/2018/07/25/cryptocurrency-bitcoin-free-trading-voyager/;
+Nika Goddard, How Does A Cryptocurrency Exchange Work, BESTTECHIE (Aug.
+17, 2018), https://www.besttechie.com/how-does-a-cryptocurrency-exchange-
+work/.
+7 Several large securities trading and brokerage institutions have already started
+to experiment with trading over the blockchain. These institutions include BTL
+energy, Barclays, and a joint project between IBM and Northern Trust. Several
+other industry groups have been established to date to develop and launch
+blockchain-based initiatives that are potentially relevant to the securities industry
+(e.g., R3, EEA, etc.). Each entity has taken a different approach to the issuance
+of securities over the blockchain; however, none of these trades have been subject
+to SEC or CFTC regulation. The existing projects also are not subject to an
+environment in which the prices must be posted real-time to a public (retail)
+market.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+2020s, investors in the digital asset market range from retail to
+institutional, as well as exchanges, broker dealers, investment
+banks, custody providers, IT firms, and other players in the
+ecosystem. Yet, blockchain technology opens global access to
+finance, including in areas of the world where the banking system
+is not readily available and the unbanked constitute large parts of
+the population.8
+The funding sources for digital asset startups have an impact on the
+digital asset market. Since 2016/17, the funding sources for digital
+asset startups and blockchain startups moved from equity funding
+to initial coin offerings (ICOs), to equity offerings, and initial
+exchange offerings (IEOs), just to return back to equity funding in
+the early 2020s. Because equity investments in blockchain startups
+make it less likely and less necessary for the respective startups to
+issue digital currencies, at least as a funding source, the market for
+digital currencies and the total volume of issued digital currencies
+is likely to recede when the funding market moved from ICOs back
+to equity funding.
+The emerging market for DeFi has the potential to impact the
+overall digital asset market. Proponents of DeFi often claim that
+DeFi involves the development of an upgraded monetary system
+built on public blockchains.9 The expected customer base of such
+an upgraded and distinguishable monetary system could involve the
+1.7 billion unbanked individuals plus the crypto communities of the
+western hemisphere. In the early 2020s, most DeFi applications are
+built on open source networks such as Bitcoin and Ethereum which
+enable such decentralized applications (Dapps) to disintermediate
+8 See, e.g., Michele Chandler, Mobile Banking Takes Off in Nigeria, STAN.
+GRAD. SCH. BUS. (Jan. 24, 2012), https://www.gsb.stanford.edu/insights/mobile-
+banking-takes-nigeria; Cade Metz, Why Bitcoin Will Thrive First in the
+Developing World, WIRED (Feb. 2, 2016, 8:00 AM),
+https://www.wired.com/2016/02/why-bitcoin-will-thrive-first-in-the-
+developing-world/ (noting that in Nigeria, for example, banking transactions are
+readily executed over mobile phones because no infrastructure exists for
+consumer banking). Donations and aid to third world countries can finally be
+provided without the interference of suboptimal bureaucratic organizations that
+do not allocate the aid as intended by the donor.
+9 Connor Blenkinsop, Decentralized Finance, Explained, COINTELEGRAPH (Oct.
+7, 2019), https://cointelegraph.com/explained/decentralized-finance-explained.
+6
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+financial activities via permissionless and censorship resistant
+blockchains.10
+Normatively, the paper points out that the expected growth rate of
+the DeFi, according to diverse sets of estimates, is substantial
+enough to call into question the long-term viability of the
+decentralized technology infrastructure without core infrastructure
+improvements. The author provides a case study to illustrate the
+possible shortcomings of the existing DeFi infrastructure.
+II. Digital Asset Market
+Throughout history, evolving markets were subject to evolution and
+de-evolution cycles.11 The nascent market for digital assets is no
+exception. The emerging market for digital assets follows a similar
+evolution and de-evolution pattern. Since its inception in 2009, the
+rapid proliferation of the digital asset market in 2016-18 was
+followed by significant downward corrections in 2018-19 (called
+the “crypto winter”).12
+Digital assets and decentralized cryptocurrencies are different from
+fiat currencies. Key differences include what their respective values
+attaches to, the supply level, and the respective storage methods.
+The value of fiat currency, once backed by gold, is tied to the trust
+citizens have in their country’s economy, government, and central
+bank. In theory, decentralized cryptocurrencies, such as Bitcoin, are
+different. They are often designed with a fixed supply to be anti-
+inflationary. Cryptocurrencies can be stored and transferred without
+any central entity involvement. They are designed to bypass
+existing financial intermediaries.
+10 Id.
+11 José Albuquerque de Sousa, Thorsten Beck, Peter A.G. van Bergeijk, and
+Mathijs A. van Dijk, Nascent Markets (Oct. 2016) (unpublished manuscript) (on
+file with The London School of Economics and Political Science,
+http://www.lse.ac.uk/economics/Assets/Documents/finance-and-development-
+workshop/beck-nascent-markets.pdf).
+12 Michael J. Casey, Crypto Winter is Here and We Only Have Ourselves to
+Blame, COINDESK (Dec. 4, 2018, 12:17 PM), https://www.coindesk.com/the-
+crypto-winter-is-here-and-we-only-have-ourselves-to-blame.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+1. Bitcoin vs. Altcoins
+The evolution of digital assets13 started with Bitcoin, the first digital
+asset, launched in 2009.14 Bitcoin’s blockchain consensus
+mechanism, Proof-of-Work, uses a 256-bit signature secure hash
+algorithm that was first designed by the NSA to solve
+computationally investment puzzles that validate transactions and
+create new blocks.15 Bitcoin’s design prevents double spending,16 a
+situation where a sum of money is illegitimately spent more than
+once.17 Bitcoin had no financial backing or intrinsic value and no
+centralized issuer or controller18 and facilitated peer-to-peer
+transactions.19 Bitcoin was first traded in 2010.20 The Bitcoin
+whitepaper published by Satoshi Nakomoto outlined the technical
+foundations and blockchain technology underlying Bitcoin.21 Each
+Bitcoin represents a transaction that is registered on a public open
+13 CoinMarketCap, Crypto Glossary, COINMARKET CAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020); Zvezdin
+Besarabov and Todor Kolev, Predicting Digital Asset Market Based on
+Blockchain Activity Data 1 (Oct. 15, 2018), https://arxiv.org/abs/1810.06696;
+Luis P. de la Horra, et al., The Drivers of Bitcoin Demand: A Short and Long-
+Run Analysis, 62 INT’L. REV. OF FIN. ANALYSIS 21, 24 (2019); Gianluca Elia, et
+al., Digital Entrepreneurship Ecosystem: How Digital Technologies and
+Collective Intelligence Are Reshaping the Entrepreneurial Process, 150
+TECHNOLOGICAL FORECASTING & SOC. CHANGE 1, 2 (2020) (quoting World
+Economic Forum 2016 https://www.weforum.org/agenda/2016/01/the-fourth-
+industrial-revolution-what-it-means-and-how-to-respond/); Lanouar
+Charfeddine, et al., Investigating the Dynamic Relationship Between
+Cryptocurrencies and Conventional Assets: Implications for Financial
+Investors, 85 ECON. MODELLING 198, 201 (2020) [hereinafter Charfeddine].
+14 Nakamoto, supra, note 1.
+15 Proof-of-Work, Crypto Glossary, COINMARKET CAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed Apr. 8, 2020).
+16 CoinMarketCap, What are Cryptocurrencies? COINMARKETCAP.COM,
+https://coinmarketcap.com/intro-to-crypto/what-are-cryptocurrencies/ (last
+accessed April 8, 2020).
+17 Double Spending, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+18 Besarabov, supra note 13 at 1.
+19 de la Horra, et al., supra, note 13 at 24.
+20 Bernard Marr, A Short History Of Bitcoin And Crypto Currency Everyone
+Should Read, FORBES (Dec. 6, 2017),
+https://www.forbes.com/sites/bernardmarr/2017/12/06/a-short-history-of-
+bitcoin-and-crypto-currency-everyone-should-read/#7e009f593f27.
+21 Charfeddine, supra note 13 at 201.
+8
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+ledger.22 In order for a new transaction to be added to the block, it
+must be approved by the miners. The transaction is then linked to a
+chain comprising all the previous blocks – that is how the
+blockchain is formed. Any changes to the data on a blockchain are
+made by consensus among all members of the decentralized
+network, thereby eliminating need for an intermediary between the
+originator and recipient.23 In its limited supply by design and
+growing marginal production cost, Bitcoin resembles a
+commodity.24 Bitcoin has a maximum supply of 21 million units.25
+Bitcoin’s monetary base is pre-programmed to grow at a predictable
+decreasing rate that will reach zero in 2140.26
+The success of Bitcoin has inspired the introduction of other digital
+currencies, so called alt-coins.27 A coin is a cryptocurrency that can
+operate independently; a token is a digital unit that provides to its
+holder access and use of a larger cryptoeconomic system with no
+independent store of value but instead holds utility value.28Altcoins
+have grown to represent as much as 60% of cryptocurrency market
+capitalization.29 Between 2014 to mid-2017, approximately seven
+cryptocurrencies launched per week while roughly the same number
+of cryptocurrencies were abandoned at the same time.30 As of May
+2017, approximately 1500 cryptocurrencies had been introduced to
+the market, 600 of which were actively traded at that time.31 As of
+October 2018, the cryptocurrency market consisted of more than
+22 Charfeddine, supra note 13 at 20.
+23 Besarabov, supra note 13 at 1.
+24 de la Horra, et al., supra note 13 at 24, footnote 12.
+25 Adrian Cheung, et al., Crypto-Currency Bubbles: An Application of the
+Phillips-Shi-Yu (2013) Methodology on Mt. Gox BitcoinPprices, 47 APPLIED
+ECON. 2348, 2348 (2015).
+26 de la Horra, et al., supra note 13 at 23.
+27 Cheung, et al., supra note 25 at 2348.
+28 Coin, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).; Token,
+Crypto Glossary, COINMARKETCAP.COM, https://coinmarketcap.com/glossary/
+(last accessed April 8, 2020).
+29 Charfeddine, supra note 13 at 201.
+30 Abeer ElBahrawy, et al., Evolutionary Dynamics of the Cryptocurrency
+Market 4 R. SOC. OPEN SCI. (2017) at 3-4,
+https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.170623.
+31 Id. at 1, 2.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+212 coins and tokens,32 which jumped to over 5,300
+cryptocurrencies as of April 2020.33
+The second most important cryptocurrency in terms of market
+capitalization after Bitcoin is the Ethereum network’s token Ether,
+which launched in 2016.34 As of October 2018, an average daily
+transaction count for Bitcoin was 200,000 and 500,000 Ethereum.35
+Ethereum expanded on Bitcoin’s blockchain technology by
+providing a mechanism to execute program logic in each
+transaction, thereby enabling a wider variety of use cases.36
+Ethereum stores computer codes powered by the computing power
+going into the network formed by its connected computers,
+representing Ethereum’s currency, Ether, which allows its holders
+to use the resources provided by the network to run their
+applications.37
+New tokens can either be launched on the Ethereum network, which
+can encourage wider adoption of the new token, or can essentially
+be created from scratch on an independent blockchain. An
+independent blockchain runs its own network with its own
+technology and protocol and starts from a Genesis Block, also
+called the zero block, the first block of data that is processed and
+validated to form a new blockchain.38 The benefits of building a
+new chain include its high flexibility in design. The main drawback
+of creating a new chain is gaining user adoption and associated
+network effects and economies of scale. A token that runs on
+Ethereum can be attractive for consumers because they often meet
+standards such as the ERC-20 token and Ethereum Improvement
+Proposals. ERC-20 tokens satisfy a common list of rules defining
+interactions between tokens, including transfer between addresses
+32 Charfeddine, supra note 13 at 199.
+33 See COINMARKETCAP.COM, https://coinmarketcap.com/glossary/ (last accessed
+April 8, 2020).
+34 Marr, supra, note 20.
+35 Charfeddine, supra note 13 at 200.
+36 Besarabov, supra note 13 at 1.
+37 Charfeddine, supra note 13 at 201.
+38 Genesis Block, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+10
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+and data access.39 Ethereum Improvement Proposals describe
+standards for the Ethereum platform including core protocol
+specifications, client application programming interfaces, and
+contract standards.40
+Since its inception in 2009, with the invention of Bitcoin, until
+around January 2017, the digital asset market was dominated by one
+digital currency, namely Bitcoin. This dominance in the market for
+fungible cryptocurrencies lasted from around 2009 to 2011. On
+April 15, 2011, the first known alternative coin to Bitcoin, known
+as “alt-coin,” was create. With the introduction of altcoins,
+Bitcoin’s market dominance in fungible cryptocurrencies slowly
+eroded. In the aftermath, between 2017 and 2019, the alt-coin
+market proliferated significantly.
+Figure [__]: Source- coinmarketcap.com. Note: 100% dominance assumed till
+April 15, 2011 (creation of first known altcoin). Linear interpolation from April
+15, 2011 to April 28, 2013 (the date of coinmarketcap.com’s first Bitcoin data
+point).
+Figure 1 highlights that at the end of 2014, with the instantiation of
+smart contracting in the Ethereum ecosystem and the ETH currency,
+the market for digital assets started to diversify and proliferate
+substantially. As a result, as demonstrated in Figure 1, from 2016 to
+2017, Bitcoin’s market share dropped dramatically. New alt-coins
+39 ERC-20, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+40 Ethereum Improvement Proposals, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+emerged almost weekly, leading to over 2000 fungible
+cryptocurrencies in circulation in late 2018.41
+Figure [__]: ICOs % of Total Blockchain Funding. Sources: Coindesk (Jan 2016
+– Dec 2016) - https://www.coindesk.com/ico-trackericorating.com (Jan 2017 –
+Mar 2019) - https://icorating.com/statistics/market/
+The ICO market provides evidence of the increasing maturity of the
+fungible alt-coin market. Figure 2 shows that the ICO market (% of
+ICOs of total amount raised by blockchain startups) reached its peak
+from March 2018 to June 2018. Figure 2 highlights that the
+percentage of ICOs in relation to total fundraising of blockchain
+startups dropped from 80% to around 35% in August 2018 and only
+marginally recovered between September 2018 and February 2019
+at around 40% to 50% before dropping to 20% in March 2019. By
+implication, Figure 2 shows that other funding vehicles, such as
+venture fundraising, became more important for the blockchain
+industry in August 2018.
+41 List of Cryptocurrencies, WIKIPEDIA,
+https://en.m.wikipedia.org/wiki/List_of_cryptocurrencies (last visited April 20,
+2020).
+12
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+2. Initial Coin Offerings
+With the emergence of alt-coins in April 2011 (Figure [1]), e.g.
+coins that provide an alternative investment opportunity other than
+Bitcoin, public token sales a/k/a Initial Coin Offerings (ICOs)
+became possible. The first ICO was conducted by Mastercoin in
+July 2013.42
+ICOs evolved rapidly and receded equally quickly. After Satoshi
+Nakamoto established the use case for blockchain technology for
+cryptocurrencies in 2008,43 it was not until 2012 that the first ICO
+materialized. However, the exponential growth of ICOs since 2015
+culminated in ICO fundraising outperforming venture capital
+financing of crypto start-ups in the second quarter of 2017.44
+Following its rapid proliferation and market exuberance, ICOs
+receded equally quickly lockstep with the depreciation in the value
+of bitcoin in early 2018.
+The emergence of ICOs changed the funding landscape for digital
+asset startups and other startups dramatically and in many ways
+inaugurated the rise of the digital asset market. ICOs provided
+unprecedented liquidity and efficiency for capital formation while
+minimizing transaction cost. While ICOs historically had allowed
+primarily crypto start-ups, financial technology start-ups, and the
+crypto community to raise funds, in 2018, legacy businesses with
+established services and products increasingly used ICO
+fundraising to finance their business activities.
+A major attractive feature that contributed to the success of ICOs
+was their apparent ability to avoid regulatory costs associated with
+fundraising. Issuers of ICOs often assumed that ICOs allowed the
+issuer to circumvent the usual requirements associated with issuing
+securities. Such requirements include a full slate of federally
+mandated securities disclosures, the registration of securities, as
+42 Initial Coin Offering, WIKIPEDIA,
+https://en.wikipedia.org/wiki/Initial_coin_offering (last visited April 20, 2020).
+43 Nakamoto, supra note 1.
+44 Alex Sunnarborg, ICO Investments Pass VC Funding In Blockchain Market
+First, COINDESK (Jun. 9, 2017), https://www.coindesk.com/ico-investments-
+pass-vc-funding-in-blockchain-market-first.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+well as the application of the 1933 and the 1934 Act with all of their
+regulatory implications. The issuer of tokens in an ICO in effect
+disintermediates all of the otherwise required intermediation in
+issuing securities, which is typically provided by investment
+bankers, accountants, and lawyers. For the issuer, the
+disintermediation and the presumed lack of applicable rules meant
+that, regardless of the stage of the company - many only had a
+simple 10-page whitepaper listing their idea and the remnants of a
+team that promised to implement the idea, they were able to
+approach possible investors directly and sell directly to the market.
+Of course, for many U.S. issuers of tokens in ICOs this presumption
+became in retrospective a fallacy that should haunt them in the
+aftermath of increased SEC enforcement actions of ICOs in late
+2019.45
+ICOs’ comparative advantage over other means of capital formation
+consisted mainly of their cost-effectiveness that helped offset the
+complex and unpredictable economic dynamics in the crypto
+marketplace. Unlike other means of capital formation, ICOs
+allowed promoters to avoid sacrificing equity for financing. Instead,
+ICO promoters could use the proceeds from an ICO exclusively for
+product development. ICOs provided low barriers to entry for a
+diverse body of investors and thus increase the diversity and the
+heterogeneity of start-up funding. ICOs created unparalleled
+efficiencies for capital formation. ICOs enabled borderless online
+sales with far fewer points of friction. ICOs enable the promoters to
+bypass the typical legal, jurisdictional, and business hurdles by
+directly marketing to a worldwide pool of investors.
+ICOs provided unparalleled liquidity for all of their constituents.
+Global cryptocurrency exchanges provided significant continuous
+access to trading ICO tokens which allows for significant liquidity
+at the earliest possible time in the lifecycle of the underlying
+business. ICOs provided liquidity to investors much faster than any
+other form of capital formation. ICOs also allowed venture capital
+funds to capitalize on existing profits much earlier while avoiding
+45 SEC enforcement actions: https://www.sec.gov/spotlight/cybersecurity-
+enforcement-actions
+14
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+long, complex, and time-intensive processes leading up to an IPO,
+acquisition, or similar late liquidity event in the lifecycle of the
+business.46 Finally, promoters could obtain the earliest possible
+liquidity from their token reserves simultaneously with the
+financing for their product launch.
+ICOs had a disruptive effects on finance. ICOs provide low barriers
+to entry for a diverse body of investors and thus increase the
+diversity and the heterogeneity of start-up funding. Through
+borderless online sales, ICOs were directly marketed to a worldwide
+potential pool of investors, bypassing the typical legal,
+jurisdictional, and business hurdles in traditional venture capital
+financing.47 Moreover, ICOs benefited from limited accreditation
+standards, as well as from multiple global cryptocurrency
+exchanges that provide continuous access to trading.48
+The ICO market had multiple distinguishing features from the
+venture capital market in 2017. A core distinguishing feature was
+the ICO market’s ability to grant earliest possible liquidity to
+investors and issuers alike. Yet, as the ICO market evolved, not only
+did the market for digital asset investments revert back to the
+46 Risks and rewards of tokens differ from those of equity. Unlike token
+ownership, equity typically conveys a right to dividends. In the case of
+bankruptcy, equity owners have some residual claims on the assets of the
+company. Unlike IPOs, where companies sell stocks via regulated exchange
+platforms, ICOs sold digital coupons, so-called tokens that did not generally
+confer ownership rights, to early investors in so-called private sales and later to
+the public via unregulated or exempt exchange platforms. In an IPO, the user
+receives a share of ownership in the company. They usually have rights to the
+profit in the form of dividends, rights to company direction in the form of
+shareholder voting, etc. Similarly, in an ICO, the user receives a token that allows
+use of the token’s features. unlike IPOs, successful ICOs do not require the
+support of a reputable banking institution as underwriters and remove the
+associated fees for the issuer. Similar to the ownership right itself as in the IPO,
+a token offers discounts on cryptocurrency before they hit the exchanges once the
+ICO is launched and, together with the stake in the company, a right to vote on
+future decisions. Similar to different classes of stock with different rights in an
+IPO, some ICOs provide for different categories of participations (or levels of
+membership): voting members, founding member, third party service provider
+member, asset gateway member.
+47 Id.
+48 Sunnarborg, supra note 44.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+venture investment model, the remaining ICOs that coexist with
+venture investments in digital assets became also substantively very
+similar to venture investments. The similarity was most clearly
+visible when examining the lockup periods required in ICOs
+between 2018 and 2019. Most ICOs during that period required one
+to three-year lockup period for their investors. Accordingly, the
+ICO market in 2019 is very similar to the venture market in the
+sense that neither of these markets offers early liquidity to investors
+and issuers.
+The fee structure of ICOs has evolved during 2017-19 and created
+a perhaps even higher cost structure than IPOs. Many ICOs in 2017-
+18 had a staggered discount structure for private sale investors of
+up to 50% for the very earliest investors which tapered off to 30%,
+20%, 10% and so forth for any following investors. A similar, yet
+less significant, discount window was available for public sale
+investors once the public ICO had started. Considering these steep
+discounts to incentivize earliest possible investments, the cost
+structure of ICOs is arguably significantly higher than the cost
+structure of an IPO. In the IPO context, on average, companies incur
+an underwriter fee equal to 4-7% of gross proceeds, plus an
+additional $4.2 million of offering costs directly attributable to
+the IPO.49 While the offering (legal) cost for an ICO are
+substantially below the IPO offering cost, anecdotal evidence
+suggest the cost would be at around $250k, depending on the
+jurisdiction and legal team involved. The discounted offering of
+tokens in ICOs is substantially higher on average than the IPO
+underwriting fee of 4-7%.
+3. Venture Capital
+Despite the disruptive effects of ICOs, venture capital funds could
+also benefit significantly from participation in the ICO market
+which in turn propelled the market for digital assets forward during
+the ICO boom years. While the ICO market also was a competitor
+49 Considering an IPO to Fuel Your Company’s Future?,
+PRICEWATERHOUSECOOPER,
+https://www.pwc.com/us/en/services/deals/library/cost-of-an-ipo.html (last
+accessed May 12, 2020).
+16
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+to venture funding via venture capital funds, the business model of
+venture capital funds could benefit from the early liquidity provided
+by cryptocurrencies in ICOs.50 In the existing venture capital
+model, venture capital funds invest significant amounts of money
+in the hope of finding the next unicorn start-up. This investment
+process is subject to long, complex, and time intensive processes
+leading up to a late liquidity event in the form of an IPO or
+acquisition. By contrast, ICOs provide liquidity to investors much
+faster and allow venture capital funds to capitalize on existing
+profits early.51 Venture capital funds who invested in crypto start-
+ups gain access to much earlier liquidity via ICOs by converting
+their cryptocurrency profits into Bitcoin or Ether through any of the
+cryptocurrency exchanges and can thereafter transfer into fiat
+currencies via online services such as Coinsbank or Coinbase.52
+Venture capital funds have financial incentives to invest in
+blockchain startups and cryptocurrencies. Cryptocurrencies created
+by blockchain start-ups generate investment returns that cannot be
+matched by legacy investments. For example, several
+cryptocurrencies such as Ether, Monero and NEM increased in
+value by 2,000% in 2017-18,53 and Litecoin more than the 900% in
+2017-18.54
+ICOs disrupt the traditional business model of venture capital funds,
+an asset class that has traditionally played a crucial role in financing
+highly innovative start-ups. ICOs display several core
+characteristics that make them preferable for many start-ups to the
+traditional venture capital funding model. ICOs provide
+unprecedented efficiency for capital formation in start-ups. ICO
+promoters and their developers are not forced to sacrifice their
+50 See Lionel Laurent, Want to Be a VC? Just Flip a Bitcoin, BLOOMBERG:
+GADFLY (Apr. 18, 2017), https://www.bloomberg.com/gadfly/articles/2017-04-
+18/beating-vc-funds-is-as-easy-as-flipping-a-bitcoin.
+51 Richard Kastelein, What Initial Coin Offerings Are and Why VC Firms Care,
+Harv. Bus. Rev., (Mar. 24, 2017), https://hbr.org/2017/03/what-initial-coin-
+offerings-are-and-why-vc-firms-care.
+52 COINBANK, https://coinsbank.com/; COINBASE, https://www.coinbase.com/;
+Kastelein, supra note 51.
+53 See COINBASE, https://www.coinbase.com/ (price at July 3, 2017).
+54 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+equity in the project in exchange for the funds they raised.55 ICOs
+allow crypto start-ups, financial technology start-ups, and
+increasingly legacy system innovators, and the Ethereum developer
+community, among others, to fundraise directly in the crypto
+community for their activities and projects, bypassing both banking
+and non-banking entities (i.e. Venture Capitalists) as well as their
+services and the associated cost. ICO promoters can use the
+proceeds from an ICO exclusively for product development. In the
+second quarter of 2017, ICO issuances exceeded venture capital
+financing of start-ups for the first time,56 with $210 million invested
+in ICOs versus $180 million invested into start-ups via traditional
+venture capital funds.
+Capital formation via ICOs disrupts the traditional hierarchies in
+venture capital. Traditional venture capital funds typically only
+allow a smaller group of elite investors to invest in highly
+innovative projects generally unknown to the investing public.57 By
+contrast, ICOs provide a much more inclusive option for all
+investors. ICOs increase the diversity and the heterogeneity of start-
+up funding.58 Because of the low barrier to entry and the borderless
+nature of the online token sale, ICOs allow small investors from all
+over the world to invest.59 By contrast with traditional venture
+capital financing, the inclusive elements of ICOs in combination
+with increased efficiencies, significant simplification, and better
+timing render ICOS the faster and overall preferable alternative for
+fundraising by startups.60
+The disruption of legacy finance by ICOs has triggered attempts by
+venture capital funds to capitalize on the source of disruption within
+the existing business model to benefit from its advantages.61
+55 Id.
+56 See Sunnarborg, supra note 4.
+57 Dinis Guarda, The Cryptocurrency Economy: ICOs, Blockchain, Financial
+Inclusion, INTELLIGENT HQ (May 3, 2017),
+https://www.intelligenthq.com/innovation-management/the-cryptocurrency-
+economy-icos-blockchain-financial-inclusion/.
+58 This may potentially increase volatility due to panic sales of unexperienced
+investors.
+59 Id.
+60 Sunnarborg, supra note 44.
+61 Laurent, supra note 50.
+18
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Venture capital funds can benefit from the early liquidity provided
+by cryptocurrencies. In the existing venture capital model, venture
+capital funds invest significant amounts of money in the hope of
+finding the next unicorn start-up. This investment process is subject
+to long, complex, and time intensive processes leading up to a very
+late liquidity event in the form of an IPO or acquisition. By contrast,
+ICOs provide liquidity to investors much faster and allow venture
+capital funds to capitalize on existing profits early.62 Venture capital
+funds who invested in crypto start-ups gain access to much earlier
+liquidity via ICOs by converting their cryptocurrency profits into
+Bitcoin or Ether through any of the cryptocurrency exchanges and
+can thereafter transfer into fiat currencies via online services such
+as Coinsbank or Coinbase.63 Venture capital funds have financial
+incentives to invest in blockchain startups and cryptocurrencies.
+Cryptocurrencies created by blockchain start-ups generate
+investment returns that cannot be matched by legacy investments.
+For example, several cryptocurrencies such as Ether, Monero and
+NEM increased in value by 2,000% in 2017-18,64 and Litecoin more
+than the 900% in 2017-18.65
+Figure [__]: Evolution from 0 to 900 Bil Mkt Cap in Digital Assets (to come)
+62 Kastelein, supra note 51.
+63 COINBANK, https://coinsbank.com/; COINBASE, https://www.coinbase.com/;
+Kastelein, supra note 51.
+64 See COINBASE, https://www.coinbase.com/ (price at July 3, 2017).
+65 See COINBASE, https://www.coinbase.com/ (price at July 3, 2017).
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+Because equity investments in blockchain startups make it less
+likely and less necessary for the respective startups to issue digital
+currencies, at least as a funding source, the market for digital
+currencies and the total volume of issued digital currencies is likely
+affected by the choice of funding method.
+4. Initial Exchange Offers
+Initial exchange offers (“IEO”) 66 evolved as a response to the near
+disappearance of the ICO market in January 2019. The
+cryptocurrency exchanges were most affected by the negative
+trends in ICOs and sought a remedy. The IEO was born. In an IEO,
+the cryptocurrency exchange acts as a screening device for token
+offerings. In an IEO the issuer does no longer interact with investors
+directly. Rather the exchange screens the token offering by the
+issuer and investors buy the tokens through the exchange that listed
+the token offering.
+66 See, e.g., Benjamin Vitáris, What Is an Initial Exchange Offering (IEO) and
+How It Differs From ICO?, CRYPTOPOTATO (April 20, 2020),
+https://cryptopotato.com/what-is-an-initial-exchange-offering-ieo-and-how-it-
+differs-from-ico/.
+20
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Figure [__]: Demonstrates that IEO fundraising was a temporary phenomenon
+with primary market acceptance from April to June 2019.
+5. DeFi
+In the aftermath of the ICO boom and bust, the decentralized finance
+community continued to expand financial products and services that
+are based on digital assets. This continuing expansion and attempts
+to disrupt existing legacy finance via decentralized finance products
+gave rise to what became known as Decentralized Finance (DeFi).
+The historical evolution of DeFi begins in early 2018. It was then
+that the teams behind Set Protocol, 0x, Dharma, and DyDx started
+working together to build an alternative financial system. The teams
+hoped they would be able to address the fairness, transparency, and
+equity issues that afflict the existing system.67 As it evolved, the
+DeFi movement became an open community for decentralized
+finance platforms to work toward these goals together to achieve
+open source interoperability, collaboration, and transparency.68
+Telegram and Reddit channels were subsequently created, followed
+by meetups and soon conferences called “DeFi Summits”. In the
+early 2020s, DeFi’s total value had risen to~US$500M.69 DeFi
+applications became more robust and the community started
+launching second-generation protocols. DeFi became the leading
+sector of the cryptocurrency market.70 Any FinTech project can
+become part of the DeFi community if it builds a service for or is
+based on blockchain, based on general standards and is compatible
+with other DeFi projects, and fulfills these principles.71
+The Ethereum platform enabled the evolution of DeFi. Ethereum
+enables an open financial system with little to no involvement from
+67 WTF, Story of DeFi: How it Started, Where It Stands Now, DeFi Definition
+Revisited, MEDIUM: WTF-DAO (Oct. 23, 2019), https://medium.com/wtf-
+dao/story-of-defi-how-it-started-where-it-stands-now-defi-definition-revisited-
+628fc3bab308, The name “DeFi”, short for decentralized finance, has
+similarities with the ideas of “defy”ing something and is, by itself, a reference
+to a challenge to the existing financial system.
+68 WTF, supra note 67.
+69 Id.
+70 Product Protocol, The History of DeFi, MEDIUM (Dec. 11, 2019),
+https://medium.com/@product.protocol/the-history-of-defi-f6e11a3c2d6e
+71 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+financial institutions.72 In the early 2020s, Ethereum is the leading
+DeFi platform for smart contracting and is used by the
+overwhelming majority of DeFi protocols.73 Transactions on the
+Ethereum blockchain are valid, meaning network participants
+(“nodes”) verify, validate, and audit transactions before and after
+they are executed.74 Such transactions are immutable and no third
+party can reverse a transaction75 and verifiable through a smart
+contract.76 Ethereum’s network technology can thus eliminate the
+need for intermediaries in financial transactions and expand
+transaction possibilities by increasing the scope and efficiency of
+peer-to-peer transactions through distributed trust and decentralized
+platforms.77 Less intermediary involvement reduces transaction
+cost, broadens financial inclusion, empowers open access,
+encourages permissionless innovation, and creates new business
+opportunities.78
+Evolving DeFi platforms keep increasing the financial products and
+portfolio of services for network participants. For example, DeFi
+platforms include prediction markets, distributed corporate
+governance, and trade finance.79 Banking services have also
+employed blockchain technology in order to mitigate credit risk for
+72 Decentralized financial technologies: report on financial stability, regulatory
+and governance implications, FINANCIAL STABILITY BOARD (Jun. 6 2019),
+https://www.fsb.org/2019/06/decentralised-financial-technologies-report-on-
+financial-stability-regulatory-and-governance-implications/.
+73 see generally Tom Shaughnessy, Medio Demarco & Anil Lulla, Decentralized
+Finance (DeFi) Thematic Insights, DELPHI DIGITAL (Mar. 2019),
+https://www.delphidigital.io/defi.
+74 Fenwick, Mark and Kaal, Wulf A. and Vermeulen, Erik P.M., Legal
+Education in the Blockchain Revolution (March 22, 2017). U of St. Thomas
+(Minnesota) Legal Studies Research Paper No. 17-05. Available at
+SSRN: https://ssrn.com/abstract=2939127
+at 6.
+75 Shaughnessy, Demarco & Lulla, supra note 73 at 3.
+76 Arvind Narayanan et al., BITCOIN AND CRYPTOCURRENCY TECHNOLOGIES: A
+COMPREHENSIVE INTRODUCTION (2016).
+77 Lin William Cong and Zhiguo He, Blockchain Disruption and Smart
+Contracts, 32 REV. OF FIN. STUD., 1754 (2019).
+78 FINANCIAL STABILITY BOARD, supra note 72.
+79 Satyajit Bose, Guo Dong, & Anne Simpson, THE FINANCIAL ECOSYSTEM 304
+(2019).
+22
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+exporters and importers.80 DeFi platforms allow users to convert fiat
+currency into a stable currency, store stable currency in an interest-
+bearing account, and use future contracts to hedge against financial
+uncertainty.81 DeFi platforms go beyond traditional banking and
+financial services. Parties in the supply chain can view inventory
+records and effect payments in real-time, and could facilitate a
+seamless system of lending and repayment using smart contracts.82
+Despite its impressive gains, the evolution of DeFi platforms
+depends on higher levels of stability in its products and the market
+for digital assets overall. The evolution of the DeFi market and its
+new monetary system depends on the stability of DeFi products and
+digital assets. Stability and adoption of DeFi is undermined by the
+instability of most cryptocurrencies.83
+a) Decentralized Exchanges (“DEXs”) & Protocols
+A key feature of the DeFi community is its ability to make
+decentralized protocols available for the benefit of its users. For
+example, several DeFi protocols enable decentralized peer-to-peer
+token exchanges (DEX).84 In the early 2020s, DEXs include
+EtherDelta, IDEX, 0x, Kyber Network, Uniswap, Ren, and the
+Bancor Network. Protocols can serve as liquidity reserves to other
+protocols85 and parties can even create custom dark pool DEXs.86
+DEXs have several key characteristics. DEXs can facilitate “swaps,”
+where trades are conducted directly against smart contract token
+reserves and prices are determined using a conversion formula. Or
+80 Id. at 305.
+81 See Leonhard, supra note 45.
+82 Peter Lee, Trade Finance on Blockchain Moves to Full Commercial
+Production, 49 EUROMONEY 590 (2018); Rui Wang, Zhangxi Lin, & Hang Luo,
+Blockchain, Bank Credit and SME Financing, QUALITY & QUANTITY (2019).
+83 Yan Chen and Cristiano Bellavitis, Blockchain Disruption and Decentralized
+Finance: The Rise of Decentralized Business Models, 13 J. BUS. VENTURING
+INSIGHTS 1, 6 (2020).
+84 E.g. Bancor https://www.bancor.network/
+85 E.g. Uniswap Protocol (@UniswapProtocol), TWITTER (Feb. 5, 2019, 10:26
+AM), https://twitter.com/UniswapExchange/status/1092821767134035968.
+86 E.g., Ren, https://renproject.io/
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+DEXs can be similar to a traditional, centralized exchange. Trades
+can either be settled “on-chain”, wherein trades are finalized and
+ownership transferred directly on the blockchain, or off-chain where
+trades are finalized and ownership transferred in a third-party
+system.87 DEX order books can be held in a smart contract directly
+on the blockchain, or a third party can operate the exchange’s order
+books. Finally, liquidity can either be pooled in smart contracts
+directly on the blockchain or off-chain, where multiple third-parties
+aggregate order books to pool liquidity. The majority of DEXs are
+swap, settle on-chain, pool liquidity on-chain, and either do not
+include order books or have off-chain order books. Some protocols
+have their own token, used for governance, paying fees, determining
+conversion rate for token swaps (or even give users stake, upon
+which users can gain a yield from transaction fees). 88 For example,
+Uniswap, a protocol which has approximately 25,000 ETH and
+$USD 7.1 million in pooled liquidity, does not have its own token.89
+b) Lending and Borrowing
+Lending and borrowing of digital assets are one of the most common
+services decentralized DeFi protocols make available to their users.
+The loan market in the existing centralized financial system is ripe
+for disruption by DeFi Dapps. The 1.7 billion unbanked in the world
+have very limited access to the loan market because they typically
+cannot provide the basic documentation required by centralized
+banking institutions. This excludes the unbanked entirely from the
+value creation that would be possible if they had access to loans.
+DeFi platforms grant the unbanked access to the loan market by
+disintermediating existing banks. DeFi Dapps connect borrowers
+and lenders in peer-to-peer networks directly. They allow the
+unbanked to use digital assets as collateral for loans and require
+often much less documentation than traditional banking institutions.
+Users have a few different options for decentralized lending and
+borrowing through protocols built on Etherum. The most popular
+lending platforms include MakerDAO, Compound, and Dharma.
+87 Shaughnessy, Demarco & Lulla, supra note 73 at 5.
+88 E.g. 0x, https://0x.org/
+89 Shaughnessy, Demarco & Lulla, supra note 73 at 4.
+24
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+MakerDAO is a lending protocol that allows users to post ETH as
+collateral to borrow against. Users of MakerDAO can open a
+collateralized debt position to borrow against on MakerDAO by
+posting ETH.90 MakerDAO accounts for almost ninety percent of
+total USD value locked in DeFi projects.91 As a lending platform,
+Maker remained resilient even as the price of ETH, the asset it lends
+against, lost much of its value over the course of 2018. MakerDAO’s
+token, Dai, remained stable in early October 2019 by keeping
+pegged to within 2% of 1 USD while other cryptocurrencies
+experienced major volatility.92
+Compound is a platform launched in September 2018 that enables
+decentralized money markets that have dynamic interest rates that
+float in real-time as market conditions adjust.93 Compound is a
+smart-contract system that acts as a credit market and accumulates
+tokens in a liquidity pool through which users can lend or borrow
+cryptocurrency.94 Compound is a money market protocol with
+floating interest rates based on market conditions.95 Users supply
+assets to the protocol and can either earn interest or borrow from the
+protocol and pay interest, as long as the user’s supply balance
+remains one and one-half times the user’s borrow balance. Users
+held over $24,000 worth of assets held as collateral on Compound
+v1.
+Compound released the second generation of their protocol in May
+201996 that includes granular risk modeling, more asset gateways,
+and governance improvements.97 Projects on Compound v298
+90 Maker DAO: https://makerdao.com/en/
+91 cite specific number to defipulse https://defipulse.com/
+92 Dai in Numbers: Momentum Report Q3, MAKER: BLOG (Oct. 8, 2019),
+https://blog.makerdao.com/dai-in-numbers-momentum-report-q3/.
+93 Compound protocol “about” https://compound.finance/about
+94 MAKER, supra note 92.
+95 Compound release, https://compound.finance/about
+96 See Robert Leshner, Compound v2 is Live, MEDIUM: COMPOUND (May 23,
+2019), https://medium.com/compound-finance/compound-v2-is-live-
+157db0b7cfc8.
+97 Robert Leshner, Our Plan to Create Compound v2, MEDIUM: COMPOUND
+(Mar. 18, 2019), https://medium.com/compound-finance/compound-v2-
+fe4b1fb62abb.
+98 Leshner, supra note 96; Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+include Zerion,99 a portfolio monitoring and management tool for
+open finance, and Opyn100, a decentralized margin trading platform.
+Compound stores almost 15% of all Dai, one of MakerDAO’s two
+tokens and Dai is the most borrowed asset on Compound.101
+Dharma is a platform for building lending products on Ethereum.102
+Dharma is a platform for building decentralized lending products
+and facilitates peer-to-peer crypto lending, directly from each user’s
+personal wallet.103 One such product is Dharma Lever, which
+provides instant margin loans for traders using ETH-based assets.
+This platform facilitates peer-to-peer crypto lending, directly from
+each user’s personal wallet, by allowing each party of the loan to be
+discoverable. Borrowers can customize their loan terms including
+asset type, collateral, and duration. Lenders set a risk profile by
+specifying their desired loan terms. Borrowers receive principal
+instantly after they lock up collateral in a smart contract.
+The remittance market is similar to the loan market with regards to
+the potential for disruption by DeFi Dapps. The existing remittances
+market requires migrant workers who wish to send part of their
+income across borders to their families in their home countries to
+pay significant fees. DeFi Dapps often offer the same service for
+significantly lower fees.
+c) Trading
+Trading of digital assets is another significant market segment of
+DeFi Dapps. Several DeFi protocols enable derivatives, margin
+trading, and prediction markets on Ethereum. Users can trade
+99 ZERION, https://zerion.io/ (last visited May 14, 2020).
+100 OPYN, https://opyn.co/#/ (last visited May 14, 2020).
+101 Leshner, supra note 96.
+102 Dr. Sam Scarpino, Dharma Platform: Your Impact-First Technology
+Partner, DHARMA PLATFORM (Jan. 2019), https://dharmaplatform.com/wp-
+content/uploads/2019/01/Dharma-Platform_Your-Impact-First-Data-
+Management-Partner-1.pdf.
+103 DHARMA PLATFORM, https://dharmaplatform.com/ (last visited May 14,
+2020).
+26
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+margins and derivatives,104 lend margins,105 and can be issued short
+or long ERC-20 tokens representing the payouts of the contract,
+which can be exchanged or posted for sale.106 Augur operates as a
+decentralized futures market on Ethereum.107 Because there is no
+intermediary, operation costs are reduced, which can maximize the
+societal benefit-cost ratio of improved forecasts.108 The
+decentralized prediction market allows users to bet on, or create a
+market for, the outcome of any event, ranging from political
+elections to sports.109
+III. Digital Asset Market Evolution
+Several factors have contributed to the evolution and de-evolution
+of the market in digital assets. First and foremost, among those
+factors is the persistent legal uncertainty that afflicts the market for
+digital assets. Regulators around the world have struggled with a
+coherent approach to regulating digital assets. For example, in the
+context of ICOs, only a very small minority of countries has banned
+ICOs and cryptocurrencies altogether. Regulatory efforts in the
+context of digital assets have included attempts at regulating
+cryptocurrencies, regulating DLT, mandating compliance
+programs, regulating ICOs, regulating exchanges, securities
+regulation, prohibition of exposed financial institutions, and
+government guidance discouraging consumer participation.110
+Other factors that influenced the evolution of the market in digital
+assets included the changes in the market for ICOs. ICOs morphed
+from mostly unencumbered direct fundraising, albeit not
+104 dYdX protocol, https://dydx.exchange/
+105 bZx protocol, https://bzx.network/
+106 Daxia protocol, https://www.daxia.us/
+107 Augur, https://www.augur.net/
+108 Jack Peterson, Joseph Krug, Micah Zoltu, Austin K. Williams, & Stephanie
+Alexander, Augur: A Decentralized Oracle and Prediction Market Platform
+(Feb. 3 2018) (unpublished manuscript) (on file with Cornell University),
+https://arxiv.org/abs/1501.01042.
+109 Shaughnessy, Demarco & Lulla, supra note 73 at 14.
+110 Wulf A. Kaal, Initial Coin Offerings: The Top 25 Jurisdictions and Their
+Comparative Regulatory Responses (as of May 2018), STAN. J. BLOCKCHAIN L.
+AND POL’Y (2018), https://stanford-jblp.pubpub.org/pub/ico-comparative-
+reg/release/2.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+regulatorily supported, to more restricted fundraising efforts. Such
+restrictions were mostly voluntary by token issuers in anticipation
+of regulatory scrutiny. For example. In 2018 and 2019 lockup of
+ICO token investments became the norm. In an effort to curtail the
+market frency of 2017 and 2018, many ICOs required their
+investors to hold the tokens for 1 to 3 years before selling.
+Moreover, the ICO fee structure, typically offering large discounts,
+up to 30%, for early investors, was in many ways more expensive
+for issuers, especially in comparison with the fees charged by
+investment banks in an initial public offering of stock.
+Underwriter fees charged by investment banks could range from 4
+to 7% of gross proceeds, plus an additional $4.2 million of
+offering costs directly attributable to the IPO.111
+Finally, the market maturity and investor experience continue to
+play a role in the evolution of the market for digital assets. Immature
+markets, such as the market for digital assets in 2020 often cannot
+attract institutional investors and venture capitalists that have
+sufficient operating experience in that market. Without significant
+operating experience, investors are less likely to make successful
+decisions in the market for digital assets, especially in an
+environment of market turbulence. This, in turn, can limit
+institutional investor access at scale, which is only partially offset
+by possible profit margins attainable in such emerging markets.
+The market for digital assets is continuously evolving. Yet, despite
+the significant growth, as illustrated in Figures [_] and [__], the
+immaturity of the digital asset market in combination with its
+volatility make the direction of its evolution less certain.
+1. Market Volatility
+The fundamental value of an asset is the present value of the payoffs
+taking into account all available relevant information.112 Bitcoin can
+be hard to value as it does not have any clearly identifiable cash
+flows nor is it even clear what its nature is.113 Bitcoin is a medium
+111 PRICEWATERHOUSE COOPER, supra note 49.
+112 Cheung, et al., supra note 25 at 2 citing 33.
+113 Id. at 2.
+28
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+of exchange used by number of businesses, but it arguably fails as
+a store of value and as a unit of account because of its volatility and
+lack of intrinsic value.114 Bitcoin’s speculative and affinity value is
+based on the spin of technological mystery in the mining.115 When
+Bitcoin derives its value from being a speculative commodity, it can
+be said to be bound to be characterized by bubbles.116
+The continual rise in the Bitcoin price accompanied with volatility
+has led the investment industry and media to claim the Bitcoin
+market is characterized by bubbles which could “burst any time”.117
+Yet, the literature is conflicted regarding whether Bitcoin in fact
+experiences bubbles.118 An asset bubble represents an extreme price
+acceleration that cannot be explained by the underlying
+fundamental economic variables.119 A bubble exists when the price
+of an asset diverges persistently from fundamentals.120 In order to
+experience price bubbles, a financial asset needs to possess some
+kind of fundamental value from which to deviate.121 Bitcoin may
+have been in a bubble phase in late 2017.122 The collapse of the Mt.
+Gox exchange, the biggest Bitcoin exchange at the time, provides
+at least some evidence that there were indeed bubbles in the
+market.123 However, the Bitcoin market continually recovers.
+Price volatility of digital assets is a particular concern among
+investors. Both Bitcoin and Ethereum have seen large increases in
+returns, at times exceeding 100% day-to-day.124 Between mid July
+2010 and December 2017, Bitcoin's price increased from $0.09 to
+114 Id.
+115 Id.
+116 Cheung, et al., supra note 25.
+117 Cheung, et al., supra note 25 at 1.
+118 see, e.g. de la Horra, supra note 13 says no price bubbles; Cheung, supra, note
+25.
+119 Elie Bouri, et al, Co-explosivity in the cryptocurrency market, FINANCE
+RESEARCH LETTERS 29 (2019) at 178.
+120 de la Horra, et al., supra note 13 at 24.
+121 Id.
+122 Shaen Corbet, et al., Cryptocurrencies as a financial asset: A systematic
+analysis, 62 INTERNATIONAL REVIEW OF FINANCIAL ANALYSIS 182, 183 (2019).
+123 Cheung, et al., supra note 25.
+124 Charfeddine, et al., supra note 13 at 199.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+over $19,000.125 Bitcoin's price increased by 122% in 2016 and
+1360% in 2017.126 Between mid December 2017 and October 1st
+2018, Bitcoin’s price decreased by 65%127 and fell to nearly
+$6,500.128 Since Ethereum’s first trading day on August 7th 2015
+until October 1st 2018, its price increased from $1.33 to $228.96
+USD.129 Ethereum’s price increased significantly between 2015 and
+2018 and decreased between January to October 2018.130
+The interconnectedness of digital assets exacerbates price volatility.
+Major events in one cryptocurrency can cause unexpected
+fluctuations in others.131 For example, major events in Ethereum
+have caused surges in Litecoin and other cryptocurrencies.132
+Ethereum, Ripple, Litecoin, and Nem surged several thousand
+percent in price in 2017.133
+Price explosivity represents an asset exponential price growth.134
+Market participants can exploit evidence of co-explosivity in the
+cryptocurrency market by switching from one digital asset to
+another.135 Bitcoin price explosivity is the least dependent on the
+price explosivity of other cryptocurrencies.136
+Media can impact price and increase digital asset volatility. Around
+October 2011, the dependence between Bitcoin and the S&P 500
+decreased slightly, parallel to Greece and the tripartite committee
+formed by the European commission European Central Bank and
+international monetary fund discussion of the Eurozone debt
+crisis.137 During the March 2013 Cyprus debt crisis, the dependence
+125 Id. at 202.
+126 Bouri, et al supra note 119 at 178.
+127 Charfeddine, et al., supra note 13 at 202.
+128 Id. at 199.
+129 Id.
+130 Id. at 202 c table 1 and figure 1.
+131 Besarabov, supra note 13 at 2.
+132 Id.
+133 Bouri, et al supra note 119 at 178.
+134 Id. at 179.
+135 Bouri, et al supra note 119at 182.
+136 Id. at 181.
+137 Charfeddine, supra note 13 at 209.
+30
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+between the S&P and Bitcoin rose.138 A steady stream of good news
+between October 27, 2015 and November 7, 2015 led to a price
+jump of more than 70% in Bitcoin.139 The media reporting of a
+“widespread hoax” about the founder of Ethereum led to a
+temporary plummet and loss of $4 billion from Ethereum’s market
+capitalization.140 Media reporting of cyber security incidents in
+digital asset exchanges routinely affect BTC and ETH prices.
+2. Funding Source Volatility
+Figure [__] illustrates the changing nature of funding sources for
+digital asset startups. Figure [__] shows an overall trend towards
+ICO funding that was over time eroded and seemed to favor venture
+funding in the blockchain industry. Figure [__] shows that from
+March 2017 to June 2018, ICOs were the overwhelmingly dominant
+fundraising tool for the blockchain industry. Yet, Figure [__] also
+shows that in October 2018 and a few months thereafter, venture
+investments in the blockchain industry were more than competitive
+with ICO investments and reversed a prior trend of ICO dominance
+in blockchain investments.141
+138 Id.
+139 Bouri, et al supra note 119 at 180.
+140 Besarabov, supra note 13 at 2.
+141 Several examples of blockchain startups that used both token fundraising and
+equity fundraising illustrate the overall market shift from ICOs to venture
+investment up until March 2019, as demonstrated in Figure [__]. Examples of
+blockchain startups that have issued both equity and tokens include Ampleforth,
+Enigma, Filecoin, Omise, Unikrn, Alchemy, and Audius, among several others.
+These examples demonstrate the market shift from ICOs to venture investment.
+The shift is a natural evolution of the market for digital assets after the ICO
+market deteriorated.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+Figure [_]: Combined ICO v. Venture v. IEO in Amount Raised; Sources:
+Coindesk (Jan 2016 – Dec 2016) - https://www.coindesk.com/ico-tracker
+icorating.com (Jan 2017 – Mar 2019) - https://icorating.com/statistics/market/
+In the aftermath of the shift from ICO funding to venture funding of
+digital asset startups, initial exchange offers became a new venue
+for funding for a short time frame, e.g. from March to July 2019, as
+illustrated by Figure [__]. The data examined for Figure [_], while
+incomplete, suggests that the attractive features of ICOs have the
+potential to continue to drive some issuers and investors to engage
+in that market, even though perhaps in less traditional jurisdictions
+until the main jurisdictions clarify the regulatory framework as it
+pertains to ICOs.
+Several factors help explain the volatile nature and changing
+funding preferences in the market for digital asset startups. Such
+factors include but are not limited to the lacking market maturity,
+challenges for early stage investments, ICO lockups in 2018 and
+2019, the high fee structure of ICOs, as well as the ongoing
+regulatory uncertainty, among several others that are beyond the
+scope of this article.
+3. Challenges for Early Stage Investors
+32
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+The market for digital assets creates challenges for early stage
+investors. Venture capital funds and other early stage investors that
+wish to participate in the market for digital assets struggle gaining
+access to industry expertise in digital assets. It is difficult to
+distinguish core expertise in digital assets. Since its inception, the
+digital asset industry has evolved in silos of information and
+expertise, making it more difficult for early stage investors to gain
+access to a broad spectrum of engineering and technology insights.
+Early stage investing in digital assets is a relationships business. It
+is key for early stage investors in digital assets to be part of a core
+network of early stage experts in the industry. After an initial
+investment in a digital asset startup, novice early stage investors in
+digital assets can increase their learning curve very quickly and start
+developing industry expertise and a core network in the industry.
+The early stage investment helps investors develop skills that help
+avoid investments in digital asset companies with questionable
+management teams or fraudulent technology, among other issues to
+be avoided. Without access to a network of core expertise early stage
+investments in the digital asset industry are rarely successful.
+Without access to experienced decentralized system architects,
+legacy investors and venture capitalists struggle navigating the
+market for digital assets. During the early days of the digital asset
+evolution a very limited amount of people had relevant experience
+with the technical and market aspects of digital assets. Very few
+were able to build cryptocurrencies that attempted to solve incentive
+issues and create tokens that were compatible with the incentives
+design in order to enable participants in the network to act non-
+opportunistically and align their utility and economic incentives in
+systems with anonymous actors. The anonymity in decentralized
+networks requires a special skillset for system architects who know
+how to navigate the limitations in system design that is associated
+with anonymity. Only very few architects have figured out how to
+create system solutions in ways that overcome the challenges of
+anonymous and autonomous systems. That skillset is still very rare
+in the early 2020s.
+Legacy investors and venture capitalists often do not have sufficient
+operating experience in digital assets. In addition to incentive
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+compatible system design of decentralized autonomous and
+anonymous networks, venture capitalists and crypto hedge funds
+require key expertise in helping their portfolio on the operating side.
+A key skill that contributes to portfolio companies’ success is the
+ability to hire engineers and run technical teams. The most
+successful digital asset investors are able to use their network to help
+their portfolio companies successfully hire technical talent.
+Venture companies that do not have a strong background in
+community building can be disadvantaged in the digital asset
+market. In the digital asset space generally, and more specifically in
+the context of ICOs and token design, it is essential to have some
+expertise in open source software and the associated community
+building. Incentive designs for open source software contributions
+can also play a large role.
+Technical decentralized designs take a long time to reach maturity.
+Because of the community building aspect and the built-in
+experimentation with design features, decentralized network design
+can take much longer than other technical network designs. The
+cryptocurrency market in the early 2020s is still afflicted with
+questionable designs, as well as legal and ethical issues. Many top
+projects in 2020 are still afflicted by technical issues that have not
+been ironed out. Because the market has been so hype driven,
+technical experience has not added significantly to overall market
+development and maturity. Several indicia suggest that this can
+change over time.
+4. Regulatory Uncertainty
+In the early 2020s, the digital asset space is still plagued by many
+issues that undermine its evolution. Such issues range from blatant
+fraud, unreliable data, poor liquidity, to hacking attacks, among
+many others. Many digital assets are traded on trading platforms
+with inadequate infrastructure to support proper asset valuation,
+trading, settlement, and custody. The regulatory uncertainty for
+investors in digital assets is substantial because regulators have not
+provided sufficient guidance at the beginning of the 2020s. These
+combined factors undermine the evolution of the digital asset
+market.
+34
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Bitcoin has been controversially accused of being used in illegal
+business activities, which exacerbates regulatory resistance.142 The
+issue of anonymity, which can contribute to issues such as money
+laundering and general misappropriation of funds, has deterred
+major banking corporations from conducting business with crypto
+traders, undermining the reputation of these new financial
+products.143
+Regulatory underdevelopment and the associated regulatory
+uncertainty have significantly affected the ICO market in 2018 and
+2019 and continue to afflict the market for digital assets. Regulators
+have been evaluating possible risk factors associated with ICOs
+since the inception of the ICO market. For example, the People’s
+Republic of China has taken a firm stance against ICOs, banning
+them entirely.144 This ban also applies to the offering of coins and
+the exchanges used to trade coins.145 The official Chinese stance is
+that ICOs hurt the market because of potential deception and
+fraud.146 The PRC recognizes that such problems have been
+widespread nationally. Industry experts expect that the ban on ICOs
+in China will be lifted in 2018.
+In the context of ICOs, regulators have been evaluating possible risk
+factors associated with ICOs since the inception of the ICO market.
+Regulators are particularly motivated by several ICO risk factors
+for retail investors. Unlike shareholders in the traditional corporate
+infrastructure who are able vote for or against directors or to
+nominate directors, ICO investors have no control over the
+promoters whatsoever. Token holders typically invest in the future
+promise of an idea or future infrastructure product associated with
+the platform they invest in without having access to a tangible
+underlying product. Capped ICO raises evolved in an attempt by the
+142 Cheung, et al., supra note 25 at 1.
+143 Corbet, et al., supra note 122 at 187-88.
+144CHINA BANKING REG. COMM’N, 关于防范代币发行融资风险的公告
+[NOTICE ON PREVENTING THE FINANCING RISK OF THE ISSUING OF TOKENS],
+(Sept. 4, 2017), http://www.cbrc.gov.cn/Chinese/home/doc
+View/BE5842392CFF4BD98B0F3DC9C2A4C540.html.
+145 Id.
+146 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+crypto community to address the uncertainty for investors about the
+valuation of the underlying platform in cases of uncapped raises.
+However, capped ICO raises create significant incentives for
+investors to attempt to get in first, raising the likelihood of retail
+investor frenzy. Moreover, the lack of mandatory disclosures for
+ICOs leads many promoters to make irregular or no disclosures
+about the platform as time passes, leading to a significant lack of
+transparency in the ICO market. Promoters can also alter the smart
+contract to change ICO sales rules mid-course during an ICO.
+Regulatory efforts can take several forms but appear to involve
+some of the following approaches or permutations thereof:
+regulating ICOs, regulating cryptocurrencies, regulating DLT,
+mandating compliance programs, regulating exchanges, securities
+regulation, prohibition of exposed financial institutions, and
+government guidance discouraging consumer participation. In
+attempts to address these risk factors to protect the investing public,
+most regulators around the world attempt to use existing laws to
+regulate cryptocurrencies, or wait to see how other countries react
+to the crypto evolution.
+Several initiatives attempt to address the existing regulatory
+shortcomings in the market for digital assets. Both established
+industry players such as Fidelity, State Street, ICE (Bakkt), CME,
+as well as new entrants to the space such as Chicago’s ERIS-X,
+Seed-C, and OFN have sought to mitigate the challenges faced by
+digital assets. The overall effect, while mostly positive, is still ad-
+hoc and haphazard, and does not address the broader, deeper
+problems inherent in the system such as AML/KYC, money
+transfer, money-laundering.
+In the early 2020s, the regulatory framework for digital assets is
+severely lacking and outdated. The US Securities and Exchange
+Commission (SEC) and the US Commodities and Futures Trading
+Commission (CFTC) govern different parts of the spectrum, and
+have not been clear in defining how existing regulations can be
+interpreted for use in the digital assets space. The best feedback
+from them is often determined from cases they have brought against
+industry participants. Other regulators such as FINCEN and New
+York State Department of Financial Services (NYSDFS)
+BitLicense, are focused on more distinct aspects of the ecosystem.
+36
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+The regulatory uncertainty in the market for digital assets is
+curtailing the growth of the industry. Many investor classes - from
+retail to the largest institutions - are hesitant to participate in the
+market because of the regulatory uncertainty. In the case of retail
+investors, the market is too volatile and operationally insecure to
+justify investments. While larger institutional players face the same
+issues, they are also limited by their fiduciary responsibility to their
+clients, which limits the type of risk they can be exposed to.
+Compounding these challenges is the lack of stable custody
+solution(s) that are recognized by the regulators.
+In the early 2020s over twenty bills in Congress attempt to address
+various aspects of crypto/digital assets/blockchain awaiting
+deliberation before the US Congress. While some are directly
+related to financial services, they are broad in scope and do not
+always address the key areas that we might be concerned about as a
+trading community. These bills cover a variety of subjects including
+the use of crypto to avoid US Sanctions, for human trafficking and
+terrorist use, how to best use blockchain for analysis and tracking
+of all sorts of regulatory violations, and lastly, how to manage the
+new digital assets within the existing legal and regulatory
+framework.
+In the Futures and Options markets, established exchanges (and
+some new ones) abide by the existing regulations and are closely
+surveilled by the CFTC to ensure broad compliance. Unfortunately,
+this sector is an anomaly. Other sectors that involve Initial Coin
+Offerings (ICOs) and Crypto Tokens of all kinds (e.g., valid
+Security Tokens), have gray areas, or in many cases are being
+squeezed into antiquated legal and regulatory frameworks. Some of
+the regulations which are being applied are over eighty years old or
+are not tailored to the needs of innovative, electronic, and digital
+assets.
+5. Cyber Security
+Since its inception, cyber security incidents have afflicted the digital
+asset community. In 2014, the biggest cryptocurrency exchange,
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+Mt. Gox, went bankrupt147 when $400 million dollars of NEM
+customer deposits was reported to have been stolen from the
+exchange. In December 2017, hackers stole approximately $70
+million worth of Bitcoin from a digital currency trading platform
+based in Slovenia.148 In January 2018, $530 million dollars were
+hacked from CoinCheck.149 Some indicia suggest that cyber
+security incidents contribute to the volatility of the digital asset
+market as consumers withdraw instantaneously their assets from an
+exchange that has been affected by a cyber security incident, among
+other reasons for this relationship.
+6. Crypto Economics
+The evolving field of crypto-economics has a foundational impact
+on the design of evolving digital assets. Crypto-economics and
+token design require often tough decisions that have long-term
+effects on projects. In the interest of longevity and business impact,
+token design and crypto-economics need to be understood as an
+iterative process. Design features of a token go hand-in-hand with
+the underlying technology choices and decentralized infrastructure
+choices. The combination of design features and underlying
+technology, in turn, are affected by the macro and micro economic
+choices that affect the respective token ecosystem. Ultimately, the
+crypto-economic design has to allow for data collection and
+experimentation which enables optimal design choices as
+information asymmetries are minimized. Because it is an iterative
+process, design choices unfold as shortcomings in initial design
+materialize through network growth. It is important to get the basic
+design parameters of a token design right in order to be able to build
+on top and make appropriate choices as the ecosystem evolves. Data
+collection and flexibility in core design parameters are essential
+because prior crypto-economic assumptions often materialize as
+suboptimal in the light of network growth and changing user and
+consumer preferences. The creation of new network organs and
+DAOs that fulfill emerging new requirements is often inevitable to
+147 Charfeddine, supra note 13 at 202.
+148 Corbet, et al., supra note 122 at 188.
+149 Id.
+38
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+adapt to network changes that are generated by network growth,
+including growth in new and emerging markets.
+Experimentation is an integral part of crypto-economics which
+drives the evolution of digital assets. Emerging decentralized
+economic incentive designs allow unprecedented economic
+experimentation. As blockchain-based emerging technologies
+mature and evolve, incentive designs in decentralized systems
+provide unparalleled opportunities for experimentation with
+economic models, stability mechanisms, and policy tools. That
+experimentation, in turn, enables a heightened community
+understanding of what systems can be operational and are worth
+developing further and building on top of. The economic
+experimentation in crypto-economics and associated decentralized
+architectures may enable the creation of new tokenized economic
+ecosystems and entirely new economies. Each of these new
+economies has a computational infrastructure that is created with
+the design of a currency and can have unique monetary and fiscal
+policies and regulations that, in turn, drive innovation in system
+design and in digital assets at large.
+7. Coins of Two Realms
+The market in digital assets evolves through the evolution of digital
+coins of two realms. The two core realms for the coin evolution are
+the public and the private realm. While attempts to create a public
+realm of coins would not exist without the evolution of the private
+realm of coins and the ongoing experimentation in private coins and
+the associated innovation and growth, it is possible that the public
+realm of the coin evolution could attempt to impact or even pre-
+empt the private coin development and use. For example, some
+central banks may attempt to censor the use of non-centrally-issued
+digital currencies.150
+150 Sina Motamedi, Will Bitcoins Ever Become Money? A Path to Decentralized
+Central Banking, TANNU TUVA INITIATIVE (Jul. 21, 2014).
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+a) Private Realm
+In the private realm, coins are developed through private and not
+public initiatives. Since the invention of the Bitcoin protocol in
+2009, the development of the cryptocurrency market is largely
+driven by private initiatives and experimentation with coin design
+and crypto-economics. Token models and their design and incentive
+optimization within their design are constantly evolving and enable
+experimentation and innovation for cryptocurrency designs and
+decentralized infrastructure products.
+Privately designed and issued cryptocurrencies enable the essential
+experimentation with design features and architecture. Because the
+economic experimentation inherent in crypto-economics
+continuously generates new token models and incentive designs for
+tokens in an effort to determine which systems, architecture, and
+designs can survive, experimentation and innovation is built into the
+evolution of decentralized systems and digital assets.
+In the evolution of digital assets and cryptocurrencies, cutting edge
+innovation and associate decentralized infrastructure was mostly
+generated by private initiatives. The development of the Bitcoin
+protocol, for instance, was only possible through the volunteer
+efforts of the open source community and the altruistic devotion of
+the core Bitcoin developers who believed in the mission and vision
+of decentralized assets. By contrast, other major initiatives, such as
+Ethereum, among others, were initiated by volunteer efforts in the
+open source community but funded through ICOs and venture
+capital.
+Innovation in cryptocurrency designs is not only materializing in
+startups but also in existing legacy businesses. Banks and other
+legacy businesses that may fear possible disruption of their business
+model started to experiment with decentralized cryptocurrency
+designs. Many cryptocurrency exchanges are creating their own
+stable cryptocurrencies.151 J.P. Morgan was one of the first
+151 Jeff J. Roberts, Cryptocurrency Exchanges Back $32 Million Stable Coin
+Project, FORTUNE (Aug. 29, 2018),
+40
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+established banks to introduce a stable cryptocurrency backed one-
+to-one by JPM’s fiat currency reserves.152 Perhaps most
+notoriously, Facebook is developing a stable cryptocurrency in an
+attempt to break into the financial services business.153
+b) Public Realm
+The public realm of the coin evolution is largely defined by
+emerging central bank digital currencies (“CBDCs”). CBDC are in
+the public realm in the sense that that they are subject to central
+bank control. Factors that render CBDC subject to central bank
+control include central banks’ oversight of payment systems,
+monetary policy, and central banks’ supervisory responsibilities for
+financial risks to issuers of electronic money.154 Most importantly,
+central banks own the seigniorage, that is, the difference between
+the value of the CBDC it creates and the cost to produce and
+distribute it. Because of automation, among many other factors, the
+cost of production of CBDC is a fraction of the fiat money
+production cost, making the seigniorage of CBDC that much more
+significant. While central banks have been debating CBDC since
+http://fortune.com/2018/08/29/cryptocurrency-exchanges-back-32-million-
+stable-coin-project [https://perma.cc/539Z-7WFQ]; Julie Verhage, Crypto
+Exchange Coinbase to List Stable Coin Backed by Circle, BLOOMBERG (Oct.
+23, 2018),
+https://www.bloomberg.com/news/articles/2018-10-23/crypto-exchange-
+coinbase-to-list-stable-coin-backed-by-circle.
+152 Michelle Davis & Alastair Marsh, JPMorgan to Use Digital Coin to Speed
+Up Corporate Payments, BLOOMBERG (Feb. 14, 2019),
+https://www.bloomberg.com/news/articles/2019-02-14/jpmorgan-to-use-
+cryptocurrency-for-payments-business-cnbc-says [https://perma.cc/6ACY-
+DLZH].
+153 Sarah Frier & Julie Verhage, Facebook is Developing a Cryptocurrency for
+WhatsApp Transfers, Sources Say, BLOOMBERG (Dec. 20, 2018, 6:35 PM),
+https://www.bloomberg.com/news/articles/2018-12-21/facebook-is-said-to-
+develop-stablecoin-for-whatsapp-transfers [https://perma.cc/JG6T-UKBH];
+Nathanial Popper & Mike Isaac, Facebook and Telegram Are Hoping to
+Succeed Where Bitcoin Failed, N.Y. TIMES (Feb. 28,
+2019), https://www.nytimes.com/2019/02/28/technology/cryptocurrency-
+facebook-telegram.html [https://perma.cc/3KH3-TGHX].
+154 Sean Craig, et al, Implications for central banks of the development of
+electronic money, BANK FOR INTERNATIONAL SETTLEMENTS (Oct. 1996) at 4
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+2016, more concrete proposals and concerted efforts for
+development of CBDC began in 2019.
+CBDC can be rather broadly defined. CBDC can be defined as any
+electronic fiat liability of a central bank that can be used to settle
+payments, or as a store of value.155 CBDC can also be defined as an
+electric form of central bank money that can be exchanged in a
+decentralized manner enabling transactions to be processed without
+the need for a central server, directly between the pair and a payee
+without the need for a central intermediary.156 A CBDC would be
+legal tender under the law, including a requirement to pay taxes with
+them.157 The central bank would have exclusive authority to create
+and destroy ledger entries.158 CBDC could act as a highly effective
+form of money and promote true price stability, as the real value of
+CBDC could be easily held stable over time.159 Universally
+accessible, interest-bearing, account-based CBDC could be used for
+monetary policy purposes in much the same way that central bank
+reserves are still used in the early 2020s.160
+Several historical factors help explain the increasing engagement of
+central banks with CBDC. At the end of 1995, the central banks of
+the G10 countries began studying the development of electronic
+money and the various policy issues it raises.161 The BIS surmised
+that e-money could conceivably gain ground In the European Union
+between the proposed start of monetary Union in 1999 and when
+notes and coin denominated in Euros were likely to become
+155 Jack Meaning, et al., Broadening Narrow Money: Monetary Policy With a
+Central Bank Digital Currency, BANK OF ENGLAND STAFF WORKING PAPER NO.
+724 (May 2018) at 1, http://zentral-
+bank.eu/pub/conferences/shared/pdf/20171106_ECB_Workshop_Money_marke
+ts/08_Broadening_narrow_money.pdf.
+156 Morten Bech and Rodney Garratt, Central bank cryptocurrencies, BIS
+Quarterly Review (Sep. 2017) at 55.
+157 Motamedi, supra note 150.
+158 JP Koning, Fedcoin, MONEYNESS BLOG (Oct. 19, 2014),
+http://jpkoning.blogspot.com/2014/10/fedcoin.html.
+159 Meaning, et al., supra note 155 at 2 (citing Michael Bordo and Andrew Levin,
+Central bank digital currency and the future of monetary policy, NATIONAL
+BUREAU OF ECONOMIC RESEARCH WORKING PAPER 23711 (Aug. 2017)).
+160 Meaning, et al., supra note 155 at 2.
+161 Craig, et al, supra note 154.
+42
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+available in 2002. During that transition, e-money and denominated
+in national currencies in Euros could be used interchangeably.162 In
+2017, several central banks announced that they were exploring or
+experimenting with distributed ledger technology and the prospect
+of central bank crypto or digital currencies.163 By contrast, Denmark
+announced that CBDC would not improve upon their existing
+payment solutions.164
+Progress toward CBDCs accelerated in 2020. Central banks
+increasingly recognized the limitations of cash in the banking
+systems. In 2020, almost 90% of US dollars are not physically
+held.165 World-wide, only 8% of currency exists as physical cash.166
+Moreover, because central banks’ reserve balances only exist in
+electronic form and are liabilities of the central bank, this renders
+them, in a sense, a digital asset already issued by a central bank
+which can be easily combined with a CBDC.167 In January 2020,
+the World Economic Forum released a CBDC policy-maker
+toolkit.168 The central banks of Canada, England, Japan,
+Switzerland, and Sweden joined the European Central Bank, in
+forming a think-tank to create a central bank digital currency.169 A
+Deutsche Bank analyst estimated a group of central banks
+representing one fifth of the world’s inhabitants would issue central
+162 Craig, et al., supra note 154 at 3 n. 5.
+163 Bech and Garratt, supra note 156 at 55.
+164 Kirsten Gürtler, et al., Central Bank Digital Currency in Denmark?,
+DANMARKS NATIONALBANK (Dec. 15, 2017); see also Ole Bjerg, Designing
+New Money – The Policy Trilemma of Central Bank Digital Currency, CBS
+WORKING PAPER (Jun. 2017).
+165 David Black, Who Needs Cyptocurrency FedCoin When We Already Have a
+National digital currency?, FORBES.COM (Mar. 1, 2020).
+166 Id.
+167 See e.g. Committee on Payments and Infrastructures, Digital currencies,
+BANK FOR INTERNATIONAL SETTLEMENTS (Nov. 2015) at 17., Black,
+supra note 165.
+168 Central Bank Digital Currency Policy-Maker Toolkit, WORLD ECONOMIC
+FORUM (Jan. 22, 2020), https://www.weforum.org/whitepapers/central-bank-
+digital-currency-policy-maker-toolkit.
+169 Osato Avan-Nomayo, Major Central Banks Form CBDC Think Tank,
+BITCOINIST (Jan. 21, 2020), https://bitcoinist.com/major-central-banks-form-
+cbdc-think-tank/.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+bank digital currency (“CBDC”) in the next three years.170 The
+Reserve Bank of Australia reported started exploring an Ethereum-
+based interbank settlement system using a central bank-issued
+digital token.171 The central bank of the Netherlands also started
+developing a CBDC.172
+CBDC and fiat currency have several common denominators and
+are susceptible to similar problems.173 Both are means of payment,
+forms a unit of account, and a store of value.174 Currency use,
+whether centrally-issued fiat cash or privately issued digital
+currency, is based on trust. Users of a given currency need to have
+faith in its value and in its issuer.175 Both have value because the
+issuing bank guarantees the holder that they will always be able to
+redeem it.176 Hyperinflation undermines trust in either currency
+retaining its value over time.177 A bank run generates a demand for
+redemption that exceeds supply, the threat of which also
+undermines trust.178 Losses caused by security breaches are borne
+by issuers or system operators.179
+CBDC mitigate several risks in the technology-based shifting of
+economies. As economies become increasingly technology-
+170 Mike Dolan, Pandemic Shock May Hasten Central Bank Digital Cash,
+REUTERS (Apr. 9, 2020), https://www.reuters.com/article/global-markets-
+column/rpt-column-pandemic-shock-may-hasten-central-bank-digital-cash-
+mike-dolan-idUSL5N2BX7AC.
+171 Submission to the Senate Select Committee on Financial Technology and
+Regulatory Technology, RESERVE BANK OF AUSTRALIA (Dec. 2019).
+172 Mathew Di Salvo, Dutch Central Bank Wants ‘Leading Role’ in Digital
+Currency Development, DECRYPT (Apr. 21, 2020),
+https://decrypt.co/26260/dutch-central-bank-leading-role-digital-currency-
+development; Andy Pickering, Netherlands Central Bank Supports a Digital
+Euro, BRAVENEWCOIN (Apr. 23, 2020),
+https://bravenewcoin.com/insights/netherlands-central-bank-supports-a-digital-
+euro.
+173 Motamedi, supra note 150.
+174 Cecilia Skingsley, Should the Riksbank Issue E-Krona? SVERIGES RIKSBANK
+(Nov. 16, 2016) at 2.
+175 Motamedi, supra note 150.
+176 Skingley, supra note 174 at 3.
+177 Id. at 2.
+178 Motamedi, supra note 150.
+179 Craig, et al., supra note 154 at 4.
+44
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+focused, consumers become more reliant on mobile-payment
+systems.180 Because of this transition process, less cash is in
+circulation.181 In the case of a crisis or system failure, market
+participants may attempt to fall back onto cash as a form of financial
+security. A CBDC would be another way for market participants to
+shift their holdings into official digital money in central-bank-
+authorized mobile wallets, similar to cash but without the
+conversion problems associated with digital assets to fiat
+conversion.182
+CBDC can take two essential forms. CBDC can be for retail use and
+for institutional or wholesale use.183 CBDC for retail customers are
+a consumer-facing payment instrument for relatively low-value
+transactions, in the form of checks, credit transfers, and direct debits
+and card payments.184 Retail CBDC provide consumers with,
+presumably, low cost access to an account with the central bank.
+The peer-to-peer element of CBDC provides retail consumers with
+the anonymity features similar to that offered with cash but in digital
+form.185 By contrast, wholesale CBDC payments are large-value
+and high-priority transactions, such as interbank transfers with
+restricted-access using digital settlement CBDC for wholesale
+payment applications. 186 Interbank settlements typically take place
+on the books of the central bank.187 Transactions and wholesale
+payments that occur in wholesale systems are visible to the central
+operator.188 According to the BIS, the case for wholesale CBDC
+depends on their ability to improve efficiency and reduce settlement
+costs.189
+180 China Aims to Launch the World’s First Official Digital Currency, THE
+ECONOMIST (Apr. 23, 2020).
+181 ECONOMIST, supra note 180.
+182 Id.
+183 Bech and Garratt, supra note 156 at 56. See also WORLD ECONOMIC FORUM
+supra note 168 at 6.
+184 Bech and Garratt, supra note 156 at 56 n. 4.
+185 The anonymity feature of CBDC is of course largely debated and depends on
+the instantiation through the central bank. A risk exists that the central bank may
+be able to remove anonymity to supervise CBDC payment flows.
+186 Bech and Garratt, supra note 156.
+187 Craig, et al., supra note 154 at 7 n. 10.
+188 Bech and Garratt, supra note 156 at 56.
+189 Bech and Garratt, supra note 156 at 56-57.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+As a stable cryptocurrency, CBDC have several competitive
+advantages because of their centralized design. A CBDC could
+function as a central bank for cryptocurrencies, which would
+arguably mitigate cryptocurrencies volatility, lack of policy
+coordination, and vulnerability to bank runs.190 Some startups
+provide services to allow customers to easily transact in regular
+cryptocurrencies instead of building their own protocols. Currently,
+most of these bitcoin transaction facilitator banks operate with
+100% reserve ratios because they record users’ ownership of
+cryptocurrencies on the official blockchain.191 Implementing a
+CBDC could arguably provide the public with an innovative and
+cheap payments option that would be more stable than a privately-
+issued cryptocurrency.192
+Central banks’ policy making is enhanced with CBDC. Universally
+accessible, interest-bearing, account-based CBDC could be used for
+monetary policy purposes in much the same way as central bank
+reserves.193 Central bank could adjust the CBDC-fiat exchange rate
+in order to conduct monetary policy.194 Central banks are
+particularly interested in the effect of monetary policy of electronic
+money on the demand for the money aggregate and the formulation
+of money to policy.195
+Central banks’ CBDC-based policy making increases the
+requirements for the underlying network protocol. For example, if
+a central bank forks the Bitcoin protocol in order to have a workable
+technology platform for CBCD, the central bank could retain
+discretion to set and adjust the block mining reward. In theory,
+increasing the block reward corresponds can be seen as loosening
+monetary policy, and vice-versa, similar to the way central banks
+use fiat interest rates. If the central bank chose to replace cash with
+CBDC, it could then charge a negative interest rate on deposits to
+190 Motamedi, supra note 150.
+191 Id.
+192 JP Koning, supra note 158.
+193 Meaning, et al., supra note 155 at 2.
+194 Motamedi, supra note 150.
+195 Craig, et al., supra note 154 at 6-7.
+46
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+bypass the zero lower bound.196 If the exchange rate were fixed at
+1-1, there would no longer exist a distinction between the two. If a
+CBDC were remunerated at the same rate as central bank reserves,
+they would be interchangeable.197 Moreover, in order to be able to
+conduct monetary policy with CBDC, the underlying network
+protocol would have to enable the central bank to adjust the money
+supply at will. The protocol would need to allow the central bank to
+be lender of last resort, that is, to have access to an unlimited supply
+of the CBDC.198 Unlike capped supply token issuances by private
+parties, central banks can create an unlimited supply of CBDC for
+themselves by announcing a future transaction block with a
+corresponding one-time reward amount. To make this work in the
+respective technology platform, central banks can in theory solve
+the block themselves (or use a system that does not even require
+that) and announce the updated official blockchain to the network,
+and claim the reward themselves. Adjusting the block reward is a
+more natural way to conduct monetary policy because it affects
+every transaction in the economy.199
+CBDC can play a major role in optimizing settlement. Settlement is
+a common agreement that a transaction has taken place.200
+Traditional central bank settlement systems can take up to three
+business days to settle a single transaction.201 These timing
+requirements for existing settlement create regulatory and system
+risk issues, especially counterparty risk, among many others.
+Central bank money is the ultimate settlement asset because banks
+use central bank reserves as the medium of exchange when settling
+196 Marilyne Tolle, Central Bank Digital Currency: The End of Monetary Policy
+As We Know It?, BANKUNDERGROUND (Jul. 25, 2016) (citing Miles Kimball,
+How and Why to Eliminate the Zero Lower Bound: A Reader’s Guide,
+CONFESSIONS OF A SUPPLY-SIDE LIBERAL (Sep. 30, 2013)).
+197 Id.
+198 Motamedi, supra note 150.
+199 Id.
+200 Committee on Payments and Infrastructures, Digital currencies, supra note
+167 at 17.
+201 Alexander Kroeger and Asani Sarkar, Is Bitcoin Really Frictionless?,
+FEDERAL RESERVE BANK OF NEW YORK: LIBERTY STREET ECON. (Mar. 23,
+2016), https://libertystreeteconomics.newyorkfed.org/2016/03/is-bitcoin-really-
+frictionless.html.
+.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+residual amounts and netting out transfers between parties who
+bank at different banking institutions.202 Unlike traditional
+electronic money, which requires a central entity that operates a
+ledger to which everyone in the system connects, CBDC can
+employ digital ledger technology, which can function well without
+a central body.203 CBDC-based settlement may no longer require a
+central ledger held by a central body if banks could agree on
+changes to a common ledger in a way that does not require a central
+record keeper and allow each bank to hold a copy of the distributed
+common ledger.204
+Given the substantial benefits offered by CBDC, the People’s Bank
+of China (“PBOC”) was among the first major central banks to
+study a sovereign digital currency.205 China has been moving away
+from cash for the last decade and has over 890 million mobile
+payment users206 who cumulatively made over $20 trillion worth of
+payments in 2019 alone.207 Using traditionally issued banknotes, the
+promotion of the yuan’s use internationally and in cross-border
+payments was stalling in 2016 which became a primary motivation
+in creating a nationally owned CBDC in China. The PBOC first
+established a research institute to study this issue in 2016.208
+Moreover, China perceived privately-issued cryptocurrencies as a
+202 Tolle, supra note 196.
+203 Committee on Payments and Infrastructures, Digital currencies, supra note
+167 at 17.
+204 Id.
+205 Zhou Xin, China’s Sovereign Digital Currency ‘Progressing Well’, Central
+Bank Says, But Still No Launch Date, SOUTH CHINA MORNING POST (Jan. 5,
+2020), https://www.scmp.com/economy/china-
+economy/article/3044727/chinas-sovereign-currency-progressing-well-central-
+bank-says.
+206 Zen Soo, People’s Daily Article Calls for Mobile Payments Companies to
+Tighten Consumer Protection Measures, SOUTH CHINA MORNING POST (Aug.
+10, 2018), https://www.scmp.com/tech/enterprises/article/2159104/peoples-
+daily-article-calls-mobile-payments-companies-tighten.
+207 China’s Digital Currency Goes into Play at McDonalds and Starbucks,
+CRYPTOSLATE (Apr. 24, 2020), https://cryptoslate.com/chinas-digital-currency-
+goes-into-play-at-mcdonalds-and-starbucks/.
+208 Frank Tang, China Has ‘No Timetable’ for Launch of Its Digital Currency,
+Says Central Bank Governor, SOUTH CHINA MORNING POST (Sep. 24, 2019),
+https://www.scmp.com/economy/global-economy/article/3030120/china-has-
+no-timetable-launch-its-digital-currency-says.
+48
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+threat to financial security and a challenge to their capital account
+controls.209
+China has been using a centrally controlled cryptocurrency known
+as Digital Currency Electronic Payment (DCEP) since 2020.210
+China’s four largest commercial banks began internal tests in April
+2020.211 In their testing program, the four commercial banks pass
+DCEP on to consumers, with the goal of replacing cash in all
+transactions.212 Pilot schemes for the digital currency are being
+conducted in four cities—Shenzen, Suzhou, Xiongan and
+Chengdu.213 The Xiangcheng district of Suzhou has put the
+currency to use in May 2020 by paying half its travel subsidies
+given to public sector workers in digital form.214 The PBOC
+released a list of nineteen local businesses that will test the digital
+currency in small transactions including hotels, convenience stores,
+a stuffed bun shop, a bakery, a bookstore, a gym, as well as
+American chains including Starbucks, McDonald’s, and Subway.215
+Citic Securities brokerage house has forecasted the formal launch
+for later in 2020.216
+In contrast to its DCEP, China’s CBDC would be a digital form of
+China’s centrally issued fiat currency. The China digital currency
+would be tightly controlled by the government rather than built on
+pure blockchain technology.217 The central bank could track all
+digital cash in circulation, and use coding to control how the money
+209 Xin, supra note 205.
+210 Frank Tang, China’s sovereign digital currency plan in doubt with concerns
+raised about wider application, SOUTH CHINA MORNING POST (Jan. 13, 2020),
+https://www.scmp.com/economy/china-economy/article/3045887/chinas-
+sovereign-digital-currency-plan-doubt-concerns-raised.
+211 ECONOMIST, supra note 180.
+212 Tang, supra note 210 (2020).
+213 Karen Yeung, China’s Digital Currency Takes Shape as Trials Begin With
+Travel Subsidies and Communist Party Fees, SOUTH CHINA MORNING POST
+(Apr. 19, 2020), https://www.scmp.com/economy/china-
+economy/article/3080594/travel-subsidies-party-fees-chinas-digital-currency-
+takes; Tang, supra note 210 (2020).
+214 Yeung, supra note 213.
+215 Tang, supra note 210 (2020).
+216 ECONOMIST, supra note 180; Yeung, supra note 213.
+217 Tang, supra note 208 (2019).
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+is used.218 PBOC planned to make the coins available through four
+state-owned banks as well as online payment platforms operated by
+China tech giants.219 The coin was intended for primary use in
+online retail transactions but the goal was to accelerate its use
+internationally and counter the aforementioned capital challenges
+posed by privately-issued cryptocurrencies such as Bitcoin.220 As
+such China’s CBDC/yuan is not intended for speculation and no
+backing will be required.221 The CBDC/yuan would have the same
+legitimacy as yuan banknotes and, in time, replace them to a large
+extent.222
+China’s engagement in CBDC has a competitive element to the US
+Dollar that impact the evolution of digital assets. In its competition
+with the US Dollar for the world’s reserve currency, China has
+maintained strict capital controls and bans domestic internet access
+to Google and Facebook.223 As such, the launch of Facebook’s
+Libra could threaten the use of the digital yuan internationally.224 In
+response to Facebook’s plan to launch its Libra digital currency in
+June 2019, the People’s Bank of China stepped up their plan to
+launch a sovereign digital currency.225 China had feared that
+Facebook’s Libra could extend the US dollar’s dominance in
+international payments. In Facebook’s Libra, the US dollar would
+constitute over 50% weight in the basket of currencies backing
+Libra’s value. American businesses account for a majority of the
+twenty-eight founding members of the consortium that will back the
+Libra cryptocurrency.226
+218 ECONOMIST, supra note 180.
+219 Tang, supra note 208 (2019).
+220 Id.
+221 Cissy Zhou, China’s new digital currency ‘isn’t bitcoin and is not for
+speculation’, SOUTH CHINA MORNING POST (Dec. 22, 2019),
+https://www.scmp.com/economy/china-economy/article/3043134/chinas-new-
+digital-currency-isnt-bitcoin-and-not-speculation (citing to SHANGHAI SEC.
+NEWS).
+222 Tang, supra note 208 (2019).
+223 Id.
+224 Id.
+225 Tang, supra note 210 (2020).
+226 Tang, supra note 208 (2019).
+50
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+The central banks of Canada, Sweden, France, and the United States
+are also exploring CBDC. For example, the Bank of Canada has
+been exploring the possibility of clearing and settling large-value
+payments using DLT prior to 2015.227 Canadian businesses have
+been exploring the possibility of clearing and settling large-value
+payments using DLT.228 Yet, in May 2017, the Bank of Canada
+found that blockchain was not mature enough to run a national
+interbank payment system.229 The year-long “Jasper” trial tested on
+Ethereum and Corda. While Ethereum would make the wholesale
+payment system more resilient but would be costly and raised
+privacy issues, Corda was able to address the cost and privacy
+concerns but made the system less resilient.230 The Bank of Canada
+is working to modernize the technology behind existing payment
+systems and are studying whether it might make sense to issue a
+digital version of Bank notes.231
+In Sweden, the Central Bank / Riksbank officially considered
+developing an e-krona in 2017 in response to their growing cashless
+system.232 In December 2019, the Riksbank expounded on two
+reports on their e-krona project published in September 2017 and
+October 2018.233 Riksbank focuses on safety and efficiency.234 E-
+227 Rod Garratt, CAD-coin versus Fedcoin, R3 REPORTS 1, 1 (Nov. 15, 2016),
+https://www.r3.com/wp-content/uploads/2017/06/cadcoin-versus-
+fedcoin_R3.pdf.
+228 Id. The pilot project was called CAD-coin, although the bank did not plan to
+use that name because it suggested a central bank digital currency, which the
+Bank of Canada was not promising in 2015.
+229 Solarina Ho, Canadian Trial Finds Blockchain Not Ready for Bank
+Settlements, REUTERS (May 25, 2017),
+https://ca.reuters.com/article/businessNews/idCAKBN18L26M-OCABS.
+230 Id.
+231 See generally, Jasper-Ubin Design Paper: Enabling cross-border high value
+transfer using distributed ledger technologies, ACCENTURE (2019),
+https://www.mas.gov.sg/-/media/Jasper-Ubin-Design-Paper.pdf; Stephen S.
+Poloz, Governor, Remarks for Bank of Canada, Empire Club of Canada, Big
+Issues Ahead: The Bank’s 2020 Vision (Dec. 12, 2019).
+232 Riksbankens e-krona: 14 March 17 Project Plan Phase 1, SVERIGES
+RIKSBANK (Mar. 2017),
+https://www.riksbank.se/globalassets/media/rapporter/e-
+krona/2017/projektplan-e-kronan_170314_eng.pdf.
+233 E-Krona, SVERIGES RIKSBANK (Dec. 13, 2019), https://www.riksbank.se/en-
+gb/payments--cash/e-krona/.
+234 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+krona would be released to the general public as a digital
+complement to cash.235 In February 2020, the Riksbank announced
+a pilot project in partnership with Accenture aimed at developing a
+proposal for a technical solution for an e-krona. 236 The pilot project
+is expected to run until the end of February 2021.237
+In France, the Governor of Banque de France announced its intent
+to begin testing a CBDC targeted at institutions with a timescale
+during the first quarter of 2020.238 France’s central bank is calling
+for applications to experiment with the use of a digital euro issued
+for interbank settlements.239 France’s central bank will conduct
+interviews with digital application submissions and will select
+candidates before the end of 2020.240
+In the United States, the Federal Reserve Bank of St. Louis, in 2015,
+endorsed the idea of transferring the large value payment system in
+the United States, fedwire funds, to a distributed ledger so that it
+would eliminate its dependence on centralized processors and
+increase its resiliency. This idea came to be known as Fedcoin, a
+proposal which emphasizes the product over the philosophy -
+235 Riksbank, supra note 233 (Dec. 13, 2019).
+236 Id.; The Riksbank to Test Technical Solution for the E-Krona, SVERIGES
+RIKSBANK (Feb. 20, 2020), https://www.riksbank.se/en-gb/press-and-
+published/notices-and-press-releases/notices/2020/the-riksbank-to-test-
+technical-solution-for-the-e-krona/; The Riksbank’s e-krona pilot, SVERIGES
+RIKSBANK (Feb. 2020), https://www.riksbank.se/globalassets/media/rapporter/e-
+krona/2019/the-riksbanks-e-krona-pilot.pdf.
+237 Mike Orcutt, Sweden is Now Testing Its Digital Version of Cash, the E-
+Krona, MIT TECH. REV. (Feb. 20, 2020),
+https://www.technologyreview.com/2020/02/20/906146/sweden-riksbank-
+ekrona-blockchain/.
+238 France Plans to Test Institutional CBDC in 2020, LEDGER INSIGHTS (Dec.
+2019), https://www.ledgerinsights.com/france-plans-test-institutional-cbdc-
+central-bank-digital-currency/ (citing Nessim Aït-Kacimi, Raphaël Bloch, La
+Banque de France va experimenter un euro digital en 2020, LES ECHOS (Dec. 4,
+2019)), https://www.lesechos.fr/finance-marches/marches-financiers/la-banque-
+de-france-va-experimenter-un-euro-digital-en-2020-pour-les-institutions-
+financieres-1153659#xtor=CS1-3046.
+239 Call for Applications – Central Bank Digital Currency Experimentations,
+BANQUE DE FRANCE (Apr. 24, 2020), https://www.banque-
+france.fr/en/financial-stability/market-infrastructure-and-payment-systems/call-
+applications-central-bank-digital-currency-experimentations.
+240 Id.
+52
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+creating a stable and dependable digital currency delivering
+Bitcoin’s practical advantages even though it does away with
+Bitcoin’s philosophy by involving a central bank.241 Fedcoin’s
+value would be tied to the US dollar at a one-to-one exchange
+rate.242 On September 30, 2019, Congressmen Hill and Foster wrote
+to Federal Reserve Bank Chairman Jerome Powell encouraging the
+Federal Reserve to take up the project of developing a USD digital
+currency.243 In March 2020, bills were proposed to the U.S. Senate
+and House proposing US CBDC. The senate bill244 was introduced
+by Sen. Sherrod Brown (D-Ohio).245 The House bill246 was
+introduced by Rep. Paul Gosar (R-AZ).247 Mentions of a digital
+dollar were even included in a coronavirus-related relief bill before
+the U.S. House, which have since been scrubbed.248
+Finally, while many opportunities are presented by CBCD, many
+open questions still need to be addressed to enable CBCD to evolve.
+For example, it is still largely unclear in 2020 what technology
+would be deployed in a CBDC system and the extent to which it
+could be decentralized, if at all.249 Similarly, it is still unclear what
+type of entities would exist in a CBDC system and how they should
+241 Garratt, supra note 227 at 4.
+242 Id.
+243 Letter from French Hill, Congressman, and Bill Foster, Congressman, to
+Jerome Powell, Fed. Reserve. Chairman (Sep. 30, 2019) (on file with authors).
+244 Banking for All Act, S. 3571, 116th Cong. (2d Sess. 2020).
+245 Nikhilesh De and Zack Seward, US Senate Floats ‘Digital Dollar’ Bill After
+House Scrubs Term From Coronavirus Relief Plan, COINDESK (Mar. 24, 2020),
+https://www.coindesk.com/us-senate-floats-digital-dollar-bill-after-house-
+scrubs-term-from-coronavirus-relief-plan.
+246 Crypto-Currency Act of 2020, H.R. 6154 116th Cong. (2d Sess. 2020).
+247 Kollen Post, US Congressman Introduces Crypo-Currency Act of 2020,
+COINTELEGRAPH (Mar. 9, 2020), https://cointelegraph.com/news/us-
+congressman-introduces-crypto-currency-act-of-2020.
+248 See Nikhilesh De, ‘Digital Dollar’ Stripped From Latest US Coronavirus
+Relief Bill, COINDESK (Mar. 24, 2020), https://www.coindesk.com/digital-
+dollar-stripped-from-latest-us-coronavirus-relief-bill; Nikhilesh De, House
+Stimulus Bills Envision ‘Digital Dollar’ to Ease Coronavirus Recession,
+COINDESK (Mar. 26, 2020), https://www.coindesk.com/house-stimulus-bills-
+envision-digital-dollar-to-ease-coronavirus-recession.
+249 Committee on Payments and Infrastructures, Digital currencies, supra note
+167 at 17.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+be regulated.250 Anti-money-laundering, anti-terrorism financing,
+anti-tax evasion, and know-your-client protocols are needed for
+sovereign digital currencies that involve cross-border use.251 CBDC
+could have wide-ranging impacts on payment systems, the privacy
+of the transactions, private sector innovation, deposits held at
+commercial banks, financial stability of making a risk-free digital
+asset more widely available, and the transmission of monetary
+policy.252 These and many related questions have to be worked out
+to understand how CBDC may evolve and what impact they will
+have on the evolution of digital assets.
+8. Convergence of Asset Classes
+Digital assets and traditional investment via fiat currencies are
+becoming increasingly intermingled. Investors have access to a
+growing global network of digital asset exchanges. As of February
+2020, more than 250 digital asset exchanges were operational
+globally with 27 digital asset exchanges in the United States.253 The
+digital asset market records more than $37 billion transactions
+daily.254 However, the majority of digital asset exchanges lack
+detailed performance metrics. One of the first publicly traded
+companies in the United States that was focused on digital assets
+and blockchain technologies, began development of a digital asset
+data analytics platform in mid-2019 in order to improve the
+sophistication of digital asset holdings and performance.255
+Consumers can aggregate their portfolio holdings into a single
+seamless platform by connecting multiple digital asset exchanges
+and wallets, enabling them to view and analyze performance risk
+metrics at near-real time as well as potential tax implications.256
+250 Committee on Payments and Infrastructures, Digital currencies, supra note
+167 at 17
+251 Tang, supra note 208 (Sep. 24, 2019).
+252 Committee on Payments and Infrastructures, Digital currencies, supra note
+167 at 17.
+253 BTCS Expands Business Model with Development of Digital Asset Data
+Analytics Platform, GLOBE NEWSWIRE (Feb. 3, 2020),
+https://www.globenewswire.com/news-
+release/2020/02/03/1978781/0/en/BTCS-Expands-Business-Model-with-
+Development-of-Digital-Asset-Data-Analytics-Platform.html.
+254 Id.
+255 Id.
+256 Id.
+54
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Users can also share their trade history with other platform users,
+consistent with the community focus of decentralized finance and
+blockchain technology.257 This platform’s initial beta launch is
+expected in the second half of 2020.258
+A portfolio of both conventional and digital assets can maximize
+investor profits.259 The dependence between digital and
+conventional assets is very weak although sensitive to external
+shocks and events.260 The co-movement between the returns of
+cryptocurrencies and S&P 500 became steady between 2011 and
+2013.261 In 2015, the co-movement between cryptocurrencies and
+the S&P became extremely volatile.262 These different regimes in
+the dependence between cryptocurrencies and S&P 500 are closely
+related to various economic and financial events.263 The average
+dependence between Bitcoin and the S&P 500 is negative.264 The
+average dependence between Ethereum and the S&P 500 is
+positive.265
+Regulatory uncertainty is holding back the development of
+convergence of asset classes. In March 2017, the SEC rejected the
+first BTC exchange traded funds, saying the underlying Bitcoin
+market was too manipulable, volatile, and resistant to
+surveillance.266 In March 2018, the SEC issued dozens of subpoenas
+257 Id.
+258 Id.
+259 Charfeddine, supra note 13 at 210, 211-215 (for calculations of optimal
+weights, hedging ratios, and hedging effectiveness of portfolios combining digital
+and conventional financial assets).
+260 Id. at 210.
+261 Id. at 209.
+262 Id.
+263 Id. at 209 see figures 14 and 15.
+264 Id. at 209.
+265 Charfeddine, supra note 13 at 209.
+266 See Simon Chandler, A Brief History of the SEC’s Reviews of Bitcoin ETF
+Proposals, COINTELEGRAPH.COM (Apr. 1, 2019),
+https://cointelegraph.com/news/a-brief-history-of-the-secs-reviews-of-bitcoin-
+etf-proposals. See also Securities and Exchange Commission, Self-Regulatory
+Organizations; Bats BZX Exchange, Inc.; Order Disapproving a Proposed Rule
+Change, as Modified by Amendments No. 1 and 2, to BZX Rule 14.11(e)(4),
+Commodity-Based Trust Shares, to List and Trade Shares Issued by the
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+for information requests to companies and advisors centered on
+ICOs and the structure of the sales.267 Most recently in February
+2020, the SEC again rejected a bid for a Bitcoin-based ETF.268 SEC
+Commissioner Hester M. Peirce published a dissent to the most
+recent decision arguing that the Commission applies a unique,
+heightened standard to digital assets, thereby impeding
+institutionalization and innovation.269
+Some countries’ regulators have been even harsher on digital assets.
+Chinese government has altogether explicitly banned
+cryptocurrency from used by financial institutions and
+businesses.270 The Chinese Central bank issued a warning regarding
+the need to enforce rules on money laundering and foreign
+exchange, which led to major Chinese cryptocurrencies exchange
+halting withdrawals.271 China wants to completely eradicate
+cryptocurrencies by blocking access, although Chinese investors
+have been among the biggest actors in crypto markets.272 In January
+2018, finance regulators in South Korea to cooperate with Chinese
+and Japanese authorities on new rules for cryptocurrency trading.273
+After a related news release, cryptocurrency prices fell with Bitcoin
+experiencing losses in excess of 50% in one month.274
+Winklevoss Bitcoin Trust (Mar. 10, 2017)
+https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf.
+267 Corbet, et al., supra note 122 at 187.
+268 See Nikhilesh De, SEC Rejects Latest Bitcoin ETF Bid, COINDESK (Feb. 26,
+2020), https://www.coindesk.com/sec-rejects-latest-bitcoin-etf-bid; Securities
+and Exchange Commission, Self-Regulatory Organizations; NYSE Arca, Inc.;
+Order Disapproving a Proposed Rule Change, as Modified by Amendment No.
+1, to Amend NYSE Arca Rule 8.201-E (Commodity-Based Trust Shares) and to
+List and Trade Shares of the United States Bitcoin and Treasury Investment
+Trust Under NYSE Arca Rule 8.201-E (Feb. 26, 2020),
+https://www.sec.gov/rules/sro/nysearca/2020/34-88284.pdf.
+269 Hester M. Peirce, Dissenting Statement of Hester M. Peirce in Response to
+Release No. 34-88284; File No. SR-NYSEArca-2019-39, U.S. SECURITIES
+EXCHANGE COMMISSION PUBLIC STATEMENT (Feb. 26, 2020),
+https://www.sec.gov/news/public-statement/peirce-dissenting-statement-34-
+88284.
+270 Cheung, et al., supra note 25 at 1.
+271 Charfeddine, supra note 13 at 209.
+272 Id. at 202.
+273 Corbet, et al., supra note 122 at 187.
+274 Id. fn 2.
+56
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+9. DeFi Evolution
+DeFi products and markets are constantly morphing and will be
+subject to continuing evolutionary trends as core decentralized
+infrastructure products become more viable while others devolve.
+a) Growth Estimates
+Figures [__] to [__] provide an overview of the evolving DeFi
+market and its separation from the overall market in Ethereum
+transactions. Figure [__] highlights the difference between the
+overall ETH transfer count and the total value locked in ETH of
+DeFi transactions. Figure [__] suggests that the DeFi marketplace is
+evolving so far not in terms of growth of the total number of
+transactions on the Ethereum network but in terms of the total value
+of the transactions.
+Figure [__]: source: glass node and defipulse (ETH Transfer Count - the total
+amount of transfers. One transaction can trigger one or more transfers. Only
+successful, non-zero transfers are counted, Source explains TVL (total value
+locked) is calculated by pulling the balance of ETH and ERC-20 tokens held by
+each protocol’s underlying smart contracts. The data shown is the data from the
+15th of each month, “All” was directly from the website – not generated).
+Figure [__] further explains the trend illustrated in Figure [__] above
+in terms of other transaction measures. Figure [_] illustrates that the
+value of the ETH transfer volume depreciated from 9/1/17 to 5/1/18
+lockstep with the withering away of the ICO market, Bitcoin value
+and is associated with the emergence of the so-called crypto winter.
+In its aftermath, finance professionals have started to develop more
+and more Ethereum based financial products which gave rise to the
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+birth of DeFi and is illustrated by the total value locked of ETH in
+DeFi (All).
+Figure [__]: Source: Glass Node for ETH data and DeFi Pulse (Glass Node – ETH
+Data, Source defines “Transfer Volume Total” as The total amount of coins
+transferred on-chain. Only successful transfers are counted, Source defines
+“Transaction Count” as The total amount of transactions. Only successful
+transactions are counted, Source defines “Transfer Count” as the total amount of
+transfers. One transaction can trigger one or more transfers. Only successful, non-
+zero transfers are counted, DeFi Pulse – TVL, Source explains TVL (total value
+locked) is calculated by pulling the balance of ETH and ERC-20 tokens held by
+each protocol’s underlying smart contracts. The data shown is the data from the
+15th of each month, “All” was directly from the website – not generated).
+Figures [_] to [_] further illustrate the breakdown of the increase in
+value locked in DeFi transactions as illuminated in Figures [__] and
+[__] above. In particular, Figure [__] shows that DeFi lending
+before the breakout of the Covid-19 pandemic generated the
+majority of value locked in DeFi transactions. Some evidence exists
+that the market develeveraged most of the lending value as margin
+calls forced DeFi lenders to deleverage during the pandemic.
+58
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Figure [__]: Source: DeFiPulse.com (Source explains TVL (total value locked) is
+calculated by pulling the balance of ETH and ERC-20 tokens held by each
+protocol’s underlying smart contracts. The data shown is the data from the 15th of
+each month.)
+Figures [__] and [__] illustrate which ethereum-based protocols
+generate a proportion of the overall DeFi transactions.
+Figure [__]: Source: Bloxy – Lending Protocols Dynamics Comparison (Source
+categorized the graphs under Decentralized Protocols analytics, Value Analysis.
+This category was lending protocols dynamics comparison. Graphs titled
+“Monthly Cumulative Locked Amount, Unique addresses by Protocol” and
+“Unique Addresses vs Locked Amount by Protocols Monthly”)
+Figure [__] highlights the important role MakerDao, a key stable
+coin, plays in the DeFi market. The locked dollar amount associated
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+with the unique address for MakerDAO constitutes the
+overwhelming majority of all unique addresses and associated dollar
+amount of DeFi transactions.
+Figure [__]: Source: Bloxy – Lending Protocols Dynamics Comparison (Source
+categorized the graphs under Decentralized Protocols analytics, Value Analysis.
+This category was lending protocols dynamics comparison. Graphs titled
+“Monthly Cumulative Locked Amount, Unique addresses by Protocol” and
+“Unique Addresses vs Locked Amount by Protocols Monthly”)
+Figure [_] further illustrates the power of DeFi transactions in the
+Ethereum transaction universe. As Figure [_] shows, smart contract
+calls constitute a very significant proportion of the ETH transfer
+count. This appears to be support for the proposition that DeFi
+financial products built into Ethereum smart contracts play a
+significant role in the development of the Ethereum network and
+will likely continue to play that significant role at an increasing
+scale.
+60
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Figure [__]: Source: Bloxy (Proportions obtained by dividing value for monthly
+smart contract calls by the ETH value, Smart contract call data - Source
+categorized the graphs under Decentralized Protocols analytics, Value Analysis.
+This category was Smart Contract Calls, Daily. Graph titled Dynamics of smart
+contract calls (external only). The data for smart contract calls in the above was
+generated by taking the monthly sum for contract calls, ETH Transfer Count - the
+total amount of transfers. One transaction can trigger one or more transfers. Only
+successful, non-zero transfers are counted, Source defines “Transfer Volume
+Total” as The total amount of coins transferred on-chain. Only successful transfers
+are counted).
+b) Growth Factors
+DeFi’s growth rate, illustrated in Figures [___], and expected
+growth rate, illustrated in Figures [__], provide an early impression
+of what the digital asset market could morph into. Some of the core
+features of DeFi provide benefits that have significant comparative
+advantages over existing legacy finance and FinTech businesses.
+Several factors contribute to DeFi’s growth rates and foreshadow
+the possible evolution of the market for digital assets. At the
+beginning of the 2020s, DeFi has started to capitalize on its core
+features to expand into existing legacy businesses. DeFi’s
+decentralized payment networks facilitate online and offline
+commerce with low-cost, secure, instant and global payments. Low
+transaction costs benefit consumers as well as merchants by
+enabling profit maximization and reducing barriers to entry for new
+business models, such as micropayments. Several examples
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+illustrate the crossover of DeFi into the more mainstream financial
+commerce. For example, Square, a centralized payment platform,
+may incorporate Bitcoin Lightning Network into its payment
+services.275 Ripple is at the forefront of decentralized payment
+networks and has partnered with financial institutions such as
+MoneyGram to improve the efficiency of cross-border money
+transfers.276
+(1) Decentralization
+Most of the comparative advantages of DeFi derive from its
+decentralized features. DeFi is efficient, more decentralized than
+any other financial solution, and borderless. In theory, because of its
+higher degree of decentralization in finance, DeFi can protect
+against monopolization, censorship, mutability, and counterparty
+risk. The decentralized nature of DeFi transactions makes it less
+likely that a single node or entity can monopolize the network and
+exclude others from participating, allowing broad access to the
+benefits of network effects.277 It also facilitates easy and
+instantaneous value transfer without regulatory intermediaries as it
+is less reliant on a central bank or government.278
+The decentralized nature of DeFi Dapps via blockchain technology
+also enables unparalleled transparency. The transparency offered by
+the technology allows parties in the supply chain real-time access to
+inventory records and payments can be effected in real-time. The
+real-time transparency enhancements could facilitate a seamless
+system of lending and repayment using smart contracts.279 In turn,
+275 Leigh Cuen, Square CEO Jack Dorsey Says Bitcoin’s Lightning is Coming to
+Cash App., COINDESK (Feb. 11, 2019), https://www.coindesk.com/square-
+bitcoin-jack-dorsey-lightning-cash-app).
+276 Ripple Announces Strategic Partnership With Money Transfer Giant,
+MoneyGram, RIPPLE: INSIGHTS (Jun. 17, 2019),
+https://ripple.com/insights/rippleannounces-
+strategic-partnership-with-money-transfer-giant-moneygram.
+277 Gur Huberman, Jacob D. Leshno and Ciamac Moallemi, An Economist’s
+Perspective on the Bitcoin Payment System, 109 AEA PAPERS AND
+PROCEEDINGS 93 (2019),
+https://www.aeaweb.org/articles?id=10.1257/pandp.20191019.
+278 Saifedean Ammous, THE BITCOIN STANDARD: THE DECENTRALIZED
+ALTERNATIVE TO CENTRAL BANKING (2018).
+279 Wang, et al., supra noate 82; Lee, supra note 82.
+62
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DeFi’s transaction transparency has the potential to expand the
+scope and scale of transactions, protect transacting parties, and
+facilitate a quick response to financial crises and promote financial
+inclusion and innovation.
+DeFi can promote financial inclusion. Because DeFi transactions are
+typically open source, fully transparent, and permissionless, anyone
+with an internet connection can access it. Polycentric governance
+structures can help achieve communication and consensus between
+the full set of participants.280 The underlying programming for DeFi
+projects is publicly available under a creative commons copyright
+license and allows nonprofit usage of open source code.281 Self-
+custody via encrypted wallets removes costly intermediation that
+can give the unbanked an opportunity to participate in the value
+creation. DeFi instruments can help secure and grow the life savings
+of citizens living in unstable countries, such as Venezuela.282 In
+DeFi’s financial alternative, individuals can convert their fiat
+(government-backed) currency into a stable cryptocurrency
+(“stablecoin"), store the stablecoin in an interest-bearing account,
+and use futures contracts to hedge against financial uncertainty. By
+converting fiat currency into cryptocurrency, migrant workers and
+refugees can recover their funds even if their property is confiscated
+while fleeing their home country.
+The emerging interoperability of DeFi Dapps further enhances the
+benefits of DeFi’s decentralization. Interoperability of DeFi
+transactions could provide further benefits for the evolution of the
+market in digital assets. At the beginning of the 2020s, DeFi is still
+largely relegated to the use of one dominant platform. 87% of all
+publicly funded DeFi projects have been built on Ethereum.283
+Further enhancement of the interoperability of DeFi would increase
+value flow seamlessly across different services and borders.
+Interoperability as envisioned by Cosmos and Polkadot,284 would
+mean that different blockchains can be interconnected, allowing for
+enhanced interoperability and increased value flow.
+280 Bose, et al., supra note 79 at 287.
+281 Shaughnessy, Demarco & Lulla, supra note 73 at 3.
+282 Leonhard, supra note 45 at 4.
+283 Chen and Bellavitis, supra note 83 at 3.
+284 Polkadot https://polkadot.network/, and Cosmos https://cosmos.network/
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+(2) Disintermediation Beyond FinTech
+DeFi upgrades financial disintermediation above and beyond
+FinTech. Financial institutions connect market participants and
+build trust by serving as an intermediary, thereby reducing
+transaction costs.285 Financial technology is increasing efficiency by
+serving as an intermediary and taking up these roles. Financial
+technology (FinTech) can further reduce transaction costs by expand
+transaction scope and empowering peer-to-peer transactions that
+disintermediate. In existing centralized forms of financial
+technology disintermediation users are still dealing with a
+technology company as intermediary instead of a financial
+institution.286 Accordingly, centralized financial technology
+disintermediation is incomplete and allows for further
+improvements. DeFi attempts to provide such decentralized
+financial solutions.
+DeFi is more efficient than existing financial intermediation,
+including FinTech. Its superior efficiency can be traced to its
+extensive reliance on code and automation that remove large parts
+of the human element and the associated errors and inefficiencies.
+Entry and exit of network participants are possible at comparatively
+very low cost which increase efficiency gains.287 Distributed ledger
+technology has the potential to allow participants to make joint
+investments in shared infrastructure without assigning market power
+to the platform operator, helping increase efficiency of
+operations.288
+DeFi can help increase competition and accelerate the pace of
+financial innovation beyond FinTech. DeFi’s permissionless and
+open source nature creates an environment that promotes innovation
+above and beyond FinTech. Decentralized financial applications and
+platforms publicly share their core technologies through permissive
+285 Chen and Bellavitis, supra note 83 at 1.
+286 Id.
+287 Bose, et al., supra note 79.
+288 Christian Catalini & Joshua S. Gans, Some Simple Economics of the
+Blockchain, NAT’L BUREAU OF ECON. RES. WORKING PAPER NO. 22952, (Dec.
+2016 revised Jun. 2019).
+64
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+open-source licensing.289 Since the early days of digital assets, the
+permissionless open-source environment allowed the developer
+community to freely build and experiment with new applications.290
+The DeFi framework allows users can combine different protocols
+to create new financial products and services.291
+DeFi can scale up savings flows between investors and issuers
+without having to go through a highly centralized global or national
+financial ecosystem. DeFi can enable the formation of communities
+of different types of investors extending beyond geographical
+boundaries to finance local public goods. These alliances can
+operate as conduits for financing and feedback between small
+responsible investors and issuers.292
+(3) Counterparty Risk Management
+DeFi has the potential to address the issue of counterparty risk and
+associated regulatory concerns. A large part of the regulatory
+infrastructure that pertains to legacy systems revolves around issues
+concerning counterparty risk. Yet, the existing regulatory
+infrastructure is still mostly a patchwork of solutions that has not
+fully addressed the issue of counterparty risk. DeFi has the potential
+to address these shortcomings. DeFi reduces counterparty risk
+because there is no need to trust a third-party intermediary to
+custody funds or validate transactions.293 Because DeFi transactions
+are typically stored and recorded on a public blockchain, DeFi’s
+transaction transparency can expand the scope and scale of
+transactions as well as protect transacting parties. Transactions
+recorded on public ledgers that can be easily viewed and verified,294
+289 Chen and Bellavitis, supra note 83 at 2-3. See also Shaughnessy, Demarco &
+Lulla, supra note 73 at 3.
+290 Henry Chesbrough and Marshall Van Alstyne, Permissionless Innovation, 58
+COMMUNICATIONS OF THE ACM 24 (2015); Vint Cerf, Remarks at the Digital
+Broadband Migration: The Dynamics of Disruptive Innovation, 10 J. TELECOMM.
+HIGH TECH. L. 21 (2012).
+291 ERIK BYNJOLFSSON AND ANDREW MCAFFEE, THE SECOND MACHINE AGE:
+WORK, PROGRESS, AND PROSPERITY IN A TIME OF BRILLIANT TECHNOLOGIES
+(2014).
+292 See Bose, Dong, & Simpson, supra note 79 at 283.
+293 Shaughnessy, Demarco & Lulla. supra note 73 at 3.
+294 Chen and Bellavitis, supra note 83 at 3-4.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+can expand the scale and scope of transactions.295 Transparency is
+further enhanced because DeFi is typically built with open source
+code, the system is auditable by external parties.296 Finally,
+counterparty risk that materialized in past financial crises may be
+addressed by DeFi’s public records of all historical transactions.
+Financial crises that involve issues of counterparty risk management
+may be less likely in a DeFi environment.297
+(4) StableCoins
+Since 2019, stablecoins have become a staple in the emerging DeFi
+market. The total volume of stable cryptocurrencies relative to the
+rest of the cryptocurrency market is growing consistently.298 The
+growth of stable cryptocurrencies can largely be traced back to
+attempts to combine the utility and benefits of cryptocurrencies and
+blockchain technology with remedies for the existing fluctuation
+and volatility in the cryptocurrency markets.299 The growth data
+suggests that demand for products that help manage the volatility
+inherent in other crypto assets is likely to continue to increase.300
+The emergence of stablecoins in the DeFi infrastructure is
+accompanied by changes in the legacy banking environment. Cash
+and bank notes are gradually losing ground to other payment
+systems.301 Cash usage in the United States, the United Kingdom,
+295 Marc-David L. Seidel, Questioning Centralized Organizations in a Time of
+Distributed Trust, 27 J. OF MGMT. INQUIRY 40 (2018).
+296 Shaughnessy, Demarco & Lulla, supra note 73 at 3.
+297 Andrew W. Lo, Reading About the Financial Crisis: A Twenty-One-Book
+Review, 50 J. OF ECON. LITERATURE 151, 174 (2012).
+298 Compare the google search results for “blockchain” were exceeded by
+“stablecoin” in the mid 2019s. https://consensys.net/blog/news/2019-was-the-
+year-of-defi-and-why-2020-will-be-too/
+299 Stablecoin, Binance
+Academy, https://www.binance.vision/glossary/stablecoin (last visited Apr. 24,
+2019).
+300 Can JPM Coin Disrupt the Existing Stablecoin Market?, BINANCE RESEARCH
+(Mar. 1, 2019) at 4,
+https://info.binance.com/en/research/marketresearch/img/BinanceResearch-
+JPMCoin.pdf.
+301 KENNETH S. ROGOFF, THE CURSE OF CASH (2016); Jonathan Brugge et al.,
+Attacking the Cost of Cash, MCKINSEY & COMPANY (Aug. 2018),
+https://www.mckinsey.com/industries/financial-services/our-insights/attacking-
+the-cost-of-cash.
+66
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+the Netherlands, Sweden, Finland, Canada, France, among other
+industrialized nations, has fallen well below 50% of total
+transaction volume.302 Most significantly, in Northern Europe as
+few as one in every five transactions is made in cash.303 The end of
+technological life cycles of legacy systems and associated emerging
+trends in payment systems necessitate central banks’ enhanced
+examination of cryptocurrency solutions.304
+The renaissance in privately issued stablecoins is, in part, triggered
+by evolving non-cash alternative needs of existing central banks.
+Central banks in countries with rapidly declining cash usage305 are
+subject to the most pressure to find solutions for bank note
+alternatives. The cost of cash is also afflicting the existing cash
+system. In the United States, transacting in cash costs the consumer
+around 200 billion dollars annually—about $637 per person.306 The
+cost of cash is primarily associated with counting, managing,
+storing, transporting, guarding, and accounting for bank notes.307
+The theft of cash alone costs U.S. retail businesses losses around
+$40 billion annually.308 The poor and those with less access to
+institutions bear a disproportionate share of the costs of using
+cash.309
+(5) DAO Prospects
+Most of the applications and uses of digital currencies are improved
+and expanded with well-functioning and well-governed
+decentralized autonomous organizations (“DAOs”). A DAO is an
+302 “Germany, Japan, and Austria stand apart as wealthy countries where
+consumers maintain a strong preference for cash at the point of sale, despite
+universal availability of electronic payments instruments and the broad adoption
+of electronic transfers for recurring payments.” Id.
+303 Id.
+304 Bech & Garratt, supra note 35.
+305 Brugge et al., supra note 301.
+306 Brugge et al., supra note 301.
+307 Aleksander Berentsen & Fabian Schar, The Case for Central Bank
+Electronic Money and the Non-case for Central Bank Cryptocurrencies, 100
+FED. RES. BANK ST. LOUIS REV. 97 (2018).
+308 Will Yaowicz, Cash Costs U.S. Businesses $40 Billion a Year, INC.COM,
+https://www.inc.com/will-yakowicz/dealing-with-cash-costs-american-
+businesses-55-billion.html (last visited Apr. 24, 2019).
+309 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+organization that runs through rules encoded in smart contracts.310
+The first DAO, in May 2016, the crowdfunding campaign, the
+DAO, operated on Ethereum and set the record for the largest
+crowdfunding campaign in history with $120 million worth of Ether
+raised.311 DAOs help upgrade digital assets across the spectrum of
+applications and uses. This includes digital assets that can be used
+as mediums of exchange, speculation,312 payment rail for non-
+expensive cross-borders money transfer, and non-monetary uses
+such as time stamping.313 Additional use cases of DAOs include
+financial transactions, secure voting, autonomous organizations,
+company management, freedom of speech networks, online games,
+crowdfunding, and speculation.314
+DAOs are organizations that run through rules encoded in smart
+contracts.315 Smart contracts are executed when the conditions
+embedded in them are recognized as math by the network.316
+Ethereum’s more flexible programming language, Solidity, enables
+the development of smart contracts317 in conjunction with
+Ethereum’s Virtual Machine (EVM), upon which every Ethereum
+node runs to maintain consensus. EVM is Turing-complete,
+meaning that it can perform calculations that any other
+programmable computer is capable of, enabling execution of code
+exactly as intended.318 This is the unique feature of the Ethereum
+network that enables smart contracts and a high level of flexibility
+in digital innovation, which makes the platform attractive to
+developers.
+310 DAO, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+311 Charfeddine, supra note 13 at 209.
+312 A. Rogojanu & Liana Badea, The Issue of Competing Currencies: Case Study
+– Bitcoin, 21 THEORETICAL APPLIED ECON. 103 (2014); Paola Ceruleo, Bitcoin:
+a rival to fiat money or a speculative financial asset? (2014) (on file with Luiss
+Guido Carli).
+313 Robleh Ali, et al. The Economics of Digital Currencies, BANK OF ENGLAND:
+Q. BULL. 276 (2014).
+314 Besarabov, supra note 13 at 1.
+315 Crypto Glossary, supra, note 7.
+316 Charfeddine, et al., supra note 6 at 201.
+317 Crypto Glossary, supra, note 310.
+318 Ethereum’s Virtual Machine, Crypto Glossary, COINMARKETCAP.COM,
+https://coinmarketcap.com/glossary/ (last accessed April 8, 2020).
+68
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Regulatory uncertainty is holding back the development of DAOs
+and the optimization potential of DAOs for digital assets. The DAO
+claimed to be a crowdfunding contract and made unregistered offers
+and sales of DAO tokens in exchange for Ether.319 However, the
+SEC began an investigation and determined that, although the DAO
+claimed to be a crowdfunding contact, it did not meet the SEC’s
+requirements for a Regulation Crowdfunding exemption because
+the DAO is neither a broker-dealer nor a funding portal registered
+with the SEC and the Financial Industry Regulatory Authority.320 In
+July 2017, following this investigation, the SEC issued an
+investigative report stating that virtual coins or tokens may be
+securities and subject to securities laws, depending on the facts and
+circumstances including the economic realities of the transaction.
+The SEC stated that federal securities laws apply to those who offer
+and sell securities in the United States, regardless of whether the
+issuing entity is a traditional company or a decentralized
+autonomous organization, regardless of whether securities are
+purchased using fiat or virtual currency, regardless of whether they
+are distributed in certificated form or through distributed Ledger
+technology. Federal securities laws provide disclosure requirements
+and regulatory scrutiny aimed at investor protection.321
+c) Growth Limitations
+DeFi is subject to several growth limitations that may undermine its
+evolution. It is crucial for decentralized finance technologies to be
+market-driven rather than novelty-driven. Moreover, DeFi
+technologies need to be both user-friendly and useful for users.
+319 SEC Issues Investigative Report Concluding DAO Tokens, A Digital Asset,
+Were Securities U.S. SECURITIES AND EXCHANGE COMMISSION (Jul. 25, 2017)
+(citing to, Report f Investigation Pursuant to Section 21(a) of the Securities
+Exchange Act of 1934: The DAO, U.S. SECURITIES AND EXCHANGE COMMISSION
+(Jul. 25, 2017)).
+320 SEC,
+https://www.banking.senate.gov/imo/media/doc/Clayton%20Testimony%202-
+6-18.pdf
+321 Id.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+At the beginning of the 2020s, DeFi was not sufficiently user
+friendly. Anyone who ever interacted with metamask,
+myetherwallet or scatter, among other core DeFi user interfaces, can
+attest that dealing with public and private keys requires levels of
+technical know-how most lay users do not possess. As with most
+innovative technologies, the digital asset market also resulted from
+a technology push rather than a market pull.322 Rather than focusing
+on usefulness and user-friendliness of new platforms, developers
+were inspired by technical advancement and started experimenting
+with new possibilities of the technology to try to discern how to
+make a profit from their product experimentation.323 Market pull
+may evolve if and when the DeFi technology infrastructure is more
+developed. With a sufficiently developed technology infrastructure
+it will be possible for the consumer adoption to drive the innovation
+of new decentralized financial technologies rather than technical
+novelty.
+DeFi platform technologies often have a limited product market fit.
+The reliance on code in the market for digital assets over human
+judgments resulted in a focus on products that predominantly rely
+on automation, ignoring the human element in financial
+transactions. Because DeFi relies on code rather than human
+judgment, DeFi products often do not leverage human knowledge
+and subjective judgment, which limits limiting the potential value of
+the technology. DeFi technologies are most effective when
+analyzing inputs that can be objectively recorded and verified and
+publicly recorded. However, human interaction in business are often
+too complex to be fully codified objectively. By excluding all non-
+objective information from the product analysis, all available
+information may not be fully utilized which limits efficiency and
+potential usefulness of DeFi.
+DeFi lacks a clear regulatory framework which makes its adoption
+and consumer confidence uncertain. There is insufficient or non-
+existent regulatory guidance, court decisions, and uncertainty over
+322 Richard Partington, How the Wheels Came Off Facebook’s Libra Project,
+GUARDIAN (Oct. 18, 2019, 9:42 AM),
+https://www.theguardian.com/technology/2019/oct/18/how-the-wheels-came-
+off-facebook-libra-project.
+323 Id.
+70
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+applicable jurisdiction. Lack of regulatory recognition of blockchain
+technology is problematic not only for users but for developers.
+Clear regulatory framework is needed to support reasonable
+innovation. Courts’ perception and treatment of blockchain
+technology is uncertain because they have not reviewed, assessed,
+or scrutinized the uses and applications of blockchain technology.
+Human intervention is needed to settle legal disputes, even
+involving smart contract transactions, and is even helpful to create
+regulatory certainty.324
+Accountability in DeFi can be a concern. “Without central entity
+involvement, who should be held accountable for potential
+wrongdoing can become unclear. Who do you resort to for help?
+When problems arise, no central party can take actions to freeze
+transactions, fix problems and restore normal operations.”325 At the
+beginning of the 2020s, crypto custody solutions to store
+cryptocurrencies either lacked transparency, safety, or liquidity.326
+Finally, DeFi can be vulnerable to fraud and untested financial
+innovations.327 Non-existent links to physical/traditional assets.328
+Limited on-chain throughput.329
+d) DeFi Infrastructure Case Study
+In the early 2020s, the DeFi technology infrastructure was
+insufficiently developed to support DeFi growth estimates and
+growth potential. To truly fulfill its potential, the DeFi infrastructure
+development necessitates significant tradeoffs between scaling,
+324 See Reggie O’Shields, Smart Contracts: Legal Agreements for the Blockchain,
+21 N.C. BANKING INST. 177 (2017),
+http://scholarship.law.unc.edu/ncbi/vol21/iss1/11.
+325 Robert Palatnick, Governing DLT Networks: Distributed Ledger Technology
+Governance for Private Permissioned Networks (Sept. 2019),
+https://perspectives.dtcc.com/articles/governing-dlt-networks.
+326 CDx, https://cdxproject.com/. See also Young, A. and Wilson, J., CDx:
+Credit Default Swaps on the Ethereum Public Blockchain, Sep. 4, 2018,
+https://cdxproject.com/assets/resources/cdx-whitepaper.pdf, at 1.
+327 Chen and Bellavitis, supra note 83 at 6.
+328 Shaughnessy, Demarco & Lulla, supra note 73 at 3.
+329 Shaughnessy, Demarco & Lulla, supra note 73 at 3.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+security, and levels of decentralization. The trade-off between
+transaction approval speed and immutability has the potential to
+undermine the DeFi infrastructure in the long run.330 Achieving
+broad consensus among key stakeholders to implement major
+upgrades is costly and often challenging.331 All information must be
+distributed to all parties publicly, then validated through distributed
+consensus, and stored, a process which requires a great deal of
+computational power.332 Creating consensus requires increase costs
+of prepping, processing, and storing information.333 On the other
+hand, fewer computational checks for consensus increase the risk of
+collusion attacks that could change the record.334 The flipside of the
+transparency offered by DeFi is the competing interest of user
+privacy, plus associated processing costs to achieve privacy.335
+A specific example that may raise concerns with regard to the DeFi
+infrastructure development is the case of cryptokitties. Cryptokitties
+is a game of digital collectibles on the Ethereum blockchain.336 In
+one of the earliest attempts to apply blockchain technology to
+gaming, cryptokitties allows players to breed, purchase, and sell
+virtual cats of different origin. Significantly, cryptokitties is one of
+the first instantiations of true digital assets that create an inherent
+value for its users. In December 2017, the game's popularity slowed
+down the Ethereum network by causing an all-time high in number
+of transactions.337
+330 Bose, Dong, & Simpson, supra note 79 at 304
+331 Akhil Kumar, Rong Liu, & Zhe Shan, Is Blockchain a Silver Bullet for Supply
+Chain Management? Technical Challenges and Research Opportunities, 51
+DECISION SCI. 9 (2019).
+332 Eric Budish, The Economic Limits of Bitcoin and the Blockchain, NATIONAL
+BUREAU OF ECONOMIC RESEARCH WORKING PAPER NO. 24717 (2018) (on file
+with publisher).
+333 Kumar, Liu, & Shan, supra note 330.
+334 Bose, Dong, & Simpson, supra note 79 at 304
+335 Chen and Bellavitis, supra note 83 at 6.
+336 CryptoKitties, WIKIPEDIA, https://en.wikipedia.org/wiki/CryptoKitties (last
+visited May 20, 2020).
+337 CryptoKitties Craze Slows Down Transactions on Ethereum, BBC:
+TECHNOLOGY (Dec. 5, 2017), https://www.bbc.com/news/technology-
+42237162.
+72
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Figure [__] illustrates that in early December 2017 the Ethereum
+network experienced significant delays in transaction processing
+which was in part caused by the Cryptokitties DApp.
+Figure [__]: Source: GlassNode, Bloxy.info (Proportions obtained by dividing
+value for CK transfer by the ETH value, CK transfer – Source titles this data “CK
+Transfer Count” with no further explanations, ETH Transfer Count - the total
+amount of transfers. One transaction can trigger one or more transfers. Only
+successful, non-zero transfers are counted, Source defines “Transfer Volume
+Total” as The total amount of coins transferred on-chain. Only successful transfers
+are counted) Source: Bloxy.info – CryptoKitties Population, Articles on network
+crash caused by Cryptokitties - came out 11/28/2017, by 12/4 (date of QZ article),
+SOURCE 1: BBC (published 12/5/17) https://www.bbc.com/news/technology-
+42237162,338 SOURCE 2: QZ.COM (published 12/4/17)
+https://qz.com/1145833/cryptokitties-is-causing-ethereum-network-
+338 Why does it matter if CryptoKitties is slowing down Ethereum? According
+to ETH Gas Station, the CryptoKitties game accounts for over 10% of network
+traffic on Ethereum. As traffic increases, transactions become more expensive
+to execute quickly. "The real big issue is other major players looking for
+alternatives to Ethereum and moving to different systems," Mr Hileman said.
+"There's definitely an urgency for Ethereum to try and address this issue."
+339 Unprocessed ethereum transactions have risen about six-fold since
+CryptoKitties was released on Nov. 28, according to data provider Etherscan.
+CryptoKitties now has the busiest address on the ethereum network, accounting
+for nearly 12% of all transactions. That’s a threefold increase from Saturday (Dec.
+2) when it was responsible for about 4% of all ethereum transactions. The
+network congestion forced the game’s developers, a Vancouver company called
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+congestion/340, SOURCE 3: COINMETRICS’ STATE OF THE NETWORK
+(Published 11/2019) https://coinmetrics.substack.com/p/coin-metrics-state-of-
+the-network-b34.341
+A comparison of ETH transfer count and cryptokitties transfer
+counts in Figures [__] amd [__] suggests that the cryptokitties effect
+on the Ethereum network could have larger implications if the
+Ethereum network and expected transaction volume continue to
+grow.
+Axiom Zen, to raise prices. This made processing the game’s transactions more
+attractive to ethereum miners, improving the odds of the transactions being
+accepted. Some $2.7 million has changed hands on the CryptoKitties marketplace
+in the six days it has been active, according to data from Crypto Kitty Sales. The
+developers of the game told Quartz it had 1,165 players on Dec. 1 (Update: the
+game has 6,600 active players as of Dec. 4, according to Benny Giang of Axiom
+Zen). 12/3 - Due to network congestion, we are increasing the birthing fee from
+0.001 ETH to 0.002 ETH. This will ensure your kittens are born on time! The
+extra is needed to incentivize miners to add birthing txs to the chain.
+340 Unprocessed ethereum transactions have risen about six-fold since
+CryptoKitties was released on Nov. 28, according to data provider Etherscan.
+CryptoKitties now has the busiest address on the ethereum network, accounting
+for nearly 12% of all transactions. That’s a threefold increase from Saturday (Dec.
+2) when it was responsible for about 4% of all ethereum transactions. The
+network congestion forced the game’s developers, a Vancouver company called
+Axiom Zen, to raise prices. This made processing the game’s transactions more
+attractive to ethereum miners, improving the odds of the transactions being
+accepted. Some $2.7 million has changed hands on the CryptoKitties marketplace
+in the six days it has been active, according to data from Crypto Kitty Sales. The
+developers of the game told Quartz it had 1,165 players on Dec. 1 (Update: the
+game has 6,600 active players as of Dec. 4, according to Benny Giang of Axiom
+Zen). 12/3 - Due to network congestion, we are increasing the birthing fee from
+0.001 ETH to 0.002 ETH. This will ensure your kittens are born on time! The
+extra is needed to incentivize miners to add birthing txs to the chain.
+341 In late 2017, CryptoKitties burst onto the scene causing ERC-721 (non-
+fungible token) transactions to reach over 80,000 per day. But after a brief
+frenzy, CryptoKitty trading died off, and ERC-721 transactions have not topped
+over 25,000 per day since. CryptoKitties notoriously caused blockchain
+congestion, and caused ETH fees to spike.
+74
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Figure [__]: Source: GlassNode, Bloxy.info (CK transfer – Source titles this data
+“CK Transfer Count” with no further explanation, ETH Transfer Count - the total
+amount of transfers. One transaction can trigger one or more transfers. Only
+successful, non-zero transfers are counted)
+In light of the network capacity issues illustrated by the cryptokitties
+shutdown in Figures [__] and [__], the expected growth rate
+illustrated in Figures [__] and [__] could mean that the Ethereum
+network will continue to experience network shortages and
+throughput issues unless the Ethereum infrastructure is upgraded to
+deal with the expected volume of transactions. Of course,
+correlation is not causation and many other factors could call the
+DeFi technology infrastructure into question.
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+Figure [__]: Source: Bloxy – Lending Protocols Dynamics Comparison;
+GlassNode, Proportion obtained by dividing address number by ETH transfer
+count. Lending protocol dynamics from the circle data above - This data was the
+circle graphs we looked at on Wednesday that you requested. It is near the bottom
+of the link. Source categorized the graphs under Decentralized Protocols
+analytics, Value Analysis. This category was lending protocols dynamics
+comparison. Graphs titled “Monthly Cumulative Locked Amount, Unique
+addresses by Protocol” and “Unique Addresses vs Locked Amount by Protocols
+Monthly, ETH Transfer Count - the total amount of transfers. One transaction can
+trigger one or more transfers. Only successful, non-zero transfers are counted.)
+Figure [__]: Source: Bloxy – Lending Protocols Dynamics Comparison;
+(GlassNode, Same graph as immediately above, adding in projections using linear
+and exponential growth models for the “all protocols as proportion of ETH on-
+chain transfers” data.)
+IV. Conclusion
+The evolution of the market for digital assets can be traced to many
+factors. This article examined some of the most prevalent factors.
+The market trends and factors that affect the market in digital assets
+are constantly changing. It remains to be seen if the digital asset
+market can evolve further without key decentralized infrastructure
+upgrades. All projects that make contributions to decentralized
+infrastructure engage in the much needed experimentation that
+pervades the market for digital assets and enables its evolution.
+76
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+78
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+Electronic copy available at: https://ssrn.com/abstract=3606663
+
+DIGITAL ASSET MARKET EVOLUTION
+80
+Electronic copy available at: https://ssrn.com/abstract=3606663
+

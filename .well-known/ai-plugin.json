@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "wulf_kaal_papers",
+  "name_for_human": "Wulf A. Kaal Academic Papers",
+  "description_for_model": "Collection of 121 academic papers by Prof. Wulf A. Kaal covering blockchain governance, decentralized autonomous organizations (DAOs), AI regulation, dynamic regulation theory, securities law, validation pools, reputation systems, and decentralized coordination mechanisms. Papers are available as PDFs with extracted full text and structured metadata.",
+  "description_for_human": "Browse and search 121 academic papers by Wulf A. Kaal",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "static",
+    "metadata_index": "https://raw.githubusercontent.com/wulfkaal/academic-papers/main/papers/papers_index.json",
+    "knowledge_graph": "https://raw.githubusercontent.com/wulfkaal/academic-papers/main/knowledge-graph/knowledge_graph.json",
+    "schema_org": "https://raw.githubusercontent.com/wulfkaal/academic-papers/main/schema/schema_org.jsonld"
+  },
+  "contact_email": "",
+  "legal_info_url": "https://github.com/wulfkaal/academic-papers/blob/main/LICENSE"
+}

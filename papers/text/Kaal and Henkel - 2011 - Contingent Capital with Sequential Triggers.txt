@@ -1,0 +1,2796 @@
+Legal Studies Research Paper No. 2012-01
+Contingent Capital with Sequential
+Triggers
+Wulf A. Kaal
+Univ. of St. Thomas (MN) School of Law
+Christoph Henkel
+Mississippi College School of Law
+This paper can be downloaded without charge from the
+Social Science Research Network Electronic Paper Collection:
+http://ssrn.com/abstract=1908473
+EEElleeleccctttrrrooonnniiccic cccooopppyyy aaavvvaaaiilliaalabbblleele aaattt::: hhhttttttpppss::://////ssssssrrrnnn...cccooommm///aaabbbssstttrrraaacccttt===111999000888444777333
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+Contingent Capital with Sequential
+Triggers
+WULF A. KAAL*
+CHRISTOPH K. HENKEL**
+* Associate Professor, University of Saint Thomas School of Law (Minneapolis).
+The Author wishes to thank the 2011–2012 selection committees of the AALS Section
+on Securities Regulation and the AALS Section on Financial Institutions and Consumer
+Financial Services. He also acknowledges the assistance of his colleagues, especially
+John C. Coffee, Jr., Michelle Harner, Christian Kirchner, Lisa M. Fairfax, the
+participants of the workshop on business law at the Southeastern Association of Law
+Schools 2011, and the participants at a January 2012 colloquium at Villanova University
+School of Law. He is grateful for outstanding research assistance from Ms. Caroline
+Kunz Ivanov and Ms. Katherine M. Eckberg.
+** Assistant Professor, Mississippi College School of Law. Assessor iur., LL.M.,
+S.J.D., University of Wisconsin Law School. Professor Henkel teaches Domestic and
+International Commercial Law, Bankruptcy, and European Union Law. He has specific
+experience in cross-border transactions, international litigation, and arbitration. The
+Author would like to thank Professors Jason Kilborn, Eric. F. Gerding, Anna Gelpern,
+William Sjostrom, Mehrsa Baradaran, Heidi M. Schooner, Elizabeth Trujillo, Jason
+Yackee, Claire R. Kelly, Sungjoon Cho, and David Zaring for their comments and
+suggestions. The Author would also like to thank the organizers and participants of the
+Section Meetings on Securities Regulation and Financial Institutions and Consumer
+Financial Services at the 2012 Annual Meeting of the American Association of Law
+Schools in Washington, D.C., as well as the organizers and participants of the workshop
+on Post-Crisis International Financial Regulation: Fragmentation, Harmonization and
+Coordination of the American Society of International Law at Suffolk University School
+of Law in December 2011. Finally, the Author acknowledges the research assistance of
+Ms. Caroline Kunz Ivanov on this project. The completion of this Article would not
+have been possible without her help and dedication.
+221
+EEEElleelleeccccttttrrrroooonnnniicciicc ccccooooppppyyyy aaaavvvvaaaaiilliiaallaabbbblleellee aaaatttt:::: hhhhttttttttppppss::::////////ssssssssrrrrnnnn....ccccoooommmm////aaaabbbbssssttttrrrraaaacccctttt====1111999900008888444477773333
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+TABLE OF CONTENTS
+I. INTRODUCTION .................................................................................................. 222
+II. CONTINGENT CAPITAL ....................................................................................... 233
+A. Potential for Reform and Financial Stability ........................................... 234
+B. Limitations and Open Issues .................................................................... 237
+C. Trends in Europe ..................................................................................... 243
+III. EUROPEAN COMMISSION PROPOSAL ................................................................... 246
+A. The Comprehensive Approach ................................................................. 247
+B. The Targeted Approach ........................................................................... 248
+IV. SEQUENTIAL TRIGGERS AS PART OF THE EUROPEAN COMMISSION’S
+TARGETED APPROACH ....................................................................................... 251
+A. First Trigger: Debt-Equity Conversion ................................................... 252
+B. Second Trigger......................................................................................... 255
+1. Objective Automatic Institution-Specific Trigger .............................. 256
+2. Voting Rights Increase for CCS Holders .......................................... 257
+a. Law of EU Member States ........................................................ 258
+b. U.S. Law.................................................................................... 259
+V. CONSTITUENT INCENTIVES ................................................................................. 263
+VI. QUASI-PREPARATION STAGE BEFORE BANKRUPTCY .......................................... 266
+A. Debtor in Possession and Creditor’s Committees ................................... 267
+B. Contingent Capital in Prepackaged Bankruptcy
+Plans and Preplan Sales .......................................................................... 270
+C. Chameleon Equity .................................................................................... 275
+VII. CONCLUSION ..................................................................................................... 277
+I. INTRODUCTION
+At the height of the financial crisis, many countries saw no other
+alternative than bailing out some of their most prominent financial
+institutions.1 Bank failure or the winding up of banks through the then-
+1. See Kenneth Ayotte & David A. Skeel, Jr., Bankruptcy or Bailouts?, 35
+J. CORP. L. 469, 470 (2010) (noting that although it would be difficult to extract a
+consistent policy from the government’s response to failing banks, a “guiding principle”
+became a preference for bailouts over bankruptcy and its attendant consequences and
+that “Lehman proved that you cannot let a large internationally active firm fail in the
+middle of a financial crisis” (quoting Interview by Scott Pelley with Ben Bernanke,
+Chairman, Fed. Reserve, on 60 Minutes (CBS television broadcast Mar. 15, 2009),
+available at http://www.cbsnews.com/stories/2009/03/12/60minutes/main4862191.shtml)
+(internal quotation marks omitted)); Wulf A. Kaal & Richard W. Painter, Initial
+Reflections on an Evolving Standard: Constraints on Risk Taking by Directors and
+Officers in Germany and the United States, 40 SETON HALL L. REV. 1433, 1435 (2010)
+(discussing several German banks that became involved in asset-backed commercial
+paper (ABCP) programs). Deutsche Bank, IKB, and SachsenLB were the leading bank
+sponsors with outstanding ABCP. This resulted in the eventual German government
+bailout of IKB and WestLB, which had to be bailed out four times. See George A.
+Walker, Financial Crisis—U.K. Policy and Regulatory Response, 44 INT’L LAW. 751,
+753–54 (2010) (commenting that in the United Kingdom, the bailouts began with the
+222
+EEEElleelleeccccttttrrrroooonnnniicciicc ccccooooppppyyyy aaaavvvvaaaaiilliiaallaabbbblleellee aaaatttt:::: hhhhttttttttppppss::::////////ssssssssrrrrnnnn....ccccoooommmm////aaaabbbbssssttttrrrraaaacccctttt====1111999900008888444477773333
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+existing channels of insolvency was perceived as the second-best solution.2
+Governments were hesitant to treat failing banks and other financial
+institutions through their regular insolvency procedures.3 Defaulting to
+insolvency proceedings would have imposed significant losses on creditors
+and shareholders. Winding up banks through insolvency could also have
+triggered bank runs4 and panic in financial markets.5
+Legislators worldwide recognize that avoiding a repeat of the financial
+crisis of 2008–2009 is an important legislative objective.6 Across
+jurisdictions, the proposals to achieve that objective are multifold.
+Regulation of financial institutions has emerged as one of the priorities.7
+Bank of England eventually nationalizing Northern Rock Bank in 2008, followed the
+next year by the government announcing a second support package for struggling banks).
+2. See Ayotte & Skeel, supra note 1, at 470–71.
+3. See DAVID SKEEL, THE NEW FINANCIAL DEAL: UNDERSTANDING THE DODD-
+FRANK ACT AND ITS (UNINTENDED) CONSEQUENCES 84–85 (2011) (arguing that the then-
+existing channels of bankruptcy would have sufficed to treat failing banks and noting
+that the Dodd-Frank Act instructs the General Accountability Office to conduct a study
+on contingent capital and to begin using it when the study is completed). Although Skeel
+refers to contingent capital as a “promising strategy,” he points out some limitations.
+Contingent capital will not be “especially effective if the bank can easily manipulate its
+capital, or if capital requirements are low.” Id. at 85. Skeel also recognizes that
+“[c]ontingent capital also will not protect against a sudden collapse, as in the cases of
+Bear Stearns and AIG . . . [because] new capital would come too late to break the fall.” Id.
+4. See Walker, supra note 1, at 753–54 (pointing out that though Northern Rock
+did not have significant exposure to the U.S. subprime market, it was dependent on
+wholesale funding from interbank markets within the United Kingdom). Northern
+Rock’s funding diminished with the reduction of wholesale lending. The lack of funding
+was leaked to the public through a British Broadcasting Corporation report, thus
+precipitating the bank run. Id.
+5. See id.; Mark J. Roe, The Derivatives Market’s Payment Priorities as Financial
+Crisis Accelerator, 63 STAN. L. REV. 539, 564 (2011) (recognizing that “one financial
+failure could induce another and, like dominoes, the financial system could collapse”).
+6. The Dodd-Frank Wall Street Reform and Consumer Protection Act was
+enacted with the intention of preventing another crisis. 155 CONG. REC. H14418-03,
+H14420 (daily ed. Dec. 9, 2009) (statement of Rep. Paul Kanjorski) (“[T]his body will
+have the opportunity to . . . fundamentally change the way Wall Street and large financial
+institutions operate. For roughly two years, we have endured a severe crisis that exposed
+vulnerabilities in our system for overseeing the financial sector and demonstrated the
+perils of deregulation.”);; HM TREASURY, A NEW APPROACH TO FINANCIAL REGULATION:
+JUDGMENT, FOCUS AND STABILITY 62 (2010), available at http://www.hm-treasury.gov.
+uk/d/consult_financial_regulation_condoc.pdf (“The policy objective is to reform the
+regulatory system for financial services to avoid a repeat of the financial crisis.”).
+7. See, e.g., Dodd-Frank Wall Street Reform and Consumer Protection Act §§ 805,
+808, 12 U.S.C. §§ 5464, 5467 (Supp. IV 2010) (containing a section titled “Examination
+of and enforcement actions against financial institutions subject to standards for
+designated activities” and providing that the relevant agency must “prescribe risk
+management standards”).
+223
+EEElleeleccctttrrrooonnniiccic cccooopppyyy aaavvvaaaiilliaalabbblleele aaattt::: hhhttttttpppss::://////ssssssrrrnnn...cccooommm///aaabbbssstttrrraaacccttt===111999000888444777333
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+The European Union (EU) Commission and the U.S. Congress invest
+heavily in regulatory oversight, preventive controls, and early intervention.8
+National legislators in the United States and the European Union have
+proposed regulatory schemes to satisfy politically driven demands for
+regulation. Countries that lack a legal framework for dealing with failing
+banks and other financial institutions are considering “resolution regimes”
+to address the regulatory shortcomings evidenced by the crisis. In an
+attempt to make banks and other financial institutions less likely to fail
+or, if failure seems inevitable, less likely to affect other institutions or
+the taxpayers, the Financial Stability Board (FSB), the EU Commission,
+and the U.S. Congress have already set up resolution regimes.9
+Contingent capital would help facilitate the efficient restructuring and
+resolution of failing financial institutions.10 Contingent capital is the
+predefined conversion of financial institutions’ debt securities upon a
+triggering event into equity securities.11 Pending contingent capital
+8. See DG INTERNAL MKT. & SERVS., TECHNICAL DETAILS OF A POSSIBLE EU
+FRAMEWORK FOR BANK RECOVERY AND RESOLUTION: WORKING DOCUMENT 1 (2011)
+[hereinafter DG WORKING DOCUMENT], available at http://ec.europa.eu/internal_market/
+consultations/docs/2011/crisis_management/consultation_paper_en.pdf; see also Dodd-
+Frank Wall Street Reform and Consumer Protection Act tit. IV, Pub. L. No. 111-203,
+124 Stat. 1376, 1570–80 (2010) (codified as amended in scattered sections of 15 U.S.C.
+(Supp. 2007–2011)).
+9. See Dodd-Frank Wall Street Reform and Consumer Protection Act §§ 201–
+217, 12 U.S.C. §§ 5381–5394 (Supp. IV 2010) (naming the subchapter “Orderly
+Liquidation Authority”);; DG WORKING DOCUMENT, supra note 8, at 51. The resolution
+regime would allow the important divisions of a bank to be separated out, continue
+business with minimal input, or be moved into healthy banks. Bad bank loans in one
+department would be isolated from the rest of the institution while the other “healthy”
+divisions of a bank would receive new capital to allow them to run normally. See id.; FIN.
+STABILITY BD., REDUCING THE MORAL HAZARD POSED BY SYSTEMICALLY IMPORTANT
+FINANCIAL INSTITUTIONS: FSB RECOMMENDATIONS AND TIME LINES 1–2 (2010),
+available at http://www.financialstabilityboard.org/publications/r_101111a.pdf. The FSB
+recommends various changes to resolve interconnected financial institutions in an orderly
+manner without costing taxpayers and while maintaining vital functioning. The
+recommended changes include subjecting the institutions to intensive supervision and
+resolution planning. See id.
+10. See STEVE STRONGIN ET AL., GOLDMAN SACHS GLOBAL MKTS. INST., ENDING
+“TOO BIG TO FAIL” 3–4 (2009), available at http://www2.goldmansachs.com/our-thinking/
+public-policy/regulatory-reform/effect-reform-part-5.pdf (showing what could have happened
+if contingent capital had been in place during the recent economic crisis); DG WORKING
+DOCUMENT, supra note 8, Annex I, at 86–87.
+11. For purposes of this Article, the terms contingent capital and contingent
+capital securities (CCS) will be used. There are other names for the same concept, such
+as contingent convertibles (CoCos). See Contingent Captital: CoCo Nuts, ECONOMIST,
+Nov. 5, 2009, available at http://www.economist.com/node/14816673?story_id= 14816673.
+Another name for the concept is regulatory hybrid securities. See SQUAM LAKE WORKING
+GRP. ON FIN. REGULATION, AN EXPEDITED RESOLUTION MECHANISM FOR DISTRESSED FINANCIAL
+FIRMS: REGULATORY HYBRID SECURITIES 4 (2009), available at http://www.cfr.org/
+economics/expedited-resolution-mechanism-distressed-financial-firms-regulatory-hybrid-
+securities/p19002 (suggesting that hybrid securities would increase creditors’
+224
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+proposals are expected to make financial institutions more resilient and
+avoid a future financial crisis.12 Although debt-equity conversion is not
+a new concept,13 the financial crisis has drawn increasing attention to
+this concept14 because conversion of debt into equity is seen as an
+confidence in banks, prevent bailouts, and enable banks to raise more private capital).
+Squam Lake’s suggested trigger mechanism would be dual: (1) “a declaration by
+regulators that the financial system is suffering from a systemic crisis. . . . [and (2)] a
+violation by the bank of covenants in the hybrid-security contract.” Id. The bank-
+specific trigger would likely “be based on the measures used to determine a bank’s
+capital adequacy, such as the ratio of Tier 1 capital to risk-adjusted assets.” Id. Squam
+Lake also offers alternatives for the rate at which debt will convert to equity, including
+basing the conversion rate solely on market value of equity or on the market value of
+equity and the hybrid security. Id.; see also Mark J. Flannery, Stabilizing Large
+Financial Institutions with Contingent Capital Certificates 2–8, 11 (Ctr. for Applied
+Research in Fin., Working Paper No. 04/10, 2009), available at http://papers.ssrn.
+com/sol3/papers.cfm?abstract_id=1485689 (suggesting that firms would not be required
+to issue contingent capital certificates (CCC), but they could be used to reduce the equity
+capital they are required to hold). The conversion trigger should be “expressed in terms of
+equity’s contemporaneous market value” and based on the firm’s condition rather than the
+financial system as a whole. Id. at 2–3. Based on the structure of the CCC,
+“shareholders bear more of the downside outcomes resulting from their investment
+decisions.” Id. at 5. Contingent capital certificates should be tax deductible for the firm.
+The author’s example triggers when the common shares’ market value falls below four
+percent of total assets. Id. at 7. The conversion must occur rapidly, automatically, and
+enough CCC will convert to raise the percentage to five percent—or the required level.
+See id. at 7–8. Also, converted CCC must be replaced in the capital structure promptly.
+Id. at 7. There are three possibilities for how to select which CCC would convert:
+(1) convert the shortest remaining maturity bonds first, (2) sell CCC with varying
+“seniorities” so some must convert fully before others begin to convert, or (3) select
+randomly. Contingent capital certificates are meant to reassign risk away from taxpayers
+and toward shareholders.
+12. See, for example, CEYLA PAZARBASIOGLU ET AL., INT’L MONETARY FUND,
+CONTINGENT CAPITAL: ECONOMIC RATIONALE AND DESIGN FEATURES: STAFF DISCUSSION
+NOTE 4 (2011), available at http://www.imf.org/external/pubs/ft/sdn/2011/sdn1101.pdf,
+for analysis on the merits of contingent capital as a crisis prevention tool based on the
+proposals by the Basel Committee, the FSB, and the EU.
+13. See Karl Clowry, Debt-for-Equity Swaps, in RESTRUCTURING AND WORKOUTS:
+STRATEGIES FOR MAXIMISING VALUE 27, 30 (2008); Michael W. Elliott, Contingent Capital
+Arrangements, 18 RISK MGMT. SEC. Q., Sept. 2001, at 1, 1–2, available at http://www.
+cpcusociety.org/file_depot/0-10000000/0-10000/3267/folder/20246/RMQsept.2001.pdf.
+14. See Edmund L. Andrews, Bernanke, in a Bow to Critics of Fed’s Role,
+Supports Forming a Regulatory Group, N.Y. TIMES, Oct. 2, 2009, at B3; Kristina Cooke,
+Fed’s Rosengren Endorses Contingent Capital Idea, REUTERS, Mar. 3, 2010, http://
+www.reuters.com/article/2010/03/03/usa-fed-rosengren-contingent-idUSWAT0141832
+0100303; Damian Paletta, Officials Push ‘Contingent Capital’ for Banks, WALL ST. J.,
+Oct. 22, 2009, at C7; William C. Dudley, President, Fed. Reserve Bank of N.Y.,
+Remarks at the Reserve Bank of Australia’s 50th Anniversary Symposium: The U.S.
+Financial System—Where We Have Been, Where We Are and Where We Need To Go 1
+(Feb. 8, 2010), available at http://www.bis.org/review/r100211b.pdf?frames=0; Alan
+225
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+alternative to forcing strained, but not insolvent, financial institutions into
+liquidation.15
+Professors Michael Bradley, Michael Rosenzweig, and others proposed
+the idea of using contingent capital in the context of corporate
+reorganization16 in the late 1980s and early 1990s.17 Also known as
+“chameleon equity,”18 Bradley and Rosenzweig proposed to replace
+Chapter 11 with contingent capital providing for the automatic cancellation
+of a corporation’s stock in the event of any default.19 The background of
+these early proposals can be compared and is rather close to today’s
+sentiment in relation to public bailouts of large financial institutions. In
+the late 1980s and 1990s, executive compensation as well as executive
+bonuses and their lifestyles had been blamed for the bankruptcies of
+prominent companies such as Eastern Airlines20 and TWA,21 among
+Greenspan, Chairman, Fed. Reserve, Subprime Lending and Securitization and
+Government-Sponsored Enterprises (GSOs), Testimony Before the Financial Crisis
+Inquiry Commission 11 (Apr. 7, 2010), available at http://cybercemetery.unt.edu/ archive/
+fcic/20110310180041/http://c0182412.cdn1.cloudfiles.rackspacecloud.com/2010-0407-
+Greenspan.pdf; Charles I. Plosser, President & Chief Exec. Officer, Fed. Reserve Bank
+of Phila., Welcoming Remarks: Financial Interdependence in the World’s Post-Crisis
+Capital Markets 4–5 (Mar. 3, 2010), available at http://www.philadelphiafed.org/
+publications/speeches/plosser/2010/03-03-10_gic-philadelphia.pdf.
+15. See John C. Coffee, Jr., Systemic Risk After Dodd-Frank: Contingent Capital
+and the Need for Regulatory Strategies Beyond Oversight, 111 COLUM. L. REV. 795, 806,
+825 (2011) (promoting contingent capital as an alternative to bankruptcy or bailouts,
+Coffee suggests a contingent capital design where “(1) [t]he conversion ratio would be
+deliberately designed to protect the debt holders from loss by instead diluting the
+existing equity holders, and (2) the debt security would convert into a fixed return
+preferred stock with cumulative arrearages and significant voting rights”). Coffee avers
+that converting the debt security into preferred stock creates a “countervailing voting
+constituency,” which offsets the voting power of “risk-tolerant common shareholders, thereby
+reducing the pressure on corporate managers to accept greater risk and leverage.” Id. at
+806. Under Coffee’s proposal, conversion would be triggered when the common stock
+price significantly decreases. Id. at 836.
+16. See Douglas G. Baird, A World Without Bankruptcy, 50 LAW & CONTEMP.
+PROBS. 173, 182 (1987); Robert E. Scott, Through Bankruptcy with the Creditors’
+Bargain Heuristic, 53 U. CHI. L. REV. 690, 704–05 (1986).
+17. See Barry E. Adler, Financial and Political Theories of American Corporate
+Bankruptcy, 45 STAN. L. REV. 311 (1993); Michael Bradley & Michael Rosenzweig, The
+Untenable Case for Chapter 11, 101 YALE L.J. 1043 (1992). But see Lynn M. LoPucki,
+Strange Visions in a Strange World: A Reply to Professors Bradley and Rosenzweig, 91
+MICH. L. REV. 79 (1992); Elizabeth Warren, The Untenable Case for Repeal of Chapter
+11, 102 YALE L.J. 437 (1992); Martin J. Whitman et al., A Rejoinder to “The Untenable
+Case for Chapter 11,” 2 J. BANKR. L. & PRAC. 839 (1993).
+18. Adler, supra note 17, at 323; see also David A. Skeel, Jr., Markets, Courts, and
+the Brave New World of Bankruptcy Theory, 1993 WIS. L. REV. 465, 483 (1993).
+19. Bradley & Rosenzweig, supra note 17, at 1078.
+20. John Greenwald, The Bankruptcy Game, TIME, May 18, 1992, at 60.
+21. Id.
+226
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+others.22 Today, management and shareholders are blamed for the failure of
+A.I.G. and other recipients of bailout money.23
+Although some suggest bankruptcy reform to remedy proprietary trading
+of banks and derivative trading,24 we do not suggest that Chapter 11
+needs replacement. Rather, contingent capital can help stabilize large
+financial firms for which a Chapter 11 reorganization is not the ideal
+solution or not an option. The latter is specifically important when
+discussing contingent capital from the European perspective. In Europe,
+the prevailing perception seems to be that any financial institution filing
+for bankruptcy protection cannot be reorganized.25 In the United States,
+the Dodd-Frank Wall Street Reform and Consumer Protection (Dodd-
+Frank) Act does not focus on the reorganization of financial institutions
+as a going concern but favors orderly liquidation and wind-down.26 The
+use of contingent capital may provide a pre-liquidation reorganization
+procedure allowing a bank to be managed as a going concern with the
+option of staying in the market place and returning to profitability. But
+the utilization of contingent capital may provide additional benefits. For
+example, contingent capital may support the minimization of moral hazard27
+and the avoidance of financial contagion,28 and limit systemic risk in the
+financial system that would otherwise be generated by financial institutions
+22. See generally LAURENCE H. KALLEN, CORPORATE WELFARE: THE
+MEGABANKRUPTCIES OF THE 80S AND 90S (1991) (explaining the relationship between
+corporate bankruptcies and Chapter 11 in the 1980s and 1990s).
+23. See Edmund L. Andrews & Peter Baker, At A.I.G., Huge Bonuses After $170
+Billion Bailout, N.Y. TIMES, Mar. 15, 2009, at A1.
+24. See SKEEL, supra note 3, at 158.
+25. Reinhard Bork, Grundfragen des Restrukturierungsrechts: Prolegomena zu
+einter Reform des deutschen Insolvenzrechts, 2010 ZEITSCHRIFT FÜR WIRTSCHAFTSRECHT
+UND INSOLVENZPRAXIS 397 (no. 9) (2010); Yvonne Stengel, Das Kreditinstitute-
+Reorganisationsgesetz: Rechtliche Aspekte der zukünftigen Sanierung und
+Reorganisation von Kreditinstituten, DER BETRIEB, Apr. 1, 2011 (Supplement), at 12; Lars
+Westpfahl, Vorensolvenzliches Sanierungsverfahren, 39 ZEITSCHRIFT FÜR UNTERNEHMENS-
+UND GESELLSCHAFTSRECHT 385, 392 (2010).
+26. Dodd-Frank Wall Street Reform and Consumer Protection Act § 214, 12
+U.S.C. § 5394 (Supp. IV 2010). Section 5393 is the so-called Boxer Amendment. “All
+financial companies put into receivership under this subchapter shall be liquidated. No
+taxpayer funds shall be used to prevent the liquidation of any financial company under
+this subchapter.” Id.; see also SKEEL, supra note 3, at 138 (noting that “the framework is
+designed with liquidation in mind”).
+27. See Coffee, supra note 15, at 809–10 (suggesting that converting debt into
+equity would effectively offset the pressure on managers to make risky investments,
+thereby reducing moral hazard).
+28. Id. at 822.
+227
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+that may be too big to fail.29 Contingent capital may also support general
+risk control in financial institutions,30 and in comparison with bankruptcy,
+the holders of contingent capital and former creditors could become
+active participants in the reorganization of the financial institution at a
+much earlier stage. Contingent capital is also less expensive and less time
+consuming and may set the right level of incentives by creating ownership
+stakes in its holders. Contingent capital could also be cheaper than
+equity financing if the interest expense is deemed tax deductible and if,
+in its non-dilutive form of financing, there is no threat of change of
+control associated with it.
+A draft by the EU Commission, proposing a targeted and comprehensive
+approach to restructure and resolve financial institutions,31 recommends
+the mandatory issuance of contingent capital securities (CCS) for
+systemically important banks.32 The proposal suggests financial institutions
+could be required to issue CCS in volumes between four and nineteen
+percent of risk-weighted assets.33 European countries including Germany,
+England, and Switzerland and the Basel Committee have proposed rules
+29. GOLDMAN SACHS GLOBAL MKTS. INST., CONTINGENT CAPITAL: POSSIBILITIES,
+PROBLEMS AND OPPORTUNITIES 3 (2011), http://www2.goldmansachs.com/our-thinking/
+public-policy/regulatory-reform/contingent-capital.pdf (“At its core, contingent capital is
+simply a security that recapitalizes a troubled financial firm. It does so without recourse
+to taxpayer funds, which is why it is seen as such a promising solution to the too big to
+fail problem.”).
+30. See Raghuram G. Rajan, Note to Douglas V. Diamond & Raghuram G. Rajan,
+Fear of Fire Sales and the Credit Freeze 25, 28 (Bank for Int’l Settlements, Working
+Paper No. 305, 2010), available at http://www.bis.org/publ/work305.pdf (“[C]ontingent
+capital is like installing sprinklers . . . . [W]hen the fire threatens, the sprinklers will turn
+on.”). But see Christian Koziol & Jochen Lawrenz, Contingent Convertibles: Solving or
+Seeding the Next Banking Crisis?, 36 J. BANKING & FIN. 90, 91, 101 (2012) (suggesting
+that CoCo bonds may “create negative externalities, in the sense that the (destabilizing)
+risk-shifting problem induced by CoCo bonds may overcompensate the (stabilizing)
+effect of providing a pre-committed recapitalization to banks” and through the use of a
+“dynamic continuous-time framework” concluding that “the beneficial impact of CoCo
+bonds crucially hinges on the assumption if bank managers have substantial discretion
+over the bank’s business risk”). Koziol and Lawrenz contend that if complete contracts
+can be written, CoCos are clearly beneficial; however, if allowing for incomplete
+contracts, the authors argue that “CoCo bonds always distort risk taking incentives.” Id.
+at 101. “Therefore, equity holders have incentives to take excessive risks. . . . Thus,
+CoCos may be an example where individually rational decisions can have systemically
+undesirable outcomes.” Id.
+31. See DG WORKING DOCUMENT, supra note 8, Annex I, at 87–90.
+32. See id. at 32, 87 (recognizing that contingent capital will likely be most useful
+with systemically important banks, but considering applying the resolution to all credit
+institutions).
+33. Id. at 89 n.24. Other estimates for mandatory issuance of contingent capital
+range from four to eight percent of risk-weighted assets. See, e.g., GOLDMAN SACHS
+GLOBAL MKTS. INST., supra note 29, at 13.
+228
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+on contingent capital.34 Similarly, the Dodd-Frank Act, in section 115(c),
+mandates a study on the feasibility of contingent capital.35 The study is
+due by July 2012.36
+With the implementation of mandatory contingent capital rules, the
+EU Commission and the U.S. Congress may be mandating the
+establishment of a new market in CCS. It is unclear how and when a
+market in CCS could gain critical mass,37 what volumes in CCS will be
+issued by financial institutions, how rating agencies may rate CCS, what
+long-term implications and possible applications CCS could have,38 and
+whether CCS will be listed in benchmark indices. The market acceptance
+34. See BASEL COMM. ON BANKING SUPERVISION, BANK FOR INT’L SETTLEMENTS,
+BASEL III: A GLOBAL REGULATORY FRAMEWORK FOR MORE RESILIENT BANKS AND BANKING
+SYSTEMS 1, 7 (2010), available at http://www.bis.org/publ/bcbs189_dec2010.pdf (addressing
+systemic risk and interconnectedness and developing approaches including contingent
+capital and bail-in debt); STATE SEC. FOR INT’L FIN. MATTERS OF THE SWISS CONFEDERATION,
+FINAL REPORT OF THE COMMISSION OF EXPERTS FOR LIMITING THE ECONOMIC RISKS
+POSED BY LARGE COMPANIES 4, 59–60 (2010) [hereinafter SWISS REPORT], available at
+http://www.sif.admin.ch/dokumentation/00514/00519/00592/index.html?lang=en (showing
+that part of the Swiss proposal to deal with systemically important institutions is to
+apportion nine percent of the total capital ratio in contingent convertible bonds with
+predefined triggers); BANK OF ENG., FINANCIAL STABILITY REPORT 56 (2010), available
+at http://www.bankofengland.co.uk/publications/fsr/2010/fsrfull1012.pdf (suggesting that
+contingent capital will result in higher loss absorbency and proposing two types of contingent
+capital: precautionary and non-viability); BUNDESMINISTERIUMS DER JUSTIZ, GESETZ ZUR
+ÄNDERUNG DES AKTIENGESETZES, BEARBEITUNGSSTAND: REFERENTENENTWURF 17–18
+(2010), available at http://www.der-betrieb.de/content/pdfft,0,395158.
+35. Dodd-Frank Wall Street Reform and Consumer Protection Act §§ 115(c),
+165(b), 12 U.S.C. §§ 5325(c), 5365(b) (Supp. IV 2010).
+36. Id. § 115(c)(2) (“The Council shall submit a report to Congress regarding the
+study required by paragraph (1) [contingent capital study required] not later than 2 years
+after the date of enactment of this Act [July 21, 2010].”).
+37. See Wulf A. Kaal, Initial Reflections on the Possible Application of Contingent
+Capital in Corporate Governance, 26 NOTRE DAME J.L. ETHICS & PUB. POL’Y 101, 135–
+38 (2012).
+38. Id. at 101 (“The regulatory evaluation of contingent capital in the United States
+could be an opportunity to assess the possible application of contingent capital in the
+corporate governance of SIFIs. While regulatory initiatives in Europe and the academic
+debate in the United States are dominated by efforts to improve the technical design
+features of contingent capital securities, . . . contingent capital designs in various jurisdictions
+could benefit from experimentation and a learning experience that takes corporate
+governance applications into account. As the design features evolve and their scope and
+impact become clearer, possible corporate governance improvements could become
+more obvious.”). For a further evaluation of the possible applications of contingent
+capital in corporate governance and specifically in executive compensation, see Wulf A.
+Kaal, Contingent Capital in Executive Compensation (unpublished manuscript) (on file
+with author).
+229
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+may depend to a significant extent on the design features of CCS and
+ratings by rating agencies.
+Crucial for the effectiveness and impact of contingent capital,
+and therefore most contentious among scholars and policymakers, is
+the design of the triggering event.39 If conversion of CCS from debt into
+equity is triggered too early without a real financial need for an equity
+capital injection and additional voting shareholders, the expected financial
+impact of the equity capital injection may dissipate. If triggered too
+early, the capital injection may no longer be available when actually
+needed to avoid resolution. On the other hand, if conversion from debt
+to equity is triggered too late, the financial institution may already be in
+the resolution stage, and conversion at that stage may not supply the
+company with sufficient equity to facilitate the desired financial
+improvement.
+Given the risk that policymakers could structure contingent capital
+rules with a suboptimal trigger design combined with the multiple benefits
+of using contingent capital in different phases of a company’s life cycle,
+this Article suggests a sequential trigger design for CCS. Although the
+first trigger may follow a design that has previously been suggested by
+39. See Robert L. McDonald, Contingent Capital with a Dual Price Trigger 1, 20
+(Apr. 11, 2011) (unpublished manuscript), available at http://ssrn.com/abstract=1553430
+(proposing a model for contingent capital where debt converts to equity if both (1) “the
+firm’s stock price is at or below a trigger value,” and (2) “the value of a financial
+institution’s index is also at or below a trigger value”). McDonald concludes that the
+dual trigger proposal’s strength is its reliance on market prices, and its disadvantage is
+the index trigger, which could potentially create a situation where “bondholders could
+have an incentive to try to force the institution into bankruptcy before conversion
+can occur.” Id. at 13; see also George Pennacchi et al., Contingent Capital: The Case for
+COERCs 9, 13 (Oct. 2010) (unpublished manuscript), available at http://papers.ssrn.
+com/sol3/papers.cfm?abstract_id=1656994 (proposing a call option enhanced reversed
+convertible (COERC) security as a form of contingent capital). A COERC has two
+significant features: (1) “the conversion price is set significantly below the trigger price,”
+and (2) shareholders have the option to “buy the shares back from the bondholders after
+conversion at this same low conversion price.” Id. at 9. Pennacchi notes that for conversion
+to occur at such low stock prices, common stock holders would have to approve the
+increase in authorized shares. Id. The authors assert that the structure of COERCs would
+potentially make future financial distress less likely, stating that “the fact that the conversion
+price is set significantly below the trigger price gives a strong incentive for shareholders to . . .
+repay the bonds at their par value. This will in turn reduce the risk of the bonds, thereby
+enhancing their marketability with fixed income investors.” Id.; see also Suresh M.
+Sundaresan & Zhenyu Wang, On the Design of Contingent Capital with Market Trigger 6, 10
+(Fed. Reserve Bd. of N.Y., Working Paper Series Staff Report No. 448, 2011), available at
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1612894 (recognizing that a value transfer
+between equity and contingent capital “disturbs equilibrium by moving the stock price
+up or down depending on the conversion ratio,” and that the proposals typically ensure
+that there is no value transfer at maturity but do not ensure there is no transfer before
+maturity).
+230
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+other authors,40 we suggest a second trigger of contingent capital before
+the resolution of a financial institution but after conversion into equity.
+Increasing the voting rights pre-resolution could be triggered by evidence
+that the conversion into equity was not successful, that conversion was
+triggered too early or too late, or that there is an overall continuing
+downward trend in the financial performance of the company.41 This
+could provide additional incentives for shareholders and management to
+avoid further dilution. The second trigger design could also signal a further
+potential increase in default risk. The holders of contingent capital,
+whose debt securities would have converted into equity securities at that
+point, would receive increased voting rights if the financial situation of
+the institution did not improve after conversion into equity. Only prior
+contingent capital holders would receive increased voting rights, provided
+the financial situation of the institution did not improve sufficiently after
+conversion into equity but before authorities initiated liquidation and the
+transfer of assets. Besides providing for super-voting rights and increasing
+dilution, the second trigger would also be a reorganization tool independent
+of management decisions or corrective action by regulators. The second
+trigger could also increase the marketability of CCS and may allow rating
+agencies to adequately assess this form of convertible securities.
+This Article’s proposal would add another dimension to the draft of
+the EU Commission by integrating contingent capital in the early prevention
+phase in addition to the resolution phase, as suggested by the Commission.42
+Assuming a predefined mandatory issuance of CCS under EU law,43
+sequential triggers within the EU Commission’s targeted and comprehensive
+approach44 could take various forms. Although we appreciate the need
+for optimal design features of the first trigger that converts contingent
+capital into equity, the focus of this Article will be on the potential design
+40. See, e.g., McDonald, supra note 39, at 2 (suggesting conversion when the
+firm’s stock price falls and the value of the firm falls below a trigger price);; Pennacchi et
+al., supra note 39, at 14 (suggesting a conversion price below a specified trigger).
+41. We recognize the risk that the market may interpret the actual triggering of the
+first trigger negatively. The determination of inadequacy of the first trigger or a continuing
+financial weakening may depend on multiple factors. We recognize the need for carefully
+calibrated criteria assessing financial weakening after the first trigger.
+42. See DG WORKING DOCUMENT, supra note 8, Annex I, at 87–89.
+43. See id. at 89 & n.24 (suggesting a minimum mandatory issuance of contingent
+capital between four and nineteen percent of risk-weighted assets).
+44. See id. at 87–89.
+231
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+of a second trigger before resolution.45 Although we do not intend to
+take sides in the debate on an optimal design of the first trigger, we
+are inclined to favor a threshold in market value as a basis for a trigger
+design.46 The volume of CCS issuance should probably be large enough
+to result in sufficient dilution upon conversion,47 and the timeframe for
+the trigger should probably be around ninety days.48 The herein-suggested
+design of the first trigger leaves many questions unanswered.
+In the United States, the Dodd-Frank Act mandates orderly liquidation.49
+The Federal Deposit Insurance Corporation (FDIC) is drafting rules
+requiring the biggest financial firms to plan for orderly liquidations should
+they face collapse.50 U.S. policymakers could benefit from considering
+contingent capital as a preventive tool as well as a tool before resolution
+of a financial institution. Using a second trigger to increase voting rights
+of contingent capital holders before resolution could work equally well in
+the United States and the European regulatory schemes. The interplay of
+conversion from debt to equity before resolution as a preventive act and
+the second trigger of contingent capital before resolution in the European
+and U.S. legal frameworks would need to be carefully calibrated.
+Additional research will be needed to adequately evaluate the interplay of
+the first and second trigger and the incentive structure for contingent
+45. Our Article builds on the research on the efficient design of first triggers by
+Coffee, supra note 15; Flannery, supra note 11; McDonald, supra note 39, at 1; George
+Pennacchi, A Structural Model of Contingent Bank Capital (Fed. Reserve Bank of
+Cleveland, Working Paper No. 10-04, 2010), available at http://papers.ssrn.com/sol3/
+papers.cfm?abstract_id=1595080.
+46. The core argument for this design feature is that it helps avoid total reliance on
+accounting methods that could otherwise be subject to manipulation. A promising approach
+suggested by Calomiris and Herring focuses on the quasi-market value of equity ratio. See
+Charles W. Calomiris & Richard J. Herring, Why and how To Design a Contingent
+Convertible Debt Requirement 1 (Nov. 2011) (unpublished manuscript) (on file with
+University of Pennsylvania), available at http://fic.wharton.upenn.edu/fic/papers/11/11-41.pdf
+(proposing a contingent capital requirement both to prevent bailouts and as an incentive
+to capitalize and suggesting that for a contingent capital requirement to be most
+effective: “(a) a large amount of CoCos (relative to common equity) should be required,
+(b) CoCo conversion should be based on a market value trigger, defined using a moving
+average of a ‘quasi market value of equity ratio’ (QMVER), (c) all CoCos should
+convert if conversion is triggered, and (d) the conversion ratio should be dilutive of
+preexisting equity holders”).
+47. See STRONGIN ET AL., supra note 10, at 5.
+48. See id. at 6 (suggesting a period of thirty days after triggering during which
+firms could recapitalize in public markets, and that if the firm is unable to recapitalize,
+the capital would convert automatically).
+49. Dodd-Frank Wall Street Reform and Consumer Protection Act § 204, U.S.C.
+§ 5384 (Supp. IV 2010) (titling the section “Orderly liquidation of covered financial
+companies”).
+50. See Eric Dash, Chairwoman at F.D.I.C. Is Departing, N.Y. TIMES, May 10,
+2011, at B1.
+232
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+capital holders, shareholders, and management.51 This Article evaluates
+regulatory proposals on restructuring of financial institutions and the role
+contingent capital may play in this context. We point out the pertinent
+issues that need to be resolved before regulatory proposals can be
+implemented in Europe and the United States and suggest a solution to
+some of the open issues by providing a comparative perspective on
+contingent capital and the use of a second trigger before resolution. We
+also describe where additional research may be needed and what
+additional steps could be taken to further optimize the use of contingent
+capital in bank restructuring.
+II. CONTINGENT CAPITAL
+For purposes of this Article, contingent capital is the predefined
+conversion of a certain percentage of financial institutions’ debt securities
+into equity securities.52 A common denominator in the proposals on
+the use of contingent capital in the context of avoiding future crises could be
+the issuance of a certain percentage of a financial institution’s long-term
+debt capital as convertible debt securities that convert into equity when
+triggered by financial weakening of the financial institution.53
+51. The role of this Article is to point out the benefits of contingent capital not
+only as a preventive tool but also in reorganization. We appreciate that the calibration of
+first and second trigger designs will require a learning experience and a concerted effort
+of regulators worldwide.
+52. For purposes of this Article, the terms contingent capital and CCS will be
+used. Other terms for the same concept are: CoCos, regulatory hybrid securities, contingent
+capital certificates, or embedded contingent capital. Julie Dickson, Superintendent, Office of
+the Superintendent of Fin. Insts. Can., Remarks at the Financial Services Invitational
+Forum 4 (May 6, 2010), available at http://www.osfibsif.gc.ca/app/DocRepository/1/
+eng/speeches/jdlh20100506_e.pdf.
+53. See Coffee, supra note 15, at 805; McDonald, supra note 39, at 20; Flannery,
+supra note 11, at 2, 12; Darrell Duffie, Contractual Methods for Out-of-Court
+Restructuring of Systemically Important Financial Institutions (Dec. 9, 2009) (unpublished
+manuscript), available at http://media.hoover.org/sites/default/files/documents/06Ending
+GovernmentBailoutsAsWeKnowThemDuffie.pdf (focusing on possible triggers of
+distress-contingent convertible bonds/debt—essentially CCS). Duffie suggests that if the
+trigger is an accounting capital ratio, it may not be able to capture the true financial
+condition of the bank because of accounting failures. See id. The ratio of tangible common
+equity to tangible assets may be more effective because it excludes the relatively
+“useless assets during a solvency crisis.” Id. at 4. If the trigger is determined by market
+value, the impact of a short seller speculative attack could be mitigated by using a trailing
+average share price, for example, the preceding twenty days. To eliminate a “bank run,”
+the trigger should be set to convert debt into equity before a liquidity crisis begins. Id. at
+5. Duffie also discusses mandatory rights offerings. Id. at 6–8.
+233
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+However, debt-equity conversion is not a new concept.54 The financial
+crisis has drawn increasing attention to this concept because the conversion
+of debt into equity could be an attractive alternative to forcing strained,
+but not insolvent, financial institutions into restructuring or liquidation.55
+A. Potential for Reform and Financial Stability
+Contingent capital securities will likely play a major role in attempts
+by various jurisdictions at providing rules that would allow the efficient
+restructuring and resolution of failing financial institutions.56 Policymakers
+in the United States and the European Union support the idea of
+implementing contingent capital.57 Because contingent capital is perceived
+as stabilizing systemically important financial institutions (SIFIs) and
+preparing them for future financial crises,58 several academics also support
+the concept of contingent capital.59
+Although the scope and role of contingent capital is contentious,60 there
+seems to be some consensus on the core objectives that may be achieved by
+54. See Clowry, supra note 13, at 27–28; Elliott, supra note 13. “Pfandbriefe” or
+covered bonds, created in 1769 in Prussia, became the blueprint for the covered bond
+models in Europe and beyond. See Ted Lord, The Investor’s Perspective, in COVERED
+BONDS AND PFANDBRIEFE: INNOVATIONS, INVESTMENT AND STRUCTURED ALTERNATIVES
+60, 62–63 (Jonathan Golin ed., 2006).
+55. See Coffee, supra note 15, at 816, 825.
+56. See DG WORKING DOCUMENT, supra note 8, Annex I.
+57. See Christoph K. Henkel & Wulf A. Kaal, Contingent Capital in European
+Union Bank Restructuring, N.W. J. INT’L L. & BUS. (forthcoming 2012) (on file with
+authors); Andrews, supra note 14 (quoting Bernanke stating “that giant financial players
+might be forced to adopt ‘contingent’ capital,” and noting that contingent capital is
+“gaining popularity within the Fed”);; Daniel K. Tarullo, Governor, Fed. Reserve, Speech
+at the Exchequer Club in Washington, D.C., to the Federal Reserve: Confronting Too
+Big To Fail (Oct. 21, 2009) (transcript available at http://www.federalreserve.gov/
+newsevents/speech/tarullo20091021a.htm) (commenting that contingent capital is an
+effort “worth pursuing”);; Press Release, European Commission, Commission Wants
+Stronger and More Responsible Banks in Europe (July 20, 2011), available at http://
+europa.eu/rapid/pressReleasesAction.do?reference=IP/11/915&format=HTML&aged=0
+&language=en&guiLanguage=en (“The proposal will require banks to hold more and
+better capital to resist future shocks by themselves.”). The proposal also translates the
+bank capital agreed to in the Basel III agreement. See also SWISS REPORT, supra note 34,
+at 41–42 (proposing the conversion of contingent capital upon certain triggering events).
+58. See Flannery, supra note 11, at 2.
+59. See, e.g., SKEEL, supra note 3, at 84 (referring to contingent capital as a
+“promising strategy”);; Coffee, supra note 15, at 801–03 (promoting contingent capital as
+an alternative to bailouts); Henkel & Kaal, supra note 57; Pennacchi et al., supra note
+39, at 1 (noting that contingent capital can prevent bailouts of banks that are “too big to
+fail”).
+60. See, e.g., SKEEL, supra note 3, at 84–85 (pointing out that contingent capital
+will not likely be effective if a bank can “easily manipulate its capital,” and that contingent
+capital “will not protect against a sudden collapse, as in the cases of Bear Stearns and
+AIG”);; Koziol & Lawrenz, supra note 30, at 91, 101 (suggesting that CoCo bonds may
+“create negative externalities, in the sense that the (destabilizing) risk-shifting problem
+234
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+implementing contingent capital proposals. Among those are the objectives
+of bail-in,61 signaling default risk,62 incentive to increase capital,63 and
+less risk-taking.64
+Benefits of implementing contingent capital into national regulatory
+frameworks could include the minimization of moral hazard,65 avoidance
+of financial contagion,66 and limitation of systemic risk in the financial
+system that would otherwise be generated by SIFIs that are too big to
+induced by CoCo bonds may overcompensate the (stabilizing) effect of providing a pre-
+committed recapitalization to banks” and through the use of a “dynamic continuous-time
+framework” concluding that “the beneficial impact of CoCo bonds crucially hinges on
+the assumption if bank managers have substantial discretion over the bank’s business
+risk”);; Oliver Hart & Luigi Zingales, A New Capital Regulation for Large Financial
+Institutions 5–7 (Fondazione Eni Enrico Mattei, Working Paper No. 124.2009, 2009),
+available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=153 3274. In proposing
+a market-based trigger, the authors point out that Flannery’s 2005 proposal has three
+potential shortcomings: “First, it is too lenient toward management, eliminating one of
+the disciplinary effects of debt. Second, it can have perverse effects: the manager talking
+down the stock so as to obtain more slack. Third, it generates multiple equilibria, some
+of which are inefficient.” Id. at 5.
+61. See Coffee, supra note 15, at 801–03 (promoting contingent capital as an
+alternative to bailouts); SQUAM LAKE WORKING GRP. ON FIN. REGULATION, supra note
+11, at 3–4 (suggesting that hybrid securities would help prevent bailouts); Calomiris &
+Herring, supra note 46, at 39 (averring that contingent capital could help prevent the “too
+big to fail” problem).
+62. See William C. Dudley, President & Chief Exec. Officer, Fed. Reserve of
+N.Y., Remarks at the Institute of International Bankers Membership Luncheon: Some
+Lessons from the Crisis 4, 6–7 (Oct. 13, 2009) (transcript available at http://www.bis.
+org/review/r091014a.pdf?frames=0) (proposing that CCS can be used to adequately capture
+risk); Raghuram Rajan, More Capital Will Not Stop the Next Crisis, FIN. TIMES (Eng.),
+Oct. 2, 2009, at 9 (suggesting that CCS should be used to raise capital “when regulators
+see a crisis coming”).
+63. See SQUAM LAKE WORKING GRP. ON FIN. REGULATION, supra note 11, at 4
+(suggesting that contingent capital will enable banks to raise more capital); see also Calomiris
+& Herring, supra note 46, at 39 (proposing that a contingent capital requirement would
+be an incentive to capitalize).
+64. See Dudley, supra note 62, at 6 (averring that because of bank difficulties that
+would trigger conversion, this dilution of shareholders creates an incentive for bank
+managers to “manage not only for good outcomes on the upside of the boom, but also
+against bad outcomes on the downside”);; Pennacchi et al., supra note 39, at 9, 13
+(suggesting that their COERC proposal would reduce the risks of bonds).
+65. Mark J. Flannery, No Pain, No Gain? Effecting Market Discipline via “Reverse
+Convertible Debentures” 15 (Nov. 2002) (unpublished manuscript), available at http://
+papers.ssrn.com/sol3/papers.cfm?abstract_id=352762 (“Frequent trigger evaluations eliminate
+moral hazard incentives and expose the RCD to surprisingly low default risk.”).
+66. See STRONGIN ET AL., supra note 10, at 6, 10 (noting that if the appropriate
+triggers are in place, it could prevent bank runs—though if the trigger is based on market
+prices, it could worsen bank runs).
+235
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+fail.67 Contingent capital could also support general risk control in financial
+institutions.68 By internalizing bank failure costs, contingent capital may
+contribute to minimizing moral hazard. A contingent debt security with
+a conversion trigger would presumably not default and could thus help
+avoid contagion and systemic spillover effects, which in turn may limit
+systemic risk. Contingent capital is also an automatic mechanism for
+increasing capital while reducing debt with the long-term benefit of
+lowering leverage.69
+CCS could also be used to adequately capture risk. CCS will likely be
+more efficient than raising capital requirements because the capital arrives
+only when it is needed. Contingent capital could incentivize principals-
+owners-managers to lower their risk-taking on behalf of the financial
+institution.70 The threat of loss due to conversion of CCS and the implicit
+dilution of stock holdings could reduce incentives for shareholders to
+encourage management to take higher risks for higher returns. Dilution
+of shareholders creates an incentive for bank managers to “manage not
+only for good outcomes on the upside of the boom, but also against bad
+outcomes on the downside.”71 Should conversion have a negative effect on
+the stock price,72 management could be further incentivized to maintain
+and manage risk to avoid reputational loss and income reduction due to
+losses in stock options.73 Some studies have shown that stricter controls,
+67. See Coffee, supra note 15, at 806 (suggesting that contingent capital should be
+designed to create a standard for SIFIs).
+68. See Diamond & Rajan, supra note 30, at 28 (“[C]ontingent capital is like
+installing sprinklers. . . . [W]hen the fire threatens, the sprinklers will turn on.”). But see
+Koziol & Lawrenz, supra note 30, at 91, 100–01 (“[C]ontrary to the previous work on
+CoCo bonds, our results demonstrate that CoCo bonds can create negative externalities
+for the economy, and that individually rational decisions may have systemically
+undesirable outcomes.”).
+69. See Coffee, supra note 15, at 805 (averring that contingent capital can counter
+leverage debt).
+70. See id. at 806 (averring that converting the debt security into preferred stock
+creates a “countervailing voting constituency,” which offsets the voting power of “risk-
+tolerant common shareholders, thereby reducing the pressure on corporate managers to
+accept greater risk and leverage”);; Dudley, supra note 62, at 6 (asserting that because of
+bank difficulties that would trigger conversion, this dilution of shareholders creates an
+incentive for bank managers to “manage not only for good outcomes on the upside of the
+boom, but also against bad outcomes on the downside”).
+71. Dudley, supra note 62, at 6.
+72. A potential effect of CCS conversion on stock prices will likely be evaluated in
+future research. See Sundaresan & Wang, supra note 39, at 21 (suggesting that under
+their design of contingent capital, where the state-contingent conversion ratio prevents
+value transfer, the prices would be kept “‘smooth’ at conversion”).
+73. Even though there is a trend toward a reduction in stock option compensation,
+management may still receive a certain percentage of its compensation in stock options.
+See Guido Ferrarini & Maria Cristina Ungureanu, Economics, Politics, and the International
+Principles for Sound Compensation Practices: An Analysis of Executive Pay at European
+Banks, 64 VAND. L. REV. 431, 460 (2011) (noting that stock option compensation has
+236
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+corporate governance constraints, and stronger regulatory pressure may
+incentivize financial institutions to act more prudently and to avoid
+excessive risk-taking.74 CCS may also have the potential for further
+enhancement of regulatory capital required by the Federal Reserve75 and
+Basel III.76 It could create a regime for providing countercyclical regulatory
+capital in an efficient way,77 while displaying both “stick” and “carrot”
+incentives.78 Swiss legislators have already implemented rules on
+enhancing the role of contingent capital as regulatory capital.79
+B. Limitations and Open Issues
+Despite the many benefits of contingent capital and its potential for
+helping to save financial firms, contingent capital cannot prevent economic
+been curtailed; for example, in France, remuneration requirements ban stock options and
+limit bonuses).
+74. See Tao-Hsien Dolly King & Min-Ming Wen, Shareholder Governance,
+Bondholder Governance, and Managerial Risk-Taking, 35 J. BANKING & FIN. 512, 530
+(2011) (showing that strong bondholder governance incentivizes low-risk investments);
+Bertrand Rime, Capital Requirements and Bank Behaviour: Empirical Evidence for
+Switzerland, 25 J. BANKING & FIN. 789, 803–04 (2001); Ronald E. Shrieves & Drew Dahl,
+The Relationship Between Risk and Capital in Commercial Banks, 16 J. BANKING & FIN.
+439, 455–56 (1992).
+75. The Fed requires another three percent for systemically important banks,
+bringing the total regulatory capital requirement to ten percent. Dodd-Frank Wall Street
+Reform and Consumer Protection Act § 171, 12 U.S.C. § 5371 (Supp. IV 2010) (requiring
+federal banking agencies to establish minimum capital requirements); John H. Cochrane,
+The More Bank Capital, the Safer the Bank, WALL ST. J., July 15, 2011, at A15. The
+Fed’s Dan Tarullo even proposed fourteen percent. Id.
+76. Basel III calls for seven percent regulatory capital, up from three percent.
+Press Release, Bank for Int’l Settlements, Group of Governors and Heads of Supervision
+Announces Higher Global Minimum Capital Standards 1–2 (Sept. 12, 2010), http://
+www.bis.org/press/p100912.pdf.
+77. Dudley, supra note 62, at 6–7.
+78. Rajan, supra note 62 (suggesting that CCS should be used to raise capital
+“when regulators see a crisis coming,” that raising capital through CCS during “good
+times” will allow it to be cheap and easier to enforce, and also that infusing capital
+during “bad times” protects the system and the taxpayers with the right contingencies in
+place). Contingent capital securities have both “stick” and “carrot” incentives. Automatic
+conversion of CCS has a disciplinary effect by punishing aggregate bank losses. Id.
+Conversion when a bank’s capital ratio falls below a certain level encourages banks to
+anticipate losses, to raise new capital, and to protect the taxpayers and their shareholders.
+Id. But see Cochrane, supra note 75 (arguing that financial engineers will likely find a
+way to circumvent the new rules on regulatory capital under Basel III and Dodd-Frank
+because they did so successfully in the past, and that as long as the government
+subsidizes lending and bailouts, more capital is needed to make banks safer).
+79. SWISS REPORT, supra note 34, at 59 tbl.4 (proposing six percent CoCos for
+regulatory capital in Switzerland).
+237
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+failure.80 Contingent capital can only limitedly protect against information
+asymmetries, principal/agent issues, and collective action problems.81
+Among the open issues of discontent are the objectives of CCS,82 CCS
+design features and their calibration,83 the mandatory or voluntary nature of
+contingent capital,84 the volume of CCS issuance,85 CCS market
+development,86 and others.87 In light of these limitations and open issues,
+80. See Coffee, supra note 15, at 833 (“If a firm’s variable costs clearly exceed its
+revenues, and no turnaround is in sight, the firm will not be saved by converting its
+bonds into preferred stock. . . . [and] resolution authority provides the superior
+mechanism for its liquidation. Thus, the boundaries within which contingent capital can
+feasibly work are set by the firm’s ability to recover its variable costs.”).
+81. For further discussion, see infra Part IV.B.
+82. See SQUAM LAKE WORKING GRP. ON FIN. REGULATION, supra note 11, at 4
+(noting that contingent capital is intended to increase creditors’ confidence in banks,
+prevent bailouts, and enable banks to raise more capital).
+83. See Coffee, supra note 15, at 827 (noting that many papers focus on the
+mechanics of contingent capital); Meera Louis, Europeans Lose Out to U.S. with Basel
+Committee’s Contingent Capital Vote, BLOOMBERG (June 27, 2011), available at
+http://www.bloomberg.com/news/2011-06-26/basel-committee-decision-on-contingent-
+capital-backs-u-s-stance.html (commenting that not all European countries even support
+the use of contingent capital). Scholars have suggested a variety of different design
+features. See, e.g., Duffie, supra note 53, at 3 (“There are a number of alternative designs for
+the distress trigger and for the conversion ratio, the number of shares of equity to be
+received in exchange for each dollar of bond principal.”);; Flannery, supra note 11, at 4
+(arguing that “the conversion trigger must be expressed in terms of equity’s contemporaneous
+market value”);; McDonald, supra note 39, at 1–2.
+84. See MARY FRANCES MONROE, AM. BANKERS ASS’N, RESPONSE SUBMISSION RE:
+CONSULTATIVE DOCUMENT: PROPOSAL TO ENSURE THE LOSS ABSORBENCY OF REGULATORY
+CAPITAL AT THE POINT OF NON-VIABILITY 3 (2010) (“[Mandatory contingent capital]
+would hinder unduly the flexibility of banks to create a capital structure that best meets
+the needs of the bank and its investors. . . . Other banks may not be able to, or may find
+it inefficient to, issue contingent or convertible instruments for a variety of reasons—
+including, for instance, restrictions under their chartering instruments, tax issues related
+to the deductibility of payments on the instruments, lack of market access, or insufficient
+investor interest. These banks should not be harmed by a perception that they are not as
+well capitalized as others simply because they need to or choose to meet their capital
+needs through other acceptable channels.”);; Coffee, supra note 15, at 808 (suggesting, in
+support of mandatory implementation of contingent capital, that “it can work even when
+regulatory oversight fails and a crisis sneaks in under the regulators’ radar screen”).
+85. See GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 20 app.D (estimating,
+in analyzing the sizing of a potential contingent capital market, that the “potential
+amount of contingent capital that might be issued starts with the Basel Committee’s
+requirement that all non-common Tier 1 and 2 securities eventually have a loss-absorption
+feature”);; STRONGIN ET AL., supra note 10, at 4 (suggesting that contingent capital
+holdings equivalent to six percent of risk-weighted assets would have been sufficient to
+have the firms recapitalize voluntarily instead of converting the contingent capital).
+86. See MONROE, supra note 84, at 2 (expressing concern that the Basel
+Committee’s proposal “would make contingent capital indistinguishable from common
+equity” and stating that “[t]he proposal would change fundamentally the risk-reward profiles
+of bank debt and equity investors, ultimately raising concerns about the marketability of these
+instruments”);; EUROPEAN ASS’N OF PUBLIC BANKS, COMMENTS OF THE EUROPEAN
+ASSOCIATION OF PUBLIC BANKS ON THE CONSULTATION ON TECHNICAL DETAILS OF A POSSIBLE
+EUROPEAN CRISIS MANAGEMENT FRAMEWORK 8–9 (2011), available at http://www.eapb.eu/
+238
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+policymakers will have to make critical decisions to resolve open design
+issues and overcome potential flaws in the design of contingent capital in
+their respective jurisdictions. Contingent capital may not directly address
+the underlying problems that triggered the credit crisis. Even though many
+factors were involved in triggering the crisis and often had knock-on
+effects on each other, information asymmetries and principal/agent problems
+may be at the core of the crisis.88
+Although contingent capital has many beneficial attributes, existing
+proposals for implementing contingent capital are unclear as to how they
+will address information asymmetries and principal/agent problems.89
+The issuance of contingent capital will likely involve many uncertainties.
+file?fle=6701 (pointing out, with regard to the comprehensive approach, burdens
+including higher costs to the banks for senior debt instruments and the marketability of
+this type of instrument); EUROPEAN BANKING FED., POSITIONING IN RESPECT OF THE EU
+COMMISSION CONSULTATION ON TECHNICAL DETAILS FOR A POSSIBLE EU FRAMEWORK
+FOR BANK RECOVERY AND RESOLUTION 56 (2011), available at http://www.ebf-fbe.eu/
+uploads/documents/positions/BankingReg/3%20March%20201-EBF_Response_to_COM_
+Crisis_Management_Consultation%20%28final%29.pdf (pointing out, with regard to the
+targeted approach to contingent capital, that predictions examining the market acceptance of
+such securities simply do not exist).
+87. Other issues that remain open and debated are the specific trigger mechanisms
+and whether the trigger is market-value or risk-asset based. See, e.g., EUROPEAN ASS’N
+OF PUBLIC BANKS, supra note 86, at 8–9 (questioning, with regard to the targeted
+approach, how the appropriate issuance level and cost will be determined, and noting
+that a very limited group of investors will be interested in these instruments); Hart &
+Zingales, supra note 60, at 5–7 (pointing out, in proposing a market-based trigger, that
+Flannery’s 2005 proposal has three potential shortcomings: (1) “it is too lenient toward
+management, eliminating one of the disciplinary effects of debt”;; (2) “it can have
+perverse effects: the manager talking down the stock so as to obtain more slack”;; and
+(3) “it generates multiple equilibria, some of which are inefficient”);; Stan Maes & Wim
+Schoutens, Contingent Capital: An In-Depth Discussion 17 (Aug. 2, 2010) (unpublished
+manuscript), available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1653877
+(pointing out that contingent capital instruments “are very hard to value under a
+particular model”). Maes and Schoutens also suggest that the “extreme complexity” of
+CoCos may hamper their success. Id.
+88. See Wulf A. Kaal, Hedge Fund Valuation: Retailization, Regulation, and Investor
+Suitability, 28 REV. BANKING & FIN. L. 581, 624 (2008) (“The combination of various
+layers of principal-agent relationships, bounded rationality, moral hazard and incomplete
+and asymmetric allocation of information could have resulted in market failure for
+complex financial instruments.”). For a suggestion of a framework for “good corporate
+governance” taking into account the framework for economic rules and the knock-on
+effects between micro and macro levels, see Christian Kirchner, Corporate Governance
+und Ordnungsökonomik, 62 ORDO JAHRBUCH FÜR DIE ORDNUNG VON WIRTSCHAFT UND
+GESELLSCHAFT 321, 321–41 (2011).
+89. A second trigger increasing voting rights could help minimize information
+asymmetries and principal/agent problems. See infra Part IV.B.
+239
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+For instance, the nature of contingent capital as a hybrid instrument is
+unclear. Contingent capital instruments would have fixed returns—as debt
+security—while displaying risk-bearing properties, similar to equity.90
+As a hybrid security, contingent capital may receive low or no ratings
+and may have a much smaller investor base and higher costs of funding.
+The desirability of conversion features that turn a debt holder into an
+equity holder may also be questionable,91 and the uncertainty involved in
+buying CCS could deter investors. Even if a reliable trigger mechanism
+could be designed, the many outstanding trigger design issues could
+negatively affect the predictability of a conversion from debt into equity.92
+If and how contingent capital will count toward banks’ Tier 1 capital
+ratios is also unclear. Because agreeing on EU-wide standards may be
+nearly impossible, the newly created European Banking Authority (EBA) is
+likely to allow national regulators to use their existing Tier 1 definitions.93
+This creates collective action problems. A country that uses stricter
+definitions of Tier 1 capital could appear to have less capital and thinner
+capital cushions than banks in countries with broader definitions for
+Tier 1 capital. For instance, in contrast to other regulators, the Financial
+Services Authority (FSA) in the United Kingdom uses a stricter definition
+of Tier 1 capital.94 Germany, among other countries, uses wider definitions
+for Tier 1 capital,95 which can result in higher capital ratios. In the context
+90. See DG WORKING DOCUMENT, supra note 8, Annex I, at 90 (“[The] higher cost
+of such instruments may simply reflect the view that risk has been transferred from
+society [taxpayers—moral hazard] to the bondholder by the removal of the implicit State
+guarantee for creditors that may have artificially reduced the costs of debt funding. This
+may in particular be the case for those institutions that have been considered ‘too big to
+fail.’”).
+91. See id. (discussing the benefits “of replacing the original shareholders with
+converted debt holders, having particular regard of the need to avoid a significant sale of
+newly-converted equity at a time when it is essential to restore market confidence in the
+institution”).
+92. See id. (“[T]he Services of DG Internal Market and Services believe that the
+resolution trigger is close to the point of failure for an institution, and therefore should be
+linked to the probability of failure of a bank which is regularly assessed by rating
+agencies and market participants. However, the Services of DG Internal Market and
+Services recognise that holders of ‘bail-in debt’ would want the trigger to be as
+transparent, objective and predictable as possible, and would welcome views on how this
+might be designed.”).
+93. See David Enrich, Europe Blinks on Bank Test: Regulators Seen Easing ‘Stress’
+Gauge, Undercutting Effort To Restore Confidence, WALL ST. J., Mar. 9, 2011, at A1.
+94. Id.; see Gregory J. Lyons et al., Basel Bank Resilience and Liquidity Proposals
+Confirm the Global Paradigm Shift Toward Increased Financial Regulatory Oversight,
+127 BANKING L.J. 226, 239 (2010) (“[T]he FSA proposal would permit capital instruments
+with ‘step ups’ and other incentives to redeem to count as Tier 1 capital to a degree.”).
+95. For the German definition of Tier 1 capital, see KREDITWESENSGESETZ [KWG]
+[GERMAN BANKING ACT], Sept. 9, 1998, BGBL. I at 2776, as amended, § 10, ¶ 2(a) (Ger.),
+which provides definitions of Tier 1 capital for various financial institutions,
+240
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+of contingent capital, the FSA does not allow contingent capital, namely,
+convertible bonds, to be classified as Tier 1 capital, whereas Spain, for
+instance, allows it.96
+The EU Commission proposed the harmonization of the Tier 1
+definition of capital.97 The proposal would allow convertible instrument
+capital as Tier 1 capital, and contingent capital could be included as an
+“additional Tier 1 instrument.”98 The EU Commission proposal defining
+Tier 1 could be a first step toward a basic framework for harmonized
+contingent capital standards. The assurance of Tier 1 status could encourage
+EU member states to set up rules for contingent capital or leave
+contingent capital designs up to private ordering. The EU Commission
+regulation and its harmonization of the Tier 1 capital definition could fill
+a void left by the Basel Committee. The Basel Committee rejected requests
+from EU member states to use CCS to satisfy the new capital buffers under
+Basel III.99 Rather, the Committee decided to require SIFIs to use retained
+earnings and ordinary shares to meet heightened capital requirements.100
+Although this approach will not fully replace a requirement under Basel
+III to use CCS to satisfy a new capital buffer, it leaves enough flexibility
+for counterparties and the legislators in the respective EU member states
+to implement CCS.
+Despite some successful CCS issuances in the past,101 the mandatory
+nature and volume of CCS issuance envisaged by the EU Commission102
+partnerships, and companies. For public savings and private savings banks, Tier 1 capital
+consists of the reserves. Id.
+96. Enrich, supra note 93.
+97. Commission Proposal for a Regulation of the European Parliament and of the
+Council on Prudential Requirements for Credit Institutions and Investment Firms, at 74–
+78, COM (2011) 452 final (July 20, 2011) [hereinafter EU Commission Proposal].
+98. Id.
+99. Louis, supra note 83.
+100. Id. (noting that this “was a victory for U.S. regulators over their European
+counterparts,” and quoting Karen Shaw Petrou, managing partner of Washington-based
+Federal Financial Analytics Inc., a bank consulting firm, who stated, “Europeans were
+pushing for a mix of common equity and contingent capital and they lost at a global
+level” (internal quotation marks omitted)).
+101. A total of five issuances of contingent-like capital securities have occurred:
+Lloyds issued a contingent capital security in 2009, Unicredit issued a €500 million Tier 1
+security in 2010, Intesa Sanpaolo also issued a Tier 1 security in 2010, Credit Suisse
+issued Tier 1 contingent capital in 2011, and Rabobank issued contingent notes in 2010
+and 2011. GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 17.
+102. DG WORKING DOCUMENT, supra note 8, at 39, 89 (contemplating what factors
+to “take into account in determining the correct amount of ‘bail-in debt’” and noting that
+credit institutions will be required to raise their own funds).
+241
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+could require the creation of a market in CCS. Market creation will take
+time. For instance, the European hybrid market, established in 1997,
+took five years to gain critical mass.103 What characteristics potential
+investors in CCS may desire is unclear, and the risk profile of investors
+and the resulting volumes may change over time. The required volume
+of issuance per institution to ensure CCS have the expected impact in a
+financial weakening of the institution is also unclear. High volumes sold
+by financial institutions—some estimates suggest between four and nineteen
+percent of risk-weighted assets of financial institutions104—could lead to
+increased pricing pressure and increased cost of funding.
+Whether single jurisdictions could be deterred from implementing
+contingent capital requirements without being able to anticipate other
+jurisdictions’ approaches to contingent capital rules is unclear. Legislators
+in the respective countries may want to pay attention to the competitiveness
+of their national financial institutions. Without a certain level of convergence
+in contingent capital rules,105 regulatory arbitrage could have an adverse
+effect on establishing contingent capital as an integral part of financial
+markets.106
+Moreover, distorted risk incentives could create drawbacks and
+undermine the effect of CCS issuances on risk preferences of principals-
+owners-managers.107 More specifically, the incentives originating from
+corporate governance controls may not work in SIFIs. SIFIs are often
+considered too big to fail and may be bailed out.108 If that is the case,
+SIFI principals-managers-owners may anticipate a bailout commitment
+and adjust their risk preferences upwards.109 Shareholders who know of
+an anticipated bailout commitment may demand higher risk-taking. If
+the SIFI has issued CCS that fulfill the objectives of bail-in, signaling
+default risk, incentive to increase capital, and less risk-taking, principals,
+managers, owners, and creditors—and the market in general—could
+103. PAZARBASIOGLU ET AL., supra note 12, at 12.
+104. DG WORKING DOCUMENT, supra note 8, Annex I, at 89 n.24.
+105. See Coffee, supra note 15, at 847 (“International convergence on such a reform
+is much more possible than on issues such as resolution authority or cross-border
+bankruptcy, where individual nations have long, complex legal traditions and do not
+change course easily.”).
+106. But see Roberta Romano, Against Financial Regulation Harmonization:
+A Comment (Nat’l Bureau of Econ. Research, Working Paper No. 414, 2010), available
+at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1697348 (noting that one of the
+dangers of regulatory harmonization is that error on the part of the regulators leads to
+greater systemic risk).
+107. Koziol & Lawrenz, supra note 30, at 96–98.
+108. See Calomiris & Herring, supra note 46, at 6, 10.
+109. FIN. STABILITY BD., supra note 9, at 1 (noting that the risk associated with
+SIFIs includes moral hazard—their interconnectedness can cause “significant disruption
+to the wider financial system and economic activity”).
+242
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+perceive a too-big-to-fail SIFI as even less likely to fail. This could
+incentivize the SIFI’s principals-managers-owners to shift their risk
+preferences toward even higher risk profiles.110 In the case of a SIFI that
+issued and converted CCS, the equity holder merely lost the cash flow
+rights from the coupon but may not lose all control rights. However, the
+disciplining impact may be mitigated because of the lessening in
+control rights after conversion.111 The lessening in control rights may
+vary subject to the design features of the respective CCS.112 In effect,
+however, switching to CCS financing could reinforce risk incentives.
+Additional research may be needed to determine if risk incentives
+generated by CCS113 may outweigh their potential for risk reduction.
+C. Trends in Europe
+European legislators, regulators, market participants, and lobby groups
+increasingly demand that management, shareholders, and creditors equally
+participate in losses resulting from the failure of troubled financial
+institutions.114 In this context, regulators and legislators in Europe appear to
+be taking the prospect of rules for contingent capital seriously. The EU
+Commission, the Basel Committee, and Swiss, German, and U.K. legislators
+have already considered the integration of contingent capital into their
+regulatory regimes for bank restructuring.115
+110. See Koziol & Lawrenz, supra note 30, at 96. But see Flannery, supra note 65,
+at 15, 18 (suggesting that “reverse convertible debenture” (RCD)—essentially CCS—
+could allow for recapitalization without involving outside parties, such as taxpayers).
+The trigger would be automatic based on market value and convert at the current share
+price. Id. at 2. “Issuing RCD as part of a bank’s capital structure will then a) protect
+depositors and taxpayers via a transparent means of automatic re-capitalization, b) cause
+shareholders to internalize the costs of risk, c) impose no tax penalty on bank shareholders,
+and d) reduce the incidence of costly failures.” Id. at 3. When RCD is converted, the
+firm must promptly sell new RCD to replace the lost protection. Id. at 6. When triggered,
+only enough RCD would convert as is necessary to recapitalize the firm. Id. at 8, 15
+(“Frequent trigger evaluations eliminate moral hazard incentives and expose the RCD to
+surprisingly low default risk.”).
+111. Koziol & Lawrenz, supra 30, at 98.
+112. Our proposal suggests a design with a second trigger that could lower the loss
+of control after conversion. See infra Part IV.B.
+113. See Koziol & Lawrenz, supra note 30, at 101.
+114. See The Euro’s Real Trouble: The Crisis of the Single Currency Is Political as
+Much as Financial, ECONOMIST, July 14, 2011, http://www.economist.com/node/18959279
+(noting that Jean-Claude Trichet, president of the European Central Bank, demanded
+“that future bail-outs must include ‘adequate participation of private creditors’”).
+115. See DG WORKING DOCUMENT, supra note 8; BUNDESMINISTERIUMS DER JUSTIZ,
+supra note 34; BANK OF ENG., supra note 34; SWISS REPORT, supra note 34; BASEL
+243
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+The EU Commission proposed a comprehensive and targeted approach to
+restructure and resolve financial institutions.116 Under the Commission’s
+comprehensive approach, resolution authorities would have discretion to
+determine which classes of debt would be converted or written down and
+at what conversion rate.117 The size of the write-down would depend on
+the financial situation of the institution, its assets and liabilities, and the
+amount of funds needed “to restore viability and maintain market
+confidence.”118 The Commission’s use of contingent capital in its targeted
+approach could help to ensure that debt contracts do not evolve in a way
+that would reduce overall effectiveness of the Commission’s regime. An
+important motive for the targeted approach was to provide certainty for
+institutions and creditors about what would happen in a resolution.119
+The Basel Committee on Banking Supervision, in addressing the
+systemic risk and interconnectedness of financial institutions, has
+considered contingent capital and bail-in debt instruments.120 Basel II
+and III already allow the use of “Enhanced Capital Notes”121 and permit
+the conversion of subordinated debt into equity.122 The Basel Committee
+rejected, however, requests from EU member states to use CCS to satisfy
+the new capital buffers under Basel III.123 Instead, the Basel Committee
+requires SIFIs to use retained earnings and ordinary shares to meet
+heightened capital requirements.124 An EU Commission proposal would
+allow contingent capital as an “additional Tier 1 instrument.”125
+The Swiss proposal on contingent capital may be the most far-reaching of
+all European proposals. An important part of the Swiss proposal dealing
+with systemically important institutions is to allocate nine percent of the
+total core capital to CCS with predefined triggers.126 The proposal
+COMM. ON BANKING SUPERVISION, supra note 34. For a summary and critical analysis of
+European contingent capital proposals, see Henkel & Kaal, supra note 57.
+116. DG WORKING DOCUMENT, supra note 8, Annex I, at 87–92.
+117. Id. at 87.
+118. Id. at 88.
+119. Id. at 89.
+120. BASEL COMM. ON BANKING SUPERVISION, supra note 34, at 7.
+121. See John Glover & Gavin Finch, Basel Committee Says Bank Bond Investors
+Should Help Fund Future Bailouts, BLOOMBERG (Aug. 19, 2010), http://www.bloomberg.
+com/news/2010-08-19/basel-committee-says-bank-bond-investors-should-help-bear-cost-of-
+bailouts.html.
+122. See id.
+123. Louis, supra note 83.
+124. Id. (noting that this “was a victory for U.S. regulators over their European
+counterparts,” and quoting Karen Shaw Petrou, managing partner of Washington-based
+Federal Financial Analytics Inc., a bank consulting firm, who stated, “Europeans were
+pushing for a mix of common equity and contingent capital and they lost at a global level”
+(internal quotation marks omitted)).
+125. See EU Commission Proposal, supra note 97, at 74–78.
+126. SWISS REPORT, supra note 34, at 4.
+244
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+distinguishes between high and low CCS triggers,127 which seems to
+indicate that a first trigger for conversion from debt into equity could be
+prioritized to facilitate appropriate calibration. The high and low triggers
+for contingent capital under the Swiss proposal are conversion triggers.
+The sequential trigger we propose would add the element of a voting rights
+increase via the second pre-reorganization trigger. It is important to
+note, however, that only two Swiss SIFIs, United Bank of Switzerland
+(UBS) and Credit Suisse, would be subjected to these new rules.128 Partially
+because of the size of these entities in comparison with the Swiss economy,
+the Swiss have prudently adopted capital requirements that are more
+stringent than the capital requirements under Basel III.129 Both entities
+have already issued CCS.130
+The German Financial Institution Reorganization Act131 already provides
+for a debt-equity swap between a financial institution in reorganization
+and its creditors.132 However, unlike CCS, the debt-equity swap requires
+creditors’ consent under German law.133 To remedy the resulting
+shortcomings, one German proposal included a revision of the German
+Corporation Act to allow for the implementation of contingent capital.134
+In short, this German reform proposal focused on providing a statutory
+basis for the issuance of CCS in Germany.135 In the long run, the extent
+of German reform efforts in this context could follow proposed changes by
+the Basel Committee and its use of contingent capital in Basel III.136
+Reforms in German law pertaining to contingent capital would likely
+127. Id. at 25.
+128. Id. at 74.
+129. Coffee, supra note 15, at 803 n.23.
+130. See SWISS REPORT, supra note 34, at 9; see also GOLDMAN SACHS GLOBAL MKTS.
+INST., supra note 29, at 19 (discussing capital requirements at UBS and Credit Suisse).
+131. KREDITINSTITUTE-REORGANIZATIONSGESETZ [KREDREORG] [FINANCIAL
+INSTITUTION REORGANIZATION ACT], Dec. 9, 2010, BGBL. I at 1900 (Ger.).
+132. Id. § 9, ¶ 1.
+133. Id.
+134. BUNDESMINISTERIUMS DER JUSTIZ, supra note 34.
+135. The reform of the German Stock Corporation Act is centered around sections 192,
+194, and 221 of AktG. Under prior German law, the instrument of “mandatory convertible
+bonds”—“Pflichtwandelschuldverschreibungen”—had already been recognized. For more
+on section 221 of the AktG, see AKTG: GROßKOMMENTAR (Heribert Hirte & Kai Hasselbach
+eds., 2005).
+136. STEFFEN SCHNEIDER & MARKUS SÖHNCHEN, RETTUNG VON KREDITINSTITUTEN
+IN DER KRISE DURCH CONTINGENT CONVERTIBLE BONDS-PFLICHTWANDELSCHULDVER
+SCHREIBUNGEN FÜR BANKEN (“COCO-BONDS”), available at http://www.forum-institut.de/
+fileadmin/data/Bereich_3/Rettung_von_Finanzinstituten_in_der_Krise.pdf. See supra
+Part II.C for discussion on the Basel Committee’s decision not to integrate contingent capital.
+245
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+require substantial changes in other areas of German law.137 Unless
+required by an EU directive or regulation, an overhaul of several areas of
+German law may not be easily implemented.
+The Bank of England suggests that contingent capital will result in higher
+loss absorbency and proposes precautionary and non-viability contingent
+capital.138 In the United Kingdom, Lloyds Bank139 and, in the
+Netherlands, Rabobank140 issued CCS in 2010.141 Barclays is currently
+working on the issuance of similar securities.142 Britain’s Insolvency
+Act allows for “company voluntary arrangements,” a concept similar to
+traditional debt-equity swaps.143 Although these developments are
+encouraging signs, possibly suggesting an impending development of a
+market in CCS, the U.K. Independent Commission on Banking opined
+in an interim report that important questions remain to be answered in the
+context of the use of CCS instruments to build up capital.144
+III. EUROPEAN COMMISSION PROPOSAL
+The European Commission, through the Internal Market and Services
+Directorate General (DG Market),145 issued a working document for
+discussion and consultation purposes that discusses the potential use of
+contingent capital.146 The draft proposes a targeted and comprehensive
+137. SCHNEIDER & SÖHNCHEN, supra note 136 (opining that the new Act would
+require a change of the Banking Act (KWG), the Limited Act, the Stock Corporation
+Act, the Bankruptcy Act, and the Schuldverschreibungsgesetzes).
+138. BANK OF ENG., supra note 34, at 56.
+139. Glover & Finch, supra note 121.
+140. A Boost for Contingent-Capital Deals?, N.Y. TIMES DEALBOOK (Mar. 9, 2010),
+http://dealbook.nytimes.com/2010/03/09/a-boost-for-contingent-capital-deals.
+141. George M. von Furstenberg, Contingent Capital To Strengthen the Private
+Safety Net for Financial Institutions: CoCos to the Rescue? 10 (Deutsche Bundesbank
+Eurosystem, Discussion Paper, Series 2, Banking & Fin. Studies, No. 01, 2011).
+142. Patrick Jenkins, Barclays Set To Follow Swiss Lead, FIN. TIMES (Eng.) (Feb.
+14, 2011), http://www.ft.com/cms/s/0/7f3c49ea-386e-11e0-959c-00144feabdc0.html#axz
+z1SZdsn94g.
+143. See, e.g., Insolvency Act, (1986) § 1, 4(2) HALS. STAT. (4th ed.) 85–100 (Eng.).
+144. INDEP. COMM’N ON BANKING, INTERIM REPORT: CONSULTATION ON REFORM
+OPTIONS 180–82 (2011) (U.K.), http://s3-eu-west-1.amazonaws.com/htcdn/Interim-Report-
+110411.pdf (questioning, in the context of contingent capital, who would buy contingent
+capital and what would be the “possible dynamic effects at or near to the trigger point”).
+145. The DG Internal Market is one of the Directorates General, which make up the
+European Commission. A main role of the DG Internal Market is to coordinate the
+Commission’s policy on the European Single Market. Its primary function is to seek the
+removal of unjustified obstacles to trade. DG Internal Market and Services, EUROPEAN
+COMM’N, http://ec.europa.eu/dgs/internal_market/index_en.htm (last visited Feb. 18, 2012).
+146. See DG WORKING DOCUMENT, supra note 8, Annex I, at 86–87; see also EU
+Commission Proposal, supra note 97, at 74–78 (setting out the more recent EU Commission
+proposal suggesting harmonization of the definition of Tier 1 capital including convertible
+instruments).
+246
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+approach to restructure and resolve financial institutions147 and recommends
+the mandatory issuance of CCS for systemically important banks.148 The
+proposal suggests financial institutions could be required to issue CCS in
+volumes between four and nineteen percent of risk-weighted assets.149
+Other estimates for mandatory issuance of CCS range from four to eight
+percent of risk-weighted assets.150 Despite the many open design
+and market development issues,151 there seems to be consensus that
+there is potential for a market in CCS.152 The design features suggested
+by the EU Commission, in their final form, have the potential to impact
+the volume of CCS issuance. They could affect the depth and potential
+volatility of the CCS market worldwide.
+A. The Comprehensive Approach
+As part of the new framework, the EU Commission proposed a
+“comprehensive approach.”153 Upon an institution’s triggering resolution,
+resolution authorities would be given the statutory power to write down
+or convert to an equity claim all senior debt necessary to ensure the credit
+institution is returned to solvency.154 This power would not be applied
+retroactively—not to existing debt but only to new debt issued after the
+power was lawfully enacted.155
+Under this proposal, resolution authorities would have discretion to
+determine which classes of debt would be converted or written down and
+at what conversion rate.156 The Commission proposal provides that the
+size of the write-down would depend on the financial situation of the
+institution, its assets and liabilities, and the amount of funds needed “to
+restore viability and maintain market confidence.”157
+147. DG WORKING DOCUMENT, supra note 8, Annex I, at 87–90.
+148. See id. at 32, 86 (recognizing that contingent capital will likely be most useful
+with systemically important banks, but considering applying the resolution to all credit
+institutions).
+149. Id. at 89 n.24.
+150. See, e.g., GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 13.
+151. See supra Part II.B.
+152. See GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 3.
+153. DG WORKING DOCUMENT, supra note 8, Annex I, at 87–89.
+154. See id. at 87.
+155. Id.
+156. Id.
+157. Id. at 88.
+247
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+The proposal envisages excluding the following instruments: short-
+term debt as defined by a specified maximum maturity,158 swap repo and
+derivative counterparties, and other trade creditors, as well as retail
+and wholesale deposits and secured debt.159 The exclusions are
+deemed necessary for the proper functioning of credit markets.160 In
+summary, the Commission considers this proposed regime adequate to
+“create maximum flexibility for the resolution authorities to return an
+institution to viability, install new management, and implement a
+recovery or restructuring plan to retain market confidence and access to
+funding.”161
+B. The Targeted Approach
+Under the “targeted approach,” and in stark contrast to the comprehensive
+approach, resolution authorities would require credit institutions to issue
+a fixed amount of debt that would prequalify for write-down or convert
+into equity on a statutory trigger.162 The Commission suggests that the
+prequalified amount of debt could include a fixed minimum for all
+institutions, which could be between four and nineteen percent of risk-
+weighted assets because that was the range of “public interventions
+during the crisis.”163 The underlying rationale for this proposal is “to ensure
+that debt contracts are not able [to] evolve in a way that would reduce
+the effectiveness of the regime and would provide certainty for both the
+institution and creditors about what would happen in a resolution.”164
+The EBA is tasked with ensuring the consistent treatment of prequalified
+debt that can be written down or converted into equity across jurisdictions.
+The market reaction to the news of the EU Commission proposal (DG
+Market) could suggest that the pricing of financial debt instruments may
+be affected.165 The EU Commission proposal is likely to require substantial
+158. But see Coffee, supra note 15, at 833 (arguing that the amount of contingent
+capital that should be triggered ought to be defined by short-term debt).
+159. DG WORKING DOCUMENT, supra note 8, Annex I, at 88.
+160. See id.
+161. Id.
+162. See id. at 89 (“Such debt would need to include a contractual term which would
+specify that the relevant resolution authority could use a statutory power to write down
+the debt when the institution meets the trigger conditions for entry into resolution.”).
+163. Id. at 89 & n.24.
+164. Id. at 89.
+165. See EUROPEAN BANKING FED., supra note 86, at 5, 53–55 (positing that global
+harmonization is critical “to ensure a level playing field,” but before any bail-in measures are
+implemented, greater clarification and an impact analysis are essential—with regard to
+the comprehensive approach, pointing out that it will create a level playing field in Europe but
+would be globally unbalanced resulting in investors’ looking outside the European Union
+to invest in debts).
+248
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+international coordination and presents numerous complex issues,
+among them the uncertainty of its knock-on effect and interaction with
+other proposals—including Basel III.166 Given the complexity of the
+regulatory and tax issues and the need for international coordination, the
+legislative timetable may also require adjustments.167 There is also a
+perceived risk that the implementation of the debt write-down in the EU
+Commission proposal will increase banks’ funding costs.168 Although the
+concept may provide greater certainty and discretion to regulators, it could
+result in greater market uncertainty, which is likely to increase costs, and
+could have the unintended effect of actually increasing the size of
+financial institutions.169
+A core benefit of the targeted approach is its ability to contractually
+set terms of conversion and its timing, which could result in greater
+clarity and pricing, thus more accurately reflecting risk.170 However, in
+166. See Henkel & Kaal, supra note 57; PETER M. WERNER & EDWARD MURRAY,
+INT’L SWAPS & DERIVATIVES ASS’N, POSSIBLE EU FRAMEWORK FOR BANK RECOVERY &
+RESOLUTION 3–4, 18–21 (2011), available at http://www.isdadocs.org/speeches/pdf/EU_
+CrossBorderCrisisMgmt_ISDAResponse_Mar11.pdf (responding to the “comprehensive
+EU framework for troubled and failing banks” and averring the following with regard to
+the debt write-down (“bail-in”) proposal: (1) international coordination for debt write-
+down is essential; (2) the proposal presents numerous complex issues such as interaction
+with other proposals—including Basel III, regulatory issues, and tax issues; (3) because
+of the need for international coordination and the complex issues presented, the
+legislative timetable is “unrealistic” and debt write-down should be tabled until some of
+these issues have been resolved). The International Swaps and Derivatives Association
+(ISDA) also contends that the debt write-down proposal would impact derivative
+transactions and argues that derivatives exposures “are not an appropriate form of debt to
+make subject to the write-down power.” Id. at 20. And lastly, ISDA emphasizes the
+importance of clarification and certainty with regard to the scope of the debt write-down
+regime. Id.
+167. See WERNER & MURRAY, supra note 166, at 19.
+168. See ASS’N OF BRITISH INSURERS, THE ABI’S RESPONSE TO DG INTERNAL
+MARKET SERVICES: TECHNICAL DETAILS OF A POSSIBLE EU FRAMEWORK FOR BANK
+RECOVERY AND RESOLUTION 5–6 (2011), available at http://www.abi.org.uk/Media/
+Consultation_Papers/Consultation_Responses.aspx (noting that regardless of its members’
+positive or negative views, the implementation of the debt write-down will increase
+banks’ funding costs). Because this creates greater risk, it will increase costs, and this will
+“have the unintended effect of promoting greater concentration into larger banks.” Id. at
+6. Ultimately, there is concern that the increased complexity will affect implementation
+and will not benefit an efficient funding sector. Id. at 6–7.
+169. Id. at 6.
+170. See ASS’N FOR FIN. MKTS. IN EUR., RESPONSE TO THE EUROPEAN COMMISSION
+CONSULTATION ON TECHNICAL DETAILS OF A POSSIBLE EU FRAMEWORK FOR BANK
+RECOVERY & RESOLUTION 1, 54–56 (2011), available at http://www.afme.eu/ Documents/
+Consultation-Responses.aspx (pointing out the two approaches to debt write-down proposed
+by the European Commission: (1) the “targeted” approach, which “would require banks
+249
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+the coming years, banks could be confronted with increased competition
+for retail deposits. This could increase the use of other forms of secured
+funding. As a result of increased rates and competition, funding
+could become less stable.171 There could also be a risk that contractual
+arrangements for CCS could be triggered before a statutory bail-in is
+applied.172 And the new approach suggested by the Commission could
+impact investor confidence in the covered bond markets and perhaps affect
+their efficiency.173
+Although the debt write-down could serve as a powerful resolution tool,
+such a regime would probably benefit from international coordination—
+perhaps with the Basel Committee and Financial Stability Board.174 The
+market impact of the proposal may require careful planning to create a
+to hold a fixed amount of ‘bail-in-able’ debt but that would exclude senior debt from the
+scope of any write-down”;; and (2) the “comprehensive” approach, which would allow
+RAs to write down senior debt). The Association for Financial Markets in Europe
+(AFME) states its members primarily support the “ease and clarity” of the targeted
+approach over the comprehensive approach. Id. at 54. The targeted approach could
+contractually set terms of conversion and timing resulting in greater clarity and prices
+that more accurately reflect risk. Id. AFME also recommends that the targeted approach
+be coordinated with Basel III and, ultimately, that the protection provided be studied. Id.
+at 55. AFME suggests that the comprehensive approach could be available to regulators
+as a “last resort” when the targeted approach proves inadequate. Id. at 56.
+171. DAVID HISCOCK, INT’L CAPITAL MKT. ASS’N, RESPONSE SUBMISSION RE: EUROPEAN
+COMMISSION CONSULTATION PAPER—TECHNICAL DETAILS OF A POSSIBLE EUROPEAN CRISIS
+MANAGEMENT FRAMEWORK 1–2 (2011), availabe at http://www.icmagroup.org/ICMAGroup/
+files/c7/c7a2c1bd-f34c-4aaa-b75b-5ab648c16345.pdf (expressing concern that the bail-in
+regime will effectively increase rates for depositors by encumbering higher quality
+assets). The International Capital Market Association (ICMA) notes that one positive
+aspect of the targeted approach is that investors may precisely express investment preferences.
+This creates a “fairer transition to a new regime than simply imposing bail-in on existing
+investors.” Id. at 4.
+172. See MINISTRY OF FIN. ET AL., SWEDISH ANSWERS TO THE DG INTERNAL MARKET
+AND SERVICES WORKING DOCUMENT “TECHNICAL DETAILS OF A POSSIBLE EU
+FRAMEWORK FOR BANK RECOVERY AND RESOLUTION” 1, 43–44 (2011) (Swed.), available
+at http://www.riksbank.se/upload/Dokument_riksbank/Kat_publicerat/Remisser/2011/
+Consultation_030311.pdf (asserting generally that the untested bail-in regime should not
+be relied upon—if the bail-in tool can be shown to be effective, it may be useful as a
+wind-down tool—and arguing specifically that the wind-down tools should include a
+statutory bail-in tool, which would serve to “impose market discipline on unsecured debt
+holders as they can impose losses on those creditors”). The Riksbank further suggests
+that “[c]ontractual bail in instruments must trigger before a statutory bail in is applied.
+Regulatory capital instruments must bear losses before any higher ranking debt” because
+such a scheme should still leave “the troubled bank[s] well capitalized.” Id. at 44.
+173. See REALKREDITRÅDET (ASS’N OF DANISH MORTG. BANKS), CONSULTATION
+RESPONSE CONCERNING TECHNICAL DETAILS OF A POSSIBLE EU FRAMEWORK FOR BANK
+RECOVERY AND RESOLUTION 1–2, 9 (2011), available at http://www.realkreditraadet.
+dk/Files/Filer/6%20Aktuelt/Hringssvar/2011/Response%20concerning%20Technical%2
+0details%20of%20a%20possible%20EU%20Framework%20for%20Bank%20Recovery
+%20and%20Resolution.pdf.
+174. See Henkel & Kaal, supra note 57.
+250
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+high level of certainty for market participants.175 The International
+Monetary Fund suggests that the following areas should be explored
+in detail before using debt write-down instruments: the order of priority
+in an insolvency proceeding, and coordination across jurisdictions; the
+interaction of debt write-down with other resolution tools; the option to
+give some creditors “super-senior status” and claw back provisions.176
+Some question how the appropriate issuance level and cost will be
+determined and note that only a very limited group of investors may be
+interested in these instruments.177 It is also not clear what classes of debt
+should be excluded from a statutory power to write-down debt.178
+More specifically, secured debt as well as derivatives used to hedge risks
+between loans and covered bonds could require exclusion.179
+IV. SEQUENTIAL TRIGGERS AS PART OF THE EUROPEAN
+COMMISSION’S TARGETED APPROACH
+The basis for the sequential trigger design proposed in this Article is
+the EU Commission’s targeted approach. As an addition to the targeted
+approach, we suggest a second trigger of contingent capital before the
+resolution of a financial institution but after conversion into equity. Other
+scholars have discussed the use of second triggers for contingent capital.180
+The existing proposals for a second trigger design, however, make no
+reference to the restructuring of financial institutions or the proposal by
+the EU Commission in that context. Most of the existing proposals
+suggesting second triggers in contingent capital try to optimize the first
+trigger by adding certain additional characteristics or trigger mechanisms,181
+mostly to avoid manipulation.
+175. INT’L MONETARY FUND, EUROPEAN COMMISSION CONSULTATION: TECHNICAL
+DETAILS OF A POSSIBLE EU FRAMEWORK FOR BANK RECOVERY AND RESOLUTION 8 (2011),
+available at http://www.imf.org/external/np/eur/2011/pdf/030311.pdf.
+176. Id.
+177. Id.
+178. REALKREDITRÅDET (ASS’N OF DANISH MORTG. BANKS), supra note 173, at 8
+app.B.
+179. See id.
+180. See, e.g., McDonald, supra note 39, at 2; Pennacchi, supra note 45, at 12, 24
+(considering the effects of the dual-price conversion trigger proposed by McDonald and
+noting that although the dual-price trigger acts like a single-price trigger in times of stress, in a
+noncrisis the dual-price trigger contingent capital acts like standard subordinated debt).
+181. See discussion infra Part IV.B.
+251
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+One model suggests converting debt into equity if both (1) “the firm’s
+stock price is at or below a trigger value,” and (2) “the value of a financial
+institution’s index is also at or below a trigger value.”182 The strength of
+this proposal is that “capital converts automatically based on market
+prices, without reference to accounting-based measures of capital.”183 The
+model thus avoids the lack of reliability and precision that is often
+attributed to accounting-based measures of capital. Although the strength of
+this proposal is its reliance on market prices, a disadvantage could be the
+index trigger, which could result in index manipulation or an attempt to
+force the entity into bankruptcy.184 Another model considers the effect of a
+dual-price conversion trigger and observes that a dual-price trigger acts
+like a single-price trigger in times of stress, but outside of crises, contingent
+capital with a dual-price trigger acts like standard subordinated debt, and
+“yields on dual-price trigger contingent capital fall between those of
+comparable single price trigger contingent capital and subordinated debt.”185
+Others observe in this context that “[s]ince two prices are possible whenever
+the firm’s value drops to a certain level, by combining these dual equilibria
+around trigger at different times in the future, numerous expected equity
+values are possible even well before conversion.”186
+A. First Trigger: Debt-Equity Conversion
+The design features of the debt-equity conversion trigger are an integral
+part of the design features of the second reorganizational trigger proposed in
+this Article. Assuming a predefined mandatory issuance of CCS under
+EU law,187 CCS could convert into equity based on various models.188
+182. McDonald, supra note 39, at 4–9 (providing an example of contingent capital
+with dual triggers and comparing such a model with other structures). Further, McDonald
+discusses various issues related to evaluating contingent capital proposals, including the
+effect of market manipulation, capital errors—such as contingent capital converting into
+equity when not required and contingent capital failing to convert into equity when it is
+required—and problems with reliance on accounting measures. Id. at 9–10, 18–24.
+183. Id. at 2.
+184. Id. at 13.
+185. Pennacchi, supra note 45, at 27–28 (noting further that “[t]he effect of a dual
+price trigger for conversion is to make contingent capital a blend of non-convertible
+subordinated debt and standard single price trigger contingent capital”).
+186. See Sundaresan & Wang, supra note 39, at 6 (recognizing that a value transfer
+between equity and contingent capital “disturbs equilibrium by moving the stock price up or
+down depending on the conversion ratio” and that the proposals typically ensure there is
+no value transfer at maturity, but do not ensure there is no transfer before maturity). Because
+the value transfer will not always push the stock price across the trigger, there are two
+possible scenarios, that is, equilibria: (1) “all investors believe conversion will not happen,
+leading the equity value to stay above the trigger,” and (2) “all investors believe conversion
+will happen, leading the equity value to hit the trigger.” Id. at 6–7.
+187. See DG MARKET DOCUMENT, supra note 8, Annex I, at 89 (explaining that the
+targeted approach would “require credit institutions to issue a fixed volume of ‘bail-in
+252
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+Jack Coffee’s proposal to convert CCS “into a fixed return preferred
+stock with cumulative arrearages and significant voting rights”189 has
+many redeeming qualities. Via the first trigger with “significant voting
+rights,” Coffee’s proposal would create a “countervailing voting constituency
+to offset the voting power of risk-tolerant common shareholders.”190
+This could create a class of stockholders that is resistant to increased
+leverage and higher risk. Coffee also discusses the use of “super-voting.”191
+Although we agree with the need for increased voting rights, the proposal in
+this Article would allocate super-voting rights to CCS holders only if the
+first trigger did not result in an improvement of the financial institution’s
+financial health. The first trigger in this Article’s proposal would give
+the new CCS shareholder one vote per stock. Only upon the realization
+of a continuing downward trend, perhaps caused by a negative market
+reaction after the first (incremental) conversion of CCS, should the voting
+rights be increased. At that point, the voting rights increase should be
+able’ debt”);; GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 19 (noting that the
+Swiss have already required contingent capital and that the proposed securities require
+two tranches of contingent capital).
+188. See Coffee, supra note 15, at 828; Flannery, supra note 65, at 6; McDonald,
+supra note 39, at 1. But see Dudley, supra note 62, at 4 (proposing that CCS would
+trigger “if a bank’s share price were to fall precipitously”);; Duffie, supra note 53, at 4–6;
+Hart & Zingales, supra note 60, at 5–7 (pointing out three potential shortcomings in
+Flannery’s proposal: (1) “it is too lenient toward management, eliminating one of the
+disciplinary effects of debt”;; (2) “it can have perverse effects: the manager talking down
+the stock so as to obtain more slack”;; (3) “it generates multiple equilibria, some of which
+are inefficient”). The triggers “could be tied to deterioration in the condition of the
+specific banking institution and/or to the banking system as a whole.” Dudley,
+supra note 62, at 6. Converting debt into common shares might work better when
+tied to market-based measures because market-based measures tend to lead regulatory-
+based measures. Id. The cost of CCS would be reduced if the debt holder can “expect to
+get out at or close to whole.” Id. at 7. Also, there would be a greater scope of adjustment in a
+market-based measure, lowering the cost. Id. Furthermore, CCS could be a more
+“straightforward and efficient way to achieve a countercyclical regulatory capital
+regime.” Id. at 6; see also STRONGIN ET AL., supra note 10, at 4 (explaining that CCS
+may be “ineffective or even dangerous” if the trigger mechanisms are based on market
+prices for this may worsen bank runs, rather than prevent them). The trigger must occur
+before insolvency and be quick and transparent, and the amount of contingent capital
+must be sufficient to deal with the crisis. Id. When the trigger is reached, firms could
+have thirty days to recapitalize or contingent capital would convert. Id. We suggest that
+contingent capital holdings equivalent to six percent of risk-weighted assets would be
+sufficient to have the firms recapitalize voluntarily instead of converting the contingent
+capital.
+189. Coffee, supra note 15, at 806.
+190. Id.
+191. Id. at 832.
+253
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+significant enough to result in a change of control over the company.
+Coffee considers a change of control only for arrearages,192 taking effect
+after two or three years.193
+The proposal in this Article would allow the change of control much
+sooner depending on the improvement in financial health after the first
+trigger. To balance the constituents’ incentives and avoid abuse,194 the
+voting rights increase could be calibrated to give CCS holders a majority
+stake in the company only with, for instance, the largest institutional
+shareholder. The CCS contract or the corporation’s charter could
+specifically provide for change of control in the very limited case of a
+lack of success of the first trigger and only in combination with the
+largest institutional shareholder. An advantage of this approach could
+be the enhanced role of institutional shareholders and the potential threat to
+incumbent diversified shareholders. In addition to the creation of “a
+countervailing voting constituency to offset the voting power of risk-tolerant
+shareholders, thereby reducing the pressure on corporate managers to
+accept greater risk and leverage,”195 the proposal in this Article would
+further incentivize institutional shareholders to monitor management
+and assess the level of risk-taking in the respective market environment. It
+could be another level of check and balances, truly independent of the
+company’s internal governance.
+Some may argue that this proposal, if implemented, could lead to
+manipulation of the sequential triggering events and abusive practices,
+such as asset stripping in the vicinity of bankruptcy. To avoid such
+practices, the CCS contract or the charter of the corporation could require
+a mandatory holding period for CCS. The mandatory holding period
+could be extended until after bankruptcy. But even without such a holding
+192. Id. This condition may not exist in every jurisdiction in Europe; for example,
+in Germany the Financial Supervisory Authority has the power to prohibit or limit any
+withdrawal or distribution of profits, thus making a vote increase under Professor Coffee’s
+proposal unnecessary. See KREDITWESENSGESETZ [KWG] [GERMAN BANKING ACT], Sept. 9,
+1998, BGBL. I at 2776, as amended, § 45, ¶ 2, no. 1 (Ger.).
+193. Coffee, supra note 15, at 832–33. Although he suggests “significant voting
+rights,” id. at 806, Coffee limits the application of a change in control, stating:
+[T]o protect this right to cumulative dividends, it would be appropriate to give
+the preferred an additional voting right: the right to elect as a class some
+additional percentage of the directors each year that their dividend is omitted.
+The right to such class voting would end once the arrearages were fully paid.
+On this basis, control of the corporation might pass to the preferred shareholders
+within two or three years if the arrearages were not eliminated.
+Id. at 832–33.
+194. Hedge funds could be interested in acquiring CCS with sequential triggers that
+give them super-voting rights to control the company before bankruptcy for their financial
+benefit. They could, for instance, sell the company’s most valuable assets at a profit and
+then push the remainder into bankruptcy.
+195. Coffee, supra note 15, at 806.
+254
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+period, the main purpose of the proposal in this Article and the reasoning
+behind the second trigger is to avoid reaching the vicinity of bankruptcy
+at the early stage of conversion. The advantage of our proposal is twofold:
+we hope to (1) incentivize shareholders to participate in the reorganization
+of the bank by not immediately threatening shareholders with a takeover
+by creditors, and (2) allow for a “soft landing” similar to a Chapter 11
+procedure by providing additional time and avoiding a fire sale of assets.
+The European Commission has recognized that a breach of capital
+requirements by a bank may not necessarily mean that the institution is
+encountering serious problems, which inevitably would lead to failure.196
+The conversion following the first trigger does not have the same finality
+as that in Coffee’s proposal; it does not necessarily mean that creditors
+will take over the institution, unless it further deteriorates. The proposal
+advanced here may be more predictable with the advantage of higher
+marketability because of the potentially increased willingness of rating
+agencies to rate CCS with sequential triggers.197
+B. Second Trigger
+At the core of this Article are suggestions for a potential design of
+sequential triggers with the second trigger before reorganization of the
+SIFI. The second reorganization trigger would increase voting rights for
+holders of contingent capital after conversion to equity at the prevention
+stage and could be comparable to a super-voting stock under Delaware
+law. Using a predefined threshold for the improvement of the financial
+health of a company after the first trigger, we propose that if the financial
+health of the institution should not return after the first preventive
+trigger, the voting rights of contingent capital holders could be increased
+by a predefined level to give the holders of CCS more influence in the
+resolution phase of the SIFIs.
+Quantifying the improvement of the company after the first trigger
+could depend on many factors. The continuing evaluation of the specific
+market-based factors used in the design of the first trigger could be a
+starting point for assessing the financial improvement of the company.
+196. Communication from the Commission to the European Parliament, the Council,
+the European Economic and Social Committee, the Committee of the Regions and the
+European Central Bank: An EU Framework for Crisis Management in the Financial
+Sector, at 7, COM (2010) 579 final (Oct. 20, 2010).
+197. See supra Part I.
+255
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+For instance, if the first trigger were based on a combination of credit
+default swap (CDS) spreads and debt-equity ratios, both measures could
+be used to assess the financial health of the company after the conversion.
+If both measures showed a predefined threshold of improvement in a
+time period between three and six months after the first (incremental)
+trigger, the second voting rights trigger could be avoided. The incentives
+for management and shareholders to show sufficient improvement after
+the first trigger could give the second voting rights trigger an important
+role in securing the success of the first trigger.
+In addition to providing super-voting rights and increasing dilution,
+the second trigger can act as a reorganization tool independent of
+management decisions or corrective action by regulators. The second
+trigger could also increase the marketability of CCS and could allow
+rating agencies to adequately assess this form of convertible securities.
+By focusing on the multiple uses of contingent capital in different phases,
+the proposal could create more flexibility and generate many indirect
+effects and knock-on effects that could perhaps help improve shortcomings
+of CCS designs with only one trigger.198 The information asymmetries
+between market participants and a SIFI’s management before a SIFI
+defaults199 could be minimized if a financial weakening of the SIFI after
+conversion of CCS triggers a voting rights increase. The voting rights
+increase, in effect, would signal continuing default risk to investors.
+Signaling default risk after the first rather than the second trigger could
+result in adverse market consequences. The second trigger would have
+the capacity to adjust and remedy these adverse consequences.
+1. Objective Automatic Institution-Specific Trigger
+Important to the effectuation of an efficient voting rights increase is
+the nature of the second trigger. Several approaches with corresponding
+legal and economic effects are possible.200 The second trigger could be
+an institution-specific trigger or a systemic trigger. Systemic triggers could
+be either regulatory or statutory. A regulatory systemic trigger could be, for
+instance, a bank stress test201 or a determination by a regulator that the
+198. See supra Part II.B (discussing the shortcomings in single trigger designs).
+199. In the case of Lehman Brothers, the company was still trying to negotiate a
+merger when it probably should have been clear that the company would not be able to
+survive without a federal bailout. See Ayotte & Skeel, supra note 1, at 470. Under the
+proposal in this Article, the first and second CCS triggers would probably have signaled
+default risk to market participants.
+200. For possible economic effects of different trigger designs, see Henkel & Kaal,
+supra note 57.
+201. Patrick Jenkins, Banks Stress Test Pass Rate Under Fire, FIN. TIMES (Eng.) (July
+16, 2011), http://www.ft.com/intl/cms/s/0/dc111364-aefa-11e0-bb89-00144fea bdc0.html
+256
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+bank is not financially viable without a public sector injection or write
+off.202 An institution-specific trigger could be transactional or automatic.
+A transactional institution-specific trigger could define in contractual
+terms if, how, and when the increase in voting rights may be triggered. An
+automatic institution-specific trigger could cause the voting rights
+increase if, for instance, the debt-equity ratio, the share price or a share
+price-based ratio, or a CDS spread of a financial institution passes a certain
+threshold.
+The holders of contingent capital, whose debt securities would have
+converted into equity securities at that point, would receive increased
+voting rights if the financial situation of the institution did not improve
+after CCS conversion into equity. The adequate increase in voting
+rights pre-resolution would need to be triggered by evidence that the
+conversion into equity was not successful, that conversion was triggered
+too early or too late, or that there was an overall continuing downward
+trend in the financial performance of the company. To achieve this
+objective, the approach of this Article favors an objective automatic
+institution-specific second trigger for the voting rights increase. The
+improvement of the financial institution could be measured objectively
+through a combination of debt-equity ratio improvement and CDS spread
+narrowing after conversion. The exact arithmetic would have to be
+institution specific and is not the subject of this Article. Similarly, the
+calibration of sequential triggers may also have to be institution specific.
+2. Voting Rights Increase for CCS Holders
+The holders of contingent capital, whose debt securities would have
+converted into equity securities at that point, would receive increased
+voting rights if the financial situation of the institution did not improve
+after conversion into equity. The increased voting rights will be handled
+differently by different jurisdictions.
+#axzz1TdjsXOko (pointing out that in Europe, “[o]nly nine banks failed the long-running
+stress test carried out on 91 European banks, in a result that potentially undermines
+claims the exercise was tough enough to restore investors’ faith in the eurozone financial
+system”).
+202. See BASEL COMM. ON BANKING SUPERVISION, supra note 34, at 1, 7
+(announcing that the Basel Committee is “developing a proposal on a methodology
+comprising both quantitative and qualitative indicators to assess the systemic importance
+of financial institutions at a global level”).
+257
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+a. Law of EU Member States
+Similar to U.S. law, German corporate law generally requires that a
+shareholder’s vote matches the respective capital contribution, that is,
+one share/one vote.203 However, until 1998, German corporate law allowed
+the limitation of voting rights up to a certain limit.204 Once such a
+limitation—Höchststimmrechte—was in place, additional capital
+contributions did not increase the voting power. Höchststimmrechte were
+used to defend against hostile takeovers205 and have been cited as a cause
+for losses in stock prices.206 In part because of increasing criticism, on
+April 27, 1998, Höchststimmrechte were banned for listed German
+corporations.207 Conversely, German corporate law allows an increase in
+voting rights only in very limited circumstances, such as grandfathering
+provisions for shares with multiple voting rights that were created before
+the enactment of the Corporations Act208 or were deemed admissible by
+the highest authorities under exceptional circumstances.209
+Other European countries, such as France and the United Kingdom,
+allow increases in voting rights. France allows charters that provide for
+multiple votes per share or a limitation of voting rights.210 In the United
+203. AKTIENGESETZ [AKTG] [STOCK CORPORATION ACT], Sept. 6, 1965, BGBL. I, §§ 12,
+134, last amended by GESETZ [G], Dec. 9, 2010, BGBL. I at 1900, art. 6 (Ger.).
+204. UWE HÜFFER, AKTIENGESETZ § 234, at 1160–61 (2008).
+205. Antje Endell, Volkswagen im Angebot VW-Gesetz bietet keinen dauerhaften
+Schutz vor feindlicher Übernahme, 3 NEUE ZEITSCHRIFT FÜR GESELLSCHAFTSRECHT 1160,
+1160–61 (2000) (arguing Deutsche Bank and Mannesman implemented Höchststimmrechte
+in their charters allowing them to discount votes of shareholders in a hostile takeover).
+206. Id.; see Ekkehard Wenger, Universalbankensystem und Depotstimmrecht, in
+DER MARKT FÜR UNTERNEHMENSKONTROLLEN 73, 98 n.84 (Helmut Gröner ed., 1992)
+(arguing that on average Höchststimmrechte have caused about four percent in stock
+price losses). Contra Endell, supra note 205, at 1160–61 (arguing that stock price losses
+cannot be attributed to Höchststimmrechte). See also Michael Adams, Höchststimmrechte,
+Mehrfachstimmrechte und sonstige wundersame Hindernisse auf dem Markt für
+Unternehmenskontrolle, 35 DIE AKTIENGESELLSCHAFT 63, 71 (1990); Theodor Baums,
+Höchststimmrechte, 35 DIE AKTIENGESELLSCHAFT 221, 226 (1990).
+207. GESETZ ZUR KONTROLLE UND TRANSPARENZ IM UNTERNEHMENSBEREICH
+[KONTRAG] [CONTROL AND TRANSPARENCY IN BUSINESS ACT], Apr. 27, 1998, BGBL. I
+at 786, arts. 1–2 (Ger.), available at http://www.ias-rechnungslegung.com/inhalt/gesetzl
+_grundl/kontrag/kontrag_bundesgestzesblatt.pdf (leading to a change of section 134 of
+the AktG); see also HÜFFER, supra note 204, § 234, at 1159–61.
+208. See EINFÜHRUNGSGESETZ ZUM AKTIENGESETZ [EGAKTG] [INTRODUCTORY ACT
+TO THE STOCK CORPORATION ACT], Sept. 6, 1965, BGBL. I at 1185, § 5, last amended by
+GESETZ [G], Sept. 12, 2010, BGBL. I at 1900, art. 7 (Ger.); AKTG § 12 (Ger.); ADOLF
+BAUMBACH & ALFRED HUECK, GMBHG § 12, at 3–4, 6 (2010).
+209. BAUMBACH & HUECK, supra note 208, § 12, at 5.
+210. CODE DE COMMERCE [C. COM.] art. 225-122 (Fr.).
+258
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+Kingdom, multiple votes per share are also permissible because the right
+of shareholder votes is governed by principles of freedom of contract.211
+Although not formally recognized under German Corporate Law,
+contingent capital is already recognized in Germany based on case
+law.212 Voting right increases could perhaps be introduced at a later
+point when the legislature formalizes its reform efforts. A prerequisite
+for the voting rights increase could be the conversion of contingent
+capital into equity capital. Another prerequisite for the increase could be
+a further worsening of the SIFI’s financial condition after conversion.
+The implementation of these proposals could keep Germany competitive
+with other European countries that allow an increase in voting rights,
+such as the United Kingdom and France.213
+b. U.S. Law
+United States state law does not uniformly address shareholder dilution
+involving the issuance or conversion of convertible securities. In some
+states, preemptive rights are triggered when convertible securities are
+issued.214 In others, preemptive rights are not automatically provided
+when convertible securities are issued or converted, unless provided for
+in the articles of incorporation.215 Although some state statutes provide
+an enumeration of exceptions to preemptive rights, the issuance of
+convertible securities is generally not included.216
+211. See PAUL L. DAVIES, GOWER AND DAVIES’ PRINCIPLES OF MODERN COMPANY LAW
+416, 420 (8th ed. 2008).
+212. See supra note 134.
+213. See supra Part I.
+214. See, e.g., MINN. STAT. ANN. § 302A.413 (West 2004) (providing generally for
+an opt-out provision for preemptive rights—“Unless denied or limited in the articles or
+by the board . . . a shareholder of a corporation has the preemptive rights provided in this
+section”—and specifically providing that the preemptive right accrues when the corporation
+proposes to issue new or additional securities other than shares that are convertible into
+“the same class as the shares held by the shareholder”).
+215. See, e.g., CAL. CORP. CODE § 406 (West 2012) (“Unless the articles provide
+otherwise, the board may issue shares, options or securities having conversion or option
+rights without first offering them to shareholders of any class.”);; DEL. CODE ANN. tit. 8,
+§ 102(b)(3) (West 2001 & Supp. 2010) (providing no separate rule or exception for
+preemptive rights, but providing that the certificate of incorporation may contain
+provisions granting such rights).
+216. But see N.Y. BUS. CORP. LAW § 622(e) (McKinney 2003) (listing types of
+securities or shares not subject to preemptive rights, unless otherwise provided for in the
+certificate of incorporation, and including shares “to be issued to satisfy conversion or
+option rights theretofore granted by the corporation”).
+259
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+In Delaware, preemptive rights are not granted upon the issuance or
+conversion of convertible securities unless the certificate of incorporation
+specifically grants such rights.217 However, if the certificate contains
+such an anti-dilution provision and the provision is ambiguous, it may be
+construed against the corporation.218 Thus, any anti-dilution provision
+should be provided for in the certificate of incorporation and should be
+as clear as possible.
+In most jurisdictions, the default rule for shareholder voting is one
+share/one vote.219 Delaware law allows for alternative voting arrangements
+provided the corporate charter initially permits them or was amended
+accordingly.220 Delaware courts generally allow controlling shareholders to
+217. DEL. CODE ANN. tit. 8, § 102(b)(3).
+218. See Kaiser Aluminum Corp. v. Matheson, 681 A.2d 392, 399 (Del. 1996)
+(affirming the chancery court’s injunction preventing the corporation from unilaterally
+changing the conversion rights of “Preferred Redeemable Increased Dividend Equity
+Securities” issued by the corporation to the plaintiffs). In that case, the shareholders
+sought to enjoin the defendant corporation from amending its certificate of incorporation
+to include a recapitalization plan that would convert preferred stock into common stock.
+Id. at 393. The corporation sought to amend the certificate and recapitalize without a
+vote of the preferred shareholders. Id. In holding that the existing conversion rights of
+the preferred stockholders should be construed to require conversion to the common
+stock existing before recapitalization, the court reasoned that the conversion rights stated
+in the certificate were ambiguous. Id. at 399.
+219. DEL. CODE ANN. tit. 8, § 212 (West 2006). Variations from one share/one vote
+can take several different forms. A common variation is when a corporation is initially
+incorporated with multiple classes of stock with disparate voting rights. The shares with
+enhanced voting rights are retained by insiders to ensure future control of the company.
+See Joel Seligman, Equal Protection in Shareholder Voting Rights: The One Common
+Share, One Vote Controversy, 54 GEO. WASH. L. REV. 687, 687–88 (1986). Another variation
+is a time-phased voting plan. Under a time-phased voting plan, the number of votes a
+shareholder can cast per share is dependent upon how long the shareholder has held his
+or her shares. Shareholders who have held their shares longer receive more votes. See
+Williams v. Geier, 671 A.2d 1368, 1380–81 (Del. 1996) (allowing time-phased voting
+where individuals holding shares for three years or more may cast ten votes per share).
+Another variation is a limit on the number of shares a single individual may vote. See
+Providence & Worcester Co. v. Baker, 378 A.2d 121, 124 (Del. 1977) (upholding charter
+provision that caps the number of shares an individual shareholder may vote).
+220. DEL. CODE ANN. tit. 8, §§ 151, 242 (West 2006). Section 151(a) empowers
+corporations to issue multiple classes of stock with disparate voting rights. Id. § 151. It
+also allows voting rights to be contingent on outside events. Id. Section 242(a) empowers a
+corporation to make “a change in stock or the rights of the stockholders” provided that a
+process in subsection (b), requiring both director and shareholder approval, is followed.
+Id. § 242; see also Williams, 671 A.2d at 1380–1381 (allowing time-phased voting where
+individuals holding shares for three years or more may cast ten votes per share); Baker,
+378 A.2d at 124 (upholding charter provision that caps the number of shares an
+individual shareholder may vote);; Weiss v. Rockwell Int’l Corp., No. 8811, 1989 WL
+80345, at *3 (Del. Ch. July 19, 1989) (dismissing claim of violation of fiduciary duties
+by directors for submitting amendment to shareholder vote that would authorize issue of
+super-voting stock). Commentators have also described the relative freedom Delaware
+law provides in determining the organization of corporations. See Edward P. Welch &
+Robert S. Saunders, Freedom and Its Limits in the Delaware General Corporation Law,
+260
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+increase the voting rights of stock.221 Voting rights increases are limited
+if the increase is inequitable or would violate the fiduciary responsibilities
+of the directors and majority shareholders.222 Increasing the voting rights
+of contingent capital holders before resolution of a financial institution can
+create disparate voting rights between shareholders.223 This disparity
+between shareholders could set the right incentive for shareholders and
+management as proposed herein.
+Dual-class voting rights may be created by several different
+mechanisms.224 Dual-class voting rights can be implemented if the
+corporate charter initially provided for dual-class rights or was amended
+to provide for dual-class rights. If the charter requirement is satisfied,
+dual-class voting rights may be created through an initial public offering,
+a new public offering, a voting rights alteration, a special distribution, or
+an exchange offer.225
+Delaware law supports the creation of super-voting stock226 if the
+increase in voting power serves the legitimate business purpose of
+33 DEL. J. CORP. L. 845, 847–55 (2008) (describing how Delaware corporate law currently
+represents a broadly enabling freedom of contract norm).
+221. See Benihana of Tokyo, Inc. v. Benihana, Inc., 891 A.2d 150, 170, 190 (Del.
+Ch. 2005) (holding that the corporation was authorized to issue preferred stock with
+preemptive rights based on the certificate of incorporation), aff’d, 906 A.2d 114 (Del.
+2006); Williams, 671 A.2d at 1380–81; Wis. Inv. Bd. v. Peerless Sys. Corp., No. Civ. A.
+17637, 2000 WL 1805376, at *9 (Del. Ch. 2000) (holding that “[i]n the absence of
+finding that the primary purpose of the board’s action was to interfere with or impede
+exercise of the shareholder franchise, the business judgment rule presumption applies”
+(citing Williams, 671 A.2d at 1376)); Weiss, 1989 WL 80345, at *3 (dismissing claim of
+violation of fiduciary duties by directors for submitting amendment to shareholder vote
+that would authorize issue of super-voting stock).
+222. See Schnell v. Chris-Craft Indus., Inc., 285 A.2d 437, 439–40 (Del. 1971)
+(holding that although board’s inequitable attempt to perpetuate itself in office using the
+corporate machinery was legally possible, it was impermissible); Lacos Land Co. v.
+Arden Grp., Inc., 517 A.2d 271, 273, 278 (Del. Ch. 1986) (holding that an attempt to
+create a class of super-voting stock giving control of the company to CEO was
+inequitable because it was motivated by personal interest in gaining sole control of the
+company and accomplished through use of misleading statements and threats).
+223. Douglas C. Ashton, Revisiting Dual-Class Stock, 68 ST. JOHN’S L. REV. 863,
+865–66 (1994).
+224. See id. at 876–84; Jeffrey N. Gordon, Ties That Bond: Dual Class Common
+Stock and the Problem of Shareholder Choice, 76 CAL. L. REV. 1, 40–42 (1988) (describing
+the mechanisms through which dual-class stock is created in corporations that are
+already capitalized—exchange offers, special distributions, and voting rights alterations).
+225. See Ashton, supra note 223, at 876–84 (describing five different mechanisms
+by which dual-class stock is created).
+226. Williams, 671 A.2d at 1372 (allowing “tenure voting” system, which would give
+shareholders of three years ten times more votes than shareholders of less than three
+261
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+preserving the financial institution as it approaches insolvency or
+dissolution.227 Allocating super-voting stock, as proposed herein, would
+be for the legitimate business purpose of avoiding both insolvency and
+dissolution. Historically, stock exchanges in the United States have
+limited the ability of listed corporations to issue stock that would dilute
+the voting rights of existing shareholders.228 The SEC had promulgated
+regulations restricting voting rights increases that diluted existing
+shareholders’ voting rights.229 However, courts invalidated these rules.230
+Despite the invalidation of SEC restrictions, stock exchanges have
+independently continued to apply a uniform voting rights policy restricting
+voting rights increases.231 The policy allows for dual-class capitalization
+but prohibits midstream changes in voting rights if voting rights of other
+classes of stock are diluted.232 However, there is no absolute ban on super-
+voting stock. The NYSE and Nasdaq policies are subject to several
+exemptions.233 Although the policies may restrict the voting rights
+years); Weiss, 1989 WL 80345, at *3 (dismissing claim of violation of fiduciary duties
+by directors for submitting amendment to shareholder vote that would have authorized
+issue of super-voting stock).
+227. Williams, 671 A.2d at 1377–78 (applying the business judgment rule to action
+of board in recommending charter amendment altering voting rights of stock).
+228. See ARTHUR FLEISCHER, JR. & ALEXANDER R. SUSSMAN, TAKEOVER DEFENSE:
+MERGERS AND ACQUISITIONS § 6.04 (6th ed. Supp. 2012)
+229. See 17 C.F.R. § 240.19c-4 (2011). Rule 19c-4 was issued under authority granted
+to the SEC by the Securities and Exchange Act of 1934. The rule was accompanied
+by an SEC release elaborating on the background and intended effect of the rule. See
+Securities Exchange Act of 1934: Voting Rights Listing Standards—Disenfranchisement
+Rule, 41 SEC Docket (CCH) No. 34-25891, at 432 (July 7, 1988).
+230. See, e.g., Bus. Roundtable v. SEC, 905 F.2d 406, 407, 417 (D.C. Cir. 1990)
+(holding that the SEC exceeded its statutory authority in creating a rule regulating the
+substantive allocation of powers among classes of shareholders).
+231. See Section 3 Corporate Responsibility, NYSE LISTED COMPANY MANUAL,
+http://nysemanual.nyse.com/LCM/Sections (last visited Mar. 4, 2012) (restricting, in
+section 313.00(A), voting rights increases); see also Securities and Exchange Act of 1934:
+Order Granting Approval to Rule Changes Relating to the Exchanges’ and Association’s
+Rules Relating to Shareholder Voting Rights, 58 SEC Docket (CCH) No. 34-35121, at
+1179 (Dec. 19, 1994) (approving amendments to the listing standards of the NYSE, AMEX,
+and NASD that established a uniform voting rights policy across all of the exchanges);
+NASDAQ Stock Market Rules: Equity Rule 5640, NASDAQ (Mar. 12, 2009), http://
+nasdaq.cchwallstreet.com/.
+232. Stock with disparate voting rights may still be issued in an initial public offering.
+See infra text accompanying note 233.
+233. Although the uniform voting policy itself is contained in a single paragraph in
+each exchange’s listing standards, the exchanges have issued interpretations clarifying
+the policy. Frequently Asked Questions: Listing Qualifications—Corporate Governance,
+NASDAQ OMX LISTING CTR., https://listingcenter.nasdaqomx.com/Show_Doc.aspx?
+File=FAQsCorpGov.html (last visited Mar. 4, 2012) (discussing voting rights). In addition,
+the initial notice accompanying the SEC approval of the Uniform Voting Policy stated
+that issues of stock that would have fallen under exceptions included in the invalidated
+Rule 19c-4 would still be allowed under the new policy. See Securities and Exchange
+Act of 1934: Notice of Filing of Proposed Rule Changes Relating to the Exchanges’ and
+262
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+increase proposed herein, we believe these restrictions should not be
+applied to CCS. NYSE and Nasdaq would benefit from exempting CCS
+from their respective policies because an exemption from the policies
+could increase the marketability and the trading on each exchange.
+The voting rights increase could change the corporate governance of
+the corporation before resolution and could increase the influence of
+activist shareholders. The role of shareholders in corporate governance
+is the subject of a long academic debate.234 Although we believe this
+debate is important and helps determine the optimal design of corporate
+governance in the United States, the proposal in this Article would give
+rise to additional voting rights and add to shareholder influence only if
+conversion of CCS did not provide a sufficient equity capital injection to
+return the company to financial viability. The second trigger voting
+rights increase should never actually be triggered. Rather, it should help
+level the playing field between constituents and incentivize negotiation
+and provide an alternative to reorganization.235
+V. CONSTITUENT INCENTIVES
+Contingent capital is primarily intended as a supplement to higher capital
+and liquidity requirements and a measure to increase loss absorbency of
+financial institutions. Contingent capital securities can also provide
+Association’s Shareholder Voting Rights, 57 SEC Docket (CCH) No. 34-34518, at 912
+(Aug. 11, 1994). The four exceptions are: (1) dual-class securities issued in an initial public
+offering, (2) issuance of a new class of securities with voting rights no greater than an
+existing class of security, (3) issuance of stock with voting rights no greater than any
+outstanding class to effect a merger or acquisition, (4) corporate action taken to comply
+with state mandatory control-share statutes. 17 C.F.R. § 240.19c-4(d)(1)–(4) (2011).
+234. See Stephen M. Bainbridge, The Case for Limited Shareholder Voting Rights,
+53 UCLA L. REV. 601, 636 (2006); Lucian Arye Bebchuk, The Case for Increasing
+Shareholder Power, 118 HARV. L. REV. 833 (2005); Roberta Romano, Less Is More:
+Making Institutional Investor Activism a Valuable Mechanism of Corporate Governance,
+18 YALE J. ON REG. 174, 231–32 (2001). But see Iman Anabtawi, Some Skepticism
+About Increasing Shareholder Power, 53 UCLA L. REV. 561 (2006); Stephen M.
+Bainbridge, Director Primacy and Shareholder Disempowerment, 119 HARV. L. REV.
+1735 (2006); Lucian A. Bebchuk, The Myth of the Shareholder Franchise, 93 VA. L.
+REV. 675 (2007); William W. Bratton & Michael L. Wachter, The Case Against
+Shareholder Empowerment, 158 U. PA. L. REV. 653 (2010);; Paramount Commc’ns Inc.
+v. Time Inc., Nos. 10866, 10670, 10935, 1989 WL 79880, at *30 (Del. Ch. 1989), aff’d,
+571 A.2d 1140 (Del. 1990); Leo E. Strine, Jr., Toward a True Corporate Republic:
+A Traditionalist Response to Bebchuk’s Solution for Improving Corporate America, 119
+HARV. L. REV. 1759 (2006); Julian Velasco, Taking Shareholder Rights Seriously, 41
+U.C. DAVIS L. REV. 605 (2007).
+235. See infra Part V.
+263
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+incentives to lower risk. To avoid signaling default risk, CCS can
+incentivize a voluntary increase of capital well in advance of a possible
+default. These incentives are important because they make it possible for
+the institution to use contingent capital as a self-policing and checks-and-
+balances device. Contingent capital is meant to prevent incentives for
+excessive risk-taking and remedy the reliance on public bailouts.
+Under a contingent capital regime, management, shareholders, and
+creditors are similarly affected because the conversion feature can change
+the power, dependency, and perhaps even the control dynamic in the
+company. In this capacity, CCS could help fill the void left by regulators’
+inability to supervise financial institutions effectively, often the result of
+insufficient public funding.
+Increased voting rights could make CCS more effective by adding an
+additional incentive. The real possibility of increased dilution plus loss
+of corporate governance could work as an effective incentive to lower
+risk or force the increase of capital before the company files for bankruptcy.
+The second trigger, as proposed here, would increase the dilutive effect
+of conversion with a possible threat of change of control, namely, a
+majority shareholder could lose control over the entity, provided all CCS
+holders vote in unity, have support from some incumbent shareholders,
+or both. This could change the corporate governance dynamic of the
+corporation in many ways.
+The voting rights trigger could influence a quorum, or lack thereof, to
+call a meeting or a quorum to vote on action items at company meetings.
+This may not only be significant in the context of supporting incumbent
+management but also force a vote on new management to change the course
+of the company, restructure, or discharge assets. A quorum may also allow
+for changes in bonuses or executive salaries. Changing the power structure
+within the company at such a crucial moment in the history of the
+company—facing resolution—could increase constituents’ incentives to
+avoid the change in power dynamics by taking appropriate precautions.
+Increased voting rights of CCS holders could provide a level of
+independence for management. Under this regime of contingent capital,
+management could be more conservative in the day-to-day operations of
+the company without fear that if management personnel do not take the
+expected level of risk, often induced by shareholders, they will lose their
+job. At the same time, increased voting rights could also magnify
+management accountability because CCS holders combined with other
+interested (institutional) shareholders could be in a position to demand
+corrective action before reorganization or remove management swiftly.
+No creditor really wants to be an equity holder if the company cannot pay
+its financial obligations.
+264
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+For management, operating effectively in an environment of contingent
+capital regimes could largely depend on whether it puts its fate into the
+hands of incumbent shareholders or the new CCS holders who hold at least
+a quorum. If incumbent management has the support of CCS holders, a
+sufficient fraction of incumbent shareholders to form a quorum, or both,
+incumbent management may be able to get important decisions approved by
+the board before reorganization.
+How influential CCS holders could be may depend to some extent on
+the degree of mandatory CCS issuance. Although the EU Commission
+estimates between four and nineteen percent of risk-weighted assets,236
+Goldman Sachs suggests the mandatory issuance requirement could be
+in the vicinity of four to eight percent of risk-weighted assets.237 Even at
+the lower end of these estimates, the increase in voting rights would
+have to be substantial to result in a change in corporate control of a SIFI.
+Whether that could have an impact on pricing and marketability remains
+to be seen.238
+Although there is a risk that a CCS conversion could be triggered,
+especially if the trigger design was suboptimally designed, both
+contractually or by a regulator, we would expect that voting rights increases
+by way of a second trigger would be rare because management and
+incumbent shareholders are incentivized to avoid a triggering event.
+However, to be effective, the level of a possible voting rights increase
+should probably be substantial enough to incentivize the avoidance of
+the triggering event. It should provide the constituents with the right
+incentives to negotiate in a quasi-preparation stage before reorganization
+or bankruptcy proceedings. The second trigger is also unlikely to be
+triggered accidentally or for non-systemic reasons because the stakes are
+much higher for all constituents, which further incentivizes finding a
+privately negotiated solution.
+236. DG WORKING DOCUMENT, supra note 8, Annex I, at 89 n.24.
+237. GOLDMAN SACHS GLOBAL MKTS. INST., supra note 29, at 13.
+238. The increase in voting rights could create marketability issues for CCS because
+the increase in voting rights could increase the cost of the CCS. Issuers that are subject
+to mandatory CCS issuance rules may demand a premium if the CCS have a second
+trigger with a (substantial) voting rights increase. Especially if the voting rights increase
+could reach the level of change of control over the entity, the premium charged by the issuers
+could rise dramatically and could result in a primary issuance to institutional investors
+who have an interest in the change of control possibility. Whether other factors can
+offset this and increase the marketability is unclear.
+265
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+VI. QUASI-PREPARATION STAGE BEFORE BANKRUPTCY
+Contingent capital could have a variety of applications before and during
+bankruptcy proceedings. Although the reorganization procedure under
+Chapter 11 is currently not applicable to banks in the United States,239 many
+European countries have enacted similar reorganization procedures
+for financial institutions.240 In the context of these procedures, CCS
+could work as effective supplements for insolvency proceedings.241
+Contingent capital securities could further integrate bank resolution
+proposals focusing on corporate restructuring with proposals that
+focus on liquidation through bankruptcy proceedings.
+A specific advantage of contingent capital is its ability to create an
+opportunity for holders of contingent capital and former creditors to
+participate in the reorganization of the financial institution at a much
+earlier stage, pre-bankruptcy. In addition, in European jurisdictions that
+introduced a reorganization procedure similar to Chapter 11, such as
+Germany,242 CCS could offer the added advantage of pre-negotiated or
+prepackaged plans common in the United States.243 This could help
+accelerate reorganization procedures and could entail a forty-eight to ninety-
+six hour stay on termination rights of derivative contracts.244
+Perhaps one of the biggest advantages of contingent capital is its
+ability to involve shareholders directly. Shareholders can participate in the
+issuance of CCS and are in a position to consider the risk of default at a
+much earlier stage. Shareholders have the possibility, prior to each
+triggering event, to influence corporate governance and to prevent
+dilution or additional loss of voting rights. They may replace management
+and can vote on major corporate policy changes, such as abandoning a
+239. 11 U.S.C. § 109(b)(2) (2006).
+240. See Henkel & Kaal, supra note 57.
+241. SKEEL, supra note 3, at 84.
+242. KREDITINSTITUTE-REORGANIZATIONSGESETZ [KREDREORG] [FINANCIAL
+INSTITUTION REORGANIZATION ACT], Dec. 9, 2010, BGBL. I at 1900, §§ 7–23 (Ger.)
+(including the requirement of a reorganization plan approved by creditors’ committees).
+243. See, e.g., In re Pioneer Fin. Corp., 246 B.R. 626, 630 (Bankr. D. Nev. 2000)
+(describing prepackaged and pre-negotiated plans); Chelsea Emery, Reader’s Digest
+Plans To File for Chapter 11 Bankruptcy, REUTERS, Aug. 19, 2009, available at 2009
+WLNR 16170098.
+244. The stay on termination rights of derivative contracts is already available under
+German law and was suggested for bankruptcy reform in the United States. See SKEEL,
+supra note 3, at 59, 159. Under Dodd-Frank parties to qualified financial contracts or
+“QFCs” may not exercise any right to terminate until the earlier of (1) the time at which
+the person has received notice that the QFC has been transferred or (2) 5:00 p.m. eastern
+time on the business day following the date of the appointment of the FDIC as receiver.
+12 U.S.C. § 5390(c)(8)(F)(ii) (2006). QFCs are defined as securities contracts, commodity
+contracts, forward contracts, repurchase agreements, swap agreements, and other similar
+agreements. Id. § 5390(c)(8)(D)(i).
+266
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+certain business segment or implementing measures that would
+otherwise be prescribed by the supervising authority.245 Even after the
+conversion of debt to equity following the first triggering event,
+shareholders have an incentive to work closely with CCS holders to prevent
+further deterioration of the institution and to prevent CCS holders from
+gaining control over the institution. Finally, even after the second trigger
+and the resulting increase in voting rights, incumbent shareholders
+and new CCS shareholders can influence the direction of the institution
+and avoid liquidation.
+In sum, CCS offer a reorganization option in a system focused on
+liquidation but also create a mechanism that is more efficient, less
+expensive, and less time consuming than a reorganization procedure
+under Chapter 11. Strategic maneuvering of creditors prior to filing for
+bankruptcy protection or during the negotiations leading up to plan
+confirmation could distort the herein-proposed incentives for constituents.
+Strategic maneuvering could play an equally important role at the stage
+of CCS conversion and the increase of voting rights. The benefits of the
+proposal in this Article could, however, outweigh the risk associated with
+strategic behavior. This also applies to possible challenges by shareholders
+over conversion and the trigger to increase voting rights. Transaction
+and social costs associated with our proposal, among others, will require
+additional research.
+In addition to the described incentives and quasi-preparation stage
+before bankruptcy, contingent capital also combines other bankruptcy
+elements, such as the concept of a debtor in possession (DIP) or
+creditors’ committees. Contingent capital in the context of developing a
+time-efficient reorganization procedure for banks resembles the discussion
+of “chameleon equity” in the late 1980s and early 1990s.246
+A. Debtor in Possession and Creditors’ Committees
+Under U.S. bankruptcy law, insurance companies and banks are not
+eligible to file under Chapter 11.247 The comparison between CCS and
+245. See Council Directive 2006/48, art. 136, 2006–2010 O.J. (L 177) 1 (EU);
+EUROPEAN COMM’N SERVS. STAFF, COMMISSION SERVICES STAFF WORKING DOCUMENT:
+POSSIBLE FURTHER CHANGES TO THE CAPITAL REQUIREMENTS DIRECTIVE 1–2 (2010), http://
+ec.europa.eu/internal_market/consultations/docs/2010/crd4/consultation_paper_en.pdf.
+246. See Adler, supra note 17, at 323–33; see also Skeel, supra note 18, at 483
+(expanding on Adler’s discussion of chameleon equity).
+247. 11 U.S.C. § 109(d) (2006).
+267
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+concepts of Chapter 11 helps underscore the advantages of CCS
+that are similar to the reorganization procedure under Chapter 11. It
+shows that contingent capital can work as a quasi-preparation stage for
+reorganization or even liquidation. Moreover, legislators in Europe have
+clearly incorporated many aspects of Chapter 11 into their national bank
+reorganization and resolution laws, offering an alternative to liquidation.248
+The advantages of Chapter 11, in particular with regard to prearranged,
+pre-negotiated, and prepackaged bankruptcy cases,249 could further improve
+European bank reorganization and resolution procedures.250
+Under U.S. bankruptcy law, the filing of a Chapter 11 case generally
+institutes a DIP.251 It is therefore the norm that the debtor, and not an
+independent trustee, oversees the reorganization procedure under U.S.
+law.252 The DIP is recognized as a hybrid creature who is the “debtor
+except when [he or she] . . . is serving as trustee”253 and who therefore
+assumes two functions: (1) as debtor qua debtor254 and (2) as debtor
+qua trustee.255 The purpose of installing a DIP is to create consistency
+when operating a business as a going concern under Chapter 11. It is
+assumed that the debtor and incumbent management of businesses filing for
+protection under Chapter 11 know their organization and are best
+positioned to return a corporation to profitability. After all, the central
+premise of any reorganization procedure is to permit financially
+interested parties to capture the going concern value of the debtor’s
+business and to prevent parceling out assets.256
+The reasoning behind the concept of DIP can also be applied to troubled
+financial institutions by comparing a financial institution after the
+conversion of CCS into equity with a corporation entering reorganization.
+Especially at a stage where a bank is in distress and where timeliness is
+248. See Henkel & Kaal, supra note 57.
+249. See In re Pioneer Fin. Corp., 246 B.R. 626, 630 (Bankr. D. Nev. 2000) (describing
+prepackaged and pre-negotiated plans); CHARLES JORDAN TABB, THE LAW OF BANKRUPTCY
+1130 (2d ed. 2009); Emery, supra note 243.
+250. A good example is the German bank reorganization procedure. See Henkel &
+Kaal, supra note 57. A prearranged reorganization after CCS conversion may make the
+stay on termination rights of derivative contracts of up to ninety-six hours more effective
+than under current law. A reorganization plan may be in place before the stay terminates, and
+contract parties of derivative contracts may thus be forced to also share in potential
+losses.
+251. TABB, supra note 249, at 1053–54.
+252. An independent trustee may be appointed by the court if the requisite requirements
+of the U.S. Bankruptcy Code, 11 U.S.C. § 1104 (2006 & Supp. IV 2011), are fulfilled.
+253. Id. § 1101(1).
+254. TABB, supra note 249, at 1054; see Daniel B. Bogart, Liability of Directors of
+Chapter 11 Debtors in Possession: “Don’t Look Back—Something May Be Gaining on
+You,” 68 AM. BANKR. L.J. 155 (1994).
+255. TABB, supra note 249, at 1054.
+256. Id.
+268
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+of the essence, incumbent management can provide the needed consistency
+to realize the value of the institution as a going concern. Just as an
+independent trustee in bankruptcy,257 new management would need to
+familiarize itself with the corporation before being able to effectively
+make necessary, and often difficult, decisions. CCS holders as former
+creditors will have a natural interest in consistency. It is their main interest
+to realize their claims. CCS holders are therefore likely to support
+incumbent management. CCS holders’ perhaps changing perspective as
+equity holders after the conversion should not change their interest in
+consistency. CCS investors may generally be interested not in becoming
+equity holders but rather in recouping their investment or collecting on
+their claims. True to the hybrid character of the DIP as “debtor qua
+trustee,” management accountability may also be increased after the debt-
+equity conversion and as it relates to CCS holders. Assuming CCS holders
+support incumbent management and management depends on their vote
+to stay in office, it is likely that incumbent management will also protect
+257. An independent trustee will be appointed only if the requirements of U.S.
+Bankruptcy Code § 1104(a)(1)–(3) are fulfilled. House Report No. 95-595 gives the
+justification of and the reason for the debtor in possession:
+[V]ery often the creditors will be benefited by the continuation of the debtor in
+possession, both because the expense of a trustee will not be required, and the
+debtor, who is familiar with his business, will be better able to operate it during
+the reorganization case. A trustee frequently has to take time to familiarize
+himself with the business before the reorganization can get under way. Thus, a
+debtor continued in possession may lead to a greater likelihood of success in
+the reorganization. Moreover, the need for reorganization of a public company
+today often results from single business reverses, not from any fraud, dishonesty, or
+gross mismanagement on the part of the debtor’s management. Even if the
+cause is fraud or dishonesty, very frequently the fraudulent management will
+have been ousted shortly before the filing of the reorganization case, and the
+new management, very capable of running the business, should not be ousted
+by a trustee because of the sins of former management. . . .
+. . . [F]acilitation of the reorganization to the benefit of the debtor and the
+creditors[] militates against the appointment of a trustee. . . . Debtors’ lawyers
+that participated in the development of a standard for the appointment of a
+trustee were adamant that a standard that led to too frequent appointments
+would prevent debtors from seeking relief under the reorganization chapter,
+and would leave the chapter largely unused except for extreme cases. One of
+the problems that the Bankruptcy Commission recognized in current bankruptcy
+and reorganization practice is that debtors too often wait too long to seek
+bankruptcy relief. Too frequent appointment of a trustee would exacerbate that
+problem, to the detriment of both debtors and their creditors.
+H.R. REP. NO. 95-595, at 233–34 (1977) (citation omitted), reprinted in 1978
+U.S.C.C.A.N. 5963, 6192–93.
+269
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+CCS holders’ interests, not unlike the fiduciary duties a DIP has to the
+bankruptcy estate.
+Creditors’ committees also play a prominent role in Chapter 11 cases.258
+Under § 1103,259 creditors’ committees have supervisory and investigatory
+powers and participate in the formulation of the reorganization plan.260
+Applying this to CCS conversion, CCS holders with increased voting
+rights will have similar powers and may even hold the equivalent of a
+veto right. The proposal in this Article would, however, create a far more
+flexible and efficient solution than Chapter 11. Neither court involvement
+nor a threshold of creditor approval would be required. In addition, like
+prearranged or prepackaged plans in the United States,261 the quasi-
+preparation stage for reorganization after CCS conversion could
+provide a more efficient procedure in achieving plan approval and
+confirmation. Finally, given the focus on orderly liquidation and wind-
+down of the financial institution in the Dodd-Frank Act,262 the stage after
+conversion and before liquidation may be the last chance for CCS
+holders as former creditors to “secure” their debt in the United States.
+The proposal in this Article has the advantage of an early involvement
+of creditors even before any possible bankruptcy proceedings, with the
+added bonus of management consistency and accountability. Both of
+these advantages could make dual trigger CCS as proposed herein more
+marketable and create overall lower risk while keeping regulatory prompt
+corrective actions and liquidations at bay. In fact, the issuance of a dual
+trigger CCS as proposed herein provides an option similar to a
+reorganization procedure and may allow a distressed financial institution
+to return to profitability. In sum, this should further increase the chances
+that this form of CCS will be rated. Conversion and voting rights increases
+are predictable and not dependent on regulatory action.
+B. Contingent Capital in Prepackaged Bankruptcy
+Plans and Preplan Sales
+Contingent capital may offer a preferable alternative to out-of-court
+workout agreements by reducing uncertainties and improving efficiency.
+258. 11 U.S.C. § 1103 (2006).
+259. Id.
+260. Id. § 1103(c); see also TABB, supra note 249, at 1066–67.
+261. Id. §§ 1125(g), 1126(b); In re Pioneer Fin. Corp., 246 B.R. 626, 630 (Bankr.
+D. Nev. 2000) (describing prepackaged and pre-negotiated plans); TABB, supra note 249,
+at 1130.
+262. Dodd-Frank Wall Street Reform and Consumer Protection Act § 214, 12 U.S.C.
+§ 5394 (Supp. IV 2010).
+270
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+Using CCS could have advantages over prepackaged bankruptcy plans263
+and preplan sales.264 Prepackaged plans and preplan sales are common
+practice in reorganizations under Chapter 11. These arrangements are
+generally considered to be more flexible and faster alternatives to ordinary
+Chapter 11 confirmation proceedings.265 Although prepackaged plans may
+be initiated by obtaining the creditors’ agreement to a plan prior to any
+bankruptcy petition,266 preplan sales may be executed only during the
+pendency of a case or as part of a reorganization plan under Chapter 11.267
+An advantage of prepackaged plans is the shorter time period in which
+a reorganization plan can be confirmed.268 In contrast with the lengthy
+confirmation procedure of a reorganization plan under ordinary Chapter
+11 proceedings, the acceptance obtained from creditors under prepackaged
+plans can be used to confirm the plan following the bankruptcy petition
+with the additional advantage of binding any dissenting creditor.269
+Prearranged plans work similarly.270 The most significant downside of
+prepackaged plans is the risk that disclosure requirements and other
+safeguards under the Bankruptcy Code are short circuited, thereby violating
+creditors’ rights.271 The Bankruptcy Code addresses this problem by
+prescribing that solicitation and disclosure of prepackaged plans must
+provide adequate information.272 The Code does not define the parameters
+263. Brian K. Tester et al., Need for Speed: Prepackaged and Prenegotiated Bankruptcy
+Plans, BUS. REORGANIZATION (Am. Bankr. Inst., Alexandria, VA.), June 2010, at 399,
+available at http://www.abiworld.org/committees/newsletters/busreorg/vol9num7/pack.pdf.
+264. William T. Bodoh et al., The Parameters of the Non-Plan Liquidating Chapter
+11: Refining the Lionel Standard, 9 BANKR. DEV. J. 1, 3 (1992).
+265. See also Thomas H. Jackson, Chapter 11F: A Proposal for the Use of
+Bankruptcy To Resolve Financial Institutions, in ENDING GOVERNMENT BAILOUTS 217
+(Kenneth E. Scott et al. eds., Stanford Univ. Press 2009), available at http://media.
+hoover.org/sites/default/files/documents/Ending_Government_Bailouts_as_We_Know_Them
+_217.pdf; Edward R. Morrison, Is the Bankruptcy Code an Adequate Mechanism for
+Resolving the Distress of Systemically Important Institutions?, 82 TEMP. L. REV. 449 (2009);
+Rodgin Cohen & Morris Goldstein, The Case for an Orderly Resolution Regime for
+Systemically-Important Financial Institutions (Peterson Inst. for Int’l Econ. Pew Charitable
+Trusts, Briefing Paper No. 13, 2009), available at http://www.iie.com/publications/papers/
+goldstein1009.pdf.
+266. See, e.g., In re Papercraft Corp., 187 B.R. 486 (Bankr. W.D. Pa. 1995).
+267. 11 U.S.C. § 363 (2006).
+268. Charles J. Tabb, The Future of Chapter 11, 44 S.C. L. REV. 791, 848 (1993).
+269. 11 U.S.C. § 1141 (2006).
+270. Id. §§ 1125(g), 1126(b); see also TABB, supra note 249, at 1130. For a more
+comprehensive discussion, see Tabb, supra note 268, at 848–50.
+271. In re Southland Corp., 124 B.R. 211, 225 (Bankr. N.D. Tex. 1991).
+272. 11 U.S.C. § 1126(b) (2006).
+271
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+or meaning of the term adequate. Prepackaged plans therefore run the
+risk of providing inadequate information.273 Given this shortcoming, the
+agreement may be challenged by creditors. In many cases, the
+prepetition votes cannot be utilized, forcing the reorganization into the
+ordinary and much longer plan confirmation procedure under Chapter 11.
+Prepetition agreement in prepackaged plans must conform to non-
+bankruptcy disclosure laws, which may be stricter than those required
+under Chapter 11 itself.274 Finally, it is questionable whether prepackaged
+plans may always be the best option for the reorganization of financial
+institutions or financial holding companies that require complex debt
+restructuring, including derivative contract termination and asset sell-
+offs.275
+Preplan sales under § 363 of the U.S. Bankruptcy Code276 face similar
+concerns. A preplan sale effectively ends the bankruptcy case without
+protecting creditors under the confirmation procedure of Chapter 11.277
+A preplan sale thus has the “practical effect of dictating some of the
+terms of any future reorganization plan.”278 Courts disagree on the timing
+and appropriateness of preplan sale approvals. Although some courts
+require a genuine emergency,279 a majority of courts permit sale approval
+based on the business judgment standard or where the sale proponents
+offer a “good business reason” for the sale.280 However, the consensus
+among courts seems to be that preplan sales may not be approved if doing
+so may generally conflict with the protection of creditors or attempts to
+provide a more effective reorganization procedure.281 The Fifth Circuit
+has been the most outspoken and noted that “the debtor and the
+Bankruptcy Court should not be able to short circuit the requirements of
+Chapter 11 for confirmation of a reorganization plan by establishing the
+terms of the plan sub rosa in connection with a sale of assets.”282 Thus,
+273. Douglas M. Foley & James E. Van Horn, Prepacks on the Rise in Chapter 11
+Bankruptcies Prenegotiated Plans Can Accelerate Reorganizations, TMA (Aug. 27,
+2008), http://www.turnaround.org/Publications/Articles.aspx?objectId=9655 (stating that
+“[e]ven if a debtor obtains the requisite number of acceptances for its prepackaged
+Chapter 11 plan, the risk remains that a Bankruptcy Court ultimately may rule that the
+debtor’s pre-petition solicitation and/or disclosure statements were not ‘adequate’ under
+[the] Bankruptcy Code”).
+274. See, e.g., TABB, supra note 249, at 1131.
+275. Id. at 1131–32.
+276. 11 U.S.C. § 363(b), (c) (2006).
+277. In re White Motor Credit Corp., 14 B.R. 584, 590 (Bankr. N.D. Ohio 1981).
+278. In re Braniff Airways, Inc., 700 F.2d 935, 940 (5th Cir. 1983).
+279. See, e.g., White Motor Credit Corp., 14 B.R. at 588.
+280. See, e.g., In re Lionel Corp., 722 F.2d 1063, 1071 (2d Cir. 1983).
+281. See, e.g., Fla. Dep’t of Revenue v. Piccadilly Cafeterias, Inc., 554 U.S. 33
+(2008).
+282. Braniff Airways, Inc., 700 F.2d at 940.
+272
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+a major concern of preplan sales is whether the sale is a disguised
+reorganization with the explicit or implied intent of preempting creditors’
+rights.
+Moreover, although preplan sales under § 363 are faster and more flexible
+than Chapter 11 plan confirmation, a sale out of the ordinary course of
+business may be approved only “after notice and a hearing.”283 Although
+the Bankruptcy Rules284 follow a negative notice approach for preplan
+sales in this context,285 creditors may always request a hearing and must
+be provided with a twenty-one-day notice of such sale.286 Although courts
+can shorten this period,287 an appeal of the bankruptcy court’s order
+could further delay the preplan sale.288
+The use of CCS could help avoid some of these challenges. Compared
+with prepackaged resolution plans or preplan sales, CCS in a quasi-
+preparation stage for bankruptcy could provide a more efficient procedure
+for reorganization. More specifically, CCS could be more efficient
+because CCS could provide the basis for a resolution mechanism
+outside of formal resolution proceedings and without the restrictions of
+prepackaged plans or preplan sales. The Bankruptcy Code does not regulate
+CCS conversion or the use of increased voting rights. Contingent capital
+securities are, for the most part, privately negotiated contracts.289
+In the face of conversion of CCS into equity, a financial institution in
+distress may be able to convince outside creditors and unconverted CCS
+holders to agree to preapprove a reorganization plan. Outside creditors
+and CCS holders may generally be disinterested in becoming equity
+holders.290 After CCS convert into equity, former CCS creditors (now
+283. 11 U.S.C. § 363(b)(1) (2006).
+284. FED. R. BANKR. P. (as amended May 1, 2010).
+285. 11 U.S.C. § 102(1) (2006).
+286. See FED. R. BANKR. P. 2002(a), 6003.
+287. Id. 6004(c), 2002(c). In the Lehman Brothers’ Chapter 11 case, the court held
+the preplan sales hearing and approved the sale of LBI’s assets to Barclays in just five
+days after the filing of the Chapter 11 petition. See Robert J. Rosenberg et al., Bankruptcy
+2010: Views from the Bench, ASSET SALES (Am. Bankr. Inst., Alexandria, Va.), Oct.
+2010, at 7, available at www.abiworld.org/committees/newsletters/assetsales/vol7num8/
+issues.pdf.
+288. See, e.g., ADMIN. OFFICE OF THE U.S. COURTS, REPORT PURSUANT TO SECTION
+202(E) OF THE DODD-FRANK WALL STREET REFORM AND CONSUMER PROTECTION ACT OF
+2010, at 28 (2011).
+289. See supra Part V.
+290. Coffee, supra note 15, at 828, 836–37 (arguing that although several offerings of
+contingent capital have been successfully completed, they “hardly demonstrate that investors
+have definitively accepted this new product”);; Anat R. Admati et al., Fallacies, Irrelevant
+273
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+equity holders) may still primarily be interested in realizing their initial
+investment and reducing their losses. Whether these converted equity
+holders would continue to favor pre-resolution agreements to sell or transfer
+assets seems less clear. However, pre-bankruptcy arrangements entered
+into after CCS conversion may not be as easily challenged in court as
+traditional prepackaged plans or preplan sales. In addition, a sale of
+assets may be entirely executed outside of or prior to any bankruptcy
+proceeding. Such sale could work like a bridge bank transfer291 or the
+sale to a private sector purchaser,292 except that, unlike a bridge bank or
+private sector transfer,293 the presale would be conducted outside of and
+not within resolution.294 Finally, a transfer or sale of assets outside of
+bankruptcy may also avoid the need of disclosing business information
+by the buyer or transferee to a large number of creditors that may otherwise
+be necessary for approval and confirmation in bankruptcy.295
+Facts, and Myths in the Discussion of Capital Regulation: Why Bank Equity Is Not Expensive
+53–55 (Stanford Graduate Sch. of Bus., Research Paper No. 2065, 2011), available at
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1669704; Pennacchi, supra note 45;
+Sundaresan & Wang, supra note 39, at 2; Investor Views on Contingent Capital, REUTERS,
+Oct. 18, 2010, available at http://www.reuters.com/article/2010/10/18/banks-capital-cocos-
+investors-idUSLDE69D0QR20101018; see also Brett Goldblatt, Getting Out After It’s Too
+Late: Exit Strategies in Chapter 11 Bankruptcies, 23 AM. BANKR. INST. J., Oct. 2004, at
+26; Claire A. Hill, Why Financial Appearances Might Matter: An Explanation for “Dirty
+Pooling” and Some Other Types of Financial Cosmetics, 22 DEL. J. CORP. L. 141, 169–
+70 (1997) (“Debtholders generally know more about the company than do the stockholders.
+If they and the company are both willing to engage in the debt/equity swap, it seems
+likely that the debt has declined in value—that the debtholders doubt the company’s
+ability to pay.”).
+291. Note that under Dodd-Frank bridge banks are defined as “bridge financial
+companies.” The FDIC has the authority to establish bridge financial companies in the
+context of conducting its liquidation responsibilities and may do so as part of an existing
+receivership or in anticipation of a receivership. The FDIC may transfer any assets and
+liabilities to one or more bridge financial companies. 12 U.S.C. § 5390(h)(5)(A) (2006).
+This is different from bridge bank models in Europe. For example, in Germany a bridge
+bank may be not only a corporation organized as a special purpose vehicle und public
+law and ownership but also any financial institution willing to participate in the rescue of
+a distressed bank. See, e.g., Henkel & Kaal, supra note 57, at 36 & n.420.
+292. See, e.g., Banking Act, 2009, c. 1, § 11 (Eng.), available at http://www.legislation.
+gov.uk/ukpga/2009/1/pdfs/ukpga_20090001_en.pdf.
+293. See supra note 291.
+294. See supra note 291.
+295. The asset sale or transfer to a bridge bank may always raise questions about
+valuation. See, e.g., 12 U.S.C. § 5390(h)(8)(B) (2006). This may be even more important
+where, as in Germany or the United Kingdom, a private sector purchaser may fulfill the
+role of the bridge bank. Particularly in Germany, a private sector purchaser or financial
+institution must give consideration to the distressed bank if the overall value of the
+transferred assets is positive. Any such consideration may include shares, which in turn
+would require significant disclosure in order to determine whether or not the consideration
+given is commensurate to the value of the transferred assets. See Henkel & Kaal, supra
+note 57, at 36 & nn.417–26.
+274
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+How successful financial institutions may be in convincing outside
+creditors and unconverted CCS holders to approve a reorganization plan
+before bankruptcy could largely depend on the institution-specific volume
+of possible CCS conversion. Outside creditors and unconverted CCS
+holders may not always agree on a prepackaged or prearranged plan. For
+instance, if CCS holders acquired CCS with the intent to exercise control
+before or during bankruptcy, they could have a different perspective on
+reorganization plans than outside creditors. We recognize that these and
+other open issues merit additional research.
+C. Chameleon Equity
+The idea of using contingent capital in the context of corporate
+reorganization is not new.296 In bankruptcy theory, contingent capital is
+associated with the term chameleon equity297 and the old academic
+debate as to whether or not Chapter 11 should be abolished.298
+Chameleon equity299 was the attempt to replace Chapter 11 with
+contingent capital by providing for the automatic cancellation of a
+corporation’s stock in the event of any default.300 Professors Michael
+Bradley, Michael Rosenzweig, and others proposed this idea in the late
+1980s and early 1990s.301 The idea was heavily criticized by Professors
+Elizabeth Warren and Lynn LoPucki302 and never went beyond the early
+draft proposals.303 Today, the majority view is pro-reorganization and
+can be best summarized with an oft-cited quotation: “[A] business is
+worth more alive than dead—i.e., it is worth more as a going concern
+than in a forced sale liquidation.”304 We do not intend to revive the debate
+on chameleon equity or take a position on the merits of Chapter 11.
+296. See also Baird, supra note 16, at 182; Scott, supra note 16, at 703–05.
+297. Adler, supra note 17, at 323; see also Skeel, supra note 18, at 483.
+298. See THOMAS H. JACKSON, THE LOGIC AND LIMITS OF BANKRUPTCY LAW 209–224
+(1986); Douglas G. Baird, The Uneasy Case for Corporate Reorganization, 15 J. LEGAL
+STUDS. 127 (1986).
+299. Adler, supra note 17, at 323; see also Skeel, supra note 18, at 483 (expanding
+on Adler’s discussion of chameleon equity).
+300. Bradley & Rosenzweig, supra note 17, at 1078.
+301. Id.; Adler, supra note 17, at 312.
+302. LoPucki, supra note 17; Warren, supra note 17; Whitman et al., supra note 17.
+303. For a review and an in-depth analysis of the debate, see SKEEL, supra note 3, at
+102–05.
+304. See Tabb, supra note 268, at 804.
+275
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+Rather, we believe contingent capital could supplement bankruptcy
+proceedings involving failing financial institutions.
+The EU Commission305 and other national European regulators306
+suggest using contingent capital in the reorganization of financial
+institutions. These proposals have the potential to reenergize and
+change the debate on contingent capital in corporate reorganization.
+Given the realities of bankruptcy proceedings and the attempt by all
+distressed businesses to seek workout agreements with creditors,307
+Professor Charles Tabb observes that the proper question should not be
+whether reorganization has any benefit over liquidation but rather why
+reorganization requires court supervision.308 Workout agreements often
+fail and court supervision continues to be necessary because of the holdout
+of the dissenting creditor and the creditor’s ultimate goal of collecting more
+than other creditors.309
+Strategic behavior should also not be excluded in the context of the
+conversion of contingent capital in the current discussion on bank
+reorganization. However, contingent capital in bank reorganization presents
+itself as a form of reorganization without court supervision and prior to
+any formal statutorily regulated procedure. In addition, the “holdout
+problem” does not arise. The majority of CCS holders, or CCS holders
+and shareholders combined, determine corporate governance after
+conversion and prior to resolution. A sole holdout of consent will therefore
+not enable any creditor to collect more than any other creditor. Instead,
+the holdout creditor who is a shareholder after debt conversion will share
+in potential losses proportionate to his or her equity ownership.
+Accordingly, contingent capital could be a supplement to any bankruptcy
+proceeding, including reorganization under court supervision or liquidation.
+This is of particular significance in the United States where banks are not
+eligible to file for protection under Chapter 11 or have access to similar
+reorganization procedures. More importantly, the Dodd-Frank Act
+favors orderly liquidation and wind-down of financial institutions over
+reorganization.310 Contingent capital has specific importance in this
+context. Contingent capital may help stabilize large financial firms by
+providing an option to reorganize pre-liquidation while allowing a
+305. DG WORKING DOCUMENT, supra note 8.
+306. See supra note 34 and accompanying text.
+307. Tabb, supra note 268, at 804–07.
+308. Id. at 812–15.
+309. Id. at 804–07.
+310. Dodd-Frank Wall Street Reform and Consumer Protection Act § 214, 12
+U.S.C. § 5394 (Supp. IV 2010) (“All financial companies put into receivership under this
+title shall be liquidated. No taxpayer funds shall be used to prevent the liquidation of
+any financial company under this title.”);; see also SKEEL, supra note 3, at 138 (noting
+that “the framework is designed with liquidation in mind”).
+276
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+[VOL. 49: 221, 2012] Contingent Capital
+SAN DIEGO LAW REVIEW
+bank to be managed as a going concern. At the same time, it provides
+the option of staying in the market place after returning to profitability.
+VII. CONCLUSION
+Systemically significant banks and financial markets in the United
+States could benefit from considering contingent capital as a preventive tool
+as well as a tool before resolution. Although we recognize that there are
+many open issues in implementing contingent capital in Europe and the
+United States and that determining the optimal calibration of design
+features and multiple triggers will require significant additional research,
+the proposal in this Article suggests the creation of contingent capital as
+a hybrid tool between prevention, reorganization, and bankruptcy.
+Combining contingent capital proposals with elements of bankruptcy
+concepts could bridge the gap between corporate governance, prevention,
+reorganization, and bankruptcy, while creating the right set of incentives for
+the respective constituents. As a hybrid, it could fill many of the open
+issues and create synergies for the optimal calibration of design features.
+Introducing a quasi-preparation stage for bankruptcy, independent of
+management decisions or corrective action by regulators, our proposal
+could increase the application of contingent capital in the United States
+and Europe. The proposal would work seamlessly with the regulatory
+frameworks proposed by the EU Commission and could provide U.S.
+policymakers with a new perspective on the multiple uses of contingent
+capital.
+277
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+
+KAAL & HENKEL POST-AUTHOR PAGES FINAL TO PRINT (DO NOT DELETE) 3/14/2012 8:46 PM
+278
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11990088447733
+

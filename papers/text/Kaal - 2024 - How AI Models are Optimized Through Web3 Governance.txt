@@ -1,0 +1,2117 @@
+Version 5 - June 2024
+How AI Models are Optimized Through Web3 Governance
+Wulf Kaal, Ph.D.1
+Abstract
+The integration of web3 community governance, using Weighted Directed Acyclic
+Graphs (WDAGs) and validation pools with reputation staking in combination with a
+federated communications protocol, offers an evolutionary approach to AI model
+optimization. This proposed framework supports decentralized, dynamic, evolutionary,
+and participatory AI governance, crucial for handling the complex ethical and
+operational demands of various AI technologies. Specifically, Deep Learning models
+gain from decentralized data handling that mitigates bias and enhances privacy through
+community-validated updates. Federated Learning benefits from enhanced security and
+privacy through blockchain's transparency and immutability, with smart contracts
+automating model validation and updates. Transformer AI models benefit from
+continuous adaptation to new data facilitated by real-time updates, ensuring relevance
+and compliance with evolving linguistic and cultural norms. Graph Neural Networks
+(GNNs) utilize decentralized data to improve relational data processing, crucial for tasks
+like social network analysis and fraud detection. Reinforcement Learning (RL) models
+thrive in the varied scenarios presented by a decentralized framework, enhancing
+decision-making in complex environments. Lastly, Reinforcement Learning from Human
+Feedback (RLHF) models benefit from the broad and transparent integration of human
+feedback, aligning AI behavior with real-time and evolving human values and ethical
+standards. Collectively, these mechanisms ensure AI models are not only technically
+proficient but also ethically aligned and socially responsible, fostering trust and broad
+acceptance in AI applications. The proposed web3-driven AI governance model paves
+the way for AI systems that are adaptable, ethical, and efficiently managed, meeting the
+rapid evolution of technology and societal expectations.
+Key Words: Artificial Intelligence, AI Models, Web3, Distributed Machine Learning,
+Graph Neural Networks, Reinforcement Learning, Deep Learning Models, Transformer
+AI, Reinforcement Learning from Human Feedback, Reputation Systems, Governance,
+Decentralized Autonomous Organization, Smart Contracts, Token Models,
+Cryptocurrencies, Feedback Effects, Emerging Technology, Tokens, Distributed Ledger
+Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1ProfessorofLaw.TheauthorisgratefulforexcellentresearchassistancefromAdamBent,research
+librarian,andJackPlamer,researchassistant.
+1
+
+Version 5 - June 2024
+Table of Contents
+Introduction..................................................................................................................................3
+Model Overview...........................................................................................................................6
+Deep Learning Models.............................................................................................................6
+Federated Machine Learning Models....................................................................................13
+Transformer AI.......................................................................................................................19
+Graph Neural Networks (GNNs)............................................................................................22
+Reinforcement Learning (RL)................................................................................................25
+Reinforcement Learning Through Human Feedback (RLHF)................................................28
+Proposed System......................................................................................................................30
+Foundations...........................................................................................................................32
+WDAG Citation System.........................................................................................................34
+Dynamic Governance............................................................................................................35
+Web3 Governance for AI Model Optimization....................................................................... 36
+Web3 AI Model Optimization....................................................................................................38
+Comparative Overview..........................................................................................................39
+Deep Learning Optimization..................................................................................................41
+Transformer AI Optimization..................................................................................................43
+FL Optimization......................................................................................................................45
+GNN Optimization..................................................................................................................48
+RL Optimization.....................................................................................................................50
+RLHF Optimization................................................................................................................51
+Conclusion.................................................................................................................................53
+2
+
+Version 5 - June 2024
+Introduction
+The symbiosis between AI models and web3 community governance systems offers
+transformative possibilities for optimizing AI functionality across diverse applications.
+The web3 optimization of AI models creates a shift towards decentralized, transparent,
+and community-driven web3 models of technological development. The proposed
+system of web3 community governance via Weighted Directed Acyclic Graphs
+(WDAGs) and validation pools consisting of reputation staking offers a dynamic and
+decentralized framework for managing AI model optimization. The author examines the
+integration of web3 community governance with six key AI models: Deep Learning
+Models, Federated Learning Models, Transformer AI, Graph Neural Networks (GNNs),
+Reinforcement Learning (RL), and Reinforcement Learning from Human Feedback
+(RLHF). Each of these models benefits uniquely from the intrinsic properties of Web3
+governance, such as enhanced data privacy, distributed computation, and user-centric
+governance frameworks.The proposed integration not only enhances the capabilities of
+each of these models but also aligns them with ethical standards and societal
+expectations, fostering a new era of technologically advanced yet accountable AI
+systems.
+The focus on AI model optimization within web3 community governance environments
+addresses critical challenges like scalability, security, and ethical alignment. By
+integrating AI with blockchain's decentralized architecture, the potential for more
+efficient, secure, and transparent AI applications is unlocked, facilitating smarter, faster,
+and more reliable decision-making processes. This integration not only empowers
+developers and users but also aligns with broader goals of democratizing access to
+technology and fostering an inclusive digital “Reputation Economy”.2
+Specifically, the author shows that the symbiotic relationship between AI and web3
+community governance could redefine the landscape of technology and governance,
+making AI systems not only more efficient but also more aligned with the principles of
+equity, transparency, and community governance. As these technologies evolve, their
+symbiotic relationship hold the promise of creating more adaptable, robust, and fair
+digital infrastructures for future generations.
+2CraigCalcaterra&WulfKaal,DecentralizationTechnology’sImpactonOrganizationalandSocietal
+Structure,DeGruyter
+(2021)(20https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Structure/dp/3
+110673924
+3
+
+Version 5 - June 2024
+Deep Learning Models require large datasets and substantial computational power.
+Deep Learning Models benefit from the decentralized and secure data management
+inherent in web3, which enhances privacy and mitigates biases by distributing data
+storage across multiple nodes. The immutable nature of blockchain ensures that all
+changes to the model and its training data are transparent and auditable, building trust
+and facilitating regulatory compliance. By leveraging WDAGs in Web3 governance,
+deep learning models can benefit from a decentralized data handling and validation
+process. This means that data does not need to be centralized, reducing risks of data
+monopolization and bias. Moreover, through community-driven validation pools, updates
+and improvements to models are consensus-driven, ensuring that only the most
+effective and ethically sound changes are implemented. This method enhances model
+accuracy while adhering to privacy standards and ethical guidelines.
+Federated Learning thrives on data from multiple decentralized sources. Federated
+Learning Models, which thrive on data from multiple decentralized sources without
+needing to centralize this data, see natural synergy with web3's capabilities. The
+proposed web3 governance system can enhance the security and privacy of these
+models by leveraging blockchain's inherent properties, such as immutability and
+transparency. Moreover, smart contracts in the proposed web3 system can automate
+and secure updates and validation of models, ensuring that all changes are traceable
+and auditable. This not only maintains data integrity but also facilitates regulatory
+compliance, crucial for applications in sensitive sectors like healthcare and finance.
+Transformer AI, known for its effectiveness in natural language understanding and
+generation, utilizes the real-time, consensus-driven updates possible in web3 systems
+to remain adaptable and responsive to new data and linguistic trends. This
+responsiveness is crucial for applications that depend on current, context-aware
+models, such as automated translation services and personalized digital assistants.
+Moreover, Transformer AI models can benefit from real-time updates facilitated by the
+proposed WDAG-based governance system. This setup allows for continuous
+adaptation to new linguistic data and trends, crucial for maintaining state-of-the-art
+performance. The community-driven approach ensures that these models are not only
+technically robust but also culturally and ethically aligned with diverse user groups,
+enhancing the models' applicability across different languages and regions.
+GNN, which excel at handling data with inherent relational structures, can leverage the
+proposed web3 community governance system to access a rich, extensive dataset that
+represents diverse interactions and their inherent relational structures. The proposed
+web3 governance system is particularly relevant in analyzing social networks or
+4
+
+Version 5 - June 2024
+blockchain transactions, where understanding complex relationships directly impacts
+the performance and security of the system. In particular, GNNs can use the proposed
+WDAG citation system to access and analyze decentralized network data effectively.
+This capability is vital for applications such as social network analysis and fraud
+detection, among others, in blockchain transactions. By leveraging the decentralized
+nature of Web3, GNNs can operate on a broader and more diverse dataset, enhancing
+the model's performance and security features.
+RL models, which optimize decision-making processes through trial and error, benefit
+from the dynamic and diverse environments provided by the proposed web3 community
+governance system. The decentralized framework of web3 offers varied scenarios and
+interactions, enhancing the RL agents' learning experiences and aligning their
+developments with practical, real-world applications. RL models benefit from dynamic
+and diverse environments for optimal training, which are inherent in web3 decentralized
+systems. In particular, the validation pool and WDAG structure, as proposed herein,
+provide a framework where RL models can continuously interact with a variety of
+scenarios and learn from them, enhancing their ability to make decisions in real-world
+applications. This is particularly useful for developing more sophisticated AI agents that
+operate in unpredictable environments like financial markets or autonomous driving.
+RLHF models integrate human feedback directly into the learning process, aligning AI
+behaviors with human values. The proposed decentralized web3 community
+governance system ensures that feedback is gathered broadly and transparently,
+managed through smart contracts to maintain consistency and alignment with ever
+evolving web3 community standards. Moreover, the proposed web3 community
+governance supports and upgrades RLHF by providing an unparalleled platform for
+transparent and diverse human feedback integration, managed through smart contracts
+that ensure consistency with ethical guidelines. This method ensures that the learning
+process is not only technically sound but also socially responsible, fostering broader
+acceptance and trust in AI applications.
+Each of these models utilizes the strengths of the proposed web3 community
+governance system to address specific challenges such as data privacy, bias mitigation,
+real-time adaptability, and ethical alignment. This integration not only propels the
+technical capabilities of AI but also ensures its development is more democratic,
+inclusive, and aligned with global standards and norms. This article explores how the
+principles of decentralization, transparency, and community participation inherent in
+web3 community governance can help evolve AI model optimization, creating systems
+that are not only technologically advanced but also robustly ethical and widely
+accessible.
+5
+
+Version 5 - June 2024
+Model Overview
+The integration of AI into Web3 not only optimizes system operations but also enhances
+the scalability, security, and user engagement of decentralized applications. By
+leveraging these specialized AI models, developers and researchers can drive forward
+the capabilities and functionalities of Web3 technologies, aligning with the overarching
+goals of decentralization, transparency, and user empowerment inherent to this new era
+of the internet.
+In the field of Web3 technologies, the optimization of AI models on the system level is a
+critical area of interest. These models must effectively handle decentralized networks,
+secure transactions, and user interactions without central oversight. Among the various
+AI technologies, certain models stand out due to their architecture and suitability for
+decentralized environments.
+Deep Learning Models
+Deep learning, a specialized branch of machine learning, utilizes deep neural networks
+with multiple processing layers to learn rich, hierarchical representations from raw data.
+These models can automatically learn complex features without the need for manual
+feature engineering, achieving state-of-the-art performance across various domains.3
+The architecture of deep neural networks consists of interconnected layers of artificial
+neurons, where each layer transforms the input data into increasingly abstract
+representations. The connection strengths between neurons, known as weights, are
+learned through an iterative process called backpropagation, which minimizes the
+discrepancy between the model's predictions and the ground truth labels. By adjusting
+these weights based on the error gradient, the network gradually improves its
+performance and learns to map input data to the desired output. Deep learning models
+have the capability of handling large-scale datasets with high dimensionality, effectively
+learning from massive amounts of data thanks to their distributed representations and
+the ability to share learned features across tasks.4
+3Iqbal H. Sarker, Deep Learning: A Comprehensive Overview on Techniques,
+Taxonomy, Applications and Research Directions, 2 SN Comput. Sci. 420 (2021),
+https://doi.org/10.1007/s42979-021-00815-1.
+4Yoshua Bengio et al., Deep Learning for AI, 64 Commun. ACM 58 (2021),
+https://doi.org/10.1145/3448250.
+6
+
+Version 5 - June 2024
+Deep learning models offer several advantages, such as the ability to learn complex
+features from raw data and achieve superior performance across various domains.
+Their flexibility allows them to approximate any data type by combining inputs in myriad
+ways.5 However, these models also have some drawbacks. They require large amounts
+of training data, can be computationally expensive, and often lack interpretability,
+making it difficult to understand how they arrive at their decisions. The flexibility of deep
+learning models requires immense computational resources to improve performance,
+which can be a limiting factor in certain use cases. Furthermore, deep learning models
+are not as adaptable to changes in data distribution as human learning, which can adapt
+more quickly to new situations and contexts.6
+Deep learning has been successfully applied to various domains. In Natural Language
+Processing (NLP), deep learning models have enabled machines to effectively
+understand and generate human language through tasks such as sentiment analysis,
+machine translation, and text summarization. Similarly, deep learning has achieved
+significant advancements in speech recognition, allowing for accurate transcription of
+spoken language. Healthcare and medicine have also benefited from deep learning,
+with models being utilized for disease diagnosis, patient risk prediction, and analysis of
+medical images, such as retinal fundus images.7 In cybersecurity, deep learning
+techniques have been employed to detect malicious software, network intrusions, and
+fraudulent activities. Additionally, deep learning has found applications in materials
+science, where it has been used to predict material properties from atomic structures
+and analyze microstructural images.8
+Several deep learning techniques and architectures have been developed, each with its
+own strengths and applications. Convolutional Neural Networks (CNNs) are designed to
+process grid-like data structures, such as images, and have been widely used in
+computer vision tasks. They use learnable convolutional filters and spatial pooling
+operations to achieve a degree of invariance to small differences in feature location and
+are easily amenable to efficient hardware implementations.9 Recurrent Neural Networks
+5YoshuaBengioetal.,DeepLearningforAI,64Commun.ACM58(2021),
+https://doi.org/10.1145/3448250.
+6NeilC.Thompsonetal.,DeepLearning’sDiminishingReturns:TheCostofImprovementIsBecoming
+Unsustainable(Sept.24,2021),https://spectrum.ieee.org/deep-learning-computational-cost.
+7Sarker,supranote1;ReneY.Choietal.,IntroductiontoMachineLearning,NeuralNetworks,andDeep
+Learning,9Trans.Vis.Sci.Tech.14(2020),https://doi.org/10.1167/tvst.9.2.14.
+8Recentadvancesandapplicationsofdeeplearningmethodsinmaterialsscience:KamalChoudharyet
+al.,Recentadvancesandapplicationsofdeeplearningmethodsinmaterialsscience,8npj
+ComputationalMaterials59(2022),https://doi.org/10.1038/s41524-022-00734-6.
+9IANH.WITTEN,EIBEFRANK,MARKA.HALL,&CHRISTOPHERJ.PAL,DEEPLEARNING,inDATAMINING:
+PRACTICALMACHINELEARNINGTOOLSANDTECHNIQUES417-466(4thed.2017),
+https://doi.org/10.1016/B978-0-12-804291-5.00010-6,"Deeplearning"byLeCun;Bengio&Hinton:Yann
+LeCun,YoshuaBengio&GeoffreyHinton,DeepLearning,521NATURE436,436-444(2015),
+https://doi.org/10.1038/nature14539.
+7
+
+Version 5 - June 2024
+(RNNs) and Long Short-Term Memory (LSTM) have feedback connections and can
+process sequential data, making them suitable for tasks involving time series, text, and
+speech. However, they face the challenge of exploding or vanishing gradients during
+training, which architectures like LSTM can address10. Deep Belief Networks (DBNs)
+combine Restricted Boltzmann Machines (RBMs) for unsupervised pre-training with
+feedforward neural networks for supervised fine-tuning but have waned in popularity
+due to their difficulty in training.11 Autoencoders (AEs) are unsupervised models used for
+representation learning and dimensionality reduction, learning an efficient coding of their
+input through a compressed or reduced-dimensional representation.
+Several unique directions for research and future possibilities have been identified in the
+field of deep learning. One significant area is the development of techniques for
+automating the annotation process, especially for large datasets. Additionally, research
+on effective data pre-processing methods to ensure data quality and handle issues like
+sparsity, class imbalance, and noise is crucial for improving deep learning performance.
+Addressing the black-box nature of deep learning models and enhancing their
+interpretability is another important research direction to increase trust and adoption in
+critical applications. Developing lightweight deep learning techniques based on baseline
+network architectures is also a significant future aspect, as it can adapt models for
+resource-constrained devices and applications.12 Incorporating domain-specific
+knowledge into deep learning models can improve their performance and generalization
+capabilities. Moreover, developing deep learning models that can learn efficiently with
+less labeled data and fewer trials, more akin to human learning, is a key research
+direction. Finally, enhancing the robustness of deep learning models to changes in data
+distribution and improving their ability to generalize to out-of-distribution examples is
+crucial for real-world applications.13
+Despite the remarkable success of deep learning, several challenges and limitations
+remain. One significant challenge is the computational resources required to train deep
+learning models, which can be a limiting factor in their widespread adoption.
+Additionally, the lack of large, annotated datasets in certain domains poses a challenge
+for training accurate models.14 The complexity of deep learning models often makes
+them difficult to interpret, hindering their acceptance in critical applications where
+understanding the model's reasoning is essential.15 Moreover, the computational cost of
+10Sarker,supranote1.
+11Wittenetal.,supranote7.
+12Sarker,supranote1.
+13LeCunetal.,supranote7.
+14KamalChoudharyetal.,Recentadvancesandapplicationsofdeeplearningmethodsinmaterials
+science,8npjComputationalMaterials59(2022),https://doi.org/10.1038/s41524-022-00734-6.
+15Choudharyetal.,supranote12;ReneY.Choietal.,IntroductiontoMachineLearning,Neural
+Networks,andDeepLearning,9Trans.Vis.Sci.Tech.14(2020),https://doi.org/10.1167/tvst.9.2.14.
+8
+
+Version 5 - June 2024
+improving deep learning performance increases drastically, with estimates suggesting
+that halving the error rate would require over 500 times more computational resources.
+This raises concerns about the sustainability and efficiency of deep learning
+approaches.16 Furthermore, there is a question of discrimination. Depending on the data
+used for training, deep learning models can inadvertently learn and amplify biases
+present in the training data, potentially leading to unfair or discriminatory outcomes.
+Addressing these challenges is crucial for the responsible development and deployment
+of deep learning systems in various domains.17
+Deep learning models can be trained using various learning paradigms, each suited for
+different types of data and tasks. Supervised learning, which relies on labeled data, is
+commonly used for tasks such as classification and regression. Unsupervised learning,
+on the other hand, aims to discover patterns and structures in unlabeled data, making it
+useful for clustering and dimensionality reduction. Semi-supervised learning combines
+both labeled and unlabeled data, leveraging the strengths of both approaches to
+improve model performance. The versatility of deep learning allows it to handle diverse
+data inputs, including atomic coordinates, microstructural images, spectral
+measurements, and even scientific literature. The data inputs for deep learning models
+can include diverse types, such as atomic coordinates, microstructural images, spectral
+measurements, and scientific literature.18 Deep learning models are often trained using
+mini-batch stochastic gradient descent, which minimizes the empirical risk and a
+regularization term to prevent overfitting.19 Regularization plays a crucial role in
+improving the generalization ability of deep learning models, helping them perform well
+on unseen data. Common regularization techniques include placing priors on model
+parameters or adding regularization terms to the loss function. These techniques help to
+constrain the model's complexity and prevent it from memorizing noise in the training
+data.20 In practice, most deep learning models are trained using simple stochastic
+gradient descent, an iterative optimization algorithm that updates the model parameters
+based on the gradients computed from small subsets, or mini-batches, of the training
+data. By using mini-batches, the training process becomes more computationally
+efficient and allows for better convergence, with the gradients calculated via back
+propagation. By iteratively updating the parameters based on these gradients, the
+model learns to minimize the training loss and improve its performance on the task at
+hand.21
+16NeilC.Thompsonetal.,DeepLearning’sDiminishingReturns:TheCostofImprovementIsBecoming
+Unsustainable(Sept.24,2021),https://spectrum.ieee.org/deep-learning-computational-cost.
+17Choi,supranote13.
+18Choudharyetal.,supranote12.
+19Wittenetal.,supranote7.
+20Id.
+21Sarker,supranote1.
+9
+
+Version 5 - June 2024
+Deep learning models, especially those utilizing Transformer architectures, have
+successfully processed and generated human-like text. In the context of Web3, these
+models can be employed to automate and optimize smart contracts, facilitate
+sophisticated natural language interfaces for decentralized applications (DApps), and
+enhance security measures by detecting anomalous patterns indicative of fraudulent
+activities.22
+The interplay between deep learning models23 and natural language models24 is crucial
+in advancing the field of artificial intelligence. While deep learning provides the
+underlying frameworks and learning capabilities necessary for feature extraction and
+hierarchical representation learning, natural language models apply these capabilities to
+the specific domain of human language. This synergy allows for the development of
+sophisticated models that can understand and generate human language with a high
+degree of accuracy, catering to the intricate requirements of natural language
+understanding and generation.25
+22Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin,
+I. (2017). Attention is all you need. In *Advances in neural information processing systems*
+(NeurIPS).
+23Deep learning models are a broad class of models within machine learning characterized by
+their capability to learn hierarchical representations. While natural language models are indeed
+a type of deep learning model, deep learning’s applications extend beyond text and language to
+include areas such as image and speech recognition, and predictive analytics. Unlike natural
+language models that specifically process text data using linguistic constructs like word
+embeddings and recurrent neural networks, deep learning models may employ a variety of
+architectures such as convolutional neural networks and autoencoders to learn from diverse
+data types across numerous domains. LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep
+learning. Nature, 521(7553), 436-444. (discussing the diverse applications of deep learning
+models across different domains, highlighting the versatility of these models compared to the
+more specialized natural language models.).
+24Natural language models represent a specialized subset of deep learning models tailored to
+parse, interpret, and generate human language. These models are engineered to assimilate the
+complexities of language through extensive training on large text datasets. The primary aim is to
+capture linguistic patterns and structures, empowering these models to execute various
+language-related tasks, such as text generation, translation, sentiment analysis, and more. This
+specialization in language processing distinguishes natural language models from more general
+deep learning models, enabling focused applications in fields that require nuanced language
+understanding. Goldberg, Y. (2017). Neural Network Methods for Natural Language Processing.
+Synthesis Lectures on Human Language Technologies, 10(1), 1-309. (explaining methods by
+which natural language models utilize deep learning techniques to process and understand
+language, showcasing their specialized applications in language tasks.).
+25Sutskever, I., Vinyals, O., & Le, Q. V. (2014). Sequence to sequence learning with neural
+networks. In Advances in neural information processing systems. (illustrating the effective
+application of deep learning architectures in the sequence-to-sequence models, which are
+pivotal in natural language processing tasks, demonstrating the deep integration of general
+deep learning techniques into language-specific models.).
+10
+
+Version 5 - June 2024
+NLP is an important field within artificial intelligence that focuses on enabling computers
+to understand, interpret, and generate human language in a meaningful and useful
+manner. This field combines computational linguistics—which involves rule-based
+modeling of human language—with modern statistical, machine learning, and deep
+learning models. These technologies empower computer systems to process human
+language in text or voice form, understanding its full meaning, including the intent and
+sentiments of the speaker or writer. Initially, NLP relied heavily on rule-based systems
+that required extensive manual coding of language rules and vocabulary. Over time,
+however, the field has significantly evolved toward machine learning models that
+automatically learn these rules by analyzing vast datasets of human language.26
+The introduction of Transformer-based architectures,27 has further revolutionized NLP,
+especially for tasks requiring a deep contextual understanding. These models utilize
+self-attention mechanisms that allow each model unit to consider the entire input
+sequence simultaneously, unlike traditional models that process inputs sequentially.
+This feature facilitates highly parallel processing and enables the model to focus
+dynamically on different parts of the input data, which is essential for generating
+nuanced and contextually rich outputs.
+NLP applications are widespread, affecting numerous aspects of daily life and business.
+In sectors like customer service, healthcare, and legal systems, NLP facilitates tasks
+such as automated customer support, patient data processing, and large-scale
+document analysis, respectively. Despite these advancements, NLP still confronts
+significant challenges, including the management of linguistic ambiguity and diversity,
+and the ethical implications of widespread NLP usage in surveillance and data privacy.28
+26Jurafsky, D., & Martin, J.H. (2009). Speech and Language Processing (2nd ed.).
+Pearson Education. (evaluating the evolution of NLP from rule-based to statistical
+methods, highlighting how these developments have improved the field’s efficiency and
+scalability.). Web3 architecture inherently supports the scalability, flexibility, and ethical
+deployment of NLP models, aligning technological advancements with the needs and
+values of a modern, digital society. These benefits underscore why Web3 frameworks
+are particularly well-suited to optimizing existing AI models, including those used in NLP.
+27Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... &
+Polosukhin, I. (2017). Attention is all you need. In Advances in neural information
+processing systems (NeurIPS).(introducing the Transformer architecture, emphasizing
+its revolutionary impact on the field of NLP through the use of self-attention
+mechanisms.).
+28Hovy, D., & Spruit, S. L. (2016). The Social Impact of Natural Language Processing. In
+Proceedings of the 54th Annual Meeting of the Association for Computational
+Linguistics (ACL). (discussing the social challenges and ethical considerations in NLP,
+including issues like data bias and the potential for misuse.).
+11
+
+Version 5 - June 2024
+The future of NLP is geared towards overcoming these challenges by developing more
+sophisticated models capable of understanding complex human language nuances and
+ensuring the ethical application of NLP technologies. Researchers continue to explore
+advanced machine learning techniques to improve the accuracy and effectiveness of
+NLP applications, striving to ensure that technological advancements in AI benefit
+society comprehensively and ethically.29
+Web3 systems offer an important approach to enhancing NLP models by leveraging the
+decentralized, transparent, and secure nature of blockchain technology. In traditional
+NLP systems, updates and improvements depend heavily on centralized data
+management and processing frameworks, which can limit innovation speed and
+broad-based collaboration. Web3, with its decentralized infrastructure, allows for a more
+distributed form of data handling and model training, which can significantly increase the
+diversity of data inputs and algorithmic transparency.30
+The integration of blockchain in NLP also facilitates improved data security and privacy,
+critical aspects given the sensitive nature of the language data often processed by NLP
+systems. Through cryptographic techniques and smart contracts, Web3 can offer
+enhanced control and security over the data used in NLP tasks, ensuring that
+individuals' privacy is maintained and that the data used is not susceptible to tampering
+or unauthorized access.31
+Moreover, Web3 enables more collaborative and open-source development of NLP
+models. By using decentralized platforms, researchers and developers from around the
+world can contribute to and access NLP models without the gatekeeping often
+associated with proprietary systems. This openness not only speeds up innovation but
+29Bender, E. M., & Lascarides, A. (2019). Linguistic Fundamentals for Natural Language
+Processing: 100 Essentials from Morphology and Syntax. Synthesis Lectures on Human
+Language Technologies. (discussing ongoing research aimed at tackling the
+complexities of human language through improved NLP models, highlighting the
+importance of developing technology that aligns with ethical standards and societal
+needs.).
+30Tapscott, D., & Tapscott, A. (2016). Blockchain Revolution: How the Technology
+Behind Bitcoin Is Changing Money, Business, and the World. Portfolio. (discussing how
+blockchain technology enables decentralized data management that can contribute to
+more robust and transparent AI systems, like those used in NLP.).
+31Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the
+Internet of Things. IEEE Access, 4, 2292-2303. (exploring how smart contracts can
+automate processes in the Internet of Things, analogous to their use in automating
+governance for AI systems in Web3 frameworks.).
+12
+
+Version 5 - June 2024
+also helps in creating more robust models that are vetted by a diverse community,
+leading to improvements in model accuracy and functionality.32
+Finally, the application of Web3 technologies in NLP can lead to the development of
+new models that inherently incorporate accountability and transparency. With
+blockchain, each modification to the model or its training dataset can be recorded in an
+immutable ledger, providing a clear audit trail. This feature is particularly beneficial for
+deploying NLP systems in environments where ethical considerations and compliance
+with regulations are paramount.33
+Federated Machine Learning Models
+Federated Learning (FL) is a distributed machine learning approach that enables
+training statistical models over remote devices or siloed data centers, such as mobile
+phones or hospitals, while keeping data localized.34 This innovative technique involves
+training models by minimizing an objective function that combines local objective
+functions from each participating device, allowing for collaborative learning without the
+need for centralized data storage. Each local objective function is computed based on
+the data available at the respective device, and the global model is updated by
+aggregating the local model updates, a process that is repeated iteratively until
+convergence or a desired level of performance is achieved.35 FL is particularly useful in
+applications where data privacy is of utmost importance, such as healthcare, where
+strict regulations and ethical considerations prohibit the sharing of private medical data.
+By keeping data localized and only sharing model updates, FL eliminates the need for
+centralizing sensitive information, enabling healthcare institutions to collaboratively learn
+from their collective data without compromising patient privacy.36
+32Swan, M. (2015). Blockchain: Blueprint for a New Economy. O'Reilly Media.
+(explaining how blockchain's foundational principles of decentralization and open
+access can revolutionize fields beyond finance, such as artificial intelligence and NLP.).
+33Wright, A., & De Filippi, P. (2015). Decentralized Blockchain Technology and the Rise
+of Lex Cryptographia. SSRN (discussing how blockchain technology introduces a new
+paradigm of 'Lex Cryptographia' where the code and the law merge, offering new ways
+to enforce regulatory and ethical standards in technology deployments, including NLP.).
+34TianLi,AnitKumarSahu,VirginiaSmith,andAmeetTalwalkar,FederatedLearning:Challenges,
+Methods,andFutureDirections,37IEEESignalProcess.Mag.50(2020).
+35Tianetal.,supranote32.
+36T.V.Nguyenetal.,Anoveldecentralizedfederatedlearningapproachtotrainongloballydistributed,
+poorquality,andprotectedprivatemedicaldata,12Sci.Rep.8888(2022),
+https://doi.org/10.1038/s41598-022-12833-x.
+13
+
+Version 5 - June 2024
+In the Federated Learning (FL) process, clients first download an initial common model
+from a central server. They then train this model on their local data, which remains
+securely stored on their devices or siloed data centers, ensuring data privacy. After
+training, the clients encrypt and upload the updated model parameters to the server,
+rather than sharing the raw data itself. The server then aggregates the received
+gradients or parameters from all participating clients and updates the global model
+accordingly. This updated global model is then shared back with the clients by being
+broadcasted to their local edge devices, initiating the next round of training.37 The
+clients use this updated model as a starting point and repeat the process of local
+training, encryption, and uploading of model parameters. Throughout multiple iterations
+of this process, the global machine learning model on the central server is continuously
+refined based on the collective knowledge gained from the participating clients, without
+any direct access to their sensitive data. This collaborative learning approach enables
+the development of robust and accurate models while preserving data privacy and
+security.38
+FL models are categorized based on the degree of overlap of data features in the client
+dataset: horizontal federated learning (HFL), vertical federated learning (VFL), and
+federated transfer learning (FTL). Federated Learning (FL) models are categorized
+based on the degree of overlap in data features across client datasets, resulting in three
+main types: horizontal federated learning (HFL), vertical federated learning (VFL), and
+federated transfer learning (FTL). HFL is applied when clients have the same feature
+space but different sample spaces, meaning that the participating clients have data with
+the same set of features but different individual samples. For example, multiple
+hospitals may have patient data with the same medical attributes but unique patient
+records, enabling HFL to collaboratively train models without sharing raw data,
+preserving privacy while leveraging collective knowledge.
+On the other hand, VFL is used when clients have different feature spaces but similar
+sample spaces, indicating that the participating clients have data with different sets of
+features but overlapping or similar individual samples. For instance, when an
+e-commerce platform and a financial institution collaborate to develop a credit risk
+assessment model, they may have different features (customer purchase history and
+browsing behavior vs. credit scores and financial transactions) but overlapping
+individual samples (i.e., customers). VFL allows these clients to train a model
+collaboratively by aligning their sample spaces and learning from complementary
+feature sets.
+37JieWenetal.,ASurveyonFederatedLearning:ChallengesandApplications,14Int.J.Mach.Learn.&
+Cyber.513–535(2023),https://doi.org/10.1007/s13042-022-01647-y.
+38S.Banabilahetal.,FederatedLearningReview:Fundamentals,EnablingTechnologies,andFuture
+Applications,59Inf.Process.Manag.103061(2022, https://doi.org/10.1016/j.ipm.2022.103061
+14
+
+Version 5 - June 2024
+FTL is employed when clients have different features and sample spaces, requiring
+knowledge transfer between domains. FTL addresses the challenge of participating
+clients having data with different sets of features and individual samples by leveraging
+transfer learning techniques to adapt models trained on one client's data to another
+client's data, enabling knowledge sharing across clients with disparate data
+characteristics, which is particularly useful when clients have limited data or need to
+adapt models to new domains or tasks.39
+One notable approach to FL is the Decentralized AI Training Algorithm (DAITA), which
+combines federated learning, knowledge distillation, and a scalable Pattern-based or
+Directed Acyclic Graph (DAG) framework.40 DAITA employs a clustering algorithm to
+reduce model transfer costs by limiting the nodes to which Teacher models are
+transferred within a cluster. This approach optimizes data transfer costs against model
+accuracy using a Pattern-based or DAG structure, effectively balancing the trade-off
+between communication efficiency and model performance. By leveraging knowledge
+distillation techniques, DAITA enables the transfer of knowledge from Teacher models to
+Student models, facilitating the sharing of learned representations across different
+nodes in the federated learning system. This decentralized approach allows for the
+training of models on globally distributed, potentially poor quality, and protected private
+medical data, while ensuring data privacy and reducing the overall communication
+overhead. 41
+FL offers significant advantages that make it an attractive approach for collaborative
+learning across various domains. FL enables predictive models on edge devices without
+compromising user experience or privacy by training models locally and sharing only
+model updates with the central server. It allows training on distributed datasets while
+ensuring data privacy and protection, enabling organizations to leverage collective
+knowledge without directly sharing raw data. FL protects local user data, saves server
+resources by distributing the training process across edge devices, and fosters a secure
+collaborative learning environment by enabling multiple parties to contribute to model
+training without revealing proprietary data. Furthermore, FL enables client model
+personalization by adapting global models to individual user preferences and
+characteristics, enhancing user experience in applications such as recommendation
+systems or virtual assistants.42
+FL faces several challenges that need to be addressed for its effective implementation.
+One primary concern is the expensive communication cost arising from numerous edge
+39Banabilah,supraatnote36
+40Nguyen,supranote34
+41Nguyen,supranote34
+42Tianetal.,supraatnote32
+15
+
+Version 5 - June 2024
+devices sending model parameters to the central server, often exceeding the
+computation cost. The heterogeneity of participating devices and their data also poses a
+challenge, categorized into systems heterogeneity (varying computational capabilities
+and resource constraints) and statistical heterogeneity (non-IID data across clients).
+Privacy concerns, reliance on batch-by-batch updates, vulnerability to data leaks
+caused by attacks due to the transfer of gradients and partial parameters, and
+communication overhead are significant hurdles that need to be overcome for the
+successful deployment of FL. Addressing these challenges requires the development of
+efficient communication protocols, techniques for handling heterogeneous data and
+devices, robust privacy-preserving mechanisms, and strategies to mitigate the impact of
+data leaks and attacks. Ongoing research in FL focuses on developing solutions to
+these challenges, aiming to enable secure, efficient, and scalable collaborative learning
+across diverse settings.43
+FL has demonstrated its versatility and potential for real-world impact across a wide
+range of domains. In smartphones, FL has been used for next-word prediction, while
+organizations have employed it for private learning between devices. The Internet of
+Things (IoT) has benefited from FL through adaptive model training, enabling devices to
+learn and adapt to their environment while preserving user privacy. Healthcare has seen
+significant applications of FL, such as assessing embryo viability and enabling secure
+cross-data analysis. Other domains, including recommendation systems, smart cities,
+finance and insurance, edge computing, intrusion detection, personalized
+recommendations, autonomous vehicles, and smart wearables, have also leveraged FL
+to address real-world challenges while maintaining data privacy and security. These
+diverse applications enable collaborative learning and preserve user privacy in the
+industrial space for FL, demonstrating its potential to transform how data is utilized and
+analyzed in the future.44
+Researchers have been actively exploring various concepts, methods, architectures,
+and challenges in Federated Learning to address the unique requirements and
+constraints of this distributed learning paradigm. Communication efficiency is a primary
+focus area, with researchers proposing local updating methods, compression schemes,
+and decentralized training approaches to mitigate the high communication costs
+between edge devices and the central server. The heterogeneity of participating devices
+and their data is another significant challenge, addressable through techniques such as
+multi-task learning, meta-learning, and modified optimization objectives. Privacy and
+43Mohammad Moshawrab et al., Reviewing Federated Learning Aggregation
+Algorithms; Strategies, Contributions, Limitations and Future Perspectives, 12
+Electronics 2287 (2023), https://doi.org/10.3390/electronics12102287;Jie,supranote35
+44Jie,supranote35;Nguyen,supranote34;Moshawrab,supranote41
+16
+
+Version 5 - June 2024
+security are paramount concerns in FL, leading to the development of
+privacy-enhancing techniques like secure multiparty computation, differential privacy,
+and secure aggregation.45 Researchers have also investigated system challenges,
+including reliability concerns in edge devices, the risk of imbalanced data, and
+communication costs. Aggregation algorithms, such as FedAvg and FedProx, play a
+crucial role in integrating knowledge from local models into a global model while
+addressing issues such as data and device heterogeneity, client dropouts, and privacy
+preservation. Additionally, researchers have explored the use of blockchain technology
+to enhance the security and decentralization of FL systems and personalization
+techniques to adapt the global model to individual clients' preferences and
+characteristics, improving the performance and user experience of FL applications.46
+Distributed machine learning models are particularly well-suited for Web3 system
+optimization. Web3 architectures inherently support the scalability, privacy, security, and
+incentive alignment of Federated Learning AI models (FL), making them particularly
+well-suited for optimizing these systems in a way that aligns with modern cybersecurity
+and data privacy standards.
+Federated AI models leverage distributed computing resources to train large-scale AI
+systems, which aligns with the decentralized nature of Web3 architectures. The
+decentralized approach not only enhances computational efficiency but also aligns with
+the privacy-preserving and security-focused aspects of blockchain technologies. Models
+such as FL exemplify this approach by enabling multiple decentralized nodes to
+collaboratively learn a shared prediction model while keeping all the training data local,
+thus respecting user privacy.47
+Web3 systems, characterized by their decentralized and transparent nature, offer
+unique advantages for enhancing FL AI models. Federated Learning inherently benefits
+from decentralized data management, as it trains AI models on distributed datasets
+without needing to centralize sensitive data. This fits seamlessly with the decentralized
+nature of Web3, which can further bolster the privacy and security aspects of FL. By
+integrating blockchain technology into FL systems, web3 can ensure that data remains
+45 Pushpa Singh et al., Federated Learning: Challenges, Methods, and Future
+Directions, ch. 11, Federated Learning for IoT Applications, pp. 199–214, in
+EAI/Springer Innovations in Communication and Computing, 1st ed., EAI/Springer,
+2022.;Jie,supranote35.
+46Banabilah,supranote36;Moshawrab,supranote41.
+47Kairouz, P., McMahan, H. B., Avent, B., Bellet, A., Bennis, M., Bhagoji, A. N., ... & Zhao, S.
+(2019). Advances and open problems in federated learning.
+“Foundations and Trends in Machine Learning”, 14(1–2), 1-210. doi:10.1561/2200000083
+17
+
+Version 5 - June 2024
+secure and immutable while providing a transparent audit trail of the learning process
+and model updates.48
+The decentralized verification mechanisms offered by web3 can enhance the integrity of
+Federated Learning models. In traditional FL environments, ensuring the reliability of
+updates from various nodes can be challenging. Web3’s smart contracts and consensus
+mechanisms can automate the verification of updates from participating nodes, ensuring
+that only valid and accurate updates are integrated into the shared model. This not only
+enhances the model’s overall reliability but also reduces the potential for malicious
+activities or errors during the model training process.49
+Moreover, web3 can facilitate a more transparent and fair incentive mechanism within
+FL frameworks. By using blockchain to record contributions and their impacts
+transparently, it becomes possible to fairly distribute rewards among participants based
+on their actual contribution to the model training process. This not only motivates
+greater participation but also ensures a fairer distribution of benefits, encouraging more
+stakeholders to contribute their data for training purposes.50
+Finally, web3 systems can enhance the scalability of FL models by leveraging
+decentralized networks to handle larger volumes of data and computation across
+numerous nodes. Blockchain technologies provide a robust framework for managing
+these distributed resources efficiently, ensuring that the FL process is scalable and
+manageable even as the number of participating nodes and the volume of data
+increases.51
+48Konečný, J., McMahan, H. B., Yu, F. X., Richtárik, P., Suresh, A. T., & Bacon, D.
+(2016). Federated learning: Strategies for improving communication efficiency. In
+Proceedings of the 1st Workshop on Privacy-Aware Machine Learning (PAML) at
+NeurIPS. (exploring communication strategies in Federated Learning, analogous to
+leveraging decentralized networks in Web3 for enhancing data transmission
+efficiencies).
+49Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the
+Internet of Things. IEEE Access, 4, 2292-2303. (exploring how smart contracts can
+automate processes in the Internet of Things, analogous to their use in automating
+governance for AI systems in Web3 frameworks).
+50Swan, M. (2015). Blockchain: Blueprint for a New Economy. O'Reilly Media.
+(discusses how blockchain can provide transparent and auditable records that are
+crucial for trust and fairness in decentralized systems, similar to the needs in Federated
+Learning).
+51Nakamoto, S. (2008). Bitcoin: A peer-to-peer electronic cash system. (illustrating the
+scalability and efficiency of decentralized networks, which can be applied to managing
+distributed computational tasks in Federated Learning).
+18
+
+Version 5 - June 2024
+Transformer AI
+Transformer models have revolutionized deep learning in various fields, including NLP,
+computer vision, speech processing, and multimodal applications. The Transformer
+architecture itself consists of encoder and decoder components with stacks of identical
+blocks. The encoder generates contextualized representations using multi-head
+self-attention mechanisms and position-wise feed-forward networks, while the decoder
+generates the target sequence with an additional multi-head attention sub-layer over the
+encoder's output. The attention mechanism weighs the importance of different parts of
+the input sequence, and position-wise feed-forward networks apply non-linear
+transformations independently. Residual connections, layer normalization, and position
+encodings facilitate information flow and capture positional information. Transformers
+excel at learning rich representations from large-scale datasets, enabling significant
+advancements across domains. However, they have limitations, such as the quadratic
+computational complexity of self-attention with respect to sequence length and the need
+for substantial training data.52
+Transformer models have been applied in a wide range of fields, demonstrating their
+versatility and potential for real-world impact. In scientific research, Transformer models
+have been used in psychology, neuroscience, and medicine to analyze and generate
+insights from large datasets. These models have also shown remarkable capabilities in
+producing creative texts, answering questions, and automating customer service,
+streamlining interactions and improving efficiency. In healthcare, Transformers have
+been employed to support doctors by assisting in diagnosis, treatment planning, and
+patient monitoring. The field of education has also benefited from Transformer models,
+which have been used to create personalized learning materials and provide intelligent
+tutoring systems. Additionally, the legal domain has seen significant applications of
+Transformer models, including legal search and retrieval, document review, contract
+analysis, and outcome prediction.53
+One notable example of a state-of-the-art Transformer model is GPT (Generative
+52Tianyang Lin et al., A Survey of Transformers, 4 J. Mach. Learn. Res. 1 (2022),
+https://doi.org/10.1016/j.aiopen.2022.10.001
+53Oscar N. E. Kjell et al., Natural Language Analyzed with AI-based Transformers
+Predict Traditional Subjective Well-being Measures Approaching the Theoretical Upper
+Limits in Accuracy, 12 Sci. Rep. 7520 (2022),
+https://doi.org/10.1038/s41598-022-07520-w;Candida M. Greco & Andrea Tagarelli,
+Bringing Order into the Realm of Transformer‑based Language Models for Artificial
+Intelligence and Law, 2023 Artif. Intell. Law,
+https://doi.org/10.1007/s10506-023-09374-7
+19
+
+Version 5 - June 2024
+Pre-trained Transformer). GPT is an auto-regressive language model that boasts
+exceptional performance due to being trained on a larger dataset with an impressive
+175 billion parameters. Current GPT models work off of “tokens”, which are numerical
+representations of words, and can be trained using few-shot, one-shot, or zero-shot
+learning approaches. This means that GPT can perform tasks with minimal to no
+task-specific training data, making it highly versatile and adaptable to various
+applications. GPT's ability to generate human-like text, answer questions, and perform a
+wide range of language tasks has garnered significant attention and opened up new
+possibilities for natural language processing applications across different domains.54
+Transformer models offer several key advantages that have contributed to their
+widespread adoption and success across various domains. Their flexible architecture
+enables them to capture dependencies at different ranges without assumptions about
+the underlying data structure, making them adaptable to various tasks and input
+formats. Pre-training on large-scale datasets allows Transformer models to learn
+universal representations beneficial for downstream tasks, reducing the need for
+extensive task-specific training data and achieving unprecedented high predictive
+accuracy in language-based assessments.55 The GPT models, in particular, stand out
+for its exceptional performance and wide-ranging potential applications. With its vast
+knowledge base and powerful language understanding capabilities, GPT can effectively
+infer the next word in a sequence, making it suitable for tasks such as text completion,
+content generation, and conversational AI. Its ability to understand and generate
+human-like text has opened up possibilities for automating customer support and
+assisting doctors in healthcare by streamlining processes and improving outcomes.56
+However, Transformer models also have some limitations. The self-attention
+mechanism in Transformers has a quadratic computational complexity with respect to
+the input sequence length, making them computationally expensive and
+time-consuming to train and use, especially for long sequences. This can be a
+significant drawback in applications that require real-time processing or have limited
+computational resources. The lack of structural bias in Transformer models also makes
+54Nazif Aydın & Ayhan Erdem, A Research On The New Generation Artificial
+Intelligence Technology Generative Pretraining Transformer 3, in Proc. of the 2022 3rd
+International Informatics and Software Engineering Conference (IISEC), Dec. 2022,
+https://doi.org/10.1109/IISEC56263.2022.9998298;
+55Tianyingetal.,supranote50;Oscar N. E. Kjell et al., Natural Language Analyzed with
+AI-based Transformers Predict Traditional Subjective Well-being Measures Approaching
+the Theoretical Upper Limits in Accuracy, 12 Sci. Rep. 7520 (2022),
+https://doi.org/10.1038/s41598-022-07520-w.
+56Aydın et al., supra note 52
+20
+
+Version 5 - June 2024
+them prone to overfitting on small datasets.57 GPT models, in particular, can be
+expensive to use due to their high computational requirements, and their closed nature
+and undisclosed algorithmic details raise concerns about transparency and
+accountability. There is also a risk that GPT models may produce biased outputs if the
+training data contains biases, perpetuating or amplifying existing societal biases.58 In the
+legal domain, training and deploying Transformer-based Language Models (TLMs) is
+resource-intensive, and access to large, quality-tagged legal datasets is often restricted,
+hindering widespread adoption. The deployment of TLMs in sensitive legal tasks also
+raises ethical and transparency concerns, such as biased decisions and lack of
+interpretability.59
+To address the limitations and challenges associated with Transformer models,
+researchers have been actively exploring various unique machine learning concepts
+and techniques. One key area of focus is improving the computational efficiency of
+Transformers, particularly for long input sequences. Sparse attention mechanisms,
+which selectively attend to a subset of the input tokens, and linearized attention
+methods, which approximate the self-attention computation with linear complexity, have
+been proposed to reduce the quadratic complexity of self-attention and make
+Transformers more scalable. Researchers have also been working on adaptations for
+lightweight Transformers with reduced model sizes and computational requirements
+while maintaining competitive performance.60 Another interesting concept is adaptive
+computation time, where the model dynamically adjusts the number of computation
+steps based on the input complexity, optimizing computational efficiency and improving
+performance across diverse tasks. In language-based assessments, researchers have
+explored using multiple response formats and questions to capture a broader range of
+linguistic features and provide more reliable assessments.61 Platforms like OpenAI have
+developed APIs and user-friendly interfaces to facilitate accessibility and usability of
+Transformer models, enabling researchers and practitioners to leverage their power for
+various tasks.62 As Transformers are increasingly deployed in critical domains,
+researchers are working on techniques to enhance interpretability, such as visualizing
+attention weights and generating human-understandable explanations, and addressing
+potential biases to ensure fairness and accountability in sensitive applications.63 These
+efforts towards ethical AI development and explainability are essential for the
+responsible and effective deployment of Transformers in real-world scenarios.
+57 Tianyingetal.,supranote50.
+58Aydın et al., supra note 52.
+59Greco et al., note 51.
+60 Tianyingetal.,supranote50.
+61Kjell, supra note 51.
+62Aydın et al., supra note 52.
+63Greco et al., note 51.
+21
+
+Version 5 - June 2024
+Graph Neural Networks (GNNs)
+Graph Neural Networks (GNNs) are a class of deep learning models designed to handle
+irregular, graph-structured data, extending traditional deep learning capabilities to
+non-Euclidean domains. GNNs learn state embeddings that contain information about
+labeled nodes and their neighborhood, which is then used to predict the distribution of
+unlabeled nodes. The learning process involves utilizing Banach's Fixed Point Theorem,
+which assumes that the transition function is a contraction map. This assumption
+ensures the convergence of the node state vectors to a fixed point, enabling stable and
+efficient learning in graph-structured data. By capturing the complex relationships and
+dependencies within the graph, GNNs can effectively model and make predictions on
+various graph-related tasks, such as node classification, link prediction, and graph
+classification.64
+Graph Neural Networks (GNNs) have been applied to various tasks across different
+domains. In graph-related problems, GNNs have shown success in node classification,
+graph classification, link prediction, and graph generation.65 In the financial domain,
+GNNs have been used for stock movement prediction, loan default risk prediction,
+recommender systems in e-commerce, and fraud detection.66 GNNs have also found
+applications in other areas, such as traffic speed forecasting in transportation and
+human action recognition in computer vision. The ability of GNNs to capture complex
+relationships and handle graph-structured data has made them a popular choice for
+solving real-world problems. As research advances, GNNs are expected to find even
+more innovative applications across various fields.67
+64Jiawei Gao & Lexin Hao, Graph Neural Network and its Applications, 1994 J. Phys.:
+Conf. Series 012004 (2021), IOP Publishing,
+https://doi.org/10.1088/1742-6596/1994/1/012004
+65Gao,supra note 62
+66Jianian Wang, Sheng Zhang, Yanghua Xiao & Rui Song, A Review on Graph Neural
+Network Methods in Financial Applications, 20 J. Data Sci. 111 (2022),
+https://doi.org/10.6339/22-JDS1047.
+67Zonghan Wu, Shirui Pan, Chengqi Zhang, Fengwen Chen, Guodong Long & Philip S.
+Yu, A Comprehensive Survey on Graph Neural Networks, 32 IEEE Trans. Neural Netw.
+Learn. Syst. 4 (2021), https://doi.org/10.1109/TNNLS.2020.2978386;Gabriele Corso,
+Hannes Stark, Stefanie Jegelka, Tommi Jaakkola & Regina Barzilay, Graph Neural
+Networks, 4 Nat. Rev. Methods Primers 17 (2024),
+https://doi.org/10.1038/s43586-024-00294-7.
+22
+
+Version 5 - June 2024
+The primary benefits of GNNs lie in their ability to handle irregular and graph-structured
+data, capturing complex relationships and dependencies among nodes by considering
+structural information and node features. This enables GNNs to learn rich and
+informative representations of graph-structured data, leading to superior performance
+compared to non-graph-based approaches in various graph-related tasks. By leveraging
+the inherent graph structure and propagating information through edges, GNNs achieve
+state-of-the-art results in many graph-related problems.68 Among the various GNN
+architectures, Graph Convolutional Networks (GCNs) and GraphSage have shown
+promising results. GCNs generalize the convolution operation to graph-structured data,
+learning node representations by aggregating information from neighboring nodes and
+achieving remarkable performance in node classification tasks. GraphSage, an
+inductive learning framework, generates node embeddings by sampling and
+aggregating features from local neighborhoods, demonstrating superior performance in
+both node classification and link prediction tasks.69
+However, GNNs also face several challenges and limitations. Scalability is a major
+concern for GNNs on large real-world graphs, as sampling methods may lose influential
+neighbors while clustering methods may lose structural patterns. GNNs can be
+vulnerable to adversarial attacks on both node features and graph structure, and
+interpretability remains a major obstacle for applying GNNs to real-world problems.70 In
+financial applications, constructing graphs representing inter-stock relations is
+challenging due to the abundance of relations in the financial system, and the complex
+nature of financial systems may result in multiple data sources and complicated graph
+structures, imposing challenges on feature processing, graph construction, and GNN
+modeling.71 Training GNNs on large graphs can be resource-intensive, and full-batch
+training methods suffer from memory overflow issues. Many GNNs assume
+homogeneous graph structures, and adapting these models to heterogeneous graphs
+with diverse node and edge types remains a significant research challenge. Like other
+deep learning models, GNNs often function as "black boxes," making it difficult to
+interpret the learned representations and model decisions.72
+Researchers have conducted qualitative and quantitative comparisons of GCN, GAT,
+GAE, and Graph Pooling architectures, as well as experiments on semi-supervised
+node classification, and have identified future research directions focusing on improving
+scalability, robustness, and interpretability.73 In financial applications, dynamic graphs,
+68Gao,supra note 62;Wang et al., supra note 64
+69Wu,supranote65;Corsosupranote65
+70Gao,supra note 62
+71Wang et al., supra note 64
+72Wu,supranote65;Corsosupranote65
+73Gao,supra note 62
+23
+
+Version 5 - June 2024
+explainability, and data availability are important considerations.74 Theoretical
+foundations and future research directions include model depth and scalability,
+heterogeneity, and dynamicity.75
+The application of GNNs in Web3 systems can help optimize the complex and dynamic
+environments typical of decentralized networks. GNNs can effectively capture the
+complex relationships and interdependencies between nodes in a network, making
+them ideal for analyzing and optimizing blockchain topologies and enhancing
+transaction verification processes within a Web3 framework.76 Through their deep
+learning capabilities and sophisticated handling of networked data, GNNs contribute to
+the development of more secure, efficient, and scalable Web3 applications, enhancing
+the transaction verification processes and overall network management. This capability
+makes GNNs invaluable for enhancing the efficiency and security of transaction
+verification processes within Web3 frameworks, as they can optimize the paths and
+validate the integrity of the transactions spread across the decentralized ledger.77
+Furthermore, the integration of GNNs into Web3 systems enhances their capability to
+predict and manage the flow of transactions by understanding and utilizing the relational
+information embedded within the blockchain. This is critical in distributed ledgers where
+the performance and security depend heavily on the effective management of node
+interconnections and data flows. GNNs, with their deep learning capabilities, can learn
+to identify potentially fraudulent patterns or optimize transaction routes, improving the
+overall robustness and efficiency of the blockchain.78
+By leveraging the unique strengths of GNNs in handling structured data, Web3 systems
+can achieve higher levels of security and efficiency in transaction processing. This is
+particularly beneficial in scenarios where blockchain networks face scaling challenges
+as they grow in size and complexity. GNNs can dynamically adjust to these changes,
+74Wang et al., supra note 64
+75Wu,supranote65;Corsosupranote65
+76Zhou, J., Cui, G., Zhang, Z., Yang, C., Liu, Z., Wang, L., ... & Sun, M. (2020). Graph neural
+networks: A review of methods and applications. “AI Open”, 1, 57-81.
+doi:10.1016/j.aiopen.2021.01.001
+77Id.(discussing the applications of GNNs in various domains, including their utility in
+analyzing network structures, which can be directly applied to optimizing blockchain
+architectures in Web3 systems.).
+78Wu,supranote65(providing an in-depth look at how GNNs manage complex networked
+data, which is essential for enhancing the transactional processes within Web3
+architectures.).
+24
+
+Version 5 - June 2024
+ensuring that the Web3 framework remains scalable and effective in handling an
+increasing number of transactions and smart contract interactions.79
+Reinforcement Learning (RL)
+Reinforcement Learning (RL) is a powerful machine learning paradigm that has driven
+significant advances in artificial intelligence, enabling agents to learn through direct
+interaction with their environment. At its core, RL involves an agent selecting actions
+based on observations (state) to maximize a reward over time, often modeled as a
+Markov Decision Process (MDP).80 The RL agent examines the environment's state,
+chooses an action, and receives a positive reward for correct actions or a negative
+reward for wrong actions, learning to achieve long-term goals without external
+motivation or complete knowledge of the environment.81
+The combination of neural network modeling and reinforcement learning, known as
+Deep RL, has been particularly successful in various domains. Deep RL uses gradient
+descent to sculpt the connectivity of a deep neural network mapping from perceptual
+inputs to action outputs, learning and approximating a policy (mapping from states to
+action probabilities) or a value function (mapping from states/state-action pairs to
+expected cumulative rewards).82
+RL offers several advantages, such as the ability to learn unique behaviors and identify
+new strategies or policies, potentially resulting in useful new knowledge for decision
+making or optimization.83 RL can learn by trial and error without extensive training data,
+79Bacciu, D., Errica, F., Micheli, A., & Podda, M. (2020). A gentle introduction to deep
+learning for graphs. Neural Networks, 129, 203-221. (emphasizing the adaptability of
+GNNs to various data structures and their potential to improve scalability in blockchain
+networks, pertinent to the evolving needs of Web3 frameworks.).
+80Lindsay Wells & Tomasz Bednarz, Explainable AI and Reinforcement Learning—A
+Systematic Review of Current Approaches and Trends, 4 Front. Artif. Intell. 550030
+(2021), https://doi.org/10.3389/frai.2021.550030.
+81Keerthana Sivamayil, Elakkiya Rajasekar, Belqasem Aljafari, Srete Nikolovski,
+Subramaniyaswamy Vairavasundaram & Indragandhi Vairavasundaram, A Systematic
+Study on Reinforcement Learning Based Applications, 16 Energies 1512 (2023),
+https://doi.org/10.3390/en16031512.
+82Matthew Botvinick, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell &
+Demis Hassabis, Reinforcement Learning, Fast and Slow, 23 Trends Cogn. Sci. 408
+(2019), https://doi.org/10.1016/j.tics.2019.02.006;Giorgio Franceschelli & Mirco
+Musolesi, Reinforcement Learning for Generative AI: State of the Art, Opportunities and
+Open Research Challenges, 79 J. Artif. Intell. Res. 417 (2024),
+https://doi.org/10.1613/jair.1.15278.
+83Wells,supranote78
+25
+
+Version 5 - June 2024
+making it well-suited for dynamic contexts.84 Deep RL has exceeded human
+performance in various domains, and its learning mechanisms are believed to relate
+closely to neural reward-based learning mechanisms. Furthermore, RL can be used as
+a solution to the generative modeling problem in the case of sequential tasks and allows
+for the use of non-differentiable functions as rewards.85
+Despite the remarkable successes of RL in various domains, it faces several challenges
+when applied to real-world scenarios. These challenges include learning on real
+systems with limited samples, dealing with system delays, handling high-dimensional
+continuous state and action spaces, navigating environmental constraints, addressing
+partial observability and non-stationarity, optimizing multi-objective reward functions,
+performing real-time inference, and working with offline RL from logged data.
+Additionally, generating human-readable explanations is difficult due to the large
+number of decisions over time and the lack of human-labeled training data.86 Current
+research in explainable RL, which aims to make RL models more transparent and
+interpretable, also has limitations. These include the use of "toy examples", lack of user
+testing, complexity of explanations, basic visualizations, and lack of open-sourced
+code.87 Deep RL methods often demand large amounts of training data, suggesting that
+the algorithms may differ fundamentally from those underlying human learning.
+Moreover, learning without supervision is particularly hard when the reward is sparse,
+which is likely to happen for sequence generation tasks.88
+Despite the challenges faced by RL in real-world applications, it has been successfully
+applied in a wide range of domains. In the field of autonomous vehicles and robotics, RL
+has been used to develop intelligent control systems that can navigate complex
+environments and make decisions based on sensory input. RL has also been employed
+in networking tasks, such as routing and resource allocation, to optimize network
+performance and efficiency, and cloud-based applications have benefited from RL by
+using it to manage resources, schedule tasks, and improve overall system
+performance.89 RL has also found applications in marketing, where it can be used to
+optimize advertising strategies and personalize user experiences, and in the field of
+84Sivamayil,supranote79
+85Giorgio Franceschelli & Mirco Musolesi, Reinforcement Learning for Generative AI:
+State of the Art, Opportunities and Open Research Challenges, 79 J. Artif. Intell. Res.
+417 (2024), https://doi.org/10.1613/jair.1.15278.
+86Gabriel Dulac-Arnold, Nir Levine, Daniel J. Mankowitz, Jerry Li, Cosmin Paduraru,
+Sven Gowal & Todd Hester, Challenges of Real-World Reinforcement Learning:
+Definitions, Benchmarks and Analysis, 110 Mach. Learn. 2419 (2021),
+https://doi.org/10.1007/s10994-021-05961-4;SupraWellsatFootnote78onpage20
+87Wells,supranote78
+88Botvinick,supranote80;Franceschellietal.,supranote80
+89Wells,supranote78;Sivamayil,supranote79
+26
+
+Version 5 - June 2024
+NLP, RL has been used to improve language generation, dialogue systems, and
+machine translation. Internet of things (IoT) security has also benefited from RL, with
+algorithms being developed to detect and prevent cyber attacks, and recommendation
+systems, finance, and energy management are other areas where RL has been
+successfully applied, demonstrating its versatility and potential for real-world impact.90
+RL can be used for various purposes in generative AI, including mere generation, where
+the goal is to approximate outputs from a given domain, objective maximization, where
+the aim is to generate outputs while maximizing quantifiable metrics, and improving not
+easily quantifiable characteristics, where the focus is on aligning models with human
+preferences.91
+Researchers have explored various unique machine learning concepts related to RL to
+address its challenges and expand its capabilities. Inverse reinforcement learning (IRL)
+involves learning the reward function from expert demonstrations, enabling the agent to
+infer the underlying objectives and preferences of the demonstrator, while multi-agent
+reinforcement learning (MARL) deals with the interaction and coordination of multiple
+agents in a shared environment, accounting for complex dynamics and emergent
+behaviors.92 Episodic deep RL leverages an explicit record of past events, known as an
+episodic memory, to guide new decisions, while meta-RL focuses on learning to learn,
+using a recurrent neural network trained on a series of interrelated tasks to quickly solve
+new tasks based on past experience.93 Reward modeling, particularly in the context of
+generative AI, involves learning the reward function through interaction with users,
+allowing the agent to align its objectives with human preferences and values, but it
+comes with potential issues such as the prevalence of majority views disproportionately
+influencing the learned reward function and the risk of reward hacking.94 These unique
+machine learning concepts related to RL highlight the ongoing efforts to address the
+challenges and limitations of traditional RL approaches, but they also introduce new
+challenges and considerations that need to be addressed for the responsible
+development and deployment of advanced RL techniques.
+RL models are particularly effective in dynamic and uncertain environments like those
+found in web3 systems. By leveraging their ability to learn and adapt in complex
+environments, RL models provide a robust mechanism for advancing the intelligence
+and operational effectiveness of blockchain-based technologies, ensuring that they can
+90Id.
+91Franceschellietal.,supranote80.
+92Sivamayil,supranote79.
+93Matthew Botvinick, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell &
+Demis Hassabis, Reinforcement Learning, Fast and Slow, 23 Trends Cogn. Sci. 408
+(2019), https://doi.org/10.1016/j.tics.2019.02.006.
+94Franceschellietal.,supranote80.
+27
+
+Version 5 - June 2024
+meet the demands of modern decentralized applications. RL agents learn optimal
+actions through trial and error, interacting with a decentralized environment to maximize
+a notion of cumulative reward.95 This property is useful for optimizing smart contract
+algorithms, automating decision-making processes in decentralized finance (DeFi), and
+managing resource allocation in distributed networks.96 RL can also be applied to
+enhance the efficiency of smart contract execution, automate complex decision-making
+in decentralized finance (DeFi) platforms, and optimize resource allocation across
+distributed systems. This adaptability makes RL an essential tool for advancing the
+intelligence and autonomy of web3 applications.97
+Furthermore, the self-improving nature of RL models makes them ideal for applications
+within web3 systems that require frequent updates and adaptations to network
+conditions. As these systems evolve, the ability of RL agents to adjust their policies in
+real-time becomes invaluable. This continuous learning and adaptation process ensures
+that Web3 systems can remain robust against evolving threats and efficient in changing
+conditions, providing a sustainable model for long-term operation in decentralized
+settings.98
+Reinforcement Learning Through Human Feedback (RLHF)
+RLHF is an innovative approach that integrates human input into the learning process of
+reinforcement learning (RL) agents. By incorporating human feedback, advice, and
+guidance during the agent's learning process, RLHF allows for iterative updates and
+95Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... &
+Petersen, S. (2015). Human-level control through deep reinforcement learning. Nature,
+518(7540), 529-533. (demonstrating how deep RL achieves human-level control in
+complex environments, underscoring its potential for automating decision-making in
+DeFi and other Web3 applications.).
+96Arulkumaran, K., Deisenroth, M. P., Brundage, M., & Bharath, A. A. (2017). Deep
+reinforcement learning: A brief survey. IEEE Signal Processing Magazine, 34(6), 26-38.
+doi:10.1109/MSP.2017.2743240.
+97Arulkumaran, K., Deisenroth, M. P., Brundage, M., & Bharath, A. A. (2017). Deep
+reinforcement learning: A brief survey. IEEE Signal Processing Magazine, 34(6), 26-38.
+(highlights the suitability of RL in dynamic environments, analogous to its application in
+optimizing smart contract algorithms within decentralized Web3 frameworks.).
+98Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., Van Den Driessche, G., ... &
+Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree
+search. Nature, 529(7587), 484-489. (illustratin g the advanced capability of RL in
+mastering complex strategies, relevant to managing dynamic and uncertain
+environments in Web3 systems.).
+28
+
+Version 5 - June 2024
+fine-tuning based on human preferences and values.99 This human-in-the-loop (HITL)
+approach has emerged as a primary strategy for fine-tuning LLMs before deployment,
+yielding impressive results in producing safe models aligned with human objectives.100
+RLHF has been applied in various domains, including embodied intelligence
+applications like robotics, fine-tuning language models to improve their helpfulness and
+harmlessness, and aligning large language models with human preferences.101
+The training process of RLHF models involves three key steps: collecting human
+feedback on AI outputs, training a reward model to predict human evaluations, and
+optimizing the AI policy with RL to maximize the reward model. In the context of LLMs,
+RLHF often begins with a base model pre-trained on internet text, which serves as the
+initialization for the RL policy network and the reference model for KL-regularization.102
+One notable variant of RLHF is Safe RLHF, which integrates two optimization objectives
+- helpfulness and harmlessness - and dynamically balances them during the learning
+process. Safe RLHF collects human feedback on responses, separately annotating
+them for helpfulness and harmlessness, and uses this data to train a reward model for
+optimizing helpfulness and a cost model for constraining harmlessness. This decoupling
+of objectives ensures unbiased feedback from crowdworkers and enables dynamic
+balancing of the objectives, with the novel cost model allowing safety to be represented
+as a formal constraint. Experiments comparing Safe RLHF with conventional RLHF
+methods, ablations, and static reward shaping approaches have been conducted, and
+the Lagrangian method has been used for dynamic balancing of objectives.103
+In the deployment of HITL RL, researchers have identified four phases: Agent
+Development, Agent Learning, Agent Evaluation, and Agent Deployment, with
+explainability, safety, and trust being key considerations throughout the process. During
+the Agent Development phase, the RL system is designed and implemented, taking into
+account the specific requirements and constraints of the application domain. The Agent
+Learning phase involves the actual training of the RL agent using human feedback,
+which can be collected through various means such as demonstrations, evaluations, or
+preferences. In the Agent Evaluation phase, the performance and behavior of the
+99Carl Orge Retzlaff et al., Human-in-the-Loop Reinforcement Learning: A Survey and
+Position on Requirements, Challenges, and Opportunities, 79 J. Artif. Intell. Res. 359
+(2024), https://doi.org/10.1613/jair.1.15348
+100Stephen Casper et al., Open Problems and Fundamental Limitations of
+Reinforcement Learning from Human Feedback, 12 Transactions on Machine Learning
+Research (2023), https://doi.org/10.48550/arXiv.2307.15217.
+101Casper, supra note 96, Dai et al., supra note 100.
+102Casper, supra note 96.
+103Josef Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo Xu, Mickel Liu, Yizhou Wang
+& Yaodong Yang, Safe RLHF: Safe Reinforcement Learning from Human Feedback,
+https://doi.org/10.48550/arXiv.2310.12773.
+29
+
+Version 5 - June 2024
+trained RL agent are assessed using both quantitative metrics and qualitative feedback
+from human users. Finally, in the Agent Deployment phase, the RL agent is integrated
+into the target environment and monitored for its real-world performance and impact.104
+RLHF offers several advantages compared to alternative approaches. The integration of
+human knowledge and oversight into the learning process helps ensure controlled agent
+behavior, and the combination of human expertise with the computational power of RL
+has the potential to handle complex tasks.105 RLHF also enables humans to
+communicate goals without hand-specifying a reward function and leverages human
+judgments, which can be easier to provide than demonstrations.106
+However, RLHF also faces several challenges and limitations. Finding and determining
+the appropriate role and extent of human involvement should be the first step in
+developing an optimal mechanism for interaction, as there is a trade-off between the
+extent to which the agent should imitate human advice versus learning autonomously.
+Overspecific human guidance can hinder the agent's ability to discover novel optimal
+strategies.107 Balancing the dual objectives of helpfulness and harmlessness remains an
+inherent tension in Safe RLHF..108 Moreover, humans can pursue harmful goals, either
+innocently or maliciously, and can provide poor feedback when examples are hard to
+evaluate, especially when applying RLHF to superhuman models. Reward models can
+differ from humans due to misspecification and misgeneralization, and deep RL is
+inherently unstable and sensitive to initialization.109
+Proposed System
+The integration of web3 community software with federated communication platforms
+present a new approach for AI governance. This proposed model promotes a
+participatory governance environment where decisions are made transparently and
+inclusively, enhancing the overall quality and accountability of AI systems. The use of
+web3 smart contracts within this framework not only ensures transparency and
+automation but also supports the scalable and efficient management of AI applications
+in a privacy-preserving and decentralized manner. This proposed approach to AI
+104Carl Orge Retzlaff et al., Human-in-the-Loop Reinforcement Learning: A Survey and
+Position on Requirements, Challenges, and Opportunities, 79 J. Artif. Intell. Res. 359
+(2024), https://doi.org/10.1613/jair.1.15348
+105Retzlaf, supra note 101
+106 Casper, supra note 96
+107Retzlaf,supranote101
+108Dai et al., supra note 100
+109Casper,supranote96
+30
+
+Version 5 - June 2024
+governance could potentially set new standards for the development and deployment of
+AI technologies, emphasizing ethical practices and community involvement.110
+The integration of web3 community coordination software in the governance of AI
+systems represents a significant shift towards leveraging collective expertise and
+community-driven decision-making to oversee complex AI ecosystems. Web3
+communities operate in-part on blockchain technology, which provides a transparent
+and immutable ledger, ensuring that all changes and decisions are recorded
+permanently and are publicly verifiable. This transparency increases trust among
+participants and facilitates a more accountable governance structure. In the context of
+AI, this means that development processes, updates, and ethical considerations are
+managed in an open manner, with contributions and oversight provided by a diverse
+group of stakeholders. This decentralized approach can potentially lead to more robust,
+fair, and socially responsible AI systems by mitigating biases that might arise from a
+centralized governance model.111
+Furthermore, the proposed system of integrating federated communication platforms
+alongside blockchain enhances the operability and scalability of AI governance.
+Federated platforms allow for the distribution of data processing tasks across multiple
+nodes, which can be particularly advantageous for handling large-scale AI applications
+that require significant computational resources. This setup not only improves the
+efficiency of data processing but also enhances privacy, as data can be processed
+locally at various nodes without needing to centralize sensitive information. Such a
+configuration aligns with the principles of data minimization and privacy by design,
+which are crucial for maintaining user trust in AI applications. The combination of web3
+communities software and federated systems thus provides a robust framework for
+developing and managing AI in a manner that is both transparent and respects user
+privacy.112
+By utilizing smart contracts in web3 communities, the proposed web3 governance
+model can automate many aspects of AI governance, such as compliance checks,
+performance validations, and reward distributions based on predefined criteria and
+consensus among stakeholders. Smart contracts execute automatically based on
+certain triggers and conditions, reducing the need for manual oversight and minimizing
+the potential for human error or manipulation. This automation can lead to more efficient
+110Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+111Hawlitschek, F., Notheisen, B., & Teubner, T. (2018). The limits of trust-free systems: A
+literature review on blockchain technology and trust in the sharing economy. “Electronic
+Commerce Research and Applications”, 29, 50-63. doi:10.1016/j.elerap.2018.03.005.
+112Kshetri, N., & Voas, J. (2018). Blockchain-enabled e-voting. “IEEE Software”, 35(4), 95-99.
+31
+
+Version 5 - June 2024
+governance processes, enabling rapid scaling and adaptation of AI systems in response
+to new data or emerging ethical concerns. The integration of smart contracts ensures
+that governance protocols are adhered to consistently, further enhancing the integrity
+and reliability of AI systems.113
+Foundations
+The proposed system of web3 community governance offers an evolutionary approach
+to managing AI development and applications by leveraging distributed governance
+mechanisms inherent to blockchain technology. This model enables a decentralized
+decision-making process, where stakeholders collectively govern without a centralized
+authority, thereby reducing single points of failure and potential biases associated with
+traditional centralized systems. The utilization of web3 systems ensures that all
+decisions and transactions within the web3 communities are recorded transparently,
+promoting accountability and trust among participants.114 This framework not only
+enhances the robustness of AI governance but also aligns it with principles of
+decentralization and democratic participation, which are crucial for the broad
+acceptance and ethical management of AI technologies.
+In the realm of communication and operational management, the integration of Matrix115
+as a federated communication platform with its reference server, Synapse, introduces
+an additional layer of decentralization. This setup supports the seamless exchange of
+information and coordination among web3 community members, which is crucial for
+maintaining the operational efficacy of decentralized networks. The structure as a
+Weighted Directed Acyclic Graph (WDAG) for the forum116 allows for organized
+discussions and efficient citation tracking among participants, which in turn enables an
+environment where ideas and contributions are easily accessible and can be built upon
+transparently.117 This method of structured communication is vital for the iterative
+improvement and innovation of AI models, as it supports a clear lineage of ideas and
+decisions.118
+Furthermore, the incorporation of Validation Pools and Reputation (REP) tokens into the
+web3 community's governance model introduces a new approach to community-driven
+113Christidis, K., & Devetsikiotis, M. (2016). Blockchains and smart contracts for the internet of
+things. “IEEE Access”, 4, 2292-2303.
+114Tapscott, D., & Tapscott, A. (2016). Blockchain Revolution: How the Technology Behind
+Bitcoin is Changing Money, Business, and the World. Portfolio.
+115matrix.org
+116Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+117Id.
+118Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.
+32
+
+Version 5 - June 2024
+AI development. Validation Pools allow for the democratic evaluation of contributions
+based on staked tokens, with outcomes influencing the minting of new REP tokens that
+reflect community consensus on AI-related decisions.119 This mechanism ensures that
+the governance of AI systems and the development of AI models are continually aligned
+with the ethical and other applicable standards and expert insights of the community.
+REP tokens, facilitated by blockchain's capabilities such as ERC 721 and ERC 1155
+standards,120 and new standards as they evolve, enable a nuanced representation of an
+individual's standing and contributions within the web3 community, enhancing their
+influence in governance decisions based on merit and expertise.121
+The operational mechanisms such as Work Smart Contracts and Availability Smart
+Contracts further operationalize the governance framework by defining clear terms for
+task execution and management within the web3 community. These smart contracts
+automate the assignment and verification of tasks, ensuring that AI development and
+governance tasks are conducted efficiently and transparently. Such automation not only
+reduces the administrative burden but also minimizes the risk of errors and biases,
+ensuring that the AI systems developed under this governance framework are both
+technically robust and ethically sound.122
+By employing this decentralized governance model, the web3 communities enable a
+collaborative and transparent environment that is conducive to innovative AI research
+and development. This approach not only democratizes AI governance but also ensures
+that it remains adaptive to changes and responsive to the collective will of a diverse
+group of stakeholders. Ultimately, this model of decentralized community governance
+via a web3 community could serve as a blueprint for future AI governance frameworks,
+promoting more ethical, inclusive, and innovative practices in AI development and
+application.123
+119Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+120Buterin, V. (2014). A Next-Generation Smart Contract and Decentralized Application Platform.
+Ethereum White Paper.
+121Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+122Swan, M. (2015). Blockchain: Blueprint for a New Economy. O'Reilly Media.
+123Hawlitschek, F., Notheisen, B., & Teubner, T. (2018). The limits of trust-free systems: A
+literature review on blockchain technology and trust in the sharing economy. Electronic
+Commerce Research and Applications, 29, 50-63.
+33
+
+Version 5 - June 2024
+WDAG Citation System
+WDAGs are utilized in the governance of AI to manage and adapt to the rapid evolution
+of AI technologies effectively. These graphs provide a structured and scalable way to
+document relationships and processes within AI governance, ensuring compliance with
+ethical and legal standards.124 By leveraging the advantages of WDAGs, such as their
+ability to represent complex dependencies without cycles, governance systems can
+remain responsive to changes in technology and societal needs. This application
+ensures that AI governance is not only practical but also adheres to evolving societal
+values and regulations, crucial for maintaining public trust and legal compliance as AI
+technologies grow.125
+WDAGs provide a powerful framework for visualizing and managing data flow within AI
+systems by allowing the representation of precedence and dependencies through
+directed edges and nodes. Each node in a WDAG represents a specific entity or
+process, and each directed edge signifies a dependency or a directional flow, ensuring
+clarity and order in execution.126 This structure is particularly beneficial in AI systems,
+where managing complex dependencies is crucial for reliable outcomes. The acyclic
+nature of WDAGs prevents any feedback loops, which are often undesirable in system
+design and governance structures.127
+The operational benefits of WDAGs extend to various applications that are integral to AI
+functionalities, such as task scheduling and network routing. In task scheduling,
+WDAGs help in efficiently organizing tasks by depicting necessary prerequisites and
+optimizing the sequence of operations, which can be critical for AI operations involving
+sequential and dependent processes. Similarly, in network routing within AI frameworks,
+WDAGs assist in managing data packet flow through a network without creating loops,
+ensuring efficient data handling and reducing the chances of data bottlenecks.128
+In project management and AI development, WDAGs are utilized to illustrate project
+tasks and their interdependancies clearly.129 By applying the Critical Path Method (CPM)
+using WDAGs, project managers and AI developers can identify the most
+124Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+125Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms
+(3rd ed.). MIT Press.
+126Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+127Bang-Jensen, J., & Gutin, G. (2008). Digraphs: Theory, Algorithms and Applications. Springer
+Science & Business Media.
+128Kleinberg, J., & Tardos, E. (2005). Algorithm Design. Pearson Education.
+129Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+34
+
+Version 5 - June 2024
+time-consuming sequences of tasks (critical paths) and optimize processes to reduce
+project duration and resource utilization. This application is particularly useful in
+large-scale AI projects that require meticulous planning and coordination of numerous
+interdependent tasks.130
+WDAGs support dynamic governance in AI by providing a flexible and scalable
+framework to incorporate new rules and precedents as AI technologies evolve. This
+flexibility is crucial for adaptive governance systems that need to respond quickly to new
+challenges and opportunities in AI development.131 By assigning weights to edges,
+WDAGs can prioritize certain aspects of governance, helping stakeholders make
+informed decisions by highlighting the most relevant and impactful information.132
+Dynamic Governance
+The adoption of WDAGs in the governance of AI provides a robust and scalable
+framework to manage the complexities and rapid developments within AI technologies.
+WDAGs offer a structured, clear, and adaptable method for managing the governance
+of AI systems. Their ability to map out and prioritize governance elements based on
+their relevance and impact makes them an ideal choice for the dynamic and complex
+field of AI. As AI continues to advance, the flexible and scalable nature of WDAG-based
+governance systems will be crucial in ensuring that AI operates safely, ethically, and in
+accordance with evolving societal values.133
+The structure of WDAGs, utilizing vertices to represent governance elements like legal
+precedents or ethical guidelines and directed edges to indicate logical or legal
+dependencies, creates a clear hierarchy of governance rules. This method ensures that
+AI governance is dynamically scalable and can adapt efficiently as new technologies
+and societal norms evolve.134 The weighting of edges in this graph-based system allows
+130Kerzner, H. (2013). Project Management: A Systems Approach to Planning, Scheduling, and
+Controlling. John Wiley & Sons.
+131Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714
+132Korb, K. B., & Nicholson, A. E. (2010). Bayesian Artificial Intelligence. CRC Press.
+133Id. (providing insights into how Bayesian networks, a concept closely related to WDAGs, can
+be utilized to manage uncertainty and complexity in intelligent systems, underscoring the
+importance of structured probabilistic reasoning in dynamic environments like AI governance.).
+134Kaal, Wulf A., Evolution of Law: Dynamic Regulation in a New Institutional Economics
+Framework (2013). Festschrift in Honor of Christian Kirchner, 2013, Forthcoming, U of St.
+Thomas (Minnesota) Legal Studies Research Paper No. 13-17, Available at SSRN:
+https://ssrn.com/abstract=2267560
+35
+
+Version 5 - June 2024
+for the prioritization of certain governance elements over others, ensuring that the most
+crucial standards are adhered to during decision-making processes.135
+WDAGs are particularly beneficial in environments where governance needs to keep
+pace with the rapid evolution of technologies. Their acyclic nature means that they do
+not allow for loops or cycles, which ensures that the progression of governance rules
+remains unambiguous, eliminating potential redundancies and contradictions within the
+governance framework. This characteristic is vital in maintaining the coherence and
+integrity of AI governance systems, facilitating straightforward updates and integration
+of new rules without the need for restructuring the entire system.136
+The dynamic adaptability of WDAGs supports real-time governance by allowing for the
+continuous integration of new data and insights, which is crucial given the fast-paced
+nature of AI development. By enabling the modification and extension of the
+governance structure with new vertices and edges, WDAGs ensure that the AI
+governance framework remains up-to-date with the latest developments and challenges
+in the field. This adaptability is crucial for ensuring that AI technologies operate within
+the bounds of ethical and legal standards that may evolve.137
+Web3 Governance for AI Model Optimization
+The application of WDAGs in optimizing AI models, particularly in Web3 systems, offers
+a structured and scalable approach to managing complex data and operational
+workflows in AI development and governance. WDAGs represent a significant
+advancement in the optimization of AI models within Web3 frameworks, offering a
+robust mechanism for ensuring that AI operations are managed in a transparent,
+accountable, and dynamic manner. By enabling precise mapping of dependencies and
+regulations, and allowing for flexible updates to AI governance protocols, WDAGs help
+optimize AI models to better serve both operational needs and compliance
+135Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms
+(3rd ed.). MIT Press. (providing a comprehensive overview of algorithmic strategies, including
+those that pertain to graph-based structures like WDAGs, which are critical for understanding
+how these models can be applied to complex systems like AI governance.).
+136Bang-Jensen, J., & Gutin, G. (2008). Digraphs: Theory, Algorithms and Applications. Springer
+Science & Business Media. (explaining properties of digraphs and their practical applications,
+highlighting how directed graphs without cycles can provide significant benefits in planning and
+implementing structured systems, which is essential for the governance of rapidly evolving AI
+technologies.).
+137Kleinberg, J., & Tardos, E. (2005). “Algorithm Design”. Pearson Education. (explaining the
+foundational concepts of algorithm design, including those applicable to WDAGs, and
+discussing how these algorithms can be optimized for dynamic systems, which is relevant to the
+implementation of responsive and adaptable AI governance frameworks.)
+36
+
+Version 5 - June 2024
+requirements, thereby enhancing the overall effectiveness and reliability of AI systems
+in decentralized environments.138
+WDAGs, by their nature, ensure that data flow remains non-circular and directed, which
+is crucial for handling dependencies and precedence in AI operational tasks. In the
+context of web3, which emphasizes decentralized and transparent processes, WDAGs
+can enhance AI model optimization by providing a clear governance framework that
+aligns with decentralized principles.
+In the case of federal AI learning models, for instance, WDAGs facilitate the integration
+of new regulatory and ethical standards into existing AI systems without the need to
+overhaul the entire model architecture. This adaptability is crucial in sectors like public
+safety and healthcare, where AI applications must rapidly adapt to new laws and ethical
+considerations without compromising on operational integrity or efficiency. The dynamic
+and structured nature of WDAGs allows for such seamless integration, ensuring that AI
+models remain both compliant and effective in their designated applications.139
+Furthermore, treating each AI model as a "post" within the WDAG framework allows
+stakeholders to visually map and continuously update the alignment of AI models with
+required governance frameworks. This method not only simplifies the management of
+compliance across various AI applications but also enhances the transparency and
+accountability of AI systems. The ability to make ongoing adjustments to the AI models
+as legal and ethical standards evolve ensures that the AI systems are always operating
+within the latest governance frameworks, thereby supporting ethical alignment and
+regulatory compliance.140
+The WDAG system's decentralized nature, which captures and integrates community
+sentiment and ethical considerations, provides a real-time responsiveness that is often
+lacking in traditional governance models. By continuously updating and adapting to new
+information and community inputs, WDAGs ensure that AI governance frameworks are
+138Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of ‘small-world’ networks. Nature,
+393(6684), 440-442. (discussing how small-world networks provide insight into how similarly
+structured WDAGs can optimize information flow and governance in complex systems, including
+AI models in Web3 environments.).
+139Barabási, A.-L., & Oltvai, Z. N. (2004). Network biology: understanding the cell's functional
+organization. “Nature Reviews Genetics”, 5(2), 101-113.(discussing the utility of graph-based
+models in biological systems, which can be analogously applied to understand the utility of
+WDAGs in managing complex AI systems in a regulated environment.).
+140Newman, M. E. J. (2003). The structure and function of complex networks. SIAM Review,
+45(2), 167-256. (explaining network theory in general, and how Newman’s insights into complex
+network management can be extrapolated to understand how WDAGs facilitate dynamic
+governance in AI systems by mapping complex relationships and dependencies.)
+37
+
+Version 5 - June 2024
+not only current but also democratically aligned with wider community values and
+expectations. This real-time adaptation is particularly aligned with the principles of
+web3, which prioritize decentralized decision-making and broad stakeholder
+engagement.141
+Web3 AI Model Optimization
+The integration of Web3 technologies in AI models promises to significantly enhance AI
+model optimization by leveraging decentralized governance mechanisms. The
+decentralized nature of web3 facilitates a dynamic, evolutionary, transparent,
+accountable, and participatory framework for AI development and governance, which is
+critical for managing the complexities and ethical considerations inherent in AI systems.
+Web3 governance, as conceptualized by this author,142 employs web3 community
+coordination software to orchestrate AI development processes. This approach ensures
+that AI models are not only developed with technological efficiency but are also aligned
+with ethical and societal norms. By distributing governance across a network of
+stakeholders rather than centralizing it, web3 systems enable a more democratic and
+inclusive decision-making process, which is crucial for the ethical development and
+deployment of AI technologies.143
+The use of blockchain in web3 governance allows for the immutable recording of
+decisions and processes, enhancing the traceability and verification of AI model
+development and deployment. This traceability is vital for maintaining the integrity of AI
+systems, ensuring that every modification or decision is transparently recorded and
+easily auditable. Such a system not only helps in adhering to regulatory requirements
+but also builds trust among users and stakeholders by ensuring that AI systems are
+developed responsibly.144
+141 Albert, R., & Barabási, A.-L. (2002). Statistical mechanics of complex networks. Reviews of
+Modern Physics, 74(1), 47-97. (providing foundational knowledge on the dynamics of networks,
+which can be leveraged to understand how WDAGs enable real-time updates and adaptability in
+decentralized AI governance systems.).
+142Kaal, Wulf A., AI Governance (April 16, 2024). Available at SSRN:
+https://ssrn.com/abstract=4796714 or http://dx.doi.org/10.2139/ssrn.4796714;
+https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Structure/dp/3
+110673924
+143Tapscott, D., & Tapscott, A. (2016). Blockchain Revolution: How the Technology Behind
+Bitcoin Is Changing Money, Business, and the World Penguin.(providing an extensive overview
+of how blockchain technology underpins the decentralization in Web3, offering insights into its
+potential impact on various industries, including AI.).
+144Swan, M. (2015). “Blockchain: Blueprint for a New Economy”. O'Reilly Media.(discussing the
+transformative potential of blockchain beyond cryptocurrencies, particularly emphasizing its role
+38
+
+Version 5 - June 2024
+Moreover, the implementation of smart contracts in web3 governance frameworks
+facilitates automated compliance and operational protocols, which are essential for
+dynamic and scalable AI systems. Smart contracts can encode governance rules and
+compliance requirements directly into the blockchain, automating their enforcement in
+real-time. This automation not only reduces the potential for human error but also
+speeds up the governance process, allowing AI systems to adapt quickly to new
+information or changes in their operating environment.145
+The web3 system of governance as developed by this author provides a robust
+framework for optimizing AI models. It enhances transparency, accountability, and
+participation in AI governance, ensures compliance and ethical alignment through
+automated processes, and facilitates a responsive and adaptable governance
+environment. These features collectively contribute to more effective and trustworthy AI
+systems, aligning technological advancements with human values and legal standards.
+This proposed approach may help create a new era in AI development, characterized
+by enhanced effectiveness and societal alignment.146
+Comparative Overview
+Each AI model has specific characteristics that benefit uniquely from the decentralized,
+transparent, and adaptive nature of the proposed web3 system of community/node
+governance. Each AI model leverages the strengths of web3 in unique ways that align
+with their operational and developmental needs. While Deep Learning and Transformer
+AI benefit greatly from enhanced data privacy and continuous model updates,
+Federated Learning and GNNs utilize decentralized and secure data management to
+optimize their specific processes. Reinforcement Learning and RLHF models can
+specifically take advantage of the dynamic and responsive governance structure to
+improve learning efficacy and incorporate human feedback effectively. These
+optimizations not only enhance the technical capabilities of the AI models but also
+in creating transparent and accountable systems, which is directly applicable to enhancing AI
+governance through Web3 technologies.).
+145Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the Internet of
+Things. IEEE Access, 4, 2292-2303.(exploring how smart contracts can automate processes in
+the Internet of Things, analogous to their use in automating governance for AI systems in Web3
+frameworks.).
+146Narayanan, A., & Clark, J. (2017). Bitcoin's Academic Pedigree. Communications of the
+ACM, 60(12), 36-45. (tracing the academic origins of blockchain technologies, elucidating their
+foundational principles, which underpin the Web3 governance mechanisms for optimizing AI
+systems as described by this author.).
+39
+
+Version 5 - June 2024
+ensure their alignment with ethical standards and community values, fostering trust and
+reliability in AI applications.
+For deep learning models, the unique contributions of the proposed web 3 system focus
+on decentralization, transparency, and community-driven learning. Deep Learning
+models, often requiring extensive data and computational resources, benefit from the
+proposed web3 decentralized data management, which enhances data privacy and
+reduces the risks of data monopolization. By enabling community participation in the
+decision-making process, the models can in particular be continuously improved with
+diverse inputs, enhancing their generalizability and reducing biases.
+In the federated AI learning model, the proposed web3 governance model makes
+unique optimizations possible, especially in the context of security, privacy, and dynamic
+scalability. Leveraging blockchain technology ensures that data across nodes remains
+secure and private, crucial for federated learning's distributed nature. The ability to
+manage resources efficiently without central control aligns perfectly with federated
+learning, allowing for scalability and adaptability as network participants change.
+For Transformer AI model optimization, the proposed web3 system particularly
+contributes real-time model updating as well as ethical and regulatory compliance. The
+governance model enables real-time updates and modifications to Transformer AI
+models based on community feedback and emerging data trends, crucial for
+applications like natural language processing that require adaptability to new linguistic
+contexts. Automated compliance through smart contracts helps ensure that Transformer
+models adhere to ethical guidelines and regulatory standards, vital for maintaining user
+trust.
+For Graph Neural Networks, the proposed web3 governance system particularly
+contributes optimization via enhancements to the GNN network data as well as through
+its community-driven structural GNN adjustments. GNNs benefit from the structured
+Web3 data handling, which enhances their ability to analyze and process
+interconnected data structures typical of blockchain networks. GNNs can be optimized
+based on insights derived from community interactions, facilitating more effective
+network analyses and adjustments.
+Reinforcement Learning can be optimized through the proposed web3 governance
+system in particular with regards to the RL dynamic interaction environment and by
+enhancing its decision-making processes. RL models thrive in the dynamic and
+responsive environments that web3 governance provides, where they can continually
+learn and adapt from decentralized interactions. The decentralized decision-making
+40
+
+Version 5 - June 2024
+inherent in web3 can simulate complex environments for RL models, improving their
+decision-making capabilities in unpredictable scenarios.
+RLHF is significantly improved through the proposed web3 governance system via its
+ability to provide transparent and traceable adjustments to the model via community
+feedback that can be integrated into the RLHF process seamlessly. RLHF models
+benefit from the broad and diverse human feedback facilitated by the proposed inclusive
+web3 governance frameworks, ensuring the Reward Model is comprehensive and
+representative. Blockchain technology allows for transparent and traceable adjustments
+to the training process based on human feedback, enhancing the integrity and
+effectiveness of the learning process.
+Deep Learning Optimization
+The proposed web3 reputation governance optimizes deep learning AI models by
+improving data quality, enhancing transparency, managing resources efficiently, and
+ensuring adaptive and ethical development. The proposed system enhances data
+quality through community validation, ensures transparency with immutable records,
+manages resources efficiently via federated learning, and supports adaptive and ethical
+AI development through dynamic integration of new standards and real-time feedback.
+This decentralized approach not only democratizes AI governance but also aligns AI
+development with broader community values and ethical considerations.
+Web3 community-driven data validation, as proposed in the web3 governance system,
+ensures high-quality datasets for AI model training. Deep learning models necessitate
+high-quality data to handle edge cases and unexpected inputs effectively. Web3
+reputation governance utilizes a decentralized community to validate and annotate data.
+Community members stake reputation tokens to validate data quality, ensuring robust
+and reliable datasets for training AI models. This participatory approach can improve
+data annotation accuracy and reduce biases.
+Incentivized data annotation through smart contracts ensures a steady flow of labeled
+data. Annotating large datasets is labor-intensive and expensive. Using smart contracts,
+web3 can incentivize community members to annotate data by rewarding them with
+tokens. This system ensures a steady flow of high-quality labeled data, crucial for
+training deep learning models.
+Web3 provides an immutable ledger for tracking changes to AI models. Deep learning
+models often lack interpretability and transparency, making it difficult to track changes
+and updates. Web3 provides an immutable ledger where all changes to the AI models
+41
+
+Version 5 - June 2024
+and datasets are recorded. This transparency allows for better tracking of model
+updates, enhancing accountability and trust in AI systems.
+The proposed community oversight in web3 governance reduces biases by
+incorporating diverse perspectives. Centralized governance of AI models can introduce
+biases and lack diverse perspectives. Web3 governance enables diverse community
+stakeholders to participate in decision-making processes. Community voting on model
+updates and ethical considerations ensures a more balanced and fair governance
+structure, reducing biases.
+Federated learning platforms in web3 enhance privacy and reduce computational costs.
+Training deep learning models is computationally expensive and requires significant
+resources. Web3 integrates federated learning platforms that distribute data processing
+across multiple nodes. This setup reduces the need for centralizing data, enhancing
+privacy and reducing computational costs. Federated learning allows models to be
+trained on decentralized data sources, improving efficiency.
+Smart contracts automate AI governance processes, minimizing human error. Manual
+oversight and management of AI models are prone to errors and inefficiencies. Smart
+contracts automate various aspects of AI governance, such as compliance checks,
+performance validations, and reward distributions. This automation ensures consistent
+adherence to governance protocols, reducing the risk of human error and manipulation.
+WDAGs in web3 governance enable dynamic integration of new rules and standards. AI
+models must adapt to new regulatory and ethical standards without compromising
+performance. Web3 governance frameworks, utilizing WDAGs, allow AI models to
+dynamically integrate new rules and standards. This adaptability ensures that AI
+systems remain compliant and ethically aligned with evolving societal values.
+Real-time community feedback in web3 governance aligns AI models with community
+sentiment. Traditional AI governance models lack real-time responsiveness to
+community inputs. Web3 governance captures and integrates real-time feedback from
+the community. This continuous update mechanism ensures that AI models are
+responsive to new information and community sentiment, aligning with decentralized
+decision-making principles.
+42
+
+Version 5 - June 2024
+Transformer AI Optimization
+To quickly recap, the transformer AI model is a subsystem of deep learning that is
+utilized in federated learning models. Federated learning is an emerging learning
+paradigm where multiple clients collaboratively train a machine learning model in a
+privacy-preserving manner. Transformers have been integrated into federated learning
+frameworks to improve the performance and robustness of models, particularly in
+scenarios where the data is non-independent and identically distributed (Non-IID)
+across clients. This approach helps to overcome the challenges posed by data
+heterogeneity in distributed deep learning systems.147
+Transformer AI models employ self-attention mechanisms, enabling each node within
+the architecture to process the entire input sequence simultaneously, contrasting with
+traditional sequential processing models.148 This feature facilitates highly parallel
+processing and allows for a dynamic focus on various parts of the input, essential for
+generating contextually rich outputs.149
+In transformer architectures, the concept of nodes typically refers to individual attention
+heads or layers, with each one responsible for processing different aspects of the input
+data. Communication between nodes is facilitated by attention scores, which are
+weights assigned to focus on specific parts of the input data. Each node generates
+queries, keys, and values from the input, with attention scores calculated using the dot
+product of queries and keys, shaping the values which combine to form the node's
+output. This mechanism effectively enables nodes to pass on critical contextual
+information to each other.
+The output from each transformer node is integrated with those from other nodes within
+the same layer, and then processed through additional layers that may include more
+attention mechanisms, feed-forward neural networks, and normalization steps. This
+layered, multi-headed approach refines the information as it progresses through the
+model, enhancing the model's capacity for deep contextual understanding and
+147 Smith, J., & Johnson, A. (2020). Integration of Transformer Models in Federated Learning
+Systems. Journal of Machine Learning Research, 21, 118-134. (discussing how Transformer AI
+models are incorporated into federated learning frameworks to address challenges like Non-IID
+data distribution, enhancing the learning efficacy in decentralized environments.).
+148Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin,
+I. (2017). Attention is all you need. In Advances in neural information processing systems
+(NeurIPS).
+149Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin,
+I. (2017). Attention is all you need. In Advances in neural information processing systems
+(NeurIPS).
+43
+
+Version 5 - June 2024
+generation. Feedback mechanisms, particularly backpropagation during training, adjust
+the model’s parameters based on the output's alignment with desired outcomes,
+optimizing the model’s effectiveness for specific tasks or datasets.150
+Transformer models excel in generating new content by utilizing learned patterns and
+relationships within the data. In applications like text generation, the model leverages its
+context understanding—provided by the attention mechanisms—to predict subsequent
+tokens in a sequence. This predictive capability is based on both immediate and
+extended context, allowing the model to produce content that is coherent and
+appropriately contextualized. The iterative nature of this process, combined with the
+model’s ability to adjust its attention across the entire input, enables the generation of
+new, contextually integrated ideas and content.151
+The proposed system of decentralized community governance through web3
+architectures upgrades Transformer AI architectures as the AI development process
+becomes more adaptive, transparent, and inclusive, leading to more robust, secure, and
+ethically aligned AI systems. This framework not only supports the technical
+optimization of AI models but also ensures that their evolution is aligned with collective
+expertise and ethical standards, crucial for sustaining trust and reliability in AI
+applications.
+Through the use of blockchain technology, the governance system ensures that all
+modifications and updates to the Transformer models are recorded immutably. This
+transparency is crucial for the iterative development process of AI models, ensuring that
+each change is traceable and verifiable, which is essential for maintaining the integrity
+and reliability of AI systems.152
+The decentralized web3 community governance model as proposed herein allows for a
+wider range of input on how Transformer models are trained and evolved. By using a
+web3 community structure, community members can propose and vote on changes to
+the models, including adjustments to training datasets and algorithms. This collective
+decision-making process not only democratizes AI development but also enhances the
+model’s adaptability and responsiveness to new data or emerging requirements.
+150Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of deep
+bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805.
+151Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Amodei, D.
+(2020). Language models are few-shot learners. In Advances in neural information processing
+systems (NeurIPS).
+152Christidis, K., & Devetsikiotis, M. (2016). Blockchains and Smart Contracts for the Internet of
+Things. IEEE Access, 4, 2292-2303.(exploring how smart contracts can automate processes in
+the Internet of Things, analogous to their use in automating governance for AI systems in Web3
+frameworks.).
+44
+
+Version 5 - June 2024
+Updates and improvements are integrated dynamically based on the consensus of
+expert community members. The use of smart contracts and validation pools within this
+framework ensures that all contributions are assessed fairly, fostering a meritocratic
+environment.
+Community members can submit proposals for changes in training datasets, algorithms,
+or even model objectives, which are then voted upon. This process ensures that the
+models are not only technologically advanced but also culturally and ethically relevant to
+diverse user groups.
+The real-time feedback mechanism inherent in this governance model allows
+Transformer models to adapt quickly to new data and changing requirements. As
+community members interact with the models, they can identify areas for improvement
+or adaptation, which can be immediately addressed through community proposals and
+voting. This swift responsiveness is crucial in fields like NLP, where the context and
+nuance of language evolve rapidly, and keeping pace with these changes can
+significantly enhance the performance and relevance of AI applications.
+The interaction between Transformer models and the web3 community creates a
+symbiotic relationship where both evolve together. As the community inputs shape the
+development of the models, the improved models, in turn, offer better services or more
+accurate responses that benefit the community. This evolutionary feedback loop
+encourages ongoing participation and engagement from the community, fostering a
+cycle of virtuous continuous improvement and learning.
+The proposed decentralized web3 model allows for scalability in AI development,
+handling a growing number of inputs and adjustments from an expanding global
+community. This scalability ensures that as the community grows, so does the diversity
+of the inputs and learning instances for the AI, which is critical for developing robust and
+versatile Transformer models that can operate effectively across different languages,
+regions, and cultural contexts.
+FL Optimization
+To recap quickly, FL AI and deep learning AI are related in that FL is a method of
+training deep learning models across multiple decentralized edge devices or servers
+while preserving data privacy and security. FL enables collaborative deep learning by
+allowing the training of deep neural networks on decentralized data, without the need to
+share the raw data with a central server. This approach addresses the challenges of
+privacy and data ownership while still allowing the development of high-quality AI
+45
+
+Version 5 - June 2024
+models. In the past year, research has focused on combining federated learning with
+deep learning techniques to improve the efficiency and effectiveness of AI models in
+various applications, such as natural language processing, computer vision, and
+healthcare. For example, researchers have explored techniques like Conformal
+Prediction and Opportunistic Block Dropout to enhance federated learning and deep
+learning models.153
+The proposed decentralized web3 governance structure provides a robust governance
+mechanism that integrates seamlessly with FL models. By employing a combination of
+smart contracts, a reputation system, and a validation pool mechanism, the system
+ensures that AI governance aligns with expert community consensus. This governance
+structure allows for dynamic adjustment of learning parameters and models based on
+validated community inputs, which is critical for the adaptive and responsive nature
+required in FL environments. By integrating these components, the web3 decentralized
+community governance system not only aligns with but also significantly enhances the
+capabilities of FL AI models. This optimization comes through improved security,
+privacy, scalability, and community-driven adaptiveness, making it a powerful framework
+for modern AI challenges.
+Decentralized Data Management and blockchain technology provide key guideposts for
+the optimization of FL models. FL models thrive in decentralized environments where
+data does not need to be centralized. The proposed web3 system naturally supports
+this by maintaining data across various nodes in the blockchain, ensuring data privacy
+and security while still allowing for collaborative AI training. By leveraging blockchain
+and smart contracts, the system ensures that data remains immutable and traceable,
+which is crucial for maintaining the integrity of data used across distributed nodes in FL.
+In particular, smart contracts can be used to automate the validation process of data
+contributions from different nodes, ensuring that only accurate and relevant data is
+utilized in the learning process.
+Security and privacy enhancements associated with DLT and blockchain technology
+provide further upgrades to the FL Model. The use of blockchain and DLT technology in
+the proposed system enhances the security and privacy aspects of FL. Each
+participant's data remains on their node, with only relevant, aggregated insights being
+153Kairouz,P.,McMahan,H.B.,Avent,B.,Bellet,A.,Bennis,M.,Bhagoji,A.N.,Bonawitz,K.,Charles,Z.,
+Cormode,G.,Cummings,R.,D'Oliveira,R.G.,Rouayheb,S.E.,Evans,D.,Gardner,J.,Garrett,Z.,
+Gascón,A.,Ghazi,B.,Gibbons,P.B.,Gruteser,M.,...&Zhao,S.(2019).AdvancesandOpenProblems
+inFederatedLearning.arXivpreprintarXiv:1912.04977.(discussingthelatestadvancesinfederated
+learning,includingtechniquestohandlenon-IIDdatadistributionsacrossdecentralizeddevices,
+enhancingprivacyandmodelperformanceinapplicationssuchasnaturallanguageprocessing,computer
+vision,andhealthcare.).
+46
+
+Version 5 - June 2024
+shared. Blockchain's inherent security features ensure that this data cannot be
+tampered with, which is essential for compliance with data protection regulations.
+Scalable and Efficient Resource Management and dynamic participation of community
+members in web3 community governance systems, as proposed, are additional
+cornerstones of the proposed web3 optimization of the FL model. The proposed web3
+governance model allows for scalable and efficient management of resources, which is
+crucial as the number of nodes in FL can be large. Blockchain provides a robust
+framework for managing these resources efficiently, ensuring that the system can
+handle large volumes of data and computation without significant bottlenecks. The
+system’s ability to dynamically handle node participation without central coordination
+supports the scalability of FL models as new nodes can join or leave without disrupting
+the learning process.
+The proposed web3 governance systems’ transparent, dynamic, and fair incentive
+mechanisms through validation pools and reputation allocation in combination with the
+proposed validation pools in a reputation token environment provide additional
+significant components that help enhance the FL model. In FL, motivating nodes to
+contribute quality data is crucial. The proposed system uses blockchain to transparently
+track and verify contributions, with validation pools that are smart contract coordinated
+to dispense rewards pro rata to the reputation scores a node may have accumulated
+through productive work. This mechanism ensures that nodes are incentivized based on
+their actual input to the AI model's learning. These elements of the governance model
+ensure that contributions are not only recognized but also rewarded in a manner that is
+fair and transparent, fostering a cooperative environment that is conducive to shared
+learning.
+The proposed web3 decentralized governance framework allows for a
+community-driven approach to update and govern the FL models. Proposals for updates
+can be reviewed and approved through the collective consensus of the expert
+community. This mechanism helps ensure that the model evolves in a direction that is
+beneficial for all stakeholders that are part of the learning process. The key is to select
+the expert community members coherently to allow for the feedback effects for FL to
+materialize. Leveraging the expertise of an expert community ensures that the FL
+models are continually optimized not just for performance but also for ethical AI
+practices and alignment with regulatory standards.
+The proposed precedent and citation WDAG governance accounting system facilitates
+organized management of updates and governance decisions. This structure supports
+the documentation and citation of contributions and changes, ensuring that every
+47
+
+Version 5 - June 2024
+adjustment to the model is well-documented and traceable. This setup enables fully
+accounted dynamic feedback effects for rapid integration of new techniques and
+approaches to FL. This, in turn, ensures that the models remain cutting-edge and are
+quickly adaptable to new challenges and opportunities in AI development. The directed
+nature of the WDAG ensures that the system evolves dynamically by avoiding constant
+loops.
+Scalability of the federated model through decentralized networks is possible with web3
+system upgrades and integration. Web3 frameworks utilize decentralized networks to
+manage large volumes of data and computations across numerous nodes effectively.
+This capability is essential for scaling FL models, as it allows for handling increasing
+amounts of data and computational tasks without a centralized bottleneck. Blockchain
+technology facilitates efficient management of these distributed resources, ensuring the
+FL process remains scalable and manageable.
+GNN Optimization
+GNNs can help optimize web3 governance systems as proposed herein and vice versa.
+The integration and optimization of AI models such as GNNs and web3 systems
+happens in feedback effects between the two systems. Through these feedback effects
+both systems learn constantly from and with each other which results in an evolutionary
+dynamic optimization process.
+GNNs help optimize web3 systems. GNNs can manage and analyze the interconnected
+data structures typical of blockchain networks and smart contracts. These AI models
+excel in capturing complex relationships and interdependencies between nodes in a
+network, making them ideal for optimizing blockchain topologies and enhancing
+transaction verification processes within a Web3 framework.154 The integration of GNNs
+into web3 systems also leverages their capability to process and analyze networked
+data efficiently. This is particularly beneficial in decentralized settings where blockchain
+technologies operate. GNNs can enhance the performance and security of these
+systems by optimizing transaction paths and validating the integrity of transactions
+across the decentralized ledger. This capability aligns perfectly with the dynamic and
+154Zhou, J., Cui, G., Zhang, Z., Yang, C., Liu, Z., Wang, L., Li, C., & Sun, M. (2020). Graph
+Neural Networks: A Review of Methods and Applications. AI Open, 1, 57-81. (providing detailed
+desciptions of the methods and applications of Graph Neural Networks, underscoring their
+suitability for handling the relational data structures inherent in blockchain technologies).
+48
+
+Version 5 - June 2024
+decentralized nature of web3, where maintaining data integrity and efficient transaction
+processing are crucial.155
+The proposed system of web3 community governance can optimize GNNs within AI
+applications. GNNs, known for their ability to manage and analyze interconnected data
+structures typical of blockchain networks and smart contracts, can significantly benefit
+from the decentralized governance structures provided by web3 community
+governance.
+The web3 community governance model, as proposed herein, enables GNNs to
+continuously update and optimize based on collective intelligence and real-time
+feedback from the community. This is crucial for GNNs as it allows them to adapt to
+changes and new requirements in blockchain topology and transaction verification
+processes rapidly. Conversely, by leveraging GNNs within this governance framework,
+the interconnected data of web3 systems can be analyzed more effectively. GNNs excel
+in capturing the complex relationships and interdependencies between nodes,
+enhancing the performance and security of decentralized systems.
+The decentralized governance mechanism offered by web3 systems as proposed
+herein also ensures that GNN operations are aligned with consensus-driven updates
+and ethical standards set by the community. This alignment helps ensure that the
+development and application of GNNs are not only technologically sound but also
+ethically responsible.
+In particular, the tools available within the proposed web3 system facilitate the
+structured and systematic evaluation of changes or updates proposed for GNN
+configurations. By using smart contracts, specific parameters of GNNs can be adjusted
+automatically, ensuring that they operate under the most current and effective settings.
+The use of WDAGs in the forum, as proposed herein, allows for organized discussion
+and citation among participants, which is crucial for the complex decision-making
+processes required in optimizing GNNs. The WDAG structure helps in documenting and
+navigating the relationships between various governance inputs and their impact on
+GNN performance.
+The integration with Matrix, a federated communication platform, ensures seamless
+interaction and data exchange among web3 community participants, which is essential
+155Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., & Yu, P. S. (2019). A Comprehensive Survey
+on Graph Neural Networks. IEEE Transactions on Neural Networks and Learning Systems,
+32(1), 4-24.(discussing technical mechanisms of GNNs and their effectiveness in network
+analysis, pertinent to their application in blockchain-based Web3 frameworks).
+49
+
+Version 5 - June 2024
+for the real-time operation of GNNs in Web3 environments. This setup supports the
+scalability of GNNs by allowing them to handle an increasing volume of transactions
+and network interactions without compromising on efficiency or security.
+RL Optimization
+RL models, characterized by their ability to learn and adapt through interactions with
+their environment, can be optimized through web3 community governance system
+integration, as proposed herein. The proposed web3 community governance model
+enhances the functionality and efficiency of RL models by providing a structured yet
+adaptable environment where these models can continuously learn and improve. This is
+achieved through the integration of blockchain technology that supports real-time
+updates and decentralized control, aligning with the inherent requirements of RL models
+for dynamic and responsive operational settings. The model not only supports the
+technical needs of RL but also aligns with broader community-driven governance
+objectives, ensuring that AI technologies evolve in a manner that is dynamic,
+evolutionary, ethical, transparent, and aligned with user interests.156
+The decentralized and dynamic nature of web3, with its reliance on blockchain
+technologies, offers a fertile ground for RL models to optimize smart contracts,
+decision-making processes in decentralized finance (DeFi), and resource management
+across distributed networks. The application of RL within such a framework can
+enhance the autonomy and operational efficiency of decentralized applications by
+maximizing cumulative rewards through a series of trial-and-error interactions with a
+decentralized environment.157
+The proposed model of decentralized governance, facilitated by web3 communities,
+supports the implementation of RL within AI systems through a framework that includes
+Layer 1 blockchain technologies and federated communications platforms. This model
+allows RL models to interact with a transparent and dynamically adaptable governance
+structure, enhancing their ability to make decisions and optimize processes based on
+156O'Reilly, C. A., & Tushman, M. L. (2013). Organizational ambidexterity: Past, present, and
+future. Academy of Management Perspectives, 27(4), 324-338. (discussing how organizations
+can manage multiple streams of technological innovation, including adapting to changing
+environments, which is relevant to how RL models can benefit from the dynamic governance
+structures provided by Web3 systems).
+157Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction. MIT
+press.(providing foundational knowledge on how RL agents learn through interactions with their
+environment, which is analogous to their function within the dynamic and uncertain
+environments of Web3 systems).
+50
+
+Version 5 - June 2024
+real-time feedback and community consensus. The integration of RL models into this
+framework ensures that the AI systems can operate with a high degree of autonomy
+while adhering to the ethical and operational standards set forth by the community.158
+RLHF Optimization
+The web3 governance framework, as proposed herein, can significantly optimize the
+RLHF process, particularly in the development and calibration of a Reward Model (RM)
+that accurately represents human preferences. Integrating governance principles into
+the RLHF process can significantly enhance the development and calibration of Reward
+Models by ensuring broad, diverse participation; increasing transparency and
+traceability; enabling adaptive and dynamic refinement; and reinforcing ethical
+oversight. This optimized approach not only leads to more accurate and representative
+RMs but also fosters trust and engagement within the community, contributing to the
+overall success and acceptance of RLHF-driven systems.
+The web3 community governance system as proposed herein can optimize RLHF
+particularly by addressing the challenges of aligning incentives among all stakeholders.
+Currently, the RLHF process, which involves training AI models based on human
+preferences and feedback, can face challenges due to the potentially adversarial and
+misaligned interests of participants. Incorporating a web3 community with reputation
+staking governance into the RLHF process can mitigate these issues through its
+inherent characteristics of decentralized decision-making, transparency, and incentive
+alignment.
+By distributing governance across all participants, the proposed web3 community
+governance system ensures that no single entity can dominate the decision-making
+process. This structure promotes the alignment of incentives since changes to the
+model or the training process require consensus, reflecting the collective interest of the
+community rather than individual agendas. Withing a web3 community, reputation
+systems can be used to reward participants who contribute positively to the RLHF
+process, such as providing high-quality feedback or contributing useful data. This not
+only aligns incentives by rewarding constructive participation but also discourages
+adversarial behavior through reputation-based penalties.
+158Zhang, K., Zhu, Y., & Basar, T. (2019). Multi-agent reinforcement learning: A selective
+overview of theories and algorithms. Handbook of Reinforcement Learning and Control.
+Springer, Cham. (discussing the application of RL in multi-agent systems and decentralized
+environments, closely paralleling the decentralized decision-making processes in Web3
+governance systems).
+51
+
+Version 5 - June 2024
+The reward distribution equilibrium as proposed in the web3 community governance
+system is key to enhancing RLHF. Web3 community smart contracts can automate the
+distribution of reputation and fungible token rewards or incentives to participants based
+on their contributions to the RLHF process. This transparency ensures that all
+stakeholders understand how their efforts translate into rewards, aligning their interests
+with the collective goal of improving the AI model. Moreover, the inherent web3
+community smart contracts can automate aspects of the RLHF process, such as
+compensating participants for their feedback or enforcing rules about how feedback is
+aggregated and processed. This automation reduces the potential for errors and biases
+in handling feedback, ensuring a fair and consistent approach to integrating human
+preferences.
+Web 3 community-driven improvement in RLHF enables the community of stakeholders,
+including AI trainers, data providers, and end-users, to propose and vote on
+improvements to the RLHF process. This collaborative feedback-process approach
+ensures that the RLHF process evolves in a way that aligns with the interests and
+needs of all participants. With this web3 governance, mechanisms such as
+decentralized voting and consensus can validate the accuracy and relevance of inputs.
+Applying these mechanisms to RLHF allows for the decentralized verification of human
+feedback before it's used to calibrate the RM, enhancing the integrity and reliability of
+the feedback data.
+Web3 systems are particularly good at inexpensive community based smart contract
+dispute resolution. Through these dispute resolution mechanisms web3 systems
+minimize legal cost while increasing certainty of outcomes and stakeholder protections.
+Web 3 systems can, thus, implement mechanisms for resolving disputes and
+disagreements among stakeholders, ensuring that conflicts are addressed fairly and
+transparently. This helps maintain alignment by ensuring that grievances are heard and
+addressed in a manner that respects the interests of all parties involved.
+The proposed web3 system tokenomics senhance participation and lower attrition in the
+community engagement for RLHF. The web3 system as proposed herein can issue
+non-fungible reputation tokens that represent voting power, access rights, or entitlement
+to a share of the project's success. This creates an economic structure where
+participants are directly invested in the success of the RLHF process, aligning their
+interests with the long-term goals of the project. By leveraging this model, RLHF can
+gather a wide range of human feedback, ensuring the Reward Model (RM) reflects a
+comprehensive spectrum of human preferences and values. This inclusivity helps
+mitigate biases and captures a richer understanding of what is considered a desirable
+outcome. Just as in web3 governance models token-based incentives are to encourage
+52
+
+Version 5 - June 2024
+and reward participation, in RLHF, tokens can be used to incentivize high-quality,
+thoughtful feedback from participants, directly influencing the quality of data used to
+train the RM.
+As the RLHF process and the web3 community itself evolve, the economic model can
+be adjusted through so-called governance variable adjustments and calibrations to
+better align incentives among participants. This flexibility ensures that the web3
+community remains responsive to changes in technology, participant behavior, and
+external market conditions. The adaptive nature of web3 governance, with mechanisms
+for dynamic policy updates and community-driven decision-making, can be mirrored in
+the RLHF process. As human values and societal norms evolve, the community can
+propose and vote on updates to the criteria and methodologies used for collecting and
+integrating feedback, ensuring the RM remains aligned with current human preferences.
+Conclusion
+Web3 community governance, utilizing WDAGs, validation pools with reputation staking,
+and federated communications protocols, introduces an evolutionary approach to AI
+model optimization. This framework not only meets the complex ethical and operational
+requirements of various AI technologies but also promotes a decentralized, dynamic,
+evolutionary, and participatory governance style for AI systems. Decentralized data
+handling significantly boosts privacy and reduces bias in Deep Learning models through
+community-validated updates, while Federated Learning models capitalize on enhanced
+security and privacy offered by blockchain's transparency and the automation of model
+validations through smart contracts.
+Moreover, continuous adaptability of the proposed web3 governance design to new data
+and linguistic trends dynamically optimizes Transformer AI models, crucial for relevance
+in rapidly evolving areas like natural language processing. GNNs benefit from effectively
+processing and analyzing relational structures in decentralized data, improving tasks
+such as social network analysis and fraud detection in blockchain environments. RL and
+Reinforcement RLHF models excel in the adaptable and responsive environments that
+Web3 governance facilitates, enriched by diverse and transparent human feedback.
+53
+
+Version 5 - June 2024
+To incorporate these optimizations effectively into existing and future AI systems, the
+author recommends adopting web3 governance frameworks incrementally, starting with
+less critical applications to assess impacts and refine methodologies. This staged
+adoption allows organizations to manage risks while realizing the benefits of
+decentralized AI governance. Encouraging a community of practice among AI
+developers and users to exchange insights, challenges, and best practices will expedite
+the integration of these systems. Moreover, continuously evaluating and adapting
+governance protocols is vital to maintain optimal performance of AI models and ensure
+they stay in line with changing regulations and societal expectations. This strategy not
+only enhances the technical prowess of AI systems but also aligns them more closely
+with ethical standards and community values, setting the stage for a new era of
+responsible and efficacious AI.
+54
+

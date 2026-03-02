@@ -1,0 +1,1157 @@
+CRYPTO ECONOMICS
+CRYPTO ECONOMICS
+-
+The Top 100 Token Models Compared
+Wulf A. Kaal*
+Abstract
+The article provides an overview of the evolving economic
+incentive designs in decentralized systems. After introducing the
+decentralized economic policy tools that influence token design, the
+author examines the leading token models in a hand-selected dataset
+comprising the top one hundred cryptocurrencies by market
+capitalization (N=100). The dataset enables a time series trend
+analysis of token models, consensus algorithms, and governance
+mechanisms, among other data points.
+Key Words: Emerging Technology, Crypto Economics, Token
+Models, Incentive Design, Velocity, Supply, Demand, Tokens,
+Initial Coin Offerings, Blockchain, Distributed Ledger Technology,
+Regulation, Market Abuse, Investor Protection, Artificial
+Intelligence, Machine Learning, Data Science, Data Scientists,
+Innovation, Entrepreneur, Start-up, Big Data, Diversification,
+Optimization, Efficiency, Governance, Bad Actors, Risk Factors,
+Regulation
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* © 2018 Wulf A. Kaal. Professor, University of Saint Thomas School of Law,
+Minneapolis. The author is grateful for outstanding research assistance from
+Daniel Dosch, Samuel Evans, Stephanie Jones, Hayley Howe, and research
+librarian Nicole Catlin.
+0
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+Table of Contents
+I. INTRODUCTION .................................................................................. 2
+II. ECONOMIC DESIGNS FOR DISTRIBUTED SYSTEMS ................................ 3
+1. Economic Experimentation ............................................................ 4
+2. Challenging the Theory of the Firm ............................................... 5
+3. Macro vs. Micro ............................................................................ 6
+4. Monetary Policy ............................................................................ 7
+5. Fiscal Policy ................................................................................. 8
+III. METHODOLOGY & DATA ............................................................... 9
+IV. FINDINGS .................................................................................... 11
+1. Launch Dates of Top 100 Tokens ................................................. 11
+2. Use of ICO .................................................................................. 12
+3. Technical Core Type ................................................................... 13
+4. Token Model Type ....................................................................... 15
+5. Underlying Value ........................................................................ 19
+6. Valuation Trajectory ................................................................... 21
+7. User Experience .......................................................................... 23
+8. Ecosystem Breadth ...................................................................... 24
+9. Consensus Protocol ..................................................................... 26
+10. Governance ............................................................................ 29
+V. CONCLUSION.................................................................................... 31
+1
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+I. Introduction
+Contemporary society is expeditiously embracing
+decentralized solutions for human interaction. Increasingly complex
+frameworks, theories and models are needed to understand the issues
+facing contemporary societies.1 Crypto-economics as a discipline is
+an attempt to create models that allow the analysis of
+interrelationship in increasingly complex frameworks of human
+interaction in distributed systems. Most commonly accepted public
+blockchains are a product of crypto-economics.
+The term “Crypto-Economics” has been defined in several
+different ways.2 Most commonalities in definitions for the term
+crypto-economics include the use of cryptography and incentive
+design to created networks, applications, and systems.3 Further,
+crypto-economics is interdisciplinary. Economics examines how
+individuals and groups respond to incentives. Connecting it to
+traditional economics, crypto-economics is mostly associated with
+mechanism design, a sub-discipline of economic theory and
+mathematics.4
+1 “The market was seen as the optimal institution for the production and
+exchange of private goods. For non-private goods, on the other hand, one needed
+the government to impose rules and taxes to force self-interested individuals to
+contribute necessary resources and refrain from self-seeking activities …
+Scholars are slowly shifting from positing simple systems to using more complex
+frameworks, theories, and models to understand the diversity of puzzles and
+problems facing humans interacting in contemporary societies.” Elinor Ostrom,
+Beyond Markets and States: Polycentric Governance of Complex Economic
+Systems, Nobel Prize Lecture at 408 (Dec. 8, 2009), in LEX PRIX NOBEL, 2009, at
+408, 409.
+2 “Cryptoeconomics is: ‘A formal discipline that studies protocols that govern
+the production, distribution, and consumption of goods and services in a
+decentralized digital economy. Cryptoeconomics is a practical science that
+focuses on the design and characterization of these protocols.’” Vlad Zamfir
+(Cryptoeconomicon CCRG), What is Cryptoeconomics?, YOUTUBE (Feb. 1,
+2015), https://www.youtube.com/watch?v=9lw3s7iGUXQ; “The Ethereum
+Wiki defines cryptoeconomics as ‘the combinations of cryptography, computer
+networks and game theory which provide secure systems exhibiting some set of
+economic dis/incentives.’” The Ethereum Wiki, ETHEREUM,
+https://theethereum.wiki/w/index.php/Cryptoeconomics (last visited Sept. 11,
+2018).
+3 Josh Stark, Making Sense of “Cryptoeconomics”, MEDIUM: L4 MEDIA (Nov.
+16, 2017), https://medium.com/l4-media/making-sense-of-cryptoeconomics-
+5edea77e4e8d.
+4 Id.
+2
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+Yet, crypto-economics is more applied cryptography than
+economics.5 Considering money as an engineering problem as well
+as considering technology from the perspective of economic
+incentive design and security, problems in economic terms are
+unique elements of this discipline and may feel counterintuitive for
+economists and engineers alike.
+Crypto-Economics is subject to limitations. The crypto-
+economic system design’s strength and endurance depends in large
+part on its assumptions about human reactions to economic incentive
+designs.6 Shaping future human behavior through incentive design
+is limitedly successful7 because the social engineer speculates about
+human future mental states and corresponding belief systems. Future
+human reactions may in fact be entirely different than anticipated by
+the social engineer and incentive designer.
+Token models and their design and incentive optimization
+within their design are at the core of economic designs in distributed
+systems. This article evaluates these well-established token models.
+Because the economic experimentation inherent in crypto-
+economics continuously generates new token models and incentive
+designs for tokens, the token model examination herein is naturally
+incomplete.
+II. Economic Designs for Distributed Systems
+Decentralized economic incentive designs necessitate a
+convergence of disciplines.
+5 Id.
+6 See KARL R. POPPER, THE POVERTY OF HISTORICISM 83–93 (1957)
+(discussing the sociological and theoretical underpinnings of trial- and- error
+social- engineering); Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a
+New Institutional Economics Framework, in FESTSCHRIFT ZU EHREN VON
+CHRISTIAN KIRCHNER 1211, 1212 (Wulf A. Kaal et al. eds., 2014).
+7 See “Game theory & economics require speculation about subjective mental
+states & ignoring the many possible motives beyond proximate incentives.”
+Nick Szabo (@NickSzabo4), TWITTER (Jul. 5, 2017, 4:08 PM),
+https://twitter.com/nickszabo4/status/882738070616809472; Andrew M.
+Colman, Cooperation, Psychological Game Theory, and Limitations of
+Rationality in Social Interaction, 26 Behav. & Bain Sci. 139 (2003).; contra
+Herbert Gintis, Hayek’s Contribution to Reconstruction of Economic Theory, in
+HAYEK AND BEHAVIORAL ECONOMICS 111 (Roger Frantz & Robert Leeson
+eds., 2013).
+3
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+Crypto Economics –
+Convergence of Disciplines
+Finance
+Cryptography Network Security
+Ecosystem Governance
+1 6
+Behavioral Crypto Game Theory / Mech.
+Economics -NIE 2 Economics 5 Design / Math Logic
+3 4 Law
+Computer Science
+Regulation
+Distributed Systems
+Economics
+5
+Figure 1: Crypto Economics - a Convergence of Disciplines
+Crypto-Economics really is just economics and, in fact, may
+be a misnomer. Yet, several disciplines and analyses in such
+disciplines are necessary to examine decentralized economic
+incentive designs. Figure 1 illustrates the different disciplines that
+contribute to the analysis of incentive designs in decentralized
+systems. The unique and unprecedented combination of disciplines
+and factors in the analysis of incentive designs in decentralized
+systems may legitimate the labelling of that analysis as Crypto-
+Economics.
+1. Economic Experimentation
+Emerging decentralized economic incentive designs allow
+unprecedented economic experimentation. As blockchain-based
+emerging technologies mature and evolve, incentive designs in
+decentralized system provide unparalleled opportunities for
+experimentation with economic models, stability mechanisms, and
+policy tools. Importantly, the emulation of existing economic
+incentive designs and policy tools in entirely new economic
+structures of decentralized systems could allow the examination of
+interactions and feedback effects of otherwise completely separate
+economic subject. In particular, incentive designs in decentralized
+systems may enable the study of economic incentive design on
+human behavior and token prices. In that sense, crypto-economics
+4
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+may enable the analysis of an effect of micro on macroeconomics
+and vice versa.
+The economic experimentation in crypto-economics may be
+enabled by the creation of new economic ecosystems and entirely
+new economics. Each of these new economies are created with the
+design of a currency and can have unique monetary and fiscal
+policies and regulations. The infrastructure for these economies is
+computational.
+2. Challenging the Theory of the Firm
+The economic experimentation enabled by decentralized
+incentive designs could challenge the existing assumptions in the
+theory of the firm.8 Ronald Coase suggests that firms exist to reduce
+transaction cost, e.g. firms are a response to the high cost of using
+markets.9 While easily defined concepts can be opened up for
+market evaluation through a contractor, firms are needed for more
+complex contracts and concepts that necessitate an employee with
+a fixed salary who follows changing instructions. While defined
+concepts can be opened up for market evaluation through a
+contractor, firms are needed for more complex contracts and
+concepts that necessitate an employee with a fixed salary who
+follows changing instructions. Employees require the existence of
+the hierarchical strictures of the firm.
+Decentralized solutions for human interaction can challenge
+the basic assumptions of the theory of the firm. In other words, the
+role of the firm may change if decentralized solutions help lower
+the cost of using markets exponentially. Emerging decentralized
+technology solutions show promise to lower transaction costs for a
+significant portion of market transactions. More particularly,
+8 See Coase Call, ECONOMIST: ECONOMICS BRIEF (Jul. 27, 2017). One of the
+first papers for these ideas was 1972 by Armen Alchian and Harold Demsetz.
+They defined the firm as the central contractor in a team-production process. It
+is thus like a “mini-society with a vast array of norms beyond those centred on
+the exchange and its immediate processes,” wrote Mr Williamson. Such a
+contract stays in force mostly because its breakdown would hurt both parties.
+And because market forces are softened in such a contract, it calls for an
+alternative form of governance: the firm. Jeremy Liu, Blockchain,
+Decentralisation, and the “Theory of the Firm”, MEDIUM: THE POINTY END
+(Dec. 12, 2017), https://medium.com/the-pointy-end/blockchain-
+decentralisation-and-the-theory-of-the-firm-92649c62350d.
+9 R. H. Coase, The Nature of the Firm, 4 ECONOMICA 386 (1937).
+5
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+decentralized autonomous organizations (DAOs) can be seen as
+market meritocracies unlike traditional firms that can over time
+make market transactions for human interaction ever more efficient.
+Arguably, DAOs can replace the otherwise needed functions that
+are supplied by the firm that acts as the coordinator and monitor of
+a team because DAOs can more efficiently measure the contribution
+of each DAO member to the finished work product and allocate
+respective rewards accordingly. Trust enhancing technologies, such
+as reputation verification in decentralized autonomous and
+anonymous systems, can support that process, ensure that DAOs
+work even more efficiently, and in the process further lower
+transaction cost over time.
+3. Macro vs. Micro
+Crypto-economics necessitates macro and microeconomics,
+just like traditional economics. By way of definition, traditional
+macroeconomics deals with the overall economy, inflation,
+employment, gross domestic product, among other considerations.
+Microeconomics, on the other hand, deals with supply and demand
+in individual markets for goods and services. The macro / micro
+split is largely institutionalized in traditional economics.10
+Macroeconomic questions arise in crypto-economics in the
+context of token supply and timing as well as allocation of tokens
+to constituents. Central banking functionality is implicitly part of
+the incentive and token design setup and as such is rather similar to
+macroeconomics. Whereas macroeconomics addresses the overall
+economy and examines employment, GDP, and inflation, among
+others, macroeconomics in decentralized incentive designs
+examines the timing, quantity of token creation, and allocation of
+tokens. Whereas policy designers, central bankers, and economists
+previously coordinated market design and economic regulations in
+centralized systems, these functions are taken over by the token
+designer for the respective token economy. Inherent in this setup is
+the democratization of monetary policies for the respective token
+economy. This creates a serious problem for many token economies
+as the designers lack the qualifications and functions that are
+10 G. Chris Rodrigo, Micro and Macro: The Economic Divide, FIN. & DEV.
+(July 29, 2017), http://www.imf.org/external/pubs/ft/fandd/basics/bigsmall.htm.
+6
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+orchestrated by multiple institutions and their staff in centralized
+central banking.
+Microeconomic questions arise in crypto-economics
+because the token design necessitates solutions for token value
+generation, token enabled economic interaction, and design of
+incentive mechanisms for token holders that are individually rational
+and incentive compatible. Whereas traditional microeconomics
+examines the supply and demand in individual markets for goods
+and services and their interaction, crypto-microeconomics evaluates
+metrics for the value proposition of tokens. Crypto-microeconomics
+also examines the interactions enabled by the token as well as the
+incentives for agents/token holders to participate in the respective
+token economy in an effort to ensure fairness and promote honest
+behavior.
+4. Monetary Policy
+Monetary policy in decentralized economic incentive
+designs emulates centralized monetary policy and adds new
+elements. Centralized monetary policy mechanisms are
+orchestrated by the Federal Reserve Bank (FED) of the United
+States. Its monetary policy mechanisms include the discount rate,11
+reserve requirements,12 open market operations,13 and interest on
+reserves.14 Monetary policy in crypto-economics refers to the
+interaction of token supply, token release, and the maximum
+issuance of tokens in a given token issuance. An issuers’ ICO
+strategy can pre-define monetary policy by predetermining the fixed
+number of tokens created and issued in the ICO. A maximum token
+issuance in combination with controlled token supply releases can
+11 BOARD OF GOVERNERS OF THE FEDERAL RESERVE SYSTEM, The
+Discount Rate, FEDERAL RESERVE: POLICY TOOLS (2018),
+https://www.federalreserve.gov/monetarypolicy/discountrate.htm.
+12 BOARD OF GOVERNERS OF THE FEDERAL RESERVE SYSTEM,
+Reserve Requirements, FEDERAL RESERVE: POLICY TOOLS (2017),
+https://www.federalreserve.gov/monetarypolicy/reservereq.htm.
+13 BOARD OF GOVERNERS OF THE FEDERAL RESERVE SYSTEM,
+Open Market Operations, FEDERAL RESERVE: POLICY TOOLS (2018),
+https://www.federalreserve.gov/monetarypolicy/openmarket.htm.
+14 BOARD OF GOVERNERS OF THE FEDERAL RESERVE SYSTEM,
+Interest on Required Reserve Balances and Excess Balances, FEDERAL
+RESERVE: POLICY TOOLS (2018),
+https://www.federalreserve.gov/monetarypolicy/reqresbalances.htm.
+7
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+result in small increases in demand, which in turn can drive token
+prices higher.
+Several aspects related to the release mechanisms for tokens
+help manage the supply of tokens in circulation. For instance,
+escrow accounts can hold tokens that were not issued in the ICO.
+Such escrowed tokens may be released for future issuance to
+finance future projects of the issuer or support operational
+financing. To avoid a token price crash, token escrow accounts
+should provide usage and access controls that assure investors that
+escrowed tokens will not be issued at a discount. Lockups of
+escrowed tokens for a specified time period or phased releases can
+also help minimize the risks of token price crashes.
+5. Fiscal Policy
+Fiscal policy tools in centralized economies typically
+revolve around government spending and tax policies. To increase
+business activity in an economy, the government can increase the
+amount of money it spends, often referred to as stimulus spending,
+as opposed to deficit spending.15 Government tax policies may
+stimulate centralized economies by lowering taxes. By
+increasing taxes, governments can remove money out of the
+economy and slow business activity.16
+Fiscal policy in decentralized economic incentive designs
+emulates centralized fiscal policy and adds additional factors. The
+economic benefits token holders receive from holding tokens are a
+key concept associated with quasi-fiscal crypto policy. Two central
+questions help illustrate this point: 1) what is the underlying value
+of the issued tokens, and 2) what factors contribute to the value
+appreciation or depreciation of the issued tokens? For instance,
+linking commercial benefits such as discounts and other benefits
+15 Fiscal stimulus is a term for tax cuts or new government spending that
+increase aggregate demand. Fiscal stimulus can be helpful when unemployment
+is high and economic output is less than its potential. Peter Olson and Louise
+Sheiner, The Hutchins Center Explains: Fiscal stimulus and the Fed,
+BROOKINGS: UP FRONT (Jan. 26, 2017), https://www.brookings.edu/blog/up-
+front/2017/01/26/the-hutchins-center-explains-fiscal-stimulus-and-the-fed/.
+16 What is Quantitative Tightening, FXCM: Market Insights,
+https://www.fxcm.com/insights/what-is-quantitative-tightening/ (last visited
+Sept. 11, 2018).
+8
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+with token usage can incentivize token holders to use all the various
+services associated with a given token.
+Several benefits are associated with the quasi-fiscal tool of
+adjusting commercial benefits of tokens in decentralized economic
+incentive designs. First, the increase in commercial benefits
+associated with a token heightens the aggregate demand of the given
+token supply. Second, commercial benefits associated with a token
+issuance can help offset depreciated supply scarcity, e.g. the effects
+of a large issuance / supply of a given token in circulation. Third,
+commercial benefits associated with tokens can be adjusted as a
+form of quasi-fiscal policy to control the flow of tokens in a given
+issuance through indirect economic incentives. Adjustments in
+commercial benefits can help manage operational cost changes for
+the issuer and the external competition with other token issuers
+experienced by the issuer, among other factors. Fourth, adjusting
+the commercial benefits associated with a given token issuance
+avoids more drastic monetary policy intervention by way of
+emergency sales, building token reserves, or a decrease or increase
+of token supply in circulation.
+To create a more significant effect, the quasi-fiscal policy
+tool can be combined with monetary policy. If the aggregate
+demand for a given token issuance increases through better
+commercial benefits associated with the tokens, the issuer can
+simultaneously increase the total supply in circulation. Options for
+increasing the total supply of tokens in circulation include issuing
+escrowed tokens or even secondary issuances. The combined effect
+of quasi-fiscal policy (increasing benefits associated with the
+tokens) and monetary policy (increasing the token supply in
+circulation) may or may not have an effect on the market price of
+the respective tokens. The balance of commercial benefits of a
+token offering and associated use cases of the token in combination
+with supply scarcity is critical in the issuance of a token offering.
+III. Methodology & Data
+This article provides an overview of the most popular
+cryptocurrencies by market capitalization and their associated token
+incentive designs. The examination of different aspects of these
+tokens enables an analysis of areas in emerging blockchain
+technology and their growth, among other trends.
+9
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+To create the dataset and determine its scope for this study,
+the author had to mitigate the impact of different tokens moving in
+and out of the top 100 cryptocurrency daily, which would be nearly
+impossible to track day-to-day. Accordingly, the author limited the
+time series dataset to all available data on the top 100
+cryptocurrencies until April 2018. The author chose
+cryptocurrencies for inclusion in the dataset based on the market
+capitalization of the respective coins before April 2018. Market
+capitalization allows for a standardization in comparing all coins
+ever traded and is also readily available.
+The author added additional economic indicators to enhance
+the market and trend analyses. After determining the initial dataset,
+the author added the ICO start date to create information for a
+relevant time series. Time series are useful to show patterns that can
+help in determine market trends. For token issuers in the dataset
+that did not engage in an ICO, the author used the date of first
+publicly listed trade as a proxy variable. In determining such
+additional variable, the author and a team of five research assistants
+evaluated the entirety of the information provided in the
+whitepapers of all 100 issuers in the dataset.
+The research team normalized differences in whitepapers
+throughout the coding process. Because the whitepapers in the
+dataset have been drafted by different issuers for different purposes,
+each paper had a different level of detail, language, and focus.
+Many whitepapers do not include all the information that would
+generally be necessary for a full economic analysis. For instance,
+the researchers could not find a project that had examined
+blockchain governance fully.
+The researchers coded the token models of each token in the
+dataset. The token model describes what the token does in practice
+and what value proposition is associated with its functionality. The
+token model in the dataset describes whether the token is to be used
+as a currency which has inherent value or if the token derives its
+value from giving the holder access to a network. The researchers
+also coded many nuances to provide a more in-depth analysis. Other
+minor metrics were coded as well to get a better understanding of
+the current token market environment, e.g. whether forking is
+allowed, user facing versus layered, how/if supply is capped,
+ecosystem breadth, among other categories. By considering all
+these factors, conclusions can be drawn as to market trends.
+10
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+It is important to note, coding categories often allowed
+tokens to fall into more than one category. If the token fell into more
+than one category, the researchers gave equal weight to each
+category. For example, if a token was both a utility and asset backed
+token, each category would be given half the weight of a strictly
+utility/asset backed token. This allowed for both categories to be
+given credit and reflect an accurate representation of the function of
+the token.
+By putting together these different metrics, the author
+created a robust and insightful evaluation into token models.
+Considering such a wide variety of metrics enables the fullest
+possible analyses of the cryptocurrency market.
+IV. Findings
+1. Launch Dates of Top 100 Tokens
+10
+8
+6
+4
+2
+0
+Figure 1: Top 100 Token Launch Date
+Figure 1 was created using data from coinmarketcap.com for the top
+100 tokens. Because the top 100 coins are not static, the author
+chose May 6, 2018 as the cutoff date for data collection, in an effort
+to ensure the most up-to-date data. Tokens within this sample were
+launched between January 2009 and March 2018. The launch date
+11
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+Top 100 Token Launch Date
+n=100
+Date of Launch
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+of each token was determined by using primarily the ICO start date,
+or in lieu of an ICO, the first trade date of the token. These dates are
+used for all-time series graphs as the time variable.
+The first token, Bitcoin, was launched in January 2009. Following
+the bitcoin launch, the data shows less activity in the launching of
+new coins for many years. In mid-2013, more consistent launching
+of coins occurred month over month. Much of this stability can be
+attributed to the launching of the Ethereum platform in late 2011.
+This stable growth of new coins occurred with the greatest number
+of the top 100 coins by month launched in November of 2017.
+2. Use of ICO
+60
+50
+40
+30
+20
+10
+0
+ICO No ICO
+Figure 2: Use of ICO
+Figure 2 compares the tokens in the dataset that conducted an ICO
+with those that did not. Of the top 100 tokens, fifty-six tokens held
+an ICO and thirty-eight tokens did not. Litecoin, Bitcoin Gold,
+Nano, ReddCoin, ZCoin, and BnkToTheFuture held ICOs but are
+not included in Figure 2.
+12
+snekoT
+fo
+rebmuN
+Use of ICO
+n = 94
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+3. Technical Core Type
+60
+50
+40
+30
+20
+10
+0
+Blockchain ERC-20 Token Other Non- Dapp Token Misc.
+Native native
+Protocol
+Figure 3a: Technical Core
+The coding category of technical core was used to determine the
+level of involvement the token has with Ethereum (ERC-20 token).
+Ethereum is the largest platform for project development and
+therefore was coded to see what projects are using it. Figure 3a
+describes the technical core of the top 100 tokens. Fifty-six tokens
+have a technical core that is implemented on the protocol level of a
+blockchain (blockchain native). Thirty-five tokens have a technical
+core that follows the ERC-20 Token Standard. Six tokens are
+implemented in a crypto economic protocol on top of a blockchain
+(other non-native protocol). Two tokens are implemented on the
+application level on top of a blockchain (dapp token).
+13
+snekoT
+fo
+rebmuN
+Technical Core
+Technical Core
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+6
+5
+4
+3
+2
+1
+0
+Figure 3b: Technical Core – Time Series
+Figure 3b shows technical core as a function of time. Blockchain
+native and ERC-20 tokens were launched in greater volume during
+2017. This observation aligns with the increased number of tokens
+launched in mid to late 2017 as depicted in Figure 1. The first top
+100 ERC-20 token were launched in August 2015. The first top 100
+dapp token were launched in April 2015; the second launched in
+July 2017.
+In implementing coding for creation of Figures 3a and 3b, the
+technical core types were dummy variables and were coded
+accordingly with a 1 or 0. One ERC-20 token, EOS, had a secondary
+characterization of miscellaneous because the protocol can also be
+layered on other chains.17 In coding this combination categorization
+for graphing, EOS counted towards ERC-20 as 0.5 and
+miscellaneous as 0.5. This method was used for all of the
+forthcoming figures represented herein.
+17 EOS.IO Technical White Paper v2, BLOCK.ONE (Mar. 16, 2018),
+https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.m
+d
+14
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ
+Technical Core - Time Series
+n=100
+Date of Launch
+Blockchain Native ERC-20 Token
+Other Non-native Protocol Dapp Token
+Misc.
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+4. Token Model Type
+Token Model
+n=100
+Currency Stablecoin Utility Asset Backed Other
+Figure 4a: Token Model – Pie
+The researchers coded the token models of each token in the dataset.
+The token model describes what the token does in practice and what
+value proposition is associated with its functionality. The token
+model in the dataset describes whether the token is to be used as a
+currency which has inherent value or if the token derives its value
+from giving the holder access to a network.
+Figure 4a represents what token models are being utilized in the top
+100 coins. This is a representation in the form of a pie graph. Figure
+4a shows a clear majority of the tokens using a utility token model.
+Additionally, we see very few tokens utilizing the stable and asset
+backed models.
+15
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+60
+50
+40
+30
+20
+10
+0
+Currency Stablecoin Utility Asset Backed Other
+Figure 4b: Token Models
+Figures 4a and 4b depict the frequency of token model types. Of the
+top 100 tokens, currency and utility tokens were seen most
+commonly. USDT was the only purely Stablecoin token; two tokens
+(Steem and Maker) were characterized as both Stablecoin and
+utility. Bytom, DigiByte, Syscoin, and Salt are asset-backed.
+The utility token model dominates the top 100 tokens. The category
+of utility tokens includes tokens that display the following
+attributes: tokens offer owners clearly defined utility within a
+network or application (utility tokens); tokens that behave like a
+security, although no Howey test was performed in this research;
+tokens primarily intended to be used within a specific system
+(network tokens); tokens that are tied to the value and development
+of a network (network value tokens); tokens that provide access to
+a digital service (usage tokens); tokens that provide the right to
+contribute to a system (work tokens); and tokens that are both a
+usage and a work token. The author intends to expand the utility
+token analysis when the token models are more clearly defined over
+time and more tokens can be categorized in the subcategories other
+than the defined utility token.
+Nine tokens have dual-category model types. Five tokens (Cardano,
+Hshare, IOST, Waltonchain, and Komodo) were characterized as
+both currency and utility tokens. These tokens’ utility models were
+subcategorized as either network, network value, usage or work
+16
+snekoT
+fo
+rebmuN
+Token Model
+n=100
+Model
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+sub-categories. Two tokens (Steem and Maker) were characterized
+as both Stablecoin and utility tokens with utility sub-categories of
+work and/or usage. WAN was categorized as both a network token
+and asset-backed. BTS was categorized as both currency and
+Stablecoin. Tokens with multiple categorizations were coded as 0.5
+and 0.5 for the corresponding dummy variables.
+Seven tokens were outliers. NEO is a network enabling creation of
+asset-backed smart contracts.18 NEM, VeChain, ICON, Lisk were
+outliers with no justification. It was not clear in the whitepaper of
+SUB what token model type best describes the token. Substratum
+might be best categorized as a usage/work token.19 Outlier tokens
+were categorized as a 1 with the dummy variable “Other”.
+18 Test Network, Neo Network, http://docs.neo.org/en-us/network/testnet.html
+(last visited Sept. 11, 2018).
+19 Page 13, “In order to incentivize users to run the Substratum Network client
+on their machine, Substrate will be used as payment for serving the network.
+When a business or entity wants to host their site(s) on the decentralized web,
+they will purchase Substrate using other cryptocurrencies or fiat. When a
+Substratum Network member runs their node and renders requests they are paid
+using Substrate from the host. When a shopper checks out using CryptoPay, the
+payment method they use is converted to the payment method the vendor
+desires by using Substrate as the conversion currency.” The Substratum
+Network White Paper Version 3.4, Substratum 13 (Aug. 2017),
+http://substratum.net/wp-content/uploads/2017/08/substratum_whitepaper.pdf
+17
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+7
+6
+5
+4
+3
+2
+1
+0
+Figure 4c: Token Model – Time Series
+Figure 4c shows that the first top 100 utility token was launched in
+December 2013. The number of top 100 launched utility tokens
+increased substantially in 2017. There is no notable trend in asset-
+backed or Stablecoin tokens due to the small number of tokens in
+the top 100.
+18
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+Token Model - Time Series
+n=100
+Date of Launch
+Currency Stable Utility Asset Backed Other
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+5. Underlying Value
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Inherent Permission toPermission toPhysical Asset Share in
+Use Work Enterprise
+Figure 5a: Underlying Value
+Figure 5a shows the underlying value of the tokens in the dataset.
+Those include: inherent, permission to use, permission to work,
+physical asset, or a “share” in the enterprise such as revenue or
+voting rights. Figure 5a categorizes the top 100 according to these
+characteristics. Thirty-two tokens have inherent value, for example
+as a currency. The underlying value of thirty-two tokens is that they
+give token holders permission to use a digital service. Three tokens
+(OmiseGO, Stratis, and Dentacoin) were determined to have
+permission to work, or contribute to a system, as their underlying
+value. Dentacoin writes, “The patients’ well-being has been
+prioritized here and this smart contract solution will provide proper
+dental care to the patients, eliminating the need to deposit high
+premiums to insurance companies. The patients can also earn
+rewards by writing ‘trusted reviews’” in their Whitepaper.20
+20 Dentacoin Whitepaper, Dentacoin (Mar. 15, 2018) (unpublished draft),
+https://whitepaperdatabase.com/dentacoin-dcn-whitepaper/.
+19
+snekoT
+fo
+rebmuN
+Underlying Value
+n=100
+Underlying Value
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+5
+4
+3
+2
+1
+0
+Figure 5b: Underlying Value – Time Series
+Figure 5b mimics those in Figure 4c, token model type. In the token
+models that were examined, inherent value (e.g. as a currency) is
+the most consistent underlying value type for the top 100 tokens.
+The first top 100 token with an underlying value that was a
+combination of permission to use and inherent value launched in
+July 2014. The first top 100 tokens whose underlying value is
+strictly permission to use launched in February 2015. Permission to
+use (a given service etc. via the token) took over as the dominant
+type of underlying value in June 2017. The author has seen multiple
+indicia that this trend towards tokens that grant rights to use services
+etc. will continue.
+20
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+Underlying Value - Time Series
+n=100
+Date of Launch
+Inherent Permission to Use Permission to Work
+Physical Asset Share in Enterprise
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+6. Valuation Trajectory
+80
+60
+40
+20
+0
+Inflationary Deflationary
+Figure 6a: Valuation Trajectory
+Figure 6a depicts the valuation trajectory of the top 100 tokens.
+Seventy-two tokens in the dataset capped the number of tokens that
+will ever be issued by the respective token issuer, otherwise known
+as a deflationary model of token issuance. This method is utilized
+by tokens such as Bitcoin. With a deflationary method, prices are
+expected to increase due to fundamental scarcity of token supply.
+The other twenty-eight tokens in the dataset are using an
+inflationary token model in various sub-settings. Tokens that utilize
+an inflationary model often attempt to operate similar to a fiat
+currency. This means typically that no maximum number of token
+issuance is contemplated. Rather, inflationary token models
+consider a continuing token minting process that allows the issuer
+more flexibility depending on the current state of the token and the
+general market environment.
+21
+snekoT
+fo
+rebmuN
+Valuation Trajectory
+n=100
+Model
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+7
+6
+5
+4
+3
+2
+1
+0
+Figure 6b: Valuation Trajectory – Time Series
+Figure 6b depicts token valuation trajectory methods over time. No
+significant trend is evident in the twenty-eight inflationary tokens.
+The peaks in deflationary token models in mid-late 2017 are
+consistent with the increased number of tokens launched during this
+time frame. Several indicia seem to suggest that as the
+cryptocurrency market matures, inflationary token models may
+continue to become more popular. Unlike deflationary token
+models, inflationary token models allow the use of stability
+mechanisms. It is unclear if the cryptocurrency market alone will
+over time be able to create the level of stability and lack of volatility
+that is needed for cryptocurrencies to become truly mainstream.
+Token stability mechanisms associated with inflationary token
+models may allow more experimentation with volatility mitigation
+and could therefore become even more popular.
+22
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+Valuation Trajectory - Time Series
+n=100
+Date of Launch
+Inflationary Deflationary
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+7. User Experience
+70
+60
+50
+40
+30
+20
+10
+0
+User Facing Layered
+Figure 7a: Users Experience
+Figure 7a categorizes the top 100 tokens according to user
+experience. Sixty-six tokens allow ecosystem participants to handle
+the token directly. Thirty-four tokens operate underneath another
+token, platform, chain, etc.
+Figure 7b: User Experience – Time Series
+23
+snekoT
+fo
+rebmuN
+Users Experience
+n=100
+Options
+6
+5
+4
+3
+2
+1
+0
+snekot
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+User Experience - Time Series
+n=100
+Date of Launch
+User Facing Layered
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+Figure 7b shows user experience of the top 100 tokens over time.
+Prior to mid-2017 tokens launched were directly utilized by users.
+The first layered token was Augur, which was launched in August
+2015. According to its whitepaper, “Augur is built as an extension
+to the source code of Bitcoin Core” and their intention is to “use the
+`pegged sidechain' mechanism to make Augur fully interoperable
+with Bitcoin”.21 Status was launched in December 2013 and
+interacts with another platform that can act as a stand-alone
+interface for the token. After mid-2017, there does not appear to be
+a strong trend toward user-facing tokens over layered tokens. The
+author expects the layered tokens to remain more popular in the
+future as the interoperability of tokens generally assures
+survivability.
+8. Ecosystem Breadth
+80
+60
+40
+20
+0
+App Specific Interoperable
+Figure 8a: Ecosystem Breadth
+Figure 8a divides the top 100 tokens according to their operation
+types. Sixty tokens allow or intend inter-system functionality, while
+thirty-two tokens are fundamentally restricted for use in a given
+ecosystem. Both operations have advantages and disadvantages.
+21 Auger: A Decentralized, Open-Source Platform for Prediction Markets,
+Brave NewCoin,
+https://bravenewcoin.com/assets/Whitepapers/Augur-A-Decentralized-Open-
+Source-Platform-for-Prediction-Markets.pdf (last visited Sept. 11, 2018).
+24
+snekoT
+fo
+rebmuN
+Token Operation
+n=100
+Operation Types
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+App-specific tokens generally can exert less influence over the
+value from other projects. App-specific tokens also typically do not
+allow for a broader user market as the limited use of the token
+curtails user access. The trends in the data again support that
+interoperability as a means of survivability dictates token design,
+e.g. a majority of tokens are looking to have a broader base of
+individuals by making their token interoperable.
+7
+6
+5
+4
+3
+2
+1
+0
+Figure 8b: Ecosystem Breadth – Time Series
+Figure 8b shows token operation over time. The first app-specific
+token was launched in February 2014 and was intended to be a
+“digital social currency”.22 Twenty-two tokens, the greatest number
+of app-specific tokens to be launched, were launched between April
+2017 and January 2017. Interoperability again appears to be a major
+objective of token design.
+22 Larry Ren, Proof of State Velocity: Building the Social Currency of the
+Digital Age, Reddcoin 8 (Apr. 2014),
+https://www.reddcoin.com/papers/PoSV.pdf
+25
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ 81-luJ
+Token Operation - Time Series
+n=100
+Date of Launch
+App specific Interoperable
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+9. Consensus Protocol
+Figure 9a: Consensus Protocol
+Figure 9a depicts the tokens in the dataset categorized by their
+respective underlying consensus protocol. Proof of Work is still the
+most popular consensus protocol type. Other consensus protocols
+represented in Figure 9a include Proof of Stake, Delegated Proof of
+Stake, Proof of Activity, Proof of Capacity, and Proof of Burn.
+Attempts to increase throughput and scale for consensus protocols
+often focus on proof of stake attempts. The data is consistent with
+anecdotal evidence that suggests that proof of stake may be the most
+dominant attempt at scaling.
+Figure 9a shows that the “Other” consensus protocol type, made up
+of thirty-four tokens. Three of the tokens in the outlier category
+(Stellar, NEO, and Aion) use Byzantine Fault Tolerant Algorithm
+(“BFT”)23 or Delegated Byzantine Fault Tolerant (“dBFT”).24 Other
+outlier consensus protocols of the top 100 tokens include Proof of
+23 Aion: Enabling the Decentrailized Internet, AION 11-12 (Jul. 31, 2017),
+https://aion.network/media/en-aion-network-technical-introduction.pdf.
+24 NEO Whitepaper: NEO Design Goals: Smart Economy, NEO,
+https://github.com/neo-project/docs/blob/master/en-us/whitepaper.md (last
+visited Sept. 11, 2018).
+26
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+Importance (“POS+”)25, Proof of Authority26, loop fault tolerance27,
+Egalitarian Proof of Work28, Proof of Intelligence29, Trusted
+Execution Environment30, Proof of Devotion31, Proof-of-Stake-
+Velocity (“PoSV”)32, Proof of Credit Share33, and Proof of
+Process34. Tokens experimenting with alternative consensus
+protocols often change the transfer process in an effort to become
+more efficient.
+25 NEM Whitepaper: Technical Reference, NEM 39-40 (Feb. 23, 2018),
+https://www.nem.io/wp-content/themes/nem/files/NEM_techRef.pdf.
+26 VeChain: Development Plan and Whitepaper, VECHAIN 50 (2018),
+https://cdn.vechain.com/vechainthor_development_plan_and_whitepaper_en_v
+1.0.pdf.
+27 ICON: Hyperconnect the World, ICON FOUNDATION 23 (Jan. 31, 2018),
+https://icon.foundation/resources/whitepaper/ICON-Whitepaper-EN-Draft.pdf.
+28 Nicolas Van Saberhagen, CryptoNote v 2.0, BYTECOIN 2 (Oct. 17, 2013),
+https://bytecoin.org/old/whitepaper.pdf.
+29 AION, supra note 23 at 18.
+30 Mixin (XIN) – Whitepaper, MIXIN 4 (Aug. 31, 2018),
+https://whitepaperdatabase.com/mixin-xin-whitepaper/.
+31 Nebulas: Decentralized Search Framework, NEBULAS 20 (Jan. 2018),
+https://nebulas.io/docs/NebulasWhitepaper.pdf.
+32 Ren, supra note 22 at 5.
+33 GXChain (GXS) – Whitepaper, GXSHARES 16(Mar. 15, 2018),
+https://whitepaperdatabase.com/gxchain-gxs-whitepaper/.
+34 Trevor Koverko, Chris Housser, Polymath: The Securities Token Platform,
+POLYMATH 10 (Feb. 2018), https://polymath.network/whitepaper.html.
+27
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+4.5
+4
+3.5
+3
+2.5
+2
+1.5
+1
+0.5
+0
+Figure 9b: Consensus Protocol – Time Series
+Figure 9b highlights and underscores the experimentation in the
+blockchain community that drives the efforts to find a consensus
+algorithm that overcomes the trilemma of blockchain, e.g. scale,
+security and decentralization. To date, no blockchain truly
+combines these three objectives coherently and comprehensively.
+Experimentation with different consensus algorithms can, over
+time, help overcome the blockchain trilemma.
+Historically, the attempt to create higher throughput and scale has
+dominated experimentation with consensus algorithms. The first
+non-Proof of Work token was Ripple, launched in August 2013. The
+“Ripple Protocol Consensus Algorithm” is a subnetwork consensus
+achieved via Unique Node Lists, then aggregated. Nodes only
+verify their subsection of the network and their trust of other
+28
+snekoT
+fo
+rebmuN
+90-naJ 90-luJ 01-naJ 01-luJ 11-naJ 11-luJ 21-naJ 21-luJ 31-naJ 31-luJ 41-naJ 41-luJ 51-naJ 51-luJ 61-naJ 61-luJ 71-naJ 71-luJ 81-naJ
+Consensus Protocol - Time Series
+n=97
+Date of Launch
+PoW PoS DPoS PoA
+PoC PoB PoET Other
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+nodes.35 The first Proof of Stake token to be launched was Nxt in
+December 2013.36 The next outlier to be launched was ReddCoin in
+February 2014 whose consensus algorithm is Proof-of-Stake
+Velocity, “created specifically to facilitate social interactions in the
+digital age” where the peer-to-peer network is secured and
+transactions are confirmed.37 Stellar launched in August 2014,
+forking off of Ripple. Its Federated Byzantine Agreement delays
+transaction approval until a critical mass of nodes approve it, then
+the Stellar Consensus Protocol completes a nomination and ballot
+procedure.38
+10. Governance
+35 David Schwartz, Noah Youngs & Arthur Britto, The Ripple Protocol
+Consensus Algorithm, RIPPLE LABS INC. 4 (2014),
+https://ripple.com/files/ripple_consensus_whitepaper.pdf.
+36 Nxt Whitepaper, NXT 5-6 (Jul. 12, 2014), https://whitepaperdatabase.com/nxt-
+nxt-whitepaper/.
+37 Ren, supra note 22 at 1.
+38 David Mazieres, The Stellar Consensus Protocol: A Federated Model for
+Internet-level Consensus, STELLAR 18-19,
+https://www.stellar.org/papers/stellar-consensus-protocol.pdf (last visited Sept.
+11, 2018).
+29
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+Figure 10: Governance – Time Series
+Figure 10 depicts token governance types (hard fork, soft fork/every
+tokenholder votes, masternodes, other) according to token launch
+date. Tokens launched prior to 2015 were overwhelmingly
+developed on a hardfork or a combination of hardfork and one of
+the other governance types depicted.
+In August 2013, Ripple launched with a combination of a
+masternode and outlier governance mechanism – “Ripple's
+enterprise solution-based management control. Also: The final
+round of consensus requires a minimum percentage of 80% of a
+server’s unique node list agreeing on a transaction. All transactions
+that meet this requirement are applied to the ledger, and that ledger
+is closed, becoming the new last-closed ledger.”39 The first full
+outlier governance mechanism to be launched was Nxt in December
+39 Schwartz, supra note 35 at 4.
+30
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+2013. “Each node on the Nxt network has the ability to process and
+broadcast both transactions and block information. Blocks are
+validated as they are received from other nodes, and in cases where
+block validation fails, nodes may be “blacklisted” temporarily to
+prevent the propagation of invalid block data”.40
+During 2015 and 2016, three outlier tokens were launched per year.
+These tokens were Tether, Factom, and Iota; DigixDAO, Gas, and
+Ark. During 2017, this figure jumped to eighteen tokens. During the
+first six months of 2018, five outlier tokens were launched. These
+tokens were categorized as “other” in coding and graphs.
+V. Conclusion
+The data analyses in this study present a coherent picture on trends
+in the token designs of the top 100 coins and their implications for
+the evolution of the industry. The emergence of inflationary token
+models and the increasing interoperability of token models, visible
+in the data analysis, are core developments for the industry.
+Inflationary token models appear to be proliferating. Multiple data
+sources in the dataset of this study suggest that as the
+cryptocurrency market matures, inflationary token models may
+continue to become more popular. Unlike deflationary token
+models, inflationary token models allow the use of stability
+mechanisms. Token stability mechanisms associated with
+inflationary token models may allow more experimentation with
+volatility mitigation and could therefore become even more
+popular.
+Interoperability of tokens is an increasingly important characteristic
+of token designs. For instance, the data suggests that layered token
+designs will become even more popular in the future. Layered token
+designs enable increased interoperability of cryptocurrencies.
+Similarly, app-specific token designs are increasingly focused on
+interoperability. Increased interoperability of tokens optimizes
+survivability. Given these trends, the data seems to suggest that
+token designs are increasingly focused on longer terms survivability
+designs. Perhaps future token designs will find a sustainable
+40 NXT, supra note 34 at 7.
+31
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+
+CRYPTO ECONOMICS
+survivability design. Yet, long-term survivability of token designs
+may be more tied to infrastructure capabilities and less to temporary
+fixes in token designs.
+32
+Electronic copy available at: https://ssrn.com/abstract=3249860
+Electronic copy available at: https://ssrn.com/abstract=3249860
+

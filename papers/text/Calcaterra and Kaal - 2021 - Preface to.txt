@@ -1,0 +1,774 @@
+Preface: Two Perspectives 1
+Preface to “Decentralization”
+By Craig Calcaterra and Wulf Kaal
+Abstract
+This Preface summarizes the authors’ respective perspectives and precepts on
+the topic of decentralization that motivated the publication of their jointly authored
+book "DECENTRALIZATION - TECHNOLOGY'S IMPACT ON ORGANIZATIONAL AND S
+OCIETAL STRUCTURE", DEGRUYTER PUBLISHERS (2021).
+United by a deep passion for decentralized technology and its prospect and po-
+tential for the future of humanity, the authors provide a general overview of their
+unique motivations to collaborate on this book. The passion for decentralized socie-
+tal solutions is motivated by distinct yet supplemental perspectives on decentraliza-
+tion which have inspired the book.
+In this book we hope to share some of the insights we’ve gleaned from computer
+science and graph theory, from game theory and category theory, from history and
+international relations, from social science and economics, applied to our chaotically
+churning technologically revolutionary moment in the present global business envi-
+ronment and social atmosphere.
+The journey the authors have taken together is being taken every day organically
+by broader society. The clean and clear, logically coherent theory of hard science and
+mathematics needs to reconcile itself with the messy and confusing, logically incon-
+sistent hard realities of international issues of economics and law and social science.
+The precise tools of computer science are being used and abused by humans, with all
+their diverse range of motivations—from idealistic generosity to malicious selfishness,
+from group scapegoating to individual aspiration—together on the same platforms,
+on social media, in international forums, and in cities around the world as diverse
+communities are merging in new social permutations.
+The book can be accessed here:
+https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Struc-
+ture/dp/3110673924/
+and here:
+https://www.degruyter.com/view/title/569051
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+2 (cid:0) Preface – Two Perspectives
+Authors’ Background
+As an economist and lawyer, Wulf Kaal’s scholarship has been motivated by a desire
+to create functional institutional designs since his early Ph.D. training days as a mentee
+of a leading scholar on new institutional economics. Over time, Wulf’s scholarly inter-
+est in institutional design and governance morphed into work on the economic theory
+of dynamic governance, dynamic regulatory structures, crypto economics, decentral-
+ized infrastructure products, and incentive design mechanisms in decentralized sys-
+tems, including via co-authored articles with Craig Calcaterra.
+Craig Calcaterra is an expert on abstract dynamical systems in mathematics who
+brings a unique skillset to architecture and design mechanisms in decentralized sys-
+tems. Craig’s Ph.D. training in mathematics and particular expertise in control theory
+and stochastic dynamics gives him a useful perspective for modeling and analyzing
+global economic and social systems with their diverse moving parts and complex inner
+relationships.
+Preface: Two perspectives
+What is decentralization? A lawyer’s perspective from Wulf Kaal
+No two minds will agree on a common definition of decentralization. The word “de-
+centralization” triggers different associations in different people, depending on the
+totality of their experiences, socialization, and socio-economic upbringing. On the ex-
+treme ends, where one person will see opportunity, development, and a natural evo-
+lution, others will perceive risk, destruction, and societal doom.
+Most people still see decentralization from the vantage point of centralized systems
+and hierarchical structures. That is very much understandable. Out of necessity, hu-
+mans have engaged in centralized thinking since the emergence of tribal societies
+and throughout urbanization and the industrial revolution to today. Throughout his-
+tory, people have been subject to the apparent chaos of natural decentralization and
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 3
+sought comfort in centralization. Centralization brings structure to the natural de-
+centralized order of things. Centralization brings control, convenience, and effi-
+ciency.
+Because of hierarchical structures, centrally organized entities allocate resources
+with minimal loss of energy and can identify and remove waste in the system. Cen-
+tralized production methods efficiently reduce per unit costs. Centralized organiza-
+tion of society leads to efficient resource extraction, rent seeking, and the creation
+of economies of scale. Yet, increasing evidence suggests that humanity’s centralized
+economic expansion and associated natural resource extraction are unsustainable.
+Other indicators suggest that centralized organization of society has in many ways
+reached limitations: the general weakening legitimacy of the public sector; increas-
+ing economic decline; disillusionment with existing business, political, and social in-
+stitutions; inadequate response to emergent geopolitical problems; and global and
+international pressure on countries with inefficient, undemocratic, overly centralized
+systems. Even centralized technologies which previously enabled more sustainable
+solutions encounter capacity issues. For example, the increasing connectivity of soci-
+ety via the internet has resulted, according to some estimates, in the need for decen-
+tralized authentication protocols.
+Decentralization is saving the world. Decentralized technology and ecosystems are
+correcting human-created centralized destruction. Humanity’s unsustainable central-
+ized economic expansion and associated natural resource extraction are counter-
+acted by decentralized technology solutions. For example, the disillusionment with
+existing political institutions’ ability to address economic hardships that emerged in
+the aftermath of the financial crisis of bccd-e gave rise to a new form of technologi-
+cal decentralization. The Bitcoin protocol emerged in bcce as an attempt by its
+founders to provide a decentralized alternative to the shortcomings of the financial
+system.
+Bitcoin and its progeny spawned a slew of additional decentralized protocols and de-
+centralized technology attempts and solutions that provide a gateway to future
+forms of technological decentralization. The evolution of decentralized protocols,
+ecosystems, and platforms, in turn, may provide unprecedented democratic forms of
+organizing business and society and coordinating human behavior. The emergence
+and proliferation of distributed applications (DApps) in the aftermath of the inven-
+tion of the Bitcoin protocol in bcce demonstrate that a nascent market for such ap-
+plications and consumer demand already exists. Consumer preferences will continue
+to shape the DApps market and the solutions it may offer for commerce and society.
+Unlike other societal phenomena, decentralization appears as a natural default solu-
+tion for societal issues. Change in business and society is often accompanied by dras-
+tic measures and long public debates along political lines. For example, the occur-
+rence of globalization in technology, business, politics, and society, was subject to
+long drawn-out public debates about the possible effects and risks. By contrast, the
+decentralization of business and society is mostly a quiet occurrence without much
+media attention that appears as a default solution based on the existing centralized
+network infrastructure. Decentralization is incremental and iterative and a natural
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+4 (cid:0) Preface – Two Perspectives
+default solution that is based on existing networks. Existing centralized businesses
+and business networks are increasingly combined with decentralized elements.
+Definition?
+An understanding of decentralization depends to some degree on its delineation
+from its centralized counterparts. In other words, a definition of what centralization
+in a given context, industry, or field of study means also helps define what decentral-
+ization in this context can mean. The definition of decentralization changes based on
+the kind of decentralization, the industry or field, application, and the overall con-
+text. What may apply in the context of political decentralization may not at all be
+relevant in the context of technological decentralization. Organizational decentrali-
+zation, market decentralization, societal decentralization, among others, all empha-
+size different aspects of decentralization. Yet, each different kind of decentralization
+may have knock-on effects on the others. Accordingly, a definition of decentraliza-
+tion necessitates an inclusive scope that derives from its core characteristics.
+Defining decentralization through historically formed centralized perspectives is a
+contradiction in terms. It undermines the true potential of decentralization. While
+even fully networked and decentralized systems are still subject to centralized ele-
+ments, such as the agreement on certain terms and meanings in language, using a
+centralized understanding of a subject to explain what decentralization of that sub-
+ject could mean limits the scope and scale of decentralized approaches. For example,
+decentralization is not just the addition of hierarchical levels in a centralized organi-
+zation; decentralization is not just the redistribution of centrally organized authority
+or redistribution of centrally collected revenue; decentralization is not just the dele-
+gation of centralized authority to managers on all levels of an organization. Termino-
+logically, decentralization is not just synonymous with delegation, deconcentration,
+disassortative, devolution, circulation, or partnership.
+Even the basic societal norms instantiated in the subsidiarity principle can not fully
+encapsulate the essence of emerging decentralization. The subsidiarity principle is a
+general principle of social organization. It suggests that social and political issues
+should be addressed at the most immediate level that is consistent with the resolu-
+tion of the issue. Decisions should be made by the government entity that is closest
+to the populations affected by a given issue. The subsidiarity principle is deeply
+rooted in existing legal frameworks and it is a general principle of the European Un-
+ion. While local government may be closer to the concerns of the people and better
+able to respond to the preferences of its citizens, subsidiarity alone cannot encapsu-
+late the ontology and desirable outcomes of decentralization.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 5
+Technical Delineation
+The degree of decentralization can be delineated by distinguishing several core con-
+cepts such as logical decentralization, architectural decentralization, and political de-
+centralization. While these core concepts are distinguishable, some overlap is una-
+voidable.
+An example from the legal system helps illustrate the overlapping concepts of logical
+decentralization, architectural or hardware decentralization, and political or govern-
+ance decentralization. Both civil and common law are logically centralized as all deci-
+sion-making power goes back to what the respective legal bodies ordained. Com-
+mon law is based for the most part on legal precedents created by a diverse body of
+individual judges. By contrast, civil law relies mostly on a centralized parliamentary
+or legislative decision-making body. Architectural decentralization is disparate in civil
+and common law as common law has more decentralized power in the individual
+courts and jurisdictions that create the precedent. Governance decentralization is
+low in both common and civil law as only a limited number of decision-making au-
+thorities, courts and parliament, have the ability to make changes to the body of law
+that apply to all of the law’s subjects.
+The firm—that is, a traditional corporation—provides another example to delineate
+logical decentralization, architectural decentralization, and governance decentraliza-
+tion. The firm is logically centralized as a division of the firm would typically break it
+apart and it would not be able to operate independently as two separate parts. This
+is traceable to the firm’s hierarchical order that creates efficiencies and structure.
+The firm is also architecturally centralized as it typically is governed through one
+physically centralized headquarter or office. The governance of the firm is also typi-
+cally centralized as only a select few can make changes that affect the totality of indi-
+viduals involved with the firm.
+Natural Decentralization
+Nature’s ecosystem provides an illustration of natural decentralization. The natural
+ecosystem is composed of the community of living and non-living organisms whose
+interaction is facilitated by chemical, biological, and physical processes in sunlight,
+air, water, soil, plants, microorganisms and animals. No central organism or system
+dictates when, where, and how the interactions materialize and how living and non-
+living organisms proliferate and evolve.
+The natural ecosystem epitomizes the characteristics of decentralized systems. The
+intelligent order in the natural ecosystem is distributed throughout the system with-
+out central coordination. Information on environmental factors that influence organ-
+isms’ existence and development naturally, filter into the edges of the ecosystem in
+real-time. Random genetic mutation of organisms is further enhanced through dy-
+namic feedback effects on environmental factors that benefit a given mutation and
+accelerate its survivability in that environment. Mutated and adaptable organisms
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+6 (cid:0) Preface – Two Perspectives
+become more attack resistant in comparison with the original population. In turn,
+the ability to mutate via feedback effects for enhanced adaptability allows the
+adapted organism to proliferate more quickly than the original population.
+Nature provides systems that create spontaneous order. Nature provides several
+prominent examples of spontaneous order and coordination of self-organizing be-
+havior. Slime molds, flocks of birds, ant colonies, and schools of fish exhibit emer-
+gent and self-organizing behavior in which interactions and feedback effects be-
+tween self-sufficient individuals create spontaneous order. Unrelated eukaryotic
+organisms, aka slime mold, are capable of existing without constraints as single cells,
+but can also congregate to form multicellular reproductive structures. Spontaneous
+order is less likely to emerge unconstrained from interactions dispersed across a sys-
+tem if the system has a power or information center. Distributed self-organizing sys-
+tems are nimbler and able to efficiently self-repair at points of local failure through
+coordination without control.
+The natural ecosystem evolved randomly with an inherent order and interdependent
+structure. Take for example how crops grow in nature. Crops grow best where the
+conditions made available by nature are most ideal. Flora and fauna quasi-randomly
+interact with each other to effectuate that growth. Flora, that is, plant life, develops
+in a particular region or time; the corresponding fauna, that is, animal life, supple-
+ments that development and grows. Birds take seeds and crops from one meadow to
+another area. Or, the wind blows certain seeds across vast areas of land until they
+find more fertile soil, and so forth.
+Interoperability and interdependence characterize the development of the natural
+ecosystem. Flora and fauna are interdependent. Animals cannot develop in a given
+part of the planet if they do not have access to the right kinds of food that enable
+their evolution and survivability. In turn, animals enable plants to flourish in parts of
+the planet where they previously could not exist.
+The equilibrium in the natural ecosystem is facilitated by the decentralized coordina-
+tion of interdependent organisms. The equilibrium in the natural ecosystem is cre-
+ated not by a centralized dictator who examines the needs of non-living and living
+organisms. Rather, nature’s equilibrium materializes through a balancing of the in-
+teractions in chemical, biological, and physical processes. Ecological systems are usu-
+ally in homeostatis, that is, in a stable equilibrium. If a given part of the ecosystem
+gets out of balance, the system typically naturally self-corrects. The system corrects
+small changes, such as the size of a particular population growing too quickly,
+through negative feedback. The feedback brings the changed parameter in the sys-
+tem back to its original equilibrium. This facilitates that the changed parameter can
+again correspond optimally with the rest of the system.
+The process of mitosis, or cell division, provides a natural precedent and overview of
+the role of governance in decentralized systems. Mitosis is the process in nature
+whereby the nucleus of a single cell divides into two identical daughter cells which
+thereafter contain the same genetic information and functionality as the original cell.
+After mitosis, both cells are independently fully functional. Because of apoptosis,
+that is programmed cell death, cell replacement via mitosis is vital. The purpose of
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 7
+mitosis is growth, cell regeneration, and the removal of worn out or damaged cells.
+Without mitosis, organisms could not be functional and would die. The cell nucleus,
+that is typically a single rounded structure bounded by a double membrane, contain-
+ing the genetic material, enables the process of mitosis. Similarly, in decentralized
+systems, information, and any functionality that depends on information, is continu-
+ously changing. As parts of system information are being outdated by the naturally
+changing environment, they need to be replaced to keep the entire system opera-
+tional. Like mitosis, this decentralized governance process has to be autonomous
+and automated in the system. Decentralized governance has to be able to evolve and
+mutate and create new information precedent for the continuous efficient operation
+of the system. The nucleus of the decentralized system is the information (contained
+in the code) that constitutes the architecture and incentive design of the decentral-
+ized operating system. It facilitates the information exchange.
+The standard model of particle physics provides perhaps the strongest argument
+against natural decentralized evolution. While naturally incomplete, the standard
+model of particle physics is the most complete model science created to describe the
+observable physical cosmos. It suggests that the entire physical cosmos can be
+traced back to a single point. Science has no answers as to what came before. If com-
+bined with the theory of natural selection, which suggests that all life on earth could
+be traced back to a single cell organism, the standard model of particle physics
+would counteract decentralized evolutionary theories. Yet, single point origin does
+not counteract the multiplicity of design mechanism in the following evolution.
+Nature evolved through natural selection: a naturally decentralized selection mecha-
+nism. No centralized authority determines which organisms can survive when and
+where. Rather, the interaction of the community of living and non-living organisms
+by way of chemical, biological, and physical processes and the totality of environ-
+mental factors dictates which species survive and flourish. Because natural selection
+is a complex process involving multiple interconnected causes with adaptation to the
+natural environment at its core, natural selection involves a given population with
+distinguishable characteristics. Variability is heritable. Random genetic mutations in-
+crease variability. No centralized order determines in what environment certain
+characteristics are ideally suitable for enhanced survivability. Rather, the population
+with the traits that are most adaptable and heritable has a natural comparative ad-
+vantage. The natural selection of the most adaptable and survivable population char-
+acteristics materializes without a centralized mechanism. Even characteristics that
+appeared at the edges of a given ecosystem may be most ideally suited for surviva-
+bility.
+Technological Extension of the Decentralized Natural Order
+The natural order emerged through decentralized coordination. Humans centralized
+parts of the decentralized natural order to enable human proliferation. In turn, in-
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+8 (cid:0) Preface – Two Perspectives
+creasing evidence suggests that technology enables a decentralized extension of so-
+cietal organization and human achievement. Emerging decentralized technology
+could transform the digital universe into a complex adaptive system of the kinds
+found in nature.
+Human utilization of nature provides a prominent example of centralized order in
+decentralized systems. Throughout history, humanity has been subject to the appar-
+ent chaos of nature and sought comfort in centralized control over it. The creation of
+property rights over the natural order of things enabled centralized efficiency for hu-
+man achievements. Centralized urbanization provided protection and efficiency from
+the chaos of nature. Humans centralized parts of the natural order to create econo-
+mies of scale that would otherwise not be possible within the natural order. For ex-
+ample, to control where the most beneficial conditions allow crops to flourish and
+result in a significant harvest, farmers try to control the environment and soil that al-
+low their crops to grow optimally. Creating the conditions to grow most of a certain
+type of crop in the shortest amount of time allows farmers to more effectively con-
+trol the output of their efforts and create economies of scale that would not be pos-
+sible within the natural order.
+The evolving decentralization of business and society is a form of a decentralized ex-
+tension of the existing societal organization and human achievement. As organiza-
+tional centralization reaches natural limitations, decentralized organizational ele-
+ments become more prevalent. For example, internet-based platform businesses try
+to make organizational hierarchies flatter to increase creativity and output and instill
+a culture of “best idea wins.” The farthest extension of these ideals is instantiated in
+the decentralized autonomous organization (DAO), an organization that only exists in
+code. Similarly, as business reaches natural frontiers, it extends its reach via decen-
+tralized structures. Companies like eBay and Amazon provide examples of central-
+ized companies that decentralized the customer experience. These companies use
+the structure, control, and associated profit optimization of centralized entities and
+combine it with the bottom-up approach of decentralization in the form of customer
+reviews.
+Decentralized technology is part of a natural extension of the decentralized origin of
+human tool-making. For example, just as language became a tool for the optimiza-
+tion of human outputs, decentralization can help coordinate and optimize human ef-
+forts and outputs. This is exemplified by emerging decentralized technology’s ability
+to remove the inefficiencies and costs associated with intermediation. For example,
+cost free value transfer via decentralized technologies removes the cost for migrant
+workers. In bcge, worldwide remittance has replaced foreign direct investment in to-
+tal value across borders.
+Decentralized evolution is an extension of naturally decentralized development. As
+decentralized solutions morph and proliferate, they follow existing natural network
+patterns and precedents. Technology-driven decentralized systems depend on an ex-
+isting infrastructure. Just as predator populations could not evolve in the natural
+ecosystem without prey, decentralized technology systems cannot evolve without an
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 9
+existing decentralized infrastructure. Generations of increasingly networked solu-
+tions enable an evolution of decentralized systems.
+Basics of Decentralization
+Decentralized systems depend on network effects. Network effects occur when in-
+creasing numbers of participants or users in a given network improve the value of
+network access for the entirety of the users. An example that illustrates network ef-
+fects for an existing network is the internet. When the internet had very few users it
+was of limited value. As its user base increased, the totality of users benefitted from
+an ever-increasing use and application of internet connectivity as products and ser-
+vices on the internet proliferated. Similarly, eBay, the internet-based auction site,
+proliferated as more users offered their products for auction. The more people offer
+and bid, the higher the potential prices of products on eBay and the more new
+sellers are incentivized to join because they see that the totality of users on eBay en-
+ables them to sell their products. However, a network’s infrastructure can compro-
+mise its network effects and associated user benefits.
+Intelligence is widely dispersed throughout decentralized systems. Because of the
+lack of traditional coordination hierarchies and the lack of central intelligence, the
+information and intelligence in decentralized systems is more dispersed throughout
+the system. Information and knowledge exchange naturally occur and filter in at the
+edges of decentralized systems. No guarantee exists in a decentralized system that
+the randomly-generated information is accurate. That is the case on Amazon and on
+the internet in general where there is no real attempt to clean the data. These are
+exactly the type of shortcomings future decentralized infrastructure products, such
+as a decentralized verification engine, need to address.
+Information production is localized and subject to feedback effects in decentralized
+systems. Relevant information occurs randomly at the edges of decentralized sys-
+tems and its relevance is determined by an initial group of users. The information is
+then transferred to other peers who realize the relevance of a given piece of infor-
+mation for their own needs. As the application of the information changes, depend-
+ing on which groups and subgroups of peers in the decentralized network use it, the
+changed relevance of the original piece of information is then transmitted back to
+the original information generator who evaluates it and either applies it or further
+amends it. This feedback constantly updates and optimizes the quality of infor-
+mation.
+Feedback effects enable decentralized coordination. The feedback effects in decen-
+tralized systems not only update and optimize the quality of information. They also
+increase the relevancy of the applications of the information. As peers in decentral-
+ized systems analyze a given set of information they receive, they also examine the
+application of this information for their own needs. For example, contributors in
+Wikipedia are engaged in the pursuit of knowledge in a constant feedback loop with
+other contributors pertaining to a given entry on Wikipedia. Similarly, the use of
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+10 (cid:0) Preface – Two Perspectives
+computer code as a template for a smart contract enables individual creators to ben-
+efit from the input of others. The code originates in a smaller subgroup of a peer-to-
+peer network. The subgroup users examine the applicability of a given computer
+code template for their own uses. If the code passes muster, it may be included in a
+slightly changed or enhanced instantiation. The enhancement, in turn, may provide
+feedback to the originator group, and so forth. The feedback enables coordination of
+most relevant information.
+The values and core belief systems of members provide cohesion and longevity in
+decentralized systems. For example, contributors to Wikipedia share a common be-
+lief in the power of the crowd, that decentralized collaboration for the pursuit of
+knowledge creates superior outputs. They collaborate because their values and core
+beliefs in knowledge creation unite them in a common cause.
+Independent and autonomous subgroups create the backbone of decentralized
+structures. Subgroups are formed randomly based on individual members’ ability to
+contribute to the common cause of the group. Members of the subgroup are typi-
+cally equal and trust one another. For example, Wikipedia members are making con-
+tributions to the common cause of knowledge development in a subgroup of individ-
+uals that contribute to a particular entry. Each individual has a certain expertise
+pertaining to the entry. Collaboration is independent and autonomous. Some mem-
+bers write articles, others edit, and still others further optimize the entry. Contribu-
+tors to Wikipedia trust each other to create and edit entries for the pursuit of
+knowledge and each is motivated to contribute to the best of their abilities. Norms
+of behavior evolve organically from the community, supplementing the basic set of
+rules provided and enforced by Wikipedia to coordinate member conduct and create
+and reinforce trust in the subgroup.
+As decentralized autonomous organizations (DAOs) emerge through decentralized
+technology, the value systems in DAOs are a determining factor for membership and
+cohesion. The desire to be connected via a DAO to like-minded individuals has two
+value propositions. First, individuals elect to join a DAO and thus signal their desire
+to cooperate in a decentralized network. Second, individuals select their particular
+DAO based on their values and interests. DAO members will choose to join a DAO if it
+corresponds with their existing expertise, inclinations, knowledge base, and beliefs.
+The apparent intelligence chaos increases attack resistance in decentralized systems.
+Centralized coordination enables attack coordination because the hierarchical struc-
+ture allows the identification of a single point of failure. The apparent intelligence
+chaos in decentralized systems, where information filters in at the edges of the sys-
+tem in real time, allows it to morph constantly. Decentralized systems can very easily
+mutate because the information flow is optimized through dynamic decentralized
+feedback effects. That ability to change without central coordination increases the
+attack resistance of decentralized systems.
+Decentralized systems are more attack resistant, allocate information more effec-
+tively and use feedback effects for superior learning effects that optimize perfor-
+mance over time. Community and the efficient sharing of resources are more im-
+portant in decentralized systems.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 11
+Centralization and decentralization are foundationally different approaches. Where
+centralization attempts to make sense of and create order in presumptive chaos, de-
+centralization thrives in perceived chaos. Where centralization creates efficiencies
+via order, inefficiencies open new opportunities for participants in decentralized net-
+works. Where centralization orders information, and presses it into a certain form,
+decentralization takes information from random places and utilizes it in new applica-
+tions. Where centralization limits creativity through preset processes, decentraliza-
+tion frees the creative process. Where centralization creates hierarchies and sub-
+structures, decentralization removes hierarchies and structures and reorganizes in
+new ways.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+12 (cid:0) Preface – Two Perspectives
+What is decentralization? A mathematician’s perspective from
+Craig Calcaterra
+Figure 1:Common answer to the question, "What is decentralization?"
+“The above image says it all.” –Rahul Behera, Content Director for Cryp-
+tosomniac.com March e, bcgd, Quora
+No, it doesn’t.
+Figure g may be a good first attempt at answering the meaning of decentralization.
+But it’s vague and misleading. The closer you look, the more flawed it is. This figure is
+reproduced in many explanations of distributed computing, blockchain or Webk. If
+you are going to learn anything from this book, at the least let it be how this figure is
+a shallow answer, and wrong.1
+Centralized Decentralized
+Figure b: A better answer to the difference between centralized and decentralized.
+The ideal centralized configuration is a directed tree/hierarchy. The ideal decentral-
+ized configuration is a complete undirected graph.
+(cid:0)(cid:0)
+1 The word distributed is often conflated with decentralized, for good reason, because distributed
+means IT duties (information storage or processing or communication) are spread across many differ-
+ent nodes. But the concepts of distributed and decentralized shouldn’t be contrasted. Decentralized
+networks are always distributed; distributed networks may or may not be under centralized control.
+So “distributed” doesn’t even belong in the same image.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 13
+Centralized means there is one person who is ultimately responsible for all decision
+making—“The buck stops here.” Or there is one computer in charge of how infor-
+mation is processed. The first graph in Figure b indicates how all the dots (which rep-
+resent nodes, or members of the network) must answer to the central node.2
+The ideal centralized network is a tree graph, for example, an org chart in a com-
+pany. It has a root to the tree, the leader. And it has branches which take orders
+from the root.
+Figure k: Credit: Paul Johnson, University of Sheffield, bcgm. (**update to include ar-
+rows)
+This left image of centralization in Figure k might represent the power structure of a
+god, which may be a good description of the experience of a typical app when the
+user is at the owner’s mercy.
+An org chart or a tree graph representation of a centralized organization plainly dis-
+plays the advantage of a hierarchical structure. Everyone has a clear role in the or-
+ganization. Their responsibilities and power are obvious from their position. The car-
+rots and sticks can be clearly arranged, efficiently. In fact, no topology is more
+efficient for this purpose.3 Decisions made by a central leader can be carried out
+quickly and effectively.
+Therefore, the best mathematical representation of a centralized hierarchy is a di-
+rected tree graph. The power flows only one way.
+(cid:0)(cid:0)
+2 A note about nodes: Put simply, nodes are the little dots in any graph. Nodes represent the members
+of the network. Computer scientists often think of nodes as the different computers connected in a
+network. The number, variety, and connectivity of the nodes in a system impact how data is generated,
+the processing power needed, and the diversity of data produced. The variety and connectivity deter-
+mine how much information can come from a network. Decentralization means redundantly, flatly
+connected. The more connections a network has, the more resilient it is, and information exchange
+increases.
+3 Topology is a fancy word for structure, or the pattern of the arrangement of a system. The mathe-
+matical meaning is difficult to pin down without more technical definitions, but it roughly means the
+pattern that underlies a system when you ignore irrelevant details.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+14 (cid:0) Preface – Two Perspectives
+King
+Lord East Lord West
+Knight E1 Knight E2 Knight W1 Knight W2 Knight W3
+Peasant 1 Peasant 2 Peasant 3 Peasants
+Livestock Cow Pig Goat
+Figure 4: Feudal power centralization; part of the Great Chain of Being
+Hierarchical centralization is optimally efficient for making big decisions that affect
+the entire organization, and so it has historically outcompeted every other organiza-
+tional structure, be it corporation or army or government (Figure p). A hierarchy
+seems to always eventually emerge, or else the group fails.
+Except that’s not entirely true. Centralization comes with two major flaws that inevi-
+tably lead to its downfall.
+First, every centralized organization has a single point of failure. If the leader is lack-
+ing in information, or skill, or wisdom, or charisma, the organization is bound to their
+poor decisions.4 In this age of voluminous and immediate information, business and
+social circumstances change much faster than ever before. An organization cannot
+wait for its leader to make a decision on every new choice the group faces. What is
+the alternative?
+Secondly, the very success and efficiency of a hierarchy leads its members to become
+dependent on it, relying unquestioningly on the institution’s design. The reliable an-
+swer to every question is, “chain of command”. People eventually place so much
+faith in the structure, it ossifies and becomes rigid. Then, while its structure may still
+be capable of handling some old, predictable tasks that the chain of command was
+originally designed to solve, the hierarchy may become too inflexible to reorganize
+and respond effectively to a novel crisis. (History is the record of the collapse of hier-
+archies. Examples include the Catholic Church in response to the Protestant Refor-
+mation and the Qing dynasty in response to Western imperialism.) What is the alter-
+native?
+(cid:0)(cid:0)
+4 This is a major reason monarchies have fallen within a few generations of foundation throughout
+history.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 15
+Decentralized organizations thrive in both of these circumstances, when choices
+multiply without bound and when novel crises arise.
+Decentralized simply means “not centralized”, so there is no dominant node, no
+leader. An example is the architecture of the internet, which was designed so that
+control is extremely redundant, as in the complete graph illustrated in Figure s. If
+any local cluster goes down, the network will be able to continue functioning with-
+out a hiccup. No part of the network is crucial. No part of the network is the absolute
+authority. There is no President of the Internet.
+The notion of decentralization is captured by any graph which does not have a single
+node from which all power flows. The extreme form of decentralization is illustrated
+with a completely connected graph as in the image below. The goal of most decen-
+tralized networks is to achieve such interconnectivity and flatness of power distribu-
+tion or complete equality of its members.
+Figure t: A complete graph with d nodes vs simple tree with d nodes—stability vs. ef-
+ficiency.
+The spectrum between control and freedom
+There is no clear-cut, discrete difference between centralized and decentralized.
+There is a spectrum between the two that any organization will fall along. The essen-
+tial differentiator is the freedom of each member in the network.
+In the extreme of centralization, nodes/members have no autonomy, no freedom.
+Each node has a clearly defined role in the hierarchy, with explicit instructions for
+every behavior, in how and when they can act. With recent advances in information
+technology, we can now build dystopias of extreme centralization to a degree that
+makes Orwell’s society from gedp seem trivial.
+In the extreme of decentralization, every member has complete autonomy and free-
+dom. Each member has complete independence, choosing how and whether to par-
+ticipate at any given time. With the recent advances in technology, we can now build
+systems which give members autonomy approaching this extreme which still allows
+cooperation and harmony.
+The most successful organizations choose a hybrid of centralization and decentraliza-
+tion which maximizes the strengths of each.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+16 (cid:0) Preface – Two Perspectives
+Dimensions of decentralization
+Networks can be decentralized along many independent dimensions.5 For example:
+Location decentralization
+Wikipedia’s network of editors who may occupy any geographical location in any
+country with an internet connection. At the other extreme a classical corporation
+might require all employees work in the same building. (See Figure m.)
+Location
+decentralized
+Facebook users German citizens Your family
+English Wikipedia North Korean You
+users citizens
+Location
+centralized
+Figure 6: Spectrum of location decentralization
+Control decentralization
+Political power, computational power, wealth, fame, etc. As of bcbc, Wikipedia still
+has an ultimate arbiter in its founder Jimmy Wales and so is not completely decen-
+tralized politically. The English language, on the other hand, evolves without any ulti-
+mate authority on what new words can be added. Theoretically, anyone can invent a
+new English word, so it is completely politically decentralized. (See Figure d.)
+Power
+decentralized
+English
+Language
+(every speaker USA Vatican
+may invent a Two parties One person
+word) EU dominate rules for life
+UN Germany PRC North Korea/
+>7 parties One party rules Saudi Arabia
+share control One family
+rules eternally
+Power
+centralized
+Figure 7: Spectrum of power decentralization
+(cid:0)(cid:0)
+5 Cf., Vitalik Buterin, “The Meaning of Decentralization”, Medium.com, Feb [, \]^_
+https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a]cb\b_[a\_c Retrieved
+e/^]/\]\].
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 17
+Protocol decentralization
+Is there a set of rules that everyone in the network submits to? Do all members fol-
+low the same logic and believe the same history? Almost every democracy in the
+West follows a set of laws more clearly specified than that of supposedly autocratic
+China, which has no formal constitution; its regular Five Year Plans are actually ab-
+stract aspirations for the country that each province interprets as best they can. Al-
+ternately, the French language has more rigid rules than English, so French is more
+protocol centralized than English. On the other hand, the French legal system is less
+formal than the British—French judges are less restricted by precedent and statute.
+Black market organizations can fall anywhere on the spectrum, but typically have
+much less formality in their rules than the English language does. Generally, at least
+some level of protocol centralization is required for group harmony and efficiency.
+We think of power decentralization as independent of protocol decentralization, but
+power determines how protocol is amended and enforced. (See Figure e.)
+Protocol
+decentralized Prototocol
+centralized
+YouTube
+comment Children's Classical ballet
+section playground performance
+Combat in the Football game
+Roman
+Colosseum
+Figure 8: Spectrum of protocol decentralization
+We can further characterize most any quality along a (de)centralization spectrum.
+Centralized just means concentrated; decentralized means spread out. Events can be
+centralized or decentralized in time. Colors can be more or less spread out along the
+light spectrum: a rainbow is color decentralized; a laser is color centralized. The ide-
+als of a community can be focused or vague.
+Spiritual ideals decentralization
+Peoples’ beliefs may be more strictly focused or loose. For example, the Jewish reli-
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+18 (cid:0) Preface – Two Perspectives
+gious belief spectrum ranges from ideologically rigid (centralized) to loose (decen-
+tralized) is illustrated in Figure s.
+Cultural
+Liberal
+Conservative
+Orthodox
+Karaites
+Figure e: Spectrum of Judaic ideological adherence
+This oversimplified characterization presents the categories from more decentralized
+to more centralized as:
+Cultural Jews — Identify with the culture and history of Jewish people, but not re-
+quired to believe in any particular traditional religious tenet, nor follow any specific
+strictures.
+Reform/Liberal Jews – Go to synagogue occasionally; believe in the general outline
+of the religious tenets but allow for alternate interpretations.
+Conservative Jews – “Torah was inspired by G.d.” Laws strictly observed.
+Orthodox Jews – “Torah was written by G.d.”
+Karaite Jews— Respect only the written Torah with strict fundamentalist interpre-
+tation. Reject commentary such as Midrash or Talmud.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 19
+Figure gc: Extreme location decentraliza- Figure gg: Extreme location centrali-
+tion zation
+Abstractly, centralized means concentrated. Decentralization means spread out.
+Qualities of decentralization: stability, efficiency, versatility
+From the abstract perspective illustrated in Figures s & m we see the fundamental
+qualities that determine the importance of centralization vs. decentralization in any
+application.
+Decentralization is stable. Centralization is unstable.
+A highly concentrated object, or a structure with a great deal of complicated order,
+has much more potential to be destabilized. Little changes can result in major struc-
+tural change. On the other hand, if you disturb something that is extremely spread
+out, it’s still spread out. The more concentrated a structure is, the more unstable it
+is. The more spread out a pattern is, the more stable it is—like a stool with one cen-
+tral leg versus the more stable arrangement of many legs spread out.
+Decentralization is versatile. Centralization is task optimized.
+Given a specific task, centralized organizations are more effective at the task they
+are designed for than decentralized organizations. Getting a centralized group to
+move in a single direction takes much less effort. An optimally centralized structure
+would have no redundancy. So centralized organizations are more efficient at solving
+their singular problem. Decentralization is less effective; it generally takes longer to
+find the right components within its network which can solve the problem. The more
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+20 (cid:0) Preface – Two Perspectives
+decentralized an organization, the more redundant it usually is. A decentralized or-
+ganization is less efficient at solving a singular task. Communicating with and con-
+vincing each autonomous member of a decentralized group is very energetically in-
+tensive—"herding cats”.
+However, decentralized organizations are more versatile. If you ask the BMW Motor-
+rad company to make a new type of motorcycle, they could obviously complete the
+job much more efficiently and effectively than Wikipedia. But if you want to find a
+cure for a disease, invent a new type of fusion cuisine, or host a diplomatic summit
+between African nations, then which group would fare better? Neither Motorrad nor
+Wikipedia are designed to solve those problems. But the centralized Motorrad or-
+ganization would waste a lot more resources and probably produce inferior results
+to Wikipedia’s. Wikipedia could tap the potential of its diverse members, harnessing
+the information at the edge, to identify the appropriate talent to solve a novel prob-
+lem. It is reasonable to assume BMW’s members are not less talented than the aver-
+age Wikipedia contributor. But the BMW hierarchy would be an obstacle to recogniz-
+ing which of the many ideas the group might propose to solve the novel problem is
+best. The hierarchy would prevent the identification of talented people if they occur
+at the lower rungs. And it would resist any changes needed to construct a new hier-
+archy for organizing the effort. Since Tesla Motors is facing dynamic challenges with
+inventing new technology and production processes, they have consciously chosen
+to decentralize many aspects of their organization in order to maximize their versa-
+tility, so they can respond rapidly and efficiently to innovations and disruptions.
+Decentralization is Efficient - Centralization is Inefficient
+From a wider perspective, decentralization is efficient; centralization is inefficient. In
+any market, centralization is dangerous. Monopolies ruin the efficiency of a mar-
+ket—they impair its liquidity. The most efficient markets, the most liquid markets,
+have high transaction rates of many goods moving between many small players. De-
+centralization makes truth discovery more accurate, more reliable, and more effi-
+cient. Think of the difference between gc competing news media companies report-
+ing on a story versus g news company reporting gc times. Or a physics experiment
+where a single researcher measures the speed of light gc times with the same instru-
+ment versus gc different researchers using gc different instruments. Averaging the
+results is much more accurate when there are diverse contributors. This spawns the
+phrase, “the wisdom of the crowd”. Decentralization is both stable and efficient.
+Ever since the writings of gdth century Scottish philosopher Adam Smith, it has been
+recognized that decentralization makes the wider economy more efficient.
+The goal of every organization is to be effective, efficient, and versatile. Organiza-
+tions select different dimensions around which they are centralized or decentralized.
+Corporations tend to have centralized power, because they wish to employ a singu-
+lar strategy to efficiently exploit the circumstances of the market. However, this
+leads to instability whenever the market swings. A brittle hierarchy may crash before
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+Preface – Two Pespectives (cid:0) 21
+it can reorganize to effectively handle a new challenge. Decentralized organizations
+don’t suffer swings in the market. A sufficiently decentralized organization is the
+market.
+Why and how?
+When is decentralization preferable to centralization? Why have we recently been
+hearing about decentralization more and more? What has changed technologically
+to allow decentralization to outcompete centralization? How can we decentralize
+our institutions, and why would we wish to?
+In this book we will discuss centralized and decentralized organization in the past,
+present, and future. We will see how these notions have affected society throughout
+history, using the examples of Ancient Egypt and China to see how stability was
+maintained with protocol decentralization in the justice system. We will see how the
+Apaches used political decentralization to withstand successive empires devoted to
+their downfall. We will explore how a decentralized group of Jewish traders thrived
+thousands of miles apart along the dangerous and chaotic Silk Road a thousand years
+ago with minimal information technology tools. We will analyze how gdth century
+Western democratic governmental designs united nations of people into decentral-
+ized organizations. Using these historical examples, we can understand success and
+failure of organizations in the present, and how these ideas can predict the course of
+business and culture in the future.
+We will explore the power of decentralization unleashed by leaps in computational
+power, information storage, internet communication, and cryptographic security.
+Decentralized power was leveraged recently by centralized corporations like Face-
+book and Google and Alibaba, making them the most powerful companies in the
+world. Peer-to-peer technologies such as blockchain and distributed hash tables are
+being used to decentralize power further. Smartphones are empowering individuals
+worldwide with equalizing computation and communication power. The open source
+programming movement is fostering a culture of transparency which results in tangi-
+ble technological progress through meaningful cooperation, fulfilling the promise of
+democracy, while increasing security.6 Using the power of decentralization, we can
+create institutions that will bring harmony and stability to the new global society
+that is emerging. Designed wisely, such institutions will protect individual rights and
+empower us to cooperate for the benefit of all.
+(cid:0)(cid:0)
+6 Cf., Linus’ law, “Given enough eyeballs, all bugs are shallow”, named after Linus Torvalds, the inventor
+of the open source operating system, Linux, coined by Eric S. Raymond, The Cathedral and the Bazaar:
+Musings on Linux and Open Source by an Accidental Revolutionary, O'Reilly Media, ^bbb.
+.
+Electronic copy available at: https://ssrn.com/abstract=3782191
+
+22 (cid:0) Preface – Two Perspectives
+Bibliography
+Formating example:
+Evans, Dave (Apr. 2011). The Internet of Things: How the Next Evolution of the Internet is Changing
+Everything. CISCO White Paper, https://www.cisco.com/c/dam/en_us/about/ac79/docs/in-
+nov/IoT_IBSG_0411FINAL.pdf (accessed June 1, 2020).
+Wikipedia. Last Universal Common Ancestor, https://en.wikipedia.org/wiki/Last_universal_com-
+mon_ancestor (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3782191
+

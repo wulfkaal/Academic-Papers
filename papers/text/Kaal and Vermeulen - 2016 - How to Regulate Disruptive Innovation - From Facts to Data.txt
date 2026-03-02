@@ -1,0 +1,1753 @@
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+HOW TO REGULATE DISRUPTIVE INNOVATION -
+FROM FACTS TO DATA
+BY
+WULF A. KAAL *
+AND
+ERIK P.M. VERMEULEN **
+* Associate Professor, University of St. Thomas School of Law (Minneapolis), United States of America.
+The authors would like to thank the participants at the 2015 Annual Meeting of the Midwestern Law and
+Economics Association (MLEA), the participants at the 2016 First Conference on Empirical Legal Studies
+in Europe (CELSE), the participants at the 2016 National Business Law Scholars Conference (NBLSC),
+and the participants at the18th Biennial Conference of International Academy of Commercial & Consumer
+Law 2016. The authors are also particularly grateful for outstanding support from librarians Nick Farris and
+Ann Bateson.
+**
+Professor of Business & Financial Law, Tilburg Law School - Department of Business Law, Head of
+Governance, Philips Lighting, Netherlands.
+1
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+ABSTRACT
+Disruptive innovation creates increasing regulatory challenges. The reason for this
+is simple: Regulation is usually reactive, responding to facts. However, we currently live
+in a world of data, not facts. Regulation must therefore be proactive and dynamically
+responsive to data and trends. This paper discusses the following questions: (1) Why
+should regulators be proactive?, (2) When should regulators respond?, (3) What should
+regulators respond to? and (4) How should regulators respond? Using a dataset
+comprising over 77,000 venture capital deals with over 35,000 companies in the United
+States from 2005 to 2015, the paper shows how investment data can provide important
+feedback on innovation trends and associated risks for regulators, optimize the timing of
+regulation, and support anticipatory rulemaking.
+Keywords: Disruptive Innovation, Venture Capital, Venture Investments, Dynamic
+Regulation, Feedback Effects, Optimized Information for Regulation, Anticipatory
+Regulation, Big Data
+JEL Classification: K20, K23, K32, L43, L5, O31, O32
+2
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+TABLE OF CONTENTS
+I. INTRODUCTION ............................................................................................................................................. 4
+II. CHARACTERISTICS OF DISRUPTIVE INNOVATION ............................................................................. 8
+III. DISRUPTIVE INNOVATION AS A REGULATORY CHALLENGE ................................................. 14
+1. Ex Post Facts-Based (Trial-and-Error) Rulemaking ................................................................. 18
+2. Stable and Presumptively Optimal Rules ....................................................................................... 18
+3. Timing .......................................................................................................................................................... 19
+4. Unknown Future Contingencies ........................................................................................................ 20
+IV. DYNAMIC REGULATION AS A REGULATORY SUPPLEMENT .................................................. 22
+V. DATA AS INPUT FOR DYNAMIC REGULATION ................................................................................. 25
+1. VC Deal Characteristics ....................................................................................................................... 26
+2. Industries Represented .......................................................................................................................... 32
+VI. VENTURE CAPITAL AS DYNAMIC REGULATION OF DISRUPTIVE INNOVATION .............. 37
+VII. CONCLUSION ......................................................................................................................................... 39
+3
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+I. Introduction
+Disruptive innovation has shaped and reshaped industries throughout history.
+Disruptive innovation can take the form of new business models, new products or
+services, or new ways of delivering existing products and services to consumers, while
+addressing unmet consumer needs.1 Disruptive innovation is characterized by scientific
+discoveries that change existing technological product paradigms and provide the
+foundation for more competitive new technologies and products to emerge.2 It is often
+associated with the emergence of completely new technologies, new combinations and
+applications of existing technologies, and the application of new technologies to specific
+societal problem areas, each precipitating a significant paradigm shift for product
+technology or creating entirely new paradigms.3 The combination of these factors
+facilitates sudden exponential improvements in the value proposition for customers by
+enabling discontinuous innovations of processes, products, and services.4 Human-
+robot collaboration, constant body monitoring, and driverless cars5 are examples of
+disruptive technological innovations that will transform our markets, transport, and health
+systems.
+Disruptive innovation presents significant regulatory challenges. As disruptive
+technologies emerge and grow, they are bound to morph, shift, and merge with other
+1 DIRECTORATE FOR FINANCIAL AND ENTERPRISE AFFAIRS COMPETITION COMMITTEE, HEARING ON
+DISRUPTIVE INNOVATION (2015), https://goo.gl/3kSCi6.
+2 The original “disruptive innovation” terminology came from the famous Bower and Christensen article in
+the Harvard Business Review. Joseph L. Bower & Clayton M. Christensen, Disruptive Technologies:
+Catching the Wave, HARV. BUS. REV., Jan.-Feb. 1995, at 43, 44 (“The technological changes that damage
+established companies are usually not radically new or difficult from a technological point of view. They
+do, however, have two important characteristics: First, they typically present a different package of
+performance attributes - ones that, at least at the outset, are not valued by existing customers. Second, the
+performance attributes that existing customers do value improve at such a rapid rate that the new
+technology can later invade those established markets.”). There is no widely accepted definition for
+discontinuous and disruptive innovation. However, scholars focus on different aspects, such as industry-
+wide product technology factors to the gap between substitutable technological learning curves on a cost or
+performance basis, definitions of discontinuous innovation focus on customer behaviour, product
+newness, market factors, or a combination of these factors. For an overview of the disruptive innovation
+definitions used in the literature, see Ronald N. Kostoff et al., Disruptive Technology Roadmaps, 71 TECH.
+FORECASTING & SOCIAL CHANGE 141, 142-44 (2004).
+3 Kostoff, supra note 2.
+4 See Robert W. Veryzer, Jr., Discontinuous Innovation and the New Product Development Process, 15 J.
+PROD. INNOV. MGMT. 304 (1998); Gary S. Lynn et al., Marketing and Discontinuous Innovation: The
+Probe and Learn Process, 38 CAL. MGMT. REV. 8 (1996). See also Steven T. Walsh, Roadmapping a
+Disruptive Technology: A Case Study, The Emerging Microsystems and Top-Down Nanosystems Industry,
+71 TECH. FORECASTING & SOC. CHANGE 161, 165 (2004) (“Two views of disruptive technologies arise
+from this literature. One emphasizes the ‘different’ nature of the technology, whereas the other
+emphasizes the emerging high technology nature. Bower and Christensen champion the ‘different’ nature
+of disruptive technologies emphasizing that they may not be ‘radically new from a technological point of
+view’ but have superior ‘performance trajectories’ along critical dimensions that customers value. Abernathy
+and Clark and others argue that disruptive technologies’ radical newness or emergent character is an
+important element in its definition since robust manufacturing infrastructure is either limited or
+nonexistent.”).
+5 Gavriel Avigdor & Rene Wintjes, Trend Report: Disruptive Innovations and Forward-Looking Policies
+Towards Smart Value Chains 5-7 (European Union, Business Innovation Observatory No. 190, 2015),
+http://goo.gl/PUwnwn.
+4
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+emerging disruptive trends in constantly accelerating and changing ways. Disruptive
+technology convergence can bring with it unexpected and sudden changes in areas that
+are already quietly incubating. These new developments and trends are going to
+increasingly impact consumer preferences and behavior, products, the financial industry,6
+industry practices, delivery channels, and possible regulatory responses to changes in any
+of these. The ex-post facts-based and trial-and-error-rulemaking with stable and
+presumptively optimal rules7 in the existing regulatory framework8 often produces
+suboptimal regulatory outcomes that are no longer sustainable in an environment of
+exponential disruptive innovation. While ex-post facts-driven regulation with stable and
+presumptively optimal rules in the historically evolved legal infrastructure was
+sufficiently able to cope with its inherent collective action problems,9 regulatory cycles,10
+trial-and-error rulemaking,11 systemic constraints, and path dependencies, the exponential
+6 Chris Brummer, Disruptive Technology and Securities Regulation, 84 FORDHAM L. REV. 977, 977 (2015).
+(“This Article explains how technological innovation ‘disrupts’ not only capital markets but also the
+exercise of regulatory supervision and oversight. It provides the first theoretical account tracking the
+migration of technology across multiple domains of today’s securities infrastructure and argues that an
+array of technological innovations are facilitating what can be understood as the disintermediation of the
+traditional gatekeepers that regulatory authorities have relied on (and regulated) since the 1930s for
+investor protection and market integrity.”).
+7 The existing regulatory infrastructure, including Congress, regulatory agencies, self-regulatory bodies, and
+the literature on regulation, relies almost exclusively on stable and presumptively optimal rules. Stable and
+presumptively optimal rules are created to address perceived regulatory issues identified by lawmakers
+through centralized information in the then-existing economic and market conditions. Stable and
+presumptively optimal rules, that have sufficient political support at the time of drafting, are tailored and
+drafted to attain permanent solutions for perceived regulatory issues. See Wulf A. Kaal, Evolution of Law:
+Dynamic Regulation in a New Institutional Economics Framework in FESTSCHRIFT ZU EHREN VON
+CHRISTIAN KIRCHNER 1211, 1212 (Wulf A. Kaal, Matthias Schmidt & Andreas Schwartze eds., 2014)
+[hereinafter Kaal in FS Kirchner]. (“[T]he institutional infrastructure for rulemaking was geared towards
+the creation of rules for governing a relatively stable society with less upward mobility and relatively stable
+economic and market environments.”); Wulf A. Kaal, Dynamic Regulation of the Financial Services
+Industry, 48 WAKE FOREST L. REV. 791 (2013) [hereinafter Kaal, Wake Forest]; Wulf A. Kaal, Dynamic
+Regulation via Governmental Contracts, in FESTSCHRIFT FÜR PETER NOBEL ZUM 65, 70 (Peter Sester et al.
+eds., 2015), http://ssrn.com/abstract=2517677 [hereinafter Kaal in Liber Amicorum Peter Nobel]; Wulf A.
+Kaal & Timothy Lacine, The Effect of Deferred and Non-Prosecution Agreements on Corporate
+Governance: Evidence from 1993-2013, 70 BUS. LAW. 61 (2014) [hereinafter Kaal & Lacine 2014].
+8 See KARL POPPER, THE POVERTY OF HISTORICISM (1957); Kaal in FS Kirchner, supra note 7, at 1212
+(“Since then, society and markets have evolved rapidly and are becoming increasingly more complex. The
+growing number of rule enactments, revisions, and revocations suggests that existing rules and institutional
+structures for rulemaking are becoming less capable of addressing the rapid pace of change.”).
+9 John C. Coffee, Jr., The Political Economy of Dodd-Frank: Why Financial Reform Tends To Be
+Frustrated and Systemic Risk Perpetuated, 97 CORNELL L. REV. 1019, 1020-22 (2012); Kaal in Liber
+Amicorum Peter Nobel, supra note 7; Kaal, Wake Forest, supra note 7; Kaal in FS Kirchner, supra note 7.
+Smaller and better-organized special interest groups typically control dispersed investors and other
+dominant latent groups in the competition to influence the rulemaking process. MANCUR OLSON, JR., THE
+LOGIC OF COLLECTIVE ACTION (1965). The predominance of special interest groups in the rulemaking
+process can be temporarily overcome during and after crises when political entrepreneurs assume the
+transaction costs of organizing the otherwise disinterested latent groups. ELINOR OSTROM, GOVERNING THE
+COMMONS: THE EVOLUTION OF INSTITUTIONS FOR COLLECTIVE ACTION (1990).
+10 Coffee, supra note 9; Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal in FS Kirchner, supra
+note 7.
+11 Kaal, Wake Forest, supra note 7; Kaal in FS Kirchner, supra note 7; Popper, supra note 8; Christian
+Kirchner, Evolution of Law̶̶̶̶̶̶: Interplay Between Private and Public Rule-Making ─ A New Institutional
+5
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+growth of disruptive innovation is likely to expose the depth of insufficiencies and design
+flaws of the existing regulatory and institutional infrastructure. More specifically, in an
+environment of exponential disruptive innovation, relevant information for rulemaking is
+less likely to materialize soon enough for traditional rulemaking to be effective,
+regulatory issues become increasingly complex, and unknown future contingencies
+increase substantially in the rulemaking process.12 In short, exponential disruptive
+innovation has the potential to overwhelm the existing regulatory process.13
+Policy makers and scholars are debating possible policy responses to address the
+regulatory challenges associated with disruptive innovation. Some suggest that the
+regulatory challenges associated with disruptive innovation can only be effectively
+addressed through principles-based regulation because the existing rulemaking
+procedures lack sufficient speed and flexibility.14 Others see disruptive innovation
+predominantly as a competition law (unfair competition) and antitrust issue.15 Consider
+the online transportation network company, Uber, and the online marketplace for
+vacation homes, Airbnb. Early intervention,16 rulemaking petitions, and retrospective
+review may be more appropriate remedies for the effects of disruptive innovation that
+also can help address the regulatory sine curve.17 Assuming that regulatory innovation is
+subject to an interdependent ecological system, others propose networks for the diffusion
+of improved regulatory technology.18 Recognizing that ex ante regulation has diminished
+in significance in the context of regulating disruptive innovation and artificial intelligence
+(AI), others see research, development, and public operation as the only ways to identify
+harmful innovation.19 Chris Brummer suggests a form of regulatory experimentalism
+Economics Analysis, 4 ERASMUS L. REV. 161 (2012).
+12 See infra notes 91-97 and accompanying text.
+13 Because rulemakers are still attempting to comprehend the regulatory demands of the last wave of
+innovative solutions, technologies, and applications while the next wave of innovation is already in full
+force, exponential disruptive innovation is likely to intensify the frequencies of the regulatory sine curve
+that is recognized by the literature. Kaal, Wake Forest, supra note 7; Coffee, supra note 9, at 1029-37; John
+C. Coffee, Jr., Systemic Risk After Dodd-Frank: Contingent Capital and the Need for Regulatory Strategies
+Beyond Oversight, 111 COLUM. L. REV. 795, 821 (2011).
+14 Barefoot, infra note 52, at 9.
+15 Inge Graef et al., How Google and Others Upset Competition Analysis: Disruptive Innovation and
+European Competition Law (Conference Paper, 25th European Regional Conference of the International
+Telecommunications Society, Brussels, Belgium, Jun. 22-25, 2014),
+http://econstor.eu/bitstream/10419/101378/1/795226780.pdf.
+16 Nathan Cortez, Regulating Disruptive Innovation, 29 BERKELEY TECH. L.J. 175, 201-04 (2014) (“With
+novel technologies, agencies also risk paralysis by analysis. New technologies often present unforeseen
+risks if under-regulated and dramatic opportunity costs if overregulated. The inclination of most regulators
+is to avoid both extremes. . . . Regulators also tend to overvalue gathering information about new
+technologies, which further distorts decisions on regulatory timing. . . . [E]arly interventions can benefit
+both regulated industry and regulatory beneficiaries. . . . [E]arly interventions may also benefit from a more
+objective regulatory atmosphere, before parties become entrenched and adversarial.”).
+17 Reeve T. Bull, Building a Framework for Governance: Retrospective Review and Rulemaking Petitions,
+67 ADMIN. L. REV. 265, 293-306 (2015) (urging regulatory agencies to expand the use of petitions for
+rulemaking and retrospective review to achieve smarter regulation).
+18 Jonathan B. Wiener, The Regulation of Technology, and the Technology of Regulation, 26 TECH. IN
+SOC’Y 483, 496 (2004) (“Fourth, we should foster networks for the diffusion of regulatory innovations.
+Just as private technology diffusion is crucial to economic prosperity, so the diffusion of improved public
+regulatory technology is crucial to social progress.”).
+19 Scherer, infra note 65, at 357.
+6
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+including selectively adopting trial periods for new regulatory approaches.20 This form
+of micro-level regulatory experimentation could later be expanded to “system-wide
+enterprise zones for financial market compliance and regulatory adaptation.”21
+An emerging literature explores the use of informal regulation.22 Wu suggests that
+traditional rulemaking is regularly impracticable in rapidly developing industries where
+highly informal methods can be justified.23 Rather than relying on traditional regulatory
+means in the existing regulatory framework, Wu suggests that regulatory agencies
+confronting disruptive innovations should utilize “threats” for the disruptive industries,
+packaged in guidance documents, warning letters etc., because such threats can help
+avoid regulation that is inappropriately calibrated or premature. 24 Threats are less
+burdensome than traditional regulatory approaches, more flexible, can be better fine-
+tuned, and signal regulatory intent appropriately.25
+We apply a data-driven approach that enables dynamic regulation as established
+by Kaal26 to regulatory issues associated with disruptive innovation. The theory of
+dynamic regulation conceptualizes the study of regulatory phenomena in relation to
+20 Brummer, supra note 6, at 1044 (“So for example, the ban on general solicitation could be lifted for five
+years, with a sunset provision triggered absent some additional regulatory blessing. Or more onerous
+investigatory requirements on portals could be lifted where other (statistical or algorithmic) technologies
+are used to test or limit exposures of retail investors in crowdfunded securities, but likewise set to expire
+absent some regulatory finding that they insufficiently track or identify breaches in prudential requirements
+for investors.”).
+21 Id. at 1047 (“So, for example, avenues of special information sharing and expedited assistance could be
+opened with targeted industry members for the fulfillment of desired regulatory objectives. Or investment
+tax credits could be provided for market participants that undertake strategies to bolster investor protection
+or market stability.”).
+22 See e.g., Tim Wu, Agency Threats, 60 DUKE L.J. 1841 (2011).
+23 Id. at 1841 (“There are three main ways in which agencies regulate: rulemaking; adjudication; and
+informal tools of guidance, also called nonlegislative or interpretative rules. Over the last two decades,
+agencies have increasingly favored the use of the last of these three, which can include statements of best
+practices, interpretative guides, private warning letters, and press releases.”).
+24 Id. at 1849 (“Of the three options, the first--making law--may be the worst alternative. What sounds
+attractive is the prospect of an orderly, planned approach to the future. The problem is that, with so little
+known about the industry, issuing specific rules based on guesses about the future runs a grave risk of
+creating a bad law, or at least a law that is much worse than one issued after more development. Such
+lawmaking suffers from all of the defects that Friedrich Hayek identified with central planning--impressive
+in a world of perfect information, but terrible in this world.”); Contra Cortez, supra note 16, at 175
+(arguing that “a flexible initial posture based primarily on ‘threats’ can calcify, creating weak defaults that
+lead to suboptimal regulation in the long term. . . .If agencies are concerned about regulating prematurely or
+in error, then they can experiment with timing rules, alternative enforcement mechanisms, and other
+variations on traditional interventions. If agencies do choose to proceed by making threats, then they should
+use them as a short-term precursor to more decisive, legally binding action, as the FCC did, and avoid
+relying on them as a long-term crutch, as the FDA did.”); Jerry Brito, "Agency Threats" and the Rule of
+Law: An Offer You Can't Refuse, 37 HARV. J.L. & PUB. POL'Y 553, 554 (2014) (“I conclude that not only is
+Wu's thesis wrong, but it is also dangerous. Part I of this article reviews Wu's essay, defining what
+constitutes an agency threat and when it is justified according to Wu. Part II critiques Wu's thesis by
+showing, among other things, that it is based on a false dilemma; that it assumes an unwarranted level of
+knowledge on the part of regulators; that it assumes--contrary to evidence--that regulators are good proxies
+for the public interest; and that it ignores the costs of eschewing the regulatory process.”).
+25 Wu, supra note 22, at 1843 (“Both agency and industry will sometimes share an interest in an informal
+and flexible regime that resembles an unenforceable ‘letter of intent’ in the world of private contracts.”)
+26 Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal, Wake Forest, supra note 7; Kaal in FS
+Kirchner, supra note 7.
+7
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+preceding and succeeding events, using institution-specific and decentralized information
+to facilitate feedback effects for anticipatory rulemaking.27 The dynamic regulatory
+framework allows rulemaking to overcome its historic constraints and path dependencies
+that traditionally focused the rulemaking process on stable and presumptively optimal
+rules. Evolving from a historically reactive process based only on preceding events/facts
+and driven by the agency and collective-action problems of rulemaking, rulemaking in a
+dynamic framework allows for the anticipation of future innovation trends and their
+associated contingencies. Most important for the context of this article, the rapid pace of
+technological developments in the telecommunications industry necessitated the use of
+dynamic elements in regulation.28 The exponential growth of innovation discussed in this
+article29 shows some parallels to the pace of technological developments in
+telecommunications markets.
+We show that data derived from venture capital investments can function as a
+dynamic regulatory supplement for disruptive innovation. Venture capital’s financial
+allocations to innovative projects can provide feedback for dynamic regulation of
+disruptive innovation. We show how this approach can help optimize the timing of
+regulation and provide anticipatory rules. We use a PitchBook Data, Inc. dataset on
+venture capital investments with over 75,000 venture capital deals to illustrate that
+venture capital finance allocation and deal flow, among other venture capital related data,
+provide institution-specific decentralized information on innovation trends that can
+provide feedback effects for dynamic regulation of disruptive innovation. Venture
+capitalists’ investment allocations can measure both the risks associated with innovative
+developments as well as the economic opportunities associated with such innovation.
+This article has seven parts. After this brief introduction in Part I, Part II defines
+the phenomenon of disruptive innovation. Part III analyzes the regulatory challenges
+presented by disruptive innovation. Part IV introduces the theoretical framework for
+dynamic regulation before Part V introduces the data and evaluates different venture
+capital metrics that provide feedback for regulators on innovation. In Part VI we discuss
+how the information and feedback provided by venture capital data can be used as a
+dynamic supplement for regulation. Part VII concludes.
+II. Characteristics of Disruptive Innovation
+Disruptive innovation is characterized by scientific discoveries that change the
+existing technological product paradigms and provide the foundation for more
+competitive new technologies and products to emerge.30 By enabling discontinuous
+innovations of processes, products, and services, disruptive technological innovations
+27 Id at 11.
+28 See Johannes M. Bauer & Erik Bohlin, From Static to Dynamic Regulation: Recent Developments in US
+Telecommunications Policy, 43 INTERECONOMICS 38, 40–42 (2008) (discussing competition in
+telecommunications); Paul W.J. de Bijl & Martin Peitz, Dynamic Regulation and Entry in
+Telecommunications Markets: A Policy Framework, 16 INFO. ECON. & POL’Y 411, 411 (2004); Machiel
+van Dijk & Machiel Mulder, Regulation of Telecommunication and Deployment of Broadband (CPB
+Netherlands Bureau for Economic Policy Analysis No. 131, Dec. 2005),
+https://ideas.repec.org/p/cpb/memodm/131.html (exploring whether telecommunication regulations
+encourage or hamper new technological development).
+29 See infra notes 30-55 and accompanying text.
+30 See supra note 2.
+8
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+facilitate exponential improvements in the value proposition for customers.31 Disruptive
+technological innovation can be characterized by the emergence of completely new
+technologies, the new combination and application of existing technologies, and the
+application of new technologies to specific societal problem areas, each precipitating a
+significant paradigm shift for product technology or creating entirely new paradigms.32
+Disruptive innovation exemplifies Schumpeter’s “Creative Destruction,”33 i.e., the
+creation of competitive strength through innovation that is followed by new demand in
+new markets while destroying older and less competitive technologies and existing
+markets that are based on older and less competitive technologies.34
+The literature on management has studied the implications of disruptive
+technologies and innovation since the mid 1990s.35 The literature warned businesses
+that disrupter startups would attract new lower-end consumers by offering inexpensive
+substitutes for products and would then gradually move upmarket by attracting higher-
+end consumers, suggesting that businesses act quickly when disrupters appear and either
+acquire the disrupter or incubate a competing business that embraces the disruptive
+technology. 36 A market leader’s lack of investment in disruptive technologies often
+results in the abrupt loss of market dominance and often even total replacement in such
+markets.37 Market leaders often shortsightedly refuse to cannibalize their market dominance
+through the use of disruptive technologies. This enables small entrepreneurial firms with no
+established customer base to take advantage of disruptive technologies and redefine such
+31 See supra note 4.
+32 Kostoff et al., supra note 2, at 142; Steven T. Walsh & Jonathan D. Linton, Infrastructure for Emergent
+Industries Based on Discontinuous Innovations, 12 ENG. MGMT. J. 23, 24 (2000).
+33 Schumpeter described the “gaels of creative destruction,” often unleashed by technology, that
+periodically sweep through industries and sink weak and outdated firms. JOSEPH A. SCHUMPETER,
+CAPITALISM, SOCIALISM, AND DEMOCRACY 83-84 (3rd ed.1962) (“The opening up of new markets, foreign
+or domestic, and the organizational development from the craft shop and factory to such concerns as U.S.
+Steel illustrate the process of industrial mutation that incessantly revolutionizes the economic structure
+from within, incessantly destroying the old one, incessantly creating a new one. This process of Creative
+Destruction is the essential fact about capitalism. It is what capitalism consists in and what every capitalist
+concern has got to live in. . . . Every piece of business strategy acquires its true significance only against
+the background of that process and within the situation created by it. It must be seen in its role in the
+perennial gale of creative destruction; it cannot be understood irrespective of it or, in fact, on the hypothesis
+that there is a perennial lull.”)
+34 Aron S. Spencer & Bruce A. Kirchhoff, Schumpeter and New Technology Based Firms: Towards a
+Framework for How NTBFs Cause Creative Destruction, 2 INT’L ENTREPRENEURSHIP & MGMT. J. 145, 148
+(2006) (“However, the new entrant is able to find or create a market for the innovation, where it matures,
+and improves in performance. When the performance achieves rough parity with the old product, the new
+product sweeps through the market, offering equal or superior performance along with a smaller size and
+reduced price. The old product, and frequently the firm that produced it, exit the market. It is quite clear
+that this phenomenon is, in fact, ‘creative destruction’.”).
+35 CLAYTON M. CHRISTENSEN, THE INNOVATOR’S DILEMMA: WHEN NEW TECHNOLOGIES CAUSE GREAT
+FIRMS TO FAIL (1997); GEOFFREY MOORE, CROSSING THE CHASM (1991).
+36 Bower & Christensen, supra note 2; LARRY DOWNES & PAUL NUNES, BIG BANG DISRUPTION (2013).
+Contra Andrew A. King & Baljir Baatartogokh, How Useful Is the Theory of Disruptive Innovation?, 57
+MIT SLOAN MGMT. REV. 77 (2015) (“In summary, although Christensen and Raynor selected the 77 cases
+as examples of the theory of disruptive innovation, our survey of experts reveals that many of the cases do
+not correspond closely with the theory. In fact, their responses suggest that only seven of the cases (9%)
+contained all four elements of the theory that we asked about.”).
+37 Bower & Christensen, supra note 2, at 43 (“One of the most consistent patterns in business is the failure
+of leading companies to stay at the top of their industries when technologies or markets change.”).
+9
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+markets.38 Market leaders, successful institutions, and managers fail when they do not
+distinguish sustaining technologies from disruptive technologies.39
+Successful disruptive products of the last fifteen years displayed shared core
+characteristics that were facilitated by growth and advancement in core disruptive
+technologies. Revolutionizing products in the past few decades that were based on
+disruptive technological innovation were typically smaller in size, lighter, cheaper, more
+convenient and flexible, more reliable, had better unit performance with higher
+efficiency, and were more user friendly than prior products.40 These characteristics typically
+require significant advances and growth in artificial intelligence and technologies
+including micro- or nanotechnologies, as well as materials and component technologies.
+Disruptive innovation via so-called big-bang disruptions differs from more-
+traditional innovation. Big-bang disruptors not only often offer a much cheaper product
+in comparison with the established products, but they are also better integrated with other
+products and services and are often more inventive.41 In today’s age of social media, big-
+38 Id. at 51 (“Small, hungry organizations are good at placing economical bets, rolling with the punches,
+and agilely changing product and market strategies in response to feedback from initial forays into the
+market.”); Constantinos D. Charitou & Constantinos C. Markides, Responses to Disruptive Strategic
+Innovation, 44 MIT SLOAN MGMT. REV. 55, 56 (2003) (“Second, disruptive strategic innovations usually
+start out as small and low-margin businesses. That’s why they rarely gain support or long-term
+commitment from established competitors. The innovations are small and are not attractive until they start
+growing.”); Contra Larry Downes & Paul Nunes, Big-Bang Disruption, HARV. BUS. REV., MAR. 2013, at
+44, 46, https://hbr.org/2013/03/big-bang-disruption/ (“The strategic model of disruptive innovation we’ve
+all become comfortable with has a blind spot. It assumes that disrupters start with a lower-priced, inferior
+alternative that chips away at the least profitable segments, giving an incumbent business time to start a
+skunkworks and develop its own next-generation products. That advice hasn’t been much help to
+navigation-product makers like TomTom, Garmin, and Magellan. Free navigation apps, now preloaded on
+every smartphone, are not only cheaper but better than the stand-alone devices those companies sell. And
+thanks to the robust platform provided by the iOS and Android operating systems, navigation apps are
+constantly improving, with new versions distributed automatically through the cloud.”).
+39 Sustaining technologies are technologies that improve the performance of existing products through
+close cooperation with customers. By contrast, disruptive technologies provide value parameters not
+recognized by the mainstream market and in the short-run can even show less product performance in
+comparison with the existing products that are valued by the mainstream market. Kostoff et al., supra
+note 2, at 144 (“The near-term individual rewards from sustaining technologies that yield short-term low-
+risk payoffs displace the longer term social benefits that could result from proactive high-risk high-payoff
+disruptive technology selection. The procedural problem is that technology selection decisions, especially in
+large established commercial and government organizations, are increasingly being made by larger and
+more inclusive committees, a process traditionally steeped in tradition and conservatism.
+Revolutionary disruptive concepts are less likely (on average) to receive committee approval than
+evolutionary sustaining concepts.”).
+40 Kostoff et al., supra note 2, at 143; Walsh, supra note 4, at 170 (“Bower and Christensen champion the
+‘different’ nature of disruptive technologies emphasizing that they may not be ‘radically new from a
+technological point of view’ but have superior ‘performance trajectories’ along critical dimensions that
+customers' value. Abernathy and Clark and others argue that disruptive technologies' radical newness or
+emergent character is an important element in its definition since robust manufacturing infrastructure is
+either limited or nonexistent.”).
+41 Downes & Nunes, supra note 38, at 46 (“The first key to survival is understanding that big-bang
+disruptions differ from more-traditional innovations not just in degree but in kind. Besides being cheaper
+than established offerings, they’re also more inventive and better integrated with other products and
+services. And today many of them exploit consumers’ growing access to product information and ability to
+contribute to and share it.”).
+10
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+bang disruptors can successfully exploit consumers’ advanced access to product
+information and consumers’ ability to contribute to products and share such contributions
+and products improvements via social media and other outlets.42 Internet fads and
+products can be accessible to consumers in the entire world within a matter of days.43
+Big-bang disrupters typically launch businesses without a foundation, using cloud
+computing, open platforms built on the internet, and fast-cycling mobile devices. Big-
+bang disrupters often produce multiple new products to identify which products may take
+hold in the market. While most such products will fail, the payoff associated with the
+unconstrained growth of those products that succeed is substantial and facilitates and
+often accelerates other forms of disruptive innovation.44
+Big data is a significant driver of disruptive innovation. The idea of N=All,
+facilitated by big data, allows researchers to understand correlations that are completely
+unprecedented and to revolutionize our world.45 Big data in the form of digitized data
+that grows at exponential rates and can be captured and manipulated electronically draws
+on several core sources including the internet of things, public records, social media, and
+cameras, as well as satellite tracking.46 Big data benefits not only industry and
+researchers; it also increases consumer choice through publicly available websites
+providing big data analyses intended to support consumers’ decision-making processes.
+Despite the overwhelming benefits associated with big data, big data’s use of such
+disparate sources creates challenges for the integration of data and normalizing.47 The
+42 Steve Denning, The Business Disease with No Cure: Big Bang Disruption, FORBES (Feb. 22, 2014,
+3:55PM), http://www.forbes.com/sites/stevedenning/2014/02/22/the-business-disease-without-a-cure-big-
+bang-disruption/ (“And, in today’s world of ‘near perfect market information’ and social media, the best
+quickly becomes a function of social consensus, not objective reality. That is why we say marketing’s main
+function has shifted from selling to creating social consensus.”).
+43 For instance, consumers downloaded an ad-supported version of a game called ”Angry Birds” over a
+million times within the first 24 hours of its release. Seven months thereafter, consumers downloaded that
+game more than 200 million times. Downes & Nunes, supra note 38, at 46.
+44 Id. at 48 (“In the bizarro world of big-bang disrupters, it is perfectly rational to churn out dozens of new
+products and see which ones take hold. Like venture capital investments, most will fail outright. But just
+one success can pay off big.”).
+45 KENNETH CUKIER & VIKTOR MAYER-SCHONBERGER, BIG DATA: A REVOLUTION THAT WILL
+TRANSFORM HOW WE LIVE, WORK AND THINK (2013).
+46 Id.; EXEC. OFFICE OF THE PRESIDENT, BIG DATA: SEIZING OPPORTUNITIES, PRESERVING VALUES 53
+(2014), https://goo.gl/xtDerj (“Big data technologies, together with the sensors that ride on the ‘Internet of
+Things,’ pierce many spaces that were previously private. Signals from home WiFi networks reveal how
+many people are in a room and where they are seated.”); James Manyika et al., Big Data: The Next
+Frontier for Innovation, Competition, and Productivity 15 (McKinsey Global Institute Report, May 2011),
+http://goo.gl/GBzeLR (“We estimate that new data stored by enterprises exceeded 7 exabytes of data
+globally in 2010 and that new data stored by consumers around the world that year exceeded an additional
+6 exabytes. To put these very large numbers in context, the data that companies and individuals are
+producing and storing is equivalent to filling more than 60,000 US Libraries of Congress. If all words
+spoken by humans were digitized as text, they would total about 5 exabytes—less than the new data stored
+by consumers in a year. The increasing volume and detail of information captured by enterprises, together
+with the rise of multimedia, social media, and the Internet of Things will fuel exponential growth in data
+for the foreseeable future.”).
+47 Manyika et al., supra note 46, at 12 (“To capture value from big data, organizations will have to deploy
+new technologies (e.g., storage, computing, and analytical software) and techniques (i.e., new types of
+analyses). The range of technology challenges and the priorities set for tackling them will differ depending
+on the data maturity of the institution. Legacy systems and incompatible standards and formats too often
+prevent the integration of data and the more sophisticated analytics that create value from big data. New
+11
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+literature mostly takes issue with the big data inaccuracies that occur when collecting
+data from databases that merely require generalized accuracy.48 Big data is often not the
+output of instruments designed to generate valid and reliable data suitable for scientific
+analysis. Foundational data issues of construct validity, measurement, reliability, and data
+dependencies are the same regardless of data quantities.49 Some critique the implicit
+assumption of big data researchers that big data is a substitute for traditional data
+collection and analysis rather than a mere supplement50 while others see big data and
+small data not as mutually exclusive but as reinforcing and supporting each other.51 Big
+data shortcomings can largely be addressed with artificial intelligence, and the
+problems and growing computing power will spur the development of new analytical techniques. There is
+also a need for ongoing innovation in technologies and techniques that will help individuals and
+organizations to integrate, analyze, visualize, and consume the growing torrent of big data.”); Christian
+Bizer et al., The Meaningful Use of Big Data: Four Perspectives—Four Challenges, SIGMOD REC., Dec.
+2011, at 56, 57. (“My challenge is meaningful data integration in the real, messy, often schema-less, and
+complex Big Data World of databases and the (Semantic) Web using multi-disciplinary, multi-technology
+methods.”).
+48Bizer et al., supra note 47, at 57 (“The Web is an open medium in which everybody can publish data on
+the Web. As the classic document Web, the Web of Data contains data that is outdated, conflicting, or
+intentionally wrong (SPAM). Thus, one of the main challenges that Linked Data applications need to
+handle is to assess the quality of Web data and determine the subset of the available data that should be
+treated as trustworthy.”); IAN AYRES, SUPER CRUNCHERS: WHY THINKING-BY-NUMBERS IS THE NEW WAY
+TO BE SMART 60-63 (2007) (identifying big data phenomenon); Andrea Lancichinetti et al., High-
+Reproducibility and High-Accuracy Method for Automated Topic Classification, 5 PHYSICAL REV. X
+011007 (2015) (detailing the inaccuracy problems associated with big data text analysis/machine reading
+(called LDA)).
+49 See David Lazer et al., The Parable of Google Flue: Traps in Big Data Analysis, 343 SCIENCE 1203
+(2014); Gary Marcus & Ernest Davis, Eight (No, Nine!) Problems with Big Data, N.Y. TIMES (Apr. 6,
+2014), http://www.nytimes.com/2014/04/07/opinion/eight-no-nine-problems-with-big-data.html (“Reliable
+statistical information can be compiled about common trigrams, precisely because they appear frequently.
+But no existing body of data will ever be large enough to include all the trigrams that people might use,
+because of the continuing inventiveness of language.”); Tim Harford, Big Data: Are We Making a Big
+Mistake?, FIN. TIMES (Mar. 28, 2014), http://goo.gl/2dyox2 ("Statisticians have spent the past 200 years
+figuring out what traps lie in wait when we try to understand the world through data. The data are bigger,
+faster and cheaper these days – but we must not pretend that the traps have all been made safe. They have
+not.”).
+50 Jeff Leek, Why Big Data Is in Trouble: They Forgot About Applied Statistics, SIMPLYSTATS (May 7,
+2014), http://goo.gl/2dyox2 (“Statistical thinking has also been conspicuously absent from major public big
+data efforts so far.”).
+51 Lazer et al., supra note 49, at 1205 (“There is a tendency for big data research and more traditional
+applied statistics to live in two different realms—aware of each other's existence but generally not very
+trusting of each other. Big data offer enormous possibilities for understanding human interactions at a
+societal scale, with rich spatial and temporal dynamics, and for detecting complex interactions and
+nonlinearities among variables. We contend that these are the most exciting frontiers in studying human
+behavior. However, traditional ‘small data’ often offer information that is not contained (or containable) in
+big data, and the very factors that have enabled big data are enabling more traditional data collection. The
+Internet has opened the way for improving standard surveys, experiments, and health reporting. Instead of
+focusing on a ‘big data revolution,’ perhaps it is time we were focused on an ‘all data revolution,’ where we
+recognize that the critical change in the world has been innovative analytics, using data from all traditional
+and new sources, and providing a deeper, clearer understanding of our world.”).
+12
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+combination of big data and artificial intelligence opens up significant additional big data
+applications.52
+Artificial intelligence (AI) presents another significant field of disruptive
+innovation. AI is different from a regular computer algorithm. AI tries to emulate human
+thought processes and rational human behavior through self-learning and storage of
+experiences.53 Because it emulates human behavior, AI can act differently in the same
+situations, depending on the actions previously performed. Many sectors of the economy
+are already significantly affected by the rapid advances in AI during the past decade.54
+The exponential development of AI and the associated disruptive innovation pose
+52 Jo Ann S. Barefoot, Disrupting Fintech Law, FINTECH L. REP., Mar,-Apr. 2015, at 6 (“Terms like
+‘machine learning’, ‘deep learning,’ and ‘neural networks’ are entering the lexicon, referring to the fast-
+growing ability of machines to gather and analyze vast volumes of information in ways, and at speeds,
+hitherto unimaginable. …Computers today can take on a question or task; search all the digitized
+information in the world; analyze what might be responsive to the goal; suggest possibilities; learn from
+feedback; and endlessly improve results. In the medical realm, for instance, machines can diagnose cancer
+with accuracy rivaling and surpassing that of human pathologists, and can ‘collaborate’ with humans to
+enhance the outcomes that either could reach alone. Importantly, machines have ‘noticed’ things they were
+not even asked to find, such as characteristics of tissue outside a malignancy, bringing such observations to
+the attention of doctors who then have pursued new pathways of study and medical diagnosis. Computers
+can conduct searches in seconds, hours, or days that would take humans hours, months, or even years to
+execute. They efficiently synthesize images, data, and words, in any language, from across the globe, and
+then present analysis and conclusions in conversational language and useful graphics.”); Daniel E.
+O’Leary, Artificial Intelligence and Big Data, IEEE INTELLIGENT SYS., Mar.-Apr. 2013, at 96, 97 (“AI
+researchers have long been interested in building applications that analyze unstructured data, and in
+somehow categorizing or structuring that data so that the resulting information can be used directly to
+understand a process or to interface with other applications. As an example, Johan Bollen and Huina Mao
+[footnote omitted] found that stock market predictions of the Dow Jones Industrial average were improved
+by considering the overall ‘sentiment’ of the stock market— this is an unstructured concept, but based on
+structured data generated from Google.”); Maryam M. Najabadi et al., Deep Learning Applications and
+Challenges in Big Data Analytics, 2 J. BIG DATA 11 (2015) (“[P]erforming discriminative tasks in Big Data
+Analytics one can use Deep Learning algorithms to extract complicated nonlinear features from the raw
+data, and then use simple linear models to perform discriminative tasks using the extracted features as
+input. This approach has two advantages: (1) extracting features with Deep Learning adds nonlinearity to
+the data analysis, associating the discriminative tasks closely to Artificial Intelligence, and (2) applying
+relatively simple linear analytical models on the extracted features is more computationally efficient, which
+is important for Big Data Analytics.”).
+53 Robert D. Hof, 10 Breakthrough Technologies 2013: Deep Learning, MIT TECH. REV. (Apr. 23, 2013),
+http://www.technologyreview.com/featuredstory/513696/deep-learning/ (“With massive amounts of
+computational power, machines can now recognize objects and translate speech in real time. Artificial
+intelligence is finally getting smart.”); STUART RUSSELL & PETER NORVIG, ARTIFICIAL INTELLIGENCE: A
+MODERN APPROACH 5 (2013) (describing the different major definitions for AI); Paulius Cerka et al.,
+Liability for Damages Caused by Artificial Intelligence, 31 COMPUTER L. & SEC. REV. 376, 378 (2015)
+(“This belief began to change due to constant improvement of computer systems. Intellect, i.e. the ability to
+know, understand, and think, may not only be innate (natural), but also artificially created. AI is a broad
+area that includes such subfields as: (i) natural language systems; (ii) machine learning; (iii) simulation of
+senses; (iv) neural networks; (v) computer games; (vi) expert systems; and (vii) robotics.”).
+54 Craig E. Karl, The Three Breakthroughts That Have Finally Unleashed AI on the World, WIRED (Oct. 27,
+2014, 6:30AM), http://www.wired.com/2014/10/future-of-artificial-intelligence/ (“Over the past five years,
+cheap computing, novel algorithms, and mountains of data have enabled new AI-based services that were
+previously the domain of sci-fi and academic white papers. [Examples include the:] Self-Driving
+Car…Body Tracker…Personal Photo Archivist…Universal Translator…Smarter News Feed.”).
+13
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+substantial challenges for policy makers in education, financial markets, labor markets,
+and other areas.55
+III. Disruptive Innovation as a Regulatory Challenge
+Regulatory concerns associated with disruptive technologies will likely increase in
+the coming years. Disruptive innovative technology often does not fit into existing legal
+categories created by recalcitrant regulatory structures.56 Examples of existing regulatory
+concerns that may be exacerbated by future developments include the possible hacking of
+digital devices either to obtain information or to take control, the remote controlling of a
+driverless car, the hacking of pacemakers of influential elites, and the remote controlling
+of an individual’s computer to demand a ransom, among many others.57 AI may not only
+fundamentally challenge traditional employment law structures,58 AI and automation may
+eventually play important roles in causing large dislocations in labor markets.59 In
+finance, it remains unclear how to treat crowdfunding technology that allows firms and
+individuals to raise money through bottom-up funding rather than traditional capital
+55 ERIK BRYNJOLFSSON & ANDREW MCAFEE, THE SECOND MACHINE AGE: WORK, PROGRESS, AND
+PROSPERITY IN A TIME OF BRILLIANT TECHNOLOGIES 205-28 (2014) (discussing policy in the face of
+projected automation of low-skill labor); Tess Townsend, Peter Diamandis: A.I. Will Lead to Massive
+Disruption Across Industries, INC. (Sept. 24, 2015), http://www.inc.com/tess-townsend/diamandis-
+artificial-intelligence.html (“He said self-driving cars will render car insurance and the need for more roads
+obsolete. He anticipates his children will never drive. He projected that advances in camera technology will
+lead to cameras woven into clothes, biometric sensing will ‘massively disrupt’ medicine, and satellites will
+be able to watch raw materials entering factories and finished products leaving them, enabling smart AI to
+extract financial performance data ahead of the markets.”).
+56 Examples include the question of how to categorize those who participate in the sharing economy into
+the standard employee-independent contractor framework, how crowdfunding works with the regulatory
+structure of private securities offerings, or how cryptocurrencies (such as BitCoin) fit with regulatory
+structure around currencies and bank reporting requirements. See Felix Salmon, When Disruption Meets
+Regulation, REUTERS (Jan. 30, 2014), http://blogs.reuters.com/felix-salmon/2014/01/30/when-disruption-
+meets-regulation/; Balaji S. Srinivasan, Regulation, Disruption, and the Technologies of 2013,
+http://goo.gl/sjZ3tF (providing an overview of the major conflicts between the traditional regulatory
+structures and innovative disruptors, with quotes from Elon Musk, Airbnb founders, other top
+entrepreneurs).
+57 Mark Harris, Researcher Hacks Self-Driving Car Sensors, IEEE SPECTRUM (Sept. 4, 2015, 19:00 GMT),
+http://goo.gl/rrlnP6; Aarti Shanani, Ransomware: When Hackers Lock Your Files, To Pay or Not To Pay,
+NPR ALLTECHCONSIDERED (Dec. 8, 2014, 6:27AM ET), http://goo.gl/8Ybj8o; Tarun Wadhwa, Yes, You
+Can Hack a Pacemaker (and Other Medical Devices Too), FORBES (Dec. 6, 2012, 8:31AM),
+http://goo.gl/oglPhS.
+58 There are major issues of whether to classify Uber and Lyft drivers as independent contractors or
+employees. Uber’s innovative model essentially requires them to be non-employees, but many claim such
+classification harms existing firms that have to comply with California’s extensive labor law requirements.
+Berwick v. Uber Tech., Inc., No. 11-46739 EK, 2015 WL 4153765 (CA Dep’t of Labor Jun. 3, 2015)
+(deciding Uber workers were indeed employees, and Uber must comply with California labor law in this
+regard). See also Mike Isaac & Natasha Singer, California Says Uber Driver Is Employee, Not a
+Contractor, N.Y. TIMES, Jun. 17, 2015, http://www.nytimes.com/2015/06/18/business/uber-contests-
+california-labor-ruting-that-says-drivers-should-be-employees.html?_r=0.
+59 John Komlos, Has Creative Destruction Become More Destructive? (NBER Working Paper No. 20379),
+http://www.nber.org/papers/w20379 (suggesting that the creative destruction aspect of capitalism is being
+amplified, especially in labor markets, by the exponential pace of technology).
+14
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+markets.60 While acknowledging positive traits associated with crowdfunding technology,
+many commentators are concerned about the possibility of fraud, the breakdown of
+traditional protections for small investors, privacy violations, and intellectual property
+issues.61
+AI and its disruptive capabilities present significant regulatory challenges in the
+existing regulatory framework. AI’s ability to accumulate and learn from experiences, to
+make individual decisions, and to act without supervision creates the possibility of
+causing damage to other technologies or humans. 62 Should AI unknowingly cause
+damage, any forms of compensation would have to be addressed through existing legal
+provisions in the existing regulatory framework. However, national and international law
+do not (currently) recognize AI as a subject of law. Without legal personality, AI cannot
+be personally liable for damages.63 With autonomous AI playing an expanding role in
+society, an increasing number of scientists and entrepreneurs suggest that government
+regulation may be necessary to reduce the risks to the public associated with the rapid
+advances in AI.64 While some favor an indirect form of AI regulation based on
+differential tort liability, 65 others oppose rigid regulation of AI because regulation may
+inhibit the socially beneficial innovations associated with AI, or they suggest such
+60 Thomas L. Hazen, Crowdfunding or Fraudfunding? Social Networks and the Securities Laws--Why the
+Specially Tailored Exemption Must Be Conditioned on Meaningful Disclosure, 90 N.C. L. REV. 1735, 1736
+(2012) (“Social networks have been used as a medium for financing films and other forms of art, as well as
+for charitable solicitations. These and similar fundraising endeavors are known as crowdfunding.
+Crowdfunding is the fundraising analog to crowdsourcing, which refers to mass collaboration efforts
+through large numbers of people, generally using social media or the Internet.”).
+61 See generally id.; Letter from William F. Galvin, Secretary of the Commonwealth of Massachusetts, to
+Elizabeth M. Murphy, Secretary, U.S. Securities and Exchange Commission 1-2 (Aug. 8, 2012),
+http://www.sec.gov/comments/jobs-title-iii/jobstitleiii-121.pdf (“Crowdfunding represents a significant
+departure from long-established rules for public offerings of securities. . . . Crowdfunding is designed to
+permit the smallest investors to participate in securities offerings by early-stage companies. Our experience
+is that these investors are especially vulnerable in the small-company segment of the market.”).
+62 Cerka et al., supra note 53, at 376 (“The ability to accumulate experience and learn from it, as well as the
+ability to act independently and make individual decisions, creates preconditions for damage. Factors
+leading to the occurrence of damage identified in the article confirm that the operation of AI is based on the
+pursuit of goals. This means that with its actions AI may cause damage for one reason or another; and thus
+issues of compensation will have to be addressed in accordance with the existing legal provisions.”).
+63 Id. (“In the absence of direct legal regulation of AI, we can apply article 12 of United Nations
+Convention on the Use of Electronic Communications in International Contracts, which states that a person
+(whether a natural person or a legal entity) on whose behalf a computer was programmed should ultimately
+be responsible for any message generated by the machine. Such an interpretation complies with a general
+rule that the principal of a tool is responsible for the results obtained by the use of that tool since the tool
+has no independent volition of its own. So the concept of AI-as-Tool arises in the context of AI liability
+issues, which means that in some cases vicarious and strict liability is applicable for AI actions.”).
+64 Sharon Gaudin, A.I. Researchers Say Elon Musk’s Fears ‘Not Completely Crazy’, COMPUTERWORLD
+(Oct. 29, 2014, 1:16PM PT), http://goo.gl/3K91LD (“I think we should be very careful about artificial
+intelligence," Musk said when answering a question about the state of AI. "If I were to guess at what our
+biggest existential threat is, it's probably that …With artificial intelligence, we are summoning the demon.
+In all those stories with the guy with the pentagram and the holy water, and he's sure he can control the
+demon. It doesn't work out.”); Rory Cellan-Jones, Stephen Hawking Warns Artificial Intelligence Could
+End Mankind, BBC NEWS (Dec. 2, 2014), http://www.bbc.com/news/technology-30290540 (“He told the
+BBC: ‘The development of full artificial intelligence could spell the end of the human race.’").
+65 Matthew U. Scherer, Regulating Artificial Intelligence Systems: Risks, Challenges, Competencies, and
+Strategies, 29 HARV. J. L. & TECH. 353 (2016).
+15
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+regulation is impossible in the face of such a powerful and exponentially growing
+technology.66 AI is currently not able to match human-level reasoning,67 but it can still
+have an impact on the service industries, among others.68
+A regulatory response to disruptive innovation requires policy makers to balance
+legitimate policy objectives such as consumer protection, privacy, and public welfare
+while avoiding regulatory capture and policies that predominantly protect incumbent
+firms. In the startup phase and before gaining substantial market share, disruptive firms
+often create products or provide services that either do not fit into the existing regulatory
+framework and the protections provided thereby, or such disruptive products and services
+do not or do not fully comply with existing regulatory protections. In the latter case,
+disruptive firms often argue that because of the unprecedented nature of the disruptive
+product or service the existing rules do not or should not apply or that compliance with
+the existing rules is not necessary to protect the public because more appropriate
+consumer protections are available through the disruptive firm.69 If disruptive firms do
+not comply with existing rules or create their own exemptions because the existing
+66 You, Robot?, ECONOMIST (Sept. 1, 2012), http://www.economist.com/node/21560986 (“Regulators must
+tread carefully. Noel Sharkey, a computer scientist at the University of Sheffield, observes that overly rigid
+regulations might stifle innovation. But a lack of legal clarity leaves device-makers, doctors, patients and
+insurers in the dark. The RoboLaw researchers hope to square this circle when they deliver their findings in
+2014. So far, though, they seem to have more questions than answers.”); John Danaher, Is Regulation of
+Artificial Intelligence Possible?, H+ MAG. (Jul. 15, 2015), http://goo.gl/vMw8et (“Despite these worries,
+debates about the proper role of government regulation of AI have generally been lacking. There are a
+number of explanations for this: law is nearly always playing catch-up when it comes to technological
+advances; there is a decidedly anti-government libertarian bent to some of the leading thinkers and
+developers of AI; and the technology itself would seem to elude traditional regulatory structures.”).
+67 Richard Waters, Artificial Intelligence: Machine v. Man, FIN. TIMES (Oct. 31, 2015),
+http://goo.gl/8gaWQn (“Their effort is prompted by a fear of what will happen when computers match
+humans in intelligence. At that point, humans would cede leadership in technological development, since
+the machines would be capable of improving their own designs by themselves. And with the accelerating
+pace of technological change, it wouldn’t be long before the capabilities – and goals – of the computers
+would far surpass human understanding.”).
+68 Harry Surden, Machine Learning and Law, 89 WASH. L. REV. 87, 88 (2014) (“In the last few decades,
+researchers have successfully used machine learning to automate a variety of sophisticated tasks that were
+previously presumed to require human cognition. These applications range from autonomous (i.e., self-
+driving) cars, to automated language translation, prediction, speech recognition, and computer
+vision. Researchers have also begun to apply these techniques in the context of law.”).
+69 Benjamin G. Edelman & Damien Geradin, Efficiencies and Regulatory Shortcuts: How Should We
+Regulate Companies Like Airbnb and Uber? 19 Stan. Tech. L. Rev. 293, 295-96 (2016),
+http://journals.law.stanford.edu/stanford-technology-law-review/print/volume-19/issue-2/efficiencies-and-
+regulatory-shortcuts-how-should-we-regulate-companies (“[W]e observe that many platform operators
+advertise their services as ‘sharing.’ For example, short-term property rental service Airbnb says its service
+lets hosts ‘share their homes with guests’ while transportation service Lyft says it offers ‘ridesharing.’ The
+term ‘sharing’ partially captures some aspects of these companies’ activities, e.g., employing a single
+resource for multiple purposes, such as using a vehicle both for an owner’s personal needs and to transport
+paying passengers. Moreover, the key efficiencies generally do not come from ‘sharing’ but from the
+market structure that platforms facilitate, including casual service providers who avoid the fixed cost and,
+often, regulation associated with traditional service.”); Andy Kessler, The Weekend Interview with Brian
+Chesky: The ‘Sharing Economy’ and Its Enemies, WALL ST. J., Jan. 18-19, 2014, at A11. [Uber cofounder
+Brain Chesky said of the current regulatory structure]: “There were laws created for businesses, and there
+were laws for people. What the sharing economy did was create a third category: people as businesses,” to
+which the application of existing laws is often unclear.).
+16
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+regulatory framework does not apply and appropriate rules are not available, public
+policy goals can be undermined and incumbent firms that continue to be subject to
+existing rules encounter often severe competitive disadvantages.70 To counteract such
+disadvantages, incumbent firms that are exposed to a perceived threat of disruptive
+innovation from disruptive firms may attempt to use the existing regulatory process to
+create obstacles for disruptive firms to compete.
+The anticipated level of innovation in the next thirty years71 makes it increasingly
+less likely that rulemakers will be able to effectively protect the public while harnessing
+innovation for the benefit of society. The combination of harm and possible benefits that
+are associated with disruptive innovation can either equally affect both consumers and
+providers or it can benefit a subset of consumers and providers while another subset
+suffers adverse consequences; it can also create tradeoffs for subsets of providers and
+consumers. As accelerating disruptive technology creates new complexity for society at a
+rapidly accelerating pace, especially in significant growth areas such as robotics,
+nanotechnology, and biotechnology,72 society increasingly struggles with analyzing the
+wealth of new, beneficial, and ever more detailed information received from disruptive
+technologies.73 The negative and positive impact of disruptive innovation will trigger
+political and policy pressures for and against various regulatory responses to change. The
+political system is, however, less likely to be able to deal with the challenges of
+disruptive innovation because the increasing complexity of innovation-driven regulatory
+issues causes political and policy makers’ confusion over rapidly-emerging disruptive
+change, making a coherent political and policy solution to these challenges less likely.
+The existing regulatory infrastructure cannot sufficiently distinguish and harness
+beneficial innovation. Rulemakers’ inability to address regulatory issues associated with
+disruptive innovation will likely generate high levels of legal uncertainty and
+inconsistency74 that inhibit innovation during technological transition periods; and
+technological transition is likely going to be a permanent state in the age of disruptive
+70 See Edelman & Geradin, supra note 69, at 23 (“Most regulatory regimes require full service to
+disfavored groups, including racial minorities, low-income users, and low-income regions. Software
+platforms tend to circumvent these requirements, either through decentralized decision-making that favors
+individual preferences over government mandates, or through software implementations that otherwise do
+not require compliance.”).
+71 See supra notes 30-55 and accompanying text.
+72 See infra Table 4.
+73 John O. McGinnis, Accelerating Ai, 104 NW. U. L. REV. 1253, 1269 (2010) (“The problem now is that
+the information available to be processed may be swelling beyond human capacity to achieve sound social
+decisionmaking without the aid of AI.”).
+74 Barefoot, supra note 52, at 18 (“[The United States has] five federal agencies that directly examine and
+supervise financial institutions (Comptroller of the Currency, FDIC, Federal Reserve Board, CFPB, and
+National Credit Union Administration (NCUA)). At least 20 federal agencies regulate some aspect of
+financial products, from mortgages and student loans to retirement funds, and/or have enforcement
+mandates that include financial services, as with the Department of Justice (DOJ) and the FTC. Much of
+this complexity is multiplied by fifty at the state level, plus insurance products are almost entirely regulated
+by the states. . . . All or most of these regulatory bodies have at least fragmentary responsibility relating to
+the broad, overarching consumer protection themes discussed above, such as privacy, data security, UDAP,
+fair lending, and the like. As these and other regulatory standards shift and escalate under pressure from
+fast-changing technology, it seems inevitable that the complexity of this structure will exacerbate
+uncertainty and inconsistency in regulatory expectations, and will militate against modernization that might
+address problems efficiently and serve consumers well.”).
+17
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+innovation, which exacerbates the uncertainty and inconsistency created by rulemakers’
+inability to react timely and adequately to disruptive innovation. In the existing
+regulatory framework, regulators and commenters are engaged in a long, drawn-out
+feedback process that involves hearings, proposed rules, the submission of comment
+letters, and finally agency lawyers finalizing a rule after considering the comments. The
+current regulatory framework lacks a mechanism that succinctly and anticipatorily
+informs rulemakers of beneficial innovative ideas. In fact, the existing rulemaking
+process prohibits ex parte communications and insufficiently integrates brainstorming
+and ideas across industries, and therefore may actually undermine innovation.
+1. Ex Post Facts-Based (Trial-and-Error) Rulemaking
+The ex-post facts-based, trial-and-error-rulemaking in the existing regulatory
+framework75 often produces suboptimal regulatory outcomes that may no longer be
+sustainable as disruptive innovation accelerates and causes unprecedented societal
+change. The ex-post facts-based approach to rulemaking has functioned in the existing
+regulatory framework because optimal requirements for rules do become clear when
+stable and presumptively optimal rules emerge as suboptimal. A prerequisite for
+rulemaking is thus the availability of the information on optimized rule requirements. In
+an age of exponential innovation, that information may not materialize at all or may not
+materialize in time for traditional rulemaking to be effective. In other words, because
+facts-based rulemaking did not anticipate regulatory issues created by innovation,
+rulemakers may not at all or much too late realize what new regulatory demands apply to
+a given innovation and associated regulatory issue.
+2. Stable and Presumptively Optimal Rules
+The existing regulatory infrastructure, including Congress, regulatory agencies, self-
+regulatory bodies, and the literature on regulation, relies almost exclusively on stable and
+presumptively optimal rules.76 Such stable and presumptively optimal rules are created to
+address perceived regulatory issues identified by lawmakers through centralized
+information in the then-existing economic and market conditions. Stable and
+presumptively optimal rules are tailored and drafted to attain permanent solutions for
+perceived regulatory issues that can be addressed with sufficient political support at the
+time of drafting.77 The underlying conditions for rulemaking and the corresponding
+requirements for optimal and stable rules are, however, subject to constant and ever-
+increasing amounts of change.78 The exponential growth of technology, the associated
+exponential growth of innovation, and the resulting growth in the complexity of
+regulatory issues will likely require ever-increasing numbers of governance adjustments
+75 Popper, supra note 8; Kirchner, supra note 11.
+76 See Kaal in FS Kirchner, supra note 7, at 1212 (“[T]he institutional infrastructure for rulemaking was
+geared towards the creation of rules for governing a relatively stable society with less upward mobility and
+relatively stable economic and market environments.”); Kaal, Wake Forest, supra note 7; Kaal in Liber
+Amicorum Peter Nobel, supra note 7; Kaal & Lacine 2014, supra note 7.
+77 Kaal in FS Kirchner, supra note 7, at 1218.
+78 Id.
+18
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+via stable and presumptively optimal rules,79 making it increasingly less likely that
+rulemakers will be able to effectively protect the public via stable and presumptively
+optimal rules. If rulemakers cannot adequately protect their constituents, regulatory
+supplements facilitating anticipatory rulemaking may be justified.
+The existing regulatory infrastructure with stable rules and stable rulemaking
+processes is subject to significant systemic constraints and path dependencies.
+Historically, a comparatively small, stable, and less interconnected society with limited
+upward mobility and relatively stable economic and market environments for rulemaking
+created an institutional infrastructure for rulemaking that produces stable and
+presumptively optimal rules to address a limited set of readily identifiable regulatory
+issues.80 Because of the limited scope of regulatory issues and the need for consensus-
+driven institutional designs, the historically evolved infrastructure for rulemaking could
+cope with its inherent collective action problems,81 regulatory cycles,82 and trial-and-error
+rulemaking,83 without major disruptions. The exponential growth of technology and its
+associated disruptive innovation84 are likely to expose the depth of issues related to the
+path dependencies in the existing regulatory infrastructure and the associated design
+flaws of the institutional infrastructure.
+3. Timing
+The timing of regulation in an environment of disruptive innovation should be a
+primary concern for policy makers. If policy makers regulate too early, they risk
+inhibiting innovation; if they withhold regulation too long, they may harm consumers and
+markets if regulatory inertia sets in around the disruptive product or service. The time
+frame for rulemaking in the existing regulatory infrastructure may be inadequate to
+address regulatory challenges associated with disruptive innovation. In the existing
+regulatory framework, regulators and commenters are engaged in a long, drawn-out
+feedback process that involves hearings, proposed rules, the submission of comment
+79 MAEVE P. CAREY, COUNTING REGULATIONS: AN OVERVIEW OF RULEMAKING, TYPES OF FEDERAL
+REGULATIONS, AND PAGES IN THE FEDERAL REGISTER 17 (Congressional Research Service Report R43056,
+2015), https://fas.org/sgp/crs/misc/R43056.pdf (“As the data show, the number of pages has increased since
+publication of the Federal Register began. The number of pages reached a peak in 1980 at 87,012 pages;
+decreased to 47,418 pages in 1986; then increased again and has been approximately between 65,000 and
+85,000 pages for the past two decades.”).
+80 Kaal in FS Kirchner, supra note 7, at 1212 (“[T]he institutional infrastructure for rulemaking was geared
+towards the creation of rules for governing a relatively stable society with less upward mobility and
+relatively stable economic and market environments.”).
+81 Coffee, supra note 9, at 1019-82; Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal, Wake Forest,
+supra note 7; Kaal in FS Kirchner, supra note 7; Ostrom, supra note 9 (The predominance of special
+interest groups in the rulemaking process can be temporarily overcome during and after crises when
+political entrepreneurs assume the transaction costs of organizing the otherwise disinterested latent groups);
+Olson, supra note 9 (Smaller and better-organized special interest groups typically control dispersed
+investors and other dominant latent groups in the competition to influence the rulemaking process).
+82 Coffee, supra note 9; Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal in FS Kirchner, supra
+note 7.
+83 Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal in FS Kirchner, supra note 7; Kirchner, supra
+note 11, at 161-172; Popper, supra note 8.
+84 See supra notes 30-55 and accompanying text.
+19
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+letters, and finally agency lawyers finalizing a rule after considering the comments85.
+This existing rulemaking process often prohibits ex parte communications,86 involves
+very little brainstorming, and undermines innovation.87 While rulemakers may be able to
+update regulations and regulatory guidance to address regulatory issues created by
+disruptive innovation, given the exponential nature of disruptive innovation,88 they are
+less able to adequately update existing rules in the present regulatory framework. The
+speed of product innovation alone makes formal rulemaking in the existing regulatory
+infrastructure challenging. Formal rulemaking is simply too time-consuming.89 The speed
+of product innovation makes it possible to bring a new product to market while formal
+rulemaking in the existing regulatory infrastructure, taking months and often years of
+regulatory procedure, is still dealing with the last product launch. New regulations
+pertaining to an innovative product could be obsolete before they are finalized.90
+4. Unknown Future Contingencies
+The existing regulatory infrastructure with stable and presumptively optimal rules is
+85 Lynn E. Blais & Wendy E. Wagner, Emerging Science, Adaptive Regulation, and the Problem of
+Rulemaking Ruts, 86 TEX. L. REV. 1701, 1706 (2008) (“[A]gencies systematically engage in excess data
+gathering, protracted analysis of the data and associated public comments, and extraordinarily detailed
+explanation of the bases and purposes of their final rules in an attempt to insulate their policies from
+judicial reversal. . . . This hyperformalization of notice-and-comment rulemaking has several consequences.
+The most obvious is the increase in time and resources required to promulgate each rule.”).
+86 5 U.S.C. § 557(d)(1) (2012); Ex Parte Communications in Informal Rulemaking Proceedings
+(Recommendation 77-3), 1 C.F.R. § 305.77 (2014) (listing other advantages associated with restraining ex
+parte communications, including reducing possibility of unfair influence over decision makers and
+affording interested parties opportunity to respond to information relied upon in the decisionmaking
+process).
+87 Peter H. Schuck, When the Exception Becomes the Rule: Regulatory Equity and the Formulation of
+Energy Policy Through an Exceptions Process, 1984 DUKE L.J. 163, 197 (1984) (“Hastily prepared,
+overbroad rules can be disastrous for those who technically are covered by the rules but to whom the rules
+should not, in justice or sound policy, be applied. Inflexible application of such rules may quickly create
+grave competitive distortions, perhaps even driving firms out of business before the rules can be refined or
+eliminated.”); Blais & Wagner, supra note 85, at 1705 (“Important statutory directives remain
+unimplemented years after the deadline for implementation has passed. Agencies are increasingly turning
+to even more informal methods--which lack adequate opportunities for public participation and evade
+meaningful judicial oversight--to promulgate important policies. And, not surprisingly, agencies are
+increasingly reluctant to revisit rules after enactment, even if the factual or policy predicates underlying
+them have changed.”).
+88 See supra notes 30-55 and accompanying text.
+89 Cass R. Sunstein, Is the Clean Air Act Unconstitutional?, 98 MICH. L. REV. 303, 371 (1999) (“With
+respect to systematic effects: A great deal of attention has been paid to the phenomenon of the ‘ossification’
+of notice-and-comment rulemaking, and indeed a high priority, for the future of administrative law, is to
+devise means to overcome the problem. Originally intended as a quick and effective alternative to formal,
+on-the-record rulemaking, executive and especially judicial innovations have converted notice-and-
+comment rulemaking into an exceptionally time-consuming affair, often consuming many years, frequently
+half a decade and more. In fact EPA estimates that informal rulemaking typically takes five years.”);
+Thomas O. McGarity, Some Thoughts on "Deossifying" the Rulemaking Process, 41 DUKE L.J. 1385, 1385
+(1992) (“Although informal rulemaking is still an exceedingly effective tool for eliciting public
+participation in administrative policymaking, it has not evolved into the flexible and efficient process that
+its early supporters originally envisioned. During the last fifteen years the rulemaking process has become
+increasingly rigid and burdensome.”).
+90 Barefoot, supra note 52, at 10.
+20
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+largely incapable of addressing the ever-increasing unknown future contingencies
+associated with disruptive innovation. Because it lacks anticipatory rulemaking
+capabilities, the existing regulatory system addresses regulatory issues only ex-post, if
+and when they materialize and if core constituents are sufficiently burdened to precipitate
+enough political pressure for lawmakers to act.91 Evidence exists that the suboptimal ex-
+post timing of rulemaking in the existing regulatory infrastructure regularly requires
+expedited rulemaking that results in suboptimal regulatory outcomes.92 Rulemakers often
+discount or willingly accept the suboptimalities of rules associated with unknown future
+contingencies. Temporary acceptance of suboptimal rules increases temporary rule
+certainty and predictability, but it also precipitates the inevitable need for rule revision,
+amendments, and repeals93 In the existing regulatory framework, if and when the
+inevitable future contingencies materialize, unveiling suboptimal sets of existing rules,
+rulemakers perpetuate a costly and uncertainty-increasing process of rule revisions,
+amendments, and repeals to address such shortcomings. Despite its insufficient
+anticipatory capabilities and all the downsides that are associated with it, stable and
+presumptively optimal rules remain the uniform response to perceived regulatory
+issues.94
+Given the pace of innovation,95 future contingencies in rulemaking are likely to
+substantially increase, making the dynamic anticipation of future contingencies more
+important for rulemaking. The current process of rule revisions, amendments, and repeals
+to address inevitable shortcomings of stable rules is costly, time-consuming, and cannot,
+in our estimation, keep track of future innovations and corresponding regulatory needs.
+Exponential innovation has the potential to overwhelm the existing regulatory process
+because rulemakers are still attempting to comprehend the regulatory demands of the last
+wave of innovative solutions, technologies, and applications while the next wave of
+innovation is already in full force.96 In effect, exponential innovation is likely to intensify
+91 Id.; see also supra note 3.
+92 Kaal Wake Forest, supra note 7; Coffee, supra note 9; Roberta Romano, Regulating in the Dark 1 (Yale
+Law & Econ. Research Paper No. 442, 2012), http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1974148
+(“Foundational financial legislation is typically adopted in the midst or aftermath of financial crises, when
+an informed understanding of the causes of the crisis is not yet available. Moreover, financial institutions
+operate in a dynamic environment of considerable uncertainty, such that legislation enacted even under the
+best of circumstances can have perverse unintended consequences, and regulatory requirements correct for
+an initial set of conditions can become inappropriate as economic and technological circumstances change.
+Furthermore, the stickiness of the status quo in the U.S. political system renders it difficult to revise
+legislation, even though there may be a consensus to do so.”); STEPHEN M. BAINBRIDGE, CORPORATE
+GOVERNANCE AFTER THE FINANCIAL CRISIS 269 (2012) (“Just as a ratchet wrench works only in one
+direction, the size and scope of government tends to move in only one direction—upwards—because the
+interest groups that favored the changes now have an incentive to preserve the new status quo, as do the
+bureaucrats who gained new powers and prestige. Hence, each crisis has the effect of ratcheting up the
+long-term size and scope of government.”).
+93 Kaal in FS Kirchner, supra note 7, at 1217 (describing “ex-ante experimentation” in rulemaking).
+94 See Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal, Wake Forest, supra note 7; Kaal and
+Lacine 2014, supra note 7; Kaal in FS Kirchner, supra note 7.
+95 See supra notes 30-55 and accompanying text.
+96 Romano, supra note 92, at 1 (“Moreover, financial institutions operate in a dynamic environment of
+considerable uncertainty, such that legislation enacted even under the best of circumstances can have
+perverse unintended consequences, and regulatory requirements correct for an initial set of conditions can
+become inappropriate as economic and technological circumstances change”); Shrupti Shah, Rachel Brody
+21
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+the frequencies of the regulatory sine curve that are recognized by the literature.97
+IV. Dynamic Regulation as a Regulatory Supplement
+Economists have used the concept of dynamic regulation in the context of innovation
+and learning by doing,98 regulation of quality,99 principal-agent and adverse selection
+problems,100 and continuing regulatory relationships.101 Dynamic elements in regulation
+have previously also been described as “dynamic games,”102 “regulatory dialectic,” and
+as a “dynamic adjustment process.”103 The rapid pace of technological developments in
+the telecommunications industry necessitated the use of dynamic elements in
+regulation.104
+The theory of dynamic regulation conceptualizes the study of regulatory phenomena
+in relation to preceding and succeeding events, using institution-specific and
+decentralized information to facilitate feedback effects for anticipatory rulemaking.105
+The dynamic regulatory framework allows rulemaking to overcome the historic
+constraints and path dependencies that traditionally focused the rulemaking process on
+stable and presumptively optimal rules. Evolving from a historically reactive process
+based only on preceding events and driven by the agency and collective-action problems
+of rulemaking, rulemaking in a dynamic framework allows for the anticipation of future
+innovation trends and associated contingencies.
+Shortcomings in the existing rulemaking process106 can be addressed with dynamic
+and anticipatory elements in rulemaking.107 The collective action problem of rulemaking,
+& Nick Olson, The Regulator of Tomorrow: Rulemaking and Enforcement in an Era of Exponential
+Change (2015), http://dupress.com/articles/us-regulatory-agencies-and-technology/ (“Regulators are on the
+front lines of nearly every controversy resulting from a new technology—either being told to get out of the
+way or being called upon for solutions when incidents arise. Data breaches, 3D-printed guns, clashes
+between taxis and ridesharing services, and many other events that make news headlines also pose real
+challenges to regulators. In a fast-moving and increasingly complex world, regulators are finding it harder
+and harder to balance the need to protect citizens and fair markets with the need to avoid impeding
+innovation.”).
+97 Kaal Wake Forest, supra note 7; Coffee, supra note 9.
+98 See Tracy R. Lewis & Huseyin Yildirim, Learning by Doing and Dynamic Regulation, 33 RAND J.
+ECON. 22, 23–24 (2002) (“Innovation is more rapid when current service is increased, enabling the supplier
+to accelerate his rate of learning.”).
+99 Stephane Auray et al., Dynamic Regulation of Quality, 42 RAND J. ECON. 246, 246 (2011).
+100 JOHN M. LITWACK, DYNAMIC REGULATION, DEMAND INFORMATION AND MARKET PRICES (1992).
+101 David P. Baron & David Besanko, Commitment and Fairness in a Dynamic Regulatory Relationship, 54
+REV. ECON. STUD. 413, 413 (1987); David P. Baron & David Besanko, Regulation and Information in a
+Continuing Relationship, 1 INFO. ECON. & POL’Y 267, 267 (1984).
+102 Edward J. Kane, Extracting Nontransparent Safety Net Subsidies by Strategically Expanding and
+Contracting a Financial Institution’s Accounting Balance Sheet, 36 J. FIN. SERV. RES. 161, 161 (2009).
+103 Edward J. Kane, Interaction of Financial and Regulatory Innovation, 78 AM. ECON. REV. 328, 333
+(1988) (“The regulatory dialectic posits a dynamic adjustment process that in the long run enforces a ‘law
+of one regulatory burden.’" Precisely because inefficient patterns of regulation impose excessively
+burdensome costs either on regulatees, their customers, or the general taxpayer, the burdened parties must
+be expected sooner or later to develop avoidance strategies by which to throw these burdens aside.”).
+104 See supra note 16.
+105 See Kaal in FS Kirchner, supra note 7; Kaal in Liber Amicorum Peter Nobel, supra note 7; Kaal, Wake
+Forest, supra note 7; Kaal and Lacine 2014, supra note 7.
+106 See supra notes 49-55.
+107 Kaal Wake Forest, supra 7; Kaal in FS Kirchner, supra note 7.
+22
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+problems associated with trial-and-error rulemaking, and problems associated with
+regulatory cycles derive largely from the nature of stable and presumptively optimal
+rules.108 Rulemaking with dynamic elements increases the use of institution-specific,
+decentralized, and timely information109 to allow for adaptive rulemaking. Adaptive
+rulemaking helps overcome the collective action problem of rulemaking because with
+fewer stable rules latent majority groups and dominant minority groups have fewer
+opportunities to influence the continuously and timely adapting rulemaking process.
+Similarly, regulatory cycles and trial-and-error rulemaking become less prevalent because
+adaptive rulemaking processes supplement stable rules with adaptive capabilities that
+make rule revisions less prevalent and minimize trial-and error rulemaking.
+Feedback effects are an integral part of dynamic forms of regulation.110 Feedback
+effects are described in the theory of lawmaking as rulemakers’ reactions to institutional
+change111 or private actors’ reactions and counteractivities to institutional constraints.112
+A dynamic regulatory framework facilitates feedback effects that help enhance the
+availability of institution-specific and decentralized information to support the
+rulemaking process.113 Feedback effects can occur in several settings including intra- and
+interjurisdictional feedback processes, feedback processes between outcomes and
+institutions, feedback processes between different public and private rulemakers, and
+feedback processes between rules and rulemaking processes.114 Competition between
+legislators and regulators from different jurisdictions can facilitate interjurisdictional
+108 The collective action problem of rulemaking, inherent in smaller and better-organized interest groups
+and dominant latent groups competing to influence the rulemaking process, pervades when regulatory
+outcomes are stable. Regulatory cycles, inherent in existing rule adoption, revisions, and revocations,
+derive from stable and presumptively optimal rules that cannot timely adapt to future contingencies and
+corresponding regulatory needs. Trial-and-error-rulemaking is necessitated if rules are presumptively
+optimal and stable. Trial-and-error-rulemaking could become obsolete if dynamic elements in rulemaking
+processes systematically anticipated future contingencies and corresponding regulatory needs.
+109 Information on the functioning of financial institutions, information pertaining to how financial
+institutions, or decision makers in financial institutions, actually act and how they are expected to react to
+unforeseen contingencies in the future helps incorporate dynamic elements into financial regulation.
+Several mechanisms can increase the information for rulemaking in a more timely fashion, including but
+not limited to: (1) contingent capital, (2) governmental contracts in the form of non-and deferred
+prosecution agreements, (3) venture capital finance allocation, and (4) crowdfunding. See supra note 7.
+110 See supra note 7.
+111 Jean-Jacques Dethier, Governance and Economic Performance: A Survey 49 (Discussion Papers on
+Development Policy No. 5, Center for Development Research, Bonn, April 1999), http://goo.gl/xzHwxK.
+112 Christian Kirchner, Market Organizations: A New-Institutional Perspective, 151 J. INST. THEORETICAL
+& ECON. 260, 265 (1995) (“By introducing various examples of the way in which private actors have tried
+to escape the onerous results of regulation, and showing that law courts often have favoured such
+‘inventions,’ the paper developed a hypothesis of how public and private actors act and react in the
+complex process of forming the institutional arrangements of market.”).
+113 Kaal in FS Kirchner, supra note 7, at 1214 (“Rules can be adaptable if institutions and rulemaking
+processes integrate dynamic elements that produce timely, relevant, and decentralized information for
+rulemaking.”).
+114 Rules as outcomes are the result of the institutional design of rulemaking and reinforce the institutional
+design. Existing rules create a feedback effect for the rulemaking process itself. Rules with suboptimal
+characteristics are the results of institutional arrangements and reinforce suboptimal institutional
+arrangements and rulemaking processes. Stable and presumptively optimal rules reinforce a rulemaking
+process with an institutional structure that perpetuates stable elements in rules.
+23
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+feedback processes.115 The unrestricted exchange of information between public- and
+private rulemakers can create regulatory synergies that increase the availability of
+relevant, decentralized, and timely information for rulemaking116 and facilitate feedback
+effects.117 Existing rules can provide feedback effects for the rulemaking process itself.
+Through feedback effects, rulemakers in a dynamic regulatory framework can adopt rules
+that are adaptable to future states of the world.
+Feedback processes in a dynamic regulatory framework facilitate the
+enhancement of information for regulation. Dynamic regulatory tools as a regulatory
+supplement enable rulemakers to adapt to regulatory contingencies if and when they arise
+because a feedback effect provides relevant, timely, decentralized, and institution-specific
+information ex-ante. By increasing the availability of information ex-ante, dynamic
+regulatory tools help lower unforeseen contingencies in the rulemaking process.
+Improved information for rulemaking also helps maintain certainty in the rulemaking
+process.
+Dynamic elements in rulemaking can help optimize the timing of rule enactment.
+A core problem for most regulation is its inaccurate and delayed timing. Because of the
+collective action problem of regulation, path dependencies, and political inertia, among
+many other reasons, regulation is mostly reactive, following business cycles, and not
+preemptive, e.g., enacted before crises when governance improvements are most
+needed.118 Instead of the traditional rule revisions ex-post after rules have emerged as
+suboptimal, feedback effects in dynamic regulatory processes can increase the
+115 Including synergies and exchanges between public rulemakers and public regulators as well as
+intrajurisdictional feedback processes between private and public rulemakers in a given jurisdiction.
+Christian Kirchner et al., Regulatory Competition in EU Corporate Law After Inspire Art: Unbundling
+Delaware’s Product for Europe, 2 EURO. COMPANY & FIN. L. REV. 159 (2015); Kirchner et al.,
+Europäischer vs. US-amerikanischer Wettbewerb der Gesellschaftsrechte - Abschied vom alten Delaware-
+Verbundprodukt. Die Aktiengesellschaf, 13 DIE AKTIENGESELLSCHAFT 469 (2012).
+116 Private rulemakers can have a comparative advantage over public rulemakers because, unlike their
+public counterparts, they often can produce necessary, comparable, decentralized, and institution-specific
+information for rulemaking. Unlike public rulemakers, private rulemakers often have access to
+decentralized information and can more readily react to emerging, decentralized, and institution-specific
+information. Interaction between public rulemakers and private rulemakers, including the exchange of
+emerging information, creates a feedback process between them that increases the availability, timeliness,
+and quality of information available to the public rulemaker. Based on the optimized information for
+rulemaking, the public rulemaker can take regulatory action when the relevant information for rulemaking
+becomes available. The interplay between public and private rulemakers and the associated feedback
+process enables a learning process and optimization process for the public rulemaker.
+117 Id. The rulemaking process is enhanced through the competition between private- and public
+rulemakers. Competition between different public rulemakers can require public rulemakers to meet
+consumers’ and legal addressees’ quality expectations and preferences. Consumer choice can add a
+dynamic element to the rulemaking process because public rulemakers in a given jurisdiction can adjust
+rulemaking to consumer choice once consumers have opted out of a suboptimal regulatory regime in that
+jurisdiction. Consumer choice creates a feedback effect for the public rulemaker. It can thus facilitate
+appropriate information for rulemaking and enable anticipation and modification of the public rulemaker’s
+next action in the rulemaking process. Feedback effects may exist between public rulemakers and parties
+who are subject to informal rules if public rulemakers observe the preferences and efficient solutions of
+parties who are subject to informal rules. In effect, parties who are subject to informal rules are signaling
+their preferences and efficient solutions to the public rulemaker. Public rulemakers can benefit from the
+additional insights such signaling may produce for the public rulemaking process.
+118 See supra text accompanying notes 70–72
+24
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+availability of relevant information for rulemaking ex-ante and anticipate necessary
+revisions before rules emerge as suboptimal.119 By identifying possible contingencies and
+necessary rule revisions with optimized information ex-ante, dynamic regulatory
+supplements make adaptive rulemaking the focal point for rulemaking in a dynamic
+framework.120
+Industries and regulatory agencies can benefit from dynamic regulation as a
+regulatory supplement, an informal and flexible approach to regulatory issues. While the
+Administrative Procedure Act (APA)121 institutes regulatory procedures to protect
+regulated industries,122 requiring a full rulemaking process to apply,123 industries and
+regulatory agencies often prefer unenforceable rules and no judicial involvement.124 Both
+industries and regulators are affected by costly, untimely, overextended, and ossified
+rulemaking or adjudicative procedures and the associated regulatory uncertainty.125
+Dynamic regulatory supplements would not violate mandated regulatory procedures in
+the APA126 as the full lawmaking process still applies.127 Dynamic regulation functions as
+a regulatory supplement to help optimize the existing rulemaking process.
+V. Data as Input for Dynamic Regulation
+The data used for this study provides general guidance on innovation trends. The
+venture capital (VC) investment allocation in the deals encapsulated by the dataset
+provides a window to the market for innovative products. The VC investments result
+from VC deal flow screening. Venture capital’s assessment of innovative products and
+initiatives generates institution- and industry-specific decentralized information on
+innovation trends. While deal flow, that is, the totality of potential deals and business
+plans screened by venture capitalists, would provide an optimal assessment of innovation
+trends, deal flow data is not available. We therefore use venture capital investment
+allocations to assess innovation trends. To illustrate venture capital’s ability to identify
+innovation trends, we use a PitchBook Data, Inc. dataset on venture capital deals in the
+United States. The dataset comprises 77,508 deals involving 37,298 companies from
+2005 through 2015. It includes all VC deals and all VC stages.
+Figure 1 below shows that since 2009 the number of VC deals and the total
+capital invested increased substantially from around $30 billion in total capital invested to
+around $80 billion invested. This increase illustrates VC investors’ attempts to capitalize
+on increasing innovation in multiple industries.
+119 Kaal, Wake Forest, supra note 7; Kaal in FS Kirchner, supra note 7.
+120 Id.
+121 Administrative Procedure Act, 5 U.S.C. §§ 551-559, 701-06 (2012).
+122 See 5 U.S.C. §§ 551-559 (2012).
+123 In the typical process, the APA requires that for a rule to become effective, the proposed rule must go
+through what is known as notice-comment rulemaking, often a lengthy process in which the public is given
+an opportunity to comment on the proposed rule, and the agency must consider such comments before
+promulgating a final regulation. 5 U.S.C. § 553(b), (c) (2012).
+124 Wu, supra note 22, at 1843 (“Both agency and industry will sometimes share an interest in an informal
+and flexible regime that resembles an unenforceable ‘letter of intent’ in the world of private contracts. The
+costs of a slow-moving, ossified rulemaking or adjudicatory procedure, with its accompanying uncertainty
+and litigation costs, fall on both industry and agency.”).
+125 McGarity, supra note 89, at 1387-96.
+126 Administrative Procedure Act, 5 U.S.C. §§ 551-559, 701-706 (2012).
+127 Supra note 124.
+25
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+Search Criteria: Deal Status: Completed; Deal Date: From: 01-Jan-2005, To: 31-Dec-2015; Deal Option: Search on a full transaction; Deal Types: All VC Stages; All Round Numbers; All
+HOW STe O ri eRs; E L G o U ca L t A io T n E s: DUn IS it R ed U S P t T a I t V es E ; SIN ea N rc O h V H A Q T O IO n N ly ;– FROM FACTS TO DATA
+Table Filters: no filters
+Capital Invested & Deal Count
+$90.00B 14,000
+12,870
+$80.34B
+$80.00B
+11,099 $ 69.65B1 0,929 12,000
+$70.00B
+10,000
+8,951
+$60.00B
+$50.00B $4 7 4 ,3 .5 2 5 4 B $45.25B 8,000
+$41.38B
+5,951
+$40.00B $35.98B$ 36.78B 6,000
+4,847 4,841 $32.41B
+$28.76B 4,409 $27.74B
+$30.00B
+$23.64B 3,325 4,000
+2,962
+$20.00B
+2,000
+$10.00B
+$0.00M 0
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+Total Capital Invested Deal Count
+Figure 1: VC CapitaTl iImnvees tPede arniod dD e(a1l2 C o Yuneta, Ursn)ited States, 2005-2015. TShoeu dracteas: ePt ictocTmhoBptroaisole ksC D7a7ap,5tai0t,8a I ldn ecIna.l vs ested
+involving 37,298 co2m0p0a5nies. Data provided by PitchBook. $23.64B
+2006 $28.76B
+2007 $35.98B
+2008 $36.78B
+2009 $27.74B
+2010 $32.41B
+2011 $44.55B
+2012 $41.38B
+2013 $45.25B
+2014 $69.65B
+2015 $80.34B
+1. VC Deal Characteristics
+Figure 2 below shows that since 2010 both the early stage and late stage venture
+capital internal rate of return (IRR) has been positive and increasing steadily across
+different VC stages and overall. Figure 2 covers several relevant VC stages, giving us
+the opportunity to determine which stage we can best focus on for purposes of identifying
+more optimal VC investment allocation signals for rulemaking.
+26
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+25.00%
+20.00%
+15.00%
+10.00%
+5.00%
+0.00%
+-5.00%
+-10.00%
+Venture Capital
+-15.00%
+Venture Capital -
+Early Stage
+-20.00%
+Venture Capital -
+Later Stage
+-25.00%
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+Figure 2: VC Fund IRR by VC Fund Type, 2005-2015. Dataset consists of 6,157 VC funds from 2005-2015.
+Data provided by PitchBook.
+Source: PitchBook Data, Inc.
+Figure 3 below shows that since 2014 the latest round of VC investment in our dataset
+(19th Round) has become increasingly important. This could suggest that some of the
+established innovative products are continuing to receive VC financing rather than new
+startups. However, early stage and angel investments also show an increase starting in
+2011 as compared with the overall VC rounds in our dataset.
+27
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+Search Criteria: Deal Status: Completed; Deal Date: From: 01-Jan-2005, To: 31-Dec-2015; Deal Option: Search on a full transaction;
+Deal Types: All VC Stages; All Round Numbers; All Series; Locations: United States; Search HQ Only;
+Table Filters: no filters
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Capital Invested by VC Round Value 1: Total Capital Invested Organized By: VC Round Time Period: 12 Years
+$90.00B
+19th Round
+18th Round
+$80.00B
+17th Round
+16th Round
+$70.00B
+15th Round
+14th Round
+$60.00B
+13th Round
+12th Round
+$50.00B
+11th Round
+10th Round
+$40.00B
+9th Round
+8th Round
+$30.00B
+7th Round
+6th Round
+$20.00B
+5th Round
+4th Round
+$10.00B
+3rd Round
+2nd Round
+$0.00M
+1st Round
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+Angel
+Figure 3: VC Capital Invested by VC Round, United States, 2005-2015. Dataset comprisSeso u77rc,5e0: 8P ditecahlsB ook Data, Inc.
+involving 37,298 companies. Data provided by PitchBook.
+VC Round 2005 2006
+Angel $297.0M $348.4M
+1st Round $5.27B $6.04B
+2nd Round $5.97B $6.49B
+3rd Round $4.91B $6.42B
+4th Round $3.22B $3.67B
+5th Round $2.13B $2.73B
+6th Round $690.3M $1.89B
+Figures 4, 5, and 6 below show that most industries in the dataset are substantially
+7th Round $396.9M $641.5M
+represented up to Series F. Big Data applications and SaaS are disproportionally high
+8th Round $343.6M $95.2M
+represented in Series I to K. The rest of the industries represented up to Series F play no
+9th Round $282.2M $245.1M
+or a much less significant role in Series I to K. This data seems to suggest that VC funds
+perceive B1i0gth D Raotau nadnd SaaS as the most promising businesses applications that justi$f1y3 .2M
+continuing11 itnhv Resotumndents. Additionally, Table 1 shows that among the Top 25 compa$n0ie.2s8 M
+by highes1t 2VthC R soeurineds investment deals involving SaaS and Big Data are among the top
+represente1d3 tihn dRuosutnryd verticals. This data is consistent with the rest of the data in Figures
+8-11 below. A more granular assessment of the VC investments in Big Data and SaaS can
+provide much needed feedback for regulators on associated regulatory needs.
+28
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 4: VC Investments by Periods/Stages and Industry from 2005 through 2015. Periods/stages include
+Seed and Series A through Series K. Industries represented include: 3d Printing, AdTech, Big Data,
+CleanTech, E-Commerce, EdTech, Fin Tech, Health Tech, Infrastructure, Internet of Things, Life Sciences,
+LOHAS and Wellness, Manufacturing, Marketing, Mobile, Nano, Oncology, Robotics, SaaS, Security, and
+Wearables. The following ratios are calculated by dividing capital invested sum by the deal count for the
+cumulative deals from 2005 through 2015. Data provided by PitchBook.
+29
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 5: VC Investments by Periods/Stages and Industry from 2005 through 2015. Periods/Stages include
+Seed and Series A through Series K. Industries represented include: 3d Printing, AdTech, Big Data,
+CleanTech, E-Commerce, EdTech, Fin Tech, Health Tech, Infrastructure, Internet of Things, Life Sciences,
+LOHAS and Wellness, Manufacturing, Marketing, Mobile, Nano, Oncology, Robotics, SaaS, Security, and
+Wearables. The following ratios are calculated by dividing capital invested sum by the deal count for the
+cumulative deals from 2005 through 2015. Data provided by PitchBook.
+Figure 6: VC Deal/Dollar Investment Ratios, Stage/Series by Industry Vertical from 2005-2015 and VC
+Investments for the Following Periods/Stages: Seed and Series A through Series K. Pitchbook provides data
+for the following industries: 3d Printing, AdTech, Big Data, CleanTech, E-Commerce, EdTech, Fin Tech,
+Health Tech, Infrastructure, Internet of Things, Life Sciences, LOHAS and Wellness, Manufacturing,
+Marketing, Mobile, Nano, Oncology, Robotics, SaaS, Security, and Wearables. The ratios are calculated by
+dividing capital invested sum by the deal count for the cumulative deals from 2005 through 2015. Data
+provided by PitchBook.
+30
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Company Industry Current Deal Date % Acquired VC Series Total Year
+Name Vertical Financing Round Invested Founded
+Status Equity
+Palantir Big Data, SaaS Venture 12/13/2015 4.29 12th Series K 880 2004
+Technologies Capital-Backed Round
+Palantir Big Data, SaaS Venture 11/3/2014 6.91 10th Series I 635.71 2004
+Technologies Capital-Backed Round
+Palantir Big Data, SaaS Venture 11/26/2014 0.33 11th Series J 400 2004
+Technologies Capital-Backed Round
+Motricity Mobile Corporate 12/31/2007 20.11 9th Round Series I 185 2001
+Backed or
+Acquired
+Onconova Life Sciences, Private Equity- 8/10/2012 10th Series J 50 1998
+Therapeutics Oncology Backed Round
+(ONTX)
+Tocagen Life Sciences, Venture 10/21/2015 12.98 9th Round Series H 46.2 2007
+Oncology Capital-Backed
+TherOx Life Sciences Venture 7/21/2005 58.68 9th Round Series I 40.8 1994
+Capital-Backed
+Revolution Venture 11/19/2015 11.85 12th Series I 35.22 2006
+Foods Capital-Backed Round
+Alien Internet of Venture 3/12/2007 15.55 12th Series I 33 1994
+Technology Things, Capital-Backed Round
+Manufacturing
+OptiScan Venture 4/14/2010 11th Series I 31.5 1994
+Biomedical Capital-Backed Round
+BioNumerik Life Sciences, Private Equity- 3/12/2009 10th Series K 30 1995
+Pharmaceuticals Oncology Backed Round
+TherOx Life Sciences Venture 2/20/2008 28.33 10th Series J 29.99 1994
+Capital-Backed Round
+Alien Internet of Venture 3/12/2007 15.89 11th Series I 28.47 1994
+Technology Things, Capital-Backed Round
+Manufacturing
+Onconova Life Sciences, Private Equity- 7/18/2012 9th Round Series I 26.44 1998
+Therapeutics Oncology Backed
+(ONTX)
+Allconnect Venture 2/21/2007 10.08 11th Series I 20 1998
+Capital-Backed Round
+NeuroPace Life Sciences, Venture 7/8/2013 3.91 6th Round Series I 18.05 1997
+LOHAS & Capital-Backed
+Wellness
+AFS Private Equity- 8/29/2008 3rd Round Series I 13 1985
+Technologies Backed
+Agraquest Life Sciences, Formerly VC- 1/1/2009 11.32 13th Series J 10.2 1995
+Manufacturing Backed Round
+Agraquest Life Sciences, Formerly VC- 6/18/2009 6.56 12th Series I 10.13 1995
+Manufacturing Backed Round
+CafePress E-Commerce Venture 11/24/2008 1.39 3rd Round Series I 8.3 1999
+(PRSS) Capital-Backed
+Agraquest Life Sciences, Formerly VC- 3/25/2011 6.89 14th Series K 7.5 1995
+Manufacturing Backed Round
+Exa (EXA) Formerly VC- 5/21/2008 5.79 8th Round Series I 6 1991
+Backed
+Iconix Manufacturing Venture 1/24/2007 3.95 10th Series I 4 1997
+Biosciences Capital-Backed Round
+Iconix Manufacturing Venture 12/18/2006 2.06 9th Round Series I 2 1997
+Biosciences Capital-Backed
+OptiScan Venture 7/2/2010 12th Series J 0.7 1994
+Biomedical Capital-Backed Round
+Table 1: Top 25 Companies by Highest VC Series Investment. Data provided by PitchBook.
+31
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+2. Industries Represented
+Figure 7 shows that the average number of deals of the top 25 United States
+venture capital investors between 2005 and 2015 focuses on information technology,
+mobile technology, and software as a service (SaaS). While the data in Figure 7 arguably
+only confirms media reporting on innovation trends between 2005 and 2015, the VC data
+used herein may provide earlier signals for regulators to identify possible areas of
+regulatory need in the face of increasingly disruptive innovation.
+Figure 7: Sector/Industry Allocations (both number of deals and deal size) for the Top 25 United States
+Venture Capital Investors between 2005 and 2015. Investors include the following: Y Combinator, 500
+Startups, Techstars, SV Angel, New Enterprise Associates, Western Technology Investment, Intel Capital,
+Kleiner Perkins Caufield & Byers, Sequoia Capital, Andreessen Horowitz, GV, Plug and Play Ventures, First
+Round Capital, Accel Partners, Khosla Ventures, Draper Fisher Jurvetson, Individual Investors, David
+McClure, Greylock Partners, MassChallenge, General Catalyst Partners, Lerer Hippeau Ventures, Bessemer
+Venture Partners, National Science Foundations, Lightspeed Venture Partners. Data provided by PitchBook.
+32
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 8 shows that since 2014 VC deals in the United States increasingly focused on
+information technology. While this confirms the trends suggested in Figure 7, and
+Figures 7 and 8 together arguably only confirm media reporting on innovation trends
+Search Criteria: Deal Status: Completed; Deal Date: From: 01-Jan-2005, To: 31-Dec-2015; Deal Option: Search on a full transaction;
+from 2005 throDuegahl T2y0pe1s5: ,A tllh VeC V SCtag desa;t aA lul Rsoeudn hd eNrueminb,e rasn; dA lle Ssepreiecsi;a Llolyca ati omnso: rUen giterda nSutaltaers ; Search HQ Only;
+examTianblaet Fioiltner so:fn toh feil tderasta by regulators, may provide earlier signals for regulators to
+identify possible areas of regulatory need in the face of increasingly disruptive
+innovation.
+Capital Invested by Primary Industry Sector Value 1: Total Capital Invested Organized By: Primary Industry Sector Time Period: 12 Years
+$90.00B
+$80.00B
+$70.00B
+$60.00B Materials & Resources
+Informa@on Technology
+$50.00B
+Healthcare
+$40.00B
+Financial Services
+$30.00B Energy
+B2C
+$20.00B
+B2B
+$10.00B
+$0.00M
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+Figure 8: VC Capital Invested by Primary Industry, United States, 2005-2015. Dataset comprises 77,508
+Source: PitchBook Data, Inc.
+deals involving 37,298 companies. Data provided by PitchBook.
+Primary Industry Sector 2005 2006
+B2B $2.29B $2.95B
+B2C $1.73B $2.62B
+Energy $373.8M $1.54B
+Financial Services $519.8M $379.1M
+Healthcare $6.96B $8.41B
+Information Technology $11.46B $12.70B
+Materials & Resources $319.5M $148.5M
+$23.64B $28.74B
+33
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 9 shows that between 2006 and 2013, VC investment allocations focused on
+applications in the context of the Internet of Things. Since 2010, however, both SaaS and
+Wearables have taken over the primary focus in VC investments in this dataset. This is
+coSnesairscthe Cnrtit ewriai:thD eFali gStuartuess: C7o amnpdle t8ed. ;T Dheael Dmataei:n F rpoomi:n 0t1 -hJaenr-e2 0i0s5 ,t hToa:t 3 a1- Dmeco-r2e0 1g5;r aDneaul lOaprt ieoxn:a Smeairncaht oion na full transaction;
+Deal Types: All VC Stages; All Round Numbers; All Series; Locations: United States; Search HQ Only;
+of these trends can provide guidance to regulators to help identify possible areas of
+Table Filters: no filters
+regulatory need in the face of increasingly disruptive innovation.
+Capital Invested by Industry Vertical Value 1: Total Capital Invested Organized By: Industry Vertical Time Period: 12 Years
+$120.00B
+Wearables & Quan;fied Self
+Security
+$100.00B
+SaaS
+Robo;cs and Drones
+$80.00B
+Oncology
+Nano-technology
+$60.00B
+Mobile
+Marke;ng Tech
+$40.00B
+Manufacturing
+LOHAS & Wellness
+$20.00B
+Life Sciences
+Internet of Things
+$0.00M
+Infrastructure
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015
+HealthTech
+Source: PitchBook Data, Inc.
+Figure 9: VC capital invested by industry vertical United States 2005-2015. Dataset comprises 77,508 deals
+involving 37,298I ncodmupsatnriyes V. Derattaic parlovided by PitchBook. 2005 2006
+3D Printing $4.0M $0.20M
+AdTech $343.0M $698.3M
+Big Data $204.8M $403.2M
+CleanTech $559.6M $1.47B
+E-Commerce $654.3M $658.9M
+EdTech $51.8M $71.6M
+Fin Tech $240.9M $346.5M
+HealthTech $171.3M $236.5M
+Infrastructure $29.5M $157.4M
+Internet of Things $380.4M $401.7M
+Life Sciences $3.73B $4.08B
+LOHAS & Wellness $210.4M $461.3M
+Manufacturing $2.71B $3.72B
+Marketing Tech $394.8M $435.9M
+34
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 10 shows the relative impact of VC investments by industry. This data
+examination is included to suggest that using investment ratios by industry, among other
+more granular examinations of trends, can help inform rulemakers on innovation and the
+corresponding need for rulemaking.
+Industry Totals
+400
+350
+300
+250
+200
+150
+100
+50
+0
+2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 All
+3D Prin<ng AdTech
+BigData CleanTech
+E-Commerce EdTech
+FinTech HealthTech
+Infrastructure Internet of Things
+Life Sciences LOHAS & Wellness
+Manufacturing Marke<ng Tech
+Mobile Nano-technology
+Oncology Robo<cs and Drones
+SaaS Security
+Wearables & Quan<fied Self
+Figure 10: VC Investment Ratio by Industry. The investment ratio is calculated as VC investment amount
+divided by VC deals per year and industry. Dataset comprises 77,508 deals involving 37,298 companies.
+Data provided by PitchBook.
+35
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+Figure 11 shows that the majority of VC investments in the majority of industries
+represented are later stage VC investments, following early seed VC investments in the
+same industries. This data may be interpreted and perhaps discounted as VCs simply
+following up with later stage investments in companies they had invested seed capital in
+at an earlier stage. Accordingly, the data could suggest risk-averse behavior by VC funds.
+At the same time, however, VC funds are not likely to continue with later stage
+investments if contractual performance obligations/thresholds of their portfolio
+companies were not fulfilled to a substantial degree.
+Figure 11: VC Deal Type Ratios by Industry Vertical and Periods/Stages, 2005-2015:
+Pre/Accelerator/Incubator, Angel, Seed, Early Seed VC, Later Stage VC, Restart Angel, Restart Early Stage,
+and Restart Late Stage. Pitchbook provides data for the following industries: 3d Printing, AdTech, Big Data,
+CleanTech, E-Commerce, EdTech, Fin Tech, Health Tech, Infrastructure, Internet of Things, Life Sciences,
+LOHAS and Wellness, Manufacturing, Marketing, Mobile, Nano, Oncology, Robotics, SaaS, Security and
+Wearables. The data runs from 2005 through 2015. The following ratios are calculated by dividing capital
+invested sum by the deal count for the cumulative deals between 2005 through 2015. Data provided by
+PitchBook.
+36
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+VI. Venture Capital as Dynamic Regulation of Disruptive Innovation
+VC capital allocations are a potential treasure trove of valuable information for
+regulators. While VC capital allocations offer only one among other possible ways for
+regulators to identify areas that may require their attention in the future and facilitate
+anticipatory rulemaking, the data analysis in this study shows that venture capitalists’
+finance allocation and the implicit assessment of innovative products, businesses, and
+initiatives generates highly relevant institution- and industry-specific decentralized
+information on innovation trends. As such, venture capitalists’ innovation-driven finance
+allocation can provide feedback on innovation trends for regulators and rulemakers,
+optimize the timing of regulation, and facilitate anticipatory rulemaking. Venture
+capitalists’ investment allocations can provide regulators and rulemakers with a
+measurement of risks associated with innovative developments as well as the economic
+opportunities associated with such innovation.
+The VC finance allocation can create feedback effects for dynamic regulation of
+innovation. The theory of lawmaking describes feedback effects as rulemakers’ reactions
+to institutional change or private actors’ reactions and counteractivities to institutional
+constraints. This paper shows that data on VC finance allocation can distill institutional
+changes of companies that received VC financing. As such, the regulators’ reaction to
+institutional change could be informed by VC financing allocations. VC feedback effects
+provide relevant, timely, decentralized, and institution-specific information ex-ante.
+VC’s finance allocations can help optimize the timing of rulemaking. A core
+problem for regulation of disruptive innovation is inaccurate and delayed timing.128
+Regulation is mostly reactive, following business cycles, rather than proactive. Data on
+VC investments allows regulators to see where innovation trends are going and the
+possible risks they entail before disruptive innovation materializes. Should regulators
+consider data on VC investments and their possible implications for disruptive innovation
+in rulemaking processes or legislative proposals, it is conceivable that the identification
+of disruptive innovation and associated legal concerns could be addressed in a more
+timely fashion. By identifying possible contingencies and necessary rule revisions with
+optimized information from VC investments ex-ante, before disruptive innovation creates
+regulatory issues, regulators could anticipate regulatory needs.
+Venture capitalists’ innovation-driven finance allocations can facilitate
+anticipatory rulemaking. Through the feedback effects that are facilitated by venture
+capitalists’ finance allocations towards innovative products, rulemakers can obtain timely
+and decentralized industry- and entity-specific information that allows them to adapt
+rules to anticipate regulatory issues. For instance, information on industry-specific VC
+investments allows regulators to anticipate regulatory needs in certain industries that are
+associated with the highest levels of disruptive innovation. Disruptive innovation may
+here be quantified with the number of VC deals or the VC dollar investments in such
+industries. Multiple metrics with VC investment information can be examined. The broad
+data on VC investments allows for a detailed analysis of innovation trends with
+anticipatory qualities that could be directly utilized by regulators, including, as needed,
+on a much more granular level. While this paper does not provide a granular evaluation
+of the data, regulators would be able to obtain the relevant innovation data presented
+herein and analyze areas of concern or regulatory need more granularly. For instance, a
+128 See supra notes 118-120 and accompanying text.
+37
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+more granular approach to the data could suggest that regulators and rulemakers should
+start taking robotics and drones much more seriously. Figure 12 shows that we have seen
+more and more investments in these areas since 2011. Of course, one could argue that the
+decrease in investments in the number of the later stage rounds in the United States
+indicates that the technological development in this area is stalling. However, a closer
+look at the industry shows that companies relocate the later stage development to other
+countries due to the regulatory disconnect that exists in the United States.
+160.0
+140.0
+120.0
+100.0 Grants
+Later stage VC
+80.0
+Early stage VC
+60.0 Seed
+Angel
+40.0
+Pre/Accelerator/Incubator
+20.0
+.0
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+Figure 12: VC Investments in Robotics and Drones in the United States. The total dataset comprises 77,508
+deals involving 37,298 companies. Data provided by PitchBook.
+Critics may suggest that the market often undervalues venture-capital-financed
+innovation in products and ideas. We realize that a trend for venture-capital-financed
+technology companies, among others, to stay private129 and market undervaluation of
+formerly venture-capital-financed companies130 suggest that the innovation potential
+identified by venture-capital-finance allocation may not always be shared by the market
+at large. However, our objective in this article is not to discuss the long-term potential of
+venture-capital-financed innovation. Rather, we suggest that venture capitalists’
+innovation-driven finance allocation can provide feedback for regulators and rulemakers,
+optimize the timing of regulation, and facilitate anticipatory rulemaking.
+Critics may also suggest that venture-capital-financed innovation is not a reliable
+measure of innovation that requires regulatory action. In other words, critics may allege
+that even if regulators can acquire the depth of information needed to engage in
+129 Nicole Bullock, Gavin Jackson & Jennifer Hughes, Global Listings Drop as Tech Groups Stay Private,
+FIN. TIMES, January 2/3 2016, at 9.
+130 William R. Kerr & Ramana Nanda, Financing Innovation (Harvard Bus. Sch. Working Paper 15-034),
+https://perma.cc/NJ4D-SSP5 (“[M]odel of managerial myopia in which shareholders cannot properly
+evaluate investments in long-term innovative projects due to asymmetric information, and therefore
+markets tend to undervalue the stocks of companies engaged in such projects.”).
+38
+Electronic copy available at: https://ssrn.com/abstract=2808132
+
+HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA
+anticipatory rulemaking, there may be risk of waste of scarce regulatory resources
+because VC funds make many investments, not all of which turn out to be successful.
+Moreover, if companies that received VC financing are still incubating, it may be largely
+unclear what regulatory issues these companies might raise in practice. First, the use of
+VC finance allocation is only one of several evolving data available to identify future
+regulatory needs. Second, over time, regulators will have an ever-increasing access to
+high-quality, decentralized, and real-time information for rulemaking. If and when
+multiple data analyses together point unanimously in the direction of a certain demand
+for regulatory action, regulators should take anticipatory measures after cross-validation
+and triangulation. Currently no regulatory processes and data evaluation exist that could
+facilitate such analyses and anticipatory regulatory action.
+VII. Conclusion
+This paper adds to increasing evidence that companies that received VC
+investments have─and continue to─outrun regulation and regulatory efforts. Companies
+that received VC investments drive innovation trends in the United States and abroad.
+This paper also shows that the existing regulatory processes are suboptimally equipped to
+address the challenges of exponential disruptive innovation. The notice and comment
+procedures of the APA131 and the SEC are only some of the examples illustrating the
+suboptimal regulatory response rates with regards to regulatory challenges presented by
+VC-backed companies and the associated disruptive innovation.
+The data presented in this paper shows that VC investment allocation decisions
+provide relevant broad and general guidance on innovation trends and associated
+regulatory issues. The paper shows that the use of VC investment allocation data can help
+facilitate anticipatory regulation associated with disruptive innovation, but it emphasizes
+that VC investment allocation data is only one form of the emerging data sources that can
+be used as signaling for regulatory process optimization. Other data sources are and may
+increasingly become available. With the existing and emerging data and a much more
+granular examination of these data trends, regulators can further increase their ability to
+examine and anticipate regulatory needs.
+131 See supra notes 121-127 and accompanying text.
+39
+Electronic copy available at: https://ssrn.com/abstract=2808132
+

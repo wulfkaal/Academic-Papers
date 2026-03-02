@@ -1,0 +1,920 @@
+How Decentralized Autonomous Organizations Optimize Charitable Giving
+December, 2021
+By
+Wulf Kaal1
+Abstract
+Charitable giving in legacy systems is subject to several major downsides that can be addressed
+with decentralized autonomous organizations (DAOs). Centralized legacy charitable organization
+often lack foundational transparency and are subject to significant power imbalances that favor the
+donor and lead to centralization of the charity. Existing legal incentives often lead to so called
+Zombie Charities in many jurisdictions. The donative intent can therefore often not be optimally
+fulfilled. DAOs combine unique feedback loops and transparency features with community
+governance that address the existing shortcomings of charitable organizations in centralized
+structures.
+Key Words: Common Good, Charity, Decentralized Autonomous Organization, Finance, Token
+Models, Cryptocurrencies, Feedback Effects, Emerging Technology, Tokens, Blockchain,
+Distributed Ledger Technology
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1 The Author is grateful to many colleagues and members of the web3 community who provided valuable feedback.
+The author would especially like to thank Josh Bykowski, Timothy Behrsin, as well as [_____].
+1
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Table of Contents
+Background 4
+Motivation 9
+Flaws in Charitable Giving 9
+Lack of Transparency 9
+Power Imbalances 11
+Legal Incentives Undermine Effective Giving 12
+Tax Free Cash Hoarding 13
+Legal Barriers to Cross-Border Philanthropy 13
+Outflow Constraints 13
+Inflow Constraints 14
+Proposed Solutions 16
+Increased Regulatory Oversight 16
+Harness Technology 17
+CHARITYxDAO 18
+Fixing Charitable Giving 19
+Increasing Transparency 19
+Equity 20
+Incentive Optimization 21
+Foundational Beliefs 22
+Engaging the Donor 23
+Seeding Charity Purpose 23
+Public Monitoring 23
+Endowment Allocation 24
+Donor Marjority Reputation Stake 24
+Governance 25
+Key features 25
+Reputation Staking for the Common Good 27
+Slashing Reputation 29
+Community Audits 29
+2
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Onboarding 30
+Conclusion 32
+Bibliography 32
+3
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Background
+The 21st century has witnessed a remarkable increase in philanthropic engagements. Over a
+century ago, in 1911, Andrew Carnegie applied for and was granted a charter to create the Carnegie
+Foundation, the first foundation of its kind.2 Other wealthy Americans, like John D. Rockefeller,
+followed suit.3 Other nations quickly followed suit. For example, in the last 20 years the number
+of private foundations in Brazil increased by 300%, resulting in 5.5 billion USD donated within
+the same time frame (1991-2011).4 India’s philanthropy exceeded 5 billion USD in 2006 alone; in
+China, over 800 private foundations were established between 2006 and 2011.5 From a global
+perspective, the flow of private philanthropy from OECD nations to developing ones increased
+from around 5 billion USD in 1991 to over 53 billion by 2008.6 This massive uptick in private
+philanthropy in recent decades has been directly attributed to the massive uptick in private wealth.7
+The dramatic increase in private philanthropy that manifested itself in the 21st century has resulted
+in a dramatic shift in endowment practices, moving modern charities are increasingly moving form
+advocates to investors.8 The massive increase in private wealth has resulted in a shift where social
+and educational problems are being organized and addressed under the guise of “new
+philanthropy” where philanthropists harness “market-based” solutions to modern problems.9 This
+relatively new philosophy within philanthropy can blur the lines between what is considered a
+foundation, a start-up, a social venture, and a venture capital fund.10 The traditional grant-driven
+style of philanthropy, by itself, may be insufficient and is increasingly giving way to
+2 Crutchfield, Leslie, et al. “Donors Must Change Their Ways If They Want Their Money to Make a Difference.”
+Chronicle of Philanthropy, vol. 23, no. 10, Apr. 2011, p. 11.
+3 Id. (check please)
+4 David Moore & Douglas Rutzen, Legal Framework for Global Philanthropy: Barriers and Opportunities, The
+International Journal of Not-for-Profit Law, VOLUME 13, ISSUES 1-2, APRIL 2011,
+5 Id. (check please)
+6 Id. (check please)
+7 Id. (check please)
+8 Alex Daniels, Rebecca Koenig, How New Philanthropy Is Divvying Up the Charity Dollar: And why nonprofits
+fear they are losing out, Chronicle of Philanthropy. Dec 2017, Vol. 30 Issue 2, p18-23. BUCHANAN, PHIL. “5
+Issues Foundations Must Confront to Stay Relevant.” Chronicle of Philanthropy, vol. 28, no. 8, June 2016, pp. 36–
+40
+9 Stephen J. Ball, Antonio Olmedo, Global Social Capitalism: using enterprise to solve the problems of the world,
+Citizenship, 10&11 Social and Economic Education (2011)
+10 Id. (check please)
+4
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+entrepreneurial ventures in the context of charity.11 A style of philanthropists that focus on the
+seeding of other businesses is called “philantrepreneurs.”12 Non-profits are no longer the only
+vehicle for charitable distribution. For example, the Omidyar Network, the philanthropic arm of
+billionaire eBay founder Pierre Omidyar, has both a foundation and a limited-liability
+corporation.13 Since its founding in 2004, it has split its contributions almost evenly with 618
+million USD going to non-profits and 563 million going to for-profits.14
+The use of LLCs and other corporate entities are becoming increasingly popular in the
+philanthropic world. Donors are often more concerned with getting the best social return on their
+charitable giving, rather than merely writing checks.15 The highest profile philanthropists to
+embrace this change are Mark Zuckerberg and his wife, Priscilla Chan.16 The Chan Zuckerberg
+Initiative has fully embraced the LLC model; some commentators see this is a rational step because
+LLCs offer flexibility to invest, to donate freely, and to donate to politicians.17 Moreover, some
+donors prefer avoiding foundations because of the legal limitations donating to political
+campaigns; alternatively, since the Supreme Court’s decision in Citizens United v. Federal
+Election Commission, private corporations cannot be restricted by the United States government
+for political donations.18
+This reconfiguration of what constitutes charitable work has resulted in corporate foundations and
+philanthropists assuming social and moral duties that had historically been assigned to civil society
+organizations like government and state agencies.19 But it remains unclear if this new social and
+moral influence of charities actually achieves the goal of the respective charities.
+11 Short - Alex Daniels, Rebecca Koenig, How New Philanthropy Is Divvying Up the Charity Dollar: And why
+nonprofits fear they are losing out, Chronicle of Philanthropy. Dec 2017, Vol. 30 Issue 2, p18-23.
+12 Stephen J. Ball, Antonio Olmedo, Global Social Capitalism: using enterprise to solve the problems of the world,
+Citizenship, 10&11 Social and Economic Education (2011)
+13 Short - Alex Daniels, Rebecca Koenig, How New Philanthropy Is Divvying Up the Charity Dollar: And why
+nonprofits fear they are losing out, Chronicle of Philanthropy. Dec 2017, Vol. 30 Issue 2, p18-23.
+14 Id.
+15 Id.
+16 Id.
+17 Id.
+18 Id.
+19 Stephen J. Ball, Antonio Olmedo, Global Social Capitalism: using enterprise to solve the problems of the world,
+Citizenship, 10&11 Social and Economic Education (2011)
+5
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Statistical Breakdown of Modern Charity
+The data below illustrates some of the changes discussed earlier.
+Figure #1 shows the charitable giving by Americans adjusted for inflation as of 2016.
+Figure #1 Real Rise in U.S Giving (charitable donations after adjustment for inflation)20
+Figure #2 shows the amount of private wealth that is attributed overseas. Moreover, it displays the
+vast difference between overseas donations by private Americans versus its closest counterparts.
+20 https://www.philanthropyroundtable.org/almanac/statistics/u.s.-generosity
+6
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Figure #2 Private Donations for Overseas Aid21
+Figure #3 shows the amount of private wealth that is attributed overseas. However, this graph also
+displays that private American donations exceed United States government aid when it comes to
+overseas charitable causes.
+21 Id.
+7
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Figure #3 Private Overseas Donations vs. Government overseas aid22
+Figure 4 provides a breakdown of U.S donations by various causes. It should be noted that religion,
+being the largest category, is also an extremely broad category which contains many different sub-
+causes like relief for the poor, medical care, education, or disaster relief.
+Figure #4 Percentage of U.S Donations Going to Various Causes23
+Figure #5 offers another source and a more recent analysis on the percentage of U.S recipients by
+area of charity.24
+22 Id.
+23 Id.
+24 https://nccs.urban.org/publication/nonprofit-sector-brief-2019#recipients
+8
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Motivation
+Flaws in Charitable Giving
+Modern charitable giving is subject to several distinct problems. Three distinct and overarching
+issues can be distinguished in the literature on charitable giving. The literature debates the validity
+and scope of these three issues and many additional issues associated with modern charity.
+However, the three issues below are the consistent themes that are discussed in different ways by
+the literature:
+1. The lack of transparency in modern charitable organizations
+2. Power imbalances and lack of autonomy
+3. Perverse legal incentives which limit effective gift giving
+Lack of Transparency
+A key problem that afflicts charitable organizations is the lack of trust the general population has
+towards charitable organizations. Without trust in their ability to perform in accordance with their
+donor’s intent, charitable organizations face many threats to their ability to carry out their missions.
+9
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Without public trust, charities may not be able to attract the necessary talent, raise cash, and
+persuade the public to take action on social, environmental, and other key issues.”25
+This lack of trust the public has towards charities can be illustrated with a prominent example.
+CharityWatch routinely reports cases of abuse of the charitably giving system. For example, two
+separate actions were filed by the Federal Trade Commission in conjunction with state charity
+regulators from across the U.S to crack down on predatory practices of companies that solicit
+donations on behalf of charities.26 These actions were the result of the defendants conducting “an
+invasive robocall onslaught and keeping the lion’s share of more than 110 million of individual
+contributions.”27 The defendants were accused of knowingly duping donors into believing that
+their donations would help breast cancer patients, families of children with cancer, homeless
+veterans, fire victims, and others in need. The scam defrauded the donor and no money went to
+the charitable purposes the defendants described to the donors.”28
+The lack of transparency in charitable giving has far reaching consequences. Private foundations
+are less transparent and have fewer accountability mechanisms and regulations than businesses
+and political activities.29 Private foundations have plutocratic power because such organizations’
+leaders or trustees are not elected democratically, they are allowed to work in perpetuity, and their
+operations lack accountability and transparency.30 That lack of transparency in big philanthropy
+can contribute to a demise of democracy.31 Increased transparency may be necessary to avoid the
+erosion of civic equality and democratic values.32
+The concerns regarding the lack of transparency within charitable organizations is not limited to
+the academic community. According to the 2019 Edelman Trust Barometer (an annual study of
+25 GOSE, BEN. “The Trust Crisis.” Chronicle of Philanthropy, vol. 32, no. 3, Jan. 2020, pp. 12–14.
+26 https://www.charitywatch.org/charity-donating-articles/fundraisers-for-f-rated-charities-hit-with-a-combined-
+1702-million-in-legal-judgments
+27 Id.
+28 Id.
+29 Rogers, Robin, “Why the Social Sciences Should Take Philanthropy Seriously”, Soc (2015) 52: 533-540
+30 Reich, R. (2019). Philanthropy in the service of democracy. Stanford Social Innovation Review, 17-(1), 26-33.
+31 Una Osili, Kinga Zsofia Horvath, Sasha Zarins, et. Al., An Annotated Bibliography of Recent Literature on
+Current Developments in Philanthropy, February 2019.
+32 Callahan, D. (2017). The Givers, wealth power, and philanthropy in a new gilded age. First edition. New York:
+Alfred Knopf.
+10
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+institutions around the world) only 52% of Americans have faith that nonprofits will do the right
+thing.33 Moreover, a survey by the Better Business Bureau found that 70% of Americans said that
+trust is essential before making a donation, but fewer than 20% of Americans said they highly trust
+charities.34 Many commentators agree that the lack of trust towards charities could depress giving,
+making it harder for organizations to recruit good employees, and limit a foundations’ ability to
+advocate effectively.
+Power Imbalances
+Power imbalances between the public and wealthy donors calls into question the long-term success
+of charitable organizations. The most wealthy individuals on the planet have significant influence
+on social institutions through their charitable organization.35 While social institutions may resist
+the “reshaping” by charities, the public funding crisis in the government and nonprofit space
+presents an opportunity where philanthropists can leverage underfunded causes and “reshape”
+them according to their ideas.36 High-net-worth individuals may leverage underfunded causes with
+corporate strategies to reduce problems corporate interests helped create.37
+In essence, modern philanthropy puts far more power in the hands of the individual donor than
+traditional philanthropy has done in decades. This can be traced back to modern philanthropic
+strategies that entrust donors with identifying which problems need to be solved and then provide
+the perceived appropriate solutions; rather than trusting the solutions proposed by the non-profits
+themselves.38 This approach is more centralized and less grassroots39 for solving societal issues.
+As more philanthropy transforms from being unconditional grant giving to a social investment, the
+measurement of the social return on investment (SROI) has become increasingly important.40
+33 GOSE, BEN. “The Trust Crisis.” Chronicle of Philanthropy, vol. 32, no. 3, Jan. 2020, pp. 12–14.
+34 Id.
+35 Mathew Bishop and Michael Green, Philanthrocapitalism: How Giving Can Save the World, Nov. 2009:
+Bloomsbury Publishing USA.
+36 Rogers, Robin, “Why the Social Sciences Should Take Philanthropy Seriously”, Soc (2015) 52: 533-540
+37 Id.
+38 Id. at 536
+39 Id.
+40 Phillips, S.D. and Jung, T. (2016) A New ‘New’ Philanthropy: from impetus to impact, in Jung T., Phillips, S.D.
+and Harrow, J. (eds.) The Routledge Companion to Philanthropy, Routledge: London, pp. 5-34
+11
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+However, some authors argue this has resulted in donors to expect some degree of “financial or
+management oversite” similar to what investors use with young companies.41 Furthermore,
+grantees often feel pressure from their donors to undertake specific projects and work in particular
+ways to address the strategic goal set by the philanthropists.42 The constant appeasement of the
+grantee to maintain funding from the donor is one of the most troubling complaints issues for
+modern charities as pressure from donor interests increases steadily.43 Some commentators go so
+far as to use the word “oligarchy” as philanthropy “increasingly becomes a playground for private
+interests.”44
+The emergence from bankruptcy by the City of Detroit in 2014 provides a prominent example. To
+avoid creditors from exploiting thousands of pensions from city workers and to avoid losing an
+impressive art collection, a group of foundations entered into an improbable arrangement.45 They
+brokered a deal between Detroit and the philanthropists contingent upon “particular outcomes”
+where unelected officials “flexed their political muscle to the limit.”46 The deal occurred behind
+closed doors and raised many concerns over the opportunistic philanthropist’s role in the future of
+the city of Detroit, and the overall implications on the future of public policy.47
+In sum, there is a growing concern amongst commentators that modern philanthropy limits the
+autonomy of grassroots charitable organizations and replaces it with a leveraged and exploitive
+relationship where the goals of the donor are served above all.
+Legal Incentives Undermine Effective Giving
+41 REVERE, ELSPETH. “After 25 Years of Grant Making, I Worry We Have Lost Sight of Nonprofit Struggles.”
+Chronicle of Philanthropy, vol. 28, no.11, Sept. 2016, pp. 28–31
+42 Id.
+43 Id.
+44 BUCHANAN, PHIL. “5 Issues Foundations Must Confront to Stay Relevant.” Chronicle of Philanthropy, vol. 28,
+no. 8, June 2016, pp. 36–40
+45 Phillips, S.D. and Jung, T. (2016) A New ‘New’ Philanthropy: from impetus to impact, in Jung T., Phillips, S.D.
+and Harrow, J. (eds.) The Routledge Companion to Philanthropy, Routledge: London, pp. 5-34
+46 Id.
+47 Id.
+12
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Tax Free Cash Hoarding
+One of the main critiques of modern philanthropy is the often long gap between the time when
+donors receive their tax deduction and when the money is actually employed for the intended
+charitable ends. Boards and donors often seek to preserve their endowments rather than simply
+spend the money.48 Rather than funds being employed immediately, the funds are allowed to
+accrue tax free.49 This may run counter to the spirit of the rules governing charitable deductions
+and may contribute to harmful inefficiency.50 This phenomenon has been called “Zombie Charity”
+because by the time a donor sees their funds employed for charitable purposes, they are already
+dead. As the law stands in 2021, foundations are only required to spend 5% of their assets a year.51
+Although this is a minimum requirement for foundations, many boards view 5% as the default
+rule.
+Legal Barriers to Cross-Border Philanthropy
+Another critique of modern charity revolve around the legal barriers many jurisdictions have
+instituted that limit international philanthropy. While the significant amount of wealth used for
+international philanthropy is increasing steadily, the volume of assets alone does not necessarily
+mean no present challenges exist to those who want to help beyond their own borders. These legal
+barriers can be broken down into 2 categories: “outflow” constraints, and “inflow” constraints.52
+1. Outflow Constraints: Constraints imposed by the donor nation on the outflow of
+philanthropy
+2. Inflow Constraints: Constraints imposed by the recipient nation on the inflow of
+philanthropy
+Outflow Constraints
+48 “Put a Stake in ‘Zombie Charity.’ Philanthropy Is for the Living.” Chronicle of Philanthropy, vol. 31, no. 11, Sept.
+2019, pp. 31–32.
+49 Id
+50 Id
+51 Id
+52 David Moore & Douglas Rutzen, Legal Framework for Global Philanthropy: Barriers and Opportunities, The
+International Journal of Not-for-Profit Law, VOLUME 13, ISSUES 1-2, APRIL 2011,
+13
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Philanthropists in a given jurisdiction may have to address significant limitations on foreign
+grantmaking by tax-exempt entities. For example, in India, tax-exempt entities must apply their
+assets within India’s borders. Therefore, if an Indian philanthropic organization wanted to help
+causes outside of India, that organization would now be liable to tax.53
+The second constraint that international philanthropists may encounter is the requirement of
+advanced government approval in a given jurisdiction. For example, in the United Arab Emirates,
+Article 43 of the Federal Law No. 2 prohibits the distribution of grants, gifts, donations, or other
+transfers to foreign entities without ministerial approval.54 Likewise, in Egypt, Article 17 of Law
+No. 84 prohibits domestic NGOs from sending funds or other materials to foreign organizations
+without government approval. For further examples see citation.
+The third outflow issue involves jurisdictions that offer limited, or no tax incentives for
+international philanthropy. For example in Australia, recipients eligible to receive gifts for which
+the donor may claim a deduction must be within Australia. Recipients who are not in Australia
+cannot be deductible gift recipients.55
+Another main constraint on international philanthropists are counter-terrorism regulations.
+Philanthropists need to address the migration from a tax-based regulatory scheme to a legal
+environment modelled on the fight against money laundering and terrorism.56 For example,
+regulations in the U.K terrorism measures prohibits any U.K national or other person within the
+U.K jurisdiction from knowingly dealing with “funds or economic resources” belonging to listed
+persons without authorization from the Treasury. These lists include al-Qaida and the Taliban, but
+also include nations like Belarus, Myanmar, Liberia, Somalia, and Zimbabwe.57
+Inflow Constraints
+53 Id
+54 Id
+55 Id
+56 Id
+57 Id
+14
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+The first constraint that grant recipients may face is advanced government approval. Some nations
+require organizations who receive international funds to report those funds to their governments.
+For example, in Jordan, foreign funding is subject to the approval of the Council of Ministers.
+Organizations who receive funding must report the source of funding, the amount of funding, the
+means of transfer, and the objectives for which the funding will be spent.58
+The second main constraint are nations that require philanthropic funds to be funneled through
+government channels before dispersing to the rightful recipients. For example, in Eritrea,
+international NGOs may only engage in activities through “the Ministry or other concerned
+government entity.”59
+Another restraint on recipients can be the burdensome notification and reporting requirements.
+Although this is not as burdensome as getting government approval prior to funding, it may still
+undermine the uninterrupted flow of funding to potential recipients.60 For example, in Turkey, the
+law imposes notification requirements relating to the receipt of foreign funding, where foundations
+must notify Turkish authorities within one month after receiving the funding and associations must
+notify the government before using the received donations.61
+The last main inflow issue for grant recipients are the foreign exchange restrictions. For example,
+where the value of foreign currencies is set at official rates far below the parallel market rates, this
+may act as a barrier to international philanthropy. For example, in Venezuela, currently only
+transactions through the Central Bank of Venezuela are approved and only at the official rate of
+4.3 Venezuelan Bolivar per 1 USD. This is suggested to have a negative impact on philanthropy
+because the actual rate of exchange is closer to 8 VEB to 1 USD. Additionally, circumventing
+these restrictions results in severe penalties.62
+58 Id
+59 Id
+60 Id
+61 Id
+62 Id
+15
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+In essence, international philanthropy may run into many barriers depending on jurisdiction,
+funding purpose, and political issues. Philanthropists have several options to deal with these issues
+and potentially alleviate some of these complex problems. For example, philanthropists can inquire
+and survey current international philanthropists to learn about specific challenges; they can index
+the existing barriers to international philanthropy; expand the tools and resources to help
+foundations navigate the complex legal environment; monitor legal developments across the world
+concerning philanthropy; support the development of good principles/protocols for international
+philanthropy; and support efforts to reform laws and policies.63
+Proposed Solutions
+Increased Regulatory Oversight
+Regulatory reform is typically on top of the agenda in centralized legacy circles to address
+suboptimal institutional design. For example, the IRS division charged with monitoring charities
+remains understaffed and underfinanced and is only able to audit a small percentage of charities
+annually.64 Remedies could include allowing states enhanced access to IRS information.65 The
+Pension Protection Act of 2006 allowed the IRS to share more information from charity tax records
+with state officials so they could investigate possible violations of state law. However, the act also
+established strict controls over how such information could be used; for example, state officials
+who contact a charity may not say their inquiry was prompted by information obtained from the
+IRS.66
+The community is evaluating arguments for and against a national oversight body that is tasked
+with the supervision of charitable organizations. Community proposals in this context include
+setting up a new division in the Treasury Department or other federal agency along the lines of the
+SEC, the FTC, or Britain’s Charity Commission.67 Others argue that a new agency would be
+63 Id
+64 Perry, Suzanne. “Lack of Serious Oversight of Charities Undermines Public Trust. (Cover Story).” Chronicle of
+Philanthropy, vol. 25, no. 2, Nov.2012
+65 Id
+66 Id
+67 Id
+16
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+overreach and instead the IRS should focus their resources on “complex” charity organizations
+with annual revenues that exceed 10 million USD. By concentrating on the understanding of these
+large and complex charitable organizations, the IRS could extend its capacity to identify and curtail
+abuse of nonprofit status by opportunistic enterprises which would help preserve the integrity and
+reputation of America’s nonprofits.68
+Harness Technology
+Technology upgrades provide (decentralized) alternative solutions outside the realm of regulatory
+top down government sponsored initiatives to address the shortcomings of the charity
+infrastructure. In particular, technology enables heightened transparency and accountability for
+charities which is easily implemented and lowers cost. For example, in 2014, a youth coding
+nonprofit called Hack Club designed a tool to track all the Hack Club’s finances in real time.69 In
+essence, this tool serves as a public ledger that is available to anyone online. Within the ledger, all
+the nonprofit’s transactions are tracked and recorded in real time and publicly displayed. SnapChat
+executives donated 1 million USD to Hack Club in support of the nonprofit’s transparency work.
+Ethereum founder Vitalik Buterin donated $300,000 USD and Elon Musk donated as well.70 As a
+result, 36 student-run nonprofits have made their finances public using the Hack Club Bank
+transparency tool.71
+Distributed ledger technologies (DLT) are particularly capable of increasing trust between
+charitable organizations, sponsors, and beneficiaries. The technology enables real-time tracking of
+the donation supply chain.72 The technology enhances transparency by disclosing sponsor identity,
+funds’ value, origin, destination, and purpose.73
+68 Putnam Barber & Steven Rathgeb Smith, Regulation of “Classic” Community-Based Charitable Organizations,
+De Gruyter, (October 31, 2020) https://doi.org/10.1515/npf-2020-0006.
+69 Chirstina Asquith, The Chronicle of Philanthropy, August, 2021 pp. 22-23
+70 Id.
+71 Id.
+72 Citation: Christie A (2020) Can Distributed Ledger Technologies Promote Trust for Charities? A Literature
+Review. Front. Blockchain 3:31. doi: 10.3389/fbloc.2020.00031
+73 Avdoshin, Sergey, Pesotskaya, Elena, “Blockchain in Charity: Platform for Tracking Donations”, Proceedings of
+the Future Technologies Conference (FTC) 2020, Volume 2 (pp.689-701); Farooq, Muhammad Shoaib, Khan,
+17
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+CHARITYxDAO
+DAOs have the potential to address the above identified flaws in the charitable giving process.
+DAOs are truly global borderless entities that coordinate agency relationships and limit liabilities
+via smart contracts. DAOs can use elements of profit generation and redistribution in a way that in
+effect combines capitalistic and socialistic ideas. DAOs allow for the organization of society in
+economic structures that generate profit while at the same time redistributing resources. DAOs
+combine elements of socialistic cooperatives with the meritocracy and incentivization of capitalism.
+This paper conceptualizes the benefits of DAOs in charitable organizations thorough a case study
+of a CHARITYxDAO.
+The basic concept of the CHARITYxDAO derives from the basic insight that charitable giving has
+to be fully transparent and hosted by a group of charity experts who have hands-on experience in
+fostering common good outcomes directly – not as an intermediary or sponsor. In the
+CHARITYxDAO, only those who have done good and can provide objective and traceable
+evidence of their actions for the common good are onboarded into the CHARITYxDAO
+community.
+In particular, the CHARITYxDAO mandates that onboarded VAs show evidence of having raised
+charity donations proactively and individually as well as showing evidence of having distributed
+those donations successfully to fulfill the donative intent. Only those who demonstrate both 1.
+Successful fundraising, and 2. Fulfilling the donative intent are eligible for CHARITYxDAO voting
+associate (VA) status. Once onboarded, newly elected CHARITYxDAO VAs are now also eligible
+to help select other CHARITYxDAO applicants. The details for this process are explained in
+Subchapter on onboarding below.
+Misbah, Abid, Adnan, “A framework to make charity collection transparent and auditable using blockchain
+technology”, Computers and Electrical Engineering 83 (2020)
+18
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Fixing Charitable Giving
+DAOs are ideally positioned to fix the three core identified issues in charitable giving:
+1. Lack of Transparency,
+2. Power Imbalance, and
+3. Legal Incentives.
+Increasing Transparency
+Modern philanthropic strategies entrust individual donors with the responsibility of identifying
+which human problems need to be solved with the donor’s assets and then provide the perceived
+appropriate solutions. Because of the focus on a single donor who is often not accountable to the
+public and can use a private foundation, without public disclosure obligations, to undermine asset
+allocation transparency, modern charities are often subject to a significant level of lack of
+transparency.
+The CHARITYxDAO uses DLT technology and layer 2 solutions like Polychain (Matic) to
+address transparency concerns. Through the use of DLT technology, all governance votes and
+endowment allocation decisions are fully publicly visible and can be audited by the public at will.
+Moreover, all onchain data is immutable and can be accessed by the public. The CHARITYxDAO
+Forum allows for public comments in a fully transparent way. Through the public forum
+comments, the public can directly address and call out perceived inequities and transparency
+concerns as they may pertain to the DAO.
+The public commenting function on the forum helps the CHARITYxDAO internalize information
+form the edges of the charity ecosystem that otherwise would have no agency in any charitable
+organization. This new information from the edges of the charity ecosystem further increases the
+accountabily of the CHARITYxDAO to unprecedented levels. It allows the CHARITYxDAO to
+19
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+continuously iterate on its endowment practices and morph into community structures that are
+driven by community consensus. The community consensus can morph constantly through the
+new information that reaches the CHARITYxDAO. This makes the organization much more alert
+and “live” than many Zombie Charities that have little to no activity and/or public engagement.
+The forum comments also help the CHARITYxDAO recruit top talent constantly. The
+CHARITYxDAO forum comments help the existing CHARITYxDAO VAs identify the most
+competent commenters. Those help the existing VA community do its job and at the same time
+become resources that can be leveraged by the VA community. If the information is relevant and
+material to the CHARITYxDAO work, the commenter may be invited to apply for VA status by
+providing work for a grant. This helps increase the quality of talent that is onboarded into the
+CHARITYxDAO VA pool and creates constant onboarding feedback effects. Such feedback
+effects cannot exist in traditional centralized charitable organizations.
+The CHARITYxDAO addresses the lack of transparency through charity expert community audits.
+CHARITYxDAO’s on-chain governance increases transparency to unparalleled levels and takes
+the donation out of the hands of the individual donor (who may one-sidedly or mistakenly allocate
+assets to further the donor’s donative intent). Instead, the asset allocation and policing decisions
+are put into the hands of the community of CHARITYxDAO VAs. This increases transparency
+and checks and balances dramatically. The donor is, not simply handing over the assets to a
+centralized group of individuals (who may be colluding with the sponsor to hide assets etc.) the
+donor may trust but instead hands the assets over to a community of experts in the particular
+charitable endeavor the donor has selected. With this asset allocation to the CHARITYxDAO, the
+donor enables full transparency via community audits of the donor’s endowment purpose. The
+charity experts in the CHARITYxDAO are responsible for policing the distribution of assets in the
+endowment in a fully transparent and auditable fashion.
+Equity
+Modern philanthropic strategies entrust donors with the responsibility of identifying which human
+problems need to be solved with the donor assets and then provide the perceived appropriate
+20
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+solutions. Because of these dynamics, modern philanthropy puts far more power in the hands of
+the individual donor than traditional philanthropy has done in decades. In turn, because of the key
+role of the donor, most modern charities are highly centralized around the single individual donor
+or donor family. Minorities and information from the edges of the charity ecosystem do not have
+agency in this system. Accordingly, modern philanthropy limits the autonomy of grassroots
+charitable organizations and replaces it with a leveraged and exploitative relationship where the
+goals of the donor are served above all.
+Through community governance, the CHARITYxDAO addresses the power imbalance between
+the sponsor, the beneficiaries, and the larger charity community and enables a grassroots charitable
+organization that extends the lifespan and legacy of the philanthropic intent. By giving the power
+of the endowment to the CHARITYxDAO, the donor relinquishes the control over the assets to
+gain community governance and community engagement with the donative intent. Rather than
+giving assets to a centralized entity that has no incentives to relinquish the assets to a larger
+community but may wish to retain control for their own special interests, the donor ab initio
+engages the larger community through the endowment. The fully transparent CHARITYxDAO
+governance ensures that any semblance of special interests in the VA community and the larger
+charity community as it pertains to the DAO endowment are called out via the forum.
+The donor benefits from the enhanced decentralization via the CHARITYxDAO because, rather
+than having a singular centralized entity promote the donor’s interests, the donor gets a community
+of experts behind his donative intent. The donor can help mold the community to some extnt but
+at the same time the donor releases the control to the community. The relinquishment of control
+builds trust and community buy in. This in turn, ensures growth and legacy for the respective
+purpose of the donor and the associated DAO.
+Incentive Optimization
+The existing regulatory infrastructure in many jurisdictions incentivizes delayed releases of
+endowment funds and hoarding of assets. Rather than releasing funds according to their donative
+intent, the assets are often allowed to accrue tax free, resulting in so-called Zombie Charities.
+21
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+because by the time a donor sees their funds employed for charitable purposes, they are already
+dead.
+In contrast to the existing legacy structures, and depending on the respective DAO design, DAOs
+are incentivized to immediately release the endowed assets if and when the work for the donation
+has been finished. The DAO community controls the governance variables under which assets are
+released and the policies on the asset release. Community audits ensure full transparency and donor
+intent is fulfilled.
+Foundational Beliefs
+The CHARITYxDAO community recognizes that decentralized governance as promulgated in
+Calcaterra and Kaal (2021)74 and as first instantiated by the DEVxDAO, among other later
+instantiations by other DAO communities, provides the necessary decentralized evolutionary and
+dynamic governance that forms the foundation of the CHARITYxDAO community values and core
+beliefs. Decentralized governance provides cohesion and longevity in the CHARITYxDAO.
+The CHARITYxDAO VAs are united by several core beliefs and insights.
+1. Decentralized systems are ideally positioned to support charitable giving
+2. Charitable giving has to be organized by experts for experts in charitable fundraising and
+distribution
+3. Donative intent is best accomplished through a crow-wisdom driven collective reasoning
+process - in which the donor participates to some extent.
+4. The unifying CHARITYxDAO values are of central importance for CHARITYxDAO
+membership and its resulting long-term cohesion, stability, cooperation, and continual
+dynamic evolution.
+5. The unifying values, as instantiated in the CHARITYxDAO, increase operational efficiency
+in the CHARITYxDAO.
+74 Calcaterra & Kaal, Decentralization: Technology’s Impact on Organizational and Societal Structure DeGruyter
+(2021). https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-
+Structure/dp/3110673924/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+22
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Engaging the Donor
+Engaging the donor of the CHARITYxDAO endowment into the DAO has long-term benefits for
+the CHARITYxDAO ecosystem. The donor typically has a large network of charity contacts that
+can benefit the DAO. Moreover, the donor has often a lot of knowledge about the type of charitable
+engagement the donor is seeding. This knowledge and influence should be retained for the
+betterment of the CHARITYxDAO.
+Seeding Charity Purpose
+To retain donor engagement with the CHARITYxDAO, the donor can designate a particular
+purpose for the endowment and can help seed the founding members of the DAO the donor wishes
+to create. Once the founding DAO members are selected and equipped with reputation, the donor
+can monitor the quality of onboarding decisions and project sponsored by the DAO. Depending
+on the maturity of the CHARITYxDAO expert pool, the donor may mandate the seeding of a
+particular group of experts in a new DAO that is dedicated exclusively to the charitable intent of
+the donor. For this purpose, the donor may simply clone the voting engine of the CHARITYxDAO
+(or use a plug and play DAO aggregator tool) to set up the new specific charitable purpose DAO
+expert community.
+Public Monitoring
+Continuing donor engagement can be ensured through full transparency. CHARITYxDAO
+transparency in the portal and the forum ensures that the donor can directly monitor any and all
+charitable actions the VAs are engaging in, including the pipeline of grant applications, the work
+product provided on the respective grant, all votes by the CHARITYxDAO community and the
+reputation weights associated with the votes. This allows the donor to provide indirect input on
+23
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+outcomes in the CHARITYxDAO Forum where his role can be flagged (anonymously if needed)
+via a special identification/designation. At the same time, the donor does not (necessarily) exercise
+control in this system as the donor has the same access rights as any public forum participant in
+the CHARITYxDAO.
+Endowment Allocation
+Donor engagement can be incentivized through allocating a multisig key (among many - without
+donor control) to the donor. The endowment wallet that is housed in the CHARITYxDAO legal
+wrapper can be set up as a multisign wallet with multiple keys for core constituents. The exercise
+of the multisig wallet keys will ultimately always depend on a CHARITYxDAO vote in the
+assembly of the CHARITYxDAO association (the legal wrapper – if chosen to be a Swiss
+Association). As a multisig key holder, the donor will be involved in multisig endowment payment
+decisions. The single multisig key the donor controls (as part of the multisig endowment wallet in
+the CHARITYxDAO legal wrapper) allows the donor at least some continuing contribution over
+the allocation of the assets. Even if the donor does not have a multisig key, each release of assets
+can be monitored by the donor fully transparently via the CHARITYxDAO interface and forum.
+While the donor may willingly be outvoted by the CHARITYxDAO in the multisig decision over
+asset designation, the donor still retains an interest in and engagement with the endowed assets.
+This benefits the DAO on multiple levels. The ongoing tutelage of the donor helps bring talent and
+resources to the DAO and enables a continuing fundraising effort. At the same time, the knowledge
+of the donor and the donor network can continue to seed projects and engagement for the DAO.
+Donor Marjority Reputation Stake
+The donor can also choose to become part of the DAO with a majority reputation stake. This is a
+less decentralized option that may be available to the donor. In this design, the donor controls 50%
+of reputation from the beginning and votes on each proposal for endowment distribution with the
+other members of the DAO who are selected experts. This voting includes the onboarding votes
+of new DAO members/VAs. Onboarded VAs do not dilute the 50% reputation allocation of the
+24
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+donor. The donor can always outstake the rest of the collective if the donor so chooses. At the
+same time, the donor retains the ability to rely on the onboarded charity experts to help fulfill the
+donor’s purpose for the endowment and the donor’s charitable intent.
+Governance
+The CHARITYxDAO governance75 is designed to avoid the corruptive effects of existing
+governance designs in philanthropic and charitable institutions with fungible assets in legacy
+systems. The CHARITYxDAO’s long-term success depends on its ability to maintain the dynamic
+decentralized fluidity and dynamic decentralized order. Without it, the CHARITYxDAO’s values
+that initially united and reinforced the CHARITYxDAO VAs are at risk of morphing into ever
+tighter, complex, and hierarchical structures.
+Key features
+The CHARITYxDAO’s long-term success depends on its ability to maintain the dynamic
+decentralized fluidity and dynamic decentralized order. Without it, the CHARITYxDAO’s values
+that initially united and reinforced the CHARITYxDAO VAs are at risk of morphing into ever
+tighter, complex, and hierarchical structures.
+Several key governance features and system design elements distinguish the CHARITYxDAO:
+1. CHARITYxDAO VAship applicants choose to join the CHARITYxDAO only if the values
+of the CHARITYxDAO as a collective correspond with their own existing skillset,
+convictions, values, knowledge base, and belief system.
+2. The CHARITYxDAO elicits and reinforces each VA’s particular skillsets and their
+respective belief system as it pertains to decentralized charitable giving. As such, the
+CHARITYxDAO provides a strong affirmation, reinforcement, and feedback loop for
+decentralized charitable giving.
+3. The following decentralized design elements are key to the CHARITYxDAO’s long-term
+success:
+75 See above Calcaterra & Kaal (2021).
+25
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+a. full transparency, e.g. all CHARITYxDAO decisions are fully transparent and
+accessible by the public and the CHARITYxDAO VAs themselves;
+b. merit identifiers, e.g. CHARITYxDAO VAs’ skill, knowledge, and influence is
+measured through their respective CHARITYxDAO non-fungible reputation token
+ownership;
+c. decisions in the CHARITYxDAO are made with a voting design that revolves
+around staking of non-fungible reputation tokens;
+d. non-fungibility of CHARITYxDAO reputation tokens; e.g. merit of a
+CHARITYxDAO VA is expressed by a non-fungible reputation token that cannot
+be bought or sold;
+e. Fungibility of VA salaries: VA Salaries are paid in proportion to their respective VA
+reputation scores. In other words, the reputation salary is paid out in fungible tokens
+pro rata to reputation score of each VA at the point of payment. This design ensures
+second order economic effects and indirect economic incentives in the
+CHARITYxDAO, e.g. CHARITYxDAO VAs are getting paid with fungible tokens
+in proportion to their non-fungible reputation tokens;
+f. CHARITYxDAO VAs increase their non-fungible reputation tokens by making
+valuable contributions to and participating consistently in CHARITYxDAO voting
+pools.
+g. CHARITYxDAO’s fungible salary tokens are generated through a diverse set of
+grantors/sponsors/donors
+h. anonymity of CHARITYxDAO VAs, e.g. after an initial setup and development
+period with less anonymity, CHARITYxDAO merit identifiers revolve around
+reputation scores and VAs of the CHARITYxDAO community can predominantly
+be identified by their respective reputation score in the CHARITYxDAO structure.
+i. The CHARITYxDAO uses a two-vote model on every decision the
+CHARITYxDAO has to make.
+i. Two vote model a) loosely coupled (sentiment) vote (no reputation at stake),
+b) tightly coupled (final) vote (reputation at stake):
+1. In the loosely coupled vote, CHARITYxDAO VAs can vote their
+conscience on all issues involved in the vote. No slashing of their
+26
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+reputation will happen during this sentiment vote. This incentivizes
+VAs to “speak up” with their vote after careful evaluation of the
+issues at stake.
+2. During and before the tightly coupled vote, CHARITYxDAO VAs
+can see the vote outcomes form the loosely coupled / sentiment vote.
+They can see how much reputation was staked by whom on what
+outcomes, e.g. up (for) and down (against) a proposal. This helps
+VAs form an opinion on whether they wish to continue voting in the
+final tightly coupled vote in the same way they voted in the loosely
+coupled sentiment vote. Very few VAs will decide to vote the same
+way if they were on the loosing side in the loosely coupled sentiment
+vote. Accordingly, it is reasonable to expect that the overwhelming
+majority of CHARITYxDAO’s final tightly coupled votes will end
+in unanimity on the issue at hand. The two-vote design provides a
+consensus building mechanism for the CHARITYxDAO VA
+community. Sponsors benefit from this consensus building
+mechanism because the process helps fulfill donative intent with a
+community and crowd wisdom validation.
+j. Reputation tokens are generated ONLY for long term valuable philanthropic work
+and policing of work NOT for business development etc. work that does not enhance
+the value proposition of the CHARITYxDAO long-term
+Reputation Staking for the Common Good
+The use of reputation staking metrics in the CHARITYxDAO’s internal governance design serves
+the common good.
+First, it overcomes the all too common polarizing effects and suboptimal vote outcomes of one-
+token-one-vote voting mechanisms.
+Second, the reputation staking design avoid the corruptive effects of fungible token staking because
+non-fungible reputation has to be built organically through merit and time, it needs to be earned and
+cannot be bought. Moreover, the non-fungibility of the reputation and ideally its anonymity
+decreases the attack vectors for the system dramatically because it becomes much harder for internal
+27
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+and external actors to manipulate and game the system in an effort to improve their own benefits to
+the detriment of the common good of all participants in the CHARITYxDAO ecosystem.
+Third, reputation staking optimally aligns incentives for CHARITYxDAO VAs individually and at
+the same time aligns their incentives for the totality of the CHARITYxDAO as an institution with
+its common good objectives. CHARITYxDAO reputation token holders are incentivized to increase
+their own reputation/utility by engaging in valuable conduct for the community. The common good
+gets served through this design in particular because the more the aggregated individual reputation
+of all CHARITYxDAO VAs increases the more the overall CHARITYxDAO value increases and
+the more the CHARITYxDAO creates value enhancing outcomes for the sponsors and VA
+community at large. These feedback effects enable a constantly reinforcing feedback loop for good.
+The transparency of eternally viewable reputation-staking in the CHARITYxDAO incentivizes its
+VAs to provide long-term positive contributions to the community for good. This transparency
+enables a consistent, incremental, and stable review process. Yet, individual CHARITYxDAO VA
+reputation changes dynamically constantly through action and by default also through inaction
+because VA reputation is inflationary in the CHARITYxDAO design. The design decreases the
+likelihood of individual and, in turn, community liveness fault because non-use of existing
+reputation on the individual level leads to inflationary devaluation. This incentivizes action and thus
+constant value enhancement for good.
+To create the proper incentive design in its reputation staking engine, the CHARITYxDAO
+incorporates several game-theoretical insights:
+- The CHARITYxDAO disincentivize betrayal and defection by charging an admission fee, ie. DoS
+fee to become a CHARITYxDAO VA. Given the sunk cost of joining the CHARITYxDAO, it is
+more expensive for prospective VAs to cheat because it would be expensive to rejoin even if VAs
+could be anonymous. The CHARITYxDAO also blacklists VA accounts to incentivize cooperation.
+KYC protocols further expand those incentives to cooperate.
+- To ensure continuous cooperation of CHARITYxDAO VAs, the promise of future cashflows that
+are paid proportional to the CHARITYxDAO reputation token outweigh their present value.
+- The larger the CHARITYxDAO network the more the competition increases among VAs for
+reputation tokens to receive fungible token salaries that are paid in proportion to reputation tokens.
+Accordingly, in the CHARITYxDAO design, the loss of opportunity from slashing
+CHARITYxDAO VA reputation grows as the size of the network increases.
+28
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+- Anonymity increases the value of the reputation token. As the information asymmetries and
+incomplete information increase because of the increasing anonymity, the value of the information
+that derives from reputation tokens increases. When potential business partners have less
+knowledge of CHARITYxDAO VAs’ identity, the knowledge from the number of reputation
+tokens a CHARITYxDAO VA holds becomes more important. Moreover, the lack of personal
+knowledge encourages the CHARITYxDAO VAs to devote more effort to fairly policing reputation
+tokens.
+- Punishment for nefarious conduct becomes automated and therefore credible. The
+CHARITYxDAO reputation staking design also enhances policing and compliance. The value of
+CHARITYxDAO VA reputation is directly related to how well punishment can be distributed in
+response to nefarious VA conduct. In the CHARITYxDAO design, algorithms are used to
+determine nefarious VA conduct. If a CHARITYxDAO VA’s reputation was slashed by VA vote,
+such VA will not be chosen by the algorithm.
+- Equity and the common good. The CHARITYxDAO’s design enables an equal distribution of
+power through its reputation-based governance and anonymity. Group identifiers, culture,
+language, religion, race, physical presence, etc., influence centralized power distribution. Therefore,
+commonly used identifiers, such as social media profiles and credit scores in centralized legacy
+systems, among others, play less of a role in the CHARITYxDAO voting designs. The more equal
+distribution of power in the CHARITYxDAO governance design allows the inclusion of
+constituents who otherwise have no agency in centralized systems.
+Slashing Reputation
+- Explain slashing events and background / incentives.
+Community Audits
+Community audits are a key feature in the governance of the CHARITYxDAO. Community audit
+revolves around the idea of allowing experts in philanthropy to evaluate other experts. This
+governance structure of the CHARITYxDAO enables enhanced efficiency of coordination because
+the VAs in the CHARITYxDAO, with their unique and highly specialized skillsets in the context
+of philanthropy, are ideally positioned to identify other experts in philanthropy. This allows the
+identification of candidate VA qualities from the edge of the centralized system in a continuous
+and iterative stream of information that provides dynamic feedback effects to the system. In other
+29
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+words, experts in philanthropy that may have moved philanthropic projects but were not recognized
+by large centralized charitable institutions can apply to the CHARITYxDAO for inclusion and may
+be considered if the evidence provided is satisfactory to the CHARITYxDAO VA community. As
+such, the CHARITYxDAO may present an alternative to traditional community based philanthropic
+endeavors.
+The onboarding decision by the CHARITYxDAO VA community may go beyond just project audit
+but may become a stamp of approval for follow-on investments. The upvote of a project and the
+associated onboarding decision for a new VA are a community endorsement of the quality and
+ethics of a philanthropic project. As the scale of the CHARITYxDAO grows, such onboarding
+decisions may develop a significant signaling function and may serve as a conversation started for
+follow-on investments. Similar to how centralized institutions rely on the vetting of candidates from
+other centralized institutions, the CHARITYxDAO may serve as a decentralized oracle for
+philanthropic endeavors.
+Onboarding
+The CHARITYxDAO uses two types of onboarding sets:
+1. TYPE 1: Projects that raised funds and distributed such funds to the poor / for good can
+apply for VA status upon providing evidence of their performance with their project to the
+CHARITYxDAO via the portal forum. Such TYPE 1 VA candidates fall under the
+following procedures:
+a. The treasury of the CHARITYxDAO will match the assets the candidate raised
+b. The value of the assets they raised will be used for the minting of reputation under
+the DEVxDAO MVPR with a minting ratio of $1000/Rep1
+c. The voting engine automatically stakes 50% of the newly minted reputation up for
+the VA candidate and 50% down against the candidate proposal – then the validation
+pool starts under MVPR
+d. The matched assets are held in the smart contract and will be distributed to either 1.
+The VA candidate, or 2. To the respective project, ONLY IF the candidate can show
+satisfactory evidence that the matched assets can reasonably be expected to be
+distributed in the same fashion as the assets the candidate raised him or herself
+following the earlier fundraise campaign.
+30
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+e. Once the project gets upvoted under 1.d. above, the assets will be distributed via
+milestone votes. In each milestone, the candidate has to provide evidence of
+fulfilling donative intent and allocation of assets in accordance with the project
+parameters.
+2. TYPE 2: VA candidates can apply for funds from the CHARITYxDAO without providing
+evidence of fundraising success of the VA candidate. Such TYPE 2 VA candidates fall
+under the following procedures:
+a. The treasury of the CHARITYxDAO will fund the project presented by the
+candidate if the CHARITYxDAO VA community upvotes the project
+b. The value of the assets paid out of the treasury of the CHARITYxDAO will be used
+for the minting of reputation under the DEVxDAO MVPR with a minting ratio of
+$1000/Rep1
+c. The voting engine automatically stakes 50% of the newly minted reputation up for
+the VA candidate and 50% down against the candidate proposal – then the validation
+pool starts under MVPR
+d. The treasury assets are held in the smart contract and will be distributed to either 1.
+The VA candidate, or 2. To the respective project, ONLY IF the VA candidate can
+show satisfactory evidence that the assets can reasonably be expected to be
+distributed in the fashion indicated on the candidate’s application.
+e. Once the project gets upvoted under 2.d. above, the assets will be distributed via
+milestone votes. In each milestone, the candidate has to provide evidence of
+fulfilling donative intent and allocation of assets in accordance with the project
+parameters.
+31
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Conclusion
+Philanthropy and charity in the 21st century is becoming increasingly complex as individuals and
+organizations look for new ways to maximize or exploit current structures. This topic is becoming
+even more complex as more millionaires and billionaires look for ways to wield their wealth. The
+CHARITYxDAO provides a powerful way to decentralize the existing legacy charitable
+organizations and address many of their challenges. Implementation in code will yield interesting
+experiments and allow to iterate on optimization attempts.
+Bibliography
+Alex Daniels, Rebecca Koenig, How New Philanthropy Is Divvying Up the Charity Dollar: And
+why nonprofits fear they are losing out, Chronicle of Philanthropy. Dec 2017, Vol. 30 Issue 2,
+p18-23.
+Crutchfield, Leslie, et al. “Donors Must Change Their Ways If They Want Their Money to Make
+a Difference.” Chronicle of Philanthropy, vol. 23, no. 10, Apr. 2011, p. 11.
+David Moore & Douglas Rutzen, Legal Framework for Global Philanthropy: Barriers and
+Opportunities, The International Journal of Not-for-Profit Law, VOLUME 13, ISSUES 1-2,
+APRIL 2011
+BUCHANAN, PHIL. “5 Issues Foundations Must Confront to Stay Relevant.” Chronicle of
+Philanthropy, vol. 28, no. 8, June 2016, pp. 36–40
+Stephen J. Ball, Antonio Olmedo, Global Social Capitalism: using enterprise to solve the
+problems of the world, Citizenship, 10&11 Social and Economic Education (2011)
+https://www.philanthropyroundtable.org/almanac/statistics/u.s.-generosity
+https://nccs.urban.org/publication/nonprofit-sector-brief-2019#recipients
+GOSE, BEN. “The Trust Crisis.” Chronicle of Philanthropy, vol. 32, no. 3, Jan. 2020, pp. 12–14.
+https://www.charitywatch.org/charity-donating-articles/fundraisers-for-f-rated-charities-hit-with-
+a-combined-1702-million-in-legal-judgments
+32
+Electronic copy available at: https://ssrn.com/abstract=3981021
+
+Rogers, Robin, “Why the Social Sciences Should Take Philanthropy Seriously”, Soc (2015) 52:
+533-540
+Una Osili, Kinga Zsofia Horvath, Sasha Zarins, et. Al., An Annotated Bibliography of Recent
+Literature on Current Developments in Philanthropy, February 2019.
+Callahan, D. (2017). The Givers, wealth power, and philanthropy in a new gilded age. First
+edition. New York: Alfred Knopf
+Reich, R. (2019). Philanthropy in the service of democracy. Stanford Social Innovation Review,
+17-(1), 26-33.
+Perry, Suzanne. “Lack of Serious Oversight of Charities Undermines Public Trust. (Cover
+Story).” Chronicle of Philanthropy, vol. 25, no. 2, Nov. 2012
+Putnam Barber & Steven Rathgeb Smith, Regulation of “Classic” Community-Based Charitable
+Organizations, De Gruyter, (October 31, 2020) https://doi.org/10.1515/npf-2020-0006.
+Chirstina Asquith, The Chronicle of Philanthropy, August, 2021 pp. 22-23
+Citation: Christie A (2020) Can Distributed Ledger Technologies Promote Trust for Charities? A
+Literature Review. Front. Blockchain 3:31. doi: 10.3389/fbloc.2020.00031
+Avdoshin, Sergey, Pesotskaya, Elena, “Blockchain in Charity: Platform for Tracking
+Donations”, Proceedings of the Future Technologies Conference (FTC) 2020, Volume 2 (pp.689-
+701)
+Farooq, Muhammad Shoaib, Khan, Misbah, Abid, Adnan, “A framework to make charity
+collection transparent and auditable using blockchain technology”, Computers and Electrical
+Engineering 83 (2020)
+Mathew Bishop and Michael Green, Philanthrocapitalism: How Giving Can Save the World,
+Nov. 2009: Bloomsbury Publishing USA.
+REVERE, ELSPETH. “After 25 Years of Grant Making, I Worry We Have Lost Sight of
+Nonprofit Struggles.” Chronicle of Philanthropy, vol. 28, no.11, Sept. 2016, pp. 28–31
+Phillips, S.D. and Jung, T. (2016) A New ‘New’ Philanthropy: from impetus to impact, in Jung
+T., Phillips, S.D. and Harrow, J. (eds.) The Routledge Companion to Philanthropy, Routledge:
+London, pp. 5-34
+“Put a Stake in ‘Zombie Charity.’ Philanthropy Is for the Living.” Chronicle of Philanthropy,
+vol. 31, no. 11, Sept. 2019, pp. 31–32.
+33
+Electronic copy available at: https://ssrn.com/abstract=3981021
+

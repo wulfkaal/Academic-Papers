@@ -1,0 +1,1977 @@
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+DECENTRALIZATION – Why We Need Technology
+Infrastructure Upgrades
+Wulf A. Kaal**
+Abstract
+The article shows that the technological precursors of
+decentralization require a reexamination of technological
+infrastructure for decentralized systems. Highlighting the past and
+present events in technology development that helped usher in the
+age of decentralization, the article examines the role of
+technology-based networking in the evolution of decentralization.
+The evolution of increased networking captabilities had real
+economic consequences. Platform business proliferation, the API
+economy, the sharing economy, and the network information
+economy are key examples. Similar economic consequences can
+be expected in the aftermath of the decentralized technology
+infrastructure evolution. The article concludes with a discussion of
+decentralized technology infrastructure upgrades that enable the
+evolving age of technology and societal decentralization.
+Key Words: Decentralization, History, Digital Assets,
+Decentralized Finance, Blockchain, Start-up, Decentralized
+Commerce, Emerging Technology, Token Models, Incentive
+Design, Tokens, Distributed Ledger Technology, Decentralized
+Infrastructure
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+** Professor of Law, University of St. Thomas School of Law (Minneapolis,
+USA). The author is gratefull for ongoing discussions about decentralized
+technology solutions with Craig Calcaterra. The author is also grateful for
+outstanding research assistance from Hayley Howe and research librarian
+assistance from Nicole Kinn. The author did not receive any form of financial
+incentive for authoring this article.
+1
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Table of Contents
+I. INTRODUCTION ................................................................................ 2
+II. TECHNOLOGY-BASED NETWORK CAPABILITY ..................................... 8
+1. Telecommunication ....................................................................... 8
+2. Digital Transformation.................................................................. 9
+3. Internet of Things ........................................................................ 11
+4. Social Media ............................................................................... 12
+5. Cloud Computing ........................................................................ 15
+6. Peer-to-Peer Networking ............................................................. 17
+III. ECONOMIC INSTANTIATION OF INCREASED NETWORK CAPABILITIES
+18
+1. Platform Business Proliferation ................................................... 19
+2. API Economy .............................................................................. 21
+3. Sharing Economy ........................................................................ 23
+4. Networked Information Economy................................................. 25
+IV. OPEN SOURCE MOVEMENT .......................................................... 26
+1. History ........................................................................................ 28
+2. Proliferation ............................................................................... 29
+3. Contributors’ Incentives .............................................................. 31
+4. Shortcomings .............................................................................. 33
+5. Level of Decentralization............................................................. 36
+6. Technological Precursors of Decentralization ............................. 38
+7. From Disruptive Fintech to Decentralized Finance (DeFi) .......... 38
+8. Digital Transformation as a Pathway to Decentralization ............ 39
+9. From IoT to Decentralized Web (Web 3.0) ................................... 41
+10. From Social Media to Decentralized Coordination.................. 43
+11. Cloud Computing as Inertia for Decentralized Networks ......... 44
+12. Peer-to-Peer Network Expansion ............................................ 45
+V. THE NEED FOR TECHNOLOGY INFRASTRUCTURE UPGRADES .............. 46
+I. Introduction
+The emergence and evolution of decentralization was made
+possible by the increasing technology-based network capability of
+2
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+society. Through process innovation in the creation of products
+and services, disruptive technological innovations facilitate
+exponential technological improvements that create the necessary
+environment for increased network capabilities of society.
+Technologies that facilitated increased network capability include
+telecommunications, the digital transformation, the internet of
+things (IoT), social media, cloud computing, and peer-to-peer
+networking, among others. The open source movement emerged
+out of these disruptions and continues to make significant
+contributions to ever increasing connectivity and increased
+network capabilities of society. The open source movement
+solidified the philosophy and ideas that created the foundation for
+future decentralization.
+Disruptive technology-based innovation is a gateway for the
+increased network capabilities of society. Scientific discoveries
+change the existing technological product paradigms and provide
+the foundation for more competitive new technologies and
+products to emerge. By enabling discontinuous innovations of
+processes, products, and services, disruptive technological
+innovations facilitate exponential improvements in the value
+proposition for customers.
+Technology-based networks created the historical foundation for
+today’s level of connectivity and network capability for the benefit
+of society. The historical elements that brought the levels of
+network connections to today’s standards include the internet
+boom in the 1980s in combination with telecommunications as
+well as the digital transformation of businesses and society that
+ramped up in the late 1990s. The emergence of social media and
+the internet of things (IoT) at the turn of the century further
+extended increased network capabilities of society.
+The proliferation of the open source movement created a
+significant extension of the ideas that motivated earlier
+technology-based networks. The cyberpunk movement during the
+development and proliferation of the internet in the 1980s created
+an ethos of openness in the developer community. In turn, the
+realization in the software development community that
+interoperability of software means survivability, gave rise to an
+ethos of interoperability. Interoperability required the development
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+of software that could work on different platforms. That evolving
+tradition of openness, interoperability, sharing, and cooperation for
+the greater good of optimized code gave rise to the open source
+movement. Open source developers are self-organized without a
+centralized coordinator, other than through the project objective
+itself. Collaborator and contributors rarely meet face-to-face, are
+self-coordinated with contributions coming from disparate
+locations around the world. Contributors volunteer their time to
+write, share, and generally support their software without
+monetary compensation.
+The modalities of historical instances of increased network
+capabilities of society provide a precedent for the evolution of
+decentralization. While the unprecedented increased network
+capabilities of society around the globe is still in many ways in its
+infancy, the historical network capability precedent provides an
+outlook for the possible future of decentralization.
+Disruptive innovation in the internet age creates an environment
+that enables ever increasing decentralization. Disruptive
+innovation is characterized by scientific discoveries that change
+the existing technological product paradigms and provide the
+foundation for more competitive new technologies and products to
+emerge. Disruptive technological innovations can help facilitate
+exponential improvements in the value proposition for customers.
+These improvements typical consist of discontinuous innovations
+of processes, products, and services. Disruptive technological
+innovation can be characterized by the emergence of completely
+new technologies, the new combination and application of existing
+technologies, and the application of new technologies to specific
+societal problem areas, each precipitating a significant paradigm
+shift for product technology or creating entirely new paradigms.
+Disruptive innovation exemplifies Schumpeter’s “Creative
+Destruction,” that is, the creation of competitive strength through
+innovation that is followed by new demand in new markets while
+destroying older and less competitive technologies and existing
+markets that are based on older and less competitive technologies.
+Since the mid-1990s, the implications of disruptive technologies
+and innovation were becoming increasingly apparent. Disrupter
+startups were able to increasingly attract new lower-end
+4
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+consumers by offering inexpensive substitutes for products and
+then gradually move upmarket by attracting higher-end
+consumers. Legacy businesses had to act quickly when disrupters
+appear and either acquire the disrupter or incubate a competing
+business that embraces the disruptive technology. A market
+leader’s lack of investment in disruptive technologies often results
+in the abrupt loss of market dominance or even total replacement
+in such markets. Market leaders often shortsightedly refuse to
+cannibalize their market dominance through the use of disruptive
+technologies. This enables small entrepreneurial firms with no
+established customer base to take advantage of disruptive tech-
+nologies and redefine such markets.
+Revolutionizing products in the past few decades that were based
+on disruptive technological innovation and increased network
+capabilities of society were typically smaller in size, lighter,
+cheaper, more convenient and flexible, more reliable, had better
+unit performance with higher efficiency, and were more user
+friendly than prior products. These characteristics typically require
+significant advances and growth in artificial intelligence and
+technologies including micro- or nanotechnologies, as well as
+materials and component technologies. A simple example is the
+disruption that came with the invention of the smart phone, which
+allows people around the world to access information
+instantaneously at an unprecedented scale.
+So-called big-bang disruptions typically involve increased
+compatibility and connectivity with existing products and services.
+Big-bang disruptors often offer a much cheaper product in
+comparison with the established products, but they are also better
+integrated with other products and services and are often more
+inventive and flexible. In the social media age, big-bang disruptors
+can successfully exploit consumers’ advanced access to product
+information and consumers’ ability to contribute to products and
+share such contributions and product improvements via social
+media and other outlets. Internet fads and products can be
+accessible to consumers in the entire world within a matter of
+days. Big-bang disrupters typically launch businesses without a
+foundation, using cloud computing, open platforms built on the
+internet, and fast-cycling mobile devices. Big-bang disrupters
+often produce multiple new products to identify which products
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+may take hold in the market. While most such products fail, the
+payoff associated with the unconstrained growth of those products
+that succeed is substantial and facilitates and often accelerates
+other forms of disruptive innovation.
+Several examples help illustrate the power of disruptive innovation
+and its consequences. Corporate history is littered with numerous
+examples of successful companies that drifted into obscurity after
+failing to embrace change. Nokia, Kodak, and Blackberry are
+prominent examples. All these firms collapsed after fast changes
+in their respective markets rendered their products/services no
+longer competitive.
+Several core common denominators are often associated with
+companies that are less successful in a business environment of
+disruptive innovation. Such companies usually prefer to
+concentrate on the execution of established business models built
+around existing and successful products or services. Less
+successful companies are also often slow in embracing algorithmic
+technologies, data analytics, big data, and platforms. Executives
+with a knowledge of, and focus on, innovation and consumer
+experience — i.e., those individuals responsible for the initial
+success of a company and best placed to deliver relevancy —
+often find themselves marginalized from core decision-making
+processes in companies that focus on established products.
+Less successful companies often share a myopic and short-term
+focus on shareholder value maximization that has led to an
+unhealthy emphasis on firm share price, market valuations, and
+financial metrics that obscure issues of relevancy. Listed
+companies, in particular, are prone to put too much emphasis on
+financial metrics, such as return on net assets, return on capital
+deployed, and internal rate of return. Of course, it is important to
+focus on financial metrics. However, it is also important to realize
+that an emphasis on measures that aim at quarterly earnings and
+short-term stock price performance can easily distract an
+organization from the important business task of identifying
+strategies that can help a firm remain relevant in the future.
+Budgeting is important in this regard. Successful companies are
+well padded for potential problems.
+6
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+The disruptive change coming from technological innovation is
+often directly linked to the emergence of financial technology
+(fintech). Fintech — the intersection of finance and technology—
+has revolutionized the traditional landscape of many financial
+products and services and changed the lives of business owners.
+Since the beginning of the 21st century, the merging of financial
+services and technology has been one of the fastest growing
+markets, giving rise to companies seemingly overnight.
+Technology enables startup companies to compete with financial
+market leaders.
+FinTech is spurring economic growth and development in many
+parts of the world. The introduction of technology into the once
+obsolete financial system meant that service providers are now
+taking heed of customers’ needs. The innovation of financial
+services via technology has created systems that are faster, cheaper
+and more convenient for the consumer. As a result, customers turn
+away from the legacy institutions that once dominated financial
+services. To counteract this trend, established banks and financial
+services providers are now turning to technology companies to
+innovate and improve their products and services. The joint
+venture between Goldman Sachs and Apple to introduce the Apple
+Credit card illustrates this point. Goldman Sachs appears to
+acknowledge that the future of banking is with the consumer
+market, a market it mostly ignored in the past. Fintech brings
+information closer to the edge and serves the consumers, it
+disrupts centralized structures in finance and forces the disrupted
+financial conglomerates to serve the consumer better. As such,
+Fintech epitomizes some of the core principles of decentralization.
+Like fintech, the merger of the regulatory and legal markets with
+technology (RegLegalTech) is changing the legal and regulatory
+landscape and decentralizes the application of regulation in many
+industries. The RegLegalTech sector has evolved from support
+systems to fully integrated and automated services that
+increasingly disrupt diverse sets of industries. RegLegalTech can
+generally be defined as information technology services and
+software, as well as platforms and their applications. Since the
+1970s, with the invention of the first legal databases,
+RegLegalTech has supported existing ways of operating and
+practicing law. In fact, RegLegalTech created the need for
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+additional lawyers to evaluate the new legal materials that are
+made more quickly available and more easily accessible by
+technology. At first, RegLegalTech made law firms and lawyers
+more efficient in performing their activities. Examples include
+automated billing, document storage, practice management, and
+accounting software. In the early 2010s, RegLegalTech became
+more advanced and started to include technology that assisted
+legal professionals in due diligence and e-discovery processes.
+Since 2015, RegLegalTech has continued to evolve in
+unprecedented ways. Multiple startup companies and their
+investors have started to capitalize on technologies, and their
+applications are already replacing some junior lawyers and
+disrupting the existing parameters for the practice of law.
+II. Technology-Based Network Capability
+Significant factors that helped inaugurate the increasing societal
+trends toward decentralization include: ever-increasing
+technology-based connectivity and the increased network
+capabilities of society.
+1. Telecommunication
+The meteoric rise of the telecommunications market has increased
+network capabilities of society at unprecedented historical levels.
+Smartphone’s role in shaping human interaction in the 21st
+century has been as dramatic as it is far-reaching. Smartphones
+have revolutionized society in less than a decade. With more than
+1 billion users worldwide and 2.5 million ever increasing apps
+available across Google and Apple’s digital marketplaces,
+smartphones are revolutionizing many markets and impact human
+behavior at unprecedented levels. With the launch of the iPhone in
+2007, smartphone adoption rates quickly exceeded other
+technological milestones such as the TV, the personal computer,
+the telephone, and the light bulb. The smartphone outpaced the TV
+as the consumer technology with the fastest adoption rate,
+reaching 40 percent market saturation in just 2 1/2 years. Over
+sixty percent of internet traffic today comes from mobile devices
+rather than desktops, which long served as the dominant online
+portal. Increasing evidence exists that smartphone-enabled search
+engines and digitally managed contact lists are affecting how the
+human brain processes information. Internet-connected devices
+8
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+have already become a kind of external memory source for many
+people. The role of smartphones for societal change can also not
+be underestimated. Take for instance, when the Arab Spring began
+rippling through the Middle East in early 2011. Demonstrators and
+journalists alike used smartphones to gather information quickly
+and disseminate it. The smartphone quickly proved to be a
+powerful tool for social change. For the unbanked, who lack
+access to traditional bank accounts but who nonetheless have high
+rates of mobile phone ownership, the smartphone and mobile
+money are playing a critical role in financial inclusion. For the
+unbanked, the smartphone provides access to stored value
+accounts and a growing set of financial services that can change
+their lives.
+2. Digital Transformation
+Digitization, digitalization, and digital transformation are
+fundamentally reshaping business and society. Digitization
+generally is a reference to optimizing business and other processes
+by way of removing paper and removing paper-based processes
+through the use of electronic and digital technology. With the
+digitization of paper, the manual or mechanical labor that was
+previously necessary to process and work with paper-based
+processes may no longer needed. Digitization is the start of a
+process that may lead into digitalization, which means the use of
+digitized and natively digital technologies and of data. In contrast
+with digitization, digitalization allows the creation of new revenue
+and improves business, beyond mere process optimization. Digital
+information and a digital business culture are at the core of the
+digitalization of businesses. Digital transformation, in turn, refers
+to process innovation in combination with business model
+upgrades for businesses. Digital transformation often implies the
+fundamental transformation of a business with new capabilities,
+enhanced innovation, and the creation of new revenue streams.
+A good illustration of a digital transformation is provided by the
+John Deere company.1 John Deere built its business as a
+manufacturer of equipment with a more traditional business
+1 John Deere, https://www.deere.com/en/ (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+strategy and outlook. With the emergence of digitization and
+internet technologies in the late 1990s, John Deere was able to
+move from a mere equipment manufacturing business to a service
+and data company. Unlike so many other businesses that perished
+in the age of accelerating digital innovation because they were
+unable to let go of the past and their core business, John Deere
+embraced the digital transformation and created entirely new
+revenue streams. Through its data capabilities, John Deere became
+a trusted advisor to farmers and helped farmers increase their yield
+and optimize their businesses. Because of the new business lines
+coming out of its digital transformation, John Deere had the
+opportunity to combine its new businesses with other innovative
+business models from different sectors. The digital transformation
+of John Deere’s business culminated in John Deere’s emergence
+as a disruptive company that had redefined the farming industry.
+The digital transformation of business and society has multiple
+interdependent dimensions. The information and information
+technology dimensions are integral parts of digitalization and its
+value creation. Without the transformation of digitization into
+information technology, the digital transformation economy where
+digital transformation of a given business moves to the core of that
+business, could not have emerged. The digitization of content was
+a natural precursor to the internet of things and its progeny. The
+proliferation of digital services in the internet of things, in turn,
+required a certain depth of digitalization in order for it to connect
+with and transform other technologies and to create new business
+assets.
+Just like previous transformational periods for business and
+society, the digital transformation of business and society
+inaugurated unprecedented societal change that necessitated a new
+infrastructure. Similar to the changes instituted by the steam
+engine and the combustion engine during the industrial revolution,
+which required new infrastructure tools, such as improved streets,
+copper wiring for electricity, light bulbs, new laws, institutions
+etc., digital transformation was inhibited until the needed
+infrastructure was built, laws were updated, and new institutions
+were created.
+10
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+The inherent disruption associated with digital transformation
+creates challenges for existing businesses. Similar to the disruptive
+change during the industrial revolution, the digital transformation
+of business began with many competing startups, inventors, and
+businesses, but most businesses were flushed out, resulting in only
+a few winners. These winning businesses made significant lasting
+contributions to society. Just as the inventions that empowered the
+industrial revolution disrupted old industries while giving rise to
+new ones, digital transformation provided the same disruption.
+Digitization was a precursor to peer-to-peer transactions at scale.
+Correspondingly, the digital transformation of business enabled
+for the first time in history a form of decentralized production at
+lower cost.
+3. Internet of Things
+The increasing connectivity in society that was inaugurated by the
+telecommunications industry, especially by the smartphone, and
+the digital transformation is further extended by the emergence of
+the internet of things (IoT). IoT as a phenomenon is probably best
+described as a giant network involving connectivity between
+people, people and devices, and devices and other devices.
+Connecting non-human devices and service providers via the
+internet is at the heart of IoT. Such connected devices can include
+anything from washing machines to coffee makers and toasters as
+well as components of machines, e.g. the soap box of the washing
+machine that may automatically order new liquid soap from a
+connected service provider, such as Amazon and importantly,
+sensors and related devices, for security, monitoring, agricultural
+and other uses.
+The ideal typical conditions for the proliferation of IoT can be
+traced to a combination of factors. Connecting an unprecedented
+amount of devices over the internet was made possible through the
+proliferation of broadband internet connections and is further
+expanded through the emergence of 5G telecommunication
+networks and skyrocketing smartphone penetration worldwide. At
+the same time, an increasing amount of devices are being created
+with built-in Wi-Fi and sensors that further multiply the
+availability of connectivity and with it connected devices.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Significantly, the cost of technology is decreasing at the same
+time.
+Big data, generated by mobile telecommunication and IoT devices
+is also a significant driver of increased network capabilities of
+society. Being able to access and evaluate entire datasets, rather
+than a small sample thereof, allows researchers to understand
+unprecedented correlations. Improved understanding of
+correlations in network data, in turn, facilitates accelerated and
+improved connectivity. Big data in the form of digitized data that
+grows at exponential rates and can be captured and manipulated
+electronically draws on several core sources including the internet
+of things, public records, social media, and cameras, as well as
+satellite tracking. Big data benefits not only include industry and
+researchers, but also increase consumer connectivity and choice
+through publicly available websites providing big data analyses
+intended to support consumers’ decision-making processes.
+AI increased network capabilities of society. Many sectors of the
+economy are already significantly affected by the rapid advances
+in AI during the past decade. Most significantly, AI has the
+capacity to process and allocate the data generated by IoT and will
+help companies figure out ways to track, store, and analyze the
+significant increases in data that will be generated by many
+billions of devices. With the help of AI, the new data provided by
+IoT can help increase and optimize the connectivity of people to
+people, people to devices, and devices to devices. AI can help
+improve what and how people and devices should be connected
+because the connections serve their respective needs.
+4. Social Media
+Social media has increased network capabilities of society at
+unprecedented rates in human history. The social media-generated
+increase in virtual communication resulted in about one fourth of
+humanity interacting on social media in some capacity.
+According to recent estimates, overall 2.3 million worldwide
+active social media users exist. The overwhelming majority of
+large corporate brands have two or more social media platforms.
+Social media has changed the way most businesses operate and
+run on a daily basis.
+12
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Social media facilitates a more democratic proliferation of
+information dissemination in society. Network effects facilitate the
+unprecedented expansion and proliferation of social media. Social
+media networks become more useful and powerful with each
+added user. As users interact with others, social networks become
+more powerful as they grow. Information sharing via social media
+happens at scale and creates power and influence for the creators.
+Social media as a means of distributing information, allows the
+content creators to harness that power because power is allocated
+to the most popular content. The longer the information is in
+circulation, the more discussion it generates and the greater the
+impact of social media. According to some estimates, the average
+life expectancy of a given content posted on the web is 2.6 days,
+compared to 3.2 days for content shared on social media, a
+difference of over 23%.2
+Cross-pollination from telecommunications and the IoT has
+accelerated the proliferation of social media and the associated
+increase in network capabilities of society. Across the globe,
+consumers spend most time online with their mobile devices.
+According to some estimates, consumers in Indonesia spend over
+ninety percent of their time online via mobile devices, followed by
+over seventy percent in the USA and China.3 Whereas technology-
+based disruptive innovation mostly creates challenges for brick-
+and mortar businesses, social media allows business across the
+fray to generate demand, insights, and create targeted product
+offerings. Traditional brick-and-motor businesses and e-commerce
+businesses benefit from social media alike.
+Social media improves the exchange of knowledge and removes
+societal boundaries. For example, cross-racial dating and
+marriages have increased through online dating portals. Social
+2 Carr, Clare (Apr. 13, 2015). The Data Behind the Average Article Lifespan.
+Parse.ly, https://blog.parse.ly/post/1768/data-on-article-lifespans/ (accessed
+June 1, 2020).
+3 Chaffey, Dave (Nov. 11, 2019). Mobile Marketing Statistics Compilation.
+Smart Insights, https://www.smartinsights.com/mobile-marketing/mobile-
+marketing-analytics/mobile-marketing-statistics/ (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+media can help spread otherwise highly specialized knowledge
+shared by specialists. Ultimately, social media’s function is to
+incentivize people to see and respond to content. The use of social
+media is significantly increasing in learning.4 It raises the level of
+interaction and helps create a more skilled and knowledgeable
+work force. Enhanced knowledge sharing, in organizations and
+society at large, can help eliminate silos and information privileges
+and, thus, removes boundaries.
+Social media transfers knowledge from the edges of society into
+the mainstream. Because social media allows people to
+communicate with one another more freely, it supports the
+creation of influential social organizations among once-
+marginalized groups. Social media allows people who hold
+otherwise marginalized or underappreciated views to meet kindred
+spirits online and form groups that promote their shared ideas.
+When these newly formed social networks grow they can increase
+their influence incrementally and promote their perspectives until
+they become more mainstream. Otherwise invisible social, ethical,
+environmental, political issues can thus gain traction rather
+quickly. Increased visibility of these issues can transfer the
+balance of power on these issues from the hands of a few to the
+mainstream of the masses.
+The increased network capabilities of society that are promoted by
+social media can change society’s coordination functions.
+Traditional modes of coordinating human behavior by way of
+political decision making, democratic institutions, business
+governance, among many others, used centralized means of
+information dissemination to coordinate behavior. As the
+information that influences the coordination of human behavior
+increasingly comes from the edges, the coordination of human
+behavior changes. Despite the control of the internet through
+several companies, using a more diverse set of information
+sources, humans can coordinate their behavior through the internet
+4 Seaman, Jeff & Tinti-Kane, Hester (Oct. 2013). Social Media for Teaching
+and Learning. Pearson Learning Solutions and the Babson Survey Research
+Group, https://onlinelearningsurvey.com/reports/social-media-for-teaching-and-
+learning-2013-report.pdf (accessed June 1, 2020).
+14
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+for a more diverse set of causes that would have remained
+marginalized in the centralized environment before the rise of
+social media.
+The social media crowd takes over an otherwise centralized
+societal coordination function. Whereas in the past, product
+information was centrally disseminated and evaluated on
+consumer’s behalf, with the rise of social media, it is possible to
+assess products or information through the power of the crowd.
+For instance, when products attract a lot of shares on social media,
+it typically benefits sales of a given product. The consumer crowd
+on social media uses shares, that is, how often a given post or
+information was shared with their network, as a proxy for a quality
+assessment. On the other hand, the lack of shares for a given
+product can trigger consumer distrust. Product or content specific
+conduct on social media thus becomes a form of ‘social proof.’5
+Because the incentive design for social proof is suboptimal, the
+social media coordination function is still largely flawed.
+Decentralized technology solutions, however, can tap into the
+coordination function that was inaugurated by social media and
+improve it.
+5. Cloud Computing
+Cloud computing has facilitated a significant extension of the
+digital transformation by way of further enhancing connectivity at
+the enterprise level. Cloud computing is characterized by the on-
+demand availability of digital and computing resources, such as
+computing power or data storage. Contrasting prior solutions that
+used a local server or a personal computer to manage computing
+resources, in cloud computing, a network of remote servers hosted
+on the internet is used to store, manage, and process data. Users
+access these resources on-demand without direct active
+management by the user. Data centers provide a prominent
+example of cloud computing. Data centers provide services such
+as computing power or data storage available to many users over
+5 Marsden, Dr. Paul (2012). The Social Commerce Handbook. Blacklick:
+McGraw-Hill Publishing.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+the internet without any direct active management or control by
+the users.
+Historically, cloud computing began as attempts to optimize
+networks. While references to cloud computing emerged in
+computer science as early as 1996, in internal documents at
+Compaq, the term "Cloud computing" itself became more
+commonly used after Amazon in 2006 released its Elastic
+Compute Cloud product. The first attempts at cloud computing
+started with virtual private networks (VPNs) in the 1990s.
+Telecom companies in the 1990s used VPNs to replace dedicated
+point-to-point data circuits with similar quality of service but at
+lower costs. VPNs allowed them to use network bandwidth more
+effectively. Computing and telecom companies started to use a
+cloud symbol to denote the demarcation point between network
+responsibility for the user versus the network provider.
+The rapid development of cloud computing has significant
+disruptive effects. In the future, it is hard to imagine that
+traditional data centers and the traditional models for delivering
+information technology (IT) and IT services will be able to survive
+or stay competitive. For companies, owning their own hardware
+and building their own data centers does not appear to be cost
+effective in the future. Cloud computing vendors will solve the
+computing hardware problem, leading to computing infrastructure
+to becoming a commodity except for maintenance on local
+equipment. Businesses that operate primarily from the cloud are
+more flexible, more productive, and overall, more efficient.
+The future of cloud computing brings humanity to ever increasing
+connectivity. Individual networks will become redundant and
+most systems will be integrated into a network. Because of the
+increased connectivity, enabled by cloud computing, software
+applications integrate seamlessly with each other and with the
+human environment, regardless of location. One-to-one
+application integration processes will be transformed via meta
+languages into mass enabled applications that can connect with
+each other to exchange data. Consumers will expect applications
+to be more connected and more versatile and the applications with
+the most connectivity are becoming the most effective and, thus,
+most popular.
+16
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+6. Peer-to-Peer Networking
+The historical development of peer-to-peer networking
+inaugurated the decentralized technology evolution. The term
+peer-to-peer networking describes a distributed applications
+architecture that distributes and partitions computing workloads or
+tasks between peer computers or nodes. Such nodes are equal
+contributors with equal privileges in the application, forming the
+peer-to-peer network of nodes. The distributed nature of the
+network is made possible through the removal of centralized hosts
+and servers. Instead, the nodes that form the network make
+computing resources, such as disk storage, network bandwidth,
+and processing power, directly available to each other. Unlike
+traditional client-server models, that divide the consumption and
+supply of computing resources, nodes in decentralized peer-to-
+peer networks are both consumers and suppliers of computing
+resources.
+The transition from a traditional client-server computing
+architecture to a peer-to-peer networking architecture was made
+possible by the inversion of the role of the audience in the
+network. The demand for a file in a traditional client-server
+architecture is directly proportional to the bandwidth it consumed.
+By contrast, in the peer-to-peer network, higher demand for a file
+triggers higher levels of seeding nodes for the high demand file.
+The higher seeding level for the file lowers the delivery cost for
+each distributed file. Accordingly, a peer-to-peer computing
+architecture is more efficient than the traditional client-server
+architecture. The traditional client-server architecture is subject to
+the linearly increasing per-unit costs whereas with a peer-to-peer
+network, cost decreasse with each added node. Network effects
+proliferate in peer-to-peer networks as each node that joins the
+network both consumes network resources but also provides
+resources to the network. Because of its cost structure, the
+traditional architecture is more subject to competition than the
+peer-to-peer architecture.
+The heritage of peer-to-peer networks goes back half a century.
+The transition from a traditional client-server computing
+architecture to a peer-to-peer networking architecture was made
+possible by several core projects and their developer teams. While
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+this short history of peer-to-peer networks perhaps was made most
+famous by the file sharing system Napster, which was released in
+1999, the following projects, most of whom are still active, are
+worth mentioning in chronological order:
+1. In 1969, the Arpanet connected several preeminent computing
+research institutions and treated each institution node as an equal
+computing peer, not in a client-server format.
+2. In 1979, Usenet was based on the Unix-to-Unix protocol and
+allowed Unix machines to exchange files,
+3. In the late 1990s, Napster file sharing was made possible
+through the then new data compression technologies. In less than a
+year, Napster had over one million members.
+4. In 2000, Gnutella allowed users to find each other remotely,
+removing Napster’s need of central indexing servers. At the same
+time, Freenet significantly enhanced user anonymity by
+connecting users only through intermediate nodes and storing
+encrypted snippets of files;
+5. In 2001, BitTorrent allowed nodes to connect directly through a
+TCP port and later implemented distributed hash tables for peer-
+to-peer discovery. Even if government authorities shut down
+specific servers, the BitTorrent network could not be shut down
+because nodes could update their own routing tables indefinitely.
+6. In 2009, Bitcoin was released by Satoshi Nakamoto as a
+blockchain with a distributed registry that allowed it to store with
+each node an incrementally growing registry of transactions that
+could not be changed. The underlying consensus mechanism of
+Bitcoin could be abstracted into many different use cases above
+and beyond storing data and transacting in a store of value.
+III. Economic Instantiation of Increased Network
+Capabilities
+The ever-increasing technology-based connectivity and increased
+network capabilities of society have had several historic economic
+instantiations. The combination of technology development and
+business applications of technological innovations created the
+historical foundation for network-based decentralized structures.
+Economic incentive design is an integral part of decentralized
+technology and decentralized network proliferation. For example,
+token economic incentive designs in decentralized systems are an
+18
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+important network feature. The existing economic network designs
+are a precursor of what future economic applications and incentive
+designs for decentralized networks could encapsulate.
+1. Platform Business Proliferation
+Internet-based platform businesses have been proliferating since
+the dot.com boom at the end of 2000. A platform business model
+enables exchanges between two or more interdependent but
+otherwise disconnected groups, such as producers and consumers,
+to transact business and create value. Examples include Google,
+Facebook, YouTube, Airbnb, Uber, eBay, Alibaba, and PayPal.
+Platform businesses create scalable networks of users and
+resources that can be accessed on demand. To build a growing
+digital environment and the associated revenues, companies have
+integrated their core business functions into platforms to create
+synergies with third parties. To participate in the value creation of
+platforms, companies are either trying to become a part of an
+existing ecosystem or create an ecosystem for their unique
+offering, service, or products.
+The platforms facilitate and coordinate unprecedented connectivity
+between multiple entities, individuals, business partners, and
+individual end users. The entities and individuals include the
+platform owners, the platform itself, the data that is generated by
+the platform and monetized by the platform, the technology that is
+improved by the platform and in turn enables the platform itself to
+be operational for business, as well as creative communities, users
+extractors, other joint ventures or partners.
+Platform businesses thrive because they facilitate increased
+connectivity between consumers and producers. Digital and
+internet-based platform businesses that increased the connectivity
+between consumers and producers have had significant disruptive
+effects on many industries. For example, Amazon and Uber,
+among many others, have built multi-billion-dollar businesses at
+unprecedented speed in the corporate world. In their paths, these
+platform businesses are often challenging or removing entire
+incumbent businesses and disrupting entire industries. This new
+business paradigm, depends on the ability to create unique
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+technology platforms that are intelligent, open, scalable, and
+increase connectivity.
+Platform businesses build and enhance technology infrastructure.
+The connectivity improvements have knock on effects on
+technology development because the platforms generate data that
+is used by the platforms to monetize but also to improve their own
+technologies. The thus improved technologies, in turn, enable the
+platforms to improve their services and product offerings which
+generates even more data. The feedback effects between data
+generation and technology optimization and vice versa creates a
+permanent learning and optimization environment for platform
+businesses.
+Internet-based platform services are partially so successful
+because their peer-to-peer capabilities, in connecting consumer
+and producers, make them compelling, efficient, and attractive to
+consumers in a fast-changing world, leading consumers to place
+their trust in new businesses and brands. Search algorithms, data
+analytics, and improvements in usability have increased trust in
+consumers by minimizing bad experiences, maximizing great
+experiences, and avoiding unwanted issues. With the increasing
+availability of big data, deep learning, machine learning, sensors
+and sensor data, such technology-driven evolution of internet-
+based platform businesses can be expected to expand rapidly. The
+S&P 500 index has seen many of platform-based companies
+become its largest and fastest growing listed companies.
+Once internet-based platform businesses become fully fledged
+ecosystems, they can further scale and optimize their business.
+Whereas in the past, business innovation required coordination of
+materials, sourcing, distribution, customer sales and service mostly
+in silos to protect from competition, today a business ecosystem
+enables customers, partners and vendors alike to efficiently
+exchange value. Because ecosystems lower barriers to entry and
+enhance connectivity between organizations, consumers,
+individual departments and related industries, they help companies
+get closer to customers. The connectivity-based profitability is
+further increased because ecosystems allow the connected
+businesses to gather and analyze big datasets generated by the
+ecosystem for the betterment of all ecosystem participants. This
+20
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+data sharing allows ecosystem participants to learn more about
+their shortcomings and optimize their businesses. For example,
+Amazon was able to utilize data coming from multiple data points
+in its ecosystem to optimize its distribution and supply channels
+and personalize customer recommendations that created
+significantly higher sales.
+The business models promulgated by the increasing proliferation
+of platform businesses will likely become the de-facto standard for
+the platform-based digital transformation of the future. The digital
+transformation of business, starting in the 1990s, was a critical
+factor for business success that enabled the proliferation of
+platform businesses and technology innovation. For example, the
+increasing use of telecommunications, the digitization, IoT, social
+media, cloud computing, and peer-to-peer networking, in
+combination with big data functionalities allowed for more
+seamless integration with cloud computing. The increased
+flexibility and proliferating scale of the digital transformation via
+cloud computing allows the enhancement of existing legacy
+business processes far more easily. Facilitated by platforms and
+ecosystems, companies can engage in joint ventures and
+partnerships and grow quicker together through the easier
+integration of services and products.
+2. API Economy
+Application programming interfaces (APIs) provide
+unprecedented connectivity in digital applications and business.
+An API is a computing interface or computing communication
+protocol between a server and a client. Its job is to provide
+standard best in class services generally offering specific
+solutions, most often used by the provider as part of their offering
+to end customers, that can be used by partnering companies to
+gain the advantage proven technology provides. Two very
+successful early entrants into the API markets were PayPal and
+Salesforce, enabling very sophisticated solutions that would be
+nearly impossible to equal. APIs make it easier to integrate and
+connect data, algorithms, systems, and people, share data and
+information and authenticate people and things by leveraging
+third-party algorithms and enabling transactions. Through these
+features, APIs help create new user experiences, new
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+product/services and business models. APIs simplify the building
+of client-side software through a set of procedures and functions
+that enable applications that access the features or data of an
+application, operating system, or other service. APIs create the
+standards that allow companies to exchange data and build
+seamless omni-channel experiences for their customers. Because
+of their key accessibility features, APIs facilitate the
+interoperability of otherwise centralized unconnected computing
+systems.
+The term “API Economy” generally refers to APIs’ ability to
+increase organizational effectiveness and profitability in
+businesses through its ability to increase interoperability of
+otherwise disparate systems. Historically, mostly software
+professionals concerned themselves with the use of APIs to
+overcome incompatible software systems. Over time, however, the
+increased compatibility of software solutions and heightened
+interoperability of systems increased the value proposition of
+emerging technologies. The ability to attain additional revenue
+through the application and use of third-party APIs was perhaps
+most visible in enterprise applications of mobile solutions, social
+networking, financial services, and web-based applications.
+APIs disrupt traditional value-chain hierarchies. Through the use
+of APIs, companies no longer need to control the entire value
+chain because it is much cheaper and technologically often easier
+to create application features in separate products that connect via
+APIs to existing ecosystems and/or other products. Through the
+connectivity in APIs, companies can combine individual products
+as building blocks that, if connected, can function as a single
+product or proposition that satisfies particular consumer needs that
+are otherwise not fulfilled in the ecosystem but technologically
+possible.
+The ever-growing API Economy benefits from technology-based
+increases in network capabilities of business and society and vice
+versa. Technologies that increase network capabilities of business
+and society invariably rely on APIs to facilitate interoperability
+and / or increased connectivity. Such technologies and businesses
+include telecommunications, mobile phones, the digital
+transformation of businesses, the IoT, social media, cloud
+22
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+computing and peer-to-peer networking. As these technologies and
+business proliferate, the API Economy grows in lockstep.
+The API Economy thrives particularly because several sectors
+increasingly relied on APIs and merged their efforts via APIs to
+create significant synergies. An organizations’ profitability in a
+given sector benefits from the creation of new API-powered
+capabilities and services. The more popular a given service that
+relies on APIs, the more the underlying business will consider
+APIs as a factor in its business model and strategy.
+APIs foster connectivity-based innovation. Companies can use
+APIs to expand their innovative product offerings and designs by
+connecting their existing offerings via APIs with building blocks
+to other products and designs that are external to the company.
+Such API-based business expansions often result in more efficient
+and more scalable distribution channels for the respective
+company. API platforms enable the expansion of existing products
+into more comprehensive products by delivering much needed
+additional features and capabilities. For example, a banks’ API
+strategy, that is their ability to connect to other services and
+products, is instrumental to their respective brands and
+ecosystems.
+APIs can transform businesses into platforms that expand value.
+Platforms can expand and multiply the creation of value in a given
+business. Such value creation is possible because platforms enable
+business ecosystems inside and outside of the respective company.
+3. Sharing Economy
+Peer-to-peer connectivity is at the heart of the sharing
+economy. The term ‘sharing economy’ is often used to refer to the
+distribution of services and goods and the partial use of others’
+property rights in goods. For instance, you might provide your car,
+or your time, as part of a peer-to-peer transaction, often over a
+platform built to unite the interested parties. Unlike traditional
+centralized ways of production and selling to consumers by hiring
+employees, platform companies in the sharing economy typically
+provide the technological setup that allows individuals to share
+their property rights in goods or sell their services without
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+centralized employment. Individuals who connect via platforms in
+the sharing economy share their property rights in, for example,
+cars, homes, or rent out their personal skillsets and time in a peer-
+to-peer form of engagement.
+The sharing economy has become part of modern society’s
+mainstream. The origins of the sharing economy can be traced
+back to an emphasis on sustainability, resource efficiency, and
+community. As the sharing economy evolved, not only did its
+services and industry acceptance proliferate, the sharing
+economy’s credo of “Access over ownership” became more
+mainstream. The public had grown accustomed to receiving
+services and goods on-demand via digital and mobile
+technologies. On-demand access to goods and services became
+part of modern society, it became no longer a preference and habit
+of millennials alone.
+The sharing economy necessitated a reframing of legacy legal
+regimes and frameworks. The legal frameworks that regulate
+disrupted and associated industries were often incompatible with
+the emerging trends generated by the sharing economy. Cities and
+co-municipalities had to learn that the sharing economy requires a
+proactive stance to channel the sharing economy’s outputs and
+associated new requirements into economic development while at
+the same time protecting the public with regulation. While some
+cities have joined forces to declare common commitments and
+principles for sharing cities6 and many co-municipalities are
+developing transportation-as-a-service platforms to better meet the
+needs of all residents, some states in the United States have passed
+legislation that in some ways undermine the sharing economy.7
+6 Share Barcelona, https://share.barcelona/ (accessed June 1, 2020).
+7 Ballotpedia (2017). Local Government Responses to the Sharing Economy
+(ridesharing/homesharing),
+https://ballotpedia.org/Local_government_responses_to_the_sharing_economy_
+(ridesharing/homesharing) (accessed June 1, 2020); Chapman, Lizette,
+Eidelson, Josh, Cutler, Joyce E. & Bloomberg (Sept. 11, 2019). New Labor Bill
+Passed by California Senate Would Transform the Gig Economy -- And Could
+Cost Uber $500 Million a Year. Fortune: Tech,
+https://fortune.com/2019/09/11/gig-economy-california-senate-uber-law-labor-
+rights-union/ (accessed June 1, 2020).
+24
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Yet, some countries, such as Denmark, have changed their internal
+regulations to better accommodate sharing economies.8
+The values that enabled the kickstart of the sharing economy
+morphed from an emphasis on connectivity for the sake of
+sustainability to a focus on connectivity and community as a
+commodity. In other words, connectivity and community building
+via increased connectivity became a purpose and meaning by
+itself. The purpose of sharing economy participants shifted from
+connectivity for a cause, such as a community for sustainability,
+toward mass consumption for convenience and transactional
+efficiency.
+The ultimate sign of the sharing economy’s success is its
+increasing recognition in policy, economic, and business circles,
+as part of the overall economy. The sharing economy has the
+potential to shape entire markets that are better connected and
+more efficient. It has started to blur the lines between industries
+and even former competitors.
+4. Networked Information Economy
+The networked information economy9 is the extension and
+combination of factors emanating from the proliferation of
+internet-based platform businesses, the API economy, as well as
+elements from the sharing economy. Based on the proliferating
+peer-to-peer exchange of information, the networked information
+economy may be replacing the centralized industrial information
+economy of the late-nineteenth century.10 The greater role of
+decentralized individual action is made possible through much
+easier access to information, by way of social media, among
+others. With the easier access to information comes the significant
+reduction in communication costs. Peer-to-peer production is a
+8 Ritzau (May 18, 2018). In World First, AirBnB to Report Income Directly to
+Danish Authorities. The Local dk, https://www.thelocal.dk/20180518/in-world-
+first-airbnb-to-report-income-directly-to-danish-authorities (accessed June 1,
+2020).
+9 Benkley, Yochai (2006). The Wealth of Networks: How Social Production
+Transforms Markets and Freedom. Yale University Press: New Haven.
+10 Ibid.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+natural corollary of cost efficiencies created by organizing on
+peer-to-peer bases.
+The network information economy’s emphasis of increased flow
+and availability of information is made possible by several core
+factors. Lower communication cost and more diverse sources of
+information from the edges of the system and society enable the
+coordination of productive efforts. The availability of information
+in structures is not consumptive and does not deplete. Computing
+power in structures is progressively less expensive and production
+cost are correspondingly low. Because individual inputs come
+increasingly from the edges of the system, the inputs are less
+homogenous and more diverse which increases the utility of
+network membership for each member or node.
+IV. Open Source Movement
+The open source movement is defined by the core characteristics
+of open source software. The Open Source Initiative defines open
+source software by its terms of distribution, not just the free access
+to source code. The following are core defining criteria of open
+source software:
+1. Free redistribution.
+2. The program includes source code and allows distribution of
+source and binary code and obfuscating source code is prohibited.
+3. Derived works can be distributed under the same terms as the
+original code.
+4. The integrity of the author's source code has to be maintained.
+5. Any open source license must not discriminate against any
+person or group of persons.
+6. Any open source license must not discriminate against anyone
+who wishes to make use of the open source code in a specific field
+of endeavor.
+7. Licensed rights associated with open source code transfer to
+anyone to whom the code is redistributed.
+8. Open source code licenses are not specific to a product and
+anyone who is a recipient of the open source code by way of
+distribution has the same rights as the original software licensee.
+9. An open source software license must not restrict other software
+distributed along with the licensed open source software.
+26
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+10. An Open source software license must be technology-neutral
+and cannot be predicated on any individual technology or type of
+technology interface.11
+The definition of open source software provided by the Open
+Source Initiative follows several core rationales that apply to open
+source code. For instance, the requirement of free redistribution
+creates incentives for contributors to focus on long-term
+objectives. Un-obfuscated original source code is necessary in
+order to modify the original code and thus enable the original code
+to evolve. Evolution of open source code necessitates
+experimentation and in turn requires open redistribution of code
+modifications. Changes to original source code must be
+identifiable by way of the distribution of pristine base sources plus
+patches so the authors’ incentives and reputation are protected and
+contributors and users know what original work they are
+supporting and changing. To ensure optimal diversity of
+contributors, no contributor can be discriminated against in the
+open source development process by way of an open source
+license. Therefore, open source licenses cannot incorporate any
+restrictions and commercial users are freely included.12
+11 Open Source Initiative (2007). The Open Source Definition,
+https://opensource.org/docs/osd (accessed June 1, 2020), the OSD were
+originally derived from the Debian Social Contract: Debian (Apr. 26, 2004).
+Debian Social Contract, https://www.debian.org/social_contract#guidelines
+(accessed June 1, 2020). Because of the open source nature and its transparency,
+any definition of open source software is necessarily incomplete and tentative.
+Several alternatives and critiques were published: Feller, Joseph & Fitzgerald,
+Brian (2002). Understanding Open Source Software Development. Addison-
+Wesley; UK; Wang, Huaiqing & Wang, Chen (Mar/Apr. 2001). Open Source
+Software Adoption: A Status Report. IEEE Software, 18:2, 90-95; Capiluppi,
+Andrea, Lago, Patricia, & Morisio, Maurizio (April 2003). Characteristics of
+Open Source Projects [Conference Paper]. Proceedings of the Euromicro
+Conference on Software Maintenance and Reengineering,
+https://www.researchgate.net/publication/4010991_Characteristics_of_open_so
+urce_projects [PDF Available], 317–330; Krishnamurthy, Sandeep (April
+2002). Cave or Community? An Emprirical Examination of 100 Mature Open
+Source Projects. First Monday,
+https://www.researchgate.net/publication/220167093_Cave_or_Community_An
+_Empirical_Examination_of_100_Mature_Open_Source_Projects [PDF
+Available].
+12 Open Source Initiative (2007). The Open Source Definition (Annotated),
+https://opensource.org/docs/definition.php (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+1. History
+The core open source software development community emerged
+from the early days of the development of the Internet. During the
+1960 and 1970s, the academic research and software development
+at leading universities in the United States necessitated the
+exchange of information. Because the academic community
+needed core infrastructure products for their respective projects,
+yet infrastructure elements were not in place at the time, the
+exchange of information became a natural side effect of software
+development and research.
+Corporate research laboratories followed a similar pattern of
+exchange and community effort in software development in the
+early 1960 and 1970s. For instance, Bell Labs and Xerox’s Palo
+Alto Research Center wanted to incentivize intrinsically motivated
+projects among their highly skilled developer workforce.
+Accordingly, such corporate research laboratories gave their
+developers near complete autonomy in the pursuit of personal
+projects that had a rather limited association with the corporate
+products or services. What made this autonomy even more
+remarkable was the sharing of information the corporate entities
+permitted for the furtherance of the research, in the spirit of
+academic freedom. The academic research in combination with
+the significant freedom facilitated by corporate research
+laboratories in these years created a culture of exchange and
+cooperation that permeated the software development
+communities around the world for decades to come.
+The proliferation of the open source software movement derives in
+part from the nature of the developed software itself. The
+realization in the software development community that
+interoperability means survivability, especially during the infancy
+of the software development movement, gave rise to an ethos of
+interoperability. Interoperability required the development of
+software that could work on different platforms. In turn, the ethos
+of interoperability necessitated exchange and cooperation among
+the developer community itself.
+28
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Several examples illustrate the power of open source software
+development. An open source software program such as Apache,
+for instance, is used by the majority of web servers on the public
+internet.13 Apache is an open source software product that was
+developed by teams of hundreds of developers around the world.
+Users of Apache around the world also report bugs or request
+enhancements. Developers and users alike are not paid for their
+efforts. Fully funded commercial products developed by Sun,
+Oracle, Microsoft, among other companies are forced to compete
+with Apache.
+Unix is another example of a successful open source project. Some
+of the biggest internet-based platform companies of the world,
+including Google and Amazon, use the Linux operating system.
+The development process that enabled the Unix operating system
+in the 1970s provides an ideal example of the evolution of open
+source development. Unix epitomizes interoperability because its
+functionality can be extended through user programs built on a
+standard programming interface. Unix programs are also designed
+around a standardized text interface and a core kernel that
+manages the system and other processes. The software that was
+originally developed at AT&T’s Bell Laboratories was
+subsequently installed freely across institutions.
+2. Proliferation
+According to some estimates, open source software accounts
+for between 78%14 and 98%15 of all core digital infrastructure
+software. Many of the most successful open source projects can
+trace their adoption increases over the last twenty five years to the
+accelerating global E-Commerce uses for open source code.
+13 Netcraft (April 15, 2010). April 2010 Web Server Survey,
+https://news.netcraft.com/archives/2010/04/15/april_2010_web_server_survey.h
+tml (accessed June 1, 2020).
+14 Black Duck Software (April 15, 2015). 2015 Future of Open Source Survey
+Results. Synopsis, https://www.slideshare.net/blackducksoftware/2015-future-
+of-open-source-survey-results (accessed June 1, 2020).
+15RogueWave Software (2017). 2017 Open Source Support Report: Trends,
+Issues, and Surprises in OSS,
+https://www.roguewave.com/sites/rw/files/documents/roguewave-open-source-
+support-report2017-vf4-digital.pdf (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Examples include and open source operating systems such as
+Linux and BSD Unix, open source web-servers such as Apache,
+iPlanet and Netscape, e-mail servers such as Sendmail, as well as
+open source languages such as Java, Python, GCC, Tk/TCL, and
+Perl. Because of their increasing applications and use cases, the
+most significantly proliferating existing open source projects
+include: Linux, Apache, Mozilla, Bugzilla, Topologilinux, Frozen
+Bubble, Tux Typing, Project @ssistant, and Junit.16
+The open source movement is a natural derivative of the
+software development community culture. Software development
+is a community effort by nature. Accordingly, a tradition of
+sharing and cooperation for the greater good of optimized code is
+a natural part of software development. Open source developers
+are generally self-organized. Collaborator and contributors rarely
+meet face-to-face, are self-coordinated with contributions coming
+from disparate locations around the world. Contributors volunteer
+their time to write, share, and support their software without
+monetary compensation.
+The proliferation of open source software can also be traced to
+the increasing use of open source software by governments and
+commercial enterprises. Starting in 2016, several worldwide
+operating corporations, including Google, Walmart, AT&T, and
+Microsoft, among others, joined or expanded the open source
+ecosystem. Similarly, governments around the world are
+embracing the open source movement. Bulgaria, the USA,17
+Norway, Brazil, and China, among several others have increased
+their open source uses and contributions. For governments,
+adopting open source software can increase security because
+vulnerabilities are often identifiable by experts before they
+materialize in applications. Moreover, open source software is
+typically much cheaper for governments as it can be modified for
+multiple needs in multiple departments without the need to
+16 SourceForge, SourceForge.net (accessed June 1, 2020).
+17 Code, code.gov (accessed June 1, 2020).
+30
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+purchase commercial software licenses and the need to commit
+and get locked in by a single commercial software vendor.
+3. Contributors’ Incentives
+Why would software developers and architects choose to make
+unpaid volunteer contributions to open source projects? A variety
+of motivational factors influence the contribution process for open
+source projects. Software developers perform a cost-benefit
+analysis when they decide to make an open source project
+contribution and throughout the respective project. Dedicating
+time and efforts are costly because the volunteer is not making
+money in the meantime and is slowing down on other projects he
+or she may be working on at the same time. Those opportunity
+costs, e.g. the cost of being able to do something in the meantime
+that would generate an economic benefit, need to be offset.
+Incentives to contribute to open source projects come in many
+forms and offset the opportunity costs to the software developer.
+First and perhaps foremost, the developer obtains a personal
+satisfaction and joy out of working on an open source project and
+contributing to its mission. This personal joy can have many facets
+but may include the feeling of satisfaction that comes from
+contributing to something that makes the contributor feel like he or
+she created something that makes the world a better place. The
+open source contribution can also give developers a significant
+sense of freedom and autonomy as nobody typically supervises the
+open source development. Peer recognition of one’s programming
+skills has also most certainly been a significant motivator for
+contributors since the early days of open source projects.
+Moreover, the software developer may learn something during the
+open source project that increases his or her skillset. The new
+skills may make the software developer a stronger developer with
+enhanced employment opportunities. As a matter of fact, a
+corporation that employs a software developer who works on open
+source projects may benefit indirectly from the enhanced skillset
+of the software developer, which in turn may improve the
+corporations’ products.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+The transparent nature of open source projects facilitates
+comparatively higher levels of signaling for contributors. Because
+anybody can access the open source code, contributors’ peers and
+future employers can examine the individual contribution as well
+as its quality. Quality measures here refer to the impact of a
+respective contribution, whether it solved a problem that others
+could not solve and how innovative and workable the solution
+was.
+Open source software development taps into the herd mentality of
+the software development community. Some lone-wolf
+programmers may simply want an audience to impress their peers.
+Yet, many open source software projects become so popular
+because the quality of the project and the code inaugurated by a
+lone-wolf may be so high that other programmers become inspired
+by the vision of the project. The herd mentality of the software
+community suggests that developers want to be part of the moving
+train in software development. In other words, they want to work
+on projects with a vision that attracts a large number of other
+developers and creates a critical mass. Several factors have to be
+combined to create liftoff for an open source project including but
+not limited to the following:
+1. Vision
+2. Overall industry trend
+3. High level of talent
+4. High quality code
+5. High number on the core development team
+Open source contributions can have a commercial objective. Peer
+recognition derived from open source contributions can lead to
+funding for the developers’ projects via venture capital and it can
+lead to paid engagements from startups or corporations job offers.
+Even if software engineers may predominantly make open source
+contributions to impress their peers, the open source work can also
+function as a signaling device to get involved in interesting
+32
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+cutting-edge projects that may in the long-run enhance the resume
+and open opportunities for the contributor that would otherwise
+not exist.
+Developers may not be entirely altruistically motivated when they
+join an open source project. Open source projects have the
+capacity to lower development cost because of the path
+dependencies that are being created by open source software and
+the legacy effects that are associated with that. More junior
+developers can learn with and from open source code. When they
+enter the workforce such junior developers are already familiar
+with the core concepts, which reduces their overall cost and makes
+it more likely to engage with open source code.
+4. Shortcomings
+Despite all of the advantages, open source projects are subject to
+several shortcomings. Perhaps most significantly, most open
+source projects cannot reach critical mass to further their
+development agenda. Only a small number of elite open source
+projects can attract developer contributions. The majority simply
+cannot attract a sufficient amount of developers who believe in the
+vision of the project to create critical mass. Once critical mass is
+accomplished the respective project can become almost a self-
+fulfilling prophecy. The development of Linux is one of those
+examples.
+Unlike their centralized counterparts, open source projects can be
+subject to separation movements. Because no centralized authority
+decides the direction of development, open source projects are
+more prone to cliques of developers that develop their own belief
+system regarding certain aspects of the development process. For
+instance, the strong belief by some developers in product design
+features that resulted in the separation of the Berkeley Unix
+program and Sendmail during the late 1980s.
+Perhaps if the open source movement had an optimally
+incentivized democratic decision-making tool, such separation of
+interests and development would become less likely. If the voting
+constituents in an open source movement knew that their decisions
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+as a whole are driven by optimal incentives for each voter to find
+the truth, they are more likely to accept the outcome of a given
+vote. The emerging decentralization technology has enabled a
+debate on the feasibility of such a voting tool. Early research
+suggests that it is theoretically feasible.18
+The usability of open source products is often underdeveloped and
+support and testing are often less evolved and not as readily
+available in open source projects. Because open source software is
+often the product of experts in their respective fields, open source
+software and products are often geared towards the expert users
+who are typically able to get access to the code and add value
+themselves quickly. Because of the expert nature of open source
+contributions, contributors are generally more interested in their
+actual work product, e.g. code, rather than explaining it to other
+users by way of documentation and testing. The lack of
+documentation in open source projects can partially be explained
+by the community driven effort to eliminating bugs. Yet, the
+average developer and consumer typically require more support
+through user-friendly interfaces, backwards compatibility and
+comprehensive and easily accessible documentation. Simply
+adding comments in the source code, as often practiced in open
+source projects, may simply not be sufficient. Recognizing the
+need to upgrade documentation and testing, some larger open
+source projects, including most notably Linux19 and Mozilla,20
+have started to make developer documentation web pages
+available to the community. Testing strategies for open source
+projects are still largely restricted to the insiders of a given
+projects’ developer community.
+Software patents have emerged as a challenge to the open source
+development process in the early 2000s. A litany of patents and
+18 For a summary that illustrates the possible opportunities of blockchain-based
+governance instantiations see: Kaal, Wulf (Aug. 23, 2019). Blockchain-Based
+Corporate Governance [Research Paper]. Max Planck Institute Luxembourg for
+Procedural Law (Dec. 2019),
+https://ssrn.com/abstract=3441904 or http://dx.doi.org/10.2139/ssrn.3441904.
+19 The Linux Documentation Project, www.tldp.org (accessed June 1, 2020).
+20 MDN Web Docs, developer.mozilla.org (accessed June 1, 2020).
+34
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+patent litigation emerged in the early 2000s and undermined the
+open source development process. Since the early 2000s, the ideas
+imbodied in code were subjected by the courts to enhanced legal
+protections. Patent litigation initiated by the SCO Group in early
+2003 presented the first wave of patent enforcements. After its
+acquisition from Novell, the SCO Group held at least partial rights
+to UNIX and began to enforce these patents against among others:
+Novell, IBM, DaimlerChrysler.
+As a result of the litigation and its aftermath, it became much
+easier to obtain patents, even for more common ideas that
+previously would not have been protected. For example, almost
+300 patents can potentially be used against the Linux kernel
+alone.21 The level of innovation was high in the software industry
+in the early 2000s, when the courts increased the patentability of
+software. What makes things worse, courts decided to increase the
+protections for software despite lacking proof that additional
+patentability of software would increase the level of innovation.
+As a result, corporations began filing and acquiring thousands of
+software patents that enabled them to strategically undermine
+competitor projects.
+As a result of the accelerating patentability of open source
+solutions, developers increasingly fear they could inadvertently
+infringe patents during the open source development process. In
+turn, developers often lack the knowledge and skills to make the
+determination as to whether their open source contributions may
+infringe existing software patents. Exacerbating the problem, in
+2004, Linux contributors became subject to mandatory attestation
+requirements as to their respective rights to make an open source
+21 See Google Search,
+https://www.google.com/search?sxsrf=ALeKk03NEi4O4C0iVEBpc3U_vkN-
+S4UPAQ%3A1591062869345&ei=VbHVXuLRFNeUtAbqzK2oBA&q=300+p
+atents+Linux+kernel&oq=300+patents+Linux+kernel&gs_lcp=CgZwc3ktYWI
+QAzoECAAQR1DerwFYhc8BYOzPAWgAcAJ4AIABWYgBsgGSAQEymAE
+AoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwii0JGJg-
+LpAhVXCs0KHWpmC0UQ4dUDCAw&uact=5.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+contribution to Linux.22 The combination of these factors inhibits
+the open source development process.
+The increased patentability of code also raises an incentive
+problem for developers. It is questionable if developers are
+sufficiently incentivized to contribute to an open source project if
+they could join a traditional closed project. Similarly, the concern
+that increased patentability of scientific output will limit research
+is discussed in the literature under the label of the ‘‘anti-
+commons’’ problem.23
+5. Level of Decentralization
+The level of decentralization in the developer community of
+individual open source projects provides an early indicator as to
+how much trends in the open source movement can foreshadow
+the decentralization movement. The level of decentralization here
+is defined by how homogeneous the developer community is in a
+given open source project. Depending on the open source project,
+the level of decentralization may differ significantly.
+The degree of decentralization in open source communities and
+projects is dictated by the degree of hierarchies in the governance
+of a given project. Some open source communities may have an
+entirely flat hierarchy among developers. This would typically
+mean that all developers are on the same level and there are no
+power disparities between individual developers. Decisions are
+made based on unanimity or some form of consensus. In this flat
+hierarchical governance structure, the degree of decentralization is
+highest because no power disparities exist between developers.
+22 Sailer, Reiner, Jaeger, Trent, Zhang, Xiaolan, & van Doorn, Leendert (2004).
+Attestation-based Policy Enforcement for Remote Access [Research Paper]
+from CCS'04, Oct 25-29, 2004, Washington, DC.,
+http://www.cse.psu.edu/~trj1/papers/ccs04.pdf (accessed June 1, 2020).
+23 Heller, Michael A. & Eisenberg, Rebecca S. (May 1, 1998). Can Patents
+Deter Innovation? The Anticommons in Biomedical Research. Science
+Magazine, 280, 698-701.
+36
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+The open source development community is not immune to
+centralization. Humans have a natural inclination to use
+knowledge and resources to exert power over others. In more
+centralized open source projects, a hierarchical differentiation may
+exist between contributing developers. In the existing hierarchical
+structure among open source projects, developers may be invited
+to join the ranks of core developers after demonstrating their value
+to the other project contributors and, thus, earning their respect. As
+core developers, they may have enhanced power over the
+governance structure and enhanced access right to the code, e.g.
+the right to incorporate their modification into the code base. This
+is of course a two-way street in the sense that developers may also
+be demoted to -co-developer etc. if they cannot maintain their
+reputation or are subject to personality clashes etc.
+Hierarchies among developers in a given open source project bring
+with them a more centralized power structure. In such open source
+projects, the core developers have typically more power than
+ordinary codevelopers. Some open source projects, such as
+Apache, have instituted multiple levels of developers. Such
+projects may therefore be deemed more centralized. This power
+disparity manifests itself in executive decision making. Here, core
+developers with high levels of power may have increased voting
+rights on product development of strategic implementation and
+overall project strategy. Centralization here connotes the degree of
+influence a given developer at a certain rank may have in the
+governance of the project.
+The meritocracy of open source projects may be seen as justifying
+and / or offsetting centralization of power in a given open source
+project. Contributors’ knowledge and quality of output (e.g. work
+products and code demonstrated by a given contribution,) is used
+to determine a contributors’ perceived merit. The respective level
+of perceived merit of a given contributor, in turn, leads to power.
+The community of contributors may find it justifiable to allocate a
+higher rank to a developer who solved a very significant problem
+for the project as a core developer.
+Allocating a higher degree of power to a given developer based on
+perceived merit can often turn out to be a fallacy. While the merit
+of a given contributor and its transference to power may depend
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+on a given project’s organizational structure, timing and the
+obstacles that had to be overcome may often play a role in the
+allocation of power. For instance, a one-off contribution at the
+beginning of a project may not mean that the respective developer
+continues to maintain the required expertise and merit to
+continually justify the higher rank. In other words, deflation is not
+built into the perception of merit and free riding is possible.
+V. Technological Precursors of Decentralization
+We can learn from history. The modalities of historical increases
+in society’s network capabilities provide a precedent for the
+evolution of decentralization. The technologies and technological
+trends that enabled the increases in telecommunications, internet
+proliferation, e-commerce, the digital transformation of society,
+social media, and the internet of things, among several others,
+have inaugurated unprecedented societal network capability.
+These technologies and trends also opened the gateway for a
+deeper structural reform of society. Heightened network capability
+of society is in many ways just a precursor to a more
+fundamentally networked societal structure. Just as social media
+groups are created regardless of ethnical origin, race, citizenship
+or creed, networks in society can cooperate and co-create at an
+unprecedented level. Such cooperation and co-creation are already
+possible with centralized internet structures based on existing
+technologies. Take for instance the creation of Wikipedia and the
+volunteerism that makes it strong and growing every day.
+Volunteers co-create content and information for the greater good
+of society. The structural reforms emanating from existing
+technologies are often described as globalization. Yet, the term
+globalization insufficiently describes the social structures and
+network capability created by the technologies.
+1. From Disruptive Fintech to Decentralized Finance (DeFi)
+The digital transformation of business enabled disruptive
+innovation and change. Startups have capitalized on the customer-
+experience- aspects of the digital transformation of their business
+and created peer-to-peer disruptive business solutions. The
+disruptive change coming from customer-focused technological
+innovation is often directly linked to the emergence of fintech. The
+innovation of financial services via technology has created
+38
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+systems that are faster, cheaper and more convenient for the
+consumer.
+The disruptive peer-to-peer features of fintech epitomize the core
+principles of decentralization. Fintech brings information closer to
+the edge and serves the consumers, it disrupts centralized
+structures in finance and forces the disrupted financial
+conglomerates to serve the consumer better. As such, Fintech is
+precursor of future disruption generated by decentralized
+technologies.
+Decentralized Finance (DeFi) is an extension of the customer-
+experience-focused digital transformation that was enabled by the
+proliferation of fintech. As an emerging movement in 2019, DeFi
+attempts to apply decentralized technology solutions to further
+disrupt financial services. The particular form of disruption in
+DeFi comes from its attempts to make financial transactions
+permissionless, completely open to anybody, and borderless.
+Through the use of blockchain technology and its progeny, DeFi
+promises to empower its customers with reduced transaction costs,
+broader financial inclusion, and open access across borders. The
+disruption through DeFi may be mitigated by existing financial
+institutions’ attempts to leverage decentralized technologies in a
+controlled environment that allows the utilization of its benefits,
+such as transparency and interoperability, while also facilitating
+centralized oversight.
+2. Digital Transformation as a Pathway to Decentralization
+The digital transformation of business enabled for the first time in
+history a form of decentralized production at lower cost. With the
+digital representation of content, centralized production was less
+needed, e.g. printing presses and other forms of material
+representation of content became redundant for certain businesses,
+and decentralized content production became significantly less
+expensive. Digitization has enabled decentralized production
+because content could be more easily accessed and produced with
+fewer resources regardless of location. Content could come for the
+first time from the edges of the system rather than through
+centralized production mechanics. And, content could be more
+easily distributed and shared with fewer points of control and
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+oversight. At the same time, per unit costs of goods and services
+can be lowered and overall transaction cost depreciated.
+The same factors that enabled and accelerated the digital
+transformation of business also help facilitate and extend
+decentralization. Digitization of content in combination with the
+proliferation of the internet and increasing online access via
+smartphones has motivated many businesses to consider new
+digitally-fueled revenue producing product lines to stay
+competitive. Cloud computing has further extended the digital
+transformation at the enterprise level by facilitating the, often real-
+time, interaction between individuals and between businesses.
+Machine learning, IoT, and analytics in combination with
+blockchain technology and AI enable the digital transformation at
+the speed of the customer experience. With the increasing
+influence of the customer experience on the digital transformation,
+decentralized business opportunities are proliferating.
+Tokenization of assets is a natural part of technology-enabled
+decentralization. The tokenization of assets refers to the process of
+issuing a digital asset that forms the digital representation of an
+existing real-world asset. Similar to the process of securitization,
+where financial institutions pool illiquid real-world securities to
+form newly created securities that convert into cash and can be
+traded, tokenization takes liquid or illiquid real-world assets and
+converts them into digital assets or tokens that can be traded on
+secondary markets.
+The digitization of content was a natural precursor of tokenization
+via decentralized technology. The digitization of content was a
+natural precursor to the internet of things and its progeny. The
+proliferation of digital services in the internet of things, in turn,
+required a certain depth of digitalization to work with other
+technologies and to create new business assets. Tokenization of
+assets via decentralized technology can therefore be seen as the
+extension of digitalization. Tokenization of existing assets, for
+instance, tokenized real estate is the instantiation of a fractural part
+of the respective piece of real estate as a whole, requires a certain
+depth of decentralized infrastructure solutions.
+40
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+3. From IoT to Decentralized Web (Web 3.0)
+Internet-based platform businesses have been proliferating since
+the dot.com boom in the late 1990’s. Internet-based platform
+services are so successful because their peer-to-peer capabilities
+make them compelling, efficient, and attractive in a fast-changing
+world, leading people to place their trust in new businesses and
+brands. Search algorithms, data analytics, and improvements in
+usability have increased trust in consumers by minimizing bad
+experiences, maximizing great experiences, and avoiding
+unwanted issues. With the increasing availability of big data, deep
+learning, machine learning, sensors and sensor data, such
+technology-driven evolution of internet-based platform businesses
+can be expected to expand exponentially.
+The IoT proliferation is offset by diminished consumer
+confidence. By the year 2020 the majority of experts estimate that
+a total of 30 to 50 billion devices will connect to the internet.24
+The sheer amount of devices creates unprecedented cyber security
+issues.25 Cyber security attacks can now be launched by
+unsophisticated parties at minimal cost with maximal potential for
+damage. Cyber security attacks, in turn, are among the factors that
+help explain the declining consumer confidence on the internet.
+Several studies have provided evidence on the acceleration of trust
+issues in the internet around the globe.26 Trust issues in the United
+States can clearly be distinguished in international comparison.27
+The trust crisis is exacerbated by deficiencies in the internet
+infrastructure. Since its inception, the internet has become a
+24 Nordrum, Amy (Aug, 18, 2016). Popular Internet of Things Forecast of 50
+billion Devices by 2020 is Outdated. IEEE: Spectrum,
+https://spectrum.ieee.org/tech-talk/telecom/internet/popular-internet-of-things-
+forecast-of-50-billion-devices-by-2020-is-outdated (accessed June 1, 2020).
+25 Reuters (Nov. 8, 2016). Tech Firms Struggle to Make Smart Devices Safer.
+Fortune: Tech, https://fortune.com/2016/11/08/struggle-internet-of-things-
+security/ (accessed June 1, 2020).
+26 Edelman (Jan 21, 2018). 2018 Edelman Trust Barometer: Global Report,
+https://www.edelman.com/research/2018-edelman-trust-barometer (accessed
+June 1, 2020).
+27 Ibid.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+network of vertically and horizontally integrated monopolies.
+These monopolies create information silos and constrain
+knowledge exchange. The resulting lack of competition impedes
+innovation, including at the protocol level and diminished
+consumer protection and rights. These deficiencies in today’s
+internet age consistently and progressively undermine trust on the
+web.
+Consumer confidence and trust are becoming increasingly
+digitized and automated. The traditional trust and cohesion
+mechanisms have reached their limits. Slow and expensive
+experiences have resulted in greater distrust in established
+institutions and their products and services. The old-world focus
+on more regulations, processes, and procedures is being replaced
+by new forms of trust. People are much less trusting of
+organizations or procedures, but instead trust machines and
+algorithms and the underlying code. Trust has started to become
+digitized and automated. Humans trust machines on the internet to
+store and process information and to transact with each other and
+with machines.
+Peoples’ increasing reliance on digitized, coded, and automated
+replacements of traditional cohesion mechanisms may be
+misplaced. The existing internet is designed for hierarchical
+societal structures and with an underlying authoritative and
+hierarchical trust model. Many inefficiencies are associated with
+the traditional hierarchical trust model including serious cyber
+security vulnerabilities.
+Decentralized technology solutions may soon be able to replace
+existing technology on the internet. For example, startups have
+been experimenting with decentralized authentication engines to
+verify fake news, among other applications. Such decentralized
+technology solutions may soon be able to verify the trust humans
+place in machines and enable a more trusting environment for
+internet-based transactions. While society is not yet convinced
+that distributed or decentralized peer-to-peer networks can deliver
+enhanced digitized trust, the experimentation with decentralized
+solutions has started to personalize and humanize digital trust.
+42
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+4. From Social Media to Decentralized Coordination
+Social media transfers knowledge from the edges of society into
+the mainstream. Social media allows people who hold otherwise
+marginalized or underappreciated views to meet kindred spirits
+online and form groups that promote their shared ideas. When
+these newly formed social networks grow they can increase their
+influence incrementally and promote their perspectives until they
+become more mainstream. Otherwise invisible social, ethical,
+environmental, political issues can thus gain traction rather
+quickly. Increased visibility of these issues can transfer the
+balance of power on these issues from the hands of a few to the
+mainstream of the masses.
+The increased network capability of society that is promoted by
+social media can change and improve the coordination of human
+behavior in society. Social media data and metrics can replace
+centralized coordination of human behavior. For example, social
+media posts often identify emergency information more accurately
+and more timely than centralized media reports. Similarly, for
+groups that coordinate their conduct, as for example in the Arab
+Spring and other reform movements, coordination via social media
+is not merely relegated to information exchange, but can actually
+coordinate protest movements. In the product context, social
+media conduct of groups as they relate to products becomes a very
+powerful placement and marketing device. Product specific or
+content specific conduct on social media can become a form of
+‘social proof’ for such products or services.28 However, because
+the incentive design for social proof is suboptimal, the social
+media coordination function is still largely flawed.
+Decentralized technology solutions can tap into the coordination
+function that was inaugurated by social media and improve it.
+Social media allows the enhanced coordination of information that
+was previously allocated on the edges of society. Because social
+networks feed off interactions among people, they become more
+powerful as they grow. Decentralized technology enables the
+decentralized coordination of powerfully growing social media
+networks and channel the information and interaction of people.
+Governing decentralized information flow necessitates
+28 See Chapter 3, footnote 6.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+decentralized incentive designs. Startups have started to
+experiment with decentralized technology solutions that tap into
+the information coordination function facilitated by social media.
+5. Cloud Computing as Inertia for Decentralized Networks
+Cloud computing introduced the idea of applying resources from
+the edge of a system, to pool such resources, and to apply them for
+a greater good. Cloud computing became a reality in 2002 with the
+release of AWS by Amazon. However, it bears significant
+similarities to the time sharing systems of the 1960s as
+technologists and scientists explored ways to make large-scale
+computing power available to broader groups of users. Later
+expansion of these concepts involved experimentation with
+algorithms that helped to prioritize CPUs and increase efficiency
+for users. The experimentation helped optimize the cloud
+computing platforms, their infrastructure and applications.
+What social media has done for the connectivity between people,
+cloud computing is doing for the connectivity of applications.
+Cloud computing enabled existing networks to become integrated
+into broader networks. Through cloud computing, applications
+could be integrated seamlessly with each other. Increasingly, one-
+to-one application integration processes are transformed via cloud
+computing advances into mass enabled applications that can
+connect with each other to exchange data and logic. Consumers
+expect applications to be more connected and more versatile and
+the applications with the most connectivity are becoming the most
+effective and, thus, most popular.
+Decentralized computing solutions can further extend the progress
+of cloud computing by connecting the fragmented collective
+knowledge that was created by cloud computing in silos. Cloud
+computing has significantly increased connectivity in society and
+business but at the same time contributed to the creation of
+monolithic applications that solve a very specific problem for a
+specific business / department / role. The fragmentation of data
+and content is already creating problems for collaboration but also
+for the search, organization, and discovery of data and content.
+Companies need to find ways to address these problems born out
+of cloud computing to stay competitive and thrive. Connecting the
+44
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+collective knowledge that was created in silos is a fundamental
+undertaking that may only truly be accomplished through
+decentralized networks.
+The interoperability of decentralized applications extends the
+application networks facilitated by cloud computing. To further
+extend network capability of technology solutions, applications
+have to be able to integrate with each other regardless of their
+technological and physical environments. Cloud computing
+enables future decentralized solutions because it already allows
+applications to talk to each other. Decentralized networks will
+further extend the application integration facilitated by cloud
+computing.
+6. Peer-to-Peer Network Expansion
+The future of peer-to-peer computing networks goes beyond
+sharing of computing resources. Current nodes in decentralized
+networks can share computing resources while doing rather similar
+tasks. Yet, future peer-to-peer computing networks will thrive by
+adding nodes to the network that contribute dissimilar resources
+and capabilities to the decentralized community of nodes. The
+dissimilarity of contributions allows the decentralized network to
+thrive because they enable the network to perform tasks that go
+beyond what individual peers can do by themselves. The network
+makes those enhanced capabilities available to the totality of
+nodes in the network, making it grow and proliferate in the process
+as additional nodes are motivated to join the network to take
+advantage of the additional capabilities.
+Peer-to-peer network models increasingly spawn global
+socioeconomic experiments and inspire new structures and
+philosophies in many areas of human interaction. The success of
+peer-to-peer networks was instrumental in accelerating the
+transformation of legacy business models into peer-to-peer
+network incentive models. Such models started to proliferate after
+the emergence of the BitTorrent protocol in 2012. Peer-to-peer
+network incentive models are often intended to lower distribution-
+related costs because of direct negotiations between peers and the
+associated optimizing feedback loops and decentralized value
+flows.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+VI. The Need for Technology Infrastructure Upgrades
+Technologies that enable the increased network capability of
+society necessitate incremental infrastructure upgrades. Disruptive
+and game-changing technologies of the past inaugurated
+infrastructure upgrades that facilitated the expansion of the
+technology and with it social and societal changes. For instance,
+utilizing the technological potential of the steam engine and the
+combustion engine during the industrial revolution required then
+new infrastructure tools that improved connectivity in society.
+Those improvements included copper wiring for electricity, light
+bulbs, new laws, and institutions, among others. Similarly, the
+digital transformation in the aftermath of the birth of
+telecommunication, the internet, and digitization was inhibited
+until the digital infrastructure was built, laws were updated, and
+new institutions were created.
+Decentralization benefits from the earlier technology infrastructure
+upgrades. Decentralization of business and society requires
+network technology. Advances in telecommunication, the internet
+proliferation and the resulting e-commerce, the digital
+transformation of society, social media, and the internet of things,
+cloud computing and peer-to-peer networking, among several
+others, increased the overall availability of network technology.
+Network technology that enables increased network capability of
+society, in turn, creates the necessary infrastructure for emerging
+decentralization.
+Decentralization requires its own infrastructure. The technologies
+of the internet era and its progeny alone may not suffice. Fully
+decentralized technologies require an enhanced decentralized
+network infrastructure. For example, the emerging technological
+decentralization by way of blockchain technology may require a
+truly decentralized public blockchain. That is, a public blockchain
+that is not subject to points of centralization and corruption, that is
+fully secure at the level of proof of work security with a
+transaction throughput of over one hundred thousand transactions
+per seconds. Without such basic infrastructure products, on-chain
+governance of blockchains may not be or may only limitedly be
+possible. In turn, it is hard to imagine how decentralized
+46
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+infrastructure solutions can emerge without on-chain governance
+solutions.
+The blockchain ecosystem may not be able to grow without a core
+decentralized infrastructure. This may include a functioning public
+blockchain that allows the community to build on and around with
+extensions and application solutions. In 2019, the People Republic
+of China has announced plans to issue their own centralized e-
+cryptocurrency. While this is hardly a decentralized infrastructure
+upgrade, it allows the blockchain community to develop
+applications around a widely recognized state-sponsored
+cryptocurrency. In the private sector, the introduction of
+Facebooks centralized libra cryptocurrency seems to facilitate trust
+into the technology and regulatory recognition which one day
+could help jumpstart an application ecosystem around the libra
+cryptocurrency.
+Bibliography
+Ballotpedia (2017). Local Government Responses to the Sharing
+Economy (ridesharing/homesharing),
+https://ballotpedia.org/Local_government_responses_to_the_sh
+aring_economy_(ridesharing/homesharing) (accessed June 1,
+2020).
+Benkley, Yochai (2006). The Wealth of Networks: How Social
+Production Transforms Markets and Freedom. Yale University
+Press: New Haven.
+Black Duck Software (April 15, 2015). 2015 Future of Open
+Source Survey Results. Synopsis,
+https://www.slideshare.net/blackducksoftware/2015-future-of-
+open-source-survey-results (accessed June 1, 2020).
+Capiluppi, Andrea, Lago, Patricia, & Morisio, Maurizio (April
+2003). Characteristics of Open Source Projects [Conference
+Paper]. Proceedings of the Euromicro Conference on Software
+Maintenance and Reengineering,
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+https://www.researchgate.net/publication/4010991_Characteris
+tics_of_open_source_projects [PDF Available].
+Carr, Clare (Apr. 13, 2015). The Data Behind the Average Article
+Lifespan. Parse.ly, https://blog.parse.ly/post/1768/data-on-
+article-lifespans/ (accessed June 1, 2020).
+Chaffey, Dave (Nov. 11, 2019). Mobile Marketing Statistics
+Compilation. Smart Insights,
+https://www.smartinsights.com/mobile-marketing/mobile-
+marketing-analytics/mobile-marketing-statistics/ (accessed
+June 1, 2020).
+Chapman, Lizette, Eidelson, Josh, Cutler, Joyce E. & Bloomberg
+(Sept. 11, 2019). New Labor Bill Passed by California Senate
+Would Transform the Gig Economy -- And Could Cost Uber
+$500 Million a Year. Fortune: Tech,
+https://fortune.com/2019/09/11/gig-economy-california-senate-
+uber-law-labor-rights-union/ (accessed June 1, 2020).
+Code, code.gov (accessed June 1, 2020).
+Debian (Apr. 26, 2004). Debian Social Contract,
+https://www.debian.org/social_contract#guidelines (accessed
+June 1, 2020).
+Edelman (Jan 21, 2018). 2018 Edelman Trust Barometer: Global
+Report, https://www.edelman.com/research/2018-edelman-
+trust-barometer (accessed June 1, 2020).
+Feller, Joseph & Fitzgerald, Brian (2002). Understanding Open
+Source Software Development. Addison-Wesley; UK.
+Heller, Michael A. & Eisenberg, Rebecca S. (May 1, 1998). Can
+Patents Deter Innovation? The Anticommons in Biomedical
+Research. Science Magazine, 280, 698-701.
+John Deere, https://www.deere.com/en/ (accessed June 1, 2020).
+Kaal, Wulf (Aug. 23, 2019). Blockchain-Based Corporate
+Governance [Research Paper]. Max Planck Institute
+Luxembourg for Procedural Law (Dec. 2019),
+https://ssrn.com/abstract=3441904 or http://dx.doi.org/10.2139
+/ssrn.3441904
+Krishnamurthy, Sandeep (April 2002). Cave or Community? An
+Emprirical Examination of 100 Mature Open Source Projects.
+First Monday,
+https://www.researchgate.net/publication/220167093_Cave_or
+_Community_An_Empirical_Examination_of_100_Mature_O
+pen_Source_Projects [PDF Available].
+Marsden, Dr. Paul (2012). The Social Commerce Handbook.
+Blacklick: McGraw-Hill Publishing.
+MDN Web Docs, developer.mozilla.org (accessed June 1, 2020).
+Netcraft (April 15, 2010). April 2010 Web Server Survey,
+https://news.netcraft.com/archives/2010/04/15/april_2010_web
+_server_survey.html (accessed June 1, 2020).
+Nordrum, Amy (Aug, 18, 2016). Popular Internet of Things
+Forecast of 50 billion Devices by 2020 is Outdated. IEEE:
+Spectrum, https://spectrum.ieee.org/tech-
+talk/telecom/internet/popular-internet-of-things-forecast-of-50-
+billion-devices-by-2020-is-outdated (accessed June 1, 2020);
+48
+Electronic copy available at: https://ssrn.com/abstract=3808859
+
+DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES
+Reuters (Nov. 8, 2016). Tech Firms Struggle to Make Smart
+Decices Safer. Forture: Tech,
+https://fortune.com/2016/11/08/struggle-internet-of-things-
+security/ (accessed June 1, 2020).
+Open Source Initiative (2007). The Open Source Definition
+(Annotated), https://opensource.org/docs/definition.php
+(accessed June 1, 2020).
+Open Source Initiative (2007). The Open Source Definition,
+https://opensource.org/docs/osd (accessed June 1, 2020).
+Ritzau (May 18, 2018). In World First, AirBnB to Report Income
+Directly to Danish Authorities. The Local dk,
+https://www.thelocal.dk/20180518/in-world-first-airbnb-to-
+report-income-directly-to-danish-authorities (accessed June 1,
+2020).
+RogueWave Software (2017). 2017 Open Source Support Report:
+Trends, Issues, and Surprises in OSS,
+https://www.roguewave.com/sites/rw/files/documents/roguewa
+ve-open-source-support-report2017-vf4-digital.pdf (accessed
+June 1, 2020).
+Sailer, Reiner, Jaeger, Trent, Zhang, Xiaolan, & van Doorn,
+Leendert (2004). Attestation-based Policy Enforcement for
+Remote Access [Research Paper] from CCS'04, Oct 25-29,
+2004, Washington, DC.,
+http://www.cse.psu.edu/~trj1/papers/ccs04.pdf (accessed June
+1, 2020).
+Seaman, Jeff & Tinti-Kane, Hester (Oct. 2013). Social Media for
+Teaching and Learning. Pearson Learning Solutions and the
+Babson Survey Research Group,
+https://onlinelearningsurvey.com/reports/social-media-for-
+teaching-and-learning-2013-report.pdf (accessed June 1, 2020).
+Share Barcelona, https://share.barcelona/ (accessed June 1, 2020).
+SourceForge, SourceForge.net (accessed June 1, 2020).
+The Linux Documentation Project, www.tldp.org (accessed June
+1, 2020).
+Wang, Huaiqing & Wang, Chen (Mar/Apr. 2001). Open Source
+Software Adoption: A Status Report. IEEE Software, 18:2, 90-
+95.
+Electronic copy available at: https://ssrn.com/abstract=3808859
+

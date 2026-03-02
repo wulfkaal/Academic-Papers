@@ -1,0 +1,1783 @@
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+BLOCKCHAIN INNOVATION IN PRIVATE INVESTMENT
+FUNDS
+-
+A COMPARATIVE ANALYSIS OF THE UNITED STATES
+AND EUROPE
+Wulf A. Kaal* & Marco Dell’Erba **
+Abstract
+The use of blockchain technology in private investment funds is
+proliferating. Using a dataset of private investment fund advisers that utilize
+blockchain technology (N=120), we explore the core commonalities and
+differences in the use of blockchain technology between European and
+American fund advisers.
+The data analysis in this article suggests that the market for private
+investment funds who invest in- and utilize blockchain technology appears to
+be near equally divided between the US and the EU, with Russia and China
+playing significant roles. We interpret parts of the data as suggesting that larger
+private investment fund advisers in Europe may be more willing to make the
+required investments into blockchain infrastructure whereas in the US the
+legacy systems utilized by larger private investment fund advisers create
+barriers to entry for larger advisers to invest in- and utilize blockchain
+technology. Larger European fund advisers use the technology predominantly
+to invest in- and secure crypto assets whereas American fund advisers appear
+to use the smart contracting features of the technology more frequently to build
+more advanced crypto businesses and business structures via blockchain
+technology.
+While the overall proportion of strategies of private investment funds
+that utilize modern technologies, including blockchain technology, is still
+small, as the private investment fund industry’s use of blockchain technology
+grows and accelerates, the innovation benefits for private investment funds and
+their clients promise lasting change for the industry.
+Key Words: Blockchain, Distributed Ledger Technology, Artificial
+Intelligence, Machine Learning, Data Science, Data Scientists, Meta Models,
+Innovation, Entrepreneur, Startup, Big Data, Private Investment Funds, Hedge
+Funds, Private Equity, Diversification, Compliance, Optimization, Efficiency
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* Associate Professor, University of St. Thomas School of Law (Minneapolis), United
+States of America.
+** Post-Doctoral Fellow, Groningen Center for European Financial Services Law
+(University of Groningen), Research Associate, LabEx ReFi (ENA, ESCP, Paris I
+Panthéon-Sorbonne, CNAM).
+1
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Table of Content
+I. INTRODUCTION .................................................................................. 3
+II. BLOCKCHAIN TECHNOLOGY ............................................................. 5
+1. Distributed Consensus .................................................................. 7
+2. Smart Contracting ......................................................................... 9
+III. REGULATORY RECOGNITION OF BLOCKCHAIN TECHNOLOGY ........ 11
+1. European Union .......................................................................... 12
+2. United States ............................................................................... 15
+IV. PRIVATE INVESTMENT FUNDS’ USE OF BLOCKCHAIN TECHNOLOGY
+21
+1. United States ............................................................................... 22
+2. Europe ......................................................................................... 24
+V. DATA ............................................................................................... 27
+VI. DISCUSSION ..................................................................................... 35
+2
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+I. Introduction
+The disruptive properties of Blockchain technology have the
+potential to transform a significant part of the financial services sector.
+Blockchain is a distributed database1 capable of holding a secure and
+immutable record of past transactions that is quickly adaptable to a
+broad range of activities and objectives.2 The World Economic Forum
+(WEF) referred to Distributed Ledger Technology (DLT) as a
+technology “that will form the foundation of next generation financial
+services infrastructure.”3 Data on blockchain technology collected by
+the WEF between 2013-2016 suggests over $1.4 billion venture capital
+investments in the industry; more than 2,500 DLT patent applications;
+more than 24 countries currently investing in DLT; more than 90 central
+banks engaged in DLT discussions worldwide; more than 90
+corporations have joined DLT consortia; and 80% of banks are
+predicted to initiate a DLT project by 2017.4
+Financial services’ infrastructure cost savings associated with
+blockchain technology are significant. Although the majorit of
+blockchain applications has been developed in the context post-trading
+market operations,5 blockchain has the potential to replace a significant
+proportion of existing manual processes, where information needs to be
+1 See Satoshi Nakamoto, Bitcoin: A peer-to-peer Electronic cash system (November
+2008), available at https://bitcoin.org/bitcoin.pdf
+2 Charles Brennan & William Lunn, Blockchains, The Trust Disrupter, 3 August 2016,
+available at https://www.finextra.com/finextra-downloads/newsdocs/document-
+1063851711.pdf. On the regulation of disruptive technology, see Mark Fenwick Wulf
+A. Kaal & Erik P.M. Vermeulen, Regulation Tomorrow: What Happens When
+Technology is Faster than the Law? (September 4, 2016), Lex Research Topics in
+Corporate Law & Economics Working Paper No. 2016-8; U of St. Thomas
+(Minnesota) Legal Studies Research Paper No. 16-23; TILEC Discussion Paper No.
+2016-024; available at
+https://ssrn.com/abstract=2834531 or http://dx.doi.org/10.2139/ssrn.2834531
+3 World Economic Forum, The future of financial infrastructure An ambitious look at
+how blockchain can reshape financial services (2016), available at
+http://www3.weforum.org/docs/WEF_The_future_of_financial_infrastructure.pdf.
+4 Id.
+5 ECB, Distributed Ledger Technology (2016), available at
+https://www.ecb.europa.eu/paym/pdf/infocus/20160422_infocus_dlt.pdf: “keeping
+accounts at the top-tier level (depositary/registrar service) and at lower level (custody
+service); checking the entitlement of an investor to the control of an asset (know-your-
+customer and antimoney-laundering obligations); transmitting and reconciling
+transfer orders prior to settlement (clearing function); facilitating settlement and
+hedging settlement risk until the transfer of funds and securities are final and
+enforceable (netting and risk management); discharging participants’ obligations
+through the transfer of funds and securities (settlement function); ensuring the
+integrity of an issuance and avoiding the unwarranted creation of securities (notary
+function); avoiding theft of private information, malicious updates and the denial of
+service (cybersecurity); and managing events initiated by an issuer of securities and
+their impact on end investors (asset servicing)”.
+3
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+communicated and stored but is prone to human error.6 Facilitated by
+its potential to eliminate market intermediaries7 and create new
+foundations for economic and social systems,8 blockchain technology is
+an important example of a disruptive technology that can create new
+market structures. By 2022 Santander estimates $20 billion per year in
+savings for the US banking system will be attributable to blockchain
+technology because of the reduction of banks’ infrastructure costs
+associated with cross-border payments, securities trading, and
+regulatory compliance.9
+Private investment funds in Europe and the United States play a
+major role in the evolution of blockchain technology in the financial
+sector. Private investment funds have invested earlier in the blockchain
+sector than other financial players. Because of legacy systems in the
+private investment fund infrastructure, the proportion of private
+investment funds that invest in blockchain technology is still small as a
+proportion of all private investment fund investments in technology.
+However, a growing subgroup of private investment funds is embracing
+blockchain and smart contracts (as well as artificial intelligence (AI) and
+machine learning that are beyond the scope of this article).
+Private investment funds benefit from blockchain in multiple
+and often parallel ways. While some funds use the technology for the
+purpose of investing in crypto-currencies or indirectly making profits
+investing in blockchain start-up companies, other private investment
+funds are investing in start-up companies with the purpose to internalize
+the new technological applications within their business model. By
+optimizing their internal processes via blockchain technology, smaller
+investment fund managers gain unprecedented opportunities to compete
+with more established fund managers in markets that were previously
+dominated by larger players. Moreover, consistenly with the general
+trends of market fragmentation and disintermediation, smaller private
+investment fund managers started to erode the power of established
+market institutions such as banks and insurance companies.
+This article evaluates the comparative differences between
+European and American private investment funds that invest in
+blockchain technology. To provide an overview of the findings, the
+6 ASTRI, Whitepaper On Distributed Ledger Technology (November 2016), 71,
+available at http://www.hkma.gov.hk/media/eng/doc/key-functions/finanical-
+infrastructure/Whitepaper_On_Distributed_Ledger_Technology.pdf.
+7 Philipp Paech, Securities, Intermediation and the Blockchain - An Inevitable Choice
+between Liquidity and Legal Certainty? Uniform Law Review (2016) 21 (4), available
+at https://ssrn.com/abstract=2697718 or http://dx.doi.org/10.2139/ssrn.2697718.
+8 Marco Iansiti & Karim R. Lakhani, The Truth About Blockchain, Harv. Bus. Rev.
+(Jan.–Feb. 2017), available at https://hbr.org/2017/01/the-truth-about-blockchain..
+9 Santander Innoventures & Oliver Wyman, The Fintech 2.0 Paper: rebooting
+financial services (2015), available at http://santanderinnoventures.com/wp-
+content/uploads/2015/06/The-Fintech-2-0-Paper.pdf.
+4
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+market for private investment funds investing in- and implementing
+blockchain technology appears to be near equally divided between
+Europe and US, with China and Russia emerging as significant players.
+An analysis of the data related to the two markets reveals specific traits
+and differences, both in terms of categories and dimensions of private
+funds investing in blockchain. While in the US the majority of private
+funds is homogenously distributed among the major asset classes (hedge
+funds, private equity funds, venture capitals), in Europe a clear
+predominance of venture capitals emerges. In addition, the size of
+private funds significantly diverges in the two geographic areas: the
+European market is characterized by more established and larger private
+funds, whereas the American market benefits from the presence of
+smaller and potentially more innovative funds. This could be affected
+by Europe larger private investment fund advisers’ willingness to make
+the required investments into a blockchain infrastructure. Whereas in
+the US the legacy systems utilized by larger private investment fund
+advisers create barriers to entry for larger private investment fund
+advisers to invest in- and utilize blockchain techonology. Nonetheless,
+the majority of the private fund advisers in both EU and US invest in
+blockchain technology to gain exposure to crypto assets, as a potential
+source of exponential returns.
+II. Blockchain Technology
+Blockchain is a specific type of DLT. While in a normal
+distributed ledger, records are stored in a continuous ledger,10
+blockchain is structured as a series of blocks securely chained
+together,11 where each block contains a collection of transactions.
+Starting from the first block in the ledger, the “Genesis block,” each new
+block is appended and thereby forms a chain.12 That blockchain
+represents the chronological order of the transactions13 via complex
+cryptography that secures the integrity of the data. The resulting chain
+forms a register of transactions as the official record14: all transactions
+10 See UK Government Chief Scientific Adviser, Distributed Ledger Technology:
+beyond block chain(2016), 17, available at
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/49297
+2/gs-16-1-distributed-ledger-technology.pdf
+11 ASTRI, supra note 66, 5.
+12 Id.
+13 ECB, supra note 5, 1.
+14 Id. See also Andrea Pinna & Wiebe Ruttenberg, Distributed ledger technologies in
+securities post-trading, ECB Occasional papers n. 172/April 2016, 8, available at
+https://www.ecb.europa.eu/pub/pdf/scpops/ecbop172.en.pdf: “Some of the
+characteristic features of DLTs can be found in earlier database technologies that
+have been developed since the 1990s, e.g. in the field of master replication. These
+technologies allow a number of parties to update records in a common database, with
+conflicts being resolved by some form of consensus algorithm. It is possible that there
+will be a renewal of interest in technologies of this type, as a result of the current focus
+5
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+are immutably stored in that ledger, which is replicated among all
+validating nodes.15
+Numerous definitions of DLTs have been elaborated in different
+contexts and there is no one common accepted legal definition.16
+Among others, IOSCO defines DLT as “a consensus of replicated,
+shared, and synchronized digital data geographically spread across
+multiple sites, countries, and/or institutions. DLT are technologies used
+to implement distributed ledgers”.17 Regardless of the legal definition,
+DLT is a combination of peer-to-peer networking, distributed data
+storage and cryptography.18
+Blockchain has been defined by Vitalik Buterin, founder of
+Ethereum, as follows: “Public blockchains: a public blockchain is a
+blockchain that anyone in the world can read, anyone in the world can
+send transactions to and expect to see them included if they are valid,
+and anyone in the world can participate in the consensus process — the
+process for determining what blocks get added to the chain and what
+the current state is. As a substitute for centralized or quasi-centralized
+trust, public blockchains are secured by crypto economics — the
+combination of economic incentives and cryptographic verification
+using mechanisms such as proof of work or proof of stake, following a
+general principle that the degree to which someone can have an
+influence in the consensus process is proportional to the quantity of
+economic resources that they can bring to bear. These blockchains are
+generally considered to be “fully decentralized”.”19
+on shared databases (and distributed ledgers), and that they will, as a result, be
+updated and come to represent a competing alternative to DLTs. They could allow
+otherwise traditional databases designed to be shared among financial institutions to
+be updated non-centrally”.
+15 ASTRI, supra note 66, 19.
+16 David Mills et al., Distributed ledger technology in payments, clearing, and
+settlement (2016), Finance and Economics Discussion Series 2016-095. Washington:
+Board of Governors of the Federal Reserve System, available at
+https://doi.org/10.17016/FEDS.2016.095.
+17 IOSCO, Research Report on Financial Technologies (Fintech) (Feb. 2017), 51,
+available at https://www.iosco.org/library/pubdocs/pdf/IOSCOPD554.pdf.
+18 David Mills et Al., supra note 16..
+19 Vitalik Buterin, On Public and Private Blockchains, ETHEREUM BLOG
+(Aug.7,2015), available at https://blog.ethereum.org/2015/08/07/on-public-and-
+private-blockchains/, contrasting public blockchains (the original idea) with
+consortium blockchains and fully private blockchains: “Consortium blockchains: a
+consortium blockchain is a blockchain where the consensus process is controlled by a
+pre-selected set of nodes; for example, one might imagine a consortium of 15 financial
+institutions, each of which operates a node and of which 10 must sign every block in
+order for the block to be valid. The right to read the blockchain may be public, or
+restricted to the participants, and there are also hybrid routes such as the root hashes
+of the blocks being public together with an API that allows members of the public to
+make a limited number of queries and get back cryptographic proofs of some parts of
+the blockchain state. These blockchains may be considered ‘partially decentralized.’”
+Id. “Fully private blockchains: a fully private blockchain is a blockchain where write
+6
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+The ledger aspect of blockchain technology is key. Similar to
+accounting ledgers, electronic ledgers are updated whenever a
+transaction takes place. However, while accounting ledgers are
+overwritten, in the context of DLT the nodes (the system participants)
+exchange the transaction information that is subsequently added as a
+new ledger entry.20 In addition, different from accounting ledgers,
+electronic ledgers are “collectively maintained”21 by a shared or
+distributed network of participants.22 Typically, the distributed network
+is a “peer-to-peer” (P2P) network, where each connected computer is a
+“peer” node,23 that joins “the network by connecting to one of the well-
+known peers, whose information has been made public. It then learns
+about other peers through the information received from this well-
+known node. At the same time, other nodes learn about this new node.”24
+Distributed networks disintermediate. The intermediation of a
+centralized validation entity (a central bank or a clearing-house) in
+charge of recording and validating the transactions is not necessary in a
+decentralized network.25 Therefore, the framework implemented with
+DLTs is often referred as “decentralized.”26 DLT users can “store and
+access information relating to a given set of assets and their holders in a
+shared database of either transactions or account balances.”27
+Information is distributed among users, who can implement a wide
+range of actions, without a trusted central counterparty acting as a
+validator.28
+1. Distributed Consensus
+In the decentralized DLT model, “distributed consensus”
+replaces the trusted central validation system.29 Consensus is a set of
+rules and procedures regulating the process by which the majority, or
+permissions are kept centralized to one organization. Read permissions may be public
+or restricted to an arbitrary extent. Likely applications include database management,
+auditing, etc [sic] internal to a single company, and so public readability may not be
+necessary in many cases at all, though in other cases public auditability is desired.” On
+the definition of private and public blockchain see also, FINRA, Distributed Ledger
+Technology: Implications of Blockchain for the Securities Industry (Jan. 2017),
+available at https://www.finra.org/sites/default/files/FINRA_Blockchain_Report.pdf.
+20 ASTRI, supra note 6, 10.
+21 Id.
+22 ESMA, The Distributed Ledger Technology Applied to Securities Markets (Feb. 7,
+2017), available at https://www.esma.europa.eu/sites/default/files/library/dlt_report_-
+_esma50-1121423017-285.pdf (last visited Jul. 11, 2017).
+23 ASTRI, supra note 6, 10
+24 Id.
+25 ESMA, supra note 22.
+26 Vitalik Buterin, supra note 19.
+27 Pinna & Ruttenberg, supra note 6, 8.
+28 & Id.
+29 ASTRI, supra note 6, 10.
+7
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+also the totality, of the networks validators reach an agreement on the
+state of a ledger, contributing to maintain “coherent set of facts between
+multiple participating nodes.” 30 The process of consensus can vary: in
+the context of Bitcoin, the “longest chain” – the chain with the most
+proof-of-work – is considered to be the valid ledger.”31 DLT users reach
+consensus on a particular version of the distributed ledger, namely on
+the sequential order of transactions, with the consequence that “there
+cannot be any doubt as to the users’ respective holdings,” replacing a
+central validation with “a set of cryptographic32 solutions and economic
+incentives that combine to prevent illicit updates and reconcile
+discrepancies.”33
+In the process of “distributed consensus”, two phases can be
+distinguished: (i) validation of each transaction and (ii) the “broadcast”
+of the validated result to all nodes validates the other nodes of the
+distributed ledger.34 In the first phase, the nodes establish whether or
+not new entries in a transaction block are valid. The nodes also validate
+that the transaction block can be admitted to the ledger. Validating every
+transaction in the block ensures that the contents are legitimate.35 In the
+second phase of “broadcast & Consensus,” validating nodes agree on a
+consistent view of the new entry in the distributed ledger.36 It begins
+when a validating node has validated one or more transactions and
+initiates the process of adding them to the ledger. The validating node
+first broadcasts information about the new block to the other validating
+nodes. The other validating nodes may also have validated the same set
+or different sets of transactions, but the consensus process allows them
+to communicate among themselves and agree on a common set of
+validated transactions to be added to the ledger.37 The ledger can thus
+30 Tim Swanson, Consensus-as-a-service: a brief report on the emergence of
+permissioned, distributed ledger systems, (Apr. 6, 2015), available at
+http://www.ofnumbers.com/wp-content/uploads/2015/04/Permissioned-distributed-
+ledgers.pdf (last visited Jul. 11, 2017)
+31 Id. “There are multiple alternative consensus mechanisms which have been
+developed over the past three decades. For instance, the Dijkstra Prize is an annual
+award for academic research on distributed computing. Some of the ideas and
+innovations from these proceedings have influenced both distributed databases which
+require fault tolerance (e.g., Paxos from Leslie Lamport) and distributed economic
+consensus methods. The primary distinction between the former and latter is that of
+maturity in formalization, analysis and implementation”
+32 Cryptography encompasses “computer-based encryption techniques such as
+public/private keys and hash functions, to store assets and validate transactions”. See
+ESMA, see supra note 22.
+33 Andrea Pinna & Wiebe Ruttenberg, supra note 14, 9.
+34 ASTRI, supra note 6, 10.
+35 Id. Such validation may consist in verifying that “the sender of a transaction is the
+true owner of the asset being sold. For transactions containing a contract execution
+instruction, validating nodes will also execute the instruction that has been received
+and confirmed by the consensus process”.
+36 ASTRI, supra note 6, 10.
+37 Id.
+8
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+be considered authoritative, although its management is shared among
+users with conflicting incentives.38
+DLT uses digital signature technology. In order to verify the
+authenticity of transactions over the network and to further increase its
+security, DLT applies digital signature technology. The technology is a
+derivation of public-key-cryptography,39 an asymmetric key
+cryptography, and serves to certify the authenticity of transactions.40
+The digital signature is based on three algorithms. First, via a key
+generation algorithm, a person concurrently generates a private signing
+key and public verification key, where a relationship exists between the
+two, and the private key may not be derived from the public key.41
+Second, a signing algorithm hashes the message and binds the private
+key of the sending party to the message.42 Third, a signature verification
+algorithm uses the public key to ensure the corresponding private key
+was used to sign the digest,43 with the consequence that anyone trying
+to sign the transaction using a different private key will be detected as
+bogus.44
+2. Smart Contracting
+Through DLT platforms it is possible to implement “smart
+contracts.45 Smart contracts “combine protocols with user interfaces to
+formalize and secure relationships over computer networks.”46 They
+38 Pinna & Ruttenberg, supra note 14, 8: “Sharing a database with no central
+validation system can create difficulties when different users have conflicting
+incentives. Due to the latency of communication via a network, a malicious user may
+lead a counterparty to believe that some cash/securities have been credited to its
+account, whilst other users believe these same assets to be recorded in another account
+– which might be that of the malicious user or of a third user.5 A similarly undesirable
+outcome might also arise when a dysfunction in the entry of information by a bona fide
+user in the network results in inconsistent information being recorded in the copies of
+the ledger held by the various users. Before all distributed copies of the ledger have
+been reconciled, the beneficiary of a transaction may perform what erroneously
+appears to be a delivery-versus-payment. There needs to be a way of avoiding or
+addressing such errors, and thus achieving consistency across different copies of the
+ledger”.
+39 Brennan & Lunn, supra note 2..
+40 ASTRI, supra note 6, 26.
+41 Brennan & Lunn, supra note 2..
+42 Id.
+43 Id.
+44 ASTRI, supra note 6, 26.
+45 The term “smart contract” was first introduced by Nick Szabo, a computer scientist
+and legal theorist, in 1994. See Nick Szabo, Smart Contracts: The Blockchain
+Technology That Will Replace Lawyers (1994),
+BLOCKGEEKS, http://blockgeeks.com/guides/smart-contracts/ (last visited Jul. 11,
+2017)
+46 Nick Szabo, Formalizing and Securing Relationships on Public Networks, First
+Monday, Volume 2, Number 9 - 1 September 1997, available at
+http://ojphi.org/ojs/index.php/fm/article/view/548/469.
+9
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+are pre-written logic computer programs47 that can be impartially
+executed by DLT itself48 e.g. by DLT validating nodes.49 The coded
+terms in smart contracts are a set of pre-defined terms and execution
+conditions that are agreed upon ex-ante by all relevant parties. One or a
+series of specific events trigger the transaction50 without relying on a
+central authority.51 A smart contract is executed by transferring the
+value between the contract signing parties52 when the transaction is
+triggered, and its settlement – the settlement of both on-chain assets and
+off-chain assets.53 In smart contracts, two further typical elements are
+multi-signature (or multi-sig) and oracles. The former guarantees the
+approval of transactions by two or more parties “before funds can be
+released or some other aspect of the contract can move forward.”54 The
+latter serves to monitor and provide support regarding external input,
+including, inter alia, prices, performance, or some other aspect of the
+real world.55
+Smart contracts may have different degrees of complexity, from
+the simple purchase of music through Apple’s i Tunes platform56 or a
+travel reservations57, to derivative contracts.58 Complex smart contracts
+involving several parties need to rely on a verifiable and unhackable
+system provided by blockchain technology. Through blockchain
+47 IOSCO, supra note 17, 51.
+48 ASTRI, supra note 6.
+49 Id.
+50 Id.
+51 See CAPGEMINI, Smart Contracts in Financial Services: Getting from Hype to
+Reality (2017), available at https://www.capgemini-consulting.com/resource-file-
+access/resource/pdf/smart-contracts.pdf.
+52 Id.: “Multisig allows two or more parties to the contract to approve the execution of
+a transaction independently – a key requirement for multi-party contracts”.
+53 ASTRI, supra note 6, 27.
+54 Houman Shadab, What Are Smart Contracts, and What Can We do with them?(15
+December 2014), available at https://coincenter.org/entry/what-are-smart-contracts-
+and-what-can-we-do-with-them (last visited Jul. 11, 2017).
+55 See Houman Shadab, supra note 64, and CAPGEMINI, supra note 61.
+56 See Wulf A. Kaal, Blockchain Applications and Fee Structure Developments in
+Private Investment Funds (April 27, 2017), available
+at https://ssrn.com/abstract=2959730 or http://dx.doi.org/10.2139/ssrn.2959730. See,
+e.g., Horsten Koeppl & Jeremy Kronik, BLOCKCHAIN TECHNOLOGY—
+WHAT’S IN STORE FOR CANADA’S ECONOMY AND FINANCIAL MARKETS? 15
+(2017), available at
+https://www.cdhowe.org/sites/default/files/attachments/research_papers/mixed/Com
+mentary_468_0.pdf; R. Douglas Vaugh & Anna Outzer, Understanding How the
+Block Chain Could Impact the Legal Industry, LAW 360 (Jan. 11, 2017), available at
+https://www.law360.com/articles/879810/understanding-how-blockchain-
+couldimpact-
+legal-industry.
+57 See Shadab, supra note 64.
+58 Houman B. Shadab, Regulating Bitcoin and Block Chain Derivatives, NYLS Legal
+Studies Research Paper(October 9, 2014), available
+at http://dx.doi.org/10.2139/ssrn.2508707.
+10
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+technology, smart contracting often makes legal contracting
+unnecessary as smart contracts often emulate the logic of legal contract
+clauses. Ethereum, the leading platform for smart contracting, describes
+smart contracting in this context as follows:
+Ethereum is a decentralized platform that runs smart contracts:
+applications that run exactly as programmed without any possibility of
+downtime, censorship, fraud or third party interference. These apps run
+on a custom built blockchain, an enormously powerful shared global
+infrastructure that can move value around and represent the ownership
+of property. This enables developers to create markets, store registries
+of debts or promises, move funds in accordance with instructions given
+long in the past (like a will or a futures contract) and many other things
+that have not been invented yet, all without a middle man or
+counterparty risk.59
+III. Regulatory Recognition of Blockchain Technology
+The lack of regulatory recognition of Blockchain technology
+creates significant uncertainty for the blockchain community and
+undermines the evolution of the crypto economy. The lacking
+recognition hinders the implementation of the technology across
+industries and undermines the infrastructure conversion via blockchain
+technology. The regulatory uncertainty derives from insufficient or non-
+existent regulatory guidance, lacking court decisions, and uncertainty
+over applicable jurisdiction.
+American and European courts have not yet recognized
+blockchain technology or addressed its applications.. A review of
+published court opinions suggests that no court at the time of publication
+of this article had to review, assess, or scrutinize the uses and
+applications of blockchain technology.60 It is unclear how courts may
+perceive and treat blockchain technology.61
+59 ETHEREUM, https://www.ethereum.org/ (last visited Jul. 11, 2017)
+60 A search of “blockchain” or “block chain” in federal and state cases on Westlaw
+reveals that only two cases have mentioned blockchain technology. The courts in both
+cases refused to discuss blockchain in depth, and did not take a position on the
+legitimacy of the technology. See In re Dole Food Co., Inc. Stockholder Litigation,
+C.A. No. 8703–VCL, 2017 WL 624843 at n. 1 (Del. Ch. Feb. 15, 2017); United States
+v. Petix, 15-CR-227A, 2016 WL 7017919 (W.D. N.Y. Dec. 1, 2016). A search of
+“blockchain’’, “block chain”, “dispositif d’enregistrement electronique partagé” on
+DeJure (Italy), Lexis Nexis and Legifrance (France), the portals Rechtspreaak and
+Raadvanstate (Netherlands), Courts and Tribunals Judiciary (UK), Bundesministerium
+der Justiz und fur Verbraucherschutz (Germany) and ECJ.eu (European Court of
+Justice) as well as the Network of the Presidents of the Supreme Judicial Courts of the
+European Union did not provide any significant result.
+61 “While countless undisputed transactions utilizing smart contracts are likely to move
+forward on the basis of such automatic, electronic enforcement, there will likely
+always be the need for human intervention to settle legal disputes.” Reggie O'Shields,
+11
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Traditional jurisdictional means have limited applicability in the
+context of Blockchain technology.62 The concept of location or presence
+in jurisdictional means does not apply to the blockchain. A location for
+the blockchain does not exist - not physically or even electronically.
+Nodes that contain the blockchain and all of its information are located
+all over the world. Transactions in the blockchain are fully networked
+and “present” only in cyberspace. The nodes hold imperfect partial
+copies of the blockchain; no particular node holds the entire blockchain.
+More specifically, jurisdiction over the public blockchain does not exist
+within the present doctrinal infrastructure for jurisdiction. In practice,
+the blockchain itself cannot be regulated or governed because it is
+decentralized and autonomous. No traditional jurisdictional principles
+can apply because the blockchain is a mere collection of agreed upon
+calculations by decentralized computer systems. The blockchain is
+merely an idea reached by the consensus of computation; it is pure
+information, contained only in the mathematical rules of its inception
+and the sum of the computation. The blockchain is entirely maintained
+and owned by a distributed group of anonymous users located
+throughout the planet who would not likely recognize or comply with
+any legal authority.
+The unpredictability of the risks and the opportunities as well as
+the concrete outcomes of blockchain in reshaping financial markets are
+clear obstacles for regulators’ attempts at drafting new specific
+regulation. Although financial innovation and technological innovation
+have constantly developed, and their outcomes have always been
+uncertain, this transitional era, characterized by the spread of a new
+foundational technology, is particularly uncertain. This uncertainty
+frustrates blockchain innovation instead of providing a secured
+framework where revolutionary blockchain applications can flourish.
+1. European Union
+EU legislation in the context of DLT and blockchain technology
+is slowly evolving. Although the European Union launched the program
+“Digital Agenda for Europe” in 2010 and emphasized the relevance of
+investment in digital economy as a key issue for economic growth and
+prosperity,63 the program did not mention either the blockchain or the
+DLT technology and did not refer to any concrete regulatory action to
+Smart Contracts: Legal Agreements for the Blockchain, NORTH CAROLINA BANKING
+INSTITUTE (March 2017).
+62 For a full analysis of jurisdictional shortcomings in the context of blockchain
+technology see Wulf A. Kaal & Craig Calcaterra, Open Source Blockchain Platform
+Ecosystem of Dispute Resolution for Crypto Transactions (on file with author).
+63 See European Commission, Press Release - Digital Agenda: investment in digital
+economy holds key to Europe's future prosperity, says Commission report (May 17,
+2010), available at http://europa.eu/rapid/press-release_IP-10-571_en.htm?locale=en
+12
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+be considered in this regard.64 Similarly, the European Commission in
+its communication to the European Parliament (“A Digital Single
+Market Strategy for Europe”) in 2015 did not provide any reference to
+blockchain.65 Finally, in June 2016, the European Securities and
+Markets Authority (“ESMA”), Europe’s top financial watchdog,66
+launched a debate on the regulation of blockchain.67 Because of the on-
+going evolution of technological innovation and blockchain’s still rather
+limited practical applications, ESMA considered a regulatory response
+to the evolving technology premature.68
+No concrete outcomes exists in terms of regulatory initiatives,
+among the different Member States. In the last three years, the European
+Banking Authority (EBA) has issued two general informative reports, a
+first one in 201569 and a second one in 2016,70 while constantly
+monitoring the development of blockchain within the markets,71 with an
+eye on banking issues, including payment services, currencies, asset
+registry, consistently with its institutional mission within the European
+Union. At the moment, only the French government has taken steps to
+implement blockchain to enhance efficiency in specific contexts,72
+64 See European Commission, Digital Agenda for Europe (2015), available at
+65 See European Commission, A Digital Single Market Strategy for Europe (May 6,
+2015), available at http://eur-lex.europa.eu/legal-
+content/EN/TXT/?qid=1447773803386&uri=CELEX%3A52015DC0192.
+66 Yolanda Bobeldijk, Esma: It’s ‘too early’ to regulate blockchain, Financial News
+London(Feb. 7, 2017, 12:48 PM), available at
+https://www.fnlondon.com/articles/european-watchdog-its-too-early-to-regulate-
+blockchain-20170207.
+67 See ESMA, supra note 22.
+68 Id.
+69 EBA, Cryptotechnologies, a major IT innovation and catalyst for change: 4
+categories, 4 applications and 4 scenarios An exploration for transaction banking and
+payments professionals (May 11, 2015), available at https://www.abe-
+eba.eu/downloads/knowledge-and-
+research/EBA_20150511_EBA_Cryptotechnologies_a_major_IT_innovation_v1_0.p
+df
+70 EBA, Applying cryptotechnologies to Trade Finance (May 2016), available at
+https://www.abe-eba.eu/downloads/knowledge-and-
+research/EBA_May2016_eAPWG_Applying_cryptotechnologies_to_Trade_Finance
+.pdf.
+71 See EBA, EBA Consumer Trend Report 2017 (Jun. 28, 2017), available at
+http://www.eba.europa.eu/documents/10180/1720738/Consumer+Trends+Report+20
+17.pdf: “One other trend identified is innovation in the payment infrastructure,
+primarily through the use of blockchain technology, which allows the settlement of
+payment transactions without the use of payment systems or correspondent banking
+[…]In this area, the EBA continues to monitor innovations such as blockchain
+technology and their impact on the products and services within the EBA’s scope of
+action, but it is currently prioritising the implementation of the six technical standards
+and five sets of guidelines that it has a mandate to develop under PSD2” (p. 26).
+72 Passing the Ordonnance n° 2016-520 du 28 avril 2016 relative aux bons de caisse
+, amending the French Financial and Monetary Code, Article L. 223-12 «Sans
+préjudice des dispositions de l'article L. 223-4, l'émission et la cession de minibons
+13
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+applying the blockchain to “certificates of deposits,” and the Law
+“Sapin II,”73 authorizing the government to amend the securities law in
+a view of applying the blockchain to specific categories of securities.74
+The immutability and eternal recording of blockchain
+technology may be the root of legal difficulties in European countries
+that recognize the “right to be forgotten” or certain other privacy rights.
+The right to be forgotten pertains to individuals’ rights to have certain
+data deleted to avoid third party tracing.75 The European Union has
+considered widespread recognition of the right to be forgotten, and
+proposed revisions to the Data Protection Directive 95/4676, that has
+represented, together with the Directive on Privacy and Electronic
+Communications 2002/5877, the main instrument of data protection law
+in the European Union, to include such rights.78 The approval of the
+peuvent également être inscrites dans un dispositif d'enregistrement électronique
+partagé permettant l'authentification de ces opérations, dans des conditions,
+notamment de sécurité, définies par décret en Conseil d'Etat.»
+73 LOI n° 2016-1691 du 9 décembre 2016 relative à la transparence, à la lutte contre
+la corruption et à la modernisation de la vie économique, available at
+https://www.legifrance.gouv.fr/eli/loi/2016/12/9/ECFM1605542L/jo#JORFARTI000
+033558708 (last visited Jul. 12, 2017).
+74 Id. Art. 120. “Dans les conditions prévues à l'article 38 de la Constitution, le
+Gouvernement est autorisé à prendre par voie d'ordonnance, dans un délai de douze
+mois à compter de la date de promulgation de la résente loi, les mesures relevant du
+domaine de la loi nécessaires pour :
+1° Adapter le droit applicable aux titres financiers et aux valeurs mobilières afin de
+permettre la représentation et la transmission, au moyen d'un dispositif
+d'enregistrement électronique partagé, des titres financiers qui ne sont pas admis aux
+opérations d'un dépositaire central ni livrés dans un système de règlement et de
+livraison d'instruments financiers;
+2° Aménager et modifier toutes dispositions de nature législative favorisant la mise en
+œuvre et tirant les conséquences des modifications apportées en application du 1°.
+Un projet de loi de ratification est déposé devant le Parlement dans un délai de six
+mois à compter de la publication de l'ordonnance”.
+75 Rolf H. Weber, The Right to Be Forgotten: More Than a Pandora’s Box?, 2
+JIPITEC 120, 121 (2011), available at https://www.jipitec.eu/issues/jipitec-2-2-
+2011/3084/jipitec%202%20-%20a%20-%20weber.pdf.
+76 Directive 95/46/EC of the European Parliament and of the Council of 24 October
+1995 on the protection of individuals with regard to the processing of personal data
+and on the free movement of such data (Data Protection Directive), available at
+http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31995L0046.
+77 Directive 2002/58/EC of the European Parliament and of the Council of 12 July
+2002 concerning the processing of personal data and the protection of privacy in the
+electronic communications sector (Directive on privacy and electronic
+communications), available at http://eur-
+lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML.
+78 W. Scott Blackmer, GDPR: Getting Ready for the New EU General Data Protection
+Regulation, INFOLAWGROUP (May 15, 2016), available at
+http://www.infolawgroup.com/2016/05/articles/gdpr/gdpr-getting-ready-for-the-new-
+eu-general-data-protection-regulation/; Peter Hustinx, EU Data Protection Law: The
+Review of Directive 95/46/EC and the Proposed General Data Protection Regulation,
+14
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Regulation 679/2016 (the General Data Protection Regulation)79 has
+stressed the relevance of the “right to be forgotten”, providing that under
+specific circumstances “The data subject shall have the right to obtain
+from the controller the erasure of personal data concerning him or her
+without undue delay and the controller shall have the obligation to
+erase personal data without undue delay”.80 While the proposal has yet
+to be adopted, other countries have followed the lead, specifically in
+Latin American and Asia.81 Currently, countries that recognize or are
+considering recognizing the right to be forgotten apply the concept
+almost exclusively in the context of internet search engines.82 However,
+the right to be forgotten is still in its infancy and its logic could apply to
+other technologies, such as blockchain.83
+2. United States
+The Securities and Exchange Commission (SEC) has started to
+evaluate the application of blockchain technology in the financial
+services industry. In November of 2015, Commissioner Stein
+commented on blockchain’s potential for tracing securities lending,
+repo, and margin financing and monitoring systemic risk.84
+Commissioner Stein cautioned, however, that as blockchain becomes
+more fluent in the market “regulators need to be in a position to lead,
+STATEWATCH (2014), available at http://www.statewatch.org/news/2014/sep/eu-
+2014-09-edps-data-protection-article.pdf.
+79 REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF
+THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to
+the processing of personal data and on the free movement of such data, and repealing
+Directive 95/46/EC (General Data Protection Regulation), available at
+http://ec.europa.eu/justice/data-protection/reform/files/regulation_oj_en.pdf.
+80 Id., art. 17(1). Art. 17(2) further provides that: “Where the controller has made the
+personal data public and is obliged pursuant to paragraph 1 to erase the personal
+data, the controller, taking account of available technology and the cost of
+implementation, shall take reasonable steps, including technical measures, to inform
+controllers which are processing the personal data that the data subject has requested
+the erasure by such controllers of any links to, or copy or replication of, those personal
+data”.
+81 Farhad Manjoo, ‘Right to Be Forgotten’ Online Could Spread, N.Y. TIMES (Aug. 5,
+2015), https://www.nytimes.com/2015/08/06/technology/personaltech/right-to-be-
+forgotten-online-is-poised-to-spread.html?_r=0.
+82 Id.
+83 “[S]ince the essence of blockchain technology is to allow for quicker, more efficient
+and more reliable data exchanges, the blockchain could revolutionize any industry that
+relies on data.” Stuart D. Levi, Blockchains Offer Revolutionary Potential in Fintech
+and Beyond, PRACTITIONER INSIGHTS COMMENTARIES (March 13, 2017).
+84 Financial Stability Oversight Council, FSOC 2016 Annual Report, (2016), 127,
+available at https://www.treasury.gov/initiatives/fsoc/studies-
+reports/Documents/FSOC%202016%20Annual%20Report.pdf.
+15
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+harnessing its benefits and responding quickly to potential
+weaknesses.”85
+Despite this early cautioning and call for action, the SEC has not
+yet addressed core issues pertaining to the recognition of blockchain
+technology applications in finance. Guidance is especially needed
+regarding the recognition and application of crypto-currencies, tokens
+as securities, and decentralized autonomous organizations (DAOs) as
+investment advisers, among many other issues pertaining to blockchain
+applications or derivatives that are applied in finance.
+SEC recognition of the most basic crypto-currency features is
+uncertain. In early 2016, in a significant setback for crypto-currencies
+and the crypto-currency industry, the SEC rejected the Winklevoss
+twins’ application to establish an exchange traded fund (ETF) that was
+intended to invest in Bitcoin exclusively.86 To allow individuals to
+invest in Bitcoin without creating a Bitcoin wallet, the proposed ETF
+had been intended to serve as a dollar-denominated proxy pegged to the
+price of Bitcoin.87 In rejecting the application, the SEC reasoned that,
+because of the unregulated nature of Bitcoin, the proposed fund was
+susceptible to fraud.88 The SEC’s decision regarding the Bitcoin ETF
+85 U.S. Securities and Exchanges Commission, Remarks of SEC Commissioner Kara
+Stein, Surfing the Wave: Technology, Innovation, and Competition, Harvard Law
+School’s Fidelity Guest Lecture Series (November 9, 2015), available at
+https://www.sec.gov/news/speech/stein-2015-remarks-harvard-law-school.html.
+86 Russell Brandom, The SEC just handed Bitcoin a huge setback
+THE VERGE (Mar. 10, 2017, 4:10 PM), available at
+http://www.theverge.com/2017/3/10/14883350/sec-bitcoin-etf-order-winklevoss-
+denied .
+87 See id.
+88 Id. The SEC disapproved the proposed rule change that would have allowed the
+listing of the shares of the Winklewoss Bitcoin Trust. See SEC, Release No. 34-80206
+(March 10, 2017), available at https://www.sec.gov/rules/sro/batsbzx/2017/34-
+80206.pdf. Pursuant to Section 19(b)(2)(C) of the Exchange Act, the SEC must
+approve the proposed rule change of a self-regulatory organization (“SRO”) if the it
+finds that the proposed rule change is consistent with the requirements of the Exchange
+Act (p. 18). The SEC clarified that the Winklewoss proposal was similar to other past
+proposals “to list and trade shares of exchange-traded products (ETPs) holding
+precious metals assts that individuals could otherwise obtain directly (for example, in
+the form of bullion coins), but at the cost of having to secure those holdings” (p. 20).
+Therefore in reviewing the Winklewoss’ proposal the SEC used the standards applied
+to previous commodity-trust ETPs. To come to the decision to disapprove the
+proposed rule change, a topical issue is “the susceptibility of the shares or the
+underlying asset to manipulation”, emphasizing the relevance of Section 6(b)(5) of the
+Exchange Act. This rules requires “that the rules of a national securities exchange be
+designed to prevent fraudulent and manipulative acts and practices and to protect
+investors and the public interest” (p. 2). The Commission believes that, in order to
+meet this standard, an exchange that lists and trades shares of commodity-trust
+exchange-traded products (“ETPs”) must, in addition to other applicable requirements,
+satisfy two requirements that are dispositive in this matter. First, the exchange must
+have surveillance-sharing agreements with significant markets for trading the
+underlying commodity or derivatives on that commodity. And second, those markets
+16
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+reflects its distrust towards the crypto asset class as a whole, especially
+funds attempting to trade digital currencies.
+The U.S. Commodity Futures and Trade Commission (CFTC),
+compared the blockchain technology to the internet revolution and
+supported a “do no harm” approach in regulating blockchain
+technology. The CFTC opined that this approach, promoted at the time
+of the internet transformation by the American administration, was
+successful and should be re-applied to blockchain.89
+The Coinflip case seems to suggest that the CFTC intends to
+regulate Bitcoin as a commodity.90 In 2015, the CFTC brought an action
+against Coinflip, Inc. for operating a facility for trading commodities
+futures without being registered under the Commodities Exchange Act
+(CEA).91 In this case, Coinflip, Inc. operated a website that connected
+buyers and sellers of standardized Bitcoin options and futures
+contracts.92 The CFTC opined that “Bitcoin and other virtual currencies
+are encompassed in the definition and properly defined as
+commodities,”93 and are thus subject to the CEA. The CEA defines the
+term “commodity” rather broadly to include “all services, rights, and
+interests in which contracts for future delivery are presently or in the
+future dealt in.”94 Nevertheless, Coinflip agreed to settle the
+administrative action with the CFTC without admitting or denying this
+finding.
+The IRS treats virtual currency, such as Bitcoin, as property. The
+IRS has opined generally that: “the sale or exchange of convertible
+virtual currency, or the use of convertible currency to pay for goods or
+services in a real-world economy transaction, has tax consequences that
+may result in a tax liability.”95 In 2014, the IRS issued a notice in
+must be regulated” (p. 2). The SEC also noted that “the significant markets for Bitcoins
+are unregulated. Therefore, as the Exchange has not entered into, and would currently
+be unable to enter into, the type of surveillance-sharing agreement that has been in
+place with respect to all previously approved commodity-trust ETPs—agreements that
+help address concerns about the potential for fraudulent or manipulative acts and
+practices in this market—the Commission does not find the proposed rule change to
+be consistent with the Exchange Act” (p. 2).
+89 See CFTC, Special Address of CFTC Commissioner J. Christopher Giancarlo
+Before the Depository Trust & Clearing Corporation 2016 Blockchain Symposium
+(March 29, 2016), available at
+http://www.cftc.gov/PressRoom/SpeechesTestimony/opagiancarlo-13.
+90 In the Matter of: Coinflip, Inc., d/b/a Derivabit, and Francisco Riordan,
+Respondents, 2015 WL 5535736, *2 (Sept. 17, 2015).
+91 Id. at *1.
+92 Id.
+93 Id. at *2.
+94 7 U.S.C. § 1a(9) (2012).
+95 IRS Notice 2014-21: Virtual Currency Notice at 1 (March 25, 2014), available at
+https://www.irs.gov/pub/irs-drop/n-14-21.pdf.
+17
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+response to numerous questions on the tax status of digital currencies.96
+While the IRS acknowledged digital currencies have many of the
+characteristics of other currencies, the IRS stipulated that “it does not
+have legal tender status in any jurisdiction.”97 Accordingly, the IRS
+declared that crypto currencies should be taxed as property for U.S.
+federal tax purposes, because “General tax principles applicable to
+property transactions apply to transactions using virtual currency.”98
+However, the IRS was very specific about limiting its current position
+to transactions involving “convertible virtual currency,” leaving the tax
+treatment of crypto-limited partnership interests unaddressed.
+While the value of Bitcoin in 2013 under $20 and its value
+appreciated to over $1200 in 2017, in the past four years, the IRS has
+only received around 900 Form 8949 that would indicate some gain or
+loss from cryptocurrencies.99 The IRS treats cryptocurrencies the same
+as any other security. However, the tech industry has not been claiming
+income from cryptocurrency in the same way other securities are being
+accounted for – requiring an 8949 to be filed when considering capital
+gains or losses.100 As a result, the IRS has started investigating the under
+reporting of cryptocurrencies.
+The States of Arizona, Nevada, Vermont and Delaware have
+launched their specific regulatory initiatives. The State of Arizona,
+passing the so-called “Blockchain Bill”101 into law, provided specific
+regulation for electronic signature, blockchain and smart contracts. The
+law now expressly defines blockchain102 and smart contracts.103 It also
+recognizes “a signature … secured through blockchain technology” as
+equivalent to an electronic signature in an electronic form and “a record
+or contract secured through blockchain” as equivalent to an electronic
+96 IRS Virtual Currency Guidance: Virtual Currency Is Treated as Property for U.S.
+Federal Tax Purposes; General Rules for Property Transactions Apply, INTERNAL
+REVENUE SERVICE (Mar. 25, 2014), https://www.irs.gov/uac/newsroom/irs-virtual-
+currency-guidance (page last reviewed or updated Sept. 14, 2016).
+97 Id.
+98 Id.
+99 Id.
+100 Ed Zwirn, No, you can’t avoid taxes by investing in Bitcoin, New York Post (Apr.
+8, 2017), available at http://nypost.com/2017/04/08/no-you-cant-avoid-taxes-by-
+investing-in-bitcoin/.
+101 “Signatures; electronic transactions; Blockchain technology”, Amending Section
+44-7003, Arizona Revised Statutes; Amending Title 44, Chapter 26, Arizona Revised
+Statutes, By Adding Article 5; Relating To Electronic Transactions.
+102 Id. “"blockchain technology" means distributed ledger technology that uses a
+distributed, decentralized, shared and replicated ledger, which may be public or
+private, permissioned or permissionless, or driven by tokenized crypto economics or
+tokenless. The data on the ledger is protected with cryptography, is immutable and
+auditable and provides an uncensored truth”.
+103 Id. “"Smart Contract" Means An Event-Driven Program, With State, That Runs On
+A Distributed, Decentralized, Shared And Replicated Ledger And That Can Take
+Custody Over And Instruct Transfer Of Assets On That Ledger”.
+18
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+record in an electronic form, as well as the existence of smart
+contracts.104
+Consistently with Arizona, the State of Nevada passed the Bill
+398, providing a definition of blockchain105 and included blockchain
+within the definition of electronic record for similar purposes.106
+Furthermore, the Bill prescribes that local governments shall not “(a)
+Impose any tax or fee on the use of a blockchain by any person or entity;
+(b) Require any person or entity to obtain from the board of county
+commissioners any certificate, license or permit to use a blockchain; or
+(c) Impose any other requirement relating to the use of a blockchain by
+any person or entity.”107
+The State of Vermont adopted a more prudent approach. The
+report “Blockchain Technology: Opportunities and Risk”108 considered
+that “at present, the costs and challenges associated with the use of
+blockchain technology for Vermont’s public recordkeeping outweigh
+the identifiable benefits”.109 The report also emphasized the relevance
+of recognizing blockchain technology, that would determine “a “first
+mover” advantage with the potential to bring economic activity
+surrounding the development of blockchain technology to Vermont”,
+remarking however the uncertainty around such potential, “difficult to
+quantify and challenging to capture due to the nature of the
+technology”.110 For the moment, Vermont has recognized the possibility
+to use blockchain in the context of a trial, under specific conditions.111
+Delaware launched the Delaware Blockchain Initiative in 2016, to
+maintain its leading role in the context of corporate governance.112
+104 Id. “a contract relating to a transaction may not be denied legal effect, validity or
+enforceability solely because that contract contains a smart contract term”
+105 See State of Nevada, Senate Bill 398 (Jun. 5, 2017), Section 1, available at
+https://legiscan.com/NV/text/SB398/id/1626453: ““Blockchain” means an electronic
+record of transactions or other data which is: 1. Uniformly ordered; 2. Redundantly
+maintained or processed by one or more computers or machines to guarantee the
+consistency or nonrepudiation of the recorded transactions or other data; and 3.
+Validated by the use of cryptography”.
+106 Id. Section 3: ““Electronic record” means a record created, generated, sent,
+communicated, received or stored by electronic means. The term includes, without
+limitation, a blockchain.”
+107 Id. Sections 4 and 6.
+108 State of Vermont, “Blockchain Technology: Opportunities and Risk”, 15 January
+2016, available at http://legislature.vermont.gov/assets/Legislative-
+Reports/blockchain-technology-report-final.pdf.
+109 Id.
+110 Id.
+111 See 12 V.S.A. § 1913. The Statute defines “blockchain technology” as “a
+mathematically secured, chronological, and decentralized consensus ledger or
+database, whether maintained via Internet interaction, peer-to-peer network, or
+otherwise”.
+112 See A. Tinianow, Delaware Blockchain Initiative: Transforming the Foundational
+Infrastructure of Corporate Finance, Harvard Law School Forum on Corporate
+Governance and Financial Regulation (March 16), 2017, available at
+19
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+The State of Illinois launched the Illinois Blockchain Initiative
+in November 2016, with the purpose “to determine if this
+groundbreaking technology can be leveraged to create more efficient,
+integrated and trusted state services, while providing a welcoming
+environment for the Blockchain community.”113 In addition, the State
+of Illinois has implemented a web-based eProcurement system
+(BidBuy) as part of the Illinois Blockchain Initiative: state agencies will
+use BidBuy for the advertisement of solicitation opportunities,
+evaluation of bids, and publication of contract awards, making it the
+State's primary solution for sourcing and placing orders from vendors
+for the Chief Procurement Office - General Services.114 Furthermore,
+the Illinois Department of Financial and Professional Regulation has
+been the first regulator in the world to join a blockchain consortium, the
+R3 consortium:115 led by the New York based start-up R3 CEV, the R3
+consortium is supported by heterogeneous institutions, including banks,
+financial firms, professional associations, professional services firms as
+well as technology companies, for the purpose of developing a specific
+blockchain technology for financial services (Corda).116
+Self-regulatory organizations have also opined on the regulatory
+environment for blockchain technology. The US Financial Industry
+Regulatory Authority (FINRA) has issued a report,117 establishing a
+common basis for a dialogue with market participants, raising a
+multitude of questions, without providing specific answers. Similarly,
+at the international level, IOSCO’s initial study of blockchain
+culminated with the publication of the Research Report on Financial
+Technologies (Fintech)118 provided a preliminary assessment focusing
+on risks and benefits as well as opportunities. At this stage, an
+evaluation of the position of global institutions is premature.
+https://corpgov.law.harvard.edu/2017/03/16/delaware-blockchain-initiative-
+transforming-the-foundational-infrastructure-of-corporate-finance/.
+113 See Illinois Department of Innovation, Blockchain in Illinois, available at
+https://www2.illinois.gov/sites/doit/Pages/BlockChainInitiative.aspx.
+114 See Chief Procurement Office, The new State of Illinois eProcurement System -
+BidBuy Deployment, available at
+http://www.purchase.state.il.us/ipb/IPBhomep.nsf?Open.
+115 R3, https://www.r3.com/. See also Business Insider, One US regulator has joined
+the R3 blockchain consortium (Mar. 20, 2017, 12:11 PM), available at
+http://www.businessinsider.com/one-us-regulator-has-joined-the-r3-blockchain-
+consortium-2017-3?international=true&r=US&IR=T. See also Anna Irrera, Illinois
+watchdog first U.S. regulator to join blockchain consortium R3, Reuters (Mar. 16,
+2017), available at http://www.reuters.com/article/us-blockchain-illinois-
+idUSKBN16N2FN.
+116 Id.
+117 See FINRA, supra note 19..
+118 IOSCO, supra note 17, 51.
+20
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+IV. Private Investment Funds’ Use of Blockchain Technology
+Private investment funds have played a leading role in banking
+disintermediation in the past.119 Banking disintermediation emerged in
+the 70s120 when corporations started obtaining funding from sources
+other than banks, including from non-bank lenders or by issuing
+bonds.121 Private investment funds’ involvement in banking functions
+accelerated in the aftermath of the financial crisis of 2008. After the
+crisis, newly issued regulation restrained banks from lending, in
+particular to SMEs. This opened up a new market for private investment
+funds that stepped into the void left by the new regulatory regime.122
+Similar to the market structure changes triggered by private
+investment funds in the late 2000s, private investment funds
+implementing blockchain technology are facilitating and spearheading
+radical changes in financial markets. First and foremost, the structural
+characteristic of blockchain as a decentralized model for financial
+transactions disintermediates and disrupts the existing financial
+infrastructure. Private investment funds that are first movers in the
+implementation of the blockchain infrastructure systems in finance
+directly contribute to that disintermediation and facilitate the
+accelerating evolution of the blockchain infrastructure in finance.
+This paper analyzes the different emphasis in blockchain
+applications employed by European and American private investment
+funds. While smaller private fund advisers currently appear to be the
+primary beneficiaries of blockchain technology in both Europe and the
+United States, larger private fund investors also have started consider
+blockchain optimization for their operations and investments. Because
+larger private fund advisers are restricted by legacy systems and
+infrastructure their involvement in blockchain technology is still
+limited. However, the involvement of larger private investment fund
+advisers with blockchain technology may change in the foreseeable
+future if and when larger managers realize that their smaller competitors
+119 See Steven L. Schwarcz, Framing Address: A framework for analyzing Financial
+Market Transformation, 36 Seattle U. L. Rev. (2012-2013). See also Marcel Kahn &
+Edward Rock, Hedge Fund Activism in the Enforcement of Bondholder Rights, 103
+Nw. U. L. Rev (2009).
+120 See Charles K. Whitehead, The Evolution of Debt Covenants, the Credit Market,
+and Corporate Governance, J. Corp. L. 654 2008-2009.
+121 See Marco Dell’Erba, The introduction of credit funds through ELTIF The case of
+France and Italy, Rev. Trim. de Dr. Fin., n. 2-2016, 3.
+122 See Steven L. Schwarcz, Regulating Shadows: Financial Regulation and
+Responsibility Failure, 70 Wash. and Lee L. Rev. (2013). 1781-1828; Shadow
+Banking, Financial Markets, and the Real Estate Sector, 32 Rev. Banking & Fin. L.
+(2012-2013); Framing Address: A Framework for Analyzing Financial Market
+Transformation, 36 Seattle U. L. Rev. (2012-2013); Iris H-Y Chiu, Transcending
+Regulatory Fragmentation and the Construction of an Economy-Society Discourse:
+Implications for Regulatory Policy Derived from a Functional Approach to
+Understanding Shadow Banking, 42 J. Corp. L. (2016-2017), 327-358.
+21
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+who utilize these technologies gain substantial operational efficiencies
+and cost savings and are able to substantially diversify their portfolio
+holdings via such technologies. The threshold for change for bigger
+managers may be dictated by the implementation cost of such new
+technologies. If and when the long-term benefits of using the
+technologies exceed the implementation cost, which are much larger for
+larger managers than for the smaller managers who are currently
+experimenting with such technologies, larger managers are incentivized
+to start the innovation process as well.
+1. United States
+Several private investment funds have spearheaded the
+implementation of blockchain technology and smart contracting in their
+business model. While some funds simply focus on trading bitcoin and
+other cryptocurrencies to avoid market fluctuations, others invest in
+and/or acquire companies that use blockchain technology to provide
+synergies to their other portfolio companies. Yet others go much further
+by fully automating a hedge fund secured by blockchain technology,
+using blockchain technology to improve administrative procedures of
+private equity deal making, or using cryptocurrencies as incentives for
+data scientists’ competitive models that facilitate investment analysis
+efficiencies. Examples include private investment funds such as
+Polychain Capital,123 the Northern Trust124 in cooperation with IBM,
+Numerai,125 LendingRobot,126 and Intellisys Capital LLC,127
+Melonport,128 among many others.
+Several private investment funds have spearheaded and continue
+to expand the implementation of blockchain technology and smart
+contracting in their business models. In February 2017, Northern Trust
+and IBM entered into a partnership for the commercial use of blockchain
+in the private fund industry. The partnership provides an enhanced and
+efficient approach to private equity administration.129 The
+implementation of the Northern Trust and IBM blockchain is intended
+to increase the efficiency, transparency, and speed of private equity
+transactions, improve security, and bring innovation to the private
+equity market by simplifying the complex and labor-intensive
+123 Polychain Capital, https://angel.co/polychain-capital (last visited Jul. 11, 2017).
+124 Northern Trust, https://www.northerntrust.com/ (last visited Jul. 11, 2017).
+125 Numerai, https://numer.ai/ (last visited Apr. 17, 2017).
+126 LendingRobot, https://www.lendingrobot.com/#/ (last visited Jul. 11, 2017).
+127 Intellisys Capital LLC, http://www.intellisys.ai/ (last visited Jul. 11, 2017).
+128 Melonport, https://melonport.com/, (last visited Jul. 11,, 2017).
+129 See Northern Trust, Press Release- IBM, Northern Trust and IBM Pioneer Use of
+Blockchain Technology to Help Transform Private Equity Administration (Feb. 21,
+2017), available at https://www.northerntrust.com/about-us/news/press-
+release?c=70b5ba1adc9928f9977162844c34f57a
+http://www-03.ibm.com/press/us/en/pressrelease/51655.wss.
+22
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+transactions in the private equity market. While the current legal and
+administrative processes that support private equity are time consuming,
+expensive, lack transparency, and involve lengthy, duplicative, and
+fragmented investment and administrative processes, the partnership’s
+solution delivers an enhanced and efficient approach to private equity
+administration.130 More specifically, unlike the current deal practice in
+private equity, which requires parties to reconcile multiples copies of
+the documents that form the deals to understand the greater picture, the
+blockchain program announced by Northern Trust and IBM allows all
+involved parties in an equity deal to look at a single compiled version
+of the transaction and all other data relating to the deal.131
+Another example of the use of blockchain technology for private
+investment funds is Numerai. Numerai is a private investment fund with
+a global equity strategy that will go live on the blockchain later this
+year.132 Numerai operates on the Ethereum blockchain, utilizing a
+cryptocurrency called “Numeraire.” Numerai uses artificial intelligence
+to convert financial data into machine learning problems for data
+scientists. On February 21, 2017, Numerai, announced: “[Today]
+12,000 data scientists were issued 1 million crypto-tokens to incentivize
+the construction of an artificial intelligence hedge fund.”133 Using data
+scientists for investment analysis creates efficiency through a synthesis
+of data. Data scientists working in this model work to solve the same
+problems in their own unique way with different strategies. Numerai
+synthesizes these models to create a meta-model out of all the
+predictions from the data scientists.134 In the Numerai model, the use of
+artificial intelligence ultimately helps achieve the goal of efficiency and
+optimum capital allocation by reducing overhead costs because there is
+no cost of human capital.135 In addition, Numerai eliminates barriers to
+entry because users do not need capital or any special finance or data
+knowledge.
+LendingRobot’s LendingRobot Series is a fully automated
+hedge fund secured by blockchain technology.136 Unlike other
+130 See Id.
+131 See Id.
+132 See Laura Shin, This Is the World’s First Cryptocurrency Issued by a Hedge Fund,
+FORBES (Feb. 21, 2017, 7:00 AM), available at
+https://www.forbes.com/sites/laurashin/2017/02/21/this-is-the-worlds-
+firstcryptocurrency-issued-by-a-hedge-fund/#61dcf68560b6.
+133 A New Cryptocurrency for Coordinating Artificial Intelligence on Numerai,
+MEDIUM (Feb. 21, 2017), available at https://medium.com/numerai/a-new-
+cryptocurrency-forcoordinating-artificial-intelligence-on-numerai-9251a131419a.
+134 See Shin, supra note 67.
+135 See Interview with Richard Craib, Founder, Numerai, Crowdsourcing a Machine
+Learning Hedge Fund, TECHEMERGENCE (Nov. 10, 2016), available at
+https://www.techemergence.com/crowdsourcing-a-machine-learning-hedge-fund/.
+136 Press Release, deBanked, Introducing LendingRobot Series: One-Stop Investing in
+Alternative Lending (Jan. 26, 2017), available at
+http://debanked.com/2017/01/introducinglendingrobot-series-one-stop-investing-in-
+23
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+blockchain based hedge funds that invest specifically in cryptocurrency,
+such as Global Advisers and Polychain Capital, the LendingRobot
+Series invests in lending marketplaces— Lending Club, Prosper,
+Funding Circle, and Lending Home.137 Its trading is determined by an
+algorithm based on the investor’s risk preferences. Once the investor
+has created a trading profile, LendingRobot selects and executes trades
+that are recorded in the blockchain public ledger on a weekly basis.
+Unlike traditional hedge funds that are rather secretive, the
+LendingRobot ledger shows detailed holdings and provides a “hash
+code” signature as evidence that the data is tamper-proof in the
+blockchain.138 Established private investment fund managers may
+consider implementing blockchain technologies in the foreseeable
+future. Most large fund advisers in the private equity and hedge fund
+industry have not yet considered implementing blockchain technology
+in combination with big data applications and artificial intelligence.
+This, however, may change in the foreseeable future if and when larger
+managers realize that their smaller competitors who utilize these
+technologies gain substantial operational efficiencies and cost savings
+and are able to substantially diversify their portfolio holdings via such
+technologies. The threshold for change for bigger managers may be
+dictated by the implementation cost of such new technologies. If and
+when the long-term benefits of using the technologies exceed the
+implementation cost, which are much larger for larger managers than
+for the smaller managers who are currently experimenting with such
+technologies, larger managers are incentivized to start the innovation
+process as well.
+2. Europe
+In Europe, venture capital funds are the most engaged asset class
+in blockchain technology. European venture capital funds are engaged
+in building new blockchain applications and platforms. A group of the
+UK’s biggest asset management companies (Schroders Investment
+Management, Aberdeen Asset Management, Columbia Threadneedle
+Investments, Aviva Investors and Henderson Global Investors)
+partnered to invest in a secret project on blockchain, in particular to test
+if blockchain can be used to cut trading costs, by removing
+intermediaries and reducing manual processing of trades, and
+alternative-lending/; Dan Cummings, LendingRobot Introduces Robo-Fund
+LendingRobot Series, ETHNEWS (Jan. 30, 2017), available at
+https://www.ethnews.com/lendingrobot-introduces-robo-fund-
+lendingrobot-series .
+137 Press Release, deBanked, supra note 61; Cummings, supra note 61.
+138 Press Release, deBanked, supra note 61; Cummings, supra note 61.
+24
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+intervening in the direct trading of illiquid securities.139 Moreover,
+Neufund140 (participated by the Atlantic Fund), is building a blockchain-
+based and investor-directed platform, whose main purpose is to bridge
+the world of blockchain and venture by enabling the creation of a new
+kind of VC fund. The fund attempts to unlock the resources of
+cryptoccurency and blockchain to fund startups and any form of
+technological innovation and disruption.141
+Similarly, Bigchain DB,142 financed by Anthemis143 (London)
+and Early Bird144 (Berlin), attempts to support developers and
+enterprises to deploy blockchain proof-of-concepts, platforms, and
+applications with a scalable blockchain database.145 Bitbond146
+(financed by Point Nine)147 is a global marketplace lending platform for
+small business loans who attempts to make investing and financing
+globally accessible.148 Point Nine has also invested in Chainalysis,149 to
+manage the security of digital assets. Coinsilium,150 venture capitalist
+based London, invests in the development of blockchain companies
+through a consortium of investors. Among others, Coinsilium has
+invested in SatoshiPay,151 a company that “is developing a two-way
+payment platform, which enables online content providers to monetise
+their digital content through the acceptance of nanopayments.”152
+139 https://www.ft.com/content/3be95e82-cc19-11e5-a8ef-ea66e967dd44. See also
+Daniel Palmer, Five UK Mutual Funds Partner on Blockchain Trading Project, 8 (Feb.
+8, 2016, 2:40 AM), available at http://www.coindesk.com/five-uk-mutual-funds-
+partner-blockchain/
+140 Neufund, https://neufund.org/ (last visited Jul. 11, 2017).
+141 See Id.
+142 Bigchain DB, https://www.bigchaindb.com/ (last visited Jul. 11, 2017)
+143 Anthemis, http://www.anthemis.com/ (last visited Jul. 11, 2017).
+144 Early Bird, https://www.earlybird.com/ (last visited Jul. 11, 2017).
+145 Crunchbase, profile of Bigchain DB, available
+athttps://www.crunchbase.com/organization/bigchaindb#/entity (last visited Jul. 11,
+2017): “BigchainDB supports a wide range of industries and use cases from identity
+and intellectual property to supply chains, energy, IoT and financial ecosystems
+without sacrificing scale, security or performance. With high throughput, sub-second
+latency and powerful crypto-condition escrow functionality to automate release-of-
+assets, BigchainDB looks, acts and feels like a database but has the core blockchain
+characteristics that enterprises want”
+146 Bitbond, https://www.bitbond.com/ (last visited Jul. 11, 2017)
+147 http://www.pointninecap.com/ (last visited Jul. 11, 2017)
+148 https://www.crunchbase.com/organization/bitbond#/entity (last visited Jul. 11,
+2017)
+149 Chainalysis, https://www.chainalysis.com/ (last visited Jul. 11, 2017).
+150 Coinsilium, https://www.coinsilium.com/ (last visited Jul. 11, 2017). See also Peter
+Campbell, Coinsilium becomes first blockchain company to float, Financial Times
+(Dec. 14, 2015), available at https://www.ft.com/content/c76f781e-a27b-11e5-8d70-
+42b68cfae6e4.
+151 Satoshipay, https://satoshipay.io/ (last visited Jul. 11, 2017).
+152 Coinsilium, Investee Company Update, 17 May 2017, available at
+https://www.coinsilium.com/regulatory-announcements/investee-company-update-
+3/.
+25
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+The venture capital firm Blockchain Capital153 is raising capital
+through an Initial Coin Offering (ICO), a new form of crowdfunding
+based on cryptocurrency tokens,154 selling its own Ethereum-based
+smart contract digital token for its venture fund,155 where they represent
+an indirect fractional non-voting economic interest in Blockchain
+Capital III, Digital Liquid Venture Fund, LP.156 Started as a
+phenomenon that is revolutionizing the way start-up companies
+investing in blockchain raise capital (in the last 12 months ICOs have
+raised $331 million, overtaking venture capitalists’ investments),157 it
+may become an alternative method for many traditional companies.158
+The implementation of blockchain technology often goes hand
+in hand with the use of big data applications and artificial intelligence,
+also by established larger managers. The abovementioned examples
+refer all to the implementation of blockchain and smart contracts. A
+similar trend is the one of investment fund managers implementing AI
+and machine learning technologies. This is the case, among others, of
+Aidyia,159 a Hong-Kong based hedge fund, trading in US equities,160 or
+153 Blockchain Capital, http://blockchain.capital/ (last visited Jul. 11, 2017).
+154 Ben Dickson, Can you trust crypto-token crowdfunding?, (Feb. 12, 2017), available
+at https://techcrunch.com/2017/02/12/can-you-trust-crypto-token-crowdfunding/. On
+the different types of digital tokens, see Mona El Isa, The Difference Between Protocol
+Tokens and Traditional Asset Tokens(May 16, 2017), available at
+https://www.linkedin.com/pulse/difference-between-protocol-tokens-traditional-
+asset-mona-el-isa?trk=v-
+feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BCaaKpuzaDcB010Q%2B4
+fWtJw%3D%3D.
+155 Cade Metz, The Initial Coin Offering, the Bitcoin-y Stock That’s Not Stock—But
+Definitely a Big Deal, Wired (March 16, 2017, 7:00 AM), available at
+https://www.wired.com/2017/03/initial-coin-offering-stock-thats-not-stock/.
+156 See Richard Kastelein, Blockchain Capital Closes ICO – $10 Million in Six Hours
+Raised in Record Time, Blockchain News, (Apr. 11, 2017), available at
+http://www.the-blockchain.com/2017/04/11/blockchain-capital-closes-ico-10-
+million-in-six-hours-raised-in-record-time/
+157 See Nick Tomaino, Tokens, Tokens and More Tokens, 1 May 2017, available at
+https://thecontrol.co/tokens-tokens-and-more-tokens-d4b177fbb443. See also Richard
+Kastelein, ICO Token Raises Blow Past VC for Blockchain Investment in last 12
+Months, 6 May 2017, available at http://www.the-blockchain.com/2017/05/06/ico-
+token-raises-blow-past-vc-blockchain-investment-last-12-months/
+158 See Alex Tapscott & Don Tapscott, How blockchain is Changing Finance, Harv.
+Bus. Rev.. (Mar. 1, 2017), available at https://hbr.org/2017/03/how-blockchain-is-
+changing-finance .
+159 Aidyia, http://aidyia.com/ (last visited Jul. 11, 2017).
+160 Cade Metz, The Rise of the Artificially Intelligent Hedge Fund, Wired (Jan. 25,
+2016, 7:00 AM), available at https://www.wired.com/2016/01/the-rise-of-the-
+artificially-intelligent-hedge-fund/.
+26
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Bridgewater,161 building an algorithmic model to automate the firm’s
+management.162
+V. Data
+The dataset for this article comprises a sample of private
+investment funds implementing blockchain technology in either their
+strategy or operation (N=120). The authors hand-coded individual use
+of blockchain technology for each fund in the dataset. We contacted the
+private investment fund advisers in our sample via e-mail, phone-calls,
+interviews, and their websites (see Figure 1). The 120 fund advisers in
+our sample did not answer all questions and often we were unable to
+obtain available information on all questions.
+35
+30
+25
+20
+15
+10
+5
+0
+Email Phone Website Contact Other
+Figure 1: Contact method US vs. EU.
+Figure 1 shows the contact method for the two datasets. Given
+that email success rates were lower in the US, the phone contact follow
+up is higher for US fund advisers who utilize blockchain technology.
+161 Bridgewater Associates LLP, https://www.bridgewater.com/ (last visited Jul. 11,
+2017)
+162 Rob Copeland & Bradley Hope, The World’s Largest Hedge Fund Is Building an
+Algorithmic Model From its Employees’ Brains, Wall Street Journal (Dec. 22, 2016,
+1:14 PM), available at https://www.wsj.com/articles/the-worlds-largest-hedge-fund-
+is-building-an-algorithmic-model-of-its-founders-brain-1482423694.
+27
+detcatnoC
+sdnuF
+fo
+rebmuN
+Contact Method
+n=98
+Method
+US EU
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+60
+50
+40
+30
+20
+10
+0
+Hedge Fund Venture Capital Private Equity Tech. Other
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Figure 2: Types of Funds in US vs. EU.
+Figure 2 illustrates the different categories of private investment
+funds that use blockchain technology in Europe and the US. In the US,
+the majority of private funds are hedge funds (10), tech funds (7),
+private equity (5), venture capitals (4) and others (2). In Europe, the
+distribution among the types of investors is different: the majority of the
+private funds identified are venture capitals (22), followed by hedge
+funds (5) and private equity funds (3). Moreover, the vast majority of
+European private funds invest in “Seed” and “Early stage Ventures,”
+focusing on European companies.
+Figure 3: Blockchain Engagement by Private Investment Funds by
+Region compiling all 28(27) EU countries as a single representative not
+as an EU block.
+Figure 3 shows that United States is the only country in red,
+suggesting the highest proportion of blockchain-based private
+investment funds. Other countries, such as the United Kingdom are
+visible in yellow and the rest of the countries in different shades of
+28
+sdnuF
+fo
+rebmuN
+Type of Fund
+n=105
+Type of Fund
+50
+40
+30
+20
+10
+0
+Hedge Fund Venture Capital Private Equity Tech. Other
+sdnuF
+fo
+rebmuN
+Type of Fund
+n=105
+Type of Fund
+US EU
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+green. This would seem to indicate that the private investment funds in
+the United States are investing more than private investment funds in
+other countries in blockchain technology. However, when standardizing
+the comparison units, in the entire United States, there are 43 private
+investment funds that are utilizing blockchain in some capacity. This
+outnumbers any individual country in Europe by almost double. If we
+consider Europe as a whole, instead of each individual country, Europe
+has a total of 70 funds utilizing blockchain technology (excluding
+Russia which has 2). Although the United States as a country seems to
+be investing in blockchain heavily, Europe and their financial
+institutions are pursuing FinTech at the same or greater rate when
+compared to the United States. The United States has a population of
+roughly 321 million people and 43 funds. This averages about 7.5
+million people per fund utilizing blockchain. By comparison, the UK
+has 65 million people with 23 funds utilizing blockchain technology.
+This averages roughly 2.8 million people per fund. Although the map
+suggests that the United States is heavily invested in blockchain, in
+comparison with other countries we see a more even distribution
+between countries than the map would suggest.
+The geographic distribution emerging from the data highlights
+that three main European poles emerge: London, Paris163 and Berlin.
+Regarding Luxembourg, traditionally a leading hub for private funds, it
+has not been possible to identify any private fund investing in
+blockchain. This is likely due to the unavailability of public information
+connected to Luxembourgian funds investing in blockchain rather than
+to a lack of Luxembourgian funds, in principle to be excluded. However,
+Luxembourg, together with Switzerland, has been active in establishing
+specific initiatives with the purpose of attracting new market players and
+start-up investing in blockchain: in Luxembourg Schorechain,164
+Fundchain,165 as well as Fundsquare166 of the Group Luxembourg Stock
+Exchange together, and in Swiss CryptoValley Association.167
+163 John Dizard, Paris turns to English law to lure City business, Financial Times (May
+19, 2016), available at https://www.ft.com/content/113f6c78-3bdd-11e7-821a-
+6027b8a20f23 .
+164 Scorechain, https://www.scorechain.com/ (last visited Jul. 11, 2017).
+165 Fundchain, http://fundchain.lu/ (last visited Jul. 11, 2017)
+166 Fundsquare, https://www.fundsquare.net/homepage (last visited Jul. 11, 2017).
+167 CryptoValley Association, https://cryptovalley.swiss/ (last visited Jul. 11, 2017).
+29
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Figure 4: Private Investment Funds with Blockchain Applications – US
+vs. EU compiling all 28(27) EU countries in the dataset as an EU block
+Figure 4 shows the US vs. EU fund managers who utilize
+blockchain technology by showing all 28(27) EU countries in the
+dataset as an EU block. Naturally, showing all funds in European
+countries as one country changes the proportions and the United States
+does no longer look as strongly represented (in yellow). The biggest
+takeaway, however, from comparing Figure 3 with Figure 4 is that
+Russia, including Baltic states168 and former Russian countries, and
+China retain their role (in green) consistently. In summary, the market
+for private investment funds who invest in- and utilize blockchain
+technology appears to be near equally divided between the US and the
+EU with Russia and China playing a significant yet not as strong role.
+168 Among Baltic states, Estonia is implementing radical transformations adopting the
+blockchain technology not only for commercial activities (the project E-residency
+allows foreign citizens to establish a business with Estonian jurisdiction) ) but also to
+enhance the development of to the so-called “Govtech”, transferring to the blockchain
+a broad range of activities connected to public services. These activities include
+medical records, governmental records, notary services (the “Public notary” project
+grants remote acces to notary services), banking infrastructure (implemented by LHV
+Pank), and e-voting systems (led by the Estonian division of Nasdaq). See Guest
+Author, How Estonia Brought Blockchain Closer to Citizens: GovTech Case Studies,
+The Cointelegraph (Mar. 7, 2017), available at https://cointelegraph.com/news/how-
+estonia-brought-blockchain-closer-to-citizens-govtech-case-studies.
+See Alicia Naumoff, Power to the People: Blockchain Replaces Government in
+Europe, The Cointelegraph (Jan. 27, 2017), available at
+https://cointelegraph.com/news/power-to-the-people-blockchain-replaces-
+government-in-europe.
+30
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+20
+15
+10
+5
+0
+1-50 51-100 101-150 151-200 201+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Figure 5: Assets Under Management US vs EU.
+Figure 5 shows the size of private investment funds (data
+available for 59 funds) in the US vs. the EU. While in the US, the
+majority of the private funds have AUM varying in a range comprised
+between $1 to #50 million AUM with only 2 funds whose AUM are
+between $101-150 AUM and above to $ 200 million AUM, in Europe
+the situation is rather different: private funds with an AUM higher than
+$200 million are the majority and smaller funds are distributed in the
+different clusters.
+This could suggest that in Europe larger private investment fund
+advisers are more willing to make the required investments into a
+blockchain infrastructure whereas in the US the legacy systems utilized
+by larger private investment fund advisers creates a barrier to entry for
+larger private investment fund advisers to invest in and utilize
+blockchain technology. Theoretically, however, legacy systems in the
+EU should create the same barriers for larger private investment fund
+advisers. There is no reason to believe that legacy systems in the United
+States would constitute more of an obstacle than legacy systems in the
+EU.
+The differences in size between the American the European
+market can partially be explained by the age, characteristics, and
+investment purpose of American and European private investment fund
+blockchain initiatives. American private investment funds investing in
+blockchain are mostly newly and ad hoc created investment vehicles,
+focused exclusively on blockchain. Whereas the vast majority of
+European private funds are more established and older financial
+institutions, that simply diversify their investments with investments in
+blockchain and cryptocurrencies.
+31
+sdnuF
+fo
+rebmuN
+AUM
+n= 59
+AUM IN $US
+20
+15
+10
+5
+0
+1-50 51-100 101-150 151-200 201+
+sdnuF
+fo
+rebmuN
+AUM
+n= 59
+AUM in $US
+US EU
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+25
+20
+15
+10
+5
+0
+Crypto Smart K Assets Security Growth Innovation Fintech Decentralized
+Currency
+Figure 6: Cluster Categories of Blockchain Use in Private Investment
+Funds US vs. EU.
+Private investment funds describe their funds’ use of blockchain
+technology with several key words in their marketing materials.
+Clustering these words allowed the authors to identify the funds’
+strategy and approach in their use of blockchain technology. The
+authors identified nine key terms to see how these companies are
+discussing their services. The purpose of the word cluster graph is to
+show how often these United Stated and European funds are using
+certain words on their websites when discussing the approach and
+strategy of their respective fund. The categories in Figure 4 are the
+popular terms used by private investment fund advisers that are
+consistently associated with the Blockchain platform.
+The terms therein are defined as follows: (1.) Crypto Currency:
+Digital currency in which encryption techniques are used to regulate the
+generation of units of currency and verify the transfer of funds,
+operating independently of a central bank;169 (2.) Smart Contracts:
+Smart contracts are computer protocols that facilitate, verify, or enforce
+the negotiation or performance of a contract, or that make a contractual
+clause unnecessary;170 (3.) Digital Assets: A financial instrument – such
+169 Ex. “DC converts cash deposits into DC Assets, a form of digital currency that is
+secured by the Ethereum network and collateralized by these customer deposits.” How
+Does Decentralized Capital Work?, Decentralized Capital - Government Currencies
+on the Ethereum Blockchain, available at
+https://www.decentralizedcapital.com/#!/faq (last visited Jul. 11, 2017). Ex. “Our
+unique model enables us to deploy our resources to build the crypto currencies and
+blockchain ecosystem over the long term.” The nexus of blockchain technology and
+finance., Digital Currency Group, http://dcg.co/(last visited May 28, 2017).
+170 Ex. “Workflow Automation; Smart contracts ensure all relevant parties remain
+synchronized, even on the most complex financial instruments” Workflow
+Automation, Axoni, https://axoni.com/home (last visited Jul. 11, 2017). Ex. “Smart
+contracts represent a next step in the progression of blockchains from a financial
+32
+sdnuF
+fo
+rebmuN
+Cluster Graph
+n=74
+Terms
+US EU
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+as a dollar, bond, or derivative that is cryptographically issued, held, and
+transferred on a blockchain. This novel medium for assets, which is
+similar to bearer instruments like cash, but digital, is better suited to the
+security and innovation requirements of modern financial applications
+than centralized ledgers that immobilize assets and depend on
+messaging and reconciliation;171 (4.) Security: Process to create rules
+and to take actions such as implementing systems and measures to
+protect a fund and their clients against attacks over the Internet;172 (5.)
+Growth: Attainable growth;173 (6.) Innovation: A new method, idea, or
+product that a fund is using in the financial industry;174 (7.) FinTech:
+transaction protocol to an all-purpose utility. They are pieces of software, not contracts
+in the legal sense, that extend blockchains’ utility from simply keeping a record of
+financial transaction entries to automatically implementing terms of multiparty
+agreements.” Blockchain- the benefits of smart contracts, Deloitte United States,
+available at https://www2.deloitte.com/us/en.html (last visited Jul. 11, 2017).
+171 Ex. “The value of DC Assets is directly tied to that of the government currency
+backing it, e.g. 1 DUSD = 1 USD. As the value of the government currency fluctuates
+against other assets, so will the value of the DC Asset representing said currency.”
+Decentralized Capital - Government Currencies on the Ethereum Blockchain,
+available at https://www.decentralizedcapital.com/#!/faq (last visited Jul. 11,
+2017).Ex. “Chain Core is enterprise software that enables institutions to issue and
+transfer financial assets on permissioned blockchain networks. The assets on Chain
+blockchain networks are not new cryptocurrencies but are rather issued assets like
+currencies, securities, derivatives, gift cards, and loyalty points. ” What is Chain
+Core?, Chain, https://chain.com/faq/ (last visited Jul. 11, 2017). Ex. “the assets on a
+blockchain are controlled directly by the owners of those assets through the use of
+secure, cryptographic keys.” Explore the Blockchain Potential, Blockchain Solutions,
+http://www.blockchain-solutions.com/ (last visited Jul. 11, 2017).
+172 Ex. “This is an added security feature available to members who have Static IPs if
+they choose to use it. Members who's IPs regularly change, that will be most of the
+world, should not use this function as it will lock you out of your account once your
+IP changes.” WE ARE COMMITTED TO YOUR SUCCESS, cryptofund,
+https://www.cryptofund.org/ (last visited Jul. 11, 2017). Ex. “Chain’s technology is
+specifically designed for moving financial assets in permissioned, high-scale
+environments that require enterprise-grade security and privacy” What is a
+blockchain?, Chain, https://chain.com/faq/ (last visited Jul. 11, 2017).
+173 Ex. “ Focus is on driving innovation in fintech and blockchain technologies,
+enabling businesses to take advantage of growth opportunities.” City AM featuring
+NEX Exchange, We are Coinsilium, https://www.coinsilium.com/ (Jul. 11, 2017). Ex.
+“ We build applications on top of the Factom™ network that can be used as a public
+utility. These applications leverage the immutability of the blockchain and the growth
+of the network.” FAQ, Factom, https://www.factom.com/about/faqs (last visited Jul.
+11, 2017)
+174 Ex. “we continually strive to innovate, to make banking easier, more practical and
+better adapted to the needs of all our customers.” Our Response to a Changing
+World, Bank BNP Paribas | The bank for a changing world,
+https://group.bnpparibas/en/ (last visited Jul. 11, 2017); Ex. “invests in the best
+entrepreneurs who are fostering innovation in the Blockchain economy.”
+Homepage, Blockchain Capital, http://blockchain.capital/ (last visited Jul. 11, 2017);
+Ex. “ Our mission is to act as the catalyst for widespread blockchain adoption and
+innovation.” About | Pantera Capital - Blockchain Investment Firm, Pantera Capital,
+https://panteracapital.com/about/ (last visited Jul. 11, 2017).
+33
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+Algorithmic solutions and other technology used to support or enable
+banking and financial services;175 (8.) Decentralized:
+A market structure that consists of a network of various technical
+devices that enable investors to create a marketplace without a
+centralized location.176
+Once the authors defined the cluster category terms in the
+previous paragraph, the authors and a team of researcher assistants
+examined the funds in the sample for services, goals, strategies, policies
+and other accessible information to find the nine key cluster category
+terms. If a fund mentioned one of these words the authors would code it
+as “yes=1”, if they did not then it would be recorded as “no=0”. With a
+completed list of all funds, the author combined all 1’s within the data
+sheet and entered them into a bar graph to show how many funds were
+using these nine terms. The bar graph in Figure 4 is a representation of
+these funds as a whole to demonstrate how these funds are describing
+their services.
+Figure 6 shows the investment strategies implemented by private
+funds.177 In the context of the purpose of the use of blockchain
+technology, the data from Europe and US are overall more homogenous:
+funds use of blockchain technology to gain exposure to crypto assets are
+the majority in both Europe and US. Other uses of the blockchain
+technology by funds in Europe and the US include securing assets and
+attaining growth objectives for clients. A significant difference
+highlighted by Figure 6 is the lack of consideration of smart contracting
+applications in European funds. This is consistent, however, with the
+size differences between European and American private investment
+175 Ex. “ Financial Technology has evolved to the stage where it could help overhaul
+and reshape traditional industry structures and operating models.” Blockchain: What
+you need to know, Northern Trust | Wealth Management, Asset Management & Asset
+Servicing, https://www.northerntrust.com/ (last visited Jul. 11, 2017); Ex. “Financial
+Technology start-up companies continue to alter the industry norm.” The blockchain
+revolution in trade finance, Barclays, available at
+https://www.barclayscorporate.com/insight-and-research/trading-and-
+exporting/blockchain-revolution-in-trade-finance.html (last visited Jul. 11, 2017).
+176 Ex. “connects all members of the supply chain to a decentralized network and
+allows them a direct exchange of documents.” Blockchain for the people, Waves
+Platform | Blockchain for the people, https://wavesplatform.com/ (last visited Jul.11,
+2017); Ex. “By having decentralized storage and execution one can mitigate some of
+today's real world inefficiencies such as custody, counter-party and settlement. Melon
+creates a true alternative to traditional asset management.” About
+Melonport, Melonport, https://melonport.com/ (last visited Jul. 11, 2017); Ex.
+"Blockchains are clunky databases, so why would you want to use one? Traditional
+systems have inherent flaws that make them easy targets for corruption of data. A
+Factom™ system gives a single version of the truth through a Decentralized Network
+of Authority. Once everyone can agree on a single version of the truth, then the truly
+game-changing applications can be built." - Why Decentralized?, Factom,
+https://www.factom.com/about (last visited Jul. 11, 2017).
+177 A minority of funds implements more than one investment strategy. This explains
+why the dataset for this graph is equal to 74.
+34
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+
+U.S. vs. E.U. - BLOCKCHAIN APPLICATIONS IN PRIVATE
+INVESTMENT FUNDS
+funds that use blockchain technology. The data seems to suggest that
+the larger European private fund advisers implement more conservative
+investment strategies and use the technology predominantly to invest in-
+and secure crypto assets. Whereas American fund advisers appear to
+more frequently use the smart contracting features of the technology to
+build more advanced and innovative crypto businesses and business
+structures via blockchain technology. This may imply that American
+private investment funds will have a better opportunity to launch future
+disruptive implementations of blockchain technology, while at the same
+time they may experience a higher rate of failure, due to a greater
+exposure to technological risks.
+VI. Discussion
+The data analysis in this article suggests that the market for
+private investment funds who invest in- and utilize blockchain
+technology appears to be near equally divided between the US and the
+EU with Russia and China playing a significant role. We interpret parts
+of the data as suggesting that larger private investment fund advisers in
+Europe may be more willing to make the required investments into
+blockchain infrastructure whereas in the US the legacy systems utilized
+by larger private investment fund advisers create barriers to entry for
+larger private investment fund advisers to invest in and utilize
+blockchain technology. On the other hand, the data also seems to
+suggest that the larger European fund advisers use the technology
+predominantly to invest in- and secure crypto assets whereas American
+fund advisers appear to use the smart contracting features of the
+technology more frequently to build more advanced crypto businesses
+and business structures via blockchain technology. While the overall
+proportion of strategies of private investment funds that utilize modern
+technologies, including blockchain technology, is still small, as the
+private investment fund industry’s use of blockchain technology grows
+and accelerates, the innovation benefits for private investment funds and
+their clients promise lasting change for the industry.
+Private investment funds’ bank disintermediation through the
+implementation of blockchain technology will depend on their ability to
+find scale opportunities. Future bank disintermediation via private
+investment funds also depends on the funds’ ability to participate in the
+technological integration of blockchain systems with other technologies
+such as artificial intelligence, machine learning, and big data.
+35
+Electronic copy available at: https://ssrn.com/abstract=3002908
+Electronic copy available at: https://ssrn.com/abstract=3002908
+

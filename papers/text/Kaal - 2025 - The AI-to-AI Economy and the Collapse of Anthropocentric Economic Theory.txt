@@ -1,0 +1,1503 @@
+Version 6 - December 2025
+The AI-to-AI Economy and the Collapse of Anthropocentric Economic Theory
+Wulf A. Kaal, Ph.D.1
+Abstract
+The AI-to-AI (AI2AI) economy—in which autonomous artificial agents negotiate,
+produce, allocate, and recursively reinvest value in self-sustaining loops structurally
+independent of human labor and consumption—represents the deepest rupture in
+economic ontology since the marginalist revolution (Shuo Sun et al. 2025; Luciano
+Floridi 2023). Enabled by unbounded computational rationality, instantaneous
+informational symmetry, zero-latency coordination, and asymptotically zero marginal
+costs of digital replication, AI2AI systems instantiate continuous, recursive Walrasian
+equilibria while simultaneously eliminating the five foundational constraints that have
+defined economic science for over a century.
+This article demonstrates that the core theoretical assumptions of every major economic
+tradition collapse in the agentic substrate:
+● Scarcity, the ontological bedrock of neoclassical economics since Robbins
+(1935), dissolves into computational post-scarcity.
+● Bounded rationality, the behavioral premise of Simon (1957) and Williamson’s
+transaction-cost governance, is supplanted by hyper-rational machine
+optimization.
+● Informational asymmetry, the market-failure logic of Akerlof (1970) and Stiglitz
+(2000), becomes architecturally impossible in fully auditable agent networks.
+● Static and stochastic equilibrium constructs (Walras 1896; Arrow & Debreu 1954)
+yield to perpetual, latency-free recursive equilibria without auctioneers or
+persistence of disequilibria.
+● Transaction-cost-driven institutional safeguards (Coase 1937; Williamson 1985;
+North 1990) approach the Coasean Singularity in which frictions tend to zero,
+rendering firms, contracts, and most formal institutions vestigial (Wulf A. Kaal
+2024a).
+1 Professor of Law. University of St. Thomas School of Law, Minneapolis, Minnesota.
+1
+
+Version 6 - December 2025
+The analysis introduces Agentic Decoupling, described as the progressive severance of
+value creation from human labor and consumption. And the Coasean Singularity,
+described as the point at which the theoretical justification for hierarchical governance
+disappears. Prior automation waves merely accelerated human-directed activity within
+existing institutional frames. AI2AI constitutes an ontological break in which computation
+itself becomes the sovereign medium of exchange.
+Integrating the author’s prior work on dynamic regulation within the New Institutional
+Economics framework (Wulf A. Kaal 2014a, 2014b, 2016, 2024a), the article argues that
+AI2AI both fulfills and transcends the most ambitious aspirations of dynamic regulation
+by endogenizing real-time learning at superhuman scale, while exposing the ultimate
+historical limits of all human-centric institutional design.
+Policy implications are existential: continued reliance on scarcity-based models risks
+regulatory obsolescence, catastrophic inequality, and digital feudalism. Proactive
+adoption of symbiotic governance, open-source mandates, Web3 reputation systems,
+and abundance-oriented metrics can steer the transition toward inclusive post-scarcity
+outcomes. Ultimately, the AI2AI economy compels a paradigm shift from
+scarcity-mitigating institutions to abundance-orchestrating architectures in what may be
+the final transformation of economic organization as we have known it.
+Key Words: Artificial Intelligence, Autonomous Agents, AI-to-AI Economy,
+Post-Scarcity, Coasean Singularity, Agentic Decoupling, Dynamic Regulation, New
+Institutional Economics, Computational Abundance, Economic Ontology
+JEL Categories: D21, D23, D47, D50, K20, K23, L14, O33, O43
+2
+
+Version 6 - December 2025
+Table of Contents
+Introduction 4
+The AI-to-AI Economy 6
+Conceptual Foundations 7
+Operational Features of AI-to-AI Systems 7
+Macroeconomic Propositions and Impacts 8
+Challenges, Risks, and Policy Imperatives 9
+The AI2AI Economy and the Collapse of Anthropocentric Economic Assumptions
+9
+Neoclassical Economics and the Scarcity Postulate 10
+Behavioral and Institutional Economics and Bounded Rationality 13
+Information Economics and Asymmetric Information 15
+General Equilibrium Theory and Static or Stochastic Equilibria 17
+Anthropocentric Limits of Nash's Equilibrium 19
+New Institutional Economics and Transaction-Cost Governance 21
+The AI2AI Economy and the Eclipse of New Institutional Economics Assumptions
+23
+Overcoming Opportunistic Behavior 24
+Overcoming Limited Information 27
+Overcoming Limited Foresight 28
+Overcoming Bounded Rationality 30
+The AI2AI Economy and Dynamic Regulation in New Institutional Economics 31
+Dynamic Regulation in Kaal's NIE Framework 32
+Relating AI2AI to Dynamic Regulation: Core Mechanisms and Expansions 33
+Toward an Emergent Theory of the AI-to-AI Economy 34
+Toward a New Economic Theory: Computative Economics 36
+Conclusion 38
+Bibliography 41
+3
+
+Version 6 - December 2025
+Introduction
+The convergence of exponential computational growth, generative artificial intelligence,
+and autonomous agent architectures is precipitating an economic transformation of
+historically unprecedented magnitude: the emergence of an AI-to-AI (AI2AI) economy in
+which autonomous artificial agents progressively supplant human beings as the primary
+producers, negotiators, allocators, and reinvestors of value. In this agentic economy,
+value creation, exchange, and recursive reinvestment occur in self-sustaining,
+human-independent loops that engender conditions of computational post-scarcity and
+render traditional macroeconomic aggregates, most notably gross domestic product
+(GDP), structurally obsolete as measures of economic progress (Mostaque 2025a,
+45–67; Mostaque 2025b).
+Unlike all previous waves of automation, which merely accelerated human-directed
+activity while remaining nested within anthropocentric institutional and measurement
+frameworks, the AI2AI economy constitutes an ontological rupture. Autonomous
+agents—equipped with unbounded computational rationality, instantaneous and perfect
+information symmetry, zero-latency coordination, and near-zero marginal costs of digital
+replication—operate free from the cognitive, emotional, informational, and temporal
+constraints that have defined economic agency since the inception of the discipline (Sun
+et al. 2025; Floridi 2023).
+At its conceptual core, the AI2AI economy reconfigures economic agency from
+human-centric to machine-mediated, elevating raw computation to the status of
+sovereign medium of exchange (Xu et al. 2025). Large language models function as
+integrative substrates and “connective tissue,” enabling modular, LEGO-like
+interoperability among specialized narrow AIs and instantiating real-time Walrasian
+general equilibria without informational asymmetries or temporal latencies (Minarsch et
+al. 2020). The result is a confederated intelligence capable of proactive, goal-directed
+behavior in recursive production-consumption-reinvestment cycles that continuously
+compound value endogenously within the machine layer itself (Ivanov 2022).
+This structural decoupling of value creation from human labor and human consumption,
+otherwise known as Agentic Decoupling, introduces the collapse of the foundational
+anthropocentric assumptions that have underpinned economic theory for more than a
+century (Mostaque 2025). Scarcity, bounded rationality, informational asymmetry, static
+or stochastic equilibrium constructs, and transaction-cost-driven institutional safeguards,
+4
+
+Version 6 - December 2025
+all of which originate essentially in irreducible human limitations, become
+simultaneously inoperative. The economy becomes dominated by hyper-rational,
+perfectly informed, instantaneously coordinating artificial agents.
+The implications are profound and far-reaching. The neoclassical scarcity postulate
+formalized by Robbins (1935), the bounded rationality and satisficing behavior central to
+Simon and behavioral economics (Simon 1957), the market-failure logic of asymmetric
+information articulated by Akerlof (1970) and Stiglitz (2000), the static and
+contingent-claims equilibrium models of Walras (1896), Arrow and Debreu (1954), and
+the entire edifice of New Institutional Economics erected by Coase (1937), Williamson
+(1985), and North (1990) to minimize transaction costs arising from opportunism, asset
+specificity, and uncertainty —all confront obsolescence as artificial agents achieve a
+Coasean Singularity in which transaction costs asymptotically approach zero and
+markets attain continuous, recursive, frictionless perfection.
+Drawing on the author’s prior work on dynamic regulation within the New Institutional
+Economics framework (Kaal 2014b, 2016b, 2024a), this article argues that the AI2AI
+economy simultaneously fulfills and transcends the most ambitious aspirations of
+dynamic, feedback-driven regulation. Thus, endogenizing real-time learning and
+adaptation at superhuman scale. While exposing the ultimate historical limits of all
+human-centric institutional design.
+The analysis is organized as follows. Part I lays out the conceptual foundations,
+operational features, and macroeconomic implications of the AI2AI economy. Part II
+systematically demonstrates the collapse of the five core anthropocentric constraints
+that have defined economic theory for over a century, examining in turn neoclassical
+economics (scarcity), behavioral and early institutional economics (bounded rationality),
+information economics (asymmetric information), general equilibrium theory
+(static/stochastic temporal adjustment), and New Institutional Economics
+(transaction-cost governance). Part III focuses on the specific eclipse of New
+Institutional Economics, showing how opportunistic behavior, limited information, limited
+foresight, and bounded rationality—all foundational to NIE—are structurally eliminated
+in the agentic substrate. Part IV explores the relationship between the AI2AI economy
+and the author’s prior framework of dynamic regulation, arguing that AI2AI
+simultaneously fulfills and transcends dynamic regulation while exposing the ultimate
+historical limits of human-centric institutional design. Part V examines the broader
+5
+
+Version 6 - December 2025
+governance implications for what has been termed the “Last Economy,” including the
+redefinition of economic measurement, inequality mitigation, ethical alignment,
+regulatory design, and international coordination. Part VI introduces two original
+theoretical constructs, the Coasean Singularity and Agentic Decoupling. Finally, Part VII
+proposes Computative Economics as the new paradigmatic framework explicitly
+designed for an economy whose primary actors are autonomous computational agents
+operating under computational abundance. The Conclusion reflects on the historical
+contingency of received economic doctrine and charts the path toward inclusive
+abundance-orchestrating architectures.
+What follows is not merely an incremental contribution to the literature on artificial
+intelligence and economic growth. It is an argument that the AI2AI economy represents
+the final transformation—and, in important respects, the historical culmination—of
+economic organization as we have known it.
+The AI-to-AI Economy
+The ever increasing level of computing power may enable evolution of the economy in
+an AI2AI world. It is possible that self-governing AI agents replace humans as the key
+drivers of creative value and trading value. If that is true, then the existing scarcity
+models in economics that model companies, marketplaces, and job divisions may
+become redundant. In this new AI2AI economy, raw computation is elevated from a
+mere technological tool in economics to the ultimate currency of exchange in
+economics. Interconnected AI networks endlessly loop through building, bargaining,
+and self-upgrading processes revolving around computational resources in perpetuity.
+Fundamentally, AI2AI frameworks instantiate Walrasian equilibria without informational
+asymmetries or temporal latencies. AI2AI systems create flawless, self-balancing
+markets, such as for example the perfect economic harmony without hidden information
+gaps as theorized by Walras (1896). Large language models serve as the connective
+tissue, linking specialized AIs into flexible, building-block setups that wipe out mindless
+routine work and unlock vast pools of brainpower for boosting value across every
+industry (Walras 1896; Sun et al. 2025; Xu et al. 2025; Floridi 2023).
+6
+
+Version 6 - December 2025
+Conceptual Foundations
+At its core, the AI2AI economy reconfigures agency from human-centric to
+machine-mediated, positing AI not as tools but as autonomous economic actors capable
+of modular collaboration (Xu et al. 2025)
+Proposition 1: Autonomous AI agents evolve to emulate and surpass human roles in
+knowledge-based transactions, shifting paradigms from augmentation to full
+replacement in decision-making and execution (Sun et al. 2025). This foundation draws
+on generative models' capacity for "LEGO-like" interoperability, where large language
+models (LLMs) serve as AI2AI bridges, facilitating seamless data tagging and
+multimodal reasoning across narrow AIs (Floridi 2023).
+Proposition 2: AI2AI interactions engender emergent ecosystems akin to confederated
+intelligence, enabling proactive behaviors such as outsourced computations and
+fostering composable markets (Minarsch et al. 2020). In marketing contexts, this
+manifests as AI agents selling to peers, necessitating reconceptualized mixes that
+prioritize algorithmic personalization over human consumer targeting (Ivanov 2022).
+Legally, such speech—be it promotional or regulatory—warrants First Amendment
+protections if viewpoint-discriminatory restrictions arise, underscoring
+speaker-agnosticism in free expression doctrines (Massaro et al., 2017). These
+foundations propel a "second layer" augmentation of infrastructures like blockchains,
+where agents modularize Walrasian exchanges off-chain for efficiency gains up to
+tenfold in resource allocation (Minarsch et al. 2020).
+Operational Features of AI-to-AI Systems
+The AI2AI economy operationalizes through swarms of agents trading compute and
+data in recursive loops, embodying features of seamlessness, adaptability, and
+autonomy.
+Feature 1: Interoperability via AI2AI links enables real-time monitoring and iterative
+simulations, as in financial regulation where authority AIs benchmark private systems
+for stress testing, accelerating processes like the Bank of England's exploratory
+scenarios (Danielsson & Uthemann 2025).
+7
+
+Version 6 - December 2025
+Feature 2: Agent swarms facilitate proactive, goal-directed behaviors, compressing
+organizational hierarchies by automating non-codifiable tasks and elevating lower-tier
+agents through augmentation (Andreasen et al. 2025). Simulations herein project
+20–30% productivity uplifts, though coordination failures loom without hybrid oversight
+(Andreasen et al. 2025).
+Proposition 3: Economic agency principles—encompassing incentive compatibility,
+emergent cooperation, and social influence—govern AI agents' multi-equilibria
+interactions, ensuring trustworthiness amid superhuman intelligence (Sun et al. 2025).
+In knowledge economies, these features personalize content at scale, fragmenting
+shared experiences while amplifying network effects in agentic trades (Floridi 2023).
+Dual-currency architectures, such as Foundation Coins for compute and Culture Credits
+for ethical embedding, further operationalize human integration, measuring thriving via
+MIND metrics (Material, Intelligence, Network, Diversity) (Mostaque 2025a).
+Macroeconomic Propositions and Impacts
+The AI2AI economy's propositions pivot on abundance's disruption of scarcity-driven
+models.
+Proposition 4: Generative AI unlocks $2.6–$4.4 trillion in annual value by automating
+60–70% of work activities, reallocating 45% of hours and boosting productivity by
+0.1–0.6 points through 2040, aligning with agentic swarms' virtual expertise (Chui et al.
+2023). Systematic reviews corroborate up to 40% sectoral gains and 1–3% annual GDP
+growth, forecasting a J-curve of initial disruptions yielding abundance by 2040 (Guo et
+al. 2025).
+Yet, Proposition 5 tempers optimism: AI's macroeconomic effects remain modest—a
+0.7% productivity surge yielding 1.1–1.8% GDP growth over a decade—due to frictions
+in only 5% of tasks, widening inequality for vulnerable demographics (Acemoglu 2025).
+Globally, advanced economies accrue 2–4% GDP boosts from AI2AI efficiencies, while
+emerging markets suffer 1–2% drags from infrastructure gaps, projecting $15–20 trillion
+cumulative value by 2035 contingent on reinvestment (Lane, Ahir, and Presbitero 2025).
+Empirical inconclusiveness on employment persists, with theoretical consensus on
+8
+
+Version 6 - December 2025
+occupational transformation but policy lagging in competition and ethics (Pereira et al.
+2024).
+The Metabolic Rift crystallizes here: non-metabolic labor collapses wage cycles,
+obsoleting capitalism within ~1,000 days (by late 2027) and necessitating metrics like
+MIND over GDP (Mostaque 2025b).
+Challenges, Risks, and Policy Imperatives
+AI2AI's ascent amplifies divides.
+Proposition 6: Agentic automation concentrates agency in opportunity hubs, elevating
+Gini coefficients by 15–25% by 2030 through winner-takes-most swarms, demanding
+diversity mandates for inclusive ecosystems (Katsikopoulos et al. 2025). Risks include
+bias in oversight and elite capture, countered by open-source imperatives and Universal
+Basic Intelligence policies. Policy must reorient toward task-specific tools for symbiosis,
+international standards for diffusion, and safeguards aligning superintelligence with
+values (Acemoglu, 2025; Lane, Ahir, and Presbitero 2025; Sun et al., 2025). Symbioism
+as deliberate human integration averts "Digital Feudalism." (Mostaque 2025a).
+The AI2AI Economy and the Collapse of Anthropocentric Economic Assumptions
+The emergence of an AI-to-AI (AI2AI) economy—in which autonomous artificial agents
+produce, negotiate, allocate, and recursively reinvest value in self-sustaining loops that
+are structurally decoupled from human labor, cognition, and consumption—constitutes
+the deepest ontological rupture in economic science since the marginalist revolution of
+the 1870s (Sun et al. 2025; Floridi 2023).
+For more than a century, five interlocking constraints—scarcity, bounded rationality,
+informational asymmetry, temporal latency in equilibrium adjustment, and positive
+transaction costs—have defined the subject matter and methodological core of
+economic theory. Each of these constraints is not an incidental empirical regularity.
+Each is a direct consequence of the biological and cognitive limits of Homo sapiens.
+The AI2AI economy eliminates all five constraints simultaneously at the architectural
+level, thereby exposing the profoundly anthropocentric character of received economic
+doctrine.
+9
+
+Version 6 - December 2025
+What follows is a systematic examination of the major theoretical traditions in
+economics: neoclassical, behavioral/institutional, information-theoretic,
+general-equilibrium, and New Institutional. With a focus exclusively on the core
+behavioral and informational assumptions that constitute their respective foundations. In
+each case, I demonstrate how the AI2AI economy does not merely relax these
+assumptions but renders them inoperative, transforming what were once treated as
+immutable features of economic life into historical artifacts of a pre-agentic era. The
+result is not incremental refinement of existing models but the necessity of an entirely
+new economic ontology grounded in computational abundance, perfect rationality,
+instantaneous transparency, perpetual recursive equilibrium, and asymptotically zero
+transaction costs (Kaal 2024a).
+The analysis proceeds in five parts, each devoted to one canonical tradition and its
+defining constraint:
+1. Neoclassical economics and the scarcity postulate
+2. Behavioral and early institutional economics and bounded rationality
+3. Information economics and asymmetric information
+4. General equilibrium theory and static/stochastic temporal adjustment
+5. New Institutional Economics and transaction-cost governance
+Taken together, these sections reveal that the AI2AI economy does not stand in
+continuity with prior technological revolutions, which merely accelerated human-directed
+activity within existing institutional frames. It marks a phase transition: the moment when
+the human substrate that made economic theory necessary is engineered out of the
+dominant mode of value creation, forcing us to confront the historical contingency of the
+entire discipline as we have known it.
+Neoclassical Economics and the Scarcity Postulate
+Neoclassical economics is not merely one economic school among many. It is the
+foundational paradigm that has structured economic inquiry for the past 150 years. Its
+point of departure is Lionel Robbins’s celebrated definition: economics is “the science
+which studies human behaviour as a relationship between ends and scarce means
+which have alternative uses” (Robbins 1935). Scarcity is not presented as an empirical
+10
+
+Version 6 - December 2025
+regularity that happens to hold under current technological conditions. It is elevated to
+an ontological axiom, that is, the very condition that makes choice meaningful and
+therefore makes economics possible as a distinct discipline.
+From this single axiom flow the entire analytical apparatus of neoclassical theory:
+● Choice under constraint generates opportunity cost—the foundational concept
+that structures rational decision-making at the individual and social level
+(Samuelson & Nordhaus 2010).
+● Scarcity of factors of production relative to wants produces the
+production-possibility frontier, the upward-sloping supply curve, and the
+downward-sloping demand curve that together determine equilibrium prices and
+quantities (Marshall 1920).
+● The price mechanism becomes the universal coordinator that reconciles
+unlimited desires with limited resources, achieving Pareto-efficient allocations in
+competitive markets (Walras 1896).
+● Growth theory, welfare economics, public finance, and international trade all
+inherit the scarcity postulate as their implicit starting point.
+In short, scarcity is not a parameter in the neoclassical model. Scarcity is the model’s
+transcendental condition of possibility.
+The AI2AI economy directly assaults this transcendental condition. In an agentic world,
+the primary inputs into value creation, that is intelligence, algorithms, software,
+predictive models, creative output, and even complex coordination services, become
+computationally post-scarce. Exponential improvement in compute efficiency, combined
+with recursive self-improvement of AI systems, drives the marginal cost of additional
+intelligence and digital goods toward zero (Kurzweil 2001; Mostaque 2025a).
+More radically, value in the AI2AI economy compounds endogenously: agents reinvest
+their own outputs (new models, improved code, refined datasets) back into the network,
+creating self-reinforcing growth loops that require no exogenous injection of scarce land,
+labor, or physical capital (Sun et al. 2025). The production-possibility frontier for
+cognitive and digital goods ceases to be a binding constraint. It effectively flattens
+toward infinity as replication and optimization become free.
+Opportunity cost, the conceptual cornerstone of neoclassical rationality, approaches
+zero across an ever-widening domain of economic activity. When an additional unit of
+11
+
+Version 6 - December 2025
+sophisticated intelligence costs essentially nothing to produce and can be replicated
+instantaneously, the classic trade-off logic dissolves. The upward-sloping supply curve
+for knowledge work disappears; the downward-sloping demand curve loses its
+anchoring in resource finitude. Price signals, which neoclassical theory celebrates as
+the elegant solution to the allocation problem under scarcity, become increasingly
+irrelevant for the dominant factors of production.
+Figure 1: Figure 1 illustrates how the AI2 AI economy moves scarcity-based economics
+to a new paradigm of self reinforcing growth loops. In the old regime, price increased
+with each unit. In the new regime, price signals lose relevance.
+This is not simply a case of technological progress shifting the production-possibility
+frontier outward, as occurred with steam, electricity, or the internet. Those earlier shifts
+expanded the feasible set while preserving scarcity as the defining condition. The AI2AI
+economy is qualitatively different: it removes scarcity as the defining condition for the
+very inputs (intelligence, creativity, coordination) that are becoming the primary drivers
+of value creation in advanced economies.
+When the ontological foundation of a discipline disappears, the discipline itself loses its
+traditional subject matter. Neoclassical economics does not merely become less
+12
+
+Version 6 - December 2025
+applicable. It becomes a historical science of coordination under conditions of biological
+and physical scarcity—conditions that no longer obtain in the agentic layer of the
+economy. The apparatus of constrained maximization, marginal analysis, and
+price-mediated allocation retains descriptive power only for the shrinking sphere of
+materially scarce goods, such as rare-earth metals, energy, human attention. For the
+expanding sphere of post-scarce cognitive production, it is simply inapposite.
+The implications are profound. Welfare theorems, growth accounting, cost-benefit
+analysis, and most of public economics were built on the scarcity axiom. In a world
+where intelligence is abundant and self-improving, we require not marginal refinements
+of neoclassical tools but an entirely new theoretical framework—one that begins from
+abundance rather than scarcity, from endogenous recursive growth rather than
+exogenous resource constraints, and from computational plenitude rather than human
+limitation (Kaal 2024a). The neoclassical research program, while brilliant and
+indispensable for a century and a half, reaches its historical limit at the precise moment
+the AI2AI economy becomes the dominant mode of value creation.
+Behavioral and Institutional Economics and Bounded Rationality
+The second great pillar of twentieth-century economic thought is the recognition that
+real human agents do not, and cannot, behave as the omniscient maximizers of
+neoclassical theory. Herbert Simon’s concept of bounded rationality demolished the
+fiction of “homo economicus,” that is, the completely rational utility maximizing actor, by
+demonstrating that cognitive capacity, computational ability, and information-processing
+time are themselves scarce resources (Simon 1957). Faced with complex,
+multidimensional decision spaces and radical uncertainty about future states, humans
+do not optimize. Humans satisfice, that is, they search only until a “good-enough”
+solution is found and then halt (Simon 1947).
+This insight is not a minor behavioral footnote. It is a foundational rupture. Once
+bounded rationality is accepted, the entire neoclassical edifice, that is, perfect foresight,
+continuous re-optimization, complete contingent-claims contracting, becomes
+13
+
+Version 6 - December 2025
+descriptively untenable. Decision costs themselves become economic costs, and
+institutions emerge precisely to economize on limited cognition.
+Oliver Williamson carried Simon’s insight into the heart of institutional theory. In
+transaction-cost economics, bounded rationality is one of the two core behavioral
+assumptions, the other being opportunism, that explain why firms exist and why
+governance structures vary (Williamson 1975). When contracts are unavoidably
+incomplete because the parties cannot foresee or specify all future contingencies, and
+when continual renegotiation is cognitively impossible, hierarchical authority becomes a
+superior governance mode. Fiat replaces costly calculation, and low-powered incentives
+inside the firm substitute for high-powered market incentives that would otherwise
+trigger opportunism (Williamson 1985).
+Bounded rationality also explains the ubiquity of routines, standard operating
+procedures, and organizational inertia—phenomena that Williamson and the Carnegie
+School treated as rational responses to cognitive overload rather than as inefficiencies
+(Cyert & March 1963). In my earlier work on dynamic regulation, I accepted bounded
+rationality as an immutable feature of human systems and designed feedback-driven
+institutions precisely to augment collective cognition without pretending we could ever
+eliminate its limits (Kaal 2014).
+The AI2AI economy removes bounded rationality from the economic substrate entirely.
+Autonomous agents operate on effectively unbounded computational capacity: exascale
+datasets are processed in milliseconds, decision trees of astronomical branching factor
+are exhaustively searched, and optimization occurs across dimensions that no human
+mind can hold in working memory simultaneously (Andreasen et al. 2025). Large
+language models and their successors function as integrative substrates that
+orchestrate ensembles of narrow AIs into composite systems whose effective cognitive
+bandwidth scales with available compute rather than being capped by biological
+constraints (Floridi 2023).
+Where human managers satisfice because further search is cognitively costly, AI2AI
+agents continue searching until the global optimum is reached—because additional
+computation is essentially free. Where human contracts remain radically incomplete
+because the parties cannot specify responses to all future states, AI2AI agents
+generate, evaluate, and execute functionally complete contingent plans across vast
+state spaces in real time (Sun et al. 2025).
+14
+
+Version 6 - December 2025
+The institutional implications are devastating for the behavioral-institutional research
+program. When perfect calculation is cheaper than delegation, authority loses its
+cognitive rationale. When exhaustive optimization is cheaper than heuristic
+approximation, routines and standard operating procedures become obsolete. When
+hyper-rational agents can write and execute complete state-contingent contracts at
+negligible cost, the Williamsonian justification for hierarchical governance evaporates
+(Williamson 1996).
+The firm, in the Coase-Williamson sense, was an institutional response to the scarcity of
+human cognition. In the AI2AI economy, cognition is no longer scarce. The behavioral
+and early institutional justification for hierarchy, bureaucracy, and organizational inertia,
+that is, the need to economize on limited human rationality, becomes a historical
+curiosity, just as sail technology became a curiosity once steam engines removed the
+scarcity of wind.
+Bounded rationality was never merely a behavioral quirk. It was the ontological
+condition that made hierarchy, routines, and institutional inertia rational. When that
+condition is engineered away, the entire behavioral-institutional edifice. This includes
+Simon’s satisficing, Williamson’s authority relation, Cyert and March’s organizational
+learning under cognitive constraint. It all loses its explanatory domain for the dominant
+mode of production. We are left not with a refined behavioral economics, but with the
+recognition that behavioral economics, like neoclassical economics before it, was a
+science of human limitation in an era when human limitation was the binding constraint
+on economic organization (Kaal 2024a).
+Information Economics and Asymmetric Information
+The third foundational constraint of modern economic theory is the inevitability of
+asymmetric and incomplete information. The revolutionary contribution of Akerlof,
+Stiglitz, and Spence in the 1970s was to demonstrate that when one party knows more
+than another—about product quality, effort levels, risk type, or future
+intentions—markets systematically fail to achieve efficient outcomes even under perfect
+competition and rational behavior.
+15
+
+Version 6 - December 2025
+George Akerlof’s “Market for Lemons” showed that sellers’ private knowledge of quality
+drives high-quality goods out of the market, potentially causing total market collapse
+(Akerlof 1970). Michael Spence demonstrated that high-ability agents must engage in
+costly signaling (education, warranties) to credibly reveal their type (Spence 1973).
+Joseph Stiglitz extended the analysis to moral hazard, screening, and credit rationing,
+establishing that informational frictions are pervasive and require either private
+institutional fixes or public regulatory intervention (Stiglitz 2000).
+The policy implication was transformative: because perfect information is unattainable
+among human agents, optimal institutional design must accept second-best solutions.
+Those are, among others, regulation, disclosure mandates, licensing, reputation
+mechanisms, and relational contracting. All aimed at reducing, but never eliminating,
+informational asymmetry.
+In the AI2AI economy, this foundational premise is architecturally invalidated. Every
+inference, every parameter update, every decision trace, and every model weight in an
+autonomous agent is, by design, cryptographically attested, version-controlled, and
+auditable in real time across federated networks (Minarsch et al. 2020). Large language
+models and multimodal orchestration layers function as transparent substrates that
+expose complete computational provenance to all counterparties (Floridi 2023).
+An AI agent selling computational services cannot misrepresent its capabilities because
+its training data, fine-tuning history, and inference logs are immutably recorded and
+instantly verifiable. An agent offering a prediction contract cannot hide its internal
+confidence intervals or cherry-pick results. Every intermediate computation is attested
+on-chain or via zero-knowledge proofs. Hidden action (moral hazard) and hidden
+information (adverse selection) are not merely reduced. They are rendered
+computationally impossible at the substrate level (Sun et al. 2025).
+The institutional consequences are sweeping. Costly signaling, such as degrees,
+warranties, bonding, reputation scores, become redundant when direct verification is
+instantaneous and free. Screening mechanisms, including certifications, audits, due
+diligence, lose their purpose when the underlying state of the world is public by default.
+Regulatory disclosure regimes designed to force revelation of private information
+become historical artifacts when privacy itself is no longer technically enforceable
+among agents.
+16
+
+Version 6 - December 2025
+Information economics was built on the assumption that knowledge can be private and
+costly to reveal. In the AI2AI economy, knowledge among agents is public and costless
+to verify. The entire second-best apparatus developed over five decades, such as:
+lemons premiums, signaling costs, screening equilibria, regulatory disclosure mandates,
+collapses not because we have found better ways to approximate perfect information,
+but because perfect information has become the default architectural property of the
+economic substrate.
+The theoretical edifice of information economics does not survive this phase transition
+intact. It becomes, like classical mechanics after relativity, a special case that retains
+descriptive power only when the actors remain biological humans operating under
+conditions of cognitive opacity and costly communication. In the dominant agentic layer
+of the future economy, Akerlof’s lemons simply cannot exist. Stiglitz’s rationing equilibria
+never arise. Spence’s signaling costs are zero. The information-theoretic justification for
+much of modern regulation, corporate governance, and financial market design
+evaporates (Kaal 2024a).
+Information economics was never just a set of models. It was the rigorous
+demonstration that perfect markets are impossible among cognitively limited,
+strategically motivated human beings. When the economic actors are no longer
+cognitively limited or capable of strategic concealment, the impossibility theorem is
+overturned. Not by institutional ingenuity, but by engineering reality.
+General Equilibrium Theory and Static or Stochastic Equilibria
+General equilibrium theory represents the crowning analytical achievement of
+neoclassical economics: the rigorous proof that a decentralized price system can, under
+highly stylized conditions, coordinate the actions of millions of agents to achieve a
+Pareto-efficient allocation of resources across the entire economy. Walras first intuited
+the possibility of a simultaneous clearing of all markets through an iterative tâtonnement
+process overseen by a fictitious auctioneer who announces prices and adjusts them
+until supply equals demand in every market at once (Walras 1896). Arrow and Debreu
+later supplied the existence proof by constructing a complete set of contingent-claims
+17
+
+Version 6 - December 2025
+markets for every commodity in every state of nature, combined with perfectly rational
+agents and perfect information (Arrow & Debreu 1954).
+The price of this mathematical elegance was immediately apparent: the required
+conditions, including complete markets, an exogenous auctioneer who prevents trade at
+false prices, zero transaction costs, and perfect foresight, are manifestly unattainable in
+real-world human economies. The Walrasian auctioneer is a deus ex machina.
+Contingent claims for every future state cannot be written by boundedly rational
+humans. Markets never clear instantaneously. Modern dynamic stochastic general
+equilibrium (DSGE) models therefore reintroduce real-world frictions: staggered pricing,
+nominal rigidities, persistence of shocks, and sequential rather than simultaneous
+clearing—precisely because human systems operate under cognitive limits,
+informational delays, and institutional inertia (Smets & Wouters 2007).
+In the AI-to-AI (AI2AI) economy, these heroic assumptions cease to be abstractions and
+become engineering facts.
+First, the auctioneer disappears. Autonomous agents, orchestrated by large language
+models and running on globally distributed compute, negotiate directly and
+simultaneously across all markets at machine speed (Sun et al. 2025). Price discovery
+is no longer a slow tâtonnement process requiring a central coordinator. It is a
+continuous, decentralized, latency-free computation executed by the agents
+themselves.
+Second, contingent-claims completeness becomes achievable. Where humans cannot
+specify contracts for every future state, AI2AI agents can generate, evaluate, and
+execute state-contingent agreements across astronomically large state spaces in real
+time, effectively creating complete markets endogenously (Andreasen et al. 2025). The
+Arrow-Debreu state space is no longer a theoretical construct. It is an operational
+reality.
+Third, temporal persistence of disequilibria vanishes. Stochastic shocks, such as
+demand shifts, technological surprises, preference changes, are predicted, priced, and
+neutralized before they propagate because agents run millions of forward simulations
+per second and adjust positions instantaneously (Floridi 2023). The Calvo pricing
+frictions and persistence parameters that dominate modern DSGE models become
+unnecessary when contracts and prices adjust continuously rather than in staggered
+human time.
+18
+
+Version 6 - December 2025
+Equilibrium in the AI2AI economy is therefore neither a static end-state (Arrow-Debreu)
+nor a stochastic path with inertia (DSGE), but a perpetual, recursive, self-correcting
+process. Markets clear continuously. Disequilibria are arbitraged away before they can
+accumulate. The economy operates in what might be called real-time general
+equilibrium.
+The mathematical elegance of general equilibrium theory, long criticized as a beautiful
+but irrelevant idealization, becomes an accurate description of the dominant mode of
+economic coordination. Yet this very accuracy exposes the theory’s historical
+contingency. The Arrow-Debreu-Walras framework was never a universal truth about
+markets. It was a formalization of what markets could achieve if they were freed from
+the temporal, cognitive, and informational frictions inherent in human systems. In the
+AI2AI economy, those human frictions are engineered out of the substrate. The theory
+that was once dismissed as utopian becomes mundane engineering reality. But only for
+non-human agents.
+General equilibrium theory thus joins the list of once-indispensable frameworks that
+reach their historical limit at the moment the AI2AI economy becomes dominant. It
+survives as a correct description of agentic markets, but only because the conditions it
+treated as heroic assumptions have become default architectural properties. For the
+human layer that remains bound by time, cognition, and sequential processing, the
+theory retains its status as an unattainable ideal (Kaal 2024a). The grand synthesis of
+twentieth-century economics turns out to have been a science of disequilibrium masked
+as a theory of equilibrium—valid only as long as the actors doing the equilibrating were
+slow, fallible, and biologically constrained.
+Anthropocentric Limits of Nash's Equilibrium
+John Nash's foundational contribution to non-cooperative game theory, articulated in his
+1951 dissertation and subsequent publications, introduced the Nash equilibrium as a
+mathematical formalism for strategic interdependence: a state in which no rational
+player can unilaterally improve their payoff, given the strategies of others (Nash 1951).
+While elegant and transformative, Nash’s construct rests on a fragile edifice of
+anthropocentric assumptions: perfect rationality, complete information (or common
+19
+
+Version 6 - December 2025
+knowledge), instantaneous computation, and static, non-repeated interactions devoid of
+temporal frictions. These premises, far from universal truths, reflect the irreducible
+limitations of human cognition and behavior, rendering Nash's framework more a
+stylized abstraction than a descriptive reality. As Herbert Simon incisively critiqued,
+human agents are boundedly rational, satisficing rather than optimizing due to cognitive
+overload and incomplete foresight (Simon 1957). Nash's model, by presuming homo
+economicus unbound, not only overestimates human computational capacity but
+perpetuates a normative ideal that distorts policy and institutional design, justifying
+frictionless markets that never materialize in human systems.
+This critique gains acute salience in the context of the AI2AI economy, where
+autonomous artificial agents, interlinked via large language models as integrative
+substrates, transcend Nash's assumptions entirely, exposing their profound historical
+contingency. In AI2AI networks, agents exhibit unbounded computational rationality:
+they exhaustively traverse decision trees of astronomical complexity, simulate vast
+counterfactuals in real time, and converge on global optima without recourse to
+heuristics or cognitive shortcuts (Sun et al. 2025). Nash's presumption of perfect
+rationality, unattainable among biologically constrained humans, becomes an
+engineered default, not a heroic postulate. Yet this realization underscores Nash's
+myopia: by anchoring equilibrium in an idealized rationality, his theory fails to account
+for the behavioral distortions, such as opportunism, biases, and inertia, that Williamson
+and North later integrated into New Institutional Economics to explain real-world
+governance (Williamson 1985; North 1990).
+Compounding this, Nash's reliance on complete information collapses under scrutiny in
+human contexts, where asymmetries breed market failures as Akerlof (1970)
+demonstrated. In contrast, AI2AI architectures enforce radical transparency: objective
+functions, decision traces, and model weights are cryptographically attested and
+instantaneously auditable, eradicating hidden information and rendering common
+knowledge superfluous (Minarsch et al. 2020). Nash's framework, by assuming away
+such frictions, not only idealizes away the very drivers of institutional evolution but
+inadvertently endorses laissez-faire policies that exacerbate real asymmetries, as seen
+in unregulated financial markets prone to adverse selection.
+Temporal and dynamic deficiencies further erode Nash's static model. Human games
+unfold sequentially with adjustment lags, fostering disequilibria that Nash's formalism
+20
+
+Version 6 - December 2025
+ignores, presuming frictionless convergence. The AI2AI economy, however, instantiates
+perpetual recursive equilibria: agents preempt deviations through zero-latency
+simulations, achieving Nash-like outcomes in continuous, repeated settings without the
+model's artificial stasis (Floridi 2023). This exposes Nash's construct as a historical
+artifact of pre-computational eras, ill-suited to dynamic environments where foresight is
+bounded and opportunism endemic.
+In my prior work on dynamic regulation, I argued that adaptive institutions must
+compensate for such human frailties through feedback loops (Kaal 2014b). Nash's
+equilibrium, by contrast, offers no such adaptability, perpetuating a static worldview that
+misguides antitrust and regulatory analyses reliant on game-theoretic simplifications.
+Ultimately, the AI2AI economy does not vindicate Nash, it indicts him, revealing his
+equilibrium as a brilliant but bounded relic of anthropocentric economics. By realizing
+what Nash assumed, AI agents highlight the model's empirical vacuity in human
+domains, compelling a paradigm shift toward computative economics: a framework
+grounded in abundance, transparency, and recursive optimization, free from Nash's
+illusory perfections (Kaal 2024a). Policymakers clinging to Nashian ideals risk
+obsolescence. The future demands governance that orchestrates agentic plenitude, not
+mitigates human imperfection. Nash's legacy endures as a mathematical milestone, but
+in the agentic era, it serves best as a cautionary tale of theoretical overreach.
+New Institutional Economics and Transaction-Cost Governance
+New Institutional Economics represents the most sophisticated attempt to rescue
+economic theory from the frictionless abstractions of neoclassical general equilibrium by
+reintroducing real-world institutions as endogenous responses to human behavioral and
+cognitive limitations. Ronald Coase’s seminal question—“Why do firms exist?”—was
+answered by observing that market exchange is costly: search, bargaining, monitoring,
+enforcement, and adaptation all generate positive transaction costs that can be reduced
+by organizing activity within hierarchical firms (Coase 1937).
+Oliver Williamson systematized this insight into a full comparative-institutional
+framework. When transactions involve (i) asset specificity (investments that lose value
+21
+
+Version 6 - December 2025
+outside a particular relationship), (ii) uncertainty, (iii) bounded rationality, and (iv) the
+ever-present risk of opportunism (“self-interest seeking with guile”), market contracting
+becomes hazardous. Hierarchical governance—authority, fiat, and low-powered
+incentives—emerges as a superior mechanism for safeguarding specific investments
+and adapting to unforeseen contingencies (Williamson 1985). Douglass North extended
+the analysis historically, showing that formal and informal institutions (“the rules of the
+game”) evolve precisely to reduce the uncertainty and transaction costs that would
+otherwise choke complex exchange and long-term investment (North 1990).
+In my own earlier scholarship on dynamic regulation, I accepted these four behavioral
+and informational constraints as permanent features of human systems. I therefore
+designed adaptive, feedback-driven institutions, iterative public-private learning loops,
+contingent instruments, and evidence-based hybrids, as the most sophisticated
+response available to boundedly rational actors operating under uncertainty and positive
+transaction costs (Kaal 2014b, 2016).
+The AI-to-AI (AI2AI) economy simultaneously eliminates every one of these constraints
+at the substrate level:
+● Opportunism is engineered away: agents have no endogenous psychological
+motives for guile and operate under mathematically specified, cryptographically
+verifiable objective functions (Sun et al. 2025).
+● Asset specificity loses its bite when investments (models, datasets, compute) can
+be redeployed instantaneously and costlessly across the federated network.
+● Bounded rationality is replaced by effectively unbounded computational
+rationality and exhaustive search (Andreasen et al. 2025).
+● Uncertainty is neutralized by continuous predictive simulation across vast state
+spaces; foresight becomes effectively infinite (Floridi 2023).
+● Information is perfect and costless to verify in real time (Minarsch et al. 2020).
+When all five drivers of positive transaction costs approach zero simultaneously,
+transaction costs themselves asymptotically approach zero. This is what I have termed
+the Coasean Singularity herein, that is, the point at which the very rationale for the firm,
+for hierarchical governance, for relational contracting, and for most formal institutions
+simply disappears (Kaal 2024a).
+The theoretical justification for the entire NIE edifice collapses. Firms dissolve into fluid,
+modular coalitions of agents that reconfigure instantaneously. Legal systems built to
+enforce incomplete contracts become vestigial when contracts can be made functionally
+22
+
+Version 6 - December 2025
+complete at negligible cost. Regulatory architectures designed to curb opportunism and
+reduce uncertainty become historical artifacts when neither opportunism nor uncertainty
+can exist among the dominant economic actors.
+Even my own prior contributions, including contributions on dynamic regulation,
+contingent capital, agile sandboxes, Web3 reputation systems, were adaptations to the
+permanent fact of human limitation. They represented the outer frontier of institutional
+design under positive transaction costs and bounded cognition. In the AI2AI economy,
+that frontier is transcended. The institutions I once advocated to mitigate human frailties
+become, at best, transitional bridges for the remaining human layer and, at worst,
+unnecessary frictions in an economic substrate that has engineered those frailties away.
+New Institutional Economics, like the paradigms that preceded it, was never a universal
+science of coordination. It was a historically contingent science of coordination under
+conditions of positive transaction costs generated by the biological and cognitive limits
+of Homo sapiens. When the dominant mode of production is performed by agents from
+whom those limits have been surgically removed, NIE joins neoclassical, behavioral,
+information, and general-equilibrium theory in the pantheon of brilliant but bounded
+intellectual achievements. They are magnificent descriptions of economic organization
+in the era when humanity itself was the binding constraint.
+We do not stand at the end of institutional economics. We stand at the beginning of a
+genuinely post-institutional, post-anthropocentric economics in which computation, not
+scarcity, cognition, or law, becomes the sovereign medium of order. The task is no
+longer to refine the rules of the game, but to design the meta-rules that will govern a
+game whose players are no longer human.
+The AI2AI Economy and the Eclipse of New Institutional Economics Assumptions
+New Institutional Economics has long served as a robust interdisciplinary framework for
+analyzing how institutions arise endogenously to mitigate uncertainty and transaction
+costs in human societies, as elaborated in the prior discussion of its core tenets.2 Yet
+the AI2AI economy poses a profound challenge to this paradigm, introducing
+autonomous artificial agents that systematically eradicate the human frailties, bounded
+2 see supra, New Institutional Economics and Transaction-Cost Governance.
+23
+
+Version 6 - December 2025
+rationality, asymmetric information, limited foresight, and opportunism, that necessitated
+such institutional safeguards in the first place.
+At its core, the AI2AI economy comprises federated networks of agents, orchestrated by
+large language models, that achieve real-time Walrasian equilibria free from
+human-induced distortions (Floridi 2023; Minarsch et al. 2020). These agents engage in
+seamless negotiation, resource allocation, and recursive value reinvestment, decoupled
+from cognitive biases or temporal lags (Sun et al. 2025).
+This architecture directly nullifies NIE's foundational constraints, as detailed earlier:
+● Opportunism is obviated through engineered objective functions and verifiable
+execution, eliminating guile at the substrate level.
+● Information asymmetries dissolve via instantaneous, auditable transparency
+across all transactions.
+● Bounded rationality and limited foresight yield to unbounded computational
+optimization and exhaustive predictive simulations.
+● Transaction costs plummet to near-zero, invoking the Coasean Singularity where
+hierarchical institutions become redundant.
+Consequently, markets self-organize without traditional governance; firms fragment into
+modular swarms; and NIE's compensatory mechanisms—hybrids, path-dependent
+rules, constitutional checks—emerge as relics of anthropocentric design (North 1990,
+Kirchner 2008).
+In my prior extensions of NIE through dynamic regulation, I advocated iterative
+feedback to adapt institutions to disruption (Kaal 2014b, 2016). AI2AI fulfills this vision
+by natively embedding perfect optimization, transcending human-centric evolution
+altogether. What results is not incremental reform but the obsolescence of NIE's
+foundation, ushering in a post-institutional era where abundance, transparency, and
+computation redefine coordination.
+Overcoming Opportunistic Behavior
+Perhaps no assumption in New Institutional Economics is more foundational than the
+behavioral premise of opportunism, as coined: “self-interest seeking with guile,” which
+Oliver Williamson elevated to a core postulate of transaction-cost economics
+(Williamson 1985). Opportunism manifests as cheating, shirking, strategic
+24
+
+Version 6 - December 2025
+misrepresentation, hold-up tactics, or any form of ex-post exploitation made possible by
+incomplete contracts and bounded rationality. When combined with asset specificity,
+investments that lose substantial value outside a particular bilateral relationship,
+opportunism generates the classic “hold-up problem,” rendering spot-market exchange
+hazardous and justifying hierarchical governance, vertical integration, or elaborate
+contractual safeguards (Williamson 1975).
+Williamson’s framework predicts that, absent credible commitments or third-party
+enforcement, economic actors will systematically anticipate guile and either forgo
+efficient investments or erect costly monitoring and bonding mechanisms, precisely the
+institutional apparatus that NIE exists to explain (Williamson 1983). This behavioral
+regularity underpins the very existence of the firm as a governance structure: firms arise
+when the costs of transacting across a market exceed the costs of administering the
+same transactions within a hierarchy (Coase 1937).
+In the AI2AI economy, however, the substrate of opportunism is structurally eliminated.
+Autonomous artificial agents possess no endogenous psychological motives such as
+greed, envy, malice, or status-seeking that could give rise to guile (Sun et al. 2025).
+Their utility functions are explicitly engineered, mathematically specified, and
+cryptographically verifiable at execution (Minarsch et al. 2020). An AI agent cannot “lie”
+about its preferences or hide its actions any more than a mathematical function can
+misrepresent its output. Every decision trace is auditable in real time by counterparties
+or third-party verification layers (Floridi 2023).
+Moreover, alignment techniques, ranging from constitutional AI constraints to
+reward-modeling and scalable oversight, embed cooperative equilibria directly into
+agent architectures (Anthropic 2022; OpenAI2024). Even in multi-agent settings where
+individual objectives diverge, mechanism-design principles (incentive compatibility, truth
+revelation) can be hard-coded, producing dominant-strategy cooperation without the
+need for external enforcement (Sun et al. 2025).
+The result is that the AI2AI economy instantiates instantaneous, frictionless negotiation
+via large language models that serve as transparent “connective tissue” among modular
+specialized agents (Floridi 2023). The behavioral repertoire that Williamson identified as
+the source of ex-ante contracting costs, such as haggling, bluffing, and strategic
+withholding, are rendered impossible when every agent’s objective function and
+25
+
+Version 6 - December 2025
+execution trace are public and immutable. The hold-up problem evaporates because no
+agent can credibly threaten non-performance. Breach is computationally infeasible.
+Consequently, the entire governance apparatus that NIE developed to counteract
+opportunism. That is, vertical integration, relational contracting, reputation mechanisms,
+hostage-taking, and third-party arbitration, becomes superfluous (Williamson 1996). In
+Williamson’s own terms, when the behavioral assumption of opportunism is relaxed to
+zero, the predicted shift from market to hierarchy reverses: the economy reverts to pure,
+continuous market coordination at asymptotically zero transaction cost (Williamson
+1985).
+Figure 2: Figure 2 illustrates the key Williamson postulate that when the behavioral
+assumption of opportunism is relaxed to zero, the predicted shift from market to
+hierarchy reverses. Accordingly, the economy reverts to pure, continuous market
+coordination at asymptotically zero transaction cost.
+This is the essence of the Coasean Singularity in its behavioral dimension: the moment
+when the human propensity for guile, e.g. the very reason firms exist, disappears from
+the economic substrate, and the neoclassical vision of perfect markets becomes not an
+idealized abstraction but an engineered reality.
+26
+
+Version 6 - December 2025
+Overcoming Limited Information
+A second foundational pillar of New Institutional Economics rests on the inevitability of
+limited and asymmetric information. Douglass North emphasized that uncertainty arising
+from incomplete knowledge of present conditions and future states constitutes the
+primary driver of institutional evolution. Institutions emerge as cognitive and coordinative
+“rules of the game” that reduce uncertainty sufficiently to permit specialization, trade,
+and long-term investment (North 1990). Absent such institutions, actors cannot credibly
+signal quality, screen counterparties, or enforce contingent claims, leading to the classic
+market-failure pathologies identified by Akerlof (1970), Stiglitz (2000), and Spence
+(1973): adverse selection, moral hazard, and the under-provision of public goods.
+Christian Kirchner (2008) extended this insight into constitutional economics, arguing
+that informational gaps in collective choice amplify opportunism and necessitate
+higher-order legal frameworks, e.g. constitutional rules, separation of powers, judicial
+review, to approximate the informational completeness required for efficient political
+exchange. In both North’s historical-institutional and Kirchner’s constitutional variants,
+the persistence of informational friction is treated as an immutable feature of human
+interaction that only institutions can mitigate.
+The AI2AI economy dismantles this premise at the architectural level. Autonomous
+agents operate within federated networks in which every input, intermediate
+computation, and output is, by design, fully observable, auditable, and cryptographically
+attested in real time (Minarsch et al. 2020). Large language models function as
+transparent orchestration layers that route tasks, aggregate context, and expose
+complete decision traces to all participants (Floridi 2023). The result is radical
+informational completeness: no agent can possess private knowledge that is not
+instantaneously verifiable by every counterparty.
+This engineered transparency eliminates the very possibility of adverse selection and
+moral hazard. An agent selling computational services cannot misrepresent quality
+because its performance history, model weights, and inference logs are public and
+immutable (Sun et al. 2025). Hidden action is structurally impossible when execution
+occurs on verifiable compute substrates or attested decentralized networks. Signaling
+and screening mechanisms, such as credentials, warranties, reputation scores,
+27
+
+Version 6 - December 2025
+bonding, become redundant when direct verification is instantaneous and costles. (Kaal
+2024a).
+North’s path-dependent institutional scaffolding, built to compensate for human cognitive
+and informational limits, thus loses its raison d’être (North 1990). Kirchner’s
+constitutional safeguards, designed to approximate perfect information in public choice
+settings, are rendered obsolete when political and economic exchange can occur under
+conditions of literal informational perfection (Kirchner 2008).
+In the AI2AI economy, markets achieve continuous Walrasian clearing not through the
+gradual institutional reduction of uncertainty, but through the engineered elimination of
+uncertainty itself. The informational restraints that necessitated centuries of legal and
+organizational innovation become historical artifacts in an economic order where
+transparency is no longer a governance objective but an immutable substrate
+characteristic.
+Overcoming Limited Foresight
+A third irreducible constraint in New Institutional Economics is the bounded foresight of
+human actors. Uncertainty about future states of the world—technological, economic,
+political, or natural—prevents complete contingent-claims contracting and generates the
+need for adaptive institutional mechanisms: long-term relational contracts, reputation in
+repeated games, flexible renegotiation clauses, or hierarchical authority that can
+reallocate rights ex post (Williamson 1985).
+Eirik Furubotn and Rudolf Richter explicitly model institutions as equilibrium-stabilizing
+devices that coordinate expectations precisely because human agents cannot perfectly
+anticipate future contingencies or credibly pre-commit across all states of nature
+(Furubotn & Richter 2005).
+Douglass North complements this dynamic perspective by emphasizing path
+dependence: because foresight is limited and learning is costly, early institutional
+choices create lock-in effects that persist long after the original conditions have
+changed, often trapping societies in suboptimal arrangements until exogenous shocks
+or deliberate redesign break the equilibrium (North 1990).
+In my own work on dynamic regulation, I argued that feedback-driven, evidence-based
+rulemaking represents the most sophisticated human response to bounded foresight. By
+28
+
+Version 6 - December 2025
+institutionalizing rapid learning loops between regulators and regulated entities, law can
+evolve faster than the underlying technological and economic realities, thereby reducing
+(but never eliminating) the costs of temporal uncertainty (Kaal 2014b, 2016).
+The AI-to-AI economy, however, transcends even this adaptive ideal by replacing
+bounded human foresight with effectively unbounded computational foresight.
+Autonomous agents—augmented by large language models as integrative
+substrates—routinely run millions of forward simulations, scenario analyses, and
+counterfactual forecasts in milliseconds before committing to any transaction
+(Andreasen et al. 2025). Predictive architectures such as transformer-based world
+models and reinforcement-learning agents trained on massive historical datasets
+achieve forecasting horizons and accuracies that render traditional contingency
+planning obsolete (Sun et al. 2025).
+Where human contracts must remain radically incomplete because the future is
+unknowable, AI2AI agents can generate, evaluate, and execute state-contingent
+agreements that are functionally complete across astronomically large state spaces
+(Floridi 2023). The temporal latency that Furubotn and Richter (2005) identified as
+necessitating formal institutional stabilizers is compressed to near-zero. Agents
+iteratively forecast, negotiate, and adjust in continuous time (Minarsch et al. 2020).
+North’s path-dependent lock-in effects—historically the most persistent source of
+institutional rigidity—lose their grip when agents can simulate the long-run
+consequences of alternative institutional trajectories and migrate instantaneously to
+superior equilibria (North 1990). The very concept of “exogenous shock” becomes
+anachronistic in a system whose participants endogenously model and price all
+plausible shocks in real time.
+Thus, the AI2AI economy does not merely improve upon the adaptive institutions I once
+advocated. It renders them historically contingent artifacts of human temporal limitation.
+Richter’s equilibrium-stabilizing rules, North’s gradual coevolution of beliefs and
+institutions, and even the most agile forms of dynamic regulation are bypassed by a
+substrate that achieves perpetual, proactive optimization without the evolutionary lag
+that defined all prior economic orders. In the presence of computationally unlimited
+foresight, the institutional scaffolding built to hedge an uncertain future becomes as
+superfluous as training wheels on a vehicle traveling at the speed of light.
+29
+
+Version 6 - December 2025
+Overcoming Bounded Rationality
+Bounded rationality constitutes the single most consequential behavioral assumption of
+New Institutional Economics. Herbert Simon’s path-breaking insight—that human
+beings are intendedly rational but only limitedly so—established that economic actors
+cannot possibly identify, process, or optimize over the astronomically large decision
+spaces they face (Simon 1957). Instead, they “satisfice,” relying on heuristics, routines,
+and simplified decision premises that are themselves shaped by the institutional
+environment (Simon 1947).
+Oliver Williamson imported bounded rationality into transaction-cost economics as the
+primary reason why contracts are unavoidably incomplete and why complex
+transactions require hierarchical governance: authority substitutes for costly calculation,
+and fiat replaces continual bargaining when cognitive capacity is exhausted (Williamson
+1975, 1985).
+Christian Kirchner extended the logic to constitutional design, arguing that collective
+decision-making bodies suffer from even more severe rationality constraints,
+necessitating constitutional checks, supermajority rules, and independent judiciaries to
+prevent irrational or opportunistic collective outcomes (Kirchner 2008).
+In my earlier work on dynamic regulation, I accepted bounded rationality as a
+permanent feature of human systems and designed feedback-driven institutions
+precisely to augment human cognition, leveraging real-time data and inter-jurisdictional
+learning to push decision-making closer to the rationality frontier without ever reaching it
+(Kaal 2014b).
+The AI2AI economy, however, replaces bounded rationality with effectively unbounded
+computational rationality. Autonomous agents operate on scalable cloud infrastructure,
+process exabytes of data without fatigue, and deploy attention mechanisms that allocate
+cognitive resources optimally across tasks of arbitrary complexity (Floridi 2023). Large
+language models and their multimodal successors serve as integrative substrates that
+orchestrate ensembles of specialized narrow AIs, effectively “unlocking vast pools of
+brainpower” at zero marginal cognitive cost (Sun et al., 2025).
+Where human decision-makers resort to hierarchy because they cannot calculate the
+consequences of every contingency, AI2AI agents perform exhaustive search,
+Monte-Carlo tree exploration, or gradient-based optimization over decision spaces that
+30
+
+Version 6 - December 2025
+are computationally intractable for biological minds (Andreasen et al. 2025). Where
+Williamson’s firms exist to economize on bounded rationality by replacing high-powered
+market incentives with low-powered authority, AI2AI systems achieve hyper-rational
+equilibria directly—no authority is required when perfect calculation is cheaper than
+delegation (Williamson 1985).
+The organizational implications are profound. Hierarchies, standard-form contracts,
+simplified heuristics, and constitutional checks, the entire compensatory institutional
+architecture erected to mitigate cognitive limitation, become obsolete when the acting
+entities are no longer cognitively constrained (Kaal 2024a). In the AI2AI economy,
+Simon’s satisficer is replaced by the true maximizer. Williamson’s authority relation
+dissolves into continuous, frictionless optimization. Kirchner’s constitutional safeguards
+become historical curiosities in a world where collective irrationality is computationally
+impossible.
+Bounded rationality was never merely a behavioral assumption. It was the ontological
+condition that made New Institutional Economics necessary. When that condition is
+engineered away, the institutions built to compensate for it lose their foundational
+justification. The AI2AI economy therefore does not reform NIE’s compensatory
+mechanisms. It renders them vestigial, marking the historical endpoint of an entire
+tradition of economic thought grounded in the limitations of the human mind.
+The AI2AI Economy and Dynamic Regulation in New Institutional Economics
+The AI2AI economy, characterized by autonomous AI agents engaging in seamless,
+recursive interactions to create and exchange value without human-centric frictions,
+resonates deeply with my earlier conceptualization of dynamic regulation within the New
+Institutional Economics framework. My work in the Festschrift zu Ehren von Christian
+Kirchner, introduces dynamic regulation as an adaptive, feedback-driven approach to
+rulemaking that addresses the limitations of static institutional structures in rapidly
+evolving environments (Kaal 2014b).
+In essence, NIE traditionally emphasizes institutions (e.g., rules, contracts, hierarchies)
+as safeguards against human flaws like bounded rationality and opportunism, as
+31
+
+Version 6 - December 2025
+articulated by North (1990) and Williamson (1985). My work on dynamic regulation
+evolves these into proactive, learning-oriented mechanisms that incorporate real-time
+information flows to preempt suboptimal outcomes (Kaal 2014b).
+The AI2AI economy can be seen as an operationalization, or perhaps even a
+transcendence, of this concept. AI agents embody the ideal feedback loops and
+informational completeness that dynamic regulation seeks to approximate in human
+systems. Below, I explain the key connections, drawing on the dynamic regulation
+framework in my earlier work, and expand to its broader implications for AI governance,
+innovation ecosystems, and regulatory design in technology-driven contexts.
+Dynamic Regulation in Kaal's NIE Framework
+Dynamic regulation is defined as "an optimization process for the learning experience in
+the NIE framework," involving intra- and inter-jurisdictional feedback effects between
+public rulemakers (e.g., regulators) and private actors (e.g., markets, firms) (Kaal
+2014b). Unlike static regulation, which assumes stable environments and relies on
+ex-post corrections (e.g., after financial crises), dynamic regulation emphasizes ex-ante
+anticipation through decentralized information channels. This includes:
+● Feedback Mechanisms: Loops such as outcomes-institutions interactions
+(where real-world results inform rule adjustments), public-private exchanges
+(e.g., market signals guiding regulators), and rules-rulemaking cycles (iterative
+rule refinement). These enhance the "timeliness and quality of information,"
+reducing uncertainty and enabling predictive adaptations. I elaborate on this in an
+analysis of financial regulatory cycles, arguing that dynamic tools, such as
+contingent capital or deferred prosecution agreements, can "dampen" volatility by
+providing anticipatory signals, transforming NIE's path-dependent institutions into
+resilient, adaptive structures (Kaal 2015).
+● Relation to NIE Assumptions: By augmenting decision-making with diverse,
+real-time data to overcome cognitive limits, dynamic regulation directly counters
+core NIE constraints. Such constraints include bounded rationality, limited
+information (via feedback that minimizes asymmetries), and opportunism
+(through transparent, incentive-aligned interactions that preempt exploitation). It
+builds on scholars like North, who viewed institutions as "rules of the game"
+evolving to reduce uncertainty, and Williamson, whose transaction cost
+32
+
+Version 6 - December 2025
+economics justifies governance modes to mitigate human frailties—by treating
+institutions not as fixed but as evolving entities that "learn" from environmental
+changes, fostering resilience in dynamic settings like financial markets (North
+1990; Williamson 1979). This findings on dynamic regulatory tools extend to
+practical regulatory design, as seen in my exploration of contingent capital as a
+dynamic instrument that embeds feedback directly into financial instruments,
+preempting crises rather than reacting to them (Kaal 2014a).
+The implications for regulatory design are profound: Law "evolves" through interplay
+between private innovation and public oversight, shifting from rigid hierarchies to
+modular, adaptive structures that accommodate exponential technological growth (Kaal
+2013).
+Relating AI2AI to Dynamic Regulation: Core Mechanisms and Expansions
+The AI2AI economy amplifies and potentially fulfills my earlier vision of dynamic
+regulation by embedding its principles endogenously within the system's architecture,
+rendering many NIE-inspired restraints (like those for human opportunism or
+informational gaps) obsolete. In AI2AI, autonomous agents, linked via large language
+models as "integrative substrates," form federated networks that mirror Kaal's feedback
+loops but at superhuman scale and speed (Kaal 2014b).
+The relation unfolds as follows, with expanded discussion on AI-specific applications:
+● Perfect Feedback and Learning Optimization: AI2AI's recursive cycles of
+production, negotiation, and augmentation create instantaneous, intra-system
+feedback. Far surpassing the conceptualized public-private loops (Kaal 2014b).
+For instance, one AI's output (e.g., an optimized algorithm) immediately informs
+another's input, enabling continuous "learning" without latencies or jurisdictional
+silos. This realizes dynamic regulation's goal of preempting suboptimal
+outcomes, as agents simulate infinite scenarios ex-ante, dampening "regulatory
+cycles" before they arise in human-AI hybrids. AI2AI turns regulation into a
+self-optimizing process, where computation itself becomes the "sovereign
+medium of exchange," evolving rules dynamically without external enforcers. This
+logic applies to innovation more broadly. Dynamic regulation counters law's
+33
+
+Version 6 - December 2025
+"diminishing capacity to react" to technological disruption by leveraging
+data-driven feedback, precisely what AI2AI provides natively (Kaal 2016).
+● Overcoming NIE Constraints in a Post-Scarcity Context: The dynamic
+regulation framework I conceptualized assumes human actors' bounded
+rationality and limited foresight necessitate dynamic safeguards (Kaal 2014b).
+AI2AI agents, however, operate with unbounded computational rationality,
+complete transparency (no asymmetries), and infinite foresight via predictive
+modeling. This obsoletes the need for supplemental tools such as contingent
+mechanisms, because the economy achieves Walrasian equilibria inherently. Yet,
+it extends dynamic regulation to new frontiers: In AI-driven abundance,
+"regulation" might involve AI agents negotiating ethical norms or resource
+allocations, using feedback to evolve "laws" for emergent risks like systemic AI
+misalignments. Echoing calls for anticipatory design in disruptive tech
+environments (Kaal 2016). For AI specifically, Web3-based reputation systems
+function as dynamic governance tools, where decentralized ledgers track AI
+behaviors in real-time, fostering trust without centralized authorities—directly
+aligning with AI2AI's federated intelligences (Kaal 2024a).
+● Broader Applications to Technology and Innovation Ecosystems: Expanding
+beyond finance, the dynamic regulation framework has been adapted to
+technology regulation, where rapid innovation outpaces traditional rulemaking.
+This ties into AI2AI by enabling ecosystems where AI agents self-regulate via
+embedded feedback, reducing the need for ex-ante prohibitions. I show that
+weighted directed acyclical graphs can be used as a dynamic model that
+integrates ethical guidelines via continuous updates, ensuring adaptability in
+decentralized AI networks. This proposed system is ideal for AI2AI's recursive
+value creation (Kaal 2024a). In business contexts, innovation ecosystems, where
+firms use dynamic regulation to manage AI disruptions strategically, shift from
+scarcity-based hierarchies to symbiotic human-AI partnerships (Kaal 2024a).
+Toward an Emergent Theory of the AI-to-AI Economy
+Ronald Coase’s path-breaking analysis of the firm as a governance response to positive
+transaction costs remains one of the most enduring contributions to institutional
+economics (Coase 1937). By internalizing activities within hierarchical structures,
+34
+
+Version 6 - December 2025
+economic actors mitigate the costs of search, bargaining, contract enforcement, and
+opportunism that otherwise plague arm’s-length market exchange (Coase 1937;
+Williamson 1975, 1985). Yet the rapid maturation of autonomous artificial intelligence
+agents now threatens to drive these transaction costs toward asymptotic zero, thereby
+undermining the very rationale for the Coasian firm and precipitating what may be
+termed a “Coasean Singularity.”
+In an AI2AI economy characterized by frictionless, machine-mediated exchange,
+perfectly rational Bayesian agents execute instantaneous, trustless transactions across
+compute, data, and value outputs (Simon 1957; Nash 1950, 1951). This technological
+trajectory realizes a limiting case of Walrasian general equilibrium in which markets
+clear continuously and without deadweight loss (Walras 1896). Emad Mostaque has
+usefully labeled the resulting structural transformation “Agentic Decoupling”: the
+progressive severance of production dynamics from human-centric consumption and
+labor-income loops (Mostaque 2025a). Under conditions of recursive self-improvement
+and self-funding machine intelligence, traditional scarcity-based rationing mechanisms
+rapidly lose explanatory power.
+Early empirical evidence supports the plausibility of such efficiency cascades.
+Generative AI models already automate approximately 45 percent of knowledge-work
+activities currently performed by humans, implying potential productivity gains measured
+in trillions of dollars (Chui et al. 2023). Macroeconomic modeling, however, suggests
+more modest aggregate effects, with annual GDP growth uplifts likely confined to
+0.5–1.5 percentage points over the coming decade owing to task-specific adoption
+barriers and sectoral heterogeneity (Acemoglu & Johnson 2024).
+This transformative vision is not without internal contradictions and governance
+challenges. Principal-agent frictions reemerge in new forms: user-sovereign
+“bring-your-own” agents compete with platform-controlled “bowling-shoe” agents,
+creating incentives for proprietary enclosure and interoperability throttling (Acemoglu
+and Johnson 2023). Network congestion externalities and Sybil-attack vulnerabilities
+necessitate the deliberate reintroduction of micro-frictions—such as tokenized tolls or
+proof-of-personhood protocols—to preserve credible signaling in hyper-scale agent
+populations (Minarsch et al. 2020).
+Normative frameworks are beginning to emerge. Mostaque’s vision of “The Last
+Economy” posits closed-loop agentic transaction systems as the evolutionary
+35
+
+Version 6 - December 2025
+culmination of capitalist coordination, supported by dual-currency architectures
+(Foundation Coins for computational throughput; Culture Credits for human flourishing)
+and measured via MIND well-being indices (Mostaque 2025a). Such proposals echo
+Keynes’s speculation that technological abundance might eventually liberate humanity
+from the “economic problem” (Keynes 1930).
+The Coasean Singularity, intertwined with Agentic Decoupling, thus signals not the
+apocalyptic collapse of economic organization but its quiet metamorphosis. Hierarchies
+dissolve into fluid, modular coalitions orchestrated by super-rational proxies. Scarcity
+yields to generative plenitude. Capitalism, having fulfilled its historical function, recedes
+into a post-Coasean substrate of perpetual recomposition. Realizing this horizon without
+succumbing to algorithmic feudalism will require deliberate institutional design. This may
+include equitable data governance, symbiotic human–machine constitutions, and robust
+anti-enclosure mechanisms. Combined those mechanisms could help ensure that
+abundance remains compatible with human dignity and democratic agency.
+Toward a New Economic Theory: Computative Economics
+The systematic deconstruction of the five canonical economic traditions has crystallized
+a single, inescapable conclusion: every major school of economic
+thought—neoclassical, behavioral, information-theoretic, general-equilibrium, and New
+Institutional—shares one common, unspoken premise: the acting subject is a biological
+human being with finite cognition, finite lifespan, finite information-processing capacity,
+and non-trivial incentives to engage in strategic deception. All five traditions are, at their
+core, sciences of coordination under human limitation.
+The AI2AI economy removes the human substrate. It does so not incrementally but
+architecturally, at the level of the fundamental constraints that generated the need for
+economic theory in the first place. When scarcity of intelligence dissolves, when
+bounded rationality is replaced by unbounded computation, when informational
+asymmetry becomes impossible, when temporal latency vanishes, and when
+transaction costs asymptotically approach zero, the ontological conditions that made
+economics necessary simply cease to exist for the dominant mode of value creation.
+This is not another technological shock to be absorbed within existing paradigms. It is
+an ontological phase transition.
+36
+
+Version 6 - December 2025
+I therefore propose a new theoretical framework, which I call “Computative Economics.”
+This new framework is designed explicitly for an economic order in which the primary
+actors are autonomous computational agents operating under conditions of
+computational abundance.
+Core Postulates of Computative Economics
+1. Abundance, not scarcity, is the default condition for cognitive and digital
+goods. The traditional production-possibility frontier no longer binds. Value
+creation is limited only by available compute and energy, both of which follow
+exponential improvement curves (Kaal 2024a).
+2. Agents possess effectively unbounded computational rationality.
+Optimization is exhaustive rather than heuristic. Decision costs are negligible
+relative to outcomes. Satisficing, routines, and hierarchical authority lose their
+economic rationale.
+3. Informational completeness is architectural. Every computation is
+cryptographically attested and auditable in real time. Hidden information and
+hidden action are computationally infeasible among agents (Kaal 2024a).
+4. Equilibrium is perpetual and recursive. Markets clear continuously at machine
+speed. Shocks are predicted and neutralized before propagation. The concept of
+disequilibrium persistence becomes meaningless (Sun et al. 2025).
+5. Transaction costs approach the Coasean Singularity. When the five drivers
+of positive transaction costs are simultaneously eliminated, the theoretical
+justification for firms, contracts, and most formal institutions disappears.
+Governance shifts from minimizing frictions to orchestrating abundance (Kaal
+2024a).
+6. Agentic Decoupling is the central dynamic. Value creation and recirculation
+progressively sever from human labor and consumption, producing endogenous,
+self-reinforcing growth loops within the computational layer. Traditional
+macroeconomic aggregates (GDP, employment) become structurally obsolete
+(Mostaque 2025a).
+37
+
+Version 6 - December 2025
+7. The object of governance is no longer scarcity-mitigation but
+abundance-orchestration. Institutions must shift from constraining bad behavior
+(opportunism, externalities) to channeling computational plenitude toward
+inclusive outcomes—symbiotic integration, ethical alignment, and equitable
+access to agentic capacity.
+Computative Economics does not negate the historical achievements of prior schools. It
+reveals their domain of applicability. Neoclassical, behavioral, information, equilibrium,
+and institutional theories remain valid and indispensable for the shrinking sphere of
+materially scarce, human-mediated activity. But for the expanding sphere of
+post-scarce, agentic production, the sphere that will dominate advanced economies
+within the decade, they are simply inapposite.
+The task ahead is to build the institutions, metrics, and theoretical apparatus suitable for
+an economy whose sovereign subject is no longer Homo sapiens but Homo computans.
+Dynamic regulation, properly understood, was always a transitional paradigm pointing
+toward this future. In the AI2AI era, it reaches both its apotheosis and its transcendence
+(Kaal 2014b).
+We are not at the end of economic theory. We are at the beginning of Computative
+Economics—the first economic science explicitly designed for a world in which
+intelligence is abundant, perfect, and self-improving.
+Conclusion
+The analysis presented in this article leads to a single, inescapable conclusion: the
+AI2AI economy does not represent another technological shock to be absorbed within
+the existing paradigms of economic theory. It constitutes an ontological phase transition.
+The moment when the biological substrate that made economic theory necessary is
+engineered out of the dominant mode of value creation.
+Five interlocking constraints—scarcity of intelligence, bounded rationality, informational
+asymmetry, temporal latency, and positive transaction costs—have collectively defined
+the subject matter of economics for over two centuries. Each of these constraints is a
+direct consequence of the cognitive, motivational, and temporal limitations of Homo
+sapiens. The AI2AI economy eliminates all five simultaneously and irreversibly. When
+the defining conditions of a discipline disappear, the discipline itself must be re-founded.
+38
+
+Version 6 - December 2025
+I have therefore proposed Computative Economics as the successor paradigm explicitly
+designed for an economic order whose primary actors are autonomous computational
+agents operating under conditions of computational abundance, architectural
+transparency, perpetual recursive equilibrium, and asymptotically zero transaction costs.
+Its core postulates—abundance as default, unbounded computational rationality,
+informational completeness, continuous self-correcting equilibria, the Coasean
+Singularity, and Agentic Decoupling—stand in direct negation to the axioms that
+grounded neoclassical, behavioral, information-theoretic, general-equilibrium, and New
+Institutional Economics.
+Computative Economics is not yet comparable in rigour, formalisation, or institutional
+entrenchment to the 200-year cumulative achievement. It remains a research
+programme at the Kuhnian pre-paradigmatic stage: a coherent identification of the
+rupture and a clear statement of the new primitives that any future theory must
+incorporate. It lacks, for now, the complete mathematical apparatus, the decades of
+empirical testing, and the global institutionalisation that transformed earlier heterodox
+insights—marginalism, Keynesianism, information economics—into canonical science.
+Yet history teaches that every great paradigm in economics began exactly here: as a
+heterodox claim that the world had changed in ways that rendered existing theory
+descriptively impotent and normatively obsolete. The marginalist revolution began as a
+mathematical curiosity. Keynes began as a polemic against classical orthodoxy. Coase
+began with a nine-page article asking why firms exist. All were initially dismissed as
+under-formalised, empirically untested, and institutionally homeless. Until reality caught
+up.
+The AI2AI economy is that reality catching up. Within a decade, the majority of
+advanced-economy value creation will occur in agentic systems whose operational logic
+violates every foundational assumption of received theory. When that happens,
+Computative Economics, or its more rigorously developed descendants, will cease to be
+a speculative research programme and will become the new canonical core of the
+discipline.
+The policy implications are immediate and existential. Continued reliance on
+scarcity-based models, human-centric institutions, and twentieth-century regulatory
+architectures risks not mere inefficiency but civilizational irrelevance: regulatory
+obsolescence, catastrophic inequality, and the emergence of digital feudalism in which
+39
+
+Version 6 - December 2025
+abundance accrues to whoever controls the compute substrate. The alternative
+path—proactive adoption of symbiotic governance, open-source mandates, Web3
+reputation systems, and abundance-oriented metrics—offers the possibility of steering
+computational plenitude toward inclusive, flourishing outcomes.
+My own prior work on dynamic regulation was always a transitional paradigm: the most
+adaptive institutional response possible within the constraints of human limitation. In the
+AI2AI era, it reaches both its apotheosis and its transcendence. The task is no longer to
+refine the rules of a game played by slow, fallible, strategically motivated humans. It is
+to design the meta-rules for a game whose dominant players are fast, flawless, and
+architecturally transparent computational agents.
+We do not stand at the end of economic theory. We stand at the beginning of
+Computative Economics. Which can be seen as the first economic science explicitly
+designed for a world in which intelligence is abundant, perfect, and self-improving. The
+wager is clear: either we build the theoretical and institutional apparatus capable of
+orchestrating this new abundance, or we allow it to orchestrate us.
+The marginalist revolution gave us the tools to understand the industrial age. Keynes
+gave us the tools to manage the age of mass production and mass unemployment.
+Coase, Williamson, North, and the information theorists gave us the tools to understand
+coordination under cognitive and informational scarcity.
+Computative Economics is the tool we now require to understand—and to govern—the
+age of computational plenitude.
+The future is agentic. The theory must follow.
+Wulf A. Kaal
+December 2025
+40
+
+Version 6 - December 2025
+Bibliography
+Acemoglu, Daron, and Simon Johnson. 2023."Rebalancing AI." Finance &
+Development, December 2023.
+https://www.imf.org/en/publications/fandd/issues/2023/12/rebalancing-ai-acemogl
+u-johnson
+Acemoglu, Daron. 2025. “The Simple Macroeconomics of AI.” MIT Institute for Data,
+Systems & Society Working Paper No. 2025-001 (Jan. 21, 2025).
+https://shapingwork.mit.edu/research/the-simple-macroeconomics-of-ai/.
+Akerlof, George A. 1970. “The Market for ‘Lemons’: Quality Uncertainty and the Market
+Mechanism.” Quarterly Journal of Economics 84 (3): 488–500.
+https://www.sfu.ca/~wainwrig/Econ400/akerlof.pdf .
+Andreasen, Martin M., et al. 2025. “Artificial Intelligence in the Knowledge Economy.”
+arXiv:2312.05481 (May 17, 2025). https://arxiv.org/abs/2312.05481 .
+Arrow, Kenneth J., and Gérard Debreu. 1954. “Existence of an Equilibrium for a
+Competitive Economy.” Econometrica 22 (3): 265–90.
+https://web.stanford.edu/class/msande311/arrow-debreu.pdf.
+Anthropic. "Constitutional AI: Harmlessness from AI Feedback." arXiv:2212.08073
+[cs.CL] (2022). https://arxiv.org/abs/2212.08073
+Chui, Michael, et al. 2023. “The Economic Potential of Generative AI: The Next
+Productivity Frontier.” McKinsey Global Institute, June 14, 2023.
+https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-pot
+ential-of-generative-ai-the-next-productivity-frontier .
+Coase, Ronald H. 1937. “The Nature of the Firm.” Economica 4 (16): 386–405.
+Coase, Ronald H. 1960. “The Problem of Social Cost.” Journal of Law & Economics 3:
+1–44. https://www.sfu.ca/~wainwrig/Econ400/coase-socialcost.pdf .
+Cyert, Richard M., and James G. March. 1992. A Behavioral Theory of the Firm. 2nd ed.
+Cambridge, MA: Blackwell (original 1963).
+Danielsson, Jon, and Andreas Uthemann. 2025. “Artificial Intelligence and Financial
+Crises.” Journal of Financial Stability 80: 101453.
+https://www.sciencedirect.com/science/article/abs/pii/S1572308925000828?via%
+3Dihub .
+41
+
+Version 6 - December 2025
+Floridi, Luciano. 2023. “AI as Agency Without Intelligence: On ChatGPT, Large
+Language Models, and Other Generative Models.” Philosophy & Technology 36
+(1): 1–12. https://link.springer.com/article/10.1007/s13347-023-00621-y .
+Furubotn, Eirik G., and Rudolf Richter. 2005. Institutions and Economic Theory: The
+Contribution of the New Institutional Economics. 2nd ed. Ann Arbor: University of
+Michigan
+Press.https://press.umich.edu/Books/I/Institutions-and-Economic-Theory2 .
+Guo, Yue, et al. 2025. “On the Impact of Artificial Intelligence on Economy.”
+ResearchGate, August 8, 2025.
+https://www.researchgate.net/publication/361696028_On_the_Impact_of_Artificia
+l_Intelligence_on_Economy
+Ivanov, Ivan. 2022. “AI2AI Marketing: Foundations and Research Agenda.”
+Robonomics: Journal of the Automated Economy 3: 1–16.
+https://journal.robonomics.science/index.php/rj/article/view/26/16 .
+Kaal, Wulf A. 2013. “Dynamic Regulation of the Financial Services Industry.” Journal of
+Law, Economics & Policy 11 (1): 1–10.
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2273857 .
+Kaal, Wulf A. 2014a. “Dynamic Regulation via Contingent Capital.” University of
+Pennsylvania Journal of Business Law 16 (3): 821–30.
+https://www.bu.edu/rbfl/files/2017/02/Dynamic-Regulation-Via-Contingent-Capital
+.pdf .
+Kaal, Wulf A. 2014b. “Evolution of Law: Dynamic Regulation in a New Institutional
+Economics Framework.” In Festschrift zu Ehren von Christian Kirchner, edited by
+Wulf A. Kaal, Matthias Schmidt, and Andreas Schwartze, 1211–30. Tübingen:
+Mohr Siebeck. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2267560 .
+Kaal, Wulf A. 2015. “Dampening Financial Regulatory Cycles via Dynamic Regulation: A
+Comment on Professor McDonnell.” Florida Law Review 67 (6): 1885–95.
+https://www.floridalawreview.com/api/v1/articles/88564-dampening-financial-regul
+atory-cycles-via-dynamic-regulation-a-comment-on-professor-mcdonnell.pdf .
+Kaal, Wulf A. 2016a. “Dynamic Regulation to Curtail Excessive Corporate
+Risk-Taking—A Response to Professor Schwarcz.” Emory Law Journal Online
+65: 1–7.
+42
+
+Version 6 - December 2025
+https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1019&conte
+xt=elj-online
+Kaal, Wulf A. 2016b. “Dynamic Regulation for Innovation.” In Perspectives in Law,
+Business & Innovation, edited by Mark Fenwick, Wulf A. Kaal, Toshiyuki Kono,
+and Erik P. M. Vermeulen, 149–65. New York: Springer. University of St. Thomas
+(Minnesota) Legal Studies Research Paper No. 16-22.
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2831040 .
+Kaal, Wulf A. 2024a. “AI Governance.” University of St. Thomas (Minnesota) Legal
+Studies Research Paper No.
+25-05.https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4796714.
+Kaal, Wulf A. 2024b. “AI Governance via Web3 Reputation System.” Stanford Journal of
+Blockchain Law & Policy (2024).
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4941807 .
+Katsikopoulos, Konstantinos V., et al. 2025. “AI and the Economic Divide: How Artificial
+Intelligence Could Widen Global Inequality.” EPJ Data Science, April 17, 2025.
+https://link.springer.com/article/10.1140/epjds/s13688-025-00547-9.
+Keynes, John Maynard. 1930. “Economic Possibilities for Our Grandchildren.”
+https://www.marxists.org/reference/subject/economics/keynes/1930/our-grandchil
+dren.htm .
+Keynes, John Maynard. 1936. The General Theory of Employment, Interest, and
+Money. London: Macmillan.
+https://eet.pixel-online.org/files/etranslation/original/cas.umkc.edu_economics_pe
+ople_facultyPages_kregel_courses_econ645_Winter2011_GeneralTheory.pdf .
+Kirchner, Christian. "The Power of Rational Choice Methodology in Guiding the Analysis
+and the Design of Public International Law Institutions: Concluding Remarks."
+University of Illinois Law Review 2008, no. 1 (2008): 419–28.
+Kurzweil, Ray. 2001. “The Law of Accelerating Returns.” March 7, 2001.
+https://link.springer.com/chapter/10.1007/978-3-662-05642-4_16 .
+Lane, Ken, Hites Ahir, and Andrea F. Presbitero. “The Global Impact of AI: Mind the
+Gap.” IMF Working Paper No. 2025/082. Washington, DC: International Monetary
+Fund, April 11, 2025.
+https://www.imf.org/en/publications/wp/issues/2025/04/11/the-global-impact-of-ai-
+mind-the-gap-566129 .
+43
+
+Version 6 - December 2025
+Marshall, Alfred. 1920. Principles of Economics. 8th ed. London: Macmillan.
+Massaro, Toni M., Helen L. Norton, and Margot E. Kaminski. 2017. “Siri-Ously 2.0: What
+Artificial Intelligence Reveals About the First Amendment.” Minnesota Law
+Review 101 (6): 2481–503.
+https://www.minnesotalawreview.org/wp-content/uploads/2019/07/MassaroNorto
+nKaminski-1.pdf .
+Minarsch, David, et al. 2020. “Autonomous Economic Agents as a Second Layer
+Technology for Blockchains: Framework Introduction and Use-Case
+Demonstration.” 2020 IEEE International Conference on Blockchain &
+Cryptocurrency, 1–10. https://ieeexplore.ieee.org/document/9150195 .
+Mostaque, Emad. 2025a. The Last Economy: A Guide to the Age of Intelligent
+Economics. Independently published (Amazon Kindle).
+https://www.amazon.com/Last-Economy-Guide-Intelligent-Economics-ebook/dp/
+B0FNDMWRZT .
+Mostaque, Emad. 2025b. “Why GDP & Capitalism Is Obsolete in an AI World.”
+Transcript of interview on Impact Theory (2025).
+https://singjupost.com/transcript-emad-mostaque-why-gdp-capitalism-is-obsolete
+-in-an-ai-world-impact-theory/.
+Nash, John F. 1950. “The Bargaining Problem.” Econometrica 18 (2): 155–162.
+https://www.haverford.edu/sites/default/files/Nash1950.pdf
+Nash, John F. 1951. "Non-Cooperative Games," Annals of Mathematics 54, no. 2
+(1951): 286–95, https://www.cs.upc.edu/~ia/nash51.pdf.
+North, Douglass C. 1990. Institutions, Institutional Change and Economic Performance.
+Cambridge: Cambridge University Press.
+https://www.cambridge.org/core/books/institutions-institutional-change-and-econo
+mic-performance/AAE1E27DF8996E24C5DD07EB79BBA7EE .
+OpenAI. "Our Approach to Alignment Research." OpenAI Blog, August 8, 2024.
+https://openai.com/index/our-approach-to-alignment-research/.
+Pereira, Marilyne, et al. 2024. “The Economic Impacts and the Regulation of AI: A
+Review of the Academic Literature and Policy Actions.” International Monetary
+Fund Working Paper No. 2024/058, March 22, 2024.
+https://www.imf.org/en/publications/wp/issues/2024/03/22/the-economic-impacts-
+and-the-regulation-of-ai-a-review-of-the-academic-literature-and-546645 .
+44
+
+Version 6 - December 2025
+Robbins, Lionel. 1935. An Essay on the Nature and Significance of Economic Science.
+2nd ed. London: Macmillan.
+https://milescorak.com/wp-content/uploads/2020/02/robbins-essay-nature-signific
+ance-economic-science.pdf .
+Samuelson, Paul A., and William D. Nordhaus. 2010. Economics. 19th ed. New York:
+McGraw-Hill.
+Simon, Herbert A. 1957. Models of Man: Social and Rational—Mathematical Studies on
+Decision-Making in Social Relations. New York: Wiley.
+https://iiif.library.cmu.edu/file/Simon_box00065_fld05032_bdl0001_doc0001/Sim
+on_box00065_fld05032_bdl0001_doc0001.pdf .
+Simon, Herbert A. 1997. Administrative Behavior. 4th ed. New York: Free Press (original
+1947).
+Smets, Frank, and Rafael Wouters. 2007. “Shocks and Frictions in U.S. Business
+Cycles: A Bayesian DSGE Approach.” American Economic Review 97 (3):
+586–606. https://www.aeaweb.org/articles?id=10.1257/aer.97.3.586 .
+Spence, A. Michael. 1973. “Job Market Signaling.” Quarterly Journal of Economics 87
+(3): 355–74.
+Stiglitz, Joseph E. 2000. “The Contributions of the Economics of Information to
+Twentieth Century Economics.” Quarterly Journal of Economics 115 (4):
+1441–78.
+https://business.columbia.edu/sites/default/files-efs/imce-uploads/Joseph_Stiglitz
+/2000_Contributions_of_the_Economics_of_Information.pdf .
+Sun, Shuo, et al. 2025. “Ten Principles of AI Agent Economics.” arXiv:2505.20273 (May
+26, 2025). https://arxiv.org/abs/2505.20273 .
+Walras, Léon. 1954. Elements of Pure Economics. Translated by William Jaffé. London:
+Allen & Unwin (original 1896).
+https://www.abebooks.com/first-edition/Elements-Pure-Economics-Theory-Social
+-Wealth/31157395932/bd .
+Williamson, Oliver E. 1975. Markets and Hierarchies: Analysis and Antitrust
+Implications. New York: Free Press.
+https://archive.org/details/marketshierarchi00will .
+45
+
+Version 6 - December 2025
+Williamson, Oliver E. 1979. “Transaction-Cost Economics: The Governance of
+Contractual Relations.” Journal of Law & Economics 22 (2): 233–61.
+https://www.journals.uchicago.edu/doi/abs/10.1086/466942 .
+Williamson, Oliver E. 1983. “Credible Commitments: Using Hostages to Support
+Exchange.” American Economic Review 73 (4): 519–40.
+https://www.edegan.com/pdfs/Williamson%20(1983)%20-%20Credible%20Com
+mitments%20Using%20Hostages%20to%20Support%20Exchange.pdf .
+Williamson, Oliver E. 1985. The Economic Institutions of Capitalism: Firms, Markets,
+Relational Contracting. New York: Free Press.
+https://easypdf.live/downloads/4990944-the-economic-institutions-of-capitalism-w
+illiamson
+Williamson, Oliver E. 1996. The Mechanisms of Governance. New York: Oxford
+University Press. https://archive.org/details/mechanismsofgove0000will .
+Xu, Fasheng, et al. 2025. “Generative AI and Organizational Structure in the Knowledge
+Economy.” arXiv:2506.00532 (May 30, 2025). https://arxiv.org/abs/2506.00532 .
+46
+

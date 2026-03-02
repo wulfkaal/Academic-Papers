@@ -1,0 +1,911 @@
+TILEC
+TILEC Discussion Paper
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+Why ‘Blockchain’ Will Disrupt
+Corporate Organizations
+Mark Fenwick
+Law Working Paper N° 419/2018
+Kyushu University
+October 2018
+Wulf A. Kaal
+University of St. Thomas
+Erik P.M. Vermeulen
+Tilburg University, Philips Lighting and ECGI
+© Mark Fenwick, Wulf A. Kaal and Erik P.M.
+Vermeulen 2018. All rights reserved. Short sections
+of text, not to exceed two paragraphs, may be quoted
+without explicit permission provided that full credit,
+including © notice, is given to the source.
+This paper can be downloaded without charge from:
+http://ssrn.com/abstract_id=3227933
+www.ecgi.org/wp
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+ECGI Working Paper Series in Law
+Why ‘Blockchain’ Will Disrupt
+Corporate Organizations
+Working Paper N° 419/2018
+October 2018
+Mark Fenwick
+Wulf A. Kaal
+Erik P.M. Vermeulen
+© Mark Fenwick, Wulf A. Kaal and Erik P.M. Vermeulen 2018. All rights reserved. Short sections
+of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full
+credit, including © notice, is given to the source.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+Abstract
+We live in a world that has historically been dominated by centralized, hierarchical
+organizations. Such organizations are characterized by (i) a centralized source of
+authority; (ii) a formal hierarchy with clearly defined “roles”; and, (iii) standardized
+operational systems and procedures dictated by that centralized authority/hierarchy.
+This type of organization has exerted an enormous influence on modern political,
+economic and social life, particularly in a business context. Regulatory models have
+been designed to support and sustain businesses organized in this way. Today,
+however, new digital technologies are disrupting this “old world” and introducing
+a shift in the practices and mindset of our society. New technologies are driving
+the emergence of “flatter”, more decentralized forms of organization. In this paper,
+we offer an analysis of how blockchain and related distributed ledger technologies
+are disrupting corporate organizations as an illustration of this broader “digital
+transformation.” The paper briefly introduces the digital transformation and main
+argument (Section 1); then considers how the digital transformation has led to the
+emergence of “platform” companies (Section 2). Since blockchain technology can
+be viewed as a next step in the “digital development” of a corporate organization,
+the paper then discusses the main features of blockchain technologies and
+smart contracts (Sections 3 & 4) and examines the often-made claim that these
+technologies are all just hype / a fad (Section 5). Section 6 explores why these
+technologies are so potentially disruptive in a business context and then introduces
+several examples of such blockchain-based business organizations, as well as
+possible future developments (Sections 7 and 8). Section 9 concludes.
+Keywords: Blockchain, Corporate Governance, Cryptocurrency, Crypto, Decentralization,
+Organizations, Smart contracts
+JEL Classifications: D20, D24, D26, D85, G30, J20, K20, K22, L17, L26, O16, O30
+Mark Fenwick
+Professor of Law
+Kyushu University, Department of International Legal Studies
+744 Motooka Nishi-ku
+Fukuoka 819-0395, Japan
+phone: +81 92 642 4462
+e-mail: mark@law.kyushu-u.ac.jp
+Wulf A. Kaal
+Professor
+University of St. Thomas, School of Law
+1000 LaSalle Avenue
+Minneapolis, MN 55403, United States
+phone: +1 651 962 4972
+e-mail: Kaal8634@stthomas.edu
+Erik P.M. Vermeulen*
+Professor of Business & Financial Law
+Tilburg University, Tilburg Law and Economics Center
+Prof. Cobbenhagenlaan 221
+5037 DE Tilburg, The Netherlands
+phone: +31 13 466 8111
+e-mail: e.p.m.vermeulen@tilburguniversity.edu
+*Corresponding Author
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+1
+1. Introduction
+We live in a world that has been dominated by centralized, hierarchical
+organizations.1 Such organizations are characterized by (i) a centralized source
+of authority; (ii) a closed and formal hierarchy with clearly defined and
+functionally differentiated roles; and, (iii) standardized (bureaucratic) systems
+and operating procedures dictated and policed by the centralized
+authority/hierarchy.2
+This type of organization has exerted an enormous influence on modern
+political, economic and social life. In a business context, centralized,
+hierarchical organizations have been central to the emergence and global
+expansion of capitalism.3
+Corporations are the most prominent example of such structures, and the
+advent and proliferation of the corporate form has been a defining feature of
+modern economic development. Recall the rapid growth of such corporate
+structures during the rise of mass production in the context of the industrial
+revolution. Moreover, other types of centralized, hierarchical organization
+(banks and other financial service providers, for instance) played a crucial role
+as facilitators (or “intermediaries”) allowing third parties to engage in various
+business transactions. Finally, highly centralized “nation states” provided the
+supporting infrastructure – both political and legal – that allowed such
+businesses to operate effectively.
+As such, centralized, hierarchical organizational structures supported by the
+correct procedures have been hugely influential in “getting things done”
+efficiently and creating trust.4 Previous technological revolutions led to a
+concentration of such organizations, as society adapted to the uncertain
+meaning, effects, and risks of technological change by pooling (i.e.,
+centralizing) authority. Regulatory models – particularly company law and
+corporate governance – have been designed to support and sustain this form
+of business organization.5
+In recent decades, however, an interconnected series of technological
+innovations – specifically those associated with the on-going “Digital
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+2
+Transformation” – have re-shaped social life and disrupted centralized
+organizational forms.6 Consider the following technologies:
+• Cheaper, smaller and more powerful digital hardware (initially PCs but,
+more recently, smartphones);
+• Global communication networks and mass connectivity (the Internet));
+• Cloud-based storage of Big Data & automated algorithms;
+• Multiple emerging technologies that interact with each other creating
+synergy effects (e.g., robots/automation, Artificial Intelligence,
+machine learning, the Internet of Things, nanotechnologies and
+Blockchain).
+These overlapping technological developments provide the foundation and
+necessary infrastructure for an on-going process of “digitalization” in which
+technology disrupts every aspect of our lives.7 The economic, cultural, and
+social impact of these changes is so significant that it makes sense to speak of a
+“digital transformation.”
+A particular significant effect of these global digital technologies is to disrupt
+the “old world” of centralized, hierarchical organizations. Technology is
+currently introducing and driving a shift in the mindset and practices of our
+society.8 In particular, the limitations of a centralized, hierarchical and
+“proceduralized” world are becoming more apparent.9 Most obviously, such
+organizations are slow to adapt to a fast-changing reality and are losing public
+trust. New digital technologies are driving the emergence of “flatter,” more
+decentralized forms of social organization. This change can be felt across
+society, but particularly in a business context.
+The implications for regulators and other policy makers seem obvious. A
+tension or “disconnect” is emerging between traditional regulatory models and
+the form of contemporary business organizations. It, therefore, seems
+appropriate to deepen our understanding of these new organizational forms as
+a pre-condition to developing new regulatory models more appropriate to a
+digital age.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+3
+In this paper, we offer an analysis of how blockchain and related distributed
+ledger technologies are disrupting corporate organizations as an illustration of
+the “digital transformation.” The paper first considers how the digital
+transformation has led to the emergence of new style “platform” companies
+(Section 2). Since distributed ledger technologies can be viewed as the next
+step in the “digital development” of corporate organization, the paper then
+discusses the main features of blockchain and related smart contract
+technologies (Sections 3 & 4) and examines the often-made claim that these
+technologies are all just “hype” or passing fad (Section 5). Section 6 explores
+why these technologies are so potentially disruptive in a business context and
+then introduces some examples of such blockchain-based business
+organizations, as well as possible future developments (Sections 7 and 8).
+Section 9 concludes.
+The central claims of the paper are (i) digital technologies have already
+disrupted centralized, hierarchical corporate organizations by facilitating
+“platforms;” (ii) this process of disruption will only continue as new
+blockchain-based technologies proliferate; and (iii) regulators need to be more
+attentive to these changes and their economic and social effects.
+2. Platforms
+One important business adaptation to the digital transformation has been the
+emergence of “platform” companies.10 The term “platform” is usually
+associated with different types of tech-companies, i.e., companies that operate
+a “social” platform (Facebook, Instagram), an “exchange” platform (Amazon,
+Airbnb, Uber), a “content” platform (YouTube, Medium, Netflix), a “software”
+platform (General Electric’s Predix), or even a “blockchain” platform (Ethereum,
+EOS). The emergence of these new platforms and services has been one of the
+most significant economic and business developments of the last two decades
+and platform companies now dominate lists of the world’s biggest companies.11
+In each of the above examples, the platform creates value by facilitating
+exchanges between two different but interdependent groups (e.g., groups of
+friends (Facebook, Instagram), content providers and consumers (YouTube,
+Medium, Netflix) or service providers and users (Amazon, Airbnb, Uber). The
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+4
+platforms leverage networked digital technologies to promote economic
+exchange, the transfer of information or to connect people. The platform
+facilitates interactions between creators and extractors of value and then
+generates profit for itself, i.e., the owner-shareholders of the platform.12
+The popularity of the platform business model has grown in recent years as a
+series of inter-connected technologies – the Internet, code-based algorithms,
+and PCs and smartphones – have proliferated. These technologies have
+advanced the platform business model by allowing the fast, large-scale
+exchange of products and information utilizing decentralized networks. This
+creates a global ecosystem that encourages registered users and content
+consumers to add more value to the platform by repeatedly creating more
+content which will, in turn, attract additional content creators and consumers
+(i.e., platforms benefit enormously from “network effects”).13 Such platforms
+are powered by algorithms or pre-defined formulas that are used to matchmake
+individuals or consumers with service providers/products.
+Crucially, the incorporation of the platform model now extends beyond the
+technology sector. Consider how many traditional retailers are shifting their
+distribution channels for selling products from “stores” to online platforms.14
+But, we should also recognize that there is more to platform companies than
+simply using new technologies to facilitate transactions, exchange information,
+or to connect people. There is another valuable lesson to be learned from the
+emergence and success of this type of company. What these companies also
+have in common is that they organize their “internal” operations to facilitate
+collaboration amongst multiple stakeholders to deliver constant innovation in
+the functionality of the platform and related products and services.15 These
+various stakeholders include but are not limited to, managers, employees, and
+investors, but also (and crucially) consumers, developers, content creators,
+other companies (both large and small), non-profits, educational institutions,
+governments, etc.16
+What makes a platform-style of organization distinctive is that it uses
+stakeholders’ input and feedback to improve the user experience and
+engagement with the platform and its products, services, and other solutions.17
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+5
+This is an important notable feature of companies such as Amazon, Facebook,
+Netflix, etc. All of these companies are disrupting and “decentralizing” existing
+business models by eliminating and replacing traditional intermediaries. These
+companies facilitate more direct “peer-to-peer” transactions between service
+providers / creators/producers, on the one hand, and the consumers, on the
+other.
+In the best and most successful firms, governance is no longer about hierarchy
+or control. Instead, the focus is on creating a flat, open and inclusive
+organizational environment or “eco-system” that leverages the talents of all
+stakeholders in that company’s network.18 As such, platforms are built around
+the idea of delivering constant innovation via an open and inclusive process of
+collaboration and co-creation. By organizing-for-innovation in this way, such
+platforms break from the clearly defined, fixed hierarchies, static roles, and
+authorized procedures of traditional business organizations.19
+Everyone – business, government, investors, charities – are now experimenting
+with platform thinking.20 Various reasons are often given for conducting such
+experiments. The main benefits? Cost savings that result from cutting out
+intermediaries and creating more transparency are frequently mentioned.21 But
+these new technologies also empower people. They provide a new and secure
+environment in which opportunities for personal fulfilment and individual
+creativity increase.22
+“Become a platform or be replaced by one” is the mantra of the new
+technology-driven economy. Crucially, new technology is central to this
+approach. In this sense, all companies that wish to operate as platforms need
+to think and act “as if” they are a tech company.23 In particular, new
+technology offers users the possibility to share reviews, experiences and any
+other information. The technology that drives the platform also connects
+developers, creators on one side and users on the other. And it is here where
+blockchain and distributed ledger technology can play an important role.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+6
+3. Blockchain
+To understand blockchain technology, it makes sense to begin with the
+Internet. The Internet enabled a free, fast and global exchange of information
+and ideas. The blockchain adds another dimension by making it possible to
+transfer and exchange value and assets without the involvement of traditional
+(centralized and authoritative) intermediaries. Blockchain technology achieves
+this by storing personal and other information in a decentralized, accessible,
+and secure online environment.
+Stated simply, a blockchain is a shared and distributed digital “ledger” or
+“database” that maintains a continuously growing list of “blocks.”24 A block
+can contain a record of transactions involving digital assets but could also
+include “facts” or other information. Once the record is verified and validated,
+a block is added to the chain with previous records in linear and chronological
+order.
+What makes the blockchain such a revolutionary technology is that the ledger
+or database is distributed to a countless number of participants (“nodes”)
+around the world in public peer-to-peer networks (similar to the Internet) or
+private (or permissioned) peer-to-peer networks (similar to an intranet).25 It is
+the decentralized character of the blockchain that makes it so potentially
+disruptive. Participants hosting a copy of the blockchain can be individuals or
+organizations (and even things). The only condition is that they have a
+smartphone or Internet connection. Everybody with a smartphone can create a
+real digital ID and interact with other people in the blockchain network.
+Blockchain technology thus enables and facilitates access to finance, insurance
+services, stock markets, etc. In this respect, it has the potential to promote
+financial inclusion and end the exclusion that has traditionally surrounded the
+provision of financial services. “Peer-to-peer” transactions are possible because
+the technology uses a “distributed consensus model” where the network
+“nodes” verify, validate and audit transactions before and after they are
+executed. This is often safer than a traditional model in which transactions can
+only be executed by or through a third-party (and “trusted”) intermediary, such
+as a bank, judiciary or notary.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+7
+Network connectivity is vital because it allows for multiple identical copies of
+the blockchain to be available simultaneously across the network. This makes it
+practically impossible to alter or erase information in the blockchain. The use
+of cryptographic hashes makes tampering with blockchain records even more
+difficult, if not impossible. Cryptographic hashes comprise complex
+algorithms. The result of this combination of technologies is that even a
+minuscule change to the blockchain will result in a different hash value, making
+manipulation instantly and readily detectable by other participants.
+Digital signatures help establish the identity and authenticity of the parties
+involved in the transaction. These security measures make blockchain
+validation technologies more transparent and less prone to error and
+corruption. Even if they are not 100% secure they are more reliable than
+existing methods of verifying and validating transactions via third-party
+intermediaries.26
+In short, blockchain technology creates an independent and transparent
+platform for establishing truth and building trust. Intermediaries, bureaucracy,
+and old-fashioned procedures are replaced by the “4 Cs” of code, connectivity,
+crowd, and collaboration. The technology increases openness and speed, while
+at the same time significantly reducing costs.
+But perhaps the most significant feature of blockchain is that it is so adaptable.
+There are multiple possible applications relevant to a business context. Most
+obviously, blockchain can be used to provide new methods of processing
+digital transactions (i.e., e-commerce or financial services). But blockchain can
+also be used for crypto-currencies (e.g., Bitcoin), records management (e.g., real
+estate, corporate or medical records), “e-voting” and identity management
+(IAM).
+It is for this reason that blockchain technology has been mentioned as one of
+the most significant disruptive technological innovations since the emergence
+of the Internet.27
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+8
+4. Smart Contracts
+Blockchain is even more significant when combined with so-called “smart
+contracts.” In this context, a smart contract refers to a computer program code
+or protocol that automates the verification, execution, and enforcement of
+certain terms and conditions of a “contractual” arrangement.28
+This term was first introduced by Nick Szabo, a computer scientist, and legal
+theorist, in 1994.29 A smart contract is a computer program code that enables
+the verification, execution, and enforcement of specific terms and conditions
+of a contractual arrangement. An often-cited example is the “purchase” of
+music through Apple’s iTunes platform. A computer code ensures that the
+“purchaser” can only listen to the music file on a limited number of Apple
+devices.
+A smart contract could also be an essential part of, for instance, a car loan. If
+the borrower misses a payment (tracked via a blockchain-like technology), the
+contract will not allow the use and operation of the car (“enforced” via
+networked technologies that “disable” the car automatically, rather than a
+“repo man” physically depriving a driver of access to their car).30 Such smart
+contracts will become more prevalent in the growing world of the Internet of
+Things. As more devices are connected to each other, the more “smart
+contracts” will be used to execute and enforce “legal transactions.”
+5. All Just Hype?
+Many still consider blockchain-based technologies and smart contracts to be a
+fad or hype.31 According to this more sceptical view, the hype has been fuelled
+by numerous tech firms, particularly in the area of cryptocurrency, such as
+Bitcoin. Such firms often have over-promised and under-delivered, feeding
+doubts about the underlying technology of blockchain.
+For sure, challenges do remain. Blockchains still have significant technical,
+operational and scaling shortcomings.32 Considering the perspective of
+mathematicians on these issues is interesting. They will often point to the fact
+that there is still a lack of complete decentralization in most current
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+9
+applications of blockchain. For instance, the traditional mechanism for
+validating and verifying a new block of transactions – e.g., Bitcoin’s proof of
+work protocol - has led to “mining pools” as a result of economies of scale and
+unbalanced reward structures.33 Also, the anonymity in blockchain
+organizations means that they are prone to “Sybil attacks” or “51% attacks.”
+There are also many examples in which the anonymity (and autonomy) has led
+to hacks. Remember that in a truly decentralized system, the code is law. This
+means that any mistakes (stolen/lost passwords, programming bugs, etc.) are
+permanent and irrevocable.
+Another important challenge is cybersecurity; supporters of blockchain claim
+that it is secure by design, but the technology hasn’t been adopted widely
+enough yet for it to be severely tested.34 Several hacking attacks against digital
+currencies in recent years underscore such security concerns. Moreover, the
+use of cryptocurrencies, by criminal organizations has “damaged” the
+credibility of the underlying technology.
+And then there are the costs of shifting to the new technology, which is
+continually evolving, and which are also high. Not to mention the many
+technical challenges involved in integrating blockchain databases with existing
+systems. Recall the car loan contract example discussed above and the need for
+a sophisticated and reliable interface between the ledger recording repayments
+and the car software systems that, under certain circumstances (non-payment)
+will shut down the vehicle.
+Finally, there is a great deal of regulatory uncertainty surrounding blockchain
+and smart contracts, especially in the financial services industry. Legal
+frameworks globally will have to change to adapt to the growing use of this
+type of new technology.
+Nevertheless, there are signs that we are close to a tipping point regarding the
+adoption of blockchain and its impact. There is a widespread proliferation of
+blockchain applications and initiatives that are considering blockchain. The fact
+that so many “old world” organizations are exploring possible uses of
+blockchains and smart contracts suggests that it not all hype.35
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+10
+6. Escaping a “Centralized World”
+A particular problem with “old world” centralized, hierarchical organizations is
+that decision-making processes can become slow, cumbersome and costly.36 In
+a fast-paced, consumer-driven economy this can become a problem for
+incumbents.37 On an almost daily basis, we see how peer-to-peer technologies
+and organizations deliver a more satisfying consumer experience than
+traditional firms. This goes further than the convenience of Wikipedia, Uber or
+Airbnb when compared to the products or services of “traditional”
+encyclopaedia publishers, taxi companies or hotel operators. In a legal context,
+for instance, e-Court, an online private court, aims to replace traditional legal
+proceedings.38 Despite the uncertainties of such new systems, many people are
+attracted by the speed, convenience and user-friendliness of such a system.39
+The new values of a digital age are pushing consumers towards the more agile
+solutions offered by younger, flatter organizations.
+A similar set of issues affect potential employees as they consider whether to
+work for “old” or “new” style organizations. The younger “Millennial”
+generation view centralization as a threat to personal autonomy, choice, and
+happiness.40 It’s a familiar refrain that an overly “proceduralized” society drags
+people down. Formal structures and process kill creativity and lead to fatigue
+and burn-out. The younger generation know that there is little room for
+manoeuvre in a centralized world, and find that experience frustrating and
+unsatisfactory. Moreover, hierarchies – which have never been particularly
+attractive for younger people – become even more bothersome to a younger
+generation that is increasingly sceptical about traditional organizations.41
+As such, there is a perception that a decentralized culture creates more
+opportunities for personal expression, fulfilment, and – ultimately – happiness.
+There is greater recognition that hierarchical structures kill open and honest
+discussion, leading to either indifference or frustration. Moreover, hierarchies
+go hand in hand with formal procedures, and this over-reliance on procedure –
+especially procedures designed and imposed “from above” – can take the joy
+out of any activity.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+11
+Personal happiness, freedom and expression can better thrive in a
+decentralized world, provided, of course, that it offers a secure environment.
+This is why so many people are intrigued and captured by blockchain
+platforms.
+And, of course, many advocates of such developments are aware of the
+technological shortcomings of blockchain platforms. They also know that
+many blockchains and smart contract initiatives and start-ups will fail. They
+know that “prime time” is most likely several years away. But this is just part of
+the trade-off. It’s worth waiting and investing in the development of
+blockchain technology, smart contracts, and cryptocurrencies. The more
+initiatives and experiments, the sooner we will see mainstream applications.
+Decentralization and automated trust are just a next step in the evolution of
+organizational culture.
+7. Decentralized Autonomous Organizations
+Having described the background technologies and the appeal of a
+decentralized organization and society, let’s consider some business examples.
+We start with a particularly radical experiment with decentralization, namely
+the decentralized autonomous organization or the “DAO.”
+Christoph Jentzsch, the co-founder of IoT company Slock.it, was one of the
+initial founders of the DAO in May 2016.42 The original idea was to set up a
+corporate-type organization without using a conventional centralized structure
+and which utilized blockchain and smart contracts. As such, the organization
+was completely decentralized. The DAO intended to automate governance and
+was based on the idea that since “people” don't always follow the rules (even if
+the rules are well-designed), it is better to use computer code to manage an
+organization. It was initially set up as an alternative investment platform.
+Most strikingly, the DAO didn’t have a physical address or location. It was
+“merely” computer code. Indeed, the DAO didn’t have any directors,
+managers or employees. The governance structure was built with software,
+code and smart contracts that ran on the public decentralized blockchain
+platform, Ethereum.43 This automated structure was intended to give
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+12
+“participants” in the DAO direct real-time control over contributed funds and
+where such funds would be distributed. Everyone could become a participant
+by purchasing DAO Tokens during a crowdfunding campaign in May 2016.
+The DAO raised more than $150 million from approximately 10,000
+“investors.” Like shares in a traditional listed corporation, DAO Tokens were
+designed to be fully transferable and tradable on “peer-to-peer” exchanges.
+A series of smart contracts granted the holders of the tokens voting rights. In
+this respect, the blockchain-based smart contract mimicked the role of articles
+of association or bylaws. Since the code of the DAO was open source, the
+token holders would vote on any change made to the code. Such an
+organization inhibits “rent-seeking” and offers transparency. And they are
+secure. For instance, the governance protocols used in a DAO are open source
+and weaknesses are constantly tested and revised. An openly readable ledger
+means anyone can check the integrity of transactions. The distributed
+cooperation component implies that “attackers” must be able to “out-
+compute” the entire network (which is practically impossible).
+When we look at the strengths and advantages, we can conclude that DAOs
+will replace many organizations that lack these incentives and efficiencies.
+Moreover, DAOs are cheap and straightforward to “clone,” which will
+potentially lead to more competition. The distributed and anonymous nature of
+the organizations prevents natural and political monopolies.
+To be sure, fundamental flaws in the DAO code made it possible for hackers
+to transfer one-third of the total contributed funds to a subsidiary account.
+This, and other technological limitations meant the end of the initiative, but it
+does not mean the end of this vision of a different style of decentralized
+autonomous organizations.
+In January 2017, Jentzsch compared the development of decentralized
+autonomous organizations with the development of planes. The desire to build
+flat, unmediated, decentralized and fully democratized companies will not be
+stopped by setbacks, no matter how severe.44 He announced his next project: a
+decentralized autonomous organization that operates in the area of non-profit
+and charity. The possibility to make donations and aid without the interference
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+13
+of bureaucratic authorities and institutions would set the stage for further
+corporate organization developments in a blockchain platform.
+8. Crypto Coins and Tokens
+The DAO mainly focuses on empowering and incentivizing investors in
+companies and other organizations. But blockchain technology also has the
+ability to give more power and control to other stakeholders, such as
+employees, consumers, developers, creators, etc.
+A particularly interesting use of blockchain in this context is to develop
+“company” or “industry-specific” crypto-coins or tokens. We might think of
+such a cryptocurrency as “loyalty” coins or tokens. The basic idea of such
+coins is that in a crypto economy, companies (or groups of companies or
+industries) can issue their tokens as an integral part of their platform
+operations. These tokens can perform many functions and bring multiple
+benefits:
+A. Perks
+In his book Masters of Blockchain & Initial Coin Offerings, Andrew Romans
+compares the issuance of coins/tokens to a company’s loyalty program. The
+coins/tokens provide access to products, services, discounts and other
+benefits. This will be similar to loyalty programs in that it helps gather a
+community of participants, such as developers, investors, consumers, etc. on
+the platform. They provide a convenient mechanism to tie individuals into the
+platform’s ecosystem.45
+B. L iquidity
+But unlike a loyalty program, the coins/tokens have many more benefits
+attached to them. Most importantly, they offer liquidity.46 Platform participants
+can sell and transfer them to other interested parties on crypto exchanges or
+secondary markets. These parties could be the “public” or a more restricted
+and pre-defined group of people. Either way, it integrates the token (and the
+platform) into the mainstream economy.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+14
+C. F unding
+Because the owners of the coins/tokens aren’t “locked” into the loyalty
+program, the issuance of coins/tokens can be a straightforward and relatively
+simple means to attract capital/funding for the platform (without issuing
+shares in the company).
+D. A Level Playing Field
+As described above, the most successful platforms today are built around the
+idea of delivering constant innovation via an open, inclusive and continuous
+process of “co-creation” amongst members of the eco-system. Multiple
+participants are crucial to a successful platform, but each group will have their
+own unique capacities/capabilities. A well-designed token-driven platform can
+carefully plan the distribution of coins/tokens across all ecosystem
+participants.
+All the participants (e.g., consumers, developers, investors and the like) are
+aligned and can work together on the success of the platform. As such, the
+issuance of coins or tokens creates a “level playing field.” Crucially, this helps
+establish a flatter, “community-owned” platform, which isn’t based on
+traditional hierarchies between the platform participants (think about the clear
+hierarchies between shareholders, executives, managers, and staff). By doing
+so, crypto coins and tokens:
+• Provide the right incentives to multiple platform participants.
+• Satisfy participants’ dynamic needs.
+• Provide a “personally” relevant experience to all platform participants.
+• Facilitate connections to a community that “matters to them.”
+• Help build a strong and open “company culture” of involvement,
+engagement, and connectivity.
+In short, the coin/token offerings can be integrated into the core functionality
+of the platform, making them “community-owned and driven.”
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+15
+Crypto coins and tokens, therefore, offer opportunities for integrating “near
+future” digital technologies into a firm’s organization and operations. Such
+coins and tokens can be “smart contract” empowered, allowing specific
+operations/benefits only if and when predefined rules and requirements are
+met. The smart contracts could, in turn, be empowered by “artificial
+intelligence” algorithms, allowing for customized services, continuous
+communication, and better alignment of interests amongst participants.
+9. Conclusion
+We currently live in a fast-developing “space” between two co-existing and
+competing “realities”: a centralized “old world” and an emerging but, as yet,
+incomplete new “decentralized reality.” The centralized reality with its
+hierarchical structures, systems, and procedures still prevails. It appears unlikely
+that we will say goodbye to centralized organizations anytime soon. Traditional
+incumbents still enjoy enormous market power and the “success” of more
+decentralized systems and organizations currently still depends on the goodwill
+of the parties involved.
+Nevertheless, a more decentralized reality has already started to emerge. Firms
+like Uber, Airbnb, and Spotify are prominent examples of this. Such firms are not
+without problems or issues, of course, but by leveraging new technologies they
+have the potential to create real level playing fields, transparency and
+applications that run exactly as programmed without any possibility of
+downtime, censorship, or third-party interference.
+We have already passed the “tipping point” in our experiments with
+decentralization. So, instead of blindly affirming the traditional “centralized”
+world or remaining trapped in the space between these two realities, it seems
+prudent to observe and study these new organizational developments. It is
+necessary to become actively involved in the further development of
+blockchain and smart contracts and the creation of a new decentralized reality.
+In this way, a decentralized world can reach its full potential and offer greater
+transparency, convenience, and trust.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+16
+What do the most successful companies have in common in a “digital age”?
+They all strive to create an open and unmediated corporate culture built around
+technology, data, and algorithms. A tech-driven business culture helps firms to
+build and maintain “relevancy” in a digitized and networked marketplace.
+Relevancy, in this context, refers to designing and re-designing products or
+services that continuously deliver a personal, meaningful, relevant and
+satisfying experience to consumers. The most successful firms understand that
+achieving this goal means embedding new technology into every aspect of the
+organization and governance of a firm.
+Companies can use new technologies to build a more decentralized,
+unmediated and inclusive corporate culture for all stakeholders, i.e., investors,
+executives, managers, and employees, but also early adopters, former
+employees, other companies, service providers, the different layers of
+government and society at large. Such an unmediated and tech-driven culture
+will give them a competitive advantage in attracting talent, raising capital,
+finding suitable partners and, perhaps most importantly, in remaining relevant
+in today’s hyper-competitive global markets.
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+17
+References:
+1 A. Aneesh, “Technologically Coded Authority: The Post-Industrial Decline in
+Bureaucratic Hierarchies,” stanford.edu, Feb. 7, 2002 [Online]. Available:
+https://web.stanford.edu/class/sts175/NewFiles/Algocratic%20Governance.
+pdf [Accessed Oct. 25, 2018].
+2 GoCo, “The Rise of the Decentralized Organization,” GoCo.io, 2018 [Online].
+Available: https://www.goco.io/blog/rise-decentralized-organization
+[Accessed Oct. 25, 2018].
+3 J. Micklethwait & A. Wooldridge, The Company: A Short History of a
+Revolutionary Idea, 2003, Modern Library.
+4 D.R. Dalton, W.D. Todor, M.J. Spendolini, G.J. Fielding & L.W. Porter,
+“Organization structure and performance: a critical review,” Academy of
+Management Review, vol. 5, pp. 49-64, 1980; Lumen, “Boundless Management:
+Trends in Organization,” Lumen, 2018 [Online]. Available:
+https://courses.lumenlearning.com/boundless-management/chapter/trends-
+in-organization [Accessed: Oct. 25, 2018].
+5 See, for example, Organization for Economic Co-operation and
+Development, OECD Principles of Corporate Governance, 2004 [Online]. Available:
+http://www.oecd.org/corporate/ca/corporategovernanceprinciples/31557724
+.pdf [Accessed: Oct. 25, 2018].
+6 A. Horlacher, P. Klarner & T. Hess, “Crossing Boundaries: Organization
+Design Parameters Surrounding CDOs and Their Digital Transformation
+Activities,” 22nd Americas Conference on Information Systems, 11-14 Aug. 2016
+[Online]. Available:
+https://pdfs.semanticscholar.org/a623/ff3e690caea7fb6d5a014bd59220470f4
+915.pdf [Accessed Oct. 25, 2018]; M. Young, “What is Digital Transformation
+and What Does it Mean for Workplace Design?” Work Design Magazine, Apr. 6,
+2018 [Online]. Available: https://workdesign.com/2018/04/what-is-digital-
+transformation-and-what-does-it-mean-for-workplace-design [Accessed Oct.
+25, 2018].
+7 I-Scoop, “Digital Transformation: Online Guide to Digital Business
+Transformation,” I-Scoop.eu, 2018 [Online]. Available: https://www.i-
+scoop.eu/digital-transformation [Accessed Oct. 25, 2018]; S. Denning, “Why
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+18
+Mindset is Driving the Age of Agile,” Forbes, Aug. 20, 2018 [Online]. Available:
+https://www.forbes.com/sites/stevedenning/2018/08/20/why-mindset-is-
+driving-the-age-of-agile/#1dc209d35631 [Accessed Oct. 25, 2018]; B.
+Bosworth, “The Three P’s of Digital Transformation”, Forbes, Apr. 26, 2018
+[Online]. Available:
+https://www.forbes.com/sites/forbestechcouncil/2018/04/26/the-three-ps-
+of-digital-transformation/#440d7cd76f00. [Accessed Oct. 25, 2018].
+8 S. Taut, “Why Culture Change is Essential for Digital Transformation,”
+Digitalist Magazine, Jan. 9, 2017 [Online]. Available:
+https://www.digitalistmag.com/future-of-work/2017/01/09/culture-change-
+is-essential-for-digital-transformation-04824251. [Accessed Oct. 25, 2018].
+9 E.P.M. Vermeulen, “Blockchain Platforms Will Make Us Happier,” Medium:
+Hackernoon, Jan. 21, 2018 [Online]. Available:
+https://hackernoon.com/blockchain-platforms-will-make-us-happier-
+8e460eb2ce74 [Accessed Oct. 25, 2018].
+10 M. Fenwick, J. A. McCahery & E.P.M. Vermeulen, The End of “Corporate”
+Governance: Hello New World of Platform Governance, 2018 [Online]. Available:
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3232663 [Accessed:
+Oct. 25, 2018]; J. Herrman, “Platform Companies Are Becoming More
+Powerful – But What Exactly Do They Want?” New York Times, p. 16, Mar. 25,
+2017.
+11 “Fuel of the Future: Data is Giving Rise to a New Economy,” Economist, May
+6, 2017 [Online]. Available:
+https://www.economist.com/briefing/2017/05/06/data-is-giving-rise-to-a-
+new-economy [Accessed Oct. 25, 2018].
+12 C. Codagnone & B. Martens, “Scoping the Sharing Economy: Origins,
+Definitions, Impact and Regulatory Issues,” Institute for Prospective Technological
+Studies Digital Economy, Working Paper 2016/01, p. 13, 2016 [Online]. Available:
+https://ec.europa.eu/jrc/sites/jrcsh/files/JRC100369.pdf [Accessed Oct. 25,
+2018].
+13 Price Waterhouse, “The Sharing Economy,” Price Waterhouse Coopers: Consumer
+Intelligence Series, 2015 [Online]. Available:
+https://www.pwc.fr/fr/assets/files/pdf/2015/05/pwc_etude_sharing_econo
+my.pdf [Accessed Oct. 25, 2018].
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+19
+14 R. Adner, “Match Your Innovation Strategy to Your Innovation
+Ecosystem,” Harvard Business Review, Apr. 2006 [Online]. Available:
+https://hbr.org/2006/04/match-your-innovation-strategy-to-your-innovation-
+ecosystem [Accessed: Oct. 25, 2018]; D. Rigby, “The Future of Shopping,”
+Harvard Business Review, Dec. 2011 [Online]. Available:
+https://hbr.org/2011/12/the-future-of-shopping [Accessed Oct. 25, 2018]; M.
+Walsh, “The Future of E-Commerce: Bricks and Mortar,” Guardian, Jan. 30,
+2016 [Online]. Available:
+https://www.theguardian.com/business/2016/jan/30/future-of-e-commerce-
+bricks-and-mortar [Accessed Oct. 25, 2018].
+15 M. Fenwick, J. A. McCahery & E.P.M. Vermeulen, “The End of
+“Corporate” Governance: Hello New World of Platform Governance,” 2018
+[Online]. Available:
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3232663 [Accessed:
+Oct. 25, 2018].
+16 J. Fritz, “What is a Stakeholder for a Nonprofit?” The Balance Small Business,
+Mar. 1, 2017 [Online]. Available:
+https://www.thebalancesmb.com/stakeholder-2502118 [Accessed Oct. 25,
+2018].
+17 M Fenwick & E.P.M. Vermeulen (2016) “The New Firm,” European Business
+Organization Law Review, pp. 595-623; Deloitte, “The Digital Workplace: Think,
+Share, Do,” [Online]. Available:
+https://www2.deloitte.com/content/dam/Deloitte/mx/Documents/human-
+capital/The_digital_workplace.pdf [Accessed Oct. 25, 2018].
+18 G.F. Corporaal & V.Lehdonvirta, “Platform Sourcing: How Fortune 500
+Firms Are Adopting Online Freelancing Platforms,” Oxford Internet Institute,
+Aug. 2017 [Online]. Available:
+https://www.oii.ox.ac.uk/publications/platform-sourcing.pdf [Accessed Oct.
+25, 2018]; M. Janakiraman, “Inclusive Leadership – Critical for Competitive
+Advantage,” Mercer Insights [Online]. Available:
+https://mobilityexchange.mercer.com/Insights/article/Inclusive-Leadership-
+Critical-for-Competitive-Advantage [Accessed: Oct. 25, 2018].
+19 M. Coletti, P. Landoni & R. Cagliano, “Governance of Small Consortia for
+Innovation: A Multiple-Case Study Analysis,” vol. 1, no. 3, pp. 238-256,
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+20
+International Journal of Competitiveness, 2018 [Online]. Available:
+https://www.researchgate.net/publication/321576701_Governance_of_Small
+_Consortia_for_Innovation_A_Multiple-Case_Study_Analysis [Accessed Oct.
+25, 2018].
+20 S.P. Choudary, “A Platform Thinking Approach to Innovation,” Wired, 2014
+[Online]. Available: https://www.wired.com/insights/2014/01/platform-
+thinking-approach-innovation/ [Accessed Oct. 25, 2018]; M. Iansiti & K.R.
+Lakhani, “Managing Our Hub Economy,” Harvard Business Review, Sep.-Oct.
+2017 [Online]. Available: https://hbr.org/2017/09/managing-our-hub-
+economy [Accessed Oct. 25, 2018].
+21 M. Cusumano, “The Evolution of Platform Thinking,” vol. 53, no. 1, pp. 32-
+34, Communications of the ACM, Jan. 2010 [Online]. Available:
+https://cacm.acm.org/magazines/2010/1/55758-the-evolution-of-platform-
+thinking/abstract [Accessed Oct. 25, 2018].
+22 S. Hall, “It’s Time to Tackle Tech’s Growing Influence on the Creative
+Economy,” World Economic Forum, Feb. 21, 2018 [Online]. Available:
+https://www.weforum.org/agenda/2018/02/its-time-to-tackle-techs-growing-
+influence-on-the-creative-economy [Accessed Oct. 25, 2018].
+23 E.P.M. Vermeulen, “Working for a “Big Company” Can Be Fun, If...,”
+Medium: HackerNoon, Jun 24, 2018 [Online]. Available:
+https://hackernoon.com/working-for-a-big-company-can-be-fun-if-
+8eaf1eb560d9 [Accessed Oct. 25, 2018].
+24 E.P.M. Vermeulen, “3 Reasons Why the Blockchain Revolution Is (Finally)
+Becoming a Reality!” Medium: StartupGrind, May 5, 2017 [Online]. Available:
+https://medium.com/startup-grind/3-reasons-why-the-blockchain-revolution-
+is-finally-becoming-a-reality-63bdd90c89e2 [Accessed Oct. 25, 2018].
+25 S. Gupta, “Blockchain – The Next Big Revolution,” Medium: Blockchain
+Musings, Jul. 3, 2017 [Online]. Available: https://medium.com/blockchain-
+musings/blockchain-the-next-big-revolution-dabb748d33fa [Accessed Oct. 25,
+2018].
+26 M. White, J. Killmeyer, B. Chew, “Will Blockchain Transform the Public
+Sector?” Deloitte Insights, Sep. 11, 2017 [Online]. Available:
+https://www2.deloitte.com/insights/us/en/industry/public-
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+21
+sector/understanding-basics-of-blockchain-in-government.html [Accessed
+Oct. 25, 2018].
+27 M. Hiesboeck, “Blockchain is the Most Disruptive Invention Since the
+Internet Itself – Not Just in Finance,” Digital Doughnut, Apr. 6, 2016 [Online].
+Available: https://www.digitaldoughnut.com/articles/2016/april/blockchain-
+is-the-most-disruptive-invention-since [Accessed Oct. 25, 2018].
+28 T.I. Kiviat, “Beyond Bitcoin: Issues in Regulating Blockchain Transactions,”
+vol. 65, pp. 568-608, Duke Law Journal, 2015.
+29 Szabo N, “Smart Contracts,” 1994 [Online]. Available:
+http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Li
+terature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html
+[Accessed Oct. 25, 2018]; B. Ryder, “Not-So-Clever Contracts,” Economist, Jul.
+30, 2016 [Online]. Available:
+https://www.economist.com/business/2016/07/28/not-so-clever-contracts
+[Accessed Oct. 25, 2018].
+30 F. Küster, “What Are Smart Contracts in Blockchain Technology,” Captain
+Altcoin, Jul. 14, 2017 [Online]. Available:
+https://captainaltcoin.com/blockchain-smart-contracts [Accessed Oct. 25,
+2018].
+31 G. Volpicelli, “Does Blockchain Offer Hype or Hope?” Guardian, Mar. 10,
+2018 [Online]. Available:
+https://www.theguardian.com/technology/2018/mar/10/blockchain-music-
+imogen-heap-provenance-finance-voting-amir-taaki [Accessed Oct. 25, 2018].
+32 N. Bauerle, “What Are Blockchain’s Issues and Limitations?” Coindesk
+[Online]. Available: https://www.coindesk.com/information/blockchains-
+issues-limitations [Accessed Aug. 29, 2018]; P. Kasireddy, “Blockchains Don’t
+Scale. Not Today, at least, But There’s Hope,” Medium: Hackernoon, Aug 23,
+2017 [Online]. Available: https://hackernoon.com/blockchains-dont-scale-
+not-today-at-least-but-there-s-hope-2cb43946551a [Accessed Oct. 25, 2018];
+N. Singh, “Every Disadvantage Has Its Advantage: Reviewing Blockchain,”
+Medium: Hackernoon, Feb. 25, 2018 [Online]. Available:
+https://hackernoon.com/every-disadvantage-has-its-advantage-reviewing-
+blockchain-1965e3462ba4 [Accessed Oct. 25, 2018].
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+22
+33 E.P.M. Vermeulen, “Is There a Future for Blockchain?” Medium: Hackernoon,
+May 13, 2018 [Online]. Available: https://hackernoon.com/is-there-a-future-
+for-blockchain-dbc86f205d6f [Accessed Oct. 25, 2018].
+34 N. Lohade, “Dubai Aims to Be a City Built on Blockchain,” Wall Street
+Journal, Apr. 24, 2017 [Online]. Available:
+https://www.wsj.com/articles/dubai-aims-to-be-a-city-built-on-blockchain-
+1493086080 [Accessed Oct. 25, 2018].
+35 G. Hileman & M. Rauchs, “Global Blockchain Benchmarking Study,”
+Cambridge Centre for Alternative Finance, 2017 [Online]. Available:
+https://www.ey.com/Publication/vwLUAssets/ey-global-blockchain-
+benchmarking-study-2017/$File/ey-global-blockchain-benchmarking-study-
+2017.pdf [Accessed Oct. 25, 2018].
+36 T.W. Malone, “Bringing the Market Inside,” Harvard Business Review, Apr.
+2004 [Online]. Available: https://hbr.org/2004/04/bringing-the-market-inside
+[Accessed Oct. 25, 2018].
+37 M. Jaconi, “The ‘On-Demand Economy’ Is Revolutionizing Consumer
+Behavior – Here's How,” Business Insider, Jul. 13, 2014 [Online]. Available:
+https://www.businessinsider.com/the-on-demand-economy-2014-7 [Accessed
+Oct. 25, 2018].
+38 “New e-Court Platform Represents a ‘Tectonic Shift’ in the Administration
+of Justice,” Outsystems.com [Online]. Available:
+https://www.outsystems.com/case-studies/legal-sector-application [Accessed
+Oct. 25, 2018]; P. Causton, “The E-Court Service – a Vision of the Future,”
+The Law Society, Jan. 29, 2015 [Online]. Available:
+http://www.lawsociety.org.uk/communities/solicitor-judges-
+division/articles/e-court-service/ [Accessed Oct. 25, 2018].
+39 “e-Courts: Infusion of Information Technology into the Justice Delivery
+System,” in International Conference on Advances in ICT for Emerging Regions, Sep. 1–
+3, 2016 [Online]. Available:
+http://www.icter.org/conference/icter2016/sites/default/files/icter/ICEG-
+2004p13.pdf [Accessed Oct. 25, 2018].
+40 M. Burke, “An Uncertain Future: Along with Exciting New Possibilities,
+Millennials Face a Whole Different Set of Obstacles,” F&D, vol. 54, no. 2, pp.
+4-5, June 2017 [Online]. Available:
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+23
+https://www.imf.org/external/pubs/ft/fandd/2017/06/pdf/fd0617.pdf.
+[Accessed Oct. 25, 2018]; B. Drake, “6 New Findings About Millennials,” Pew
+Research Center Fact Tank, March 7, 2014 [Online]. Available:
+http://www.pewresearch.org/fact-tank/2014/03/07/6-new-findings-about-
+millennials/ [Accessed Oct. 25, 2018].
+41 “Millennials in Adulthood: Detached from Institutions, Networked with
+Friends,” Pew Research Center, 2014 [Online]. Available:
+http://assets.pewresearch.org/wp-content/uploads/sites/3/2014/03/2014-
+03-07_generations-report-version-for-web.pdf [Accessed Oct. 25, 2018].
+42 “DAO Reflections and Slock.it with Christoph Jentzsch,” Software Engineering
+Daily, March 23, 2018 [Online]. Available:
+https://softwareengineeringdaily.com/2018/03/23/dao-reflections-and-slock-
+it-with-christoph-jentzsch/ [Accessed Oct. 25, 2018]; C. Jentzsch, “Christoph
+Jentzsch (TEDx Talks),” YouTube, Jan. 9, 2017 [Online]. Available:
+https://www.youtube.com/watch?v=EJrPW3254wg [Accessed Oct. 25, 2018];
+C. Jentzsch, The History of the DAO and Lessons Learned, Slock.IT Blog, Aug.
+24, 2016 [Online]. Available: https://blog.slock.it/the-history-of-the-dao-and-
+lessons-learned-d06740f8cfa5 [Accessed Oct. 25, 2018].
+43 C. Jentzsch, “’Blessing and a Curse’: The DAO’s Developers on Blockchain
+in 2016,” CoinDesk, Dec. 27, 2016 [Online]. Available:
+https://www.coindesk.com/blessing-and-a-curse-the-daos-developers-on-
+blockchain-in-2016/ [Accessed Oct. 25, 2018].
+44 E.P.M. Vermeulen, “How to Organize Now for Success Tomorrow...
+Winning Companies Embrace a “Tech-driven” Corporate Culture,” Medium:
+BestCompany, Feb. 20, 2017 [Online]. Available:
+https://medium.com/bestcompany/how-to-organize-now-for-success-
+tomorrow-winning-companies-embrace-a-tech-driven-corporate-e3dd08c9e8f
+[Accessed Oct. 25, 2018].
+45 A. Romans, Masters of Blockchain & Initial Coin Offerings, Self-published, 2018.
+46 E.P.M. Vermeulen, “Ignoring Crypto Coins & Tokens is a Mistake,” Medium:
+Hackernoon, Jul 22, 2018 [Online]. Available:
+https://hackernoon.com/ignoring-crypto-coins-tokens-is-a-mistake-
+7dba38146ec5 [Accessed Oct. 25, 2018].
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+about ECGI
+The European Corporate Governance Institute has been established to improve corpo-
+rate governance through fostering independent scientific research and related activities.
+The ECGI will produce and disseminate high quality research while remaining close to
+the concerns and interests of corporate, financial and public policy makers. It will draw on
+the expertise of scholars from numerous countries and bring together a critical mass of
+expertise and interest to bear on this important subject.
+The views expressed in this working paper are those of the authors, not those of the ECGI
+or its members.
+www.ecgi.org
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+ECGI Working Paper Series in Law
+Editorial Board
+Editor Luca Enriques, Allen & Overy Professor of Corporate Law,
+Faculty of Law, University of Oxford
+Consulting Editors John Coates, John F. Cogan, Jr. Professor of Law and
+Economics, Harvard Law School
+Paul Davies, Senior Research Fellow, Centre for Commercial
+Law, Harris Manchester College, University of Oxford
+Horst Eidenmüller, Freshfields Professor of Commercial Law,
+University of Oxford
+Amir Licht, Professor of Law, Radzyner Law School,
+Interdisciplinary Center Herzliya
+Roberta Romano, Sterling Professor of Law and Director, Yale
+Law School Center for the Study of Corporate Law, Yale Law
+School
+Editorial Assistants Tamas Barko , University of Mannheim
+Vanessa Wang, University of Mannheim
+www.ecgi.org\wp
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+
+Electronic Access to the Working Paper Series
+The full set of ECGI working papers can be accessed through the Institute’s Web-site
+(www.ecgi.org/wp) or SSRN:
+Finance Paper Series http://www.ssrn.com/link/ECGI-Fin.html
+Law Paper Series http://www.ssrn.com/link/ECGI-Law.html
+www.ecgi.org\wp
+Electronic copy available at: https://ssrn.com/abstract=3227933
+Electronic copy available at: https://ssrn.com/abstract=3227933
+

@@ -1,0 +1,1247 @@
+Draft Version 4 - September 2025
+Liquid Equity Rewards
+Wulf Kaal, Ph.D.1
+Forthcoming in Handbook on Regulating Big Technology in the Era of
+Sustainability (editor: Sanita van Wyk et al.)
+Edward Elgar Publishing Ltd (2026).
+Abstract
+This article evaluates the prospects of Liquid Equity Rewards (LER), a voucher rewards
+mechanism linking capital formation and loyalty rewards through time-weighted, utility-only
+rewards for holders of equities or cryptoassets. Inspired by stablecoins, DeFi liquid staking, and
+NASDAQ’s tokenized stock framework, LER employs a bifurcated architecture: voucher-based
+rewards for brokerage-held equities and programmable, on-chain reward units for tokenized
+equities. The analysis synthesizes stablecoin adoption trends, compares LER to traditional
+loyalty and yield models, and highlights its scalability as an airdrop-like mechanism for
+dividend-like utilities. The author discusses LERs’ smart-contract design for non-speculative
+accruals, issuer voucher rewards incentives funded from marketing budgets, privacy-preserving
+verification pipelines, and a market opportunity exceeding $1 trillion amid capital reallocation to
+risk assets. LER reduces holder churn by 20-50%, boosts merchant throughput, and
+democratizes capital access, aligning with U.S. and EU regulations. Despite policy and
+implementation risks, LER offers a scalable, risk-lite path to programmable rewards across
+commerce and capital markets.
+Key Words: Blockchain, Tokenization, Loyalty Programs, Smart Contracts, Airdrops, Tokenized
+Stocks, Decentralized Finance, Financial Inclusion, Vouchers, TradFi, Equities
+JEL Categories: K20 (Regulation and Business Law), O31 (Innovation and Invention), O32
+(Management of Technological Innovation), L86 (Information and Internet Services; Computer
+Software)
+1 Professor of Law. The author is grateful for excellent research assistance from Klara Beinhorn, research
+assistant.
+1
+
+Draft Version 4 - September 2025
+Table of Contents
+Introduction.....................................................................................................................3
+Proliferation of Stablecoins in Commerce...................................................................4
+Stablecoins as Onchain Eurodollars........................................................................................5
+Economic Incentives and Functioning in Merchant Ecosystems.............................................6
+Regulatory Enablers and Implications.....................................................................................6
+Silicon Valley Shifts to Stablecoin and Rewards Systems......................................................7
+Rewards Through Tokens........................................................................................................7
+Linking Equity and Rewards....................................................................................................9
+Liquid Equity Rewards..............................................................................................................10
+Optimizing Benefits for Consumers........................................................................................11
+Balance Sheet Benefits..........................................................................................................11
+Democratizing Capital Market Access...................................................................................12
+Benefits for Listed Companies...............................................................................................13
+Benefits for Investors.............................................................................................................14
+Market Opportunity for LER......................................................................................................15
+Tokenized Stock as Foundation.............................................................................................17
+NASDAQ’s Tokenized Stock Framework and LER Scalability...............................................17
+LER as an Airdrop Mechanism for Dividend-Like Voucher Utilities.......................................18
+Legal and Regulatory Implications.........................................................................................19
+Market and Operational Benefits...........................................................................................20
+Regulatory Treatment of LER...................................................................................................21
+European Union (with Germany)...........................................................................................22
+Germany (BaFin).............................................................................................................22
+United Kingdom.....................................................................................................................22
+United States.........................................................................................................................23
+Securities Law (SEC).......................................................................................................23
+Key Legal Considerations......................................................................................................24
+Utility-Only and Non-Transferable Design.......................................................................24
+Absence of Fiat Par-Redemption and Limited Acceptance.............................................25
+Separation of Equity and Rewards..................................................................................25
+Right-Sized Anti-Money Laundering Measures...............................................................26
+Tax, VAT, and Escheat Compliance.................................................................................27
+Governance and Internal Controls...................................................................................27
+Conclusion.................................................................................................................................28
+2
+
+Draft Version 4 - September 2025
+Introduction
+The proliferation of blockchain technology and its integration into financial systems have
+catalyzed transformative innovations. Liquid Equity Rewards (LER) are a key tool to
+redefine loyalty and investment paradigms. LER leverages blockchain-based, time-weighted
+voucher reward systems to incentivize holders of equities or digital asset tokens with digital
+rewardsvouchers, thus fostering retention without liquidity trade-offs.2 This LER model
+draws inspiration and encouragement from the evolution of stablecoins and cryptocurrency
+rewards programs. In particular, those rewards programs that have been pioneered by
+former metaverse startups, which shifted from speculative virtual metaverse ecosystems to
+practical, tokenized loyalty rewardds frameworks.3 By extending these metaverse
+innovations, LER bridges traditional retail commerce with capital markets, democratizing
+access to high yield-seeking finance opportunities through routine e-commerce
+participation.4 The proliferation of cryptocurrency stablecoins, functioning as onchain
+analogues to Eurodollars, has significantly encouraged and facilitated this convergence.
+Stablecoins allwo merchants to issue dollar-pegged tokens, thus reducing transaction costs
+and disintermediating traditional banking systems and their fees.5 Supported by regulatory
+advancements like the 2025 Guiding and Establishing National Innovation for U.S.
+Stablecoins (GENIUS) Act, LER capitalizes on a $1 trillion-plus total addressable market
+(TAM), driven by a $10 trillion capital reallocation from fixed income to equities and crypto.6
+2 The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-program
+s.html]
+3 Dan Roberts, Stablecoins and National Security: Learning the Lessons of Eurodollars,
+Brookings (Apr. 17, 2024),
+https://www.brookings.edu/articles/stablecoins-and-national-security-learning-the-lessons-of
+-eurodollars/
+4 Kraken and Backed Announce Strategic Collaboration with Tron DAO to Broaden Access
+to Tokenized Equities, CoinTelegraph (2025),
+https://cointelegraph.com/press-releases/kraken-and-backed-announce-strategic-collaborati
+on-with-tron-dao-to-broaden-access-to-tokenized-equities]
+5 Ledger Insights Staff, Innovate Finance Proposes the UK Becoming the ‘Eurodollar
+Market’ for Stablecoins, Ledger Insights (Mar. 6, 2025),
+https://www.ledgerinsights.com/innovate-finance-uk-eurodollar-market-stablecoins/]
+6 Latham & Watkins LLP, The GENIUS Act of 2025 Stablecoin Legislation Adopted in the
+US, Latham & Watkins (July 24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-
+us; Global Bonds Have Lost $10 Trillion in Market Value Since 2021, Bloomberg (Sept. 20,
+3
+
+Draft Version 4 - September 2025
+Thus, positioning LER as a transformative force in hybridized finance and loyalty
+ecosystems. In this paper, the author explores LER’s potential to disrupt traditional financial
+and loyalty reward paradigms, through an examination of its alignment with market trends,
+regulatory frameworks, and technological innovations.
+Proliferation of Stablecoins in Commerce
+Stablecoins are blockchain-based tokens typically pegged to TradFi assets, including but not
+limited to the U.S. dollar, that aim to maintain stable value via 1:1 reserves and redemption
+mechanisms, thus enabling low-cost, transparent settlement through smart contracts.7 By 2025,
+stablecoins in circulation exceeded roughly $250 billion, led by the USDT/USDC stablecoins in
+particular. Stablecoins’ on-chain transfer volumes reached the trillions, surpassing $1 trillion per
+month by early 2025.8
+The accelerating proliferation of stablecoins, particularly those issued by major merchants such
+as Amazon and Walmart, transforms global finance. This stablecoin-powered transformation
+can be analogized to the dynamics of a Eurodollar market on blockchain platforms.9
+Retailer-issued stablecoins function as an onchain Eurodollar play that enables the
+decentralized creation of dollar-denominated liquidity, thus reducing transaction costs, and
+disintermediating traditional banking systems and their fees.10 Merchants can capture value in
+global commerce by issuing U.S. dollar-pegged tokens, thus mirroring Japan's strategic yen
+2022),
+https://www.bloomberg.com/news/articles/2022-09-20/global-bonds-have-lost-10-trillion-in-
+market-value-since-2021]
+7 European Central Bank, From Hype to Hazard: What Stablecoins Mean for Europe (July 28,
+2025),
+https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250728~e6cb3cf8b5.en.html;
+Timothy G. Massad et al., How We Can Regulate Stablecoins Now—Without Congress,
+Brookings/Hutchins Center Working Paper (Aug. 2022),
+https://www.brookings.edu/wp-content/uploads/2022/08/WP76-Massad-et-al_v4.pdf]
+8 [Financial Times, “Stablecoins’ Surge Raises Risks to Financial Stability” (Aug. 2, 2025),
+https://www.ft.com/content/cd3f6f58-7b44-499b-9a0f-2f1d7a5bad7c; Quartz, “Visa’s New
+Dashboard Shows $2.2 Trillion Moving Through Stablecoins Each Month” (June 7, 2025),
+https://qz.com/visa-stablecoin-analytics-dashboard-1851591490; PaymentExpert, “Visa
+Launches Onchain Analytics Dashboard with Allium” (May 29, 2024),
+https://paymentexpert.com/2024/05/29/visa-onchain-analytics-dashboard-allium/ ]
+9 Timothy G. Massad, Stablecoins and National Security: Learning the Lessons from
+Eurodollars, Brookings (Apr. 17, 2024),
+https://www.brookings.edu/articles/stablecoins-and-national-security-learning-the-lessons-of-eur
+odollars/
+10 Ledger Insights Staff, Innovate Finance proposes the UK becoming the ‘Eurodollar market’ for
+stablecoins (Mar. 6, 2025),
+https://www.ledgerinsights.com/innovate-finance-uk-eurodollar-market-stablecoins/.
+4
+
+Draft Version 4 - September 2025
+depreciation while avoiding its import cost drawbacks.11 Such merchant-issued stablecoins
+replicate the Eurodollar model by decentralizing the dollar-liquidity creation, which offers
+significant cost efficiencies, and positions retailers as pivotal actors in the digital economy.12
+Which, in turn, has significant implications for global finance.
+Stablecoins as Onchain Eurodollars
+Eurodollars became popular as an instrument that could satisfy global demand for dollar-based
+transactions after World War II. Eurodollars are defined as U.S. dollar deposits held outside the
+United States. The Eurodollars mechanics create liquidity without direct U.S. regulatory
+oversight.13 Stablecoins extend this model through their ability to create digital dollars backed by
+reserves such as cash or treasuries.14 In effect, merchants that issue stablecoins mint onchain
+dollars, thus bypassing banks and facilitating programmable, borderless payments.15
+In practice, merchants like Amazon or Walmart, among others, issue stablecoins by accepting
+fiat deposits, converting them into tokens. That creates, for example, an “Amazon USD,” which
+consumers use for instant, onchain, low-cost transactions within the respective merchant
+ecosystems.16 Because these merchant issued stablecoins operate onchain, smart contracts
+automate settlement and redemption, thus ensuring transparency and efficiency.17 This
+merchant-issued proprietary stablecoin issuance mechanism mirrors Eurodollar creation, where
+an offshore bank generates dollars through lending. However, stablecoins enable the leveraging
+11 Axios Staff, Why retailers like Amazon and Walmart are looking into stablecoins (June 13,
+2025), https://www.axios.com/2025/06/13/amazon-walmart-stablecoin
+12 ECB Staff, From hype to hazard: what stablecoins mean for Europe (July 28, 2025),
+https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250728~e6cb3cf8b5.en.html ;
+Sidley Austin LLP, The GENIUS Act: A Framework for U.S. Stablecoin Issuance (July 21, 2025),
+https://www.sidley.com/en/insights/newsupdates/2025/07/the-genius-act-a-framework-for-us-sta
+blecoin-issuance ].
+13 Timothy G. Massad, Stablecoins and National Security: Learning the Lessons from
+Eurodollars, Brookings (Apr. 17, 2024),
+https://www.brookings.edu/articles/stablecoins-and-national-security-learning-the-lessons-of-eur
+odollars/]
+14 Funds Society Staff, Stablecoins Could Become the Largest Offshore Market, Surpassing the
+Eurodollar (2025),
+https://www.fundssociety.com/en/news/markets/stablecoins-could-become-the-largest-offshore-
+market-surpassing-the-eurodollar/]
+15 Chicago Booth Review Staff, In Stablecoins We Trust? (Aug. 5, 2025),
+https://www.chicagobooth.edu/review/in-stablecoins-we-trust ]
+16 Why Walmart and Amazon Are Reportedly Considering Their Own Crypto Stablecoins,
+Investopedia (June 13, 2025),
+https://www.investopedia.com/why-walmart-and-amazon-are-reportedly-considering-their-own-cr
+ypto-stablecoins-11754112 ; Amazon, Walmart Weigh Stablecoins as Senate Backs Framework,
+The Wall Street Journal (June 13, 2025),
+https://www.wsj.com/finance/currencies/amazon-walmart-stablecoin-regulation-crypto-15af8b39
+]
+17 Axios Staff, Why retailers like Amazon and Walmart are looking into stablecoins (June 13,
+2025), https://www.axios.com/2025/06/13/amazon-walmart-stablecoin
+5
+
+Draft Version 4 - September 2025
+of blockchain’s transparency and global reach, thus potentially surpassing the historical
+Eurodollar market’s scale by integrating with e-commerce’s trillion-dollar volumes.18
+Economic Incentives and Functioning in Merchant Ecosystems
+In this emerging onchain marketplace of stablecoins, traditional retail merchants adopt such
+stablecoins in an effort to arbitrage inefficiencies in traditional payment systems. Such
+inefficiencies include the often exorbitant fee structures, that allow card networks, processors,
+and banks to capture substantial fee revenue. The ability to reduce interchange and processing
+costs is a key incentive for traditional merchants.19 Furthermore, stablecoins can reduce costs
+while enabling loyalty rewards programs and data analytics through tokenized ecosystems.20
+To capitalize on the benefits of this Eurodollar-like play, retail merchants are required to hold
+cryptocurrency reserves to back their proprietary stablecoins. This creates onchain liquidity
+pools that circulate globally without central bank involvement, akin to offshore dollar creation.21
+The analogy to Japan’s yen strategy highlights the arbitrage inherent in the merchant issued
+stablecoins: Japan weakens the yen to make exports cheaper, thus incurring higher import
+costs. By contrast, U.S. retailers maintain USD-denominated supply chains, thus capturing fee
+savings without those trade-offs.22 Accordingly, merchant issued proprietary stablecoins thus
+enable merchants to offer “cheaper” payments via tokenized discounts, strengthening their
+ecosystems.23
+18 ECB Staff, From hype to hazard: what stablecoins mean for Europe (July 28, 2025),
+https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250728~e6cb3cf8b5.en.html ;
+Chicago Booth Review Staff, In Stablecoins We Trust? (Aug. 5, 2025),
+https://www.chicagobooth.edu/review/in-stablecoins-we-trust ]
+19 [Visa Inc., Fiscal 2024 Annual Report (Nov. 13, 2024),
+https://s29.q4cdn.com/385744025/files/doc_downloads/2024/Visa-Fiscal-2024-Annual-Report.p
+df ; FXC Intelligence Staff, Payment processors’ 2024 trends: a year in data (Dec. 12, 2024),
+https://www.fxcintel.com/research/reports/ct-payment-processors-2024-trends ; Investopedia,
+Why Walmart and Amazon Are Reportedly Considering Their Own Crypto Stablecoins (June 13,
+2025),
+https://www.investopedia.com/why-walmart-and-amazon-are-reportedly-considering-their-own-cr
+ypto-stablecoins-11754112 ; Axios, Why retailers like Amazon and Walmart are looking into
+stablecoins (June 13, 2025), https://www.axios.com/2025/06/13/amazon-walmart-stablecoin ]
+20 Chicago Booth Review Staff, In Stablecoins We Trust? (Aug. 5, 2025),
+https://www.chicagobooth.edu/review/in-stablecoins-we-trust ; CAIA Association Staff, Are
+Stablecoins Tokenized Eurodollars? (Oct. 13, 2023),
+https://caia.org/blog/2023/10/13/are-stablecoins-tokenized-eurodollars ].
+21 CAIA Association Staff, Are Stablecoins Tokenized Eurodollars? (Oct. 13, 2023),
+https://caia.org/blog/2023/10/13/are-stablecoins-tokenized-eurodollars ]
+22 [AMRO Staff, Are yen fluctuations playing a bigger role in shaping the Japanese economy?
+(May 29, 2025),
+https://amro-asia.org/are-yen-fluctuations-playing-a-bigger-role-in-shaping-the-japanese-econo
+my/ ].
+23 Investopedia, Why Walmart and Amazon Are Reportedly Considering Their Own Crypto
+Stablecoins (June 13, 2025),
+6
+
+Draft Version 4 - September 2025
+Regulatory Enablers and Implications
+Several regulatory changes have enabled the outcomes of merchant issued proprietary
+stablecoins as explored above. For example, the Guiding and Establishing National Innovation
+for U.S. Stablecoins (GENIUS) Act of 2025, signed into law in July 2025, enables
+merchant-issued stablecoins by mandating 1:1 reserve backing, audits, and AML compliance.24
+After the GENIUS act was passed, the US treasury issued a request for comment to implement
+the law.25
+The shift inaugurated by the GENIUS act pressured traditional banks and processors because
+payment-stock prices declined based on merchant-stablecoin headlines.26 Challenges include
+adoption hurdles and reserve-management risks, necessitating robust oversight.27
+https://www.investopedia.com/why-walmart-and-amazon-are-reportedly-considering-their-own-cr
+ypto-stablecoins-11754112 ]
+24 Office of Management and Budget Archive, Executive Order on Safe and Sound Money (July
+17, 2025),
+https://trumpwhitehouse.archives.gov/briefing-room/presidential-actions/2025/07/17/executive-o
+rder-on-safe-and-sound-money/ ; Latham & Watkins LLP, The GENIUS Act of 2025 Stablecoin
+Legislation Adopted in the US (July 24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us ;
+Sidley Austin LLP, The GENIUS Act: A Framework for U.S. Stablecoin Issuance (July 21, 2025),
+https://www.sidley.com/en/insights/newsupdates/2025/07/the-genius-act-a-framework-for-us-sta
+blecoin-issuance ]
+25 U.S. Department of the Treasury, Treasury Issues Request for Comment Related to the
+GENIUS Act (Aug. 18, 2025), https://home.treasury.gov/news/press-releases/ls463 ; World
+Economic Forum Staff, How will the GENIUS Act work in the US and impact the world? (July 29,
+2025), https://www.weforum.org/stories/2025/07/stablecoin-regulation-genius-act/ ]
+26 [CNBC (Tanaya Macheel), What Amazon and Walmart’s reported stablecoin exploration
+means for payments stocks (June 16, 2025),
+https://www.cnbc.com/2025/06/16/what-amazon-and-walmarts-reported-stablecoin-exploration-
+means-for-payments-stocks.html ]
+27 Ron Shevlin, Americans Will Put Money in Amazon and Walmart Stablecoins, Forbes (June
+22, 2025),
+https://www.forbes.com/sites/ronshevlin/2025/06/22/americans-will-put-money-in-amazon-and-w
+almart-stablecoins/ ; Arnold & Porter, What You Need To Know About the New Stablecoin
+Legislation (July 21, 2025),
+https://www.arnoldporter.com/en/perspectives/advisories/2025/07/new-stablecoin-legislation-an
+alyzing-the-genius-act ]
+7
+
+Draft Version 4 - September 2025
+Silicon Valley Shifts to Stablecoin and Rewards
+Systems
+Rewards Through Tokens
+Following the 2021–2022 metaverse boom and bust in 2023, those Silicon Valley firms that had
+a presence in attempts to create the metaverse had to pivot. That pivot for many of those firms
+involved a move toward stablecoins and crypto-based rewards. In effect, these firms moved
+from speculative virtual metaverse worlds to regulated, utility-centric fintech rails. Through
+stablecoin-enabled programmable, low-cost payments; the issuance of rewards tokens translate
+Web3 engagement mechanics into compliant real-world loyalty programs. This strategic pivot by
+silicon valley firms reflects both the waning metaverse momentum and maturing policy
+frameworks.28
+Several prominent firms highlight the concrete stablecoin and rewards adoption signals that are
+observable in both payments and loyalty programs. For example, PayPal launched PYUSD, a
+U.S. dollar stablecoin used for low-friction transfers and commerce. PayPal later expanded
+support on Solana.29 Visa piloted and then expanded USDC settlements, including on Solana,
+thus tightening card networks’ links to stablecoin rails.30 Among the former metaverse leaders
+who are retooling are Sandbox and Vatom. The Sandbox restructured its operations significantly
+in an effort to shift its business model from virtual-land speculation to Web3 engagement and
+token programs.31 Similarly, platforms like Vatom have engaged in a full loyalty pivot, offering
+“Smart Digital Objects,” wallets, and campaign tooling that let merchant brands issue and
+manage tokenized rewards without user frictions.32
+At the same time, several consumer brands with consumer-facing crypto rewards have matured
+beyond NFT collectibles into scalable, gamified loyalty programs. For example, Nike’s
+.SWOOSH demonstrates that tokenized perks can bridge both digital and physical value, while
+28 Dan Roberts, Stablecoins and National Security: Learning the Lessons of Eurodollars,
+Brookings (Apr. 17, 2024),
+https://www.brookings.edu/articles/stablecoins-and-national-security-learning-the-lessons-of-eur
+odollars/]; [Lauren Goode, The Metaverse Is (Still) Not a Thing, WIRED (Sept. 17, 2024),
+https://www.wired.com/story/metaverse-hype-dead/]. (Stripe)
+29 PayPal, PayPal USD (PYUSD) on Solana: White Paper & Docs (2024),
+https://www.paypalobjects.com/crypto/PYUSD-Solana-Whitepaper.pdf]
+30 Gemini Team, Visa Expands Stablecoin Settlement to Solana (Sept. 5, 2023),
+https://www.gemini.com/blog/visa-expands-stablecoin-settlement-to-solana]
+31 [Tech in Asia Staff, The Sandbox Cofounder Departs; Company to “Go Leaner” (July 21,
+2025), https://www.techinasia.com/sandbox-cofounder-departs]
+32 [Vatom, Platform Overview (accessed Aug. 2025), https://www.vatom.com/]. (The Block,
+Gemini, Stripe).
+8
+
+Draft Version 4 - September 2025
+Latin American fintech companies, such as Nubank’s Nucoin, have positioned their tokens
+explicitly as engagement and loyalty rewards assets rather than speculative investments.33
+In a perfect regulatory storm, the aforementioned legal policies have helped normalize the
+pivots by metaverse and silicon valley companies. U.S. proposals and guidance, such as, for
+example the 2025 discussions around the GENIUS Act, as well as the European debates have
+clarified reserve, audit, and AML expectations for stablecoins. This gives large tech firms a
+pathway to deploy compliant, fiat-backed tokens and to structure rewards as utility and not
+investment programs.34
+Linking Equity and Rewards
+Former metaverse startups that are pivoting toward cryptocurrency rewards programs, have
+introduced new mechanisms to incentivize user participation through tokenized equity and
+assets. Through these new mechanisms these firms are effectively merging retail commerce
+with traditional financial structures common on Wall Street. These programs typically reward
+consumers for purchasing tokenized equity, aka equity-like tokens, which are typically labelled
+legally as governance or utility tokens. But only for long-term holding. Thus, creating a new
+market for tokenized equity rewards that functions as a decentralized form of dividends. In this
+framework, purchasing equity or tokens is rewarded via immediate bonuses, such as via
+airdrops, or enhanced staking yields. Holding duration of equities or tokens triggers time-based
+accruals such as compounding interest or loyalty dividends paid in additional tokens, thus
+fostering user retention and ecosystem liquidity.35 For example, platforms like The Sandbox and
+Decentraland, originally metaverse-focused enterprises that had to pivot away from the
+metaverse, now offer rewards for token purchases by granting access to exclusive NFTs or
+virtual land parcels upon acquisition. This is in effect simulating equity investment with
+immediate value appreciation. Their model enables users to transact in virtual economies while
+treating tokens as tradable securities.36 Rewards for holding duration of equities or stocks are
+structured through staking mechanisms, where users lock tokens for specified periods to earn
+proportional yields. Yields can be earned typically in the form of additional tokens or governance
+voting power, thus mirroring dividend payouts but with blockchain-enforced transparency and
+automation. For example, Axie Infinity allows holders of AXS tokens to stake for rewards based
+on holding time of said token, thus generating passive income similar to stock dividends while
+33 Nike, Introducing .SWOOSH (Nov. 14, 2022),
+https://about.nike.com/en/newsroom/releases/introducing-dot-swoosh]; The Paypers Staff,
+Nubank Partners with Polygon to Expand Nucoin Loyalty Programme (Mar. 2023),
+https://thepaypers.com/crypto-web3-and-cbdc/news/nubank-partners-polygon-to-expand-nucoin
+-reach—1262544]. (thepaypers.com).
+34 Latham & Watkins, The GENIUS Act of 2025: Stablecoin Legislation Adopted in the US (July
+24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us]
+35 Metaverse tokens or metaverse stocks – Who’s the boss?, ScienceDirect (2024),
+https://www.sciencedirect.com/science/article/abs/pii/S0275531924000515]
+36 7 Top Metaverse Coins – Forbes Advisor, Forbes (2024),
+https://www.forbes.com/advisor/investing/cryptocurrency/top-metaverse-coins/]
+9
+
+Draft Version 4 - September 2025
+integrating play-to-earn commerce.37 This convergence democratizes access to capital markets
+because consumers engage in e-commerce by purchaasing buying virtual assets while at the
+same time accruing Wall Street-style investment returns. This establishes a new paradigm for
+equity rewards because tokens serve as hybrid instruments that blend dividend funtionality with
+programmable cryptocurrency incentives.38 Such innovations deriving from transitions from
+metaverse hype to sustainable Web3 models, position these startups as pioneers in a tokenized
+economy that redefines dividends through holding period-based cryptocurrency accruals. This
+model disrupts traditional finance through the combination of everyday commerce with
+investment yields.39
+Liquid Equity Rewards
+The Liquid Equity Rewards (LER) model represents a sophisticated evolution of
+blockchain-based loyalty mechanisms examined in the earlier sections. LER extend the loyalty
+rewards programs pioneered by metaverse startups to create a transformative convergence of
+e-commerce and capital markets. LER enables loyalty without liquidity constraints, leveraging
+decentralized finance (DeFi) principles to enhance user retention and ecosystem participation.
+This is possible through rewarding verified holders of stocks or tokens with time-based, smart
+contract-driven reward units or vouchers.
+The LER framework enables the integration of automated, tenure-based voucher rewards
+accruals that combine traditional retail merchant commerce with Wall Street-style investment
+opportunities. By enabling consumers to earn dividend-like voucher rewards through routine
+e-commerce activities, LER democratizes access to capital markets. LER establish a new
+market for tokenized voucher rewards dividends with a projected disruption potential of $500
+billion by 2030.40
+LER systematizes voucher rewards for holding equity-like tokens or traditional stocks, thus
+automating voucher rewards accruals via smart contracts for specified holding periods. At the
+same time, LER offer consumptive voucher-based utilities that emulate metaverse startups’
+shift toward practical, user-centric incentives. Unlike metaverse-specific rewards, LER extends
+applicability to both on-chain tokenized equities and off-chain brokerage-held stocks. Thus,
+broadening the LER model’s scope and aligning it with regulatory tailwinds such as, for
+37 Top 10 Metaverse Crypto Projects to Watch in 2025, KuCoin (2025),
+https://www.kucoin.com/learn/web3/top-metaverse-crypto-projects-to-watch
+38 6 Best Metaverse Crypto Coins to Buy in May 2025, Invezz (2025),
+https://invezz.com/cryptocurrency/metaverse/best-metaverse-coins/
+39 Metaverse Crypto Coins - Are They Good to Invest?, Token Metrics,
+https://www.tokenmetrics.com/blog/metaverse-crypto-coins
+40 The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml
+10
+
+Draft Version 4 - September 2025
+example, the 2025 U.S. safe harbor proposals and the EU’s Markets in Crypto-Assets (MiCA)
+framework.41
+To summarize key benefits of the LER system: LER introduces a new approach to generating
+economic value, distinct from traditional dividend systems and loyalty programs. Unlike
+conventional loyalty rewards methods, LER does not require asset lock-ups, thus ensuring that
+participants retain full control over their assets. LER avoids creating balance sheet liabilities,
+thereby maintaining financial flexibility for issuers. Additionally, LER does not generate taxable
+income events, thus offering tax efficiency for participants. By preserving liquidity, LER enables
+seamless access to funds, making it a highly adaptable and efficient mechanism for value
+creation in modern financial ecosystems.
+For companies, LER transforms marketing spend into shareholder value, reduces stock price
+volatility, expands access to a global investor base, and simplifies regulatory compliance. For
+investors, LER delivers a powerful combination of traditional equity returns and consumption
+benefits. LER preserves liquidity, provides access to a global spending network, and facilitates
+portfolio diversification. By addressing the limitations of traditional financial models, LER creates
+a mutually beneficial ecosystem that aligns the interests of companies and investors, thus
+paving the way for a more flexible, inclusive, and rewarding approach to modern investing.
+Optimizing Benefits for Consumers
+LER improves voucher rewards programs for consumers by introducing a bifurcated model that
+distinguishes between voucher-based rewards for traditional equities and programmable
+voucher reward units for tokenized equities. This duality enhances scalability and financial
+efficiency. For example, metaverse platform companies traditionally rewarded token purchases
+with immediate benefits, such as exclusive NFTs or virtual assets, to incentivize user
+acquisition.42 LER extends this metaverse idea by automating time-weighted voucher rewards
+accruals, allowing holders of tokens or stocks to receive voucher loyalty rewards proportional to
+holding duration. But, LER does not require lock-ups for the underlying equity or token assets,
+thus increasing liquidity and reducing sell pressure on the underlying equity or token assets.
+This LER mechanism derives in part from DeFi liquid staking, where users earn yields without
+sacrificing tradability of the underlying asset, but LER adapts it to e-commerce ecosystems by
+focusing on consumptive utilities rather than speculative yields, thus mitigating volatility risks.
+41 Safe Harbor 2.0: A Practical Framework for Achieving Clarity for Good-Faith Blockchain Token
+Projects, U.S. Securities and Exchange Commission (Apr. 3, 2021),
+https://www.sec.gov/news/public-statement/peirce-statement-safe-harbors-3.0-2021; Regulation
+(EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on Markets in
+Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj]
+42 6 Best Metaverse Crypto Coins to Buy in May 2025, Invezz (2025),
+https://invezz.com/cryptocurrency/metaverse/best-metaverse-coins/]
+11
+
+Draft Version 4 - September 2025
+Balance Sheet Benefits
+Balance sheet benefits for the LER issuers are part of the LER design. LER optimizes issuer
+benefits by funding rewards from issuers’ marketing budgets. As such, they are treated as
+immediate expenses under U.S. GAAP (ASC 606) and IFRS 15. This avoids balance sheet
+liabilities associated with traditional loyalty points’ deferred revenue.43 Because LER voucher
+reward redemptions generate revenue at fiat parity, LER enhance throughput and potentially
+improve LER issuers’ credit ratings and lower borrowing costs. Large LER issuers are projected
+to save up to $440 million annually through debt refinancing.44 Because LER voucher loyalty
+rewards incentivize sustained engagement in economies, for LER voucher loyalty reward
+issuers, this translates to measurable returns on investment through increased user spending
+and retention, estimated at 20-50% uplifts. 45
+Democratizing Capital Market Access
+LER’s convergence of merchant-based e-commerce and capital market functionality
+democratizes financial inclusion. Through LERs, consumers are enabled to earn equity-like
+voucher loyalty rewards through routine participation in metaverse or retail e-commerce
+ecosystems. LER, thus, create a new market for tokenized dividends. Consumers purchasing
+tokens or stocks in metaverse platforms, such as, for example virtual land in The Sandbox or
+governance tokens in Axie Infinity, can receive immediate LER voucher loyalty rewards. As
+such, consumers accrue time-based benefits, similar to dividends but allowing direct
+consumptions via voucher redemption, which can be spent across merchant networks or traded
+in secondary markets.46 This mirrors traditional dividend payouts but leverages blockchain’s
+programmability of smart contracts for seamless, automated voucher loyalty rewards
+distribution. This aligns with the $10 trillion capital reallocation from low-yielding fixed income,
+with U.S. Treasuries at 4.23% in 2025, to equities and crypto, where DeFi total value locked
+reached $154 billion in 2025.47
+LER facilitates fractional ownership and 24/7 trading through the integration of tokenized
+equities. Examples include collaborations like Kraken and Backed on the Tron network. For the
+43 How to Measure Marketing ROI, Harvard Business Review (Jan. 2020),
+https://hbr.org/2020/01/how-to-measure-marketing-roi].
+44 The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml]
+45 [Money, Tokens, and Games: Blockchain’s Next Billion Users and Trillions in Value, Citi Global
+Perspectives & Solutions (2023),
+https://www.citivelocity.com/citigps/money-tokens-and-games/].
+46 [Top 10 Metaverse Crypto Projects to Watch in 2025, KuCoin (2025),
+https://www.kucoin.com/learn/web3/top-metaverse-crypto-projects-to-watch]
+47 [Global Bonds Have Lost $10 Trillion in Market Value Since 2021, Bloomberg (Sept. 20,
+2022),
+https://www.bloomberg.com/news/articles/2022-09-20/global-bonds-have-lost-10-trillion-in-mark
+et-value-since-2021; DeFiLlama Dashboard, DeFiLlama (2025), https://defillama.com/]
+12
+
+Draft Version 4 - September 2025
+first time, LER make capital markets accessible to everyday consumers engaging in
+e-commerce activities, be it purchasing virtual goods or participating in voucher loyalty reards
+programs.48 As such, LER democratize investment opportunities, because users gain exposure
+to yield-seeking mechanisms without traditional barriers. This, in turn, increases network effects
+and positions pivoting metaverse startups as pioneers in a tokenized economy with
+multi-trillion-dollar potential by 2030.49 Regulatory frameworks, such as the EU’s MiCA and
+proposed U.S. safe harbors, further support this LER-based convergence by providing clarity for
+utility-focused tokens. This enhanced clarity minimizes securities law risks and enables LER to
+redefine dividends as programmable, consumptive rewards in a digital landscape.50
+Benefits for Listed Companies
+The LER system enables listed companies to transform their marketing expenditures into a
+strategic tool for enhancing shareholder value. Instead of allocating budgets to conventional
+advertising campaigns with indirect or uncertain returns, in the LER system, companies can
+channel these resources into LER-based voucher rewards that directly benefit shareholders.
+These rewards, in the form of consumption-based voucher incentives, foster stronger
+engagement and loyalty among investors. By aligning marketing efforts with shareholder
+interests, LER creates a virtuous cycle where promotional voucher activities not only elevate
+brand visibility but also contribute to sustained equity value, strengthening the company’s
+market position and investor confidence.
+Furthermore, LER reduces stock price volatility by alleviating the selling pressure on stock
+holders which is otherwise often observed in traditional equity markets. Shareholders are
+frequently compelled to sell shares to realize gains or meet liquidity needs. Selling pressure can
+destabilize stock prices. LER counteracts selling pressure by offering ongoing
+consumption-based voucher rewards that incentivize shareholders to retain their investments
+over the long term. This retention effect stabilizes demand for the company’s stock, resulting in
+lower price fluctuations and a more predictable stock market performance for the issuer. In an
+era of economic uncertainty, this LER enhanced market stability is a critical advantage, thus
+enabling companies to maintain investor trust and market resilience.
+48 Kraken and Backed Announce Strategic Collaboration with Tron DAO to Broaden Access to
+Tokenized Equities, CoinTelegraph (2025),
+https://cointelegraph.com/press-releases/kraken-and-backed-announce-strategic-collaboration-
+with-tron-dao-to-broaden-access-to-tokenized-equities]
+49 Asset Tokenization: The Trillion-Dollar Opportunity, BCG (Sept. 21, 2022),
+https://www.bcg.com/press/21september2022-asset-tokenization]
+50 Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on
+Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj; Safe Harbor 2.0: A Practical Framework for
+Achieving Clarity for Good-Faith Blockchain Token Projects, U.S. Securities and Exchange
+Commission (Apr. 3, 2021),
+https://www.sec.gov/news/public-statement/peirce-statement-safe-harbors-3.0-2021]
+13
+
+Draft Version 4 - September 2025
+By integrating consumption-based voucher loyalty rewards that are accessible worldwide, LER
+empowers listed companies to attract and retain a diverse, global investor base. The LER
+system’s voucher rewards, redeemable through established merchant networks, appeal to
+investors across different regions and demographics, thus broadening the company’s reach
+beyond traditional markets. Furthermore, the continuous nature of these rewards increases
+investor loyalty, as shareholders are incentivized to maintain their holdings to access ongoing
+voucher loyalty benefits. This combination of global accessibility and enhanced retention
+positions LER as a powerful tool for companies that are seeking to build a robust, loyal, and
+geographically diverse investor community.
+LER operates within a simplified regulatory framework, offering a significant advantage over the
+complex compliance requirements of US and EU financial regulations. Unlike traditional
+financial instruments that may create balance sheet liabilities or trigger taxable income events,
+LER is designed to avoid such complications, thus reducing the administrative and financial
+burden of compliance. This streamlined LER approach allows companies to implement LER
+efficiently, while at the same time minimizing the costs and complexities associated with
+navigating stringent regulatory environments. By lowering these barriers, LER enables
+companies to adopt innovative reward systems while at the same time adhering to global
+financial standards, thus making it an attractive option for issuers worldwide.
+Benefits for Investors
+Investors participating in LER-enabled companies enjoy a covincing dual-value proposition that
+combines traditional equity returns, such as for example capital appreciation and dividends, with
+tangible voucher rewards consumption benefits. These voucher consumption benefits, which
+may include discounts, rewards, or access to goods and services through a global merchant
+network, enhance the overall return on investment. Unlike traditional stock-based dividends,
+which are often subject to taxation and require reinvestment decisions, LER’s consumption
+voucher rewards provide immediate, practical value that investors can seamlessly integrate into
+their daily lives. This combination of financial and lifestyle benefits creates a more rewarding
+and engaging investment experience.
+A hallmark of the LER system is its commitment to preserving investor liquidity. Thus, allowing
+shareholders to maintain full flexibility in managing their investments. Unlike certain financial
+instruments in DeFi that impose lock-up periods or penalties for early withdrawals, LER ensures
+that investors can buy, sell, or hold shares without restrictions. This liquidity is particularly
+valuable in dynamic market conditions, thus enabling investors to respond to personal financial
+needs or capitalize on market opportunities without sacrificing access to LER’s rewards. By
+eliminating lock-up penalties, LER empowers investors with greater control over their portfolios.
+Depending on the merchant network integration, LER provides investors with seamless access
+to a global spending network. The chosen merchant network allows shareholders to redeem
+their consumption-based voucher rewards across a diverse range of products and services. The
+global reach and versatility of these rewards enhance their practical value. This makes LER an
+14
+
+Draft Version 4 - September 2025
+attractive proposition for investors seeking tangible benefits that transcend local markets. By
+leveraging trusted merchant ecosystems, LER ensures that rewards are both accessible and
+meaningful on a global scale.
+The LER system offers investors a new opportunity to diversify their portfolios. Diversification
+comes through LER exposure to innovative, high-growth companies, particularly those in
+emerging markets. Companies adopting LER are often positioned as forward-thinking leaders in
+their industries, thus leveraging this system to differentiate themselves in competitive
+landscapes. By investing in these firms, shareholders can balance risk and reward across
+diverse geographies and sectors, thus capitalizing on the growth potential of emerging markets.
+This diversification not only enhances long-term return prospects but also aligns investors with
+the evolving dynamics of global finance, where innovation and adaptability are key drivers of
+scaling success.
+Market Opportunity for LER
+The Total Addressable Market (TAM) for LER refers to the aggregate revenue potential available
+within the broader financial and loyalty ecosystems that LER seeks to disrupt. As such, the LER
+TAM encompasses yield-seeking capital reallocations, equity investments, cryptocurrency
+staking, and tokenized loyalty programs. Based on available market analyses, the TAM for LER
+exceeds $1 trillion, because of the "great reallocation" of capital from underperforming
+fixed-income assets to higher-yielding alternatives like equities and DeFi. This effect is further
+supported by regulatory advancements and converging trends in loyalty and blockchain
+utilities.51 These combined factors position LER as a "risk-lite" mechanism that creates a
+significant markt opportunity by rewarding stock or token holders with time-based utilities,
+mimicking DeFi staking yields, typically around 4-11%, without lock-ups. LER avoid investor
+churn combined with enhanced retention and ecosystem stickiness.52 The LER market
+opportunity is amplified by structural shifts in global finance. Those shifts include bond-to-equity
+flights, crypto yield booms, regulatory tailwinds, DeFi-loyalty convergences and the potential for
+10x growth in a bull case scenario. However, the LER market opportunity is tempered by risks
+such as yield compression and regulatory delays.53
+From the years 2015 to 2025, U.S. Treasuries encountered persistent performance issues, with
+10-year yields averaging approximately 2.5-3% before spiking to around 4.23% in 2025. This
+51 Global Bonds Have Lost $10 Trillion in Market Value Since 2021, Bloomberg (Sept. 20, 2022),
+https://www.bloomberg.com/news/articles/2022-09-20/global-bonds-have-lost-10-trillion-in-mark
+et-value-since-2021]
+52 What is Staking Crypto?, Kraken (last visited Aug. 29, 2025),
+https://www.kraken.com/learn/what-is-staking-crypto]
+53 Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on
+Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj]
+15
+
+Draft Version 4 - September 2025
+contributed to significant price erosion exemplified by over 15% losses in 2022.54 Cumulative
+performance returns for long-term Treasuries during this period ranged from 20-30%. Treasuries
+often yielded no or negative real returns after inflation adjustments, thus starkly underperforming
+equities such as the S&P 500, which delivered over 200% cumulative returns.55 This
+performance disparity triggered a $10 trillion capital exodus from fixed income to alternatives
+investments. In particular, since 2021, marking one of the worst bear markets in history, global
+bond markets experienced historic losses.56 This reallocation is driven by investors’
+yield-seeking behaviors. Equities attracted over $500 billion in annual ETF inflows, with
+alternative investments expanding to $18 trillion in assets under management (AUM). DeFi total
+value locked (TVL) reached approximately $154 billion in 2025, up $66 billion from the prior
+year.57
+In light of these developments, key shifts enabling LER's market opportunity include:
+● Bond-to-Equity Flight: Trillions of dollars that migrated to stocks amid bond
+underperformance. LER can capitalize on this by rewarding long-term holds with voucher
+rewards utilities that have the capacity to minimize volatility, similar to DeFi staking but
+without the DeFi restrictions.58
+● Crypto Yield Boom: Cryptocurrencies are gaining significant traction with big
+institutions, nearly doubling the crypto market's value to around $2 trillion. In the world of
+DeFi, investors can earn annual returns between 3% and 18% by staking or restaking
+cryptocurrencies. The LER model is applying the DeFi logic to stocks and digital tokens,
+aiming to shake up the $500 billion loyalty program industry by offering safer, 'risk-lite'
+54 Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an
+Investment Basis, Federal Reserve Economic Data (last visited Aug. 29, 2025),
+https://fred.stlouisfed.org/series/DGS10]
+55 S&P 500 Historical Annual Returns (1927-2025), Macrotrends (last visited Aug. 29, 2025),
+https://www.macrotrends.net/2526/sp-500-historical-annual-returns; S&P 500 Total Returns by
+Year Since 1926, Slickcharts (last visited Aug. 29, 2025),
+https://www.slickcharts.com/sp500/returns]
+56 [The Worst Global Bond Bear Market in History Ended in 2023, Finaeon (Jan. 31, 2024),
+https://www.finaeon.com/the-worst-global-bond-bear-market-in-history-ended-in-2023/; The
+Historic Collapse of the Bond Market: 40-Year Trend Ending, Discovery Alert (July 23, 2025),
+https://discoveryalert.com.au/news/bond-market-collapse-2025-trends-causes-implications/]
+57 [iShares ETF Flows, BlackRock (last visited Aug. 29, 2025),
+https://www.blackrock.com/us/individual/insights/ishares-etf-flows; DeFiLlama Dashboard,
+DeFiLlama (last visited Aug. 29, 2025), https://defillama.com/]
+58 [S&P 500®, S&P Dow Jones Indices (last visited Aug. 29, 2025),
+https://www.spglobal.com/spdji/en/indices/equity/sp-500/#overview; Staking, Ethereum (last
+visited Aug. 29, 2025), https://ethereum.org/en/staking/]
+16
+
+Draft Version 4 - September 2025
+ways to earn yields.59
+● Regulatory Tailwinds: In 2025, new policies promoting innovation, including proposed
+safe-harbor rules for utility tokens, strongly support the LER framework. These policies
+align with the growing preference among Gen Z and Millennials for alternative
+investment opportunities.60
+● DeFi-Loyalty Convergence: Liquid staking TVL stands at approximately $86 billion,
+with tokenized rewards demanding low-risk yields. LER integrates into this $500 billion
+ecosystem by minimizing churn with retention incentives.61
+LERs’ overall opportunity for market capture lies in capturing a percentage in the more than $1
+trillion TAM from reallocating capital. If LER can only capture 5-10% of these yield-driven flows
+through voucher reward merchant ecosystems, LER become a significant player in this evolving
+market segment. Risks that have the potential to limit LER scalability include yield compression
+from rising interest rates, as well as delays in the creation of binding regulatory safe harbors,
+and global variations under frameworks like the EU's MiCA.62 For the bull case, DeFi staking
+could function as a key comparison, enabling LER 10x growth in velocity and throughput by
+2030. This would solidifying LER as a pivotal innovation in hybridized finance and loyalty.
+Tokenized Stock as Foundation
+NASDAQ enables the tokenized representations of NASDAQ-listed stocks on blockchain
+platforms.63 This innovation integrates traditional stock into blockchain ecosystems. It creates a
+compliant, on-chain framework for stock trading and ownership.64 For LERs, NASDAQs
+59 [Cryptocurrency Charts, CoinMarketCap (last visited Aug. 29, 2025),
+https://coinmarketcap.com/charts/; The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml]
+60 [America’s AI Action Plan, The White House (July 2025),
+https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf; Safe
+Harbor 2.0: A Practical Framework for Achieving Clarity for Good-Faith Blockchain Token
+Projects, U.S. Securities and Exchange Commission (Apr. 3, 2021),
+https://www.sec.gov/news/public-statement/peirce-statement-safe-harbors-3.0-2021].
+61 [Staking Category, DeFiLlama (last visited Aug. 29, 2025),
+https://defillama.com/category/staking; The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml].
+62 [Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on
+Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj]
+63 Nasdaq, Inc., Proposed Rule Change To Amend Rules To Allow Trading of Tokenized
+Securities, Exchange Act Release No. 34-101234, SR-NASDAQ-2025-072 (Sept. 8, 2025),
+https://listingcenter.nasdaq.com/assets/rulebook/nasdaq/filings/SR-NASDAQ-2025-072.pdf .
+64 Nasdaq Seeks Rule Change With SEC to Trade Tokenized Stocks, Bloomberg (Sept. 8,
+2025),
+17
+
+Draft Version 4 - September 2025
+innovation on tokckenized stock presents a significant accelerator. By providing a
+regulatory-compliant foundation for tokenized stocks, NASDAQ’s innovation removes key legal
+and operational barriers for LER. It enables LERs’ bifurcated architecture to scale rapidly.65
+NASDAQ’s tokenized stock framework positions LER as a scalable, airdrop-like mechanism for
+delivering dividend-like utilities. As such, it redefines digital loyalty voucher rewards and capital
+market incentives while at the same aligning with regulatory frameworks such as the U.S.
+GENIUS Act and the EU’s Markets in Crypto-Assets (MiCA) Regulation.66
+NASDAQ’s Tokenized Stock Framework and LER Scalability
+NASDAQ’s tokenized stocks framework introduces a blockchain-based infrastructure where
+equities, bonds, and funds can exist as compliant, on-chain assets. It streamlines ownership
+verification and enables a seamless integration with smart contract-driven systems. As such, it
+addresses a core implementation challenge for LER, that is, the verification of off-chain equities
+held in brokerage accounts. Previously that verification required comparatively complex hybrid
+pipelines involving off-chain attestations and privacy-preserving technologies like ZKPs. By
+bringing NASDAQ-listed stocks on-chain, the need to mint intermediary virtual representations
+of off-chain equities as an accounting measure is eliminated. NASDAQ tokenized stocks are
+natively verifiable on blockchain ledgers. This is key as it reduces legal and operational friction.
+Brokers no longer need to contest the validity of blockchain-based ownership records. This, in
+turn, simplifys LER’s verification pipelines for both on-chain and off-chain assets.
+To summarize, the NASDAQ tokenized stock framework enhances LER’s scalability in three key
+ways. First, it provides a standardized, SEC-compliant infrastructure for on-chain equity
+ownership. This enables LER’s smart contract-driven reward attribution to integrate seamlessly
+with NASDAQ’s blockchain ledger. Second, it significantly increases the addressable market for
+LER because all of NASDAQ-listed stocks are now potentially eligible for LER’s time-weighted
+voucher loyalty reward accruals. This significantly expands the TAM for tokenized assets,
+projected to exceed $2 trillion by 2030.67 Third, NASDAQ tokenized stock framework positions
+LER as a innovative airdrop mechanism. As such, rewards are distributed to verified holders as
+non-transferable, utility-only voucher rewards units. This is similar traditional dividends but with
+blockchain-enforced automation and consumptive utility, thus aligning with the $93 billion global
+loyalty market in 2025.68
+https://www.bloomberg.com/news/articles/2025-09-08/nasdaq-seeks-rule-change-with-sec-to-tra
+de-tokenized-stocks?embedded-checkout=true .
+65 Nasdaq Proposes Tokenized Securities Trading, Traders Mag. (Sept. 9, 2025),
+https://www.tradersmagazine.com/featured_articles/nasdaq-proposes-tokenized-securities-tradi
+ng/
+66 Stablecoin Legislation: An Overview of S. 1582, GENIUS Act of 2025, Cong. Rsch. Serv. (July
+18, 2025), https://www.congress.gov/crs-product/IN12553.
+67 Asset Tokenization Market Size, Trends, Share & Industry Report 2030, Mordor Intelligence
+(June 30, 2025), https://www.mordorintelligence.com/industry-reports/asset-tokenization-market.
+68 Global Loyalty Programs Market Intelligence and Future Growth Dynamics Report 2025,
+GlobeNewswire (Sept. 4, 2025),
+https://www.globenewswire.com/news-release/2025/09/04/3144304/0/en/Global-Loyalty-Progra
+18
+
+Draft Version 4 - September 2025
+LER as an Airdrop Mechanism for Dividend-Like Voucher Utilities
+LER becomes a scalable airdrop mechanism under NASDAQ tokenized stock framework. LER
+deliver dividend-like voucher utilities to holders of stock or tokenized assets. The manner of
+LER’s voucher delivery to stock owners is comparable to traditional dividend payouts but
+leverages blockchain’s programmability for efficiency and accessibility. As an airdrop, in
+blockchain terminology, LER voucher distribution refers to the allocation of voucher loyalty
+rewards to wallet addresses based on predefined criteria, such as stock ownership or
+participation.69 LER adapts the dividend concept by automating the distribution of
+non-transferable vouchers to verified holders of tokenized NASDAQ stocks or off-chain equities.
+However, LER do only require verified stock ownership and holding duration. LER does not
+require lock-ups of the underlying assets. This LER airdrop mechanism redefines traditional
+dividends as programmable, consumptive voucher loyalty utilities that enable increased stock
+owner loyalty while democratizing access to capital market benefits.
+The airdrop analogy for LER works on several levels. First, LER’s smart contract design
+automates reward attribution using time-weighted voucher rewards accrual logic. This is similar
+to how airdrops distribute tokens based on snapshot-based criteria, such as for example token
+balances at a specific block height.70 For tokenized NASDAQ stocks, smart contracts can query
+blockchain ledgers to verify ownership and holding periods. This triggers voucher reward
+airdrops without intermediaries. Whic, in turn, reduces operational costs and enhances LER
+scalability. Second, LER voucher rewards are utility-only and non-transferable, similar to
+soulbound tokens (SBTs). This ensures they function as voucher loyalty incentives rather than
+speculative assets, thus aligning with regulatory exemptions under MiCA and SEC
+frameworks.71 Third, the absence of fiat par-redemption and limited acceptance within merchant
+ecosystems positions LER voucher loyalty rewards as closed-loop utilities. This removes their
+classification as electronic money tokens (EMTs) or securities, which, in turn, simplifys
+compliance.72
+The LER airdrop mechanism mirrors dividends by rewarding long-term holders. However, it
+diverges by offering consumptive utilities rather than cash payouts. this aligns with the shift
+from speculative crypto yields to practical, loyalty-driven incentives observed in post-metaverse
+startups. For example, a holder of a tokenized Apple stock on NASDAQ’s blockchain could
+receive periodic LER voucher reward airdrops. This incentivizes stock retention without liquidity
+ms-Market-Intelligence-and-Future-Growth-Dynamics-Report-2025-Coalition-Expansion-and-Ga
+mified-Rewards-Redefine-Customer-Engagement-Across-Retail-Banking-and-T.html.
+69 Guide to Cryptocurrency Airdrops: How They Work and What to Expect, Investopedia,
+https://www.investopedia.com/terms/a/airdrop-cryptocurrency.asp (last visited Sept. 9, 2025).
+70 Airdrop Crypto: What It Means, How It Works and How to Qualify, Kraken (June 11, 2025),
+https://www.kraken.com/learn/what-are-crypto-airdrops
+71 EU Markets in Crypto Assets (MiCA) Regulation, Squire Patton Boggs (June 2023),
+https://www.squirepattonboggs.com/-/media/files/insights/publications/2023/06/eu-markets-in-cr
+ypto-assets-mica-regulation/eu-markets-in-crypto-assets-mica-regulation.pdf
+72 The EU Markets in Crypto-Assets (MiCA) Regulation Explained, LegalNodes (Aug. 25, 2025),
+https://legalnodes.com/article/mica-regulation-explained.
+19
+
+Draft Version 4 - September 2025
+constraints. The LER approach leverages NASDAQ’s tokenized infrastructure to scale LER
+across thousands of stock. LER enables issuers to fund rewards from marketing budgets which
+are treated as immediate expenses under U.S. GAAP (ASC 606) and avoids deferred-revenue
+liabilities associated with traditional loyalty programs.73
+Legal and Regulatory Implications
+NASDAQ’s tokenized stock framework reduces legal hurdles for LER. LER eliminate the need
+for issuers to navigate complex securities law analyses for tokenized representations because
+the NASDAQ framework provides a pre-cleared, SEC-compliant foundation for on-chain
+equities. Under the U.S. Howey test, LER rewards avoid securities classification because LER
+lack an expectation of profits and focus on consumptive voucher utility, a stance reinforced by
+NASDAQ’s compliant tokenization model.74 The GENIUS Act of 2025 further supports this by
+clarifying reserve and AML requirements for tokenized assets, thus aligning with LER’s voucher
+utility-only design.75 In the EU, MiCA’s exemptions for non-transferable utility tokens ensure that
+LER voucher rewards, distributed as airdrops, avoid white paper and issuer authorization
+requirements, as long as LER remain non-redeemable for fiat and confined to closed-loop
+merchant ecosystems.
+However, LER issuers should still obtain legal opinions to confirm that rewards distribution
+complies with AML, KYC, and consumer protection regulations.76 For example, minimal KYC for
+non-transferable rewards can leverage ZKPs to verify holding periods while preserving privacy,
+thus aligning with GDPR and U.S. privacy laws like CCPA/CPRA.77 Additionally, tax and escheat
+compliance are critical to ensure fiscal hygiene.78 For example, treating voucher rewards as
+multi-purpose vouchers under the EU VAT Directive or addressing dormancy under U.S. state
+unclaimed property laws is essential for tax and escheeat compliance. NASDAQ’s tokenized
+stock framework simplifies these considerations by providing a standardized, transparent ledger
+73 ASC 606's Impact on Loyalty Programs: Redemption is Key, BDO (Dec. 6, 2018),
+https://www.bdo.com/insights/industries/restaurants/asc-606%25E2%2580%2599s-impact-on-lo
+yalty-programs-redemption-is-key.
+74 SEC v. W.J. Howey Co., 328 U.S. 293 (1946).
+75 The GENIUS Act of 2025 Stablecoin Legislation Adopted in the US, Latham & Watkins (July
+24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us.
+76 Fact Sheet: President Donald J. Trump Signs GENIUS Act into Law, White House (July 18,
+2025),
+https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-geni
+us-act-into-law/.
+77 Guidelines on Reverse Solicitation Under MiCA, Eur. Sec. & Mkts. Auth. (Feb. 26, 2025),
+https://www.esma.europa.eu/sites/default/files/2025-02/ESMA35-1872330276-2030_Guidelines
+_on_reverse_solicitation_under_MiCA.pdf.
+78 Utility Token Regulation Under MiCA, Manimama Law Firm (Sept. 17, 2024),
+https://manimama.eu/utility-tokens-regulation-under-mica/.
+20
+
+Draft Version 4 - September 2025
+for ownership verification. As such, reducing the need for bespoke legal solutions and enabling
+LER to scale as a compliant airdrop mechanism.79
+Market and Operational Benefits
+The scalability of LER as an airdrop mechanism can be increased through NASDAQ’s tokenized
+stock framework. LER no longer need to contest blockchain-based ownership verification which
+enables scaling conversations with issuers and brokers.80 This, in turn, enables LER to benefit
+from the capital reallocation from fixed income to equities and crypto. LER can capture portions
+of yield-driven flows through merchant ecosystems amid a global fixed income market of
+approximately $56 trillion.81 Operationally, the LER framework reduces verification complexities
+for off-chain equities because tokenized NASDAQ stocks can utilize on-chain state proofs. As
+such, streamlining reward attribution and projecting retention uplifts for issuers. For consumers,
+LER airdrops democratize access to dividend-like voucher benefits. This enables everyday
+e-commerce participants to earn voucher rewards akin to Wall Street-style returns, thus aligning
+LER with the $93 billion loyalty market in 2025.82
+The airdrop model also enhances issuer capital efficiency. By funding rewards from marketing
+budgets, issuers avoid balance sheet liabilities, potentially saving on operational costs, as
+reward redemptions generate revenue at fiat parity.83 This positions LER as a “risk-lite”
+alternative to yield-bearing DeFi instruments, leveraging NASDAQ’s infrastructure to scale
+across thousands of equities and billions in transaction volumes, with potential for growth in a
+bull case scenario by 2030 amid a DeFi TVL of $155 billion in 2025.84
+LER are subject to certain challenges. Regulatory uncertainties, such as the timeline for SEC
+approval for NASDAQ and Dinari frameworks could delay LER implementation.85 Additionally,
+79 SR-NASDAQ-2025-072, Nasdaq (Sept. 8, 2025),
+https://listingcenter.nasdaq.com/assets/rulebook/nasdaq/filings/SR-NASDAQ-2025-072.pdf.
+80 Nasdaq Files With SEC to Allow Trading of Tokenized Equity Securities, Pensions & Invs.
+(Sept. 8, 2025),
+https://www.pionline.com/asset-management/exchange-traded-funds/pi-nasdaq-tokenized-secur
+ities-etf-sec-proposal-2025/
+81 2025 Capital Markets Outlook, SIFMA (Jan. 1, 2025),
+https://www.sifma.org/wp-content/uploads/2025/01/2025-Capital-Markets-Outlook-SIFMA.pdf.
+82 Global Loyalty Programs Market Intelligence and Future Growth Dynamics Report 2025,
+GlobeNewswire (Sept. 4, 2025),
+https://www.globenewswire.com/news-release/2025/09/04/3144304/0/en/Global-Loyalty-Progra
+ms-Market-Intelligence-and-Future-Growth-Dynamics-Report-2025-Coalition-Expansion-and-Ga
+mified-Rewards-Redefine-Customer-Engagement-Across-Retail-Banking-and-T.html.
+83 7.2 Customer Options That Provide a Material Right, PwC Viewpoint (Mar. 15, 2025),
+https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/revenue_from_contrac/revenue_fro
+m_contrac_US/chapter_7_options_to_US/72customer_options_t_US.html.
+84 DefiLlama - DeFi Dashboard, DefiLlama, https://defillama.com/.
+85 Nasdaq Makes Push to Launch Trading of Tokenized Securities, Reuters (Sept. 8, 2025),
+https://www.reuters.com/business/finance/nasdaq-makes-push-launch-trading-tokenized-securiti
+es-2025-09-08/.
+21
+
+Draft Version 4 - September 2025
+LER issuers must ensure that LER voucher rewards remain non-transferable and utility-focused
+to avoid classification as securities or EMTs.86 Empirical pilots are needed to validate retention
+uplifts and refine smart contract designs. This is particularly true for LER attempts at integrating
+personalized airdrops using artificial intelligence. Cross-jurisdictional variations, such as
+differences between MiCA and U.S. regulations, also necessitate tailored compliance strategies
+to ensure global scalability.87
+Regulatory Treatment of LER
+LER has the potential to remain a loyalty-first, risk-lite instrument across the EU, UK, and U.S.
+However, this requires proper engineering and systems design. Most important for a favorable
+legal assessment is LER non-transferability, no secondary market, no fiat redemption, and
+consumptive utility. All of this needs to be coupled with privacy-preserving tenure verification
+and non-investment marketing in order for LER to be successful. Any perceived gravitation
+toward transferability, voucher par redemption, yield, or marketplace functionality may push LER
+into MiCA compliance requirements. The same goes for UK EMR/PSR and promotions regimes,
+and U.S. securities, money transmission, and market-structure perimeters. A disciplined,
+jurisdiction-specific controls framework should therefore be treated as a condition precedent to
+LER launch.88
+LER engineering and system design variables that materially affect its legal classification
+include: transferability, secondary market enablemen, redemption rights, extent of acceptance,
+marketing characertistics.89
+European Union (with Germany)
+As long LER rewards are non-transferable and strictly utility-bound with regards to consumer
+access and discounts, with no profit expectation, they generally avoid asset-referenced token
+(ART) and e-money token (EMT) regimes. As such, LER are unlikely to require a MiCA white
+paper. If transferable and publicly offered/admitted to trading, LER may fall into “other
+crypto-assets” with disclosure/marketing duties.90
+86 SEC v. Landreth Timber Co., 471 U.S. 681 (1985).
+87 The GENIUS Act: A Comprehensive Guide to US Stablecoin Regulation, Paul Hastings (July
+18, 2025),
+https://www.paulhastings.com/insights/crypto-policy-tracker/the-genius-act-a-comprehensive-gui
+de-to-us-stablecoin-regulation.
+88 [MiCA; FCA PS23/6; Howey; FinCEN 2013/2019; EMD2/PSD2; EMR 2011/PSR 2017.]
+89 [See generally Regulation (EU) 2023/1114 (MiCA), 2023 O.J. (L 150) 40 (EU);
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj.]
+90 [MiCA art. 3, 4, 5–7, 111–122; https://eur-lex.europa.eu/eli/reg/2023/1114/oj.]
+22
+
+Draft Version 4 - September 2025
+If rewards are redeemable at par in fiat and widely accepted, they risk EMT treatment (issuer
+limited to credit/e-money institutions; reserves, governance, redemption). LER should therefore
+avoid fiat par-redemption and broad third-party acceptance if it seeks to remain outside EMT.91
+Germany (BaFin)
+Voucher may not be recognized by BaFin as crypto assets. BaFin applies substance-over-form.
+This means that transferable, tradable, or profit-oriented reward units risk classification as
+crypto-assets/financial instruments, potentially implicating licensing (e.g., crypto custody,
+proprietary trading). A non-transferable, utility-only voucher design limits these regulatory risks
+and outcomes in Germany.92
+United Kingdom
+In the UK, the Financial Services Authority treats utility-only, non-transferable voucher loyalty
+rewards typically as outside regulated crypto-asset activities, However, financial promotions
+rules can attach to crypto-adjacent messaging. Vouchers that are framed to avoid “yield” and do
+not use investment language seem likely to stay out of the regulatory fray.93
+However, in the Uk, e-money and payments can arise if voucher rewards are fiat-redeemable or
+open-loop. Otherwise, LER are likely to avoid Electronic Money Regulations 2011 and
+Payment Services Regulations 2017 under limited-network concepts.94
+United States
+Securities Law (SEC)
+LER could be engineered to fall outside of the Howey test. This is possible by avoiding a
+reasonable expectation of profits derived from the efforts of others. LER voucher loyalty reward
+units remain consumptive as discounts/credits, non-yielding, and not marketed for appreciation.
+Moreover, secondary trading is disabled.95
+91 [MiCA arts. 48–77; https://eur-lex.europa.eu/eli/reg/2023/1114/oj.]
+92 [See BaFin, Crypto Assets—Supervisory Classification (guidance portal);
+https://www.bafin.de/EN/Aufsicht/FinTech/Kryptowerte/kryptowerte_node_en.html.]
+93 [FCA PS23/6, Financial Promotion Rules for Cryptoassets (Oct. 2023);
+https://www.fca.org.uk/publication/policy/ps23-6.pdf. FSMA 2000;
+https://www.legislation.gov.uk/ukpga/2000/8/contents.]
+94 [Electronic Money Regulations 2011, SI 2011/99;
+https://www.legislation.gov.uk/uksi/2011/99/contents. Payment Services Regulations 2017, SI
+2017/752; https://www.legislation.gov.uk/uksi/2017/752/contents.]
+95 [SEC v. W.J. Howey Co., 328 U.S. 293 (1946); https://casetext.com/case/sec-v-wj-howey-co.
+SEC, Framework for “Investment Contract” Analysis of Digital Assets (Apr. 2019);
+https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets.]
+23
+
+Draft Version 4 - September 2025
+LER does not have debt-like features that could trigger Reves “note” analysis. Similarly, LER
+does not have equity-like features that could invoke Landreth stock analysis. LER are designed
+to exclude analogies to dividends, voting, transferability, and capital-appreciation
+characteristics.96
+Given these LER design characteristics, LER are unlikely to run afoul of US Federal Securities
+or Bluesky laws.
+Similarly, as non-security digital items LER are outside of the scope of “commodities” under
+CFTC guidance. LER are purely consumptive voucher reward credits without derivatives and as
+such LER generally lie outside CFTC derivatives jurisdiction. However, general anti-fraud and
+manipulation rules may still applies.97
+While convertible or transmissible digital value can trigger FinCEN MSB registration and BSA
+obligations, LER as closed-loop, non-convertible voucher rewards reduce that risk.98
+Key Legal Considerations
+LER’s regulatory viability hinges on its utility-only, non-transferable voucher design, with a clear
+separation from equity, right-sized AML measures, tax and escheat compliance, and robust
+governance. By aligning with MiCA, FCA, and SEC frameworks, LER can operate as a voucher
+loyalty mechanism. This minimizes regulatory risks while capitalizing on the transformative
+potential of tokenized rewards. By structuring LER as a utility-focused, non-speculative loyalty
+mechanism, issuers can leverage exemptions while fostering innovation in tokenized
+ecosystems.
+Utility-Only and Non-Transferable Design
+A cornerstone of LER’s compliance strategy is structuring LER voucher rewards as utility-only,
+non-transferable credits or soulbound tokens (SBTs). This avoids secondary markets and yield
+or annual percentage yield (APY) framing by regulators which helps mitigate classification as
+regulated financial instruments. In the European Union, MiCA defines utility tokens as
+crypto-assets providing access to goods or services without investment characteristics. LER as
+96 [Reves v. Ernst & Young, 494 U.S. 56 (1990); https://casetext.com/case/reves-v-ernst-young.
+Landreth Timber Co. v. Landreth, 471 U.S. 681 (1985);
+https://casetext.com/case/landreth-timber-co-v-landreth.]
+97 [7 U.S.C. § 1a(9); CFTC v. McDonnell, 287 F. Supp. 3d 213 (E.D.N.Y. 2018);
+https://law.justia.com/cases/federal/district-courts/new-york/nyedce/1:2018cv00361/411787/29/.]
+98 [FinCEN, Application of FinCEN’s Regulations to Persons Administering, Exchanging, or
+Using Virtual Currencies (Mar. 18, 2013);
+https://www.fincen.gov/sites/default/files/shared/FIN-2013-G001.pdf. FinCEN, CVC Guidance
+(May 9, 2019);
+https://www.fincen.gov/sites/default/files/2019-05/FinCEN%20CVC%20Guidance%20FINAL.pdf.
+]
+24
+
+Draft Version 4 - September 2025
+non-transferable rewards with no monetary value or profit expectation are exempt from MiCA’s
+white paper and issuer authorization requirements.99
+In the UK, the Financial Conduct Authority’s Policy Statement PS23/6 on cryptoasset financial
+promotions stipulates that non-transferable loyalty rewards without resale potential evade
+financial promotion restrictions, provided they are marketed as perks rather than investments.100
+Under U.S. law, the Howey test from SEC v. W.J. Howey Co. (1946) determines whether a
+scheme is an investment contract. LER as utility-only rewards lack profit expectations and as
+such fail the “expectation of profits” prong, as affirmed by SEC guidance on non-speculative
+tokens.101 To implement these legal requirements, LER can utilize SBTs to ensure
+non-transferability. By implementing these design requirements, LER ensure voucher rewards
+derive value solely from ecosystem utility, that is, from discounts or cashback. This design aligns
+with loyalty exemptions across jurisdictions.102
+Absence of Fiat Par-Redemption and Limited Acceptance
+LER must avoid cash-out rights or fiat par-redemption to prevent classification as electronic
+money tokens (EMTs) or regulated payment services. Because of this design requirement, LER
+may need to constrain their customers to voucher acceptance in a closed-loop ecosystems of
+qualifying merchants. Under MiCA, EMTs are crypto-assets pegged to a single fiat currency with
+redemption obligations, requiring issuers to be authorized as credit or electronic money
+institutions, maintain reserves, and ensure redemption at par value.103 By limiting voucher
+rewards to non-redeemable utilities within specific merchant networks, LER avoids qualifying
+under EMT status and aligns with exemptions for limited-use vouchers. This LER design feature
+99 [Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on
+Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj; ESMA, MiCA: What Does It Mean for
+Crypto-Asset Issuers and Service Providers?, European Securities and Markets Authority (July
+1, 2024),
+https://www.esma.europa.eu/sites/default/files/2024-07/ESMA75-453128700-295_MiCA_Overvi
+ew.pdf].
+100 [Financial Conduct Authority, Financial Promotions Rules for Cryptoassets: Policy Statement
+PS23/6, FCA (June 8, 2023), https://www.fca.org.uk/publication/policy/ps23-6.pdf; Financial
+Conduct Authority, Cryptoassets: Our Work, FCA (last visited Aug. 29, 2025),
+https://www.fca.org.uk/firms/cryptoassets]
+101 [SEC v. W.J. Howey Co., 328 U.S. 293 (1946),
+https://en.wikipedia.org/wiki/SEC_v._W._J._Howey_Co.; U.S. Securities and Exchange
+Commission, Framework for ‘Investment Contract’ Analysis of Digital Assets, SEC (Apr. 3,
+2019), https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets]
+102 [Vitalik Buterin, Soulbound, Vitalik.ca (Jan. 26, 2022),
+https://vitalik.ca/general/2022/01/26/soulbound.html].
+103 [Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023
+on Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj; European Banking Authority, Guidelines on the
+Application of the Definition of Electronic Money, EBA (July 15, 2024),
+https://www.eba.europa.eu/sites/default/documents/files/document_library/Publications/Guidelin
+es/2024/1035642/EBA-GL-2024-03%20Guidelines%20on%20electronic%20money.pdf]
+25
+
+Draft Version 4 - September 2025
+also avoids licensing under the Second Electronic Money Directive (EMD2, Directive
+2009/110/EC) and the Second Payment Services Directive (PSD2, Directive 2015/2366/EU).
+These directives regulate electronic money issuance and payment services, respectively, by
+excluding non-monetary, ecosystem-bound rewards from safeguarding and reporting
+obligations.104 Practically, LER should confine voucher loyalty rewards to ecosystem-specific
+redemptions, that is, merchant discounts. This LEr design limits exposure to payment
+regulations while preserving its loyalty-driven purpose.
+Separation of Equity and Rewards
+A key legal compliance strategy for LER is maintaining an obvious separation between equity
+tenure verification and reward attribution. This separation ensures voucher loyalty rewards
+function as loyalty entitlements without representing equities, dividends, or profit shares. In the
+U.S., the Howey test requires an investment with an expectation of profits from the efforts of
+others. By verifying equity holding periods solely to trigger the issuance of vouchers as
+non-speculative utilities, LER avoids this Howe prong. Voucher loyalty rewards derive from
+consumer engagement and not from investment returns.105 This is reinforced by SEC v.
+Landreth Timber Co. (1985), where the court held that stock sales are securities if they carry
+equity attributes like dividends or voting rights. Therefore, LER rewards cannot include such
+features. LER function as independent voucher loyalty perks and as such evade securities
+classification.106 In Europe, MiCA distinguishes utility tokens from financial instruments under
+the Markets in Financial Instruments Directive (MiFID II). LER’s voucher loyalty utility-only
+design prevents reclassification as a transferable security.107
+Right-Sized Anti-Money Laundering Measures
+LER require customized anti-money laundering (AML) protocols, which can range from basic
+identity verification for rewards that do not involve asset transfers to comprehensive compliance
+standards akin to those for Virtual Asset Service Providers (VASPs) when transfers are enabled.
+As outlined in the Financial Action Task Force (FATF) VASP Guidance, entities facilitating virtual
+asset transfers must adhere to rigorous AML and counter-terrorist financing (CFT) requirements.
+104 [Directive 2009/110/EC of the European Parliament and of the Council of 16 September 2009
+on Electronic Money, Official Journal of the European Union (Oct. 10, 2009),
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0110; Directive
+2015/2366/EU of the European Parliament and of the Council of 25 November 2015 on
+Payment Services, Official Journal of the European Union (Dec. 23, 2015),
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L2366].
+105 [SEC v. W.J. Howey Co., 328 U.S. 293 (1946),
+https://en.wikipedia.org/wiki/SEC_v._W._J._Howey_Co.; U.S. Securities and Exchange
+Commission, Framework for ‘Investment Contract’ Analysis of Digital Assets, SEC (Apr. 3,
+2019), https://www.sec.gov/corpfin/framework-investment-contract-analysis-digital-assets]
+106 [SEC v. Landreth Timber Co., 471 U.S. 681 (1985),
+https://supreme.justia.com/cases/federal/us/471/681/]
+107 [Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on
+Markets in Financial Instruments, Official Journal of the European Union (June 12, 2014),
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0065]
+26
+
+Draft Version 4 - September 2025
+These include know-your-customer (KYC) procedures to verify user identities, ongoing
+transaction monitoring to detect suspicious activity, and compliance with the Travel Rule for
+exchanging originator and beneficiary information.108 In the UK, the Money Laundering, Terrorist
+Financing and Transfer of Funds Regulations 2017 (MLR 2017) require crypto firms to register
+with the FCA and implement risk-based AML programs. Tor non-transferable voucher LER
+rewards, minimal KYC suffices, but value-transfer features trigger enhanced due diligence.109 In
+the EU, MiCA aligns with FATF, mandating VASP registration for crypto-asset transfers, but
+exempts non-monetary loyalty rewards.110 LER should employ ZKPs or anonymized attestations
+to minimize identity collection for non-transferable rewards, applying VASP-grade measures
+only where transferability exists, balancing compliance with GDPR privacy obligations.111
+Tax, VAT, and Escheat Compliance
+LER must incorporate robust measures to handle income tax, value-added tax (VAT), and
+escheat requirements, thereby mitigating potential fiscal risks. Within the European Union, the
+VAT Directive (2006/112/EC) and the Voucher Directive (2016/1065) distinguish between
+single-purpose vouchers—taxable upon issuance—and multi-purpose vouchers, which are
+taxed only at the point of redemption. LER rewards that are designed for consumption and
+non-transferable could align with the multi-purpose category, allowing VAT to be deferred until
+redemption and thus postponing any tax liability.112 In the U.S., non-cash voucher loyalty
+rewards are typically exempt from income tax as promotional benefits. However, escheat
+obligations under the Revised Uniform Unclaimed Property Act (RUUPA, 2016) require issuers
+to report dormant rewards to states after specified periods. This makes dormancy policies like
+108 [Financial Action Task Force, Updated Guidance for a Risk-Based Approach to Virtual Assets
+and Virtual Asset Service Providers, FATF (Oct. 2021),
+https://www.fatf-gafi.org/media/fatf/documents/recommendations/Updated-Guidance-VA-VASP.p
+df; Financial Action Task Force, Targeted Update on Implementation of the FATF Standards on
+Virtual Assets and VASPs, FATF (June 2024),
+https://www.fatf-gafi.org/media/fatf/documents/recommendations/Targeted-Update-Implementati
+on-FATF-Standards-Virtual-Assets-VASPs.pdf]
+109 [The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer)
+Regulations 2017, UK Statutory Instruments (2017),
+https://www.legislation.gov.uk/uksi/2017/692/contents/made]
+110 [Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023
+on Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj]
+111 [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on
+Data Protection, Official Journal of the European Union (May 4, 2016),
+https://eur-lex.europa.eu/eli/reg/2016/679/oj]
+112 [Council Directive 2006/112/EC of 28 November 2006 on the Common System of Value
+Added Tax, Official Journal of the European Union (Dec. 11, 2006),
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0112; Council Directive
+(EU) 2016/1065 of 27 June 2016 Amending Directive 2006/112/EC on Vouchers, Official Journal
+of the European Union (July 1, 2016),
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016L1065]
+27
+
+Draft Version 4 - September 2025
+expiration rules necessary to comply with unclaimed property laws.113 LER should adopt
+escheat-compliant mechanisms, such as automatic expiration or reversion. This would help
+mitigate liabilities while ensuring tax hygiene across jurisdictions.
+Governance and Internal Controls
+Strong governance forms the cornerstone of any successful LER program. This involves several
+key preparatory steps before launch: drafting classification memoranda, conducting reviews of
+financial promotions, performing data protection impact assessments (DPIAs), evaluating
+whether the program qualifies as a money services business (MSB) or electronic money
+institution (EMI), and developing thorough consumer terms and conditions (T&Cs). At its core, a
+classification memorandum should carefully assess LER against established frameworks like
+the Howey Test, MiCA regulations, and the Markets in Crypto-Assets Regulation (MLR) to verify
+that it does not constitute a security. This analysis then informs marketing strategies, ensuring
+alignment with guidelines such as the FCA's PS23/6, the SEC's antifraud provisions, and the
+EU's Unfair Commercial Practices Directive (2005/29/EC).114 A DPIA, mandatory under GDPR
+for high-risk data processing (e.g., holder verification), must assess data flows and mitigation
+strategies to ensure privacy compliance.115 An MSB/EMI matrix evaluates U.S. FinCEN
+registration needs for value transfers against EU EMI licensing under EMD2, ensuring
+appropriate licensing thresholds are met.116 Robust T&Cs and complaints mechanisms, aligned
+with consumer protection laws like the UK Consumer Rights Act 2015 and U.S. state consumer
+laws, further enhance LER’s resilience. This ensures the sustainable deployment of LER in a
+complex regulatory landscape.117
+113 [Uniform Law Commission, Revised Uniform Unclaimed Property Act, ULC (2016),
+https://www.uniformlaws.org/committees/community-home?CommunityKey=8f4b3b84-0f2b-482
+0-8b86-7e6e35b2e1f9; IRS, Publication 525: Taxable and Nontaxable Income, Internal Revenue
+Service (2025), https://www.irs.gov/publications/p525]
+114 [Financial Conduct Authority, Financial Promotions Rules for Cryptoassets: Policy Statement
+PS23/6, FCA (June 8, 2023), https://www.fca.org.uk/publication/policy/ps23-6.pdf; Directive
+2005/29/EC of the European Parliament and of the Council of 11 May 2005 Concerning Unfair
+Business-to-Consumer Commercial Practices, Official Journal of the European Union (June 11,
+2005), https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32005L0029]
+115 [Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on
+Data Protection, Official Journal of the European Union (May 4, 2016),
+https://eur-lex.europa.eu/eli/reg/2016/679/oj]
+116 [Financial Crimes Enforcement Network, Application of FinCEN’s Regulations to Persons
+Administering, Exchanging, or Using Virtual Currencies, FinCEN (Mar. 18, 2013),
+https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-
+persons-administering; Directive 2009/110/EC of the European Parliament and of the Council of
+16 September 2009 on Electronic Money, Official Journal of the European Union (Oct. 10,
+2009), https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0110]
+117 [Consumer Rights Act 2015, UK Public General Acts (2015),
+https://www.legislation.gov.uk/ukpga/2015/15/contents/enacted]
+28
+
+Draft Version 4 - September 2025
+Conclusion
+LER is a compelling innovation at the intersection of blockchain technology, loyalty mechanisms,
+and capital markets. LER address the evolving demands for retention, efficiency, and
+democratization in a post-metaverse financial landscape. By extending time-weighted,
+utility-only voucher loyalty rewards to holders of equities or tokenized assets without liquidity
+constraints or speculative yields, LER bridges traditional commerce with decentralized finance.
+As such, LER increase ecosystem participation while mitigating regulatory risks.118 This article
+has demonstrated LER's alignment with the proliferation of stablecoins as onchain Eurodollars,
+the Silicon Valley pivot toward tokenized rewards, and a bifurcated architecture that optimizes
+benefits for consumers and issuers alike.119 Key contributions include a smart contract design
+for automated accruals, off-balance sheet accounting treatment to enhance issuer capital
+efficiency, privacy-preserving verification pipelines for off-chain and on-chain assets, and a $1
+trillion-plus TAM driven by the great reallocation from fixed income to risk assets.120
+Findings in this article underscore LER's potential to reduce holder churn by 20-50%, increase
+merchant throughput through revenue-generating redemptions, and democratize capital access.
+LER accomplish this by enabling everyday consumers to accrue dividend-like benefits via
+e-commerce engagement. All within a risk-lite framework that aligns with emerging regulations
+like the GENIUS Act and MiCA.121 LER implementation challenges include verification
+complexities and regulatory uncertainties. Such challenges are, however, surmountable through
+utility-focused voucher designs and governance controls, This positions LER as a scalable
+alternative to traditional loyalty programs and yield-bearing DeFi instruments.122
+118 [The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml]
+119 [Dan Roberts, Stablecoins and National Security: Learning the Lessons of Eurodollars,
+Brookings (Apr. 17, 2024),
+https://www.brookings.edu/articles/stablecoins-and-national-security-learning-the-lessons-of-eur
+odollars/]
+120 [Global Bonds Have Lost $10 Trillion in Market Value Since 2021, Bloomberg (Sept. 20,
+2022),
+https://www.bloomberg.com/news/articles/2022-09-20/global-bonds-have-lost-10-trillion-in-mark
+et-value-since-2021; Money, Tokens, and Games: Blockchain’s Next Billion Users and Trillions
+in Value, Citi Global Perspectives & Solutions (2023),
+https://www.citivelocity.com/citigps/money-tokens-and-games/
+121 [Latham & Watkins LLP, The GENIUS Act of 2025 Stablecoin Legislation Adopted in the US,
+Latham & Watkins (July 24, 2025),
+https://www.lw.com/en/insights/the-genius-act-of-2025-stablecoin-legislation-adopted-in-the-us;
+Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on
+Markets in Crypto-Assets, Official Journal of the European Union (June 9, 2023),
+https://eur-lex.europa.eu/eli/reg/2023/1114/oj]
+122 [Tokenization of Real-World Assets: Opportunities, Challenges and the Path Ahead, Katten
+(Aug. 7, 2025),
+https://katten.com/tokenization-of-real-world-assets-opportunities-challenges-and-the-path-ahea
+d].
+29
+
+Draft Version 4 - September 2025
+Broader implications of LER include the reshaping financial inclusion, where LER democratizes
+yield opportunities amid a $10 trillion capital shift. LER have the potential to disrupt $500 billion
+in loyalty markets by 2030 while enhancing issuer profiles through lower borrowing costs and
+improved retention.123 LER limitations include policy risks from evolving securities and stablecoin
+standards, and the need for empirical pilots to validate retention uplifts. Future research should
+explore LER's integration with artificial intelligence for personalized attributions and
+cross-jurisdictional case studies to refine compliance strategies. Ultimately, LER exemplifies
+how blockchain can harmonize commerce and capital, paving the way for a more inclusive,
+efficient digital economy.124
+123 [The Future of Loyalty Programs, Deloitte (2025),
+https://www2.deloitte.com/us/en/insights/industry/retail-distribution/future-of-loyalty-programs.ht
+ml
+124 [Kraken and Backed Announce Strategic Collaboration with Tron DAO to Broaden Access to
+Tokenized Equities, CoinTelegraph (2025),
+https://cointelegraph.com/press-releases/kraken-and-backed-announce-strategic-collaboration-
+with-tron-dao-to-broaden-access-to-tokenized-equities]
+30
+

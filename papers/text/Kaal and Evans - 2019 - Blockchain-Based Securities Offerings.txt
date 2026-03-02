@@ -1,0 +1,1214 @@
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+WULF A. KAAL* & SAMUEL EVANS†
+Abstract
+Blockchain technology has the potential to
+supplement the existing infrastructure for
+securities offerings. After examining the
+shortcomings of historical attempts, the article
+analyses the redeeming features of blockchain-
+based securities offerings including: lower overall
+cost structure, substantially reduced settlement
+cycle, counter-party risk and systemic risk
+reduction, enhanced transparency, among others.
+The authors examine the tradeoffs between
+opportunities and risks of blockchain-based
+securities offerings.
+Keywords: Blockchain, Distributed Ledger
+Technology, Data Scientists, Meta Models,
+Innovation, Private Investment Funds, Crypto
+Investments, Crypto Economy, Crypto
+Currencies, Diversification, Compliance,
+Optimization, Efficiency, Overstock, Securities
+Offerings, Federal Securities Regulation
+JEL Classification: F33, G15, G23, G28, K22
+* Professor, University of Saint Thomas School of Law
+(Minneapolis). The authors are grateful for outstanding
+assistance provided by research librarians Nicole Kinn.
+† Experienced Associate, PriceWaterhouseCooper.
+1
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Table of Contents
+I. INTRODUCTION ....................................................................................................3
+II. OVERSTOCK BLOCKCHAIN SECURITIES OFFERING .................................................6
+III. BLOCKCHAIN TECHNOLOGY IN SECURITIES OFFERINGS ................................... 12
+1. Cost Reduction .............................................................................................. 12
+2. Proof of Ownership ....................................................................................... 15
+3. Reduced Settlement Cycle .............................................................................. 15
+4. Impact on Traditional Market-Participants .................................................... 16
+IV. CHALLENGES FOR EXISTING BLOCKCHAIN-BASED OFFERINGS ........................ 19
+1. Limited Liquidity ........................................................................................... 19
+2. Technology Risk ............................................................................................ 20
+V. OVERCOMING REGULATORY UNCERTAINTY ........................................................ 20
+1. SEC .............................................................................................................. 22
+2. State Law ...................................................................................................... 24
+3. SROs............................................................................................................. 27
+VI. CONCLUSION AND OUTLOOK .......................................................................... 28
+2
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+I. Introduction
+One of blockchain technology’s greatest potential application
+lies in reforming the securities markets. Blockchain
+technology3 allows securities offerings and stock transfers with
+all the characteristics of a physical stock transfer, yet the
+blockchain enabled stock transfer is completely digitalized and
+virtual. The application of blockchain technology in securities
+offerings creates unprecedented transparency, legal certainty,
+and trust between the contract parties. The technology
+substantially reduces the settlement cycle. In the financial
+world, a global consensus record of information and
+transactions creates the much-needed transparency and, at the
+same time, opens global access to finance, including in areas
+of the world where the banking system — in contrast to a
+mobile telephone network — is not readily available.4
+Leading technologists around the world have hailed blockchain
+3 A blockchain is a shared digital ledger or database that maintains a
+continuously growing list of transactions among participating parties
+regarding digital assets – together described as “blocks.” The linear and
+chronological order of transactions in a chain will be extended with another
+transaction link that is added to the block once such additional transactions
+is validated, verified and completed. The chain of transactions is distributed
+to a limitless number of participants, so called nodes, around the world in
+a public or private peer-to-peer network. The technology provides
+significant opportunities and applications in peer-to-peer interactions and
+transactions in a decentralized network where all participants are equal and
+verification and validation of each transaction is provided by all parties in
+the network through the blockchain technology.
+4 See, e.g., Michele Chandler, Mobile Banking Takes Off in Nigeria, STAN.
+GRAD. SCH. BUS. (Jan. 24, 2012),
+https://www.gsb.stanford.edu/insights/mobile-banking-takes-nigeria.;
+Cade Metz, Why Bitcoin Will Thrive First in the Developing World, WIRED
+(Feb. 2, 2016. 8:00 AM), https://www.wired.com/2016/02/why-bitcoin-
+will-thrive-first-in-the-developing-world/. (Noting that in Nigeria, for
+example, banking transactions are readily executed over mobile phones
+because no infrastructure exists for consumer banking. Donations and aid
+to third world countries can finally be provided without the interference of
+suboptimal bureaucratic organizations that don’t allocate the aid as
+intended by the donor.)
+3
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+technology as one of the most important technological
+innovations since the Internet.5 Blockchain technology is
+enabled by a distributed ledger that records transactions
+efficiently and in a verifiable and permanent way.6 Much of the
+media attention has centered on its use to support the issuance
+and trading of bitcoin and other cryptocurrencies.7 This media
+attention is used to inform the average person about a complex
+5 Cognizant, et al. The Future of Financial Services: A Global Study of 500
+Senior Banking and Insurance Executives by Cognizant, Marketforce and
+Pegasystems, PEGASYSTEMS INC. (January 2016) 6, 28-30,
+https://www.pega.com/sites/pega.com/files/docs/2016/Jan/the-future-of-
+retail-financial-services-study.pdf.; John Naughton, Is Blockchain the Most
+Important IT Invention of Our Age?, THE GUARDIAN (Jan. 24, 2016, 4:00
+PM),
+https://www.theguardian.com/commentisfree/2016/jan/24/blockchain-
+bitcoin-technology-most-important-tech-invention-of-our-age-sir-mark-
+walport.; William Mougayar, THE BUSINESS OF BLOCKCHAIN: PROMISE,
+PRACTICE, AND APPLICATION OF THE NEXT INTERNET TECHNOLOGY
+(2016), excerpt reprinted in The Blockchain Is the New Google,
+TECHCRUNCH (May 11, 2016), https://techcrunch.com/2016/05/11/the-
+blockchain-is-the-new-google/.; Michael Crosby, et al., BlockChain
+Technology: Beyond Bitcoin, SUTARDJA CENTER FOR ENTREPRENEURSHIP
+& TECHNOLOGY TECHICAL REPORT, 3 (2015), http://scet.berkeley.edu/wp-
+content/uploads/BlockchainPaper.pdf.; Kyle Torpey, Why the Bitcoin
+Blockchain Is the Biggest Thing Since the Internet, NASDAQ: BITCOIN
+MAGAZINE (Apr. 19, 2016), http://www.nasdaq.com/article/why-the-
+bitcoin-blockchain-is-the-biggest-thing-since-the-internet-cm608228.;
+Carrie Kirby, Andreessen at Coin Summit: Bitcoin Today Is the Internet in
+1994, COINDESK (Mar. 25, 2014), http://www.coindesk.com/marc-
+andreessen-balaji-srinivasan-discuss-bitcoin/.; Dinis Guarda, Over 50
+Bitcoin and Blockchain Thoughts and Quotes You Need to Read,
+TRADERSDNA (July 4, 2016), http://www.tradersdna.com/bitcoin-and-
+blockchain/over-50-bitcoin-and-blockchain-thoughts-and-quotes-you-
+need-to-read/.; Rich Daly, Blockchain: Wall Street’s Most Game-Changing
+Technology Advance Since the Internet, FORBES (July 11, 2016),
+https://www.forbes.com/sites/richdaly/2016/07/11/blockchain-wall-
+streets-most-game-changing-technology-advance-since-the-
+internet/#33987a154d87.
+6 Marco Iansiti & Karim R. Lakhani, The Truth About Blockchain, HARV.
+BUS. REV. (Jan.–Feb. 2017), https://hbr.org/2017/01/the-truth-about-
+blockchain.
+7Jen Wieczner, Uber Co-Founder and E*Trade Alum Launch No-Fee
+Cryptocurrency Trading, FORTUNE: THE LEDGER (July 25, 2018),
+http://fortune.com/2018/07/25/cryptocurrency-bitcoin-free-trading-
+voyager/.; Nika Goddard, How Does A Cryptocurrency Exchange Work?,
+BESTTECHIE (Aug. 17, 2018), https://www.besttechie.com/how-does-a-
+cryptocurrency-exchange-work/.
+4
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+topic, and only skims the surface of the possibilities blockchain
+has to offer.
+Existing forms of ledger structures applicable to securities
+offerings are subject to significant shortcomings: While for
+individual firms, batch-processing is the norm, this model
+creates numerous dependencies, multi-day settlement times,
+unique operational risks, and duplicative costs. Legacy
+systems in which multiple firms are trading the same securities
+utilize multiple ledgers which increases operational risks and
+increases costs.
+In December of 2015, Overstock.com (“OSTK”), a publicly
+traded online retailer based in Utah, offered its securities in a
+$30 million private offering that utilized blockchain
+technology.8 The Overstock.com blockchain-enabled
+securities offering is a key precedent for future blockchain
+enabled securities offerings. It also highlights the possibility of
+and demand for securities offerings that are outside of the
+traditional securities offering schemes available under the
+federal securities laws.
+The Overstock offering provides important guidance for future
+use of blockchain technology in securities offering and
+highlights the need for upgrading the regulatory infrastructure
+to catch-up with innovation. The Overstock offering suggests
+that several measures could help optimize the regulatory
+infrastructure for future securities offerings involving
+blockchain technology and crypto investments. These
+measures mainly pertain to agency cost involved in buying or
+selling shares of a company.
+This article examines the existing blockchain-based securities
+offerings, reviews associated opportunities, and provides
+8 Overstock.com, Correspondence Regarding Amendment no. 1 to
+Registration Statement (Form S-3/A) (Jul. 31, 2015) (In the Overstock
+offering, there was an allowance for a certain number of digital shares to
+be issued and a certain amount of traditional shares to be issued. Not all
+possible digital shares were issued and therefore, they remain on the shelf
+to be taken down at a later date.),
+https://www.sec.gov/Archives/edgar/data/1130713/000110465915055326
+/filename1.htm
+5
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+general guidance on possible optimization metrics that may be
+necessitated by the shortcomings of the existing regulatory
+infrastructure for securities offerings and the increasing market
+demand for securities/coin offerings that take place outside of
+the existing regulatory infrastructure.
+II. Overstock Blockchain Securities Offering
+The Overstock offering challenges traditional concepts of
+issuing and exchanging securities in the United States.
+Historically, public corporations have issued paper stock that
+would later be traded on the secondary market. Brokers would
+record sells and trades by hand every time they made a trade.
+This manual process evolved into virtual stock certificates and
+later electronic trading over the internet. OSTK’s offering is
+the first to trade partially over the blockchain, inaugurating a
+new era of securities offerings.
+OSTK issued the first Securities and Exchange Commission
+(“SEC”) registered “digital securities” that utilizes blockchain
+technology. The OSTK offering illustrates the potential
+disruptiveness of blockchain technology to the (i) longstanding
+processes by which securities are offered and sold to the public
+in the U.S., and (ii) traditional roles played by those involved
+in the securities offering process e.g., underwriters, transfer
+agents, custodians, etc., including through disintermediation.
+Because the OSTK offering was conducted by a public
+company as part of a shelf registration,9 it creates a model
+illustrating the potential benefits of blockchain technology in
+securities offerings, and highlights the numerous material
+regulatory gaps that exist in the U.S. Only by creating more
+legal certainty will blockchain security trading reach maturity.
+9 When a corporation seeks to utilize a shelf offering, they are looking
+create the public securities, but offer them at a later date. These securities
+offered to the public can be new securities (“primary offering”), resales of
+outstanding (“secondary offering”) or a combination of both with regards
+to a shelf offering. The securities being held for a later date are considered
+to be sitting on the shelf with the possibility of being taken down (offered)
+at any moment. This streamlines the process by allowing for multiple
+offerings under a single registration. SEC RULE 415 SEC Manual of
+Publicly Available Telephone Interpretations, Sec. Act Rule 415 (Jul,
+1997), https://www.sec.gov/interps/telephone/cftelinterps_rule415.pdf
+6
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+In December of 2015, OSTK, a publicly traded online retailer
+based in Utah, completed an offering of securities on the
+bitcoin blockchain [(“digital securities”)].10 Ultimately, the
+offering netted $30 million, which, on the surface, would not
+traditionally justify the cost OSTK poured into the first-of-its-
+kind offering. However, OSTK had ulterior motives, chief of
+which was Medici Ventures (“Medici”), OSTK’s wholly
+owned subsidiary and proprietor of technology centred around
+the blockchain. Medici’s t0.com (“t0”) software, named for the
+instant settlement and clearing, compared with the industry
+standard of three days (T+3), provides the technology needed
+to complete an offering of securities on the blockchain. By
+completing its own public shelf offering, OSTK had a use case
+for the t0 technology and showed they were willing to use their
+own products, attesting to the quality, and publicly
+documented the process.11
+The legal mechanisms in the OSTK offering are highly
+innovative. OSTK blockchain shares trade on a registered
+alternative trading system (“ATS”) and only one broker-dealer
+had access to trade the shares. Each purchaser of OSTK shares
+was required to open an online brokerage account with a
+broker-dealer subscriber to t0 that was licensed to trade
+securities.12 Keystone Capital Corporation is the sole broker-
+dealer authorized to provide investors with access to the Series
+A Preferred shares through the PRO Securities ATS
+(“PRO”).13 At the time of the first OSTK trade, the broker
+10Press Release, Overstock.com, Overstock.com Launches Offering of
+World’s First Cryptosecurity, GLOBENEWSWIRE, (June 5, 2015),
+https://www.globenewswire.com/news-
+release/2015/06/05/742576/10137582/en/Overstock-com-Launches-
+Offering-of-World-s-First-Cryptosecurity.html.
+11About fifteen years ago, OSTK shares were allegedly subject to an illegal
+“out-of-the-box short” whereby an investment bank lent out shares that
+didn’t exist so that its clients may short OSTK. The result is unfair
+manipulation driving the price of the stock down. This tactic is only
+possible because it takes three days to settle a trade. By eliminating the
+window between trade and settlement, the blockchain eliminates out-of-
+the-box shorting.
+12Overstock.com, supra note 8.
+13Overstock.com, Prospectus (Form 242B2) 5 (Aug. 9, 2018).
+7
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+would be responsible for all “know your customer” rules and
+regulations.14 The core difference between the OSTK offering
+and a traditional securities offering is that the purchaser of
+OSTK must hold the record directly and as beneficial owner of
+the securities could not delegate the authority to hold the
+securities to the broker, e.g. the securities were held directly
+and not in the “street name”15.16
+t0 is the software being used to run PRO. PRO currently
+operates under a waiver from the SEC, which permits the
+trading of blockchain securities. At the start of the issuance,
+only accredited investors17 were allowed to trade over the
+platform. Many in the brokerage industry hope these digital
+securities will eventually be offered over a public exchange as
+opposed to strictly on an ATS because of the ATS exclusivity.
+ATS were designed specifically for institutional investors to
+liquidate their interest. In 1998, the SEC adopted Regulation
+ATS in an effort to drive market innovation as well as protect
+investor. By registering as an ATS, the trading system would
+operate under an exemption to Section 5 of the Securities and
+Exchange Act of 1934.18 Traditionally, large investment banks
+have created ATS’s (Goldman Sachs— SIGMA X, Credit
+Suisse — CrossFinder, Deutsche Bank — SuperX, etc.) for the
+purpose of executing large block orders and thus creating
+liquidity in the market.19
+14Overstock.com, supra note 8.
+15 Street name traditionally refers to when a broker is shown as the owner
+of the security for the posting purposes as opposed to the beneficial owner.
+16Overstock.com, Annual Report (Form 10-K) (March 15, 2018).
+17 17 C.F.R. § 230.501(a)(6). (An accredited investor is an individual that
+has income in excess of 200,000 in each of the last two years or $300,000
+in joint income with ones spouse with the anticipation of reaching the same
+income in the future. An individual will also be considered an accredited
+investor if their net worth exceeds $1 million.)
+18 15 U.S.C. § 78e.
+19 If an institution would like to divest itself of an investment that they hold
+a large ownership in (say 20% of a public corporation), they cannot go to
+the normal market and flood the market with sell orders. If they did this, the
+market for that stock would substantially drop because supply is increasing.
+Therefore, institutions will trade in dark pools to avoid identity disclosure
+and posting of the transaction volume and price.
+8
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Registering as an ATS means broker-dealer laws and
+regulations apply, not exchange laws and regulations.20 The
+general process involves registering as a broker-dealer and
+filing a Form ATS with the SEC.21 By filing Form ATS with
+the SEC, the ATS is giving general notice of its operations
+required under the law.22 ATS laws and regulations are set out
+and enforced by the SEC and the Financial Industry Regulatory
+Authority.23 Compliance requirements include fees,24
+consumer protection,25 examination,26 and books and records.27
+ATS compliance costs are typically cost prohibitive for
+startups.
+Traditionally, only trades required to be posted are other trades
+on exchanges.28 ATS’s are regulated under 15 U.S.C § 78e
+exempting them from NMS disclosure rules.29 By creating an
+ATS that trades securities over blockchain, there is no latency
+in price discovery, which has traditionally been a criticism of
+the ATS system. This is because every trade is posted to a
+public ledger to which everyone has access. This allows others
+in the community to see the quantity of the amounts being
+traded without necessarily seeing what was given as
+consideration. An ATS system was used to execute the first
+registered security offering.
+OSTK began the process of the first public blockchain equity
+offering in March of 2014 with the announcement of creating
+its subsidiary Medici.30 In June and July of 2015, OSTK
+20 17 C.F.R. § 242.301.
+21 17 C.F.R. § 242.301(b)(1).
+22 17 C.F.R. § 242.301(b)(2)(i).
+23 17 C.F.R. § 242.301(b)(7).
+24 17 C.F.R. § 242.301(b)(4).
+25 SEC Rule 15c3–3.
+26 ATS’s are subject to examination by FINRA to assure complete
+compliance measures are being met.
+27 The books and records requirements require the maintaining and
+preservation of books and records by the ATS.
+28 17 C.F.R. § 242.601(a).
+29 15 U.S.C. § 78e.
+30 Press Release, Overstock.com, Blockchain Pioneer Medici Ventures
+Invests in Factom, Inc., OVERSTOCK.COM, (Feb. 7, 2017),
+http://investors.overstock.com/phoenix.zhtml?c=131091&p=irol-
+newsArticle&ID=2243816) [https://perma.cc/42CU-9J2J].
+9
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+completed the private offering of two crypto-bonds pursuant to
+rule 506(c) of Regulation D. Through a regulation D offering,
+OSTK issued $25 million in bonds over t0, which marked the
+first time a security was traded over the blockchain. Overstock
+executives view this as a stepping stone to being able to trade
+securities over the blockchain.
+After a successful digital bond trade, Overstock shifted its
+sights to trading stock of its company over the blockchain. In
+anticipation of its first stock security trade, OSTK filed a shelf
+registration statement on its Form S-3 in April of 2015.31 In the
+following months, Overstock would work with the SEC to
+assure regulatory compliance with all securities offering laws.
+In December of 2015 the S-3 was declared effective for the
+crypto-security, a class of Series A stock identical to the
+common stock, traded on the public exchange except for a
+preferential right to an annual dividend of 1% of the
+subscription price. Overstock was allowed to issue up to $500
+million in securities but limited the portion allowed to be
+traded as digital securities.32
+In March 2016, the company announced its intention to offer
+the first public offering of registered securities using
+blockchain technology. In December of 2016 Overstock
+completed a seasoned equity offering33 of $10.9 million, which
+included $1.9 million of digital securities. In the end, fifty-five
+investors bought 126,565 Series A blockchain shares at $15.67
+per share, which were traded over t0.34 By allowing for these
+securities to be traded over the blockchain, the SEC endorsed
+the possibility that trades could be mathematically validated
+through a decentralized publicly available system. This also
+31 See Overstock.com, Inc., Registration Statement (Form S-3) (April 24,
+2015).
+32 Id.
+33 A seasoned equity offering (“SEO”) refers to a subsequent issuance of
+shares at par by a publicly traded company. During an SEO, the company
+is looking to raise money from investors by selling additional shares. By
+issuing additional shares, the company is able to pay down debt, fund
+operations, recapitalize the business, increase working capital or generate
+cash to acquire another corporation.
+34 Michael del Castillo, Overstock Just Closed its First Day of Trading,
+COINDESK, (Dec. 19, 2016, 4:57 PM),
+https://www.coindesk.com/overstock-first-day-blockchain-stock-trading.
+10
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+provides a model for other trading systems to enable trading of
+digital securities.
+The securities offered on PRO differ from the other secondary
+market blockchain based providers in that the PRO platform
+are offered to the public and the Linq are private. In October of
+2015, Nasdaq launched its Linq project as part of Nasdaq
+private market group, which is seen more as a management tool
+for private offerings. In December of 2015, Nasdaq Linq
+completed the first private company security transaction,
+which was seen as a step forward for the industry. Because
+these are private offerings, the public will never have the
+opportunity to interact with the system.
+Although the OSTK offering was the first public offering,
+other companies had created other security instruments to trade
+prior to the OSTK offering. One of the earliest adopters in the
+digital securities space was Symbiont. In August of 2015,
+Symbiont was the first company to create a use case involving
+debt instruments, syndicated instruments and private equity.35
+In 2015, the OSTK blockchain offering36 was followed by the
+launch of Linq, a blockchain-based market for the issuance and
+trading of privately placed securities.37 Linq was seen as more
+of a data management tool that can be used to verify ownership
+changes. In contrast to Linq-based offerings, the OSTK
+offering was intended to support trading of securities which
+were part of a registered offering, and potentially in a broader
+market not limited to “accredited investors” or “qualified
+purchasers” of privately placed securities.38 To effect its
+offering, OSTK implemented a marginally more advanced
+process requiring that investors purchase the securities through
+a broker-dealer, and trade the securities through an ATS; but
+the structure in other important respects was otherwise
+35SquareTwo Financial Corp., Annual Report (Form 10-K) (April 25,
+2016).
+36 Overstock, supra note 10.
+37Press Release, Nasdaq, Nasdaq Linq Enables First-Ever Private
+Securities Issuance Documented with Blockchain Technology, NASDAQ,
+(Dec. 20, 2015), http://ir.nasdaq.com/news-releases/news-release-
+details/nasdaq-linq-enables-first-ever-private-securities-issuance.
+38See note 16 Overstock.com, Annual Report.
+11
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+materially similar to the structure utilized to purchase and trade
+privately placed securities through Linq.
+Although the STKO offering provides many valuable lessons
+on what it takes to modernize the existing market and trading
+infrastructure, it really is only an early vision of what it will
+take to develop a fully modernized trading system. For
+instance, all existing broker-dealer customer agreements
+included provisions which allows the broker-dealer to share the
+identity of the customer. Ideally, the privacy of the individual
+would be contained.
+III. Blockchain Technology in Securities Offerings
+Blockchain technology offers a number of attractive features
+to potential issuers of securities. Benefits to issuers, and to
+those who process trades in the offering after-market, include
+lower issuing, operating and administrative costs. The OSTK
+offering provides a prominent example for the tradeoffs
+between the benefits and risks associated with blockchain-
+based securities offerings.
+Several large securities trading and brokerage institutions have
+already started to experiment with trading over the blockchain.
+These institutions include BTL energy, Barclays and a joint
+project between IBM and Northern Trust.39 Several other
+industry groups have been established to date to develop /
+launch blockchain-based initiatives potentially relevant to the
+securities industry (e.g., R3, EEA, etc.). Each entity has taken
+a different approach to the issuance of securities over the
+blockchain, however, none of these trades have been subject to
+SEC or CFTC regulation. The existing projects also are not
+subject to an environment in which the prices must be posted
+real-time to a public (retail) market.
+1. Cost Reduction
+39 e.g., Enerchain and BTL energy trading platform, Barclays derivative
+trading, Northern Trust / IBM joint fund administration project, 28-bank
+SWIFT real-time account reconciliation project, etc.
+12
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Blockchain technology is strategically positioned to disrupt the
+traditional securities issuance method because of its cost
+saving properties.40 The steadily rising cost of securities
+issuances41 result in corporations’ efforts to seek technology
+driven opportunities for cost savings.
+Blockchain technology allows corporations to eliminate costs
+associated with human errors in record keeping. Blockchain
+eliminates the possibility of transactions being misreported due
+to human error that can cause irreparable harm. By eliminating
+any accounting error or need for an accuracy review, the
+40 Corporations can use two types of blockchains. The first is a public
+blockchain. A public blockchain allows anyone to have access to the
+network. By allowing anyone access, transactions are readily reviewable
+by anyone in the network. This includes government or private party who
+would like access to company financials. In the event a corporation does
+not want these records to be publicly available, they can create a private
+blockchain. A private blockchain requires a system of governance to
+access. Therefore, access to transaction records can be screened by the
+corporation. Embracing private blockchains allows enterprises to
+experiment with the technology in a transitional period. Given the
+uncertainties and cost associated with technology upgrades and change,
+most corporations are apprehensive about the adoption of blockchain
+technology as a whole. By setting companies up on private blockchains,
+companies can experiment with the technology which allows them to be
+better positioned when mass adoption occurs while keeping cost relatively
+low.
+41 Issuing publicly traded securities is a milestone for any corporations.
+Many considerations such as timing, number of shares offered, and pricing
+are carefully considered in making the determination. If successful,
+massive amounts of cash can be raised to further operations and drive
+corporate growth. In other cases, if an IPO is unsuccessful, share price will
+be in freefall immediately after. The Benefits that come from being a
+publicly traded corporation are numerous and extensive. Some of the major
+benefits include easy access to capital, exit strategy for private equity firms
+and improvement in debt financing terms. All of these benefits go towards
+increasing value for pre-IPO shareholders. There are however great agency
+costs associated with going public. In traditional corporate practice, the
+board of directors determine whether and when to hold an IPO. This will
+be determined by a formal resolution of the board and will require a high
+number of approval votes determined in the articles of incorporation. After
+approval, teams of bankers, accountants and lawyers are retained to
+facilitate the transition. These agents start the tedious process of creating a
+prospectus, getting SEC approval, finalizing financials, due diligence
+investigation and determining offering size and price. All of this work is
+reviewed at multiple level, which increases the agency transaction cost
+exponentially.
+13
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+agency cost of transactions drops significantly, benefitting the
+corporation’s overall cost of issuing securities.
+Blockchain technology may help remedy certain core
+shortcomings of legacy systems. For individual firms in legacy
+systems batch-processing is the norm, but this model creates
+numerous dependencies, multi-day settlement times, unique
+operational risks, and duplicative costs, among other
+shortcomings.
+Trading the same securities across multiple firms requires
+multiple ledgers in legacy systems which increase operational
+risks and costs. Blockchain technology enables a single fully
+transparent ledger that provides cost reduction and counter-
+party risk reduction. In particular, credit risk is reduced
+because cash (if selling) or the securities (if purchasing) are in
+the account for verification shortly after the trade (which could
+be seconds, if not fractions of a second), because the settlement
+cycle is substantially reduced. Moreover, it is possible that
+reconciliation errors associated with trading are greatly
+reduced.
+Finally, the OSTK offering highlights several features that
+enable agency cost removal in securities offerings at an
+unprecedented level. In the first OSTK transaction, the
+individuals did not hold the stock in the street name. Having
+the stock not held in street name cuts out unnecessary agency
+cost, which will be passed on to the beneficial owner.
+Traditionally, when someone holds stock in street name, the
+physical paper stock is held at the Depository Trust
+Corporation (DTC). The broker acts as the individual owner’s
+agent by keeping record of the beneficial owner’s ownership.
+In the OSTK case, the individual is the direct owner of the
+stock and the stock is not being held by any third party. By
+establishing a system that makes the DTC obsolete, agency
+costs have the potential to be cut and clarity surrounding
+ownership will increase.
+14
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Another agent that could be eliminated by the blockchain-
+based trading system is the transfer agent.42 In blockchain-
+based trading models, transfer agents will not be needed
+because every task they preform can be automated through
+coding. For example, one core function transfer agents preform
+is maintain the holding record. This is not necessary because
+all trades are recorded on the blockchain where a record is
+already being created by design.
+2. Proof of Ownership
+In the securities trading context, blockchain could provide
+indisputable proof of current ownership of “digital securities,”
+any transaction in those shares, and the resulting changes in
+ownership of the shares, in a form that is available to multiple
+securities market participants (e.g., investors, brokers,
+regulators).
+One of the key features of using blockchain technology is the
+elimination of the double spending problem. Every time a
+digital asset would be traded, the buyer would be assured that
+they are being given the asset and no other individual has a
+claim to that same asset. Theoretically, the double spending
+problem has not been completely eradicated. There is the
+possibility a group or syndicate could gain 51% control over
+the network and would therefore be able to reverse transactions
+and create a private blockchain, which the market could only
+limitedly discern as not real. To date, no one has ever had
+control over 51% of a decentralized network.
+3. Reduced Settlement Cycle
+The regulators may benefit through direct access to real-time
+trading information and real time information without delay.
+Today the settlement cycle for most transactions is based on a
+T+2 regime where there is a two-day delay before any
+settlement needs to be recoded. In the vision of where the
+42U.S. SEC, TRANSFER AGENTS (April 28, 2016),
+https://www.sec.gov/divisions/marketreg/mrtransfer.shtml. (Transfer
+agents record change the ownership, maintain issuers security holding
+records, cancel and issue certificates and distribute dividend.)
+15
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+technology can be one day, settlement is potentially instantly
+posted to the ledger and is perfectly recorded each time. By
+shifting to trading securities on a distributive ledger, a T+0
+settlement schedule may be possible at some point. Settlement
+may be accomplished in seconds not days.
+Settlement within T+0 has many positive implications. Most
+importantly, any settlement that takes less than 10 seconds, if
+ever achieved in any setting, removes counterparty risk and
+with it systemic risk entirely. Arguably the entire regulatory
+infrastructure that has been tailored to address counterparty-
+and systemic risk would need to be reformed if settlement
+finality can be increased to the seconds range with blockchain
+technology. Settlement within 10 seconds would remove the
+need for most systemic risk regulation and counterparty risk-
+based regulation.
+Another benefit of blockchain is the ability to drastically
+reduce the cost of the settlement infrastructure. Traditionally,
+settlement disputes involved going to court and going through
+the motion practice. Yet, more than 90% of cases are settled by
+the parties individually or by way of some other sort of
+alternative dispute resolution mechanism. In every step of the
+settlement cycle, there are agency fees including filing fees,
+mediator, arbitrator and attorney fees. Traditionally, mediators
+and arbitrators are treated by the courts as cost saving
+measures, but still further inflate the agency transactional cost.
+Blockchain presents a unique opportunity to reduce or
+eliminate these transactional costs entirely. These transaction
+costs are eliminated by use of immutable ledger technology or
+greatly reduced by the availability of oracles.
+Transaction costs can be eliminated by blockchain because
+each token or tokenized piece of property have a unique value
+the requires proof of ownership through: 1. Counter-party and
+other forms of risk reduction (relative to trading of issued
+securities), 2. Increased investor (and potentially regulator)
+transparency, 3. Transnational (“boundary-less”) trading.
+4. Impact on Traditional Market-Participants
+16
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+A public offering of securities involves numerous market-
+participants, beyond simply investors to purchase the securities
+being issued. These “traditional” market-participants include,
+among others, underwriters, syndicate firms, transfer agents,
+custodians, and DTC / Cede & Co.
+The potential cost-reductions for issuers and other effects of
+blockchain-based offerings could affect these actors in
+different ways: they may be forced to reduce their respective
+roles, cease providing the services they have traditionally
+offered, or construct their own blockchain platforms (i.e.,
+innovate) to support blockchain-based offerings.
+Some examples of potentially affected roles include: 1.
+Underwriter;43 Syndicate; Exchanges; Market-making;
+Transfer agent,44 Custodians; and DTC / Cede & Co.45
+Moreover, several examples illustrate potentially affected
+functions “After the Trade”: 1. Trading / execution; 2. Trade
+settlement; 3. Trade confirmations; 4. Corporate actions (e.g.,
+dividends); 5. Securities custody; and 6. Reporting (to the SEC
+/ public).
+The OSTK offering highlights blockchain technology’s impact
+on the role played by DTC / Cede & Co. Traditionally, when
+someone holds stock in street name, the physical paper stock is
+held at the Depository Trust Corporation (DTC). The broker
+acts as the individual owner’s agent by keeping record of the
+beneficial owner’s ownership. In the OSTK case, the
+individual is the direct owner of the stock and the stock is not
+being held by any third party. Accordingly, the OSTK offering
+demonstrates that DTC’s role in securities offerings can be
+called into question.
+43Craig Calcaterra, Wulf A. Kaal, & Vadhindran K. Rao, Decentralized
+Underwriting, (Jun. 13, 2019 (unpublished paper),
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3396542.
+44 see, e.g., 34-76743 (December 22, 2015) (seeking comments on
+utilization of blockchain in transfer agent / other roles).
+45 e.g., book-entry system is eliminated; the ledger itself exists to evidence
+the shares and ownership of the shares). If all trading activity were done
+through the blockchain their role would disappear.
+17
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+In traditional securities offerings, transfer agents record and
+change the securities ownership, maintain issuers security
+holding records, cancel and issue certificates and distribute
+dividend.46 In blockchain-based trading models, transfer
+agents will be needed much less or potentially not at all be
+needed because every task transfer agents may perform can be
+automated through coding. For example, one core function
+transfer agents preform is maintain the holding record. This is
+not necessary because all trades are recorded on the
+blockchain.
+Instant settlement systems provided by blockchain technology
+change business practices. For instance, the t+3 system allows
+for a grace period before settlement is required. Without this
+grace period in a blockchain-based settlement system,
+institutional investors will no longer be able to lend their idle
+shares to investors to cover short positions.
+Another business practice affected by blockchain technology
+is the net-and-compress model utilized by post trade service
+providers.47 These providers use what is called a "net and
+compress" model for large investors, which means not every
+trade needs to be processed.48 According to some estimates, if
+every trade needs to be processed, providers would need to
+process an additional 2.9 million orders a day.49 Instantaneous
+clearing and settlement may at some point in the future be
+accomplished by blockchain technology. Net-and-compress
+may then no longer be needed as all trades can be processed in
+a timely fashion.
+46 See note 42 at U.S. SEC, Transfer Agents.
+47 Anna Irrera, 5 Problems with Using Blockchain To Speed Up Share
+Trading, MARKETWATCH (Feb. 22, 2016, 12:44
+PM), https://www.marketwatch.com/story/5-problems-with-using-
+blockchain-to-speed-up-share-trading-2016-02-22.
+48 Id.
+49Michael Mainelli & Alistair Milne, The Impact and Potential of
+Blockchain on the Securities Transaction Lifecycle 28 (SWIFT Institute
+Working Paper No. 2015-007,
+2016), https://swiftinstitute.org/research/the-impact-and-potential-on-the-
+securities-transaction-lifecycle/.
+18
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+IV. Challenges for Existing Blockchain-Based Offerings
+The OSTK offering provides several insights as to missing
+elements of blockchain-based offerings. Neither the OSTK
+offering nor any of the LINQ-based offerings were structured
+to support widespread ownership or trading of securities
+through blockchain. For example, no major exchange or inter-
+dealer market permits, or will permit in the foreseeable future,
+trading of securities issued through blockchain. In this regard,
+the OSTK offering, because it was effected by a public
+company as part of a shelf registration, is an effective vehicle
+for illustrating the potential benefits of blockchain technology
+in securities offerings, and for highlighting the numerous
+material regulatory gaps that exist before blockchain-based
+public offerings of securities can be implemented in the U.S.
+The OSTK offering also illustrates the potential disruptiveness
+of blockchain technology to the (i) longstanding processes by
+which securities are offered and sold to the public in the U.S.,
+and (ii) traditional roles played by those involved in the
+securities offering process (e.g., underwriters, transfer agents,
+custodians, etc.), including through disintermediation.
+1. Limited Liquidity
+Several additional risks are associated with the limited trading
+and associated limited material liquidity that results from a
+blockchain-based offering involving only one broker. The
+unique risks that result from the OSTK offering structure
+include following: 1. Limited opportunities for price
+discovery, 2. No market-making means less liquidity (e.g.,
+fewer sellers in an appreciating market, and fewer purchasers
+in a declining market, etc.), 3. Limited opportunities for short-
+selling (and, relatedly, for stock loan / stock borrowing), which
+helps in price discovery, 4. Limitations on an investment
+manager’s or broker’s ability to discharge its best execution
+obligations, 5. No “print” to a tape or national exchange, which
+means that there are perpetual questions regarding the market
+value of the “digital securities” in a limited trading
+environment, 6. Potential limitations on fiduciary and nominee
+account structures, which could limit the ability of investors to
+19
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+use tax-deferred accounts (e.g., 401(k)s, IRAs, etc.) to
+purchase “digital securities.”
+2. Technology Risk
+Technology-based risks of blockchain-based offerings are
+significant. Technology-based risks include risks from the
+design and functioning of code, and from third-party
+intrusions. Such risks are generally not present in a traditional
+offering. The relative unsophistication of the regulators and the
+lack of regulators’ understanding of the technology could
+result in an over-reaction which in turn can precipitate creating
+new / expanding existing regulations. Similarly, limited
+customer / investor understanding of the technology creates
+risks associated with the use of the technology in an offering
+context. Such risks cannot really be quantified and undermine
+the evolution of blockchain-based offerings.
+V. Overcoming Regulatory Uncertainty
+Issuers of a blockchain-based offering face several federal
+securities law issues and associated regulatory uncertainty.
+According to a recent survey the number one concern of
+businesses entering the blockchain ecosystem involves
+regulatory uncertainty.50
+For example, if a business would like to release a token tied to
+a certain asset, they may run into security law issues on
+whether or not registration is required. In today’s regulatory
+climate, early adopters are left trying to apply traditional law
+to innovation and are unable to acquire a level of certainty they
+are comfortable with. As a result, there is a chilling effect over
+the industry where legacy businesses are weary to adopt
+because of regulatory uncertainty.
+The OSTK offering helps to identify specific state and federal
+law / regulation challenges, including: 1. The lack of
+recognition of “digital” securities under any state’s current
+corporation law (but, as mentioned above, this gap is being
+50 PwC Study showing what the concerns are surrounding blockchain.
+20
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+addressed in Delaware), 2. The lack of recognition of “digital”
+securities under any state’s current commercial law,51 which is
+relevant for margin / pledging securities as collateral, 3. Legal
+uncertainty regarding finality of “settlement” in blockchain-
+based offering transactions, 4. Operation and functioning of
+ATS, and 5. The operation / functioning of broker-dealers.
+Regulatory challenges associated with blockchain-based
+offerings may be in part addressed by revising several federal
+securities law provisions to allow: (i) recognition of “digital
+securities,” (ii) broad-based trading of equity-equivalent
+“digital securities,” and (iii) margining of “digital securities.”
+The combined effect of regulatory risks associated with
+blockchain based offerings can be estimated by considering the
+following factors: 1. SEC has not identified or developed any
+blockchain-specific offering disclosure standards, or provided
+guidance, 2. SEC has not identified or developed any retail
+investor-protection measures unique / particular to blockchain-
+based offerings, 3. It is not clear that the current form of SEC
+and FINRA record-retention rules applicable to broker-dealers,
+or the SEC record-retention rules applicable to investment
+managers, currently include records relating to the ownership,
+trading, or custody of “digital securities.” 4. Structure avoids
+risk-mitigation roles performed by third-parties involved in
+“ordinary” offering: potential / actual loss of access to market
+/ offering expertise for transactions that do not involve an
+underwriter / investment banker, 5. Potential application of
+“money-transfer” regulations to person operating the
+blockchain, 6. Rule 144 potentially unavailable to issuer
+“affiliates” and those who purchase from them. Rule 144
+allows for the resale of restricted and control securities if a
+number of conditions are met, 7. Settlement-related issues
+(e.g., no practical ability to correct trade errors because of
+same-day / near-instant settlement versus T+3 / T+2 structure).
+In most cases, settlement occurs in T+2 or T+3. This delay in
+the settlement cycle leads to trading violations that could
+otherwise be avoided, 8. Netting risk for brokers, 9. Limited (if
+51 Uunder each state’s codification of UCC, The Uniform Law Commission
+is currently working on integrating blockchain-based provisions into the
+UCC and its commentary.
+21
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+any) Section 13 reporting. Under the Securities and Exchange
+Act of 1934, if any person or group owns 5% or more of the
+issued or outstanding section 13 securities, such beneficial
+ownership must be reported on a schedule 13D/13G., 10.
+Names of holders potentially discoverable under Delaware and
+other states’ laws, 11. Potential IRS uncertainty regarding
+classification of securities as “common stock.”
+1. SEC
+The SEC has started to evaluate the application of blockchain
+technology in the financial services industry. In November of
+2015, Commissioner Stein commented on blockchain’s
+potential for tracing securities lending, repo, and margin
+financing and monitoring systemic risk.52 Commissioner Stein
+cautioned, however, that as blockchain becomes more fluent in
+the market “regulators need to be in a position to lead,
+harnessing its benefits and responding quickly to potential
+weaknesses.”53 With these comments, individuals who follow
+the SECs stance on cryptocurrency were hopeful of early
+regulatory adoption to determine how this technology would
+be treated under the law.
+Despite this early cautioning and call for action, the SEC has
+not yet addressed core issues pertaining to the recognition of
+blockchain technology applications in finance. Guidance is
+especially needed regarding the recognition and application of
+crypto-currencies, tokens as securities, and decentralized
+autonomous organizations (DAOs) as investment advisers,
+among many other issues pertaining to blockchain applications
+or derivatives that are applied in finance.
+52 Kara M. Stein, Commissioner, U.S. SEC, Remarks at the Harvard Law
+School Fidelity Guest Lecture Series: Surfing the Wave: Technology,
+Innovation, and Competition (Nov. 9, 2015),
+https://www.sec.gov/news/speech/surfing-wave-technology-innovation-
+and-competition-remarks-harvard-law-schools-fidelity.; FINANCIAL
+STABILITY OVERSIGHT COUNCIL: ANNUAL REPORT 2016 (June 21, 2016),
+https://www.treasury.gov/initiatives/fsoc/studies-
+reports/Documents/FSOC%202016%20Annual%20Report.pdf.
+53 Stein, supra note 53.
+22
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+SEC recognition of the most basic crypto-currency features is
+uncertain. In early 2016, in a significant setback for crypto-
+currencies and the crypto-currency industry, the SEC rejected
+the Winklevoss twins’ application to establish an exchange
+traded fund (ETF) that was intended to invest in Bitcoin
+exclusively.54 To allow individuals to invest in Bitcoin without
+creating a Bitcoin wallet, the proposed ETF had been intended
+to serve as a dollar-denominated proxy pegged to the price of
+Bitcoin.55 In rejecting the application, the SEC reasoned that,
+because of the unregulated nature of Bitcoin, the proposed fund
+was susceptible to fraud.56 The SEC’s decision regarding the
+Bitcoin ETF reflects its distrust towards the crypto asset class
+as a whole, especially funds attempting to trade digital
+currencies.
+The SEC’s assessment pertaining to ETFs can be distinguished
+from private investment funds created via the Ethereum smart
+contracting on Melonport. Melongport offers technology
+operated and regulated funds.57 Most importantly, private
+investment funds on Melonport would be actively trading a
+more diverse array of crytocurrencies, not just Bitcoin.
+Moreover, the audience of a Melonport-type fund is much
+more limited and curtails the risk to investors.
+By contrast, the Bitcoin ETF application that was denied by the
+SEC would have been offered to a much broader investor
+group, reinforcing the fears described by the SEC.58 In the
+private investment fund space, the investors are typically more
+sophisticated because they are required to be accredited
+54Russell Brandom, The SEC Just Handed Bitcoin a Huge Setback, THE
+VERGE (Mar. 10, 2017, 4:10 PM),
+http://www.theverge.com/2017/3/10/14883350/sec-bitcoin-etf-order-
+winklevoss-denied.
+55 Id.
+56Self-Regulatory Organizations; Bats BZX Exchange, Inc.; Order
+Disapproving a Proposed Rule Change, as Modified by Amendments No.
+1 and 2, to BZX Rule 14.11(e)(4), Commodity-Based Trust Shares, to List
+and Trade Shares Issued by the Winklevoss Bitcoin Trust, Exchange Act
+Release No. 34-80206 (Mar. 10, 2017),
+https://www.sec.gov/rules/sro/batsbzx/2017/34-80206.pdf.
+57 MELONPORT, https://melonport.com/, (last visited June 25, 2019).
+58 Self-Regulatory Organizations, supra note 57.
+23
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+investors.59 Still, the SEC’s denial of Bitcoin ETF raises the
+question as to whether cryptocurrencies will be able to rid
+themselves of the negative connotations that come with the
+space and open themselves up to the general public.
+2. State Law
+Many states have started to amend their corporate and blue-sky
+laws to incorporate blockchain technology.
+Most notably, Delaware amended the Delaware General
+Corporate Law (DGCL) in 2017 to use “distributed electronic
+networks or databases” to create and maintain corporate
+records.60 Delaware general corporate law has recognized
+“distributed electronic networks or databases” as a valid form
+of maintaining corporate records.61 This law forces a
+corporation using a distributed ledger to retain business records
+“provided that the records so kept can be converted into clearly
+legible paper form within a reasonable time, and, with respect
+to the stock ledger, that the records so kept (i) can be used to
+prepare the list of stockholders specified in §§ 219 and 220 of
+this title, (ii) record the information specified in §§ 156, 159,
+217(a) and 218 of this title, and (iii) record transfers of stock
+as governed by Article 8 of subtitle I of Title 6.62
+Arizona passed what they call a “Blockchain Bill” into law,
+which provides specific regulations for electronic signatures,
+blockchain and smart contracts.
+59 17 C.F.R. § 230.501 (a)(6). (To be considered an accredited investor an
+individual must be a natural persons whose income exceeds $200,000 in
+each of the two most recent years (or $300,000 in joint income with a
+person’s spouse) and they reasonably expect to reach the same income
+level in the current year.)
+60 DEL. CODE ANN. tit. 8 (2017).
+61 DEL. CODE ANN. tit. 8 § 224 (2017).
+62 DEL. CODE ANN. tit. 8 (2017).
+24
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Wyoming and North Dakota both appear to have changed their
+trust law to allow custody63 solutions for digital assets.64 For
+example, Wyoming has allowed banks to be the custodians of
+different digital assets as long as they comply with all federal
+regulations concerning custody matters.65
+The state of Vermont adopted a more prudent approach. The
+state report “Blockchain Technology: Opportunities and
+Risk”66 considered that “at present, the costs and challenges
+associated with the use of blockchain technology for
+Vermont’s public recordkeeping outweigh the identifiable
+benefits.”67 The report also emphasized the relevance of
+recognizing blockchain technology, that would determine “a
+‘first mover’” advantage with the potential to bring economic
+activity surrounding the development of blockchain
+technology to Vermont”, remarking the uncertainty around
+such potential as, “difficult to quantify and challenging to
+capture due to the nature of the technology.”68 For the moment,
+Vermont has recognized the possibility to use blockchain in the
+context of a trial under specific conditions.69
+Several pending legislative proposals may increase the
+recognition of blockchain technology under existing law.70 In
+63 Under the Wyoming law, custodial service refers to the “safekeeping and
+management if customers currency and digital assets through the exercise
+of fiduciary and trust powers under this section as a custodian and includes
+fund administration and execution of customers instructions. WYO. STAT.
+ANN. § 34-29-104 (West).
+64 Id.; N.D. CENT. ANN. § 47-36-01 (2017).
+65 Title 34, section 29-104 of the Wyoming Code.
+66 JAMES CONDOS, WILLIAM H. SORRELL, & SUSAN L.
+DONEGAN, BLOCKCHAIN TECHNOLOGY: OPPORTUNITIES AND
+RISK (2016), http://legislature.vermont.gov/assets/Legislative-
+Reports/blockchain-technologyreport-final.pdf
+67 Id.
+68 Id.
+69 See VT. STAT. ANN. tit. 12, § 1913. The Statute defines “blockchain
+technology” as “a mathematically secured, chronological, and
+decentralized consensus ledger or database, whether maintained via
+internet interaction, peer-to-peer network, or otherwise”.
+70 In 2018 alone, 18 US states introduced legislation to adopt blockchain
+technology in some way. Heather Morton, Blockchain State Legislation,
+NCSL (Mar. 28, 2019), http://www.ncsl.org/research/financial-services-
+25
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+early 2017, legislators throughout the United States introduced
+legislation to explore virtual currency and blockchain
+technology. While some states evaluate opportunities for the
+technology to boost the local economy, other states are
+implementing specific use cases.71
+For example, some states such as Arizona have attempted
+unsuccessfully to pass a bill allowing for the payment of taxes
+in bitcoin.72 Others states such as Illinois have started initiatives
+to “collaborate to explore innovation presented by blockchain
+and distributive ledger technology”.73 By states testing the
+and-commerce/the-fundamentals-of-risk-management-and-insurance-
+viewed-through-the-lens-of-emerging-technology-
+webinar.aspx#2018Legis.
+71 H.R. 120, 100th Gen. Assemb., Reg. Sess. (Il. 2017). Creates a
+Legislative Blockchain and Distributed Ledger Task Force to “study how
+and if [s]tate, county, and municipal governments can benefit from a
+transition to a blockchain.
+H.B. 436, 2019 Leg., REg. Sess. (N.H. 2019). Amends New Hampshire’s
+Licensing of Money Transmitters statute to specifically address virtual
+currency issues. The bill defines virtual currency as “a digital
+representation of value that can be digitally traded and functions as a
+medium of exchange, a unit of account, or a store of value but does not
+have legal tender status as recognized by the United States government.”
+H.B. 1481, 2017, Prior Sess. (Haw. 2017). “Establish[es] a working group
+consisting of representation from the public and private sectors to examine,
+educate, and promote best practices for enabling blockchain technology to
+benefit local industries, residents, and the State of Hawaii.”
+S.B. 59, 2017 Gen. Assemb., Reg. Sess. (Vt. 2017). S.B. 59 focuses on the
+need “to amend and establish laws pertaining to consumer litigation
+funding companies; licensed lenders; money servicers; debt adjusters; and
+loan servicers.” To accomplish that, the bill adds a definition of virtual
+currency to the state’s money services statute (8 V.S.A. § 2500 et seq.):
+“stored value that (A) can be a medium of exchange, a unit of account, or
+a store of value; (B) has an equivalent value in money or acts as a substitute
+for money; (C) may be centralized or decentralized; and (D) can be
+exchanged for money or other convertible virtual currency.”
+S.B. 5264, 2017 Leg., Reg. Sess. (Wash. 2017). S.B. 5264 seeks to amend
+Washington’s Uniform Controlled Substances Act to restrict the use of
+virtual currency for the purposes of marijuana sale and distribution. The
+bill “prohibits a marijuana producer, processor, or retail outlet from paying
+with or accepting virtual currency for the purchase or sale of marijuana or
+marijuana products.” H.B. 2216, 53rd Leg. 1st Reg. Sess. (Ariz. 2017).
+72 H.B. 1091, 53rd Leg. 2nd Reg. Sess. (Ariz. 2018).
+73 Blockchain in Illinois, ILL. DEPT. INNOVATION & TECH., available at
+https://www2.illinois.gov/sites/doit/pages/BlockChainInitiative.aspx
+26
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+technology to see what works and what doesn’t, more use cases
+are being created. Ideally, states will be able to learn from each
+other and adopt working models that help streamline their
+processes.
+3. SROs
+A number of national and other regulatory bodies have initiated
+a review of technology-based practices relating directly or
+indirectly to the securities and commodities trading industry.
+Those include: 1. FINRA,74 2. NASDAQ / NYSE and other
+exchanges (proxy PoC project in Estonia, LINQ, etc.),75 3.
+CFTC / NFA / CME / exchanges-SROs (e.g., LabCFTC
+initiative),76 and 4. GAO (report on Financial Technology
+(April 2017)).77
+The perspectives introduced by various SROs are closely
+aligned with those of the SEC. Most SRO perspectives
+acknowledge the clear purpose of the technology but raise
+security concerns. These security issues exist for a multitude
+of reasons, ranging from asymmetries of knowledge to fear of
+not following the SECs lead.
+SROs have been strategically positioned where they have some
+regulatory authority, but are still beholden to the SEC. SROs
+are also in a unique position to help educate the SEC to
+becoming more crypto friendly. For example, Nasdaq could
+provide use cases on how they have successfully helped
+implement the technology in their trading systems while still
+74 FINANCIAL INDUSTRY REGULATORY AUTHORITY, Distributed Ledger
+Technology: Implications of Blockchaing for the Securities Industry,
+http://www.finra.org/sites/default/files/FINRA_Blockchain_Report.pdf
+(2017).
+75 NASDAQ, Nasdaq Blockchain Strategy: Moving Beyond the POC,
+available at
+https://business.nasdaq.com/media/Blockchain%20Mutual%20Fund%20
+Strategy%20SEB%20and%20Nasdaq%202018_tcm5044-61791.pdf
+(2018).
+76 U.S. COMMODITY FUTURES TRADING COMMISSION, LabCFTC
+Overview, available at
+https://www.cftc.gov/LabCFTC/Overview/index.htm.
+77 U.S. GOV’T ACCOUNTABILITY OFF., GAO-17-361 FINANCIAL
+TECHNOLOGY: INFORMATION ON SUBSECTORS AND REGULATORY
+OVERSIGHT (2017).
+27
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+maintaining investor protection. By slowly showing
+successful use cases, the SEC will be more comfortable taking
+a stance on how these instruments should be treated.
+VI. Conclusion and Outlook
+Our analysis in this paper suggests that Blockchain technology
+has the potential to support cheaper and more reliable public
+offerings that could make the U.S. capital markets more
+accessible to companies, and possibly lead to more public
+offerings and listings. However, the far more important
+objective should be the development of a legal and regulatory
+regime to support widespread trading of securities offered
+through a blockchain-based process – one that would satisfy
+broad public demand for the issuer’s securities.
+Blockchain presents unique and potentially significant profit
+opportunities for multiple parties, including developers and the
+consortia or companies which operate platforms on which
+blockchain could operate.
+Blockchain has the potential to support cheaper and more
+reliable public offerings, as reference further above. In this
+sense, blockchain could potentially make the U.S. capital
+markets – the largest public pool of capital in the world -- more
+accessible to companies, and possibly lead to more public
+offerings and listings.
+Regulators and quasi-regulatory bodies have begun to assess
+the impact of blockchain on the securities offering process,
+including with respect to the development of new or revised
+laws and regulations, and the roles of the parties involved in
+traditional offerings.
+The utilization of blockchain as a more efficient and reliable
+public offering medium will almost certainly require
+modifying many of the (i) regulations applicable to the offering
+process, (ii) processes by which securities are offered to the
+public and settled and administered in the after-market, and
+(iii) roles and responsibilities among market-participants (e.g.,
+underwriters, brokers (in distribution), DTC, and Cede & Co.)
+that have developed over decades to effect public offerings.
+28
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Ultimately, using blockchain technology to support trading by
+retail investors of “digital securities” on a widespread basis
+(including, for example, to allow margining of “digital
+securities”) will be the linchpin of survivability and evolution
+of blockchain-based securities offerings. Without retail
+investor access, the technology may remain marginalized in the
+offering process.
+Several factors suggest that blockchain-based securities
+offerings may be here to stay: 1. Trading of privately-issued
+“digital securities” (e.g., through LINQ) has been
+accomplished and proven, and 2. The potentially significant
+reduction in administrative and operational / processing costs
+associated with issuing and trading securities (e.g., from STP)
+has been analyzed extensively.
+Yet, other factors highlight the need for enhanced scrutiny of
+blockchain-based securities offerings. Other than in relation to
+“unicorns,” there is not likely to be broad-based (retail) interest
+in privately-placed “digital securities,” or securities that trade
+on a single, non-scalable ATS. Hence, capital-raising
+opportunities for private companies likely would not be
+materially increased despite the validation of blockchain
+technology as a means of cost-effectively supporting securities
+offerings.
+Consequently, the far more important objective should be the
+development of a legal and regulatory regime to support
+widespread trading of securities offered through a blockchain-
+based process – one that would satisfy broad public demand
+for the issuer’s securities. With legal support and certainty,
+broad-based trading of “digital securities” would provide
+liquidity to market-participants and investors, attracting more
+investors and capital.
+Governmental endorsement and guidance on crypto
+investments in the United States is essential for future
+securities offerings involving crypto currencies and blockchain
+technology, in the existing regulatory infrastructure and
+beyond. As the market for crypto investments grows, the
+regulatory gap between the existing regulatory infrastructure
+and crypto securities investment will inevitably increase
+further.
+29
+Electronic copy available at: https://ssrn.com/abstract=3411110
+
+BLOCKCHAIN-BASED SECURITIES OFFERINGS
+Development of blockchain-based processes, in any case, will
+take several years if not decades, and so the most likely
+circumstance is that legacy and blockchain-based securities
+issuance, trading, settlement, and related systems and
+processes will have to co-exist side-by-side for the foreseeable
+future.
+30
+Electronic copy available at: https://ssrn.com/abstract=3411110
+

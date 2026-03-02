@@ -1,0 +1,1048 @@
+Chapter ) – Finance 1
+Decentralized Finance (DeFi)
+By Craig Calcaterra and Wulf Kaal
+Abstract
+Chapter ) discusses the role of finance in the evolution of decentralized systems.
+In the 9:9:s, the market for DeFi has started to take off but fully decentralized DeFi
+solutions still have a long way to go. Because the decentralized economy is still missing
+the major institutions that society relies on to conduct profitable business, especially
+a secure and meaningful system for evaluating reputation for anonymous suprana-
+tional partners, and an effective and dynamic governance system, it will not be able
+to fully proliferate until these systems have established themselves. Once these core
+decentralized infrastructure products become available, the decentralized economy
+becomes viable. Key indicators include cryptocurrency being used in authentic trans-
+actions such as insurance and equities in broad segments of industry and the tokeni-
+zation of commodities and properties in a mainstream environment.
+The book can be accessed here:
+https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Struc-
+ture/dp/3110673924/
+and here:
+https://www.degruyter.com/view/title/569051
+Chapter 6. Finance
+“Finance is not merely about making money. It’s about achieving our deep goals
+and protecting the fruits of our labor. It’s about stewardship and, therefore, about
+achieving the good society.” – Robert J. Shiller
+Decentralized finance (deFi) has been the goal of blockchains since their inception
+with Bitcoin. The goal of WebT is to provide intuitive UIs for complex financial tools,
+unleashing the economic potential of humanity—similar to how Web 9.: tapped into
+the power of decentralized information. The major financial tools that the WebT
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+2 (cid:0) Chapter ) – Finance
+crowd is currently working on include payment, investment, trading, lending, and in-
+surance via P9P technology. Ethereum is leading the way in 9:9: due to their support
+of innovative smart contracts, with approximately T% of their ether tokens (market
+cap 9[ billion USD) locked in deFi smart contracts.
+The obvious concern with WebT enabled deFi is that the average customer will
+not be protected without a centralized bureaucracy to maintain order. Since the de-
+centralized economy is currently lacking in many of the civil institutions that we enjoy
+in the larger economy, the average person should not invest anything in the crypto
+economy. In this chapter we discuss what is emerging and what is missing and what
+can be done to include more people in the decentralized economy.
+Bitcoin transactions proved digital payment could be decentralized. Ethereum
+proved investment could be decentralized with initial coin offerings (ICOs). These ICOs
+are analogous to initial public offerings (IPOs), but are open to anyone on the planet
+who has access to the internet. In other words, ICOs allow anyone to participate in
+business investment.
+The ICO is run by a smart contract which can create any type of business logic.
+The ICO smart contract creates digital tokens—the coins of the ICO—which represent
+equity ownership in a DAO. These tokens may be programmed to confer voting power
+to their owners or any other rights imaginable in the DAO, such as automated profit
+sharing or control of functions within the company. The ICO smart contract specifies
+how many tokens can be created and sold, for what price, at what time. Anyone with
+a public key address in the Ethereum blockchain who satisfies the contract by trans-
+ferring the required assets at the right time will be given ownership of the DAO equity
+tokens. ICOs can be programmed with a single line of code with a secure, carefully
+audited smart contract using ZeppelinOS. The confusion behind legal regulation in var-
+ious jurisdictions makes it more difficult than that sounds, but in principle, a decen-
+tralized process for investing in decentralized companies has been technologically
+solved.
+In the rest of the chapter we explore further financial tools that are needed for
+the future decentralized economy, including banking, trading marketplaces, insurance
+and lending, and stablecoins.
+Banking and ZKRollups
+Blockchain transactions will always be expensive compared with other P9P trans-
+actions. Blockchain transactions are required to be stored eternally and redundantly
+on as many machines as possible to aid decentralization. Other P9P transactions, such
+as distributed hash table transactions can be forgotten, and stored temporarily on a
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 3
+variable number of computers based on how important or valuable the information
+is.
+Therefore, there is a difference of efficiencies that can be exploited to earn a
+profit by bundling small transactions in temporary storage. Then, once the bundle be-
+comes valuable enough, make a single permanent transaction on the blockchain which
+secures all the small transactions at once.
+The most obvious application is for currency transactions. This is already done to
+some degree, opaquely, with centralized companies, such as exchanges. But these
+have famously lost or stolen many billions of USD. Decentralized exchanges (referred
+to as DEXs) are possible between separate blockchains with some cryptographically
+secure tricks starting with atomic swaps, and they’re becoming more complicated with
+the :x protocol, MakerDAO’s smart contract, Plasma on Ethereum, Lightning Network
+on Bitcoin, etc.
+The increase in price efficiency is matched by the increase in speed. Decentralized
+banking helps solve a major problem with blockchains called scaling. If you double the
+number of participants and transactions, the linear nature of the blockchain makes it
+slow down by half. To scale up to a global network like the Visa credit card company
+would make Bitcoin grind to a halt. As of writing, Loopring offers an open source algo-
+rithm which creates a relatively decentralized DEX for cross chain transactions starting
+on Ethereum. It securely bundles transactions using ZK proofs. This makes the scheme
+trustless, meaning it doesn’t matter whether you trust the bundlers or not, they can’t
+steal your data. The worst that can happen—if some malicious middleman breaks the
+protocol—is that your transaction doesn’t go through and you would need to resend
+it.
+The techie term for this cryptographically secure bundling process is a ZKRollup.
+A ZKRollup starts on the blockchain (Layer c) and uses ZK proofs to bundle transactions
+anonymously using more efficient non-blockchain P9P distributed hash table architec-
+tures (Layer 9). Then the ZKRollup distills the extremely complicated bundle and
+makes a simpler transaction on the blockchain (Layer c). The Layer 9 calculations are
+fast (more bandwidth and less latency) but insecure and transient. The Layer c trans-
+action secures the transactions making them permanent.
+Loopring claims to scale from Ethereum’s native cd transactions per second (TPS)
+to c[:,::: TPS. The Visa network handles 9e,::: TPS. However, this is merely the
+volume of transactions that can happen at this average rate. c[:,::: TPS is the band-
+width. The dual concept of latency is the more important measure for user experience.
+Latency refers to how long you have to wait for your transaction to finalize after
+you initially transmit it. These theoretical estimates of c[:,::: TPS come with a cur-
+rent theoretical latency of 9: minutes or longer with a claim of theoretical latency of
+c minute later in 9:9: if other updates work as promised.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+4 (cid:0) Chapter ) – Finance
+The application that banking most improves, however, is not currency tokens, but
+reputation tokens. Reputation transactions include voting, resolving a validation pool
+and distributing the results, the initial minting and staking of the reputation tokens,
+and the reevaluation of reputation tokens through review. This is done for every single
+action that is meaningful for generating reputation. The amount of computation that
+is required is enormous, similar to how a blockchain needs to make hash function cal-
+culations for every message sent between every member in the network. In order to
+maintain consensus in a decentralized network, with no central authority to check in
+with, a reputational system needs to verify each others’ votes extremely redundantly,
+which leads to serious overhead costs in computation. It was not possible before the
+current state of information technology. But banking can make it much more efficient
+with randomly delegated validation pool judges.
+Before such votes are recorded permanently, one or more validation pools could
+be completely resolved. Since reputation is reviewable, it is more secure from gaming.
+A few randomly-selected DAO members could be entrusted to check each other to
+bundle reputation transactions, especially on the non-contentious validation pools,
+since the results should always be nearly unanimous. On contentious issues, such as
+debates on protocol development, the voting is loosely coupled, so there is no need
+to access the blockchain.
+If protocols like Loopring’s can be made truly decentralized, through good gov-
+ernance, it solves one of the major technological obstacles that has been hampering
+WebT. Currently, ZKRollups have only been deployed to bundle currency transactions,
+but cryptographers have been improving ZK proofs and can now handle much more
+complicated logic. The goal is to bundle general smart contracts. In the meantime,
+banking schemes are handling general smart contracts without cryptographically se-
+curing them, by using game theoretical incentivization to encourage people to hon-
+estly bundle general smart contracts. Incentivization boils down to a reputation mech-
+anism, where at bottom, the bundler stakes money which is slashed if they are proved
+to be dishonest. Uniswap is an example.
+But liquidity has always been a problem in decentralized exchanges, as meaning-
+ful history and reputation are difficult to achieve when there is little to no governance
+structure, no insurance, no appeals process, and no reputable decentralized news ser-
+vice to help you evaluate the health of any DAO. In particular, people are used to the
+security that traditional central banks provide, such as fraud protection. Decentraliz-
+ing these features requires new architectures for decentralized insurance, which we
+explore in the next section. Once such overhead processes are instituted and more
+complicated transactions such as bank bundling are instituted, these decentralized ex-
+changes will become more practically (instead of just theoretically) efficient and se-
+cure.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 5
+Underwriting: insurance and lending
+Insurance is essential for every type of business transaction, every type of prop-
+erty, every type of service you engage—every type of economic action is made more
+efficient when decisions are hedged, so we can be more confident in our investments
+in the future. We require the trust that the transactions will finalize satisfactorily as
+planned or that the contract will be made whole by the platform running the market-
+place. Decentralized insurance requires networks of policy writers with individual rep-
+utations for efficient underwriting of every type of transaction.
+Insurance is an essential industry for the modern economy. Like the appeals pro-
+cess of the law, like policing, like the effort to keep track of reputation and maintain
+the protocols of governance, insurance is an overhead cost that does not directly gen-
+erate profit. It’s a type of business cost that any efficiency-minded engineer would
+prefer to eliminate entirely. But inasmuch as we can’t predict the future, insurance is
+valuable. Insurance improves the efficiency of the economy by investing in the future,
+to guarantee the system will continue running, despite inevitable unforeseen prob-
+lems. Insurance mitigates risk. Insurance helps people get over their fear of joining a
+transaction because of the risk of loss. In physics jargon, insurance is a catalyst, which
+provides activation energy for a transaction.
+It is claimed that insurance has been practiced since the foundation of civiliza-
+tion.1 Evidence from Mesopotamia suggests Mediterranean sailing merchants used
+bottomage. An agent would take a loan to fund their voyages, and would promise to
+return the loan with interest if successful. Bottomage is an extra amount included in
+the interest. The normal interest rate was limited to 9:% if the borrower had collateral
+(such as the promise to enslave his family for T years). Without collateral, the bot-
+tomage rate was c::% with an unlimited loan time. Under bottomage, if the shipment
+was stolen or lost at sea, the lender promised to cancel the loan. The Code of Ham-
+murabi, c. chde BC, obliquely refers to this in three laws, #c:T, c:[, c:h.
+The new tools of information technology give us the opportunity to improve the
+efficiency and stability of underwriting through transparency and decentralization. But
+how do we ensure privacy in a decentralized environment? As mentioned above in
+Chapter 9, zero knowledge proofs allow individuals to retain privacy over their infor-
+mation while revealing some facts. For example, a DAO devoted to health care insur-
+ance could give members a synthesized health score from : to c::. The protocol for
+synthesizing your complex health history could be public, but your particular health
+(cid:0)(cid:0)
+1 Charles Farley Trenerry, The Origin and Early History of Insurance: Including the Contract of Bottomry,
+P.S. King and Son, Ltd., p <. (>?@<)
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+6 (cid:0) Chapter ) – Finance
+history would stay private while you reveal only your final health score to the insur-
+ance DAO. Even that number could be mixed with other information, such as parts of
+your property that would be tokenized and insured.
+Tokenization
+Early underwriting DAOs likely will be for tokenization of commodities and prop-
+erties. Tokenization is the use of digital tokens to represent the ownership of physical
+assets. For example, you can create an Ethereum token to represent a barrel of oil.
+We can then engage a smart contract anonymously where a person can pay money
+for the token. The smart contract can be trusted to execute precisely as programmed,
+acting as an automated escrow service to guarantee the money is traded for the token
+representing the oil.
+However, the basic problem of tokenization is to determine whether a token that
+claims to represent ownership of an asset truly does. Does the oil exist? Does the per-
+son selling the token actually own the oil? Does giving you the token mean you can
+actually make legal claim on the oil? Anyone can mint c:: billion tokens and put a
+label on them, claiming they represent property on the moon. Tokenization doesn’t
+mean anything without something to back it up. A token’s meaning must be attested
+by something substantial. It must be underwritten by someone who is putting their
+reputation—and ultimately their money—on the line to assert the validity of the to-
+ken.
+Consider the history of financial innovation when gold coins first replaced the bar-
+ter economy. The use of gold to represent value led to major leaps in economic effi-
+ciency. First, you didn’t need to bring your chickens directly to me to trade them for
+my labor. Second the contract was much clearer—it was complete when money
+changed hands. Third it allowed a separation of the business contracts—money traded
+for chickens was separate from money traded for labor. Fourth, contracts could be
+fractionalized—you couldn’t trade a fraction of a chicken so easily as you could gold.
+Later paper money replaced gold coins, so you didn’t need to carry the heavy gold or
+expertly assay its quality. Around d: years ago fiat cash replaced gold-backed specie,
+so you didn’t need the gold at all, and nations gained a new tool for regulating their
+economies. Then digital money replaced paper cash allowing light-speed transactions
+over global distances.
+Now tokenization allows an increase in efficiency by digitizing commodities and
+properties for direct sale, while also enabling fractionalization. Further, smart con-
+tracts allow us to instantiate any imaginative legal arrangement for partial ownership
+and rights to properties or assets. For example, transparent public timeshares—for
+houses or cars or any other physical object—can stipulate any behaviors the owners
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 7
+or renters choose, with self-executing and self-regulating contracts. You can even to-
+kenize your personal space, selling the right to advertise on your social media account
+or selling your place in line on a carnival ride.
+Tokenization will be crucial for IoT applications, which requires decentralized mar-
+ketplaces as neutral territory for all the various owners within the supply chain, as
+discussed further below.
+Chit fund example
+Another important application of underwriting is lending. An important market
+for decentralized underwriting is microloans and simple insurance in markets with lit-
+tle regulation, as is often the case in developing countries. Similar to how Web 9.:
+capitalized on untapped decentralized market information, WebT will capitalize on
+untapped economic potential by decentralizing marketplaces, which all will require
+underwriting. Craig’s students, Mounvi Morthala and Sai Amulya Gandham, are devel-
+oping transparent, decentralized lending schemes based on chit funds, which are com-
+mon in India and have been used for centuries to provide a relatively decentralized
+mechanism for insurance and lending.
+Chit funds are only “relatively” decentralized, because they are traditionally run
+with opaque centralized control from “foremen”, individuals who rely on their infor-
+mal personal reputation in the community and charge roughly d% commission for
+managing the fund. The principles of transparent decentralized underwriting, using
+the scheme we present below, has the potential to make such chit fund schemes more
+efficient and secure.
+A basic chit fund example is as follows. Suppose c:: people agree to invest m9:
+in the fund every month for c:: months. Each month an auction takes place, where
+the members can bid to receive a fraction of the current total chit fund. The lowest
+bid wins. Once you win an auction, you can’t win another, but you are still required to
+add your m9: each month until the end.
+The idea is that m9::: enters each month for c:: months. For m9: entry you can
+withdraw almost m9::: in the first few months, if you bid lowest. If you wait longer,
+the early bids will typically be lower than m9:::, so the fund will hold more than
+m9::: and will continue to grow as fewer people can bid each month. Early with-
+drawal is like taking a loan that is repaid for c:: months with interest, later withdrawal
+is like a bank deposit that earns interest.
+WebT technology can greatly improve the efficiency and security of the scheme.
+First, smart contracts replace the foremen and their d% commission, eliminating the
+risk of a foreman absconding with the fund. Officially sanctioned chit funds are run
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+8 (cid:0) Chapter ) – Finance
+through banks, as in Kerala, India, adding overhead through regulation and audits.
+Further, if they implement a reputational system, honest participation can be tracked
+across many different chit funds, as people will earn reputation each time they pay
+their required monthly fee. The more often they participate honestly, the larger their
+reputation will grow. Then participation in larger and more complex chit funds can be
+dependent on reputation, which will incentivize healthy collaboration. It will come as
+no surprise that one of the major overheads making this scheme less efficient is mem-
+bers defaulting on paying the premia. It’s been estimated that Td% of chit fund sub-
+scribers have defaulted at least once recently and 9e% have defaulted after winning
+an auction.2
+All things being equal, larger groups dilute the risk of individual default. A chit
+fund with a large number of people with high reputation can pay small premia for
+insurance. c million people investing mc daily for d: years allows d: people per day to
+immediately begin taking an average payout of roughly m9:,:::. More investors in-
+vesting smaller amounts in shorter increments, means more people can withdraw at
+any point. By monitoring and analyzing the performance of a fund, programs can sug-
+gest values that can be withdrawn at any given time. By automatically bidding when
+the fund rises above expected levels, the fund can be stabilized to give predictable
+returns—especially if multiple funds are connected.
+With no initial reserve backing, this allows people to bootstrap their way to
+greater financial security and stability, assuming the reputation system is sufficiently
+strong to guarantee a low percentage of defaults. Further efficiency improving mech-
+anisms are mentioned below, when we discuss a more general architecture for under-
+writing.
+Like other overhead costs (the appeals process, policing, etc.), insurance is
+cheaper when the system is running well. The more automated the decentralized
+economy becomes, e.g., with code-is-law smart contracts, the less insurance is re-
+quired. The purpose of insurance is to decentralize risk. Ideally the risk would be de-
+centralized perfectly and then the need for insuring individual transactions would dis-
+appear. Given that no system will ever be perfect, insurance will always be essential.
+But by implementing the new tools of information technology and the new architec-
+tures of P9P distributed computing, we can create more effectively decentralized or-
+ganizations. Decentralizing risk makes insurance more stable and efficient, which im-
+proves the economy.
+(cid:0)(cid:0)
+2 Preethi Rao, Sharan Buteau, “Modelling credit and savings behaviour of chit fund participants”, Gates
+Open Research, @: @< (@N>)).
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 9
+Decentralized architecture
+The following model for the Underwriting DAO3 consists of a network of under-
+writers, who roughly correspond to the shareholders of an insurance company. These
+underwriters each hold a certain number of reputation tokens in the DAO which cor-
+respond to their experience and skill as insurance agents. An agent’s reputation tokens
+are likely to increase over time only if the agent follows sound and successful under-
+writing practices.
+The inductive argument for building a reputation architecture gives us insights on
+what is necessary to create an Underwriting DAO. How do we create the proper in-
+centives for organizing a group competing to gain money? How do we develop a leg-
+islative governance process to continuously improve standards to protect an organi-
+zation from gaming and corruption and innovate in response to new market threats
+and opportunities? Can we do this while preventing the competitive forces from nat-
+urally centralizing the system?
+Again, secure and meaningful reputation is key. Reputation needs to be grounded
+to be meaningful, so reputation tokens should only be minted when fees (policy
+premia) enter the group. Reputation should dictate power in the group. So, reputation
+should determine how the fees are shared, through reputation-weighted salaries. And
+reputation should be staked in reputation-weighted democratic validation pools to
+transparently establish consensus within the DAO, to police every member’s contribu-
+tions, to settle debates on new protocols.
+Reputation tokens serve multiple purposes:
+Reputation determines membership. Only token holders are allowed to partici-
+pate in underwriting insurance policies. Policies may be underwritten either singly or
+jointly by these agents. New business is attracted by token holders’ sales initiative, or
+else it is attracted by the fame of the DAO—in which case underwriters can be ran-
+domly assigned based on reputation weight, or members can bid on the policy, etc.
+Reputation-weighted salaries. Tokens serve as claims on the future cash flows
+generated by the DAO. Insurance premia collected by the DAO are distributed among
+the token holders in proportion to their token holdings. It is worth emphasizing that
+the premium from a policy is not considered the revenue solely of the underwriters.
+Instead, premia are treated as the revenue of the entire DAO and shared among the
+DAO participants. Thus, the value of the tokens is a function of the expected future
+cash flows of the DAO.
+(cid:0)(cid:0)
+3 Craig Calcaterra, Wulf A. Kaal, Vadhindran K. Rao, “Decentralized Underwriting”, May VN, @N>?. Avail-
+able at https://papers.ssrn.com/solV/papers.cfm?abstract_id=VV?<]^@ (Retrieved </VN/@N)
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+10 (cid:0) Chapter ) – Finance
+Underwriting builds reputation. Agents who underwrite policies by staking their
+reputation tokens are rewarded with a certain number of newly minted reputation
+tokens (as discussed in Chapters e and [, the amount of reward depends on the cur-
+rent goals of the DAO). Thus, the total number of tokens grows over time. This implies
+that “passive” agents who hold the tokens purely to receive a share of future premia
+will find their proportional ownership in the DAO decrease over time. Their income
+may however still increase if the overall revenues of the DAO grow at a sufficiently
+increasing pace. Therefore, the effect of the design is to incentivize agents to play an
+active role by participating in underwriting activities and thereby grow the business,
+while still allowing passive investors to derive income and speculate on growth.
+Reputation collateralized against risk. Underwriters "stake" or “encumber” an ap-
+propriate number of tokens against each policy they underwrite. These tokens in ef-
+fect serve to secure the promises of the underwriters. The number of tokens to be
+encumbered is based on a preset formula with the objective of ensuring that the value
+of the encumbered tokens is sufficient to meet any claims that may arise at any point
+in the life of the policy. Such encumbered tokens continue to remain under the own-
+ership of the respective agents and entitle the owners to receive their share of future
+premia. In case there is no claim on the policy, the tokens are "freed up" or become
+"unencumbered" when the policy matures. In case the insured event were to occur
+during the life of the policy, the agents who underwrote the policy would lose control
+of their encumbered tokens, which would be sold at auction to meet the claim. If the
+auction does not result in sufficient currency to meet the claim, sufficient new tokens
+are minted and sold to satisfy the claim. All current DAO participants (especially the
+policy writer) as well as outsiders interested in joining the DAO may bid for the tokens
+in this auction.
+To initiate the Underwriting DAO, to prime the pump, the first reputation tokens
+would be minted and distributed to members who encumbered money in a smart con-
+tract analogous to the capital holdings of an insurance company. Once the DAO is run-
+ning at equilibrium, with numerous policies bringing in regular premia, the reputation
+tokens will gain measurable value as measured by the market, and the capital reserve
+holdings can be diminished or eliminated.
+We would consider the need to mint more reputation tokens to meet a policy
+claim to be a breach. Under what circumstances would a breach occur? It would occur
+only if the market values the encumbered reputation tokens as less than the payout.
+This would happen under two broad scenarios. First, the DAO might accept a general
+practice allowing agents to write policies with less than full backing, to attract more
+profits from premia while sharing the risk. Then the whole DAO shares the risk that
+their reputation tokens will diminish in value because more tokens are minted. This
+would necessitate more strict protocols for the types of policies the Underwriting DAO
+writes, and careful policing of which customers were accepted. In addition, if the
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 11
+DAO’s protocols require all policies to be fully backed, the only reason for a breach
+would be because the reputation tokens’ initial valuation diminished before the pay-
+out. In general, our models suggest this will happen only if there is a dramatic shift in
+the future prospects of the DAO, such as a sharp decrease in expected future revenues
+or a sharp increase in expected payments on outstanding policies.
+The Underwriting DAO structure can be used by traditional insurance companies
+as well as niche players specializing in a narrow range of specialty policies. A block-
+chain-based DAO has the potential to take mutualization of risk to a whole new level
+of aggregation and efficiency. One may even speculate on the possibility of a non-
+profit version that insures its members against various specified risks. Possible exam-
+ples range from device protection for individuals to long-term-care insurance for re-
+tirees to health insurance for an entire country.
+By decentralizing risk, insurers as well as consumers can enjoy the benefits of
+transparency, efficiency, and greater stability. An underwriting DAO not only has the
+potential to lower capital requirements for insurance, but also to broaden and deepen
+the market for such capital as any individual or corporate entity can participate in the
+DAO. The particular design outlined above facilitates the entry of new players to the
+insurance market. Such participants could buy tokens when they come up for auction,
+and then use these tokens to participate in underwriting, or else just hold the tokens
+as a passive investment. Decentralization empowers knowledge at the edge. Individ-
+uals with more fine-grained information about their neighbors and community can
+make better underwriting decisions than a centralized hierarchy can. This diversifica-
+tion decentralizes the market, making it more liquid, more efficient, and more profit-
+able.
+The design allows for collaboration among DAO underwriters as well as between
+underwriters and consumers. The need to trust is minimized by appropriately de-
+signed economic incentives, which allows pseudonymous participation, thanks to the
+greater value of meaningful, auditable reputation. The governance rules of the DAO
+can be set up so as to ensure that minority token holders are appropriately protected.
+The rules can ensure that the proportion of policies written by an agent in the long
+run is commensurate with the proportion of the agent's token holdings.
+Bad business decisions by one underwriter need not impact the other underwrit-
+ers or the DAO. If a certain underwriter makes the mistake of underestimating the risk
+of the insured event, the losses will be suffered purely by the underwriter as long as
+the value of the staked or encumbered tokens covers the claim. Policing this quantity
+of encumbered tokens is the responsibility of the entire DAO. All members of the DAO
+are incentivized to develop successful protocols through good governance in order to
+protect the value of their reputation, which is continually revalued each time a claim
+occurs and the market determines the price of a reputation token. As far as consumers
+are concerned, potential claims are fully backed or secured by the entire DAO.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+12 (cid:0) Chapter ) – Finance
+In the case of traditional insurance companies, whether the company is solvent
+and can meet its obligations depends on the safety and soundness of its investments;
+whereas in the case of a DAO, this depends only on the safety and soundness of the
+DAO itself. The advantage of a blockchain-based system is that the latter information
+would be transparently auditable by everyone.
+In this decentralized system, the tokens essentially substitute for reputation. Even
+if the underwriters of a particular policy were to breach the contract, the auction of
+the encumbered tokens and the sale of additional tokens as needed, ensures that the
+policy holder's claim is fully met. Thus, what we are referring to as a breach on a par-
+ticular insurance contract does not necessarily imply any losses for the consumer as
+long as the entire DAO is more valuable than the individual customer’s claim. A breach
+leads to no losses for other members of the DAO, as long as the encumbered tokens
+match the payout of the claim.
+The structure of incentives embedded in this design has the potential to substan-
+tially lower capital requirements and the related need for capital regulation in the in-
+surance industry. We note that the burden of maintaining sufficient liquidity in order
+to meet claims is not on the DAO, but rather is distributed amongst the individual
+underwriters that make up the DAO. Each underwriter would of course need to main-
+tain sufficient liquidity and economic capital in order to be able to reclaim tokens as
+and when claims occur. However, it is possible under certain conditions that the total
+amount of capital that these agents will collectively hold is lower under this design
+than if the burden of meeting the liability were to be on a traditional insurance firm
+which has more centralized risk.
+This result is based on the premise that the amount of capital each underwriter
+will hold will be based on the risk of the underwriter's overall portfolio. The overall
+portfolio of an individual underwriter, especially a non-traditional one, may benefit
+from the addition of underwriting due to diversification, as attested to some extent
+by the existence of insurance-linked securities such as catastrophe bonds.
+As a result, the sum of the incremental VaRs (Value at Risk amounts) of the indi-
+vidual underwriters may be less than the VaR of an insurance firm that has underwrit-
+ten the same contracts. More importantly, how much capital an underwriter holds is
+a matter of their personal risk preference. An underwriter who is willing to tolerate
+fluctuations in their token holdings need only provide for expected losses. The key
+point is this: from the viewpoint of consumers and regulators, the encumbered tokens
+(which as we know derive their value from the DAO's future cash flows) essentially
+serve as a substitute for capital. Financial distress or bankruptcy of an individual un-
+derwriter does not have to affect either consumers or the DAO. As mentioned previ-
+ously, in case of a breach on a particular contract, the policy holder’s claim can still be
+met by an auction of the encumbered tokens. Additional resources if required can be
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 13
+raised by minting new tokens. Barring highly adverse market conditions, the availabil-
+ity of "capital on tap" protects the DAO from default and bankruptcy. Thus, the design
+has the potential to greatly simplify capital regulation.
+In sum, the larger the network of Underwriting DAO members, the more distrib-
+uted and decentralized the risk can be spread, making the system more efficient and
+stable. This makes the economy more predictable, efficient, and prosperous.
+Trading markets
+“From the time I first understood economic principles, I was always concerned
+also that any system be operated on an efficient basis, which meant decentralization
+because knowledge is not concentrated anywhere. It's based on motivation, and so
+these are […] the cautious case for capitalism, that the market system is efficient.”
+–Kenneth Arrow, Interview with the Federal Reserve Bank of Minneapolis
+December c, cvvd.4
+General principles
+Decentralization and bureaucratic transparency are essential to the efficient op-
+eration of marketplaces.
+The liquidity of a market depends on how quickly its assets can be sold and how
+much prices change when they are sold. A market’s depth is how much can be bought
+and sold at any given moment. A market can only remain liquid under various condi-
+tions if it is also deep. The efficiency of price discovery characterizes a market’s liquid-
+ity. Liquid markets are more efficient and stable. Business on a liquid market is less
+risky and more profitable.
+All things being equal, larger, decentralized, transparent markets are more effi-
+cient. The larger the market, the deeper it is, and the more liquid it becomes. Second,
+the more autonomous the members of the market are, the more they will have diver-
+gent interests and desires, which improves the market’s liquidity. Concentration of
+power (especially monopolies or trusts) decreases liquidity; decentralization of power
+improves liquidity. Another obvious disadvantage of a centralized market is the over-
+head that a central authority charges; in a decentralized market the members police
+themselves. Third, the more transparent the statistics of the market’s transactions is,
+the better it is for price discovery, which improves the market’s liquidity. The more
+(cid:0)(cid:0)
+https://www.minneapolisfed.org/article/>??]/interview-with-kenneth-arrow (Retrieved </@V/@N).
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+14 (cid:0) Chapter ) – Finance
+liquid a market is, the more transparent it is, the more open it is, the closer it becomes
+to what is technically called “perfect”.
+Therefore, markets become more efficient, more profitable, and less risky when
+they achieve greater power decentralization, greater transparency, and more open
+membership. The foundational values of WebT are the basic principles that improve
+an economy.
+However, greater transparency is at odds with more open membership, because
+larger networks are only achieved when privacy is ensured. Privacy and power over
+your own personal information need to be prime values for development, but this is
+generally achieved at the expense of transparency and efficient price discovery. Fur-
+ther, anonymity is a threat to many market schemes, such as the chit fund example
+discussed above. Reputation and sophisticated ZK proof protocols can help to address
+this problem. Pseudonymous wallets held by private keys can encumber reputation
+tokens in such a way that they are staked and can be automatically slashed if violations
+are provably committed. Statistics on transactions can be revealed with ZK proofs
+without revealing information from the individual transactions.
+WebT has achieved the technology required to build liquid decentralized markets,
+with smart contracts and cryptography. The basic idea is to have a network engaging
+smart contracts with offers to sell at different prices and buy at different prices. When-
+ever there are two smart contracts that cross (buyer offering higher than the seller is
+offering) then the next block producer combines the contracts and completes them in
+the block, and collects the difference. Those differences are the reward for maintain-
+ing the network, shared with everyone owning reputation tokens. These smart con-
+tracts can be active as long as required before a coincidence of wants is found. The
+owners can put limits on their validity, so they self-destruct after a short, set time,
+then update the contract as they observe the market.
+The decentralized market is the most efficient mechanism for price discovery.
+Price discovery determines the price of an asset but also the ideal quantity the econ-
+omy needs and the ideal levels and types of services the economy needs. The market
+finds the right equilibrium between all the industries and companies to determine
+how much of each work and good is required to keep civilization running efficiently.
+The basic financial markets
+The basic financial assets are currencies (foreign exchange, or Forex), commodi-
+ties, equities, securities, and derivatives.
+We discussed decentralized Forex above with DEXs (peer-to-peer decentralized
+cryptocurrency exchanges), such as the :x protocol, MakerDAO’s smart contract,
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 15
+Plasma on Ethereum, and the Lightning Network on Bitcoin. Many other protocols are
+competing to take part in the crypto economy. DEXs epitomize market decentraliza-
+tion because they allow users to interact and trade anonymously in a secure environ-
+ment without the need for third party intermediation.
+In a DEX, proprietary trading intermediaries, such as market makers and central-
+ized third-party operators, cannot inject themselves in a transaction. As a result, con-
+flicts and counterparty risks are ab-sent in a DEX. Moreover, the fee structure in a DEX
+is different from a centralized cryptocurrency exchange, which typically charges a per-
+cent of the total value of the transaction. Instead, on a DEX, the users pay a fee as gas
+(Ethereum’s fee for motivating the network’s nodes to add your transaction), more
+akin to a per-trade fee, which is a fraction of the percentage charged per transaction
+on centralized cryptocurrency exchanges. Because a DEX does not centralize authority
+over users’ assets, users can sign and start trading anonymously, that is, without iden-
+tity verification. Centralized cryptocurrency exchanges struggle keeping up with know-
+your-customer and anti-money laundering rules. Nevertheless, most DEXs have been
+struggling with liquidity and price discovery.
+Orders on a DEX are matched and settled through the operational rules provided
+by the code. Unlike central order books on centralized exchanges and the settlement
+back office that facilitates the finalization of a trade, on a DEX, the code facilitates the
+peer-to-peer exchange without the involvement of any intermediary.
+Despite many of the benefits that derive from its decentralized exchange model,
+DEXs may not be able to ensure market integrity. Just like centralized cryptocurrency
+exchanges provide certain traders with benefits that may provide them with ad-
+vantages at the expense of other traders, the code that creates a DEX may also allow
+the asymmetric distribution of trading information based on user status.5 The code
+may also create new risks to market integrity because of its automation and lack of a
+human backstop in compliance, back office, and settlement. Wash trading, frontrun-
+ning, and insider trading are risks to market integrity that can materialize on a DEX,
+among other price-manipulation practices. Again, regulation and governance are cru-
+cial to the future of the decentralized economy.
+The next assets to consider are commodities. To make decentralized commodities
+markets, the key is tokenization. This was explained above, where we argued under-
+writing is necessary to give tokenized commodities and properties meaning and value.
+Tokenization is technologically achievable on Ethereum with standard ERC-9: and
+ERC-h9c tokens. But such tokens don’t hold value without secure reputation and trans-
+parent history.
+(cid:0)(cid:0)
+5 Barbara Underwood, “Virtual Markets: Integrity Report”, Office of the New York State Attorney Gen-
+eral, (Sept. >), @N>)) https://virtualmarkets.ag.ny.gov/ (accessed June >, @N@N).
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+16 (cid:0) Chapter ) – Finance
+The next assets to analyze are equities. An equity is a token of ownership in a
+company, such as a stock. ICOs, as introduced by Ethereum, prove we have the tech-
+nological tools to cheaply create and sell decentralized stocks in a company, called
+ERC-9:6 tokens. These tokens can give their owners more practical powers than tra-
+ditional stocks. Due to their smart contract functionality, any imaginable business
+transaction can be programmed, with the token being used as proof of ownership.
+The ICO market peaked from March 9:c) to June 9:c). The percentage of ICOs
+in relation to total fundraising of blockchain startups dropped from ):% to around
+Td% in August 9:c) and only marginally recovered between September 9:c) and Feb-
+ruary 9:cv at around e:% to d:% before dropping to 9:% in March 9:cv. From March
+9:ch to June 9:c), ICOs were the overwhelmingly dominant fundraising tool for the
+blockchain industry. The demise of the ICO market turned the overall trend away from
+ICO funding to traditional venture funding in the blockchain industry.
+The emergence of the ICO market changed the market for venture funding. In the
+traditional venture capital model, venture capital funds invest significant amounts of
+money in the hope of finding the next unicorn start-up. This investment process is
+subject to long, complex, and time intensive processes leading up to a late liquidity
+event in the form of an IPO or acquisition. By contrast, ICOs provide liquidity to inves-
+tors much faster and allow venture capital funds to capitalize on existing profits early.
+Venture capital funds who invest in crypto start-ups gain access to much earlier liquid-
+ity via ICOs by converting their cryptocurrency profits into Bitcoin or Ether through
+any of the cryptocurrency exchanges and can thereafter transfer into fiat currencies
+via online services such as Coins-Bank or Coinbase. During the ICO boom years, the
+venture capital market in the decentralized technology sector ground to a halt. In the
+aftermath of the ICO boom and collapse, traditional venture funding has become,
+again, the predominant model for funding blockchain startups.
+Market decentralization via ICOs and other decentralized funding methods has
+significant disruptive effects on finance. ICOs provide lower barriers to entry for a
+more diverse body of investors and thus increase the diversity and the heterogeneity
+of start-up funding. Through borderless online sales, ICOs are directly marketed to a
+worldwide potential pool of investors, bypassing the typical legal, jurisdictional, and
+business hurdles in traditional venture capital financing. Moreover, ICOs benefit from
+limited accreditation standards, as well as from multiple global cryptocurrency ex-
+(cid:0)(cid:0)
+6 Ethereum has a primitive governance system for coordinating updates its codebase. One element is
+their public ERC proposals. ERC stands for Ethereum Request for Comment, and @N is the proposal
+identifier.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 17
+changes that provide continuous access to trading. ICO promoters and their develop-
+ers are not forced to sacrifice their equity in the project in exchange for the funds they
+raised.
+The next type of financial market to consider is securities, which are other finan-
+cial instruments that make some guarantee to pay off money in the future, such as
+bonds or annuities. Smart contracting allows us to create decentralized transparently
+auditable securities with extremely complex business logic.
+The final type of asset is a derivative. They are called this because they are second-
+order contracts, such as options, which give people the right to buy (a “call”) or sell (a
+“put”) another financial asset in the future. By managing risk, futures stabilize the mar-
+ket, improving its liquidity and efficiency. Traditional markets hold perhaps USmc quad-
+rillion in derivatives. Therefore, this is a rather important target for deFi development.
+There is a great multiplicity of possible traditional futures contracts that use compli-
+cated business logic, so it would seem to be the ideal application for self-executing
+smart contracts. However, there is not much liquidity in decentralized derivative ex-
+changes. At three years old, and functional for much less than that, the Augur DAO is
+one of the older decentralized options. There are other protocols, such as Opyn on the
+Uniswap DEX.
+At the time of writing, the market for decentralized options is extremely shal-
+low—especially considering how turbulent the other decentralized financial asset
+markets are. The problem, again, is reputation. In order to guarantee liquidity, some-
+one who wishes to sell a call option is required to actually own the asset, since there
+is unlimited potential for growth. In other words, the inability to trust the platform or
+the anonymous users requires these decentralized derivatives to be capitalized at
+least c::%, which would be impossibly onerous in traditional markets. We will discuss
+this problem again, below, as a major flaw in today’s stable coins, and again suggest
+the solution demands more sophisticated reputation and history.
+Regulation
+The anarchist and libertarian philosophy that informs most WebT developers’
+public pronouncements has led to an antiregulation fervor that is damaging the po-
+tential for widespread adoption of decentralized P9P tools.
+Securities commissions in every major market (such as the SEC in the US, the
+ECMS in the EU, and the CSRC in the PRC) were ostensibly created to protect investors
+from patterns of bad business that naturally arise when creating and trading equities
+and other assets. However, these centralized bureaucracies are slow to update their
+regulations, which means these regulations often hurt the very people they were de-
+signed to help. The average citizen is not capable of benefitting from the power of
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+18 (cid:0) Chapter ) – Finance
+many financial derivatives, for example, because safeguards from the SEC require mil-
+lion-dollar outlays. But the SEC provides many systems which improve the market and
+protect basic consumers, which the crypto economy is currently lacking.
+The charge of every securities commission in every major nation is to protect the
+average small investor from predatory groups, by ensuring transparency and good ac-
+counting and business practices. As such they have a duty, both professional and
+moral, to do everything in their power to prevent WebT technologies which are used
+for rent-seeking, insider trading, and outright digital theft. Bitcoin.com has estimated
+that more than USmT billion worth of cryptocurrency was stolen in 9:c) alone.7 Much
+of this was never retrieved because the regulatory agencies are not up to date on the
+new technology.
+At the same time any project that matches or exceeds traditional standards for
+transparency in accounting and good business practices should be encouraged. Truly
+decentralized projects which surpass traditional regulatory standards have the poten-
+tial for improving our economy and revitalizing our society. Any nation that stifles in-
+novation that improves the status of its citizens and increases their opportunities
+doesn’t deserve the mandate of governance it is given by its people. If it doesn’t up-
+date to match the challenge of these new technologies and architectures, the SEC will
+no longer be deserving of its charge.
+Standards for transparency and external audits of equities should be natural ad-
+ditions to the decentralized economy, and WebT developers should welcome them.
+Open source protections for consumers gives individuals more power, making them
+more autonomous, making the network more decentralized.
+It is, however, not possible to create a centralized organization, such as the SEC,
+for regulating the decentralized economy. Submitting to such regulatory power would
+place the supranational decentralized market under competing jurisdictions which
+naturally have contradictory regulations. Submitting to centralized regulatory control
+limits the network to members from a single jurisdiction, which would limit the net-
+work effect, making the market less liquid, less efficient, and less profitable.
+Dynamic standards under decentralized control is necessary. Both the SEC and
+WebT need to change. Again, effective decentralized governance and a genuine bu-
+reaucratic transparency are crucial.
+Stablecoins
+“All money is a matter of belief.” –Adam Smith
+(cid:0)(cid:0)
+7 https://news.bitcoin.com/?-million-day-lost-cryptocurrency-scams/ (Retrieved July @N, @N@N.)
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 19
+What is a stablecoin? What makes them crucial for the decentralized economy?
+How are they built? What is missing?
+A stablecoin is a cryptocurrency token from a blockchain which is designed to
+maintain its value, instead of rising and falling under temporary market changes. Sta-
+blecoins distinguish themselves from other digital money, like bitcoin and ether,
+whose value fluctuates strongly in response to changes in market demand, switching
+between the need for cash or investments.
+Stability is an obsession in this book. Stable motion, liquidity, is the most efficient
+state of the economy. A liquid market rapidly matches the “coincidences of wants”
+necessary to form business deals, so people can cooperate and trade to meet their
+needs and desires. Stability is necessary to make good predictions so that your invest-
+ments in the future are more successful.
+A currency which maintains a stable store of value is more efficient for an econ-
+omy than one which does not. The US dollar (similar to every other national fiat cur-
+rency) is managed by the US Federal Reserve in order to maintain a steady and pre-
+dictable value in the long run. Since 9::9, their stated target is 9% annual inflation.
+The value of a dollar is determined by comparing what a basket of goods costs, year
+to year, in many different locations. The “basket of goods” are typically commodities,
+such as oil or minerals or grains, which have a relatively constant supply and demand.
+Bitcoin and other cryptocurrencies are extremely volatile compared with almost
+every form of national fiat currency. This is natural, since the value of cryptocurrencies
+is almost entirely due to speculation on their future usefulness in the currently non-
+existent decentralized economy. If bitcoin ever does become widely adopted and
+used, however, its price will likely not completely stabilize. The total quantity of
+Bitcoin is capped at 9c million tokens. This means, like gold, its value will change de-
+pending on the market demand. The demand will change whenever the trends change
+for people’s economic behavior. More use of the currency, through more transactions,
+and more savings, generally increase the demand for the currency, which raises its
+value, due to its scarcity.
+Currency with price volatility on the order of gold, is not a good choice for a cur-
+rency. Without stablecoins, typical consumers should never hold their checking ac-
+count in the currency. No one should ever make a long-term contract for any essential
+service in bitcoin. Neither the renter nor the landlord should sign a contract if its value
+might halve or double in any given month. Renegotiating contracts each time the value
+of a currency changes is inefficient, and continually punishes one of the parties. The
+economy should not be founded on gambling, so any future decentralized economy
+requires stable cryptocurrencies.
+Since their inception in 9:ce with Tether, stable cryptocurrencies have primarily
+been used as a cash equivalent for cryptocurrency portfolios. They are used as a safe
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+20 (cid:0) Chapter ) – Finance
+harbor to weather the volatility in digital assets. By 9:cv, stable cryptocurrencies grew
+substantially in popularity as an answer to the high volatility associated with the cryp-
+tocurrency markets. Depending on their design, they can offer additional features,
+such as transparency, privacy, and increased decentralization. Stable cryptocurrencies
+can also offer lower fees and faster transaction speeds, making them rather useful for
+international transactions and everyday payments.
+However, today’s cryptocurrencies are still in their infancy, and offer very few of
+these features. The largest stablecoin platform is Tether (USDT) which pegs its value
+to the US dollar. As of June, 9:9:, Tether holds )d% of the c: billion USD market share
+of stablecoins.
+In 9:ce, Robert Sams introduced the first attempt at creating a stability mecha-
+nism for cryptocurrencies.8 In 9:9:, the leading notable stable cryptocurrency
+startups and their respective approaches include: Tether, Coinbase, MakerDAO’s DAI,
+and many, many others. They all naturally have flaws, but give useful tools for today’s
+crypto speculators. We criticize their design and identify areas for improvement in this
+section.
+Basic Design
+Design architectures fall into two broad categories, e.g. collateralized and uncol-
+lateralized mechanisms. Both are subject to downsides. Collateralized projects use ei-
+ther fiat currencies or cryptocurrencies as reserve backing. The function of the collat-
+eral is as follows.
+Imagine a stablecoin DAO which mints a cryptocurrency token and pegs its value
+to the USD. The idea is that the token can be sold in a public exchange, and the value
+is kept at c token for mc. Whenever the price of the token goes up, the smart-contract-
+automated mechanism mints more of the tokens and sells them on the exchange. This
+brings the price down to mc. Whenever the price drops below mc, the algorithm buys
+tokens on the exchange and deletes (“burns”) them, which raises their price back to
+mc, according to the Quantity Theory of Money.
+Fundamental to this scheme is that the DAO needs to hold a reserve of foreign
+assets, collateral, such as fiat currencies (dollars, euros, yen, …) or cryptocurrencies
+(cid:0)(cid:0)
+8 Robert Sams, A Note on Cryptocurrency Stabilisation: Seigniorage Shares, BRAVE
+NEWCOIN (Apr. 28, 2015),
+https://assets.ctfassets.net/sdlntm3tthp6/resource-as-
+setr390/5a940afb21681d19c0b3b76cf69259e1/58ebe9e2-1f28-4a8d-8ce1-
+26abef07aedf.pdf.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 21
+(bitcoin, ether, …). This collateral is sold when the price is low, and is bought with the
+newly minted tokens when the price of the tokens is high. When running properly, this
+mechanism actually makes money while maintaining the stablecoin’s stability.
+Unfortunately, fiat currency collateralization is expensive and inefficient, and no
+stablecoin can currently compete with traditional currencies and services. The basic
+problem is that the reserve is expensive to maintain. Because of the threat of the Soros
+attack, all of the major cryptocurrency platforms have publicly committed to main-
+taining reserves which back their coins c::%. If there are mc billion worth of coins in
+the public, they promise to maintain a reserve equivalent to mc billion US in some bank.
+To see why this is necessary let’s discuss the basic idea behind the Soros attack9 sim-
+plified as follows.
+Imagine the Bank of England institutes a policy of maintaining a peg of one British
+pound artificially high, equal to m9. But the market sees the true value as mc per pound.
+The Bank of England maintains a reserve of foreign currency worth mc: billion to keep
+the peg at m9 to c pound. Under these conditions George Soros would arbitrage the
+system as follows:
+Take out a loan for mc: billion in pounds.
+Sell mc: billion of the pounds at mc.vv per pound. So that the bank of England pays
+George almost mc: billion to maintain the peg at m9.
+Now the reserve is depleted, the Bank of England cannot defend its artificial peg,
+so the market drops to its genuine valuation of the pound at mc.
+Now that the peg is broken, George repurchases the pounds at mc which is half
+what he was paid for them, so he only pays md billion.
+George repays the loan and pockets the md billion difference.
+The lesson of the Soros attack, is that if the value of a cryptocurrency is pegged at
+a value higher than its true market value, the difference must be backed c::% by a
+foreign reserve of collateral holdings. Otherwise financiers can make money breaking
+the stablecoin’s peg.
+As an indictment of the stablecoin developers’ faith in their own product, every
+major stablecoin publicly claims their tokens are backed at least c::%. This means
+they think their coins’ fundamental value is m:. We don’t entirely agree. But given the
+(cid:0)(cid:0)
+9 The Soros Attack is named after investor George Soros because of his role in Black Wednesday, which
+occurred September ><, >??@. Soros believed the British pound sterling was overvalued based partly
+on low interest rates and high inflation and so built a large short position and initiated the attack
+described in this section. The British government failed to maintain its peg and was forced to withdraw
+from the European Exchange Rate Mechanism. The British government lost over gV.V billion sterling,
+while Soros profited more than g> billion.
+Matthew Tempest, “Treasury papers reveal cost of Black Wednesday”, The Guardian, London, UK (?
+February @NN])
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+22 (cid:0) Chapter ) – Finance
+instability of the cryptocurrency market, and the lack of fundamental features such as
+decentralized governance, we don’t entirely disagree.
+The maintenance of a c::% reserve is too expensive to be efficient, and signals
+the need for more sophisticated mechanisms. All of the value in the reserve which
+backs the cryptocurrency needs to be liquid, otherwise arbitrage opportunities, such
+as the Soros attack, are possible—especially with an algorithmic stable coin. Whatever
+value is held liquid in the reserve, costs its users due to the loss of opportunity to
+invest the money. The price tag of fiat-backed tokens is, at a minimum, the interest
+rate of the pegged fiat currency and the cost to maintain the platform. As long as the
+market is so unstable, platforms can profit from the buy low, sell high mechanism
+mentioned above.
+Cryptocurrency-backed tokens are even more expensive than fiat backed tokens,
+because the stability is achieved with much more unstable cryptocurrencies. Any cryp-
+tocurrency-backed token must be backed with much more than c::% of the current
+value of the cryptocurrency in case the basket of other crypto currencies’ value drops.
+For example, in MakerDAO, if a token is backed by ether, and the value of ether drops
+by half at any moment, then the automated scheme will punish anyone who has not
+backed their tokens by more than 9::%. Given how unstable the market is, users need
+to back their tokens by even more, or risk automated punishment.
+Hot money
+On the contrary, we argue that a c::% reserve is not always necessary, as is the
+case with any currency which has an intrinsic worth. At minimum, e.g., a national cur-
+rency has the intrinsic worth represented by the confidence gained from the ability to
+pay taxes. But the amount of value represented by the currency also contributes to its
+intrinsic worth. For example, the amount of money invested in company shares, an-
+nuities, insurance, and property all contribute to the value that is authentically deter-
+mining the total value the currency intrinsically represents.
+A cryptocurrency can be measured to have intrinsic worth if there are similar au-
+thentic business transactions that rely on its tokens. Authentic transactions are distin-
+guished from hot money. Hot money is money which is being used on second-order
+investments, such as speculating on the market. It is hot, because it can immediately
+exit the system, for example if it is exchanged for a foreign currency. It’s easier to
+distinguish between authentic and hot money transactions for typical cryptocurrency
+transactions than traditional business, since transparency makes them more easily au-
+ditable.
+Soros was not able to break the Bank of England because it wasn’t fully backed
+with foreign reserves, but because the British pound was being pegged at a value that
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 23
+was inauthentic. In fact no nation holds anything near to a c::% reserve for the obvi-
+ous reason that it would be too expensive to have a large liquid reserve. The US foreign
+reserve, e.g., is less than 9% of its money. Holding any liquid reserve is a loss of oppor-
+tunity cost that is a type of economic friction its users must subsidize, explicitly in
+transaction taxes which transparently pay for maintenance of the peg, or implicitly in
+holding taxes which bearers of the currency pay, usually through inflation.
+Therefore, determining the fraction of a currency that is hot money is necessary
+for efficient defense of its stability. A currency that overestimates this hot money ratio
+will cost more to use. A currency that underestimates the ratio will be insecure. The
+tension between these two values of efficiency and security motivates a careful esti-
+mate of the hot money ratio. This means a sophisticated decentralized governance
+system is crucial for any efficient stablecoin.
+Today, we estimate that a majority of all cryptocurrency is used for speculation.
+It’s virtually all hot money. Worse, these open source platforms can be cloned and
+replaced by competitors within minutes. So their fundamental value is questiona-
+ble.10 Therefore, it needs to be backed fully or risk collapse. We need a robust decen-
+tralized economy before a stablecoin can reduce its collateralization. We need an ef-
+ficient and useful stablecoin before we can build a robust decentralized economy. This
+is another of the many chicken-and-egg problems that hamper the adoption of new
+systems.
+Stablecoin design choices
+Here we briefly discuss how to build a stablecoin.11 The quantity theory of money
+dictates how you can stabilize the value of a token by minting new tokens to drop the
+price and burning tokens to raise the price. Theoretically, all things being equal (which
+is never accurate in practice), if the economy has twice as many tokens available,
+prices should be twice as high. If there are half as many tokens in an imagined mirror
+economy, the price of goods would be half as much.
+(cid:0)(cid:0)
+10 On the other hand, a major source of stability of a decentralized organization comes from the au-
+tonomy of its members. This makes it extremely unlikely for them to all do one thing and exit en masse.
+This means the more decentralized the platform is, and the larger and older the platform is, the more
+intrinsic worth it will have, and the less it will be hot money. No stable coin should be backed >NN%.
+And a well-designed stablecoin should anticipate the future when it is used for more authentic eco-
+nomic activity, and can drop the reserve to well below >NN%.
+11 A deeper analysis can be found in Craig Calcaterra, Wulf A. Kaal, & Vadhindran K. Rao, “Stable Cryp-
+tocurrencies: First Order Principles”, Stanford Journal of Blockchain Law & Policy, Vol. V, No. >, (@N@N)
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+24 (cid:0) Chapter ) – Finance
+Reserves and bonds can be used to burn tokens and raise the price. The bond
+mechanism is to mint and sell bonds at auction for the stable coin; the stable coins
+earned through the sale are then burned raising the price of the stable coin; then the
+bonds are redeemed for newly minted stable coins at some later date. The reserve
+mechanism is the same as described above with the Soros attack. Reserves should be
+used to defend the peg against hot money short-term fluctuations. Bonds should only
+be used when the larger economy is experiencing longer-term changes, when one of
+the Four Horsemen visits.
+To maintain the network’s operation, the price should be borne by transaction
+fees. To stabilize the value due to inefficiencies in the economy (spoilage, overhead,
+other frictions/corruption), holding taxes should be used. Holding taxes means the
+currency’s inflation rate. I.e., if you hold the money for a year, the inflation rate tells
+you how much value you lose. Inflation is controlled by dictating how the peg of value
+changes.
+Finally, if the economy has a fundamental change, the currency should be
+repegged. A fundamental change may include a black swan event that makes the mar-
+ket reevaluate the value of the economy. Trying to maintain a peg at an artificial level
+prevents new members from adopting the currency and punishes members as they
+need to pay to maintain the artificial valuation. Maintaining the artificial valuation is
+the most likely way to induce a death spiral which collapses a currency.
+Most importantly, good governance principles are crucial for every aspect of in-
+stituting any long-term stablecoin due to inevitable changes in the market and the
+fundamental obstacle represented by the Folk Theorems of Game Theory. How does
+the stablecoin DAO determine when and how to adjust the parameters of the stability
+algorithm to react to market changes? How do we know whether a change in price is
+due to hot money or more fundamental factors? What type of assets should be main-
+tained in the reserves. To address these problems, we need decentralized central
+banking systems. The long-term governance of the DAO requires the best expertise to
+keep the currency stable. To find the best people to make governance decisions, re-
+quires a secure and meaningful reputation system to filter that talent. Secure means
+the reputation provides the right incentives and defenses to police the system and
+prevent gaming. Meaningful means the reputation pays the members properly for
+their expertise.
+Summary
+In the 9:9:s, the market for DeFi has started to take off but fully decentralized
+DeFi solutions still have a long way to go. The fundamentals go both ways, predicting
+deFi’s current failure and eventual success.
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 25
+First, the decentralized economy is missing the major institutions that our society
+relies on to conduct profitable business, especially a secure and meaningful system
+for evaluating reputation for anonymous supranational partners, and an effective and
+dynamic governance system that we can trust will guarantee justice and predictable
+continual improvement.
+Second, in the opposite direction, these decentralized networks have grown past
+the tipping point and are now immortal. The only way a centralized nation can control
+a decentralized network within their borders is to ban it completely, like the PRC has
+for many blockchains. But that will pose no threat to their existence. Like the nomadic
+Apaches, or filesharing apps like BitTorrent, attacking them will only make the decen-
+tralized economy stronger. In countries where it is allowed, it will thrive, making them
+more economically efficient and competitive under global capitalism. Though the Peo-
+ple’s Republic of China has banned its people from using current cryptocurrencies,
+they have been developing several stable coins for years. The global social media gi-
+ant, Facebook, has been developing its own stable coin, Libra. If successful, such initi-
+atives could link the crypto economy with establishment institutions.
+The comparison of new P9P projects with older projects, like BitTorrent, is instruc-
+tive. BitTorrent has been the subject of intense legal scrutiny and regulation12, yet it
+still exists because of its decentralized nature. However, these older P9P projects did
+not receive anything close to the level of accredited academic support that the newer
+blockchain projects are receiving. The technology is improving quickly, as is public and
+scientific understanding. In 9:c), most voices that made it to major media outlets pro-
+claimed deFi will vanish, that “crypto is the mother or father of all scams and bub-
+bles.”13 In 9:9: there are more peer-reviewed articles published each day with im-
+provements from accredited scientists, than there are stories criticizing the
+technology. Academics have begun to take the technology seriously as a new tool for
+improving peoples’ lives.
+Ethereum has the most deFi investment. It is growing, but at the moment, it is still
+insignificant. Only T% of ether tokens (market cap 9[ billion USD) are locked in deFi
+smart contracts. The intrinsic value of cryptocurrencies will only become significant
+once tokenization of commodities and other authentic uses of the money are
+achieved.
+(cid:0)(cid:0)
+12 More than @NN,NNN lawsuits were filed in the U.S. over the use of the decentralized protocol from
+@N>N to @N>>. “BitTorrent: Copyright lawyers' favourite target reaches @NN,NNN lawsuits”, The Guard-
+ian, (August ?, @N>>).
+13 CNBC quoting a New York University professor in a hearing with the U.S. Senate Committee on Bank-
+ing, Housing and Community Affairs. (October >>, @N>)) https://www.cnbc.com/@N>)/>N/>>/roubini-
+bitcoin-is-mother-of-all-scams.html (Retrieved July @), @N@N)
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+26 (cid:0) Chapter ) – Finance
+When will deFi take off? When the economy becomes viable—when cryptocur-
+rency is used in authentic transactions such as insurance and equities in broad seg-
+ments of industry and tokenization of commodities and properties is instituted. This
+will happen when people can trust the systems, which will only happen when decen-
+tralized reputation and governance are achieved. The technological problems are tan-
+talizingly close to being solved, but so far, the inability to trust each other due to the
+requirements of anonymity is crippling the deFi market. So traditional markets have a
+fundamental advantage. Decentralized markets are overcollateralized. To make a de-
+centralized financial transaction, such as a loan, or buy an insurance policy or a deriv-
+ative instrument, someone needs to completely back the product with c::% collat-
+eral. In the case of secondary layers, you need more, such as MakerDAO’s scheme
+which requires much more than 9::% collateralization. This would be an unthinkable
+obstacle to liquidity in traditional markets. It is only being used in the crypto space
+because of a lack of decentralized alternatives.
+However, once secure and meaningful reputation is incorporated into the WebT
+environment, this imbalance will be reversed. Since reputation tokens are more mean-
+ingful than identity, and much easier to valuate, even less collateralization will be re-
+quired than traditional protocols, and the decentralized economy will gain the upper
+hand over traditional centralized institutions. Locking your reputation tokens instead
+of your assets would be a strong leap in efficiency, giving a powerful economic ad-
+vantage over traditional finance. This can only be achieved with a coherent system
+which securely tracks the value of a reputation token.
+Not until the problems with decentralized governance are addressed will the de-
+centralized economy be stable enough to invest fully, for the long term. These prob-
+lems need to be solved before the decentralized economy can realize its full potential
+for efficiency. Once they are solved, however, the crypto economy is ready to explo-
+sively grow. The technical tools have been built. The legal and business dimensions
+just need to be arranged to ensure security and fairness through the proper incentives.
+But even with all this, there is still another basic component missing—one more
+institutional overhead system that gives business the catalyst it needs. How can the
+average person participate in the decentralized economy? How can they know what
+is a good network to participate in? How can they know what to invest in? We need
+trustworthy open source decentralized institutions for recording and parsing history,
+for investigating and reporting the news, for guiding our attention to the future.
+Bibliography
+Formating example:
+Electronic copy available at: https://ssrn.com/abstract=3782216
+
+Chapter ) – Finance (cid:0) 27
+Evans, Dave (Apr. 2011). The Internet of Things: How the Next Evolution of the Internet is Changing
+Everything. CISCO White Paper, https://www.cisco.com/c/dam/en_us/about/ac79/docs/in-
+nov/IoT_IBSG_0411FINAL.pdf (accessed June 1, 2020).
+Wikipedia. Last Universal Common Ancestor, https://en.wikipedia.org/wiki/Last_universal_com-
+mon_ancestor (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3782216
+

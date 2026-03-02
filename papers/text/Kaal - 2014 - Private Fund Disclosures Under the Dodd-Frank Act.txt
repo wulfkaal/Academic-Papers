@@ -1,0 +1,1952 @@
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+THE EFFECT OF PRIVATE FUND DISCLOSURES UNDER THE DODD-FRANK ACT
+BY
+WULF A. KAAL *
+* Associate Professor, University of Saint Thomas School of Law, Minneapolis. The author wishes to
+acknowledge the assistance of his colleagues, private fund advisers, the Managed Funds Association, and
+the staff of the Securities and Exchange Commission’s Divisions of Investment Management and
+Economic and Risk Analysis. Special thanks go to Roberta Romano, John Morley, Tamar Frankel, Bentley
+Anderson, Stuart Kaswell, Alan Palmiter, the participants at the Midwestern Securities Litigation and
+Enforcement Forum, and the participants at the 6th liechtensteinische Fondstag at the University of
+Liechtenstein. The author is also grateful for outstanding research assistance from Nadine Ibrahim and
+Timothy Lacine and research librarian Valerie Aggerbeck.
+1
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+Electronic copy available at: http://ssrn.com/abstract=2447306
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+ABSTRACT
+Title IV of the Dodd-Frank Act requires the Securities and Exchange Commission
+(SEC) to collect sensitive proprietary information from private fund advisers. Prior
+studies suggest that the SEC’s mandated collection of private fund data in Form PF
+created several core challenges for the private fund industry and for the SEC. This article
+presents the results of a survey of SEC-registered investment advisers to private funds
+after the SEC’s first mandatory collection of private fund data.
+The key findings of this study indicate that the majority of private fund advisers
+responding to the survey incurred less than $10,000.00 to prepare their initial data
+reporting to the SEC, with the cost of subsequent annual Form PF filings at about half the
+initial cost. Larger private fund advisers, required to file quarterly, are faced with
+substantially higher compliance cost, both for their initial data reporting and for
+subsequent quarterly filings. The data analysis in this study affirms SEC cost estimates
+for smaller private fund advisers’ Form PF compliance costs. The SEC appears to have
+overestimated the costs of Form PF compliance for larger private fund advisers.
+While the data analysis in this study suggests that the overall effect of private
+fund disclosure requirements on the private fund industry is moderate, the data analysis
+also indicates that the data reporting requirements for private funds and the corresponding
+SEC forms can be further improved. The majority of SEC-registered private fund
+advisers identified the ambiguity of Form PF data reporting requirements as the most
+pressing issue. However, the majority of respondents also considered their existing
+reporting systems adequate for capturing the information required by the SEC and agreed
+with the SEC’s definitions and instructions for Form PF. Respondents predominantly
+assessed the best level of guidance available from the SEC staff to assist in private fund
+advisers’ data reporting efforts as sufficient or good.
+2
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+Electronic copy available at: http://ssrn.com/abstract=2447306
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+TABLE OF CONTENTS
+I. INTRODUCTION ................................................................................................................................................ 4
+II. PRIVATE FUND TRANSPARENCY .............................................................................................................. 6
+III. METHODOLOGY ........................................................................................................................................... 8
+1. Data Sources and Coding ......................................................................................................................... 9
+2. Sampling Constraints ............................................................................................................................... 10
+3. Selection Bias .............................................................................................................................................. 10
+IV. DESCRIPTIVE STATISTICS ...................................................................................................................... 12
+1. Internal Consistency ................................................................................................................................. 12
+2. Representativeness of Sample ............................................................................................................... 16
+V. RESULTS ........................................................................................................................................................ 17
+1. Form PF Compliance Cost .................................................................................................................... 19
+2. Shortcomings and SEC Guidance ....................................................................................................... 25
+3. Reporting Systems and Service Providers ........................................................................................ 32
+4. Investor Relations ...................................................................................................................................... 36
+VI. DISCUSSION AND CONCLUSION ........................................................................................................... 37
+1. Summary of Key Findings ...................................................................................................................... 37
+2. Policy Implications and Future Research ........................................................................................ 39
+VII. APPENDIX: SURVEY INSTRUMENT .................................................................................................... 41
+3
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+Electronic copy available at: http://ssrn.com/abstract=2447306
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+I. Introduction
+Title IV and Securities and Exchange Commission (SEC) rules implementing the
+requirements under Title IV created a paradigm shift for the regulation of private funds in
+the United States, increasing the level of regulatory oversight to unprecedented levels.
+The new regulatory framework for private funds in the United States requires private
+fund adviser registration and enhanced disclosure of sensitive proprietary information.1
+To facilitate appropriate data collection to assess systemic risks, the Dodd-Frank Act
+authorized the SEC to promulgate rules requiring registration and enhanced disclosures
+for private equity and private funds managers.2 To collect the required data, the SEC
+Division of Investment Management adopted a new form, Form PF.3
+Private fund advisers have traditionally opposed enhanced transparency of the
+funds they manage, arguing that the mandatory private fund disclosure requirements in
+Form PF could inappropriately burden the private fund industry.4 Some of the most
+controversial disclosure requirements in Form PF include the reporting of risk metrics,
+strategies and products used by the investment adviser and its funds, counterparties and
+credit exposure, performance and changes in performance, financing information,
+percentage of assets traded using algorithms, and the percentage of fund assets held in
+equity and debt instruments.5
+Prior studies suggest that the SEC’s mandated collection of private fund data in
+Form PF creates several core challenges for the private fund industry and for the SEC.6
+1 Dodd-Frank Wall Street Reform and Consumer Protection Act, Pub. L. No. 111–203, §§ 401-402, 124
+Stat. 1376, 1570 (codified at 15 U.S.C. §§ 80b-20 nt, 80b-2).
+2 Id. §§ 402–408.
+3 SEC. & EXCH. COMM’N, OMB NO. 3235-0679, FORM PF: REPORTING FORM FOR INVESTMENT ADVISERS
+TO PRIVATE FUNDS AND CERTAIN COMMODITY POOL OPERATORS AND COMMODITY TRADING ADVISORS
+(2011) [hereinafter FORM PF], available at http://www.sec.gov/about/forms/formpf.pdf; SEC. & EXCH.
+COMM’N, OMB NO. 3235-0049, FORM ADV: UNIFORM APPLICATION FOR INVESTMENT ADVISER
+REGISTRATION AND REPORT BY EXEMPT REPORTING ADVISERS (2011) [hereinafter FORM ADV], available
+at http://www.sec.gov/about/forms/formadv.pdf.
+4 SEC. & EXCH. COMM’N, IMPLICATIONS OF THE GROWTH OF PRIVATE FUNDS 90 (2003), available at
+http://www.sec.gov/news/studies/hedgefunds0903.pdf (“Many of those opposing required registration
+expressed a strong preference for leaving the private fund industry ‘unregulated.’”); Stephen Brown et
+al., Mandatory Disclosure and Operational Risk: Evidence from Private fund Registration, 63 J. FIN. 2785,
+2789 (2008) (stating that when the SEC tried to change registration rules in 2004, the changes were
+strongly opposed by private fund managers, “who argued that completing the 35-page form was
+unnecessarily costly and burdensome.”); Carol J. Loomis, Hard Times Come to the Private funds,
+FORTUNE, Jan. 1970, at 100 (arguing that the private fund industry viewed the threat of SEC action as a
+deterrent to growth, and private fund managers in the 1960s and 1970s disliked the thought of SEC
+regulation, dreading the “prospect of an SEC move that would prevent them from earning their
+compensation in the traditional way.”); Private fund Operations: Hearing Before the H. Comm. on Banking
+& Fin. Servs., 105th Cong. 26 (1998) (statement of Alan Greenspan, Chairman, Federal Reserve Board)
+(repeating Greenspan’s support for continued loose regulation of the private fund industry).
+5 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors [sic] on Form PF, Investment Advisers Act Release No. 3308 (Oct. 31,
+2011), 76 Fed. Reg. 71,128 (Nov. 16, 2011), available at http://www.sec.gov/rules/final/2011/ia-3308.pdf;
+FORM ADV, supra note 3; FORM PF, supra note 3.
+6 Wulf A. Kaal, Private fund Manager Registration Under the Dodd-Frank Act, 50 SAN DIEGO L. REV. 244
+(2013) [hereinafter Kaal, Private fund Manager Registration]; Wulf A. Kaal, Private funds’ Systemic Risk
+Disclosures in Bankruptcy, 22 AM. BANKR. INST. L. REV. (forthcoming 2014) [hereinafter Kaal, Private
+funds’ Systemic Risk Disclosures]; Wulf A. Kaal, Private fund Regulation via Basel III, 44 VAND. J.
+4
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+The SEC appears to be primarily concerned about the collection and evaluation of
+the private fund data as well as the clarity and understandability of SEC Form PF
+guidance. The private fund industry has identified other concerns pertaining to its
+attempts to comply with the data reporting obligations, including: (1) understanding the
+intended purpose of Form PF, (2) understanding the definitions and instructions in Form
+PF, (3) the ease of interpreting Form PF questions, (4) investment advisers’ lack of
+resources (staff, time, vendor costs) for preparing Form PF, (5) the lack of and the nature
+and extent of SEC guidance and support, (6) the time spent on filing out and filing Form
+PF, (7) adequacy of existing internal reporting, monitoring, and tracking systems for
+capturing the information required on Form PF, and (8) ability to provide disclosures
+regarding counterparty credit exposure and collateral. Anecdotal evidence suggests that
+the SEC may be working with contradictory, misleading, inaccurate, and incomplete data.
+Investment advisers claim that the SEC is using industry terms incorrectly and
+inconsistently. Others allege that many of the disclosure obligations in Form PF do not
+pertain to their business or cannot be fulfilled other than by guessing or by providing
+rough estimates. If these allegations should be true, the SEC’s ability to evaluate and
+assess the data could be compromised. The use of incomplete and misleading data could
+lead to the development of questionable policies and regulations applicable to the private
+fund industry.
+This article presents the results of a survey of private fund advisers7 after the
+SEC’s adoption of Form PF. The survey was disseminated to 3669 private fund advisers
+who registered with the SEC before the applicable deadline. The author’s research team
+contacted the entire population via a fax questionnaire and e-mail survey. After multiple
+attempts to reach the entire population in over five months, respondents ([n=52])
+(0.014%) answered questions in several categories designed to identify the effectiveness
+of Form PF. The categories included: (1) definitions and instructions in Form PF, (2) the
+need to interpret Form PF questions, (3) priority of problems with Form PF, (4) advisers’
+understanding of intended purpose of Form PF, (5) use of a service provider to complete
+Form PF, (6) resources (staff, time, cost) allocated for filing Form PF, (7) SEC guidance
+and support, (8) time spent on filing out and filing Form PF, (9) adequacy of existing
+internal reporting, monitoring, and tracking systems for capturing the information
+required on Form PF, (10) disclosures regarding counterparty credit exposure and
+collateral difficulties in identifying counterparties, (11) investors’ requests for copies of
+an adviser’s Form PF filings, and (12) advisers substituting portions of required CFTC
+forms with Form PF disclosures.
+The survey identifies the core issues pertaining to private fund data collection in
+Form PF and outlines possible solutions/remedies to address these issues. The author
+tested all survey questions in several rounds with representatives from the private fund
+industry. The SEC also provided feedback on draft survey questions. Cross-comparison
+of the feedback from both the SEC and the private fund industry indicates that the survey
+questions are highly relevant and succinctly address the main concerns with Form PF.
+TRANSNAT’L L. 389 (2011) [hereinafter Kaal, Basel III]; Wulf A. Kaal, Private fund Valuation –
+Retailization, Regulation, and Investor Suitability, 28 ANN. REV. BANKING & FIN. L. 581 (2009)
+[hereinafter Kaal, Private fund Valuation].
+7 This article predominantly considers SEC-registered investment managers to private funds and private
+equity advisers but less so venture capital pools.
+5
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Cross-comparison of SEC and industry feedback also shows that both groups
+independently identified the same pertinent issues with Form PF. In addition, both groups
+suggested improvements for various survey questions. Accordingly, the survey addresses
+concerns of both the private fund industry and the SEC.
+While the majority of private fund advisers identified the ambiguity of Form PF
+and the inefficiency of data reporting requirements as the most pressing issues pertaining
+to Form PF, the majority of advisers also agreed with the definitions and instructions that
+the SEC uses and advisers generally appreciate SEC guidance and flexibility. The
+majority of respondents also assessed the best level of guidance available from the SEC
+staff to assist in their data reporting efforts as sufficient or good. The majority of
+respondents reported that they incurred additional expenditures of less than $10,000.00 to
+prepare and file their initial Form PF submission, and that the cost of subsequent annual
+filings was about half the initial cost. Larger investment advisers to private funds,
+however, incur substantially larger compliance cost in fulfilling the quarterly filing
+requirements under Form PF.
+Part I of this article introduces the history and summarizes the debate over the
+creation of private fund disclosure requirements. Part II describes the legal requirements
+and private fund managers’ data collection obligation under the Dodd-Frank Act and SEC
+Form PF. The author provides anecdotal evidence from prior surveys suggesting that the
+data that private funds report on Form PF creates several challenges for the SEC and the
+private fund industry. Part III outlines the methodological approach of the survey,
+introducing the survey instrument, data sources, sampling, coding, and coding
+constraints. The author also evaluates possible selection bias issues. Part IV discusses the
+results of the survey with descriptive statistics. Part V presents the substantive results of
+the study in summary graphs. Part VI summarizes the key findings and examines
+implications for private fund policy. That part also evaluates the survey’s limitations and
+possible implications for future research.
+II. Private Fund Transparency
+Title IV of the Dodd-Frank Act established rules and regulations for the
+registration of private funds with the SEC in 2010.8 Title IV of the Dodd-Frank Act and
+SEC rules implementing the requirements under Title IV9 increased the level of
+regulatory oversight of private funds to unprecedented levels.10 Prior to the enactment of
+Title IV, the private fund industry was largely exempt from regulatory oversight,
+provided private fund advisers complied with safe harbour requirements under federal
+securities laws.11
+8 H.R. REP. NO. 111-517, at 866–67 (2010) (Conf. Rep.), available at
+http://www.gpo.gov/fdsys/pkg/CRPT-111hrpt517/pdf/CRPT-111hrpt517.pdf.
+9 See Dodd-Frank Act §§ 401–416, 124 Stat. 1376, 1570-79 (incorporating the PFIARA in Title IV).
+10 Id.; Proposal for a Directive of the European Parliament and of the Council on Alternative Investment
+Fund Managers and Amending Directives 2004/39/EC and 2009/…/EC, COM (2009) 207 final (Apr. 30,
+2009); Alternative Investments, EUROPEAN COMMISSION,
+http://ec.europa.eu/internal_market/investment/alternative_investments_en.htm (last updated Mar. 24,
+2014) (providing additional materials on AIFM).
+11 SEC proposed amending Regulation D, noting that inflation might have eroded the significance of a $1
+million net worth as a proxy for investor sophistication. See Prohibition of Fraud by Advisers to Certain
+Pooled Investment Vehicles; Accredited Investors in Certain Private Investment Vehicles, 72 Fed. Reg.
+6
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Title IV increased the disclosure obligations for private fund advisers to
+unprecedented levels by requiring registered investment advisers to file periodic reports12
+via SEC Form PF.13 All registered investment advisers holding more than $150 million in
+assets under management (AUM) attributable to private funds at the end of their most
+recently completed fiscal year, are required to file Form PF with the SEC.14 Form PF
+requires investments managers to disclose information about themselves, about the funds
+they manage, and about their investors.15
+Important Form PF disclosure requirements include a breakdown of the net asset
+value (NAV) that the investment manager manages,16 including the percentage of the
+reporting fund’s net asset value was managed using high-frequency trading strategies.17
+Form PF requires investment advisers to disclose the five trading counterparties to which
+the reporting fund has the greatest net counterparty credit exposure,18 including the dollar
+amount owed to each creditor.19 Other important Form PF disclosures include the
+requirement that the manager identify changes in market factors and their effect on the
+400, 405 (Jan. 4, 2007) (to be codified at 17 C.F.R. pt. 275) (proposing two steps for determining whether
+an investors would be accredited: (1) whether the individual meets the test in rule 501(a) or rule 215 and (2)
+whether the individual “owns at least $2.5 million in investments”.). But see Prohibition of Fraud by
+Advisers to Certain Pooled Investment Vehicles, 72 Fed. Reg. 44,756, 44,756 n.2 (Aug. 9, 2007) (to be
+codified at 17 C.F.R. pt. 275) (deferring consideration of proposed change to definition of “accredited
+investor”). Before the enactment of the Dodd-Frank Act in 2010, private funds and their investment
+advisers were able to remain exempt from the securities laws as long as they limited the resale of their
+securities, limited the sale of their securities to a limited number of accredited investors, and did not
+advertise or otherwise hold themselves out to the public. See Kaal, Basel III, supra note 6 (summarizing
+private fund regulation requirements before the Dodd-Frank Act).
+12 Dodd-Frank Act § 404(b), 124 Stat. 1376, 1571; 17 C.F.R. § 275.204(b)-1 (2013); Reporting by
+Investment Advisers to Private Funds and Certain Commodity Pool Operators and Commodity Trading
+Advisors on Form PF, 76 Fed. Reg. 71,128, 71,140 (Nov. 16, 2011) (to be codified at 17 C.F.R. pts. 275 &
+279), available at http://www.gpo.gov/fdsys/pkg/FR-2011-11-16/pdf/2011-28549.pdf.
+13 FORM PF, supra note 3; See also 17 C.F.R. § 275.204(b)-1(requiring private fund advisers to file Form
+PF with the SEC periodically); Reporting by Investment Advisers to Private Funds and Certain Commodity
+Pool Operators and Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,129, 71,239; 17 C.F.R. §
+4.27 (2013) (requiring private fund advisers to file Form PF if they are registered as commodity pool
+operators or commodity trading advisers).
+14 17 C.F.R. § 275.204(b)-1; Reporting by Investment Advisers to Private Funds and Certain Commodity
+Pool Operators and Commodity Trading Advisors on Form PF, 76 Fed. Reg. at 71,132 (listing three criteria
+for filing Form PF that represent an initial threshold for the minimal Form PF requirements and stating that
+most private fund advisers who meet these three criteria will only be required to file Section 1 of Form PF
+while “large private fund advisers” will be required to file the remaining sections of Form PF); id. at
+71,133(explaining that there are three types of “large private fund advisers:” (1) “[a]ny adviser having at
+least $1.5 billion in [RAUM] attributable to private funds as of the end of any month in the prior fiscal
+quarter;” (2) “[a]ny adviser managing a liquidity fund having at least $1 billion in combined [Regulatory
+Assets Under Management] attributable to liquidity funds and registered money market funds as of the end
+of any month in the prior fiscal quarter;” and (3) “[a]ny adviser having at least $2 billion in [RAUM]
+attributable to private equity funds as of the last day of the adviser’s most recently completed fiscal year.”
+15 See 17 C.F.R. § 279.9 (2013) (establishing filing requirements for Form PF); FORM PF, supra note 3, §
+1a–b.
+16 FORM PF, supra note 3, §1a, Item B.3 (including the following private fund categories: (a) private funds,
+(b) liquidity funds, (c) private equity funds, (d) real estate funds, (e) securitized asset funds, (f) venture
+capital funds, (g) other private funds, (h) funds and accounts other than private funds).
+17 Id. § 1c, Item B.21.
+18 Id. § 1c, Items B.22–23.
+19 Id. § 2b, Item D.47.
+7
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+long and short components of the portfolio as a percentage of NAV,20 any information
+about the counterparties’ collateral and other credit support posted to the respective
+reporting funds,21 as well as trading and clearing mechanisms subject to liquidity
+constraints and the duration of those constraints.22
+Form PF is also intended to improve the SEC’s understanding of reporting funds’
+liquidity, exposure, and assets. Accordingly, Form PF requires investment advisers to
+disclose the time increments it would take to liquidate a certain percentage of the
+reporting funds’ portfolio,23 the dollar value of long and short positions in each asset
+class,24 the value of turnover by asset class,25 the types of creditors including the market
+value of borrowings,26 and the aggregate value of all derivative positions for each advised
+fund.27 Finally, Form PF requires disclosure of the reporting fund’s restrictions (if any)
+on investor withdrawals and redemptions28 and other information pertaining to investor
+liquidity, such as the percentage of NAV.29
+In light of the highly sensitive nature of these required disclosures and the
+complexity of the reporting requirements, Form PF created substantial challenges for the
+private fund industry. For instance, the disclosure of counterparty credit exposure is
+sensitive information that can often not readily be determined by the individual fund
+managers. While prior studies have acknowledged that the SEC’s mandated collection of
+private fund data via Form PF created several core challenges for the private fund
+industry, these studies do not sufficiently clarify the impact of Form PF disclosure
+requirements on managers.30 Anecdotal evidence suggests that the SEC may be working
+with contradictory, misleading, inaccurate, and incomplete data in Form PF, which
+impacts the SEC’s ability to evaluate and assess the data. The use of incomplete and
+misleading data could lead to questionable policy and regulatory decisions for the private
+fund industry.
+III. Methodology
+The author analyzed a sampling of individual investment advisers from a
+population of investment advisers registered in the United States. The author made
+statistical inferences about the population using the sample. The data was collected via e-
+mails with electronic surveys and faxes with survey questionnaires.31 No respondent
+received a financial incentive to participate in the survey. The only (nonfinancial)
+incentive for private fund advisers’ participation was the author’s promise to share the
+20 Id. § 2b, Item C.42.
+21 Id. § 2b, Item B.36.
+22 Id. § 1c, Item B.24.
+23 Id. § 2b, Item B.32.
+24 Id. § 2a, Item B.26; id. § 2b, Item B.30 (pertaining to investment advisers that advise more than one
+private fund).
+25 Id. § 2a, Item B.27.
+26 Id. § 2d, Item D.43.
+27 Id. § 2b, Item D.45.
+28 Id. § 2b, Item E.49.
+29 Id. § 2b, Item E.50.
+30 Kaal, Private fund Manager Registration, supra note 6; Kaal, Private funds’ Systemic Risk Disclosures,
+supra note 6; Kaal, Basel III, supra note 6; Kaal, Private fund Valuation, supra note 6.
+31 Mode effects are insignificant because each data collection method was based on the same questionnaire
+and the author and his team of research assistants asked respondents the same sequence of questions.
+8
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+findings of the survey.
+To ensure the pertinence and accuracy of the survey instrument, the author tested
+and retested the survey instrument in over twenty test runs. After each test phase, the
+author integrated substantial substantive feedback from SEC representatives, academics,
+and registered private fund advisers. Throughout the test phase, the author trained a team
+of research assistants to engage respondents and code responses. The author double-
+checked coding for accuracy and internal consistency.
+1. Data Sources and Coding
+To provide quantifiable support for specific issues with Form PF that allows
+further empirical investigation, the author surveyed private fund advisers in the United
+States who are subject to Form PF filing requirements. The SEC’s Investment Adviser
+Registration Depository (IARD) contains data pertaining to registered investment
+advisers who are subject to the Form PF filing requirement.32 To identify the relevant
+population, the author downloaded from the IARD website a dataset comprising
+investment adviser firms registered with the SEC and applied a predefined set of filters.
+First, the author filtered the data set by Form ADV item 7.B, “Are you an adviser
+to any private fund?” That filter decreased the dataset to 4,045 “Yes” responses and 11
+firms that did not answer the question for a total of 4,056 firms. Thereafter, the author
+organized the data by “Main Office” location response on Form ADV of the investment
+advisers by country. While the data set was arranged in order of “Main Office Country,”
+the author also ascertained that the main office was in the United States by filtering main
+office phone and main office fax numbers, respectively, and removing the investment
+adviser firms with non-US phone and fax numbers and any firms with phone or fax
+numbers with more than 10 digits. Through this process of elimination, the author
+identified 3,728 advisers who were located in the US and had responded affirmatively to
+the SEC as advising private funds. Subsequently, the author filtered for firms that
+completed the latest version (October 2012) of Form ADV, identifying 3,669 firms. Thus,
+the filtered and final dataset of 3,669 firms includes investment adviser firms that: 1)
+advise private funds, 2) have US contact information, and 3) completed the October 2012
+version of Form ADV.
+The author used several different coding methodologies. For example, the author
+used close-ended survey questions only to quantify items. Close-ended questions were
+dichotomous and continuous, and the response options for close-ended questions were
+mutually exclusive and exhaustive. For those questions that allowed a “Yes” and “No”
+response, the author used a binary code of “1” for “Yes” and “0” for “No.” The author
+also used open-ended survey questions to assess several technically demanding Form PF
+issues. The author coded responses to open-ended survey questions into response clusters
+by assigning identification numbers to the respective response, thus, combining binary
+and clustered responses in one coding sheet. The combined coding sheet facilitated a
+cross comparison of survey responses in separate categories and with other Form PF and
+32 Historical Archive of Investment Adviser Reports, U.S. SEC. & EXCH. COMM’N,
+http://www.sec.gov/foia/iareports/inva-archive.htm (last modified May 1, 2014); see also Division of
+Investment Management: Electronic Filing for Investment Advisers on IARD, U.S. SEC. & EXCH. COMM’N,
+http://www.sec.gov/divisions/investment/iard.shtml (last modified Aug. 9, 2013) (providing information on
+the IARD and how to register or obtain information on investment advisers).
+9
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Form ADV data. The author and his research assistants approached all respondents using
+the same methodology. All respondents volunteered their participation and the author had
+no control over the selection of the sample.
+2. Sampling Constraints
+Empirical researchers analyzing private funds face many limitations when
+conducting surveys.33 Because of the private fund industry’s particular interest in
+confidentiality and privacy and decades-old regulations that allowed the industry to
+remain exempt from registration and transparency requirements, high quality private fund
+data are rather limited. One promising way to overcome this limitation involves the
+collection of the required data. However, private fund advisers’ privacy, performance,
+and idiosyncratic concerns also limit the researcher’s ability to collect data for a
+substantial effective sample size.34 The SEC’s efforts to keep the e-mail contact
+information of filing entities and their representatives private also complicates the survey
+approach to collecting private fund data.35
+Accordingly, data collection for this study proved difficult. The overwhelming
+majority of the population did not participate in the survey. In addition to the
+aforementioned privacy and performance-related limitations, the data collection for this
+study required private fund adviser respondents to recall technical details and their
+individual filing history on Form PF. In only the rarest of circumstances did respondents
+revisit their filing history to respond to the survey questions that required such additional
+expertise. Several respondents voiced concern and/or uncertainty about possible SEC
+enforcement measures pertaining to their Form PF filings, which may also have affected
+the response rate of this study.
+3. Selection Bias
+Selection bias in survey studies is the subject of a long-lasting and ongoing debate
+in the literature.36 Generally speaking, sample selection bias exists if, rather than using
+randomly selected cases to explain phenomena, researchers select cases because they
+display and share the trait the researcher hopes to explain.37 Several factors such as the
+33 Kaal, Private fund Manager Registration, supra note 6, at 278-80.
+34 Id. at 278 (“Private fund managers have a tendency to disfavor any form of public exposure for a variety
+of economic, performance, privacy-related, and idiosyncratic reasons. Given the particular concern in the
+private fund industry regarding confidentiality and privacy, obtaining a substantial effective sample size for
+this study proved difficult.”).
+35 Id. at 279 (“The author and his team of researchers encountered a number of problems during the process
+of collecting survey responses. The identity and contact information for the chief compliance officer and
+chief legal officer of the firms were not publicly available. Although Form ADV requires advisers to
+disclose the contact information for their chief compliance officer, the dataset provided by the SEC did not
+list this information and did not include e-mail addresses. The filed copy of Form ADV on the IARD
+website also did not contain chief compliance officer information. The dataset obtained from the SEC did
+not include the e-mail addresses, and neither did the individual Form ADVs on the IARD website.”).
+36 See Thomas W. Hall et al., The Effectiveness of Increasing Sample Size to Mitigate the Influence of
+Population Characteristics in Haphazard Sampling, 20 AUDITING: J. PRAC. & THEORY 169, 169 (2001).
+37 See Barbara Geddes, How the Cases You Choose Affect the Answers You Get: Selection Bias in
+Comparative Politics, 2 POL. ANALYSIS 131, 140 (1990).
+10
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+non-random selection of cases38 and the drawing of inferences that are not statistically
+representative of the population result in selection bias.39
+Despite the drawbacks of selection biases, some scholars argue that sample
+selection bias is merely a generic problem in social science research designs involving a
+non-random sample of a population of interest.40 Selection bias is considered a generic
+problem because human behavior determines selection41 and the assumptions about how
+selection occurs are important for selection bias models.42 In fact, several social science
+research traditions rely on empirical designs that are subject to sample selection biases.43
+There is some evidence that significant findings with substantial policy implications can
+be ignored if researchers rely exclusively on observational schemes that are free from
+selection bias.44 Several studies used simulation techniques to review the effectiveness of
+techniques used to prevent selection bias. These studies suggest that under ordinary
+circumstances many of the techniques used to prevent selection bias problems skew
+results, have mixed success rates, and can actually worsen rather than improve
+38 See PETER JONES, STATISTICAL SAMPLING AND RISK ANALYSIS IN AUDITING 11–12 (1999); DONALD A.
+LESLIE ET AL., DOLLAR-UNIT SAMPLING: A PRACTICAL GUIDE FOR AUDITORS 36–37 (1980); ARTHUR J.
+WILBURN, PRACTICAL STATISTICAL SAMPLING FOR AUDITORS 4–6 (1984); Herbert Arkin, Statistical
+Sampling in Auditing, 27 N.Y. CERTIFIED PUB. ACCT. 454, 457 (1957); W. Edwards Deming, On the
+Contributions of Standards of Sampling to Legal Evidence and Accounting, 19 CURRENT BUS. STUD. 14,
+18–21 (1954); Thomas W. Hall et al., The Use of and Selection Biases Associated with Nonstatistical
+Sampling in Auditing, 12 BEHAV. RES. ACCT. 231, 232–33 (2000); Clive S. Lennox et al., Selection Models
+in Accounting Research, 87 ACCT. REV. 589, 611 (2012); Jennifer Wu Tucker, Selection Bias and
+Econometric Remedies in Accounting and Finance Research, 29 J. ACCT. LITERATURE 31, 32 (2010); Neal
+B. Hitzig, Statistical Sampling Revisited, CPA J., May 2004, at 30, available at
+http://www.nysscpa.org/cpajournal/2004/504/essentials/p30.htm; Tom Hall et al., Haphazard Selection: Is
+It Time to Change Audit Standards? 1, 3–4 (Working Paper, 2010), available at
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1687443.
+39 Richard A. Berk, An Introduction to Sample Selection Bias in Sociological Data, 48 AM. SOC. REV. 386,
+391 (1983); David Collier, Translating Quantitative Methods for Qualitative Researchers: The Case of
+Selection Bias, 89 AM. POL. SCI. REV. 461, 462 (1995).
+40 See Christopher Winship & Robert D. Mare, Models for Sample Selection Bias, 18 ANN. REV. SOC. 327,
+328 (1992).
+41 See generally Reuben Gronau, Wage Comparisons—A Selectivity Bias, 82 J. POL. ECON. 1119 (1974);
+James J. Heckman & Guilherme Sedlacek, Heterogeneity, Aggregation, and Market Wage Functions: An
+Empirical Model of Self-Selection in the Labor Market, 93 J. POL. ECON. 1077 (1985); James J. Heckman
+& Guilherme L. Sedlacek, Self-Selection and the Distribution of Hourly Wages, 8 J. LAB. ECON. S329
+(1990); James J. Heckman & Bo Honoré, The Empirical Content of the Roy Model, 58 ECONOMETRICA
+1121 (1990); H. Gregg Lewis, Comments on Selectivity Biases in Wage Comparisons, 82 J. POL. ECON.
+1145 (1974); A.D. Roy, Some Thoughts on the Distribution of Earnings, 3 OXFORD ECON. PAPERS 135
+(1951); Robert J. Willis & Sherwin Rosen, Education and Self-Selection, 87 J. POL. ECON. S7 (1979).
+42 See generally DRAWING INFERENCES FROM SELF-SELECTED SAMPLES (Howard Wainer ed., 1986);
+NONPARAMETRIC AND SEMIPARAMETRIC METHODS IN ECONOMETRICS AND STATISTICS: PROCEEDINGS OF
+THE FIFTH INTERNATIONAL SYMPOSIUM IN ECONOMIC THEORY AND ECONOMETRICS (William A. Barnett et
+al. eds, 1991); Arthur S. Goldberger, Abnormal Selection Bias, in STUDIES IN ECONOMETRICS, TIME SERIES,
+AND MULTIVARIATE STATISTICS 67 (Samuel Karlin et al. eds., 1983); Lung-Fei Lee, Some Approaches to
+the Correction of Selectivity Bias, 49 REV. ECON. STUD. 355 (1982); Abbas Arabmazar & Peter Schmidt,
+Note, An Investigation of the Robustness of the Tobit Estimators to Non-Normality, 50 ECONOMETRICA
+1055, 1055 (1982).
+43 See RICHARD L. RATLIFF ET AL., INTERNAL AUDITING: PRINCIPLES AND TECHNIQUES 628 (2d ed. 1996).
+44 Id.
+11
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+estimates.45 Increasing the sample size does not necessarily compensate for the potential
+selection bias of non-statistical techniques or guarantee the representativeness of the
+sample.46
+For purposes of this study, the author identified the population of private fund
+advisers who were subject to the disclosure requirements of the Dodd-Frank Act using
+the SEC’s IARD database. To ensure a representative sample, the author chose
+respondents who were private fund advisers and registered with the SEC as identified on
+the IARD database.
+The author had no control over the selection of the sample and did not use
+probabilistic randomizing aids for purposes of the sample selection. It would not have
+been feasible to further randomize the sample by including respondents from outside of
+the private fund industry or respondents other than private fund advisers because those
+non-adviser respondents would not have been exposed to the new disclosure
+requirements. Each member of the identified population of private fund advisers had a
+known, nonzero chance of being selected as part of the sample. All respondents were
+approached using the same methodology and were volunteer participants. While the
+author recognizes that obtaining information through voluntary responses can create an
+inherent bias because people with a special interest are more likely to respond, no indicia
+exist that respondents who did respond to the survey were different from individuals who
+did not respond. The dispersion of responses suggests that respondents did not have a
+special interest in responding. Common characteristics of respondents include experience
+with private fund disclosure requirements in Form PF and a willingness to share their
+experiences.
+IV. Descriptive Statistics
+1. Internal Consistency
+To ensure the accuracy of the results and internal consistency, the author
+integrated several survey questions to ascertain the expertise of respondents as well as
+questions that could be internally verified by comparison with other survey questions that
+asked the same question in a different context.
+45 See Ross M. Stolzenberg & Daniel A. Relles, Tools for Intuition About Sample Selection Bias and Its
+Correction, 62 AM. SOC. REV. 494, 494 (1997).
+46 See DAN M. GUY ET AL., PRACTITIONER’S GUIDE TO AUDIT SAMPLING 160 (1998).
+12
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+92.31%
+7.69%
+Figure 1: Respondents’ Familiarity with Form PF.
+Figure 1 shows the percentage value of respondents who answered the question
+concerning whether they assisted in preparing and/or filing Form PF. The overwhelming
+majority of respondents (92.31%) were involved with the preparation or filing of Form
+PF. Because the identities of respondents were not disclosed, the author was not able to
+remove responses from respondents who were not directly involved in completing and/or
+filing Form PF. However, responses from people who were not directly involved in
+preparing, completing, or filing Form PF but were otherwise involved with Form PF
+(7.69%; e.g. respondents who were involved with policy decisions, lobbying efforts etc.),
+can also yield valuable insights into the inner-workings of Form PF, the interpretation of
+Form PF questions, and the preparation of the document.
+Figure 2: Sections of Form PF Completed.
+Figure 2 shows the percentage of respondents in the sample who completed
+various sections of Form PF. Form PF requires all private fund advisers to complete
+Section 1a (types of private funds advised) and 1b (information regarding the private
+funds advised). Section 1c, on the other hand, requests information regarding the private
+funds that an investment adviser manages. Sections 2a and 2b pertain to large private
+13
+05
+04
+03
+02
+01
+0
+Did you assist in completing and/or file Form PF? (Q1)
+Yes No
+95.83%
+56.25%
+10.41% 8.33%
+2.08% 4.17% 0
+05
+04
+03
+02
+01
+0
+What section(s) of Form PF did you complete? (Q2)
+1a & 1b 1c
+2a 2b
+3 4
+5
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+fund advisers; Section 3 relates to the liquidity of fund advisers; and Section 4 deals with
+large private equity funds.
+In this survey, out of a total of 52 respondents, 48 responded to survey question 2.
+A majority of respondents (46 of the 48) indicated that they completed Sections 1a and
+1b (95.83%). More than half of the respondents (56.25%) also completed Section 1c,
+suggesting that a majority of respondents also advise private funds. Only a minority of
+respondents completed Sections 2a (10.41%) and 2b (8.33%) of Form PF, pertaining to
+large private fund advisers (defined as having “at least $1.5 billion in private fund assets
+under management as of the last day of any month in the fiscal quarter immediately
+preceding [the] most recently completed fiscal quarter.”). An even smaller percentage of
+respondents completed Section 3 (2.08%) and Section 4 (4.17%), which pertains to large
+private equity fund advisers (defined as having “$2 billion in private equity fund assets
+under management as of the last day of [their] most recently completed fiscal year”).
+85.71%
+14.29%
+Figure 3: Annual and Quarterly Filing of Respondents.
+Figure 3 identifies the percentage of respondents who file Form PF annually
+(suggesting these filers are smaller private fund advisers), and those who file quarterly
+(suggesting these respondents are larger private fund advisers who are required to
+complete Sections 2-5 of Form PF). Only 14.29% of respondents file quarterly and are,
+thus, self-identified as larger private fund advisers. The overwhelming majority of private
+fund advisers (85.71%) in the survey are filing annually and are, thus, self-identified as
+smaller private fund advisers.
+14
+04
+03
+02
+01
+0
+Are you required to file Form PF? (Q3)
+Annualy Quarterly
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+95%
+86%
+25%
+14%
+Figure 4: Internal Consistency of Questions 2 and 3.
+A 2% difference in the response rate exists between Questions 2 and 3 (see Figure
+6). Figure 4 compares the internal consistency of responses to Questions 2 and 3, as the
+"annual" responses in Question 3 near equal the Section 1a-c responses in Question 2.
+Similarly, respondents who checked Sections 2-5 in Question 2 near equal those
+respondents checking "quarterly" in Question 3. The legal requirement that precipitates
+the preparation and filing of Sections 2-5 of Form PF means that respondents are required
+to file quarterly. The comparison of Questions 2 and 3 thus illustrates that the responses
+to both questions are internally consistent. The internal consistency of these responses
+suggests that the survey responses have an above average reliability.
+Figure 5. Type of Private Funds in Survey.
+Figure 5 shows the type of private funds that the respondents advise. The
+overwhelming majority of survey respondents advise private funds (56%), followed by
+private equity funds (30%). Venture capital funds, securitized asset funds, liquidity funds,
+and real estate funds are overall less represented in the sample. The 30% of respondents
+who suggested that neither of the categories applied to their investment adviser firm
+15
+05
+04
+03
+02
+01
+0
+Q2-Q3 Internal Consistency
+Q2: Sec. 1 Q3: Annually
+Q2: Sec. 2-5 Q3: Quarterly
+56%
+30% 30%
+12%
+8%
+6%
+2%
+03
+02
+01
+0
+What type of private fund does your investment advisor firm manage? (Q4)
+Hedge Fund Liquidity Fund
+Private Equity Fund Real Estate Fund
+Securitized Asset Fund Venture Capital
+Other Private Fund
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+suggests that these respondents may take issue with the SEC’s categorization of their
+adviser firm.
+100%
+96% 96%
+94% 94% 94%
+92% 92% 92% 92%
+90% 90%
+88%
+85%
+81%
+67%
+92%
+54%
+48%
+46%
+40%
+38%
+Figure 6. Response Summary for Survey Questions.
+Figure 6 shows the number of responses to each question in the survey
+instrument. Overall, very few participants completed the entire survey. Questions 5, 8, 9,
+13b, 14a, and 14b, which were open-ended survey questions that required additional
+analysis and/or an explanation of the collected Form PF data, show a much lower
+response rate (e.g. between 38% and 67%). Other factors that could potentially have
+influenced the lower response rate for these questions include the need to revisit some of
+the more complex questions in Form PF.
+2. Representativeness of Sample
+To ensure the representativeness of the sample of private fund advisers in this
+survey, the author created cross-comparisons between the sample and the population of
+3669 investment adviser firms. Cross-comparisons were limited by the availability of
+comparable data. Figures 7 and 8 suggests that, under the examined parameters, the
+sample of private fund advisers who responded to this survey (n=52) is representative of
+the population of 3669 investment adviser firms.47
+47 Because of privacy concerns, most respondents declined to disclose their identity to the author. A cross-
+comparison of the sample with the population of 3669 private fund advisers was therefore only limitedly
+possible.
+16
+05
+04
+03
+02
+01
+0 Q1Q2Q3Q4Q5Q6 Q7a Q7bQ8Q9 Q10 Q11 Q12 Q13a Q13b Q14a Q14b Q15 Q16 Q17 Q18 Q19
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Figure 7: Types of Funds Sample vs. Population.
+Figure 7 shows another important measure to examine the representativeness of
+the sample. By comparing the types of funds managed in the population (via the SEC’s
+IARD database) with the types of funds managed in the sample, the author can assess the
+representativeness of the sample. Figure 7 suggests that overall the sample appears to be
+representative of the population in terms of the types of funds.
+Figure 8: Comparison of Size of Funds.
+Figure 8 shows a comparison of the size of funds in the population and in the
+sample. The sample appears to be generally representative of the population in terms of
+the size of funds and the corresponding annual or quarterly filing frequency.
+V. Results
+The results of this study identify and quantify core issues pertaining to the SEC’s
+private fund data collection through Form PF. The survey presents what the private fund
+industry considers to be the most pressing concerns with Form PF. By identifying,
+clarifying, quantifying, and outlining possible remedies for open issues with mandatory
+private fund disclosures in Form PF, the survey also provides essential feedback for the
+17
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+SEC and helps it address outstanding issues with Form PF. The survey results could help
+create a consensus between the SEC and the private fund industry on required disclosures
+and thereby increase cooperation between the two parties. The results may also help
+identify sustainable solutions for the regulation of the private fund industry.
+The results can be structured into several categories: (1) the intended purpose of
+Form PF, (2) understanding of definitions and instructions in Form PF, (3) the need to
+interpret Form PF questions, (4) investment adviser allocation of resources (staff, time,
+cost) for filing Form PF, (5) SEC guidance and support, (6) time spent completing and
+filing Form PF, (7) adequacy of existing reporting, monitoring, and tracking systems for
+capturing the information required on Form PF, and (8) disclosures regarding
+counterparty credit exposure and collateral.
+25.42% 25.42%
+22.03%
+20.34%
+5.93%
+.85%
+Figure 9: Purpose of Form PF.
+Figure 9 illustrates, in cluster categories, advisers’ responses to survey Question
+10: “What is the purpose of Form PF?” Most advisers assert that the purpose of Form
+PF is to assess systemic risk and address the lack of information regarding private funds.
+Other responses highlight the importance of allowing the Financial Security Oversight
+Council (FSOC) and the Office of Financial Research (OFR) to monitor risk and the need
+to collect risk exposure information. Three commenters stated the purpose of Form PF is
+to provide a roadmap for advisor examinations.
+18
+52
+02
+51
+01
+5
+0
+What is the purpose of Form PF? (Q10)
+Ease the burden on private funds Assess systemic risk
+Allow FSOC and OFR to monitor risks Address lack of private fund info
+Collection of risk exposure info Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+1. Form PF Compliance Cost
+59.18%
+18.37%
+8.16%
+4.82%
+Figure 10: Estimated Amount Spent to Complete Form PF.
+Figure 10 shows the estimated total amount of funds in dollars that investment
+advisers spent to complete Form PF for the first time. The majority of respondents
+(59.18%) indicated that the total estimated cost of first time Form PF completion was
+under $10,000.00. A minority of respondents suggested their cost of first-time Form PF
+completion was somewhere between $10,000.00 and $20,000.00. Some respondents,
+however, stated that their cost was over $30,000.00.
+Figure 11: Estimated Amount Spent to Complete Form PF – Small vs. Large Advisers.
+Figure 11 shows the estimated total amount of funds in dollars that smaller and
+large investment advisers spent to complete Form PF for the first time. Quarterly filing
+large funds spent on average $155,286 for the initial filing of Form PF. By contrast,
+annually filing smaller funds only spend on average $9,520 for the first time filing of
+Form PF.
+19
+03
+02
+01
+0
+Estimate total amount of funds spent to complete Form PF for the first time (Q12c)
+Under $10,000 $10,000 to $20,000
+$20,001 to $30,000 Over $30,000
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Annual&cost&of&ini-al&Form&PF&filing!
+$250,000!
+$208,700!
+$200,000!
+$155,286!
+$150,000!
+$100,000!
+$50,000!
+$13,600! $9,520!
+$0!
+Small!Fund! Large!Fund!
+SEC!Es<mates! Survey!results!!
+!
+Figu!re 12: Cross-Comparison of Initial Form PF Filing – Kaal 2014 vs. SEC.
+Figure 12! shows a cross-comparison of SEC cost estimates48 pertaining to the
+initial Form PF filing and the estimates provided by this study. The cross-comparison
+suggests that the SEC may be marginally overestimating the cost of Form PF filings for
+both annually filing smaller private fund advisers and quarterly filing larger private fund
+advisers. However, the data for the larger fund advisers’ cost of filing Form PF is based
+on a small sample.
+57.14%
+16.32%
+10.20%
+6.12%
+Figure 13: Estimated Annual Cost of Subsequent Form PF Filing.
+Figure 13 shows the estimated annual cost of subsequent Form PF filings. The
+majority of respondents (57.14%) indicated that their cost for annual Form PF filings
+would be under $5,000. A minority of respondents opined that their cost would be below
+$5,000. Some respondents, however, indicated that their cost may be between $10,000
+and $20,000 and several others maintained it would be over $20,000.
+48 Reporting by Investment Advisers to Private Funds and Certain Commodity Pool Operators and
+Commodity Trading Advisors on Form PF, 76 Fed. Reg. 71128-01 (Nov. 16, 2011).
+20
+03
+02
+01
+0
+Estimate annual cost for subsequent Form PF filings (Q12d)
+Under $5,000 $5,000 to $10,000
+$10,001 to $20,000 Over $20,000
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Figure 14: Estimated Annual Cost of Subsequent Form PF Filing – Small vs. Large Adviser.
+Figure 14 shows the estimated annual cost of subsequent Form PF filings –
+broken down by smaller and larger private fund advisers. Quarterly filing large fund
+advisers on average pay $72,143 for subsequent Form PF filings. Smaller private fund
+advertiser, on the other hand, spent only on average $5,262 for subsequent Form PF
+filings.
+Es-mated&annual&cost&for&subsequent&Form&PF&
+filings&!
+&
+$180,000!
+$160,000! $155,200!
+$140,000!
+$120,000!
+$100,000!
+$80,000! $72,143!
+$60,000!
+$40,000!
+$20,000!
+$4,200! $5,262!
+$0!
+Small!Fund! Large!Fund!
+SEC!Es<mates! Survey!results!!
+!
+Fig!ure 15: Cross-Comparison of Subsequent Form PF Filing – Kaal 2014 vs. SEC.
+Figure 15 shows a cross-comparison of SEC cost estimates49 pertaining to the
+Source!for!SEC!estimates!in!Graphs:!Reporting!by!Investment!Advisers!to!Private!
+subsequent FormF uPnFds !afnildi!Cnegrtsai na!Cnodm mthodeit ye!Psotoilm!Opaetraetso rsf!oanrd !sCuombmsoedqituy!eTrnadti nFg!oAdrvmiso rPs!F filings as provided
+by this study. The on c !F r o o rm s ! s PF - , c !7 o 6! m Fed p .! a Re r g i . s !7 o 11 n 2 8 s A u 01 g !(N g o e v s .!1 ts 6, ! t 2 h 01 a 1 t ) !the SEC may be marginally
+underestimating the cost of Form PF filings for annually filing smaller private fund
+advisers. With regards to quarterly filing larger private fund advisers, however, the SEC
+appears to be substantially overestimating the cost of subsequent Form PF filings. The
+cost estimates in this study for subsequent Form PF filings by larger private fund advisers
+are at about half the cost the SEC estimates. However, the data in this study pertaining to
+larger fund advisers’ cost of filing Form PF is based on a small sample.
+49 Id.
+21
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+67.35!%!
+22.45!%!
+10.20!%!
+Figure 16: Number of People to Complete Form PF.
+!
+Figure 16 shows the number of people that respondents relied upon to complete
+!
+Form PF. The ma!jority of respondents (67.35%) used only one to three individuals to
+complete Form PF. A minority of respondents (22.45%) used between four and six
+people to complete Form PF, and 10.20% of respondents stated they relied on 7 or more
+individuals to complete Form PF.
+Figure 17: Estimated Hours To Complete Form PF.
+Figure 17 shows the estimated total number of hours that were required to
+complete Form PF. The majority of respondents (69.39%) indicated that it took them
+between 0 to 49 hours to complete Form PF. A minority of respondents (14.29%)
+indicated that it took more than 50 hours to complete Form PF. Some respondents
+(8.16%) stated that completing and filing Form PF required over 150 hours. Figures 14
+and 15 show that respondents who saw higher costs associated with completing and filing
+Form PF were mostly larger private fund advisers. This is consistent with Figures 18 and
+22
+!08
+!06
+!04
+!02
+!0
+Estimate the number of people who worked to complete Form PF for the first time (Q12a)!
+1! to !3! 4! to !6!
+7! or more!
+69.39%! !
+14.29!%!
+8.16%! ! 8.16%! !
+!08
+!06
+!04
+!02
+!0
+67.35!%!
+22.45!%!
+10.20!%!
+! Estimate the total number of hours to complete Form PF for the first time (Q12b)!
+!
+!
+0! to 4!9! 50! to 9!9!
+100 !to 1!50! 150 !or more!
+!08
+!06
+!04
+!02
+!0
+Estimate the number of people who worked to complete Form PF for the first time (Q12a)!
+1! to !3! 4! to !6!
+7! or more!
+69.39%! !
+14.29!%!
+8.16%! ! 8.16%! !
+!08
+!06
+!04
+!02
+!0
+Estimate the total number of hours to complete Form PF for the first time (Q12b)!
+0! to 4!9! 50! to 9!9!
+100 !to 1!50! 150 !or more!
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+19, showing that respondents who saw longer timing requirements for Form PF
+compliance were also mostly larger private fund advisers.
+Figure 18: Estimated Hours To Complete Form PF – Small vs. Large Advisers.
+Figure 18 shows the estimated total number of hours that were required to
+complete Form PF broken down by smaller and larger advisers. Larger fund advisers on
+average spend more than four times the time on filing Form PF required for smaller
+private fund advisers.
+!800!!
+!720!!
+!700!!
+!600!!
+!500!!
+!400!!
+!300!!
+!200!! 169!
+!100!!
+!40!! 41!
+!A!!!!
+Small!Fund! Large!Fund!
+!
+Figur!e 19: Estimated Hours To Complete Form PF – Kaal 2014 vs. SEC.
+Figure 19 shows a cross-comparison of SEC estimates50 pertaining to the annual
+time required for the initial Form PF filing. Pertaining to annually filing smaller private
+fund advisers, the data in this study suggests that the SEC estimates are correct. However,
+the relatively small sample of quarterly filing larger private fund advisers in this study
+suggest that the SEC may be overestimating the time requirements of Form PF filings for
+larger private fund advisers. The SEC overestimates pertaining to time requirements are
+consistent with the SEC overestimates pertaining to the initial and subsequent filing costs
+for larger private fund advisers.51
+50 Id.
+51 See supra Figures 15 and 19.
+23
+!sruoH
+Annual&-me&required&for&ini-al&Form&PF&Filing&
+&
+SEC!Es<mates! Survey!results!!
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+42.9%
+25% 25%
+17.9%
+14.3% 14.3%14.3% 14.3%14.3%
+10.7% 10.7% 10.7%10.7% 10.7% 10.7%
+7.1% 7.1%
+Figure 20: Most Time Consuming Form PF Items.
+Figure 20 shows respondents’ assessment of the most time-consuming items on
+Form PF. Among all Form PF questions that were identified as time-consuming,
+respondents indicated that Form PF Question 16 (types of investors) took the most time
+to answer, followed by Form PF Question 17 (performance), and Form PF Question 7
+(related persons). Other Form PF questions respondents identified as time consuming
+included Form PF Questions 3, 8, 9, 10, 11, 12, 13, 14, 15, 16, 22, 23, 24, and 26.
+Figure 21: Reasons for Time Consumption.
+Figure 21 shows respondents’ answers to the open-ended question addressing why
+certain questions on Form PF were time-consuming. The majority of respondents (36%)
+identified “Data Gathering” as the task on which they spent the majority of their time,
+followed by references to “Delta Options” and “Ambiguous questions / unclear
+instructions”. Several responses did not justify a cluster category but are still worth
+identifying. These un-clustered respondents made references to the time spent taking
+margin costs into account, having to reach out to separately managed account managers,
+finding agreement on assumptions, additional reviews by internal compliance teams,
+breaking down of performance monthly and quarterly, factoring in derivatives and shorts
+24
+51
+01
+5
+0
+Please list the three most time consuming items on Form PF (Q14a)
+PFQ3: RAUM PFQ7: Related Persons
+PFQ8: Gross Asset Vlaue PFQ9: Net Asset Value
+PFQ10: Value of Investment in Equity PFQ11: Value of Parallel Accounts
+PFQ12: Value of Borrowings PFQ13: Outside Derivatives
+PFQ14: Categotize Assets and Liabilities PFQ15: Beneficial Equity
+PFQ16: Types of Investors PFQ17: Performance
+PFQ22: Counterparties as % of Net Assets PFQ23: Counterparty Exposure
+Use of Trade PFQ26: Hedge Fund Exposure
+Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+to overall exposure, netting of counterparty exposure to calculate RAUM in accordance
+with GAAP, and establishing the parameters for completing Form PF.
+2. Shortcomings and SEC Guidance
+25%
+12.5%
+8.33% 8.33% 8.33% 8.33%
+Figure 22: Most Pressing Issue With Form PF.
+Figure 22 illustrates respondents’ answer to Question 9, “What is the most
+pressing issue the SEC should address in Form PF?” Respondents identified the
+burdensome nature and inefficiency of Form PF as their most pressing concern with
+Form PF, followed by the exposure that Form PF generates for them. Other issues that
+respondents raised include the ambiguity of Form PF, the difficulty in determining
+advisor risk, and the significant burden Form PF imposes on larger investment adviser
+firms. Interestingly, separate responses that justified a cluster category also suggested that
+there was no issue with Form PF.
+Figure 23: Form PF Interpretation Requirements.
+Figure 23 shows the majority of clustered responses pertaining to the level of
+interpretation required when completing Form PF. Aside from concerns with Form PF
+25
+6
+4
+2
+0
+What is the most pressing issue the SEC should address in Form PF? (Q9)
+Form is burdensome/inefficient Clarifying ambiguity
+Exposure No issues
+Large burden on large firms Determining advisor risk
+14.29% 14.29% 14.29%
+11.43%
+8.57% 8.57%
+8
+7
+6
+5
+4
+3
+2
+1
+0
+Which of the questions in Form PF required the greatest level of interpretation? (Q5)
+Performance (Q17) RAUM (Q3)
+Leverage (Q30) Counter parties (Q22/23)
+Investor classification (Q16) Issues with form itself
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+itself, the level of interpretation required to answer Form PF precipitated several
+particular concerns pertaining to performance measures in Form PF Question 17 and
+counterparties and definitions of counterparties in Form PF Questions 22 and 23.
+59.18%
+40.82%
+Figure 24: Assessment of Form PF Definitions and Instructions.
+Figure 24 shows that a majority of respondents (59.18%) did not disagree with the
+definitions or instructions in Form PF. However, a significant minority of respondents
+(40.82%) indicated that they did in fact disagree with definitions or instructions in Form
+PF.
+Figure 25: Disagreement with Definitions of Instructions.
+Question 6bi was directed towards respondents who had previously indicated that
+they disagreed with Form PF definitions or instructions; it asked them to answer the
+follow-up question, “What definitions or instructions do you disagree with.” Figure 25
+illustrates respondents’ answers to the question. A large proportion of respondents
+(8.33%) indicated that they generally disagreed with the definition of funds in Form PF.
+Other response clusters included the need to clarify performance information, the fact
+26
+03
+02
+01
+0
+Are there definitions or instructions in Form PF that you disagree with? (Q6)
+No Yes
+8.16% 8.16%
+6.12% 6.12%
+4.08%
+4
+3
+2
+1
+0
+What definitions or instructions do you disagree with? (Q6bi)
+General definitions of funds Performance information
+Instructions generally need clarification RAUM/AUM definition
+Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+that instructions generally needed clarification, and the need to improve the definitions
+for RAUM/AUM for purposes of completing Form PF.52
+Another follow-up question asked “Why do you disagree with the definition or
+instruction?” Several respondents suggested that the definition of leverage is
+inappropriately constructed and can include funds that don't use leverage or any
+derivative securities. Pertaining to the definition of RAUM, one response stated that “the
+definition of RAUM does not necessarily mean anything in terms of risk.” Other
+respondents suggested that the definitions or instructions in Form PF do “not reflect real
+world practice” and can be “very broad and difficult to obtain and track across a
+portfolio.” Respondents advising private equity funds suggested that the SEC’s apparent
+objective was to utilize information from private equity firms in the same model used for
+hedge fund and broker dealer audits. Other respondents stated that asking for notional
+value in trade volumes may not work for most respondents because trade volumes are
+typically based on quantity of shares and contracts or transaction counts.
+50% 50%
+Figure 26: Interpretation for RAUM Reporting. !
+Question!19b(i):!If!yes,!why?!
+Figure 26 shows that respondents are equally split on whether RAUM reporting in
+Answer!1:!Their!definition!of!discretionary!is!relatively!narrow.!We!had!to!create!our!
+Form PF53 requoiwrne!sd effiinleitriosn’! oifn!Atessreptsr!euntadteiro!And.v iFseomlelontw!to !uapcc oSuuntr!vfoer!yth Qe!buuelks!otif!oonur !1ad9vbis(oir)y !asked “If
+[RAUM reportpinragct idceid.! require interpretation], why was this the case?” Several
+Answer!2:!have!liabilities!on!b/s!that!needed!to!be!removed!
+respondents suggested that the definition of RAUM and the SEC’s interpretation of that
+Answer!3:!to!be!sure!to!disclose!how!we!came!up!with!the!number!
+term was narrow or unclear. More specifically, several respondents appear to have
+Answer!4:!Capital!called!from!investors!in!late!December!and!held!in!bank!account!of!
+struggled with Athnsew dere!5f:i!nFuintido!An!i so!afls Ro!"AunUfuMnd e(de!csappeitcali"a!olfl!yaf fcilioantet!rFaunsdti!Bn.g!!O RnlyA!cUouMnte dw!tihtihs!$ t6h2eM !different
+interpretation oofn cAe!UforM!pu trhpoaste si!so fc!RoAmUMm!aonnd!lfyoo utnsoetded).,! causing some respondents to create their
+Answer!6:!In!ADV!Part!I!alone!there!are!queries!for!RAUM!(Item!5.F(2))!and!"gross!asset!
+own definition of assets under management to account for the bulk of their advisory
+value"!(Section!7.B.(1)!11.),!not!sure!what!differences!were.!
+practice. OtherAs nsstwreurg!7g:!aleskde dw!foirt!hn etth!aess evta!vlauluaet!ion of derivatives, the SEC guidance that
+requires RAUMAn tsow ebr!e8: !iTnh el!iSnECe! iwnteitrphr eGtaAtioAn!Pof,!R tAhUeM d!iisf!ufnecrleeanrc.!e between gross asset value and
+Answer!9:!unclear!
+A n s w e r ! 1 0 : !T he ! v a l u a tion!of!derivatives.!
+52 Other responsesA tnhsawte dr!i1d1 :n!Toht isj!uiss!tniofyt! sao mcleutshtienrg !iwnec!lhuadveed!r:e “pForotremd! bPeFfo Qreu.!Oesutri!oleng a5l6!c,o Nunoste lc!alessairs ttehda!t either 0 or a
+with!interpretation.!
+negative number is unacceptable until after you save the form;” “Section 1b, Item B, #8 - Gross asset value
+Answer!12:!Not!initially!intuitive!
+of reporting fund;” “Form PF Question 24b - calculation of volume in 2nd set of FAQs;” “Form PF
+Answer!13:!It!does!not!include!liabilities,!therefore!it!is!different!that!the!neat!asset!
+Question 42 - risk metrics;” “Different meanings of "value" for different products - gross vs. delta
+value!that!is!reported!to!investors!
+adjusted.”
+Answer!14:!Securitized!funds!have!notes!and!not!equity!in!the!sense!of!a!hedge!fund.!
+53 For purposes of A t n h s i w s e a r r ! t 1 i 5 c : l ! e g , u t id h a e n t c e e r ! m sa i “ d R !it A !m U us M t!b ” e i ! s in u !li s n e e d !w a i s th i ! n G A F A o P r , m !w P hi F ch s !h e a e s F !nOoRt!bMe e P n F !i , n s !p u r p e r v a io n u o s! te 3,
+guidance!for!RAUM!
+27
+05
+04
+03
+02
+01
+0
+Does reporting Regulatory AUM require interpretation? (Q19)
+No Yes
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+RAUM and other perceived conflicts between Form ADV instructions and advisers’
+calculations.
+Follow up Survey Question 19b(ii) asked “If [you had to interpret the meaning of
+RAUM], how did you interpret the meaning of "Regulatory AUM"?” Respondents
+employed different strategies to interpret the meaning of RAUM, including (1)
+summarizing assumptions for consistency with internal and external reporting
+requirements, (2) applying RAUM online definitions, and (3) relying on advice of
+external counsel.
+39.58%
+25%
+22.92%
+8.33%
+4.17%
+Figure 27: Quality of SEC Guidance on Form PF. !
+!
+Figure 27 shows the responses to Survey Question 13 “On a scale of 1 – 5, how
+!
+would you rate t!he best level of guidance available from the SEC staff to assist you in
+!
+completing Form PF?” The majority of respondents (39.58 %) suggested that the SEC
+guidance on Form PF was “sufficient.” Twenty-five percent of respondents (25%)
+thought that SEC guidance was “good.” However, the third largest group of respondents
+(22.92%) stated that SEC guidance was “insufficient.”
+28
+04
+03
+02
+01
+0
+Rate the best level of guidance available from the SEC staff to assist you in completing Form PF? (Q13)
+Excellent Good
+Sufficient Insufficient
+No guidance
+28.57!%!
+19.05!%!
+14.29!%!
+9.52!%! 9.52!%! 9.52!%! 9.52!%!
+!03
+!02
+!01
+!0
+Which Sections/Items on Form PF were not adequately captured by SEC guidance? (Q13b)!
+20%
+15%
+10% 10% 10% 10%
+Fund performance (1b, Sec C)! Definitions in general!
+Reporting fund identifying info (1b,Sec A) ! ! Information regarding the reporting fund (1c, Sec B!
+!More guidance generally! No issues!
+Other!
+4
+3
+2
+1
+0
+Which Form PF Sections/Items were not adequately caputred by SEC guidance? (Q13b)
+Fund Performance (Section 1b, Item C) Definitions in general
+Reporting Fund identifying info (Section 1b, Item A) Info regarding reporting fund (Section 1c, Item B)
+More guidance generally No issues
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Figure 28: Form PF Sections/Items not Captured by SEC Guidance.
+Figure 28 shows the number of respondents who responded to the follow-up
+question to Survey Question 13, Survey Question 13b: “Which Sections / Items on Form
+PF were not adequately captured by SEC guidance?” While the responses were widely
+dispersed and did not always justify a cluster category, a majority of respondents
+indicated that SEC guidance was insufficient with respect to reporting funds, specifically
+Section 1c, Item B. The next largest cluster of respondents suggested that there were no
+issues with Form PF itself, followed by clusters stating that SEC guidance was
+inadequate for Form PF Section 1b, Item C (reporting fund performance) and Form PF
+Section 1b, Item A (reporting fund identifying information). Other clusters of
+respondents made reference to the lack of guidance in Form PF generally, and the lack of
+guidance for the definitions in Form PF. Several responses to Survey Question 13b did
+not justify response clusters. These responses included references to how difficult it was
+to find guidance in April, problems regarding technology and the ability to record
+negative numbers, and issues with reporting for securitized vehicles requiring reliance on
+assumptions.
+72.92%
+27.08%
+Figure 29: SEC Flexibility for Form PF Completion.
+Figure 29 shows that a majority of respondents (72.92%) believes that the SEC’s
+flexibility when it comes to answering questions in Form PF is helpful. Only a minority
+of respondents (27.08%) stated that the SEC was not sufficiently flexible when
+responding to registrants’ requests for guidance.
+29
+04
+03
+02
+01
+0
+Is the flexibility provided by the SEC in filling out Form PF helpful? (Q7a)
+Yes No
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+14.5% 14.58%
+6.25% 6.25%
+4.16% 4.16% 4.16%
+Figure 30: Benefits of SEC Flexibility for Form PF Completion.
+Figure 30 illustrates the responses to the follow-up question, “Why was the
+flexibility in filling out Form PF helpful?” According to respondents, the most significant
+benefits of SEC flexibility were that respondents believed they were authorized to use
+their internal methodologies to interpret and respond to questions, and to articulate their
+assumptions, and that generally they could simplify the completion of Form PF.
+Figure 31: Negative Properties of SEC flexibility with Form PF.
+Figure 31 assesses why SEC flexibility regarding Form PF is not helpful. The
+overall response rate to this question was low. Responses that justified a cluster included
+references to the SEC’s lack of flexibility or the insufficient usefulness of SEC flexibility.
+Another category of responses indicated that the flexibility provided by the SEC is not
+useful because it is not clear and creates confusion.
+30
+8
+6
+4
+2
+0
+Why was the flexibility in filling out Form PF helpful? (Q7ai)
+Allows for greater interpretation Articulating assumptions
+Better than nothing Somewhat helpful but needs clarification
+Ability to use internal methodologies It was simple/easy
+Other
+6.25% 6.25% 6.25%
+2.08%
+4
+3
+2
+1
+0
+Why was the flexibility not helpful? (Q7aii)
+No flexibility it's not clear
+Flexibility is not useful Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+87.5%
+12.5%
+!
+! Figure 32: Form PF as Substitute for Required CFTC Forms.
+Figure 32Q usehstoiown!1s8 tbh(ia):!tI f!tyhees, !wmhay?j!ority of respondents (87.5%) are not using Form PF
+Answer!1:!Trying!to!coordinate!the!myriads!forms!to!file.!
+as a substitute for required CFTC forms. Responses to follow-up Survey Question 18b(i),
+Answer!2:!We!are!unsure!yet!whether!we!will!be!able!to!use!it!as!a!substitute;!when!we!
+“If [you are using Form PF as a substitute for required CFTC forms], why [are you doing
+reach!yearAend,!we!will!see!if!we!can!use!it!or!to!what!extent.!If!so,!we!will!take!
+so]?” suggest thaadt vsaontmagee! oifn!tvhaets.!tment advisers are using Form PF to coordinate the myriads
+!
+of forms that they are required to file. Other respondents are still not sure if they will be
+able to use Form PF as a substitute – if so, they may use it as a substitute.
+Several additional survey questions pertained to optimizing Form PF. For
+instance, Survey Question 8a asked, “What question in Form PF should not have been
+asked and why not?” The responses were widely dispersed and did not justify clustering.
+Individual responses, however, may help clarify specific areas of concern for the private
+fund industry. Several respondents mentioned Form PF Item C., Question 17 (Reporting
+Fund Performance), suggesting that existing Form PF fund performance metrics are not
+accurate because the reporting entities employ different calculation methodologies.54
+Another respondent suggested that assessing the risk profile could have been done with
+significantly less detail and effort by employing the due diligence processes utilized by
+many institutional investors when considering whether to allocate capital to a private
+fund manager. The aggregation of data in Form PF Question 2a also raised concerns.55
+One respondent suggested that if a fund does not employ leverage, then the fund’s
+manager should not have to provide further data. Other items that were marked as
+problematic and difficult to measure include Section 1b, Item B, #8, 7.B.(1), Form PF
+Questions 20, 24, and 28.
+The follow-up question to Question 8a, Question 8b, asked ”What questions
+should have been asked instead and why?” Responses in this category were also widely
+dispersed and did not justify clustering. Several respondents, however, made comments
+54 More specifically, one respondent opined that “we (does he mean his firm? Him as an adviser?) don't
+usually calculate this information for our investors in this manner - so we had to calculate it specifically for
+the form,” and “this is not an accurate indicator of anything - in fact it is entirely possible that the reporting
+entity is not able to provide such information as it is not useful to their investors - who are far more
+concerned about the performance of the Fund net any costs that under USGAAP cannot be included.”
+55 One respondent suggested that “2a requires that the information be aggregated, and later the information
+is required to be provided separately for certain funds. Why not just require the information to be provided
+by fund, and then the SEC can aggregate the data as they deem necessary.”
+31
+08
+06
+04
+02
+0
+Are you using Form PF as a substitute form for required CFTC forms? (Q18)
+No Yes
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+in the context of limiting systemic risk via Form PF. These respondents suggested that
+the SEC’s objective of limiting systemic risk could have been better more strongly
+advanced by asking questions in Form PF with an emphasis on open derivatives
+positions,56 total market exposure of the entity, and total underlying capital.57 Other
+responses included a reference to risks of smaller asset managers involves the stability of
+the management company, particularly as the fund gets past the investment period and
+the management fee are being reduces. Another respondent suggested that “the SEC
+should ask for data that is maintained by the funds. For example, why not just require
+each fund to provide a holdings report, and indicate what type of security each holding is
+Answer!5:!Most!boxes!to!check!or!complete!
+by using a comAnmswoenr! 6c:o!Mdaer.g i nO!cor sptse!nreheadp!tos! bfeil!tea kae nb!ianltao!naccceo usnhte! et, in a prescribed format which
+corresponds toA nas wGeAr!7A:!TPhe p!craetesgeonriteast!rieoqnu.i”re dO!bnye!th ree!SsEpCo!rneqdueirnetd !aadrgdiutieonda lt!hreavtie Fwo!brym!ou Pr!tFea Qm!uestion 20,
+internally!
+pertaining to a reporting fund’s investment strategies, could have been categorized better
+Answer!8:!Breakdown!of!performance!monthly!&!quarterly!
+as some managers have multiple strategies and sub-strategies. This respondent,
+Answer!9:!Figuring!out!how!to!factor!in!derivatives!and!shorts!to!overall!exposure!
+emphasizing thAnes wimerp!1o0:r!Htaand!ctoe! tohifn kc!oofn!ofuor!rpmriviantge! fFunodr!ImD# !PF to widely accepted investor
+reporting, suggAnesswteerd!1 t1h:!aFitg uthrineg !Fouotr!hmow s!htoo!nueltd!in p!croounvtiedrpea art y“!ebxrpeoasukroe!utot !boef! aabsles!etot!sd ob!RyA UpMro!idn!uct type,
+accordance!to!GAAP!
+geography, counterparty, sectors - similar to widely accepted investor reporting.” Finally,
+Answer!12:!Least!boxes!to!check!or!complete!
+one respondenAtn sswugerg!1e3s:!tEesdta btlhisahtin tgh!pea rSamEeCte srsh!toooukl!dti mhea!ve emphasized qualifications of
+investment ma!nagers.
+!
+!
+3. Reporting Systems and Service Providers
+!
+65.22%! !
+34.78%! !
+Figure 33: Adequacy of Existing Reporting Systems.
+!
+Figure 33 shows respondents’ assessment of the adequacy of their existing
+!
+reporting systeQmuess ttioon !c1a5pb:t!Iuf!rneo ,t!whhey !innofto?!rmation required on Form PF. The majority of
+respondents (6A5n.s2w7er%!1:)!O buer!ldiaetva!eis !tshimapt lyt!hneoit!ro regxanisizteidn!gto !ienxttrearcnt!aFol rrme!pPFo!irntfion!wgi tshyosutt!efumrtsh ear!dequately
+analysis!and!calculation!
+capture the information required on Form PF. However, a significant minority of
+Answer!2:!We!are!a!small!shop!and!much!of!the!work!had!to!be!completed!manually!
+Answer!3:!information!was!in!system!but!needed!to!perform!additional!calculations!
+(item!13b,!15,!item!C)!
+56 One respondenAtn sstwateerd!4 :t!hNaete d“!ttoh!ea dfairpstt! inqvueessttoior!ntr atchkaitn gs!htoo!uSlEdC !hmaevteh obdeoelno gays!ked is #13 on Section 1(b), Does
+the fund have open derivatives positions? If they answer is no, Form PF should not have to be completed.
+Without derivative positions, I don't see how the SEC can link firms to a systemic collapse.”
+57 One respondent opined that “the Form should have simply approached the ultimate question in a different
+way. If the goal was to determine exposure/leverage in the market and thus systemic risk associated with
+these entities, simply ask the total market exposure of the entity and the total underlying capital.”
+32
+!08
+!06
+!04
+!02
+!0
+Did your existing reporting systems adequately capture the information required on Form PF (Q15)!
+Yes! No!
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+respondents (34.78%) thought that their existing internal reporting systems are not
+adequately capturing the information required on Form PF.
+Several follow-up questions to Survey Question 15 investigated respondents’
+reasoning as to why their existing reporting systems do not adequately capture required
+information. Survey Question 15b asked “If no, why not?” Responses to this follow-up
+question did not justify cluster categories but they merit further discussion. For example,
+several respondents suggested that extracting information that is relevant for Form PF
+from existing datasets required further analysis and calculation. This seems to suggest
+that existing fund information had to be recalculated for purposes of completing Form
+PF. For some, trade information was not easily available. Others used different
+definitions and captured the data in categories different from the ones that the SEC uses,
+or they maintained the data in different operating areas where no one place or system
+supplied the required data. For smaller investment fund advisers, the work had to be
+completed mostly manually. Some advisers suggested that their existing internal
+reporting systems did not require the same level of detail as Form PF.
+Follow up Survey Question 15c asked “If your existing reporting systems did not
+adequately capture the information required on Form PF, how did you obtain the
+information necessary to report the data to the SEC?” Several respondents suggested that
+they concluded a manual review and analysis, and manual calculations to obtain the
+information necessary to complete Form PF. Respondents also reported that they worked
+with their custodian or administrator to obtain and compile the data, polled investors for
+more details on their identity, and purchased new add-ons to their reporting tools and/or
+used multiple systems to calculate data.
+15.63% 15.63%
+12.5%
+9.38%
+6.25%
+Figure 34: Identification of Counterparties.
+Form PF Questions 22 and 23 ask about reporting funds’ counterparty credit
+exposures. Figure 34 shows how respondents identified relevant counterparties. While
+many respondents (15.63%) had very few counterparties and thus did not encounter
+issues with the identification of counterparties, other respondents (15.63%) identified
+counterparties by name via their trading and/or legal records. Some respondents already
+tracked counterparty credit exposure (9.38%) or identified counterparties via their
+existing internal reporting or accounting systems (6.25%).
+33
+5
+4
+3
+2
+1
+0
+How did you identify the relevant counterparties? (Q16a)
+Already track it By name via trading/legal records
+Few counterparties Via reporting accounting systems
+Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+93.75%
+6.25%
+Figure 35: Issues with the Identification of Counterparties.
+Figure 35 shows that the overwhelming majority of respondents (93.75%) did not
+encounter difficulties in identifying counterparties to answer Form PF questions about
+counterparty credit exposure.
+Figure 36: Use of Service Provider to Complete Form PF.
+Figure 36 illustrates that a majority of respondents (72.29%) did not use a service-
+provider to complete Form PF. However, 27.08% of respondents who answered this
+question used service providers. This seems to suggest that concerns over service
+providers (over)interpreting required Form PF data on behalf of filers, among other
+concerns over service providers’ completing Form PF, may not be justified.
+34
+03
+02
+01
+0
+Did you encounter any difficulties in identifying counterparties to answer Form PF questions about counterparty credit exposure? (Q16B)
+No Yes
+72.92%
+27.08%
+04
+03
+02
+01
+0
+Are you using a service provider to complete Form PF? (Q11)
+No Yes
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+20.83%
+16.67%
+12.5%
+10.42%
+4.16% 4.16%
+Figure 37: Reasons for Not Using Service Provider.
+Figure 37 shows the responses to the follow-up question to Question 11, Question
+11a, “If no, why are you not using a service provider?” The majority of respondents
+(20.83%) suggested that Form PF can be completed in-house. Others respondents
+(16.67%) mentioned “small firm”, suggesting that smaller firms may not use service
+providers and will try to complete Form PF themselves. Another significant category of
+responses (12.5%) suggested that completing Form PF would not justify the expense of
+hiring a service provider.
+Cluster responses of less significance indicate that the respondents did not use a
+service provider because they filed only annually and the service-providers did not have
+more experience and/or expertise with the Form than the filer. Several commenters made
+reference to a desire to understand the form (presumably because the filing will be
+required in future years and costs savings may be possible if in-house counsel is
+completing the Form). Finally, some respondents opined that it would be difficult for a
+single service provider to harvest the appropriate data.
+Contrasting with Survey Question 11a, Survey Question 11b(i) asked “If yes, why
+are you using a service provider?” The responses to this question did not justify
+clustering but several respondents commented on the difficulty of aggregating the data
+and entering it directly without having a system to assist in the process, the service-
+providers’ knowledge and its insights into answer methodology, a desire to ensure
+consistency in preparation, and the comparatively long time it would take to complete
+Form PF in-house. Some commenters believed that service providers were able to fill the
+information gaps with information they track more consistently than the filer, and
+service-providers performed about 80% of the relevant tasks pertaining to Form PF
+completion, which the filer later internally verified. Smaller firms seemed to utilize
+service-providers more than large firms because they lack experience. Many respondents
+also mentioned the need to standardize Form PF to simplify the completion process.
+Respondents who addressed follow- up Survey Question 11b(ii), “If you are using
+a service provider to complete Form PF, are there any issues with using a service
+provider?” indicated that challenges included developing a process for interacting with a
+service provider to transfer relevant data, the amount of work required to provide service-
+35
+01
+8
+6
+4
+2
+0
+If no, why are you not using a service provider? (Q11a)
+Not worth the expense Small firm
+Can be completed in-house Providers don't know more than us
+Only file annually Other
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+providers with the necessary information, and the very high comparative cost for smaller
+firms.
+4. Investor Relations
+74.47%
+25.53%
+Figure 38: Investor Demands for Form PF Filings.
+Figure 38 shows that a majority of respondents (74.47%) in the sample have not
+been asked by their investors to provide a copy of their Form PF filing. However, more
+than 25% of respondents reported that they received requests from investors to provide a
+copy of the investment advisers’ Form PF filings.
+Responses to follow-up Survey Question 17b, “If [investors asked for your Form
+PF filing], are you providing your Form PF filing to investors?” suggest that some
+investment advisers allow investors to review their Form PF filings in-house, while
+others limit the number of investor requests with regards to Form PF filings. Similarly,
+responses to follow-up Survey Question 17b(i), “If [investors asked for your Form PF
+filing and you are providing your form PF filing to investors] – why are you providing
+investors with your Form PF filings?” suggest that many investment advisers provide
+their Form PF filings to investors because they consider equal and full disclosure to all
+parties important. Investment advisers who are raising capital for a new fund seem to
+have a particular incentive to provide existing investors with Form PF.
+36
+04
+03
+02
+01
+0
+Have your investors asked to obtain your Form PF filing? (Q17)
+No Yes
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+12.77%
+8.51%
+6.38% 6.38%
+4.26%
+2.13% 2.13%
+Figure 39: Reasons for not Sharing Form PF Filing with Investors.
+Figure 39 shows the clustered responses from respondents who answered Survey
+Question 17b(ii) “If [investors asked for your Form PF filing but you did not disclose
+your Form PF Filing] – why not?” The majority of respondents (12.77%) did not provide
+the form to current prospective investors because investors did not ask for the document.
+Other respondents did not share their Form PF filings with investors because they
+deemed that it was not useful. Some commenters did not provide the Form to investors
+because it was not required or necessary, or cited concerns over confidentiality as a
+reason. Some investment advisers did not make Form PF information independently
+available because their Form PF filing was attached to their annual report.
+VI. Discussion and Conclusion
+The SEC’s mandatory initial collection of private fund data raised many concerns
+for the private fund industry. This article presents the results of a survey with private fund
+advisers intended to ascertain the effects of the mandated private fund disclosures.
+1. Summary of Key Findings
+The key findings of this study quantify, evaluate, and clarify many core open
+issues with respect to the SEC’s efforts to collect private fund data through Form PF,
+including in relation to: (1) the required resources for completing Form PF, (2)
+shortcomings of and SEC guidance on Form PF (3) adequacy of filers’ reporting systems
+and service providers, and (4) issues associated with investor relations.
+Purpose and Required Resources
+Respondents identified the SEC’s objective of assessing systemic risk and the
+historical lack of private fund information provided by the industry to the SEC as primary
+purposes of Form PF disclosure requirements. Commenters also argued that FSOC and
+OFR monitoring of risk, investment adviser examinations, and the collection of risk
+exposure information were important purposes in the enactment of Form PF.
+37
+6
+4
+2
+0
+If you are not providing investors with your Form PF, why not? (Q17bii)
+Not required/necessary Confidentiality
+Not useful They didn't ask
+Would cause confusion It's not industry standard
+Info available in annual report
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+The completion and filing of Form PF requires the commitment of resources from
+and expenditures by the private fund industry. A majority of respondents (59.18%) stated
+that the additional expenditures required to complete and file Form PF for the first time
+were under $10,000.00. A majority of commenters (57.14%) identified the cost of
+subsequent annual Form PF filings at about half of the first-time filing cost, i.e. around
+$5,000.00. A breakdown of respondents by assets under management suggests that larger
+private fund advisers, required to file quarterly, are faced with substantially higher
+compliance cost, both for their initial data reporting and for subsequent quarterly filings.
+The data does not identify the long-term costs for the private fund industry of having to
+complete and file Form PF on an annual or quarterly basis.
+The overall expenses necessary to complete and file Form PF correspond with
+resource requirements, such as the staff required to file Form PF and the total number of
+hours it took to complete Form PF. A majority of respondents (67.35%) used only one to
+three individuals to complete Form PF. Similarly, a majority of respondents (69.39%)
+indicated that it took staff less than 50 hours to complete Form PF.
+Quoting data gathering efforts as well as the data options and the ambiguity of the
+respective Form PF questions, respondents identified several Questions on Form PF as
+particularly time-consuming, including, Form PF Question 16 (types of investors),
+followed by Form PF Question 17 (performance), and Form PF Question 7 (related
+persons).
+Shortcomings and SEC Guidance
+The survey may help policy-makers optimize Form PF and the relevancy of the
+guidance they provide, as the survey identifies shortcomings in the design, definitions,
+and guidance of Form PF. Respondents identified the burdensome nature and the
+ambiguity of Form PF as the most pressing issues with Form PF. While a majority of
+respondents (59.18%) agreed with the definitions or instructions in Form PF, respondents
+nevertheless argued that performance measures in Form PF Question 17, and
+counterparties and definitions of counterparties in Form PF Questions 22 and 23, required
+a level of interpretation. The minority of respondents (40.82%) who disagreed with the
+definitions or instructions in Form PF generally disagreed with the definition of the term
+“funds” in Form PF. Commenters were equally split on whether Form PF questions
+pertaining to calculating RAUM required filers to interpret RAUM for purposes of
+completing Form PF.
+Most respondents appreciated both SEC guidance and SEC flexibility in
+responding to questions regarding Form PF. A majority of respondents assessed the best
+level of SEC guidance in the context of their Form PF completion as sufficient or good.
+The majority of the commenters who believed that SEC guidance was inadequate
+indicated that SEC guidance was particularly unclear with respect to Form PF Section 1c,
+Item B (regarding Reporting Funds). This is consistent with the responses that disagreed
+with the definition of funds in Form PF. Most respondents (72.92%) agreed that the
+SEC’s flexibility in answering questions with respect to Form PF was helpful.
+Commenters stated that SEC flexibility was valuable because it enabled respondents to
+interpret Form PF, it increased respondents’ ability to use their own internal
+38
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+methodologies, it helped them articulate their own assumptions, it clarified a lot of
+questions, and it simplified the completion of Form PF.
+Reporting Systems and Service Providers
+The survey identifies the adequacy of private funds’ existing reporting systems
+utilized to capture the information required in Form PF. A majority of respondents
+(65.22%) stated that their existing internal reporting systems adequately capture the
+information required by Form PF. More specifically, the majority of respondents did not
+encounter difficulties in identifying data responsive to questions about counterparty credit
+exposure, by using counterparties’ names on trading and/or legal records. Several
+respondents (34.78%) opined that their existing internal reporting systems were
+insufficient to respond to questions on Form PF because they require further analysis and
+calculations.
+Respondents not only predominantly believed that their existing internal reporting
+systems sufficed to complete Form PF, they also largely (72.92%) abstained from
+employing a service-provider to complete Form PF. Firms’ ability to use existing internal
+reporting systems to complete Form PF is consistent with firms’ preference for
+completing Form PF in-house. A majority of respondents actually suggested that Form
+PF can be completed in-house. Others opined that completing Form PF would not justify
+the expense of hiring a service-provider. Commenters identified several challenges in
+working with a service-provider, including the investment of time and expenses to
+develop processes, and the burden of providing service-providers with the required
+information. The minority of respondents who hired a service-provider stated they did so
+because of difficulties in aggregating the data and entering it directly without having an
+internal system to assist in the process; the service providers’ knowledge and their
+industry insight into answer methodology; a desire to ensure consistency in preparation;
+and the burden of how long it would take to complete Form PF in-house.
+Investor Relations
+For a variety of reasons, investors in private funds may ask for a copy of the
+investment adviser’s Form PF filings. The majority of respondents (74.47%) in the
+sample had not been asked to provide a copy of their Form PF filing to their investors.
+While investment advisers may not volunteer the information, the survey results indicate
+that they tend to allow investors to review their Form PF filings in-house.
+2. Policy Implications and Future Research
+The findings of this study suggest that the overall effect of Form PF data reporting
+requirements on the private fund industry may be less severe than widely expected. In
+light of the cost data provided by this study (for both smaller and larger private fund
+advisers),58 the industry’s concerns that mandatory private fund adviser registration and
+disclosure requirements could inappropriately burden investment advisers59 seem to be
+mostly unfounded. The results of this study complement findings in earlier studies
+58 See supra Figures [___].
+59 See supra note 4 and accompanying text.
+39
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+suggesting that “the private fund industry seems to be adjusting well, and the impact of
+the registration and disclosure rules appears to be much less intense than the industry
+initially anticipated.”60
+Nevertheless, the data analysis and the findings of this study indicate that there
+are several areas of concern with existing Form PF questions and requirements.
+Important issues include the ambiguity of several key questions in Form PF; the time
+constraints required to answer certain questions, such as Question 16 (types of investors),
+Question 17 (performance), and Question 7 (related persons); respondents’ disagreement
+with the definition of funds, the lack of adequate SEC guidance for Section 1c, Item B
+(information regarding reporting fund). Other issues identified in this study pertain to the
+insufficiency of existing reporting systems for some firms; difficulties in aggregating the
+required Form PF data and entering it directly without the availability of a system to
+assist in the process; and challenges in working with a service-provider, including
+process development and the burden of providing service-providers with the required
+information.
+By examining these shortcomings in the existing framework for private fund
+advisers’ data reporting, policy makers may be able to identify possible policy
+improvements. Most of the problems may be addressed over time as the SEC provides
+additional and improved guidance on Form PF or revises core questions and/or
+definitions pertaining to core questions that have been identified as problematic.
+Another possible remedy to the shortcomings that advisers identified would be to
+standardize private fund adviser reporting obligations. Standardization may help address
+the ambiguities and inefficiencies that currently exist in the reporting requirements and
+help simplify and streamline the disclosure requirements for the private fund industry. To
+adequately address the competing needs of different types of private fund advisers,
+policy-makers should consider different models for standardization of Form PF reporting
+requirements.
+The primary limitations for this study were (1) the availability of data and (2) the
+somewhat narrower timeframe to complete the study after the introduction of private fund
+reporting requirements. The author collected the data during a six month time period after
+the effective date of the initial filing requirement applicable to private funds. Further
+research may be needed to determine if the long-term impact of private fund adviser
+disclosure obligations is as moderate as this study suggests. More specifically, while the
+cost implications for some advisers in preparing Form PF seem reasonable at under
+$10,000.00 (for most smaller advisers but not for larger private fund advisers) and with
+the cost for those smaller advisers of subsequent annual Form PF filings at less than
+$5,000.00, the data does not identify the long-term cost of Form PF filings for the private
+fund industry.
+60 Kaal, Private fund Manager Registration, supra note 6, at 316.
+40
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+VII. Appendix: Survey Instrument
+To: Chief Legal / Compliance Officer
+Private fund
+To Whom It May Concern
+July 15, 2013
+RE: Participant Understanding of Participation in the Survey
+Dear Sir or Madame,
+The purpose of this survey is for Professor Wulf A. Kaal at the University of St.
+Thomas School of Law in Minneapolis to learn more about your experiences in dealing
+with recent private fund registration and disclosure requirements under the Dodd-Frank
+Act and in particular your experiences in providing the SEC with required information
+under Form PF.
+As you may know, the Dodd-Frank Act authorized the SEC to promulgate rules
+requiring registration and enhanced disclosure for private fund managers. As part of the
+new rules, the SEC introduced a reporting obligation under Form PF. The effects of
+private fund registration and disclosure requirements in the United States are unclear and
+this survey study hopes to evaluate and clarify possible effects.
+To ensure that we reduce any risks in your participation, we will not in any form
+identify you or your firm in any of our reports. Responses to this survey will be used by
+Professor Kaal in several academic publications, which will be made available to
+academics, industry experts (including survey respondents), and regulators as well as to
+the general public at the time of publication. Respondents' identities will not be
+disclosed and particular responses to this survey will not be linked to particular
+respondents.
+We would be happy to share the survey results with you, as they may prove to be
+informative in the administrative management of your fund(s). The collected cost data in
+the aggregate form will allow respondents to compare costs. If deemed desirable and only
+with your consent, we would also be happy to share the results of this survey with your
+investors.
+41
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+Answering the survey questions below will take approximately ten to fifteen
+minutes. We do very much appreciate your support. Please do not hesitate to get in touch
+with any questions.
+With best regards,
+Wulf A. Kaal
+Associate Professor of Law
+1. Did you assist in completing and/or file Form PF on behalf of the investment adviser
+firm with the Securities and Exchange Commission (SEC)?
+a. Yes ___
+b. No ___
+42
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+2. Please check which section(s) of Form PF you completed:
+a. 1a & 1b – All private fund advisers ____
+b. 1c – All private fund advisers that advise private funds ____
+c. 2a - Large private fund advisers (>$1.5 bil. AUM) ____
+d. 2b - Large private fund advisers (>$1.5 bil. AUM) ____
+e. 3 – Large liquidity fund advisers (>$1 bil. AUM) ____
+f. 4 – Large private equity advisers (>$2 bil. AUM) ____
+g. 5 – Temporary hardship exemption ____
+3. Are you required to file Form PF?:
+a. Annually ____
+b. Quarterly ____
+4. Please check all of the types of private funds that your investment adviser firm
+manages (please only check those that apply best to you):
+a. Private fund ____
+b. Liquidity Fund ____
+c. Private Equity Fund ____
+d. Real Estate Fund ____
+e. Securitized Asset Fund ____
+f. Venture Capital ____
+g. Other Private Fund ____
+5. Which, if any, of the questions in Form PF required the greatest level of
+interpretation?
+_____________________________________________________________________
+_______
+6. Are there definitions or instructions in Form PF that you disagree with?
+a. No ____
+b. Yes ____
+i. If yes - What definitions or instructions do you disagree with?
+_________________________________________________________
+_______
+ii. Why do you disagree with the definition or instruction?
+_________________________________________________________
+_______
+7. Please comment on the SEC guidance pertaining to Form PF:
+43
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+a. Is the flexibility provided by the SEC in filling out Form PF helpful?
+i. Yes ____If Yes, why?
+_______________________________________________
+ii. No ____If No - why not?
+____________________________________________
+b. When the SEC is prescriptive in its Form PF guidance do you agree with the
+stance the SEC is taking?
+i. Yes ____
+ii. No ____If No – why not?
+___________________________________________
+8. Please comment on specific questions in Form PF:
+a. What question in Form PF should not have been asked and why not?
+_______________________________________________________________
+_______
+b. What questions should have been asked instead and why?
+_______________________________________________________________
+_______
+9. What is the most pressing issue the SEC should address in the context of Form PF?
+_____________________________________________________________________
+___
+10. In your opinion, what is the purpose of Form PF? Please check all that apply and/or
+provide additional comments:
+a. Ease the burden on private fund managers to produce data ___
+b. Assess systemic risk posed by the private fund industry ___
+c. Allow the Financial Stability Oversight Council (FSOC) and the Office of
+Financial Research (OFR) to monitor risks to the U.S. Financial System ___
+d. Address the lack of private fund information available to regulators ___
+e. Collection of risk exposure information of individual private fund advisers
+___
+f. Other
+__________________________________________________________
+11. Are you using a service provider to complete Form PF (Y/N)? _________________
+a. If No – why not? ___________________
+b. If Yes ___
+i. Why are you using a service provider? _____________________
+44
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+ii. Are there any issues with using service providers? Please explain:
+___________________
+12. Please estimate the following pertaining to your investment adviser firm:
+a. Total number of people who worked to complete Form PF for the first time
+(including external consultants) __________________
+b. Total number of hours to complete Form PF for the first time
+____________________
+c. Total amount of funds spent to complete Form PF for the first time
+$____________________
+d. Please estimate the annual cost for subsequent Form PF filings (after the first
+time filing) $___________________
+13. SEC guidance and support:
+a. On a scale of 1 – 5, how would you rate the best level of guidance available
+from the SEC staff to assist you in completing Form PF?
+i. Excellent ____
+ii. Good ____
+iii. Sufficient ____
+iv. Insufficient ____
+v. No Guidance ____
+b. Which Sections / Items on Form PF were not adequately captured by SEC
+guidance? Please list all relevant Sections / Items:
+_______________________________________________________________
+_______
+14. Which question(s) on Form PF were most time consuming to answer?
+a. Please list the three most time consuming items on Form PF:
+i. _________________________________________________________
+_______
+ii. _________________________________________________________
+_______
+iii. _________________________________________________________
+_______
+b. Please state shortly why these items proved time consuming (in order of
+priority):
+i. _________________________________________________________
+_______
+ii. _________________________________________________________
+_______
+45
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+iii. _________________________________________________________
+_______
+15. Did your existing reporting, monitoring, and tracking systems adequately capture the
+information required on Form PF?
+a. Yes ____
+b. No ____ If no, why not?
+__________________________________________________
+c. If your existing reporting systems did not adequately capture the information
+required on Form PF, how did you obtain the information necessary to report
+the data to the SEC?
+_______________________________________________________________
+__
+16. Form PF requires disclosures regarding counterparty credit exposure and collateral
+[(Section 1(b) Item B, Numbers 22, 23, and Section 2(a) Numbers 36, 37, and 38)].
+a. How did you identify the relevant counterparties?
+_____________________________
+__________________________________________________________________
+_______
+b. Did you encounter any difficulties in identifying counterparties?
+i. No ____
+ii. Yes ____ If yes, what difficulties did you encounter?
+____________________________________________________________
+_______
+17. Have your investors asked to obtain your Form PF filing?
+a. No ____
+b. Yes ____ If yes – are you providing your Form PF filing to investors?
+i. Yes ____ If yes – why are you providing investors with your Form PF
+filings?
+_________________________________________________________
+_______
+ii. No ____ If no – why not?
+_________________________________________________________
+_______
+46
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+
+THE EFFECT OF PRIVATE FUND DISCLOSURES
+18. To the extent permissible, are you using Form PF as a substitute form for required
+CFTC forms?
+a. No ____
+b. Yes ____ If yes – why?
+____________________________________________________
+19. Did reporting “Regulatory AUM” as required in Form PF require a level of
+interpretation from you?
+a. No ____
+b. Yes ____
+i. If yes – why?
+__________________________________________________
+ii. If yes – how?
+__________________________________________________
+47
+EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==22444477330066
+

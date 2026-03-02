@@ -1,0 +1,1384 @@
+Chapter ) – Governance 1
+Decentralized Governance
+By Craig Calcaterra and Wulf Kaal
+Abstract
+Chapter ) introduces governance designs for decentralized systems. Decentral-
+ized governance is the process of keeping decentralized organizations stable and on
+track to achieve their goals, without letting them devolve into a centralized organiza-
+tion. Decentralized organizations are naturally more difficult to control than central-
+ized organizations. They are more difficult to govern. Very few existing PCP project
+have anything close to a sophisticated governance process.
+The authors show that reputation is the key to achieving effective decentralized
+governance. Reputation gives the promise of future rewards. Reputation can be ob-
+jectively valued, by estimating the probability of future business deals, taking the ex-
+pected value of that probability, and calculating the present value of those business
+deals. Yet this value can seemingly be created from nothing, in a place it didn’t exist
+before, based solely on whether the participants choose to display good will toward
+each other. This makes reputation a positive-sum property from the game-theory per-
+spective. A reputational system that is formally linked to profits makes the members
+forward-thinking and cooperative, to combat the natural tendency of competition to
+separate members. It also motivates members to self-police their past investments.
+Reputation changes the incentive structure from a single-stage, zero-sum game to a
+repeated positive-sum game.
+The book can be accessed here:
+https://www.amazon.com/Decentralization-Technologies-Organizational-Societal-Struc-
+ture/dp/3110673924/
+and here:
+https://www.degruyter.com/view/title/569051
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+2 (cid:0) Chapter ) – Governance
+Chapter 6. Governance
+“Many people believe that decentralization means loss of control. That's simply
+not true. You can improve control if you look at control as the control of events and
+not people. Then, the more people you have controlling events - the more people you
+have that care about controlling the events, the more people you have proactively
+working to create favorable events - the more control you have within the organiza-
+tion, by definition.”
+—Wilbur L. Creech, The Five Pillars of TQM, TUUV.
+Governance is a fundamental human concern, which has been continually de-
+bated since humans learned to speak. Governance is a primary subject of study within
+philosophy, ethics, economics, political science, law, sociology, social psychology, cy-
+bernetics, control theory, etc. Choices of governance structures for DAOs must con-
+sciously grapple with these theories and examples that have arisen throughout his-
+tory. Throughout history, however, people have repeatedly failed to organize
+effectively, and corruption has arisen in every circumstance, even without anonymity,
+in the less extreme situation involving identified members of the same culture under
+face-to-face circumstances with deep community ties. What chance do we have of
+eliminating corruption and perfecting our governmental institutions? None, of course.
+In his Dictionary of Philosophy, Voltaire highlighted the Italian proverb, “Il meglio è
+l'inimico del bene.” The perfect is the enemy of the good. But we can improve our
+institutions if we use the advances of technology wisely. Today we have new tools at
+our disposal for improving governance.
+Governance is the set of protocols that determine what behaviors are acceptable
+or unacceptable and how they are rewarded or punished. Governance determines
+how an organization is organized. Governance is the organization. Governing a decen-
+tralized organization, however, is much more difficult than governing a centralized hi-
+erarchical organization.
+This book probably seems obsessed with stability. In order to achieve the goals of
+a decentralized organization, some measure of control is required. The organization
+must be organized. Decentralized organizations are naturally more difficult to control
+than centralized organizations. They are more difficult to govern. The word “govern”
+comes from the Greek kubernos meaning to steer. Kubernos is the origin of the term
+cybernetics, which is the mathematical subject of control theory, which helps us steer
+rocket ships to the moon and steer underseas robots through the Mariana Trench.
+Control theory gives us the design to keep controlled explosions running stably for
+decades in nuclear reactors, and it keeps our global supply chain running efficiently
+with less redundancy and downtime thanks to dynamic programming.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 3
+Steering a decentralized organization, guiding it without centralized control, is a
+delicate procedure. Governance is the process of keeping the organization stable and
+on track to achieve its goals, without letting it devolve into a centralized organization,
+which is a natural progression once clear goals are identified and competition
+emerges.
+There are flaws with every governance process that has ever been implemented.
+In fact, it seems clear no perfect governance system is possible under very minimal
+assumptions, such as non-dictatorship (cf., Chapter a). Nevertheless, it is our goal is to
+find practical and effective governance structures for the most challenging groups that
+exist: DAOs.
+Part of the challenge of governance is that most members should never notice its
+existence—when they do, something has probably gone wrong. The best governance
+will require only the subtlest changes in the reward mechanism to keep the organiza-
+tion healthy as changes happen in the DAO and in the marketplace. Ideally, even these
+subtle changes would be automated, so that only changes to the changes need be
+debated.
+Decentralized power has been a conscious goal since the Tcth century.1 In the
+long term, or when the situation is dynamic and unpredictable, decentralized organi-
+zations can be more efficient than hierarchical organizations. We gain greater flexibil-
+ity and more options for efficiency using the decentralized power structure of inter-
+acting domains of expertise. Now the technology of accounting has caught up, so that
+it is possible to account for good and bad behavior on a seemingly infinitesimal scale
+without resorting to a centralized system for recording, processing and transmitting
+information. Advances in digital electronic data storage make it possible for the first
+time in history to record every member’s contributions to an organization. PCP tech-
+nology gives actors and organizations the environment to collaborate on neutral ter-
+(cid:0)(cid:0)
+1 Of course, there are many precursors which are also worthy of study. Quaker governance, since the
+?)th century, has put special emphasis on nurturing member communication with strict protocols. No
+decisions are ever made except unanimously (which may account for their doctrinal fragmentation
+into various sects). There are no votes. Debates are not permitted, nor even direct responses to others’
+contributions. The idea is not to have your personal argument win, but to discover God’s will.
+Ancient Greek society hosted a particularly direct democracy which governed the highest decisions to
+the lowest, from deciding whether to wage war down to where the next street will be built. Greek
+direct democracy relied on a clever process of sortition. Sortition is the random selection of represent-
+atives. They used a kleroterion, which was a device somewhat analogous to a complicated bean board
+or pachinko machine, to select their temporary delegates.
+In a testament to the power of logic to withstand millennia of change, Aristotle’s Ethics and Politics
+(Lth century B.C.) are still remarkably cogent expositions categorizing and analyzing the different pos-
+sible governance structures, whose insights are required reading for P?st century digital architects.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+4 (cid:0) Chapter ) – Governance
+ritory, where each member has equal power in creating the environment where eve-
+ryone can broadcast to and receive from an unlimited network of members. We have
+arrived at a historically novel situation technologically. We now have the power to
+create far more decentralized and democratic institutions than ever before.
+Decentralized organizations can be more productive because they can distribute
+the proper amount of power to the proper talent at the proper time, eliminating sys-
+tem frictions such as corruption. To ensure such dynamic power organization is suc-
+cessfully implemented, the governance structure of a DAO must incentivize members
+to collaborate productively, by fairly rewarding development, work, and the policing
+of any diminishments.
+Many issues arise when attempting to implement a governance system which in-
+corporates these qualities yet is also effective and efficient. Benevolent dictators are
+much more efficient and effective than messy democracies, but the long-term stability
+of a powerful public PCP network is threatened by such centralized governance. So
+there is naturally debate (in the blockchain community, e.g.) about the best way to
+find consensus on protocol changes.
+There is not a single PCP project in existence today which has anything close to a
+sophisticated governance process. Most are grounded with a strong anarchic or liber-
+tarian attitude. These revolutionary projects are responses to failings in our current
+system. Therefore, the very mention of a constitution for a PCP platform has invoked
+a reaction of disgust in the past. Developers have naturally been suspicious of any
+attempt to build old systems of control into their revolutionary platforms. The old sys-
+tems are failing, and new architectures are necessary to properly exploit the techno-
+logical innovations of this new age.
+All PCP networks need to organize soft forks for protocol upgrades, because there
+can never be a perfectly designed system, as the Folk Theorems attest. More practi-
+cally, every network has to continually improve to survive. To attract members and
+users, user interfaces need to be intuitive; the programming interfaces must keep up
+to date with the latest changes in software design to keep and attract developers; the
+technology must use the latest engineering advances for hardware. How do you mo-
+tivate all this work?
+Blockchains which have instituted (or intend to institute) on-chain governance to
+a greater extent include Dash, Bitshares, Lisk, MemoryCoin, Tendermint, Tezos, Ara-
+gon, Cardano, Maker, and NuShares. To a lesser degree, the Ethereum carbon vote
+represents on-chain governance. Examples of off-chain democratized blockchain gov-
+ernance has included Bitcoin Improvement Proposals (BIPs), Ethereum Improvement
+Proposals (EIPs), mailing lists, and nonbinding suggestion pages on the internet such
+as GitHub trees. At the moment, however, no major blockchain is entirely decentral-
+ized, because they all lack pure binding coded PCP anonymous governance.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 5
+Choosing no explicit or formal rules is still a governance choice. That choice de-
+faults to the prehistoric rule of might makes right. Since might is defined by wealth,
+they’ve chosen oligarchy. In ChCh, all of the major valuable platforms are naked oli-
+garchies, where rule changes are determined by whoever has the most fungible plat-
+form currency or concentrated computing power.
+The entire history of civilization has shown us how dangerous that is. It leaves
+itself open to many arbitrage opportunities, such as Soros’ Break-the-Bank attack on
+the British pound. (We’ll discuss that example in Chapter c for stablecoins.) This is
+especially insecure in a system that strives for anonymity and places itself beyond the
+protection of any national jurisdiction. Currently, there are not many useful institu-
+tions such as banking in the decentralized economy which would allow adversaries to
+take advantage of their governance weaknesses. With only a few Thh billion USD in
+capitalization driven entirely by speculation that it may be useful in the future, the
+crypto economy is not yet a significant factor in international commerce. Competing
+platforms have an incentive to keep the peace until these PCP platforms prove the
+economy needs them. However, we can witness these realities developing quickly.
+When they do materialize, the decentralized economy will be rocked by catastrophes
+which expose these weaknesses.
+The lack of governance is especially dangerous for these PCP platforms, because
+it is extremely difficult for decentralized organizations to change their rules. The
+United States built a system into its Constitution for amending the rules, but in Cjh
+tumultuous years of operation there have only been Ta changes. This despite yearly
+crises, including a civil war that split the country across the middle. This despite
+changes in information technology that started with writing the original rules with
+goose feathers on sheepskin. Hundreds of millions of new network members follow
+those old rules, but now the rules are shared by bouncing them off satellites in space
+between citizens’ pockets.
+When a large decentralized organization needs a fundamental rule change, it of-
+ten happens because a large minority subgroup is being treated unfairly. That typically
+means the majority is advantaged by the rules and are therefore not incentivized to
+change the rules. Then the only way to make foundational changes is revolution.
+When Ethereum chose to make a minor change to fix a single bug exploited by a single
+member (the ChTk DAO attack) a minority revolted, splitting the network. Distributing
+power in a valuable network creates major path dependencies. Getting the govern-
+ance system right from the beginning is absolutely crucial.2
+(cid:0)(cid:0)
+2 “You will never get right until you start right.” –Voltairine de Cleyre, The Economic Tendency of Free-
+thought, Liberty, Vol. XI, #PX (?YZ[).
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+6 (cid:0) Chapter ) – Governance
+Currently, the vast majority of Webj projects rely on their founders to do a good
+job at the beginning and hope there never needs to be an important structural update
+after the first roadmap is complete. Since the field is in massive flux, the lack of gov-
+ernance is pretty well hidden. No important roadmaps have been completed, yet. The
+fact that the reliance on founders represents de facto centralization isn’t too glaring,
+yet. At the moment, since new companies come and go, new problems can be ad-
+dressed by cloning older open-source architectures with superficial changes.
+Since no major PCP organization has anything resembling effective decentralized
+governance, none of them are viable in the long term. They will all eventually be dis-
+rupted with superior clones. This doesn’t mean they won’t be useful in the short term,
+so predicting when they will become irrelevant is impossible.
+It is perhaps understandable that these immature systems don’t have sophisti-
+cated governance mechanisms. Designing a single consensus algorithm is infinitely
+easier than designing a consensus algorithm that will incorporate all future updates to
+the consensus algorithm. Before the decentralized economy can actually emerge to
+improve our current institutions, though, this must be achieved for long-term stability.
+Many developers are beginning to understand this, and the hard line against constitu-
+tions is softening.
+How do we achieve governance in a decentralized organization without imposing
+a centralized hierarchy to make decisions? Fortunately, we’ve been addressing this
+impossible necessity and developing governments based on decentralized principles
+throughout history. Egypt practiced decentralized judicial governance for jhhh years.
+Every democratic government since Ancient Greece has been an experiment in decen-
+tralized executive governance. The most powerful DAO in history was the United
+States. All governments have been flawed, but we can learn from their mistakes.
+In this chapter we explore what is needed to design an effective governance pro-
+cess for a decentralized network or DAO without any central hierarchy to make deci-
+sions or drive innovation. Essentially, we need a constitution for a radically democratic
+organization. An incorruptible governance process, one which has never been
+achieved before, sounds unlikely—especially as we witness old and established dem-
+ocratic institutions failing.
+But there are new information technology tools that give us more power to dem-
+ocratically govern decentralized organizations. We can poll every member of the
+group almost instantly. We can keep track of every member’s contributions. We can
+judge them according to programmed processing of unlimited complexity. All of these
+information technology tasks can now also be achieved redundantly, by each member
+of the group, so each member is autonomous and doesn’t rely on some central over-
+seer or repository.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 7
+The only requirement for decentralized governance is to design this third govern-
+ance processing protocol by which the entire organization can agree to judge each
+other by. The first goal of this chapter is to identify such a governance process that
+keeps the organization decentralized and stable.
+Secondly, once this governance process is established, we need to make design
+choices that reflect the goals of the group. The goals are literally what the group val-
+ues. For instance, if the group values long-term stability, they should encourage in-
+vestment and tokens of power which pay annuities in the long term. If they value im-
+mediate innovation, they should reward development more than maintenance.
+Decentralized governance with new IT tools
+The purpose of a pure DAO is to allow any users on the planet to join anonymously
+(or pseudonymously). Such users have a natural incentive to exploit any opportunity
+to profit personally, even if it comes at the expense of the group. At the same time,
+DAOs have no centralized authority empowered to police or guide behavior. A pro-
+gram for solving all these problems under these extreme circumstances is forbiddingly
+ambitious. What hope do we have of finding an effective governance structure when
+users are likely to be pseudonymous and occupy uncertain locations in various juris-
+dictions?
+How do we create a system which can update itself in a peaceful, stable, and pre-
+dictable way, in response to unpredictable future changes in the market? We need a
+constitution which outlines the powers of the legislative, executive, and judicial sys-
+tems of the decentralized network. The legislative system updates the constitution
+itself. The executive system enforces the constitution. The judicial system handles in-
+evitable disputes. All of this needs to be built into a code-is-law smart contract small
+enough to be easily parsed and audited by humans and run efficiently in a redundant
+peer-to-peer setting.
+Contemporary PCP technology allows us, for the first time in history, to coordinate
+communication without a centralized authority in a secure and redundant fashion, to
+keep track of every important contribution, and to store those records eternally for
+future review. This review gives us the chance to analyze the consequences of every
+action and fairly reward the positive contributions to the group and punish the nega-
+tive. One of the major efficiencies of a decentralized organization is that all rewards
+can be shared with the people who contribute to the success of the group, fairly, ac-
+cording to their merit.
+We broadly define corruption in an organization as any action that benefits a mi-
+nority at the greater expense of the group. Corruption arises when power is distrib-
+uted inappropriately as measured by efficiency. Corruption arises in the dark, when
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+8 (cid:0) Chapter ) – Governance
+people or institutions have the power to act without review. Broadcasting technology
+provides us the opportunity to transparently share evidence of all actions so they can
+be reviewed. Processing technology gives each person the power to independently
+judge these actions’ value. This inhibits corruption, by distributing power efficiently to
+those who can use it best to improve the group.
+Just because we can cite every action from a company on a blockchain, however,
+does not mean we have conquered corruption. More information does not ensure
+more productive collaboration. How do we discern the signal through the noise?
+Members must be properly motivated to behave correctly and to police corrupt be-
+havior when it happens. This is the goal of governance.
+Cash profits are a bad immediate incentive for business and government. The car-
+toon scenario of a DAO consisting of anonymous members who stake their currency
+on rigid smart contracts gives the worst imaginable motivations for collaboration. If
+the entire proximal goal of a transaction is currency, all participants will naturally be-
+have in the most selfish manner possible, exploiting any opportunity for individual
+profit at the expense of the group.
+Further, rigid “code is law” smart contracts involving fungible currency exchanges
+are designed to guarantee irreversible, unreviewable, programmed self-execution.
+Very rarely does any business venture proceed exactly as imagined from the begin-
+ning. To enter into any business arrangement, parties need to have confidence that
+fair resolution will occur when transactions do not go according to plan. They need to
+know whether to continue business after an unforeseen event.
+Moreover, rigid “code is law” smart contracts will need to be extremely complex
+to account for the many possible eventualities of practical business situations. The
+insurmountable reality is that bugs or hacks can never be certainly precluded in any
+programmable contract.3 Beyond this, long-term attacks will always be possible for
+any complicated and rigid set of rules, as the infinitude of strategies generated by the
+Folk Theorems demonstrates. If the entire reward is short-term currency profit, all
+parties are naturally motivated to push the contract as far as possible in their favor,
+and they will naturally exploit any weakness in the contract design to their advantage.
+The typical engineering attitude is that such problems can be entirely avoided
+with perfect system design. This is naïve. Exceptions will always exist. Business com-
+petition always seeks optimal solutions which occur at the limits of the rules of behav-
+ior. Good system design is possible, but requires dealing with the exceptions. Once
+the process is in place for dealing with exceptions and improving the process to handle
+exceptions, exceptions become more and more rare, and the system becomes more
+efficient. As much as possible, we must automate such constitutional functions for
+(cid:0)(cid:0)
+3 Despite the laudable efforts toward secure purely functional programming languages such as Haskell.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 9
+efficiency. This requires explicit formal rules for as many behaviors as possible, which
+multiplies the protocols without limit. In tension with this requirement, we must limit
+the rules to make them as simple as possible and allow maximum freedom for inno-
+vation. The ideal rules never need to be enforced as they are naturally incentivized by
+productive cooperation that achieves the goals of the group.
+The motivation for all parties to behave as selfishly as possible creates instability
+for any business transaction. More harmonious collaboration is motivated when im-
+proved reputation is the proximal goal. The situation is no longer a zero-sum game
+when either or both parties can create valuable long-term reputation from the trans-
+action.
+Instability from profit motive and rigid rules
+The major characteristics of the network that dictate design choices are T)
+whether the group is devoted primarily to profit, and C) the values of the group.
+The two ends of the spectrum are non-profit organizations with uniform values,
+and for-profit companies with diverse values. Ideologically centralized (uniform val-
+ues) nonprofit organizations are extremely stable and work well without explicit rig-
+orous rules. Historical examples include much of the history of Imperial China, the
+Apache’s nomadic period, and Wikipedia. DAO examples would include nonprofits de-
+voted to charity, local community social organizations (like YMCAs), and local govern-
+ance sub-councils devoted to improving the community of a non-diverse population.
+The less explicit the rules are, the more they should not strictly adhere to precedent—
+spirit of the law must supersede the letter of the law. If the system has less explicit
+rules, the unifying force is transcendental values—values which cannot be explicitly
+written down, dictating what is acceptable or not. An example of a transcendental
+value is the Golden Rule, “Treat others like you would be treated.” An example of an
+explicit rule is, “Murder is punished with Th years in jail.”
+Ideologically decentralized (diverse values) for profit organizations are the decen-
+tralized organizations we are concerned with in this book. They are on the other end
+of the spectrum from value centralized non-profit organizations, and so they are nat-
+urally very unstable. We assume these DAOs want to maximize the network effect,
+and so are trying to build the largest, most inclusive group of members possible. They
+are open to anonymous members with a diverse set of values from a globally diverse
+set of cultural backgrounds, who can join or leave at will. These characteristics make
+such DAOs extremely unstable, so they need powerful stabilizing structures.
+The internal competition for profit creates the natural tendency to centralize
+power as the members differentiate themselves with wins and losses. This centralizing
+tendency is another force further destabilizing the organizations.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+10 (cid:0) Chapter ) – Governance
+Diverse (decentralized) values require protocol centralization (explicit, enforcea-
+ble rules), because stability requires impartial application of laws to display fairness.
+Explicit rules can unite a larger group of more diverse members. In other words, the
+governance system must follow rigid Rule of Law, instead of loose Rule of Virtue.
+Explicit rigid rules are also more efficient. Members waste less energy making
+choices.
+However, these unifying rules further destabilize the group in the long-term, be-
+cause of internal corruption and external changes that make the rule structure inef-
+fective or inefficient.
+This situation of for-profit, open, diverse-valued, rigid Rule of Law run decentral-
+ized organizations is maximally unstable. Therefore, you must add powerful stabilizing
+forces to their governance.
+Reputation counters instability from profit motive
+The main problem with all current PCP governance structures (such as they are)
+is the lack of proper incentivization. In business or in government, all participants need
+to be motivated to improve the whole organization over the long term. Otherwise,
+when short-term fungible rewards are available, the natural response is to always at-
+tempt to game the system for maximal personal profit and to ignore how your actions
+may damage the group.
+A reputational system that is formally linked to profits makes the members for-
+ward-thinking and cooperative, to combat the natural tendency of competition to sep-
+arate members. It also motivates members to self-police their past investments. Rep-
+utation changes the incentive structure from a single-stage, zero-sum game to a
+repeated positive-sum game.
+Reputation gives the promise of future rewards. Reputation can be objectively
+valued, by estimating the probability of future business deals, taking the expected
+value of that probability, and calculating the present value of those business deals. Yet
+this value can seemingly be created from nothing, in a place it didn’t exist before,
+based solely on whether the participants choose to display good will toward each
+other. This makes reputation a positive-sum property from the game-theory perspec-
+tive.4
+(cid:0)(cid:0)
+4 Arguably the source of good will would be the promise of profit from rational choices in long-term
+cooperation in an expanding market. Like physics experiments where energy is added to a subsystem,
+Conservation of Energy is not actually violated from the wider, universal perspective. The positive-sum
+situation holds from the near-sighted perspective of specific subgroups over a limited time period.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 11
+No centralized platform, such as Amazon or eBay, has been able to create mean-
+ingful and secure online reputation. Because they are centrally owned and controlled
+they cannot give members the power and incentives they need to police their own
+reputation, protecting it from the infinite strategies available to adversaries for sub-
+verting the intentions of the designers (which the Folk Theorems of Game Theory il-
+lustrate). With the new opportunities that PCP technology creates, decentralizing and
+distributing reputation fairly, and tying it to the profits of the organization, the mem-
+bers can be properly incentivized and empowered to police all actions. Giving DAO
+members the ability to fairly apportion power in a variety of domains lessens the dan-
+ger of the principal-agent problem and combats several Tragedy of the Commons
+problems, such as non-representativeness and free-riding.
+A platform which vests users with secure and valuable reputation gives us the
+opportunity to effectively filter the voluminous information that contemporary tech-
+nology produces. People with higher reputation will have greater voice.
+Power is diffused by reputation, as discussed in Chapter k. Thus, reputation sta-
+bilizes the organization by decentralizing it. One of the major sources of instability
+from unequal power distribution is the ever-present possibility of a majority oppress-
+ing a minority. De Tocqueville criticized American democracy as being particularly sus-
+ceptible to this Tyranny of the Majority and argued it could ruin any democratic or-
+ganization. De Tocqueville and Madison5 and others claimed the best safeguard
+against this is by diversifying interests. Giving individuals more autonomy naturally
+(cid:0)(cid:0)
+From the eternal perspective, reputation allows the system to achieve a sub-game perfect Nash equi-
+librium with a higher profit level, so the reputation is not value created from nowhere.
+5 “It is of great importance in a republic, not only to guard the society against the oppression of its
+rulers, but to guard one part of the society against the injustice of the other part. Different interests
+necessarily exist in different classes of citizens. If a majority be united by a common interest, the rights
+of the minority will be insecure. There are but two methods of providing against this evil: the one by
+creating a will in the community independent of the majority, that is, of the society itself; the other,
+by comprehending in the society so many separate descriptions of citizens as will render an unjust
+combination of a majority of the whole very improbable, if not impracticable.” –Federalist No. X? (b
+February ?)YY)
+“In a free Government, the security for civil rights must be the same as that for religious rights. It
+consists in the one case in the multiplicity of interests, and in the other in the multiplicity of sects. The
+degree of security in both cases, will depend on the number of interests and sects; and this may be
+presumed to depend on the extent of country and number of People comprehended under the same
+Government.” –Federalist No. X? (b February ?)YY)
+“The essence of Government is power; and power, lodged as it must be in human hands, will ever be
+liable to abuse.” –Speech in the Virginia Constitutional Convention, P December ?YPZ, The Writings of
+James Madison: ?Y?Z-?Ygb (?Z?[), ed. Galliard Hunt, p. gb?
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+12 (cid:0) Chapter ) – Governance
+diversifies the expressed interests of a group. Encouraging individual autonomy by de-
+centralizing power creates more minorities, which is the best way to protect minori-
+ties.
+Any such reputation system must address the many problems, such as sockpup-
+pet attacks, Tyranny of the Majority, Tragedy of the Commons, VT% attacks, and free
+riding, that have undermined the meaning and value of digital reputation on all previ-
+ous platforms, centralized or decentralized. Further, it needs to be a dynamic and evo-
+lutionary system, able to anticipate and react to gaming that will inevitably result from
+whatever rules are in place. Review Chapter k, to see how to address such problems.
+Alternatives to reputational systems for countering the instability generated by
+profit competition include external stabilizing forces (such as governmental fiat) or
+rapidly expanding profit opportunities (which will only stabilize a group until the ex-
+pansion stops). Colonialism gives historical examples, such as the Spanish Empire in
+the Americas or the Dutch East India Company.
+Trying to institute dynamic rules to attenuate the instability due to a for-profit
+motive is a mismatch. Similarly instituting a reputational system is not an efficient
+method for attenuating the instability due to a group’s diverse values.
+Once reviewable reputation is the focus instead of more fungible currency re-
+wards, damaging arbitrage opportunities are minimized. The next major concern for
+creating a healthy governance process is to decide how to reach consensus on proto-
+cols for behavior. What process do we use to enforce laws?
+Dynamic design counters instability from rigid rules
+The instability generated by the rigidity of the rules is solved by making the rules
+dynamic. Dynamic governance includes short-term and long-term protocols. An ap-
+peals process stabilizes short-term cooperation (day to day business, single contract).
+Long-term stabilization (year to year, group to group, part of one generation) comes
+from legislation, the ability to amend rules—including how the amendments them-
+selves are made. For even longer-term stabilization (generation to generation), adher-
+ence to transcendental values guides higher-order rulemaking.
+Like the dynamic design of the U.S. Constitution discussed at the end of Chapter
+T, which stabilized and decentralized the federal hierarchy, we can add dynamic design
+to DAO governance to encourage decentralization (or equity or meritocracy or any
+other value your organization holds). Larger changes are effectuated by legislative
+governance. Subtle changes in reward parameters can be automated to steer the DAO
+toward the goals of the group.
+Executive short-term governance automated with hard protocols
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 13
+Short-term cooperation is regulated by executive governance. This is single-con-
+tract policing. Executive governance is regulatory governance—policing. Such regula-
+tion should be governed by hard protocols. In other words, in a decentralized organi-
+zation, the entire executive branch’s function is automated.
+Hard protocols are programmed rules for how the organization performs its func-
+tions. For instance, each DAO will automatically share profits with its members, where
+the core program will automatically calculate each member’s salary in proportion to
+their reputation token holdings relative to the entire group. As a second hard protocol
+example, each DAO will determine how reputation creation, distribution, and policing
+are handled—for instance the level of approval required before reputation tokens are
+granted. As a third example, references to past work-evidence posts will re-valuate
+member reputation. Precisely how does a reference reward the author? The many
+possible options provide many diverse choices of incentives with which to motivate
+DAO members, as will be examined throughout the book. Such hard protocols deter-
+mine the programmed reward/punishment structure of each DAO.
+In a radically democratic system where power is truly decentralized, each mem-
+ber of the organization is in charge of all executive governance, all the time. With the
+new tools of information technology, this is now possible.
+As described above in the system which generates reputation, each member is
+capable of participating in the validation pools. In this way, when the system is work-
+ing properly, the executive system is completely automated. Every validation pool on
+executive governance should be completely uncontentious, with every vote resolving
+unanimously. The only time a member should use their executive power consciously
+is when they decide whether to join, i.e., whether they want to run the program which
+polices the members or not. After that choice, the hard protocols are entirely algorith-
+mic, in the sense that anyone honestly following them will automatically choose the
+correct vote, which drives the system to unanimous consensus. The most efficient ap-
+plications should be automated, so that honesty is defined as running the algorithm
+the organization has agreed upon, unedited.
+The only time the members should make a conscious choice when using their rep-
+utation tokens for governance, is if they are interested in participating in the legislative
+governance process of debating updates to the hard protocols.
+Policing is an overhead institution in our traditional economy that centralized per-
+sonal defense. Policing as we know it, with permanent, professional, centralized police
+bureaucracies funded by taxes, is only about Chh years old. Throughout history there
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+14 (cid:0) Chapter ) – Governance
+were decentralized militias and posses, that were based on communal spirit in democ-
+racies or family-oriented clans (e.g., Imperial China and feudal Italy6). Governments
+always employed specialized military units for policing their citizens, but before the
+modern era, there were rarely any standing armies, so policing was intermittent. Aside
+from this, marshals and constables were typically paid by courts or individuals with
+bounties or retainers.
+Starting in Tchh in London, public taxes first funded the Thames River Police to
+prevent crime near merchant import properties, following a royal French system that
+predated it. Motivated by this success, the TcCU Metropolitan Police Act created the
+first modern police force, that is, the first public police bureaucracy for maintaining
+social order by investigating general crimes. London passed the act to address the so-
+cial upheaval engendered by the industrial revolution. The U.S. later copied this British
+innovation in Boston in Tcjc and New York City in TcaV. The point we are stressing, is
+that the systems we take for granted as natural are by no means universal nor eternal.
+Policing in major cities was not well established until the Tcchs, and towns with less
+than Thh,hhh residents didn’t institute salaried police until well into the Chth century.
+From a wider, nationwide perspective, outsourcing personal revenge to a pub-
+licly-sanctioned, centralized police force led to a leap in efficiency. But this centralized
+institution is an obvious vector for corruption. Police exist to fight corruption. They
+understand corruption better than others and are the only group sanctioned to di-
+rectly address it, so they generally police themselves. Because the centralized bureau-
+cracy is hierarchical, there is less transparency than there would be in a decentralized
+organization, since only a few people observe what each other person is doing, be-
+cause of the limited and static power relations within the org chart.
+With the advances of information technology, we can achieve another leap in effi-
+ciency and security, by decentralizing and automating policing, giving every member
+of a network the power to check every other member on specific behaviors. Bitcoin
+does this, e.g., by using error correcting codes and public key cryptography. Whenever
+a message is sent in the Bitcoin network, each node in the peer to peer network checks
+the message to see that it is properly formatted following Bitcoin protocol before pass-
+ing it along in the gossip network. Then each block is hashed many times, and the
+nonce is checked to police the claim that the hash lottery winner is the correct block
+producer. Finally, each Bitcoin money transfer is cryptographically checked by every
+node in the network to verify the transaction sender and recipient accounts are the
+correct owners of the private key through digital signature technology.
+(cid:0)(cid:0)
+6 The Towers of Bologna (https://en.wikipedia.org/wiki/Towers_of_Bologna) are a testament to the
+function of clan policing. Each clan had a tower from which they could monitor the town.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 15
+Advances in information technology, especially processing and transmission of
+data, enables the decentralization of policing of many other DAO functions, giving
+each individual in the network the power to check everyone else is following protocol,
+through the weighted democratic system of validation pools. We will discuss how
+these can be automated in Chapter c, when we discuss banking.
+Legislative long-term governance with deliberative soft protocols
+In order to adapt to changing market threats and opportunities, DAOs need legis-
+lative governance to update their hard protocols. How can we develop new rules or
+protocols in a completely decentralized system with anonymous members? We need
+to use reputation tokens if we want to achieve complete decentralization, anonymity,
+and autonomy. Protocol development is contentious, however. If unanimous consen-
+sus is strongly incentivized by every validation pool, our DAOs will degenerate quickly,
+as alternative options will not be raised by members with minority opinions for fear
+they will lose all reputation tokens. So the basic functioning of validation pools de-
+scribed above is inadequate. One more tweak is needed—loosely coupled votes.
+The legislative system in a DAO is the process for updating the system—essentially
+rolling out new versions of the software all members of the PCP network use. This
+legislative process can be broken down into the steps of identifying problems, propos-
+ing solutions, deciding between solutions, and deciding how to implement those so-
+lutions. The goal is to ensure a stable but active legislative process that responds to
+inevitable market changes. The goal is to drive group consensus toward improvements
+in the system.
+The design should use the reputation system to democratically come to consen-
+sus on each of these steps. There are two basic processes: filtering attention to ideas
+and then debating the ideas.
+First the network needs to harness the power from decentralized networks to ac-
+cess information at the edge by filtering their attention to focus on good ideas. New
+advances in information technology allow anyone in the network to propose an idea
+and to use an upvote type system, like Reddit or Stack Exchange (but with secure and
+meaningful reputation), to make good ideas more visible to the group.
+Once an idea meets a certain threshold of attention, how do we decide on
+whether to implement the idea? How do we guarantee consensus on the protocol
+change? This second process is a series of votes before the larger group. This will in-
+volve contentious debates on how to develop new regulatory/executive protocols.
+Such debates can be held in PCP distributed hash table forums and subjected to a val-
+idation pool with loosely-coupled votes. “Loosely-coupled” means reputation tokens
+cannot be lost during such validation pools, but can still be staked on contentious
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+16 (cid:0) Chapter ) – Governance
+posts to register each owner’s opinion. Loosely coupled validation pools poll the opin-
+ion of the group. These polls allow a DAO to gauge member body opinion without
+upsetting the balance of power with disruptive token transfers. Such debates encour-
+age authentic deliberation on protocol development, in order to T) efficiently explore
+the most effective modes of behavior for the organization, and C) ensure authentic
+and thorough consensus on all protocols.
+In order to encourage development actually happening, i.e., to force consensus
+in a timely manner, the debate can gradually move to tightly-coupled votes, where
+part or all of the reputation tokens staked on a losing bet will be redistributed to the
+winners. When a protocol development debate finally moves to a perfectly tightly-
+coupled vote (where all reputation tokens staked on a minority position in a validation
+pool are lost), proof is given that the outcome has become precedence, the protocol
+becomes non-contentious, and unanimity is ensured. Updates to the consensus algo-
+rithm can be made and it will be ensured that everyone in the DAO will download the
+new algorithm and run it, or else risk losing reputation tokens when the new protocol
+is engaged.
+Loosely-coupled voting encourages dissenting opinions. Tightly-coupled voting
+guarantees consensus. The process moving from one to the other can be slow or fast
+depending on the importance of the debate versus the need to solve the problem
+rapidly.
+In order to enforce a limit on the time of a debate, the DAO may choose to include
+a mechanism where validation pools transition gradually from loosely-coupled voting
+to tightly-coupled voting. This transition allows authentic deliberation to take place
+during the loosely-coupled voting phase, since divergent views are not punished.
+When the debate transitions to the tightly-coupled voting phase, the Tragedy of the
+Commons problems of meaningless votes (the “nothing-at-stake problem”) and non-
+participation (i.e., free-riding) are avoided, fairly and stably, because members who
+do not participate effectively will lose reputation or at least lose opportunities to gain
+reputation tokens, whose future value will greatly increase if the protocol improve-
+ment successfully attracts fees to the platform.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 17
+Binding Non-binding
+Rigid Non-contentious Non-contentious
+post & tightly-coupled post & loosely-coupled
+(E.g., work-evidence (E.g., poll of consen-
+post, mandatory plebi- sus on established prece-
+scite) dent)
+Flexible Contentious post & Contentious post &
+tightly-coupled loosely-coupled
+(E.g., forcing consen- (E.g., protocol devel-
+sus on protocol develop- opment poll, advisory ref-
+ment) erendum)
+The above table7 categorizes the difference between contentious and non-con-
+tentious posts. Non-contentious posts, such as work-evidence posts, will be rigidly po-
+liced and binding in the allocation of tokens. Protocols will start as flexible and non-
+binding when they are validated as contentious posts. Flexible means members will
+not be required to follow initial contentious post protocols subjected to loosely-cou-
+pled votes. Non-binding means no reputation tokens are sacrificed for violating the
+content of such posts. As consensus is gradually achieved and protocol suggestions
+become validated in tightly coupled validation pools, the protocols become rigid and
+binding, so that violating them results in loss of reputation tokens.
+This process of moving protocol development posts from contentious to non-con-
+tentious is meant to address wicked problems,8 which are generally intractable yet
+(cid:0)(cid:0)
+7 adapted from the EU governance study by Oliver Treib, Holger Bähr, Gerda Falkner, Andreas
+Follesdal, & Simon Hix, “Modes of Governance: A Note Towards Conceptual Clarification”, No. N-[X-
+[P. Available online https://www.ihs.ac.at/publications/lib/epb.pdf (retrieved b/Pg/P[).
+8 Jeffrey Conklin's defining characteristics of a wicked problem are:
+1. The problem is not understood until after the formulation of a solution.
+2. Wicked problems have no stopping rule.
+3. Solutions to wicked problems are not right or wrong.
+4. Every wicked problem is essentially novel and unique.
+5. Every solution to a wicked problem is a 'one shot operation.'
+6. Wicked problems have no given alternative solutions.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+18 (cid:0) Chapter ) – Governance
+consensus must still be reached in a timely fashion. Therefore, a well-designed
+method for encouraging careful deliberation is crucial. Approaches from operations
+research (e.g., problem structuring methods9) to social and political science and his-
+tory (e.g., Quaker governance, managing a commons10) will help organize the pro-
+cess, depending on the particular application and DAO.
+The means by which members come to consensus on protocol development is by
+following soft protocols. The soft protocols form a socially developed system of rules
+that guide members in their conscious decisions—as opposed to hard protocols which
+are automatically, algorithmically followed by DAO members to police the value of
+work-evidence posts. Such soft protocols are intended to guide members to complete
+their deliberations following the commonly agreed upon transcendental values of the
+DAO. A healthy DAO will have an effective set of soft protocols for expressing their
+common values with regular innovative rule improvements that keep the DAO on an
+efficient path toward achieving their goals.
+These soft protocols move the DAO from loosely to tightly-coupled votes, from
+legislative governance to executive governance with hard protocols.
+The collection of currently validated hard and soft protocols comprise the legal
+constitution of a DAO. Similar to nation-states, most members of a DAO will never
+exhaustively analyze every legal facet of the constitution. So, the UI design is as im-
+portant as the constitution to the success of a DAO.
+Minority interests are passively protected by decentralizing power as discussed in
+Chapter k. To further protect minority interests and ensure stability, DAOs often will
+choose to institute certain initial charter rules which are hard coded to require near
+unanimous consensus to change, similar to a nation-state’s foundational constitution.
+By protecting minorities from the inevitable transient interests of the majority, this
+would encourage recruitment of a diverse population of members, increasing the
+DAO’s power from the network effect.
+(cid:0)(cid:0)
+Cf., also, a super wicked problem, which is also relevant. Jeffrey Conklin, Dialogue Mapping :
+Building Shared Understanding of Wicked Problems, Wiley Publishing, (Chhk)
+9 Jonathan Rosenhead, “Problem structuring methods” in Encyclopedia of Operations
+Research and Management Science, jrd ed., Springer Verlag, pp TTkC–TT)C, (ChTj)
+10 Ostrom, Elinor, Governing the Commons, Cambridge University Press, (?ZZ[)
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 19
+Judicial short-term governance with hard and soft protocols
+The necessity for appeals is crucial in any business deal. Business contracts are
+designed to bring confidence and clarity to the future. While code-is-law smart con-
+tracts give a technological leap in efficiency and clarity, with efficient digital self-exe-
+cution, their supposed self-regulation will always be ultimately lacking.
+The smallest problem is programming bugs. These will always be inevitable, even
+with logical advances such as strong, statically typed, purely functional programming
+languages such as Haskell, which prevent many of the accidental logical loopholes of
+more popular languages. Such problems can be solved with an evolutionary platform
+which has a history and good incentive design to encourage continual improvement
+in the smart contracts. But business arrangements are becoming more complex. Each
+successful modification leads to more opportunities for modifications. With each in-
+crease in complexity, the “attack surface” of the business arrangement grows. Mis-
+takes will always surface.
+Far more importantly, a business contract is a plan for the future. Even if all of the
+business parties are well-intentioned, plans fail. When you buy wood to build a shed,
+a few pieces from the delivery may be too twisted or knotty to your liking. Do you
+terminate the smart contract? Do we build more complex clauses into the contract
+handling any eventuality? Perhaps we stipulate how many knots the wood can have
+and measure precisely how twisted the wood is allowed to be. How do we build a
+smart contract that can judge whether the seller or the buyer is pushing the bounda-
+ries?
+It doesn’t matter whether the other party is well-intentioned or not. Sometimes
+(often) business parties genuinely disagree. For efficiency, disputed contracts need to
+be able to be resolved in more sophisticated ways than simply terminating them early.
+An impartial third party might be able to resolve the dispute in a more efficient man-
+ner. The existence of an efficient and fair appeals process helps give parties the confi-
+dence to enter into a contract in the first place. A fair and efficient judicial system, like
+insurance, is a catalyst for business that makes the wider economy more liquid and
+ultimately, more efficient.
+To maintain the efficiency of the self-executing code-is-law smart contract, the
+appeals process must be built into the code. In the same way the executive functions
+of the DAO are automated with smart-contract-enabled hard protocols, the appeals
+process is also automated with hard protocols. Triggers are built into smart contracts
+that either party is capable of engaging when a dispute arises. The idea is that the
+assets encumbered in the smart contract from the beginning (digital properties includ-
+ing currencies, tokenized assets, and reputation tokens) would be frozen and partial
+powers of disbursement would be transferred to a third-party arbiter. This judge
+would stake their reputation for expert knowledge in the DAO’s protocols and experi-
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+20 (cid:0) Chapter ) – Governance
+ence with resolving the most common disputes. Then a pre-determined appeals pro-
+cess is enacted. The costs of such a process needs to be transparent and negotiated
+by the DAO which hosts the smart contract before it is recommended to its customers.
+A long history of successful and efficient dispute resolution is necessary before cus-
+tomers would gain the faith needed to guarantee the system is worth using from the
+beginning.
+However, soft protocols are also necessary. Beyond the limits of the typical trans-
+action, there will be new events that the DAO must be able to handle. Ideally, these
+situations would be vanishingly rare, but even then, it is necessary for the DAO to have
+a system in place to give users confidence. The third-party arbiter must sometimes
+make a creative decision based on the unique evidence of a novel dispute. In that case,
+the arbiter should rely on soft protocols that cleave to the spirit of the law, similar to
+how new protocols are created during legislative debate. These soft protocols would
+be founded on precedent and guidelines developed over time to steer the DAO toward
+its transcendental values. Without such unifying ideals, liminal cases will fragment the
+network. Ultimately, transcendental values are always necessary to maintain the sta-
+bility of a network, so they are the first thing the DAO should establish.
+Network forks and black swans
+Finally, there is no way to design a system that can anticipate every future even-
+tuality. Conditions change. The group can develop persistent irreconcilable differences
+in talents or philosophy or goals. Sometimes the group will be more efficient if com-
+peting minorities have the freedom to pursue their own values.
+A mechanism for forking needs to be implemented so the value created by the
+previous history is not erased. Otherwise the group will arbitrarily downvote the mi-
+nority, creating resentment and unnecessary strife. However, forking should always
+be discouraged, until the split becomes obvious and detrimental, because of the value
+lost in any fork due to the network effect.
+The mechanism of forking is illustrated by the Ethereum Classic blockchain fork.
+Members who disagree with a new protocol or vote which results in unfair loss of
+reputation tokens, can create a new protocol and start their network consensus algo-
+rithm from any point in the past, ignoring any new messages sent according to the old
+protocol.
+Eight qualities of effective decentralized governance and authentic deliberation
+Seven general qualities have been identified in modern democratic institutions as
+useful for evaluating how effective a governance system is. Upholding the ideals of
+decentralization, security, and anonymity while remaining stable in the long run is dif-
+ficult, and requires the governance structure of the DAO to encourage a deliberative
+democracy. A deliberative democracy by definition values authentic deliberation for
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 21
+legitimating consensus on the rules, over the mere act of achieving a majority vote.
+The eternally reviewable history of any debate in the forum may provide an ideal
+mechanism for achieving the transparency required for authentic consensus, if the
+deliberation process satisfies the following eight qualities: T) open, C) balanced, j) con-
+scientious, a) dynamic, V) informed, k) binding, )) reviewable, and c) escapable.
+Open. An ideal governance process should allow access and power to anyone with
+the ability and desire to make positive contributions.
+Balanced. Power and profit must be shared fairly. Productive contributions must
+be properly rewarded based on the improvement they make to the group. Negative
+contributions must be properly punished based on the damage they do to the group.
+Arguments should be considered from contrary perspectives. Every member has the
+opportunity to post any contentious opinion without fear of reprisals, especially if they
+are given the opportunity for anonymity.
+Conscientious. Participants should sincerely consider the merits of arguments and
+act in the interest of improving the DAO. This cannot be ensured without proper se-
+curity and incentivization.
+Dynamic. The governance process must be very flexible if it is to adapt to the in-
+evitable gaming that will occur in any complex group. In this sense, the ideal is to cre-
+ate an evolutionary system where rules are able to continually change to avoid threats
+and seize opportunities (micro soft forks). The opportunity to review past actions and
+revalue their worth is necessary. Participants must accept that policies and protocols
+will eventually change, and so should have a perspective that is open to influence.
+Informed. Authentic deliberation is required for the development of the protocols
+that will guide the behavior of group members toward productive collaboration. Three
+properties are necessary to authentic deliberation: i) as much information as possible
+on any subject must be available to all participants, ii) contrary points of view must be
+considered, iii) the weight of an opinion should be partially measured by expertise.
+Binding. If a rule is broken through incompetence or maliciousness, punishment
+through loss of reputation tokens is necessary. Unanimous agreement is therefore the
+goal of validation pools for work-evidence posts. In contrast with the desire for the
+ability to review past actions, clarity on the finality of decisions is required for stability.
+Arguments have the goal of ending in policy.
+Reviewable. Governance is a human institution and therefore flawed. The inevi-
+tability of mistakes demands a system to redress them. Injustice undermines stability.
+Escapable. Network effects show that forking is often damaging to the total value
+of any collaboration. So forking should naturally be discouraged. However, persistent,
+valid, minority opinions will arise in any collaboration between members with differ-
+ent talents. In this case a fork can increase the total value of the individual groups
+when they are given the freedom to pursue their separate goals yet still receive the
+recognition they deserve from past achievements. For the health of the system there
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+22 (cid:0) Chapter ) – Governance
+needs to be a mechanism whereby a carefully considered fork may be stably effectu-
+ated. Ideally a symmetric mechanism would be available allowing branches to merge,
+perhaps when the larger DAO agrees to recognize the smaller group’s reputation.
+Secondly, individual members should have a stable way to exit the system by sell-
+ing their reputation tokens for a fair market valuation of the future expected value of
+their reputational salary. This is more problematic for reputation than for most other
+cryptocurrency tokens, since reputation is less fungible because a token’s value is tied
+to the post in which the reputation was created and subject to separate review. But
+in principle it could be algorithmically valuated.
+In a competitive environment, a governance process for T) an open and c) escap-
+able system must be j) conscientious, V) informed, and k) binding in order to promote
+the system’s legitimacy. Legitimacy is achieved when members have confidence the
+governance process is k) binding and that the process will persist. Legitimacy is at odds
+with a a) dynamic structure, since members recognize the process will inevitably
+change. In the presence of this tension, stability requires the system to be C) balanced.
+The bulk of this chapter is concerned with analyzing how to best ensure the gov-
+ernance process is C) balanced and V) informed. The most challenging aspect of good
+governance in this context is creating a process that properly rewards participants for
+their contributions, and encourages authentic and thorough deliberation on proto-
+cols.
+The value of deliberation is at odds with time-efficiency and finality. That is, a a)
+dynamic, )) reviewable, C) balanced, and V) informed process is at odds with a timely
+and k) binding process. The values and needs of any particular DAO will change be-
+tween these two extremes throughout its lifetime. The parameters which determine
+which extreme is preferred include the length of validation pool timeout, the percent-
+age of reputation tokens risked when moving from loosely to tightly-coupled valida-
+tion pools, and the reference weight standards.
+Design choices match values
+By subtly manipulating the reward structure in a DAO, it changes the incentives
+in the group, which drives different values. So, if you want to encourage a particular
+value, you need to design the governance structure with this in mind. The parameters
+determining how power is distributed in the DAO determine the reward structure. The
+parameters determine how reputation tokens are created and distributed (in valida-
+tion pools) and how their values are reviewed (references and appeals). In this section,
+we analyze how manipulating these parameters affects DAO security, stability, proto-
+col development, recruitment of members and outside business, and retention.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 23
+The goal of good governance design is to engineer the proper incentives so that
+independent and self-interested actors will discover that their optimal strategy is to
+collaborate productively toward the goals that serve the DAO’s values. Without know-
+ing the architects’ intentions beforehand, we should be able to observe the function-
+ing of a system at steady state, and guess the original intentions of the architects. Put
+another way, it doesn’t matter what the architects’ intentions are, the resulting rules
+of the game tell the players what to value. So, if you don’t value what a DAO encour-
+ages you to achieve, you shouldn’t join. Put another way, if you know what your values
+are, you should design the DAO so that it rewards actions which achieve goals reflect-
+ing those values, and punishes actions which hinder such achievements.
+In this section we will identify a few choices in DAO governance design and match
+them to some basic values that DAOs may choose.11
+Connecting values with protocols
+We specify several desirable qualities for a DAO and identify several protocols
+which encourage each quality.
+A general point of view from game theory is that even if a particular behavior is
+only slightly favored in each round of a repeated game, it is strongly favored in the
+long run and so dominates behavior and outcomes. For example, the house has less
+than a T% advantage in blackjack gambling in typical casinos, yet the game is an enor-
+mous source of predictable profit, as demonstrated by the ostentatious display of
+wealth in Macau or Monte Carlo or Las Vegas. Therefore, changing governance pa-
+rameters, only slightly, should be enough to steer long-term member behavior toward
+the goals of the DAO.
+The basic protocols that determine how power is distributed comes from four
+stages:
+How workers are chosen for a task.
+How members are able to judge a task and how reputation is distributed accord-
+ing to the judgment.
+How the profits are distributed to the members.
+How reputation is reviewed.
+First, we explain how different types of distributive norms (i.e., standards for how
+power is shared and apportioned and adjusted in a group) may be encouraged with
+(cid:0)(cid:0)
+11 For a more thorough technical introduction, see Craig Calcaterra, On-Chain Governance of Decen-
+tralized Autonomous Organizations, (May P[?Y), available at https://ssrn.com/abstract=g?YYg)L. (Re-
+trieved June, P[P[)
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+24 (cid:0) Chapter ) – Governance
+particular choices of parameters. Next, we discuss how parameters may be set and
+how they might evolve for a toy model of a basic company’s life cycle.
+Distributive norms
+To encourage harmony, careful attention must be paid to the manner in which
+power and wealth are distributed in any DAO. Subtle changes in the governance struc-
+ture of different DAOs can encourage many types of distributive norms. A distributive
+norm is a standard for sharing wealth and power within the organization. Typically, for
+small, newly founded DAOs, the standard will be equity to encourage members to join,
+but this would change to favor meritocracy, as the DAO matures and wants to encour-
+age improvement. Other norms which encourage different behaviors can also be in-
+centivized with the appropriate choice of protocols. We explore the effects of param-
+eter manipulation on six categories of distributive norms.12 These separate norms
+conflict or overlap with each other, but a complex network will typically merge several
+different norms to balance the needs of its members.
+Distribution Proportional to Input (similar to Legal Equity): 13
+Under this distributive norm, members' outcomes should be based on their inputs.
+Under this norm an individual who has invested a large amount of input (e.g., time,
+money, energy) should receive more from the group than someone who has contrib-
+uted little.
+This distributive norm will be typical for early DAOs focused on business enter-
+prises. This is encouraged with the basic default setup described previously in Chapter
+a.j and k.j.
+Reputation-weighted random selection of workers.
+Reputation-weighted voting and rewards in validation pools.
+Reputation-weighted salaries.
+Distribution Proportional to Result (Pure Meritocracy): instead of measuring how
+much energy the individuals contribute, you measure how their efforts have improved
+the organization, and reward them proportionately.
+(cid:0)(cid:0)
+12 These categories closely follow those described in Donelson Forsyth, Group Dynamics, Xth Ed., pp
+gYY – gYZ, Cengage Learning, (P[[b).
+13 The term equity has different interpretations in different contexts. Social equity can mean historical
+issues are accounted for and so those who were given less in the past are given more in the present.
+This overlaps largely, but not entirely, with equity in economics. The goal might be to give members
+the power that most allows them to contribute to individual and group welfare, or the goal may be to
+level all power. Legal equity can mean many things, including that past powers should be protected,
+since different properties or assets are never perfectly fairly interchangeable. Throughout this book
+we have used equity in the sense from economic theory, where those with less are given more.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 25
+This is encouraged with the basic default setup described above, with the addition
+of
+Reviewing previous contributions according to analysis of results. Reputation is
+augmented or reduced appropriately. (See Chapter U for further discussion of the de-
+tails of how reviewing can be automated in a DAO.)
+Equal Distribution of Output: Regardless of their inputs, all group members should
+be given an equal share of the rewards/costs. This requires that someone who con-
+tributes Ch% of the group’s resources should receive as much as someone who con-
+tributes kh%.
+This can be incentivized by
+Random selection of workers according to membership, not reputational hold-
+ings.
+Equal votes and rewards in validation pools according to membership, not repu-
+tational holdings.
+Equal salaries for each member.
+This is impossible to maintain under the current technology with open access and
+privacy, since sockpuppet accounts would be abused. Improvements in ZK proofs and
+identity protocols, however, will soon make it possible to efficiently and securely com-
+bat such sockpuppet attacks.
+Distribution to the Powerful: Those with more authority, status, or control over
+the group should receive more than those in lower level positions.
+This norm may be achieved by maintaining early users’ majority power by skewing
+reputation-weighted power to further advantage those with more reputation in T) ran-
+dom selection of workers, C) voting and rewards, and j) salaries. Reputation can be
+treated as an artificially scarce resource, continually decreasing how much is minted,
+making it more difficult to earn and more valuable as time goes by. This makes the
+economy of reputation tokens deflationary.
+Distribution from the Powerful (Responsibility): Group members who have the
+most should share their resources with those who have less.
+Reversing the previous distributed norm may be promoted by instituting several
+possible hard protocols which periodically redistribute power by:
+Actively transferring tokens.
+Passively redistributing tokens by
+destroying all reputation tokens as they age (deflates the reputation economy)
+increasing the rate of reputation minting as time progresses (inflates the reputa-
+tion economy)
+Distribution According to Need (Equity in economic theory): Those in greatest
+need should be provided with resources to meet those needs. Such individuals should
+be given more resources than those in possession, regardless of their input. The goal
+is to equalize the power of all members.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+26 (cid:0) Chapter ) – Governance
+This norm is promoted using the methods described in Equal Distribution of Out-
+put, and Distribution from the Powerful. Again, such a system can obviously be abused
+in an open distributed setting through sockpuppet attacks if complicated policing is
+not instituted.
+A more sophisticated governance structure will switch between norms as the DAO
+matures, or in response to market changes, as discussed next.
+Company life cycle
+Now we illustrate the effect of adjusting three parameters of reward distribution
+for encouraging different behaviors in the course of a company’s life cycle. This illus-
+trates an implementation of dynamic governance in a decentralized organization
+thanks to decentralized information processing.
+We use the toy model of the Software Review DAO described in Chapter a. The
+three parameters control
+how fast new reputation tokens are minted
+how much the new reputation tokens reward work versus policing work
+speed of debate, as the voting moves from loosely coupled to tightly coupled.
+The life cycle of this toy model DAO is split into V stages. It starts with protocol
+development from the founders. The next stages are member recruitment, collecting
+evidence of expertise, attracting fees, and finally policing work in the equilibrium stage
+where the DAO collects the most fees. In practice, there would be more stages which
+would repeat and overlap. Further, each division of a company (each expertise) will
+not experience the same stages contemporaneously with other divisions.
+Stage T: Protocol development
+The DAO first must decide how the group is organized, how power will be shared,
+what regulatory and legislative governance process will be used. Second, the DAO
+specifies how to perform software analysis—what logical and statistical tests are used
+on what types of software. Third, protocols for validating another expert’s work are
+specified. Such protocol development is encouraged by setting parameters as follows.
+Highest. The DAO is not attracting public fees until Stage a, so reputation tokens
+are minted in proportion to minimal DoS fees paid entirely by the poster. Therefore,
+the ratio of newly minted reputation tokens is set to the highest value for these posts,
+to encourage protocol development and reward the founders.
+Highest. The percentage of newly minted tokens is shared more with workers pro-
+posing new protocols more than those policing the new protocols.
+Longest. The small founding group is expected to be highly collaborative so con-
+tentious debate posts should move quickly to non-contentious posts, establishing
+precedent. However, this is the stage that should require the longest period of time
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 27
+to settle differences. I.e., these should be the longest periods of time between loosely
+coupled votes to tightly coupled votes, as the protocols move from soft to hard.
+Stage C: Talent recruitment.
+Once the founding members have established satisfactory reputation holdings,
+the DAO will recruit more software evaluator experts, requesting applications to be
+posted to their forum for validation. The parameters are set as follows:
+jrd highest. The proportion of reputation tokens minted from the minimal DoS
+fees paid by the recruit will be set to determine a recruit’s initial reputation holdings
+will be high.
+The percentage given to policing is Vh%. Policing is important at this stage, and
+new members shouldn’t overwhelm founders’ reputation.
+Short. Debate on the recruit’s application will move quickly from loosely-coupled
+to tightly-coupled to force consensus in a reasonable time period.
+Stage j: Collecting evidence of expertise.
+Experts advertise their credentials and produce work-evidence posts without col-
+lecting public fees—evaluating software for free. They will be posting with minimal
+DoS fees, so the parameters are set as follows:
+Cnd highest. Members are doing work for free, so newly minted reputation should
+be much higher than the DoS fees they pay to participate in the group.
+The percentage given for policing is Vh%. New contributions are important at this
+stage, but so is policing. New contributions of evidence of expertise shouldn’t over-
+whelm founders’ reputation for protocol development.
+jrd shortest. Debate is rare and short. Most cases should have been settled by
+the protocols developed in Stage T. These posts should move quickly to tightly-coupled
+and non-contentious votes.
+Stage a: Attracting fees.
+Once a body of work is established, this stage requires a new effort to attract
+customers, both general public and software companies which send fees. The param-
+eters are set as follows:
+ath highest. Newly minted reputation is minted in higher proportion to the fees,
+to encourage enterprising effort.
+The percentage given for policing can be higher than Vh% if protecting the exper-
+tise is more important, or lower than Vh% if the DAO is more interested in attracting
+customers.
+Cnd shortest. Debate should be almost nonexistent, with the only doubt being
+whether the fees are corrupting the DAO.
+Stage V: Policing work
+This is the desired equilibrium stage of the company. Members are attracting fees
+from off-chain work for software companies and posting work-evidence to the forum
+for validation. The protocol is that a company downloads a template request for work
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+28 (cid:0) Chapter ) – Governance
+(RFW) smart contract that the DAO has written and posted to their forum and chooses
+several parameters that the DAO has suggested, including the amount of work re-
+quested and the fee they are willing to pay. This RFW smart contract selects a random
+DAO member for off-chain analysis of their product. This random selection requires
+DAO members to have already posted availability stakes using their own availability
+smart contract, which encumbers part of their reputation holdings to be engaged for
+off-chain work. The randomly selected availability-stake smart contract engages with
+the RFW smart contract to allow the selected reviewer to post their review to the
+forum for validation, with the fee sent in their name, so that half of the newly minted
+reputation tokens are staked in the reviewer’s name. The fee from the software com-
+pany is distributed to the DAO in the reputation-weighted salary. The parameters are
+set as follows:
+Lowest. Newly minted reputation is minted in proportion to the fees. This is the
+stage where reputation gets its meaning.
+The percentage given for policing is Vh%. This is the standard for maintaining the
+value of the reputation. This can be adjusted to respond to market changes to encour-
+age policing or working.
+Shortest. Debate should be nonexistent, with protocols followed algorithmically.
+After the Stage V, the life cycle of the DAO will repeat as innovation research re-
+quires new protocol development to keep the organization relevant to the changing
+market.
+Deciding how and when to move between the stages is a matter of debate. Leg-
+islative governance (previous section) is required to develop a system for making
+those executive decisions in response to changes in the DAO and the market.
+Microdemocracy
+Representative democracies in the CTst century are revealing weaknesses in their
+age. Delegating one’s vote to a third party without solid information about their ethics
+or belief system is unwise. Delegating too much power to an individual or a party nat-
+urally leads to corruption as smaller groups advantage themselves above the greater
+good. It worked in the Tcth century because social life was much more uniform and
+enmeshed on a local geographical level. People spent much more time and energy
+communing and monitoring their neighbors. In developed countries today, it is less
+likely you will know your neighbors’ names, much less their detailed moral stances
+and political views. Without the ability to hold them to account, representatives are
+not incentivized to vote for outcomes that reflect the presumptive wishes and needs
+of their larger constituency, but for promoting the agendas which benefit their per-
+sonal interests and maintaining their own power.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 29
+If we wish to delegate power, it should be given to people or groups that you
+know and respect, communities you have spent time building without being limited
+to geographical proximity or ethnic identity. These issues with representative democ-
+racy are eliminated with direct democracy.
+Voting incentives and outcomes are different under direct democracy. In Ancient
+Athens, for example, citizens voted on any public issues directly on the town’s square.
+Public issues as significant as whether to go to war or as mundane as where to build
+the next road would be decided by oral acclamation. Incentives, voting outcomes, and
+democratic legitimacy are aligned. Democracy is increasingly under threat and needs
+upgrades. However, information technology determines the limits of effectiveness
+and scope of any system that uses it.
+Ancient Greek direct democracy, using the primitive information technology of
+the spoken word, was limited to the size of a village. And direct democracy led to sig-
+nificant problems. The loudest and most persuasive people held the most sway. This
+led to schools devoted to training aristocratic children in manipulative rhetoric, soph-
+istry. To combat such manipulation, competing schools trained children in logical tools
+for identifying and deconstructing sophistry. And so the Greeks invented analysis and
+philosophy, to defend their civilization, and themselves, from lies.14
+(cid:0)(cid:0)
+14 Like any historical story, this one is also a simultaneous simplification and exaggeration. Aristotle
+referred to other experiments, but the first detailed records of Greek democracy are from Athens,
+which technically had a representative democracy, though representatives were probably selected
+randomly using the kleroterion (see footnote ?Xg).
+Though the word “analysis” is etymologically Greek, the idea is certainly as old as civilization, but prob-
+ably much older. One of the oldest stories in history is the Babylonian creation myth, The Enuma Elish.
+Committed to writing some ?X[[ years before Athenian democracy, the story faithfully recounts the
+process of modeling, analysis, and synthesis.
+The Babylonian god-king Marduk has an array of weapons he uses to confront the threat of chaos,
+particularly magic words (spells), a magic net, and a magic sword. The chaos monster, Tiamat, is ini-
+tially represented as the world-circling ocean. Marduk uses his magic words to force Tiamat into the
+definite form of a dragon that can be grappled with. His magic net then captures the dragon, he chops
+up the captured monster into pieces, and uses those pieces to build the very structure of society and
+tools for its use.
+The magic words that cohere the ocean of chaos into the definite form of a dragon is the first step of
+the modeling process, i.e., choosing the right context. Capturing the dragon with the magic net is the
+process of establishing the mathematical existence, uniqueness, and stability of solutions to the
+model. Analysis is the process of dividing or cutting apart the model into its basic elements. Synthesis
+is the process of forming new structures from these constituent pieces, to gain new forms of control.
+Finally, the point of repeatedly telling this story is to give us an example to follow, making us confident
+we can reenact its stages at any time in the future when the chaos monster comes back in a new form.
+This is extensibility of the model. Cf., Erich Neumann, “The Origins and History of Consciousness”, ?ZXL.
+One of Marduk’s many names was “He Who Makes Ingenious Things from Combat with Tiamat”.
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+30 (cid:0) Chapter ) – Governance
+With the success of direct democracy, groups grew in power and size, beyond the
+capacity for people to govern by shouting at the agora, beyond the limit of how many
+can fill an amphitheater. As villages grew to cities, direct democracy failed to reflect
+the will of the group. There is a limit to how many people can speak, even at an am-
+phitheater, because there is a limit to peoples’ patience and endurance. To overcome
+the technological limits of information transmission through shouting, democratic so-
+cieties devised a system of representative democracy, where a select group of repre-
+sentatives—as many as could convene together physically and communicate—would
+make decisions on behalf of their larger constituency. People were quite aware of the
+natural downsides of democratic delegation, such as corruption, bribery, and biases
+before representative democracy started, but the advantages of the network effects
+of a larger population were well worth the overhead cost of policing such frictions.
+Decentralization disperses concentrated power, delegated power, returning it to
+the individual members of the network. Contemporary decentralized information
+technology enables direct democracy at scales larger than our modern national rep-
+resentative democracies. Contemporary technology no longer limits our ability to
+communicate to the number of people who can fit in a room and patiently wait for
+their turn to speak. With the advances in information transmission, storage, and es-
+pecially information processing we can now register our opinions on the smallest mat-
+ters, store them for asynchronous consideration, and broadcast our responses glob-
+ally. The power of our individually owned computers, with millions of cycles per
+second, allows us to process this information using complicated algorithms without
+relying on a centralized bureaucracy to analyze the information. The limits of our per-
+ception make it seem as though our devices can continually post our votes on the most
+minute concerns. They continually signal where we are, what we are buying, and what
+our heartrate is. Our devices can signal our will on the most minute matters, creating
+a new level of direct democracy. Microdemocracy.
+Microdemocracy and proper incentive design can increase the voter participation
+that undermines representative democracies. Experimentation with electronic forms
+of voting allows new forms of allocating votes to prioritize societal issues for each
+voter.15 The more important a given societal issue is for a given voter, the more effort
+(cid:0)(cid:0)
+15 Quadratic voting, for example, allows a first glimpse of the innovations that are possible with micro-
+democratic systems. In this scenario each voter is periodically allocated a limited number of vote to-
+kens. These tokens may be spent to vote on any issue the voter is concerned with during the period.
+If you allocate more vote tokens, you have a bigger influence in the outcome than someone who allo-
+cates less, signifying the priority you place on the issue. Lalley and Weyl argue the ideal way to count
+the votes is quadratically. That is, you can spend ? token for one vote, but L of your tokens are needed
+to register P votes, Z tokens for g votes, and so on. They argue this inhibits negative effects that harm
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 31
+or power the voter will allocate to the issue. For example, as more and more people
+become aware of the climate crisis faced by humanity, they will increasingly allocate
+their votes on issues that reflect their increasing awareness. Change is realized as peo-
+ple allocate their votes prioritized by their preferences and awareness. Moreover, part
+of the power of this microdemocratic approach derives from the higher levels of
+knowledge a given voter has on a particular issue that is evidenced by the voters’ pro-
+portional attention. It is less likely that voters will engage with issues they know rela-
+tively little about. The discovery of the will of the electorate is improved, and previ-
+ously disenfranchised constituencies are empowered.
+Microdemocracies must address the problem of the Tragedy of the Commons. In
+microdemocratic systems, individual voters act independent of the totality of voters
+according to their self-interest. Acting for their own self-interest may be contrary to
+the common good of all voters. Without controls, some self-interested voters may be
+depleting or spoiling resources they share with the rest of society, such as the envi-
+ronment or public goods. Similarly, majority rule may mean discrimination against the
+minority. As discussed above, The Tyranny of the Majority happens naturally, and
+must be policed consciously in a microdemocracy. Perhaps the best way to protect
+minorities is to make more of them, by promoting the natural diversity of interests in
+humanity by empowering individuals. Rights protecting minorities must be enshrined
+in any overarching rules, and protected by nurturing values which respect diversity
+and individuality.
+A key advantage of a microdemocracy is the speed with which it can enact change.
+In the early ChChs, representative democracies are largely slow and inflexible because
+their constitutional and legal infrastructure were designed decades or centuries be-
+fore contemporary information technology was invented. Large-scale political change
+typically depends on the election of a new government after, typically, around a years.
+By contrast, microdemocratic voting would provide a more immediate feedback sys-
+tem between voters and their representatives. Because decentralized technology en-
+ables the transparent and incorruptible tallying of votes, nearly instantaneously, vot-
+ing can be more dynamic and incremental and political will can be exercised more
+directly.
+(cid:0)(cid:0)
+other systems. Tyranny of the Majority results from one-person-one-vote schemes, but this is inhib-
+ited if one person can register their greater concern by devoting more of their voice on one subject.
+In this way minorities can override majorities on issues they are most concerned with. At the same
+time, quadratic voting inhibits the Tyranny of the Interested Party, as it limits those with the greater
+concern on subject from dominating the group, because their megaphone is muffled by the require-
+ment of expending more and more vote tokens to register each new vote.
+Steven Lalley & Glen Weyl, “Quadratic Voting: How Mechanism Design Can Radicalize Democracy”,
+American Economic Association Papers and Proceedings, Vol. ?, No. ? (P[?Y)
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+32 (cid:0) Chapter ) – Governance
+Decentralized technology can improve voting technology in representative de-
+mocracies. Voting technologies in existing representative democracies were woefully
+outdated at the beginning of the CTst century. Since the Chhh U.S. Presidential elec-
+tion16 which necessitated reexamination of punch holes in paper voting cards, exist-
+ing voting systems with analog or paper technology have been proven suboptimal. But
+the problems with existing voting systems do not end with technology. Redistricting
+or gerrymandering, that is, manipulating the boundaries of a voting district to affect
+voting outcomes, and other issues such as election financing show that voting and the
+democratic institutions built to facilitate basic tenets of representative democracies
+have been under attack and require updates. Decentralized technologies have tech-
+nological features that can provide solutions. But, such solutions also require political
+will. For example, voting on a public blockchain that overcomes the trilemma of block-
+chains (decentralization, scaling, security) may become a core application of the tech-
+nology. Decentralized technologies have the capacity to change the incentive design
+for voting which helps address some of the dangers presented by existing internet
+voting. And computer security is strong enough to maintain privacy, yet allow trans-
+parent, publicly auditable, records through zero-knowledge proofs as demonstrated
+by Bitcoin’s |Thh billion decentralized protocols.
+Decentralized technologies provide inherent microdemocratic features that can
+help instantiate microdemocratic principles and processes in society. Decentralized
+technology enables smaller scale democratic decisions at unprecedented scale. In the
+early CTst century, internet platform businesses and social media companies inaugu-
+rated new forms of voting. The “Like” button, while deeply flawed in its incentive de-
+sign and voting-related outcomes, inaugurated a new form of voting on social out-
+comes and, at the same time, trained the voting public to engage more directly with
+voting-related outcomes. Decentralized technologies create extensions of these forms
+of more direct democratic votes. Unlike their centralized predecessors, decentralized
+technologies, for the first time in history, enable improved incentive designs that help
+overcome the insufficiencies in voting outcomes of representative democracies. As
+voting pools in decentralized systems increase, deepen, and diversify, they can be-
+come supplemental voting systems that help overcome the lack of legitimacy and im-
+prove representative democracies.
+The printing press taught the people how to read. The internet is teaching people
+how to write. Decentralized technology will teach people how to vote.
+Of course, such upgrades to existing representative democracies will require es-
+tablishment governmental support—the existing representatives must vote to change
+(cid:0)(cid:0)
+16 Bush v. Gore, Xg? U.S. ZY (P[[[).
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 33
+the structure that brought them to power—which is dubious. Again, large decentral-
+ized organizations are very stable. It’s more likely that organic advances in decentral-
+ized networks will make the established institutions irrelevant until they are bypassed
+and ignored. This is not a problem if we build all the hard-earned social protections
+into the new decentralized networks. That can only happen if we consciously work to
+protect these historical advances of civilization while promoting the diversity of hu-
+manity by empowering individuals.
+Summary
+The goal of this chapter was to introduce governance design and analyze the con-
+sequences of different protocols for promoting the chosen values and goals in any
+particular DAO. The goal of these solutions is to make it easy to participate for the
+maximal number and types of users throughout the greatest variation of DAO goals.
+Users should not need to be technological authorities to navigate the system and add
+value. In the vast majority of cases, for the vast majority of users, the user interface
+(UI) will hide all of the details discussed. An intuitive UI can recommend posts and
+allow users to quickly evaluate post after post, staking varied amounts of their limited
+reputation in varied degrees of tightly- and loosely-coupled votes. How the system
+actually counts the votes and determines the reward structure for references will de-
+termine what values and goals are promoted in any particular DAO. Though the re-
+ward structures will be openly available for any DAO, the members will soon become
+experts on how to effectively navigate the system without poring over the technical
+details, merely from repeated use.
+Weighted democracy is crucial for solving the Tragedy of the Commons and Tyr-
+anny of the Majority problems. For example, Dr. Craig should have more weight than
+the average person in the decision on which new math classes to run in the Fall at
+Metropolitan State University. Craig’s vote is not equal to your vote, Dear Reader.
+Similarly, the average Metro State student should have more weight than the average
+Minnesotan on this issue, but less weight than a math major’s vote. Finally, the aver-
+age American should have more weight than the average South American. In our im-
+agined perfect system, the average South American would still be able to register their
+opinion about what classes should be offered in Minnesota, as long as they are inter-
+ested in the subject and willing to stake their reputation to influence the vote in a
+positive way. But their opinion would have much less power than a professor who
+works at the school. One person one vote is not the right way to govern on every issue.
+This may seem like fantasy, where a global weighted democracy could register
+such disparate opinions on globally trivial details and filter that information down to
+meaningful governance, but the technology is already in place. People already curate
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+34 (cid:0) Chapter ) – Governance
+valuable information on supranational platforms with their reputation. With more
+than Th million global users, Stack Overflow is a centralized Web C.h company that
+leverages the power of decentralization through the internet to build knowledge ba-
+ses for many subjects including computer science and other technical disciplines that
+is relied on by many practicing experts. Similar to Reddit’s reputational system, users’
+reputation grows in proportion to their contributions through questions, answers, and
+comments in proportion to others’ upvotes and downvotes.
+The only thing missing is that the system doesn’t share power with their users.
+Since Stack Overflow and Reddit and Facebook and Twitter and all the other successful
+social media sites are privately, centrally owned, their governance processes—their
+algorithms for distributing reputation—are necessarily opaque. This is because the in-
+centives are not properly aligned for their users to police their own reputation against
+gaming. Some of the idealistic users would certainly try to police the site from sock-
+puppet accounts and malevolent groups if they were given more power in a transpar-
+ent system. But the millions who are not financially invested in the system would not
+have the proper motivation to fight against the few hackers who could exploit the
+system for profit using the same information technology processing abilities we pro-
+pose to empower all users with. When it’s more profitable to game the system than
+protect it, the centralized organization needs to keep the underlying protocols opaque
+to maintain the system’s integrity. But that type of centralized regulation is not as
+dynamic and responsive as a decentralized governance process would be if it empow-
+ered its users to develop protocols to fight gaming.
+We have the power, now, to track and audit such seemingly trivial choices as what
+a pseudonymous Bolivian thinks about the class offerings in the math department of
+a university on another continent. We have the processing power to weight those
+opinions based on their earned reputation, and to control how they effect the ultimate
+decisions. We have the computational power to institute sophisticated weighted-
+democratic governance protocols on a global scale for trivial matters, to fairly and ef-
+ficiently adjust reputational power to encourage productive cooperation.
+Eric Raymond famously said, “Love doesn’t scale.” He was arguing that capitalism,
+not socialism, is necessary for giving people the proper economic incentives to keep
+business working together to supply larger society with the resources necessary to
+survive. He was referring to how we may behave altruistically toward our family and
+friends, but when it comes to economic decisions on the global stage, you can’t count
+on a democracy to make decisions that benefit all when local individuals could profit
+at their expense. One-person-one-vote loses coherence as it scales up to a global de-
+mocracy.
+Love doesn’t scale, but reputation does. Weighted democracy, properly meas-
+ured and aggregated, can scale from valuating expertise on a local level to expertise
+on global issues. If you find the right balance, if the valuations of reputation tokens
+Electronic copy available at: https://ssrn.com/abstract=3782214
+
+Chapter ) – Governance (cid:0) 35
+between distinct DAOs find the proper equilibrium through market freedom, the var-
+ious reputations can achieve coherent meaning for making decisions at the global
+level. The math required is basic arithmetic. The elementary logic is more than a,hhh
+years old. Contemporary information technology can handle the demands of global
+decentralized governance. We simply need sufficient investment in transparency and
+democracy and individual autonomy—in decentralization—to pull it off.
+Bibliography
+Formating example:
+Evans, Dave (Apr. 2011). The Internet of Things: How the Next Evolution of the Internet is Changing
+Everything. CISCO White Paper, https://www.cisco.com/c/dam/en_us/about/ac79/docs/in-
+nov/IoT_IBSG_0411FINAL.pdf (accessed June 1, 2020).
+Wikipedia. Last Universal Common Ancestor, https://en.wikipedia.org/wiki/Last_universal_com-
+mon_ancestor (accessed June 1, 2020).
+Electronic copy available at: https://ssrn.com/abstract=3782214
+

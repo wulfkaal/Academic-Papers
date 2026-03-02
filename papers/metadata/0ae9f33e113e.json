@@ -1,0 +1,11 @@
+{
+  "id": "0ae9f33e113e",
+  "filename": "Kaal - 2021 - Hybrid Secure Proof of Stake.pdf",
+  "title": "Hybrid Secure Proof of Stake",
+  "abstract": "In conventional Proof of Stake (PoS), the nodes with higher stake would have a higher probability of being selected for the block rewards. Block rewards are constant regardless of the node reputation. In Secure Proof of Stake (SPoS), the nodes with higher reputation have a higher probability of being selected for the rewards. The main concept in Hybrid Secure Proof of Stake (HSPoS) is to separate the block consensus from the block rewards. HSPoS proposes that the rewards become a function in the reputation of the node. Thus, while the node probability of being selected is based on the fungible stake, the rewards for the block is adjusted by the non-fungible reputation multiplier which is a function of the node\u2019s reputation. HSPoS enables a transitioning process in which traditional PoS consensus algorithms, can be used and maintained while being supplemented with SPoS characteristics and node reputation. This enables enhanced experimentation and allows a slow transitioning from PoS to SPoS. Key Words: Proof of Work (PoW), Secure Proof of Stake (SPoS), Hybrid Secure Proof of Stake (HSPoS), Blockchain, Canary Network, Decentralized Autonomous Organization, Decentralized Governance, Consensus Algorithm, Reputation Staking JEL Categories: K20, K23, K32, L43, L5, O31, O32 1 The Author is grateful to Muhammet Kara for his helpful insights into the history of the Casper Testnets. The author is also very grateful to Dr. Adel Elmessiri for delightful discussions on possible hybrid and phase transitioning consensus algorithm models that allow moving from PoS to SPoS. 1 Electronic copy available at: https://ssrn.com/abstract=3931933",
+  "page_count": 11,
+  "word_count": 3185,
+  "char_count": 21184,
+  "references": [],
+  "extracted_at": "2026-03-01T20:22:09.864917"
+}

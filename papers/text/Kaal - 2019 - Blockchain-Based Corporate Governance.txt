@@ -1,0 +1,1746 @@
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+Wulf A. Kaal*
+MAX PLANCK INSTITUTE LUXEMBOURG FOR PROCEDURAL LAW (Dec. 2019)
+ABSTRACT
+Corporations and other forms of business organizations can be
+supplemented with blockchain-based agency constructs.
+Blockchain-based decentralized autonomous organizations (DAOs)
+expand the definition of the firm. On-chain DAO governance
+enables dynamic regulatory features that facilitate unprecedented
+decentralized regulatory solutions.
+Key Words: Corporate Governance, Decentralized Autonomous
+Organization, Blockchain, Distributed Ledger Technology,
+Regulation, Protocols, Optimization, Efficiency, Governance,
+Dynamic Regulation, Principal-Agent, Emerging Technology,
+Agency Cost, Monitoring, Feedback Effects
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+* © 2020 Wulf A. Kaal. Professor, University of Saint Thomas School of Law,
+Minneapolis.
+0
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+TABLE OF CONTENTS
+I. INTRODUCTION .................................................................................. 2
+II. BUSINESS ORGANIZATION REVISITED ................................................. 7
+1. Distinguishing Features of Decentralized Systems ......................... 7
+2. Original 2016 DAO ....................................................................... 8
+3. The Theory of the Firm Revisited ................................................... 9
+III. GOVERNANCE SHORTCOMINGS IN DAOS ...................................... 11
+1. Centralized Design Elements in the Original 2016 DAO .............. 12
+2. Lack of Proper Incentivization ..................................................... 15
+3. Lack of Default Rules .................................................................. 16
+4. Lacking On-Chain Voting Mechanism ......................................... 18
+5. Socially Optimal Forks ................................................................ 19
+6. Decentralized Infrastructure Requirements .................................. 21
+IV. DYNAMIC GOVERNANCE IN DECENTRALIZED SYSTEMS ................. 22
+1. Shortcomings of Centralized Governance in Decentralized Systems
+23
+2. Benefits of Dynamic Decentralized Governance ........................... 27
+V. OPTIMIZING DAO GOVERNANCE ...................................................... 29
+1. Dynamic DAO Governance ......................................................... 30
+2. Level of Decentralization............................................................. 32
+3. Incentive Alignment ..................................................................... 33
+4. On-Chain DAO Governance ........................................................ 34
+5. Reputation-Based Governance .................................................... 38
+VI. REFORMING CORPORATE GOVERNANCE ....................................... 40
+VII. CONCLUSION ............................................................................... 43
+1
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+I. Introduction
+Corporate governance is characterized by agency constructs. The
+agency relationship in modern finance and corporate governance is
+characterized by attempts to optimize incentives between principals
+and agents, control costs, minimize information asymmetries,
+control adverse selection and moral hazard, optimize risk
+preferences between principals and agents, and engage in
+monitoring. The Corporate form remains the most popular form of
+a governance mechanism, Despite the unresolved substantive
+agency problems associated with the division of ownership
+(shareholders) and control (agent), 1 and the incomplete and
+suboptimal rules that govern such conflicts.
+Shareholder value maximization has emerged as the dominant
+corporate governance solution for the agency problems.2 To reduce
+the risk of managerial misbehavior and the associated agency
+problems,3 alignment of the interests of the stakeholders within
+those of the investor-shareholders has become the dominant
+1 Mark J. Roe, The Inevitable Instability of American Corporate Governance, in
+RESTORING TRUST IN AMERICAN BUSINESS 9 (American Academy of Arts and
+Sciences eds., 2004, MIT Press 2005). (“The core fissure in American corporate
+governance is the separation of ownership from control—distant and diffuse
+stockholders, with concentrated management—a separation that creates both
+great efficiencies and recurring breakdowns.”).
+2 According to the dominant view, the goal of a firm should be to increase the
+financial interests of the investors and by doing so the firm can maximize
+opportunities to be successful. Stephen M. Bainbridge, Director v. Shareholder
+Primacy in the Convergence Debate, 16 TRANSNAT’L LAW. 45 (2002), available
+at https://scholarlycommons.pacific.edu/globe/vol16/iss1/5; Mike Marin, The
+Crisis of Shareholder Primacy, UNIVERSITY OF CAMBRIDGE: RESEARCH AT
+CAMBRIDGE (Mar. 19, 2012), http://www.cam.ac.uk/research/discussion/the-
+crisis-of-shareholder-primacy; H. Jeff Smith, The Shareholders vs. Stakeholders
+Debate, 44 MITSLOAN MGMT REV. no. 4, July 2003, at 85,
+http://sloanreview.mit.edu/article/the-shareholders-vs-stakeholders-debate/;
+Lynn A. Stout, The Shareholder Value Myth, (Cornell Law Faculty
+Publications, Paper No. 771, 2013),
+http://scholarship.law.cornell.edu/cgi/viewcontent.cgi?article=2311&context=fa
+cpub.
+3 Alessio M. Pacces, RETHINKING CORPORATE GOVERNANCE: THE LAW AND
+ECONOMICS OF CONTROL POWERS (2013).
+2
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+implementation of the shareholder primacy doctrine.4 The doctrine
+suggests that by aligning the interests and incentives of the various
+actors with those of the investor-shareholders all of the stakeholders
+in a firm and the public benefit.5 Following this logic, increasing
+shareholder control over other actors within the firm has become
+the primary goal of corporate governance rules.6 The correct
+corporate governance is seen as naturally resulting in shareholder
+value.7
+The existing corporate governance attempts for inevitable agency
+problems fall short of accomplishing the needed governance quality
+and stability. In an effort to curtail the inevitable instability that is a
+by-product of the pervasive agency problem in the corporate
+governance system,8 governments have responded to corporate
+governance scandals by adopting a number of regulatory changes.
+Such changes include substantively increased disclosure
+requirements.9 Shareholder activism reform by itself has been
+unable to sufficiently improve the corporate governance system.10
+4 N. Craig Smith & David Ronnergard, Shareholder Primacy, Corporate Social
+Responsibility, and the Role of Business Schools, 134 J. BUS. ETHICS 463 (2016).
+5 Stout, supra note 2 (Discussing residual claimants arguments and potential
+benefits to society through the company); see also Smith, supra note 2.
+6 Justin Fox & Jay W. Lorsch, What Good Are Shareholders, HARV. BUS. REV.
+Jul.-Aug. 2012, at 48, https://hbr.org/2012/07/what-good-are-shareholders.
+7 Id.; Margaret M. Blair, Shareholder Value, Corporate Governance, and
+Corporate Performance: A Post- Enron Reassessment of the Conventional
+Wisdom, in CORPORATE GOVERNANCE AND CAPITAL FLOWS IN A GLOBAL
+ECONOMY 74, 53-82 (P.K. Cornelius & B. Kogut eds., Oxford University Press
+2003).
+8Roe, The Inevitable Instability of American Corporate Governance, supra note
+1.
+9 Benjamin E. Hermalin & Michael S. Weisbach, Transparency and Corporate
+Governance (Nat’l Bureau of Econ. Research, Working Paper No. w12875,
+2007), https://ssrn.com/abstract=958628.
+10 Stephen M. Bainbridge, Shareholder Activism and Institutional Investors
+(UCLA Sch. of Law Pub. Law-Econ. Research, Working Paper No. 05-
+20, 2005), https://ssrn.com/abstract=796227; Jonathan M. Karpoff, The Impact
+of Shareholder Activism on Target Companies: A Survey of Empirical Findings
+(2001), https://ssrn.com/abstract=885365 (“[T]he disagreement among
+researchers is more apparent than real. Most evidence indicates that shareholder
+activism can prompt small changes in target firms’ governance structures, but has
+negligible impacts on share values and earnings.”); Roberta Romano, Less Is
+3
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+Upgrading the U.S. proxy system has been another government
+priority.11 Changes in executive compensation has been another
+approach to address the instability of the existing corporate
+governance system. 12 Government-sponsored organizational
+experimentation that enables new business models and new
+organizational structures is desirable and valuable and may be one
+of the few ways to facilitate the much needed corporate governance
+reform.13
+Despite decades of governance experiments and extensive rule
+revisions, the existing scope of agency problems suggest that the
+core underlying agency problems cannot fully be resolved within
+the existing theoretical and legal infrastructure.
+Blockchain-based technology has started to offer alternatives to the
+existing corporate governance solutions. Blockchain technology
+More: Making Shareholder Activism A Valued Mechanism Of Corporate
+Governance (Yale Law & Econ., Research Paper No. 241; Yale ICF, Working
+Paper No. 00-10; Yale SOM, Working Paper No. ICF- 00- 10, 2000),
+https://ssrn.com/abstract=218650 (“The finance literature presents an apparent
+paradox: Notwithstanding commentators' generally positive assessment of the
+development of such shareholder activism, the empirical studies suggest that it
+has an insignificant effect on targeted firms' performance. Very few find evidence
+of a positive impact, and some even find a significant negative stock price effect
+from activism.”); John C. Coffee Jr., Liquidity Versus Control: The Institutional
+Investor as Corporate Monitor, 91 COLUM. L. REV. 1277 (1991).
+11 The existing U.S. proxy system lacks transparency; has few accountability
+mechanisms; is complex and costly; tolerates record-keeping inaccuracies
+partially because it provides no audit trail; and produces voting results that cannot
+be verified. John C. Wilcox, Shareholder Nominations of Corporate Directors:
+Unintended Consequences and the Case for Reform of the u.S. Proxy System, in
+SHAREHOLDER ACCESS TO THE CORPORATE BALLOT (Lucian Bebchuck, ed.,
+2004); Henry T. C. Hu & Bernard S. Black, The New Vote Buying: Empty Voting
+and Hidden (Morphable) Ownership, 79 S. CALIF. L. REV. 811, 811 (2006);
+David Yermack, Shareholder Voting and Corporate Governance, 2 ANN. REV.
+FIN. ECON. 103 (2010).
+12 Lucian A. Bebchuk & Jesse M. Fried, Executive Compensation as an Agency
+Problem, 17 J. ECON. PERSP. 71 (2003); Lucian A. Bebchuk et al., The Wages of
+Failure: Executive Compensation at Bear Stearns and Lehman 2000-2008, 27
+YALE J. ON REG. 257 (2010).
+13 Bengt R. Holmström & Steven N. Kaplan, The State of U.S. Corporate
+Governance: What's Right and What's Wrong? (ECGI – Fin., Working Paper No.
+23/2003, 2003), https://ssrn.com/abstract=441100.
+4
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+can facilitate the removal of agents as intermediaries in corporate
+governance through code, peer-to-peer connectivity, crowds, and
+collaboration. Blockchain-based guarantees embedded in
+blockchain code can help ensure that no participant in business
+transactions and agency relationships can circumvent the set of
+governance rules. Blockchain guarantees include contract execution
+between principal and agent only if and when all contract
+parameters were fulfilled by both parties and verified in a consensus
+algorithm. Hence, in the blockchain infrastructure, a lower level of
+oversight and monitoring of agents changes the cost structure of the
+principal agent relationship.
+Smart contracts enabled by blockchain technology allow for the
+comprehensive, near error free, and zero transaction/agency cost
+coordination of agency relationships. Smart contracts and smart
+property are blockchain enabled computer protocols that facilitate,
+verify, monitor, and enforce the negotiation and performance of a
+contract between principal and agent. Agency relationships in smart
+contracts run exactly as coded without any possibility of
+opportunistic behavior of the agent. All contractual terms are public
+and fully transparent. Accordingly, a company’s finances, for
+instance, are visible on the blockchain to anyone, not just to the
+company’s accounting department. Smart agency contracts run on
+a custom built blockchain, that enables principals and agents to
+store registries of debts or promises, create entire markets, among
+many other aspects that have not yet been considered.
+Blockchain-cased legal constructs, known as decentralized
+autonomous organizations (DAOs), have started to challenge the
+core believe that governance necessitates agency. The first DAO,
+launched in May 2016, in the founders’ attempt to set up a
+corporate-type organization without using a conventional corporate
+structure, had a governance structure that was entirely built on
+software, code, and smart contracts that ran on the public
+decentralized blockchain platform Ethereum.14 Because it was pure
+computer code it had no physical address, no jurisdiction that could
+14 Christoph Jentzsch, Decentralized Autonomous Organization to Automate
+Governance 2 (unpublished manuscript) (on file at
+https://download.slock.it/public/DAO/WhitePaper.pdf).
+5
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+claim jurisdiction/control over it, and it was not an organization
+with a traditional corporate hierarchy. The DAO did not use a
+traditional corporate structure that necessitated formal authority and
+empowerment flowing top down from investors/shareholders
+through a board of directors to management and eventually staff.
+Indeed, it had no directors, managers or employees. In essence, all
+the core control mechanisms typically employed by principals in
+agency relationships were entirely removed in the DAO.
+For purposes of this article, the DAO is a group of anonymized
+individuals who decide to follow a certain protocol. For instance,
+the Uber DAO can be seen as Uber the company with all its
+constituents except without the company, e.g., the entity, itself and
+its hierarchical governance structures. If Uber were a DAO, the
+Uber drivers as a group with their respective non-fungible token
+holdings would become Uber, e.g., a fully decentralized company
+without hierarchies. The control and power over the Uber DAO
+would be in the hands of the DAO Uber token holders. Yet, the
+staking mechanisms for non-fungible tokens in emerging DAO
+protocols make the voting structure different than any previous
+attempts at creating liquid democracies.
+DAOs are by no means mainstream and are subject to a significant
+emerging development process. Because the blockchain industry is
+still in its infancy and core decentralized infrastructure elements
+will remain lacking for the foreseeable future, DAOs are less likely
+to disrupt existing corporate structures and the associated
+governance solutions in the foreseeable future. However, DAOs
+have the potential to create significant decentralized equivalents of
+corporate structures. Such development is contingent on workable
+governance solutions for DAOs. Without DAO governance, their
+evolution is even less certain. The blockchain industry has started
+to recognize the need for DAO infrastructure and governance
+solutions. Yet, such governance solutions are still largely lacking,
+even in the developmental phases.
+Blockchain-based corporate governance solutions in DAOs require
+evolutionary blockchain governance protocols. Existing blockchain
+governance still mainly consist of forking a given chain. Even
+attempts to create socially optimal chain forking rules cannot
+suffice. Blockchain-based coded guarantees will evolve and require
+6
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+protocol upgrades for that changing environment. Without
+evolutionary governance upgrades the cost reduction for the agency
+relationship cannot be maintained.
+II. Business Organization Revisited
+Blockchain-based corporate governance only limitedly works in
+traditional corporate forms. While several US states, including the
+state of Delaware, have started to evaluate the use of blockchain-
+based technology for their proxy systems and for the transfer of
+stock ownership, among other benefits, the traditional centralized
+forms of limited liability entities can only partially benefit from the
+decentralized governance offered by blockchain technology.
+Blockchain-based corporate governance offers dynamic regulatory
+features that are partially incompatible with the rule-based
+traditional legal environment that traditional limited liability
+entities are required to comply with.
+1. Distinguishing Features of Decentralized Systems
+Existing decentralized systems display several core commonalities
+that affect commerce and society. Decentralized systems do not
+have a central intelligence or leadership system based on traditional
+hierarchies. Instead, the intelligence is spread throughout the
+system. Information and knowledge naturally filter in at the edges
+of the system, closer to where the action is and where most real-
+time information is created. Decentralized systems can also very
+easily mutate and change because the information flow is optimized
+through dynamic feedback effects. As a result, such systems
+become more attack resistant on multiple levels. In turn, the ability
+to mutate quickly allows the decentralized systems to grow
+incredibly quickly.
+DAOs can be more efficient than hierarchical organizations and
+their governance. In a hierarchical organization power is organized
+in a hierarchical tree structure by necessity. Governance in a
+hierarchical organization follows the tree structure and supplements
+the power structure further with agency constructs. By contrast, in
+a DAO, ideally each member is given autonomous power. The
+power distribution in DAOs enables greater flexibility and
+enhanced options for efficiency using the decentralized power
+7
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+structure of interacting domains of expertise. DAOs can be more
+productive in comparison with hierarchical organizations because
+the information allocation and feedback effects allow them to
+distribute the optimal amount of power to the optimal talent at the
+optimal point in time. The successful implementation of such
+dynamic power organization requires a decentralized governance
+structure that motivates DAO token holders to collaborate
+productively, by fairly rewarding development, work, and the
+policing of any diminishments.15
+2. Original 2016 DAO
+The original 2016 DAO had many original features that
+distinguished it from traditional forms of business organization.
+During the DAO crowdfunding campaign in May 2016, investors
+could become DAO constituents by purchasing DAO Tokens.16 The
+DAO raised more than $168 million from approximately 10,000
+“investors” and was considered the largest crowdfunding campaign
+in its days. The original 2016 DAO, in the founders’ attempt to set
+up a corporate-type organization without using a conventional
+corporate structure. The founders’ central idea was that the wisdom
+of the crowd would lead to smarter and more game-changing
+investment decisions.17 The original 2016 DAO had to operate as a
+kind of venture capital fund managed directly by the token
+holders.18 The DAO governance structure was built on software,
+code and smart contracts that ran on the public decentralized
+blockchain platform Ethereum.19 The original 2016 DAO did not
+have a physical address as it was merely computer code. And it was
+not an organization with a traditional hierarchy as we know it from
+traditional corporate structures where authority and empowerment
+15 Craig Calcaterra, On-Chain Governance of Decentralized Autonomous
+Organizations: Blockchain Organization Using Semada (May 24, 2018)
+(unpublished manuscript) (on file at https://ssrn.com/abstract=3188374).
+16 Carla L. Reyes, Nizan Geslevich Packin, & Ben Edwards, Distributed
+Governance, 59 WM. & MARY L. REV. ONLINE (2018),
+https://scholarship.law.wm.edu/wmlronline/vol59/iss1/1/.
+17 Id.
+18 Reyes et al., supra note 16.
+19 Jentzsch, supra note 14.
+8
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+flow downwards from investors/shareholders through a board of
+directors to management and eventually staff.20 Indeed, it had no
+directors, managers or employees. Because a series of smart
+contracts granted original 2016 DAO token holders voting rights,
+the blockchain-based smart contracts imitated the role of articles of
+association or bylaws. Because the DAO code was open source, the
+token holders would not only vote on “investment proposals”, but
+also on any change made to the code.21 Accepted proposals would
+also be backed by a software code, defining the relationship (in
+terms of rights, obligations and performance metrics) between the
+DAO and the funded proposals.
+The hack of the original 2016 DAO called the evolution of DAOs
+as governance vehicles into question. Fundamental flaws in the
+original 2016 DAO code enabled hackers to transfer one third of the
+total funds to a subsidiary account that could not be controlled by
+either the hacker or the original 2016 DAO members and
+founders.22 The hack in combination with additional technological
+limitations terminated the original 2016 DAO initiative.
+In order for future generations of DAOs to operate successfully and
+facilitate governance solutions, the outstanding legal issues need to
+be addressed. While legal solutions are slowly emerging around the
+world, it is still unclear whether DAOs would be subject to taxation,
+what legal regime could govern the issuance of DAO tokens, and if
+minority DAO token holders can be protected. It is also still unclear
+if coded smart contracts that coordinate DAO member behavior are
+legally binding in the existing legal infrastructure.
+3. The Theory of the Firm Revisited
+The various interpretations of the theory of the firm suggest that
+firms exist to reduce transaction cost and as a response to the high
+20 Id.
+21 Id.
+22 Ethereum press releases. www.ethereum.org (last visited [___]).
+9
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+cost of using markets.23 Coase suggests the existence of the firm can
+be explained by the incentives to internalize transactions in order to
+free workers/collaborators from the need for external regulation.24
+A well-defined task can easily be put out to the market, where a
+contractor is paid a fixed sum for doing it. The firm is needed when
+simple contracts of this kind will not suffice. Instead, an employee
+agrees to follow varied and changing instructions, up to agreed
+limits, for a fixed salary. Others define the existence of a firm as the
+added efficiency of a centralized production-monitoring agency.25
+Inexpensive open-source smart contracts eliminate a major
+motivation for creating a firm under Ronald Coase’s transaction
+cost theory.26 Coase posits the existence of the firm derives from
+the incentive to internalize transactions in order to free
+workers/collaborators from the need for external regulation, such as
+costly contracts for minor engagements (e.g., coworkers sharing
+office supplies).27 Smart contracts enable trustworthy transactions
+of any size with minimal transactions cost and high levels of
+transaction security. Barzel’s motivation for the existence of a firm,
+the added efficiency of a centralized production-monitoring
+agency,28 is also largely irrelevant with efficient smart contracting
+as the smart contract performs the production-monitoring function
+and largely removes agents.
+DAOs challenge the various versions of the theory of the firm,
+stretch the definition of a firm, and question the need for firms.
+Existing experimentation with DAOs designs already violate
+fundamental assumptions about firms, such as the hierarchical
+organizational structure, the separation of firm members from
+market members, the cultural or technical homogeneity of
+members, and many other natural definitions for a firm.
+23 Ronald Coase, The Nature of the Firm (1937).
+http://www3.nccu.edu.tw/~jsfeng/CPEC11.pdf
+24 Id.
+25 Yoram Barzel, Economic Analysis of Property Rights (1997).
+26 Coase, supra note 23.
+27 Id.
+28 Barzel, supra note 25.
+10
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+Decentralized transaction cost economics call into question the
+theory of the firm. If the high costs of using markets, that legitimize
+the existence of the firms, can be lowered ad infinitum, it becomes
+questionable what the role of the firm can be. Peer-to-peer
+transactions in DAOs, facilitated by trust through decentralized
+consensus protocols and other emerging decentralized technology,
+can significantly lower transaction costs. Monitoring costs and the
+cost of agent supervision are largely superfluous in effective DAO
+designs. Overall, emerging DAO designs can be expected to
+continue to remove transactions cost. DAOs evolving design makes
+them a more efficient business organization vehicle, especially
+comparison with traditional firms.
+Economy of scale advantages of centralized firms are challenged by
+the evolving efficient DAO designs. Decentralized organizations
+can be organized effectively to achieve greater economies of scale
+and greater efficiency than traditional centralized firms. Existing
+DAO designs only give an early glimpse of what may be
+accomplished by future generations of DAOs. Future DAO
+efficiency can be significantly increased through parameter
+manipulations to DAO protocol development, security, stability,
+recruitment and retention of members and outside business. With
+such parameter upgrades, DAOs enable an eternal, reviewable
+record of all members’ actions that can facilitate a decentralized
+organization and achieve greater efficiency than traditional firms.
+III. Governance Shortcomings in DAOs
+Like any business organization governance design throughout
+history, the evolving governance designs of DAOs is subject to
+significant shortcomings. DAOs lack the centralized authority used
+throughout history to organize society, guide individual and
+organizational behavior, and enforce rules agreed upon by
+constituents. From a centralized perspective, such lack of
+organizational authority results in suboptimal governance outcomes
+for DAOs. Yet, evolving DAO governance designs can offset
+lacking centralized organizational authority with more efficient
+decentralized organization.
+DAOs require governance mechanisms when inevitable gaps arise
+in the incomplete smart contracts of the firm. Corporate law’s core
+11
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+role revolves around the supply of majoritarian default rules that fill
+the gaps of parties’ necessarily incomplete contracts.29 Corporate
+governance solutions in the existing legal infrastructure and
+emerging coded governance solutions have a core common
+denominator, they are both incomplete contracts. As such, neither
+can anticipate all problems and eventualities that may arise in the
+respective entities. Decentralized code-based systems are a nexus
+of necessarily incomplete smart contracts. Unlike existing corporate
+governance systems, however, the decentralized nexus of
+incomplete smart contracts does not have a supply of majoritarian
+default rules that could fill incomplete code-based smart contracts.
+The default rules provided by corporate law are largely
+incompatible because they are based on natural language, among
+other incompatibility factors. Accordingly, blockchain-based
+entities have a governance problem like all governance systems that
+are based on incomplete contracts.
+1. Centralized Design Elements in the Original 2016 DAO
+The failure of the original 2016 DAO highlights the need for
+sustainable decentralized governance solutions. The core
+governance failure illustrated by the 2016 DAO is its failure to
+create dynamic governance protocol upgrades in real-time through
+dynamic feedback loops. When the flaws in the original 2016 DAO
+code materialized, the DAO members were unable to evolutionarily
+vote for a protocol governance upgrade. Their voting structure was
+set up to vote on investment proposals, not on governance design.
+Rather, the platform that hosted the 2016 DAO, had to vote on it,
+which lead to a hardfork of the Ethereum blockchain. Because of its
+systemic centralized infrastructure, the original 2016 DAO lacked a
+dynamic governance mechanism that should have allowed its token
+holders to vote for a change of the flawed code as its flaws
+materialized.
+The original 2016 DAO was subject to several, then necessary,
+elements of centralization that undermined its ability to create
+sustainable decentralized governance solutions. The points of
+29 Dan Fischel & Frank Easterbrook, THE ECONOMIC STRUCTURE OF CORPORATE
+LAW (1991).
+12
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+centralization in the original 2016 included the use of centralized
+decision makers, the voting structure, the payment structure, the
+lack of staking, among several others.
+The voting design in the original 2016 DAO introduced points of
+centralization and corruption. The tokens of the original 2016 DAO
+gave token holders ownership rights, voting rights, and property
+rights. 30 These features are comparable to stock in traditional
+corporations. Just as in the traditional voting stock of a corporation,
+the original 2016 DAO token allowed its holders to vote on DAO
+investment proposals. Token holders with more tokens held more
+voting power than token holders with fewer tokens. Voting
+proposals in the original 2016 DAO did not involve staking of any
+non-fungible tokens towards a vote outcome. Nor had those voting
+proposals a randomization element. All voting in the original 2016
+DAO revolved around centralized voting power. As such, its voting
+design introduced opportunities to corrupt the DAO and its
+governance structure.
+The governance structure of the original 2016 DAO relied on
+centralized leadership in the form of “curators.”31 The 2016 original
+DAO did not have an autonomous decentralized validation pool for
+contractor proposals.32 The curators created and controlled the
+whitelist of those preselected contractors that were authorized to
+receive ether from the DAO. 33 Because the smart contract on its
+own could not distinguish real from fake proposals, the curators had
+approval power and vote prioritization power over contractor
+proposals before the proposals were put up to a DAO community
+vote. DAO token holders who had been selected as contractors
+through a DAO member vote needed the curator’s verification that
+the smart contract submitted by the token holder matched the public
+smart contract on the Ethereum blockchain and that the contractor’s
+30 Jentzsch, supra note 19 at 2.
+31 Id.
+32 The DAO founders attempted to turn this lack of decentralization and core
+attack risk into a virtue by boasting that the existing curators consisted of an “all-
+star group...of twelve of the brightest minds the Ethereum ecosystem has to
+offer.”
+33Id.
+13
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+identity matched.34 The curator, thus, were the core point of
+centralization in the original 2016 DAO design. Curators would
+have become the control bottleneck of the original 2016 DAO as
+they would have had control not over the contractor selection itself,
+the DAO voted on that, but over the addition of project proposals
+via smart contracts to the Ethereum blockchain.35
+The payment structure for smart contract work proposals in the
+original 2016 DAO introduced a point of centralization. Any
+tokenholder in the original 2016 DAO was eligible to submit a
+proposal via smart contract for a DAO vote to become a contractor
+for the tokenholder community. Yet, the requirement to pay an ether
+deposit that the tokenholder would forfeit if the proposal failed to
+achieve the quorum requirement introduced a point of attack and
+centralization. Fungible cryptocurrencies, such as ether, are by their
+very nature a corruptive element. Decision makers can be
+influenced by the power that derives from fungible currency. Power
+can grow with the size of fungible cryptocurrency holdings.
+Decentralized decision making necessitates non-fungible payouts
+metrics combined with an indirect fungible payout structure.
+Similarly, the payment structure for curators and contractors of the
+original 2016 DAO created points of attack on the overall
+governance structure of the original 2016 DAO. Any projects that
+were approved by the original DAO token member community
+would have required the contractor or curator to complete the
+approved task in exchange for ether from the DAO. Direct
+payments to the curator or contractor in a fungible cryptocurrency
+create points of attack and corruption for the governance structure.
+34 The DAO originators attempted to suspend this point of centralization in the
+DAO design by introducing a debate period for the DAO community of at least
+two weeks after a contractor was approved by a curator for the whitelist. During
+the debate period, the DAO community was able to debate and vote on the
+proposal. See id. Like so many other voting solutions of decentralized platforms
+that proliferated in the aftermath of the original 2016 DAO, the original DAO
+would also have been subject to voting participation issues. Staking and
+inflationary token scoring, e.g. non-participation lowers proportional token score,
+could have created incentives for vote participation.
+35 The DAO white paper itself observed the limitation of decentralization in its
+design as limiting the DAO to one curator would give that individual
+“considerable power.” Id.
+14
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+If curators’ and contractors’ payment come from a fungible
+currency source without a direct or indirect penalty for
+underperformance, such as lower token scores, DAO contractors
+and workers may be corrupted by external sources. A non-fungible
+form of payment with a penalty for underperformance would make
+those corruptive elements less likely.
+2. Lack of Proper Incentivization
+Existing DAO governance design structures failed to take into
+account the historical precedent on governance. Humanity has been
+debating governance designs since the inception of human
+organization.36 Common core denominators of existing problems
+in governance design include the corruptive effects of existing
+governance designs with fungible assets as well as identity of actors
+in governance designs. These factors contributed to the resulting
+inability to govern institutions effectively.
+The lack of proper incentivization is a core common denominator
+for all existing blockchain governance structures and especially on-
+chain governance structures. The participants in any institution need
+to be incentivized to improve their own utility while at the same
+time benefiting the entirety of the institution for the long run.
+Without that duality of incentivization, rational and opportunistic
+internal and external constituents will attempt to game the
+governance design.
+Throughout history, when fungible assets are used as the dominant
+incentive design in the governance of institutions with identifiable
+actors, rational and opportunistic internal constituents and external
+participants have attempted to corrupt the system. If the governance
+and incentive alignment design via fungible assets allows for the
+optimization of personal utility, people will continue to try to game
+36 Institutional design and governance are a primary subject of study in law,
+ethics, economics, political science, computer science, philosophy, sociology,
+social psychology, cybernetics, control theory, among others. Entire school of
+though, such as new institutional economics evolved because of the insufficiency
+of governance solutions. See Popper, inra note 52.
+15
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+the governance design to maximize their personal utility at the
+expense of the common good of the institution and its members.
+Identity of actors in governance designs contributes to corruptive
+elements. Throughout history, governance designs were created by
+identifiable members of institutions for their fellow members.
+Regulators and regulatees are usually able to identify each other
+individually. In these identifiable circumstances for institutional
+governance design, people have failed throughout history to
+organize effectively. Corruption is possible if actors can be
+identified. Every instantiation of institutional governance design
+involving identifiable humans was afflicted by corruption sooner or
+later.
+3. Lack of Default Rules
+Default rules provide flexibility and cheap legal solutions for
+businesses. U.S. corporate law provides relatively few mandatory
+rules.37 Rather, business association law provides default rules to
+fill gaps in contractual associations.38 Such default rules create a
+nexus of contracts that are available if and when needed.
+Contracting parties can tailor the default rules. Parties do not have
+to anticipate all eventualities that may arise in their relationship
+because the default rules provide a nexus of contractual provisions
+that are available if and when eventualities materialize. This creates
+legal certainty and the associated economic benefits.
+Blockchain-based smart contracting calls into question the
+application of existing default rules. For business associations
+organized via smart contracts on the blockchain, aka DAOs,
+existing jurisdictional points of legal intervention are less clearly
+established. 39 Default rules afforded by the existing legal system
+are less likely to provide the established nexus of default contracts
+for blockchain-based transactions. However, the architects,
+37 Frank H. Easterbrook & Daniel R. Fischel, The Corporate Contract, 89
+COLUM. L. REV. 1416, 1417 (1989).
+38 Larry E. Ribstein, Why Corporations, 1 BERKELEY BUS. L. J. 183, 187-88
+(2004).
+39 Wulf Kaal & Craig Calcaterra, Crypto Transaction Dispute Resolution, 72 THE
+BUSINESS LAWYER 109 (2017-2018).
+16
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+designers, and coders of a given smart contract ecosystem can
+affirmatively opt into the existing legal order through code. If and
+how such opting-in would be legally enforceable in the existing
+legal order or otherwise is less clear. The existing legal
+infrastructure still relies heavily on natural language which is
+antithetical to smart contracting.
+The DAO created a type of business organization that exists
+separate and apart from the existing legal order. DAOs are able to
+create a decentralized nexus of smart contracts that exist on separate
+nodes around the world with very limited points of centralization.
+Well-designed DAOs are in the unique position to create very
+sophisticated, autonomously, and evolutionarily morphing rules.40
+These DAO rules go beyond any sets of traditionally conceived
+business association default rules. Well-designed DAOs can create
+oracles that allow the blockchain to interact with unvalidated data
+sources.41 They can provide internal and external governance and
+interaction with other DAOs, external blockchains, and centralized
+entities. External governance includes the ability for other non-
+native DAOs in a given blockchain to opt into the rules and
+templates for rules provided by a given native DAO that established
+over time the then optimal set of rules by way of precedent.42
+Because of the decentralized, autonomous, and evolutionary nature
+of the emerging DAOs, entity organization cannot be traced to any
+particular individual. In other words, it is very difficult to imagine
+40 Calcaterra, supra note 15.
+41 Craig Calcaterra et al., Blockchain Infrastructure for Measuring Domain
+Specific Reputation in Autonomous Decentralized and Anonymous Systems (U
+of St. Thomas (Minnesota) Legal Studies Research Paper No. 18-
+11), https://ssrn.com/abstract=3125822. (“An oracle for a blockchain is a
+system that allows smart contracts to access real-world (i.e., off-chain) data.
+Since the blockchain is an autonomous system with no centralized authority
+dictating decisions, there is a need for a trusted 3rd party to reputably state the
+results of real-world events. For instance, when blockchain users wish to
+exchange a smart contract which mimics a stock option, they need agreement on
+the value of the stock at the expiration date, which generally requires a trusted
+3rd party. For the success of the crypto economy, the 3rd party should remain
+decentralized and anonymous. The platform gives such 3rd parties an
+opportunity to establish verified and valuable reputation.”)
+42 Calcaterra, supra note 15.
+17
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+any particular individual actor that the existing law could single out
+for jurisdictional reach or liability.
+Default rules in the form of fiduciary duties are less relevant in
+DAOs. Fiduciary duties are a major default rule in the existing
+corporate governance regime. Fiduciary duties are typically
+engineered to counteract the corporate governance problems
+associated with the separation of ownership and control, and the
+associated agency and moral hazard problems. In the DAO structure
+such fiduciary duties are less relevant. The autonomous
+decentralized nature of DAOs makes fiduciary concepts
+superfluous. The disciplining effect of fiduciary duties on
+management’s conduct is less needed because centralized
+management is minimal in DAOs. Moreover, because of the value-
+to-effort focus of work flows in the DAO structure, supervision of
+management and imposition of legal duties on management is less
+redundant because there are fewer or no supervisors. Rather, token
+holders optimize the DAO together according to their best value
+propositions in accordance with their unique skillsets, backgrounds,
+and training.
+4. Lacking On-Chain Voting Mechanism
+Existing decentralized protocols lack an effective on-chain voting
+mechanism. A one-token-one-vote voting mechanism in existing
+decentralized protocols with on-chain governance resembles a
+plutocracy. Token holders in a given DAO with a significant share
+of the total supply of tokens have more power than the rest of the
+DAO members. This is a common phenomenon among
+decentralized protocols at the end of 2019. For instance, on and
+around September 12, 2017, 4.11% of the bitcoin addresses
+controlled 96.53% of the total bitcoin supply.43
+Suboptimal voting outcomes associated with one-token-one-vote
+voting mechanisms in existing decentralized protocols can largely
+be traced back to the immaturity of the existing decentralized
+43HOW MUCH.NET, https://howmuch.net/articles/bitcoin-wealth-distribution (last
+visited Aug. 19, 2019).
+18
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+protocols. For instance, the low voter participation in existing
+decentralized protocols 44 underscores the lacking incentive
+alignment of the respective DAO voters and users. Coin owners of
+a given network have vested interests in the existing pricing
+structure of their respective network. The user, if different form the
+coin owners, of that network typically would like the prices to
+depreciate.
+The immaturity of existing decentralized protocols often also makes
+it possible to bribe coin owners to vote against their best interest as
+coin owners if the bribe is sufficiently attractive. For instance,
+delegated proof of stake protocols such as EOS, Lisk, and Ark are
+reported to have experienced instances of bribery. Because certain
+nodes in delegated proof of stake protocols have significant power
+to validate blocks they are elected by stakeholder votes. That power
+leads to corruption. Block validation nodes in delegated proof of
+stake protocols are incentivized to bribe voters to be elected as
+delegates in exchange for some of the newly inflated tokens.
+5. Socially Optimal Forks
+Forking requirements in existing decentralized systems are different
+from other corporate governance settings. Hard forks are unique in
+governance settings in the sense that only a subset of the population,
+here the blockchain community associated with a given chain, is
+subject to the protocol change. The typical mandatory corporate
+governance rule change affects the entire population either via acts
+of Congress or agency rule changes.
+In the current blockchain governance environment, existing
+blockchains generally need to calibrate forks for protocol
+upgrades.45 Forks result in previously uniform nodes that, after the
+fork, run a different protocol with different data than the newer
+version. A soft fork is a backward compatible protocol upgrade. The
+44 The original 2016 DAO had less than five percent of voter turnout. See Jentsch,
+supra note 33. Even delegated proof of stake protocols, such as Lisk and Ark
+where voting plays a crucial part of the protocol rarely experience voter turnout
+above fifty percent of total. www.lisk.com; www.ark.com
+45 Ethereum foundation tutorial on how to program a basic governance structure
+with voting at https://www.ethereum.org/dao (last visited Feb. 11, 2018).
+19
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+soft fork creates a new more restrictive protocol rule, e.g. block size
+limit was 1 MB and is changed by the soft fork to 500 KB. Because
+it is more restrictive and not more expansive it is backward
+compatible with the previous protocol rule. By contrast, the hard
+fork creates a more expansive ruleset and is therefore not backward
+compatible. For instance, the increase of the block size limit from
+1MB per block to 2 MB per block would not be backward
+compatible because the previous protocol limited the block size to
+1 MB. While sometimes forks are merely used to test a process or
+upgrade,46 forking is more often used to implement a fundamental
+protocol change, or to create a new digital asset characteristics.
+The necessity of chain forking for protocol upgrades in the existing
+blockchain infrastructure is associated with significant negative
+effects. The bifurcation of nodes can lead to significant problems,
+confusion, errors, economic loss, and bugs. For example, in the case
+of the bitcoin protocol, changes in defining protocol parameters
+such as the difficulty of the cryptographic puzzle, the block size,
+limits to additional information that can be added, among other
+elements, can result in some blocks being accepted by the new
+protocol but rejected by older versions of the protocol. A result can
+be the loss of funds. It is theoretically possible that the two and
+subsequent chains could grow in parallel indefinitely. The
+economic loss associated with such parallel existence can be quite
+significant. The result of a hard fork can also be the reemergence of
+the double spend problem. Because wallets, merchants, and users
+running the previous code deem the new code invalid and thus
+cannot detect the spending on the new code, cryptocurrencies spent
+in a new block could be spent again on an old block.47
+46 (“An example of a hard fork that implemented a new feature is Monero.
+Monero underwent a planned hard fork in January 2017, to introduced Ring
+Confidential Transactions (RCT). RCT improved security as well as privacy for
+Monero users”). MONERO, https://www.getmonero.org/ (Last visited Aug. 19,
+2019).
+47 The double-spend risk that plagues hard forks does not apply to soft forks
+because users and merchants running old nodes will read both new and old
+version blocks.
+20
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+Contention is another unique risk of a hard fork that can result in
+social and political turmoil and the need for blockchain
+reorganization. If after a hard fork, the respective community cannot
+agree on which chain is the true chain, e.g. the chain that provides
+the most likely survivable protocol, it may result in two blockchains
+that compete in perpetuity. This was the case with the fork that
+created Bitcoin Cash.48 The only viable solution is for one branch
+of a chain to be abandoned in favor of the other branch. However,
+that can result in some miners losing out because the transactions
+they may have mined would be re-allocated. It is difficult to switch
+all nodes to the newer version of the protocol at the same time
+because decentralized systems are typically too widely spread for
+cohesion.
+The emergence of decentralized evolutionary protocol upgrades can
+help ensure that future DAOs will be less affected by the negative
+effects of forks. While the forking necessity in the current system
+requirements can be socially optimal,49 the long-term social and
+economic loss of a fork could be avoided if decentralized systems
+should one day be governed by autonomous evolutionary
+governance protocols.50
+6. Decentralized Infrastructure Requirements
+DAO governance is subject to multiple layers of underdeveloped
+decentralized infrastructure requirements. Most of these
+infrastructure requirements still necessitate instantiation. First and
+foremost, it is important to recognize the timing limitations for
+DAO governance. Blockchain technology is a foundational
+technology whose transformational impact takes decades rather
+than years to take hold and reform legacy systems.
+Most complex systems and structures that will be reformed by
+decentralized infrastructure technology are interdependent. Reform
+and development of one area of decentralized infrastructure
+48 BITCOINCASH, www.bitcoincash.com (last visited Aug. 19, 2019).
+49 Cathy Barrera & Stephanie Hurder, Blockchain Upgrade as a Coordination
+Game (October 17, 2018), https://ssrn.com/abstract=3192208.
+50 Calcaterra, supra note 15.
+21
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+technology alone cannot be successful. The existence of multiple
+additional support structures is needed. Even if the decentralized
+infrastructure elements are being developed in any of the major
+areas of use cases for blockchain technology, complex discussions
+around structural and cultural changes in legacy systems are needed
+before the technology can be applied.
+The evolution of blockchain technology in corporate governance
+requires parallel evolution in both centralized governance structures
+and in a decentralized governance environment. The former
+requires the authorities and ultimately Congress to come to a
+consensus on how and when to implement such technology for the
+governance use case. For the latter, a truly decentralized public
+blockchain that is scalable and fully secure is needed to accomplish
+decentralized infrastructure evolution. Without it, core issues that
+have afflicted centralized governance solutions, such as information
+asymmetries between principal and agent, censorship, opportunism
+of agents, breaches of fiduciary duties, liability rules for principals
+and agents, fraud or third-party interference, and overall system
+corruption may persist. In decentralized systems, reform of the
+agency relationships is possible if and when a truly decentralized
+public blockchain emerges that is scalable and fully secure.
+As decentralized agency relationships become more complex, a
+backstop for human behavior in agency relationships becomes
+necessary. The notion that agency relationships in smart contracts
+run exactly as coded without any possibility of opportunistic
+behavior of the agent is less likely to uphold in complex agency
+relationships. Similarly, without a decentralized human backstop to
+code, the immutability of the blockchain and its cryptographic
+security systems may not be able to create truly transactional
+guarantees and trust between principals and agents in the integrity
+of their contractual relationship.
+IV. Dynamic Governance in Decentralized Systems
+Dynamic governance systems are becoming an evolutionary
+necessity. Historically, the institutional infrastructure for
+rulemaking was geared towards the creation of rules for governing
+a relatively stable society with relatively stable economic and
+22
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+market environments. Throughout history, the technological
+evolution typically coincided with legal innovations. Therefore,
+dynamic elements in rules were less topical at the inception of
+institutional arrangements for corporate governance. Since the early
+days of societal and market evolution, society and markets have
+evolved rapidly and are becoming increasingly more complex. The
+growing number of rule enactments, revisions, and revocations in
+the centralized legal environment suggest that existing rules and
+institutional structures for rulemaking are becoming less capable of
+addressing the rapid pace of change. The technological acceleration
+in combination with the emerging decentralization of commerce
+and society may add another layer of complexity that necessitates
+new and reformed dynamic legal approaches for corporate
+governance in decentralized structures.
+1. Shortcomings of Centralized Governance in Decentralized
+Systems
+The existing regulatory infrastructure created suboptimal regulatory
+outcomes for centralized institutions.51 Regulatory challenges in
+centralized institutions were largely the result of facts-based, ex-
+post, trial-and-error-rulemaking with stable and presumptively
+optimal rules in the existing regulatory framework.52 Another factor
+51 Wulf A. Kaal, Evolution of Law: Dynamic Regulation in a New Institutional
+Economics Framework, in FESTSCHRIFT ZU EHREN VON CHRISTIAN KIRCHNER
+1211 (Wulf A. Kaal, Matthias Schmidt & Andreas Schwartz eds., 2014)
+[hereinafter Evolution of Law]; Wulf A. Kaal, Dynamic Regulation of the
+Financial Services Industry, 48 WAKE FOREST L. REV. 791 (2013); Wulf A.
+Kaal, Dampening Financial Regulatory Cycles via Dynamic Regulation – A
+Comment on Professor McDonnell, 65 FLA L. REV. F. 32 (2013); Wulf A. Kaal,
+Dynamic Regulation via Governmental Contracts, in LIBER AMICORUM PETER
+NOBEL (2015); Wulf A. Kaal, Dynamic Regulation for Innovation, in
+PERSPECTIVES IN LAW, BUSINESS AND INNOVATION (Mark Fenwick, Wulf A.
+Kaal, Toshiyuki Kono & Erik P.M. Vermeulen eds., 2016); Wulf A. Kaal,
+Dynamic Regulation to Curtail Excessive Corporate Risk-Taking: A Response
+to Professor Schwarcz, 65 ELJ ONLINE 2061 (2016); Wulf A. Kaal & Timothy
+A. Lacine, The Effect of Deferred and Non-Prosecution Agreements on
+Corporate Governance: Evidence from 1993-2013, 70 BUS. LAW. 61 (2014)
+52 Karl R. Popper, THE POVERTY OF HISTORICISM (Routledge & Kegan Paul,
+1957); Christian Kirchner, Evolution of Law: Interplay Between Private and
+23
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+that contributed to the increasing regulatory challenges was and
+continues to be the suboptimal timing of regulation.53 Because
+facts-based, ex-post, trial-and-error-rulemaking cannot anticipate
+regulatory issues created by disruptive innovation, existing
+rulemakers in centralized systems may not at all or much too late
+realize what new regulatory demands apply to innovation and
+associated regulatory issues. Rulemakers’ near exclusive reliance
+on stable and presumptively optimal rules,54 created to attain
+permanent solutions for perceived regulatory issues,55 ignores the
+ever-changing environment for rules that are exacerbated by
+disruptive innovation.56
+The existing challenges for the regulatory infrastructure are going
+to be exacerbated by the emergence of ever-increasing
+decentralization of business and society.57 Centralized governance
+via stable and presumptively optimal rules in an environment of
+decentralized smart contracting and DAOs further exacerbates the
+shortcomings of stable and presumptively optimal rules in
+centralized structures. Facts-based, ex-post, trial-and-error-
+rulemaking with stable and presumptively optimal rules in the
+existing regulatory framework is incompatible with the needs of
+decentralized systems. Decentralized systems do not have a central
+intelligence or leadership system based on traditional hierarchies.
+Instead, the intelligence in decentralized systems is spread
+throughout the system. Because information and knowledge
+Public Rule-Making A New Institutional Economics-Analysis, 4 ERASMUS L.
+REV. 161 (2012).
+53 Wulf A. Kaal & Erik P.M. Vermeulen, How to Regulate Disruptive
+Innovation – From Facts to Data, 57 JURIMETRICS 169 (2017).
+54 See Evolution of Law, supra note 51, at 1212 (“[T]he institutional
+infrastructure for rulemaking was geared towards the creation of rules for
+governing a relatively stable society with less upward mobility and relatively
+stable economic and market environments.”); Kaal, Dynamic Regulation of the
+Financial Services Industry, supra note 51; Kaal, Dynamic Regulation via
+Government Contracts, supra note 51; Kaal & Lacine, supra note 51.
+55 Evolution of Law, supra note 51, at 1218.
+56 Kaal, Dynamic Regulation for Innovation, supra note 51.
+57 Wulf A. Kaal, Decentralization: Past, Present, and Future (2019)
+(unpublished manuscript) (on file at https://ssrn.com/abstract=3411897); Wulf A.
+Kaal, Decentralization: A Primer on the New Economy (2019) (unpublished
+manuscript) (on file at https://ssrn.com/abstract=3406323).
+24
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+naturally filter in at the edges of the decentralized system, facts-
+based, ex-post, trial-and-error-rulemaking with stable and
+presumptively optimal rules in the existing regulatory framework
+cannot encapsulate in a timely fashion the regulatory needs of the
+system. Decentralized systems can also very easily mutate and
+change because the information flow is optimized through dynamic
+feedback effects. This is antithetical to the static rule-based system
+of the existing regulatory infrastructure.
+The timing of rulemaking in an environment of decentralized smart
+contracts and DAOs is going to be a primary problem for regulators.
+Formal rulemaking in the existing regulatory infrastructure is
+almost always too time-consuming for a centralized marketplace. 58
+Decentralized systems morph much quicker than centralized
+systems and thus exacerbate the timing inadequacies of the existing
+regulatory infrastructure. The speed of smart contracting and the
+associated DAO revisions will make regulations pertaining to
+morphing and evolving decentralized systems obsolete before static
+centralized regulations are finalized.
+The lack of natural language further exacerbates the timing issue.
+Even if existing courts could exercise jurisdiction over
+decentralized parties, the code-based legal arrangements would
+need to be translated into natural language which may often not be
+possible and would create significant cost and timing restrictions.
+Interpretation of non-natural language in smart contract disputes
+also creates major hurdles for the regulators and courts. Coded
+contractual intent may be unclear and natural language intent can
+often not be used for interpretation. The cost of “translation” of
+coded contractual intent has the potential to become overwhelming
+for the existing centralized legal infrastructure.
+Centralized agency power is rather difficult to exercise over
+decentralized systems because the system is decentralized,
+58 Evolution of Law, supra note 51, at 1218; Kaal, Dynamic Regulation for
+Innovation, supra note 51; Cass R. Sunstein, Is the Clean Air Act
+Unconstitutional?, 98 MICH. L. REV. 303, 371 (1999); Thomas O. McGarity,
+Some Thoughts on "Deossifying" the Rulemaking Process, 41 DUKE L.J. 1385,
+1386 (1992); Jo Ann S. Barefoot, Disrupting FinTech Law, 18 FINTECH L. REP.
+10 (2015).
+25
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+autonomous, and secured by a consensus algorithm. Attempts by
+the government to exert power over the system by influencing any
+number of individuals within its jurisdiction, would require
+complete control of fifty one percent of the anonymous global users
+before it could change any part of the code in the decentralized
+system. The security of decentralized systems guarantees that no
+outside power will have the ability to control the non-state actor
+attempted to take that extreme action. Because of the transparent
+nature of decentralized systems, users would instantly know about
+the takeover attempt. Such an event would lead to a loss of
+confidence and cause ultimately the failure of the entire structure.
+Because decentralized systems are autonomous, even if a
+government did find some of the anonymous individuals whose
+work maintains the ledger, it would be difficult to argue personal
+responsibility for any wrongdoing. Miners are running a universal
+algorithm on computers connected to a global network.
+The inability to exercise existing notions of jurisdiction over
+decentralized systems creates friction between decentralized
+systems and the existing legal infrastructure. Traditional
+jurisdictional means have limited applicability in the context of
+blockchain technology. Traditional jurisdictional principles cannot
+directly apply to blockchain technology because the blockchain is a
+mere collection of agreed-upon calculations by decentralized
+computer systems. The blockchain is merely an idea reached by the
+consensus of computation; it is pure information, contained only in
+the mathematical rules of its inception and the sum of the
+computation. The blockchain is entirely maintained and owned by
+a distributed group of anonymous users located around the planet.
+The nodes hold imperfect partial copies of the blockchain; no
+particular node holds the entire blockchain. Hence, the concept of
+jurisdictional presence is difficult to apply to the blockchain.
+Decentralization of business and society may inaugurate
+unprecedented change in society with significant uncertainty and
+unknown future contingencies. The existing regulatory
+infrastructure with stable and presumptively optimal rules is largely
+incapable of addressing these increases in unknown future
+contingencies associated with disruptive decentralization. Given the
+26
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+pace of emerging decentralization, 59 future contingencies in
+rulemaking are likely to substantially increase, making the dynamic
+anticipation of future contingencies more important for rulemaking.
+2. Benefits of Dynamic Decentralized Governance
+Supplementing the regulatory infrastructure with dynamic
+decentralized elements can help address suboptimal regulatory
+outcomes60 for decentralized systems. Decentralized rulemaking
+via code is subject to suboptimal stable regulatory outcomes, just
+like centralized governance. In light of the growth trajectory for
+smart contracting, rulemaking via code can be seen, on the one
+hand, as an attempt to cope with an ever-increasing complex market
+and legal environment that necessitates technological solutions. On
+the other hand, coded solutions are subject to natural flaws (bugs)
+and cannot evolutionarily change protocols. As such, coded
+solutions for an exponentially changing environment are also a
+stable and presumptively optimal attempt at creating new solutions
+and benefit from dynamic elements to overcome those
+shortcomings.
+Because the conditions and the corresponding requirements for
+optimal and stable hardcoded rules are constantly evolving, making
+different sets of hardcoded rules optimal over time,61 dynamic
+elements in the coding and rulemaking process can help increase
+the availability of relevant information for rulemaking and improve
+system design.62 Dynamic regulation as conceptualized in theory is
+intended to create anticipatory regulatory responses.63 The same
+may apply in the context of coded system designs where smart
+contract templates that are affirmed by a DAO as optimal can be
+used anticipatorily by other DAOs who may encounter similar
+necessities in the future.
+59 Kaal, Decentralization: Past, Present, and Future, supra note 57; Kaal,
+Decentralization: A Primer on the New Economy, surpa note 57.
+60 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51;
+Evolution of Law, supra note 51.
+61 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51.
+62 Id.
+63 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51.
+27
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+In decentralized systems, feedback effects can occur much more
+frequently and in many more settings compared with centralized
+systems.64 The timeliness and quality of information is the focus of
+dynamic governance rules65 in dynamic decentralized frameworks.
+The increased availability of relevant, decentralized, and timely
+information for governance rules in a dynamic decentralized
+framework enables unprecedented feedback effects. Because the
+information is on the edge of the decentralized system and is
+transferred peer-to-peer directly, information reaches subroutines
+and subsystems much more directly and timely. Accordingly,
+feedback effects in a dynamic decentralized governance framework
+can enhance the availability of institution-specific decentralized
+information dramatically, especially compared to centralized
+systems.66 Because the improved information is on the edge of the
+decentralized system and is transferred peer-to-peer directly,
+feedback effects can instantiate in subroutines and subsystems
+much more directly and timely. Rather than acquiring the necessary
+information ex-post after rules have emerged as suboptimal,
+feedback effects help increase the availability of relevant
+information for governance rules ex-ante and anticipate necessary
+revisions before rules emerge as suboptimal.67
+The combination of feedback processes, enhanced information for
+rulemaking, and institution-specific ex-ante experimentation
+facilitates the anticipation of future contingencies for decentralized
+governance. Adapting rules to such identified future contingencies
+becomes the focal point for rulemaking in a dynamic decentralized
+framework.68 Finally, anticipatory dynamic coded regulation can
+help minimize costly and suboptimal ex-post trial-and-error
+64 See infra Part V.1. on feedback effects in DAOs.
+65 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51.;
+Evolution of Law, supra note 51.
+66 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51.;
+Evolution of Law, supra note 51.
+67 Kaal, Dynamic Regulation of the Financial Services Industry, supra note 51,
+at 160; Evolution of Law, supra note 51.
+68 Id.
+28
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+experimentation with stable and presumptively optimal rules in
+decentralized systems.
+V. Optimizing DAO Governance
+Innovation, the complexities of financial markets, and ever-
+changing circumstances of smart contracting require decentralized
+institutional arrangements and a rulemaking process that
+continuously adjusts to these challenges. The complexities of
+today’s increasingly decentralized society,69 its coded solutions to
+remedy the complexities, costs, etc., and markets benefit from
+dynamic coded institutional arrangements and processes for coded
+rulemaking.
+Future DAO designs have the capacity to substantially upgrade
+institutional governance. Unlike existing institutional governance
+designs, future DAO designs and any derivations thereof will likely
+be community based. DAO Governance is determined by the
+respective DAO members in any given DAO. Such DAO member
+generated upgrades are based on feedback effects pertaining to
+previous version of DAO designs. Hence, future DAO designs will
+likely vary substantially. The ability to reform DAO governance
+design, and with it corporate governance, is impacted by the design
+parameters of the given DAO.
+The success of DAO governance designs is determined by several
+core factors. First and foremost, the level of decentralization in the
+DAO governance design is determinative for its future resilience
+and attack resistance. Incentive alignment of DAO constituents is a
+core function of successful decentralization and has a significant
+impact on the success of the governance design. Dynamic feedback
+effects in the DAO governance design also impact its ability to
+evolutionarily provide solutions as the circumstances of the DAO
+change. The structure and extent of on-chain DAO governance is
+also an important evolving design factor. Finally, decentralized
+autonomous and anonymous reputation verification systems offer
+much needed governance design input parameters that so far could
+not been provided otherwise.
+69 Kaal, Decentralization: Past, Present, and Future, supra note 57.
+29
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+1. Dynamic DAO Governance
+Decentralized dynamic DAO governance can serve as regulatory
+supplements enabling rulemakers’ adaptation to regulatory
+contingencies if and when they arise. Decentralization exacerbates
+the existing inability of centralized rulemaking structures to address
+the shortcomings in the rulemaking process for stable and
+presumptively optimal rules. Feedback effects in DAOs provide
+relevant, timely, decentralized, and institution-specific information
+ex-ante. By increasing the availability of information ex-ante,
+dynamic regulatory tools help lower unforeseen contingencies in
+the rulemaking process pertaining to innovation. Improved
+information for rulemaking also helps to maintain certainty in the
+rulemaking process.
+DAO governance epitomizes dynamic regulation. DAOs integrate
+feedback effects in governance design because the information in
+the system is fully transparent and constantly updated. Centralized
+regulatory agencies can examine trends in smart contracts in a given
+industry by examining the publicly available information.
+Similarly, regulates can code warning triggers in their governance
+design to comply with external regulatory requirements. Mandated
+governance rules can be coded directly in smart contracts if and
+when trends justify regulatory code to be included.
+DAO governance must be dynamic to avoid corruptive influences.
+Stable and presumptively optimal static constitutional rules for
+DAO governance typically enable gaming and arbitrage
+opportunities. In any open and democratic system, naturally
+opportunistic rational parties will attempt to circumvent and game
+the sets of applicable complex static rules to increase their share of
+power and profit within the system. To enable sufficient protection
+of DAO members while at the same time allowing for DAO
+enhancements, the static sets of rules of smart contracts in such a
+system will need to be rather complex. With static complex sets of
+DAO rules comes inevitable corruptive opportunistic gaming and
+arbitrage behavior. To avoid these negative effects of static complex
+DAO rules, effective DAO governance designs should be focused
+on dynamic elements. Dynamic elements here include DAO
+members’ ability to re-evaluate existing precedent in the system.
+30
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+Unlike the existing corporate governance framework, the
+technological infrastructure underpinning DAOs enables
+autonomous and evolutionary incomplete smart contract upgrades.
+With dynamic DAO governance mechanisms, DAO token holders
+can vote for a change of any outdated or flawed code as the flaws
+materialize or in anticipation of future contingencies. In that sense,
+DAOs can generate majoritarian rules ex-post without the need for
+ex-ante majoritarian rules that function as default rules.70 Ex-post
+code-based majoritarian rules are superior to ex-ante majoritarian
+rules because they are based on more accurate real-time information
+from the edge and decentralized feedback effects. Ex-post code-
+based majoritarian rules are not subject to the same information
+asymmetries as stable and presumptively optimal ex-ante rules. As
+such, DAOs enable a code-based governance infrastructure that can
+create dynamic governance protocol upgrades in real-time through
+dynamic feedback loops.
+Dynamic and evolutionary reputation-based DAO governance is
+possible via a decentralized on-chain precedent system. 71 A
+decentralized on-chain precedent system enables feedback effects
+between DAO members, the public record of work/posts on the
+blockchain, and the public users. The decentralized precedent
+system makes the continuous upgrading of real-time data possible.72
+As a post/template on the blockchain gets increasingly referenced
+by the DAO members and other users, it increases in non-fungible
+reputation weight and associated fungible salaries. Conversely, if a
+post/template on the blockchain dissipates over time, a new
+post/template emerges naturally. If the new post/template gets more
+often referenced by the DAO members and other users, it becomes
+over time the new prevailing precedent. The old precedent
+dissipates over time with non-use.73
+70 Contra see supra Part II.
+71 Calcaterra, supra note 15. The design here is possible because of the Weighted
+DAG in Calcaterra’s design.
+72 Id. As Calcaterra shows, the relative weight of a contribution posted on the
+blockchain can increase if such contribution is referenced or used by other DAO
+members or protocols. This particular precedent setting feature enables a
+precedent system within a decentralized autonomous system.
+73 Id.
+31
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+2. Level of Decentralization
+The level of decentralization may be a proxy for optimized DAO
+design parameters. The more decentralized a given DAO design, the
+more likely it is to affect its precedence and adoption. The level of
+decentralization and the associated attack resistance and
+incorruptibility of DAO governance designs are among the core
+factors that influence DAO design adoption, its precedence, and
+longevity. However, not all future DAO designs will comply with
+the ideal typical DAO parameters. Ideal typical DAO design ideal
+typical DAO design parameters will naturally filter out at the edges.
+In other words, because the optimal DAO design parameters change
+constantly, if and when formerly ideal typical designs fail, new and
+optimized designs will replace them.
+The level of decentralization in DAO designs increases with the
+following instantiations in DAO governance: a) anonymity of DAO
+members, e.g. DAO members cannot be personally identified other
+than by their respective merit in the DAO structure;74 b) merit
+identifiers, e.g. DAO members merit, knowledge, and influence is
+measured through their respective DAO non-fungible token
+ownership;75 c) non-fungibility of tokens; e.g. merit of a DAO
+member is expressed by an non-fungible reputation token that
+cannot be bought or sold;76 d) full transparency, e.g. all DAO
+decisions are fully transparently accessible by the public and the
+DAO members themselves;77 e) indirect economic incentives, e.g.
+DAO members are getting paid with fungible tokens in proportion
+to their non-fungible tokens;78 f) decisions in the DAO are made
+with a voting design that revolves around staking of non-fungible
+tokens;79 and g) fungible salary tokens are designed as stable
+cryptocurrencies and maintain their value at around $1US.80
+74 Calcaterra et al., supra note 41.
+75 Id.
+76 Id.
+77 Id.
+78 Id.
+79 Id.
+80 Craig Calcaterra et al., Stable Cryptocurrencies, WASH. U. J. OF L. & POL’Y
+(forthcoming May 2019).
+32
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+Several other factors influence the level of decentralization of DAO
+designs that are beyond the scope of this article.
+3. Incentive Alignment
+Incentive alignment is at the core of centralized and decentralized
+governance designs. The failures of incentive alignment in
+centralized governance structures are well documented.81 Unlike
+centralized governance incentive design, decentralized incentive
+alignment in the DAO can be organized in an incorruptible way with
+non-fungible digital assets. Because of the technological
+infrastructure of decentralized systems, it is possible that
+decentralized incentive design can create solutions that could not so
+far be accomplished in centralized governance structures.
+Collective action problems associated with lacking incentive
+alignment in existing agency-based governance designs can be
+overcome by efficiently designed DAO governance.
+Optimized DAO governance design needs to incentivize DAO
+members with indirect economic gain. This is possible with a
+combination of token designs. In a bifurcated DAO design with two
+disparate types of tokens, DAO members would only indirectly gain
+economically if: 1. Non-fungible tokens give them voting rights in
+the DAO and are used as a merit score in the respective DAO, 2.
+Fungible tokens allow DAO members to earn a fungible salary
+tokens in proportion to their non-fungible tokens. DAO members
+would increase their non-fungible tokens by making valuable
+contributions to the DAO. They would get paid in fungible tokens
+in proportion to their respective non-fungible token score in a given
+DAO. The indirect economic effects remove corruptive elements
+and make the governance design more attack resistant and stable in
+the long run.82
+Community-driven audits in DAO governance improve incentive
+alignment. Centralized systems rarely provide for and administer
+community-driven audits. Community-driven audits go against the
+81 See supra Part III 1.-3.
+82 Craig Calcaterra & Wulf A. Kaal, Secure Proof of Stake Protocol, (U of St.
+Thomas (Minnesota) Legal Studies Research Paper No. 18-10, 2019),
+https://ssrn.com/abstract=3125827.
+33
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+agency and monitoring principles embedded in the centralized
+governance. External monitoring and validation are key in
+centralized governance systems because the incentive design in
+centralized structures does not enable incorruptible internal
+controls. By contrast, community audits are at the core of DAO
+governance that is equipped with an effective incentive design. The
+decentralized nature of DAOs enhances efficiency of coordination
+because the users of the system, e.g. DAO members, typically know
+best how to assess other users / DAO members. The decentralized
+DAO structure enables unprecedented information symmetry in the
+governance design because governance information, e.g. DAO
+group decision making metrics and DAO governance protocol
+needs, is at the edge of the decentralized system and is exchanged
+and evaluated directly between DAO members in a continuous and
+iterative stream of information that provides dynamic feedback
+effects.
+DAO governance designs enable a much more equal distribution of
+power. Language, religion, race, physical presence, group
+identifiers, culture, etc., influence centralized power distribution.
+Similarly, commonly used identifiers in centralized governance
+such as social media profiles and credit scores, among others, are
+essential for access to the central system and to resources. Such
+relatively superficial identifiers play less of a role in DAO voting
+designs. The more equal distribution of power in the DAO
+governance design allows the inclusion of constituents who
+otherwise have no agency in centralized systems.
+4. On-Chain DAO Governance
+Since its inception, the blockchain community has debated the
+preferable modus operandi for protocol changes. 83 Most
+83 E.g., see this discussion: Buck Perley, Crypto-Governance and the Dangers
+of Faction, MEDIUM (Oct. 27, 2017), https://medium.com/@BuckPerley/crypto-
+governance-f1318affbbe0; Fred Ehrsam, Blockchain Governance:
+Programming Our Future, MEDIUM (Nov. 27, 2017),
+https://medium.com/@FEhrsam/blockchain-governance-programming-our-
+future-c3bfe30f2d74; Vlad Zamfir, Against On-chain Governance, MEDIUM
+(Dec. 1, 2017), https://medium.com/@Vlad_Zamfir/against-on-chain-
+34
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+cryptocurrencies would not exist if Bitcoin and Ethereum had
+incentives for future protocol development and governance built
+into the core protocol.84 The community has considered different
+attempts and proposals for more fully democratized blockchain
+governance. Those proposals included Ethereum Improvement
+Proposals, 85 Bitcoin Improvement Proposals, 86 Ethereum General
+Assembly,87 mailing lists,88 and suggestion pages on GitHub
+trees.89
+On-chain governance is a necessity for most public blockchains.
+Because all existing blockchains need to calibrate soft forks for
+protocol upgrades, most public blockchain communities that value
+decentralization have considered on-chain governance for their
+protocol. 90 Certain protocols have expanded their on-chain
+governance considerations. These include, but are not limited to:
+governance-a4ceacd040ca; Vitalik Buterin, Notes on Blockchain Governance,
+VITALIK.CA (Dec. 17, 2017), https://vitalik.ca/general/2017/12/17/voting.html.
+84 Naval Ravikant (@Naval), TWITTER (Apr. 13, 2018, 9:55 PM),
+https://twitter.com/naval/status/985018594252742656.
+85 Adam Reese, Ethereum Dev Yoichi Hirai Steps Away From Role As EIP
+Editor, Raises Questions About Process, ETHNEWS: ECOSYSTEM (Feb. 15,
+2018), https://www.ethnews.com/ethereum-dev-yoichi-hirai-steps-away-from-
+role-as-eip-editor-raises-questions-ab. For a good argument from the former EIP
+editor that the EIP system is dangerous, who has since retired based on his
+serious concerns.
+86 WIKIPEDIA: BITCOIN IMPROVEMENT PROPOSALS,
+https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals (Last visited Aug. 19,
+2019).
+87 Gavofyork, Yellow Paper Committee, GITHUB (Apr. 10, 2016),
+https://github.com/gavofyork/curly-engine.
+88 LISTS.OZLABS.ORG, https://lists.ozlabs.org/pipermail/bitcoin-dev-moderation/
+(last visited Aug. 19, 2019).
+89 E.g., Aragon’s Governance Page: Aragon, Governance, GITHUB (Sept. 22,
+2017), https://github.com/aragon/governance.
+90 The Ethereum foundation has a tutorial for how to program a basic
+governance structure with voting at ETHEREUM, https://www.ethereum.org/dao
+(last visited Feb. 11, 2018).
+35
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+Tendermint,91 PolkaDot,92 DAOstack,93Tezos,94 Dash,95 Bitshares,
+Lisk, MemoryCoin, Aragon, 96 Cardano, 97 Maker, 98 and
+NuShares.99
+Arguments against on-chain governance are bountiful. Arguably, an
+off-chain governance system that finds an equilibrium between
+several competing factors could be a better alternative for protocol
+governance than an on-chain governance mechanism.100 In an off-
+91 Ethan Buchman, Tendermint: Byzantine Fault Tolerance in the Age of
+Blockchains (June 2016) (unpublished A.A.S. thesis, University of Guelph),
+https://atrium.lib.uoguelph.ca/xmlui/bitstream/handle/10214/9769/Buchman_Et
+han_201606_MAsc.pdf?sequence=7&isAllowed=y.
+92 Rachel Rose O’Leary, Polkadot’s Plan for Governing a Blockchain of
+Blockchains, COINDESK (Mar. 22, 2018, 1:10 UTC),
+https://www.coindesk.com/polkadots-radical-plan-governing-blockchain-
+blockchains/ (“the internal token of the Polkadot network, allows its holders to
+vote directly on a piece of code, which will then automatically upgrade across
+the network.”).
+93 DAOstack, An Operating System for Collective Intelligence, (White Paper
+V1.1, April 22, 2018), https://daostack.io/wp/DAOstack-White-Paper-en.pdf.
+94 (tezos, Tezos-Papers, GITHUB (Oct. 25, 2016),
+https://github.com/tezos/tezos-papers.
+95Joel Valenzuela, Dash Surges to Record High, Claims $0.5 Mln Monthly
+Development Budget, COINTELEGRAPH (Mar. 13, 2017),
+https://cointelegraph.com/news/dash-surges-to-record-high-claims-05-mln-
+monthly-development-budget. Decentralized Governance by Blockchain
+includes a system where “masternodes” have voting power and control of a
+development budget that takes 10% of the mined profit, which they claim
+amounted to more than $500,00 US per month in March 2017. However,
+masternodes can have incentives that are not always aligned with other users so
+that such on-chain governance may skew the development of the platform in
+unhealthy ways.
+96 Luis Cuende & Jorge Izquierdo, Aragon Network: A Decentralized
+Infrastructure for Value Exchange, (White Paper Version 1.1.1, April 2017),
+https://www.chainwhy.com/upload/default/20180705/49f3850f2702ec6be0f577
+80b22feab2.pdf.
+97 CARDANO, https://www.cardano.org/en/academic-papers/ (last visited Aug.
+19, 2019).
+98 MAKERDAO, https://makerdao.com/ (last visited Aug. 19, 2019).
+99 NUBITS, https://nubits.com/nushares (last visited Aug. 19, 2019).
+100 Buterin, Notes on Blockchain Governance, see supra note 83. Vitalik
+Buterin argues. Factors to be considered for an off-chain governance system
+include: consensus among development team, initial roadmap, coin holder
+36
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+chain governance model, miners provide checks and balances on
+power over protocol changes. On-chain governance arguably
+removes such checks and balances. An on-chain governance model
+also arguably would take the participation of governance away from
+miners and subsequently users. Because an on-chain governance
+enables automatic protocol upgrades and is not dependent on
+manual interference by miners, miners are no longer required to
+make a conscious choice to participate in their chosen chain.101
+Emerging more mature voting ecosystems enable on-chain protocol
+governance with an incentive design that more optimally balances
+risk and rewards of voting. Alternative voting methods include
+quadratic voting, 102 futarchy, 103 liquid democracy, 104 and
+reputation-based voting as an instantiation of non-fungible
+voting.105 These voting alternatives can ameliorate the traditional
+voting power corruption of one-token-one-vote.
+On-chain governance models can further be optimized with
+reputation-based staking as voting mechanisms.106 Reputation-
+based voting revolves around voting by way of staking a non-
+fungible asset, aka staking non-fungible reputation tokens in a given
+DAO, towards a certain outcome. The corruptive elements of
+fungible assets/tokens are removed because third parties are less
+likely able to take over a non-fungible assets, such as reputation,
+that is organically grown and maintained through actual expertise
+in a given DAO subject matter. Even if third parties should be able
+to take over or purchase non-fungible reputation, they are less likely
+voting, user voting with some kind of Sybil resistant polling system, and
+established norms.
+101 In off-chain governance models node operators have to update their client
+manually for a protocol upgrade to align with the new chain.
+102 Steven Lalley & Eric Glen Weyl, Quadratic Voting: How Mechanism
+Design Can Radicalize Democracy, (December 24, 2017),
+https://ssrn.com/abstract=2003531.
+103 Robin Hanson, Futarchy: Vote Values, But Bet Beliefs, MASON.GMU.EDU,
+http://mason.gmu.edu/~rhanson/futarchy.html (last visited Aug. 19, 2019).
+104 WIKIPEDIA: DELEGATIVE DEMOCRACY,
+https://en.wikipedia.org/wiki/Delegative_democracy (last visited Aug. 19,
+2019).
+105 Calcaterra & Kaal, supra note 82; Calcaterra, supra note 15.
+106 Id.; Calcaterra et al., supra note 41; Calcaterra, supra note 15.
+37
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+able to maintain the reputation score and the associated revenue
+stream of fungible assets over time.
+5. Reputation-Based Governance
+Reputation can take on an unprecedented role in decentralized
+governance mechanisms. Reputation-based governance can
+optimize actors’ incentive design in the decentralized governance
+infrastructure. Reputation can generally be defined as a predictor
+for actors’ future behavior given the history of actors’ actions.
+Reputation is central for proper incentivization in the existing
+centralized infrastructure for business and government. Because of
+the advances in emerging decentralized technology, reputation can
+take on an unprecedented role in future decentralized governance
+mechanisms.
+Reputation-based metrics were ineffective in centralized
+governance systems. Before the emergence of blockchain
+technology, reputation could not be stored autonomously,
+anonymously, and transparently. Accordingly, reputation was not a
+reliable predictor of actors’ future actions in centralized governance
+systems. Existing reputation governance designs, such as the web
+of trust 107 and even more primitive designs such as simple
+reputation triangulation metrics, 108 suffered from countless
+inadequacies, including sybil attacks 109 and tyranny of the
+majority.110 These shortcomings undermined the meaning and
+value of digital reputation in centralized internet platform-based
+businesses. What made things worse, these past centralized attempts
+at reputation verification were unable to meet the demands of
+107 WIKIPEDIA: WEB OF TRUST, https://en.wikipedia.org/wiki/Web_of_trust
+(Last visited Aug. 19, 2019).
+108 Ebay, Uber and many other company use these reputation metrics. See e.g.
+ebay.com, uber.com
+109 Binance Academy, Sybil Attacks Explained, BINANCE ACADEMY (Dec. 8,
+2019), https://www.binance.vision/security/sybil-attacks-explained; WIKIPEDIA:
+SYBIL ATTACK, https://en.wikipedia.org/wiki/Sybil_attack (last visited Aug. 19,
+2019).
+110 Lin Chen, et al., Tyranny of the Majority: On the (Im)possibility of
+Correctness of Smart Contracts, 16 IEEE SECURITY & PRIVACY 30 (2018),
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8425620.
+38
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+constantly changing protocol needs.111 They were based on stable
+and presumptively optimal rules which are vulnerable to gaming.
+Reputation has key advantages over existing decentralized voting
+mechanisms. Reputation has two key advantages over existing
+decentralized one-token-one-vote voting mechanisms: 1) it is non-
+fungible which avoids corruptive elements,112 and 2) it optimally
+aligns incentives for DAO members individually and at the same
+time for the totality of the DAO as an institution. 113 Because
+reputation is non-fungible and ideally anonymous, it is much harder
+for DAO members and external participants to try to game the
+system to improve their own utility exclusively while hurting the
+common good of the DAO.
+Reputation as a valuation metric allows DAO members to improve
+their own utility while at the same time improving the whole
+institution over the long term. If reputation is used as a metric for
+indirect economic benefits, e.g. a salary in fungible tokens that is
+paid in proportion of the non-fungible reputation token score, DAO
+reputation token holders are incentivized to increase their own
+reputation/utility by engaging in valuable conduct for the DAO. The
+more the aggregated individual reputation of all DAO members
+increases the more the overall institution’s value increases and the
+more the institution creates value enhancing outcomes for its
+members.
+Reputation-staking as a basis for DAO governance improves
+incentive alignment. Reputation-staking as a basis for DAO
+governance enables the correlation between individual and
+institutional value enhancement. DAO members rationally stake
+their own reputation tokens based on the outcomes they believe will
+increase their overall reputation/utility. If they did not they would
+irrationally surrender a future income stream in fungible tokens.
+Through reputation-staking, the DAO members are incentivized to
+provide long-term positive contributions because the DAO member
+111 See supra note 51 (effects of stable and presumptively optimal rules).
+112 Calcaterra and Kaal, supra note 82.
+113 Calcaterra et al, supra note 41.
+39
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+reputation is transparent and reviewable by the DAO and the public
+in a slow and stable review process that reaches far into the future.
+Valuable individual behavior/work that leads to individualized
+reputation staking and individual reputation enhancement also
+enhances the DAO as an institution because the individual and
+institutional value enhancement are correlated.114
+Reputation-based DAO governance design changes the dynamic of
+a zero-sum game to a positive-sum game. Existing DAO
+governance designs were mostly zero-sum games. Existing DAO
+governance designs used mostly fungible rewards and incentive
+designs where DAO members pursued as large of a portion of the
+rewards as possible for themselves. By contrast, the reputation-
+based DAO creates a positive-sum game because DAO members
+have incentives to create lasting non-fungible value for the
+institution by developing a long-term non-fungible record of
+productive cooperation that in effect improves the DAO. Moreover,
+individual DAO member reputation can change dynamically if
+DAO member actions depreciate in value. The DAO member
+reputation should be inflationary in the DAO design. As such, non-
+use, e.g. non-staking or non-voting, would lead to value
+depreciation, which incentivizes action and thus value
+enhancement.
+VI. Reforming Corporate Governance
+Future optimized DAO designs may accomplish significant
+upgrades for DAO governance that can help reform traditional
+notions of corporate governance. The remarks below are based on
+ideal-typical DAO governance design parameters. Not all future
+DAO designs will follow these ideal-typical parameters.
+114 Take for instance, a DAO member who stakes that a given smart contract
+template is optimal for XYZ outcome/application. Once the template is affirmed
+by the DAO members as optimal at that point in time, it becomes a valuable
+precedent for the DAO members and external DAOs. Hence, the staking of an
+individual and the ex-ante work that leads to staking increases sustainable value
+for all DAO members. The DAO members and other DAOs will rationally
+increasingly use the precedent until a better precedent emerges. That precedent
+thus increases the individual DAO member’s reputation and the DAO overall.
+40
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+DAO token holders are largely free from existing corporate
+hierarchies and their restricting effects. People who work for a DAO
+are subject to a different kind of agency relationship and not subject
+to a centralized supervisor or CEO who received legitimacy through
+centralized validation. Instead, DAO workers work in a dynamic set
+of working relationships that continuously and dynamically self-
+organize around projects and outcomes, not corporate hierarchies.
+The intrinsic motivation of DAO members changes incentive
+structure and governance outcomes compared with traditional
+hierarchical organizations. Most hierarchical organizations rely
+predominantly on extrinsic incentive structures, through wages etc.
+By contrast, the core common denominator for all DAO token
+members is the unifying desire to optimize the DAO structure and
+the DAO reputation token value. If a member-identified
+optimization has the potential to make the DAO more meaningful,
+useful, or valuable to the token holder members, the DAO token
+holders will desire to perform such optimization tasks as it is in their
+very interest to do so to help increase the value of their DAO
+reputation tokens.
+Performance assessment in the DAO governance structure is based
+on DAO value optimization. Existing centralized and decentralized
+governance designs often rely on hierarchical or political processes
+and external monitoring and validation. By contrast, DAO workers’
+performance is assessed in an anonymized proposal voting scheme
+which is the predominant basis for assessment and payment. If
+DAO members perform well, they will get remunerated regardless
+of politics, background, or education. Validation and monitoring
+can be internal to the DAO. The predominant factor that counts for
+purposes of assessment of DAO worker performance is the work’s
+impact on DAO value optimization.
+Non-performance penalties in the DAO structure are free from
+biases. If DAO community members do not deliver on a proposal
+that was voted in by the DAO token holder community they lose
+credibility in the DAO token holder community and may be
+perceived as lacking an ability to add value. In fact, non-
+performance on proposal comes with significant reputational
+penalties. Non-performers in the DAO structure will be less likely
+to have future opportunities to earn tokens because the other token
+41
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+holders are unlikely to approve non-performer proposals. Crucially,
+non-performance reputational penalties are entirely free from racial
+or cultural biases and associated implications as the token holders
+are unlikely to even know each other. Rather, they all work towards
+a common goal of optimizing the DAO and the token value.
+The DAO governance design benefits all constituents. DAO
+governance designs emphasize token holders’ incentives to add
+value to the DAO community. That benefits all constituents.
+Because projects that cannot add value take token holders’ time
+away from more productive endeavors, token holders become
+focused on managing their time and efforts. Unlike in traditional
+hierarchical organization where face-time and unproductive
+meetings are the norm, the self-governing DAO token optimizer
+avoids any such corporate hierarchy inefficiencies and frees herself
+from top-down inefficiencies and negative outcomes.115
+Politics in the DAO structure have a different nature compared with
+traditional hierarchical corporate structures. In a traditional
+corporate hierarchy, position in the hierarchy and associated
+authority determine effort. In other word, the supervisor in the
+hierarchical structure can determine where, what, and when workers
+have to perform, resulting in suboptimal outcomes, attendance of
+unproductive and useless meetings, among many other negative
+effects. By contrast, in the decentralized DAO environment,
+influence is determined by the value a given token holder
+contributed to a project’s success.
+The value-to-effort focus of work flows in the DAO structure has
+the potential to reform agency relationships in governance. The
+115 The DAO work proposal and value optimization structure allows the
+avoidance of bad projects, bad colleagues, and unproductive meetings. The
+dominant incentive across all DAO constituents is value enhancement. Of course,
+“value” can have differing meaning, depending on the DAO. If value can be
+added, the tasks will be performed, if the assessment of the proposal suggests that
+the value proposition is in doubt token holders will try to spend their time and
+skills on more productive and value-adding tasks. Importantly, because the DAO
+structure functions without supervisors, DAO token holders who decide they
+cannot add value on a given task can move to more productive endeavors that
+better utilize their skills without any penalties that would exist in the traditional
+hierarchical corporate structure.
+42
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+value-focused performance in the DAO structure helps optimize
+work flows and creates sustainable solutions for DAO token
+holders. The supervisor in the traditional hierarchical corporate
+structure can determine where, what, and when workers have to
+perform, which often results in attendance of unproductive
+meetings, facetime, support for suboptimal outcomes to please
+supervisors, among many other suboptimal outcomes. By contrast,
+in the decentralized environment of DAOs, influence and outcomes
+are not created by hierarchy but rather determined by the value a
+token holder’s contributions to a project’s success. Moreover, if a
+token holder adds substantial value to the DAO, other DAO token
+holders will want to add their skills in the same context which
+focuses the token holders’ efforts on the highest possible value
+proposition.
+VII. Conclusion
+For the first time in history, blockchain technology gives actors and
+institutions the environment to collaborate on neutral territory.
+Every member’s contributions to an institution can be recorded in a
+fully transparent way. These unprecedented technological features
+enable corporations and other forms of business organizations to be
+supplemented with blockchain-based agency constructs. As such,
+DAOs expand the definition of the firm, question the need for firms,
+and call into question the various versions of the theory of the firm.
+DAOs have started to challenge the dominant governance structures
+facilitated by legacy agency constructs. Future ideal-typical DAO
+governance designs will be filtered out at the edges of the system
+and will be subject to ongoing dynamic iterative change and
+upgrading. The technological infrastructure for DAOs enables these
+emerging features.
+43
+Electronic copy available at: https://ssrn.com/abstract=3441904
+
+BLOCKCHAIN-BASED CORPORATE GOVERNANCE
+44
+Electronic copy available at: https://ssrn.com/abstract=3441904
+

@@ -1,0 +1,1497 @@
+Draft Version 0.2
+Secure Proof of Stake Protocol
+Craig Calcaterra & Wulf Kaal
+Abstract
+The Secure Proof of Stake protocol (SPoS) uses reputation-verification to solve the centralization,
+efficiency, and security problems that afflict existing blockchain consensus protocols. At heart, a
+secure proof of stake protocol follows naturally from a secure decentralized autonomous system
+for validating the reputation of anonymous users. SPoS has several advantageous features over
+previous PoS protocols. SPoS enables on-chain governance to decide issues such as standards for
+block creation, policing, and scaling. All protocol upgrades are handled swiftly, decisively, openly,
+and stably, through the weighted democracy of reputation-staked decision making. Because nodes
+no longer hash mine but rather check the validity of blocks and vote, SPoS is more efficient than
+proof-of-work consensus. This paper explains the SPoS protocol and how it maintains
+decentralization, efficiency, liveness, swift finality, and anonymity, while addressing the security
+issues of Byzantine faults, the various 51% attacks, stake grinding, the tragedy of the commons,
+DoS attacks, censorship, liveness faults, Sybil attacks, tyranny of the majority, and soft protocol
+upgrades.
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+TABLE OF CONTENTS
+1 Overview 2
+2 PoS challenges 5
+2.1 Hard theoretical limits 5
+2.2 Soft attacks 6
+3 The Reputation Verification Platform 10
+4 SPoS generalities 14
+5 SPoS specifics 14
+5.1 Block producers 15
+5.2 Block production 15
+6 Analysis 20
+7 Summary and Conclusion 28
+Appendix: calculations 28
+A.1 The price to purchase 51% of the sem tokens 28
+A.2 Natural sem token inflation 32
+References 33
+1
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+1 Overview
+A fundamental and perpetual debate in the crypto community attempts to discern the most efficient
+and secure consensus protocol for block production on blockchains. The core debate centers
+around proof of work (PoW) versus proof of stake (PoS). The goal of any PoS scheme is to
+eliminate the expensive hash mining step in PoW, used to cryptographically secure data in a
+blockchain. Eliminating PoW can improve decentralization, vastly improve energy efficiency, and
+allow a greater rate of transaction processing. The difficulty is finding a PoS protocol that is at
+least as secure as PoW. The greater ambition is to find a PoS protocol that is far more secure than
+PoW in order to improve scalability, e.g., by allowing trustworthy sharding.
+Several impossibility proofs in distributed computing make this goal seem daunting. In fact it is
+obvious there can be no single, fixed, entirely algorithmic policing solution which completely
+prevents independent nodes in a distributed system from gaming the system by producing blocks
+with transactions that advantage some parties over others1. As factors change, such as markets
+forces and network performance, new opportunities arise for parties to profit at the expense of the
+majority, e.g., by censoring transactions. Therefore a successful PoS protocol must be flexible
+enough to continually police new attack strategies. A secure PoS protocol requires a proper
+incentive structure which perpetually motivates users to produce valuable blocks, to police the
+production of blocks which violate protocols, and to improve block production protocols in
+response to gaming.
+To create a successful system with proper motivations, we must widen our scope and consider the
+circular relationships between 1) the block producers and validators, 2) the blockchain and its
+production protocols, and 3) the off-platform users who inject the fees which drive the system.
+Under the platform, these three branches are called 1) the bench, 2) the forum, and 3) the public.
+The platform uses balanced incentives between these three branches to create a positive feedback
+loop which incentivizes beneficial contributions from all members.
+1 Arrow’s Impossibility Theorem (https://plato.stanford.edu/entries/arrows-theorem/ retrieved January 23rd, 2018)
+from social choice theory is the simplest expression of the inherent theoretical limitation of engineered hard protocols
+for solving distributed decision-making problems. It is intuitively clear there will always exist a need for nodes to
+collaborate via soft forks to improve protocols.
+2
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+This paper details a PoS blockchain consensus protocol which uses a reputation verification
+platform2 to ensure block production is honest3, economically viable, scalable, and secure. We call
+this protocol Secure Proof of Stake (SPoS) to distinguish it from the several previous PoS
+protocols.
+Since SPoS relies on the user reputation created by the reputation verification platform, before
+readers can understand and trust the SPoS protocol, readers must understand and trust that the
+platform is secure against the host of problems that have plagued all previous attempts to create
+meaningful reputation for potentially pseudonymous users, including powerful centralized
+commercial platforms such as Ebay and Amazon which rely on buyer and seller reputation.
+Though we review the generalities here, a prerequisite to understanding SPoS is to read and
+understand the platform parameters explaining the architecture.4
+Given a secure reputational system, the stakes in SPoS are given by the reputation tokens (called
+sem tokens), then the protocols follow naturally. Other PoS protocols regularly use ad hoc
+solutions to solve problems as they are identified, such as the long-range attack, cartel formation,
+and censorship resistance. These problems are automatically handled in a self-policing reputational
+system.
+Therefore the SPoS architecture has several advantageous features over the other PoS protocols.
+First, SPoS is more secure because it has a different reward structure, which ensures the
+motivations of users is to maintain protocols that attract the maximum use and to honestly produce
+blocks following those protocols. In particular, the stakes (sem tokens) are naturally far less
+fungible than cryptocurrency stakes, so long-term probity is incentivized, eliminating many short-
+term arbitrage opportunities. The reward structure involves the following:
+1. All fees gained by block creation are shared with the entire group according to a reputation-
+weighted salary. Therefore, unlike every other implemented platform, there is no direct
+monetary reward incentive for creating mining pools or block production cartels, which are
+a threat to decentralization which increases the likelihood of 51% attacks. These reputation-
+weighted salaries encourage actions that benefit the platform long term and guard against
+2 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain Infrastructure for Measuring Domain Specific
+Reputation in Autonomous Decentralized and Anonymous Systems (February 18, 2018). U of St. Thomas (Minnesota)
+Legal Studies Research Paper No. 18-11. Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/ssrn.3125822
+3 Honest production of blocks means producers faithfully follow the protocols the community deems most beneficial.
+A benefit is defined to be a verifiable step toward achieving the goals of the community--usually this means profit,
+but blockchains can be run to organize groups in the service of any goal.
+4 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain Infrastructure for Measuring Domain Specific
+Reputation in Autonomous Decentralized and Anonymous Systems (February 18, 2018). U of St. Thomas (Minnesota)
+Legal Studies Research Paper No. 18-11. Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/ssrn.3125822
+3
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+short term arbitrage opportunities which harm the reputation of the blockchain.
+2. All positive contributions to the platform are directly rewarded with sem tokens, not
+currency. All negative actions (determined by votes from the community) are punished
+with loss of sem tokens (slashing). Policing is swift and effective through reputation staked
+bets in the validation pool. Since the value of a sem token derives from the regular
+reputation-weighted salary, which is split amongst all users, long-term platform
+improvement is incentivized. Sem tokens are less fungible than the currency received in
+salary, which prevents short term arbitrage attacks.
+3. Anyone can gain new sem tokens at any time and join in the process of block creation and
+share the rewards, which encourages maximum decentralization.
+The opportunity to purchase sem tokens may appear to open the platform to an obvious
+51% attack. However, whenever someone sends a fee to the platform to gain sem tokens,
+at least half of the tokens minted are shared with the community who polices the
+application. We provide a mathematical proof that shows this alone completely eliminates
+all incentives to perform the 51% attack in Appendix A.1. Further, other protocols are
+naturally incorporated that safeguard this threat, such as requiring new nodes to prove their
+worth in various ways.
+4. Users who produce valid blocks and who are knowledgeable enough to decide on protocol
+improvements will enjoy substantially greater rewards. Users who don’t will be punished
+with loss of sem tokens. Inactive users (liveness faults) are indirectly punished with the
+natural inflation of the token, which happens because new tokens are minted whenever the
+platform attracts a fee. Therefore, the system will naturally and stably tend toward probity.
+5. The forum holds evidence of positive contributions to the blockchain, including evidence
+of proper block production, policing block production, protocol suggestions, and
+discussion. Every post is subjected to a validation pool where all sem token holders have
+the opportunity to stake their tokens to decide the value of a contribution. The staking of
+tokens, with its potential for slashing, is necessary to avoid the tragedy of the commons. A
+reference system allows new validated posts to alter the value of sem tokens minted from
+older posts. This opportunity for review adds stability against slashing, giving users the
+ability to police long-term systemic attacks, the ability to reverse previous decisions, and
+the ability to reward long-term improvements such as protocol upgrades.
+Secondly, SPoS is evolutionary in nature. It’s architecture naturally incorporates a mechanism for
+1) proposing, deciding, and rewarding authors of protocol improvements, and 2) policing any
+4
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+gaming during block production. The forum holds a history of all protocol improvement
+suggestions, the validation pool specifies the consensus of the community on each issue, and the
+reference system allows retroactive rewarding of proposers and testers who contributed to the
+security and success of the blockchain.
+In the next section we review the major challenges to creating any PoS protocol. In Section 3, we
+review the platform which is needed to detail the SPoS protocol, presented in Section 4. Finally,
+we analyze the SPoS protocol in Section 5, explaining how it solves the problems detailed in
+Section 2. The primary concern is achieving consensus on block finality, while maintaining
+liveness, decentralization, autonomy, anonymity, efficiency, and especially security--which
+includes Byzantine faults, 51% attacks, stake grinding, the nothing-at-stake problem (tragedy of
+the commons), Sybil attacks, tyranny of the majority, liveness faults, DoS attacks, perverse
+delegates, censorship, and soft protocol changes.
+2 PoS challenges
+In this section we review the major challenges to any PoS protocol, in order to explain how the
+SPoS addresses each of them (See Section 6). Valuable resources for a more exhaustive
+introduction which are still aimed at a general technical audience is the Ethereum foundation’s
+PoS summary5 and the Bitcoin Wiki page6. Readers familiar with PoS research may wish to skip
+to Section 3 and Section 4 where the platform and the SPoS protocols are detailed.
+2.1 Hard theoretical limits
+To begin, there are three basic theoretical boundaries from computer science to consider when
+choosing block production protocols:
+1) The 33% BFT threshold7: If more than ⅓ of participants are maliciously colluding, honest
+users cannot immediately establish consensus with certainty8.
+5 Vitalik Buterin, et al., “Proof of Stake FAQ”, edited October 30, 2017,
+https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ retrieved December 10, 2017.
+6 https://en.bitcoin.it/wiki/Proof_of_Stake retrieved December 10, 2017.
+7 The general idea is as follows: If there are 34% Byzantine nodes colluding, and in the worst case scenario the other
+66% of nodes are perfectly partitioned into two separate sets of the network with 33% each, then the 34% Byzantine
+nodes can publish conflicting information to the two subsets of the network and dominate both. For a more detailed
+analysis see
+Gabriel Bracha, “Asynchronous Byzantine agreement protocols”, Information and Computation, Volume 75, Issue
+2, November 1987, pp. 130-143.
+8 Consensus is the state where different nodes agree on a given transaction’s origin, timing, and validity.
+5
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+2) The FLP impossibility theorem9: It is impossible to simultaneously achieve complete
+availability10 and security in an asynchronous network.
+3) The CAP theorem11: It is impossible for a distributed data store to simultaneously
+guarantee complete consistency, availability, and partition tolerance12.
+Given the inevitable possibility of Byzantine faults in a distributed system, such results require
+any protocol to hedge, promising only a probability of finality and security inversely proportional
+to liveness and speed.
+The SPoS protocol, recognizing the changing realities of history and society, doesn’t permanently
+choose which qualities are most important to stress. SPoS gives users the freedom and power to
+choose which quality is important to safeguard, depending on the changing environment, as the
+blockchain progresses and contemporary threats are identified.
+The initial SPoS protocols stress security and honest block production. Once stability is achieved
+with a large enough user base which has proven itself honest by earning valuable reputation with
+positive contributions, more availability can be achieved with more confidence--this is the
+bootstrapping problem relevant to any distributed system. Then long-term stability in the honesty
+of the system is maintained by slashing from the validation pool.
+One final theoretical obstacle is the general impossibility of creating a fixed protocol which will
+always reflect the will of its creators. Arrow’s Impossibility Theorem from social choice theory is
+the simplest expression of this limitation.
+2.2 Soft attacks
+Beyond the above theoretical limits, there are several attacks and degeneracy dangers to keep in
+mind when choosing block production protocols that we detail below: 1) centralization, 2) lack of
+anonymity/DoS attacks, 3) valuable transactions, 4) the nothing-at-stake problem (tragedy of the
+commons), 5) “Spirit of the law” soft protocol violations, 6) liveness faults, 7) 51% attacks, 8)
+long range attacks, 9) perverse delegates, 10) Sybil attacks, 11) tyranny of the majority, 12) stake
+grinding, 12) censorship, 13) the 𝑃+𝜖 attack, 14) soft protocol changes, and 15) the altruism cliff.
+1) Centralization is an existential threat to distributed systems. This threat arises in all
+previous blockchains. Under bitcoin’s PoW, centralization occurs mainly due to economy
+of scale issues. E.g., building an ASIC farm of 1000 CPUs is far cheaper than 1000 people
+9 Michael J. Fischer, Nancy A. Lynch, & Michael S. Paterson, “Impossibility of Distributed Consensus with One
+Faulty Process”, Journal of the Association for Computing Machinery, Volume 32, Number 2, April 1985, pp. 374-
+382. Available Online https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf retrieved December 10, 2017.
+10 Availability (closely related to liveness) in this context describes the state in which the system is responsive to
+transactions. If a system spends a long time deciding on the validity of a transaction, then the system can reach greater
+confidence in consensus and therefore greater security, but it comes at the expense of being off-line to new transactions
+while deciding.
+11 https://en.wikipedia.org/wiki/CAP_theorem
+12 A network is said to be partitioned if it has isolated subnets which cannot communicate and share information about
+their states. Partition tolerance is a measure of how quickly consensus can be achieved given partial, temporary
+partitioning.
+6
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+buying 1 CPU each. The second problem with PoW happens when lotteries do not have
+time to thoroughly sample the users. Even if the the algorithm is fair, a user with a tiny
+fraction of the computing power of the system is running the risk of never winning a hash
+race, so they can gain financial security by joining a mining pool.
+Under most any PoS system, the economy of scale advantage is mitigated because doubling
+your computing power does not double your power to build blocks. However, block
+production cartels may still arise due to lotteries, or the fact that voting delegations are built
+into the system, or the fact that the stakes needed to be a block producer may be bought, so
+there is an incentive to control the blockchain.
+Another type of centralization is common in PoS systems. If the blockchain goes offline
+for a long period, or if too few nodes are active, can the blockchain restart or regenerate
+autonomously13? Or is there a need for social coordination between the nodes? If so,
+anonymity is threatened and famous nodes are required.
+Similarly, a final type of centralization occurs if the blockchain lacks on-chain autonomy.
+The question is, how is node consensus achieved for protocol upgrades/forks such as
+deciding how and when to scale or shard to handle more transactions, or how to improve
+standards for block creation and policing? Again, if famous people or powerful consortia
+are needed to lead development and drive the debate, decentralization is not truly achieved,
+and this leads to the security risks blockchains were supposed to mitigate compared with
+centralized organizations.
+2) Lack of Anonymity/DoS attacks. A second existential threat to a PoS blockchain is the
+danger that block producers will need to use their identity in order to convince nodes to
+choose them to produce a block. This is particularly evident in DPoS, where delegates must
+win popularity contests to become producers. If block producers’ identities are revealed,
+the supranational independence of the blockchain is threatened as is its security. In this
+case local jurisdictions could exert legal power over block production, which will weaken
+confidence in its fairness.
+Secondly, DoS attacks can be performed on stable block producers (especially delegates)
+whose identities or locations are revealed.
+3) Valuable transactions. No protocol can guard against Byzantine faults if a transaction is
+more valuable than the promise of all future fees for the entire platform; in this case a party
+could bribe the entire set of nodes (or 51%) to destroy their own blockchain’s integrity.
+Therefore an obvious assumption is that the sum of all fees should not be smaller than the
+value of any individual transaction. The idea is that there are a great number of global
+transactions, so only a tiny fraction of the value of each transaction is required to maintain
+13 This definition is attributed to Matthew Wampler-Doty as reported in
+Vlad Zamfir, “The History of Casper, Chapter 5” Medium, December 30th, 2016 (Online)
+https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-5-8652959cef58 retrieved December 10, 2017.
+7
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+security. Fees are crucial at some point, since we cannot rely on altruism in a decentralized,
+anonymous system in our selfish world. Therefore it seems necessary for there to exist
+several blockchains with different fee structures to guarantee different security for different
+values of transactions.
+4) The nothing at stake problem. More generally, the tragedy of the commons happens
+when a protocol does not properly reward positive contributions or punish damaging
+behaviors (slashing14).
+5) “Spirit of the law” soft protocol violations. Any protocol can be gamed to benefit a
+minority group at the expense of the whole (cf. Arrow’s Impossibility Theorem).
+6) Liveness faults15. When some users don’t participate in block creation or validation, then
+security is weakened and decentralization is threatened.
+7) 51% attacks. In the various 51% attacks, a group that owns a significant percentage of the
+governing tokens can profit at the expense of the platform and the other users by exerting
+their power. The 51% attack is particularly dangerous in decentralized systems with
+potentially anonymous users and automated protocols because there is usually no recourse
+to petition a centralized authority with the power to effectuate dispute resolution. Therefore
+if there is an arbitrage opportunity due to any weakness in the system, someone in the world
+will certainly exploit it eventually.
+One type of 51% attack is the arbitrage scenario where a group will buy 51% of the tokens,
+make a short term profit at the expense of other users (double spending, editing, or
+censoring, e.g.) then quickly sell off the tokens before the platform’s value declines from
+the damage done.
+Almost all other blockchains sell off a significant number of their tokens in an initial token
+sale, or mine them, or a combination of both. Either way, these tokens are almost always
+perfectly fungible currencies, so there is a clear answer to how much it would cost to
+corrupt or destroy blockchain running a PoS protocol based on cryptocurrency stakes.
+8) The long-range attack is a fundamental problem PoS protocols must address, where a
+malicious producer may create a long list of blocks forked from an earlier valid block,
+because there is no PoW energetic outlay required to prevent this16. Essentially, a new node
+14 Vitalik Buterin, “Slasher: A Punitive Proof-of-Stake Algorithm”, Ethereum Blog, January 15th, 2014 (Online)
+https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/ retrieved December 10, 2017.
+15 Vitalik Buterin & Virgil Griffith, “Casper the Friendly Finality Gadget”, Ethereum Foundation, November 15th,
+2017. https://arxiv.org/pdf/1710.09437.pdf retrieved December 10, 2017
+and
+Vitalik Buterin, “Incentives in Casper the Friendly Finality Gadget”, Ethereum Foundation, August 27th, 2017.
+https://github.com/ethereum/research/blob/master/papers/casper-economics/casper_economics_basic.pdf
+16 See Andrew Poelstra, “On Stake and Consensus”, March 2015, (Online) Retrieved December 7th, 2017
+https://download.wpsoftware.net/bitcoin/pos.pdf for a cogent criticism of many PoS protocols.
+8
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+can join the network and see the genuine chain and a fabricated chain that is longer; then
+the new node, lacking the proof of work hashes, could not objectively distinguish which is
+correct. Casper17 and Tendermint18 solve this problem with a system of token locking.
+9) Perverse delegates. In any PoS, especially DPoS, the motives of the producers are more
+likely to be avaricious than average, because those with perverse motives are more likely
+to make the effort to produce blocks and risk slashing. The ability to achieve clear
+consensus on validation protocols in the forum makes it easy to police adverse actions
+without the need for any extra incentive besides preserving the value of your sem token
+holdings.
+10) Sybil attacks are prevented with weighted voting, because all actions on the platform are
+fairly evaluated as determined by holdings of openly verified reputation; thus power is not
+increased by distributing it amongst cloned accounts.
+11) Tyranny of the majority is inhibited since all actions are reviewed by users weighted by
+sem tokens, so direct democracy does not dilute expertise.
+12) Stake grinding. In any decentralized PoS protocol there needs to be an automated
+mechanism for determining when and who produces a block. Generally it is a given that in
+a decentralized system, the selection should be random, weighted according to the
+producers’ stakeholdings. The randomness must be achieved with a pseudo-random
+number generator whose algorithm and seed must be available for verification by all nodes.
+If the protocol is not carefully chosen, this introduces an attack vector, called stake
+grinding, in which malicious producers might manipulate the seed in order to influence the
+selection in their favor.
+13) Censorship. A block producer may choose to violate protocol and run an edited block
+production program which picks and chooses which transactions to include in their blocks.
+Such censorship would open the possibility of personally profiting at the expense of the
+integrity of the system. In a distributed system--which cannot achieve constant perfect
+communication between nodes--we can never certainly determine that a block producer
+was censoring certain transactions, instead of simply not being aware of them.
+Censorship can be good or bad for the platform. Good censorship includes preventing
+transactions which destroy the larger reputation of the platform, such as selling child
+pornography or chemical weapons. Bad censorship is more subtle, such as preventing
+competing organizations from registering transactions.
+17 Vitalik Buterin & Virgil Griffith, “Casper the Friendly Finality Gadget”, Ethereum Foundation, November, 15,
+2017. https://arxiv.org/pdf/1710.09437.pdf retrieved December 10, 2017.
+18 Jae Kwon, “Tendermint: Consensus without mining“, 2014, (Online) retrieved December 10, 2017
+https://tendermint.com/static/docs/tendermint.pdf
+Chjango Unchained, “Consensus Compare: Casper vs. Tendermint”, Cosmos, November 16th, 2017, (Online)
+Retrieved December 7th, 2017 https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae
+9
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+14) The 𝑷+𝝐 attack. See [Buterin 2015].19
+15) Soft protocol changes. There will alway be changes in market forces, network
+performance, computing technology, cryptographic standards, social values, and the goals
+of any particular blockchain. Therefore there will always be the need to change block
+production and validation protocols. Therefore, in addition to the fundamental fact that no
+protocol is perfectly secure, there will always be the threat that the nodes will accept a
+deeply flawed protocol that can destroy a blockchain. If the protocol does not involve a
+decentralized medium for cheap and available communication that is eternally open to
+review, then the risks from centralization compound the danger.
+The means by which all current major blockchains achieve their soft forks is through
+private communication between famous token-holding whales. This results in a state of
+governance which is completely counter to the blockchain design goals of decentralization,
+anonymity, and autonomy. Any blockchain subject to such governance is ultimately less
+secure than legacy centralized systems which pointedly address centralized security risks.
+16) The altruism cliff. An important problem with PoS experiments is that the nascent space
+is currently dominated by altruists. In many areas of the economy it is understood that the
+majority of people who choose to work in the area do so for motives aside from monetary
+profit, such as nurses, teachers, and police. This is also generally true of any population
+involved in any emerging industry, since they need the larger industry to succeed in order
+to profit, and it is evidently true for the currently emerging crypto economy. People are
+investing themselves in the hope that the industry will succeed, so they tend to work for
+the greater good.
+However, once the crypto economy is mature, we cannot assume users will continue to
+behave altruistically. We can anticipate, with certainty, an influx of hedgers and rent
+seekers who will quite naturally exploit any weakness in the system for profit.
+Therefore we cannot use any successful experiments at this time to infer protocols are truly
+secure. We must rely on sound reasoning in order to obtain any confidence that our projects
+will continue to succeed.
+3 The Reputation Verification Platform
+The reputation verification platform is a decentralized application on the blockchain which vests
+users with verified reputation. The platform is resistant to Sybil attacks, tyranny of the majority,
+and 51% attacks. The platoform achieves this through a process which creates a positive feedback
+loop between on-platform token holders (the experts) and off-platform users (the public) mediated
+19 Vitalik Buterin, “The P + epsilon Attack”, Ethereum Blog, January 28th, 2015 (Online)
+https://blog.ethereum.org/2015/01/28/p-epsilon-attack/ retrieved January 23rd, 2018.
+10
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+by evidence posted to the blockchain and judged in a validation pool, driven by balanced
+incentives.
+The system is extremely general and can be used to organize users towards many goals. However,
+the most viable use cases will be in decentralized organizations (such as DAOs) where members
+have a specific common goal. It will be especially useful in distributed organizations which work
+largely autonomously, such as PoS blockchains or IoT consensus. In this case the primary goal is
+to guarantee all nodes are following a previously agreed upon algorithmic protocol.
+Here we give an inductive argument for how to build a decentralized reputational system for
+distributing and valuating sem tokens which is secure against Sybil attacks, the tyranny of the
+majority, and 51% attacks.
+a) Forum. Evidence of all work which creates sem tokens must be posted to the
+blockchain for eternal review. Similar to distributed digital currency creation, every
+sem token needs an openly verifiable history.
+b) Reputation-weighted salary. All fees should be shared with the entire group of
+sem token holders (the bench of experts) relative to their token holdings. This
+ensures all experts are motivated to police each individual sem-staked action, to
+protect the value of their investment.
+c) Validation pool. In a decentralized environment consisting of potentially
+anonymous actors, the only fair way to assign power is to allow all users to judge
+the value of contributions democratically. To avoid the tragedy of the commons
+(nothing-at-stake) problem, staking reputation is necessary and sem tokens will be
+won or lost based on whether the user judges with the majority--experts who police
+an action by voting will be rewarded. Experts who fail to participate (liveness fault)
+will be stably punished because the system is inflationary: if they don’t participate
+they will not gain any portion of the newly minted sem tokens, so their own unused
+sem token holdings will represent a smaller percentage of the total, so they will
+receive a smaller percentage of future reputation-weighted salaries. To avoid Sybil
+attacks and tyranny of the majority each user is capable of staking any portion of
+their sem token holdings, creating a proportional democratic governance process.
+d) Foundational token value. All new sem tokens are minted in proportion to fees.
+This assures the tokens have a foundational meaning and insures users will act in
+the interests of public users in order to attract those fees and avoid the tragedy of
+the commons.
+e) Balance. All new sem tokens are staked 50/50 in a validation pool, for and against
+a post. This insures that all actions can be fairly judged by existing token holders,
+who will not be swayed by an unbalanced validation pool from a new large fee.
+The active expert who performed the work which attracted the public fee is not paid
+11
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+directly; instead the fee is split in the reputation-weighted salary. The direct reward
+for the evidence-of-work poster is that the 50% of the newly minted tokens are
+staked as an upvote in the validation pool in the active expert’s name. This prevents
+many short term arbitrage opportunities.
+f) Review. Each new post has the opportunity to reference older posts. If the new post
+is validated, the reference will change the relative value of sem tokens created in
+the graph of connected posts. Thus previous posts’ value can change depending on
+how important future users perceive the precedent for the system. This gives experts
+the ability to review past actions, allowing a more careful analysis of patterns of
+behavior, encouraging actions which make lasting contributions (such as protocol
+development) and punishing actions which are judged to harm the long term health
+of the platform. This reference system imbues the forum with the mathematical
+structure of a citation graph, or equivalently, a weighted directed acyclic graph
+(WDAG). There are many options for how to weight the references, and for how
+those weights revalue the tokens created with each post relative to the post’s
+position in the WDAG. These options will be chosen according the the goals and
+values of each particular DAO.
+g) Stability. Honest members with genuine expertise should have extreme confidence
+that their stakes in the validation pool will never be slashed unfairly. Honesty means
+faithfully following the protocols established in the forum. A healthy expertise will
+continually have near-unanimous consensus on every evidence-of-work validation
+pool. This creates an impediment to development. Any DAO will require continual
+evolution in their protocols and policies to combat internal and external attacks and
+degeneracies. To encourage careful deliberation in all governance decisions,
+experts must have access to all relevant information and consider contrary points
+of view. Therefore authors should label their development posts “contentious”.
+Then contentious validation pools on contentious posts will allow expert members
+to stake their tokens to register their opinion without the risk of losing their tokens,
+for the low cost of DoS-prevention fees which will go to the winners. Once
+significant consensus is reached in a debate, a contentious post becomes accepted
+protocol.
+Finally when a persistent minority opinion arises, the platform should provide predictable
+opportunities for peaceful forks, where users can vote to split their tokens into separate domains
+of power.
+12
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+Specific details for how to run the validation pool and token creation, including how new users
+enter the system, and how to weight the forum DAG with references, are supplied in the underlhing
+platform paper20.
+The forum and the validation pool distribute tokens to a group of users which we call the bench
+of experts. The bench, the forum, and the validation pool form an evolutionary ecosystem which
+is driven by off-platform public fees to efficiently cooperate and find consensus in the pursuit of
+the goals of whatever organization chooses to use the platform for governance. Independent tokens
+are created for each organization. The balanced and fairly validated allotment of sem tokens
+proportional to public fees, the fair distribution of fees according to sem token holdings, and the
+fair revaluation of sem tokens through the possibility of validated references, creates a positive
+feedback loop between the bench and the public which incentivizes experts to continually police
+and improve the forum.
+Experts from the bench stake their sem tokens to 1) write evidence of work posts (including
+suggestions for protocol changes), 2) evaluate posts with upvotes or downvotes, and 3) announce
+their availability for working public smart contracts by posting stakes of their sem token holdings.
+The forum evolves to include information on 1) proper smart contracting language for the public
+to use to engage experts, including appropriate fees and protocols for work, 2) policies for the
+future development of the expertise, and 3) reputation-verified evidence of expertise through posts
+of successful work. The validation pool intermediates between the bench and the forum to vest
+experts with bet-verified sem tokens, which are valuable as power to influence the development
+of the expertise DAG and valuable in gaining future reputation-weighted salaries.
+The general function of the platform is to drive consensus between independent users who wish to
+collaborate toward a common goal, as in a DAO. A well-functioning application of the platform
+should expect that most every validation pool will have overwhelming consensus (think > 99%
+upvotes). In most cases this should be achieved automatically as every honest member will be
+running validated algorithms developed and posted in the forum in order to police the behavior of
+the organization.
+An important feature of the platform is that it is completely decentralized. There are no overarching
+tokens that control the platform smart contract--it runs entirely on the DoS service fees of whatever
+host blockchain is used (e.g., gas on Ethereum). The platform generates internal tokens when fees
+are sent to it--tokens for subdomains of the forum called expertises. All fees are immediately
+distributed to the users, and not collected by the platform or the creators. Anyone can create an
+20 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain Infrastructure for Measuring Domain Specific
+Reputation in Autonomous Decentralized and Anonymous Systems (February 18, 2018). U of St. Thomas (Minnesota)
+Legal Studies Research Paper No. 18-11. Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/ssrn.3125822
+13
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+expertise and a unique new type of sem token, again using only the DoS service fees of whatever
+host blockchain is used. Then this creator has complete control over the expertise, until they share
+control with other users they deem fit for collaboration. Anyone else is free to create a competing
+expertise. This complete decentralization is crucial for ensuring security in a distributed
+reputational system.
+4 SPoS generalities
+SPoS uses the platform to vest users who contribute to the success of the blockchain with sem
+tokens. All sem token holders share all fees the blockchain attracts (typically transaction fees).
+Contributing to the success of the blockchain includes following the protocols developed in the
+forum for block production and policing, and suggesting protocol improvements. Block production
+and policing will generally consist of running a full node with the currently approved algorithm
+from the forum.
+This general approach has the following consequences:
+1) Protocols for block creation are automated and openly viewable on the blockchain.
+2) The platform allows automated analysis of blocks, with both immediate policing through
+the validation pool and long-term policing via the referencing system of the WDAG.
+3) The evolutionary environment of continual posts in the forum judged in the validation pool
+encourages stable consensus on continual protocol improvements, which ensures security.
+4) The WDAG incentivizes protocol improvements since it allows retroactive rewards
+through references.
+5) Many types of blockchains can be created with this protocol. Depending on the goals for
+the blockchain (cryptocurrency blockchains, smart contract blockchains, IoT blockchains,
+etc.), different fee structures will be appropriate.
+5 SPoS specifics
+The SPoS protocol will continually evolve in the forum. Therefore anything we claim now is
+provisional, since the platform is completely autonomous and the authors will have no control over
+its evolution. We can only specify here how the protocol will begin.
+SPoS has elements of DPoS and chain-based PoS, as time slots are regular, and block producers
+are chosen randomly based on stake holdings. SPoS also has BFT21-style PoS elements since all
+blocks are evaluated through the platform’s validation pool.
+21 BFT stands for Byzantine fault tolerance, which refers to security against dishonest producers in a decentralized
+system. See https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ for general PoS terminology.
+14
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+As we explain the protocol below, keep in mind that all steps are automated and performed by
+computers, except (perhaps) the protocol proposals which are posted in the forum.
+5.1 Block producers
+Blocks are produced by SPoS experts, i.e., users who hold sem tokens in the SPoS expertise tag in
+the platform. Someone who produces a block is called a producer.
+To become an SPoS expert, a user gains SPoS sem tokens by sending any fee to the system. As
+detailed in the platform paper,22 this starts a validation pool in which the user is vested with sem
+tokens proportional to the fee they sent if the bench experts vote in favor of the application. In the
+beginning of the SPoS expertise tag, the protocol will allow anyone to win their validation pool,
+without review.
+As proven in Appendix A.1, validating all applications without review is quite secure against
+currently foreseeable attacks, even without the extra natural protection the validation pool could
+afford. However, protocols for acceptance will certainly evolve in the forum, possibly including
+such precautions as giving upper and lower bounds for fees, and potentially requiring some form
+of outside reputation proportional to the fee to be tied to the account which can be slashed in case
+of proof of malfeasance.
+5.2 Block production
+Protocols for valid block production continually evolve in the SPoS forum. Initially they will
+include the following:
+1) Random selection of block producers according to availability stakes23. Each SPoS
+expert who wishes to be included in the random selection of the next block producer will
+submit availability stakes. Availability stakes are sem tokens an expert chooses to
+encumber in a standardized smart contract which is sent to the platform to signal their
+availability to produce blocks. The platform has a list of all potential producers with their
+availability stakes, and uses the list to randomly select the next producer, weighted
+according to stakes. When an expert is selected, part of their availability stakes are used to
+22 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain Infrastructure for Measuring Domain Specific
+Reputation in Autonomous Decentralized and Anonymous Systems (February 18, 2018). U of St. Thomas (Minnesota)
+Legal Studies Research Paper No. 18-11. Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/ssrn.3125822
+23 Cf., follow-the-Satoshi in CoA PoS: Iddo Bentov, Ariel Gabizon, & Alex Mizrahi, “Cryptocurrencies without Proof
+of Work”, 2014, (Online) Retrieved December 7th, 2017 https://arxiv.org/abs/1406.5694
+Whichever pseudo-random number generator is used must have an openly verifiable algorithm and seed in order to
+achieve consensus in this distributed system. Therefore we must guard against the possibility that a block producer
+will produce a block in such a way that they exert influence over the selection of future producers (this attack is called
+stake grinding, discussed above). E.g., if the protocol uses the time a block is deployed as the seed to select a future
+block, then a producer with a fast enough computer can calculate the correct time beforehand which will result in a
+favorable outcome.
+The seed platform uses is a hash of the joined symmetric keys that were submitted by all validators during the vote
+revealing process (see the platform paper) during the validation step in 4) below. The order of the join is from smallest
+to largest key. This protocol makes stake grinding impossible, even if only one validator is not colluding.
+15
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+pay for the opening of the validation pool for the block they produce, as described below.
+2) Regular production schedule. Time slots for producing a block will occur every 𝑇 =
+10seconds24. When a block producer is chosen according to the protocol in 1) they will be
+assigned a window 𝑁 = 100 blocks25 later.
+If block number 𝑥 is not produced during its scheduled time slot then it is empty, but its
+scheduled producer’s availability stakes are still sent to the validation pool by the
+availability stakes smart contract, to be judged by the SPoS bench. The bench may or may
+not punish the errant producer for failing to produce a block by downvoting the empty
+block, depending on the how the protocol established in the forum deals with the particular
+circumstance. Initially there will be no penalty for missing a block, except the lost
+opportunity to collect fees.
+3) Block production. The expert selected in step 1) will produce a block and submit it to the
+network in accordance with the protocols listed in the forum. This will include a Merkle
+tree of all the network transactions the producer chooses to include in the block and a
+pointer to a previous block.
+The producer’s final action is to send the block’s address to her original availability stake
+smart contract, which will send the block’s address, the producer’s address, and the
+availability stake to the platform in order to initiate a validation pool, which places the
+availability stakes as an upvote in the producer’s name.
+4) Validation26. Each block will be reviewed by a validation pool, which will form part of
+the consensus protocol (detailed in step 6, below). Along with the producer’s availability
+stakes, the total fees included with all transactions contained in the block will be sent in
+the block producer’s pseudonymous name to the platform with the block address posted to
+24 All parameters stipulated in this paper are provisional and will be continually optimized in the forum, as alluded
+before. In particular, this production schedule will depend on network latency.
+Blockchains do not know what time it is in the human world. They require an oracle (a trusted source of information)
+to add this information to the chain. The initial SPoS protocol for specifying the schedule is simply determined by
+human time (GMT). Precision is determined afterward, by the bench through the validation pool. The validators check
+if the block was published at the correct time. Thus incidentally, the SPoS blockchain is a clock oracle.
+25 These two parameters depend on network synchrony/latency assumptions. The larger the parameters are, the less
+synchrony is required for consensus.
+A blockchain with a regular block production schedule opens the following theoretical threat to availability: A DoS
+attack can be attempted where the known producer is prevented from submitting their block. This is not a serious
+problem with SPoS. There are many more producers in SPoS than in other protocols, and there is no need for any
+producer to identify themselves. The producer can send the transaction to the network from anywhere using public
+key authentication (salted with the previous block’s address) to prove the block is valid. So assuming there is enough
+time allotted in each window to submit a block more than once, producers can coordinate with an ally to surmount
+any DoS attack, even if their identity is compromised.
+Finally, if an ISP, government, corporation, any other entity does manage to shut down all the nodes within their
+power or jurisdiction, any user outside of their power who submits availability stakes will be able to continue
+production. Therefore SPoS satisfies freedom from deadlock.
+26 The validation step delays liveness/availability in exchange for security against less than ⅓ Byzantine users.
+16
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+the forum. This triggers a validation pool where the SPoS experts will verify the block
+production correctly, following the protocols agreed upon in the forum. In other words,
+expert SPoS validators will download the most recent validation algorithm upvoted in the
+forum. Faithfully running this algorithm on the block will automatically choose the correct
+vote to win the validation pool, rewarding honest validators, assuming users with 51% of
+sem token power act honestly. Honesty is defined as faithfully running the algorithm,
+unedited.
+Specifically, calling the platform to validate a block returns the following:
+a) Sem tokens in proportion to the fees contained in the block are minted and staked
+half in the block producers’ name as an upvote (this is the producer’s reward for
+their work) and half as a downvote27.
+b) The block producer’s availability stakes are staked as an additional upvote for the
+producer.
+c) SPoS experts may stake their sem tokens as up- or downvotes on the validity of the
+producer’s block.
+d) The voting window closes according to the parameter set by the bench in the forum.
+The platform calculates the result of the vote28.
+e) If the bench voted against the block, the producer loses her availability stakes
+(slashing) to those who voted against her. If the bench voted for the block, the
+producer receives the reward of half the newly minted sem tokens. Similarly any
+expert who staked tokens for or against the validity of the block wins or loses tokens
+in proportion to their stakes.
+f) In the event the block is validated, the fees sent with the block are distributed in a
+reputation-weighted salary to the entire bench. If the block is not validated, the fees
+naturally remain with the transactions and will be picked up later when they are
+validated in a successful block.
+There are two obvious perverse incentives to discuss:
+27 This opens the following hypothetical attack, which the reader should consider after digesting steps a) - f). The
+attack is naturally prevented by the protocols. Suppose the producer adds their own transactions with large fees during
+the producer’s block production window. In this case the fees are converted to sem tokens and staked half as upvotes
+and half as downvotes. The goal of the attack is to shift the balance of sem tokens with these newly added tokens. If
+the block is validated, the fees are disbursed to the entire active bench in the reputation-weighted salary, which is very
+expensive for the attacker. But if the attacker produces an invalid block, then the fees will not be disbursed in the
+salary, and the attacker can retract the high fee transaction before the next block picks up the transaction, and the
+malicious producer does not lose their fees. So the attacker can mint new tokens at will for only the cost of the gas
+fees. This attack only strengthens the platform.
+The newly minted tokens will be split amongst those who policed the block according to proper protocol. This only
+rewards those who properly followed protocol, and only punishes those who weren’t following protocol, or those who
+were not active. Therefore, this attack merely accelerates the natural inflation of the sem token, which improves
+security (see Section ***).
+28 While the voting window is open, the votes are hidden. This is accomplished by users sending a symmetrically
+encrypted vote, before the window closes, then sending the symmetric key after the vote finishes.
+A hash of the join of the alphabetic ordering of these symmetric keys is the seed for the pseudo-random number
+generator used for choosing the future producer.
+17
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+1) There is an incentive to validate a block to gain the fees sooner. This incentive is not
+particularly strong, since these small fees will be picked up a few seconds later in the rare
+occasion that a block is produced contrary to the automated protocols. So the incentive to
+validate a flawed block is outweighed by the incentive to maintain the integrity and value
+of the sem token by honestly following the protocols.
+2) There is an incentive to invalidate a block in order to gain a share of the producer’s
+availability stakes. This is simply not the correct perspective. Presumably, if the availability
+stakes were not automatically encumbered the producer would have used them to upvote
+the validation of the block anyway. So the little extra knowledge about the amount of
+availability stakes given as upvotes should not affect the votes of the rest of the bench.
+If the validation pool is given enough time (𝑡 → ∞) after a block is proposed, the block
+enjoys complete finality since the community has enough time to come to perfect
+consensus in evaluating whether the block was created according to stipulated protocols in
+the forum. However, in practice, a long validation time will conflict with the practical need
+for swift resolution. Since every step of validation is automated, validation pools will end
+within seconds. By forcing validation pools to end in finite time, we open the possibility
+of network partition and lack of genuine consensus which opens the possibility of forks,
+which we discuss further below.
+If a complete network outage precludes the possibility of a validation pool for block
+𝑥(because the voting period expires before network connectivity is restored) then the
+producer will win their availability stakes back, since ties go to the upvote, and the
+randomly chosen producer will not be punished. However, if this happens the validators’
+symmetric keys for the seed for the random selection of the producer of block 𝑥+𝑁 will
+be missing. In this case the producer of block 𝑥+𝑁 will be randomly chosen using the
+seed from the last block previous to 𝑥 whose validation pool did conclude, salted with the
+block number. This ensures any network outage shorter than the history of the blockchain
+will not eternally disrupt chain production. This addresses the availability/regeneracy
+problem: even if the network loses all but one node, block production will continue (which
+is also one definition of a decentralized system).
+5) Pointers. Each valid block contains one pointer to an earlier, validated block.
+Pointing to a block earlier than the block in the previous time slot creates a fork, which, if
+continued, will invalidate the skipped blocks29, leaving all unused transactions contained
+in the skipped blocks available for inclusion in future blocks. The fees that were previously
+distributed to the bench from the skipped blocks will no longer have valid histories in those
+skipped blocks, and so the fees’ ownership will automatically revert to the authors of the
+transactions contained in the skipped blocks. This creates a disincentive for validating such
+forks. Naturally, the protocol will automatically punish producers for skipping valid blocks
+29 In this case these skipped blocks will not be part of the chain consensus discussed in point 6). Such blocks are called
+orphans.
+18
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+by pointing to blocks too many time slots earlier (again, the specific protocol will be
+stipulated in the forum and will depend on current network performance).
+However, sometimes forking can be healthy, as for instance when correcting a Byzantine
+fault as discussed in the next step.
+6) Chain consensus, also known as the fork-choice rule, is determined by the chain with the
+largest weight of valid blocks. Weight is measured by summing the upvotes minus the
+downvotes30. Valid blocks have satisfied 1) through 5) above, i.e., they have valid
+producers, valid timestamps, valid successful validation pool, and valid pointers. (In order
+for this protocol to be consistent, it is assumed the contemporary validation algorithm in
+the forum properly verifies the transactions have the proper history through their hashes).
+Besides forking by pointing to a block earlier than the previous time slot, a second type of
+fork is possible when a producer creates two or more blocks in their time slot--a Byzantine
+fault called equivocation. If such an event is detected, both blocks will very likely be
+rejected in both validation pools and the malicious producer will lose their availability
+stakes to the validators who downvote the blocks. However, when the network is
+partitioned it is possible a malicious producer might be capable of publishing blocks in the
+appropriate subnets of the partition and winning each validation pool. In such an unlikely
+scenario, the producer would be blacklisted31 soon after network connectivity is restored.
+The next honest producer would point to a previous block and all Byzantine forks would
+be invalidated. If there are 51% honest producers the Byzantine fork would eventually be
+orphaned, since honest producers will outproduce the Byzantine producers and blacklist all
+who reveal themselves with dishonest application of the agreed upon protocols.
+Another protocol for preventing dishonest block production during network partition may
+be developed in the forum: a 67% active validator requirement. This number addresses the
+33% BFT threshold and is used in the Tendermint protocol. The idea is that the consensus
+protocol would only recognize blocks which have been validated by at least 67% of the
+active validators. An active validator is defined as a sem token holder who has participated
+in any of the past 100 blocks. This prevents any BFT block from being created during
+network partition, and greatly improves block finality32.
+However, choosing this 67% active validator requirement as part of the protocol has a
+downside. It arbitrarily punishes random producers with loss of their sem token rewards
+30 This is essentially the GHOST protocol from Yonatan Sompolinsky & Aviv Zohar, “Secure High-Rate Transaction
+Processing in Bitcoin (full version)”, Cryptology ePrint Archive, 2013. (Online) https://eprint.iacr.org/2013/881.pdf
+retrieved December 10, 2017.
+31 I.e., all the sem tokens used as availability stakes during their producer selection are burned. If a stronger punishment
+is possible, it will certainly be developed in the forum.
+32 Finality is the state where a block can confidently be considered to be permanently included in the chain. The idea
+is that any honestly reporting node will agree. This is also referred to as persistence or stability or immutability or
+safety in the literature.
+19
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+when the network is partitioned. More importantly, due to the CAP theorem33, it limits the
+availability of the system, which is why it is not included in the initial implementation. The
+platform naturally gives the bench the power to choose any parameter 0 ≤ 𝑝 ≤ 1 in place
+of the 𝑝 = .67 active validator requirement, depending on network performance, by
+adjusting the protocol in the forum.
+7) Self-referential architecture. The platform can be run on one blockchain and validate
+another. However, it is also possible to run the platform’s DApp, including its bench,
+forum, and validation pool, on the very blockchain that is validated through the platform.
+But this self-referential architecture destabilizes the system as it increases the likelihood of
+forks. Once a validation pool concludes, the platform will send a transaction to the
+blockchain which will be picked up in a future block, which itself needs to be validated by
+a future validation pool, ad infinitum. With this wrinkle, how is consensus reached?
+If the first block that included the validation pool’s transaction is not itself validated, that
+transaction is not deleted, it will eventually be picked up by some other block, which itself
+will eventually be validated, ad infinitum. So the ouroboros architecture destabilizes the
+system, but not catastrophically for most imagined uses.
+8) Forum contribution rewards. The entire bench shares all fees sent to the platform with
+SPoS experts in reputation weighted salaries. Sem is earned through 4 avenues: 1) joining
+the bench by sending a fee, 2) performing the work of block creation, 3) policing block
+creation through the validation pools, and 4) contributions to the forum. The first 3 rewards
+were discussed above. The fourth deserves some comments here.
+Protocols for block creation and evaluation, and protocol development and evaluation will
+continually evolve in the forum through contributions from experts in the SPoS tag.
+Whenever a contribution is added as a post to the forum, the bench stakes sem tokens to
+vote on it, and the winners are rewarded with the losers’ stakes. Each time a future post
+references it, the author is further rewarded according to the algorithm described in the
+platform paper.34
+6 Analysis
+The platform’s solutions for consensus protocols fall into 5 general categories: decentralization,
+efficiency, autonomy, anonymity, and most importantly, security.
+33 https://en.wikipedia.org/wiki/CAP_theorem
+34 Calcaterra, Craig and Kaal, Wulf A. and Andrei, Vlad, Blockchain Infrastructure for Measuring Domain Specific
+Reputation in Autonomous Decentralized and Anonymous Systems (February 18, 2018). U of St. Thomas (Minnesota)
+Legal Studies Research Paper No. 18-11. Available at
+SSRN: https://ssrn.com/abstract=3125822 or http://dx.doi.org/10.2139/ssrn.3125822
+20
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+1. Decentralization. SPoS inhibits the centralization problem35 which arises in all previous
+blockchains, whether they use bitcoin’s PoW or a flavor of PoS such as BitShare’s DPoS36
+or Ethereum’s Casper.37 In each of these cases, mining pools or block production cartels
+arise because lotteries, or voting delegations, or economy of scale38 give outsized rewards
+to powerful groups.
+Under most any PoS system, the economy of scale advantage is mitigated because doubling
+your computing power does not double your power to build blocks.
+SPoS solves the other decentralization threats, since there is only ever the incentive to be
+part of one block production cartel, the platform itself, because all fees are distributed fairly
+in a salary according to each user’s sem holdings39.
+Further decentralization is achieved under SPoS because it is easy for anyone to become a
+block producer and validator. This naturally encourages the widest possible distribution of
+stakeholding. So SPoS doesn’t suffer from the tragedy of the commons problems other
+mining protocols engender for 3 reasons. 1) Stakeholders are empowered to participate,
+since every one of them gains more sem tokens by running the validation programs most
+recently upvoted in the forum to police block creation. 2) Stakeholders are motivated to
+improve the collective value of sem so that their salary is increased, which only happens
+35 also called the monopoly problem
+36 https://bitshares.org/technology/delegated-proof-of-stake-consensus/
+37 Vitalik Buterin, “Incentives in Casper the Friendly Finality Gadget”, Ethereum Foundation, August 27, 2017,
+(Online) Retrieved December 7th, 2017 https://github.com/ethereum/research/blob/master/papers/casper-
+economics/casper_economics_basic.pdf
+38 E.g., building an ASIC farm of 1000 CPUs is far cheaper than 1000 people buying 1 CPU each.
+39 Multiple cartels cannot arise to attract fees, but might cartels arise where people want to join to get the extra sem
+tokens generated by being randomly selected? Certainly. The deterrence to this is that the randomness of the selection
+already does properly reward people proportionally to their holdings, if the speed of the selection of producers is
+sufficient to correctly sample everyone. Therefore there should be a limit to how many producers participate relative
+to the rate of block production.
+In an ideal market (we say while witnessing speculation bubbles which obviously preclude perfection) this limit would
+occur naturally. The number of people willing to invest money into the system would match the number of blocks
+being sent in, meaning the people willing to do the work of validation and block creation would appropriately match
+the fees the system attracts, and therefore the needs of the system would be perfectly met. The value of sem tokens
+should only ever be reflective of their value for attracting fees from the reputation-weighted salary. Consequently, in
+this imagined ideal market there would be no need to limit the acceptance of producers.
+However, when the need arises, the bench can institute protocols for rejecting applicants through the validation pool.
+Unfortunately this gives the incentive and opportunity for existing experts to completely block all new users, so the
+existing bench members share all the fees. The mechanism that limits this is that the sem tokens are only as valuable
+as the outside fees the blockchain attracts. If the blockchain loses confidence (due to centralization concerns, etc.) a
+new one can be easily cloned to replace it which has a superior makeup. Then any DApps which run on the first SPoS
+expertise can easily choose to switch to the competitor expertise’s fork, by only sending transactions which follow the
+new expertise’s protocols. In this situation forks are a good thing: forks recognize and empower minority opinions to
+serve the market.
+This freedom to clone and fork is also a valuable answer to the censorship problem: the protocols for transaction
+censorship will be clearly analyzable in the forum. Any minority which is being censored will create the incentive to
+clone the SPoS expertise and fork the chain in order to enable those transactions.
+21
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+when more fees are attracted, which happens when the platform is improved. 3) Rent-
+seeking stakeholders who do not participate in the validation process will generally suffer
+from the inflationary nature of the token.
+Finally the nature of the platform is decentralized in the sense40 that if all but one of the
+nodes goes offline unexpectedly, the blockchain will continue and can regenerate from the
+one node41. This is because the protocol chooses future producers from the existing
+availability smart contracts; and when a producer doesn’t submit a block, future producers
+are still chosen.
+2. Autonomy. The platform on a SPoS blockchain achieves perfect autonomy. The bench,
+the forum and the validation pool run off the platform’s smart contract which runs entirely
+on the gas of whatever blockchain it is posted to.
+Consensus is established in the forum, which is simply a collection of linked posts to the
+blockchain. Consensus on every suggested protocol upgrade, including program upgrades
+to the platform DApp itself, is determined entirely by the bench, after debate in the forum,
+when validation pools conclude. There is no need for any outside centralized foundation to
+organize protocol forks, such as deciding how and when to scale or shard to handle more
+transactions, or what the standards are for block creation and policing. All protocol
+upgrades are therefore handled swiftly, decisively, and openly, with minimal disruption,
+through the weighted democracy of sem-staked decision making.
+The incentive for developers to propose improved protocols on chain comes from the
+potential for reward given by the reference system in the forum WDAG. This allows future
+posts to reference development posts which initially attracted no fees, in order to share
+their fees as a matter of protocol.
+This also solves the debate over how to slash. There are, of course, infinitely many possible
+protocols for determining when and how an expert producer should be punished for
+producing a corrupt block, whether fighting against double spending/forking, or
+censorship, or other attacks. Whatever protocol is adopted will witness hacking/gaming
+attempts. The forum and validation pool will provide the evolutionary ecosystem for
+continually improving slashing protocols.
+3. Efficiency. Compared with PoW implementations, such as bitcoin and Ethereum, SPoS is
+far more computationally efficient. Nodes will no longer hash mine. They will check the
+validity of the blocks, but they do that under any blockchain. The only added computation
+is the validation pool which happens once for each block, where nodes send one
+transaction, an up- or downvote.
+40 This definition is attributed to Matthew Wampler-Doty as reported in: Vlad Zamfir, “The History of Casper,
+Chapter 5” Medium, December 30th, 2016 (Online) https://medium.com/@Vlad_Zamfir/the-history-of-casper-
+chapter-5-8652959cef58 retrieved December 10, 2017.
+41This is a type of liveness, technically called freedom from deadlock.
+22
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+4. Anonymity. Reputation is determined by actions validated on the platform, independent
+of any other establishment of identity. The most common actions are faithfully running the
+programs established in the forum to validate and produce blocks according to protocol.
+5. Security. Probity is assured via the positive feedback loop with properly aligned
+incentives.
+a. Fees from public users are shared with all experts through the reputation-weighted
+salary, so expert users are motivated to produce maximally useful blocks and to
+police other experts’ block production, in order for the system to attract more fees
+from public users.
+b. Finality for a block (the state where a block is confidently considered to be a
+permanent part of the chain) is measurable under SPoS.
+First, a measurable number of expert validators risked their sem tokens on the bet
+that the block was valid.
+Secondly, the sem that members gain from policing block production is equal to
+half of all fees sent since the production of the block. In order to fork a chain from
+that particular block, the community will lose all sem tokens created subsequently
+on the chain to be forked.
+Further, since the value of the sem tokens is in the promise of future fees, all token
+holders are motivated to maintain the long-term stability of the chain, and less
+motivated by arbitrage opportunities from malicious forks or censorship.
+c. Slashing42 is a natural part of SPoS through the loss of availability stakes, a strong
+disincentive for any violation of the hard protocols validated in the forum. This
+solves the nothing-at-stake problem (or tragedy of the commons problem)
+associated with previous chain-based PoS protocols.
+The possibility of review through references in the forum to change the value of
+sem tokens allows slashing to address more subtle, long-term patterns of “spirit of
+the law” soft protocol violations.
+d. Liveness faults43. When users don’t participate in block creation or validation they
+are naturally punished by a devaluation of their sem token holdings from the natural
+inflation of the token which occurs during token creation. This punishment is stable
+42 Vitalik Buterin, “Slasher: A Punitive Proof-of-Stake Algorithm”, Ethereum Blog, January 15th, 2014 (Online)
+https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/ retrieved December 10, 2017.
+43 Vitalik Buterin & Virgil Griffith, “Casper the Friendly Finality Gadget”, Ethereum Foundation, November 15th,
+2017. https://arxiv.org/pdf/1710.09437.pdf retrieved December 10, 2017
+and
+Vitalik Buterin, “Incentives in Casper the Friendly Finality Gadget”, Ethereum Foundation, August 27th, 2017.
+https://github.com/ethereum/research/blob/master/papers/casper-economics/casper_economics_basic.pdf
+23
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+in the sense that it does not dramatically and unfairly punish honest users who lose
+connectivity, so honest users do not lose security for their investment as nodes.
+e. Blacklists. Besides the slashing of availability stakes, producers and validators who
+demonstrate subtle, long-term patterns of protocol violation, such as censorship of
+transactions, may be added to blacklists developed in the forum. Then any new
+block produced by a token holder from the blacklist would be invalidated by
+majority vote. The openness of the blockchain allows analysis of past blocks in
+order to write these blacklists, and the validation pool ensures accuracy and fairness
+in their creation. Blacklisted users will not lose their tokens, which adds stability to
+the system, giving token holders confidence the system is not arbitrary and fickle.
+Blacklisted users will have the ability to argue their case in the forum using their
+tokens while they remain. While they are blacklisted, however, they will not be able
+to gain sem by producing any further successful blocks. Due to the natural inflation
+of the sem tokens, the blacklisted producers stakes will inevitably diminish in value
+as further blocks are produced.
+f. 51% attacks are inhibited in a measurable manner through the mechanisms
+described in a), c) and d) above, and because the feedback loop is closed and
+complete. (See Appendix A for proof.)
+In the various 51% attacks a group that owns a significant percentage of the
+governing tokens can profit at the expense of the platform and the other users by
+exerting their power. The 51% attack is particularly dangerous in decentralized
+systems with potentially anonymous users because there is usually no recourse to
+dispute resolution. Therefore if there is the opportunity to maliciously profit,
+someone in the world will certainly take advantage.
+One type of 51% attack is the arbitrage scenario where a group will buy up 51% of
+the tokens, make a short term profit at the expense of other users (double spending,
+editing, or censoring, e.g.) then quickly sell off the tokens before their value
+declines from the damage done.
+Almost all other blockchain platforms sell off a significant number of their tokens
+in an initial token sale, or mine them, or a combination of both. Either way, these
+tokens are almost always perfectly fungible currencies.
+The platform’s tokens herein are different than most every other platform’s tokens.
+They can theoretically be bought and sold by buying the anonymous user’s account.
+So sem tokens are valuable, but not perfectly fungible for 3 reasons.
+i. Sem tokens do not hold their value as well as other currencies, naturally
+experiencing significant deflation. This is because more sem tokens are
+added to the system every time a fee is sent to the platform, so their relative
+value in earning the reputation-weighted salary constantly diminishes. (See
+Appendix A.2.) Therefore, if they are not being used constantly to improve
+24
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+the platform (and thereby gain more sem tokens), they punish the users for
+holding them by losing relative value. This gives strong incentive for
+maintaining nodes and actively policing the system.
+ii. Sem tokens are not equally valuable to all people. People with the proper
+skills and knowledge in the expertise will naturally win more validation
+pools than others, thereby gaining more sem tokens, and ultimately more
+perfectly fungible currency through the reputation-weighted salary.
+iii. The value of a sem token derives from its position in the reference system
+in the WDAG. So each token is subject to a variable, relative value which
+may change in time.
+Therefore it is more difficult to attack the platform herein than other platforms by
+buying 51% of the sem tokens because 1) most of the tokens should be constantly
+in use, 2) more are being created all the time, 3) holding them for a long period of
+time without improving the platform (and earning more sem) is costly due to the
+natural inflation of the token, and 4) their value is difficult to determine since each
+token has a different value depending on the post in which it was minted. So it is
+almost impossible to execute a 51% attack by purchasing tokens on an exchange.
+Another attack vector is to buy the tokens directly from the platform, by sending
+fees to the platform. However, in this case even if the attack were successful, the
+attacker would lose a significant amount of money to achieve their goal, at least
+twice the entire historical value of the platform--more likely the factor would be 6
+times the total value (see Appendix A.1 for a proof). So the griefing factor is a
+minimum of 2 with an average of 6, and has no effect unless the platform is
+destroyed. Further, whether or not the platform is destroyed, all the fees would go
+entirely to the users who built the platform, who would profit significantly during
+the attack, even if successful.
+If such an attack were identified, users could stop it by policing the creation of new
+SPoS sem tokens, preventing any new users from gaining tokens. In this case, those
+tokens bought by the attacker would eventually lose value through natural inflation,
+and the attack would completely fail, while rewarding the users who honestly
+policed the attack.
+Finally, the extremely decentralized nature described in 1) above, makes it more
+difficult to achieve consensus between colluding whales in the platform herein than
+in other platforms, because power is naturally distributed more sparsely.
+g. The long-range attack is a common problem with PoS protocols, where a
+malicious producer may create a long list of blocks forked from an earlier valid
+25
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+block, because there is no PoW energetic outlay required to prevent this44.
+Essentially, a new node can join the network and see the genuine chain and a
+fabricated chain that is longer; then the new node, lacking the proof of work hashes,
+could not objectively distinguish which is correct. Casper and Tendermint solve
+this problem with a system of token locking.
+SPoS naturally prevents this attack without such locking, since a false chain cannot
+be manufactured with more total validation than the real chain. Validators’ public
+keys are used to vote (each vote is a transaction moving their sem tokens), so votes
+cannot be forged from existing sem tokens. Therefore, not even a single fake block
+can be produced which has a stronger number of upvotes in order to fabricate a
+stronger fork. In this sense SPoS uses the validation pool to create proof-of-strong-
+collaboration in place of bitcoin’s hash-mining proof-of-work to allow distributed
+verification of block validity.
+h. Perverse delegates. In any PoS protocol, especially DPoS, the motives of the
+producers are more likely to be avaricious than average, because those with
+perverse motives are more likely to make the effort to produce blocks and risk
+slashing. The ability to achieve clear consensus on validation protocols in the forum
+makes it easy to police adverse actions without the need for any extra incentive
+besides preserving the value of your sem token holdings.
+i. Sybil attacks are prevented with weighted voting, because all actions on the
+platform are fairly evaluated as determined by holdings of openly verified
+reputation; thus power is not increased by distributing it amongst cloned accounts
+j. Tyranny of the majority is inhibited since all actions are reviewed by users
+weighted by reputation (sem), so direct democracy does not dilute expertise.
+k. Stake grinding attack. In any decentralized PoS protocol there needs to be an
+automated mechanism for determining when and who produces a block. Generally
+it is a given that in a decentralized system, the selection should be random, weighted
+according to the producers’ stakeholdings. The randomness must be achieved with
+a pseudo-random number generator whose algorithm and seed must be available
+for verification by all nodes. If the protocol is not carefully chosen, this introduces
+an attack vector, called stake grinding, in which malicious producers might
+manipulate the seed in order to influence the selection in their favor.
+As discussed above, in SPoS the seed used is a hash of the joined alphabetized
+symmetric keys that were submitted by all validators during the vote revealing
+process. This protocol completely prevents stake grinding even if only one validator
+is not colluding.
+44 See Andrew Poelstra, “On Stake and Consensus”, March 2015, (Online) Retrieved December 7th, 2017
+https://download.wpsoftware.net/bitcoin/pos.pdf for a cogent criticism of many PoS protocols.
+26
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+l. Censorship can be good or bad for the platform. Good censorship includes
+preventing transactions which destroy the larger reputation of the platform, such as
+selling child pornography or chemical weapons. Bad censorship is more subtle,
+such as preventing competing organizations from registering transactions. Both
+types of censorship are naturally dealt with in the forum. Further, strong minority
+opinions at odds with the majority of validators have the freedom and power to
+create an alternate chain with different protocols within a new expertise in the
+platform.
+m. The 𝑷+𝝐 attack45 is no more effective than the 51% attack, because typical
+validators will be staking all their available sem tokens in each validation pool.
+n. Blockchain clones. We cannot prevent a malicious party from using Sybil accounts
+to copy the general structure of a successful PoS blockchain. They would need to
+create new public keys, but the cost would still be much (much) lower than it would
+to copy a PoW blockchain’s structure. Then, when a new user joins the network,
+how will they be able to distinguish a truly decentralized blockchain from a cloned
+blockchain that has manufactured an even larger number of tokens?
+The answer is, the same way a new internet user knows not to visit cloned web
+pages. Their UI is a trusted internet browser which steers them to a trusted search
+engine, which has ranked web pages throughout their history to distinguish their
+value. A trusted UI for interacting with blockchains has the same role.
+o. Soft protocol changes. There will always be changes in market forces, network
+performance, computing technology, cryptographic standards, social values, and
+the goals of any particular blockchain. Therefore there will always be the need to
+change block production and validation protocols. Therefore, in addition to the
+fundamental fact that no protocol is perfectly secure, there will always be the threat
+that the nodes will accept a deeply flawed protocol that can destroy a blockchain.
+If the protocol does not involve a decentralized medium for cheap and available
+communication that is eternally open to review, then the risks from centralization
+compound the danger.
+The means by which all current major blockchains achieve their soft forks is
+through private communication between famous token-holding whales and
+developers. This results in a state of governance which is completely counter to the
+blockchain design goals of decentralization, anonymity, and autonomy. Any
+blockchain subject to such governance is ultimately less secure than legacy
+centralized systems which pointedly address centralized security risks.
+Since soft protocol changes are a perpetual risk, proper incentivization for protocol
+upgrades is crucial. The forum is the needed decentralized medium for cheap and
+45 Vitalik Buterin, “The P + epsilon Attack”, Ethereum Blog, January 28th, 2015 (Online)
+https://blog.ethereum.org/2015/01/28/p-epsilon-attack/ retrieved January 23rd, 2018.
+27
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+available communication that is eternally open to review. The reference process of
+the forum WDAG rewards long-term protocol upgrades.
+7 Summary and Conclusion
+Any crypto platform or blockchain can employ the SPoS protocol to incorporate PoS by accessing
+the platform. The platform is a completely decentralized and autonomous smart contract which
+provides validated reputation, and it is secure against the Sybil attack, Tyranny of the majority
+problem, and the 51% attacks that have plagued all previous centralized and decentralized
+reputation verification systems. Given this secure reputation-weighted system, the stakes in SPoS
+are given by the reputation tokens and the protocols follow naturally.
+SPoS is more secure than other PoS protocols because it has a properly incentivized reward
+structure and an evolutionary mechanism allowing on-chain protocol development in response to
+inevitable attacks.
+This paper gives the details of the consensus protocols and analyzes how they ensure block finality,
+liveness, decentralization, autonomy, anonymity, efficiency, and especially security. Security
+concerns addressed include Byzantine faults, 51% attacks, stake grinding, the nothing-at-stake
+problem (tragedy of the commons), Sybil attacks, tyranny of the majority, liveness faults, DoS
+attacks, perverse delegates, censorship, and soft protocol changes.
+Appendix: calculations
+A.1 The price to purchase 51% of the sem tokens
+Here we demonstrate the attack resistance of the platform by showing that in the absolute worst-
+case scenario, the price to corrupt the system from within is a minimum of twice the total historical
+fees added to the system. If any obvious protections are instituted, the price to corrupt grows
+steeply.
+Consider the situation where the platform has a total of 𝑔 sem tokens at time 0. We will refer to
+8
+all these users as good-faith experts46. Imagine a malicious group 𝑚 wishes to purchase 51% of
+the total sem tokens with fees, either to profit from future transactions or to destroy trust in the
+particular expertise tag. Since only half of their fees are added as sem tokens for the malicious
+46 The good-faith experts do not need to behave altruistically; they are simply required to not collude with the new,
+malicious group and to act in their own self-interest to protect the value of their investments.
+28
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+group, and the other half will be added to the existing good-faith actors it is difficult to achieve the
+malicious goal, even in this worst-case scenario.
+Under the worst-case scenario, we suppose there are no safeguards against joining as an expert—
+any fee of any size is automatically accepted in the validation pool, and resolved instantly with no
+time delays. Finally we assume no other users are adding any fees.
+Under this scenario, the best strategy for the malicious group to gain sem tokens by paying fees is
+to make many micro-payments. In the same way that continuously-compounded interest is better
+than discrete interest at the same rate, micro-payments allow malicious users to profit off their own
+later fees once their earlier fees vest them with sem tokens.
+Thus we assume the malicious group 𝑚 will add a variable number 𝑛 of fixed fees of size ∆𝑥 ≪ 1.
+Then the good faith experts will have
+1 𝑔
+=
+𝑔 = 𝑔 + ∆𝑥( )
+=>? = 2 𝑔 +𝑛∆𝑥
+8
+sem tokens after 𝑛+1 fee payments from the malicious users, with 𝑔 being the initial total sem
+8
+tokens of the platform, while the malicious user will have
+1 𝑚 1
+=
+𝑚 = 𝑚 + ∆𝑥( )+ ∆𝑥
+=>? = 2 𝑔 +𝑛∆𝑥 2
+8
+sem tokens, with 𝑚 = 0. Therefore
+8
+∆𝑔 1 𝑔
+=>? =
+= ( )
+∆𝑥 2 𝑔 +𝑛∆𝑥
+8
+which becomes the ODE
+𝑑𝑔 1 𝑔
+= ( )
+𝑑𝑥 2 𝑔 +𝑥
+8
+as ∆𝑥 → 0. Similarly
+𝑑𝑚 1 𝑚 1
+= ( )+
+𝑑𝑥 2 𝑔 +𝑥 2
+8
+We want to know how many fees 𝑥 are required before the malicious group can overwhelm the
+system with 51% sem token power, so we solve 𝑔(𝑥) = 𝑚(𝑥) for 𝑥.
+Solving the ODEs using the method of integrating factors gives the formulas
+𝑔(𝑥) = D𝑔 E +𝑔 𝑥
+8 8
+and
+29
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+𝑚(𝑥) = 𝑥+𝑔 −D𝑔 E +𝑔 𝑥
+8 8 8
+So 𝑚 overwhelms the system once 𝑥 = 3𝑔 .
+8
+However, while the malicious users are paying their fees, they are also receiving salary payments
+that are increasing as they gain sem tokens. While paying the 3𝑔 in fees, the total salary regained
+8
+by the malicious group is
+IJK 𝑚(𝑥)
+H 𝑑𝑥 = 𝑔
+𝑚(𝑥)+𝑔(𝑥) 8
+8
+Consequently the malicious group would need to invest an absolute minimum of 2𝑔 , that is,
+8
+double the total sem tokens of the system to gain 50% power in the system in order to outvote the
+rest of the good-faith experts in the validation pool.
+We stress that the value of 2𝑔 is an extremely conservative lower bound. In practice, the
+8
+investments would need to be discrete values, not continuous. This significantly raises the
+minimum corrupting investment, and significantly lengthens the time needed to gain 51% power.
+Also, in practice many other users will be paying fees besides the malicious group, especially if
+the malicious group is pumping fees into the system.
+Assuming the malicious group does manage to take over the platform, the rest of the world would
+immediately see the unfair action that couldn’t be rectified by the good-faith actors, so the expertise
+tag would topple, losing its value. The malicious group would merely gain the (fraction) of the fee
+from one transaction. As long as any single fee is smaller than the total sem tokens, there is no
+incentive to game the system for fees.
+The only other reason to act maliciously is to destroy the particular expertise. But then the 2𝑔
+8
+invested becomes worthless. So the minimum cost at any time to topple the system is twice the
+total sem tokens—assuming you can simply buy sem tokens without limit or oversight.
+Therefore as long as the fees are low compared to the sem token total, or if there is no competitor
+that is suffering by the platform’s existence by more than twice the total number of sem tokens,
+it’s not worth spending money to corrupt the system—it is more valuable to use the power to
+improve the platform.
+Further, as fees are added, sem tokens are added, so it becomes more secure as time goes on, even
+assuming constant fees.
+Further, if a malicious group wishes to strike, their best strategy is to strike immediately. Their
+corrupt sem tokens become less valuable if they don’t use them, as each new fee they didn’t add
+to the system adds to other peoples’ tokens, diminishing the value of older tokens. So even if there
+are many different malicious groups, if no single malicious group gains 51% control, the system
+cannot be corrupted to unfairly earn fees.
+A malicious group is therefore limited to attempting to destroy the platform, by overwhelming it
+with fees. If that is happening, and there is a reasonable time-delay in resolving validation pools,
+30
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+then the incoming malicious fees would encourage other, non-colluding parties to invest as well.
+This would significantly slow the effort to gain 51% for the malicious group.
+Specifically, assume the good-faith experts invest some constant fraction 𝑐 of the malicious
+groups’ investment ∆𝑥 at each time. If 𝑐 ≥ 1then the malicious group will never gain more than
+50% power. So assume 0 < 𝑐 < 1. Then the equations become
+𝑑𝑔 1 𝑔 1
+= (1+𝑐)( )+ 𝑐
+𝑑𝑥 2 𝑔 +(1+𝑐)𝑥 2
+8
+and
+OP ? P ?
+= (1+𝑐)( )+
+OQ E JK>(?>R)Q E
+which are solved to give
+D𝑔 +(1+𝑐)𝑥
+𝑔(𝑥) = 8 (𝑐D𝑔 +(1+𝑐)𝑥+𝑔 ?/E)
+1+𝑐 8 8
+and
+D𝑔 +(1+𝑐)𝑥
+𝑚(𝑥) = 8 (D𝑔 +(1+𝑐)𝑥−𝑔 ?/E)
+1+𝑐 8 8
+Then the solution to 𝑔(𝑥) = 𝑚(𝑥)
+4 𝑔
+8
+𝑥 = [ −1]
+(1−𝑐)E 1+𝑐
+is the total amount the malicious group 𝑚 must invest, and they recover
+Q 𝑚(𝑥) 1 2𝑔 ?/E
+8
+H 𝑑𝑥 = W𝑥− [X𝑔 +(1+𝑐)𝑥−D𝑔 ]Y
+𝑚(𝑥)+𝑔(𝑥) 1+𝑐 1+𝑐 8 8
+8
+of those outlays through reputation-weighted salary. So the final cost to override the system when
+good-faith experts are investing the fraction 𝑐 of the malicious investment is
+4 𝑔 𝑐 2𝑔 ?/E
+8 8
+[ −3] + X𝑔 +(1+𝑐)𝑥
+(1−𝑐)E (1+𝑐)E (1+𝑐)E 8
+For instance, if the malicious group is doubling the investment of the rest of the community, then
+Z[
+𝑐 = 1/2 and 𝑥 = 10𝑔 of total sem tokens must be spent in fees, while more than 𝑔 ≈ 6.44𝑔
+8 8 8
+\
+will be lost.
+To improve simulations, we can also solve the recurrence relation directly, without moving to the
+ODEs, since the recurrence relation is first order and linear:
+31
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+1 𝑔 1
+=
+𝑔 = 𝑔 + (1+𝑐)∆𝑥( )+ 𝑐
+=>? = 2 𝑔 +𝑛(1+𝑐)∆𝑥 2
+8
+has solution
+𝑔 1 𝑔
+((1+𝑐)∆𝑥−𝑐)𝛤(1+ 8 )𝛤(𝑛+ + 8 )
+𝑔 𝑐 (1+𝑐)∆𝑥 2 (1+𝑐)∆𝑥
+8
+𝑔 = +𝑛𝑐+
+=>? (1+𝑐)∆𝑥 1 𝑔 𝑔
+𝛤( + 8 )𝛤(𝑛+ 8 )
+2 (1+𝑐)∆𝑥 (1+𝑐)∆𝑥
+where 𝛤 is the gamma function, while
+1 𝑚 1
+=
+𝑚 = 𝑚 + (1+𝑐)∆𝑥( )+ ∆𝑥
+=>? = 2 𝑔 +𝑛(1+𝑐)∆𝑥 2
+8
+has solution
+∆Q_(?>
+‘K
+)_(=>
+a
+>
+‘K
+)
+𝑚 = JK +𝑛∆𝑥− (abc)∆d e (abc)∆d .
+=>?
+?>R _(
+a
+>
+‘K
+)_(=>
+‘K
+)
+e (abc)∆d (abc)∆d
+A.2 Natural sem token inflation
+In this section we illustrate the value of one sem token with a few calculations. This demonstrates
+the value of an investment in sem tokens in the platform without using its power to evaluate posts.
+The conclusion is that the economy is inflationary at equilibrium, which improves its security and
+discourages rent-seeking.
+One sem token loses value if fees are constantly added in time.
+If fees are being paid into an expertise tag at a constant rate of 𝐹(𝑡) = 𝑟 units per time, then the
+salary paid for one coin decreases in time. To see this, denote the total number of sem tokens in
+the tag at time 𝑡 by 𝑇(𝑡). The salary per token per unit time is 𝑆 = 𝐹/𝑇. However, since each fee
+token creates a new sem token, we have
+𝑇(𝑡) = 𝑇(0)+𝑟𝑡
+so
+𝑟
+𝑆(𝑡) =
+𝑇(0)+𝑟𝑡
+which shrinks to 0 as time goes on.
+One sem token loses value if fees grow linearly in time.
+If the fees are given by 𝐹(𝑡) ≔ 𝑐𝑡 then the sem token recurrence relation 𝑇(𝑡+1) = 𝑇(𝑡)+𝐹(𝑡)
+can be solved to give
+𝑇(𝑡) = 𝑇(0)+𝐹(0)+𝑐𝑡(𝑡−1)/2
+32
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+so
+Rk
+𝑆(𝑡) =
+l(8)>m(8)>Rk(kn?)/E
+which still shrinks to 0 as time goes on.
+One sem token pays constantly if fees grow exponentially in time.
+If the fees are given by 𝐹(𝑡) ≔ 𝐹(0)𝑒Rk then a sem token satisfies the recurrence relation 𝑇(𝑡+
+1) = 𝑇(𝑡)+𝐹(𝑡) which may be solved to give
+𝑒Rk −1
+𝑇(𝑡) = 𝑇(0)+𝐹(0)
+𝑒p −1
+so
+𝑆(𝑡) = m = m(8)rcs → 𝑒p −1
+q tcsua
+q(8)>m(8)
+tvua
+as 𝑡 → ∞.
+Early sem tokens are more valuable than later tokens.
+All sem tokens in a single expertise tag are equal at any given moment. However, assuming a
+steady state rate of fees, the payout for 1 year from inception is greater for tokens minted earlier,
+because later tokens are a smaller percentage of the total. Remember, new tokens are created with
+every fee paid into the platform, but never destroyed.
+This may mean later experts have less motivation to join if fees paid into the system are at a steady
+state. To combat this, the bench may choose to change the exchange rate between fees and sem
+tokens to encourage new recruits.
+References
+Iddo Bentov, Ariel Gabizon, & Alex Mizrahi, “Cryptocurrencies without Proof of Work”, 2014,
+(Online) Retrieved December 7th, 2017 https://arxiv.org/abs/1406.5694
+Blackcoin, “Security Analysis of Proof-of-Stake Protocol v3.0”, October 17th, 2016, (Online)
+Retrieved December 7th, 2017 https://bravenewcoin.com/assets/Whitepapers/Blackcoin-POS-
+3.pdf
+Gabriel Bracha, “Asynchronous Byzantine agreement protocols”, Information and Computation,
+Volume 75, Issue 2, November 1987, pp. 130-143.
+33
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+Ethan Buchman, “Tendermint: Byzantine Fault Tolerance in the Age of Blockchains”, Master’s
+Thesis, The University of Guelph, June, 2016. (Online) Retrieved December 7th, 2017
+https://atrium.lib.uoguelph.ca/xmlui/bitstream/handle/10214/9769/Buchman_Ethan_201606_MA
+sc.pdf?sequence=7&isAllowed=y
+Vitalik Buterin, “Automated Censorship Attack Rejection”, Ethereum Foundation, August 15th,
+2017 (Online) Retrieved December 7th, 2017
+https://github.com/ethereum/research/blob/master/papers/censorship_rejection/censorship_rejecti
+on.pdf
+Vitalik Buterin, “Incentives in Casper the Friendly Finality Gadget”, Ethereum Foundation,
+August 27, 2017, (Online) Retrieved December 7th, 2017
+https://github.com/ethereum/research/blob/master/papers/casper-
+economics/casper_economics_basic.pdf
+Vitalik Buterin, “Ethereum: A next-generation smart contract and decentralized application
+platform”, 2014. (Online) Retrieved December 7th, 2017
+https://github.com/ethereum/wiki/wiki/White-Paper
+Vitalik Buterin, “The P + epsilon attack”, 2015, (Online) Retrieved December 7th, 2017
+https://blog.ethereum.org/2015/01/28/p-epsilon-attack/
+Vitalik Buterin, “Slasher: A Punitive Proof-of-Stake Algorithm”, Ethereum Blog, January 15th,
+2014 (Online) https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/
+retrieved December 10, 2017.
+Vitalik Buterin, “The P + epsilon Attack”, Ethereum Blog, January 28th, 2015 (Online)
+https://blog.ethereum.org/2015/01/28/p-epsilon-attack/ retrieved January 23rd, 2018.
+Vitalik Buterin, et al., “Proof of Stake FAQ”, edited October 30, 2017,
+https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ retrieved December 10, 2017.
+Vitalik Buterin & Virgil Griffith, “Casper the Friendly Finality Gadget”, Ethereum Foundation,
+November, 15, 2017. https://arxiv.org/pdf/1710.09437.pdf retrieved December 10, 2017.
+Jing Chen & Silvio Micali, “ALGORAND”, May 2017, (Online) Retrieved December 7th, 2017
+https://arxiv.org/pdf/1607.01341.pdf
+Luis Cuende & Jorge Izquierdo, “Aragon Network: A decentralized infrastructure for value
+exchange, Version 1.1”, April 20th, 2017, (Online) Retrieved December 7th, 2017
+https://aragon.one/network/
+Phil Daian, Rafael Pass, & Elaine Shi, “Snow White: Robustly Reconfigurable Consensus and
+Applications to Provably Secure Proofs of Stake” Retrieved December 7th, 2017 (Online)
+Retrieved December 7th, 2017 https://eprint.iacr.org/2016/919
+34
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+Isabella Dell, Oliver Beddows, Laurent Meunier, Max Kordek, “The Lisk Protocol”, Retrieved
+December 7th, 2017, (Online) Retrieved December 7th, 2017 https://docs.lisk.io/v1.3/docs/the-
+lisk-protocol
+Richard Dennis & Gareth Owen, “Rep on the block : A next generation reputation system based
+on the blockchain”, The 10th International Conference for Internet Technology and Secured
+Transactions, 2015. (Online) Retrieved December 7th, 2017 http://www.the-
+blockchain.com/docs/A%20next%20generation%20reputation%20system%20based%20on%20t
+he%20blockchain.pdf
+Evan Duffield & Daniel Diaz, “Dash: A Privacy-Centric Crypto-Currency”, March 2017,
+(Online) Retrieved December 7th, 2017 https://github.com/dashpay/dash/wiki/Whitepaper
+Fred Ehrsam, “Funding the Evolution of Blockchains”, Medium.com, August 24th, 2017,
+(Online) Retrieved December 7th, 2017 https://medium.com/@FEhrsam/funding-the-evolution-
+of-blockchains-87d160988481
+Fred Ehrsam, “Blockchain Governance: Programming Our Future”, Medium.com, November
+27th, 2017, (Online) Retrieved December 7th, 2017 https://medium.com/@FEhrsam/blockchain-
+governance-programming-our-future-c3bfe30f2d74
+Robert C. Ellickson, Order without Law: How Neighbors Settle Disputes, Harvard University
+Press, 1994.
+F. Randall Farmer & Bryce Glass, Building Web Reputation Systems, Yahoo Press, 2010.
+Michael J. Fischer, Nancy A. Lynch, & Michael S. Paterson, “Impossibility of Distributed
+Consensus with One Faulty Process”, Journal of the Association for Computing Machinery,
+Volume 32, Number 2, April 1985, pp. 374-382. Available Online
+https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf retrieved December 10, 2017.
+L.M Goodman, “Tezos: A Self-Amending Crypto-Ledger; Position Paper”, August 2014,
+(Online) Retrieved December 7th, 2017 https://www.tezos.com/static/papers/position_paper.pdf
+Gnosis Whitepaper 05.04.2017, (Online) Retrieved December 7th, 2017
+https://gnosis.pm/resources/default/pdf/gnosis_whitepaper.pdf
+Zackary Hess, Yanislav Malahov, Jack Pettersson, “Æternity blockchain: The trustless,
+decentralized and purely functional oracle machine, DRAFT”, December 28, 2016. (Online)
+Retrieved December 7th, 2017 https://aeternity.com/aeternity-blockchain-whitepaper.pdf
+Aggelos Kiayias, Alexander Russell, Bernardo David, & Roman Oliynykov, “Ouroboros: A
+Provably Secure Proof-of-Stake Blockchain Protocol”, August 2017, (Online) Retrieved
+35
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+December 18th, 2017 https://eprint.iacr.org/2016/889 Update available at
+https://cardanodocs.com/cardano/proof-of-stake/
+S. King and S. Nadal. “Ppcoin: Peer-to-peer crypto-currency with proof-of-stake”, 2012,
+(Online) Retrieved December 7th, 2017 https://peercoin.net/assets/paper/peercoin-paper.pdf
+Küpçü A., Lysyanskaya A., “Optimistic Fair Exchange with Multiple Arbiters”, In: Gritzalis D.,
+Preneel B., Theoharidou M. (eds) Computer Security – ESORICS 2010. Lecture Notes in
+Computer Science, vol 6345, Springer, 2010.
+Jae Kwon, “Tendermint: Consensus without mining“, 2014, (Online) retrieved December 10,
+2017 https://tendermint.com/static/docs/tendermint.pdf
+Manuel Sebastian Mariani, Mat ́uˇs Medo, & Yi-Cheng Zhang, “Ranking nodes in growing
+networks: When PageRank fails”, Nature, November 2015.
+Andrew Miller, Yu Xia, Kyle Croman, Elaine Shi, & Dawn Song, “The Honey Badger of BFT
+Protocols”, February 2016, (Online) Retrieved December 7th, 2017
+https://eprint.iacr.org/2016/199
+Alias, et al., “Nxt Whitepaper”, Revision 4, Nxt v1.2.2, July 2014, (Online) Retrieved December
+7th, 2017 https://bravenewcoin.com/assets/Whitepapers/NxtWhitepaper-v122-rev4.pdf
+Satoshi Nakamoto, “Bitcoin: A peer-to-peer electronic cash system”, 2008, [Online] Retrieved
+December 7th, 2017 https://bitcoin.org/bitcoin.pdf
+“NEM Technical Reference” Version 1.0, May 2015, (Online) Retrieved December 7th, 2017
+https://nem.io/wp-content/themes/nem/files/NEM_techRef.pdf
+Elinor Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action,
+Cambridge University Press, 1990.
+Jack Peterson & Joseph Krug, “Augur: a Decentralized, Open-Source Platform for Prediction
+Markets”, (Online) Retrieved December 7th, 2017
+https://bravenewcoin.com/assets/Whitepapers/Augur-A-Decentralized-Open-Source-Platform-
+for-Prediction-Markets.pdf
+Andrew Poelstra, “On Stake and Consensus”, March 2015, (Online) Retrieved December 7th,
+2017 https://download.wpsoftware.net/bitcoin/pos.pdf
+Alex Rea, Aron Fischer, Jack du Rose, “COLONY, Technical White Paper 20170920”, (Online)
+Retrieved December 7th, 2017 https://colony.readme.io/docs
+Yonatan Sompolinsky & Aviv Zohar, “Secure High-Rate Transaction Processing in Bitcoin (full
+version)”, Cryptology ePrint Archive, 2013. (Online) https://eprint.iacr.org/2013/881.pdf
+retrieved December 10, 2017.
+36
+Electronic copy available at: https://ssrn.com/abstract=3125827
+
+Alexis deTocqueville, Democracy in America, 1835. (Harvey Mansfield and Delba Winthrop,
+trans., ed., University of Chicago Press, 2000.)
+Chjango Unchained, “Consensus Compare: Casper vs. Tendermint”, Cosmos, November 16th,
+2017, (Online) Retrieved December 7th, 2017 https://blog.cosmos.network/consensus-compare-
+casper-vs-tendermint-6df154ad56ae
+Chjango Unchained, “Consensus Compare: Tendermint BFT vs. EOS dPoS”, Cosmos,
+September 29th, 2017, (Online) Retrieved December 7th, 2017
+https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b
+Timo Hanke, Mahnush Movahedi and Dominic Williams, “DFINITY Technology Overview
+Series; Consensus System, Rev.1”, January 23rd, 2018. (Online) Retrieved January 28th, 2018
+https://dfinity.org/pdf-viewer/pdfs/viewer?file=../library/dfinity-consensus.pdf
+Gavin Wood, “Polkadot: Vision for a Heterogeneous Multi-chain Framework”, Draft 1,
+December 2016, (Online) Retrieved December 7th, 2017 https://github.com/polkadot-
+io/polkadot-white-paper/blob/master/PolkaDotPaper.pdf
+Vlad Zamfir, “Casper the Friendly Ghost: A ‘Correct-by-Construction’ Blockchain Consensus
+Protocol DRAFT v0.1”, Ethereum Foundation, December 18, 2017. (Online)
+https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf retrieved
+January 24th, 2018.
+Vlad Zamfir, “The History of Casper, Chapters 1-5” Medium, December 30th, 2016 (Online)
+https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-5-8652959cef58 retrieved
+December 10, 2017.
+37
+Electronic copy available at: https://ssrn.com/abstract=3125827
+

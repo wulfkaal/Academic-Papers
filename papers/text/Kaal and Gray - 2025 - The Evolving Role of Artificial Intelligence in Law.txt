@@ -1,0 +1,1502 @@
+Version 6 - August 2025
+The Evolving Role of Artificial Intelligence in Law
+Wulf Kaal, Ph.D.1 & Morgan Gray, J.D.2
+Abstract
+Artificial Intelligence (AI) drives legal innovation. By integrating advanced machine learning,
+natural language processing, and large language models, AI achieves remarkable
+precision, with models like those for the European Court of Human Rights predicting case
+outcomes at 97% accuracy. This study’s unique contribution lies in its comprehensive
+analysis of AI’s technical foundations, particularly the application of transformer-based
+architectures and multimodal data integration, which enhance predictive accuracy and
+judicial reasoning. From a scientific perspective, it critically evaluates AI’s limitations, such
+as biases in training data and remaining hallucinations, offering a novel framework for
+hybrid human-AI approaches to mitigate these risks. By addressing research gaps,
+regulatory frameworks, and stakeholder perceptions, the article provides a scientifically
+grounded roadmap for responsibly integrating AI into legal practice, ensuring alignment with
+justice principles. Finally, the article shows how evolving AI research drives innovation in
+law.
+Key Words: Artificial Intelligence, AI Models, Governance, Law
+JEL Categories: K20, K23, K32, L43, L5, O31, O32
+1 Professor of Law. University of St. Thomas School of Law (Minnesota). The authors are grateful for
+excellent research assistance by Klara Beinhorn and research librarian Adam Bent.
+2 Assistant Professor of Law. University of St. Thomas School of Law (Minnesota)(Spring 2026). The
+author is a Ph.D. candidate in Intelligent Systems, at the University of Pittsburgh, School of Computing
+and Information.
+1
+
+Version 6 - August 2025
+Table of Contents
+I. Introduction...............................................................................................................................4
+II. Historical Context and Evolution of AI in Legal Systems....................................................5
+Early Beginnings: Philosophical and Computational Foundations...........................................5
+The 1980s: Rise of Legal Expert Systems...............................................................................6
+The 1990s–2000s: Research in Case-Based Reasoning and Integration of Machine
+Learning...................................................................................................................................7
+The 2010s: Deep Learning and Predictive Analytics...............................................................9
+The 2020s: Large Language Models and Global Expansion...................................................9
+Key Milestones and Technological Advancements................................................................10
+III. Current Applications of AI in Legal Practice......................................................................11
+Legal Research......................................................................................................................11
+Predictive Analytics................................................................................................................12
+Judicial Decision-Making Tools..............................................................................................13
+Other Notable Applications....................................................................................................13
+Challenges and Considerations.............................................................................................14
+IV. Technical Foundations of Predictive AI Analytics.............................................................15
+Methodologies of Predictive AI Analytics...............................................................................15
+A. Machine Learning Algorithms......................................................................................15
+B. Natural Language Processing.....................................................................................16
+C. Generative AI for Reasoning.......................................................................................17
+Data Sources for Predictive AI Analytics...............................................................................17
+A. Structured Data...........................................................................................................18
+B. Unstructured Data.......................................................................................................18
+C. Free Legal Information Resources..............................................................................18
+D. Challenges with Data..................................................................................................19
+Accuracy Assessments of Predictive AI Analytics.................................................................19
+A. Accuracy Metrics.........................................................................................................19
+B. Empirical Evaluations..................................................................................................19
+C. Explainability and Trustworthiness..............................................................................20
+Insights from the Artificial Intelligence and Law Journal........................................................20
+V. Ethical and Legal Implications.............................................................................................20
+Bias in AI Judicial Systems....................................................................................................21
+Transparency and Interpretability..........................................................................................21
+Accountability in AI Judicial Functions...................................................................................22
+Fairness and the Human Element in Judging........................................................................22
+Additional Ethical and Legal Considerations.........................................................................23
+VI. Benefits and Limitations of AI in Legal Solutions.............................................................24
+Benefits of AI in Legal Practice..............................................................................................24
+A. Efficiency.....................................................................................................................24
+B. Accuracy......................................................................................................................24
+2
+
+Version 6 - August 2025
+C. Access to Justice.........................................................................................................25
+Limitations of AI in Legal Practice..........................................................................................25
+A. Contextual Understanding...........................................................................................25
+B. Overreliance and Errors..............................................................................................26
+C. Bias and Ethical Challenges........................................................................................26
+Balancing Benefits and Limitations........................................................................................27
+VII. Regulatory Frameworks.....................................................................................................27
+Existing Regulatory Frameworks...........................................................................................28
+A. European Union: The AI Act and High-Risk Classifications........................................28
+B. United States: Fragmented Oversight and Ethical Guidelines....................................28
+C. China: Ethical Norms and Auxiliary Role Clarification.................................................29
+Proposed Regulatory Frameworks........................................................................................29
+A. Bias Audits and Fairness Standards...........................................................................29
+B. Explainable AI and Transparency Requirements........................................................30
+C. Human Oversight and Judicial Independence.............................................................30
+Challenges in Regulation.......................................................................................................30
+IX. Research Gaps in the Judicial Application of AI...............................................................31
+Lack of Longitudinal Studies on AI’s Judicial Impact.............................................................31
+Limited Focus on Non-Western Legal Systems.....................................................................32
+Insufficient Exploration of Real-World Judicial AI Applications..............................................32
+Underdeveloped Ethical and Regulatory Frameworks..........................................................33
+Limited Understanding of Public Trust and Societal Impacts.................................................33
+XI. Future Trends.......................................................................................................................34
+Advancements in Predictive Analytics...................................................................................34
+A. Improved Algorithms for Complex Legal Datasets......................................................34
+B. Integration of Multimodal Data.....................................................................................35
+C. Global Expansion and Accessibility.............................................................................35
+Advancements in Judicial Simulation....................................................................................36
+A. Sophisticated LLMs for Judicial Reasoning.................................................................36
+B. AI as Virtual Arbitrator or Mediator..............................................................................36
+C. Advanced Artificial Judicial Intelligence (AAJI)............................................................37
+XII. Conclusion...........................................................................................................................37
+3
+
+Version 6 - August 2025
+I. Introduction
+The integration of AI into legal systems represents a transformative shift in the
+administration of justice, offering unprecedented opportunities to enhance efficiency,
+precision, and accessibility while posing complex ethical, technical, and regulatory
+challenges. From early philosophical inquiries into mechanized intelligence to the advent of
+sophisticated large language models (LLMs) in the 2020s, AI has evolved into a powerful
+tool for legal research, predictive analytics, and judicial decision-making.3 Predictive AI
+analytics, capable of forecasting case outcomes with up to 97% accuracy, and judicial
+simulation, exemplified by generative AI drafting judicial opinions, promise to streamline
+legal processes and alleviate caseload pressures in overburdened systems.4 Yet, issues
+such as algorithmic bias, transparency deficits, and the inability to replicate human empathy
+underscore the need for careful integration.5
+This article examines the evolving role of AI in legal solutions, with a specific focus on
+predictive analytics and judicial simulation. Its objectives are to trace AI’s historical
+development, analyze its current applications, explore technical foundations, evaluate
+ethical and legal implications, assess stakeholder perceptions, identify research gaps,
+review regulatory frameworks, compare human and AI performance, and forecast future
+trends. We balance technological innovation with the imperatives of fairness, accountability,
+and judicial integrity, addressing a critical juncture in legal practice where AI’s potential must
+be harnessed responsibly.6
+The article is structured to first provide a historical context, followed by detailed analyses of
+current applications, technical underpinnings, ethical considerations, stakeholder views,
+research deficiencies, regulatory approaches, performance comparisons, and anticipated
+developments, culminating in a synthesis of findings to guide the responsible integration of
+AI in legal systems.
+3 Harry Surden, Artificial Intelligence and Law—An Overview of Recent Technological
+Changes in Large Language Models and Law, 96 COLO. L. REV. 376, 376–77 (2025); Arlindo
+L. Oliveira & Mário A. T. Figueiredo, Artificial Intelligence: Historical Context and State of the
+Art, in 58 L., GOVERNANCE & TECH. SERIES, MULTIDISCIPLINARY PERSPECTIVES ON ARTIFICIAL
+INTELLIGENCE AND THE LAW 3, 3–4 (Henrique Sousa Antunes, et al. eds., 2024).
+4 Joe Collenette, Katie Atkinson & Trevor Bench-Capon, Explainable AI Tools for Legal
+Reasoning About Cases: A Study on the European Court of Human Rights, 317 A.I. 1, 3
+(2023); Liu & Li, supra note 4, at 236.
+5 Andrej Krištofík, Bias in AI (Supported) Decision Making: Old Problems, New
+Technologies, 16 INT’L J. CT. ADMIN. 235, 237 (2025); Francesco Contini, Alessandra
+Minissale & Stina Bergman Blix, Artificial Intelligence and Real Decisions: Predictive
+Systems and Generative AI vs. Emotive-Cognitive Legal Deliberations, 9 FRONTIERS IN SOCIO.
+Oct. 2024, at 4.
+6 Yatama Zahra, Regulating AI in Legal Practice: Challenges and Opportunities, 3 J.
+COMPUT.ER SCI. APPLICATION & ENG’G 10, 11 (2025); Faisal Awais, Aatir Rizvi & Kashif Javed,
+Harmonizing Innovation and Ethics: The Complex Landscape of Artificial Intelligence in
+Legal Practice, 3 CRITICAL REV. SOC. SCI. STUD. 2639, 2640 (2025).
+4
+
+Version 6 - August 2025
+II. Historical Context and Evolution of AI in Legal Systems
+The historical evolution of AI in legal systems reflects a trajectory from philosophical
+speculation to practical, transformative tools. Early expert systems of the 1980s laid the
+groundwork, models of case-based reasoning, logical formalisms, and legal knowledge
+representation rose as important and influential areas of research7, followed by machine
+learning and deep learning advancements that expanded AI’s capabilities in legal research
+and predictive analytics. The rise of LLMs in the 2020s marks a new frontier, offering
+unprecedented performance but also raising ethical and regulatory challenges. Key
+milestones, such as the establishment of the International Conference on AI and Law
+(ICAIL) and the proliferation of transformer-based models, underscore the field’s progress.
+As AI continues to evolve, its integration into legal practice must balance efficiency and
+innovation with the principles of justice and fairness, ensuring that technological
+advancements serve the public interest.
+Early Beginnings: Philosophical and Computational Foundations
+The concept of AI in legal systems is rooted in centuries-old philosophical inquiries into
+whether intelligence could be mechanized. Thinkers like Thomas Hobbes posited that
+intelligence might result from computational processes, laying a conceptual groundwork for
+later AI developments.8 In the 19th century, Charles Babbage and Ada Lovelace’s work on
+programmable machines introduced practical mechanisms for computation, suggesting that
+machines could perform tasks beyond mere calculation.9 These early ideas were
+speculative but set the stage for 20th-century advancements.
+The formal inception of AI as a field is often traced to Alan Turing’s work in the 1940s,
+particularly his exploration of whether machines could think, exemplified by the Turing
+Test.10 Turing’s contributions, alongside Norbert Wiener’s cybernetics, established that
+machines could process information in ways analogous to human reasoning, a principle
+critical to legal applications.11 These developments provided the theoretical and technical
+foundations for applying computational methods to law, though practical applications
+remained limited until the advent of more powerful computers.
+7Guido Governatori, Trevor Bench-Capon, Bart Verhejj, Michal Araszkiewicz, Enrico
+Francesconi & Matthias Grabmair, Thirty years of Artificial Intelligence and Law: The
+First Decade, 30 A.I. & L. 481, 483-84 (2022).
+8 Oliveira & Figueiredo, supra note 3, at 3-4.
+9 Oliveira & Figueiredo, supra note 3, at 4.
+10 Bruce G. Buchanan, A (Very) Brief History of Artificial Intelligence, 26 AI MAGAZINE
+53, 54 (2005).
+11 Oliveira & Figueiredo, supra note 3, at 4–5.
+5
+
+Version 6 - August 2025
+The 1980s: Rise of Legal Expert Systems
+The 1980s marked a significant milestone with the development of legal expert systems,
+which aimed to emulate human legal reasoning through rule-based programming. These
+systems encoded legal rules and knowledge into software, enabling automated
+decision-making for specific legal domains.12 The DataLex Project, for instance, was a
+pioneering effort that developed both commercial and non-commercial systems, focusing on
+integrating legal decision-support tools rather than fully autonomous “robot lawyers”.13 W-LES, a
+system by Don Waterman that produced recommended settlement values (with accompanying
+explanations) for product liability claims.14 Some early AI systems tackled question-answering
+tasks—such as simulating issues from 1L contract exams15—while others focused on
+formalizing statutes; for example, Marek Sergot’s program translated the British Nationality Act
+into logical form so that, given an input scenario, the system could reason and draw a
+conclusion.16 These systems were designed to assist with legal advice, particularly for free legal
+services, by leveraging structured knowledge bases.17
+During this period, the International Conference on AI and Law, first held in 1987, became a
+pivotal platform for advancing the field. The conference facilitated discussions on rule-based
+systems and their applications in legal reasoning, marking the formalization of AI and law as
+a distinct research discipline.18 However, early expert systems were brittle, struggling with
+unforeseen complexities and lacking the ability to generalize beyond their programmed
+12 Graham Greenleaf, Andrew Mowbray & Philip Chung, Building Sustainable Free Legal
+Advisory Systems: Experiences from the History of AI & Law, 34 COMPUT. L. & SEC. REV.
+314, 315 (2018).
+13 Id. at 315–16.
+14 KEVIN D. ASHLEY, ARTIFICIAL INTELLIGENCE AND LEGAL ANALYTICS: NEW TOOLS FOR LAW PRACTICE
+DIGITAL AGE 8-10 (2017) (citing DONALD A. WATERMAN & MARK A. PETERSON, MODELS OF LEGAL
+DECISION MAKING: RESEARCH DESIGN AND METHODS (Rand Corporation, the Institute for Civil
+Justice 1981).
+15 Id. at 18 (citing ANNE VON DER LIETH GARDNER, AN ARTIFICIAL INTELLIGENCE APPROACH TO LEGAL
+REASONING (MIT Press 1987)).
+16 Id.at 47 (citing Marek J. Sergot et al., The British Nationality Act as a Logic Program, 29
+COMMC’N ACM 370 (1986).
+17 Greenleaf et al., supra note 12, at 316.
+18 Trevor Bench-Capon et al., A History of AI and Law in 50 Papers: 25 Years of the
+International Conference on AI and Law, 20 A.I. L. 215, 216 (2012).
+6
+
+Version 6 - August 2025
+domains.19 Despite these limitations,20 they demonstrated AI’s potential to augment legal
+processes, particularly in structured tasks like statutory interpretation.21
+The 1990s–2000s: Research in Case-Based Reasoning and Integration of
+Machine Learning
+The limitations of rule-based systems prompted a shift toward case-based reasoning in the
+1990s and subsequently machine learning (ML) in the early 2000s. These approaches,
+more particularly ML, allowed AI to rely on data rather than rely solely on predefined rules,
+enabling more flexible legal applications.22 As to case-based reasoning, with beginnings in
+the legal domain mid to late 1980s, systems of case-based reasoning began to take shape
+in AI and Law research notably with Kevin Ashley’s HYPO system.23 According to Ashley,
+[t]he models illustrate how to represent legal cases so that a computer
+program can reason about whether they are analogous to a case to be
+decided. In particular, they illustrate ways in which a program can compare a
+problem and cases, select the most relevant cases, and generate legal
+arguments by analogy for and against a conclusion in a new case.24
+The HYPO program’s workings display the utility of case based reasoning systems.25 The
+program provided a method for storing and retrieving legal cases according to their
+relevance to a specific fact pattern. This approach reflects the way lawyers conduct legal
+research—identifying and retrieving precedent cases that are most pertinent to the case at
+hand when constructing legal arguments. In fact, the system could assess the relevancy of
+precedent, and identify the most relevant, or “most-on-point” cases to the input scenario.26
+From here, the system could compare relevant cases by analogizing them in favor of a
+19 Oliveira & Figueiredo, supra note 3, at 6.
+20 Important to the discussion of the limitations of rule-based systems is the idea of
+isomorphism. According to Francesconi and Araszkiewicz, “Bench-Capon and Coenen . . .
+in particular introduce[] and contribute[] to the identification the characteristics of the
+concept of ‘isomorphism’, as an approach to building knowledge-based systems in the legal
+domain, starting from a faithful representation of data, according to a well-defined
+correspondence between source documents and the representation of the information they
+contain used in the systems.” Guido Governatori et al., Thirty Years of Artificial Intelligence
+and Law: The First Decade, 30 A.I. & L. 481, 489 (2022) (discussing Trevor Bench-Capon &
+Frans Coenen, Isomorphism and Legal Knowledge Based Systems, 1 A.I. & L. 65 (1992)).
+21 Edwina L. Rissland et al., AI and Law: A Fruitful Synergy, A.I. 2003, at 1, 2.
+22 Kevin D. Ashley, A Brief History of the Changing Roles of Case Prediction in AI and Law,
+36 L. CONTEXT: A SOCIO-LEGAL J., Sept. 2019, at 93, 94-95.
+23 Governatori et al., supra note 7 at 483; Edwina L. Rissland et al., Explaining and Arguing
+With Examples, Proc. 4TH AAAI CONF. ON A.I. 288 (1984); Kevin D. Ashley, Modeling Legal
+Arguments: Reasoning with Cases and Hypotheticals (1988) [hereinafter Ashley
+Dissertation] (Ph.D dissertation, University of Massachusetts).
+24 Ashley, supra note 14, at 73.
+25 Ashley Dissertation, supra note 23, at 81-82.
+26 Id., at 92.
+7
+
+Version 6 - August 2025
+conclusion, distinguishing a case cited in support of a particular conclusion, or providing a
+counter-example. The system included methods for posing hypotheticals to test how new
+or changing facts affect existing arguments, generating three-ply argument outlines that
+mirror real legal argumentation, and explaining alternative decisions by presenting and
+comparing three hypotheticals with supporting precedents.27 A clear strength of the HYPO
+program was to model legal argumentation in a detailed and realistic manner. This reflects
+the strength of case-based reasoning systems.
+A number28 of case-based reasoning systems followed HYPO, such as CATO29 that
+introduced a hierarchical representation of the factors described in HYPO to “make
+context-sensitive arguments about the significance of differences between cases”.30 The
+CABARET program used a hybrid system of rule-based and case-based reasoning to
+generate arguments about the meaning of poorly-defined statutory language.31 Systems
+such as AGATHA sought to extend the reasoning of these systems to include values,32 work
+with values advanced further with the development of Grabmari’s VJAP system.33
+Case prediction emerged as a key application, used to identify borderline cases for
+academic commentary and to validate computational models of legal reasoning.34 For
+example, systems began predicting case outcomes by analyzing patterns in judicial
+decisions, providing evidence of the reasonableness of AI-driven legal models.35
+The digitization of legal texts during this period, coupled with advances in natural language
+processing (NLP), facilitated quantitative legal analysis. Techniques like text mining and
+network analysis enabled scholars to extract insights from large datasets, such as court
+records and statutes.36 These developments expanded AI’s role from niche expert systems
+to broader applications, including e-discovery and document review, which became critical
+in managing the growing volume of digital legal data.37
+27 Id. at 93-94.
+28 The referenced list of systems is non-exhaustive but are relevant in context of the HYPO
+program.
+29 Vincent Aleven, Teaching Case-Based Argumentation Through a Model and Examples
+(1997) (Ph.D dissertation, University of Pittsburgh).
+30 Vincent Aleven, Using Background Knowledge in Case‑Based Legal Reasoning: A
+Computational Model and an Intelligent Learning Environment, 150 A.I. 182, 185 (2003).
+31 Edwina L. Rissland & David B. Skalak, Cabaret: Rule Interpretation in a Hybrid Architecture,
+34 INT’L J. MAN-MACH. STUD. 839, 839 (1991).
+32 Alison Chorley & Trevor Bench-Capon, AGATHA: Using Heuristic Search to Automate the
+Construction of Case Law Theories, 13 A.I. & L. 9, 10(2005).
+33 Matthias Grabmair, Predicting Trade Secret Case Outcomes Using Argument Schemes
+and Learned Quantitative Value Effect Tradeoffs, PROC.16TH ICAIL 89 (2017).
+34 Ashley, supra note 22, at 95.
+35 Id., at 95–96.
+36 Jens Frankenreiter & Michael A. Livermore, Computational Methods in Legal Analysis, 16
+ANN. REV. L. & SOC. SCI. 39, 40–41 (2020).
+37 Jack G. Conrad et al., AI & Law: Formative Developments, State-of-the-Art Approaches,
+Challenges & Opportunities, PROC. 6TH JOINT INT’L CONF. ON DATA SCI. & MGMT. DATA
+320 (2023).
+8
+
+Version 6 - August 2025
+The 2010s: Deep Learning and Predictive Analytics
+The 2010s ushered in a new era with the rise of deep learning (DL), a subset of ML that
+significantly enhanced AI’s ability to process and generate human-like text. DL is capable
+of understanding complex patterns, such as those found in language. The introduction of
+transformer architectures revolutionized NLP, enabling systems to understand and analyze
+complex legal texts with unprecedented accuracy.38 These advancements facilitated the
+development of predictive analytics tools, which forecast case outcomes, assess litigation
+risks, and support judicial decision-making.39
+Using the well known transformer architecture,40 some efforts sought to train legal specific
+language models such as LegalBERT41 and CaseHold.42 Developments in legal text
+analytics were also spurred by the power of DL.43
+AI platforms like ROSS Intelligence and Westlaw Edge leveraged DL to automate legal
+research, offering faster and more precise retrieval of relevant precedents.44 In judicial
+settings, tools like COMPAS used predictive analytics for risk assessments in sentencing
+and parole decisions, though their use sparked debates over bias and fairness.45 The rapid
+adoption of these technologies was driven by the increasing availability of digitized legal
+data and the computational power to process it.46
+The 2020s: Large Language Models and Global Expansion
+Since 2022, LLMs like OpenAI’s GPT-4, Gemini, Claude, and Grok3 have redefined AI’s
+role in law, offering sophisticated capabilities in legal research,47 document drafting, and
+38 Surden, supra note 3, at 378–79.
+39 Rachid Ejjami, AI-Driven Justice: Evaluating the Impact of Artificial Intelligence on Legal
+Systems, 6 INT’L J. MULTIDISCIPLINARY RES. 1, 3 (2024).
+40 Jacob Devlin et al., BERT: Pre-Training of Deep Bidirectional Transformers for Language
+Understanding, 1 PROC. CONF. N. AMERICAN CHAPTER ASS’N COMPUTATIONAL LINGUISTICS: HUM.
+LANGUAGE TECH. 4171 (2019).
+41 Ilias Chalkidis et al., LEGAL-BERT: The Muppets Straight Out of Law School, in FINDINGS
+OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: EMNLP 2020 2898.
+42 Lucia Zheng et al., When Does Pretraining Help? Assessing Self-Supervised Learning for
+Law and the CaseHOLD Dataset of 53,000+ Legal Holdings, PROC.18TH ICAIL 159 (2021).
+43 Morgan A. Gray et al., Toward Automatically Identifying Legally Relevant Factors, in LEGAL
+KNOWLEDGE AND INFORMATION SYSTEMS 53, 53-53, 61-62 (2022); Jaromir Savelka, Discovering
+Sentences for Argumentation About the Meaning of Statutory Terms (2020) (Ph.D.
+dissertation, University of Pittsburgh).
+44 Matthew N. O. Sadiku, Samuel A. Ajayi & Janet O. Sadiku, Artificial Intelligence in Legal
+Practice: Opportunities, Challenges, and Future Directions, 27 J. ENG’G RSCH. & REP.
+68, 69 (2025).
+45 Ejjami, supra note 39, at 4.
+46 Conrad et al., supra note 37, at 3.
+47 LLMs are a common feature of legal research, especially with respect to RAG based
+platforms. These types of systems, however, are not without their faults. See Varun Magesh et
+9
+
+Version 6 - August 2025
+analysis.48 LLMs process vast datasets, including case law and statutes, to generate
+human-like legal arguments and predictions, surpassing the capabilities of earlier systems.49
+The performance gains and ease of implementation of LLMs has also spurred research in
+legal text analytics50 and legal reasoning.51 Their application has been particularly
+transformative in overburdened legal systems, such as India’s, where AI alleviates caseload
+pressures.52
+The global expansion of AI in law has also gained momentum, with applications in diverse
+legal systems. However, challenges like algorithmic bias and data privacy have prompted
+calls for robust regulatory frameworks.53 The integration of AI into free legal advice services,
+building on projects like DataLex, highlights the potential for collaboration between AI and
+legal aid providers to enhance access to justice.54
+Key Milestones and Technological Advancements
+The evolution of AI in legal systems can be summarized through several key milestones:
+● 1940s–1950s: Theoretical foundations by Turing and Wiener establish AI’s potential
+for legal reasoning.55
+● 1980s: Legal expert systems, like those developed by the DataLex Project, introduce
+rule-based automation.56
+● 1987: The first International Conference on AI and Law formalizes the field.57
+al., Hallucination‐Free? Assessing the Reliability of Leading AI Legal Research Tools, 22 J.
+EMPIRICAL LEGAL STUD. 216, 224-25 (2025).
+48 Surden, supra note 3, at 376–77.
+49 Zichong Wang et al., History, Development, and Principles of Large Language
+Models—An Introductory Survey 5-6 (Sep. 23, 2024) (manuscript).
+50 Morgan A. Gray et al., Using LLMs to Discover Legal Factors, in LEGAL KNOWLEDGE AND
+INFORMATION SYSTEMS 60, 60-61 (2024); Jaromir Savelka et al., Can GPT-4 Support Analysis
+of Textual Data in Tasks Requiring Highly Specialized Domain Expertise?, 1 PROC. 2023
+CONF. ON INNOVATION AND TECH. COMPUT. SCI. EDUC. 117(2023); Jakub Drápal et al., Using
+Large Language Models to Support Thematic Analysis in Empirical Legal Studies, in LEGAL
+KNOWLEDGE AND INFORMATION SYSTEMS 197, 197-198 (2023); Samyar Janatian et al., From Text
+to Structure: Using Large Language Models to Support the Development of Legal Expert
+Systems, in LEGAL KNOWLEDGE AND INFORMATION SYSTEMS 167, 167-168 (2023).
+51 Morgan A. Gray et al., Generating Case-Based Legal Arguments with LLMs, PROC. 2025
+SYMP. ON COMPUT. SCI. & L. 160, 160 (2025); Cor Steging et al., Parameterized
+Argumentation-based Reasoning Tasks for Benchmarking Generative Language Models, PROC.
+EIGHTEENTH INT’L CONF. ON A.I. & L. 443 (2025).
+52 Conrad et al., supra note 37, at 1.
+53 Zahra, supra note 6, at 11; Awais et al., supra note 6, at 2640. .
+54 Greenleaf et al., supra note 12, at 318–19.
+55 Buchanan, supra note 10, at 54.
+56 Greenleaf et al., supra note 12, at 315.
+57 Bench-Capon et al., supra note 18, at 216.
+10
+
+Version 6 - August 2025
+● 1990s–2000s: Machine learning and case-based reasoning enable predictive
+analytics and e-discovery.58
+● 2010s: Deep learning and transformers enhance NLP, powering advanced legal
+research tools.59
+● 2020s: LLMs like GPT-4 revolutionize legal tasks, with global applications and ethical
+challenges.60
+Technological advancements, including the shift from symbolic systems to data-driven ML,
+the rise of DL, and the development of LLMs, have progressively increased AI’s accuracy,
+scalability, and applicability in law.61 These advancements have been supported by the
+digitization of legal texts and the growth of computational power.62
+III. Current Applications of AI in Legal Practice
+AI’s current applications in legal practice—spanning legal research, predictive analytics, and
+judicial decision-making tools—have transformed the legal profession by enhancing
+efficiency, accuracy, and access to justice. Legal research platforms like Lexis+AI and
+Westlaw leverage LLMs to streamline case law retrieval, while predictive analytics informs
+litigation strategies and case outcomes with high accuracy. Judicial decision-making tools,
+such as COMPAS and models designed for the ECHR, support judges in high-volume
+settings, though their use raises ethical concerns. Ancillary applications, including document
+drafting and compliance monitoring, further demonstrate AI’s versatility.
+Legal Research
+AI has revolutionized legal research by automating the retrieval and analysis of vast legal
+datasets, enabling lawyers to access relevant case law, statutes, and legal documents with
+greater speed and accuracy. Platforms such as LexisNexis (Lexis+AI, now Protége),
+Thomson Reuters (Westlaw AI-Assisted Research, now Co-Counsel), and ROSS
+Intelligence leverage LLMs and NLP to process unstructured legal texts, extract key legal
+concepts, and deliver precise search results.63 These tools use deep learning algorithms to
+understand legal terminology and context, significantly reducing the time required for
+manual research.64
+For example, Lexis+AI employs retrieval-augmented generation (RAG) to minimize errors
+like hallucinations—where AI generates false information—though studies show that such
+58 Ashley, supra note 22, at 94–95.
+59 Surden, supra note 3, at 378.
+60 Wang et al., supra note 49, at 5–6; Zahra, supra note 6, at 11.
+61 Surden, supra note 3, at 378–79; Oliveira & Figueiredo, supra note 3, at 6–7.
+62 Frankenreiter & Livermore, supra note 36, at 40.
+63 Surden, supra note 3, at 379; Sadiku et al., supra note 44, at 69.
+64 Ejjami, supra note 39, at 3.
+11
+
+Version 6 - August 2025
+systems still hallucinate in 17–33% of cases.65 Despite these challenges, AI-driven legal
+research tools enhance efficiency by summarizing case law, drafting initial legal documents,
+and identifying relevant precedents, thereby reducing administrative burdens.66 Additionally,
+AI’s application in free legal advice services, such as those inspired by the DataLex Project,
+facilitates access to justice by providing low-cost, automated research tools for underserved
+communities.67
+Predictive Analytics
+Predictive analytics represents one of the most impactful applications of AI in legal practice,
+enabling lawyers to forecast case outcomes, assess litigation risks, and optimize strategic
+decisions. By analyzing historical judicial data, AI models identify patterns in case law,
+judicial behavior, and legal arguments to predict the likelihood of success in litigation or
+settlement negotiations.68 These tools rely on ML algorithms, such as Support Vector
+Machines (SVM) and Multi-Layer Perceptrons (or neural networks), which achieve high
+accuracy in outcome prediction, as demonstrated by a study on the Chinese AI and Law
+(CAIL) dataset where SVM models reached 96.9% accuracy in classifying semantic biases
+in judicial judgments.69
+In practice, predictive analytics is used to guide litigation strategy, advise clients on
+settlement options, and streamline case management.70 For instance, corporate legal
+departments employ AI to evaluate the merits of cases, reducing costs and improving
+decision-making.71 However, predictive models are not without flaws; they can amplify
+biases present in training data, such as racial or socioeconomic disparities, necessitating
+continuous oversight and fairness audits.72
+65 Magesh et al., supra note 47, at 217.
+66 Zahra, supra note 6, at 11.
+67 Greenleaf et al., supra note 12, at 19.
+68 Ashley, supra note 22, at 96; Edwin O. Eboigbe, AI in Legal Analytics: Balancing
+Efficiency, Accuracy, and Ethics in Contract and Predictive Analysis, 3 (Oct. 2024),
+https://ssrn.com/abstract=4997519.
+69 Kashif Javed & Jianxin Li, Artificial Intelligence in Judicial Adjudication: Semantic Biasness
+Classification and Identification in Legal Judgement, 10 HELIYON
+1, 5 (2024).
+70 Bogdan Padiu, Radu Iacob, Traian Rebedea & Mihai Dascalu, To What Extent Have LLMs
+Reshaped the Legal Domain So Far? A Scoping Literature Review, 15 INFORMATION (SPECIAL
+ISSUE) 11 (2024).
+71 Sadiku et al., supra note 44, at 69.
+72 Awais et al., supra note 6, at 2640; Krištofík, supra note 5, at 237.
+12
+
+Version 6 - August 2025
+Judicial Decision-Making Tools
+AI-driven judicial decision-making tools are increasingly used to support judges and court
+systems, particularly in high-volume or overburdened jurisdictions. These tools employ
+predictive systems and generative AI to assist with tasks such as risk assessment, case
+prioritization, and legal reasoning. A prominent example is COMPAS (Correctional Offender
+Management Profiling for Alternative Sanctions), which predicts recidivism risks to inform
+bail, sentencing, and parole decisions.73 Similarly, and to reiterate, AI models applied to the
+European Court of Human Rights (ECHR) have achieved 97% accuracy in predicting case
+outcomes under Article 6, demonstrating their potential as decision-support tools.74
+Generative AI is also being explored in judicial settings, with judges in jurisdictions like
+Colombia, Mexico, Peru, and India using tools like GPT-4 to draft rulings or analyze legal
+arguments.75 However, these applications are far from perfect, as generative AI can
+oversimplify complex judicial deliberations, reduce emotive-cognitive processes to statistical
+correlations, and introduce biases or interpretive errors.76 For example, a study of an AI
+system for traffic violation appeals in a Dutch court found that while AI improved
+consistency, it altered legal experts’ decisions, highlighting the need for human oversight.77
+AI’s role in judicial support extends to free legal advisory systems, where integrated
+decision-support tools help provide accessible legal guidance, particularly in
+resource-constrained environments.78 In countries like India, AI tools alleviate caseload
+pressures by automating preliminary case assessments, enhancing judicial efficiency.79
+Nonetheless, the use of AI in judicial contexts remains controversial due to risks of bias,
+lack of transparency, and potential undermining of judicial discretion.80
+Other Notable Applications
+Beyond legal research, predictive analytics, and judicial tools, AI is applied in several
+ancillary legal tasks:
+● Document Drafting and Analysis: AI automates the creation of contracts, legal
+briefs, and compliance documents, improving efficiency and reducing errors.81 For
+73 Ejjami, supra note 39, at 4.
+74 Collenette et al., supra note 4, at 3.
+75 David Uriel Socol de la Osa & Nydia Remolina, Artificial Intelligence at the Bench: Legal
+and Ethical Challenges of Informing—or Misinforming—Judicial Decision-Making Through
+Generative AI, 6 DATA & POL’Y PROC. 1, 3 (2024).
+76 Contini et al., supra note 5, at 4.
+77 Daan Kolkman et al., Justitia Ex Machina: The Impact of an AI System on Legal
+Decision-Making and Discretionary Authority, BIG DATA & SOC’Y, Apr.–June 2024, at 1, 5.
+78 Greenleaf et al., supra note 12, at 316–18.
+79 Conrad et al., supra note 37, at 1.
+80 Socol de la Osa & Remolina, supra note 75, at 4; Krištofík, supra note 5, at 237.
+81 Surden, supra note 3, at 379; Zahra, supra note 6, at 11.
+13
+
+Version 6 - August 2025
+example, AI-driven contract analysis tools identify clauses and risks, streamlining
+corporate legal operations.82
+● Compliance Monitoring: Corporate legal departments use AI to ensure regulatory
+compliance, detecting violations in real-time.83
+● Case Management: AI streamlines administrative tasks, such as scheduling and
+document organization, enhancing overall practice efficiency.84
+● Dispute Resolution: AI supports alternative dispute resolution by analyzing case
+data to propose settlement options, improving access to justice.85
+These applications demonstrate AI’s versatility, with tools like those developed by
+LexisNexis and Thomson Reuters integrating multiple functions to support comprehensive
+legal workflows.86
+Challenges and Considerations
+While AI’s applications in legal practice offer significant benefits, they are accompanied by
+challenges that require careful management:
+● Hallucinations: AI tools, even those using RAG, can generate inaccurate legal
+citations or facts, posing risks in high-stakes legal contexts.87 This finding, however,
+could change given the pace of LLM improvements.88
+● Bias: Predictive and judicial tools may perpetuate biases in training data, such as
+racial disparities in sentencing, necessitating fairness audits and bias mitigation
+strategies.89
+● Transparency and Accountability: The “black-box” nature of some AI models
+complicates explainability, raising concerns about judicial reliance on unverified
+outputs.90
+● Ethical Implications: AI’s use in judicial decision-making risks oversimplifying
+complex human judgments, potentially undermining due process and fairness.91
+82 Eboigbe, supra note 68, at 4.
+83 Sadiku et al., supra note 44, at 69.
+84 Padiu et al., supra note 70, at 11.
+85 Zahra, supra note 6, at 11.
+86 Magesh et al., supra note 47, at 217; KEVIN T. MCCARTHY ET AL., ARTIFICIAL INTELLIGENCE IN
+LEGAL PRACTICE: BENEFITS, CONSIDERATIONS, AND BEST PRACTICES 3 (2024) (white paper).
+87 Magesh et al., supra note 47, at 217. See also, Varun Magesh et al., Hallucination-Free?
+Assessing the Reliability of Leading AI Legal Research Tools 1-2 (Working Paper, May 29,
+2024), https://arxiv.org/abs/2405.20362.
+88 Girish Sastry et al., Computing Power and the Governance of Artificial Intelligence, 2-6
+a(Feb. 13, 2024), https://doi.org/10.48550/arXiv.2402.08797; for a summary of relevant data
+and graphical explanation, see Ethan Mollick, Scaling: The State of Play in AI, ONE USEFUL
+THING (Sept. 16, 2024), https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai.
+(https://www.oneusefulthing.org/p/scaling-the-state-of-play-in-ai).
+89 Krištofík, supra note 5, at 237; Awais et al., supra note 6, at 2640.
+90 Socol de la Osa & Remolina, supra note 75, at 4; Contini et al., supra note 5, at 4.
+91 Contini et al., supra note 5, at 4; Ejjami, supra note 39, at 5.
+14
+
+Version 6 - August 2025
+To address these issues, scholars advocate for explainable AI, regular evaluations, and
+human-in-the-loop approaches to ensure that AI supports, rather than supplants, legal
+professionals.92
+IV. Technical Foundations of Predictive AI Analytics
+The technical foundations of predictive AI analytics in legal contexts rest on sophisticated
+ML and NLP methodologies, diverse data sources, and rigorous evaluation techniques.
+Supervised learning, deep learning, and generative AI enable systems to predict case
+outcomes, analyze biases, and support judicial reasoning, often leveraging NLP techniques
+such as transformer models to effectively process complex legal texts. Data sources,
+including structured case metadata and unstructured opinions and judgments, are critical
+but pose challenges like bias and incompleteness. Accuracy assessments, using metrics
+like precision and recall, demonstrate high performance (e.g., 97% for ECHR predictions),
+though issues like hallucinations and bias persist. Insights from the Artificial Intelligence and
+Law Journal underscore the importance of feature relevance and transparency. As
+predictive AI analytics continues to evolve, addressing technical challenges through
+explainable models, bias mitigation, and robust data practices will be essential to ensure its
+responsible integration into legal systems.
+Methodologies of Predictive AI Analytics
+Predictive AI analytics in legal contexts relies on a suite of advanced methodologies,
+primarily rooted in ML and NLP, to process legal texts and generate predictive insights.
+These methodologies have evolved from rule-based systems to sophisticated data-driven
+approaches, enabling nuanced analysis of complex legal data.
+A. Machine Learning Algorithms
+ML algorithms form the backbone of predictive analytics, enabling systems to learn patterns
+from historical legal data and make predictions about future outcomes. Although predictive
+analytics are not constrained to predicting judgements, Medvedeva and McBride note that
+systems that make predictions on a test set of existing judgements are different from
+systems that make predictions based on facts known to a particular party at a particular
+stage of litigation—for instance, a lawyer advising a client on the probable outcome of a
+court hearing—does not have access to the precise formulation of facts presented in a
+judgment, as this formulation emerges only once the judgment has been issued.93
+92 Collenette et al., supra note 4, at 3; MCCARTHY ET AL., supra note 86, at 3.
+93 Masha Medvedeva & Pauline Mcbride. Legal Judgment Prediction: If You Are Going to Do It,
+Do It Right, PROC. NAT. LEGAL LANGUAGE PROCESSING WORKSHOP, 73, 73-76 (2023).
+15
+
+Version 6 - August 2025
+Nevertheless, systems that make so-called predictions on existing judgements can be
+useful to analyze a domain.94 Examples of common approaches include:
+● Supervised Learning: Used to predict case outcomes by training models on labeled
+datasets, such as court decisions paired with their verdicts. For instance, Support
+Vector Machines (SVM) achieved 96.9% accuracy in classifying semantic biases in
+the Chinese AI and Law (CAIL) dataset, outperforming Naïve-Bayes (88.8%),
+Multi-Layer Perceptron (or neural networks) (86.75%), and K-Nearest Neighbor
+(85.66%) classifiers.95
+● Deep Learning: Deep learning, particularly through transformer architectures,96
+enhances the ability to model complex relationships in legal texts. Transformers
+underpin LLMs like GPT-4 and Grok3,97 which excel in tasks such as statutory
+reasoning and case law analysis.98
+These approaches enable predictive systems to identify statistically significant features,
+such as judicial tendencies or case characteristics, that influence legal outcomes.99 This is
+contrasted with case-based reasoning systems that make predictions without relying on
+machine learning. This approach predicts outcomes by comparing new cases to historical
+precedents, using computational models of argument to assess similarity.100 Some
+approaches combine machine learning and case-based reasoning, such as the SMILE+IBP
+that automatically classifies case texts using ML and predicts outcomes with case-based
+reasoning.101
+B. Natural Language Processing
+NLP is critical for extracting meaning from unstructured legal texts, such as judgments,
+briefs, and statutes. Key NLP techniques include:
+94Morgan A. Gray et al., Automatic Identification and Empirical Analysis of Legally Relevant
+Factors, PROC. NINETEENTH INT’L CONF. ON A.I. & L.
+101, 101-102 (2023).
+95 Javed & Li, supra note 69, at 5. For a more detailed exploration of how these models work,
+see Wesley M. Oliver et al., Computationally Assessing Suspicion, 92 U. CIN. L. REV.
+1108 (2024).
+96 Devlin, supra note 40, at 4171-4172.
+97 In July 2025, in an attempt to “rewrite the entire corpus of human knowledge”, Grok 3.5 is
+expected to significantly increase performance after cleanup of its training data. Jesse
+Coghlan, Musk Wants Grok AI to ‘Rewrite the Entire Corpus of Human Knowledge’,
+COINTELEGRAPH (June 23, 2025),
+https://cointelegraph.com/news/elon-musk-grok-ai-rewrite-the-entire-corpus-human-knowledg
+e.
+98 Surden, supra note 3, at 378-79; Padiu et al., supra note 70, at 11.
+99 Daniel L. Chen, Judicial Analytics and the Great Transformation of American Law, 27 A.I.
+& L. 15, 16 (2019).
+100 Collenette et al., supra note 4, at 2; Ashley, supra note 22, at 95.
+101 Kevin D.Ashley & Stefanie Brüninghaus, Automatically Classifying Case Texts and
+Predicting Outcomes, 17 A.I. & L. 125, 125 (2009).
+16
+
+Version 6 - August 2025
+● Text Mining and Sentiment Analysis: These methods identify relevant legal
+concepts, sentiments, or biases within texts, enabling systems to predict judicial
+behavior or case outcomes.102
+● Language Modeling: Transformer-architectures, which power LLMs, process legal
+texts by capturing contextual relationships between words, improving the accuracy of
+tasks like case summarization and legal reasoning.103
+● Retrieval-Augmented Generation (RAG): RAG enhances LLMs by integrating
+external legal databases during inference, reducing errors like hallucinations, though
+studies show that tools like Lexis+AI and Westlaw AI-Assisted Research still
+hallucinate in 17–33% of cases.104
+● Semantic Similarity: In Branting’s SCALE program, semantic similarity techniques
+were used to identify relevant sentences in unannotated texts in order to aid
+prediction and decision support.105
+NLP enables predictive systems to handle the specialized terminology and multiple
+interpretations inherent in legal systems, though challenges remain in capturing
+emotive-cognitive nuances.106
+C. Generative AI for Reasoning
+Generative AI, particularly LLMs, is increasingly used to generate judicial opinions or assist
+in legal reasoning. A notable case study from Shenzhen, China, illustrates a three-step
+interaction pattern: judges make initial decisions, LLMs generate reasoning based on these
+decisions, and judges revise the output to finalize judgments.107 This process leverages
+generative AI’s ability to produce coherent legal texts but requires human oversight to
+mitigate biases and errors.108 One burgeoning area of research has to do with the capability
+of LLMs to engage in reasoning tasks with respect to argumentation.109
+Data Sources for Predictive AI Analytics
+The effectiveness of predictive AI analytics depends on the quality and diversity of data
+sources, which include both structured and unstructured legal data.
+102 Frankenreiter & Livermore, supra note 36, at 41; Javed & Li, supra note 69, at 3.
+103 Surden, supra note 3, at 378; Padiu et al., supra note 70, at 11.
+104 Magesh et al., supra note 47, at 217. Hallucination rates are progressively improving
+across models.
+105 L. Karl Branting et al., Scalable and Explainable Legal Prediction, 29 A.I. & L.
+213, 213-214 (2021).
+106 Contini et al., supra note 5, at 4.
+107 Liu & Li, supra note 4, at 236.
+108 Id. at 237; Socol de la Osa & Remolina, supra note 75, at 4.
+109 Parameterized Argumentation-based Reasoning Tasks for Benchmarking Generative
+Language Models, Generating Case-Based Arguments with LLMs.
+17
+
+Version 6 - August 2025
+A. Structured Data
+Structured data consists of numerical or categorical information, such as:
+● Case metadata (e.g., case type, court, judge, verdict).
+● Statistical records (e.g., number of cases filed, conviction rates, or sentencing
+lengths). These data are often sourced from court records or legal databases and
+are used to train models for tasks like risk assessment or case prioritization.110
+Some scholars proposed the usage of XML, a structured language, to effectively process
+and handle metadata in law, particularly legislation.111
+B. Unstructured Data
+Unstructured data, which constitutes the majority of legal information, includes:
+● Court Decisions and Judgments: Texts from judicial opinions provide rich data for
+predicting outcomes or identifying biases.112
+● Legal Briefs and Contracts: These documents are analyzed to extract clauses,
+arguments, or risks.113
+● Statutes and Case Law: Legal databases like Westlaw or LexisNexis provide
+comprehensive repositories for training predictive models.114
+● Open Datasets: Publicly available datasets, such as those from the European Court
+of Human Rights or the CAIL dataset, enable research and model development.115
+Typically, unstructured data requires advanced NLP to process, but its richness allows for
+nuanced predictions.116
+C. Free Legal Information Resources
+Free legal advice services, such as those supported by the DataLex Project, rely on
+open-access legal information from providers like Legal Information Institutes (LIIs). These
+resources are critical for developing sustainable predictive systems in resource-constrained
+environments.117
+110 Eboigbe, supra note 68, at 3; Chen, supra note 99, at 16.
+111see generally LEGISLATIVE XML FOR THE SEMANTIC WEB: PRINCIPLES, MODELS, STANDARDS FOR
+DOCUMENT MANAGEMENT (Giovanni Sartor, Monica Palmirani, Enrico Francesconi & Maria
+Angela Biasiotti eds., 1st ed. 2011).
+112 Javed & Li, supra note 69, at 3; Collenette et al., supra note 4, at 2.
+113 Eboigbe, supra note 68, at 3.
+114 Padiu et al., supra note 70, at 11; Surden, supra note 3, at 379.
+115 Collenette et al., supra note 4, at 2; Javed & Li, supra note 69, at 3.
+116 Isabel Trancoso et al., The Impact of Language Technologies, in 58 L., GOVERNANCE &
+TECH. SERIES, MULTIDISCIPLINARY PERSPECTIVES ON ARTIFICIAL INTELLIGENCE AND THE LAW 25, 26
+(Henrique Sousa Antunes, et al. eds., 2024).
+117 Greenleaf et al., supra note 12, at 19.
+18
+
+Version 6 - August 2025
+D. Challenges with Data
+Data quality poses significant challenges:
+● Bias: Historical legal data often contains biases (e.g., racial or socioeconomic
+disparities), which AI models can amplify.118
+● Incompleteness: Missing or inconsistent data can reduce model reliability119.
+● Jurisdictional Variability: Differences in legal systems across geographies
+complicate data generalization.120
+Accuracy Assessments of Predictive AI Analytics
+Evaluating the accuracy of predictive AI analytics is crucial to ensure reliability and
+trustworthiness in legal applications. Common metrics and approaches include:
+A. Accuracy Metrics
+● Precision, Recall, and F1 Score: These metrics assess the balance between
+correct predictions and errors. For example, the ECHR case prediction model
+achieved 97% accuracy in matching actual decisions, demonstrating high precision
+and recall.121
+● Classification Accuracy: The CAIL dataset study reported SVM’s 96.9% accuracy
+in bias classification, highlighting the effectiveness of supervised learning.122
+● Error Rates: Studies of RAG-based tools like Lexis+AI and Westlaw AI-Assisted
+Research found hallucination rates of 17–33%, indicating persistent accuracy
+challenges.123
+B. Empirical Evaluations
+Empirical studies provide robust assessments:
+● A Dutch court’s AI system for traffic violation appeals showed improved consistency
+but altered legal experts’ decisions, suggesting accuracy trade-offs.124
+● The Shenzhen case study found that LLM-generated judicial reasoning required
+significant human revision to ensure accuracy, highlighting the limitations of
+generative AI.125
+118 Krištofík, supra note 5, at 237; Javed & Li, supra note 69, at 3.
+119 Padiu et al., supra note 70, at 16.
+120 Padiu et al., supra note 70, at 18.
+121 Collenette et al., supra note 4, at 3. See also, Ashley, supra note 14, at 113-14.
+122 Javed & Li, supra note 69, at 5.
+123 Magesh et al., supra note 47, at 217.
+124 Kolkman et al., supra note 77, at 5.
+125 Liu & Li, supra note 4, at 237.
+19
+
+Version 6 - August 2025
+C. Explainability and Trustworthiness
+Accuracy alone is insufficient without explainability. Models like the ECHR tool use
+computational argument models to provide transparent, legally grounded explanations,
+achieving high usability in user studies.126 Conversely, “black-box” models risk undermining
+trust due to their opacity.127 Some techniques, in the field of explainable AI (XAI) explain a
+model’s prediction in a post-hoc fashion.128 However, post-hoc explainers still need to be
+verified for trustworthiness, in that the explanations comport with human knowledge.129
+Other approaches in the field of AI and Law seek to understand and explain a model’s
+prediction through the lens of the model’s internal workings.130
+Insights from the Artificial Intelligence and Law Journal
+The Artificial Intelligence and Law Journal provides critical insights into the technical
+foundations of predictive AI analytics:
+● Chen (2019): Highlights the use of ML to assess extra-legal factors and debias
+judicial decisions, emphasizing the role of feature relevance in predictive models.131
+● Ashley (2019): Discusses the evolution of case prediction from rule-based to
+ML-driven approaches, underscoring the importance of statistical feature analysis.132
+These studies, published in the journal, emphasize the need for robust
+methodologies and transparent accuracy assessments to address biases and ensure
+reliability in legal applications.
+V. Ethical and Legal Implications
+The ethical and legal implications of AI simulating judicial functions center on bias,
+transparency, accountability, and fairness, each posing significant challenges to the
+administration of justice. Bias in AI systems, as seen in tools like COMPAS, risks
+perpetuating inequities, while the opacity of “black-box” models undermines transparency
+126 Collenette et al., supra note 4, at 3.
+127 Socol de la Osa & Remolina, supra note 75, at 4; Contini et al., supra note 5, at 4.
+128 For example, a well known post-hoc explanatory technique is the SHAP family of
+explainers, see, e.g., Ian C. Covert, Scott Lundberg & Su-In Lee, Understanding Global
+Feature Contributions with Additive Importance Measures, PROC. 34TH INT’L CONF. ON NEURAL
+INFO. PROCESSING SYS. 17212 (2020); Scott M. Lundberg & Su-In Lee, A Unified Approach to
+Interpreting Model Predictions, PROC. 31ST INT’L CONF. ON NEURAL INFO. PROCESSING SYS. 4768
+(2017).
+129 Marco Ribeiro, Sameer Singh & Carlos Guestrin, “Why Should I Trust You?”: Explaining
+the Predictions of Any Classifier, PROC. 2016 CONF. N. AM. CH. ASS’N COMPUT. LINGUISTICS:
+DEMONSTRATIONS 97, 97-98 (2016).
+130 Gray, supra note 94, at 101-102; Zachary C. Lipton, The Mythos of Model Interpretability,
+61 COMMUN. ACM 36 (2018).
+131 Chen, supra note 99, at 16–17.
+132 Ashley, supra note 22, at 95–96.
+20
+
+Version 6 - August 2025
+and trust.133 Accountability remains elusive, with unclear liability for AI errors, and fairness is
+threatened by AI’s inability to replicate human empathy and social responsiveness. These
+issues, evidenced in jurisdictions from the U.S. to China, underscore the need for robust
+regulatory frameworks, explainable AI, and human oversight to ensure that AI augments,
+rather than supplants, judicial decision-making. As AI continues to evolve, balancing its
+efficiency with the ethical and legal principles of justice will be critical to preserving the
+integrity of judicial systems.
+Bias in AI Judicial Systems
+Bias is a central ethical concern in AI judicial applications, as machine learning models
+often replicate and amplify existing biases in training data. Historical judicial data, such as
+court decisions, may embed systemic biases (e.g., racial or socioeconomic disparities),
+which AI systems can perpetuate in predictions or decisions.134 A 2016 ProPublica report
+highlighted this issue, revealing that the COMPAS risk assessment tool used in U.S. bail
+decisions was biased against African Americans, falsely flagging them as higher-risk at
+disproportionate rates.135 This bias arises because AI models rely on historical data that
+reflect past inequities, and even attempts at “fairness through unawareness” (omitting
+protected characteristics like race) fail due to proxy variables that correlate with bias.136
+The ethical implications of bias are profound, as it undermines the principle of equal justice
+under the law. For example, a study on the CAIL dataset demonstrated that AI models could
+identify semantic biases in judicial judgments, but their reliance on biased training data
+risked perpetuating unethical predictions.137 Legally, biased AI outputs could violate due
+process and anti-discrimination laws, prompting calls for fairness audits and bias mitigation
+strategies.138
+Transparency and Interpretability
+Transparency is critical to ensuring trust in AI judicial systems, yet many AI models,
+particularly LLMs, operate as “black boxes,” making their decision-making processes
+opaque.139 This lack of interpretability poses ethical challenges, as judges and litigants
+cannot scrutinize the reasoning behind AI-generated outputs, such as case predictions or
+133 One strength of classic case-based reasoning systems and similar programs is that they
+typically produce verifiable outputs. See Preeja Pradeep, Marta Caro‑Martínez & Anjana
+Wijekoon, A Practical Exploration of the Convergence of Case‑Based Reasoning and
+Explainable Artificial Intelligence, 255, Part D, 124733 EXPERT SYST. APPL., 2024, at 1-2.
+134 Julia Angwin et al., Machine Bias, PROPUBLICA (May 23, 2016),
+https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing; Krištofík, supra
+note 5, at 237.
+135 Krištofík, supra note 5, at 237.
+136 Krištofík, supra note 5, at 237; Chen, supra note 99, at 17.
+137 Javed & Jianxin Li, supra note 69, at 3.
+138 Zahra, supra note 6, at 12; Awais et al., supra note 6, at 2640.
+139 Socol de la Osa & Remolina, supra note 75, at 4; Surden, supra note 3, at 380.
+21
+
+Version 6 - August 2025
+draft opinions.140 For instance, generative AI used in Shenzhen courts to draft judicial
+opinions required significant human revision due to potential errors, highlighting the ethical
+risk of relying on non-transparent systems.141
+Legally, the opacity of AI systems could undermine procedural fairness, as parties have a
+right to understand the basis of judicial decisions. European scholars and legislation, such
+as the EU’s AI Act, emphasize the need for explainable AI to ensure compliance with due
+process.142 The ethical imperative for transparency is further underscored by the risk of
+“hallucinations,” where AI generates false legal citations or facts, as observed in tools like
+Lexis+AI and Westlaw AI-Assisted Research, which hallucinate in 17–33% of cases.143
+Transparent, explainable AI models, such as those developed for the ECHR, which
+achieved 97% accuracy with digestible explanations, offer a model for addressing these
+concerns.144
+Accountability in AI Judicial Functions
+Accountability is a pressing ethical and legal issue, as it remains unclear who is responsible
+for errors or biases in AI-driven judicial decisions—developers, judges, or institutions. The
+Shenzhen case study illustrates that judges retain ultimate accountability, revising
+AI-generated reasoning to ensure accurate judgments, but this human-in-the-loop approach
+does not fully resolve the issue.145 If AI misinforms judicial decisions, as seen in case
+studies from Colombia, Mexico, Peru, and India, it could lead to miscarriages of justice,
+raising questions about liability.146 Ethically, the delegation of judicial functions to AI risks
+eroding public trust in the judiciary, as accountability becomes diffused.147
+Fairness and the Human Element in Judging
+Fairness in judicial decision-making requires empathy, intuition, and responsiveness to
+social factors, qualities that AI struggles to replicate. Predictive and generative AI systems
+often reduce complex judicial processes to statistical correlations, neglecting the
+emotive-cognitive dimensions of justice.148 This reductionism threatens fairness by ignoring
+contextual nuances, such as cultural or socioeconomic factors, that human judges
+140 Contini et al., supra note 5, at 4.
+141 Liu & Li, supra note 4, at 237.
+142 Contini et al., supra note 5, at 2; Socol de la Osa & Remolina, supra note 75, at 4.
+143 Magesh et al., supra note 47, at 217.
+144 Collenette et al., supra note 4, at 3.
+145 Liu & Li, supra note 4, at 236–37.
+146 Socol de la Osa & Remolina, supra note 75, at 3-4.
+147 Awais et al., supra note 6, at 2640; Ejjami, supra note 39, at 5.
+148 Contini et al., supra note 5, at 4; Tania Sourdin, Robo Justice: Constitutional Issues with
+Judge AI, 30 IND. J. GLOB. LEGAL STUD.293, 306–07 (2023).
+22
+
+Version 6 - August 2025
+consider.149 For instance, Italian court cases demonstrated that AI’s reliance on prior
+judgments oversimplified fact-finding and legal encoding, risking unjust outcomes.150
+Ethically, the absence of human qualities like compassion undermines the humanity of the
+judicial process, potentially dehumanizing litigants.151 Legally, this could contravene
+constitutional principles of justice, as an overly narrow definition of judicial outcomes may
+exclude critical social considerations.152 The use of AI in judicial settings, such as risk
+assessments or opinion drafting, must therefore be tempered by human oversight to ensure
+fairness.153 Scholars argue that AI should augment, not replace, human judges to preserve
+the responsive nature of justice.154
+Additional Ethical and Legal Considerations
+Beyond the core concerns, AI judicial systems raise additional issues:
+● Data Privacy: AI’s reliance on sensitive legal data raises privacy concerns,
+potentially violating confidentiality laws.155
+● Access to Justice: While AI can enhance access by streamlining processes,
+unequal access to AI tools among legal professionals (the “digital divide”) may
+exacerbate disparities.156
+● Judicial Discretion: AI’s influence on judicial decisions risks undermining discretion,
+a cornerstone of judicial independence.157
+These concerns highlight the need for interdisciplinary collaboration among lawyers,
+technologists, and regulators to develop ethical guidelines and legal frameworks.158
+149 Tania Sourdin & Richard Cornes, Do Judges Need to Be Human? The Implications of
+Technology for Responsive Judging, in 67 IUS GENTIUM: COMPARATIVE PERSPECTIVES ON LAW AND
+JUSTICE 87, 89–90 (Tania Sourdin & Archie Zariski eds., 2018).
+150 Contini et al., supra note 5, at 3.
+151 Sourdin & Cornes, supra note 149, at 90–91.
+152 Id. at 306.
+153 Ejjami, supra note 39, at 5; MCCARTHY ET AL., supra note 86, at 3.
+154 Sourdin & Cornes, supra note 149, at 92; Eboigbe, supra note 68, at 5.
+155 Lalit Singh et al., Artificial Intelligence in the Legal Profession: A Review on Its
+Transformative Potential and Ethical Challenges, PROC. 5TH INT’L CONF. ON INFO. MGMT. &
+MACH. INTEL. 1, 3 (2024); Awais et al., supra note 6, at 2640.
+156 Zahra, supra note 6, at 12; Padiu et al., supra note 70, at 11.
+157 Socol de la Osa & Remolina, supra note 75, at 4; Kolkman et al., supra note 77, at 5.
+158 Awais et al., supra note 6, at 2641; Jörg Pohle, “A Legal Discipline of the Future” – A
+Short History of the Intersection of Law and Computer Science, 5 HIIG DISCUSSION PAPER
+SERIES 1, 3-4 (2022).
+23
+
+Version 6 - August 2025
+VI. Benefits and Limitations of AI in Legal Solutions
+AI in legal practice offers significant benefits but is offset by the aforementioned risks. By
+leveraging explainable AI, fairness audits, and training, the legal profession can harness
+AI’s advantages while mitigating its limitations, ensuring that technology serves as a boon to
+justice rather than a barrier. As AI continues t o evolve, a balanced approach will be
+essential to maintain the integrity of legal systems.
+Benefits of AI in Legal Practice
+AI’s integration into legal practice has yielded substantial benefits, particularly in improving
+efficiency, accuracy, and access to justice. These advantages are evident across various
+applications, from legal research to judicial support.
+A. Efficiency
+AI significantly enhances efficiency by automating time-consuming tasks, allowing legal
+professionals to focus on higher-value activities. Tools like Lexis+AI and Westlaw
+AI-Assisted Research streamline legal research by rapidly retrieving relevant case law,
+statutes, and legal documents, reducing hours of manual work to minutes.159 Predictive
+analytics further optimizes litigation strategies by forecasting case outcomes, enabling
+faster decision-making and settlement negotiations.160
+Corporate legal departments also benefit, using AI for contract analysis and compliance
+monitoring, which reduces administrative burdens and operational costs.161 These efficiency
+gains enhance client service and enable law firms to handle complex cases more
+effectively.162
+B. Accuracy
+AI’s ability to process vast datasets with precision offers significant accuracy improvements
+in legal tasks. To reiterate, predictive analytics, for instance, achieves high accuracy in
+forecasting case outcomes, as demonstrated by a model for the ECHR that matched actual
+decisions with 97% accuracy.163 Similarly, a study on the CAIL dataset reported 96.9%
+accuracy in classifying semantic biases using SVMs, outperforming traditional risk
+assessment tools.164
+159 Sadiku et al., supra note 44, at 69.; Zahra, supra note 6, at 11.
+160 Padiu et al., supra note 70, at 11.
+161 Sadiku et al., supra note 44, at 69; Eboigbe, supra note 68, at 4.
+162 MCCARTHY ET AL., supra note 86, at 3.
+163 Collenette et al., supra note 4, at 3.
+164 Javed & Jianxin Li, supra note 69, at 5.
+24
+
+Version 6 - August 2025
+AI also enhances accuracy in legal research by identifying relevant precedents and
+extracting key legal concepts, reducing human error.165 Judicial analytics can further
+improve fairness by identifying extra-legal factors and behavioral anomalies in decisions,
+aiding efforts to debias the law.166 These accuracy benefits are particularly valuable in
+overburdened legal systems, such as India’s, where AI alleviates caseload pressures.167
+C. Access to Justice
+AI enhances access to justice by reducing costs and improving service delivery, particularly
+for underserved populations. Automated tools for legal research and document drafting
+lower the financial barriers to legal representation.168 For example, AI-driven platforms
+support free legal advice services, enabling equitable access to legal resources.169
+Additionally, AI’s role in alternative dispute resolution streamlines processes, making justice
+more accessible.170
+Limitations of AI in Legal Practice
+Despite its benefits, AI in legal practice faces significant limitations, including challenges in
+contextual understanding, risks of overreliance, and ethical concerns related to bias and
+errors.
+A. Contextual Understanding
+AI struggles to capture the nuanced, emotive-cognitive aspects of legal decision-making,
+such as empathy and social context, which are critical to judicial processes. Predictive and
+generative AI systems often reduce complex legal proceedings to statistical correlations,
+oversimplifying fact-finding and legal reasoning.171 For instance, Italian court cases showed
+that AI failed to account for the dynamics of judicial deliberations, risking unjust
+outcomes.172
+Generative AI, such as ChatGPT, cannot produce justified beliefs aligned with virtue
+jurisprudence, as it lacks the human virtues required for responsive judging.173 This
+limitation is compounded by AI’s inability to fully interpret cultural or socioeconomic factors,
+165 Trancoso et al., supra note 116, at 26; Padiu et al., supra note 70, at 11.
+166 Chen, supra note 99, at 16-17.
+167 Conrad et al., supra note 37, at 1.
+168 Zahra, supra note 6, at 11; Socol de la Osa & Remolina, supra note 75, at 3.
+169 Sergio David Becerra, The Rise of Artificial Intelligence in the Legal Field: Where We Are
+and Where We Are Going, 11 J. BUS., ENTREPRENEURSHIP & L. 27, 29 (2018).
+170 Zahra, supra note 6, at 11.
+171 Contini et al., supra note 5, at 4; Sourdin, supra note 148, at 306.
+172 Contini et al., supra note 5, at 3.
+173 Shilun Zhou, Analyzing the Justification for Using Generative AI Technology to Generate
+Judgments Based on the Virtue Jurisprudence Theory, J. DECISION SYS. 1, 3 (2024).
+25
+
+Version 6 - August 2025
+which human judges naturally consider.174 As a result, AI may produce technically accurate
+but contextually deficient outputs, undermining the quality of justice.175 Some research, such
+as Grabmari’s VJAP has made progress by taking values, sometimes thought of as
+purposes for a law,176 into account when decision making.177
+B. Overreliance and Errors
+Overreliance on AI poses a significant risk, as legal professionals may defer to AI outputs
+without critical evaluation, leading to errors and biases. As discussed, LLMs are prone to
+“hallucinations,” generating false legal citations or facts, with tools like Lexis+AI and
+Westlaw AI-Assisted Research hallucinating in 17–33% of cases.178 In judicial settings,
+overreliance on AI-generated reasoning, as observed in Shenzhen courts, can amplify
+judges’ prior beliefs, potentially introducing biases.179
+The risk of overreliance is exacerbated by AI’s perceived objectivity, which may lead to
+uncritical acceptance of flawed outputs.180 For example, the COMPAS tool’s biased risk
+assessments in U.S. bail decisions highlight the dangers of relying on AI without rigorous
+oversight.181 Ethically, overreliance undermines judicial discretion and accountability,
+necessitating human-in-the-loop approaches to verify AI outputs.182
+On the other hand, some studies have found that students were unlikely to over rely on LLM
+output when labelling court opinions as to legally relevant factors.183 Some studies have
+shown a prejudice toward AI outputs, finding that “[t]he aversion to AI-generated legal
+content aligns with existing research on algorithmic aversion in other domains.”184
+C. Bias and Ethical Challenges
+AI’s reliance on historical data introduces biases that can perpetuate inequities, such as
+racial or socioeconomic disparities in judicial decisions.185 These biases, coupled with
+174 Sourdin & Cornes, supra note 149, at 89-90.
+175 Sourdin, supra note 148, at 306.
+176 Grabmair, supra note 33, at (citing Donald H. Berman & Carole D. Hafner, Representing
+Teleological Structure in Case-Based Legal Reasoning: The Missing Link, PROC. 4TH INT’L CONF.
+ON A.I. & L. 50 (1993)).
+177 See generally Grabmair, supra note 33.
+178 Magesh et al., supra note 47, at 217.
+179 Liu & Li, supra note 4, at 237.
+180 Kolkman et al., supra note 77, at 5; Socol de la Osa & Remolina, supra note 75, at 4.
+181 Krištofík, supra note 5, at 237.
+182 MCCARTHY ET AL., supra note 86, at 3; Eboigbe, supra note 68, at 5.
+183 Morgan A. Gray et al., Can GPT Alleviate the Burden of Annotation?, in LEGAL KNOWLEDGE AND
+INFORMATION SYSTEMS 157, 159 (2023).
+184 See generally Jaukub Harasta et al., It Cannot Be Right if it was Written by AI: On
+Lawyers’ Preferences of Documents Perceived as Authored by an LLM vs a Human, 32
+A.I. & L. (2024).
+185 Krištofík, supra note 5, at 237; Chen, supra note 99, at 17.
+26
+
+Version 6 - August 2025
+issues like data privacy and lack of transparency, raise ethical concerns that limit AI’s
+reliability.186 The “digital divide” among legal professionals further complicates equitable AI
+adoption, potentially exacerbating access disparities.187
+Balancing Benefits and Limitations
+The evidence underscores that AI’s benefits—efficiency, accuracy, and improved
+access—are most effective when balanced against its limitations through human oversight
+and ethical safeguards. Explainable AI models, like the ECHR tool, mitigate contextual
+deficiencies by providing transparent, legally grounded outputs.188 Regular fairness audits
+and bias mitigation strategies address ethical concerns, ensuring AI aligns with justice
+principles.189 Moreover, training programs for legal professionals can reduce overreliance by
+fostering AI literacy.190
+AI’s role as a supportive tool, rather than a replacement for human judgment, is critical. As
+emphasized in multiple studies, AI augments legal practice but cannot replicate the
+empathy and discretion required for responsive judging.191 This human-in-the-loop
+approach, as practiced in Shenzhen courts, ensures that AI enhances efficiency without
+compromising justice.192
+VII. Regulatory Frameworks
+Regulatory frameworks governing AI in legal solutions and judicial roles are evolving to
+address its potential and risks. Existing policies, such as the EU AI Act, U.S. guidelines, and
+Chinese ethical norms, focus on transparency, bias mitigation, and human oversight, with
+varying degrees of stringency. Proposed frameworks advocate for mandatory bias audits,
+explainable AI, robust human oversight, data privacy protections, and global harmonization
+to ensure fairness and accountability. Challenges like jurisdictional variability and
+implementation gaps persist, requiring interdisciplinary collaboration and adaptive policies.
+By balancing innovation with ethical safeguards, these frameworks aim to harness AI’s
+efficiency while preserving the human elements of justice, ensuring its responsible
+integration into legal systems.
+186 Singh et al., supra note 155, at 3; Awais et al., supra note 6, at 2640.
+187 Zahra, supra note 6, at 12.
+188 Collenette et al., supra note 4, at 3.
+189 Awais et al., supra note 6, at 2641; Chen, supra note 99, at 17.
+190 Zahra, supra note 6, at 12.
+191 Sourdin & Cornes, supra note 149, at 92; MCCARTHY ET AL., supra note 86, at 3; Eboigbe,
+supra note 68, at 5.
+192 Liu & Li, supra note 4, at 236.
+27
+
+Version 6 - August 2025
+Existing Regulatory Frameworks
+Several jurisdictions have implemented policies to govern AI in legal and judicial contexts,
+focusing on mitigating risks while promoting responsible use. These frameworks vary in
+scope and stringency, reflecting regional differences in legal systems and priorities.
+A. European Union: The AI Act and High-Risk Classifications
+The European Union has taken a leading role in regulating AI, with the EU AI Act serving as
+a cornerstone framework. The Act classifies AI applications in judicial proceedings as
+“high-risk” due to their potential to impact fundamental rights, such as due process and
+non-discrimination.193 High-risk AI systems, including those used for predictive analytics or
+judicial decision support, are subject to strict requirements, such as mandatory
+transparency, bias audits, and human oversight.194
+The EU AI Act mandates that AI tools provide explainable outputs to ensure judicial
+decisions are scrutable, addressing concerns about “black-box” models.195 It also requires
+continuous monitoring to detect and correct biases, responding to issues like those seen in
+the COMPAS tool, which amplified racial disparities in U.S. bail decisions.196 This framework
+aims to protect liberal democratic values, such as equal treatment and judicial
+independence, by limiting AI’s role to supportive functions.197
+B. United States: Fragmented Oversight and Ethical Guidelines
+In the United States, AI regulation in legal contexts is less centralized, relying on a
+patchwork of federal and state-level guidelines. Federal oversight, such as through the
+National Institute of Standards and Technology (NIST), emphasizes voluntary standards for
+AI fairness, transparency, and accountability.198 State-level initiatives, particularly in
+jurisdictions like California, impose requirements for AI transparency and bias mitigation in
+high-stakes applications, including judicial risk assessments.199
+Ethical guidelines, such as those proposed by the American Bar Association, encourage
+lawyers to verify AI outputs to prevent errors like hallucinations.200 However, the lack of
+uniform federal regulations creates inconsistencies, particularly in judicial settings where AI
+193 Contini et al., supra note 5, at 2.
+194 Contini et al., supra note 5, at 2; Socol de la Osa & Remolina, supra note 75, at 5.
+195 Socol de la Osa & Remolina, supra note 75, at 5.
+196 Krištofík, supra note 5, at 237.
+197 Christopher K. Winter, The Challenges of Artificial Judicial Decision-Making for Liberal
+Democracy, in 14 JUDICIAL DECISION-MAKING, ECONOMIC ANALYSIS OF LAW IN EUROPEAN LEGAL
+SCHOLARSHIP 179, 184 (Piotr Bystranowski et al. eds., 2022).
+198 Zahra, supra note 6, at 12.
+199 Zahra, supra note 6, at 12.
+200 Magesh et al., supra note 47, at 217; MCCARTHY ET AL., supra note 86, at 3.
+28
+
+Version 6 - August 2025
+tools like COMPAS have faced scrutiny for bias.201 The U.S. approach prioritizes innovation
+but struggles to address systemic risks comprehensively.202
+C. China: Ethical Norms and Auxiliary Role Clarification
+In China, regulatory frameworks for judicial AI focus on clarifying its auxiliary role and
+establishing ethical norms. Policies emphasize that AI, such as LLMs used in Shenzhen
+courts to generate judicial opinions, should support human judges rather than replace them,
+ensuring judicial accountability remains with humans. Regulations mandate differential trials
+and post hoc monitoring to standardize AI applications, addressing procedural defects and
+ethical risks like bias amplification.203
+Chinese guidelines also require AI systems to undergo extensive testing to ensure accuracy
+and fairness, particularly in tasks like sentencing guidance and document generation.204
+These policies aim to enhance trial efficiency while safeguarding judicial integrity, reflecting
+a cautious approach to AI’s judicial role.205 However, the lack of transparency in some
+Chinese AI systems raises concerns about compliance with global ethical standards.206
+Proposed Regulatory Frameworks
+Scholars and policymakers have proposed several frameworks to address gaps in existing
+regulations, focusing on bias mitigation, transparency, human oversight, and global
+harmonization.
+A. Bias Audits and Fairness Standards
+Proposed regulations emphasize mandatory bias audits to mitigate AI’s tendency to
+perpetuate historical biases, as seen in tools like COMPAS.207 These audits would involve
+regular testing of AI models against diverse datasets, such as the CAIL dataset, to identify
+and correct biases.208 Fairness standards, proposed by scholars, would require AI systems
+to demonstrate equitable outcomes across demographic groups, aligning with principles of
+equal treatment.209
+201 Krištofík, supra note 5, at 237.
+202 Ejjami, supra note 39, at 5.
+203 Gulimila Aini, A Summary of the Research on the Judicial Application of Artificial
+Intelligence, 9 CHINESE STUD. 14, 16 (2020).
+204 Id.
+205 Liu & Li, supra note 4, at 236.
+206 Ejjami, supra note 39, at 5.
+207 Awais et al., supra note 6, at 2640;; Krištofík, supra note 5, at 237.
+208 Javed & Jianxin Li, supra note 69, at 3.
+209 Winter, supra note 197, at 181; Chen, supra note 99, at 17.
+29
+
+Version 6 - August 2025
+B. Explainable AI and Transparency Requirements
+Transparency is a critical focus of proposed frameworks, with calls for explainable AI to
+ensure judicial and legal outputs are understandable. Scholars advocate for regulations
+requiring AI systems to provide clear, legally grounded rationales, as exemplified by the
+ECHRmodel.210 Retrieval-based systems, like those using RAG, are recommended to
+reduce hallucinations, though current limitations necessitate further refinement.211
+Proposed policies also mandate disclosure of AI’s role in decision-making processes,
+ensuring litigants and judges can scrutinize outputs.212 These measures aim to protect due
+process and public trust, particularly in judicial settings where opacity could undermine
+legitimacy.213
+C. Human Oversight and Judicial Independence
+Proposed frameworks emphasize human oversight to preserve judicial discretion and
+independence. Regulations would require AI to function as a decision-support tool, as seen
+in Shenzhen’s human-in-the-loop model, where judges revise AI-generated outputs.214 This
+approach mitigates risks of AI overreach, ensuring human judges retain ultimate
+accountability.215
+To protect judicial independence, scholars propose legal infrastructure to limit AI’s influence
+on core judicial functions, addressing concerns about advanced artificial judicial intelligence
+(AAJI) threatening the separation of powers.216 These policies would restrict AI to
+transactional tasks, such as document generation, while reserving complex decision-making
+for humans.217
+Challenges in Regulation
+Despite progress, regulatory frameworks face significant challenges:
+● Balancing Innovation and Ethics: Strict regulations, like the EU AI Act, may stifle
+innovation, while lenient approaches, like in the U.S., risk unchecked biases.218
+210 Collenette et al., supra note 4, at 3.
+211 Magesh et al., supra note 47, at 217.
+212 Socol de la Osa & Remolina, supra note 75, at 5; Zahra, supra note 6, at 12.
+213 Anna Fine & Shawn Marsh, Judicial Leadership Matters (Yet Again): The Association
+Between Judge and Public Trust for Artificial Intelligence in Courts, 4 DISCOVER A.I. 1, 3
+(2024).
+214 Liu & Li, supra note 4, at 236; Zichun Xu, Human Judges in the Era of Artificial
+Intelligence: Challenges and Opportunities, 36 APPLIED A.I. 1, 3 (2021).
+215 Aini, supra note 203, at 16; Socol de la Osa & Remolina, supra note 75, at 5.
+216 Winter, supra note 197, at 185.
+217 Xu, supra note 214, at 3; Sourdin & Cornes, supra note 149, at 92.
+218 Contini et al., supra note 5, at 2; Zahra, supra note 6, at 12.
+30
+
+Version 6 - August 2025
+● Jurisdictional Variability: Differences in legal systems complicate global
+harmonization, requiring tailored yet compatible policies.219
+● Implementation Gaps: Proposed frameworks, such as bias audits, lack clear
+implementation guidelines, hindering practical adoption.220
+● Judicial Resistance: Judges’ skepticism about AI, driven by concerns about
+empathy and discretion, may slow regulatory acceptance.221
+These challenges underscore the need for adaptive, evidence-based regulations that evolve
+with AI advancements.222 Web3 systems offer significant improvements in this context.223
+IX. Research Gaps in the Judicial Application of AI
+The literature on AI’s judicial applications reveals significant research gaps that hinder its
+responsible integration. The absence of longitudinal studies limits understanding of AI’s
+long-term impact, while the focus on Western jurisdictions overlooks non-Western legal
+systems. Real-world judicial applications remain underexplored, leaving practical challenges
+unaddressed. Ethical and regulatory frameworks are underdeveloped, particularly regarding
+bias and judicial independence, and the societal impacts on public trust are insufficiently
+studied. Addressing these gaps requires future research to prioritize longitudinal analyses,
+diverse jurisdictional studies, empirical case studies, robust ethical guidelines, and
+investigations into public perceptions. By filling these voids, scholars can ensure AI
+enhances judicial efficiency and fairness while preserving the integrity of legal systems
+globally.
+Lack of Longitudinal Studies on AI’s Judicial Impact
+One significant research gap is the absence of longitudinal studies evaluating the long-term
+effects of AI in judicial systems. Current literature often focuses on short-term outcomes,
+such as AI’s immediate efficiency gains or accuracy in specific tasks, but fails to assess its
+enduring impact on judicial processes and outcomes.224 For instance, while AI tools have
+demonstrated high accuracy in predicting case outcomes (e.g., 96.9% in the CAIL dataset),
+there is little evidence on how these tools affect judicial decision-making quality, case
+backlogs, or public trust over extended periods.225
+Longitudinal research is critical to understanding whether AI’s efficiency benefits persist or if
+they introduce unintended consequences, such as increased reliance on automated
+219 Padiu et al., supra note 70, at 18.
+220 Awais et al., supra note 6, at 2640.
+221 Sourdin, supra note 148, at 306; Sourdin & Cornes, supra note 149, at 90.
+222 Eboigbe, supra note 68, at 5.
+223 See generally, Wulf A. Kaal, AI Governance Via Web3 Reputation System, 7 STAN. J.
+BLOCKCHAIN L. & POL. (2024).
+224 Aini, supra note 203, at 16.
+225 Javed & Jianxin Li, supra note 69, at 5..
+31
+
+Version 6 - August 2025
+systems or perpetuation of biases.226 For example, studies on public trust in AI, such as one
+examining perceptions of AI in criminal courts, highlight the role of judges in shaping trust
+but lack follow-up data on how these perceptions evolve.227 Future research should prioritize
+longitudinal studies to assess AI’s sustained impact on judicial efficiency, fairness, and
+public confidence across diverse jurisdictions.
+Limited Focus on Non-Western Legal Systems
+AI systems generally are developed in the western world. Such western AI system
+domination can be further exacerbated through mostly western training data for AI systems.
+This may lead to cultural biases in AI outputs as non-western cultures and non-western
+values inherent in such cultures are inadequately represented.
+The literature on AI in judicial applications is heavily skewed toward Western, common law
+jurisdictions or civil systems in Europe, with insufficient attention to non-Western legal
+systems, such as those in Asia, Africa, or the Middle East.228 While studies like those on the
+CAIL dataset provide insights into AI’s application in China, they are exceptions rather than
+the norm, and even these focus narrowly on technical performance rather than broader
+cultural or legal contexts.229 This gap limits the generalizability of findings, as legal systems
+vary significantly in their structures, cultural values, and judicial practices.230
+Non-Western jurisdictions often face unique challenges, such as resource constraints or
+differing ethical norms, which influence AI’s applicability. For instance, AI’s role in improving
+access to justice in developing countries is underexplored, despite its potential to address
+overburdened courts.231 Research on civil law or hybrid legal systems, which dominate
+many non-Western regions, is also scarce, leaving questions about AI’s adaptability
+unanswered.232 Future studies should investigate AI’s judicial applications in diverse legal
+traditions, incorporating cultural and jurisdictional nuances to ensure global relevance.
+Insufficient Exploration of Real-World Judicial AI Applications
+Current research often focuses on theoretical or experimental applications of AI, with limited
+analysis of real-world judicial implementations. While studies highlight AI’s potential in tasks
+like sentencing guidance or document generation, few examine its practical deployment in
+courtrooms.233 For example, the literature lacks detailed case studies on how AI tools, such
+226 Aini, supra note 203, at 16.
+227 Fine & Marsh, supra note 213, at 3.
+228 Padiu et al., supra note 70, at 665.
+229 Javed & Li, supra note 69, at 3.
+230 Padiu et al., supra note 70, at 7, 19.
+231 Id.
+232 Id.
+233 Aini, supra note 203, at 15; Xu, supra note 214, at 3.
+32
+
+Version 6 - August 2025
+as those used in Chinese courts for generating judicial opinions, affect judicial workflows,
+decision quality, or litigant outcomes in practice.234
+This gap is particularly evident in understanding the interaction between AI and human
+judges in real-world scenarios. While experimental studies suggest risks like bias
+amplification, there is little empirical data on how these risks manifest in operational judicial
+settings.235 The absence of real-world evidence hinders the development of practical
+guidelines for AI integration, leaving questions about scalability and adaptability
+unresolved.236 Future research should prioritize in-depth case studies and empirical
+analyses of AI’s real-world judicial applications, focusing on diverse court systems and
+practical challenges.
+Underdeveloped Ethical and Regulatory Frameworks
+The ethical and regulatory implications of AI in judicial decision-making remain
+underexplored, particularly regarding bias, transparency, and judicial independence. While
+studies identify risks, such as AI perpetuating semantic biases or threatening judicial
+autonomy, they offer limited solutions for mitigating these issues.237 For instance, the
+potential for advanced artificial judicial intelligence (AAJI) to undermine the separation of
+powers is noted, but there is no systematic analysis of how to safeguard judicial
+independence.238
+Ethical norms for judicial AI, such as those addressing fairness and accountability, are also
+underdeveloped. Current research calls for differential trials and post hoc monitoring but
+lacks frameworks for implementing these measures across jurisdictions.239 Similarly, the role
+of judges in fostering public trust in AI is acknowledged, yet there is little guidance on how
+to translate this into policy or practice.240
+Limited Understanding of Public Trust and Societal Impacts
+The societal impacts of AI in judicial systems, particularly its effect on public trust, are
+underexplored in the literature. While one study found that public trust in AI depends on
+judges’ perceived trust, it did not examine how AI’s use in high-stakes decisions (e.g., bail
+or sentencing) affects long-term public confidence in the judiciary.241 The potential for AI to
+perpetuate biases, as seen in the COMPAS tool, raises concerns about public perceptions
+of fairness, yet these are rarely studied in depth.242
+234 Padiu et al., supra note 70, at 12-13.
+235 Javed & Li, supra note 69, at 3; Xu, supra note 214, at 3.
+236 Aini, supra note 203, at 16.
+237 Javed & Li, supra note 69, at 3; Winter, supra note 197, at 184–85.
+238 Winter, supra note 197, at185.
+239 Aini, supra note 203, at 16.
+240 Fine & Marsh, supra note 213, at 3.
+241 Id.
+242 Krištofík, supra note 5, at 237.
+33
+
+Version 6 - August 2025
+Moreover, there is a lack of research on how AI’s judicial applications influence broader
+societal values, such as equal treatment and access to justice. The literature notes AI’s
+potential to improve fairness but fails to explore how its deployment in diverse cultural
+contexts shapes public attitudes.243 Future studies could investigate the societal implications
+of judicial AI, focusing on public trust, cultural variations, and the alignment of AI with
+democratic principles.
+XI. Future Trends
+Future trends in AI’s legal applications will center on advancements in predictive analytics
+and judicial simulation, transforming legal practice. Improved algorithms and multimodal
+data integration will enhance predictive accuracy, while global expansion will democratize
+access.244 Sophisticated LLMs, virtual arbitrators, and speculative AAJI will advance judicial
+simulation, supporting judges and streamlining disputes.245 Ethical and regulatory
+frameworks will evolve to ensure fairness, transparency, and human oversight, addressing
+biases and maintaining trust.246 While AI’s efficiency and precision will revolutionize legal
+systems, human judgment appears to remain essential for the time being, ensuring a
+balanced integration that upholds justice principles.247
+Advancements in Predictive Analytics
+Predictive analytics, which uses AI to forecast case outcomes and inform legal strategies, is
+expected to see significant advancements in algorithm sophistication, data integration, and
+global applicability.
+A. Improved Algorithms for Complex Legal Datasets
+Future developments in predictive analytics will focus on enhancing algorithms to handle
+increasingly complex legal datasets. Current models, such as those achieving 96.9%
+accuracy in classifying biases in the CAIL dataset, demonstrate strong performance but
+struggle with nuanced or ambiguous cases.248 Anticipated improvements include advanced
+neural networks and transformer-based architectures, enabling AI to better process
+unstructured data like judicial opinions and legal briefs.249
+243 Winter, supra note 197, at 181; Padiu et al., supra note 70, at 11.
+244 Ejjami, supra note 39, at 3; Padiu et al., supra note 70, at 11.
+245 Liu & Li, supra note 4, at 236; Christopher M. Malikschmitt, The Real Future of AI in Law:
+AI Judges, ABA (Oct. 18, 2023),
+https://www.americanbar.org/groups/law_practice/resources/law-technology-today/2023/the-
+real-future-of-ai-in-law-ai-judges/.
+246 Awais et al., supra note 6, at 2641; Krištofík, supra note 5, at 237.
+247 Sourdin & Cornes, supra note 149, at 92; Xu, supra note 214, at 3.
+248 Javed & Jianxin Li, supra note 69, at 5.
+249 Ejjami, supra note 39, at 3.
+34
+
+Version 6 - August 2025
+These algorithms will improve the precision of outcome predictions, litigation risk
+assessments, and settlement recommendations, empowering lawyers to optimize
+strategies.250 For instance, predictive analytics will evolve to account for extra-legal factors,
+such as judicial behavior, enhancing fairness by identifying and mitigating biases.251 Such
+advancements will streamline corporate legal operations and improve client outcomes.252
+Recent NLP work has warned of data contamination, where benchmark test sets
+inadvertently end up in an LLM’s training corpus. If a model has already seen a
+benchmark’s ground-truth answers during training, its performance may reflect
+memorization rather than genuine generalization, making it hard to assess its ability on truly
+unseen tasks.253
+B. Integration of Multimodal Data
+The integration of multimodal data—combining text, audio, and video from legal
+proceedings—will enhance predictive analytics’ robustness. Future AI systems will analyze
+courtroom transcripts, oral arguments, and visual cues to provide richer insights into case
+dynamics.254 This holistic approach will improve prediction accuracy, particularly in
+jurisdictions with diverse data sources, such as India’s overburdened courts.255 Some
+research is already beginning in this area.256
+Multimodal analytics will also support proactive compliance monitoring, enabling firms to
+anticipate regulatory risks.257 However, integrating diverse data raises privacy and ethical
+concerns, necessitating robust governance frameworks.258
+C. Global Expansion and Accessibility
+Predictive analytics will expand to non-Western and developing legal systems, addressing
+disparities in access to AI technology. Current applications are concentrated in common law
+jurisdictions, but future trends will see AI tailored to civil law and hybrid systems, enhancing
+global applicability.259 This expansion will democratize legal services, particularly in
+resource-constrained regions, by automating case management and reducing costs.260
+250 Zahra, supra note 6, at 11.
+251 Chen, supra note 99, at 17.
+252 Sadiku et al., supra note 44, at 69.
+253 Simone Balloccu, Patrícia Schmidtová, Mateusz Lango & Ondrej Dusek, Leak, Cheat,
+Repeat: Data Contamination and Evaluation Malpractices in Closed‑Source LLMs, PROC. 18TH
+CONF. EUROPEAN CH. ASS’N COMPUT. LINGUISTICS 67, 67 (2024).
+254 Ejjami, supra note 39, at 3; Awais et al., supra note 6, at 2640.
+255 Conrad et al., supra note 37, at 1.
+256 See generally, Jaromir Savelka & Hannes Westermann, Analyzing Images of Legal
+Documents: Toward Multi-Modal LLMs for Access to Justice, ARXIV PREPRINT (Dec. 16 2024),
+https://arxiv.org/abs/2412.15260.
+257 Sadiku et al., supra note 44, at 69.
+258 Singh et al., supra note 155, at 3.
+259 Padiu et al., supra note 70, at 11.
+260 Zahra, supra note 6, at 11; Becerra, supra note 169, at 29.
+35
+
+Version 6 - August 2025
+Open-source AI platforms and cloud-based solutions will facilitate adoption in developing
+jurisdictions, improving access to justice.261 However, cultural and jurisdictional differences
+will require localized algorithms to ensure relevance and fairness.262
+Advancements in Judicial Simulation
+Judicial simulation, where AI mimics judicial reasoning or supports decision-making, is
+expected to advance through enhanced LLMs, virtual arbitration, and ethical integration.
+A. Sophisticated LLMs for Judicial Reasoning
+LLMs, such as those used in Shenzhen courts to generate judicial opinions, will become
+more sophisticated, capable of simulating judicial reasoning across diverse jurisdictions.263
+Future models will incorporate advanced contextual understanding, reducing errors like
+hallucinations.264 Improved explainability, as seen in the ECHR model with 97% accuracy,
+will enhance trust in AI-generated judicial outputs.265
+These advancements will support judges in drafting rulings and analyzing precedents,
+particularly in high-volume courts.266 However, AI’s inability to replicate empathy and social
+responsiveness will limit its role to supportive functions.267
+B. AI as Virtual Arbitrator or Mediator
+AI is anticipated to play a growing role in alternative dispute resolution (ADR) as virtual
+arbitrators or mediators. Future systems will analyze case data, propose settlements, and
+facilitate negotiations, streamlining dispute resolution.268 AI’s neutrality and efficiency make
+it suitable for low-stakes or standardized disputes, reducing court backlogs.269
+For example, AI mediators could use predictive analytics to suggest equitable outcomes,
+enhancing access to justice in jurisdictions like Colombia or India.270 However, complex
+disputes requiring human empathy will remain outside AI’s purview, necessitating hybrid
+models.271
+261 Padiu et al., supra note 70, at 11.
+262 Ejjami, supra note 39, at 5.
+263 Liu & Li, supra note 4, at 236.
+264 Magesh et al., supra note 47, at 217.
+265 Collenette et al., supra note 4, at 3.
+266 Socol de la Osa & Remolina, supra note 75, at 3.
+267 Sourdin, supra note 148, at 306; Contini et al., supra note 5, at 4.
+268 Zahra, supra note 6, at 11; Becerra, supra note 169, at 29.
+269 Xu, supra note 214, at 3.
+270 Socol de la Osa & Remolina, supra note 75, at 3.
+271 Sourdin & Cornes, supra note 149, at 92.
+36
+
+Version 6 - August 2025
+C. Advanced Artificial Judicial Intelligence (AAJI)
+The development of advanced artificial judicial intelligence (AAJI) is a speculative but
+anticipated trend, where AI could simulate full judicial processes.272 AAJI would integrate
+predictive analytics, LLMs, and multimodal data to mimic judicial reasoning, potentially
+automating simple cases.273 While current systems, like the Dutch court’s traffic violation
+appeals tool, show promise, AAJI’s feasibility is limited by ethical concerns, including bias
+and accountability.274 The adoption of the so-called, robo-judge, has been considered by the
+AI and Law community, with some concluding that “much research is still needed”, but “the
+AI & [L]aw community is currently very active in doing this research.”275
+XII. Conclusion
+The integration of AI into legal systems represents a transformative paradigm shift, offering
+profound opportunities to enhance efficiency, accuracy, and access to justice while
+presenting significant ethical, technical, and regulatory challenges. This article has traced
+AI’s evolution from early philosophical foundations to the sophisticated LLMs of the 2020s,
+highlighting its applications in legal research, predictive analytics, and judicial
+decision-making. Predictive AI analytics, powered by advanced machine learning and
+natural language processing, has demonstrated remarkable precision, achieving up to 97%
+accuracy in case outcome predictions, yet its reliance on historical data introduces risks of
+bias and hallucination. Judicial simulation, exemplified by generative AI in Shenzhen courts,
+augments decision-making but struggles with the emotive-cognitive nuances essential to
+human adjudication
+Stakeholder perceptions reflect a cautious optimism, with lawyers valuing AI’s productivity
+gains, judges emphasizing human empathy, and policymakers advocating for robust
+governance. Regulatory frameworks, such as the EU AI Act, aim to mitigate risks through
+transparency and fairness audits, yet global harmonization remains elusive. Research gaps,
+particularly in longitudinal studies and non-Western contexts, underscore the need for
+further inquiry to ensure AI’s equitable application.
+Looking forward, advancements in predictive analytics and judicial simulation promise to
+revolutionize legal practice, with multimodal data integration and virtual arbitrators
+enhancing accessibility. However, AI’s limitations in replicating human empathy and the
+persistent risk of bias necessitate a hybrid approach, where AI’s efficiency complements
+human discretion. As AI continues to evolve, interdisciplinary collaboration and adaptive
+regulations will be paramount to balance technological innovation with the ethical and legal
+imperatives of justice, ensuring AI serves as a tool for equitable and responsive legal
+systems worldwide.
+272 Malikschmitt, supra note 245.
+273 Winter, supra note 197, at 181.
+274 Kolkman et al., supra note 77, at 5.
+275Henry Prakken, Komt de robotrechter er aan? [Is the Robot Judge Near?], 4 NEDERLANDS
+JURISTENBLAD 269, 274 (2018), (English Translation Available at
+https://webspace.science.uu.nl/~prakk101/pubs/Robotrechter2English.pdf).
+37
+
