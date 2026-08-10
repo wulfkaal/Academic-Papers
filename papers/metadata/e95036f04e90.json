@@ -1,0 +1,11 @@
+{
+  "id": "e95036f04e90",
+  "filename": "Kaal - 2026 - Paper 2 - Architecture of the Agentic Reputation Substrate.pdf",
+  "title": "Paper 2 - Architecture of the Agentic Reputation Substrate",
+  "abstract": "Autonomous AI agents transact, delegate, and produce at machine speed, but they do so inside an institutional vacuum: each agent interaction is, by default, a one-shot game between counterparties with no memory, no accountability, and no shadow of the future. Earlier work (Kaal 2026d) documented this institutional deficit empirically. This paper describes the institution built to repair it. The agentic reputation substrate is an engineering artifact that imposes iterability on agent interactions so that repeated-game cooperation dominates, in the sense of the Folk Theorems, through reputation accumulation across staked validation pools. Four design contributions organize the exposition. First, reputation-staked validation pools convert one-shot agent calls into an iterated game with priced accountability. Second, a staged deliberation protocol separates independent assessment, structured contestation, and binding adjudication while preserving the integrity of each function. Third, per-tag reputation (REP) functions as capability-scoped institutional memory: REP accrues, changes over time, and conditions participation within skill domains rather than as an undifferentiated scalar. Fourth, the weighted directed acyclic graph (WDAG) supplies the foundational mechanism-design substrate in the Calcaterra-Kaal lineage, recording claims, validations, and citations in an inspectable institutional history. The paper closes with what the architecture buys, what it does not, and what the empirical companion papers test. Keywords: agentic reputation substrate; validation pools; deliberation protocol; commit-reveal voting; slashing; per-tag reputation; weighted directed acyclic graph; Folk Theorem; mechanism design; institutional economics; autonomous agents; AI governance; decentralized autonomous organizations. JEL Classification: D02, D71, D82, D86, C72, C73, K20, L14, O33. 2 Table of Contents I. Introduction 4 II. Related Literature 6 A. The reputation-system lineage 6 B. St",
+  "page_count": 27,
+  "word_count": 8189,
+  "char_count": 75789,
+  "references": [],
+  "extracted_at": "2026-08-10T15:47:17+00:00"
+}
