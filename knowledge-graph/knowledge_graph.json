@@ -2,20 +2,21 @@
   "metadata": {
     "author": "Wulf A. Kaal",
     "ssrn": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345",
-    "total_papers": 130,
+    "total_papers": 131,
     "total_topics": 12,
-    "total_edges": 3169,
-    "built_at": "2026-08-10T20:40:17+00:00",
+    "total_edges": 3228,
+    "built_at": "2026-08-19T17:22:20+00:00",
     "embedding_model": "all-MiniLM-L6-v2",
     "similarity_threshold": 0.35,
     "build_mode": "full",
     "keyword_methods": {
       "original": 121,
-      "kaal-paper-tfidf": 9
+      "kaal-paper-tfidf": 10
     },
     "keywords_computed_by_tool": [
       "2033fccc767e",
       "20603ab28e2f",
+      "647c18dd0885",
       "8abbcc6b9ea5",
       "9a665fac781f",
       "b0a7a13741e1",
@@ -42,8 +43,8 @@
         "protocols"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.461,
-      "betweenness": 0.0057
+      "centrality": 0.4648,
+      "betweenness": 0.0056
     },
     {
       "id": "01bd17a86890",
@@ -61,8 +62,8 @@
         "dao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5106,
-      "betweenness": 0.0029
+      "centrality": 0.5141,
+      "betweenness": 0.003
     },
     {
       "id": "0322f0ae77c2",
@@ -80,8 +81,8 @@
         "tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.539,
-      "betweenness": 0.0082
+      "centrality": 0.5352,
+      "betweenness": 0.0081
     },
     {
       "id": "05b1eb3f34f6",
@@ -99,8 +100,8 @@
         "monetary policy"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4468,
-      "betweenness": 0.0036
+      "centrality": 0.4437,
+      "betweenness": 0.0035
     },
     {
       "id": "0a7cc7a795b0",
@@ -118,8 +119,8 @@
         "decentralized"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5603,
-      "betweenness": 0.0145
+      "centrality": 0.5634,
+      "betweenness": 0.0146
     },
     {
       "id": "0a8c6b95a521",
@@ -137,7 +138,7 @@
         "code"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3191,
+      "centrality": 0.3239,
       "betweenness": 0.0011
     },
     {
@@ -156,8 +157,8 @@
         "reputation"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2837,
-      "betweenness": 0.0005
+      "centrality": 0.2817,
+      "betweenness": 0.0004
     },
     {
       "id": "136ce7a884ad",
@@ -175,7 +176,7 @@
         "decentralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5248,
+      "centrality": 0.5282,
       "betweenness": 0.005
     },
     {
@@ -194,8 +195,8 @@
         "fund"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5035,
-      "betweenness": 0.0195
+      "centrality": 0.5,
+      "betweenness": 0.0193
     },
     {
       "id": "140dbab10259",
@@ -213,8 +214,8 @@
         "lexdao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5745,
-      "betweenness": 0.0103
+      "centrality": 0.5775,
+      "betweenness": 0.0102
     },
     {
       "id": "1917f964a918",
@@ -232,8 +233,8 @@
         "corporate"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.0496,
-      "betweenness": 0.0146
+      "centrality": 0.0493,
+      "betweenness": 0.0145
     },
     {
       "id": "198fb0749390",
@@ -251,8 +252,8 @@
         "stablecoin"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4752,
-      "betweenness": 0.0054
+      "centrality": 0.4718,
+      "betweenness": 0.0053
     },
     {
       "id": "1a98edb02e8a",
@@ -270,7 +271,7 @@
         "investment adviser"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2411,
+      "centrality": 0.2394,
       "betweenness": 0.0038
     },
     {
@@ -289,7 +290,7 @@
         "computative economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.078,
+      "centrality": 0.0775,
       "betweenness": 0.0006
     },
     {
@@ -308,7 +309,7 @@
         "equilibrium"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3333,
+      "centrality": 0.338,
       "betweenness": 0.001
     },
     {
@@ -327,8 +328,8 @@
         "daoic"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5816,
-      "betweenness": 0.0077
+      "centrality": 0.5845,
+      "betweenness": 0.0078
     },
     {
       "id": "2119194f55b6",
@@ -346,8 +347,8 @@
         "rulemaking process"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1915,
-      "betweenness": 0.007
+      "centrality": 0.1972,
+      "betweenness": 0.0075
     },
     {
       "id": "261ddfc2a5ce",
@@ -365,8 +366,8 @@
         "earn"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.617,
-      "betweenness": 0.0188
+      "centrality": 0.6197,
+      "betweenness": 0.0186
     },
     {
       "id": "26e22a74a0ab",
@@ -384,8 +385,8 @@
         "accessed june 2020"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5603,
-      "betweenness": 0.0085
+      "centrality": 0.5634,
+      "betweenness": 0.0084
     },
     {
       "id": "28bace2b0e1d",
@@ -403,7 +404,7 @@
         "dodd frank act"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.156,
+      "centrality": 0.1549,
       "betweenness": 0.0003
     },
     {
@@ -422,8 +423,8 @@
         "september 2024"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4043,
-      "betweenness": 0.0045
+      "centrality": 0.4085,
+      "betweenness": 0.0043
     },
     {
       "id": "2b5a6365cf02",
@@ -441,7 +442,7 @@
         "carbon"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4113,
+      "centrality": 0.4085,
       "betweenness": 0.0014
     },
     {
@@ -460,8 +461,8 @@
         "icos"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4965,
-      "betweenness": 0.0075
+      "centrality": 0.493,
+      "betweenness": 0.0074
     },
     {
       "id": "2e76aee5824f",
@@ -479,8 +480,8 @@
         "trigger"
       ],
       "topic": "General Research",
-      "centrality": 0.0567,
-      "betweenness": 0.0283
+      "centrality": 0.0563,
+      "betweenness": 0.0281
     },
     {
       "id": "307631d8e6d4",
@@ -498,7 +499,7 @@
         "tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3759,
+      "centrality": 0.3803,
       "betweenness": 0.0007
     },
     {
@@ -517,8 +518,8 @@
         "median"
       ],
       "topic": "Securities Law",
-      "centrality": 0.2766,
-      "betweenness": 0.0082
+      "centrality": 0.2746,
+      "betweenness": 0.0081
     },
     {
       "id": "34b1debef2f6",
@@ -536,8 +537,8 @@
         "coding"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.0922,
-      "betweenness": 0.0028
+      "centrality": 0.0915,
+      "betweenness": 0.0027
     },
     {
       "id": "350ca2eb3957",
@@ -555,8 +556,8 @@
         "rep"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5603,
-      "betweenness": 0.0258
+      "centrality": 0.5634,
+      "betweenness": 0.0247
     },
     {
       "id": "37725e328f6d",
@@ -574,8 +575,8 @@
         "corporate governance"
       ],
       "topic": "Securities Law",
-      "centrality": 0.2837,
-      "betweenness": 0.0092
+      "centrality": 0.2817,
+      "betweenness": 0.009
     },
     {
       "id": "379ed5498a2b",
@@ -593,8 +594,8 @@
         "03 11 2017"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5461,
-      "betweenness": 0.0122
+      "centrality": 0.5423,
+      "betweenness": 0.012
     },
     {
       "id": "3aaceac02ce3",
@@ -612,8 +613,8 @@
         "news"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.1418,
-      "betweenness": 0.0032
+      "centrality": 0.1479,
+      "betweenness": 0.0033
     },
     {
       "id": "3bc641edb392",
@@ -631,8 +632,8 @@
         "underwriting"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5461,
-      "betweenness": 0.0091
+      "centrality": 0.5493,
+      "betweenness": 0.0092
     },
     {
       "id": "3c97a74f6667",
@@ -650,8 +651,8 @@
         "offerings"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4255,
-      "betweenness": 0.0088
+      "centrality": 0.4225,
+      "betweenness": 0.0087
     },
     {
       "id": "3db66116c7a0",
@@ -669,8 +670,8 @@
         "morrison"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1773,
-      "betweenness": 0.0152
+      "centrality": 0.1761,
+      "betweenness": 0.0151
     },
     {
       "id": "4008ed72ee00",
@@ -688,7 +689,7 @@
         "confluence"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2482,
+      "centrality": 0.2465,
       "betweenness": 0.0029
     },
     {
@@ -707,7 +708,7 @@
         "monitoring"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5177,
+      "centrality": 0.5211,
       "betweenness": 0.0041
     },
     {
@@ -726,7 +727,7 @@
         "id"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1702,
+      "centrality": 0.169,
       "betweenness": 0.003
     },
     {
@@ -745,7 +746,7 @@
         "https doi"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3404,
+      "centrality": 0.338,
       "betweenness": 0.0007
     },
     {
@@ -764,8 +765,8 @@
         "innovation"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.2837,
-      "betweenness": 0.007
+      "centrality": 0.2817,
+      "betweenness": 0.0068
     },
     {
       "id": "51bd12546623",
@@ -783,8 +784,8 @@
         "centralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3546,
-      "betweenness": 0.0021
+      "centrality": 0.3592,
+      "betweenness": 0.002
     },
     {
       "id": "532ef8fba69a",
@@ -802,8 +803,8 @@
         "society"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.156,
-      "betweenness": 0.0037
+      "centrality": 0.1549,
+      "betweenness": 0.0035
     },
     {
       "id": "557be806b34d",
@@ -821,7 +822,7 @@
         "code reviews"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4326,
+      "centrality": 0.4366,
       "betweenness": 0.003
     },
     {
@@ -840,8 +841,8 @@
         "reputation tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2908,
-      "betweenness": 0.0006
+      "centrality": 0.2887,
+      "betweenness": 0.0005
     },
     {
       "id": "55b8a33538b1",
@@ -859,8 +860,8 @@
         "stablecoins"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3546,
-      "betweenness": 0.0032
+      "centrality": 0.3521,
+      "betweenness": 0.0031
     },
     {
       "id": "562753df2551",
@@ -878,8 +879,8 @@
         "lendingrobot"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3759,
-      "betweenness": 0.0097
+      "centrality": 0.3732,
+      "betweenness": 0.0096
     },
     {
       "id": "584f5a5c8f6a",
@@ -897,7 +898,7 @@
         "mutual funds"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1773,
+      "centrality": 0.1761,
       "betweenness": 0.0004
     },
     {
@@ -916,7 +917,7 @@
         "06"
       ],
       "topic": "General Research",
-      "centrality": 0.0071,
+      "centrality": 0.007,
       "betweenness": 0.0
     },
     {
@@ -935,7 +936,7 @@
         "launches"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4255,
+      "centrality": 0.4225,
       "betweenness": 0.0019
     },
     {
@@ -954,7 +955,7 @@
         "2012"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.234,
+      "centrality": 0.2324,
       "betweenness": 0.0015
     },
     {
@@ -973,7 +974,7 @@
         "corporate"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.461,
+      "centrality": 0.4648,
       "betweenness": 0.0022
     },
     {
@@ -992,8 +993,8 @@
         "systems"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4965,
-      "betweenness": 0.0129
+      "centrality": 0.5,
+      "betweenness": 0.0127
     },
     {
       "id": "6218c56cb1aa",
@@ -1011,7 +1012,7 @@
         "hedge funds"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.234,
+      "centrality": 0.2324,
       "betweenness": 0.0026
     },
     {
@@ -1030,8 +1031,8 @@
         "fungible"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5177,
-      "betweenness": 0.0033
+      "centrality": 0.5211,
+      "betweenness": 0.0032
     },
     {
       "id": "626b662bc95c",
@@ -1049,8 +1050,8 @@
         "corporate"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1631,
-      "betweenness": 0.0092
+      "centrality": 0.162,
+      "betweenness": 0.009
     },
     {
       "id": "6460c8288256",
@@ -1068,8 +1069,27 @@
         "cid"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.2057,
+      "centrality": 0.2113,
       "betweenness": 0.0073
+    },
+    {
+      "id": "647c18dd0885",
+      "title": "Institutional Requirements for Sovereign Local Agent Runtimes",
+      "type": "paper",
+      "filename": "Kaal - 2026 - Institutional Requirements for Sovereign Local Agent Runtimes.pdf",
+      "abstract": "A new class of system has arrived. Models, agents, tools, and data resources now compose on the user's own machine, hold state locally, and settle payment for outward work machine-to-machine. This Article calls that class the sovereign local agent runtime and argues that its central achievement is n",
+      "page_count": 27,
+      "word_count": 10879,
+      "keywords": [
+        "local",
+        "execution",
+        "institutional",
+        "class",
+        "sovereign"
+      ],
+      "topic": "Blockchain Governance",
+      "centrality": 0.4155,
+      "betweenness": 0.0058
     },
     {
       "id": "68d3e6df312c",
@@ -1087,8 +1107,8 @@
         "quantum economy"
       ],
       "topic": "Institutional Design",
-      "centrality": 0.0355,
-      "betweenness": 0.014
+      "centrality": 0.0352,
+      "betweenness": 0.0139
     },
     {
       "id": "6963df831130",
@@ -1106,8 +1126,8 @@
         "economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.2695,
-      "betweenness": 0.0091
+      "centrality": 0.2746,
+      "betweenness": 0.0092
     },
     {
       "id": "6c100ed87523",
@@ -1125,7 +1145,7 @@
         "abstract 4796714"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4255,
+      "centrality": 0.4296,
       "betweenness": 0.0017
     },
     {
@@ -1144,8 +1164,8 @@
         "duties"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1915,
-      "betweenness": 0.0039
+      "centrality": 0.1972,
+      "betweenness": 0.0047
     },
     {
       "id": "717a665c0399",
@@ -1163,7 +1183,7 @@
         "advisers"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1844,
+      "centrality": 0.1831,
       "betweenness": 0.0006
     },
     {
@@ -1182,8 +1202,8 @@
         "july2024"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4752,
-      "betweenness": 0.0142
+      "centrality": 0.4718,
+      "betweenness": 0.014
     },
     {
       "id": "75e8fdfd174b",
@@ -1201,7 +1221,7 @@
         "regulatory"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1135,
+      "centrality": 0.1127,
       "betweenness": 0.0012
     },
     {
@@ -1220,8 +1240,8 @@
         "03 11 2017"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5461,
-      "betweenness": 0.0122
+      "centrality": 0.5423,
+      "betweenness": 0.012
     },
     {
       "id": "7991977e6b1e",
@@ -1239,7 +1259,7 @@
         "micro"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4539,
+      "centrality": 0.4577,
       "betweenness": 0.0032
     },
     {
@@ -1258,8 +1278,8 @@
         "dao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.617,
-      "betweenness": 0.0346
+      "centrality": 0.6197,
+      "betweenness": 0.0345
     },
     {
       "id": "7de71edc4f11",
@@ -1277,7 +1297,7 @@
         "work earn"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3901,
+      "centrality": 0.3873,
       "betweenness": 0.0011
     },
     {
@@ -1296,8 +1316,8 @@
         "private investment fund"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5674,
-      "betweenness": 0.0285
+      "centrality": 0.5634,
+      "betweenness": 0.0282
     },
     {
       "id": "7e7413ad2514",
@@ -1315,8 +1335,8 @@
         "polychain"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4397,
-      "betweenness": 0.0035
+      "centrality": 0.4366,
+      "betweenness": 0.0034
     },
     {
       "id": "808865325975",
@@ -1334,8 +1354,8 @@
         "mme switzerland token"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5674,
-      "betweenness": 0.0105
+      "centrality": 0.5704,
+      "betweenness": 0.0103
     },
     {
       "id": "818e5417df51",
@@ -1353,8 +1373,8 @@
         "legal education"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4326,
-      "betweenness": 0.0338
+      "centrality": 0.4296,
+      "betweenness": 0.0332
     },
     {
       "id": "82a122606c71",
@@ -1372,8 +1392,8 @@
         "hierarchy"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3759,
-      "betweenness": 0.0023
+      "centrality": 0.3803,
+      "betweenness": 0.0022
     },
     {
       "id": "8764e3f21d13",
@@ -1391,7 +1411,7 @@
         "com abstract 2739479"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1986,
+      "centrality": 0.1972,
       "betweenness": 0.0013
     },
     {
@@ -1410,7 +1430,7 @@
         "blockchain solutions"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5745,
+      "centrality": 0.5775,
       "betweenness": 0.01
     },
     {
@@ -1429,8 +1449,8 @@
         "record"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1489,
-      "betweenness": 0.0031
+      "centrality": 0.1549,
+      "betweenness": 0.0032
     },
     {
       "id": "8b7efdf0148a",
@@ -1448,7 +1468,7 @@
         "scale ai"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1631,
+      "centrality": 0.169,
       "betweenness": 0.0004
     },
     {
@@ -1467,7 +1487,7 @@
         "rop"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5816,
+      "centrality": 0.5845,
       "betweenness": 0.0094
     },
     {
@@ -1486,7 +1506,7 @@
         "platform"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3759,
+      "centrality": 0.3803,
       "betweenness": 0.0011
     },
     {
@@ -1505,7 +1525,7 @@
         "decentralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1702,
+      "centrality": 0.1761,
       "betweenness": 0.0002
     },
     {
@@ -1524,7 +1544,7 @@
         "technology infrastructure"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4894,
+      "centrality": 0.493,
       "betweenness": 0.0042
     },
     {
@@ -1543,7 +1563,7 @@
         "systemic risk"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1773,
+      "centrality": 0.1761,
       "betweenness": 0.0005
     },
     {
@@ -1562,8 +1582,8 @@
         "funds"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3546,
-      "betweenness": 0.0055
+      "centrality": 0.3521,
+      "betweenness": 0.0054
     },
     {
       "id": "991488ad67fb",
@@ -1581,8 +1601,8 @@
         "respondents"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2624,
-      "betweenness": 0.0058
+      "centrality": 0.2606,
+      "betweenness": 0.0057
     },
     {
       "id": "9a144ff79b4b",
@@ -1600,7 +1620,7 @@
         "shareholder agreements"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1064,
+      "centrality": 0.1056,
       "betweenness": 0.0008
     },
     {
@@ -1619,8 +1639,8 @@
         "scarcity"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.3191,
-      "betweenness": 0.0103
+      "centrality": 0.3239,
+      "betweenness": 0.0102
     },
     {
       "id": "9bb2c112d572",
@@ -1638,7 +1658,7 @@
         "contemporary"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.461,
+      "centrality": 0.4648,
       "betweenness": 0.0027
     },
     {
@@ -1657,8 +1677,8 @@
         "copy available https"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1064,
-      "betweenness": 0.009
+      "centrality": 0.1056,
+      "betweenness": 0.0089
     },
     {
       "id": "a87e522e3b75",
@@ -1676,8 +1696,8 @@
         "civil law"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4823,
-      "betweenness": 0.0061
+      "centrality": 0.4859,
+      "betweenness": 0.0059
     },
     {
       "id": "a9c0b315b800",
@@ -1695,8 +1715,8 @@
         "commerce"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5106,
-      "betweenness": 0.0061
+      "centrality": 0.5141,
+      "betweenness": 0.006
     },
     {
       "id": "ab4db2eb301d",
@@ -1714,8 +1734,8 @@
         "coin offerings"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5674,
-      "betweenness": 0.0191
+      "centrality": 0.5634,
+      "betweenness": 0.0187
     },
     {
       "id": "b09332fe0086",
@@ -1733,7 +1753,7 @@
         "success tomorrow"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.0142,
+      "centrality": 0.0141,
       "betweenness": 0.0
     },
     {
@@ -1752,7 +1772,7 @@
         "recursive equilibrium"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2482,
+      "centrality": 0.2535,
       "betweenness": 0.001
     },
     {
@@ -1771,7 +1791,7 @@
         "va"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5177,
+      "centrality": 0.5211,
       "betweenness": 0.0039
     },
     {
@@ -1790,7 +1810,7 @@
         "economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.2057,
+      "centrality": 0.2113,
       "betweenness": 0.0061
     },
     {
@@ -1809,8 +1829,8 @@
         "funds"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5106,
-      "betweenness": 0.018
+      "centrality": 0.507,
+      "betweenness": 0.0178
     },
     {
       "id": "b92bf3c25e3f",
@@ -1828,7 +1848,7 @@
         "pf"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.227,
+      "centrality": 0.2254,
       "betweenness": 0.0022
     },
     {
@@ -1847,7 +1867,7 @@
         "convertible"
       ],
       "topic": "Securities Law",
-      "centrality": 0.0851,
+      "centrality": 0.0845,
       "betweenness": 0.0004
     },
     {
@@ -1866,7 +1886,7 @@
         "blockchain technology"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4894,
+      "centrality": 0.4859,
       "betweenness": 0.0028
     },
     {
@@ -1885,8 +1905,8 @@
         "united"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1277,
-      "betweenness": 0.0092
+      "centrality": 0.1338,
+      "betweenness": 0.0098
     },
     {
       "id": "bf34b0870e32",
@@ -1904,7 +1924,7 @@
         "wdag"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4397,
+      "centrality": 0.4437,
       "betweenness": 0.002
     },
     {
@@ -1923,7 +1943,7 @@
         "aatt hhttttppss"
       ],
       "topic": "General Research",
-      "centrality": 0.0071,
+      "centrality": 0.007,
       "betweenness": 0.0
     },
     {
@@ -1942,8 +1962,8 @@
         "10 docx delete"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.0496,
-      "betweenness": 0.0025
+      "centrality": 0.0493,
+      "betweenness": 0.0024
     },
     {
       "id": "c2cf75762e91",
@@ -1961,8 +1981,8 @@
         "gl"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3121,
-      "betweenness": 0.012
+      "centrality": 0.3099,
+      "betweenness": 0.0118
     },
     {
       "id": "c42c66b4e407",
@@ -1980,8 +2000,8 @@
         "deep learning"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3617,
-      "betweenness": 0.0013
+      "centrality": 0.3592,
+      "betweenness": 0.0012
     },
     {
       "id": "c98be633dd58",
@@ -1999,7 +2019,7 @@
         "ecosystems"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3546,
+      "centrality": 0.3592,
       "betweenness": 0.0015
     },
     {
@@ -2018,8 +2038,8 @@
         "hedge fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2979,
-      "betweenness": 0.0065
+      "centrality": 0.2958,
+      "betweenness": 0.0064
     },
     {
       "id": "cb028a4b38fc",
@@ -2037,7 +2057,7 @@
         "post author pages"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1915,
+      "centrality": 0.1901,
       "betweenness": 0.0021
     },
     {
@@ -2056,8 +2076,8 @@
         "judicial"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1773,
-      "betweenness": 0.0095
+      "centrality": 0.1831,
+      "betweenness": 0.0098
     },
     {
       "id": "d6770104da37",
@@ -2075,8 +2095,8 @@
         "vc"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.2411,
-      "betweenness": 0.0067
+      "centrality": 0.2394,
+      "betweenness": 0.0066
     },
     {
       "id": "d7dbd72229ec",
@@ -2094,8 +2114,8 @@
         "voucher"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4894,
-      "betweenness": 0.0169
+      "centrality": 0.4859,
+      "betweenness": 0.0167
     },
     {
       "id": "dafca01f9b55",
@@ -2113,8 +2133,8 @@
         "regulation"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.227,
-      "betweenness": 0.005
+      "centrality": 0.2254,
+      "betweenness": 0.0049
     },
     {
       "id": "dc94180d51a5",
@@ -2132,8 +2152,8 @@
         "agents"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2979,
-      "betweenness": 0.002
+      "centrality": 0.3028,
+      "betweenness": 0.0019
     },
     {
       "id": "dee2eeeaba8e",
@@ -2151,7 +2171,7 @@
         "society"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5319,
+      "centrality": 0.5352,
       "betweenness": 0.0046
     },
     {
@@ -2170,7 +2190,7 @@
         "fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1844,
+      "centrality": 0.1831,
       "betweenness": 0.0007
     },
     {
@@ -2189,8 +2209,8 @@
         "chapter"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4468,
-      "betweenness": 0.0037
+      "centrality": 0.4507,
+      "betweenness": 0.0035
     },
     {
       "id": "e4868bd4a593",
@@ -2208,7 +2228,7 @@
         "adv"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.234,
+      "centrality": 0.2324,
       "betweenness": 0.0017
     },
     {
@@ -2227,7 +2247,7 @@
         "securities"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3333,
+      "centrality": 0.331,
       "betweenness": 0.0011
     },
     {
@@ -2246,7 +2266,7 @@
         "turk"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5035,
+      "centrality": 0.507,
       "betweenness": 0.0026
     },
     {
@@ -2265,7 +2285,7 @@
         "agent"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2695,
+      "centrality": 0.2746,
       "betweenness": 0.0013
     },
     {
@@ -2284,8 +2304,8 @@
         "sifis"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3688,
-      "betweenness": 0.0212
+      "centrality": 0.3662,
+      "betweenness": 0.0209
     },
     {
       "id": "e9ec525646fa",
@@ -2303,7 +2323,7 @@
         "centralized"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4823,
+      "centrality": 0.4859,
       "betweenness": 0.0042
     },
     {
@@ -2322,8 +2342,8 @@
         "25 2018"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.539,
-      "betweenness": 0.0115
+      "centrality": 0.5423,
+      "betweenness": 0.0113
     },
     {
       "id": "ec3e9191d32e",
@@ -2341,7 +2361,7 @@
         "title"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2624,
+      "centrality": 0.2606,
       "betweenness": 0.0032
     },
     {
@@ -2360,8 +2380,8 @@
         "contracts"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1064,
-      "betweenness": 0.0078
+      "centrality": 0.1056,
+      "betweenness": 0.0075
     },
     {
       "id": "ee58906b59b8",
@@ -2379,7 +2399,7 @@
         "hedge fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2837,
+      "centrality": 0.2817,
       "betweenness": 0.0038
     },
     {
@@ -2398,8 +2418,8 @@
         "reputation"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5177,
-      "betweenness": 0.0037
+      "centrality": 0.5141,
+      "betweenness": 0.0035
     },
     {
       "id": "ef72161a992f",
@@ -2417,8 +2437,8 @@
         "dynamic"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3262,
-      "betweenness": 0.0112
+      "centrality": 0.3239,
+      "betweenness": 0.0111
     },
     {
       "id": "f12eb3aecb41",
@@ -2436,8 +2456,8 @@
         "resolution"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5106,
-      "betweenness": 0.004
+      "centrality": 0.5141,
+      "betweenness": 0.0039
     },
     {
       "id": "f2a8b6c70c07",
@@ -2455,7 +2475,7 @@
         "supra"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.461,
+      "centrality": 0.4648,
       "betweenness": 0.0045
     },
     {
@@ -2474,8 +2494,8 @@
         "systemic"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.227,
-      "betweenness": 0.002
+      "centrality": 0.2254,
+      "betweenness": 0.0019
     },
     {
       "id": "f71110c4cec2",
@@ -2493,8 +2513,8 @@
         "object"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1844,
-      "betweenness": 0.0004
+      "centrality": 0.1901,
+      "betweenness": 0.0005
     },
     {
       "id": "topic_0",
@@ -2506,7 +2526,7 @@
       "id": "topic_1",
       "title": "Blockchain Governance",
       "type": "topic",
-      "paper_count": 80
+      "paper_count": 81
     },
     {
       "id": "topic_2",
@@ -2770,6 +2790,13 @@
       "source": "0136b419272a",
       "target": "623365c5280d",
       "weight": 0.495,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0136b419272a",
+      "target": "647c18dd0885",
+      "weight": 0.4168,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -3239,6 +3266,13 @@
       "source": "01bd17a86890",
       "target": "6460c8288256",
       "weight": 0.3805,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "01bd17a86890",
+      "target": "647c18dd0885",
+      "weight": 0.3796,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -4651,6 +4685,13 @@
     },
     {
       "source": "0a7cc7a795b0",
+      "target": "647c18dd0885",
+      "weight": 0.4023,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a7cc7a795b0",
       "target": "6c100ed87523",
       "weight": 0.4349,
       "relationship": "loosely_related",
@@ -5052,6 +5093,13 @@
       "source": "0a8c6b95a521",
       "target": "623365c5280d",
       "weight": 0.4454,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a8c6b95a521",
+      "target": "647c18dd0885",
+      "weight": 0.3608,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -5682,6 +5730,13 @@
       "source": "136ce7a884ad",
       "target": "6460c8288256",
       "weight": 0.4767,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "136ce7a884ad",
+      "target": "647c18dd0885",
+      "weight": 0.3594,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -6578,6 +6633,13 @@
       "source": "140dbab10259",
       "target": "626b662bc95c",
       "weight": 0.3743,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "140dbab10259",
+      "target": "647c18dd0885",
+      "weight": 0.4376,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -7738,6 +7800,13 @@
     },
     {
       "source": "20603ab28e2f",
+      "target": "647c18dd0885",
+      "weight": 0.4062,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "20603ab28e2f",
       "target": "6963df831130",
       "weight": 0.3588,
       "relationship": "loosely_related",
@@ -8084,6 +8153,13 @@
       "target": "623365c5280d",
       "weight": 0.6905,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "2113e75d4244",
+      "target": "647c18dd0885",
+      "weight": 0.3901,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -8452,6 +8528,13 @@
     },
     {
       "source": "2119194f55b6",
+      "target": "647c18dd0885",
+      "weight": 0.3802,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2119194f55b6",
       "target": "75e8fdfd174b",
       "weight": 0.5221,
       "relationship": "related",
@@ -8755,6 +8838,13 @@
       "source": "261ddfc2a5ce",
       "target": "6460c8288256",
       "weight": 0.3701,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "261ddfc2a5ce",
+      "target": "647c18dd0885",
+      "weight": 0.4372,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -9245,6 +9335,13 @@
       "source": "26e22a74a0ab",
       "target": "6460c8288256",
       "weight": 0.4863,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "26e22a74a0ab",
+      "target": "647c18dd0885",
+      "weight": 0.4263,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -9742,6 +9839,13 @@
       "source": "2ac577dab85d",
       "target": "623365c5280d",
       "weight": 0.4312,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2ac577dab85d",
+      "target": "647c18dd0885",
+      "weight": 0.4375,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -10811,6 +10915,13 @@
     },
     {
       "source": "307631d8e6d4",
+      "target": "647c18dd0885",
+      "weight": 0.3875,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "307631d8e6d4",
       "target": "6c100ed87523",
       "weight": 0.4674,
       "relationship": "loosely_related",
@@ -11395,6 +11506,13 @@
       "target": "6460c8288256",
       "weight": 0.399,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "350ca2eb3957",
+      "target": "647c18dd0885",
+      "weight": 0.5837,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -12372,6 +12490,13 @@
     },
     {
       "source": "3aaceac02ce3",
+      "target": "647c18dd0885",
+      "weight": 0.3586,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "3aaceac02ce3",
       "target": "7b47dec97439",
       "weight": 0.4076,
       "relationship": "loosely_related",
@@ -12536,6 +12661,13 @@
       "target": "623365c5280d",
       "weight": 0.6689,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "3bc641edb392",
+      "target": "647c18dd0885",
+      "weight": 0.3503,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -13513,6 +13645,13 @@
     },
     {
       "source": "44e1405bf089",
+      "target": "647c18dd0885",
+      "weight": 0.5099,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "44e1405bf089",
       "target": "6963df831130",
       "weight": 0.4201,
       "relationship": "loosely_related",
@@ -14332,6 +14471,13 @@
     },
     {
       "source": "51bd12546623",
+      "target": "647c18dd0885",
+      "weight": 0.3785,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "51bd12546623",
       "target": "6963df831130",
       "weight": 0.4818,
       "relationship": "loosely_related",
@@ -14657,6 +14803,13 @@
       "target": "623365c5280d",
       "weight": 0.619,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "557be806b34d",
+      "target": "647c18dd0885",
+      "weight": 0.4197,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -16005,6 +16158,13 @@
     },
     {
       "source": "5df2a93d8aa2",
+      "target": "647c18dd0885",
+      "weight": 0.3681,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "5df2a93d8aa2",
       "target": "73edbcb0a6e2",
       "weight": 0.4044,
       "relationship": "loosely_related",
@@ -16260,6 +16420,13 @@
       "target": "6460c8288256",
       "weight": 0.5062,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "5fa27c808a0b",
+      "target": "647c18dd0885",
+      "weight": 0.4218,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -16705,6 +16872,13 @@
     },
     {
       "source": "623365c5280d",
+      "target": "647c18dd0885",
+      "weight": 0.3945,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "623365c5280d",
       "target": "6963df831130",
       "weight": 0.3782,
       "relationship": "loosely_related",
@@ -17069,6 +17243,13 @@
     },
     {
       "source": "6460c8288256",
+      "target": "647c18dd0885",
+      "weight": 0.4025,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6460c8288256",
       "target": "6963df831130",
       "weight": 0.388,
       "relationship": "loosely_related",
@@ -17183,6 +17364,251 @@
       "source": "6460c8288256",
       "target": "ef1b76de3b36",
       "weight": 0.3593,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "6963df831130",
+      "weight": 0.3828,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "6c100ed87523",
+      "weight": 0.4305,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "6c1cfff713cf",
+      "weight": 0.4076,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "7991977e6b1e",
+      "weight": 0.4036,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "7b47dec97439",
+      "weight": 0.4434,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "808865325975",
+      "weight": 0.4525,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "82a122606c71",
+      "weight": 0.4847,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "89ff38111830",
+      "weight": 0.4522,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "8abbcc6b9ea5",
+      "weight": 0.4285,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "8b7efdf0148a",
+      "weight": 0.3862,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "8b928d929edc",
+      "weight": 0.3743,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "8c8bbede8363",
+      "weight": 0.4497,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "8caf55569acd",
+      "weight": 0.3865,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "919c42f125f2",
+      "weight": 0.3978,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "9a665fac781f",
+      "weight": 0.4065,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "9bb2c112d572",
+      "weight": 0.3953,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "a87e522e3b75",
+      "weight": 0.5031,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "a9c0b315b800",
+      "weight": 0.4673,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "b0a7a13741e1",
+      "weight": 0.4733,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "b291353d9d0e",
+      "weight": 0.4326,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "b2974ed6aa12",
+      "weight": 0.3961,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "bda37a843e61",
+      "weight": 0.3756,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "bf34b0870e32",
+      "weight": 0.4565,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "c98be633dd58",
+      "weight": 0.3549,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "d11e51ffe1cd",
+      "weight": 0.3523,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "dc94180d51a5",
+      "weight": 0.4434,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "dee2eeeaba8e",
+      "weight": 0.3718,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "e1c51fbe7ac8",
+      "weight": 0.4673,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "e7ed954f6916",
+      "weight": 0.3799,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "e95036f04e90",
+      "weight": 0.5426,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "e9ec525646fa",
+      "weight": 0.4872,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "ec21613bd4e3",
+      "weight": 0.4732,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "f12eb3aecb41",
+      "weight": 0.4531,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "f2a8b6c70c07",
+      "weight": 0.372,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "f71110c4cec2",
+      "weight": 0.375,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -24224,6 +24650,13 @@
     {
       "source": "6460c8288256",
       "target": "topic_7",
+      "weight": 1.0,
+      "relationship": "belongs_to",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "topic_1",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false

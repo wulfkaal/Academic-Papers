@@ -1,0 +1,11 @@
+{
+  "id": "647c18dd0885",
+  "filename": "Kaal - 2026 - Institutional Requirements for Sovereign Local Agent Runtimes.pdf",
+  "title": "Institutional Requirements for Sovereign Local Agent Runtimes",
+  "abstract": "A new class of system has arrived. Models, agents, tools, and data resources now compose on the user's own machine, hold state locally, and settle payment for outward work machine-to-machine. This Article calls that class the sovereign local agent runtime and argues that its central achievement is narrower than its advocates claim. Sovereignty is a custody property. Accountability is an institutional property. The first does not produce the second. Relocating execution to the user's device answers the question of who holds the data. It does not answer who acted, under what authority, over which data, toward what outcome, and with what recourse when the outcome is wrong. Those are institutional questions, and architecture alone does not answer them. The Article specifies six institutional requirements that any adequate coordination layer for such runtimes must satisfy, derives each from two decades of research on decentralized governance, reputation, and dynamic regulation, and applies them to the shipping public implementation of Mosaic, read from source, as a worked example. That reading produces eight findings, of which the most consequential is that cross-component provenance is not merely incomplete but structurally impossible in the Chronicle: records are per-tool and carry no workflow, causal, or principal identifier, so a workflow spanning three tools produces three logs that cannot be joined, while the built-in, protocol-server, and payment execution paths produce no records at all. The Article closes with six minimal-delta engineering contributions, each expressed against the existing design and none requiring a new subsystem. The first two convert cross-component correlation from impossible to feasible and make local alteration detectable. Full satisfaction of the provenance requirement additionally demands coverage of every execution path and evidence a third party can verify. Conflict-of-interest disclosure. The author is simultaneously the theorist, the",
+  "page_count": 27,
+  "word_count": 10879,
+  "char_count": 93446,
+  "references": [],
+  "extracted_at": "2026-08-19T17:22:06+00:00"
+}
