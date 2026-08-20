@@ -2,16 +2,16 @@
   "metadata": {
     "author": "Wulf A. Kaal",
     "ssrn": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345",
-    "total_papers": 132,
+    "total_papers": 135,
     "total_topics": 12,
-    "total_edges": 3270,
-    "built_at": "2026-08-20T20:49:33+00:00",
+    "total_edges": 3444,
+    "built_at": "2026-08-20T21:23:20+00:00",
     "embedding_model": "all-MiniLM-L6-v2",
     "similarity_threshold": 0.35,
     "build_mode": "full",
     "keyword_methods": {
       "original": 121,
-      "kaal-paper-tfidf": 11
+      "kaal-paper-tfidf": 14
     },
     "keywords_computed_by_tool": [
       "2033fccc767e",
@@ -20,8 +20,11 @@
       "8abbcc6b9ea5",
       "9533231bc659",
       "9a665fac781f",
+      "a8215c285cc2",
+      "ae5513427968",
       "b0a7a13741e1",
       "b2974ed6aa12",
+      "be86ac40c342",
       "c98be633dd58",
       "dc94180d51a5",
       "e95036f04e90"
@@ -44,8 +47,8 @@
         "protocols"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4685,
-      "betweenness": 0.0057
+      "centrality": 0.4795,
+      "betweenness": 0.0052
     },
     {
       "id": "01bd17a86890",
@@ -63,12 +66,12 @@
         "dao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5105,
+      "centrality": 0.5137,
       "betweenness": 0.0029
     },
     {
       "id": "0322f0ae77c2",
-      "title": "CRYPTO ECONOMICS",
+      "title": "Crypto Economics - The Top 100 Token Models Compared",
       "type": "paper",
       "filename": "Kaal - 2018 - Crypto Economics - The Top 100 Token Models Compared.pdf",
       "abstract": "The article provides an overview of the evolving economic incentive designs in decentralized systems. After introducing the decentralized economic policy tools that influence token design, the author examines the leading token models in a hand-selected dataset comprising the top one hundred cryptocu",
@@ -82,12 +85,12 @@
         "tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5315,
-      "betweenness": 0.0077
+      "centrality": 0.5274,
+      "betweenness": 0.007
     },
     {
       "id": "05b1eb3f34f6",
-      "title": "STABLE CRYPTOCURRENCIES",
+      "title": "Stable Cryptocurrencies",
       "type": "paper",
       "filename": "Calcaterra et al. - 2019 - Stable Cryptocurrencies.pdf",
       "abstract": "The authors examine the emergence and proliferation of stable cryptocurrencies and their uses. After evaluating the core shortcomings associated with fiat currencies, the authors highlight the benefits of stable cryptocurrencies for monetary policy making, overall market stability, and their bilater",
@@ -101,12 +104,12 @@
         "monetary policy"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4406,
-      "betweenness": 0.0034
+      "centrality": 0.4315,
+      "betweenness": 0.0031
     },
     {
       "id": "0a7cc7a795b0",
-      "title": "BLOCKCHAIN-BASED CORPORATE GOVERNANCE",
+      "title": "Blockchain-Based Corporate Governance",
       "type": "paper",
       "filename": "Kaal - 2019 - Blockchain-Based Corporate Governance.pdf",
       "abstract": "Corporations and other forms of business organizations can be supplemented with blockchain-based agency constructs. Blockchain-based decentralized autonomous organizations (DAOs) expand the definition of the firm. On-chain DAO governance enables dynamic regulatory features that facilitate unpreceden",
@@ -120,8 +123,8 @@
         "decentralized"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5594,
-      "betweenness": 0.0142
+      "centrality": 0.5616,
+      "betweenness": 0.0134
     },
     {
       "id": "0a8c6b95a521",
@@ -138,9 +141,9 @@
         "micro",
         "code"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.3217,
-      "betweenness": 0.001
+      "topic": "Autonomous Agents",
+      "centrality": 0.3288,
+      "betweenness": 0.0014
     },
     {
       "id": "0ae9f33e113e",
@@ -158,7 +161,7 @@
         "reputation"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2797,
+      "centrality": 0.274,
       "betweenness": 0.0004
     },
     {
@@ -177,12 +180,12 @@
         "decentralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5245,
-      "betweenness": 0.0048
+      "centrality": 0.5205,
+      "betweenness": 0.0044
     },
     {
       "id": "13c8d2352bf9",
-      "title": "BLOCKCHAIN INNOVATION FOR PRIVATE INVESTMENT",
+      "title": "Blockchain Innovation for Private Investment Funds",
       "type": "paper",
       "filename": "Kaal - 2017 - Blockchain Innovation for Private Investment Funds.pdf",
       "abstract": "Blockchain technology innovation is proliferating in the private investment fund industry. Using a hand-selected dataset of private investment fund advisers that utilize blockchain technology in various functions (N=120), this article shows that the private fund advisers who utilize blockchain techn",
@@ -196,8 +199,8 @@
         "fund"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4965,
-      "betweenness": 0.0185
+      "centrality": 0.4863,
+      "betweenness": 0.0179
     },
     {
       "id": "140dbab10259",
@@ -215,12 +218,12 @@
         "lexdao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5804,
-      "betweenness": 0.0101
+      "centrality": 0.5822,
+      "betweenness": 0.0092
     },
     {
       "id": "1917f964a918",
-      "title": "CHOOL OF AW",
+      "title": "A Comparative Perspective on the Limitations of the Duty of Oversight – A Comment on Lisa Fairfax",
       "type": "paper",
       "filename": "Kaal - 2013 - A Comparative Perspective on the Limitations of the Duty of Oversight – A Comment on Lisa Fairfax.pdf",
       "abstract": "=2215283 A complete list of University of St. Thomas School of Law Research Papers can be found at: http://www.ssrn.com/link/st-thomas-legal-studies.html",
@@ -234,12 +237,12 @@
         "corporate"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.049,
-      "betweenness": 0.0144
+      "centrality": 0.0479,
+      "betweenness": 0.0141
     },
     {
       "id": "198fb0749390",
-      "title": "STABLE CRYPTOCURRENCIES",
+      "title": "Stable Cryptocurrencies - First Order Principles",
       "type": "paper",
       "filename": "Calcaterra et al. - 2019 - Stable Cryptocurrencies - First Order Principles.pdf",
       "abstract": "The emergence and proliferation of stable cryptocurrencies necessitate the establishment of first order design principles for stable cryptocurrencies. After highlighting the benefits of stable cryptocurrencies for monetary policy making, overall market stability, and their impact on the emergence of",
@@ -253,12 +256,12 @@
         "stablecoin"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4685,
-      "betweenness": 0.0051
+      "centrality": 0.4589,
+      "betweenness": 0.0048
     },
     {
       "id": "1a98edb02e8a",
-      "title": "CHOOL OF AW",
+      "title": "Investment Adviser Regulation",
       "type": "paper",
       "filename": "Kaal - 2013 - Investment Adviser Regulation.pdf",
       "abstract": "The Dodd-Frank Act and SEC implementation rules have changed investment adviser regulation. This book chapter summarizes the most pertinent rules for investment advisers, emphasizes recent changes in the law, and shows how the updated rules have been implemented into the existing regulatory framewor",
@@ -272,8 +275,8 @@
         "investment adviser"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2378,
-      "betweenness": 0.0037
+      "centrality": 0.2329,
+      "betweenness": 0.0035
     },
     {
       "id": "2033fccc767e",
@@ -291,8 +294,8 @@
         "computative economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.0769,
-      "betweenness": 0.0005
+      "centrality": 0.0959,
+      "betweenness": 0.0001
     },
     {
       "id": "20603ab28e2f",
@@ -310,12 +313,12 @@
         "equilibrium"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3427,
-      "betweenness": 0.0011
+      "centrality": 0.3562,
+      "betweenness": 0.0012
     },
     {
       "id": "2113e75d4244",
-      "title": "REPUTATION AS CAPITAL",
+      "title": "REPUTATION AS CAPITAL – How Decentralized Autonomous Organizations Address Shortcomings in the Ventu",
       "type": "paper",
       "filename": "Kaal - 2021 - REPUTATION AS CAPITAL – How Decentralized Autonomous Organizations Address Shortcomings in the Ventu.pdf",
       "abstract": "- Venture capital (VC) models can be optimized with emerging decentralized technology. After discussing the shortcomings of the existing VC market and the rise of alternative early round funding mechanisms, the paper highlights the evolution of VC businesses that are operated by a Decentralized Auto",
@@ -329,12 +332,12 @@
         "daoic"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5874,
-      "betweenness": 0.0078
+      "centrality": 0.589,
+      "betweenness": 0.0074
     },
     {
       "id": "2119194f55b6",
-      "title": "CHOOL OF AW",
+      "title": "Evolution of Law Dynamic Regulation in a New Institutional Economics Framework",
       "type": "paper",
       "filename": "Kaal - 2013 - Evolution of Law Dynamic Regulation in a New Institutional Economics Framework.pdf",
       "abstract": "The literature on New Institutional Economics (NIE) evaluates the relationship between public and private rulemaking in the evolution of law. This paper introduces the concept of dynamic regulation as an optimization process for the learning experience in the NIE framework. Dynamic regulation descri",
@@ -348,12 +351,12 @@
         "rulemaking process"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1958,
-      "betweenness": 0.007
+      "centrality": 0.2055,
+      "betweenness": 0.0071
     },
     {
       "id": "261ddfc2a5ce",
-      "title": "Version10.0-May2024",
+      "title": "DAO Market Meta Analysis 2024",
       "type": "paper",
       "filename": "Kaal - 2024 - DAO Market Meta Analysis 2024.pdf",
       "abstract": "Decentralized Autonomous Organizations (DAOs) represent a transformative approach to governance and decision-making, driven by technology that enables decentralized, transparent, and direct stakeholder participation. DAOs are disrupting traditional centralized models across various industries. For i",
@@ -367,12 +370,12 @@
         "earn"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.6224,
-      "betweenness": 0.0179
+      "centrality": 0.6233,
+      "betweenness": 0.0162
     },
     {
       "id": "26e22a74a0ab",
-      "title": "DECENTRALIZATION AND FEEDBACK EFFECTS",
+      "title": "Decentralization and Feedback Effects",
       "type": "paper",
       "filename": "Kaal - 2021 - Decentralization and Feedback Effects.pdf",
       "abstract": "This article discusses the historical most relevant types of decentralization that helped usher in the age of decentralization. Key components of decentralization that are discussed herein include: decentralization of science, technological decentralization, organizational decentralization, market d",
@@ -386,8 +389,8 @@
         "accessed june 2020"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5594,
-      "betweenness": 0.0081
+      "centrality": 0.5616,
+      "betweenness": 0.0077
     },
     {
       "id": "28bace2b0e1d",
@@ -405,7 +408,7 @@
         "dodd frank act"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1538,
+      "centrality": 0.1507,
       "betweenness": 0.0003
     },
     {
@@ -424,8 +427,8 @@
         "september 2024"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4126,
-      "betweenness": 0.0043
+      "centrality": 0.4178,
+      "betweenness": 0.0041
     },
     {
       "id": "2b5a6365cf02",
@@ -443,12 +446,12 @@
         "carbon"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4056,
-      "betweenness": 0.0013
+      "centrality": 0.3973,
+      "betweenness": 0.0012
     },
     {
       "id": "2e15dbcebdbb",
-      "title": "DIGITAL ASSET MARKET EVOLUTION",
+      "title": "Digital Asset Market Evolution",
       "type": "paper",
       "filename": "Kaal - 2020 - Digital Asset Market Evolution.pdf",
       "abstract": "The market for digital assets has evolved since its inception in 2009. Its rapid proliferation in 2016-18 was followed by significant downward corrections in 2018-19. The article evaluates the central stages of the evolution of the market in digital assets and the affected market participants. It pr",
@@ -462,8 +465,8 @@
         "icos"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4895,
-      "betweenness": 0.0072
+      "centrality": 0.4863,
+      "betweenness": 0.0069
     },
     {
       "id": "2e76aee5824f",
@@ -481,8 +484,8 @@
         "trigger"
       ],
       "topic": "General Research",
-      "centrality": 0.0559,
-      "betweenness": 0.0279
+      "centrality": 0.0548,
+      "betweenness": 0.0274
     },
     {
       "id": "307631d8e6d4",
@@ -500,12 +503,12 @@
         "tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3846,
-      "betweenness": 0.0008
+      "centrality": 0.3836,
+      "betweenness": 0.0009
     },
     {
       "id": "33defa8cf1f7",
-      "title": "STOCK PRICE RESPONSE TO N/DPAS",
+      "title": "Stock Price Response to Non- and Deferred Prosecution Agreements",
       "type": "paper",
       "filename": "Kaal and Lacine - 2015 - Stock Price Response to Non- and Deferred Prosecution Agreements.pdf",
       "abstract": "In response to perceived corporate governance shortcomings in major U.S. corporations, the U.S. Department of Justice, starting in 2002, substantially increased the execution of non- and deferred prosecution agreements (N/DPAs). This study examines investor responses to three events that define N/DP",
@@ -519,8 +522,8 @@
         "median"
       ],
       "topic": "Securities Law",
-      "centrality": 0.2797,
-      "betweenness": 0.0082
+      "centrality": 0.2808,
+      "betweenness": 0.0078
     },
     {
       "id": "34b1debef2f6",
@@ -538,8 +541,8 @@
         "coding"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.0909,
-      "betweenness": 0.0027
+      "centrality": 0.089,
+      "betweenness": 0.0026
     },
     {
       "id": "350ca2eb3957",
@@ -557,8 +560,8 @@
         "rep"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5664,
-      "betweenness": 0.0244
+      "centrality": 0.5753,
+      "betweenness": 0.0227
     },
     {
       "id": "37725e328f6d",
@@ -576,12 +579,12 @@
         "corporate governance"
       ],
       "topic": "Securities Law",
-      "centrality": 0.2867,
-      "betweenness": 0.0089
+      "centrality": 0.2945,
+      "betweenness": 0.0095
     },
     {
       "id": "379ed5498a2b",
-      "title": "INITIAL COIN OFFERINGS",
+      "title": "Initial Coin Offerings Emerging Practices, Risk Factors, and Red Flags",
       "type": "paper",
       "filename": "Kaal and Dell'Erba - 2017 - Initial Coin Offerings Emerging Practices, Risk Factors, and Red Flags.pdf",
       "abstract": "Initial Coin Offerings (ICOs) are the most efficient means of financing entrepreneurial initiatives in the history of capital formation. ICOs minimize transaction cost and democratize finance while dis-intermediating banks. Yet, ICOs have increasingly involved cases of abuse, lacking quality, and go",
@@ -595,8 +598,8 @@
         "03 11 2017"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5385,
-      "betweenness": 0.0115
+      "centrality": 0.5411,
+      "betweenness": 0.0111
     },
     {
       "id": "3aaceac02ce3",
@@ -614,12 +617,12 @@
         "news"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.1469,
-      "betweenness": 0.0033
+      "centrality": 0.1507,
+      "betweenness": 0.0035
     },
     {
       "id": "3bc641edb392",
-      "title": "DECENTRALIZED UNDERWRITING",
+      "title": "Decentralized Underwriting",
       "type": "paper",
       "filename": "Calcaterra et al. - 2019 - Decentralized Underwriting.pdf",
       "abstract": "Insurance products can be optimized with emerging decentralized technology. We propose the use of cryptocurrencies as claims on future cash flows of an underwriting business operated by a Decentralized Autonomous Organization (DAO). The design of our DAO allows for decentralized collaboration (i) am",
@@ -633,12 +636,12 @@
         "underwriting"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5524,
-      "betweenness": 0.0088
+      "centrality": 0.5548,
+      "betweenness": 0.0086
     },
     {
       "id": "3c97a74f6667",
-      "title": "BLOCKCHAIN-BASED SECURITIES OFFERINGS",
+      "title": "Blockchain-Based Securities Offerings",
       "type": "paper",
       "filename": "Kaal and Evans - 2019 - Blockchain-Based Securities Offerings.pdf",
       "abstract": "Blockchain technology has the potential to supplement the existing infrastructure for securities offerings. After examining the shortcomings of historical attempts, the article analyses the redeeming features of blockchain- based securities offerings including: lower overall cost structure, substant",
@@ -652,8 +655,8 @@
         "offerings"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4196,
-      "betweenness": 0.0084
+      "centrality": 0.411,
+      "betweenness": 0.0079
     },
     {
       "id": "3db66116c7a0",
@@ -671,12 +674,12 @@
         "morrison"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1818,
-      "betweenness": 0.0151
+      "centrality": 0.1781,
+      "betweenness": 0.0147
     },
     {
       "id": "4008ed72ee00",
-      "title": "CONFLUENCE OF MUTUAL AND PRIVATE FUNDS",
+      "title": "Confluence of Mutual and Private Funds",
       "type": "paper",
       "filename": "Kaal - 2016 - Confluence of Mutual and Private Funds.pdf",
       "abstract": "The growth of the hedge fund industry and the proliferation of retail alternative funds in combination with the fundamental reshaping of the regulatory landscape for the hedge fund industry suggest that mutual funds are becoming more like hedge funds as a matter of investment strategy while hedge fu",
@@ -690,8 +693,8 @@
         "confluence"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2448,
-      "betweenness": 0.0027
+      "centrality": 0.2397,
+      "betweenness": 0.0026
     },
     {
       "id": "44e1405bf089",
@@ -708,9 +711,9 @@
         "ai agent",
         "monitoring"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.5175,
-      "betweenness": 0.004
+      "topic": "Autonomous Agents",
+      "centrality": 0.5274,
+      "betweenness": 0.0053
     },
     {
       "id": "45ed24251315",
@@ -728,12 +731,12 @@
         "id"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1678,
-      "betweenness": 0.0028
+      "centrality": 0.1644,
+      "betweenness": 0.0026
     },
     {
       "id": "46edd9b9d8d9",
-      "title": "Version 4 - April 2025",
+      "title": "Cryptographic Foundations and Interdisciplinary Dimensions of the Secure Proof of Stake (SPoS) Conse",
       "type": "paper",
       "filename": "Kaal - 2025 - Cryptographic Foundations and Interdisciplinary Dimensions of the Secure Proof of Stake (SPoS) Conse.pdf",
       "abstract": "The Secure Proof of Stake (SPoS) protocol represents a transformative advancement in blockchain consensus mechanisms, integrating a reputation-based verification system with traditional Proof of Stake (PoS) principles to address critical challenges in security, efficiency, and decentralization (Calc",
@@ -747,12 +750,12 @@
         "https doi"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3357,
-      "betweenness": 0.0006
+      "centrality": 0.3356,
+      "betweenness": 0.0007
     },
     {
       "id": "4d8750d8b664",
-      "title": "VENTURE CAPITAL AS DYNAMIC REGULATION OF DISRUPTIVE INNOVATION",
+      "title": "Venture Capital as Dynamic Regulation of Disruptive Innovation",
       "type": "paper",
       "filename": "Kaal and Vermeulen - 2016 - Venture Capital as Dynamic Regulation of Disruptive Innovation.pdf",
       "abstract": "Disruptive innovation creates increasing regulatory challenges. Venture capital’s assessment of innovative products, businesses, and initiatives generates highly relevant institution- and industry-specific decentralized information on innovation trends. Using a dataset comprising over 75,000 venture",
@@ -766,8 +769,8 @@
         "innovation"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.2797,
-      "betweenness": 0.0067
+      "centrality": 0.274,
+      "betweenness": 0.0063
     },
     {
       "id": "51bd12546623",
@@ -785,8 +788,8 @@
         "centralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3566,
-      "betweenness": 0.002
+      "centrality": 0.363,
+      "betweenness": 0.0019
     },
     {
       "id": "532ef8fba69a",
@@ -804,8 +807,8 @@
         "society"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.1538,
-      "betweenness": 0.0035
+      "centrality": 0.1507,
+      "betweenness": 0.0033
     },
     {
       "id": "557be806b34d",
@@ -823,8 +826,8 @@
         "code reviews"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4336,
-      "betweenness": 0.0029
+      "centrality": 0.4384,
+      "betweenness": 0.0028
     },
     {
       "id": "55a94550062c",
@@ -842,8 +845,8 @@
         "reputation tokens"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.2937,
-      "betweenness": 0.0006
+      "centrality": 0.2945,
+      "betweenness": 0.0008
     },
     {
       "id": "55b8a33538b1",
@@ -861,8 +864,8 @@
         "stablecoins"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3566,
-      "betweenness": 0.0031
+      "centrality": 0.3493,
+      "betweenness": 0.003
     },
     {
       "id": "562753df2551",
@@ -880,12 +883,12 @@
         "lendingrobot"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3706,
-      "betweenness": 0.0092
+      "centrality": 0.363,
+      "betweenness": 0.0088
     },
     {
       "id": "584f5a5c8f6a",
-      "title": "2016-2017 UNCONSTRAINED MUTUAL FUNDS 1",
+      "title": "Unconstrained Mutual Funds and Retail Investor Protection",
       "type": "paper",
       "filename": "Kaal and Anderson - 2016 - Unconstrained Mutual Funds and Retail Investor Protection.pdf",
       "abstract": "The proliferation of unconstrained mutual funds calls into question the effectiveness of retail investor protections under the Investment Company Act of 1940. Analyzing trading data and prospectuses of a hand-selected sample of all unconstrained mutual funds launched from 2010 through 2015 (N=449), ",
@@ -899,7 +902,7 @@
         "mutual funds"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1748,
+      "centrality": 0.1712,
       "betweenness": 0.0004
     },
     {
@@ -918,12 +921,12 @@
         "06"
       ],
       "topic": "General Research",
-      "centrality": 0.007,
+      "centrality": 0.0068,
       "betweenness": 0.0
     },
     {
       "id": "5bd5119b9767",
-      "title": "FAIR TOKEN LAUNCH",
+      "title": "Fair Token Launch",
       "type": "paper",
       "filename": "Kaal - 2022 - Fair Token Launch.pdf",
       "abstract": "Fair Token Launches (Fair Launch) on average outperform most traditional digital asset projects. The comparative advantage of Fair Launches derives largely from their ability to remedy many of the perceived inequitable token launch practices of traditional digital asset projects. This article helps ",
@@ -937,12 +940,12 @@
         "launches"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4196,
+      "centrality": 0.4178,
       "betweenness": 0.0018
     },
     {
       "id": "5c5b5030d8bd",
-      "title": "DID THE DODD-FRANK ACT IMPACT PRIVATE FUND PERFORMANCE ? – EVIDENCE FROM",
+      "title": "Did the Dodd-Frank Act Impact Private Fund Performance  – Evidence from 2010 – 2015",
       "type": "paper",
       "filename": "Kaal et al. - 2016 - Did the Dodd-Frank Act Impact Private Fund Performance  – Evidence from 2010 – 2015.pdf",
       "abstract": "Title IV of the Dodd-Frank Act of 2010 introduced the most significant regulatory change in the history of the private fund industry. Attempts to rescind Title IV via the Investment Advisers Modernization Act of 2016 illustrate the highly politically sensitive nature of Dodd-Frank Act registration a",
@@ -956,12 +959,12 @@
         "2012"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2308,
+      "centrality": 0.226,
       "betweenness": 0.0014
     },
     {
       "id": "5df2a93d8aa2",
-      "title": "BLOCKCHAIN TECHNOLOGY AND RACE IN CORPORATE",
+      "title": "Blockchain Technology and Race in Corporate America",
       "type": "paper",
       "filename": "Kaal - 2017 - Blockchain Technology and Race in Corporate America.pdf",
       "abstract": "Blockchain technology provides anonymous and secure transactional guarantees through democratized trust and disintermediation. Minorities and disenfranchised communities can benefit from the evolving technology and its anti-discrimination features. The article evaluates how blockchain technology hel",
@@ -975,12 +978,12 @@
         "corporate"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4615,
-      "betweenness": 0.0022
+      "centrality": 0.4521,
+      "betweenness": 0.0021
     },
     {
       "id": "5fa27c808a0b",
-      "title": "HOW DECENTRALIZED SYSTEMS CAN UPGRADE AI",
+      "title": "How Decentralized Systems Can Upgrade AI",
       "type": "paper",
       "filename": "Kaal - 2021 - How Decentralized Systems Can Upgrade AI.pdf",
       "abstract": "Decentralized systems enhance future algorithmic applications. Centralized algorithmic automation is a very powerful tool for humanity. It fulfills increasingly important roles in society for the betterment of humanity. It optimizes human interaction, outputs, and performance and can elevate most fu",
@@ -993,9 +996,9 @@
         "algorithmic automation",
         "systems"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.4965,
-      "betweenness": 0.0124
+      "topic": "Autonomous Agents",
+      "centrality": 0.5068,
+      "betweenness": 0.013
     },
     {
       "id": "6218c56cb1aa",
@@ -1013,8 +1016,8 @@
         "hedge funds"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2308,
-      "betweenness": 0.0025
+      "centrality": 0.226,
+      "betweenness": 0.0024
     },
     {
       "id": "623365c5280d",
@@ -1032,12 +1035,12 @@
         "fungible"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5175,
-      "betweenness": 0.0031
+      "centrality": 0.5205,
+      "betweenness": 0.003
     },
     {
       "id": "626b662bc95c",
-      "title": "AW AND CONOMICS ORKING APER ERIES",
+      "title": "Regulatory Competition in EU Corporate Law after Inspire Art Unbundling Delaware's Product for Euro",
       "type": "paper",
       "filename": "Kirchner et al. - 2004 - Regulatory Competition in EU Corporate Law after Inspire Art Unbundling Delaware's Product for Euro.pdf",
       "abstract": "This paper can be downloaded without charge from the Social Science Research Network Electronic Paper Collection: http://ssrn.com/abstract=617681 1 Regulatory Competition in EU Corporate Law after Inspire Art: Unbundling Delaware’s Product for Europe Abschied vom Verbundprodukt Delaware Prof. Dr. iu",
@@ -1051,8 +1054,8 @@
         "corporate"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1608,
-      "betweenness": 0.0087
+      "centrality": 0.1644,
+      "betweenness": 0.009
     },
     {
       "id": "6460c8288256",
@@ -1070,8 +1073,8 @@
         "cid"
       ],
       "topic": "DAO Architecture",
-      "centrality": 0.2098,
-      "betweenness": 0.0072
+      "centrality": 0.2123,
+      "betweenness": 0.0069
     },
     {
       "id": "647c18dd0885",
@@ -1088,13 +1091,13 @@
         "class",
         "sovereign"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.4196,
-      "betweenness": 0.0058
+      "topic": "Autonomous Agents",
+      "centrality": 0.4315,
+      "betweenness": 0.006
     },
     {
       "id": "68d3e6df312c",
-      "title": "Version9.0-July2024",
+      "title": "Quantum Economy and the Future of Work",
       "type": "paper",
       "filename": "Kaal - 2024 - Quantum Economy and the Future of Work.pdf",
       "abstract": "The advent of quantumtechnologiesintroducedaparadigmshiftineconomictheoryandpracticeandthe beginning of the quantum economy. This new framework, grounded in principles of quantum mechanics such as superposition and entanglement, offers a more comprehensive understanding of complex economic phenomena",
@@ -1108,12 +1111,12 @@
         "quantum economy"
       ],
       "topic": "Institutional Design",
-      "centrality": 0.035,
-      "betweenness": 0.0138
+      "centrality": 0.0342,
+      "betweenness": 0.0135
     },
     {
       "id": "6963df831130",
-      "title": "Version 6 - December 2025",
+      "title": "The AI-to-AI Economy and the Collapse of Anthropocentric Economic Theory",
       "type": "paper",
       "filename": "Kaal - 2025 - The AI-to-AI Economy and the Collapse of Anthropocentric Economic Theory.pdf",
       "abstract": "The AI-to-AI (AI2AI) economy—in which autonomous artificial agents negotiate, produce, allocate, and recursively reinvest value in self-sustaining loops structurally independent of human labor and consumption—represents the deepest rupture in economic ontology since the marginalist revolution (Shuo ",
@@ -1127,12 +1130,12 @@
         "economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.2797,
-      "betweenness": 0.0097
+      "centrality": 0.2945,
+      "betweenness": 0.0068
     },
     {
       "id": "6c100ed87523",
-      "title": "Version 9.0 - May 2024",
+      "title": "AI Governance",
       "type": "paper",
       "filename": "Kaal - 2024 - AI Governance.pdf",
       "abstract": "In the rapidly evolving landscape of artificial intelligence (AI), governance frameworks are increasingly pivotal. As AI technologies become more complex and integral to various sectors, the mechanisms to oversee and regulate these systems must evolve correspondingly. Traditional governance approach",
@@ -1145,13 +1148,13 @@
         "com abstract 4796714",
         "abstract 4796714"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.4266,
-      "betweenness": 0.0016
+      "topic": "Autonomous Agents",
+      "centrality": 0.4315,
+      "betweenness": 0.0021
     },
     {
       "id": "6c1cfff713cf",
-      "title": "CHOOL OF AW",
+      "title": "The Role of Corporate Integrity Agreements in the Expansion of Fiduciary Duties",
       "type": "paper",
       "filename": "Kaal and Malay - 2013 - The Role of Corporate Integrity Agreements in the Expansion of Fiduciary Duties.pdf",
       "abstract": "Academics have long debated the purpose and scope of fiduciary duties. The academic debate has mostly ignored the role of Corporate Integrity Agreements (CIAs). CIAs can blur the line between the law and aspirational governance. As a contractual arrangement, the terms of CIAs between health care com",
@@ -1165,12 +1168,12 @@
         "duties"
       ],
       "topic": "Securities Law",
-      "centrality": 0.2028,
-      "betweenness": 0.0046
+      "centrality": 0.2123,
+      "betweenness": 0.0049
     },
     {
       "id": "717a665c0399",
-      "title": "DID THE DODD-FRANK ACT IMPACT HEDGE FUND PERFORMANCE ?",
+      "title": "Did the Dodd-Frank Act Impact Hedge Fund Performance",
       "type": "paper",
       "filename": "Kaal et al. - 2014 - Did the Dodd-Frank Act Impact Hedge Fund Performance.pdf",
       "abstract": "Title IV of the Dodd-Frank Act introduced the most significant regulatory change in the history of the hedge fund industry. Contrary to the hedge fund industry’s claims that increased supervision and disclosure would affect their profitability, we find statistical evidence of a positive effect of th",
@@ -1184,12 +1187,12 @@
         "advisers"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1818,
-      "betweenness": 0.0006
+      "centrality": 0.1781,
+      "betweenness": 0.0005
     },
     {
       "id": "73edbcb0a6e2",
-      "title": "Version10.0-July2024",
+      "title": "Quantum Economy and Tokenomics",
       "type": "paper",
       "filename": "Kaal - 2024 - Quantum Economy and Tokenomics.pdf",
       "abstract": "The integration of tokenomics with quantum economics offers a framework for understanding and managing complex economic systems. Tokenomics provides practical mechanisms for operationalizing the abstract concepts of quantum economics, thereby enhancing its applicability and utility. This synthesis n",
@@ -1203,12 +1206,12 @@
         "july2024"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4685,
-      "betweenness": 0.0136
+      "centrality": 0.4795,
+      "betweenness": 0.0133
     },
     {
       "id": "75e8fdfd174b",
-      "title": "DYNAMIC REGULATION FOR INNOVATION",
+      "title": "Dynamic Regulation for Innovation",
       "type": "paper",
       "filename": "Kaal - 2016 - Dynamic Regulation for Innovation.pdf",
       "abstract": "A large consensus in the literature suggests that law has a diminishing capacity to react to innovation. After summarizing the commonalities between the law and technology literature and the literature on dynamic regulation in the analysis of the so- called pacing problem between regulation and inno",
@@ -1222,7 +1225,7 @@
         "regulatory"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1119,
+      "centrality": 0.1096,
       "betweenness": 0.0011
     },
     {
@@ -1241,8 +1244,8 @@
         "03 11 2017"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5385,
-      "betweenness": 0.0115
+      "centrality": 0.5411,
+      "betweenness": 0.0111
     },
     {
       "id": "7991977e6b1e",
@@ -1260,8 +1263,8 @@
         "micro"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4545,
-      "betweenness": 0.0031
+      "centrality": 0.4589,
+      "betweenness": 0.003
     },
     {
       "id": "7b47dec97439",
@@ -1279,12 +1282,12 @@
         "dao"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.6224,
-      "betweenness": 0.0329
+      "centrality": 0.6301,
+      "betweenness": 0.0313
     },
     {
       "id": "7de71edc4f11",
-      "title": "2022 DAO FALLACIES",
+      "title": "DAO Fallacies",
       "type": "paper",
       "filename": "Kaal - 2022 - DAO Fallacies.pdf",
       "abstract": "DAO myths are a natural by-product of technological evolution. The paper debunks the top five DAO myths and explores the top five DAO benefits and use cases. Key Words: Decentralized Autonomous Organization, Digital Assets, Valuation, Blockchain, Myth, Uses, Distributed Ledger Technology, Emerging T",
@@ -1298,12 +1301,12 @@
         "work earn"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3846,
-      "betweenness": 0.0011
+      "centrality": 0.3836,
+      "betweenness": 0.001
     },
     {
       "id": "7e12446b9eae",
-      "title": "PRIVATE INVESTMENT FUND REGULATION",
+      "title": "Private Investment Fund Regulation - Theory and Empirical Evidence from 1998 to 2016",
       "type": "paper",
       "filename": "Kaal - 2017 - Private Investment Fund Regulation - Theory and Empirical Evidence from 1998 to 2016.pdf",
       "abstract": "Private investment fund regulation in the United States evolved substantially in the last two decades. Tracing the main regulatory developments, this article summarizes the author’s theoretical and empirical findings on the effects of changes in private investment fund regulation from 2006 to 2016, ",
@@ -1317,12 +1320,12 @@
         "private investment fund"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5664,
-      "betweenness": 0.0277
+      "centrality": 0.5616,
+      "betweenness": 0.0269
     },
     {
       "id": "7e7413ad2514",
-      "title": "2022 DIGITAL ASSET VALUATION",
+      "title": "Digital Asset Valuation",
       "type": "paper",
       "filename": "Kaal et al. - 2022 - Digital Asset Valuation.pdf",
       "abstract": "Existing valuation metrics for legacy assets only limitedly apply in the context of digital assets. The valuation infrastructure in the current legal, accounting, technology, and back-office framework in combination with the immaturity of the digital asset market create an environment of digital ass",
@@ -1336,12 +1339,12 @@
         "polychain"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4336,
-      "betweenness": 0.0033
+      "centrality": 0.4315,
+      "betweenness": 0.0032
     },
     {
       "id": "808865325975",
-      "title": "DAOS – INTERNAL GOVERNANCE & EXTERNAL LEGAL DESIGN",
+      "title": "Decentralized Autonomous Organizations – Internal Governance and External Legal Design",
       "type": "paper",
       "filename": "Kaal - 2020 - Decentralized Autonomous Organizations – Internal Governance and External Legal Design.pdf",
       "abstract": "Most of the applications and uses of digital assets are improved and expanded with well-functioning and well-governed DAOs. The article evaluates the technical and internal governance solutions promulgated by DAO projects. Particular emphasis is placed on the duality of feedback effects between inte",
@@ -1355,12 +1358,12 @@
         "mme switzerland token"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5734,
-      "betweenness": 0.0101
+      "centrality": 0.5753,
+      "betweenness": 0.0097
     },
     {
       "id": "818e5417df51",
-      "title": "2017 LEGAL EDUCATION IN BLOCKCHAIN REVOLUTION",
+      "title": "Legal Education in the Blockchain Revolution",
       "type": "paper",
       "filename": "Fenwick et al. - 2017 - Legal Education in the Blockchain Revolution.pdf",
       "abstract": "The legal profession is one of the most disrupted sectors of the consulting industry today. The rise of Legal Tech, artificial intelligence, big data, machine learning, and, most importantly, blockchain technology is changing the practice of law. The sharing economy and platform companies challenge ",
@@ -1374,8 +1377,8 @@
         "legal education"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4266,
-      "betweenness": 0.0326
+      "centrality": 0.4247,
+      "betweenness": 0.0316
     },
     {
       "id": "82a122606c71",
@@ -1393,8 +1396,8 @@
         "hierarchy"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3776,
-      "betweenness": 0.0021
+      "centrality": 0.3904,
+      "betweenness": 0.0022
     },
     {
       "id": "8764e3f21d13",
@@ -1412,12 +1415,12 @@
         "com abstract 2739479"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2028,
+      "centrality": 0.1986,
       "betweenness": 0.0016
     },
     {
       "id": "89ff38111830",
-      "title": "2019 BLOCKCHAIN SOLUTIONS FOR CORPORATE GOVERNANCE",
+      "title": "Blockchain Solutions for Agency Problems in Corporate Governance",
       "type": "paper",
       "filename": "Kaal - 2019 - Blockchain Solutions for Agency Problems in Corporate Governance.pdf",
       "abstract": "As a foundational technology, blockchain technology creates the infrastructure for decentralized networked governance that, over time, creates the environment that enables the removal of internal and external monitoring mechanisms previously necessitated by agency problems in corporate governance. B",
@@ -1431,8 +1434,8 @@
         "blockchain solutions"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5734,
-      "betweenness": 0.0097
+      "centrality": 0.5753,
+      "betweenness": 0.009
     },
     {
       "id": "8abbcc6b9ea5",
@@ -1449,13 +1452,13 @@
         "measured",
         "record"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.1608,
-      "betweenness": 0.003
+      "topic": "Autonomous Agents",
+      "centrality": 0.1781,
+      "betweenness": 0.0035
     },
     {
       "id": "8b7efdf0148a",
-      "title": "WWuullff KKaaaall // IInntt..AArrttiiff..IInntteellll..&&MMaacchh..LLeeaarrnn.. 55((11)) ((22002255)) xxxx--xxxx Page 1 of xx",
+      "title": "Artificial Intelligence The Final Frontier",
       "type": "paper",
       "filename": "Kaal - 2025 - Artificial Intelligence The Final Frontier.pdf",
       "abstract": "Contemporary Artificial Intelligence (“AI”) systems, particularly Large Language Models (“LLMs”), face an imminent shortage of high-quality, human- generated textual data, a phenomenon often termed “data exhaustion”. This Article Info article examines the limitations of existing centralized data-ann",
@@ -1468,13 +1471,13 @@
         "2025",
         "scale ai"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.1678,
-      "betweenness": 0.0004
+      "topic": "Autonomous Agents",
+      "centrality": 0.1712,
+      "betweenness": 0.0005
     },
     {
       "id": "8b928d929edc",
-      "title": "REPUTATION AS CAPITAL",
+      "title": "Reputation as Capital – How DAOs Upgrade Finance",
       "type": "paper",
       "filename": "Kaal - 2021 - Reputation as Capital – How DAOs Upgrade Finance.pdf",
       "abstract": "Decentralized Autonomous Organizations (DAOs) have the potential to upgrade finance. This paper evaluates the design of and system requirements for a decentralized cryptocurrency venture capital investment club that is operating as a DAO (DAOIC). The design of the proposed DAOIC enables investors to",
@@ -1488,8 +1491,8 @@
         "rop"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5874,
-      "betweenness": 0.0093
+      "centrality": 0.5959,
+      "betweenness": 0.0098
     },
     {
       "id": "8c8bbede8363",
@@ -1507,8 +1510,8 @@
         "platform"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3846,
-      "betweenness": 0.0012
+      "centrality": 0.3904,
+      "betweenness": 0.0013
     },
     {
       "id": "8caf55569acd",
@@ -1526,12 +1529,12 @@
         "decentralization"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1748,
+      "centrality": 0.1781,
       "betweenness": 0.0002
     },
     {
       "id": "919c42f125f2",
-      "title": "DECENTRALIZATION – WHY WE NEED TECHNOLOGY INFRASTRUCTURE UPGRADES",
+      "title": "Decentralization – Why We Need Technology Infrastructure Upgrades",
       "type": "paper",
       "filename": "Kaal - 2021 - Decentralization – Why We Need Technology Infrastructure Upgrades.pdf",
       "abstract": "The article shows that the technological precursors of decentralization require a reexamination of technological infrastructure for decentralized systems. Highlighting the past and present events in technology development that helped usher in the age of decentralization, the article examines the rol",
@@ -1545,8 +1548,8 @@
         "technology infrastructure"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4895,
-      "betweenness": 0.0041
+      "centrality": 0.4932,
+      "betweenness": 0.0038
     },
     {
       "id": "9533231bc659",
@@ -1563,9 +1566,9 @@
         "choices",
         "commercial"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.2937,
-      "betweenness": 0.0115
+      "topic": "Autonomous Agents",
+      "centrality": 0.3082,
+      "betweenness": 0.0132
     },
     {
       "id": "95a14019858f",
@@ -1583,8 +1586,8 @@
         "systemic risk"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1748,
-      "betweenness": 0.0005
+      "centrality": 0.1712,
+      "betweenness": 0.0004
     },
     {
       "id": "95f1720c7436",
@@ -1602,12 +1605,12 @@
         "funds"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3497,
-      "betweenness": 0.0051
+      "centrality": 0.3425,
+      "betweenness": 0.0049
     },
     {
       "id": "991488ad67fb",
-      "title": "PRIVATE FUND INDUSTRY FIVE YEARS AFTER THE DODD-FRANK ACT",
+      "title": "The Private Fund Industry Five Years after the Dodd-Frank Act – A Survey Study",
       "type": "paper",
       "filename": "Kaal - 2016 - The Private Fund Industry Five Years after the Dodd-Frank Act – A Survey Study.pdf",
       "abstract": "This study evaluates the long-term implications of the unprecedented yet evolving post Dodd-Frank Act regulatory framework pertaining to the private fund industry. The Author collected and coded data for a population of 1267 registered investment advisers. Respondents (N=69) answered questions in se",
@@ -1621,8 +1624,8 @@
         "respondents"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2587,
-      "betweenness": 0.0054
+      "centrality": 0.2534,
+      "betweenness": 0.0048
     },
     {
       "id": "9a144ff79b4b",
@@ -1640,7 +1643,7 @@
         "shareholder agreements"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1049,
+      "centrality": 0.1027,
       "betweenness": 0.0007
     },
     {
@@ -1659,8 +1662,8 @@
         "scarcity"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.3217,
-      "betweenness": 0.01
+      "centrality": 0.3356,
+      "betweenness": 0.0058
     },
     {
       "id": "9bb2c112d572",
@@ -1678,12 +1681,12 @@
         "contemporary"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4615,
-      "betweenness": 0.0026
+      "centrality": 0.4589,
+      "betweenness": 0.0024
     },
     {
       "id": "a4fa3c22dd50",
-      "title": "REGULATION TOMORROW: WHAT",
+      "title": "Regulation Tomorrow What Happens When Technology Is Faster Than the Law",
       "type": "paper",
       "filename": "Fenwick et al. - 2017 - Regulation Tomorrow What Happens When Technology Is Faster Than the Law.pdf",
       "abstract": "=3204119 Electronic copy available at: https://ssrn.com/abstract=3204119",
@@ -1697,12 +1700,31 @@
         "copy available https"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.1049,
-      "betweenness": 0.0087
+      "centrality": 0.1027,
+      "betweenness": 0.0085
+    },
+    {
+      "id": "a8215c285cc2",
+      "title": "The Institutional Deficit in DAOs",
+      "type": "paper",
+      "filename": "Kaal - 2026 - The Institutional Deficit in Decentralized Autonomous Organizations - An Empirical Analysis.pdf",
+      "abstract": "This Article presents the first systematic empirical analysis of institutional architecture across decentralized autonomous organizations. Forty operational DAOs spanning eight industry segments: investment and DeFi, base-layer infrastructure, data and analytics, decentralized science, oracles and t",
+      "page_count": 37,
+      "word_count": 10770,
+      "keywords": [
+        "institutional",
+        "segments",
+        "score",
+        "consistently",
+        "eight"
+      ],
+      "topic": "Blockchain Governance",
+      "centrality": 0.5479,
+      "betweenness": 0.0133
     },
     {
       "id": "a87e522e3b75",
-      "title": "Version 9 - August 2025",
+      "title": "Universal Digital Law Codex (UDLC) Building the Legal Infrastructure for the Digital Era",
       "type": "paper",
       "filename": "Andreas and Kaal - 2025 - Universal Digital Law Codex (UDLC) Building the Legal Infrastructure for the Digital Era.pdf",
       "abstract": "The emergence of Web3 technologies, including distributed ledger technology (DLT), smart contracts, digital assets, and artificial intelligence (AI), has revolutionized global commerce by enabling decentralized, automated, and borderless transactions. However, their integration into traditional lega",
@@ -1716,12 +1738,12 @@
         "civil law"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4825,
-      "betweenness": 0.0057
+      "centrality": 0.4863,
+      "betweenness": 0.0054
     },
     {
       "id": "a9c0b315b800",
-      "title": "DECENTRALIZATION – A PRIMER ON THE NEW ECONOMY",
+      "title": "Decentralization - A Primer on the New Economy",
       "type": "paper",
       "filename": "Kaal - 2019 - Decentralization - A Primer on the New Economy.pdf",
       "abstract": "Out of necessity, humans have engaged in centralized thinking since the emergence of tribal societies and throughout urbanization and the industrial revolution. Emerging decentralized technology transcends traditional economic notions of capitalism versus socialism and inaugurates new forms of econo",
@@ -1735,12 +1757,12 @@
         "commerce"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5105,
-      "betweenness": 0.0058
+      "centrality": 0.5205,
+      "betweenness": 0.0059
     },
     {
       "id": "ab4db2eb301d",
-      "title": "INITIAL COIN OFFERINGS",
+      "title": "Initial Coin Offerings The Top 25 Jurisdictions and Their Comparative Regulatory Responses",
       "type": "paper",
       "filename": "Kaal - 2018 - Initial Coin Offerings The Top 25 Jurisdictions and Their Comparative Regulatory Responses.pdf",
       "abstract": "This article provides an overview of the evolving ICO market. It evaluates hand-selected data for the top 25 ICO jurisdictions by market capitalization. The author codes the regulatory responses of the top 25 ICO jurisdictions in the world and provides a comparative analysis of their respective regu",
@@ -1754,12 +1776,31 @@
         "coin offerings"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5594,
-      "betweenness": 0.018
+      "centrality": 0.5548,
+      "betweenness": 0.0167
+    },
+    {
+      "id": "ae5513427968",
+      "title": "Governance as a Product: A Reputation-Weighted",
+      "type": "paper",
+      "filename": "Kaal - 2026 - Governance as a Product (GaaP) A Reputation-Weighted Institutional Architecture for Autonomous AI Agent Governance.pdf",
+      "abstract": "—Autonomous artificial intelligence agents already act consequentially in finance, medicine, and critical infrastructure, yet the governance that binds them remains either informal and unenforceable or formal and institutionally inoperable. This paper argues that human legal governance fails for two",
+      "page_count": 4,
+      "word_count": 2568,
+      "keywords": [
+        "agents",
+        "formal",
+        "product",
+        "autonomous agents",
+        "reputation-weighted"
+      ],
+      "topic": "Autonomous Agents",
+      "centrality": 0.4589,
+      "betweenness": 0.0064
     },
     {
       "id": "b09332fe0086",
-      "title": "HOW TO ORGANIZE NOW FOR SUCCESS TOMORROW - VERSION 7.DOCX (DO NOT DELETE) 5/31/17 10:47 PM",
+      "title": "The ‘Unmediated’ and ‘Tech-Driven’ Corporate Governance of Today's Winning Companies",
       "type": "paper",
       "filename": "Fenwick et al. - 2017 - The ‘Unmediated’ and ‘Tech-Driven’ Corporate Governance of Today's Winning Companies.pdf",
       "abstract": "=2922176 Electronic copy available at: https://ssrn.com/abstract=2922176",
@@ -1773,7 +1814,7 @@
         "success tomorrow"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.014,
+      "centrality": 0.0137,
       "betweenness": 0.0
     },
     {
@@ -1791,9 +1832,9 @@
         "space",
         "recursive equilibrium"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.2587,
-      "betweenness": 0.0011
+      "topic": "Autonomous Agents",
+      "centrality": 0.274,
+      "betweenness": 0.0012
     },
     {
       "id": "b291353d9d0e",
@@ -1811,8 +1852,8 @@
         "va"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5245,
-      "betweenness": 0.0041
+      "centrality": 0.5274,
+      "betweenness": 0.004
     },
     {
       "id": "b2974ed6aa12",
@@ -1830,12 +1871,12 @@
         "economics"
       ],
       "topic": "Autonomous Agents",
-      "centrality": 0.2168,
-      "betweenness": 0.0061
+      "centrality": 0.2329,
+      "betweenness": 0.0031
     },
     {
       "id": "b7496072f42b",
-      "title": "2019 TECHNOLOGY IN HEDGE FUNDS",
+      "title": "Financial Technology and Hedge Funds",
       "type": "paper",
       "filename": "Kaal - 2019 - Financial Technology and Hedge Funds.pdf",
       "abstract": "Since their inception in the 1940s, hedge funds have been on the leading edge of technology in finance. Examples include big data, artificial intelligence, machine learning algorithms, and blockchain technology. This book chapter examines how and why private fund advisers utilize emerging technology",
@@ -1849,12 +1890,12 @@
         "funds"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5035,
-      "betweenness": 0.0172
+      "centrality": 0.5,
+      "betweenness": 0.017
     },
     {
       "id": "b92bf3c25e3f",
-      "title": "HEDGE FUNDS' SYSTEMIC RISK DISCLOSURES IN BANKRUPTCY",
+      "title": "Hedge Funds’ Systemic Risk Disclosures in Bankruptcy",
       "type": "paper",
       "filename": "Kaal - 2013 - Hedge Funds’ Systemic Risk Disclosures in Bankruptcy.pdf",
       "abstract": "Hedge fund advisers' systemic risk disclosure obligations under Title IV of the Dodd-Frank Act and SEC implementation rules may have unanticipated future applications and knock-on effects on other areas of the law and hedge fund practices. Federal Bankruptcy Rule 2019 (Rule 2019) has been the subjec",
@@ -1868,7 +1909,7 @@
         "pf"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2308,
+      "centrality": 0.226,
       "betweenness": 0.0025
     },
     {
@@ -1887,12 +1928,12 @@
         "convertible"
       ],
       "topic": "Securities Law",
-      "centrality": 0.0839,
-      "betweenness": 0.0004
+      "centrality": 0.0822,
+      "betweenness": 0.0003
     },
     {
       "id": "bc0242e1bd47",
-      "title": "BLOCKCHAIN TECHNOLOGY FOR GOOD",
+      "title": "Blockchain Technology for Good",
       "type": "paper",
       "filename": "Kaal - 2020 - Blockchain Technology for Good.pdf",
       "abstract": "The evolution of blockchain technology as a foundational and transformational technology helps solve critical societal problems. Blockchain technology enables sustainability focused blockchain initiatives to achieve their social and public welfare objectives. Using a dataset of sustainability focuse",
@@ -1906,8 +1947,8 @@
         "blockchain technology"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4825,
-      "betweenness": 0.0027
+      "centrality": 0.4795,
+      "betweenness": 0.0026
     },
     {
       "id": "bda37a843e61",
@@ -1925,12 +1966,31 @@
         "united"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1399,
-      "betweenness": 0.01
+      "centrality": 0.137,
+      "betweenness": 0.0095
+    },
+    {
+      "id": "be86ac40c342",
+      "title": "From Neoclassical to Computative Labor: Foundations",
+      "type": "paper",
+      "filename": "Kaal - 2026 - From Neoclassical to Computative Labor Foundations for a Testable Theory of Reputation Governance in the Agent Economy.pdf",
+      "abstract": "—Artificial agents are becoming economic actors, performing open-ended cognitive work at a marginal cost that approaches zero. Neoclassical economics, built on scarce human labor allocated by price, does not describe this regime. This paper sets out the foundations of an alternative and argues that ",
+      "page_count": 3,
+      "word_count": 2175,
+      "keywords": [
+        "labor",
+        "neoclassical",
+        "computative",
+        "arc",
+        "foundations"
+      ],
+      "topic": "Autonomous Agents",
+      "centrality": 0.2055,
+      "betweenness": 0.0013
     },
     {
       "id": "bf34b0870e32",
-      "title": "AI GOVERNANCE VIA WEB3 REPUTATION",
+      "title": "AI Governance Via Web3 Reputation System",
       "type": "paper",
       "filename": "Kaal - 2024 - AI Governance Via Web3 Reputation System.pdf",
       "abstract": "In the rapidly evolving landscape of artificial intelligence (AI), governance frameworks are increasingly crucial. As AI technologies become more complex and integral to various sectors, the mechanisms to oversee and regulate these systems must evolve correspondingly. Traditional governance approach",
@@ -1943,13 +2003,13 @@
         "ethical",
         "wdag"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.4406,
-      "betweenness": 0.0019
+      "topic": "Autonomous Agents",
+      "centrality": 0.4452,
+      "betweenness": 0.0024
     },
     {
       "id": "bfe03b9f2b10",
-      "title": "EElleeccttrroonniicc ccooppyy aavvaaiillaabbllee aatt:: hhttttppss::////ssssrrnn..ccoomm//aabbssttrraacctt==11776655990011",
+      "title": "The Aftermath of Morrison v. National Australia Bank and Elliott Associates v. Porsche",
       "type": "paper",
       "filename": "Kaal and Painter - 2011 - The Aftermath of Morrison v. National Australia Bank and Elliott Associates v. Porsche.pdf",
       "abstract": "EEEElleelleeccccttttrrrroooonnnniicciicc ccccooooppppyyyy aaaavvvvaaaaiilliiaallaabbbblleellee aaaatttt:::: hhhhttttttttppppss::::////////ssssssssrrrrnnnn....ccccoooommmm////aaaabbbbssssttttrrrraaaacccctttt====1111777766665555999900001111 EEEElleelleeccccttttrrrroooonnnniicciicc ccccooooppppyyyy aaa",
@@ -1963,12 +2023,12 @@
         "aatt hhttttppss"
       ],
       "topic": "General Research",
-      "centrality": 0.007,
+      "centrality": 0.0068,
       "betweenness": 0.0
     },
     {
       "id": "c023b0375c90",
-      "title": "KAAL PAINTER_FINAL_11.10.DOCX (DO NOT DELETE) 11/16/2010 12:33 PM",
+      "title": "Initial Reflections on an Evolving Standard Constraints on Risk Taking by Directors and Officers in",
       "type": "paper",
       "filename": "Painter and Kaal - 2010 - Initial Reflections on an Evolving Standard Constraints on Risk Taking by Directors and Officers in.pdf",
       "abstract": "_id=952472 (“Our findings that firm-specific characteristics are able to explain some variation of stock returns adds to the growing literature at odds with the efficient markets hypothesis and leads us to seek salvation in behavioural [sic] explanation.”). 38 See generally ROBERT A. HAUGEN, THE NEW",
@@ -1981,9 +2041,9 @@
         "10 docx",
         "10 docx delete"
       ],
-      "topic": "Autonomous Agents",
-      "centrality": 0.049,
-      "betweenness": 0.0022
+      "topic": "Securities Law",
+      "centrality": 0.0548,
+      "betweenness": 0.0011
     },
     {
       "id": "c2cf75762e91",
@@ -2001,12 +2061,12 @@
         "gl"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3147,
-      "betweenness": 0.0114
+      "centrality": 0.3219,
+      "betweenness": 0.0115
     },
     {
       "id": "c42c66b4e407",
-      "title": "Version 5 - June 2024",
+      "title": "How AI Models are Optimized Through Web3 Governance",
       "type": "paper",
       "filename": "Kaal - 2024 - How AI Models are Optimized Through Web3 Governance.pdf",
       "abstract": "The integration of web3 community governance, using Weighted Directed Acyclic Graphs (WDAGs) and validation pools with reputation staking in combination with a federated communications protocol, offers an evolutionary approach to AI model optimization. This proposed framework supports decentralized,",
@@ -2019,9 +2079,9 @@
         "models",
         "deep learning"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.3566,
-      "betweenness": 0.0012
+      "topic": "Autonomous Agents",
+      "centrality": 0.363,
+      "betweenness": 0.0016
     },
     {
       "id": "c98be633dd58",
@@ -2039,8 +2099,8 @@
         "ecosystems"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3636,
-      "betweenness": 0.0016
+      "centrality": 0.3767,
+      "betweenness": 0.0018
     },
     {
       "id": "cacb6ae9fa42",
@@ -2058,12 +2118,12 @@
         "hedge fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.3007,
-      "betweenness": 0.0067
+      "centrality": 0.2945,
+      "betweenness": 0.0065
     },
     {
       "id": "cb028a4b38fc",
-      "title": "KAAL POST-AUTHOR PAGES (DO NOT DELETE) 6/18/2013 4:23 PM",
+      "title": "Hedge Fund Manager Registration Under the Dodd-Frank Act",
       "type": "paper",
       "filename": "Kaal - 2012 - Hedge Fund Manager Registration Under the Dodd-Frank Act.pdf",
       "abstract": "=987558 (reviewing the restructuring and recapitalization of LTCM). 6. Hedge Funds and Systemic Risk in the Financial Markets: Hearing Before the H. Comm. on Fin. Servs., 110th Cong. 4 (2007) (statement of Rep. Spencer Bauchus); id. at 8 (statement of E. Gerald Corrigan, Managing Director, Goldman S",
@@ -2077,12 +2137,12 @@
         "post author pages"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1888,
-      "betweenness": 0.002
+      "centrality": 0.1849,
+      "betweenness": 0.0019
     },
     {
       "id": "d11e51ffe1cd",
-      "title": "Version 6 - August 2025",
+      "title": "The Evolving Role of Artificial Intelligence in Law",
       "type": "paper",
       "filename": "Kaal and Gray - 2025 - The Evolving Role of Artificial Intelligence in Law.pdf",
       "abstract": "Artificial Intelligence (AI) drives legal innovation. By integrating advanced machine learning, natural language processing, and large language models, AI achieves remarkable precision, with models like those for the European Court of Human Rights predicting case outcomes at 97% accuracy. This study",
@@ -2095,13 +2155,13 @@
         "note",
         "judicial"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.1818,
-      "betweenness": 0.0096
+      "topic": "Autonomous Agents",
+      "centrality": 0.1918,
+      "betweenness": 0.0107
     },
     {
       "id": "d6770104da37",
-      "title": "HOW TO REGULATE DISRUPTIVE INNOVATION – FROM FACTS TO DATA",
+      "title": "How to Regulate Disruptive Innovation - From Facts to Data",
       "type": "paper",
       "filename": "Kaal and Vermeulen - 2016 - How to Regulate Disruptive Innovation - From Facts to Data.pdf",
       "abstract": "Disruptive innovation creates increasing regulatory challenges. The reason for this is simple: Regulation is usually reactive, responding to facts. However, we currently live in a world of data, not facts. Regulation must therefore be proactive and dynamically responsive to data and trends. This pap",
@@ -2115,7 +2175,7 @@
         "vc"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.2378,
+      "centrality": 0.2397,
       "betweenness": 0.0065
     },
     {
@@ -2134,12 +2194,12 @@
         "voucher"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4895,
-      "betweenness": 0.0164
+      "centrality": 0.4932,
+      "betweenness": 0.0165
     },
     {
       "id": "dafca01f9b55",
-      "title": "CHOOL OF AW",
+      "title": "Dynamic Regulation of the Financial Services Industry",
       "type": "paper",
       "filename": "Kaal - 2013 - Dynamic Regulation of the Financial Services Industry.pdf",
       "abstract": "Governance adjustments via stable rules in reaction to financial crises are inevitably followed by relaxation, revision, and retraction. The economic conditions and the corresponding requirements for optimal and stable rules are constantly evolving, suggesting that a different set of rules could be ",
@@ -2153,8 +2213,8 @@
         "regulation"
       ],
       "topic": "Dynamic Regulation",
-      "centrality": 0.2238,
-      "betweenness": 0.0048
+      "centrality": 0.2192,
+      "betweenness": 0.0046
     },
     {
       "id": "dc94180d51a5",
@@ -2171,13 +2231,13 @@
         "defined",
         "agents"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.3077,
-      "betweenness": 0.002
+      "topic": "Autonomous Agents",
+      "centrality": 0.3219,
+      "betweenness": 0.0022
     },
     {
       "id": "dee2eeeaba8e",
-      "title": "DECENTRALIZATION NEUTRALIZERS",
+      "title": "Decentralization Neutralizers",
       "type": "paper",
       "filename": "Kaal - 2021 - Decentralization Neutralizers.pdf",
       "abstract": "Decentralization cannot evolve in a vacuum. As decentralized technology becomes increasingly available, its application, adaptation, and evolution depend on society’s acceptance and use of the technology. While improved decentralized incentive designs can accelerate adoption, design alone will not s",
@@ -2191,12 +2251,12 @@
         "society"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5315,
-      "betweenness": 0.0045
+      "centrality": 0.5342,
+      "betweenness": 0.0044
     },
     {
       "id": "defe156f293c",
-      "title": "THE EFFECT OF PRIVATE FUND DISCLOSURES",
+      "title": "Private Fund Disclosures Under the Dodd-Frank Act",
       "type": "paper",
       "filename": "Kaal - 2014 - Private Fund Disclosures Under the Dodd-Frank Act.pdf",
       "abstract": "Title IV of the Dodd-Frank Act requires the Securities and Exchange Commission (SEC) to collect sensitive proprietary information from private fund advisers. Prior studies suggest that the SEC’s mandated collection of private fund data in Form PF created several core challenges for the private fund ",
@@ -2210,8 +2270,8 @@
         "fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.1818,
-      "betweenness": 0.0007
+      "centrality": 0.1781,
+      "betweenness": 0.0006
     },
     {
       "id": "e1c51fbe7ac8",
@@ -2229,12 +2289,12 @@
         "chapter"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4476,
-      "betweenness": 0.0034
+      "centrality": 0.4521,
+      "betweenness": 0.0031
     },
     {
       "id": "e4868bd4a593",
-      "title": "2016-2017 INVESTOR DUE DILIGENCE 1",
+      "title": "Private Fund Investor Due Diligence – Evidence from 1995 to 2015",
       "type": "paper",
       "filename": "Kaal - 2016 - Private Fund Investor Due Diligence – Evidence from 1995 to 2015.pdf",
       "abstract": "The importance of private fund investor due diligence in the investment allocation process, capital formation, and private fund litigation has reached unprecedented levels and is increasing further. To provide the industry with data, data trend analyses, and guidance on applicable legal standards, t",
@@ -2248,12 +2308,12 @@
         "adv"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2378,
+      "centrality": 0.2329,
       "betweenness": 0.002
     },
     {
       "id": "e55a3be24d91",
-      "title": "SECURITIES VS. UTILITY TOKENS",
+      "title": "Securities Versus Utility Tokens",
       "type": "paper",
       "filename": "Kaal - 2022 - Securities Versus Utility Tokens.pdf",
       "abstract": "The nomenclature for the term “securities token” is unclear and the term securities token has not been defined. The lack of a clearly delineated nomenclature resulted in various uses and interpretations of the term securities token, especially vis-à-vis the term “utility token.” This article helps c",
@@ -2267,12 +2327,12 @@
         "securities"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.3287,
+      "centrality": 0.3219,
       "betweenness": 0.001
     },
     {
       "id": "e7ed954f6916",
-      "title": "DECENTRALIZED MECHANICAL TURK THROUGH VERIFIED REPUTATION",
+      "title": "Decentralized Mechanical Turk Through Verified Reputation",
       "type": "paper",
       "filename": "Kaal - 2018 - Decentralized Mechanical Turk Through Verified Reputation.pdf",
       "abstract": "Centralized mechanical turk solutions are subject to significant shortcomings. Decentralized crypto solutions can optimize the mechanical turk market. Autonomous decentralized protocols for validating domain specific reputation of workers that perform tasks allow such micro task workers to stake tok",
@@ -2286,8 +2346,8 @@
         "turk"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5105,
-      "betweenness": 0.0028
+      "centrality": 0.5205,
+      "betweenness": 0.0031
     },
     {
       "id": "e95036f04e90",
@@ -2304,13 +2364,13 @@
         "agentic",
         "agent"
       ],
-      "topic": "Blockchain Governance",
-      "centrality": 0.2797,
-      "betweenness": 0.0013
+      "topic": "Autonomous Agents",
+      "centrality": 0.2945,
+      "betweenness": 0.0014
     },
     {
       "id": "e9ac83802858",
-      "title": "CHOOL OF AW",
+      "title": "Initial Reflections on the Possible Application of Contingent Capital in Corporate Governance",
       "type": "paper",
       "filename": "Kaal - 2012 - Initial Reflections on the Possible Application of Contingent Capital in Corporate Governance.pdf",
       "abstract": "The failure of systemically important financial institutions (SIFIs) during the 2008–2009 financial crisis may underscore possible shortcom- ings in corporate governance. The regulatory evaluation of contingent capital in the United States could be an opportunity to assess the possible application o",
@@ -2324,8 +2384,8 @@
         "sifis"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3706,
-      "betweenness": 0.0206
+      "centrality": 0.3767,
+      "betweenness": 0.0205
     },
     {
       "id": "e9ec525646fa",
@@ -2343,8 +2403,8 @@
         "centralized"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4825,
-      "betweenness": 0.0041
+      "centrality": 0.4932,
+      "betweenness": 0.0042
     },
     {
       "id": "ec21613bd4e3",
@@ -2362,8 +2422,8 @@
         "25 2018"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5385,
-      "betweenness": 0.011
+      "centrality": 0.5411,
+      "betweenness": 0.0102
     },
     {
       "id": "ec3e9191d32e",
@@ -2381,7 +2441,7 @@
         "title"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2587,
+      "centrality": 0.2534,
       "betweenness": 0.003
     },
     {
@@ -2400,12 +2460,12 @@
         "contracts"
       ],
       "topic": "Securities Law",
-      "centrality": 0.1119,
-      "betweenness": 0.0078
+      "centrality": 0.1096,
+      "betweenness": 0.007
     },
     {
       "id": "ee58906b59b8",
-      "title": "THE HISTORY OF HEDGE FUND REGULATION IN THE UNITED STATES",
+      "title": "The History of Hedge Fund Regulation in the United States",
       "type": "paper",
       "filename": "Kaal and Oesterle - 2016 - The History of Hedge Fund Regulation in the United States.pdf",
       "abstract": "The hedge fund industry in the United States has evolved from a niche market participant in the early 1950s to a major industry operating in international financial markets today. Hedge funds in the United States began as privately held and privately managed investment funds, unregistered and exempt",
@@ -2419,12 +2479,12 @@
         "hedge fund"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2797,
-      "betweenness": 0.0037
+      "centrality": 0.274,
+      "betweenness": 0.0035
     },
     {
       "id": "ef1b76de3b36",
-      "title": "DECENTRALIZED COMMERCE",
+      "title": "Decentralized Commerce – A Primer on Why Decentralized Reputation Verification Systems Are Needed",
       "type": "paper",
       "filename": "Kaal - 2019 - Decentralized Commerce – A Primer on Why Decentralized Reputation Verification Systems Are Needed.pdf",
       "abstract": "Decentralized reputation verification systems enable mathematically rigid smart contracts to become more adjustable for the needs of business. Code is law principles can be upheld for smart contracts when reputation verification enables smart contract template verification. Validated templates of sm",
@@ -2438,12 +2498,12 @@
         "reputation"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5175,
-      "betweenness": 0.0036
+      "centrality": 0.5274,
+      "betweenness": 0.004
     },
     {
       "id": "ef72161a992f",
-      "title": "2016-2017 DYNAMIC REGULATION 1",
+      "title": "Dynamic Regulation via Contingent Capital",
       "type": "paper",
       "filename": "Kaal - 2017 - Dynamic Regulation via Contingent Capital.pdf",
       "abstract": "Contingent capital securities are a largely overlooked dynamic regulatory mechanism. This essay evaluates the use of contingent capital securities in a dynamic regulatory context, including the use of feedback effects for optimized timing and information for regulation and anticipatory regulation.",
@@ -2457,12 +2517,12 @@
         "dynamic"
       ],
       "topic": "Securities Law",
-      "centrality": 0.3217,
-      "betweenness": 0.0108
+      "centrality": 0.3151,
+      "betweenness": 0.0097
     },
     {
       "id": "f12eb3aecb41",
-      "title": "2017 CRYPTO TRANSACTION DISPUTE RESOLUTION",
+      "title": "Crypto Transaction Dispute Resolution",
       "type": "paper",
       "filename": "Kaal and Calcaterra - 2017 - Crypto Transaction Dispute Resolution.pdf",
       "abstract": "The rapid evolution of anonymous, autonomous, and distributed blockchain-based smart contracting creates friction and enforceability issues with existing legal and jurisdictional principles, calling the future governance of blockchain technology into question. The effective governance of blockchain ",
@@ -2476,12 +2536,12 @@
         "resolution"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.5105,
-      "betweenness": 0.0037
+      "centrality": 0.5137,
+      "betweenness": 0.0036
     },
     {
       "id": "f2a8b6c70c07",
-      "title": "CUSTODY OF DIGITAL ASSETS",
+      "title": "Custody of Digital Assets",
       "type": "paper",
       "filename": "Kaal and Howe - 2021 - Custody of Digital Assets.pdf",
       "abstract": "The custody of digital assets plays an essential role in the evolution of the digital asset industry. Fully compliant legal custody solutions for digital assets increase legal certainty and mainstream investor confidence which, in turn, helps build markets in digital assets. Once digital asset marke",
@@ -2495,12 +2555,12 @@
         "supra"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.4615,
-      "betweenness": 0.0044
+      "centrality": 0.4589,
+      "betweenness": 0.0042
     },
     {
       "id": "f51fe3577738",
-      "title": "SYSTEMIC RISK OF PRIVATE FUNDS",
+      "title": "The Systemic Risk of Private Funds after the Dodd-Frank Act",
       "type": "paper",
       "filename": "Kaal - 2014 - The Systemic Risk of Private Funds after the Dodd-Frank Act.pdf",
       "abstract": "The Financial Stability Oversight Council (FSOC) was created under the Dodd- Frank Act with the primary mandate of guarding against systemic risk and correcting perceived regulatory weaknesses that may have contributed to the financial crisis of 2008-09. The SEC collects data pertaining to private f",
@@ -2514,7 +2574,7 @@
         "systemic"
       ],
       "topic": "Hedge Funds & PE",
-      "centrality": 0.2308,
+      "centrality": 0.226,
       "betweenness": 0.0022
     },
     {
@@ -2533,8 +2593,8 @@
         "object"
       ],
       "topic": "Blockchain Governance",
-      "centrality": 0.1888,
-      "betweenness": 0.0004
+      "centrality": 0.1986,
+      "betweenness": 0.0005
     },
     {
       "id": "topic_0",
@@ -2546,7 +2606,7 @@
       "id": "topic_1",
       "title": "Blockchain Governance",
       "type": "topic",
-      "paper_count": 82
+      "paper_count": 69
     },
     {
       "id": "topic_2",
@@ -2558,13 +2618,13 @@
       "id": "topic_3",
       "title": "Autonomous Agents",
       "type": "topic",
-      "paper_count": 5
+      "paper_count": 20
     },
     {
       "id": "topic_4",
       "title": "Securities Law",
       "type": "topic",
-      "paper_count": 9
+      "paper_count": 10
     },
     {
       "id": "topic_5",
@@ -2927,9 +2987,23 @@
     },
     {
       "source": "0136b419272a",
+      "target": "a8215c285cc2",
+      "weight": 0.528,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "0136b419272a",
       "target": "a9c0b315b800",
       "weight": 0.5278,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "0136b419272a",
+      "target": "ae5513427968",
+      "weight": 0.4857,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -2957,6 +3031,13 @@
       "source": "0136b419272a",
       "target": "bc0242e1bd47",
       "weight": 0.3674,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0136b419272a",
+      "target": "be86ac40c342",
+      "weight": 0.4906,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -3424,6 +3505,13 @@
     },
     {
       "source": "01bd17a86890",
+      "target": "a8215c285cc2",
+      "weight": 0.3797,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "01bd17a86890",
       "target": "a87e522e3b75",
       "weight": 0.4746,
       "relationship": "loosely_related",
@@ -3440,6 +3528,13 @@
       "source": "01bd17a86890",
       "target": "ab4db2eb301d",
       "weight": 0.4163,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "01bd17a86890",
+      "target": "ae5513427968",
+      "weight": 0.4323,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -3909,6 +4004,13 @@
       "source": "0322f0ae77c2",
       "target": "9bb2c112d572",
       "weight": 0.482,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0322f0ae77c2",
+      "target": "a8215c285cc2",
+      "weight": 0.4296,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -4852,6 +4954,13 @@
     },
     {
       "source": "0a7cc7a795b0",
+      "target": "a8215c285cc2",
+      "weight": 0.6499,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a7cc7a795b0",
       "target": "a87e522e3b75",
       "weight": 0.5504,
       "relationship": "related",
@@ -4869,6 +4978,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.5812,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a7cc7a795b0",
+      "target": "ae5513427968",
+      "weight": 0.4808,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -5230,6 +5346,13 @@
     },
     {
       "source": "0a8c6b95a521",
+      "target": "a8215c285cc2",
+      "weight": 0.5309,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a8c6b95a521",
       "target": "a87e522e3b75",
       "weight": 0.4127,
       "relationship": "loosely_related",
@@ -5239,6 +5362,13 @@
       "source": "0a8c6b95a521",
       "target": "ab4db2eb301d",
       "weight": 0.4157,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "0a8c6b95a521",
+      "target": "ae5513427968",
+      "weight": 0.4208,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -5905,6 +6035,13 @@
       "target": "9bb2c112d572",
       "weight": 0.6884,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "136ce7a884ad",
+      "target": "a8215c285cc2",
+      "weight": 0.4185,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -6819,6 +6956,13 @@
     },
     {
       "source": "140dbab10259",
+      "target": "a8215c285cc2",
+      "weight": 0.7072,
+      "relationship": "strongly_related",
+      "direct_citation": false
+    },
+    {
+      "source": "140dbab10259",
       "target": "a87e522e3b75",
       "weight": 0.5556,
       "relationship": "related",
@@ -6836,6 +6980,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.547,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "140dbab10259",
+      "target": "ae5513427968",
+      "weight": 0.4807,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -7715,6 +7866,20 @@
     },
     {
       "source": "2033fccc767e",
+      "target": "a8215c285cc2",
+      "weight": 0.3632,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2033fccc767e",
+      "target": "ae5513427968",
+      "weight": 0.3863,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2033fccc767e",
       "target": "b0a7a13741e1",
       "weight": 0.6293,
       "relationship": "related",
@@ -7725,6 +7890,13 @@
       "target": "b2974ed6aa12",
       "weight": 0.7522,
       "relationship": "strongly_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2033fccc767e",
+      "target": "be86ac40c342",
+      "weight": 0.688,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -7925,9 +8097,23 @@
     },
     {
       "source": "20603ab28e2f",
+      "target": "a8215c285cc2",
+      "weight": 0.4979,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "20603ab28e2f",
       "target": "a87e522e3b75",
       "weight": 0.3527,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "20603ab28e2f",
+      "target": "ae5513427968",
+      "weight": 0.5396,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -7948,6 +8134,13 @@
       "source": "20603ab28e2f",
       "target": "b2974ed6aa12",
       "weight": 0.3743,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "20603ab28e2f",
+      "target": "be86ac40c342",
+      "weight": 0.4202,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -8345,6 +8538,13 @@
     },
     {
       "source": "2113e75d4244",
+      "target": "a8215c285cc2",
+      "weight": 0.5618,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "2113e75d4244",
       "target": "a87e522e3b75",
       "weight": 0.4585,
       "relationship": "loosely_related",
@@ -8362,6 +8562,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.6153,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "2113e75d4244",
+      "target": "ae5513427968",
+      "weight": 0.4406,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -8627,6 +8834,20 @@
       "source": "2119194f55b6",
       "target": "a4fa3c22dd50",
       "weight": 0.3616,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2119194f55b6",
+      "target": "a8215c285cc2",
+      "weight": 0.482,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2119194f55b6",
+      "target": "ae5513427968",
+      "weight": 0.3702,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -9052,6 +9273,13 @@
     },
     {
       "source": "261ddfc2a5ce",
+      "target": "a8215c285cc2",
+      "weight": 0.6831,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "261ddfc2a5ce",
       "target": "a87e522e3b75",
       "weight": 0.5554,
       "relationship": "related",
@@ -9068,6 +9296,13 @@
       "source": "261ddfc2a5ce",
       "target": "ab4db2eb301d",
       "weight": 0.5735,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "261ddfc2a5ce",
+      "target": "ae5513427968",
+      "weight": 0.5086,
       "relationship": "related",
       "direct_citation": false
     },
@@ -9535,6 +9770,13 @@
     },
     {
       "source": "26e22a74a0ab",
+      "target": "a8215c285cc2",
+      "weight": 0.4639,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "26e22a74a0ab",
       "target": "a87e522e3b75",
       "weight": 0.4781,
       "relationship": "loosely_related",
@@ -9551,6 +9793,13 @@
       "source": "26e22a74a0ab",
       "target": "ab4db2eb301d",
       "weight": 0.4982,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "26e22a74a0ab",
+      "target": "ae5513427968",
+      "weight": 0.3529,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -9997,6 +10246,13 @@
     },
     {
       "source": "2ac577dab85d",
+      "target": "a8215c285cc2",
+      "weight": 0.4829,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2ac577dab85d",
       "target": "a87e522e3b75",
       "weight": 0.6454,
       "relationship": "related",
@@ -10014,6 +10270,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.3519,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2ac577dab85d",
+      "target": "ae5513427968",
+      "weight": 0.6006,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -10718,6 +10981,13 @@
     },
     {
       "source": "2e15dbcebdbb",
+      "target": "a8215c285cc2",
+      "weight": 0.482,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "2e15dbcebdbb",
       "target": "a87e522e3b75",
       "weight": 0.5088,
       "relationship": "related",
@@ -11075,6 +11345,13 @@
     },
     {
       "source": "307631d8e6d4",
+      "target": "ae5513427968",
+      "weight": 0.4361,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "307631d8e6d4",
       "target": "b0a7a13741e1",
       "weight": 0.3799,
       "relationship": "loosely_related",
@@ -11294,6 +11571,13 @@
       "source": "33defa8cf1f7",
       "target": "9a144ff79b4b",
       "weight": 0.4178,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "33defa8cf1f7",
+      "target": "a8215c285cc2",
+      "weight": 0.3945,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -11761,6 +12045,13 @@
     },
     {
       "source": "350ca2eb3957",
+      "target": "a8215c285cc2",
+      "weight": 0.6669,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "350ca2eb3957",
       "target": "a87e522e3b75",
       "weight": 0.7243,
       "relationship": "strongly_related",
@@ -11778,6 +12069,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.4118,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "350ca2eb3957",
+      "target": "ae5513427968",
+      "weight": 0.644,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -11805,6 +12103,13 @@
       "source": "350ca2eb3957",
       "target": "bda37a843e61",
       "weight": 0.4363,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "350ca2eb3957",
+      "target": "be86ac40c342",
+      "weight": 0.4452,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -12048,8 +12353,22 @@
     },
     {
       "source": "37725e328f6d",
+      "target": "a8215c285cc2",
+      "weight": 0.4557,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "37725e328f6d",
       "target": "ab4db2eb301d",
       "weight": 0.3566,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "37725e328f6d",
+      "target": "ae5513427968",
+      "weight": 0.3971,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -12370,6 +12689,13 @@
     },
     {
       "source": "379ed5498a2b",
+      "target": "a8215c285cc2",
+      "weight": 0.4582,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "379ed5498a2b",
       "target": "a87e522e3b75",
       "weight": 0.4592,
       "relationship": "loosely_related",
@@ -12387,6 +12713,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.8791,
       "relationship": "strongly_related",
+      "direct_citation": false
+    },
+    {
+      "source": "379ed5498a2b",
+      "target": "ae5513427968",
+      "weight": 0.357,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -12617,6 +12950,13 @@
       "source": "3aaceac02ce3",
       "target": "9bb2c112d572",
       "weight": 0.3909,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "3aaceac02ce3",
+      "target": "a8215c285cc2",
+      "weight": 0.4274,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -12888,6 +13228,13 @@
     },
     {
       "source": "3bc641edb392",
+      "target": "a8215c285cc2",
+      "weight": 0.5092,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "3bc641edb392",
       "target": "a87e522e3b75",
       "weight": 0.5282,
       "relationship": "related",
@@ -12905,6 +13252,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.5552,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "3bc641edb392",
+      "target": "ae5513427968",
+      "weight": 0.4368,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -13896,6 +14250,13 @@
     },
     {
       "source": "44e1405bf089",
+      "target": "a8215c285cc2",
+      "weight": 0.5984,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "44e1405bf089",
       "target": "a87e522e3b75",
       "weight": 0.6127,
       "relationship": "related",
@@ -13913,6 +14274,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.4736,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "44e1405bf089",
+      "target": "ae5513427968",
+      "weight": 0.623,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -13940,6 +14308,13 @@
       "source": "44e1405bf089",
       "target": "bc0242e1bd47",
       "weight": 0.4825,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "44e1405bf089",
+      "target": "be86ac40c342",
+      "weight": 0.3861,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -14263,6 +14638,13 @@
       "target": "8c8bbede8363",
       "weight": 0.5263,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "46edd9b9d8d9",
+      "target": "ae5513427968",
+      "weight": 0.4362,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -14666,6 +15048,13 @@
     },
     {
       "source": "51bd12546623",
+      "target": "a8215c285cc2",
+      "weight": 0.4887,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "51bd12546623",
       "target": "a87e522e3b75",
       "weight": 0.361,
       "relationship": "loosely_related",
@@ -14696,6 +15085,13 @@
       "source": "51bd12546623",
       "target": "bc0242e1bd47",
       "weight": 0.403,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "51bd12546623",
+      "target": "be86ac40c342",
+      "weight": 0.3875,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -15030,6 +15426,13 @@
     },
     {
       "source": "557be806b34d",
+      "target": "a8215c285cc2",
+      "weight": 0.5009,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "557be806b34d",
       "target": "a87e522e3b75",
       "weight": 0.5119,
       "relationship": "related",
@@ -15046,6 +15449,13 @@
       "source": "557be806b34d",
       "target": "ab4db2eb301d",
       "weight": 0.4719,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "557be806b34d",
+      "target": "ae5513427968",
+      "weight": 0.4199,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -15263,6 +15673,13 @@
       "source": "55a94550062c",
       "target": "bc0242e1bd47",
       "weight": 0.3593,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "55a94550062c",
+      "target": "be86ac40c342",
+      "weight": 0.4424,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -15982,6 +16399,13 @@
     },
     {
       "source": "5bd5119b9767",
+      "target": "a8215c285cc2",
+      "weight": 0.3892,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "5bd5119b9767",
       "target": "a87e522e3b75",
       "weight": 0.3965,
       "relationship": "loosely_related",
@@ -16689,6 +17113,13 @@
     },
     {
       "source": "5fa27c808a0b",
+      "target": "a8215c285cc2",
+      "weight": 0.4206,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "5fa27c808a0b",
       "target": "a87e522e3b75",
       "weight": 0.5049,
       "relationship": "related",
@@ -16705,6 +17136,13 @@
       "source": "5fa27c808a0b",
       "target": "ab4db2eb301d",
       "weight": 0.4275,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "5fa27c808a0b",
+      "target": "ae5513427968",
+      "weight": 0.4183,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -16742,6 +17180,13 @@
       "weight": 0.5923,
       "relationship": "cites",
       "direct_citation": true
+    },
+    {
+      "source": "5fa27c808a0b",
+      "target": "be86ac40c342",
+      "weight": 0.364,
+      "relationship": "loosely_related",
+      "direct_citation": false
     },
     {
       "source": "5fa27c808a0b",
@@ -17123,6 +17568,13 @@
     },
     {
       "source": "623365c5280d",
+      "target": "a8215c285cc2",
+      "weight": 0.6411,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "623365c5280d",
       "target": "a87e522e3b75",
       "weight": 0.5547,
       "relationship": "related",
@@ -17140,6 +17592,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.5358,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "623365c5280d",
+      "target": "ae5513427968",
+      "weight": 0.4299,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -17305,6 +17764,13 @@
     },
     {
       "source": "626b662bc95c",
+      "target": "a8215c285cc2",
+      "weight": 0.3592,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "626b662bc95c",
       "target": "ab4db2eb301d",
       "weight": 0.3878,
       "relationship": "loosely_related",
@@ -17420,6 +17886,13 @@
       "target": "9bb2c112d572",
       "weight": 0.5399,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "6460c8288256",
+      "target": "a8215c285cc2",
+      "weight": 0.3648,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -17606,6 +18079,13 @@
     },
     {
       "source": "647c18dd0885",
+      "target": "a8215c285cc2",
+      "weight": 0.5749,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
       "target": "a87e522e3b75",
       "weight": 0.5031,
       "relationship": "related",
@@ -17616,6 +18096,13 @@
       "target": "a9c0b315b800",
       "weight": 0.4673,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "ae5513427968",
+      "weight": 0.5314,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -17643,6 +18130,13 @@
       "source": "647c18dd0885",
       "target": "bda37a843e61",
       "weight": 0.3756,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "647c18dd0885",
+      "target": "be86ac40c342",
+      "weight": 0.4418,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -17816,6 +18310,13 @@
     },
     {
       "source": "6963df831130",
+      "target": "a8215c285cc2",
+      "weight": 0.4688,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6963df831130",
       "target": "a87e522e3b75",
       "weight": 0.3536,
       "relationship": "loosely_related",
@@ -17837,6 +18338,13 @@
     },
     {
       "source": "6963df831130",
+      "target": "ae5513427968",
+      "weight": 0.4232,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6963df831130",
       "target": "b0a7a13741e1",
       "weight": 0.5259,
       "relationship": "related",
@@ -17846,6 +18354,13 @@
       "source": "6963df831130",
       "target": "b2974ed6aa12",
       "weight": 0.6989,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "6963df831130",
+      "target": "be86ac40c342",
+      "weight": 0.6967,
       "relationship": "related",
       "direct_citation": false
     },
@@ -17998,6 +18513,13 @@
     },
     {
       "source": "6c100ed87523",
+      "target": "a8215c285cc2",
+      "weight": 0.4701,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6c100ed87523",
       "target": "a87e522e3b75",
       "weight": 0.4995,
       "relationship": "loosely_related",
@@ -18008,6 +18530,13 @@
       "target": "a9c0b315b800",
       "weight": 0.4157,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6c100ed87523",
+      "target": "ae5513427968",
+      "weight": 0.6523,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -18173,8 +18702,22 @@
     },
     {
       "source": "6c1cfff713cf",
+      "target": "a8215c285cc2",
+      "weight": 0.399,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6c1cfff713cf",
       "target": "a87e522e3b75",
       "weight": 0.397,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "6c1cfff713cf",
+      "target": "ae5513427968",
+      "weight": 0.4227,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -18439,6 +18982,13 @@
     },
     {
       "source": "73edbcb0a6e2",
+      "target": "a8215c285cc2",
+      "weight": 0.4319,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "73edbcb0a6e2",
       "target": "a87e522e3b75",
       "weight": 0.5013,
       "relationship": "related",
@@ -18455,6 +19005,13 @@
       "source": "73edbcb0a6e2",
       "target": "ab4db2eb301d",
       "weight": 0.4997,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "73edbcb0a6e2",
+      "target": "ae5513427968",
+      "weight": 0.4214,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -18483,6 +19040,13 @@
       "source": "73edbcb0a6e2",
       "target": "bc0242e1bd47",
       "weight": 0.4966,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "73edbcb0a6e2",
+      "target": "be86ac40c342",
+      "weight": 0.3559,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -18740,6 +19304,13 @@
     },
     {
       "source": "7964c14402ce",
+      "target": "a8215c285cc2",
+      "weight": 0.4582,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7964c14402ce",
       "target": "a87e522e3b75",
       "weight": 0.4592,
       "relationship": "loosely_related",
@@ -18757,6 +19328,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.8791,
       "relationship": "strongly_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7964c14402ce",
+      "target": "ae5513427968",
+      "weight": 0.357,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -19006,6 +19584,13 @@
     },
     {
       "source": "7991977e6b1e",
+      "target": "a8215c285cc2",
+      "weight": 0.4771,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7991977e6b1e",
       "target": "a87e522e3b75",
       "weight": 0.4758,
       "relationship": "loosely_related",
@@ -19022,6 +19607,13 @@
       "source": "7991977e6b1e",
       "target": "ab4db2eb301d",
       "weight": 0.485,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7991977e6b1e",
+      "target": "ae5513427968",
+      "weight": 0.3708,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -19244,6 +19836,13 @@
     },
     {
       "source": "7b47dec97439",
+      "target": "a8215c285cc2",
+      "weight": 0.5113,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "7b47dec97439",
       "target": "a87e522e3b75",
       "weight": 0.4223,
       "relationship": "loosely_related",
@@ -19260,6 +19859,13 @@
       "source": "7b47dec97439",
       "target": "ab4db2eb301d",
       "weight": 0.4829,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7b47dec97439",
+      "target": "ae5513427968",
+      "weight": 0.4085,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -19297,6 +19903,13 @@
       "weight": 0.487,
       "relationship": "cites",
       "direct_citation": true
+    },
+    {
+      "source": "7b47dec97439",
+      "target": "be86ac40c342",
+      "weight": 0.41,
+      "relationship": "loosely_related",
+      "direct_citation": false
     },
     {
       "source": "7b47dec97439",
@@ -19503,6 +20116,13 @@
     },
     {
       "source": "7de71edc4f11",
+      "target": "a8215c285cc2",
+      "weight": 0.5174,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "7de71edc4f11",
       "target": "a87e522e3b75",
       "weight": 0.4419,
       "relationship": "loosely_related",
@@ -19687,6 +20307,13 @@
       "source": "7e12446b9eae",
       "target": "a4fa3c22dd50",
       "weight": 0.385,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7e12446b9eae",
+      "target": "a8215c285cc2",
+      "weight": 0.3982,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -19930,6 +20557,13 @@
     },
     {
       "source": "7e7413ad2514",
+      "target": "a8215c285cc2",
+      "weight": 0.4036,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "7e7413ad2514",
       "target": "a87e522e3b75",
       "weight": 0.5161,
       "relationship": "related",
@@ -20119,6 +20753,13 @@
     },
     {
       "source": "808865325975",
+      "target": "a8215c285cc2",
+      "weight": 0.665,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "808865325975",
       "target": "a87e522e3b75",
       "weight": 0.6012,
       "relationship": "related",
@@ -20136,6 +20777,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.597,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "808865325975",
+      "target": "ae5513427968",
+      "weight": 0.459,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -20350,6 +20998,13 @@
     },
     {
       "source": "818e5417df51",
+      "target": "ae5513427968",
+      "weight": 0.3862,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "818e5417df51",
       "target": "b7496072f42b",
       "weight": 0.4812,
       "relationship": "loosely_related",
@@ -20511,6 +21166,13 @@
     },
     {
       "source": "82a122606c71",
+      "target": "a8215c285cc2",
+      "weight": 0.598,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "82a122606c71",
       "target": "a87e522e3b75",
       "weight": 0.4161,
       "relationship": "loosely_related",
@@ -20525,6 +21187,13 @@
     },
     {
       "source": "82a122606c71",
+      "target": "ae5513427968",
+      "weight": 0.3957,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "82a122606c71",
       "target": "b0a7a13741e1",
       "weight": 0.3864,
       "relationship": "loosely_related",
@@ -20535,6 +21204,13 @@
       "target": "b291353d9d0e",
       "weight": 0.5311,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "82a122606c71",
+      "target": "be86ac40c342",
+      "weight": 0.3777,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -20749,6 +21425,13 @@
     },
     {
       "source": "89ff38111830",
+      "target": "a8215c285cc2",
+      "weight": 0.508,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "89ff38111830",
       "target": "a87e522e3b75",
       "weight": 0.5336,
       "relationship": "related",
@@ -20766,6 +21449,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.5164,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "89ff38111830",
+      "target": "ae5513427968",
+      "weight": 0.4842,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -20959,6 +21649,20 @@
     },
     {
       "source": "8abbcc6b9ea5",
+      "target": "a8215c285cc2",
+      "weight": 0.3862,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8abbcc6b9ea5",
+      "target": "ae5513427968",
+      "weight": 0.362,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8abbcc6b9ea5",
       "target": "b0a7a13741e1",
       "weight": 0.4651,
       "relationship": "loosely_related",
@@ -20968,6 +21672,13 @@
       "source": "8abbcc6b9ea5",
       "target": "b2974ed6aa12",
       "weight": 0.4141,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8abbcc6b9ea5",
+      "target": "be86ac40c342",
+      "weight": 0.4088,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -21031,6 +21742,13 @@
       "source": "8b7efdf0148a",
       "target": "a87e522e3b75",
       "weight": 0.4265,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8b7efdf0148a",
+      "target": "ae5513427968",
+      "weight": 0.4543,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -21113,6 +21831,13 @@
     },
     {
       "source": "8b928d929edc",
+      "target": "a8215c285cc2",
+      "weight": 0.5261,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "8b928d929edc",
       "target": "a87e522e3b75",
       "weight": 0.4661,
       "relationship": "loosely_related",
@@ -21130,6 +21855,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.5806,
       "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "8b928d929edc",
+      "target": "ae5513427968",
+      "weight": 0.4879,
+      "relationship": "loosely_related",
       "direct_citation": false
     },
     {
@@ -21171,6 +21903,13 @@
       "source": "8b928d929edc",
       "target": "bc0242e1bd47",
       "weight": 0.4939,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8b928d929edc",
+      "target": "be86ac40c342",
+      "weight": 0.372,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -21330,6 +22069,13 @@
     },
     {
       "source": "8c8bbede8363",
+      "target": "a8215c285cc2",
+      "weight": 0.3964,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8c8bbede8363",
       "target": "a87e522e3b75",
       "weight": 0.3527,
       "relationship": "loosely_related",
@@ -21340,6 +22086,13 @@
       "target": "a9c0b315b800",
       "weight": 0.4602,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8c8bbede8363",
+      "target": "ae5513427968",
+      "weight": 0.5138,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -21470,6 +22223,13 @@
     },
     {
       "source": "8caf55569acd",
+      "target": "a8215c285cc2",
+      "weight": 0.4036,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "8caf55569acd",
       "target": "a9c0b315b800",
       "weight": 0.6025,
       "relationship": "related",
@@ -21533,6 +22293,13 @@
     },
     {
       "source": "919c42f125f2",
+      "target": "a8215c285cc2",
+      "weight": 0.4389,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "919c42f125f2",
       "target": "a87e522e3b75",
       "weight": 0.4789,
       "relationship": "loosely_related",
@@ -21549,6 +22316,13 @@
       "source": "919c42f125f2",
       "target": "ab4db2eb301d",
       "weight": 0.4576,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "919c42f125f2",
+      "target": "ae5513427968",
+      "weight": 0.3604,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -21659,6 +22433,20 @@
     },
     {
       "source": "9533231bc659",
+      "target": "a8215c285cc2",
+      "weight": 0.3796,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9533231bc659",
+      "target": "ae5513427968",
+      "weight": 0.4059,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9533231bc659",
       "target": "b0a7a13741e1",
       "weight": 0.4024,
       "relationship": "loosely_related",
@@ -21689,6 +22477,13 @@
       "source": "9533231bc659",
       "target": "bda37a843e61",
       "weight": 0.3702,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9533231bc659",
+      "target": "be86ac40c342",
+      "weight": 0.4782,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -22163,6 +22958,13 @@
     },
     {
       "source": "9a665fac781f",
+      "target": "a8215c285cc2",
+      "weight": 0.4707,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9a665fac781f",
       "target": "a9c0b315b800",
       "weight": 0.4551,
       "relationship": "loosely_related",
@@ -22172,6 +22974,13 @@
       "source": "9a665fac781f",
       "target": "ab4db2eb301d",
       "weight": 0.3955,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9a665fac781f",
+      "target": "ae5513427968",
+      "weight": 0.4013,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -22194,6 +23003,13 @@
       "target": "bc0242e1bd47",
       "weight": 0.4198,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9a665fac781f",
+      "target": "be86ac40c342",
+      "weight": 0.6333,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -22263,6 +23079,13 @@
       "source": "9a665fac781f",
       "target": "f12eb3aecb41",
       "weight": 0.3533,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "9bb2c112d572",
+      "target": "a8215c285cc2",
+      "weight": 0.4241,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -22428,6 +23251,202 @@
       "direct_citation": false
     },
     {
+      "source": "a8215c285cc2",
+      "target": "a87e522e3b75",
+      "weight": 0.5571,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "a9c0b315b800",
+      "weight": 0.4604,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "ab4db2eb301d",
+      "weight": 0.4941,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "ae5513427968",
+      "weight": 0.5706,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "b0a7a13741e1",
+      "weight": 0.4438,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "b291353d9d0e",
+      "weight": 0.5506,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "b2974ed6aa12",
+      "weight": 0.4781,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "b7496072f42b",
+      "weight": 0.3671,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "be86ac40c342",
+      "weight": 0.4599,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "bf34b0870e32",
+      "weight": 0.5271,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "c2cf75762e91",
+      "weight": 0.5025,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "c42c66b4e407",
+      "weight": 0.3891,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "c98be633dd58",
+      "weight": 0.3825,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "d11e51ffe1cd",
+      "weight": 0.4028,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "d6770104da37",
+      "weight": 0.3849,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "d7dbd72229ec",
+      "weight": 0.3676,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "dc94180d51a5",
+      "weight": 0.5721,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "dee2eeeaba8e",
+      "weight": 0.4066,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "e1c51fbe7ac8",
+      "weight": 0.6068,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "e7ed954f6916",
+      "weight": 0.3974,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "e95036f04e90",
+      "weight": 0.5395,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "e9ac83802858",
+      "weight": 0.4296,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "e9ec525646fa",
+      "weight": 0.4742,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "ec21613bd4e3",
+      "weight": 0.5376,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "ef1b76de3b36",
+      "weight": 0.355,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "f12eb3aecb41",
+      "weight": 0.4424,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "f2a8b6c70c07",
+      "weight": 0.4046,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a8215c285cc2",
+      "target": "f71110c4cec2",
+      "weight": 0.4497,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
       "source": "a87e522e3b75",
       "target": "a9c0b315b800",
       "weight": 0.5208,
@@ -22439,6 +23458,13 @@
       "target": "ab4db2eb301d",
       "weight": 0.4892,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a87e522e3b75",
+      "target": "ae5513427968",
+      "weight": 0.5516,
+      "relationship": "related",
       "direct_citation": false
     },
     {
@@ -22569,6 +23595,13 @@
     },
     {
       "source": "a9c0b315b800",
+      "target": "ae5513427968",
+      "weight": 0.394,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "a9c0b315b800",
       "target": "b0a7a13741e1",
       "weight": 0.3828,
       "relationship": "loosely_related",
@@ -22601,6 +23634,13 @@
       "weight": 0.6165,
       "relationship": "cites",
       "direct_citation": true
+    },
+    {
+      "source": "a9c0b315b800",
+      "target": "be86ac40c342",
+      "weight": 0.4166,
+      "relationship": "loosely_related",
+      "direct_citation": false
     },
     {
       "source": "a9c0b315b800",
@@ -22869,9 +23909,170 @@
       "direct_citation": false
     },
     {
+      "source": "ae5513427968",
+      "target": "b0a7a13741e1",
+      "weight": 0.5441,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "b291353d9d0e",
+      "weight": 0.4127,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "b2974ed6aa12",
+      "weight": 0.3757,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "bc0242e1bd47",
+      "weight": 0.3532,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "be86ac40c342",
+      "weight": 0.4566,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "bf34b0870e32",
+      "weight": 0.6985,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "c2cf75762e91",
+      "weight": 0.4163,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "c42c66b4e407",
+      "weight": 0.5165,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "c98be633dd58",
+      "weight": 0.5465,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "d11e51ffe1cd",
+      "weight": 0.508,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "d7dbd72229ec",
+      "weight": 0.3516,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "dc94180d51a5",
+      "weight": 0.5353,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "dee2eeeaba8e",
+      "weight": 0.3634,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "e1c51fbe7ac8",
+      "weight": 0.4804,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "e7ed954f6916",
+      "weight": 0.4257,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "e95036f04e90",
+      "weight": 0.5853,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "e9ac83802858",
+      "weight": 0.4208,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "e9ec525646fa",
+      "weight": 0.3669,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "ec21613bd4e3",
+      "weight": 0.422,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "ef1b76de3b36",
+      "weight": 0.4301,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "f12eb3aecb41",
+      "weight": 0.5285,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "ae5513427968",
+      "target": "f71110c4cec2",
+      "weight": 0.3874,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
       "source": "b0a7a13741e1",
       "target": "b2974ed6aa12",
       "weight": 0.624,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "b0a7a13741e1",
+      "target": "be86ac40c342",
+      "weight": 0.6016,
       "relationship": "related",
       "direct_citation": false
     },
@@ -23055,6 +24256,13 @@
       "target": "f71110c4cec2",
       "weight": 0.37,
       "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "b2974ed6aa12",
+      "target": "be86ac40c342",
+      "weight": 0.7101,
+      "relationship": "strongly_related",
       "direct_citation": false
     },
     {
@@ -23474,6 +24682,55 @@
       "source": "bda37a843e61",
       "target": "f2a8b6c70c07",
       "weight": 0.362,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "c023b0375c90",
+      "weight": 0.3539,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "c98be633dd58",
+      "weight": 0.3911,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "dc94180d51a5",
+      "weight": 0.4933,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "e7ed954f6916",
+      "weight": 0.3798,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "e95036f04e90",
+      "weight": 0.5525,
+      "relationship": "related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "e9ec525646fa",
+      "weight": 0.3787,
+      "relationship": "loosely_related",
+      "direct_citation": false
+    },
+    {
+      "source": "be86ac40c342",
+      "target": "ef1b76de3b36",
+      "weight": 0.4014,
       "relationship": "loosely_related",
       "direct_citation": false
     },
@@ -24613,7 +25870,7 @@
     },
     {
       "source": "0a8c6b95a521",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -24823,7 +26080,7 @@
     },
     {
       "source": "44e1405bf089",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -24928,7 +26185,7 @@
     },
     {
       "source": "5fa27c808a0b",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -24963,7 +26220,7 @@
     },
     {
       "source": "647c18dd0885",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -24984,7 +26241,7 @@
     },
     {
       "source": "6c100ed87523",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25096,14 +26353,14 @@
     },
     {
       "source": "8abbcc6b9ea5",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
     },
     {
       "source": "8b7efdf0148a",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25138,7 +26395,7 @@
     },
     {
       "source": "9533231bc659",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25193,6 +26450,13 @@
       "direct_citation": false
     },
     {
+      "source": "a8215c285cc2",
+      "target": "topic_1",
+      "weight": 1.0,
+      "relationship": "belongs_to",
+      "direct_citation": false
+    },
+    {
       "source": "a87e522e3b75",
       "target": "topic_1",
       "weight": 1.0,
@@ -25214,6 +26478,13 @@
       "direct_citation": false
     },
     {
+      "source": "ae5513427968",
+      "target": "topic_3",
+      "weight": 1.0,
+      "relationship": "belongs_to",
+      "direct_citation": false
+    },
+    {
       "source": "b09332fe0086",
       "target": "topic_1",
       "weight": 1.0,
@@ -25222,7 +26493,7 @@
     },
     {
       "source": "b0a7a13741e1",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25277,8 +26548,15 @@
       "direct_citation": false
     },
     {
+      "source": "be86ac40c342",
+      "target": "topic_3",
+      "weight": 1.0,
+      "relationship": "belongs_to",
+      "direct_citation": false
+    },
+    {
       "source": "bf34b0870e32",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25292,7 +26570,7 @@
     },
     {
       "source": "c023b0375c90",
-      "target": "topic_3",
+      "target": "topic_4",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25306,7 +26584,7 @@
     },
     {
       "source": "c42c66b4e407",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25334,7 +26612,7 @@
     },
     {
       "source": "d11e51ffe1cd",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25362,7 +26640,7 @@
     },
     {
       "source": "dc94180d51a5",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
@@ -25411,7 +26689,7 @@
     },
     {
       "source": "e95036f04e90",
-      "target": "topic_1",
+      "target": "topic_3",
       "weight": 1.0,
       "relationship": "belongs_to",
       "direct_citation": false
