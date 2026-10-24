@@ -1,6 +1,6 @@
 # Academic Papers — Wulf A. Kaal
 
-> Comprehensive collection of 121 academic papers on blockchain governance, 
+> Comprehensive collection of 136 academic papers on blockchain governance, 
 > DAO architecture, AI regulation, securities law, and decentralized systems.
 
 [![SSRN Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=460345)
@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Papers** | 121 |
+| **Total Papers** | 136 |
 | **Total Size** | 92.0 MB |
 | **Primary Author** | Wulf A. Kaal |
 | **Research Areas** | Blockchain Governance, DAOs, AI Regulation, Securities Law |

@@ -7,7 +7,7 @@ This is the full-text archive of the published work of **Wulf A. Kaal**
 [0000-0003-0757-275X](https://orcid.org/0000-0003-0757-275X) · SSRN author
 460345): the source PDFs, their content hashes, and a knowledge graph over them.
 
-The **claim layer** — the same corpus decomposed into 5,033 atomic, individually
+The **claim layer** — the same corpus decomposed into 5,482 atomic, individually
 citable claims — lives in the companion repository
 [`wulfkaal/wulfkaal.github.io`](https://github.com/wulfkaal/wulfkaal.github.io)
 and is served at <https://wulfkaal.github.io/>. If your task is to answer a
@@ -29,7 +29,7 @@ Cross-repository indexes worth knowing about:
 | | |
 |---|---|
 | Bulk claims, one per line | <https://wulfkaal.github.io/claims/all.jsonl> |
-| Failure-mode index, 2,037 claims in 55 families | <https://wulfkaal.github.io/failures/index.json> |
+| Failure-mode index, 2,178 claims in 57 families | <https://wulfkaal.github.io/failures/index.json> |
 | Works metadata and BibTeX | <https://wulfkaal.github.io/papers.json> · `papers.bib` |
 | Machine index | <https://wulfkaal.github.io/llms.txt> |
 | Attestation ledger | <https://wulfkaal.github.io/colloquium/> |

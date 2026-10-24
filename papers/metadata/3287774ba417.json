@@ -1,0 +1,11 @@
+{
+ "id": "3287774ba417",
+ "filename": "Kaal - 2026 - Selected Experience.pdf",
+ "title": "Selected Experience: A Preregistered Test of Reputation as a Data Filter Under Recursive Training",
+ "abstract": "Recursive training on synthetic data erodes the tails of the original distribution. Verifier-based selection is an established remedy, and weighting assessors by their reliability is an old technique. What remains open is whether domain-scoped reliability weights, earned once against a key, improve a validity filter under recursion. This paper preregisters, freezes, and runs a test of that question. On a two-dimensional Gaussian mixture with simulated validators, it asks whether a reputation-weighted validator pool, used as a data filter, achieves higher capped per-component rare-mode retention than full replacement, the published ten percent real-data control, and a likelihood filter, at an equal candidate budget, and, separately, whether any difference is attributable to the weights rather than to pooling.",
+ "page_count": 14,
+ "word_count": 7990,
+ "char_count": 52902,
+ "references": 33,
+ "extracted_at": "2026-10-24T00:00:00+00:00"
+}
