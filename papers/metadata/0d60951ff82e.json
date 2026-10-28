@@ -1,0 +1,11 @@
+{
+  "id": "0d60951ff82e",
+  "filename": "Kaal - 2026 - Reinforcement Learning from Reputation Feedback.pdf",
+  "title": "Reinforcement Learning from Reputation Feedback",
+  "abstract": "This paper introduces Reinforcement Learning from Reputation Feedback (RLRF), an alignment mechanism that replaces the human annotator panel of Reinforcement Learning from Human Feedback (RLHF) with an economically incentivized validation pool of computative agents whose members stake non-transferable reputation. The paper grounds the mechanism in the Computative Economics framework (Kaal 2026), in which the analytical primitive is a computative agent characterized by the tuple and the object of analysis is a generated possibility space from which realizations are drawn. Under this framing, the paper takes the conceptual position that RLHF applies a scarcity-economic primitive to a signal-generation task that is computative in nature. The cited inter-annotator agreement rates do not establish that position as a causal explanation. The paper contributes theoretically and empirically. Theoretically, it presents Fisher information dominance as an open empirical question under necessary but insufﬁcient assumptions made explicit in Part IV. It poses equilibrium-trajectory separation as the ﬁrst open problem in Part VIII. It states Sybil resistance as a design objective whose detector, dispersion statistic, threshold, error model, update, Round 2 update, and are unspeciﬁed. Conjecture 1 is withdrawn. Empirically the paper reports a measured cohort, a parameter sweep, and Experiment T as a separate measured selection experiment that does not test the mechanism. The measured cohort of 564 records, produced by twenty distinct model families against twenty-three speci ﬁcations and scored by a deterministic checker on cases withheld from the producing party, establishes that a party’s record where the work is checked predicts its accuracy where it is not, at a rank correlation of +0.781 across thirty-six parties with repeated measurement, and that a party failing the checked cases passes the withheld ones in zero of one hundred and sixty-eight observations. On that cohort, a s",
+  "page_count": 38,
+  "word_count": 16028,
+  "char_count": 107566,
+  "references": [],
+  "extracted_at": "2026-09-14T00:29:04+00:00"
+}
