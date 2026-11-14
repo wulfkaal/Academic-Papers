@@ -1,0 +1,11 @@
+{
+  "id": "264be5e37b9b",
+  "filename": "Kaal - 2026 - Can Reputation Prevent Model Collapse.pdf",
+  "title": "Can Reputation Prevent Model Collapse",
+  "abstract": "Intelligence models increasingly learn from data that earlier Intelligence models produced. When that loop repeats over generations, the rare cases disappear first: the unusual facts, minority patterns, and edge cases that make data valuable. This is known as model collapse. One proposed safeguard is to let a pool of validators decide which generated data is good enough to train on, and to give more weight to validators with a proven track record. This paper tests whether such a track record, earned once against a known answer key, actually helps a filter keep rare cases alive. The test was designed, preregistered, and frozen before any result was read. On a simulated mixture of common and rare data clusters, the author compares a reputation-weighted validator pool with three benchmarks: no filter, keeping ten percent real data in every generation, and a standard likelihood filter. A second comparison checks whether any gain comes from the reputation weights themselves or merely from pooling several validators. The results exist but stay sealed until a replication of the original model-collapse experiment succeeds. The question matters because the supply of fresh human-made data is finite, and the readings were fixed in advance, so the result informs either way. If reputation-weighted filtering helps here, it identifies a mechanism worth testing on real language models. If it fails, the paper shows where the idea breaks, with the same prominence. The paper follows on from the author’s Reinforcement Learning from Reputation Feedback (RLRF) paper. It tests one use of that mechanism, as a filter on training data, not the mechanism as a whole.",
+  "page_count": 18,
+  "word_count": 8357,
+  "char_count": 52403,
+  "references": [],
+  "extracted_at": "2026-11-14T10:35:26.203590"
+}
