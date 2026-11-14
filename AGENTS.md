@@ -4,7 +4,7 @@ Instructions for autonomous agents working with this repository.
 
 This is the full-text archive of the published work of **Wulf A. Kaal**
 (University of St. Thomas School of Law, Minneapolis · ORCID
-[0000-0003-0757-275X](https://orcid.org/0000-0003-0757-275X) · SSRN author
+[0009-0008-7840-1847](https://orcid.org/0009-0008-7840-1847) · SSRN author
 460345): the source PDFs, their content hashes, and a knowledge graph over them.
 
 The **claim layer** — the same corpus decomposed into 5,482 atomic, individually
